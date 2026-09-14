@@ -1,24 +1,30 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com"></script><style>body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}.card{background-color:#1e293b;border:1px solid #334155;}</style></head><body><div class="max-w-4xl mx-auto p-6 md:p-12">
+<header class="mb-10 border-b border-slate-700 pb-8">
+<h1 class="text-4xl md:text-5xl font-extrabold text-amber-400 mb-3">CASS Forecast Board</h1>
+<p class="text-slate-300 text-lg mb-2">A public, falsifiable register of structural forecasts — issued with their confidence levels, the evidence behind them, and the exact conditions that would retire them.</p>
+<p class="text-slate-500 text-sm">Updated continuously · All forecasts published in full · A forecast that cannot be falsified is not a forecast, it is a mood.</p>
+</header>
 <div id="app"><p class="text-slate-400">Loading model state…</p></div>
 <footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.0 · <span id="gen"></span></footer>
 </div><script>
 fetch('data.json').then(r=>r.json()).then(D=>{
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-const badge=c=>c>=0.9?'bg-red-600':c>=0.7?'bg-amber-600':'bg-slate-600';
+const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
+const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
 document.getElementById('gen').textContent=D.meta.generated;
 let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active</div>
 <h2 class="text-2xl font-bold mb-2">${esc(D.macro_forecast.title)}</h2>
-<p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(D.macro_forecast.confidence*100)}% <span class="text-amber-400 text-lg">(raised from ${Math.round(D.macro_forecast.previous_confidence*100)}% on ${esc(D.macro_forecast.raised_date)})</span></p>
+<p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
-h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Prediction Register (${D.predictions.length})</h3>`;
+h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Forecast Register (${D.predictions.length})</h3>`;
 const byStatus={};D.predictions.forEach(p=>{(byStatus[p.status]??=[]).push(p)});
 ['confirmed','emergent','pending','failed'].forEach(st=>{
 if(!byStatus[st])return;
 h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
-byStatus[st].sort((a,b)=>b.confidence-a.confidence).forEach(p=>{
-h+=`<div class="card p-6 rounded-xl mb-4 border-l-4 ${p.confidence>=0.9?'border-red-500':p.confidence>=0.7?'border-amber-500':'border-slate-600'}">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(p.confidence*100)}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">${esc(p.date_made)}</span></div>
+byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach(p=>{
+h+=`<div class="card p-6 rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}">
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">${esc(p.date_made)}</span></div>
 <p class="text-lg font-bold text-amber-400 mb-2">${esc(p.title)}</p>
 <p class="text-slate-300 text-sm">${esc(p.statement)}</p>
 ${p.falsifier?`<p class="text-slate-400 text-xs mt-3"><strong class="text-red-400">Falsifier:</strong> ${esc(p.falsifier)}</p>`:''}
