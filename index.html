@@ -1,17 +1,73 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com"></script><style>body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}.card{background-color:#1e293b;border:1px solid #334155;}</style></head><body><div class="max-w-4xl mx-auto p-6 md:p-12">
-<header class="mb-10 border-b border-slate-700 pb-8">
-<h1 class="text-4xl md:text-5xl font-extrabold text-amber-400 mb-3">CASS Forecast Board</h1>
-<p class="text-slate-300 text-lg mb-2">A public, falsifiable register of structural forecasts — issued with their confidence levels, the evidence behind them, and the exact conditions that would retire them.</p>
-<p class="text-slate-500 text-sm">Updated continuously · All forecasts published in full · A forecast that cannot be falsified is not a forecast, it is a mood.</p>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com"></script>
+<style>
+body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}
+.card{background-color:#1e293b;border:1px solid #334155;}
+details>summary{cursor:pointer;}
+details>summary::-webkit-details-marker{display:none;}
+details[open] .chev{transform:rotate(90deg);}
+.chev{display:inline-block;transition:transform .15s;}
+</style></head><body><div class="max-w-4xl mx-auto p-6 md:p-12">
+<header class="mb-8 border-b border-slate-700 pb-6">
+<div class="flex flex-wrap items-center gap-3 mb-3">
+<span class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded">Live Telemetry</span>
+<span id="watch-indicator" class="px-3 py-1 rounded text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1"></span>
+</div>
+<h1 class="text-4xl md:text-5xl font-extrabold text-amber-400 mb-2">CASS Intelligence Board</h1>
+<p class="text-slate-300 text-lg">The transitions genuinely in motion — with the evidence base shown alongside every number — and the honest record of how we've done.</p>
+<p class="text-right text-amber-400 text-xs mt-2">⚡ Updated <span id="gen"></span></p>
 </header>
+<div class="card p-6 rounded-xl mb-8 border-l-4 border-amber-500">
+<h2 class="text-xl font-bold text-amber-400 mb-2">How to read this board</h2>
+<p class="text-slate-300 text-sm">We do NOT track every variable. We track only transitions that clear a relevance threshold. Every number is a <em>bet on a mechanism</em>, and every bet is backed by a visible evidence base and an armed falsifier. A forecast that cannot be falsified is not a forecast — it is a mood. When a forecast stops clearing the bar, it moves to the accountability record below.</p>
+</div>
+<div id="watch-details" class="mb-8"></div>
 <div id="app"><p class="text-slate-400">Loading model state…</p></div>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.0 · <span id="gen"></span></footer>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.2 · <span id="gen2"></span></footer>
 </div><script>
+const WATCH_TEXT={issued:'2026-09-12',expires:'2026-12-15',issuedText:`# THRESHOLD WATCH
+
+## Why we are issuing this watch
+You deserve the honest answer.
+We watch a small number of large institutions - the courts, Congress, the election offices, the health agencies, the civil service, the military. Each is scored on five plain questions:
+1. Is it losing the people who actually know how to fix it?
+2. Are its rules being used to punish enemies instead of serve the public?
+3. Is it hiding its failures from the public?
+4. Are the frontline workers giving up and leaving?
+5. Can it still admit a mistake and correct it?
+Right now, our scores say most of these institutions are deep in a danger zone - not because of any single scandal, but because the pattern across all of them matches the pattern historians have documented before great systemic changes: the 1850s, the 1930s.
+
+## What the watch means
+A watch is NOT a prediction. It means the conditions are primed - if a spark lands, it will travel fast. We are standing at the door, reporting on the door.
+
+## What would upgrade this to a WARNING
+- A legal mechanism is activated to challenge a specific certified election result
+- A state election office refuses a federal directive AND wins in court
+- The dollar regime (our calmest bellwether, 6/15) rises to 8/15 - if the calmest institution enters the corridor, the whole system has crossed over
+
+## The honesty clause (what would cancel this watch)
+If January 2027 passes with the dollar regime still at 6/15 and the state layer still absorbing federal pressure, this watch expires - and we say so out loud. A forecast system that never admits it was wrong is not a forecast system.
+
+## Cadence
+Re-checked every Monday. The watch either upgrades, holds, or expires - never quietly lapses.`,
+warningText:`# THRESHOLD WARNING
+
+A WARNING means a specific institutional failure is now happening in public view - not conditions, an event. The named mechanism is live. Details will be posted here at time of upgrade.`};
 fetch('data.json').then(r=>r.json()).then(D=>{
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
 const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
+const md=t=>esc(t).replace(/^# (.*)$/m,'<h2 class="text-2xl font-bold text-amber-400 mb-3">$1</h2>').replace(/^## (.*)$/gm,'<h3 class="text-lg font-bold text-amber-300 mt-4 mb-2">$1</h3>').replace(/\n\n/g,'</p><p class="text-slate-300 text-sm mb-2">').replace(/\n/g,'<br>');
 document.getElementById('gen').textContent=D.meta.generated;
+document.getElementById('gen2').textContent=D.meta.generated;
+// Threshold watch indicator in banner
+const wi=document.getElementById('watch-indicator');
+wi.className='px-3 py-1 rounded text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1 bg-amber-600/20 text-amber-400 border border-amber-500/50';
+wi.innerHTML='⏳ Threshold Watch <span class="text-amber-200/70 normal-case font-normal">· issued '+WATCH_TEXT.issued+' · expires '+WATCH_TEXT.expires+'</span>';
+// Watch details block
+const wd=document.getElementById('watch-details');
+wd.innerHTML=`<details class="card p-6 rounded-xl border-l-4 border-amber-500"><summary class="text-xl font-bold text-amber-400">⏳ Threshold Watch — active. Click to expand the full issuance text <span class="chev text-slate-400">▶</span></summary>
+<div class="mt-4">${md(WATCH_TEXT.issuedText)}</div></details>`;
+// Macro
 let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active</div>
 <h2 class="text-2xl font-bold mb-2">${esc(D.macro_forecast.title)}</h2>
@@ -23,13 +79,18 @@ const byStatus={};D.predictions.forEach(p=>{(byStatus[p.status]??=[]).push(p)});
 if(!byStatus[st])return;
 h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
 byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach(p=>{
-h+=`<div class="card p-6 rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">${esc(p.date_made)}</span></div>
-<p class="text-lg font-bold text-amber-400 mb-2">${esc(p.title)}</p>
-<p class="text-slate-300 text-sm">${esc(p.statement)}</p>
-${p.falsifier?`<p class="text-slate-400 text-xs mt-3"><strong class="text-red-400">Falsifier:</strong> ${esc(p.falsifier)}</p>`:''}
-${p.forward_watchlist&&p.forward_watchlist.length?`<p class="text-slate-400 text-xs mt-2"><strong class="text-amber-400">Watch:</strong> ${esc(p.forward_watchlist.join(' · '))}</p>`:''}
-</div>`;});});
+const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
+h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}</div>
+<p class="text-lg font-bold text-amber-400">${esc(p.title)}</p>
+<p class="text-slate-300 text-sm mt-1">${esc(p.statement)}</p>
+<p class="text-slate-500 text-xs mt-2">📄 Expand for evidence base &amp; falsifier <span class="chev">▶</span></p>
+</summary><div class="px-6 pb-6">
+${p.evidence_confirmed&&p.evidence_confirmed.length?`<p class="text-xs font-bold text-emerald-400 uppercase mb-1">Evidence confirmed</p><ul class="list-disc list-inside text-slate-300 text-xs mb-3">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:''}
+${p.evidence_contradicted&&p.evidence_contradicted.length?`<p class="text-xs font-bold text-red-400 uppercase mb-1">Evidence contradicted</p><ul class="list-disc list-inside text-slate-300 text-xs mb-3">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:''}
+${p.falsifier?`<p class="text-xs mt-2"><strong class="text-red-400">Falsifier:</strong> <span class="text-slate-300">${esc(p.falsifier)}</span></p>`:''}
+${p.forward_watchlist&&p.forward_watchlist.length?`<p class="text-xs mt-2"><strong class="text-amber-400">Watch:</strong> <span class="text-slate-300">${esc(p.forward_watchlist.join(' · '))}</span></p>`:''}
+</div></details>`;});});
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger (recent)</h3>`;
 D.mget_ledger.slice(-10).reverse().forEach(l=>{
 h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="text-sm font-bold text-amber-400">${esc(l.date)} · ${esc(l.track||'')} · <span class="text-emerald-400">${esc(l.verdict)}</span></p><p class="text-slate-300 text-xs mt-1">${esc(l.reasoning)}</p>${l.forward_signal?`<p class="text-slate-400 text-xs mt-2"><strong>Signal:</strong> ${esc(l.forward_signal)}</p>`:''}</div>`;});

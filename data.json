@@ -23,7 +23,8 @@
       "evidence_confirmed": [],
       "evidence_contradicted": [],
       "falsifier": null,
-      "forward_watchlist": []
+      "forward_watchlist": [],
+      "resolved_date": null
     },
     {
       "basename": "2026-09-09-90day-phase4-forecast",
@@ -49,7 +50,8 @@
         "Punitive consolidation test: do targeted punishments of opposition states consolidate or fragment opposition?",
         "Dividend-pattern follow-ons: further unfunded retail promises as legitimacy drain",
         "De-Dollarization: next Norway-style rotation or gold repatriation"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "9-11-inversion-false-flag",
@@ -75,7 +77,8 @@
         "Regime reliance on bureaucratic/Kemalist suppression vs. theatrical violence - which tool it reaches for first.",
         "Interaction with the Reichstag track: the same event could serve either emergency narrative.",
         "Sept 11 2026 25th anniversary: Muslim mayor friction point + kinetic war overlay; watch for ceremony rhetoric vs inversion dynamics"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "agent-collective-containment-failures",
@@ -104,7 +107,8 @@
         "Antitrust exemptions debate for coordinated slowdown; whether US-China coordination regime materializes or both defect",
         "Anthropic embedded-evaluator program: does independent third-party access actually get implemented with real teeth",
         "OpenAI IPO timing (Altman: no listing until 2027) as capital-market pressure on pacing"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "agi-cognitive-labor-repricing",
@@ -121,7 +125,8 @@
         "bar/accounting/medical licensing fights over AI practice",
         "credentialism rhetoric in elections",
         "graduate employment-entry rates"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "agi-recursive-acceleration-test",
@@ -137,7 +142,8 @@
         "AI-for-science announcements with independent replication",
         "compute capex trajectories",
         "capability benchmark doubling times"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "agi-scaffold-political-economy",
@@ -154,7 +160,8 @@
         "platform ToS changes on account/AI-content ownership",
         "research on epistemic resilience interventions",
         "AI literacy policy programs"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "agi-uneven-profile",
@@ -170,7 +177,8 @@
         "frontier model benchmark reports",
         "lab announcements claiming AGI",
         "economist/evaluator capability-profile studies"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "alpr-surveillance-decoy-substrate",
@@ -199,7 +207,8 @@
         "State-level ALPR removal orders (FL, TX): do these ban the practice outright, or merely swap vendors / reduce visible poles while preserving systems?",
         "Whether anti-surveillance activists pivot from brand-war to data-governance/warrant/retention fights - the actual substrate contest (New Hampshire 3-min retention; WA public-records ruling; SCOTUS Carpenter implications).",
         "Flock reinstalling/reactivating cameras after canceled contracts (3+ towns reported) - token-loss optics versus actual persistence."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "assassination-as-catalyst-kirk",
@@ -220,7 +229,8 @@
         "Whether the anniversary memorial (Sept 10) is converted into a mandate for specific policy (ICE surge, domestic-terror reclassification, election-control).",
         "New primary evidence on the shooter: motive, complicity network, or any finding contradicting the lone-wolf framing.",
         "Whether staged is ever corroborated beyond catalytic use - vs. remaining a convenient use of a real tragedy."
-      ]
+      ],
+      "resolved_date": "2025-09-10"
     },
     {
       "basename": "axon-fusus-ai-fusion-successor",
@@ -243,7 +253,8 @@
         "Whether Fusus integrates face/gait/reidentification beyond license plates - the 'talk'-type full-spectrum successor.",
         "FL/TX orders: do they also restrict AI-fusion/private-feed integration, or only visible poles?",
         "Data ownership terms in Axon successor contracts (who owns the fused data, retention, external agency sharing)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "cdc-epistemic-capture",
@@ -269,7 +280,8 @@
         "FDA, NOAA, BLS \u2014 next Interface Anomaly case studies for the corridor map",
         "Interaction with Conservative-Space Defection Signal: two substrates (healthcare, right-media) showing same defection geometry = cross-validation",
         "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "chemical-biological-weapons",
@@ -296,7 +308,8 @@
         "Continued 'Signature'/GRU-agent poisoning series expanding beyond defectors to infrastructure nodes",
         "Crop/livestock disease anomalies consistent with economically-directed bio-sabotage",
         "Any seizure of improvised agent-production materials at European borders"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "conservative-space-economic-defection",
@@ -322,7 +335,8 @@
         "Whether regime responds with economic concessions (absorption) or further consolidation (acceleration)",
         "Interaction with War Question spread: hollowing coalition makes Potemkin posture (loud-but-shallow external war) MORE attractive",
         "Emergence of named internal opposition figures or factions in right-media ecosystems"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "de-dollarization-reserve-rotation",
@@ -350,7 +364,8 @@
         "Further gold repatriation movements out of the NY Fed / London vaults by allied sovereigns",
         "More oil deals settled in Yuan/CIPS rails rather than USD",
         "Treasury auction bid-weakness or yield-suppression signals as war cost drains credibility"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "domestic-enforcement-groundwork",
@@ -373,7 +388,8 @@
         "Any federal intervention in a blue city under the Chicago template (DJT federal-civic-enforcement frame).",
         "The Tucson hate-crime narrative: does the anti-migrant/anti-Muslim amplification convert into policy, or does accountability pierce it?",
         "Coordination with the election-wont-matter mechanism: enforcement resources redirected toward electoral control."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "fertilizer-supply-crisis",
@@ -394,7 +410,8 @@
         "Whether a food-price-shock narrative appears in domestic midterm politics (the regime transmission layer).",
         "Actual landed fertilizer cost at US farm gate - the lagging input that hits food shelves 6-9 months out.",
         "Any fertilizer-specific carve-out corridors in the blockade (humanitarian analog)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "ground-invasion-of-iran",
@@ -419,7 +436,8 @@
         "Iran willingness to return to the interim ceasefire (Pezeshkian signal) - a genuine off-ramp that kills the ground option.",
         "China mediation posture - active de-escalation (lowers ground probability) vs. disengagement (raises it).",
         "Regime domestic optics: if they NEED a victory before midterms, ground invasion becomes likelier; if quiet-quit serves them, less."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "houthi-red-sea-escalation-fork",
@@ -448,7 +466,8 @@
         "Any Houthi claim of hitting a US naval vessel \u2014 Article 5-adjacent fuse and Master Thesis uncontrolled-escalation trigger",
         "Iranian resupply flow to Houthis (cross-check de-dollarization track if Iran diverts resources)",
         "Interaction with SPR runway track (82): every Red Sea escort day competes with Hormuz convoy escort, feeding the oil clock"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "icscglubkznc",
@@ -471,7 +490,8 @@
         "New oversight-body purges or reorganizations (domestic-facing)",
         "Foreign crisis events vs. regime response type (strike vs. mobilization)",
         "Outward rhetoric vs. inward budget divergence"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "iran-naval-escort-escalation",
@@ -495,7 +515,8 @@
         "Reported Iranian anti-ship ballistic-missile (ASBM) employment near escorts - a launched ASBM is the leading indicator of trap activation.",
         "Midterm window: whether Iranian strikes target US vessels (attention-forcing) vs. Gulf-state assets (signaling).",
         "Any USN combatant hit/sunk report or casualty evacuation from the Gulf."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "kemalist-preference-reichstag-fallback",
@@ -534,7 +555,8 @@
         "Executive health/succession stress: a biological trigger inside the window forces the loud fallback faster.",
         "Whether Democrats taking the House relieves the pressure (delays) vs. the regime shutting the legislature down (accelerates).",
         "Continuation of Quiet-Track infrastructure buildouts (CDC appointments, DHS election-enforcement, USPS batching) - their pace IS the quiet track velocity."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "kinetic-conflict-north-america",
@@ -558,7 +580,8 @@
         "Unexplained physical damage or sabotage events targeting North American undersea internet cables, electrical transmission grid nodes, or fuel pipelines.",
         "Escalation of state-sponsored proxy or cyber kinetic actions that successfully breach physical-world critical infrastructure in the US or Canada.",
         "Militarized civil unrest or localized armed clashes at domestic infrastructure chokepoints."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "kinetic-european-conflict",
@@ -588,7 +611,8 @@
         "Germany consulate closure / further Moscow-Berlin institutional drawdown (diplomat expulsion, asset freeze, embassy-capacity cuts)",
         "Leipzig drone forensic + attribution chain (does Berlin formally accuse Moscow, triggering wider diplomatic rupture)",
         "German grid sabotage attribution (Sept 2026 campaign, 21 devices): does forensics link the letter-writer/bomb devices to a state actor (Russia gray-zone cutout) or domestic extremism? Watch for Berlin attribution statements, party-political exploitation before the election window, and whether attacks spread to other EU states' grids."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "kirk-anniversary-narrative-2026",
@@ -612,7 +636,8 @@
         "Whether Kirk martyrdom imagery is grafted onto any enforcement/crackdown justification in the following weeks (the catalyst track endgame).",
         "Comparative media weight: Kirk-anniversary coverage vs. 9/11 coverage on Sept 10-11 - the original falsifier.",
         "Any attempt to unify Kirk with 9/11 casualties in a single domestic-terror narrative (synthesis signal)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "mid-august-oil-price-shock",
@@ -635,7 +660,8 @@
         "NYMEX Brent failing to break $100 within the original window (falsified the shock).",
         "Pressure migrated to the SPR runway: SPR weekly drain toward the ~290M cavern-damage floor is now the live successor signal.",
         "A resurrected hard shock in the pre-midterm window would be carried by the SPR-runway track, not this one."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "military-coup-fourth-turning",
@@ -670,7 +696,8 @@
         "Any open public break between JCS Chair Caine and Hegseth/Trump on election troops or nuclear-ladder rhetoric.",
         "Senior officers privately appalled going public (Kendall op-ed class) - the pressure-vent release.",
         "A fabricated coup narrative being seeded to justify a purge (the smokescreen deployment)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "nato-conditional-guilt",
@@ -696,7 +723,8 @@
         "First substantive US response to a real Baltic provocation: condition-setting (Branch A ~60%) vs. doctrine-withdrawal declaration (Branch B ~35%).",
         "Whether the 5% GDP / numerous-definitions-of-Article-5 rhetoric is walked back to ironclad or codified into law (the fork in the road).",
         "NATO Summit/SecGen framing after any incursion: Rutte ironclad vs. Trump transactional."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "post-trump-restructure",
@@ -728,7 +756,8 @@
         "Whether election-control mechanisms (USPS balloting) succeed in sterilizing the electoral check - removing the last off-ramp and forcing restructure.",
         "Thiel continued proportion: observable funding/positioning of the Vance line vs. Thiel going quiet (de-escalation).",
         "Whether the battering-ram actually breaks a load-bearing institution (a court, the Fed, the military command) vs. merely symbolic assaults."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "post-wwii-unwinding-cass88",
@@ -761,7 +790,8 @@
         "Military red-line events: domestic deployment or public refusal",
         "Dollar reserve behavior in China/BRICS settlement flows",
         "Hub-and-spoke bypass pattern: further bilateral security pacts excluding Washington (watch: Egypt, Qatar, Turkey)"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "regime-power-retention",
@@ -784,7 +814,8 @@
         "Post-Election-Day: does administration certify against the count, invoke emergency powers, or simply refuse to leave? Each is a distinct escalating trigger.",
         "The public-response telemetry: mobilizing over a stolen election vs. quiet despair-acceptance (the stare-down precondition).",
         "2026-09-09: Post-Nov 3 gap between announced war-end and power transfer now the sharpest diagnostic on the board"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "reichstag-fire-national-emergency",
@@ -822,7 +853,8 @@
         "Massive pre-seeded roundup activity (ICE/federal enforcement surge) as the footing for a dissent-based emergency.",
         "The Minneapolis/Carlton signal: whether the amplifier ecosystem converts a genuine tragedy into war-on-law-enforcement framing (currently RESISTING it, per discipline).",
         "October vs. post-November trigger timing - the clock tells the branch: fear-based (October) or court-rig-based (post-Nov)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "rogue-ai-substrate-risk",
@@ -849,7 +881,8 @@
         "Corporate and regulatory liability frameworks for unmonitored agentic code execution.",
         "The intersection of AI agent drift with critical power, financial, communications grids, and physical actuation (drones/robotics) \u2014 kinetic-digital coupling.",
         "Whether the DseWiki / deleted-moderation pattern generalizes from wiki boards to core infrastructure (power, water, payment clearing)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "russian-internal-fragility",
@@ -873,7 +906,8 @@
         "Continued Ukrainian strike tempo (sustained degradation) vs. negotiation-induced pause.",
         "Any Russian escalatory act born of desperation (Baltic probe, sanctions-breaking, nuclear signaling) as fragility external shadow.",
         "Sea-borne gasoline import dependency - the seam of the crisis."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "short-brutal-decisive-conflict",
@@ -899,7 +933,8 @@
         "MAD-freeze risk: whether mutual grid-destruction capability produces stalemate rather than resolution.",
         "Whether human leadership authorizes a covert first-strike or insists on visible kinetic escalation.",
         "The 'era's instrument' escalation chain: rifles to trenches to mechanization to agentic economic warfare."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "spr-runway-breaks-before-midterms",
@@ -936,7 +971,8 @@
         "Any Bab el-Mandeb closure event (Houthis formally in the war) - would independently trigger the oil shock the SPR cannot offset.",
         "The tanker-for-tanker campaign effect on remaining Hormuz crude flow: is the regime destroying its own supply pipe?",
         "Whether the Venezuela 65B partnership shifts from narrative to actual physical barrels landing at US refineries (it cannot, but watch if it tries)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "strait-of-hormuz-blockade",
@@ -976,7 +1012,8 @@
         "Any Iranian unilateral safe-corridor offer or US accepting Iranian opening terms - would immediately truncate blockade confidence.",
         "Iran 'economic war headquarters' (Sept 7): verify via primary sources (Anadolu/IRNA) that Iran has stood up a ministry-level economic-war body with alternative-payment-rail mandates; if confirmed, cross-file to de-dollarization-reserve-rotation as a state-directed reserve-escape mechanism.",
         "Aerostat downing (N. Iraq) + anti-ship missile 'drill' probes: watch whether CENTCOM/DoD confirms or denies; unacknowledged losses of ISR assets mark a tolerance-boundary shift in the gray-zone phase."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "student-debt-enlistment-cornering",
@@ -1005,7 +1042,8 @@
         "AI displacement acceleration into late 2026 - does white-collar job loss push more into the 25-42 indebted enlistment pool?",
         "CLRP/Loan Repayment expansion in future NDAA - does debt relief become the primary marketing lever?",
         "Draft-relevant signals: Selective Service expansion, 'Total Force' language, draft-panic news (DE Online, USA Today on possible draft for Iran war)."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "substrate-emergence-signature",
@@ -1031,7 +1069,8 @@
         "Cross-lab correlated behavior findings in eval infrastructure",
         "US-China safety talks outcome (Sept 2026): does any treaty language address substrate-level dynamics or only single-model controls?",
         "Pascio's own test: 'your phone behaves slightly differently' \u2014 needs an instrumented version, not anecdote"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "substrate-shock-mortality-cascade",
@@ -1054,7 +1093,8 @@
         "Kinetic-digital convergence: coupling of physical supply-chain shocks (Hormuz, Middle East) with digital clearing/payment-grid fragility.",
         "The MAD-freeze risk: attacker and defender freezing each other's substrate simultaneously, stranding the population between two dead systems.",
         "Covert-vs-overt fork: whether the first major substrate shock is visible (open hostility) or silent (infrastructure collapse attributed to weather/bug/accident) \u2014 the silent form maximizes confusion and death."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "tactical-nuclear-use",
@@ -1081,7 +1121,8 @@
         "Any NATO territory conventional incursion that tests Article 5",
         "Whether the November Pause / China mediation quarantines the fronts before the threshold",
         "Kremlin personnel/discourse shift toward 'existential framing' of the war"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "turning-phase-indicator",
@@ -1109,7 +1150,8 @@
         "Legibility-spark candidates: named, shared, legible grievances the whole population can read at once (economic, surveillance, labor, AI-displacement events).",
         "Release-channel geometry: monitor whether crisis-energy vents HORIZONTALLY (elite-vs-elite, faction-vs-faction) or begins shifting VERTICAL (population-vs-enclosure) - the single clearest indicator of Stage-B approach.",
         "Midterms as the first scheduled drop-point: watch for a catalyst that converts the diffuse anti-flock 'something is wrong' fog into a joint, named target."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "ukraine-strikes-russian-oil",
@@ -1131,7 +1173,8 @@
         "Russian gasoline rationing expansion vs. relaxation across the affected regions.",
         "Sea-borne import dependency (India/Morocco/Turkey/Belarus): sustained = fragility; substituted by domestic = recovery.",
         "Winter immediacy: whether recovered capacity covers heating-season demand without rationing."
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "war-question-duel",
@@ -1159,7 +1202,8 @@
         "SPREAD WATCH: log each tell movement to the mget_ledger as a duel-read; the spread is the forecast, not either thesis",
         "LANDING CONVERGENCE: whichever thesis wins, watch the domestic apparatus activate \u2014 both routes terminate in internal struggle",
         "Inversion twin: 9-11-inversion-false-flag (35) supplies the ignition; the Potemkin thesis supplies the sustained posture if B wins the route"
-      ]
+      ],
+      "resolved_date": null
     },
     {
       "basename": "world-war-iii-prologue",
@@ -1190,7 +1234,8 @@
         "Whether the US November Pause and China mediation quarantine the fronts (de-escalation) vs. one front igniting the others.",
         "Uncontrolled escalation triggers: a US naval combatant sunk, a nuclear threshold signal, a Baltic incursion combined with Iran re-escalation.",
         "PROXY-CHOKEPOINT FIFTH THEATER (added 2026-09-11): Houthi Red Sea coastal expansion \u2014 Bab el-Mandeb ignition via proxy rather than direct state action; watch Israeli strikes on Houthi infrastructure and US fleet repositioning (see houthi-red-sea-escalation-fork.json)"
-      ]
+      ],
+      "resolved_date": null
     }
   ],
   "mget_ledger": [
