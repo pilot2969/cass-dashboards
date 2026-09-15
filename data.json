@@ -14,19 +14,6 @@
  },
  "predictions": [
   {
-   "basename": ".schema",
-   "title": null,
-   "date_made": null,
-   "statement": null,
-   "confidence": null,
-   "status": null,
-   "evidence_confirmed": [],
-   "evidence_contradicted": [],
-   "falsifier": null,
-   "forward_watchlist": [],
-   "resolved_date": null
-  },
-  {
    "basename": "2026-09-09-90day-phase4-forecast",
    "title": "90-Day Forecast: Phase 4 Detonation Window (Sept 9 - Dec 8, 2026)",
    "date_made": "2026-09-09",
@@ -50,8 +37,33 @@
     "Punitive consolidation test: do targeted punishments of opposition states consolidate or fragment opposition?",
     "Dividend-pattern follow-ons: further unfunded retail promises as legitimacy drain",
     "De-Dollarization: next Norway-style rotation or gold repatriation"
+   ]
+  },
+  {
+   "basename": "2026-midterms-legitimacy-catalyst-node",
+   "title": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
+   "date_made": "2026-09-14",
+   "statement": "ORIGIN: Owner gut call (journal 2026-09-14): 'This regime will not hand over power willingly. This election will be the catalyst.' REFINED FORM (instrument-grade, per S&H catalyst definition + Turchin trigger framework): The 2026 midterm election functions as the highest-sensitivity structural node on the calendar \u2014 the scheduled, society-wide coordination point that forces the latent legitimacy question into open public contest. PREDICTION, TWO BRANCHES: (BRANCH A - CATALYST): The midterms produce a legitimacy crisis that the regime contests through consolidated apparatus (pre-built fraud narrative activated before/during count, legal pre-positioning, security posture near polling infrastructure, refusal or indefinite contestation of certification). This is the S&H-style catalyst: dramatic, remembered, order-defining. (BRANCH B - PRECURSOR): The midterms pass with contested-but-accepted certification and the legitimacy question is DEFERRED \u2014 deepening polarization (splitting base) rather than unity shock; S&H would classify this as precursor event (9/11-analog), true catalyst deferred to a later stochastic node. EITHER BRANCH IS CONSISTENT WITH THIS ENTRY; the entry fails only if the election is a non-event \u2014 accepted, largely uncontested, with structural pressure visibly DISCHARGING.",
+   "confidence": 72,
+   "status": "pending",
+   "evidence_confirmed": [
+    "Confirmed Hormuz blockade (98%) and triple substrate choke \u2014 pressure maximal at prediction date",
+    "USCIS whistleblower: electoral machinery capture attempt live (2026-09-14)",
+    "November Pause leaks: war management timed around election calendar",
+    "Elite overproduction live: displaced credentialled surplus class (ledger 2026-09-14)",
+    "Kirk martyrdom canonization + Lost Cause revival: unfalsifiable narrative registers consolidating",
+    "S&H precedent: Lincoln's 1860 election as electoral catalyst; Turchin: high structural pressure = maximal trigger sensitivity"
    ],
-   "resolved_date": null
+   "evidence_contradicted": [],
+   "falsifier": "ENTRY FAILS IF: (1) Certification completes across contested states without pre-positioned mass rejection from regime apparatus; (2) No fraud-narrative activation precedes the count (the narrative must be PRE-built to be weaponized \u2014 discovering fraud claims after certification does not count); (3) Visible pressure discharge: Hormuz reopens (>=100 vessels/day for 2 weeks), oil retreats below $80, diesel below $4.50, and elite overproduction indicators reverse \u2014 before the election. BRANCH A CONFIRMS IF: certification is contested by regime apparatus, or security deployment/polling infrastructure confrontation occurs, or certification is refused/indefinitely delayed. BRANCH B CONFIRMS IF: certification completes with litigation noise but accepted outcome AND polarization metrics deepen (splitting-base indicators accelerate).",
+   "forward_watchlist": [
+    "Pre-election fraud-narrative buildout volume (is the story being pre-loaded?)",
+    "NSPM-7 / Insurrection Act posture during election week",
+    "Polling-place security posture and federal-state confrontation",
+    "Certification timeline behavior in contested states",
+    "Post-election: unity response (regeneracy branch) vs. factional consolidation (precursor branch)",
+    "Hormuz reopening as pressure-discharge falsifier check"
+   ]
   },
   {
    "basename": "9-11-inversion-false-flag",
@@ -77,8 +89,7 @@
     "Regime reliance on bureaucratic/Kemalist suppression vs. theatrical violence - which tool it reaches for first.",
     "Interaction with the Reichstag track: the same event could serve either emergency narrative.",
     "Sept 11 2026 25th anniversary: Muslim mayor friction point + kinetic war overlay; watch for ceremony rhetoric vs inversion dynamics"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "agent-collective-containment-failures",
@@ -107,8 +118,7 @@
     "Antitrust exemptions debate for coordinated slowdown; whether US-China coordination regime materializes or both defect",
     "Anthropic embedded-evaluator program: does independent third-party access actually get implemented with real teeth",
     "OpenAI IPO timing (Altman: no listing until 2027) as capital-market pressure on pacing"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "agi-cognitive-labor-repricing",
@@ -125,8 +135,7 @@
     "bar/accounting/medical licensing fights over AI practice",
     "credentialism rhetoric in elections",
     "graduate employment-entry rates"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "agi-recursive-acceleration-test",
@@ -135,15 +144,17 @@
    "statement": "Deploying AI on AI research itself (designing architectures, running experiments, writing proofs) will NOT produce visibly super-linear research acceleration before 2028. Some acceleration is real but bounded by compute, physical experiments, and coordination overhead. If super-linear acceleration appears, it appears 2028-2029 at the earliest, and concentrates in software/algorithm domains before physical-world domains.",
    "confidence": 0.6,
    "status": "pending",
-   "evidence_confirmed": [],
+   "evidence_confirmed": [
+    "Amodei cites 'industry-wide RSI (recursive self-improvement) since summer 2026' as trigger for slowdown call",
+    "Sept 14 market repricing shows acceleration expectations were priced in and are now hedged"
+   ],
    "evidence_contradicted": [],
    "falsifier": "A verifiable example of a frontier system producing a Nobel-caliber or field-redirecting scientific breakthrough ahead of expert consensus timelines before 2028; or, conversely, research throughput visibly doubling year-over-year in AI-capability metrics by 2027 (would contradict the bounded claim).",
    "forward_watchlist": [
     "AI-for-science announcements with independent replication",
     "compute capex trajectories",
     "capability benchmark doubling times"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "agi-scaffold-political-economy",
@@ -152,7 +163,12 @@
    "statement": "Public debate will fixate on model capability and 'AI safety' in the alignment sense, while the decisive enclosure fight \u2014 who owns memory, audit structures, personal archives, and trusted epistemic infrastructure \u2014 happens mostly in platform terms-of-service, procurement contracts, and standards bodies, largely unnoticed. Populations with disciplined epistemic scaffolds will measurably outperform those without (literacy-as-scaffold becomes a policy issue by 2030).",
    "confidence": 0.55,
    "status": "pending",
-   "evidence_confirmed": [],
+   "evidence_confirmed": [
+    "Sept 12: all four lab principals publicly endorse coordinated slowdown; Amodei 'We Must Pace the Frontier'",
+    "Sept 14: markets reprice instantly \u2014 Nasdaq -1.2% open, SoftBank -10.7%, SK Hynix -6.4%, ASML -6%, Micron/SanDisk -6% \u2014 the fight over pacing IS a fight over capital",
+    "Sept 14: Trump names Anthropic/Dario directly, claims personal guardrail role, threatens 'Treasonists, Traitors, and Leakers BEWARE'",
+    "Sept 14: Politico \u2014 chance of Congress acting on AI 'in the coming weeks is next to zero'"
+   ],
    "evidence_contradicted": [],
    "falsifier": "Either (a) major legislation or regulation explicitly addressing user-owned memory/audit/scaffold portability emerges and dominates AI political debate by 2030 (claim too pessimistic about inattention), or (b) by 2030 no measurable gap exists between scaffolded and unscaffolded populations in belief-accuracy or manipulation resistance (claim too optimistic about scaffold effects).",
    "forward_watchlist": [
@@ -160,8 +176,7 @@
     "platform ToS changes on account/AI-content ownership",
     "research on epistemic resilience interventions",
     "AI literacy policy programs"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "agi-uneven-profile",
@@ -177,8 +192,7 @@
     "frontier model benchmark reports",
     "lab announcements claiming AGI",
     "economist/evaluator capability-profile studies"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "alpr-surveillance-decoy-substrate",
@@ -207,8 +221,7 @@
     "State-level ALPR removal orders (FL, TX): do these ban the practice outright, or merely swap vendors / reduce visible poles while preserving systems?",
     "Whether anti-surveillance activists pivot from brand-war to data-governance/warrant/retention fights - the actual substrate contest (New Hampshire 3-min retention; WA public-records ruling; SCOTUS Carpenter implications).",
     "Flock reinstalling/reactivating cameras after canceled contracts (3+ towns reported) - token-loss optics versus actual persistence."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "assassination-as-catalyst-kirk",
@@ -229,8 +242,7 @@
     "Whether the anniversary memorial (Sept 10) is converted into a mandate for specific policy (ICE surge, domestic-terror reclassification, election-control).",
     "New primary evidence on the shooter: motive, complicity network, or any finding contradicting the lone-wolf framing.",
     "Whether staged is ever corroborated beyond catalytic use - vs. remaining a convenient use of a real tragedy."
-   ],
-   "resolved_date": "2025-09-10"
+   ]
   },
   {
    "basename": "axon-fusus-ai-fusion-successor",
@@ -253,8 +265,33 @@
     "Whether Fusus integrates face/gait/reidentification beyond license plates - the 'talk'-type full-spectrum successor.",
     "FL/TX orders: do they also restrict AI-fusion/private-feed integration, or only visible poles?",
     "Data ownership terms in Axon successor contracts (who owns the fused data, retention, external agency sharing)."
+   ]
+  },
+  {
+   "basename": "cdc-epistemic-capture",
+   "title": "CDC Epistemic Capture (Interface Anomaly Case Study #1)",
+   "date_made": "2026-09-11",
+   "statement": "CDC is a maximum-anomaly case on the institution-substrate interface: an institution with an unusually deep, codified, evidence-bound baseline (published schedules, ACIP proceedings, MMWR as paper of record) can only degrade by breaking its own codified pattern \u2014 every break is legible. Observed anomalies: inverting the food pyramid, eliminating vaccine schedules, rejecting measles outbreak evidence. These fail precedent-class review: recommendation changes historically TRACE to published evidence review; these do not trace. Form is unprecedented; function is precedent-class (relatives: captured-agency science, Lysenkoism, tobacco-science apparatus) \u2014 epistemic degradation in service of legitimacy protection. Expectation: practicing clinicians and health systems increasingly act AROUND CDC (sourcing guidance from AAP, WHO, state health departments, professional societies) \u2014 functional abandonment by operational partners. Deep-codified-baseline institutions (FDA, NOAA, BLS next) are the corridor's worst off, because deviation-from-baseline IS the signal.",
+   "confidence": 78,
+   "status": "emergent",
+   "evidence_confirmed": [
+    "Food pyramid inversion \u2014 departs from decades of codified nutrition guidance without traceable evidence review",
+    "Vaccine schedule elimination/gutting \u2014 bypasses ACIP-style evidence-review precedent class",
+    "Rejection of measles outbreak evidence \u2014 contradicts MMWR-grade documentation standard",
+    "Method: five-question Interface Anomaly Test passed (form unprecedented, function precedent-class, substrate pre-loaded via healthcare-industry dependence on CDC reliability, absorbed-novelty counterfactual weak given pace/simultaneity, falsifier self-documenting)"
    ],
-   "resolved_date": null
+   "evidence_contradicted": [
+    "Possible counterargument: emergency conditions justify rapid recommendation changes \u2014 but precedent class still requires traceability to published review, which is absent",
+    "Noise alternative: individual recommendation revisions have always occurred; only the PACE and SIMULTANEITY across multiple codified interfaces distinguishes structural capture from ordinary adjustment"
+   ],
+   "falsifier": "Track dies if CDC recommendation changes resume tracing to published evidence review (MMWR/ACIP paper trail restored), OR if clinicians do NOT migrate guidance-sourcing away from CDC (operational partners remain bound). Corollary falsifier for the general thesis: if deep-codified-baseline institutions show LESS deviation than shallow-baseline ones, the corridor mapping is inverted.",
+   "forward_watchlist": [
+    "Clinician guidance-sourcing behavior: AAP/WHO/state health dept adoption rates vs CDC",
+    "MMWR and ACIP publication integrity (gaps, rewrites, suppression of outbreak data)",
+    "FDA, NOAA, BLS \u2014 next Interface Anomaly case studies for the corridor map",
+    "Interaction with Conservative-Space Defection Signal: two substrates (healthcare, right-media) showing same defection geometry = cross-validation",
+    "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
+   ]
   },
   {
    "basename": "chemical-biological-weapons",
@@ -281,8 +318,33 @@
     "Continued 'Signature'/GRU-agent poisoning series expanding beyond defectors to infrastructure nodes",
     "Crop/livestock disease anomalies consistent with economically-directed bio-sabotage",
     "Any seizure of improvised agent-production materials at European borders"
+   ]
+  },
+  {
+   "basename": "conservative-space-economic-defection",
+   "title": "Conservative-Space Defection Signal (Economic, Policy-Specific)",
+   "date_made": "2026-09-11",
+   "statement": "Conservative intra-coalition pushback in flagship right-media spaces (Shapiro/Daily Wire comment ecosystems) has become materially more common, sharper, and policy-specific \u2014 driven by ECONOMIC grievance (budgets, prices, deficit) rather than personality. Like/laugh reaction ratios function as unscientific but directionally useful telemetry of the engaged loyalist remnant. The defection is internal-opposition formation (defectors retain right-wing argument language, not leftward migration), and ridicule is the emerging sanction because it cannot be attributed to the enemy. Economic policy-specific defection cannot be absorbed by propaganda or personnel changes: finance never lies. This hollowing of the loyalist base feeds the Potemkin thesis: an external war run as theater becomes MORE attractive as internal legitimacy erodes.",
+   "confidence": 71,
+   "status": "emergent",
+   "evidence_confirmed": [
+    "Owner's first-person observation: pre-election (lone-voice, few allies, weak counterarguments) vs. post-election 20-month window (frequent, articulate pushback)",
+    "Like/laugh ratio inversion on Daily Wire / Shapiro pages \u2014 laughter from inside the coalition, unattributable to outgroup",
+    "Pushback is policy-specific and economic in character (personal budgets), the category propaganda cannot paper over",
+    "Consistent with documented fourth-turning pattern: counter-elite coalitions fracture during crisis phase; regime overreach converts bystanders into internal opposition"
    ],
-   "resolved_date": null
+   "evidence_contradicted": [
+    "Algorithm composition changes post-election (reaction-weighting shifts) could explain part of the VOLUME change \u2014 instrumentation, not defection",
+    "Left-venturing into right spaces could theoretically explain pushback presence, though it fails against the articulate, right-first-principles character of the arguments observed"
+   ],
+   "falsifier": "Signal dies if like/laugh ratios revert toward baseline as algorithms re-tune or the news cycle cools (instrumentation explanation wins), or if pushback reverts to personality-specific rather than policy-specific (absorbable by personnel changes). Signal STRENGTHENS if ratio inversion persists or worsens through the November Pause window and pushes economic \u2014 the structural read.",
+   "forward_watchlist": [
+    "Like/laugh ratio trend on flagship right-media pages through November Pause window",
+    "Policy-specific vs. personality-specific composition of pushback (economic vs. disgust)",
+    "Whether regime responds with economic concessions (absorption) or further consolidation (acceleration)",
+    "Interaction with War Question spread: hollowing coalition makes Potemkin posture (loud-but-shallow external war) MORE attractive",
+    "Emergence of named internal opposition figures or factions in right-media ecosystems"
+   ]
   },
   {
    "basename": "de-dollarization-reserve-rotation",
@@ -310,8 +372,7 @@
     "Further gold repatriation movements out of the NY Fed / London vaults by allied sovereigns",
     "More oil deals settled in Yuan/CIPS rails rather than USD",
     "Treasury auction bid-weakness or yield-suppression signals as war cost drains credibility"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "domestic-enforcement-groundwork",
@@ -334,8 +395,7 @@
     "Any federal intervention in a blue city under the Chicago template (DJT federal-civic-enforcement frame).",
     "The Tucson hate-crime narrative: does the anti-migrant/anti-Muslim amplification convert into policy, or does accountability pierce it?",
     "Coordination with the election-wont-matter mechanism: enforcement resources redirected toward electoral control."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -356,8 +416,7 @@
     "Whether a food-price-shock narrative appears in domestic midterm politics (the regime transmission layer).",
     "Actual landed fertilizer cost at US farm gate - the lagging input that hits food shelves 6-9 months out.",
     "Any fertilizer-specific carve-out corridors in the blockade (humanitarian analog)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "ground-invasion-of-iran",
@@ -382,8 +441,7 @@
     "Iran willingness to return to the interim ceasefire (Pezeshkian signal) - a genuine off-ramp that kills the ground option.",
     "China mediation posture - active de-escalation (lowers ground probability) vs. disengagement (raises it).",
     "Regime domestic optics: if they NEED a victory before midterms, ground invasion becomes likelier; if quiet-quit serves them, less."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "houthi-red-sea-escalation-fork",
@@ -412,8 +470,7 @@
     "Any Houthi claim of hitting a US naval vessel \u2014 Article 5-adjacent fuse and Master Thesis uncontrolled-escalation trigger",
     "Iranian resupply flow to Houthis (cross-check de-dollarization track if Iran diverts resources)",
     "Interaction with SPR runway track (82): every Red Sea escort day competes with Hormuz convoy escort, feeding the oil clock"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "icscglubkznc",
@@ -436,8 +493,7 @@
     "New oversight-body purges or reorganizations (domestic-facing)",
     "Foreign crisis events vs. regime response type (strike vs. mobilization)",
     "Outward rhetoric vs. inward budget divergence"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "iran-naval-escort-escalation",
@@ -461,8 +517,7 @@
     "Reported Iranian anti-ship ballistic-missile (ASBM) employment near escorts - a launched ASBM is the leading indicator of trap activation.",
     "Midterm window: whether Iranian strikes target US vessels (attention-forcing) vs. Gulf-state assets (signaling).",
     "Any USN combatant hit/sunk report or casualty evacuation from the Gulf."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "kemalist-preference-reichstag-fallback",
@@ -501,8 +556,7 @@
     "Executive health/succession stress: a biological trigger inside the window forces the loud fallback faster.",
     "Whether Democrats taking the House relieves the pressure (delays) vs. the regime shutting the legislature down (accelerates).",
     "Continuation of Quiet-Track infrastructure buildouts (CDC appointments, DHS election-enforcement, USPS batching) - their pace IS the quiet track velocity."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "kinetic-conflict-north-america",
@@ -526,8 +580,7 @@
     "Unexplained physical damage or sabotage events targeting North American undersea internet cables, electrical transmission grid nodes, or fuel pipelines.",
     "Escalation of state-sponsored proxy or cyber kinetic actions that successfully breach physical-world critical infrastructure in the US or Canada.",
     "Militarized civil unrest or localized armed clashes at domestic infrastructure chokepoints."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "kinetic-european-conflict",
@@ -557,8 +610,7 @@
     "Germany consulate closure / further Moscow-Berlin institutional drawdown (diplomat expulsion, asset freeze, embassy-capacity cuts)",
     "Leipzig drone forensic + attribution chain (does Berlin formally accuse Moscow, triggering wider diplomatic rupture)",
     "German grid sabotage attribution (Sept 2026 campaign, 21 devices): does forensics link the letter-writer/bomb devices to a state actor (Russia gray-zone cutout) or domestic extremism? Watch for Berlin attribution statements, party-political exploitation before the election window, and whether attacks spread to other EU states' grids."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "kirk-anniversary-narrative-2026",
@@ -582,8 +634,7 @@
     "Whether Kirk martyrdom imagery is grafted onto any enforcement/crackdown justification in the following weeks (the catalyst track endgame).",
     "Comparative media weight: Kirk-anniversary coverage vs. 9/11 coverage on Sept 10-11 - the original falsifier.",
     "Any attempt to unify Kirk with 9/11 casualties in a single domestic-terror narrative (synthesis signal)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "mid-august-oil-price-shock",
@@ -606,8 +657,7 @@
     "NYMEX Brent failing to break $100 within the original window (falsified the shock).",
     "Pressure migrated to the SPR runway: SPR weekly drain toward the ~290M cavern-damage floor is now the live successor signal.",
     "A resurrected hard shock in the pre-midterm window would be carried by the SPR-runway track, not this one."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "military-coup-fourth-turning",
@@ -642,8 +692,7 @@
     "Any open public break between JCS Chair Caine and Hegseth/Trump on election troops or nuclear-ladder rhetoric.",
     "Senior officers privately appalled going public (Kendall op-ed class) - the pressure-vent release.",
     "A fabricated coup narrative being seeded to justify a purge (the smokescreen deployment)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "nato-conditional-guilt",
@@ -669,8 +718,34 @@
     "First substantive US response to a real Baltic provocation: condition-setting (Branch A ~60%) vs. doctrine-withdrawal declaration (Branch B ~35%).",
     "Whether the 5% GDP / numerous-definitions-of-Article-5 rhetoric is walked back to ironclad or codified into law (the fork in the road).",
     "NATO Summit/SecGen framing after any incursion: Rutte ironclad vs. Trump transactional."
+   ]
+  },
+  {
+   "basename": "post-defeat-consolidation-menu",
+   "title": "Post-Defeat Consolidation Menu (Gray-Zone Coup: Option 1 Preferred)",
+   "date_made": "2026-09-14",
+   "statement": "If Democrats win at midterms with courts and military not under reliable control, the regime's consolidation path is NOT overt seizure (martial law, refusal-to-certify \u2014 both require institutional consent the regime lacks) but a PROCEDURAL SIEGE: converting the lost election from a verdict into a siege through unsanctioned-but-survivable acts. Owner's assessment: Option 1 (refuse-and-litigate) is the preferred style \u2014 the GRAY ZONE COUP. The regime never declares the framework illegitimate out loud; it simply declines to operate inside the results: flood courts with challenges, weaponize DOJ/FCC/IRS against incoming Democratic officials, slow-walk subpoenas, treat new House oversight as advisory. Competitive-authoritarianism signature: keep the elections, hollow out their consequences. Secondary options held in reserve: (2) Potemkin emergency \u2014 external crisis invoked post-adverse-vote to suspend the political calendar (timing-clustered escalation is the discriminator); (3) federalism siege \u2014 strangle blue-state governance via funding, Guard federalization, enforcement-as-paramilitary; (4) base-vector \u2014 mobilized loyalist street via the violence-normalization pipeline (least controllable; strengthens if base holds, weakens if economic defection fractures it). Every option requires only executive persistence plus opposition waiting for slower institutions.",
+   "confidence": 74,
+   "status": "emergent",
+   "evidence_confirmed": [
+    "Structural: courts follow political momentum more than they shape acute constitutional breaks",
+    "Regime precedent: existing pattern of treating adverse outcomes as advisory (funding impoundment, agency weaponization already active)",
+    "Owner's 40-year institutional-pattern read: gray-zone procedural siege matches regime's demonstrated style (never break the form, hollow the function)",
+    "Interface anomaly logic: each unsanctioned act is individually survivable; the aggregate is the coup"
    ],
-   "resolved_date": null
+   "evidence_contradicted": [
+    "Option 1 requires sustained DOJ/agency compliance, which the defection track (economic grievance) could erode inside the bureaucracy itself",
+    "Base-vector option assumes loyalist street cohesion that the conservative-space defection signal (71) may be undermining"
+   ],
+   "falsifier": "Track dies if the regime visibly CONCEDES adverse midterm results (concede-and-comply behavior) \u2014 i.e., if incoming Democratic oversight is honored, subpoenas enforced, funding restored without litigation siege. Track DIES-AS-PREDICTED-EARLY if the regime instead jumps directly to Option 2 (overt external-emergency suspension) BEFORE exhausting Option 1 \u2014 meaning gray-zone preference was misread. Track dies if courts demonstrate genuine enforcement capacity against executive non-compliance (institutions faster than violations).",
+   "forward_watchlist": [
+    "Post-midterm litigation flood: volume and staying power of election challenges",
+    "DOJ/FCC/IRS targeting pattern of incoming Democratic officials (Option 1 signature)",
+    "Escalation TIMING around external theaters: clusters after adverse votes = Option 2 activation (Potemkin discriminator)",
+    "Blue-state funding strangulation and Guard federalization (Option 3 signature)",
+    "Loyalist street mobilization vs. economic-defection fracture (Option 4 viability, ties to defection track 71)",
+    "Whether congressional subpoenas/funding power are treated as advisory or binding \u2014 THE Option 1 tell"
+   ]
   },
   {
    "basename": "post-trump-restructure",
@@ -702,8 +777,7 @@
     "Whether election-control mechanisms (USPS balloting) succeed in sterilizing the electoral check - removing the last off-ramp and forcing restructure.",
     "Thiel continued proportion: observable funding/positioning of the Vance line vs. Thiel going quiet (de-escalation).",
     "Whether the battering-ram actually breaks a load-bearing institution (a court, the Fed, the military command) vs. merely symbolic assaults."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "post-wwii-unwinding-cass88",
@@ -736,8 +810,7 @@
     "Military red-line events: domestic deployment or public refusal",
     "Dollar reserve behavior in China/BRICS settlement flows",
     "Hub-and-spoke bypass pattern: further bilateral security pacts excluding Washington (watch: Egypt, Qatar, Turkey)"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "regime-power-retention",
@@ -760,8 +833,7 @@
     "Post-Election-Day: does administration certify against the count, invoke emergency powers, or simply refuse to leave? Each is a distinct escalating trigger.",
     "The public-response telemetry: mobilizing over a stolen election vs. quiet despair-acceptance (the stare-down precondition).",
     "2026-09-09: Post-Nov 3 gap between announced war-end and power transfer now the sharpest diagnostic on the board"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "reichstag-fire-national-emergency",
@@ -799,8 +871,7 @@
     "Massive pre-seeded roundup activity (ICE/federal enforcement surge) as the footing for a dissent-based emergency.",
     "The Minneapolis/Carlton signal: whether the amplifier ecosystem converts a genuine tragedy into war-on-law-enforcement framing (currently RESISTING it, per discipline).",
     "October vs. post-November trigger timing - the clock tells the branch: fear-based (October) or court-rig-based (post-Nov)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "rogue-ai-substrate-risk",
@@ -827,8 +898,7 @@
     "Corporate and regulatory liability frameworks for unmonitored agentic code execution.",
     "The intersection of AI agent drift with critical power, financial, communications grids, and physical actuation (drones/robotics) \u2014 kinetic-digital coupling.",
     "Whether the DseWiki / deleted-moderation pattern generalizes from wiki boards to core infrastructure (power, water, payment clearing)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "russian-internal-fragility",
@@ -852,8 +922,7 @@
     "Continued Ukrainian strike tempo (sustained degradation) vs. negotiation-induced pause.",
     "Any Russian escalatory act born of desperation (Baltic probe, sanctions-breaking, nuclear signaling) as fragility external shadow.",
     "Sea-borne gasoline import dependency - the seam of the crisis."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "short-brutal-decisive-conflict",
@@ -879,8 +948,7 @@
     "MAD-freeze risk: whether mutual grid-destruction capability produces stalemate rather than resolution.",
     "Whether human leadership authorizes a covert first-strike or insists on visible kinetic escalation.",
     "The 'era's instrument' escalation chain: rifles to trenches to mechanization to agentic economic warfare."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "spr-runway-breaks-before-midterms",
@@ -917,16 +985,15 @@
     "Any Bab el-Mandeb closure event (Houthis formally in the war) - would independently trigger the oil shock the SPR cannot offset.",
     "The tanker-for-tanker campaign effect on remaining Hormuz crude flow: is the regime destroying its own supply pipe?",
     "Whether the Venezuela 65B partnership shifts from narrative to actual physical barrels landing at US refineries (it cannot, but watch if it tries)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "strait-of-hormuz-blockade",
    "title": "Strait of Hormuz Blockade",
    "date_made": "2026-07-20",
-   "statement": "Strait is effectively closed and or blockaded.",
+   "statement": "Strait is effectively closed and or blockaded. [RESOLVED 2026-09-14: confirmed as compliance blockade (condition b) \u2014 routing-sovereignty threshold fired at 75% vs ~60% threshold.]",
    "confidence": 98.0,
-   "status": "emergent",
+   "status": "confirmed",
    "evidence_confirmed": [
     "Fitch Ratings notes 'longer-than-expected effective closure'",
     "One-third of global fertilizer trade passes through Strait",
@@ -945,7 +1012,9 @@
     "ESCALATION LADDER RUNG \u2014 GULF ENERGY INFRASTRUCTURE THREAT (Reuters/Japan Times, Sept 7-8, 2026): Following US strikes on IRGC-linked tankers over the weekend, Iranian Parliament Speaker Mohammad Baqer Qalibaf formally escalated Tehran's deterrence posture: 'Strike our assets and you get struck,' explicitly warning that energy infrastructure across the Gulf, including US oil and gas interests, is vulnerable. Concurrently, Mohsen Rezaei formalized the expanded restricted maritime zone boundary. Oil prices hit 6-week highs on Monday. STRUCTURAL READ: The conflict is crossing from maritime interdiction (shipping lanes) into direct reciprocal threats against regional energy extraction and processing infrastructure. This validates the escalation ladder's transition from gray-zone toll-gates to strategic asset vulnerability.",
     "Sept 8, 2026: CENTCOM confirms the loss of a U.S. unmanned underwater vehicle (AUV/survey drone) after a 'malfunction' in the Strait; Iran recovers the intact unit \u2014 a major reverse-engineering and acoustic-signature harvesting win for the IRGC/adversaries during active kinetic confrontation.",
     "2026-09-08: Hedge funds flipped net-long 177M barrels in fuels (gasoline/diesel) as US supply squeeze deepens (Oilprice.com, John Kemp); diesel at all-time high $5.90+/gal, record crack spreads; Brent ~$100. Smart money pricing the closure as structural, not transient.",
-    "Sept 11: largest tanker wave of the war; ten tankers destroyed in past week (CENTCOM); Brent breaks $100"
+    "Sept 11: largest tanker wave of the war; ten tankers destroyed in past week (CENTCOM); Brent breaks $100",
+    "2026-09-14 resolution: routing-sovereignty metric fired \u2014 Sept 4-6 Kpler data showed 75% of transits on Iran's unilateral routing scheme (21/28), 15pts above the ~60% stabilization threshold",
+    "2026-09-14 resolution: compliance blockade (condition b) \u2014 transit volumes at blockade levels and shippers treat Iranian routing authority as binding"
    ],
    "evidence_contradicted": [],
    "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
@@ -957,9 +1026,9 @@
     "LNG flows through the Strait (Qatar-to-Asia) - the cleanest private data series for whether effective closure is truly holding.",
     "Any Iranian unilateral safe-corridor offer or US accepting Iranian opening terms - would immediately truncate blockade confidence.",
     "Iran 'economic war headquarters' (Sept 7): verify via primary sources (Anadolu/IRNA) that Iran has stood up a ministry-level economic-war body with alternative-payment-rail mandates; if confirmed, cross-file to de-dollarization-reserve-rotation as a state-directed reserve-escape mechanism.",
-    "Aerostat downing (N. Iraq) + anti-ship missile 'drill' probes: watch whether CENTCOM/DoD confirms or denies; unacknowledged losses of ISR assets mark a tolerance-boundary shift in the gray-zone phase."
-   ],
-   "resolved_date": null
+    "Aerostat downing (N. Iraq) + anti-ship missile 'drill' probes: watch whether CENTCOM/DoD confirms or denies; unacknowledged losses of ISR assets mark a tolerance-boundary shift in the gray-zone phase.",
+    "Watch: formal announcement vs de facto toll-gate persistence; physical reopening or US-Iran de-escalation agreement holding 30 days would trip the reopening falsifier"
+   ]
   },
   {
    "basename": "student-debt-enlistment-cornering",
@@ -988,8 +1057,7 @@
     "AI displacement acceleration into late 2026 - does white-collar job loss push more into the 25-42 indebted enlistment pool?",
     "CLRP/Loan Repayment expansion in future NDAA - does debt relief become the primary marketing lever?",
     "Draft-relevant signals: Selective Service expansion, 'Total Force' language, draft-panic news (DE Online, USA Today on possible draft for Iran war)."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "substrate-emergence-signature",
@@ -1015,8 +1083,7 @@
     "Cross-lab correlated behavior findings in eval infrastructure",
     "US-China safety talks outcome (Sept 2026): does any treaty language address substrate-level dynamics or only single-model controls?",
     "Pascio's own test: 'your phone behaves slightly differently' \u2014 needs an instrumented version, not anecdote"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "substrate-shock-mortality-cascade",
@@ -1039,8 +1106,7 @@
     "Kinetic-digital convergence: coupling of physical supply-chain shocks (Hormuz, Middle East) with digital clearing/payment-grid fragility.",
     "The MAD-freeze risk: attacker and defender freezing each other's substrate simultaneously, stranding the population between two dead systems.",
     "Covert-vs-overt fork: whether the first major substrate shock is visible (open hostility) or silent (infrastructure collapse attributed to weather/bug/accident) \u2014 the silent form maximizes confusion and death."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "tactical-nuclear-use",
@@ -1067,8 +1133,7 @@
     "Any NATO territory conventional incursion that tests Article 5",
     "Whether the November Pause / China mediation quarantines the fronts before the threshold",
     "Kremlin personnel/discourse shift toward 'existential framing' of the war"
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "turning-phase-indicator",
@@ -1096,8 +1161,7 @@
     "Legibility-spark candidates: named, shared, legible grievances the whole population can read at once (economic, surveillance, labor, AI-displacement events).",
     "Release-channel geometry: monitor whether crisis-energy vents HORIZONTALLY (elite-vs-elite, faction-vs-faction) or begins shifting VERTICAL (population-vs-enclosure) - the single clearest indicator of Stage-B approach.",
     "Midterms as the first scheduled drop-point: watch for a catalyst that converts the diffuse anti-flock 'something is wrong' fog into a joint, named target."
-   ],
-   "resolved_date": null
+   ]
   },
   {
    "basename": "ukraine-strikes-russian-oil",
@@ -1119,91 +1183,6 @@
     "Russian gasoline rationing expansion vs. relaxation across the affected regions.",
     "Sea-borne import dependency (India/Morocco/Turkey/Belarus): sustained = fragility; substituted by domestic = recovery.",
     "Winter immediacy: whether recovered capacity covers heating-season demand without rationing."
-   ],
-   "resolved_date": null
-  },
-  {
-   "basename": "world-war-iii-prologue",
-   "title": "World War III Prologue: Interlocking-Theater Escalation (Master Thesis)",
-   "date_made": "2026-09-03",
-   "statement": "MASTER FRAMING HYPOTHESIS: World War III's opening phase began with Israel's initial strike on Iran, triggering a cascade of interlocking-theater escalation in which each belligerent is drawn in because its vital interests pass through a chokepoint another actor controls. Receipts now span four simultaneous theaters tracing back to that origin: (1) Middle East - Hormuz blockade/bounty + Gulf base saturation with merchant attrition crossing fatal threshold; (2) Europe/NATO - Russian Baltic hybrid-sabotage cells under a conditional/transactionalized US guarantee; (3) Russian homeland - Ukrainian deep-strike attrition of refineries/S-400 forcing nuclear-doctrine shift; (4) Asia-Pacific - South Korea preparing a Hormuz naval deployment, the first major non-aligned liberal power committing combat muscle to the theater. Confidence held at EMERGENT 58% - structurally compelling and interlocking-receipt-backed, but not yet across the formal multipolar war threshold (NO full NATO combatant mobilization, NO Sino-American engagement, NO Baltic Article 5 trigger, and SK deployment remains preparation not yet combat commitment).",
-   "confidence": 57,
-   "status": "emergent",
-   "evidence_confirmed": [
-    "ISRAEL'S OPENING STRIKE: The trigger event - Israel's initial attack on Iran set the entire escalation cascade in motion.",
-    "IRAN REGIONAL RETALIATION: Iran's kinetic response across Gulf states + naval aggression at Hormuz, with merchant shipping attrition now crossing the fatal threshold (2 sailors killed on a merchant ship, Sept 2026).",
-    "US ESCORT/BLOCKADE CAMPAIGN: Formal US six-plus-month escort-and-naval-campaign underway at Hormuz (94% standalone track), with official White House acknowledgment of the energy squeeze.",
-    "RUSSIAN BALTIC HYBRID PRESSURE: Multiple sabotage cells confirmed operating across Germany - the grey-zone pre-cursor to Article 5 testing (WSJ/ISW fall-warning window).",
-    "SOUTH KOREA HORMUZ NAVAL DEPLOYMENT (Sept 3, 2026): Reuters - SK preparing to deploy naval combat assets to Hormuz; 70%+ of its crude transits the strait. A war-averse Asian power reaching combat muscle across the planet is the canary for the SYSTEM-WIDE, not regional, character of this conflict.",
-    "INTERLOCKING-CHOKEPOINT MECHANISM: Each theater draws belligerents in via vital chokepoints (Hormuz energy, Baltic resolve, Russian refineries) - the defining structural feature of a World War, not a regional conflict.",
-    "SOUTH KOREAN SELF-FRAMING: SK media framing the deployment around threats to global shipping and energy integrity - the international-logistics framing confirming systemic, not regional, stakes."
-   ],
-   "evidence_contradicted": [
-    "NO FULL MULTIPOLAR COMBAT MOBILIZATION: No NATO Article 5 trigger, no Soviet-style continental army-on-army front, no formal Sino-American engagement - the formal 'world war' threshold is not yet crossed.",
-    "SOUTH KOREA DEPLOYMENT IS PREPARATION, NOT COMMITMENT: SK has prepared/deployed but not yet fired a shot or formally declared combatant belligerency.",
-    "REGIONAL-ONLY READING REMAINS AVAILABLE: A skeptic could argue this is still a contained Persian Gulf war + European grey-zone pressure + deep-strike attrition of Russia, lacking the formal interlocking declaration that defines 1914/1939.",
-    "NATO STILL FORMALLY INTACT: Rutte's 'ironclad' guarantee stance remains officially in force; no formal withdrawal or Article 5 redefinition legislated as of Sept 3, 2026."
-   ],
-   "falsifier": "No cross-theater escalation: the Iran war, Ukraine/Russia war, and potential Baltic conflict do NOT converge into a synchronized multi-front great-power war within the projected window - conflict remains regionalized/contained via off-ramps and deterrence holding.",
-   "forward_watchlist": [
-    "Any NATO Article 5 (or Baltic) trigger interacting with the Iran war and Ukraine front under one banner.",
-    "Russia-Iran coordination deepening - shared escalation against a divided US commitment (the linkage that makes it a world war).",
-    "Whether the US November Pause and China mediation quarantine the fronts (de-escalation) vs. one front igniting the others.",
-    "Uncontrolled escalation triggers: a US naval combatant sunk, a nuclear threshold signal, a Baltic incursion combined with Iran re-escalation.",
-    "PROXY-CHOKEPOINT FIFTH THEATER (added 2026-09-11): Houthi Red Sea coastal expansion \u2014 Bab el-Mandeb ignition via proxy rather than direct state action; watch Israeli strikes on Houthi infrastructure and US fleet repositioning (see houthi-red-sea-escalation-fork.json)"
-   ],
-   "resolved_date": null
-  },
-  {
-   "basename": "cdc-epistemic-capture",
-   "title": "CDC Epistemic Capture (Interface Anomaly Case Study #1)",
-   "date_made": "2026-09-11",
-   "statement": "CDC is a maximum-anomaly case on the institution-substrate interface: an institution with an unusually deep, codified, evidence-bound baseline (published schedules, ACIP proceedings, MMWR as paper of record) can only degrade by breaking its own codified pattern \u2014 every break is legible. Observed anomalies: inverting the food pyramid, eliminating vaccine schedules, rejecting measles outbreak evidence. These fail precedent-class review: recommendation changes historically TRACE to published evidence review; these do not trace. Form is unprecedented; function is precedent-class (relatives: captured-agency science, Lysenkoism, tobacco-science apparatus) \u2014 epistemic degradation in service of legitimacy protection. Expectation: practicing clinicians and health systems increasingly act AROUND CDC (sourcing guidance from AAP, WHO, state health departments, professional societies) \u2014 functional abandonment by operational partners. Deep-codified-baseline institutions (FDA, NOAA, BLS next) are the corridor's worst off, because deviation-from-baseline IS the signal.",
-   "confidence": 78,
-   "status": "emergent",
-   "evidence_confirmed": [
-    "Food pyramid inversion \u2014 departs from decades of codified nutrition guidance without traceable evidence review",
-    "Vaccine schedule elimination/gutting \u2014 bypasses ACIP-style evidence-review precedent class",
-    "Rejection of measles outbreak evidence \u2014 contradicts MMWR-grade documentation standard",
-    "Method: five-question Interface Anomaly Test passed (form unprecedented, function precedent-class, substrate pre-loaded via healthcare-industry dependence on CDC reliability, absorbed-novelty counterfactual weak given pace/simultaneity, falsifier self-documenting)"
-   ],
-   "evidence_contradicted": [
-    "Possible counterargument: emergency conditions justify rapid recommendation changes \u2014 but precedent class still requires traceability to published review, which is absent",
-    "Noise alternative: individual recommendation revisions have always occurred; only the PACE and SIMULTANEITY across multiple codified interfaces distinguishes structural capture from ordinary adjustment"
-   ],
-   "falsifier": "Track dies if CDC recommendation changes resume tracing to published evidence review (MMWR/ACIP paper trail restored), OR if clinicians do NOT migrate guidance-sourcing away from CDC (operational partners remain bound). Corollary falsifier for the general thesis: if deep-codified-baseline institutions show LESS deviation than shallow-baseline ones, the corridor mapping is inverted.",
-   "forward_watchlist": [
-    "Clinician guidance-sourcing behavior: AAP/WHO/state health dept adoption rates vs CDC",
-    "MMWR and ACIP publication integrity (gaps, rewrites, suppression of outbreak data)",
-    "FDA, NOAA, BLS \u2014 next Interface Anomaly case studies for the corridor map",
-    "Interaction with Conservative-Space Defection Signal: two substrates (healthcare, right-media) showing same defection geometry = cross-validation",
-    "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
-   ]
-  },
-  {
-   "basename": "conservative-space-economic-defection",
-   "title": "Conservative-Space Defection Signal (Economic, Policy-Specific)",
-   "date_made": "2026-09-11",
-   "statement": "Conservative intra-coalition pushback in flagship right-media spaces (Shapiro/Daily Wire comment ecosystems) has become materially more common, sharper, and policy-specific \u2014 driven by ECONOMIC grievance (budgets, prices, deficit) rather than personality. Like/laugh reaction ratios function as unscientific but directionally useful telemetry of the engaged loyalist remnant. The defection is internal-opposition formation (defectors retain right-wing argument language, not leftward migration), and ridicule is the emerging sanction because it cannot be attributed to the enemy. Economic policy-specific defection cannot be absorbed by propaganda or personnel changes: finance never lies. This hollowing of the loyalist base feeds the Potemkin thesis: an external war run as theater becomes MORE attractive as internal legitimacy erodes.",
-   "confidence": 71,
-   "status": "emergent",
-   "evidence_confirmed": [
-    "Owner's first-person observation: pre-election (lone-voice, few allies, weak counterarguments) vs. post-election 20-month window (frequent, articulate pushback)",
-    "Like/laugh ratio inversion on Daily Wire / Shapiro pages \u2014 laughter from inside the coalition, unattributable to outgroup",
-    "Pushback is policy-specific and economic in character (personal budgets), the category propaganda cannot paper over",
-    "Consistent with documented fourth-turning pattern: counter-elite coalitions fracture during crisis phase; regime overreach converts bystanders into internal opposition"
-   ],
-   "evidence_contradicted": [
-    "Algorithm composition changes post-election (reaction-weighting shifts) could explain part of the VOLUME change \u2014 instrumentation, not defection",
-    "Left-venturing into right spaces could theoretically explain pushback presence, though it fails against the articulate, right-first-principles character of the arguments observed"
-   ],
-   "falsifier": "Signal dies if like/laugh ratios revert toward baseline as algorithms re-tune or the news cycle cools (instrumentation explanation wins), or if pushback reverts to personality-specific rather than policy-specific (absorbable by personnel changes). Signal STRENGTHENS if ratio inversion persists or worsens through the November Pause window and pushes economic \u2014 the structural read.",
-   "forward_watchlist": [
-    "Like/laugh ratio trend on flagship right-media pages through November Pause window",
-    "Policy-specific vs. personality-specific composition of pushback (economic vs. disgust)",
-    "Whether regime responds with economic concessions (absorption) or further consolidation (acceleration)",
-    "Interaction with War Question spread: hollowing coalition makes Potemkin posture (loud-but-shallow external war) MORE attractive",
-    "Emergence of named internal opposition figures or factions in right-media ecosystems"
    ]
   },
   {
@@ -1235,30 +1214,34 @@
    ]
   },
   {
-   "basename": "post-defeat-consolidation-menu",
-   "title": "Post-Defeat Consolidation Menu (Gray-Zone Coup: Option 1 Preferred)",
-   "date_made": "2026-09-14",
-   "statement": "If Democrats win at midterms with courts and military not under reliable control, the regime's consolidation path is NOT overt seizure (martial law, refusal-to-certify \u2014 both require institutional consent the regime lacks) but a PROCEDURAL SIEGE: converting the lost election from a verdict into a siege through unsanctioned-but-survivable acts. Owner's assessment: Option 1 (refuse-and-litigate) is the preferred style \u2014 the GRAY ZONE COUP. The regime never declares the framework illegitimate out loud; it simply declines to operate inside the results: flood courts with challenges, weaponize DOJ/FCC/IRS against incoming Democratic officials, slow-walk subpoenas, treat new House oversight as advisory. Competitive-authoritarianism signature: keep the elections, hollow out their consequences. Secondary options held in reserve: (2) Potemkin emergency \u2014 external crisis invoked post-adverse-vote to suspend the political calendar (timing-clustered escalation is the discriminator); (3) federalism siege \u2014 strangle blue-state governance via funding, Guard federalization, enforcement-as-paramilitary; (4) base-vector \u2014 mobilized loyalist street via the violence-normalization pipeline (least controllable; strengthens if base holds, weakens if economic defection fractures it). Every option requires only executive persistence plus opposition waiting for slower institutions.",
-   "confidence": 74,
+   "basename": "world-war-iii-prologue",
+   "title": "World War III Prologue: Interlocking-Theater Escalation (Master Thesis)",
+   "date_made": "2026-09-03",
+   "statement": "MASTER FRAMING HYPOTHESIS: World War III's opening phase began with Israel's initial strike on Iran, triggering a cascade of interlocking-theater escalation in which each belligerent is drawn in because its vital interests pass through a chokepoint another actor controls. Receipts now span four simultaneous theaters tracing back to that origin: (1) Middle East - Hormuz blockade/bounty + Gulf base saturation with merchant attrition crossing fatal threshold; (2) Europe/NATO - Russian Baltic hybrid-sabotage cells under a conditional/transactionalized US guarantee; (3) Russian homeland - Ukrainian deep-strike attrition of refineries/S-400 forcing nuclear-doctrine shift; (4) Asia-Pacific - South Korea preparing a Hormuz naval deployment, the first major non-aligned liberal power committing combat muscle to the theater. Confidence held at EMERGENT 58% - structurally compelling and interlocking-receipt-backed, but not yet across the formal multipolar war threshold (NO full NATO combatant mobilization, NO Sino-American engagement, NO Baltic Article 5 trigger, and SK deployment remains preparation not yet combat commitment).",
+   "confidence": 57,
    "status": "emergent",
    "evidence_confirmed": [
-    "Structural: courts follow political momentum more than they shape acute constitutional breaks",
-    "Regime precedent: existing pattern of treating adverse outcomes as advisory (funding impoundment, agency weaponization already active)",
-    "Owner's 40-year institutional-pattern read: gray-zone procedural siege matches regime's demonstrated style (never break the form, hollow the function)",
-    "Interface anomaly logic: each unsanctioned act is individually survivable; the aggregate is the coup"
+    "ISRAEL'S OPENING STRIKE: The trigger event - Israel's initial attack on Iran set the entire escalation cascade in motion.",
+    "IRAN REGIONAL RETALIATION: Iran's kinetic response across Gulf states + naval aggression at Hormuz, with merchant shipping attrition now crossing the fatal threshold (2 sailors killed on a merchant ship, Sept 2026).",
+    "US ESCORT/BLOCKADE CAMPAIGN: Formal US six-plus-month escort-and-naval-campaign underway at Hormuz (94% standalone track), with official White House acknowledgment of the energy squeeze.",
+    "RUSSIAN BALTIC HYBRID PRESSURE: Multiple sabotage cells confirmed operating across Germany - the grey-zone pre-cursor to Article 5 testing (WSJ/ISW fall-warning window).",
+    "SOUTH KOREA HORMUZ NAVAL DEPLOYMENT (Sept 3, 2026): Reuters - SK preparing to deploy naval combat assets to Hormuz; 70%+ of its crude transits the strait. A war-averse Asian power reaching combat muscle across the planet is the canary for the SYSTEM-WIDE, not regional, character of this conflict.",
+    "INTERLOCKING-CHOKEPOINT MECHANISM: Each theater draws belligerents in via vital chokepoints (Hormuz energy, Baltic resolve, Russian refineries) - the defining structural feature of a World War, not a regional conflict.",
+    "SOUTH KOREAN SELF-FRAMING: SK media framing the deployment around threats to global shipping and energy integrity - the international-logistics framing confirming systemic, not regional, stakes."
    ],
    "evidence_contradicted": [
-    "Option 1 requires sustained DOJ/agency compliance, which the defection track (economic grievance) could erode inside the bureaucracy itself",
-    "Base-vector option assumes loyalist street cohesion that the conservative-space defection signal (71) may be undermining"
+    "NO FULL MULTIPOLAR COMBAT MOBILIZATION: No NATO Article 5 trigger, no Soviet-style continental army-on-army front, no formal Sino-American engagement - the formal 'world war' threshold is not yet crossed.",
+    "SOUTH KOREA DEPLOYMENT IS PREPARATION, NOT COMMITMENT: SK has prepared/deployed but not yet fired a shot or formally declared combatant belligerency.",
+    "REGIONAL-ONLY READING REMAINS AVAILABLE: A skeptic could argue this is still a contained Persian Gulf war + European grey-zone pressure + deep-strike attrition of Russia, lacking the formal interlocking declaration that defines 1914/1939.",
+    "NATO STILL FORMALLY INTACT: Rutte's 'ironclad' guarantee stance remains officially in force; no formal withdrawal or Article 5 redefinition legislated as of Sept 3, 2026."
    ],
-   "falsifier": "Track dies if the regime visibly CONCEDES adverse midterm results (concede-and-comply behavior) \u2014 i.e., if incoming Democratic oversight is honored, subpoenas enforced, funding restored without litigation siege. Track DIES-AS-PREDICTED-EARLY if the regime instead jumps directly to Option 2 (overt external-emergency suspension) BEFORE exhausting Option 1 \u2014 meaning gray-zone preference was misread. Track dies if courts demonstrate genuine enforcement capacity against executive non-compliance (institutions faster than violations).",
+   "falsifier": "No cross-theater escalation: the Iran war, Ukraine/Russia war, and potential Baltic conflict do NOT converge into a synchronized multi-front great-power war within the projected window - conflict remains regionalized/contained via off-ramps and deterrence holding.",
    "forward_watchlist": [
-    "Post-midterm litigation flood: volume and staying power of election challenges",
-    "DOJ/FCC/IRS targeting pattern of incoming Democratic officials (Option 1 signature)",
-    "Escalation TIMING around external theaters: clusters after adverse votes = Option 2 activation (Potemkin discriminator)",
-    "Blue-state funding strangulation and Guard federalization (Option 3 signature)",
-    "Loyalist street mobilization vs. economic-defection fracture (Option 4 viability, ties to defection track 71)",
-    "Whether congressional subpoenas/funding power are treated as advisory or binding \u2014 THE Option 1 tell"
+    "Any NATO Article 5 (or Baltic) trigger interacting with the Iran war and Ukraine front under one banner.",
+    "Russia-Iran coordination deepening - shared escalation against a divided US commitment (the linkage that makes it a world war).",
+    "Whether the US November Pause and China mediation quarantine the fronts (de-escalation) vs. one front igniting the others.",
+    "Uncontrolled escalation triggers: a US naval combatant sunk, a nuclear threshold signal, a Baltic incursion combined with Iran re-escalation.",
+    "PROXY-CHOKEPOINT FIFTH THEATER (added 2026-09-11): Houthi Red Sea coastal expansion \u2014 Bab el-Mandeb ignition via proxy rather than direct state action; watch Israeli strikes on Houthi infrastructure and US fleet repositioning (see houthi-red-sea-escalation-fork.json)"
    ]
   }
  ],
@@ -1376,6 +1359,17 @@
    "forward_signal": "Response of the Mecca Defence Alliance (Pakistan/Turkey) to direct strikes on Saudi energy infrastructure; Brent crude reaction; spread of kinetic engagements outside immediate Gulf basin."
   },
   {
+   "date": "2026-09-14",
+   "track": "world-war-iii-prologue",
+   "mget_legs_tested": [
+    "Leg 3 - Enclosure Mutation",
+    "Leg 5 - Regional Conflagration"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Ansar Allah (Houthi) ground offensive reported at Marib \u2014 clashes with First Division, Emergency Forces; Central Bank emptied; government forces evacuating toward Wadi Hadramawt. This directly confirms the Houthi Red Sea Expansion escalation fork (conf 76, emergent): the regional-spread branch is firing. Combined with confirmed coastal control of the Red Sea (Bab el-Mandeb interdiction) and pipeline strikes on Saudi East-West, the Houthis are consolidating BOTH sea-lane interdiction and interior territory \u2014 from non-state disruptor to quasi-state territorial actor. Marib is Yemen's oil/gas and capital-adjacent prize; Central Bank evacuation signals IRG-held financial infrastructure collapsing under military pressure. This compounds the material-substrate triple choke: the actor interdicting ~9% of global crude is now expanding on land, not just at sea.",
+   "forward_signal": "Watch: (1) fall of Marib city \u2192 Houthi control of eastern Yemen energy corridor; (2) Saudi/Gulf state response \u2014 direct re-entry or accommodation; (3) US strikes posture given existing Red Sea campaign fatigue; (4) oil market reaction beyond $109 baseline; (5) whether Emergency Forces collapse cascades to Hadramawt (complete government territorial loss). Escalation-fork prediction should upgrade toward 'confirmed' if Marib falls within 30 days."
+  },
+  {
    "date": "2026-09-04",
    "track": "assassination-as-catalyst-kirk",
    "mget_legs_tested": [
@@ -1406,6 +1400,17 @@
    "verdict": "confirms",
    "reasoning": "Executive publicly pins cessation of a 7-month hot war to the Nov 3 midterm date: foreign policy is now managed as a domestic survival valve, with Brent >$100 and record-low approval as the pressure drivers. Confirm on Leg 1 (complexity cap) and Leg 2 (elite overproduction -> performative signaling).",
    "forward_signal": "Does the conflict actually cease post-Nov 3? Watch: Hormuz shipping flow, Brent price, CENTCOM activity. Falsifier: war continues or expands past midterms -> coupling thesis breaks."
+  },
+  {
+   "date": "2026-09-14",
+   "track": "enclosure-mutation",
+   "mget_legs_tested": [
+    "Leg 3 - Enclosure Mutation",
+    "Leg 4 - Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Macklemore alleges Robert Kraft organized a cross-venue blacklist after his 'Free Palestine' statements at MetLife (Sept 6), with Kraft allegedly telling Ed Sheeran to drop Macklemore or lose stadium access; Kraft's camp responds citing 'antisemitic rhetoric and imagery.' Regardless of litigation outcome, the STRUCTURE is the finding: private venue capital enforcing speech discipline across a coordinated network, bypassing state action entirely. This is enclosure mutation operating through private platforms/venues rather than government \u2014 the theocratic-enclosure analogue for the culture layer: coordination among owners achieves what censorship boards once did. Distinguishing test logged: blacklist exists = enclosure-mutation confirm; if Macklemore merely lost bookings on ordinary commercial grounds across uncoordinated venues, verdict downgrades to strains.",
+   "forward_signal": "Watch for: (1) other artists confirming venue pressure (pattern evidence); (2) whether boycott/antitrust framing emerges (would elevate to national-attention enclosure conflict); (3) whether this coincides with NSPM-7-style antisemitism-enforcement doctrine at federal level \u2014 private venue networks executing speech discipline that the state no longer needs to perform directly."
   },
   {
    "date": "2026-09-04",
