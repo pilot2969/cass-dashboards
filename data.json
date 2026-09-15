@@ -1326,6 +1326,24 @@
  ],
  "mget_ledger": [
   {
+   "date": "2026-09-15",
+   "track": "courts-elections",
+   "mget_legs_tested": [],
+   "verdict": "confirms",
+   "reasoning": "Wire 14:42 \u2014 SCOTUS denial aftermath: Trump publicly slams his own Supreme Court appointees over the mail-ballot ruling (WP, Reuters, AP-syn). Confirms the morning pre-condemnation read in behavior: the 'we very much disagree' pattern extends from Blanche's Rose Garden answers to Trump's own feed. Democracy Docket adds damage assessment: election officials report attacks damaged faith in mail voting even though the ruling was a WIN for the process. NBC frames 'Supreme Court pushes back against Trump and GOP ahead of midterms' \u2014 the referee is now narrated as partisan obstacle by the right.",
+   "forward_signal": "Watch whether Trump names specific justices (pre-condemnation of individuals escalates from institution to person)."
+  },
+  {
+   "date": "2026-09-15",
+   "track": "oil-energy",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "strains",
+   "reasoning": "Wire 14:42 \u2014 Oil shock deepens: Saudi cancels cargoes after pipeline hit (Reuters), loadings halt; Brent +$3 on Saudi halt plus LIBYA outages (second producer state); Al-Monitor: Saudi 'running out of oil export options'; national diesel record, NJ gas $4.43; Costco limits motor-oil purchases (retail rationing signal). BUT: EIA says global output returns to pre-war level by year end \u2014 the physical crisis has a clock; the NARRATIVE crisis doesn't.",
+   "forward_signal": "Crash-narrative half-life vs. physical relief timeline: which resolves first? Goldman $120 tail vs. EIA year-end normalization."
+  },
+  {
    "date": "2026-09-10",
    "track": "media-vanguard-split",
    "mget_legs_tested": [
@@ -1416,6 +1434,16 @@
    "forward_signal": "Watch: (1) whether any state AG obtains injunctive relief (state-layer reaction - the wave B test); (2) whether mainstream coverage buries it under oil/economy noise (narrative inversion functioning); (3) whether purge lists feed county-level challenges in November. If (1) fails to materialize within 2 weeks, the state layer is weaker than the wave model assumes - upgrade overall unwind confidence."
   },
   {
+   "date": "2026-09-15",
+   "track": "oil-energy",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Wire 14:42 \u2014 Policy response layer opens: Thune open to diesel EXPORT BAN (Colorado Politics) \u2014 extraordinary intervention floated within 24h of shock. CBO: Iran war has cost US nearly $40B and fueled inflation (Time) \u2014 the war's economic cost now quantified by an official body, giving the cost-accounting flank official backing. Blame race opens: Mitchell's 'Democrats closed refineries' frame vs. Thune's actual policy response \u2014 competing causality claims now exist simultaneously.",
+   "forward_signal": "Who lands the causality frame first: blame-Democrats narrative vs. war-cost accounting. If admin adopts internal-blame officially (Blanche/press sec), Mitchell layer upgrades from seed to distribution."
+  },
+  {
    "date": "2026-09-04",
    "track": "9-11-inversion-false-flag",
    "mget_legs_tested": [
@@ -1503,6 +1531,26 @@
    "forward_signal": "Actual fertilizer price/availability disruption; famine-scale stress reaching domestic populations."
   },
   {
+   "date": "2026-09-15",
+   "track": "courts-elections",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Wire 14:42 \u2014 Blanche presser rollout: DOJ pledges $300M to hire law enforcement targeting 'criminal aliens'; Hegseth 'phenomenal job' remark; 9/11 classified-documents fight (Blanche: DOJ 'not protecting people'). Presser total now 4 logged artifacts + opening recap = the fusion doctrine fully executed. Guided-discovery sequencing confirmed by wire coverage of sequencing.",
+   "forward_signal": "Transcript pull pending \u2014 will score China/AI answer when user delivers."
+  },
+  {
+   "date": "2026-09-15",
+   "track": "war-geopolitics",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Wire 14:42 \u2014 War council aftermath: Massie (R) moves to IMPEACH Hegseth over Iran war (NPR, Reuters) \u2014 first formal GOP-internal fracture over the war. CBO $40B cost finding lands same cycle. 'Mecca Alliance' (Saudi+Gulf) publicly warns Iran over Houthi attacks (OilPrice). Iranian strikes damaged hundreds of structures at US bases (WP) \u2014 kinetic, ongoing. Saudi crown prince to Egypt seeking support; Saudi airstrikes kill 3 in Yemen. The war is now producing: Republican dissent (Massie), official cost accounting (CBO), Gulf realignment (Mecca Alliance), and direct base damage.",
+   "forward_signal": "Hegseth impeachment move: does GOP leadership smother it (internal discipline holds) or does it gain cosponsors (fracture spreads)? Watch Trump response to Massie personally."
+  },
+  {
    "date": "2026-09-04",
    "track": "ground-invasion-of-iran",
    "mget_legs_tested": [
@@ -1512,6 +1560,16 @@
    "verdict": "strains",
    "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
    "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
+  },
+  {
+   "date": "2026-09-15",
+   "track": "war-geopolitics",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "strains",
+   "reasoning": "Wire 14:42 \u2014 Pacific lane: Economist: China would face 'hellscape' in Taiwan war; US Marine Stand-In Forces worry China (Military Times); China tightens citizen exit bans on tech/national-security grounds (Courthouse). AP: China closing the AI gap with US while world debates AI risks. Bessent to hold Iran-ties talks with China before Trump-Xi summit (National) \u2014 the Iran war and China diplomacy are now coupled in a single negotiation channel.",
+   "forward_signal": "Bessent-Xi pre-summit: does Iran-tilt pressure work, or does China use the oil crisis as leverage? Watch oil-for-ceasefire offers."
   },
   {
    "date": "2026-09-09",
