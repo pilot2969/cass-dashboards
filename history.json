@@ -455,6 +455,24 @@
     "2026-09-15",
     74
    ]
+  ],
+  "1859-orientation-confirmation-set": [
+   [
+    "2026-09-15",
+    0.62
+   ]
+  ],
+  "control-clean-election-no-crisis": [
+   [
+    "2026-09-15",
+    0.28
+   ]
+  ],
+  "frx-mget-coupling-1930s-config": [
+   [
+    "2026-09-15",
+    55
+   ]
   ]
  }
 }

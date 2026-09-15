@@ -14,6 +14,33 @@
  },
  "predictions": [
   {
+   "basename": "1859-orientation-confirmation-set",
+   "title": "1859-Model Confirmation Set: Internal Civil-Conflict Orientation",
+   "date_made": "2026-09-15",
+   "statement": "The current crisis resolves along the 1859 axis (internal civil conflict) rather than the 1932 axis (external global war). Confirmation is tiered: T1 = security-force fracture, state-level institutional defection, parallel elite institutions, administrative-map fracture; T2 = paramilitary formation, allegiance purges inside security services, debt-to-region divergence; T3 = fort-grabbing, dual-authority legitimacy, capital flight from federal instruments. Master falsifier: vanguard alignment completing AROUND the federal state against a foreign enemy (the 1932 form) kills this prediction regardless of Leg 2/3 heat.",
+   "confidence": 0.62,
+   "status": "emergent",
+   "evidence_confirmed": [
+    "Federal-state jurisdictional fights already visible (sanctuary vs enforcement, guard federalization disputes)",
+    "Faction-parallel media/institutional ecosystems",
+    "Enforcement-geography divergence from electoral map",
+    "NSPM-7 dual-use: external rhetoric deployed for internal consolidation"
+   ],
+   "evidence_contradicted": [
+    "WWIII-Prologue theater live at 57% \u2014 external enemy image forming",
+    "Iran/oil-shock rails could crystallize a unifying external enemy (1932 fuel)"
+   ],
+   "falsifier": "Vanguard alignment completes AROUND the federal state against a foreign enemy (AUMF-class authorization retained, both factions converge on war program, dissent rebranded as foreign infiltration). Alternatively: renegotiation valve opens (Progressive-Era absorb) and neither axis completes.",
+   "forward_watchlist": [
+    "Guard/reserve-component refusal events",
+    "State-level compact formation (interstate compacts of refusal)",
+    "Security-service allegiance purges",
+    "Regional bank-note/capital divergence (FRX Tier-2 sensor)",
+    "Fort-grabbing / contested-asset seizures",
+    "Post-Nov 3 power-transfer gap (the legitimacy-dual trigger)"
+   ]
+  },
+  {
    "basename": "2026-09-09-90day-phase4-forecast",
    "title": "90-Day Forecast: Phase 4 Detonation Window (Sept 9 - Dec 8, 2026)",
    "date_made": "2026-09-09",
@@ -348,6 +375,35 @@
    ]
   },
   {
+   "basename": "control-clean-election-no-crisis",
+   "title": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
+   "date_made": "2026-09-15",
+   "statement": "The Nov 3 midterms proceed cleanly, results are accepted by all factions without organized contest, and no post-election crisis develops (no refusal-to-cede event, no certification crisis, no legitimacy dual). This is the board's real-time CONTROL: its confirmation would directly damage the 72% legitimacy-catalyst entry, the 76% refusal-to-cede entry, and the gray-zone Phase-B model simultaneously.",
+   "confidence": 0.28,
+   "status": "pending",
+   "evidence_confirmed": [
+    "Election machinery held cleanly in 2022 and 2024",
+    "State certification processes hardened since 2020"
+   ],
+   "evidence_contradicted": [
+    "Post-2020 election-denial infrastructure intact and primary-cleansed of accepting candidates",
+    "NSPM-7-class enforcement active now with no pause mechanism declared",
+    "FRX in quiet-loading state (one spark from arming)",
+    "Gray-zone campaign in active Phase B against non-compliant states/agencies",
+    "2026-09-15: Trump pre-delegitimizes SCOTUS directly (Truth Social, TheBlaze amplification) \u2014 the judicial referee condemned before certification-window disputes can reach it; every counting/dispute institution now pre-condemned"
+   ],
+   "falsifier": "Any of: organized pre-built parallel-slate activation before/at Nov 3; loser-side non-acceptance with litigation+political dual track; refusal-to-cede at certification; legitimacy dual forming; Tier-1 1859 confirmer arriving in the window.",
+   "forward_watchlist": [
+    "Loser-candidate pre-commitment language (largest single mover)",
+    "State certification-commitment statements",
+    "Gray-zone enforcement pause during window",
+    "FRX composite movement in window",
+    "Certification-window enforcement surge",
+    "Exogenous shock before Nov 3",
+    "Further court-delegitimization rhetoric as rulings land; watch for conversion from rhetoric to non-compliance threats (state officials citing the 'corrupt court' framing)"
+   ]
+  },
+  {
    "basename": "de-dollarization-reserve-rotation",
    "title": "De-Dollarization / Reserve-Rotation Attack on the Petrodollar Hinge",
    "date_made": "2026-09-06",
@@ -417,6 +473,25 @@
     "Whether a food-price-shock narrative appears in domestic midterm politics (the regime transmission layer).",
     "Actual landed fertilizer cost at US farm gate - the lagging input that hits food shelves 6-9 months out.",
     "Any fertilizer-specific carve-out corridors in the blockade (humanitarian analog)."
+   ]
+  },
+  {
+   "basename": "frx-mget-coupling-1930s-config",
+   "title": "FRX-MGET Coupling: Market-Plumbing Fire Inside the Phase-4 Window Amplifies to 1930s Configuration",
+   "date_made": "2026-09-15",
+   "statement": "If the FRX composite fires (>=70, or per-leg L1+L3 alert) inside the MGET Phase-4 window (Sept 9-Dec 8, 2026), the legitimacy crisis and the market crisis amplify each other \u2014 the 1930s configuration: institutional decay plus financial collapse interacting, with enclosure ratchet effects historically following such couplings.",
+   "confidence": 55,
+   "status": "emergent",
+   "evidence_confirmed": [],
+   "evidence_contradicted": [],
+   "falsifier": "FRX fires (or MGET Phase-4 window elapses with a market event) WITHOUT mutual amplification \u2014 i.e., a market plumbing event inside the window that produces no legitimacy-crisis interaction (institutions function normally, no ratchet response), or the window closes with neither instrument firing.",
+   "forward_watchlist": [
+    "Basis-trade unwind headlines",
+    "New Fed facility creation (a loop just broke)",
+    "SOFR/repo anomalies",
+    "ETF discounts >1% on core funds",
+    "VIX term-structure inversion >3 days",
+    "Post-Nov 3 power-transfer gap (the MGET-side twin signal)"
    ]
   },
   {
