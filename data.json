@@ -1071,7 +1071,7 @@
    "title": "Strait of Hormuz Blockade",
    "date_made": "2026-07-20",
    "statement": "Strait is effectively closed and or blockaded. [RESOLVED 2026-09-14: confirmed as compliance blockade (condition b) \u2014 routing-sovereignty threshold fired at 75% vs ~60% threshold.]",
-   "confidence": 98.0,
+   "confidence": 98,
    "status": "confirmed",
    "evidence_confirmed": [
     "Fitch Ratings notes 'longer-than-expected effective closure'",
@@ -1093,7 +1093,8 @@
     "2026-09-08: Hedge funds flipped net-long 177M barrels in fuels (gasoline/diesel) as US supply squeeze deepens (Oilprice.com, John Kemp); diesel at all-time high $5.90+/gal, record crack spreads; Brent ~$100. Smart money pricing the closure as structural, not transient.",
     "Sept 11: largest tanker wave of the war; ten tankers destroyed in past week (CENTCOM); Brent breaks $100",
     "2026-09-14 resolution: routing-sovereignty metric fired \u2014 Sept 4-6 Kpler data showed 75% of transits on Iran's unilateral routing scheme (21/28), 15pts above the ~60% stabilization threshold",
-    "2026-09-14 resolution: compliance blockade (condition b) \u2014 transit volumes at blockade levels and shippers treat Iranian routing authority as binding"
+    "2026-09-14 resolution: compliance blockade (condition b) \u2014 transit volumes at blockade levels and shippers treat Iranian routing authority as binding",
+    "2026-09-15: Houthi strike on YASREF Yanbu (East-West pipeline terminus, Red Sea) \u2014 NASA FIRMS heat anomalies confirmed. Blockade now bleeds onto the Red Sea flank; redundant Saudi export capacity under direct attack with no serious response."
    ],
    "evidence_contradicted": [],
    "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
@@ -1106,7 +1107,10 @@
     "Any Iranian unilateral safe-corridor offer or US accepting Iranian opening terms - would immediately truncate blockade confidence.",
     "Iran 'economic war headquarters' (Sept 7): verify via primary sources (Anadolu/IRNA) that Iran has stood up a ministry-level economic-war body with alternative-payment-rail mandates; if confirmed, cross-file to de-dollarization-reserve-rotation as a state-directed reserve-escape mechanism.",
     "Aerostat downing (N. Iraq) + anti-ship missile 'drill' probes: watch whether CENTCOM/DoD confirms or denies; unacknowledged losses of ISR assets mark a tolerance-boundary shift in the gray-zone phase.",
-    "Watch: formal announcement vs de facto toll-gate persistence; physical reopening or US-Iran de-escalation agreement holding 30 days would trip the reopening falsifier"
+    "Watch: formal announcement vs de facto toll-gate persistence; physical reopening or US-Iran de-escalation agreement holding 30 days would trip the reopening falsifier",
+    "YASREF/Yanbu strike aftermath: retaliation vs rhetorical response within 72h",
+    "Strike expansion to Ras Tanura / East pipeline pumping stations",
+    "Brent reaction overnight (gap above ~$115 = acceleration)"
    ]
   },
   {
@@ -1463,6 +1467,17 @@
    "verdict": "confirms",
    "reasoning": "Pre-registered falsifier from Rowe artifact (~3h old) resolved: full opening-lineup collapse + Sheeran's own band walked over Macklemore removal. Hours-scale cascade confirms cultural-sector diffusion; venue-layer removal (not artist decision) shifts fracture locus to commercial infrastructure \u2014 Leg 3 enclosure signature in the culture industry.",
    "forward_signal": "Watch venue statements (ownership of removal) vs silence; refusal of replacements would mark deep cascade. Parallel: same-day coalition defection theme at eight-nation war council."
+  },
+  {
+   "date": "2026-09-15",
+   "track": "oil/hormuz-escalation",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap",
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Houthi strike on YASREF Yanbu hits the East-West pipeline terminus \u2014 the same workaround already flagged down this morning. Redundant capacity is being consumed faster than it can be repaired. Escalation tempo (strikes per week) rising while dominant-power response stays rhetorical. Complexity cap leg: system losing spare capacity with no restoration path visible. Enclosure leg: infrastructure control shifting from state monopoly to whoever can strike it.",
+   "forward_signal": "If Brent gaps above ~$115 overnight or Saudi/US retaliates with force, escalation-ladder track accelerates. If both fail to materialize within 72h, the deterrence-collapse read strengthens further \u2014 watch for strike expansion to Ras Tanura."
   },
   {
    "date": "2026-09-15",

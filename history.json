@@ -1,1 +1,455 @@
-{"meta": {"note": "confidence history per prediction basename; deploy pipeline appends today's score each run", "started": "2026-09-14", "backfilled": "2026-09-15 retroactive anchors"}, "points": {"2026-09-09-90day-phase4-forecast": [["2026-09-14", 0.68], ["2026-09-15", 0.68]], "9-11-inversion-false-flag": [["2026-09-14", 35], ["2026-09-15", 35]], "agent-collective-containment-failures": [["2026-09-14", 70], ["2026-09-15", 70]], "agi-cognitive-labor-repricing": [["2026-09-14", 0.65], ["2026-09-15", 0.65]], "agi-recursive-acceleration-test": [["2026-09-14", 0.6], ["2026-09-15", 0.6]], "agi-scaffold-political-economy": [["2026-09-14", 0.55], ["2026-09-15", 0.55]], "agi-uneven-profile": [["2026-09-14", 0.75], ["2026-09-15", 0.75]], "alpr-surveillance-decoy-substrate": [["2026-09-14", 79], ["2026-09-15", 79]], "assassination-as-catalyst-kirk": [["2026-09-15", 100]], "axon-fusus-ai-fusion-successor": [["2026-09-14", 62], ["2026-09-15", 62]], "cdc-epistemic-capture": [["2026-09-14", 78], ["2026-09-15", 78]], "chemical-biological-weapons": [["2026-09-14", 30], ["2026-09-15", 30]], "conservative-space-economic-defection": [["2026-09-14", 71], ["2026-09-15", 71]], "de-dollarization-reserve-rotation": [["2026-09-14", 66.0], ["2026-09-15", 66.0]], "domestic-enforcement-groundwork": [["2026-09-15", 70]], "fertilizer-supply-crisis": [["2026-09-14", 85], ["2026-09-15", 85]], "ground-invasion-of-iran": [["2026-09-14", 49], ["2026-09-15", 49]], "houthi-red-sea-escalation-fork": [["2026-09-14", 76], ["2026-09-15", 76]], "icscglubkznc": [["2026-09-14", 0.6], ["2026-09-15", 0.6]], "iran-naval-escort-escalation": [["2026-09-14", 88], ["2026-09-15", 88]], "kemalist-preference-reichstag-fallback": [["2026-09-15", 67]], "kinetic-conflict-north-america": [["2026-09-14", 40.0], ["2026-09-15", 40.0]], "kinetic-european-conflict": [["2026-09-14", 66.0], ["2026-09-15", 66.0]], "kirk-anniversary-narrative-2026": [["2026-09-14", 12], ["2026-09-15", 12]], "mid-august-oil-price-shock": [["2026-09-15", 10]], "military-coup-fourth-turning": [["2026-09-14", 54], ["2026-09-15", 54]], "nato-conditional-guilt": [["2026-09-15", 60]], "post-trump-restructure": [["2026-09-15", 76]], "post-wwii-unwinding-cass88": [["2026-09-15", 94]], "regime-power-retention": [["2026-09-14", 76], ["2026-09-15", 76]], "reichstag-fire-national-emergency": [["2026-09-14", 60], ["2026-09-15", 60]], "rogue-ai-substrate-risk": [["2026-09-14", 75], ["2026-09-15", 75]], "russian-internal-fragility": [["2026-09-15", 72]], "short-brutal-decisive-conflict": [["2026-09-14", 70], ["2026-09-15", 70]], "spr-runway-breaks-before-midterms": [["2026-09-14", 82], ["2026-09-15", 82]], "strait-of-hormuz-blockade": [["2026-09-03", 94], ["2026-09-04", 95], ["2026-09-05", 98], ["2026-09-15", 98]], "student-debt-enlistment-cornering": [["2026-09-14", 60], ["2026-09-15", 60]], "substrate-emergence-signature": [["2026-09-14", 0.6], ["2026-09-15", 0.6]], "substrate-shock-mortality-cascade": [["2026-09-14", 75], ["2026-09-15", 75]], "tactical-nuclear-use": [["2026-09-14", 18], ["2026-09-15", 18]], "turning-phase-indicator": [["2026-09-14", 72], ["2026-09-15", 72]], "ukraine-strikes-russian-oil": [["2026-09-14", 100], ["2026-09-15", 100]], "war-question-duel": [["2026-09-14", 9], ["2026-09-15", 9]], "world-war-iii-prologue": [["2026-09-15", 57]], "2026-midterms-legitimacy-catalyst-node": [["2026-09-15", 72]], "post-defeat-consolidation-menu": [["2026-09-15", 74]], "1859-orientation-confirmation-set": [["2026-09-15", 0.62]], "control-clean-election-no-crisis": [["2026-09-04", 73], ["2026-09-15", 23]], "frx-mget-coupling-1930s-config": [["2026-09-15", 55]]}}
+{
+ "meta": {
+  "note": "confidence history per prediction basename; deploy pipeline appends today's score each run",
+  "started": "2026-09-14",
+  "backfilled": "2026-09-15 retroactive anchors"
+ },
+ "points": {
+  "2026-09-09-90day-phase4-forecast": [
+   [
+    "2026-09-14",
+    0.68
+   ],
+   [
+    "2026-09-15",
+    0.68
+   ]
+  ],
+  "9-11-inversion-false-flag": [
+   [
+    "2026-09-14",
+    35
+   ],
+   [
+    "2026-09-15",
+    35
+   ]
+  ],
+  "agent-collective-containment-failures": [
+   [
+    "2026-09-14",
+    70
+   ],
+   [
+    "2026-09-15",
+    70
+   ]
+  ],
+  "agi-cognitive-labor-repricing": [
+   [
+    "2026-09-14",
+    0.65
+   ],
+   [
+    "2026-09-15",
+    0.65
+   ]
+  ],
+  "agi-recursive-acceleration-test": [
+   [
+    "2026-09-14",
+    0.6
+   ],
+   [
+    "2026-09-15",
+    0.6
+   ]
+  ],
+  "agi-scaffold-political-economy": [
+   [
+    "2026-09-14",
+    0.55
+   ],
+   [
+    "2026-09-15",
+    0.55
+   ]
+  ],
+  "agi-uneven-profile": [
+   [
+    "2026-09-14",
+    0.75
+   ],
+   [
+    "2026-09-15",
+    0.75
+   ]
+  ],
+  "alpr-surveillance-decoy-substrate": [
+   [
+    "2026-09-14",
+    79
+   ],
+   [
+    "2026-09-15",
+    79
+   ]
+  ],
+  "assassination-as-catalyst-kirk": [
+   [
+    "2026-09-15",
+    100
+   ]
+  ],
+  "axon-fusus-ai-fusion-successor": [
+   [
+    "2026-09-14",
+    62
+   ],
+   [
+    "2026-09-15",
+    62
+   ]
+  ],
+  "cdc-epistemic-capture": [
+   [
+    "2026-09-14",
+    78
+   ],
+   [
+    "2026-09-15",
+    78
+   ]
+  ],
+  "chemical-biological-weapons": [
+   [
+    "2026-09-14",
+    30
+   ],
+   [
+    "2026-09-15",
+    30
+   ]
+  ],
+  "conservative-space-economic-defection": [
+   [
+    "2026-09-14",
+    71
+   ],
+   [
+    "2026-09-15",
+    71
+   ]
+  ],
+  "de-dollarization-reserve-rotation": [
+   [
+    "2026-09-14",
+    66.0
+   ],
+   [
+    "2026-09-15",
+    66.0
+   ]
+  ],
+  "domestic-enforcement-groundwork": [
+   [
+    "2026-09-15",
+    70
+   ]
+  ],
+  "fertilizer-supply-crisis": [
+   [
+    "2026-09-14",
+    85
+   ],
+   [
+    "2026-09-15",
+    85
+   ]
+  ],
+  "ground-invasion-of-iran": [
+   [
+    "2026-09-14",
+    49
+   ],
+   [
+    "2026-09-15",
+    49
+   ]
+  ],
+  "houthi-red-sea-escalation-fork": [
+   [
+    "2026-09-14",
+    76
+   ],
+   [
+    "2026-09-15",
+    76
+   ]
+  ],
+  "icscglubkznc": [
+   [
+    "2026-09-14",
+    0.6
+   ],
+   [
+    "2026-09-15",
+    0.6
+   ]
+  ],
+  "iran-naval-escort-escalation": [
+   [
+    "2026-09-14",
+    88
+   ],
+   [
+    "2026-09-15",
+    88
+   ]
+  ],
+  "kemalist-preference-reichstag-fallback": [
+   [
+    "2026-09-15",
+    67
+   ]
+  ],
+  "kinetic-conflict-north-america": [
+   [
+    "2026-09-14",
+    40.0
+   ],
+   [
+    "2026-09-15",
+    40.0
+   ]
+  ],
+  "kinetic-european-conflict": [
+   [
+    "2026-09-14",
+    66.0
+   ],
+   [
+    "2026-09-15",
+    66.0
+   ]
+  ],
+  "kirk-anniversary-narrative-2026": [
+   [
+    "2026-09-14",
+    12
+   ],
+   [
+    "2026-09-15",
+    12
+   ]
+  ],
+  "mid-august-oil-price-shock": [
+   [
+    "2026-09-15",
+    10
+   ]
+  ],
+  "military-coup-fourth-turning": [
+   [
+    "2026-09-14",
+    54
+   ],
+   [
+    "2026-09-15",
+    54
+   ]
+  ],
+  "nato-conditional-guilt": [
+   [
+    "2026-09-15",
+    60
+   ]
+  ],
+  "post-trump-restructure": [
+   [
+    "2026-09-15",
+    76
+   ]
+  ],
+  "post-wwii-unwinding-cass88": [
+   [
+    "2026-09-15",
+    0.94
+   ]
+  ],
+  "regime-power-retention": [
+   [
+    "2026-09-14",
+    76
+   ],
+   [
+    "2026-09-15",
+    76
+   ]
+  ],
+  "reichstag-fire-national-emergency": [
+   [
+    "2026-09-14",
+    60
+   ],
+   [
+    "2026-09-15",
+    60
+   ]
+  ],
+  "rogue-ai-substrate-risk": [
+   [
+    "2026-09-14",
+    75
+   ],
+   [
+    "2026-09-15",
+    75
+   ]
+  ],
+  "russian-internal-fragility": [
+   [
+    "2026-09-15",
+    72
+   ]
+  ],
+  "short-brutal-decisive-conflict": [
+   [
+    "2026-09-14",
+    70
+   ],
+   [
+    "2026-09-15",
+    70
+   ]
+  ],
+  "spr-runway-breaks-before-midterms": [
+   [
+    "2026-09-14",
+    82
+   ],
+   [
+    "2026-09-15",
+    82
+   ]
+  ],
+  "strait-of-hormuz-blockade": [
+   [
+    "2026-09-03",
+    94
+   ],
+   [
+    "2026-09-04",
+    95
+   ],
+   [
+    "2026-09-05",
+    98
+   ],
+   [
+    "2026-09-15",
+    98
+   ]
+  ],
+  "student-debt-enlistment-cornering": [
+   [
+    "2026-09-14",
+    60
+   ],
+   [
+    "2026-09-15",
+    60
+   ]
+  ],
+  "substrate-emergence-signature": [
+   [
+    "2026-09-14",
+    0.6
+   ],
+   [
+    "2026-09-15",
+    0.6
+   ]
+  ],
+  "substrate-shock-mortality-cascade": [
+   [
+    "2026-09-14",
+    75
+   ],
+   [
+    "2026-09-15",
+    75
+   ]
+  ],
+  "tactical-nuclear-use": [
+   [
+    "2026-09-14",
+    18
+   ],
+   [
+    "2026-09-15",
+    18
+   ]
+  ],
+  "turning-phase-indicator": [
+   [
+    "2026-09-14",
+    72
+   ],
+   [
+    "2026-09-15",
+    72
+   ]
+  ],
+  "ukraine-strikes-russian-oil": [
+   [
+    "2026-09-14",
+    100
+   ],
+   [
+    "2026-09-15",
+    100
+   ]
+  ],
+  "war-question-duel": [
+   [
+    "2026-09-14",
+    9
+   ],
+   [
+    "2026-09-15",
+    9
+   ]
+  ],
+  "world-war-iii-prologue": [
+   [
+    "2026-09-15",
+    57
+   ]
+  ],
+  "2026-midterms-legitimacy-catalyst-node": [
+   [
+    "2026-09-15",
+    72
+   ]
+  ],
+  "post-defeat-consolidation-menu": [
+   [
+    "2026-09-15",
+    74
+   ]
+  ],
+  "1859-orientation-confirmation-set": [
+   [
+    "2026-09-15",
+    0.62
+   ]
+  ],
+  "control-clean-election-no-crisis": [
+   [
+    "2026-09-04",
+    73
+   ],
+   [
+    "2026-09-15",
+    23.0
+   ]
+  ],
+  "frx-mget-coupling-1930s-config": [
+   [
+    "2026-09-15",
+    55
+   ]
+  ]
+ }
+}
