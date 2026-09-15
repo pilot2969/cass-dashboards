@@ -6,7 +6,7 @@ details>summary{cursor:pointer;}
 details>summary::-webkit-details-marker{display:none;}
 details[open] .chev{transform:rotate(90deg);}
 .chev{display:inline-block;transition:transform .15s;}
-</style></head><body><div class="max-w-4xl mx-auto p-6 md:p-12">
+</style></head><body><p class="text-slate-500 text-sm p-6">Loading board…</p><div class="max-w-4xl mx-auto p-6 md:p-12">
 <header class="mb-8 border-b border-slate-700 pb-6">
 <div class="flex flex-wrap items-center gap-3 mb-3">
 <span class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded">Live Telemetry</span>
@@ -95,7 +95,8 @@ Re-checked every Monday. The watch either upgrades, holds, or expires - never qu
 warningText:`# THRESHOLD WARNING
 
 A WARNING means a specific institutional failure is now happening in public view - not conditions, an event. The named mechanism is live. Details will be posted here at time of upgrade.`};
-fetch('data.json').then(r=>r.json()).then(D=>fetch('history.json').then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
+const bust=u=>u+'?v='+Date.now();
+fetch(bust('data.json'),{cache:'no-store'}).then(r=>r.json()).then(D=>fetch(bust('history.json'),{cache:'no-store'}).then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const HIST=H;
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
@@ -150,5 +151,6 @@ h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger (recent
 D.mget_ledger.slice(-10).reverse().forEach(l=>{
 h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="text-sm font-bold text-amber-400">${esc(l.date)} · ${esc(l.track||'')} · <span class="text-emerald-400">${esc(l.verdict)}</span></p><p class="text-slate-300 text-xs mt-1">${esc(l.reasoning)}</p>${l.forward_signal?`<p class="text-slate-400 text-xs mt-2"><strong>Signal:</strong> ${esc(l.forward_signal)}</p>`:''}</div>`;});
 document.getElementById('app').innerHTML=h;
-}) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+'</p>';});
+}) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+' <button onclick="location.reload(true)" class="underline">Retry</button></p>';
+setInterval(()=>location.reload(true),120000);});
 </script></body></html>
