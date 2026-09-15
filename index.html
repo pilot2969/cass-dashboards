@@ -63,8 +63,9 @@ Re-checked every Monday. The watch either upgrades, holds, or expires - never qu
 warningText:`# THRESHOLD WARNING
 
 A WARNING means a specific institutional failure is now happening in public view - not conditions, an event. The named mechanism is live. Details will be posted here at time of upgrade.`};
-fetch('data.json').then(r=>r.json()).then(D=>{
+fetch('data.json').then(r=>r.json()).then(D=>fetch('history.json').then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const HIST=H;
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
 const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
 const md=t=>esc(t).replace(/^# (.*)$/m,'<h2 class="text-2xl font-bold text-amber-400 mb-3">$1</h2>').replace(/^## (.*)$/gm,'<h3 class="text-lg font-bold text-amber-300 mt-4 mb-2">$1</h3>').replace(/\n\n/g,'</p><p class="text-slate-300 text-sm mb-2">').replace(/\n/g,'<br>');
@@ -85,14 +86,25 @@ let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Forecast Register (${D.predictions.length})</h3>`;
-const byStatus={};D.predictions.forEach(p=>{(byStatus[p.status]??=[]).push(p)});
+const byStatus={};// Confidence-history sparkline per prediction card
+const spark=p=>{const pts=(HIST.points&&HIST.points[p.basename])||[];
+if(pts.length<2)return '';
+const n=pts.length,w=120,h=28,pad=2;
+const mn=Math.min(...pts.map(x=>x[1])),mx=Math.max(...pts.map(x=>x[1])),rg=(mx-mn)||1;
+const X=i=>pad+(w-2*pad)*i/(n-1);
+const Y=v=>h-pad-(h-2*pad)*((v-mn)/rg);
+const path=pts.map((pt,i)=>`${i?'L':'M'}${X(i).toFixed(1)},${Y(pt[1]).toFixed(1)}`).join(' ');
+const up=pts[n-1][1]>=pts[0][1];const col=up?'#f87171':'#4ade80';
+return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="vertical-align:middle" aria-label="confidence trend"><path d="${path}" fill="none" stroke="${col}" stroke-width="1.5"/><circle cx="${X(n-1).toFixed(1)}" cy="${Y(pts[n-1][1]).toFixed(1)}" r="2" fill="${col}"/><title>Confidence history — ${pts.map(pt=>pt[0]+': '+pt[1]).join(' | ')}</title></svg>`;};
+
+D.predictions.forEach(p=>{(byStatus[p.status]??=[]).push(p)});
 ['confirmed','emergent','pending','failed'].forEach(st=>{
 if(!byStatus[st])return;
 h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
 byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach(p=>{
 const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
 h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}</div>
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="sparkline">${spark(p)}</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}</div>
 <p class="text-lg font-bold text-amber-400">${esc(p.title)}</p>
 <p class="text-slate-300 text-sm mt-1">${esc(p.statement)}</p>
 <p class="text-slate-500 text-xs mt-2">📄 Expand for evidence base &amp; falsifier <span class="chev">▶</span></p>
@@ -106,5 +118,5 @@ h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger (recent
 D.mget_ledger.slice(-10).reverse().forEach(l=>{
 h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="text-sm font-bold text-amber-400">${esc(l.date)} · ${esc(l.track||'')} · <span class="text-emerald-400">${esc(l.verdict)}</span></p><p class="text-slate-300 text-xs mt-1">${esc(l.reasoning)}</p>${l.forward_signal?`<p class="text-slate-400 text-xs mt-2"><strong>Signal:</strong> ${esc(l.forward_signal)}</p>`:''}</div>`;});
 document.getElementById('app').innerHTML=h;
-}).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+'</p>';});
+}) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+'</p>';});
 </script></body></html>
