@@ -53,7 +53,8 @@
     "SCOTUS postal-ballot docket live with opposition briefs due Sept 9",
     "Largest tanker wave of war (5 US sinkings, 10 Iranian strikes)",
     "Regime Refusal track at 78 with accountability trap structurally locked",
-    "Sept 11 (T-53): energy shock accelerates (Brent >$101); $5,000 dividend = desperation confirmation; SCOTUS postal case live with opposition briefs due Sept 9"
+    "Sept 11 (T-53): energy shock accelerates (Brent >$101); $5,000 dividend = desperation confirmation; SCOTUS postal case live with opposition briefs due Sept 9",
+    "2026-09-15: compounding-shock morning \u2014 10Y 5.02% (2007 high), Brent >$108 (both export valves compromised), SCOTUS denial converted into DOJ enforcement probes, space weaponization confirmed \u2014 external+internal stressors land same day, matching window configuration"
    ],
    "evidence_contradicted": [],
    "falsifier": "Forecast is DISCONFIRMED if: (1) no acute trigger lands by Nov 3 (the 33% no-trigger branch dominates); (2) a clean concession/transition occurs without certification crisis (Concede branch > Refusal branch); (3) Hormuz stress collapses below 0.80 via negotiated reopening (terminal 0.97 falsified); (4) diesel retreats below $5.00 through October (energy attrition path falsified). Scenario weighting is falsified if the modal outcome (Acute Crisis) fails to materialize while the Concede branch exceeds 35% of realized outcomes.",
@@ -379,7 +380,7 @@
    "title": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
    "date_made": "2026-09-15",
    "statement": "The Nov 3 midterms proceed cleanly, results are accepted by all factions without organized contest, and no post-election crisis develops (no refusal-to-cede event, no certification crisis, no legitimacy dual). This is the board's real-time CONTROL: its confirmation would directly damage the 72% legitimacy-catalyst entry, the 76% refusal-to-cede entry, and the gray-zone Phase-B model simultaneously.",
-   "confidence": 0.28,
+   "confidence": 26.0,
    "status": "pending",
    "evidence_confirmed": [
     "Election machinery held cleanly in 2022 and 2024",
@@ -390,7 +391,8 @@
     "NSPM-7-class enforcement active now with no pause mechanism declared",
     "FRX in quiet-loading state (one spark from arming)",
     "Gray-zone campaign in active Phase B against non-compliant states/agencies",
-    "2026-09-15: Trump pre-delegitimizes SCOTUS directly (Truth Social, TheBlaze amplification) \u2014 the judicial referee condemned before certification-window disputes can reach it; every counting/dispute institution now pre-condemned"
+    "2026-09-15: Trump pre-delegitimizes SCOTUS directly (Truth Social, TheBlaze amplification) \u2014 the judicial referee condemned before certification-window disputes can reach it; every counting/dispute institution now pre-condemned",
+    "2026-09-15: Blanche pre-announces DOJ probes of state election practices hours after SCOTUS denies admin emergency request \u2014 enforcement arm aimed at certification pathway; net pressure on clean-election probability (was 31% -> 26%)"
    ],
    "falsifier": "Any of: organized pre-built parallel-slate activation before/at Nov 3; loser-side non-acceptance with litigation+political dual track; refusal-to-cede at certification; legitimacy dual forming; Tier-1 1859 confirmer arriving in the window.",
    "forward_watchlist": [
@@ -1646,6 +1648,19 @@
    "verdict": "confirms",
    "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
    "forward_signal": "Named fall guy; who assumes consolidated power."
+  },
+  {
+   "date": "2026-09-15",
+   "track": "wire-run",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap",
+    "leg_2_elite_overproduction",
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Compounding-shock morning: SCOTUS denial + DOJ state-election probes (Leg 3 mutation of the enclosure into enforcement), energy shock with gray-zone attribution (Leg 2 accelerant), 10Y at 5.02% (2007 high) with Treasury support operations appearing (FRX legs warming). Three lanes hot simultaneously matches the Phase 4 window configuration.",
+   "forward_signal": "Presser follow-through test; SOFR dispersion and basis-trade de-grossing; European refiner spreads; whether 'space threat' and 'energy emergency' language merges into Leg 4 emergency-powers framing ahead of midterms."
   },
   {
    "date": "2026-09-04",
