@@ -151,7 +151,7 @@ ${p.forward_watchlist&&p.forward_watchlist.length?`<p class="text-xs mt-2"><stro
 </div></details>`;});});
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger (recent)</h3>`;
 D.mget_ledger.slice(-10).reverse().forEach(l=>{
-h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="text-sm font-bold text-amber-400">${esc(l.date)} · ${esc(l.track||'')} · <span class="text-emerald-400">${esc(l.verdict)}</span></p><p class="text-slate-300 text-xs mt-1">${esc(l.reasoning)}</p>${l.forward_signal?`<p class="text-slate-400 text-xs mt-2"><strong>Signal:</strong> ${esc(l.forward_signal)}</p>`:''}</div>`;});
+h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="text-sm font-bold text-amber-400">${esc(l.date)} · ${esc(l.track||'')} · <span class="${l.verdict==='confirms'?'text-emerald-400':l.verdict==='strains'?'text-amber-400':l.verdict==='undermines'?'text-red-400':'text-slate-400'}">${esc(l.verdict)}</span></p><p class="text-slate-300 text-xs mt-1">${esc(l.reasoning)}</p>${l.forward_signal?`<p class="text-slate-400 text-xs mt-2"><strong>Signal:</strong> ${esc(l.forward_signal)}</p>`:''}</div>`;});
 document.getElementById('app').innerHTML=h;
 }) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+' <button onclick="location.reload(true)" class="underline">Retry</button></p>';
 setInterval(()=>location.reload(true),120000);});
