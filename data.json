@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "2.1-data-layer",
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -1439,6 +1439,16 @@
   },
   {
    "date": "2026-09-15",
+   "track": "oil_material_leg",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CNBC 2026-09-15 confirms the East-West pipeline shutdown (Abqaiq\u2192Yanbu, ~4mbpd removed) is the SAFETY-NET closure, not just one route. Brent $106.29, WTI >$100, +21-25% monthly. KEY STRUCTURAL INSIGHT from the feedback loop: attacks on energy infrastructure now constrain repair capacity \u2014 the disruption to shipping prevents import of the parts needed to restore the alternative route. The workaround is not merely damaged; it is trapped inside the same closed system it was designed to bypass. The chokepoint has become self-reinforcing.",
+   "forward_signal": "Inventory buffer: ~1bn barrels already drawn from global stocks, ~1bn remaining to tank bottoms. Five-to-seven-day Saudi inventory cushion before the market repricing event. If the pipeline outage extends past the cushion (analyst estimate: months for repair), Brent breaks upward hard. WATCH: (1) Red Sea / Bab el-Mandeb as second front (James warns the whole Red Sea route is under threat from Iranian pressure). (2) Gulf-state mutual mobilization signals (Oman-Iran meeting postponed = coordinated regional response). (3) Whether Bab el-Mandeb closes, creating the first two-ocean closure event in modern history (Hormuz + Suez-adjacent chokepoint simultaneously)."
+  },
+  {
+   "date": "2026-09-15",
    "track": "war-coalition-fracture",
    "mget_legs_tested": [
     "Leg 4"
@@ -1446,6 +1456,16 @@
    "verdict": "confirms",
    "reasoning": "Massie impeachment filed same day as six Dem articles on Hegseth \u2014 cross-flank constitutional confrontation over the war. Elite vanguard alignment (Leg 4) straining on both flanks simultaneously; Massie floor language invokes oath/Maduro precedent.",
    "forward_signal": "Second GOP cosponsor by Thursday = cohesion-break signal; zero cosponsors + leadership suppression = containment. Watch whips."
+  },
+  {
+   "date": "2026-09-15",
+   "track": "economic-pain/coalition-fracture",
+   "mget_legs_tested": [
+    "leg_2_elite_overproduction"
+   ],
+   "verdict": "strains",
+   "reasoning": "Not elite overproduction in the classical sense \u2014 this is base-level fracture. But the mechanism family is related: when a regime's cost structure breaks its own coalition's material interests, loyalty converts from conviction to transaction, and transactional loyalty evaporates fast under price stress. Strains rather than confirms because n=1, denominator unknown, and the defector still endorses regime-protective framings in his own replies (scapegoat + 4D chess). The fracture is at the price line, not the identity line \u2014 yet.",
+   "forward_signal": "Track whether economic defections (a) accumulate (rate matters, not count), (b) migrate from price-blame to leadership-blame, (c) appear in communities with rising baseline political salience. Reversibility test: if fuel prices retreat, does the defector return? If yes, the coalition was transactional all along \u2014 a chronic fragility, not an acute break."
   },
   {
    "date": "2026-09-15",
@@ -1470,6 +1490,17 @@
   },
   {
    "date": "2026-09-15",
+   "track": "us-institutional-break",
+   "mget_legs_tested": [
+    "leg_2_elite_overproduction",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "The CBS leak represents a total collapse of the 'Official Narrative' layer. Service members are now actively bypassing rigid military media restrictions to expose the gap between command claims ('minimal damage') and operational reality (severed aircraft, hollowed-out barracks). This confirms the vanguard alignment failure: the officers/politicals are detached from the ground-truth, and the ground-truth is now leaking into the public domain to undermine the regime's credibility. The $3.7B loss is a material anchor for the institutional decay.",
+   "forward_signal": "Expect an increase in 'whistleblower' activity from lower-tier officers who cannot sustain the lie of a successful defense. The narrative shift moves from 'winning the war' to 'surviving the collapse' among the rank-and-file."
+  },
+  {
+   "date": "2026-09-15",
    "track": "oil/hormuz-escalation",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1478,6 +1509,39 @@
    "verdict": "confirms",
    "reasoning": "Houthi strike on YASREF Yanbu hits the East-West pipeline terminus \u2014 the same workaround already flagged down this morning. Redundant capacity is being consumed faster than it can be repaired. Escalation tempo (strikes per week) rising while dominant-power response stays rhetorical. Complexity cap leg: system losing spare capacity with no restoration path visible. Enclosure leg: infrastructure control shifting from state monopoly to whoever can strike it.",
    "forward_signal": "If Brent gaps above ~$115 overnight or Saudi/US retaliates with force, escalation-ladder track accelerates. If both fail to materialize within 72h, the deterrence-collapse read strengthens further \u2014 watch for strike expansion to Ras Tanura."
+  },
+  {
+   "date": "2026-09-16",
+   "track": "post_wwii_order_unwinding_alliance_realignment",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "EU proposes Canada as its first 'associate member' (von der Leyen, State of the EU address, Strasbourg), building on CETI/CETA into an 'Alliance for the Future' \u2014 a 'common prosperity and economic security space.' Driver: the historic breakdown in Canada-US trade relations last month (tariffs, 51st-state rhetoric) pushed Ottawa to seek closer European ties. STRUCTURAL READ: this is alliance realignment driven by material force (tariff coercion), not ideological preference \u2014 a G7 founding member seeking formal supranational integration with Brussels because the US security-economic umbrella is no longer reliable. The terminal unwinding prediction (emergent, 0.94) identifies this channel: US withdrawal of assurance causes client states to consolidate alternative blocs. Direct confirmation of the mechanism, not the narrative.",
+   "forward_signal": "Watch: (1) Does the EU-Canada associate membership carry security guarantees or only economic integration (the two diverge sharply on the enclosure leg)? (2) Carney addresses European Parliament Thursday \u2014 watch for whether his language moves from economic security toward hard security framing. (3) Does the US retaliate against Ottawa (secondary tariffs, border pressure)? (4) Does this template extend \u2014 UK post-Brexit reassociation, Japan/ Australia associate track? If a second major US ally enters the same pipeline within 90 days, that's step-change on the alliance-realignment track and the 'post-WWII order unwinding' prediction upgrades from emergent to confirmed-structural."
+  },
+  {
+   "date": "2026-09-16",
+   "track": "morning_wire_sweep",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap",
+    "leg_2_elite_overproduction",
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "OVERNIGHT MORNING SWEEP (06:00 ET, Sep 16).\n\nMATERIAL LEG (1): CONFIRMED + TIGHTENING. (a) Houthis CONFIRM striking Yanbu Aramco facility with 'dozens of ballistic missiles and drones, large fires and widespread destruction' PLUS Khamis Mushait Airbase \u2014 the redundancy node (Yanbu) AND a rear military airbase simultaneously. Chokepoint Saturation Model: system now has NO functioning bypass. (b) Bab al-Mandeb: Al Jazeera team ON SITE reports 'barely any sign of commercial shipping' at peak transit period \u2014 the second chokepoint is functionally dark while remaining nominally open. Pre-registered watch signal firing. (c) Physical cargoes Europe >$130/bbl; Forties crude $136.75 near record; Brent $105.68 close; Goldman flags >$120 upside scenario. (d) CBO: war cost $38bn so far, interceptor stockpiles 50-66% depleted (Patriot/THAAD/SM-3/SM-6), 5yr rebuild, +0.5pp inflation early 2027. Material leg now has BOTH a demand-side shock (oil) and a supply-side stock depletion (munitions).\n\nENCLOSURE LEG (3): CONFIRMED \u2014 STEP-CHANGE. (a) Alliance architecture consolidating BENEATH the US: Mecca Alliance (Saudi-Turkey-Pakistan mutual defense, in force Aug 7) now in active technical talks to EXPAND membership (Turkish FM Fidan, Damascus); Pakistan holds secretariat; Fidan declares attacks on Saudi 'unacceptable from any direction including Iraq-based actors' \u2014 a new bloc assuming regional security-guarantor role WITHOUT Washington. (b) EU-Canada associate membership proposal (von der Leyen) \u2014 G7 ally migrating toward Brussels. Two separate new security-economic architectures forming simultaneously, both excluding the US. This is the hub-and-spoke bypass watchlist item ACTIVATING. (c) CENTCOM blockade continues (103 vessels redirected, +4 since Friday) \u2014 but the blockade now patrols a strait whose bypasses are burning.\n\nVANGUARD LEG (4): TRENDING, NOT STEPPED. Third war-powers passage with record 7 GOP defections (yesterday) = cumulative defection index rising. Massie Hegseth impeachment (8 articles) forcing GOP on-record votes pre-midterm. Araghchi in Beijing; Wang Yi 'willing to safeguard Iran's interests'; China urges return to Islamabad memorandum and reopening Hormuz ahead of Trump-Xi summit \u2014 Beijing positioning as the settlement broker, marginalizing Washington in its own war. Vance signals phase-shift rhetoric ('much different phase in a couple of months') = pre-negotiation positioning or pre-escalation cover, ambiguous.\n\nABSORPTION BIN (scored, not confirmed): Mecca drone incident (intercepted, Houthis deny 'nauseating lie') \u2014 symbolic escalation attempting to fracture Muslim-state solidarity; broad condemnation cascade (UAE, Jordan, Kuwait, Malaysia, Yemen govt) shows the counter-coalition IS cohering \u2014 which paradoxically strengthens the NEW architecture (Mecca Alliance getting its founding test case) while the US remains sidelined as critic.\n\nPROTOCOL CHECK (v1.1): velocity high but three independent structural confirmations (material, enclosure) each pass the gates: measurable institutional response YES, leg movement YES, irreversibility YES for architecture (Yanbu physical damage + alliance treaties + interceptor depletion are all stock, not flow). Leg 4 still trending. MAX 3/4 LEGS ELEVATED \u2192 NO CONVERGENCE FIRE. Watch, not alarm.",
+   "forward_signal": "WATCHLIST: (1) Bab al-Mandeb formal closure event or shipping insurance collapse \u2014 if AJ on-site obs (empty strait) persists >72h, treat as de facto closure and upgrade chokepoint saturation model. (2) Yanbu repair timeline \u2014 if Saudi announces months-not-days, saturation model confirmed, Brent >$120 path opens. (3) Mecca Alliance expansion announcement (who joins next; Egypt? Qatar?) \u2014 second member added = step-change on alliance-realignment track; upgrade terminal-unwinding prediction from emergent toward confirmed-structural. (4) GOP defection count on 4th war-powers vote (7\u219210+ = Leg-4 step-change). (5) Trump-Xi summit (late Sept) \u2014 does Beijing present settlement terms? If US accepts Chinese-brokered deal, petrodollar-hegemony leg takes structural damage. (6) Interceptor replenishment appropriations fight in Congress (CBO $21.7bn bill) \u2014 potential new Leg-4 fault line. (7) Qeshm Island explosions unexplained \u2014 possible Israeli second-front or false-flag seeding; hold pending attribution. (8) SPR runway: monitor weekly draws; if regime taps reserve to cap prices pre-midterm, SPR-breaks prediction window advances."
+  },
+  {
+   "date": "2026-09-16",
+   "track": "vanguard_republican_defection",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "House passes Iran War Powers Resolution (H.Con.Res.93) 220-204 for the THIRD time, with a record SEVEN Republicans breaking ranks. Structural test passed: this is a measurable institutional response (roll-call vote) showing leg movement \u2014 the Republican defection count on war powers is cumulative and growing across three passages. This is Leg-4 stock data, not flow: repeated defections on the same constitutional question = the president's own party increasingly refuses to ratify the war. Caveat under v1.1: passage without Senate action or override is absorption-prone at the OUTPUT level (no binding constraint results), but the defection TREND itself is structural Leg-4 movement independent of whether the resolution binds. The signal is the vote pattern, not the law.",
+   "forward_signal": "Watch: (1) Does the defection count grow on a fourth attempt (7 \u2192 10+ would be step-change)? (2) Does the Senate take it up at all \u2014 first test of whether the trend crosses chambers? (3) Does the White House retaliate against defectors (purge signal = enclosure leg)? (4) Interaction with Massie's Hegseth impeachment \u2014 same dissident cluster? Cross-reference: this is the same structural channel as the June 2026 strikes backlash. Third passage with growing GOP defections = the constitutional constraint is eroding in only one direction: executive dominance of the party, not the reverse."
   },
   {
    "date": "2026-09-15",
