@@ -110,10 +110,16 @@ document.getElementById('gen2').textContent=D.meta.generated;
 const wi=document.getElementById('watch-indicator');
 wi.className='px-3 py-1 rounded text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1 bg-amber-600/20 text-amber-400 border border-amber-500/50';
 wi.innerHTML='⏳ Threshold Watch <span class="text-amber-200/70 normal-case font-normal">· issued '+WATCH_TEXT.issued+' · expires '+WATCH_TEXT.expires+'</span>';
+// Movers panel (changed in last 24h) — collapsible, data-driven
+const mvBlock=()=>{if(!D.movers||!D.movers.length)return '';
+return `<details class="card p-6 rounded-xl border-l-4 border-emerald-500 mb-8" open><summary class="text-xl font-bold text-emerald-400">⏱ Changed in Last 24 Hours — movers only <span class="chev text-slate-400">▶</span></summary>
+<div class="mt-4"><p class="text-slate-400 text-xs mb-3">Only objects that CHANGED surface here: confidence moves, status resolutions, watch-item fires, stage transitions. New capture entries enter the ledger timeline without touching this panel. Empty panel = static board = information.</p>
+<ul class="space-y-2">${D.movers.map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
 // Watch details block
 const wd=document.getElementById('watch-details');
 wd.innerHTML=`<details class="card p-6 rounded-xl border-l-4 border-amber-500"><summary class="text-xl font-bold text-amber-400">⏳ Threshold Watch — active. Click to expand the full issuance text <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4">${md(WATCH_TEXT.issuedText)}</div></details>`;
+wd.insertAdjacentHTML('afterend',mvBlock());
 // Macro
 let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active</div>
