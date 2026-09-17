@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script>
+
 // ---- Share-card engine (v2.8.1) ----
 const PLAIN_EN = {
 label: pe => {
@@ -41,136 +42,8 @@ window.__shareMacro = function(){
   shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
     'CASS Intelligence Board · falsifiers armed and posted');
 };
-</script>
-<style>
-body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}
-.card{background-color:#1e293b;border:1px solid #334155;}
-details>summary{cursor:pointer;}
-details>summary::-webkit-details-marker{display:none;}
-details[open] .chev{transform:rotate(90deg);}
-.chev{display:inline-block;transition:transform .15s;}
-</style>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js">
-// ---- Share-card engine (v2.8.1) ----
-const PLAIN_EN = {
-label: pe => {
-  const st = pe.status, c = Math.round(norm(pe.confidence));
-  if (st === 'confirmed') return 'This already happened — it is on the record.';
-  if (st === 'emergent') return 'This is happening now — the early signs are visible.' + (c ? ` (Our confidence: ${c}%.)` : '');
-  if (st === 'pending') return c >= 85 ? 'We expect this — confidence is high.' : c >= 65 ? 'We consider this likely, but it is not certain.' : 'This is possible but not yet the most likely path.';
-  return 'This did not happen as stated — logged as a miss.';
-}};
-function plainEnglishFor(p){
-  const line = PLAIN_EN.label(p);
-  const fz = p.falsifier ? ` How we would know we are wrong: ${p.falsifier}` : '';
-  return `${line}${fz}`;
-}
-window.__cardCSSInj = false;
-function injectCardCSS(){ window.__cardCSSInj = true; }
-function shareCard(title, badge, badgeColor, bodyHTML, footnote){
-  injectCardCSS();
-  const card=document.createElement('div'); card.className='share-card';
-  card.innerHTML=`<div class="masthead">⚡ CASS INTELLIGENCE BOARD</div><h1 class="sc-title">${title}</h1><div>${badge?'<span class="sc-badge" style="background:'+badgeColor+';color:#fff">'+badge+'</span>':''}</div><div>${bodyHTML}</div><div class="sc-foot">${footnote}</div>`;
-  document.body.appendChild(card);
-  html2canvas(card,{backgroundColor:'#0f172a',scale:2}).then(canvas=>{
-    canvas.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cass-card-'+Date.now()+'.png';a.click();
-      setTimeout(()=>{URL.revokeObjectURL(a.href);card.remove();},400);});
-  });
-}
-window.shareCard = shareCard;
-window.__shareP = function(i){
-  const p = D.predictions[i];
-  const secs = `<div class="sc-sec">In plain English</div><div class="sc-body">${esc(plainEnglishFor(p))}</div>`
-    + (p.evidence_confirmed&&p.evidence_confirmed.length?`<div class="sc-sec">Why we believe this</div><ul class="sc-list">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
-    + (p.evidence_contradicted&&p.evidence_contradicted.length?`<div class="sc-sec">Evidence against</div><ul class="sc-list">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
-    + (p.falsifier?`<div class="sc-sec">How we would know we are wrong</div><div class="sc-body">${esc(p.faiserer||p.falsifier)}</div>`:'');
-  shareCard(esc(p.title), Math.round(norm(p.confidence))+'% · '+p.status, badge(p.confidence), secs,
-    'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
-};
-window.__shareMacro = function(){
-  const m=D.macro_forecast;
-  const body=`<div class="sc-sec">The call</div><div class="sc-body">${esc(m.statement||m.title)}</div><div class="sc-sec">Confidence</div><div class="sc-body">CASS confidence: ${Math.round(norm(m.confidence))}% (raised from ${Math.round(norm(m.previous_confidence))}% on ${m.raised_date}).</div>`;
-  shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
-    'CASS Intelligence Board · falsifiers armed and posted');
-};
-</script>
-<style>
-.share-card{position:fixed;left:-10000px;top:0;width:720px;background:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;padding:32px;border-radius:16px;border:2px solid #f59e0b;}
-.share-card .masthead{font-size:13px;font-weight:800;letter-spacing:.15em;color:#f59e0b;text-transform:uppercase;margin-bottom:8px;}
-.share-card h1.sc-title{font-size:26px;font-weight:800;color:#f8fafc;margin:6px 0 10px;line-height:1.2;}
-.share-card .sc-badge{display:inline-block;padding:4px 12px;border-radius:6px;font-size:13px;font-weight:700;margin-right:8px;}
-.share-card .sc-sec{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:18px 0 6px;color:#f59e0b;}
-.share-card .sc-body{font-size:15px;line-height:1.5;color:#e2e8f0;}
-.share-card ul.sc-list{margin:4px 0 0 18px;}
-.share-card li{font-size:14px;line-height:1.45;color:#e2e8f0;margin-bottom:4px;}
-.share-card .sc-foot{margin-top:20px;font-size:11px;color:#64748b;border-top:1px solid #334155;padding-top:10px;}
-.share-btn{cursor:pointer;user-select:none;}
-</style></head><body><p class="text-slate-500 text-sm p-6">Loading board…</p><div class="max-w-4xl mx-auto p-6 md:p-12">
-<header class="mb-8 border-b border-slate-700 pb-6">
-<div class="flex flex-wrap items-center gap-3 mb-3">
-<span class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded">Live Telemetry</span>
-<span id="watch-indicator" class="px-3 py-1 rounded text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1"></span>
-</div>
-<h1 class="text-4xl md:text-5xl font-extrabold text-amber-400 mb-2">CASS Intelligence Board</h1>
-<p class="text-slate-300 text-lg">The transitions genuinely in motion — with the evidence base shown alongside every number — and the honest record of how we've done.</p>
-<p class="text-right text-amber-400 text-xs mt-2">⚡ Updated <span id="gen"></span></p>
-</header>
-<div class="card p-6 rounded-xl mb-8 border-l-4 border-amber-500">
-<h2 class="text-xl font-bold text-amber-400 mb-2">How to read this board</h2>
-<p class="text-slate-300 text-sm">We do NOT track every variable. We track only transitions that clear a relevance threshold. Every number is a <em>bet on a mechanism</em>, and every bet is backed by a visible evidence base and an armed falsifier. A forecast that cannot be falsified is not a forecast — it is a mood. When a forecast stops clearing the bar, it moves to the accountability record below.</p>
-</div>
-<div id="watch-details" class="mb-8"></div>
-<div id="app"><p class="text-slate-400">Loading model state…</p></div>
-<details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-10"><summary class="text-xl font-bold text-amber-400">📖 Methodology — how this board is built and how it is tested <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
-<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">The MGET framework.</strong> The board runs on a four-leg model of systemic failure: <strong>Leg 1</strong> — complexity cap / material substrate (energy, logistics, money); <strong>Leg 2</strong> — elite overproduction / class friction; <strong>Leg 3</strong> — enclosure mutation (institutions becoming opaque, weaponized, or unaccountable); <strong>Leg 4</strong> — vanguard alignment (coordinated counter-elites forming). Each leg is scored 0–15 from visible, public evidence only.</div>
-<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Forecasts are bets on mechanisms, not dates.</strong> Each entry names its mechanism, its evidence base, and its falsifier — the specific condition that would retire it. When a falsifier triggers, the forecast is retired publicly, on this page. A forecast that cannot be falsified is not a forecast; it is a mood.</div>
-<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Lead-time measurement.</strong> Every forecast shows the date it was logged and the date it resolved. The gap between the two is our lead time — measured, not claimed.</div>
-<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">The Threshold Watch.</strong> The watch is the board's public storm signal. A watch does not say an event is happening; it says conditions are primed. It carries an expiry date, is re-checked weekly, and can only do three things: upgrade, hold, or expire. It never quietly lapses.</div>
-<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Blind backtesting.</strong> The model is validated by reconstructing past eras using only period-available information, then scoring the call against what actually happened. The protocol requires three passes: correct mechanism class, directional macro call, and nulls produced where nulls were warranted. To date, twelve eras and one counter-case battery have been tested:</div>
-<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Nov 2019</strong> (pre-corridor): board printed 22%, no watch — correct null.</div>
-<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Sept 2001</strong> (exogenous shock): macro silent at 12%; the vanguard leg caught the shock class at 35–40%.</div>
-<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Sept 2008</strong> (corridor detonation): board printed ~70%, watch issued; detonation landed inside the stated 30-day window.</div>
-<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Full historical sweep (n=8)</strong>: Reformation 1517, Glorious Revolution 1688, French Revolution 1787, 1848 revolutions, 1968 counterculture, plus three control eras — legs scored on period wire only. Score: 6 of 8 clean PASS, 1 PARTIAL, 1 MISSED.</div>
-<div class="text-slate-300 text-xs mb-4 ml-4">• <strong>Counter-case battery</strong>: Soviet 1965, Singapore 1990, China 2000 — raw opacity shows ~zero conversion to decay timing; Leg 3's mutation signal, not opacity itself, carries the timing power.</div>
-<div class="text-slate-400 text-xs">Full protocol: <em>CASS Blind Backtest Protocol (Standing Methodology)</em>, Samuel Adams, 2026. Sample size: n=3 original + n=8 historical sweep + 3 counter-cases (12 eras total). Known limits are stated in the protocol, including the risk of outcome contamination in self-graded runs and the provenance caveat that sweep eras are reconstructions rather than true blind runs. Per-era leg scores and grades are recorded in the <strong>MGET control ledger</strong>.</div>
-</div></details>
-<details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📋 Data Dictionary — every field on this board, defined <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
-<p class="text-slate-400 text-xs mb-3">Definitions for every term used in the Forecast Register, Macro Forecast, and MGET Ledger below. Written so a first-time reader can interpret any card without prior context.</p>
-<table class="w-full text-xs text-slate-300"><tbody>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Confidence %</td><td class="py-2">The board's probability estimate that the statement resolves as written. Rendered on the card's badge; the sparkline beside it shows how that number has moved over time. A flat line at a fixed value means no new evidence moved the estimate — itself information.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: pending</td><td class="py-2">Statement is live; no falsifier has triggered and no resolution date has arrived.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: emergent</td><td class="py-2">Partial confirmations are accumulating but the statement's full resolution criteria are not yet met — the mechanism is visibly underway.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: confirmed</td><td class="py-2">The falsifier's symmetric criteria have been met — the event happened as specified, on record.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: failed</td><td class="py-2">The falsifier triggered against the prediction. Logged publicly — misses stay on the board.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Falsifier</td><td class="py-2">The specific, dated, observable condition that would kill or resolve the prediction. Written before the outcome is known. If the falsifier is ambiguous, the prediction is not instrument-grade.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Evidence confirmed</td><td class="py-2">Facts on the record that support the statement. Listed itemized so each can be independently checked.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Evidence contradicted</td><td class="py-2">Facts on the record that cut against the statement. Logged with equal prominence — the board's honesty test.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Watch (forward)</td><td class="py-2">Named signals to monitor next — the specific events that would move confidence up or down.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">⏱ lead time</td><td class="py-2">Interval from the log date to the resolution date, shown on resolved entries. The board's calibration record.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Macro Forecast</td><td class="py-2">The board's single highest-conviction systemic call. One at a time; falsifiers armed; retired publicly if triggered.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">MGET Ledger</td><td class="py-2">Running log of mechanism tests: each entry records a real-world event scored against the model's legs (complexity cap, elite overproduction, enclosure mutation, vanguard alignment). Verdicts: confirms / strains / undermines / neutral.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">MGET legs</td><td class="py-2">The four structural legs of the model being tested by each ledger entry. An entry may test one or several.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Forward signal</td><td class="py-2">What the ledger entry implies to watch next — feeding the next day's scan.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Sparkline</td><td class="py-2">Per-card confidence trend line from history.json — daily snapshots, oldest to newest, red if rising, green if falling. Hover for dated values.</td></tr>
-<tr><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Watch (term)</td><td class="py-2">A watch is NOT a prediction. It means conditions are primed — if a spark lands, it will travel fast.</td></tr>
-</tbody></table></div></details>
-<details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
-<table class="w-full text-xs text-slate-300"><tbody>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">📸 Share Card on every prediction card and the macro forecast header. Card exports the claim, plain-English translation, evidence chain, and armed falsifier as one shareable image.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Sparklines removed (low signal-to-noise); share-card engine v1 shipped.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Added Data Dictionary section (15 field definitions) and this Change Log. Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Confidence-history sparklines added to every prediction card — daily snapshots auto-merged on each deploy via persistent history.json.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.3</td><td class="py-2">Methodology explainer section: MGET legs, falsifier discipline, lead-time, Threshold Watch, blind backtest results.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.2</td><td class="py-2">Professional layout; log/resolve dates with lead-time display; Threshold Watch banner indicator with expandable issuance text.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.1</td><td class="py-2">Forecast language, confidence normalization, public header.</td></tr>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.0</td><td class="py-2">Data-driven rebuild: board renders live from data.json; live 94% macro forecast; credentials stripped from public files.</td></tr>
-<tr><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-11 · v1.x</td><td class="py-2">Early auto-sync builds — static board, first public deployment.</td></tr>
-</tbody></table>
-<p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
-</div></details>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.1 · <span id="gen2"></span></footer>
-</div><script>
+
+
 const WATCH_TEXT={issued:'2026-09-12',expires:'2026-12-15',issuedText:`# THRESHOLD WATCH
 
 ## Why we are issuing this watch
@@ -254,46 +127,93 @@ document.getElementById('app').innerHTML=h;
 }) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+' <button onclick="location.reload(true)" class="underline">Retry</button></p>';
 setInterval(()=>location.reload(true),120000);});
 
-// ---- Share-card engine (v2.8.1) ----
-const PLAIN_EN = {
-label: pe => {
-  const st = pe.status, c = Math.round(norm(pe.confidence));
-  if (st === 'confirmed') return 'This already happened — it is on the record.';
-  if (st === 'emergent') return 'This is happening now — the early signs are visible.' + (c ? ` (Our confidence: ${c}%.)` : '');
-  if (st === 'pending') return c >= 85 ? 'We expect this — confidence is high.' : c >= 65 ? 'We consider this likely, but it is not certain.' : 'This is possible but not yet the most likely path.';
-  return 'This did not happen as stated — logged as a miss.';
-}};
-function plainEnglishFor(p){
-  const line = PLAIN_EN.label(p);
-  const fz = p.falsifier ? ` How we would know we are wrong: ${p.falsifier}` : '';
-  return `${line}${fz}`;
-}
-window.__cardCSSInj = false;
-function injectCardCSS(){ window.__cardCSSInj = true; }
-function shareCard(title, badge, badgeColor, bodyHTML, footnote){
-  injectCardCSS();
-  const card=document.createElement('div'); card.className='share-card';
-  card.innerHTML=`<div class="masthead">⚡ CASS INTELLIGENCE BOARD</div><h1 class="sc-title">${title}</h1><div>${badge?'<span class="sc-badge" style="background:'+badgeColor+';color:#fff">'+badge+'</span>':''}</div><div>${bodyHTML}</div><div class="sc-foot">${footnote}</div>`;
-  document.body.appendChild(card);
-  html2canvas(card,{backgroundColor:'#0f172a',scale:2}).then(canvas=>{
-    canvas.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cass-card-'+Date.now()+'.png';a.click();
-      setTimeout(()=>{URL.revokeObjectURL(a.href);card.remove();},400);});
-  });
-}
-window.shareCard = shareCard;
-window.__shareP = function(i){
-  const p = D.predictions[i];
-  const secs = `<div class="sc-sec">In plain English</div><div class="sc-body">${esc(plainEnglishFor(p))}</div>`
-    + (p.evidence_confirmed&&p.evidence_confirmed.length?`<div class="sc-sec">Why we believe this</div><ul class="sc-list">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
-    + (p.evidence_contradicted&&p.evidence_contradicted.length?`<div class="sc-sec">Evidence against</div><ul class="sc-list">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
-    + (p.falsifier?`<div class="sc-sec">How we would know we are wrong</div><div class="sc-body">${esc(p.faiserer||p.falsifier)}</div>`:'');
-  shareCard(esc(p.title), Math.round(norm(p.confidence))+'% · '+p.status, badge(p.confidence), secs,
-    'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
-};
-window.__shareMacro = function(){
-  const m=D.macro_forecast;
-  const body=`<div class="sc-sec">The call</div><div class="sc-body">${esc(m.statement||m.title)}</div><div class="sc-sec">Confidence</div><div class="sc-body">CASS confidence: ${Math.round(norm(m.confidence))}% (raised from ${Math.round(norm(m.previous_confidence))}% on ${m.raised_date}).</div>`;
-  shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
-    'CASS Intelligence Board · falsifiers armed and posted');
-};
-</script></body></html>
+
+</script>
+<style>
+body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}
+.card{background-color:#1e293b;border:1px solid #334155;}
+details>summary{cursor:pointer;}
+details>summary::-webkit-details-marker{display:none;}
+details[open] .chev{transform:rotate(90deg);}
+.chev{display:inline-block;transition:transform .15s;}
+details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}
+</style>
+
+<style>
+.share-card{position:fixed;left:-10000px;top:0;width:720px;background:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;padding:32px;border-radius:16px;border:2px solid #f59e0b;}
+.share-card .masthead{font-size:13px;font-weight:800;letter-spacing:.15em;color:#f59e0b;text-transform:uppercase;margin-bottom:8px;}
+.share-card h1.sc-title{font-size:26px;font-weight:800;color:#f8fafc;margin:6px 0 10px;line-height:1.2;}
+.share-card .sc-badge{display:inline-block;padding:4px 12px;border-radius:6px;font-size:13px;font-weight:700;margin-right:8px;}
+.share-card .sc-sec{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:18px 0 6px;color:#f59e0b;}
+.share-card .sc-body{font-size:15px;line-height:1.5;color:#e2e8f0;}
+.share-card ul.sc-list{margin:4px 0 0 18px;}
+.share-card li{font-size:14px;line-height:1.45;color:#e2e8f0;margin-bottom:4px;}
+.share-card .sc-foot{margin-top:20px;font-size:11px;color:#64748b;border-top:1px solid #334155;padding-top:10px;}
+.share-btn{cursor:pointer;user-select:none;}
+</style><script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head><body><p class="text-slate-500 text-sm p-6">Loading board…</p><div class="max-w-4xl mx-auto p-6 md:p-12">
+<header class="mb-8 border-b border-slate-700 pb-6">
+<div class="flex flex-wrap items-center gap-3 mb-3">
+<span class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded">Live Telemetry</span>
+<span id="watch-indicator" class="px-3 py-1 rounded text-xs font-bold uppercase tracking-wider inline-flex items-center gap-1"></span>
+</div>
+<h1 class="text-4xl md:text-5xl font-extrabold text-amber-400 mb-2">CASS Intelligence Board</h1>
+<p class="text-slate-300 text-lg">The transitions genuinely in motion — with the evidence base shown alongside every number — and the honest record of how we've done.</p>
+<p class="text-right text-amber-400 text-xs mt-2">⚡ Updated <span id="gen"></span></p>
+</header>
+<div class="card p-6 rounded-xl mb-8 border-l-4 border-amber-500">
+<h2 class="text-xl font-bold text-amber-400 mb-2">How to read this board</h2>
+<p class="text-slate-300 text-sm">We do NOT track every variable. We track only transitions that clear a relevance threshold. Every number is a <em>bet on a mechanism</em>, and every bet is backed by a visible evidence base and an armed falsifier. A forecast that cannot be falsified is not a forecast — it is a mood. When a forecast stops clearing the bar, it moves to the accountability record below.</p>
+</div>
+<div id="watch-details" class="mb-8"></div>
+<div id="app"><p class="text-slate-400">Loading model state…</p></div>
+<details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-10"><summary class="text-xl font-bold text-amber-400">📖 Methodology — how this board is built and how it is tested <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
+<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">The MGET framework.</strong> The board runs on a four-leg model of systemic failure: <strong>Leg 1</strong> — complexity cap / material substrate (energy, logistics, money); <strong>Leg 2</strong> — elite overproduction / class friction; <strong>Leg 3</strong> — enclosure mutation (institutions becoming opaque, weaponized, or unaccountable); <strong>Leg 4</strong> — vanguard alignment (coordinated counter-elites forming). Each leg is scored 0–15 from visible, public evidence only.</div>
+<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Forecasts are bets on mechanisms, not dates.</strong> Each entry names its mechanism, its evidence base, and its falsifier — the specific condition that would retire it. When a falsifier triggers, the forecast is retired publicly, on this page. A forecast that cannot be falsified is not a forecast; it is a mood.</div>
+<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Lead-time measurement.</strong> Every forecast shows the date it was logged and the date it resolved. The gap between the two is our lead time — measured, not claimed.</div>
+<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">The Threshold Watch.</strong> The watch is the board's public storm signal. A watch does not say an event is happening; it says conditions are primed. It carries an expiry date, is re-checked weekly, and can only do three things: upgrade, hold, or expire. It never quietly lapses.</div>
+<div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Blind backtesting.</strong> The model is validated by reconstructing past eras using only period-available information, then scoring the call against what actually happened. The protocol requires three passes: correct mechanism class, directional macro call, and nulls produced where nulls were warranted. To date, twelve eras and one counter-case battery have been tested:</div>
+<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Nov 2019</strong> (pre-corridor): board printed 22%, no watch — correct null.</div>
+<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Sept 2001</strong> (exogenous shock): macro silent at 12%; the vanguard leg caught the shock class at 35–40%.</div>
+<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Sept 2008</strong> (corridor detonation): board printed ~70%, watch issued; detonation landed inside the stated 30-day window.</div>
+<div class="text-slate-300 text-xs mb-1 ml-4">• <strong>Full historical sweep (n=8)</strong>: Reformation 1517, Glorious Revolution 1688, French Revolution 1787, 1848 revolutions, 1968 counterculture, plus three control eras — legs scored on period wire only. Score: 6 of 8 clean PASS, 1 PARTIAL, 1 MISSED.</div>
+<div class="text-slate-300 text-xs mb-4 ml-4">• <strong>Counter-case battery</strong>: Soviet 1965, Singapore 1990, China 2000 — raw opacity shows ~zero conversion to decay timing; Leg 3's mutation signal, not opacity itself, carries the timing power.</div>
+<div class="text-slate-400 text-xs">Full protocol: <em>CASS Blind Backtest Protocol (Standing Methodology)</em>, Samuel Adams, 2026. Sample size: n=3 original + n=8 historical sweep + 3 counter-cases (12 eras total). Known limits are stated in the protocol, including the risk of outcome contamination in self-graded runs and the provenance caveat that sweep eras are reconstructions rather than true blind runs. Per-era leg scores and grades are recorded in the <strong>MGET control ledger</strong>.</div>
+</div></details>
+<details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📋 Data Dictionary — every field on this board, defined <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
+<p class="text-slate-400 text-xs mb-3">Definitions for every term used in the Forecast Register, Macro Forecast, and MGET Ledger below. Written so a first-time reader can interpret any card without prior context.</p>
+<table class="w-full text-xs text-slate-300"><tbody>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Confidence %</td><td class="py-2">The board's probability estimate that the statement resolves as written. Rendered on the card's badge; the sparkline beside it shows how that number has moved over time. A flat line at a fixed value means no new evidence moved the estimate — itself information.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: pending</td><td class="py-2">Statement is live; no falsifier has triggered and no resolution date has arrived.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: emergent</td><td class="py-2">Partial confirmations are accumulating but the statement's full resolution criteria are not yet met — the mechanism is visibly underway.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: confirmed</td><td class="py-2">The falsifier's symmetric criteria have been met — the event happened as specified, on record.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Status: failed</td><td class="py-2">The falsifier triggered against the prediction. Logged publicly — misses stay on the board.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Falsifier</td><td class="py-2">The specific, dated, observable condition that would kill or resolve the prediction. Written before the outcome is known. If the falsifier is ambiguous, the prediction is not instrument-grade.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Evidence confirmed</td><td class="py-2">Facts on the record that support the statement. Listed itemized so each can be independently checked.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Evidence contradicted</td><td class="py-2">Facts on the record that cut against the statement. Logged with equal prominence — the board's honesty test.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Watch (forward)</td><td class="py-2">Named signals to monitor next — the specific events that would move confidence up or down.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">⏱ lead time</td><td class="py-2">Interval from the log date to the resolution date, shown on resolved entries. The board's calibration record.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Macro Forecast</td><td class="py-2">The board's single highest-conviction systemic call. One at a time; falsifiers armed; retired publicly if triggered.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">MGET Ledger</td><td class="py-2">Running log of mechanism tests: each entry records a real-world event scored against the model's legs (complexity cap, elite overproduction, enclosure mutation, vanguard alignment). Verdicts: confirms / strains / undermines / neutral.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">MGET legs</td><td class="py-2">The four structural legs of the model being tested by each ledger entry. An entry may test one or several.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Forward signal</td><td class="py-2">What the ledger entry implies to watch next — feeding the next day's scan.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Sparkline</td><td class="py-2">Per-card confidence trend line from history.json — daily snapshots, oldest to newest, red if rising, green if falling. Hover for dated values.</td></tr>
+<tr><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">Watch (term)</td><td class="py-2">A watch is NOT a prediction. It means conditions are primed — if a spark lands, it will travel fast.</td></tr>
+</tbody></table></div></details>
+<details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
+<table class="w-full text-xs text-slate-300"><tbody>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">📸 Share Card on every prediction card and the macro forecast header. Card exports the claim, plain-English translation, evidence chain, and armed falsifier as one shareable image.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Sparklines removed (low signal-to-noise); share-card engine v1 shipped.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Added Data Dictionary section (15 field definitions) and this Change Log. Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Confidence-history sparklines added to every prediction card — daily snapshots auto-merged on each deploy via persistent history.json.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.3</td><td class="py-2">Methodology explainer section: MGET legs, falsifier discipline, lead-time, Threshold Watch, blind backtest results.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.2</td><td class="py-2">Professional layout; log/resolve dates with lead-time display; Threshold Watch banner indicator with expandable issuance text.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.1</td><td class="py-2">Forecast language, confidence normalization, public header.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.0</td><td class="py-2">Data-driven rebuild: board renders live from data.json; live 94% macro forecast; credentials stripped from public files.</td></tr>
+<tr><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-11 · v1.x</td><td class="py-2">Early auto-sync builds — static board, first public deployment.</td></tr>
+</tbody></table>
+<p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
+</div></details>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.1 · <span id="gen2"></span></footer>
+</div></body></html>
