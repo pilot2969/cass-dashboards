@@ -1,9 +1,8 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <style>
 body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}
 .card{background-color:#1e293b;border:1px solid #334155;}
-details>summary{cursor:pointer;list-style:none;}details>summary::-webkit-details-marker{display:none;}
+details>summary{cursor:pointer;}
 details>summary::-webkit-details-marker{display:none;}
 details[open] .chev{transform:rotate(90deg);}
 .chev{display:inline-block;transition:transform .15s;}
@@ -58,7 +57,6 @@ details[open] .chev{transform:rotate(90deg);}
 </tbody></table></div></details>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
 <table class="w-full text-xs text-slate-300"><tbody>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1</td><td class="py-2">Fixed <b>Share Card engine</b>: section rendering (plain-English / evidence / falsifier) now deploys with the card, prediction buttons quote-proofed via basename lookup, summary disclosure arrows suppressed. Auto-drafted <code>plain_english</code> for all 52 predictions + macro so every card exports fully populated.</td></tr><tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">Added <b>📸 Share Card</b> buttons to every prediction card and the macro forecast header — exports claim, plain-English translation, confirmed evidence, and falsifier as a branded PNG that survives context collapse. Fixed macro card capturing placeholder text (live-data lookup at click time).</td></tr><tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Initial share-card engine shipped (html2canvas), card CSS, movers + macro buttons. Debugged silent ReferenceError: handler scoped inside script closure, invisible to inline onclick.</td></tr><tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-16 · v2.5</td><td class="py-2">Added collapsible <b>Changed in Last 24 Hours</b> panel (movers-only: confidence moves, status resolutions, watch-item fires, stage transitions) directly under Threshold Watch — surfaces what changed so readers skip re-reading static board. Panel is injected by the deploy pipeline itself (persistent movers.json), fixing an earlier bug where a hand-patched panel was silently overwritten by the data export. Token moved to persistent drive storage after a reboot wiped it.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Added Data Dictionary section (15 field definitions) and this Change Log. Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Confidence-history sparklines added to every prediction card — daily snapshots auto-merged on each deploy via persistent history.json.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.3</td><td class="py-2">Methodology explainer section: MGET legs, falsifier discipline, lead-time, Threshold Watch, blind backtest results.</td></tr>
@@ -69,7 +67,7 @@ details[open] .chev{transform:rotate(90deg);}
 </tbody></table>
 <p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
 </div></details>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.1 · <span id="gen2"></span></footer>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.4 · <span id="gen2"></span></footer>
 </div><script>
 const WATCH_TEXT={issued:'2026-09-12',expires:'2026-12-15',issuedText:`# THRESHOLD WATCH
 
@@ -116,26 +114,15 @@ wi.innerHTML='⏳ Threshold Watch <span class="text-amber-200/70 normal-case fon
 const mvBlock=()=>{if(!D.movers||!D.movers.length)return '';
 return `<details class="card p-6 rounded-xl border-l-4 border-emerald-500 mb-8" open><summary class="text-xl font-bold text-emerald-400">⏱ Changed in Last 24 Hours — movers only <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4"><p class="text-slate-400 text-xs mb-3">Only objects that CHANGED surface here: confidence moves, status resolutions, watch-item fires, stage transitions. New capture entries enter the ledger timeline without touching this panel. Empty panel = static board = information.</p>
-<ul class="space-y-2">${D.movers.map((m,i)=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span> <button onclick="shareCard('MOVER: ${esc(m.ref).replace(/'/g,'')}', 'CHANGED', '24-hour movers panel','${esc(m.change).replace(/'/g,'')}')" class="sc-btn" style="background:#064e3b;color:#6ee7b7;font-size:10px;padding:1px 6px;border-radius:4px;cursor:pointer">📸</button></li>`).join('')}</ul></div></details>`;};
+<ul class="space-y-2">${D.movers.map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
 // Watch details block
 const wd=document.getElementById('watch-details');
 wd.innerHTML=`<details class="card p-6 rounded-xl border-l-4 border-amber-500"><summary class="text-xl font-bold text-amber-400">⏳ Threshold Watch — active. Click to expand the full issuance text <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4">${md(WATCH_TEXT.issuedText)}</div></details>`;
 wd.insertAdjacentHTML('afterend',mvBlock());
-// ---- SHARE CARD ENGINE (v2.6) ----
-CARD_CSS=`.sc{width:560px;background:#0f172a;color:#e2e8f0;padding:24px;border:1px solid #334155;border-top:4px solid #f59e0b;font-family:ui-sans-serif,system-ui,sans-serif;position:absolute;left:-9999px;top:0}.sc .br{font-size:11px;letter-spacing:2px;color:#f59e0b;font-weight:800}.sc .t{font-size:20px;font-weight:800;margin:6px 0}.sc .v{font-size:14px;line-height:1.5;color:#cbd5e1}.sc .v b{color:#fbbf24}.sc .sc-sec{margin-top:10px;text-align:left;font-size:12px;line-height:1.45}.sc-sec .sc-h{display:block;font-size:9px;letter-spacing:1.5px;color:#f59e0b;font-weight:700;margin-bottom:4px}.f{margin-top:14px;padding-top:10px;border-top:1px solid #334155;font-size:11px;color:#64748b;display:flex;justify-content:space-between}`;
-window.shareCard=(title,verdict,leg,body,extras)=>{extras=extras||{};
-const secs=(extras.claim?'<div class="sc-sec"><span class="sc-h">IN PLAIN ENGLISH</span>'+extras.claim+'</div>':'')
-+(extras.evidence?'<div class="sc-sec"><span class="sc-h">WHY WE BELIEVE THIS</span>'+extras.evidence+'</div>':'')
-+(extras.falsifier?'<div class="sc-sec"><span class="sc-h">HOW TO PROVE US WRONG</span>'+extras.falsifier+'</div>':'');
-const wrap=document.createElement('div');wrap.className='sc';wrap.innerHTML=`<div class="br">CASS INTELLIGENCE BOARD</div><div class="t">${title}</div><div class="v">VERDICT: <b>${verdict}</b> · ${leg}</div><div class="v" style="margin-top:8px">${body}</div>${secs}<div class="f"><span>CASS · Society Signal · falsifiable, always</span><span>casstl.com</span></div>`;document.body.appendChild(wrap);html2canvas(wrap,{backgroundColor:'#0f172a',scale:2}).then(c=>{const a=document.createElement('a');a.download='cass-signal-card.png';a.href=c.toDataURL('image/png');a.click();wrap.remove();}).catch(e=>{console.error('card render failed',e);wrap.remove();alert('Card render failed: '+e);});};
-window.__shareMacro=()=>{const r=window.__macroBody();shareCard('MACRO FORECAST','ACTIVE','Leg 4 selector pending',r.body,r.extras);};
-window.__P={};window.__shareP=(id)=>{const p=window.__P[id];if(!p)return alert('Card data not loaded - refresh and retry');shareCard(esc(p.title),p.status.toUpperCase(),'CASS prediction - '+Math.round(norm(p.confidence))+'%',esc(p.statement),{claim:esc(p.plain_english||''),evidence:(p.evidence_confirmed||[]).map(e=>'<div>&#10003; '+esc(e)+'</div>').join(''),falsifier:esc(p.falsifier||'')});};window.__shareMacro=()=>{const m=D.macro_forecast||{};shareCard('MACRO FORECAST','ACTIVE','CASS confidence '+Math.round(norm(m.confidence))+'%','Confidence '+Math.round(norm(m.confidence))+'% (raised from '+Math.round(norm(m.previous_confidence))+'% on '+esc(m.raised_date)+'). Status: '+esc(m.status)+'. '+esc(m.statement||''),{claim:esc(m.plain_english||''),evidence:(m.evidence_confirmed||[]).map(e=>'<div>&#10003; '+esc(e)+'</div>').join(''),falsifier:esc(m.falsifier||'')});};
-window.__macroBody=()=>{const m=D.macro_forecast||{};return 'Confidence '+Math.round(norm(m.confidence))+'% (raised from '+Math.round(norm(m.previous_confidence))+'% on '+esc(m.raised_date)+'). Status: '+esc(m.status)+'. '+esc(m.statement||'');};
-const styleTag=document.createElement('style');styleTag.textContent=CARD_CSS;document.head.appendChild(styleTag);
 // Macro
-let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500" id="macro-card">
-<div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active <button onclick="window.__shareMacro()" class="sc-btn" style="margin-left:8px;background:#7f1d1d;color:#fff;font-size:10px;padding:2px 8px;border-radius:4px;cursor:pointer">📸 Share Card</button></div>
+let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
+<div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active</div>
 <h2 class="text-2xl font-bold mb-2">${esc(D.macro_forecast.title)}</h2>
 <p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
@@ -156,9 +143,9 @@ D.predictions.forEach(p=>{(byStatus[p.status]??=[]).push(p)});
 if(!byStatus[st])return;
 h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
 byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach(p=>{
-window.__P[p.basename]=p;const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
+const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
 h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}<button onclick="window.__shareP('${esc(p.basename)}')" class="sc-btn" style="margin-left:auto;background:#7f1d1d;color:#fff;font-size:10px;padding:2px 8px;border-radius:4px;cursor:pointer">&#128248; Share Card</button></div>
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="sparkline">${spark(p)}</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}</div>
 <p class="text-lg font-bold text-amber-400">${esc(p.title)}</p>
 <p class="text-slate-300 text-sm mt-1">${esc(p.statement)}</p>
 <p class="text-slate-500 text-xs mt-2">📄 Expand for evidence base &amp; falsifier <span class="chev">▶</span></p>
