@@ -1,4 +1,9 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://cdn.tailwindcss.com"></script><title>CASS Intelligence Board</title><script>
+// ---- shared utils (hoisted so engine + renderer see one copy) ----
+const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
+const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
+window.__CASS_UTILS={esc,norm,badge};
 
 // ---- Share-card engine (v2.8.1) ----
 const PLAIN_EN = {
@@ -101,12 +106,8 @@ warningText:`# THRESHOLD WARNING
 A WARNING means a specific institutional failure is now happening in public view - not conditions, an event. The named mechanism is live. Details will be posted here at time of upgrade.`};
 const bust=u=>u+'?v='+Date.now();
 fetch(bust('data.json'),{cache:'no-store'}).then(r=>r.json()).then(D=>fetch(bust('history.json'),{cache:'no-store'}).then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
-const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 window.__CASS_DATA = D; window.__CASS_HIST = H;
-window.__CASS_UTILS = {esc, norm, badge};
 const HIST=H;
-const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
-const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
 const md=t=>esc(t).replace(/^# (.*)$/m,'<h2 class="text-2xl font-bold text-amber-400 mb-3">$1</h2>').replace(/^## (.*)$/gm,'<h3 class="text-lg font-bold text-amber-300 mt-4 mb-2">$1</h3>').replace(/\n\n/g,'</p><p class="text-slate-300 text-sm mb-2">').replace(/\n/g,'<br>');
 document.getElementById('gen').textContent=D.meta.generated;
 document.getElementById('gen2').textContent=D.meta.generated;
@@ -231,7 +232,7 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 </tbody></table></div></details>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
 <table class="w-full text-xs text-slate-300"><tbody>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1–v2.8.5</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1–v2.8.7</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">📸 Share Card on every prediction card and the macro forecast header. Card exports the claim, plain-English translation, evidence chain, and armed falsifier as one shareable image.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Sparklines removed (low signal-to-noise); share-card engine v1 shipped.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Added Data Dictionary section (15 field definitions) and this Change Log. Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.</td></tr>
