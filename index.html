@@ -49,6 +49,9 @@ function shareCard(title, badge, badgeColor, bodyHTML, footnote){
 }
 window.shareCard = shareCard;
 window.__shareP = function(i){
+  const D = window.__CASS_DATA;
+  if(!D){ alert('Board data still loading — try again in a second.'); return; }
+  const {esc,norm,badge} = window.__CASS_UTILS||{};
   const p = D.predictions[i];
   const secs = `<div class="sc-sec">In plain English</div><div class="sc-body">${esc(plainEnglishFor(p))}</div>`
     + (p.evidence_confirmed&&p.evidence_confirmed.length?`<div class="sc-sec">Why we believe this</div><ul class="sc-list">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
@@ -58,6 +61,9 @@ window.__shareP = function(i){
     'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
 };
 window.__shareMacro = function(){
+  const D = window.__CASS_DATA;
+  if(!D){ alert('Board data still loading — try again in a second.'); return; }
+  const {esc,norm} = window.__CASS_UTILS||{};
   const m=D.macro_forecast;
   const body=`<div class="sc-sec">The call</div><div class="sc-body">${esc(m.statement||m.title)}</div><div class="sc-sec">Confidence</div><div class="sc-body">CASS confidence: ${Math.round(norm(m.confidence))}% (raised from ${Math.round(norm(m.previous_confidence))}% on ${m.raised_date}).</div>`;
   shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
@@ -96,6 +102,8 @@ A WARNING means a specific institutional failure is now happening in public view
 const bust=u=>u+'?v='+Date.now();
 fetch(bust('data.json'),{cache:'no-store'}).then(r=>r.json()).then(D=>fetch(bust('history.json'),{cache:'no-store'}).then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+window.__CASS_DATA = D; window.__CASS_HIST = H;
+window.__CASS_UTILS = {esc, norm, badge};
 const HIST=H;
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
 const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
@@ -236,5 +244,5 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 </tbody></table>
 <p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
 </div></details>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.5 · <span id="gen2"></span></footer>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.6 · <span id="gen2"></span></footer>
 </div></body></html>
