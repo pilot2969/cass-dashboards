@@ -1,4 +1,5 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <style>
 body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}
 .card{background-color:#1e293b;border:1px solid #334155;}
@@ -115,15 +116,18 @@ wi.innerHTML='⏳ Threshold Watch <span class="text-amber-200/70 normal-case fon
 const mvBlock=()=>{if(!D.movers||!D.movers.length)return '';
 return `<details class="card p-6 rounded-xl border-l-4 border-emerald-500 mb-8" open><summary class="text-xl font-bold text-emerald-400">⏱ Changed in Last 24 Hours — movers only <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4"><p class="text-slate-400 text-xs mb-3">Only objects that CHANGED surface here: confidence moves, status resolutions, watch-item fires, stage transitions. New capture entries enter the ledger timeline without touching this panel. Empty panel = static board = information.</p>
-<ul class="space-y-2">${D.movers.map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
+<ul class="space-y-2">${D.movers.map((m,i)=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span> <button onclick="shareCard('MOVER: ${esc(m.ref).replace(/'/g,'')}', 'CHANGED', '24-hour movers panel','${esc(m.change).replace(/'/g,'')}')" class="sc-btn" style="background:#064e3b;color:#6ee7b7;font-size:10px;padding:1px 6px;border-radius:4px;cursor:pointer">📸</button></li>`).join('')}</ul></div></details>`;};
 // Watch details block
 const wd=document.getElementById('watch-details');
 wd.innerHTML=`<details class="card p-6 rounded-xl border-l-4 border-amber-500"><summary class="text-xl font-bold text-amber-400">⏳ Threshold Watch — active. Click to expand the full issuance text <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4">${md(WATCH_TEXT.issuedText)}</div></details>`;
 wd.insertAdjacentHTML('afterend',mvBlock());
+// ---- SHARE CARD ENGINE (v2.6) ----
+const CARD_CSS=`.sc{width:560px;background:#0f172a;color:#e2e8f0;padding:24px;border:1px solid #334155;border-top:4px solid #f59e0b;font-family:ui-sans-serif,system-ui,sans-serif;position:absolute;left:-9999px;top:0}.sc .br{font-size:11px;letter-spacing:2px;color:#f59e0b;font-weight:800}.sc .t{font-size:20px;font-weight:800;margin:6px 0}.sc .v{font-size:14px;line-height:1.5;color:#cbd5e1}.sc .v b{color:#fbbf24}.sc .f{margin-top:14px;padding-top:10px;border-top:1px solid #334155;font-size:11px;color:#64748b;display:flex;justify-content:space-between}`;
+const shareCard=(title,verdict,leg,body)=>{const wrap=document.createElement('div');wrap.className='sc';wrap.innerHTML=`<div class="br">CASS INTELLIGENCE BOARD</div><div class="t">${title}</div><div class="v">VERDICT: <b>${verdict}</b> · ${leg}</div><div class="v" style="margin-top:8px">${body}</div><div class="f"><span>CASS · Society Signal · falsifiable, always</span><span>casstl.com</span></div>`;document.body.appendChild(wrap);html2canvas(wrap,{backgroundColor:'#0f172a',scale:2}).then(c=>{const a=document.createElement('a');a.download='cass-signal-card.png';a.href=c.toDataURL('image/png');a.click();wrap.remove();});};
 // Macro
-let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
-<div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active</div>
+let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500" id="macro-card">
+<div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active <button onclick="shareCard('MACRO FORECAST','ACTIVE','Leg 4 selector pending',document.querySelector('#macro-card h2+p+div')? 'Confidence '+Math.round(norm(D.macro_forecast.confidence))+'% (raised from '+Math.round(norm(D.macro_forecast.previous_confidence))+'% on '+esc(D.macro_forecast.raised_date)+'). Status: '+esc(D.macro_forecast.status)+'.' : 'Loading')" class="sc-btn" style="margin-left:8px;background:#7f1d1d;color:#fff;font-size:10px;padding:2px 8px;border-radius:4px;cursor:pointer">📸 Share Card</button></div>
 <h2 class="text-2xl font-bold mb-2">${esc(D.macro_forecast.title)}</h2>
 <p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
