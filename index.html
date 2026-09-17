@@ -15,7 +15,25 @@ function plainEnglishFor(p){
   return `${line}${fz}`;
 }
 window.__cardCSSInj = false;
-function injectCardCSS(){ window.__cardCSSInj = true; }
+function injectCardCSS(){
+  if(window.__cardCSSInj) return; window.__cardCSSInj = true;
+  const st=document.createElement('style'); st.id='card-css';
+  st.textContent = `
+.share-card{position:fixed;left:-9999px;top:0;width:640px;background:#0f172a;color:#e2e8f0;
+  font-family:ui-sans-serif,system-ui,sans-serif;padding:28px;border-radius:14px;z-index:-1;}
+.share-card .masthead{font-size:13px;font-weight:800;letter-spacing:.14em;color:#f59e0b;
+  border-bottom:1px solid #334155;padding-bottom:10px;margin-bottom:14px;}
+.share-card .sc-title{font-size:24px;font-weight:800;color:#fbbf24;margin:0 0 10px;line-height:1.25;}
+.share-card .sc-badge{display:inline-block;font-size:12px;font-weight:700;padding:4px 10px;border-radius:999px;}
+.share-card .sc-sec{font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  color:#38bdf8;margin:16px 0 5px;}
+.share-card .sc-body{font-size:14px;line-height:1.55;color:#e2e8f0;}
+.share-card .sc-list{margin:0;padding-left:18px;font-size:13px;line-height:1.5;color:#cbd5e1;}
+.share-card .sc-list li{margin-bottom:4px;}
+.share-card .sc-foot{margin-top:20px;padding-top:10px;border-top:1px solid #334155;
+  font-size:11px;color:#64748b;}`;
+  document.head.appendChild(st);
+}
 function shareCard(title, badge, badgeColor, bodyHTML, footnote){
   injectCardCSS();
   const card=document.createElement('div'); card.className='share-card';
@@ -24,6 +42,9 @@ function shareCard(title, badge, badgeColor, bodyHTML, footnote){
   html2canvas(card,{backgroundColor:'#0f172a',scale:2}).then(canvas=>{
     canvas.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cass-card-'+Date.now()+'.png';a.click();
       setTimeout(()=>{URL.revokeObjectURL(a.href);card.remove();},400);});
+  }).catch(err=>{
+    console.error('shareCard render failed:',err);
+    alert('Card render failed: '+err); card.remove();
   });
 }
 window.shareCard = shareCard;
