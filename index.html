@@ -1,4 +1,47 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com"></script>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>CASS Intelligence Board</title><script src="https://cdn.tailwindcss.com">
+// ---- Share-card engine (v2.8.1) ----
+const PLAIN_EN = {
+label: pe => {
+  const st = pe.status, c = Math.round(norm(pe.confidence));
+  if (st === 'confirmed') return 'This already happened — it is on the record.';
+  if (st === 'emergent') return 'This is happening now — the early signs are visible.' + (c ? ` (Our confidence: ${c}%.)` : '');
+  if (st === 'pending') return c >= 85 ? 'We expect this — confidence is high.' : c >= 65 ? 'We consider this likely, but it is not certain.' : 'This is possible but not yet the most likely path.';
+  return 'This did not happen as stated — logged as a miss.';
+}};
+function plainEnglishFor(p){
+  const line = PLAIN_EN.label(p);
+  const fz = p.falsifier ? ` How we would know we are wrong: ${p.falsifier}` : '';
+  return `${line}${fz}`;
+}
+window.__cardCSSInj = false;
+function injectCardCSS(){ window.__cardCSSInj = true; }
+function shareCard(title, badge, badgeColor, bodyHTML, footnote){
+  injectCardCSS();
+  const card=document.createElement('div'); card.className='share-card';
+  card.innerHTML=`<div class="masthead">⚡ CASS INTELLIGENCE BOARD</div><h1 class="sc-title">${title}</h1><div>${badge?'<span class="sc-badge" style="background:'+badgeColor+';color:#fff">'+badge+'</span>':''}</div><div>${bodyHTML}</div><div class="sc-foot">${footnote}</div>`;
+  document.body.appendChild(card);
+  html2canvas(card,{backgroundColor:'#0f172a',scale:2}).then(canvas=>{
+    canvas.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cass-card-'+Date.now()+'.png';a.click();
+      setTimeout(()=>{URL.revokeObjectURL(a.href);card.remove();},400);});
+  });
+}
+window.shareCard = shareCard;
+window.__shareP = function(i){
+  const p = D.predictions[i];
+  const secs = `<div class="sc-sec">In plain English</div><div class="sc-body">${esc(plainEnglishFor(p))}</div>`
+    + (p.evidence_confirmed&&p.evidence_confirmed.length?`<div class="sc-sec">Why we believe this</div><ul class="sc-list">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
+    + (p.evidence_contradicted&&p.evidence_contradicted.length?`<div class="sc-sec">Evidence against</div><ul class="sc-list">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
+    + (p.falsifier?`<div class="sc-sec">How we would know we are wrong</div><div class="sc-body">${esc(p.faiserer||p.falsifier)}</div>`:'');
+  shareCard(esc(p.title), Math.round(norm(p.confidence))+'% · '+p.status, badge(p.confidence), secs,
+    'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
+};
+window.__shareMacro = function(){
+  const m=D.macro_forecast;
+  const body=`<div class="sc-sec">The call</div><div class="sc-body">${esc(m.statement||m.title)}</div><div class="sc-sec">Confidence</div><div class="sc-body">CASS confidence: ${Math.round(norm(m.confidence))}% (raised from ${Math.round(norm(m.previous_confidence))}% on ${m.raised_date}).</div>`;
+  shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
+    'CASS Intelligence Board · falsifiers armed and posted');
+};
+</script>
 <style>
 body{background-color:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;}
 .card{background-color:#1e293b;border:1px solid #334155;}
@@ -6,6 +49,62 @@ details>summary{cursor:pointer;}
 details>summary::-webkit-details-marker{display:none;}
 details[open] .chev{transform:rotate(90deg);}
 .chev{display:inline-block;transition:transform .15s;}
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js">
+// ---- Share-card engine (v2.8.1) ----
+const PLAIN_EN = {
+label: pe => {
+  const st = pe.status, c = Math.round(norm(pe.confidence));
+  if (st === 'confirmed') return 'This already happened — it is on the record.';
+  if (st === 'emergent') return 'This is happening now — the early signs are visible.' + (c ? ` (Our confidence: ${c}%.)` : '');
+  if (st === 'pending') return c >= 85 ? 'We expect this — confidence is high.' : c >= 65 ? 'We consider this likely, but it is not certain.' : 'This is possible but not yet the most likely path.';
+  return 'This did not happen as stated — logged as a miss.';
+}};
+function plainEnglishFor(p){
+  const line = PLAIN_EN.label(p);
+  const fz = p.falsifier ? ` How we would know we are wrong: ${p.falsifier}` : '';
+  return `${line}${fz}`;
+}
+window.__cardCSSInj = false;
+function injectCardCSS(){ window.__cardCSSInj = true; }
+function shareCard(title, badge, badgeColor, bodyHTML, footnote){
+  injectCardCSS();
+  const card=document.createElement('div'); card.className='share-card';
+  card.innerHTML=`<div class="masthead">⚡ CASS INTELLIGENCE BOARD</div><h1 class="sc-title">${title}</h1><div>${badge?'<span class="sc-badge" style="background:'+badgeColor+';color:#fff">'+badge+'</span>':''}</div><div>${bodyHTML}</div><div class="sc-foot">${footnote}</div>`;
+  document.body.appendChild(card);
+  html2canvas(card,{backgroundColor:'#0f172a',scale:2}).then(canvas=>{
+    canvas.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cass-card-'+Date.now()+'.png';a.click();
+      setTimeout(()=>{URL.revokeObjectURL(a.href);card.remove();},400);});
+  });
+}
+window.shareCard = shareCard;
+window.__shareP = function(i){
+  const p = D.predictions[i];
+  const secs = `<div class="sc-sec">In plain English</div><div class="sc-body">${esc(plainEnglishFor(p))}</div>`
+    + (p.evidence_confirmed&&p.evidence_confirmed.length?`<div class="sc-sec">Why we believe this</div><ul class="sc-list">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
+    + (p.evidence_contradicted&&p.evidence_contradicted.length?`<div class="sc-sec">Evidence against</div><ul class="sc-list">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
+    + (p.falsifier?`<div class="sc-sec">How we would know we are wrong</div><div class="sc-body">${esc(p.faiserer||p.falsifier)}</div>`:'');
+  shareCard(esc(p.title), Math.round(norm(p.confidence))+'% · '+p.status, badge(p.confidence), secs,
+    'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
+};
+window.__shareMacro = function(){
+  const m=D.macro_forecast;
+  const body=`<div class="sc-sec">The call</div><div class="sc-body">${esc(m.statement||m.title)}</div><div class="sc-sec">Confidence</div><div class="sc-body">CASS confidence: ${Math.round(norm(m.confidence))}% (raised from ${Math.round(norm(m.previous_confidence))}% on ${m.raised_date}).</div>`;
+  shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
+    'CASS Intelligence Board · falsifiers armed and posted');
+};
+</script>
+<style>
+.share-card{position:fixed;left:-10000px;top:0;width:720px;background:#0f172a;color:#f8fafc;font-family:ui-sans-serif,system-ui,sans-serif;padding:32px;border-radius:16px;border:2px solid #f59e0b;}
+.share-card .masthead{font-size:13px;font-weight:800;letter-spacing:.15em;color:#f59e0b;text-transform:uppercase;margin-bottom:8px;}
+.share-card h1.sc-title{font-size:26px;font-weight:800;color:#f8fafc;margin:6px 0 10px;line-height:1.2;}
+.share-card .sc-badge{display:inline-block;padding:4px 12px;border-radius:6px;font-size:13px;font-weight:700;margin-right:8px;}
+.share-card .sc-sec{font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin:18px 0 6px;color:#f59e0b;}
+.share-card .sc-body{font-size:15px;line-height:1.5;color:#e2e8f0;}
+.share-card ul.sc-list{margin:4px 0 0 18px;}
+.share-card li{font-size:14px;line-height:1.45;color:#e2e8f0;margin-bottom:4px;}
+.share-card .sc-foot{margin-top:20px;font-size:11px;color:#64748b;border-top:1px solid #334155;padding-top:10px;}
+.share-btn{cursor:pointer;user-select:none;}
 </style></head><body><p class="text-slate-500 text-sm p-6">Loading board…</p><div class="max-w-4xl mx-auto p-6 md:p-12">
 <header class="mb-8 border-b border-slate-700 pb-6">
 <div class="flex flex-wrap items-center gap-3 mb-3">
@@ -57,6 +156,9 @@ details[open] .chev{transform:rotate(90deg);}
 </tbody></table></div></details>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
 <table class="w-full text-xs text-slate-300"><tbody>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">📸 Share Card on every prediction card and the macro forecast header. Card exports the claim, plain-English translation, evidence chain, and armed falsifier as one shareable image.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Sparklines removed (low signal-to-noise); share-card engine v1 shipped.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Added Data Dictionary section (15 field definitions) and this Change Log. Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Confidence-history sparklines added to every prediction card — daily snapshots auto-merged on each deploy via persistent history.json.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-14 · v2.3</td><td class="py-2">Methodology explainer section: MGET legs, falsifier discipline, lead-time, Threshold Watch, blind backtest results.</td></tr>
@@ -67,7 +169,7 @@ details[open] .chev{transform:rotate(90deg);}
 </tbody></table>
 <p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
 </div></details>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.4 · <span id="gen2"></span></footer>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.1 · <span id="gen2"></span></footer>
 </div><script>
 const WATCH_TEXT={issued:'2026-09-12',expires:'2026-12-15',issuedText:`# THRESHOLD WATCH
 
@@ -127,25 +229,15 @@ let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Forecast Register (${D.predictions.length})</h3>`;
-const byStatus={};// Confidence-history sparkline per prediction card
-const spark=p=>{const pts=(HIST.points&&HIST.points[p.basename])||[];
-if(pts.length<2)return '';
-const n=pts.length,w=120,h=28,pad=2;
-const mn=Math.min(...pts.map(x=>x[1])),mx=Math.max(...pts.map(x=>x[1])),rg=(mx-mn)||1;
-const X=i=>pad+(w-2*pad)*i/(n-1);
-const Y=v=>h-pad-(h-2*pad)*((v-mn)/rg);
-const path=pts.map((pt,i)=>`${i?'L':'M'}${X(i).toFixed(1)},${Y(pt[1]).toFixed(1)}`).join(' ');
-const up=pts[n-1][1]>=pts[0][1];const col=up?'#f87171':'#4ade80';
-return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="vertical-align:middle" aria-label="confidence trend"><path d="${path}" fill="none" stroke="${col}" stroke-width="1.5"/><circle cx="${X(n-1).toFixed(1)}" cy="${Y(pts[n-1][1]).toFixed(1)}" r="2" fill="${col}"/><title>Confidence history — ${pts.map(pt=>pt[0]+': '+pt[1]).join(' | ')}</title></svg>`;};
-
-D.predictions.forEach(p=>{(byStatus[p.status]??=[]).push(p)});
+const byStatus={};
+D.predictions.forEach((p,i)=>{p.__i=i;(byStatus[p.status]??=[]).push(p)});
 ['confirmed','emergent','pending','failed'].forEach(st=>{
 if(!byStatus[st])return;
 h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
-byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach(p=>{
+byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach((p,idxAll)=>{
 const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
 h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="sparkline">${spark(p)}</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}</div>
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}<button class="share-btn px-2 py-1 bg-amber-600 text-white text-xs font-bold rounded" onclick="__shareP(${p.__i})">📸 Share Card</button></div>
 <p class="text-lg font-bold text-amber-400">${esc(p.title)}</p>
 <p class="text-slate-300 text-sm mt-1">${esc(p.statement)}</p>
 <p class="text-slate-500 text-xs mt-2">📄 Expand for evidence base &amp; falsifier <span class="chev">▶</span></p>
@@ -161,4 +253,47 @@ h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="
 document.getElementById('app').innerHTML=h;
 }) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+' <button onclick="location.reload(true)" class="underline">Retry</button></p>';
 setInterval(()=>location.reload(true),120000);});
+
+// ---- Share-card engine (v2.8.1) ----
+const PLAIN_EN = {
+label: pe => {
+  const st = pe.status, c = Math.round(norm(pe.confidence));
+  if (st === 'confirmed') return 'This already happened — it is on the record.';
+  if (st === 'emergent') return 'This is happening now — the early signs are visible.' + (c ? ` (Our confidence: ${c}%.)` : '');
+  if (st === 'pending') return c >= 85 ? 'We expect this — confidence is high.' : c >= 65 ? 'We consider this likely, but it is not certain.' : 'This is possible but not yet the most likely path.';
+  return 'This did not happen as stated — logged as a miss.';
+}};
+function plainEnglishFor(p){
+  const line = PLAIN_EN.label(p);
+  const fz = p.falsifier ? ` How we would know we are wrong: ${p.falsifier}` : '';
+  return `${line}${fz}`;
+}
+window.__cardCSSInj = false;
+function injectCardCSS(){ window.__cardCSSInj = true; }
+function shareCard(title, badge, badgeColor, bodyHTML, footnote){
+  injectCardCSS();
+  const card=document.createElement('div'); card.className='share-card';
+  card.innerHTML=`<div class="masthead">⚡ CASS INTELLIGENCE BOARD</div><h1 class="sc-title">${title}</h1><div>${badge?'<span class="sc-badge" style="background:'+badgeColor+';color:#fff">'+badge+'</span>':''}</div><div>${bodyHTML}</div><div class="sc-foot">${footnote}</div>`;
+  document.body.appendChild(card);
+  html2canvas(card,{backgroundColor:'#0f172a',scale:2}).then(canvas=>{
+    canvas.toBlob(b=>{const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cass-card-'+Date.now()+'.png';a.click();
+      setTimeout(()=>{URL.revokeObjectURL(a.href);card.remove();},400);});
+  });
+}
+window.shareCard = shareCard;
+window.__shareP = function(i){
+  const p = D.predictions[i];
+  const secs = `<div class="sc-sec">In plain English</div><div class="sc-body">${esc(plainEnglishFor(p))}</div>`
+    + (p.evidence_confirmed&&p.evidence_confirmed.length?`<div class="sc-sec">Why we believe this</div><ul class="sc-list">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
+    + (p.evidence_contradicted&&p.evidence_contradicted.length?`<div class="sc-sec">Evidence against</div><ul class="sc-list">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
+    + (p.falsifier?`<div class="sc-sec">How we would know we are wrong</div><div class="sc-body">${esc(p.faiserer||p.falsifier)}</div>`:'');
+  shareCard(esc(p.title), Math.round(norm(p.confidence))+'% · '+p.status, badge(p.confidence), secs,
+    'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
+};
+window.__shareMacro = function(){
+  const m=D.macro_forecast;
+  const body=`<div class="sc-sec">The call</div><div class="sc-body">${esc(m.statement||m.title)}</div><div class="sc-sec">Confidence</div><div class="sc-body">CASS confidence: ${Math.round(norm(m.confidence))}% (raised from ${Math.round(norm(m.previous_confidence))}% on ${m.raised_date}).</div>`;
+  shareCard('Macro Forecast: '+esc(m.title), Math.round(norm(m.confidence))+'% · '+m.status, '#dc2626', body,
+    'CASS Intelligence Board · falsifiers armed and posted');
+};
 </script></body></html>
