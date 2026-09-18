@@ -1,85 +1,171 @@
 [
  {
-  "title": "World War III Prologue: Interlocking-Theater Escalation (Master Thesis)",
-  "date_made": "2026-09-03",
-  "statement": "MASTER FRAMING HYPOTHESIS: World War III's opening phase began with Israel's initial strike on Iran, triggering a cascade of interlocking-theater escalation in which each belligerent is drawn in because its vital interests pass through a chokepoint another actor controls. Receipts now span four simultaneous theaters tracing back to that origin: (1) Middle East - Hormuz blockade/bounty + Gulf base saturation with merchant attrition crossing fatal threshold; (2) Europe/NATO - Russian Baltic hybrid-sabotage cells under a conditional/transactionalized US guarantee; (3) Russian homeland - Ukrainian deep-strike attrition of refineries/S-400 forcing nuclear-doctrine shift; (4) Asia-Pacific - South Korea preparing a Hormuz naval deployment, the first major non-aligned liberal power committing combat muscle to the theater. Confidence held at EMERGENT 58% - structurally compelling and interlocking-receipt-backed, but not yet across the formal multipolar war threshold (NO full NATO combatant mobilization, NO Sino-American engagement, NO Baltic Article 5 trigger, and SK deployment remains preparation not yet combat commitment).",
+  "title": "Inward Targeting Vector: resource-vector prediction (Q1 2027 horizon)",
+  "date_made": "2026-09-10",
+  "statement": "Thesis: the regime's actions this cycle share a single unifying signature \u2014 the targeting vector points inward (homeland civil control), not outward (foreign adversaries). Operationalized as a FORWARD test, coded before events occur: (1) Another domestic-facing oversight/institution (agency, researcher body, or watchdog) gets purged or reorganized by end of Q1 2027 \u2014 dated, nameable event. (2) Federal budget share devoted to domestic enforcement/security missions grows year-over-year in FY2027, reversing the prior-decade trend \u2014 measured from OMB/CBO line-items, not rhetoric. (3) The regime continues outward-pointing RHETORIC (tariff framing, adversary language) while the actual resource vector stays inward \u2014 no new foreign war MOBILIZATION (not strikes) occurs even when provocation abroad offers the opportunity.",
   "evidence_confirmed": [
-   "ISRAEL'S OPENING STRIKE: The trigger event - Israel's initial attack on Iran set the entire escalation cascade in motion.",
-   "IRAN REGIONAL RETALIATION: Iran's kinetic response across Gulf states + naval aggression at Hormuz, with merchant shipping attrition now crossing the fatal threshold (2 sailors killed on a merchant ship, Sept 2026).",
-   "US ESCORT/BLOCKADE CAMPAIGN: Formal US six-plus-month escort-and-naval-campaign underway at Hormuz (94% standalone track), with official White House acknowledgment of the energy squeeze.",
-   "RUSSIAN BALTIC HYBRID PRESSURE: Multiple sabotage cells confirmed operating across Germany - the grey-zone pre-cursor to Article 5 testing (WSJ/ISW fall-warning window).",
-   "SOUTH KOREA HORMUZ NAVAL DEPLOYMENT (Sept 3, 2026): Reuters - SK preparing to deploy naval combat assets to Hormuz; 70%+ of its crude transits the strait. A war-averse Asian power reaching combat muscle across the planet is the canary for the SYSTEM-WIDE, not regional, character of this conflict.",
-   "INTERLOCKING-CHOKEPOINT MECHANISM: Each theater draws belligerents in via vital chokepoints (Hormuz energy, Baltic resolve, Russian refineries) - the defining structural feature of a World War, not a regional conflict.",
-   "SOUTH KOREAN SELF-FRAMING: SK media framing the deployment around threats to global shipping and energy integrity - the international-logistics framing confirming systemic, not regional, stakes."
-  ],
-  "evidence_contradicted": [
-   "NO FULL MULTIPOLAR COMBAT MOBILIZATION: No NATO Article 5 trigger, no Soviet-style continental army-on-army front, no formal Sino-American engagement - the formal 'world war' threshold is not yet crossed.",
-   "SOUTH KOREA DEPLOYMENT IS PREPARATION, NOT COMMITMENT: SK has prepared/deployed but not yet fired a shot or formally declared combatant belligerency.",
-   "REGIONAL-ONLY READING REMAINS AVAILABLE: A skeptic could argue this is still a contained Persian Gulf war + European grey-zone pressure + deep-strike attrition of Russia, lacking the formal interlocking declaration that defines 1914/1939.",
-   "NATO STILL FORMALLY INTACT: Rutte's 'ironclad' guarantee stance remains officially in force; no formal withdrawal or Article 5 redefinition legislated as of Sept 3, 2026."
-  ],
-  "confidence_score": 57,
-  "status": "emergent",
-  "falsifier": "No cross-theater escalation: the Iran war, Ukraine/Russia war, and potential Baltic conflict do NOT converge into a synchronized multi-front great-power war within the projected window - conflict remains regionalized/contained via off-ramps and deterrence holding.",
-  "forward_watchlist": [
-   "Any NATO Article 5 (or Baltic) trigger interacting with the Iran war and Ukraine front under one banner.",
-   "Russia-Iran coordination deepening - shared escalation against a divided US commitment (the linkage that makes it a world war).",
-   "Whether the US November Pause and China mediation quarantine the fronts (de-escalation) vs. one front igniting the others.",
-   "Uncontrolled escalation triggers: a US naval combatant sunk, a nuclear threshold signal, a Baltic incursion combined with Iran re-escalation.",
-   "PROXY-CHOKEPOINT FIFTH THEATER (added 2026-09-11): Houthi Red Sea coastal expansion \u2014 Bab el-Mandeb ignition via proxy rather than direct state action; watch Israeli strikes on Houthi infrastructure and US fleet repositioning (see houthi-red-sea-escalation-fork.json)"
-  ],
-  "_id": "world-war-iii-prologue"
- },
- {
-  "title": "ALPR Surveillance Decoy-Substrate Mechanism (Flock/Axon)",
-  "date_made": "2026-09-04",
-  "statement": "Interchangeable-vendor enclosure: focusing civic resistance on a single visible ALPR brand (Flock) does not remove the surveillance substrate. Flock is the sacrificial brand-layer; a lower-scrutiny successor (Axon, Rekor, Motorola) re-installs the same warrantless, default-on plate-tracking premise under a different skin. The enclosure-force needs no orchestrator; it merely lets resistance concentrate on a scapegoat while the substrate persists.",
-  "evidence_confirmed": [
-   "Flock is the only widely-known ALPR brand (a16z/Tiger-backed, $8B) and thus the natural focus of the backlash - the exposed mascot absorbs the outrage (Guardian, Mother Jones, Aug-Sep 2026).",
-   "Record cancellations did NOT shrink the substrate: 214 cities dropped Flock since 2021, 90 in August 2026 alone, yet Flock still operates 120,000+ cameras across 6,000+ agencies and the network is flat-to-growing (Gadget Review, FindingFlock, QZ, BBC).",
-   "Successor absorption confirmed: Axon (a $48B firm) 'lurking in the shadows, waiting for Flock to fail and then rushing in' (ACLU senior policy counsel Chad Marlow, verbatim). Axon replaced Flock in 7+ municipalities across 5 states.",
-   "Token-win optics: Longmont celebrated dropping Flock, then re-installed Axon ALPRs on the same streets months later; Denver swapped Flock for Axon (March); Syracuse did the same. 'Their cities dropped Flock surveillance cameras. They're still being watched' (Guardian Aug 20, 2026).",
-   "Axon CEO openly asked to redesign cameras to NOT look like Flock so they evade vandalism/outrage (404 Media) - explicit recognition the brand is the target, not the grid.",
-   "DeSantis (Florida) and Texas ordered ALPR removal - but this is political reaction to the Flock scandal, not evidence of orchestration; the wire supports convergent opportunism, not a coordinating hand.",
-   "Sept 8, 2026 (TechSpot/Fox40): Grass Valley, CA canceled its Flock contract (Aug 11), removed all cameras \u2014 and Flock reinstalled at least two without permission, claiming its automated maintenance system flagged the removal as 'equipment failure.' GVPD now patrols for and removes reinstalled cameras. Combines with: record-pace city contract cancellations, Savannah officer arrests for misuse, FL decoy-camera felony sting, and cops begging Axon to redesign cameras to avoid Flock associations \u2014 the municipal-secession front of the ALPR enclosure track is hardening, and Flock is fighting attrition with unpermissioned reinstallation."
-  ],
-  "evidence_contradicted": [
-   "The orchestration leg (state INTENTIONALLY planted Flock as a sacrificial decoy) is NOT supported - wire shows every actor responding to independent incentives (budgets, optics, accountability, genuine privacy concern) that converge on the same outcome. Convergent opportunism, not conspiracy."
-  ],
-  "falsifier": "The substrate-preservation claim breaks if actual active ALPR network coverage DECLINES meaningfully (not just relocates) after Flock removals - i.e. if Axon/Rekor/Motorola successors do NOT step in, and aggregate camera density genuinely falls and stays down. The mechanism further breaks if removing a visible node causes a real, measurable loss in crime-solving/stolen-vehicle recovery that the state visibly defends (proving the node was functional, not sacrificial).",
-  "forward_watchlist": [
-   "Aggregate nationwide active ALPR node count (Flock + Axon + Rekor + Motorola): does coverage stay flat/grow despite Flock cancellations, or genuinely decline?",
-   "Axon/Rekor/Motorola successor uptake in jurisdictions that canceled Flock - key markers: Denver, Longmont, Syracuse, Austin, Abington (whose Flock contract can't exit until 2028).",
-   "Axon Fusus AI-fusion rollout: the AI-linked 'connect the dots' layer that goes beyond single-vendor plate reads toward a unified visual-surveillance grid.",
-   "State-level ALPR removal orders (FL, TX): do these ban the practice outright, or merely swap vendors / reduce visible poles while preserving systems?",
-   "Whether anti-surveillance activists pivot from brand-war to data-governance/warrant/retention fights - the actual substrate contest (New Hampshire 3-min retention; WA public-records ruling; SCOTUS Carpenter implications).",
-   "Flock reinstalling/reactivating cameras after canceled contracts (3+ towns reported) - token-loss optics versus actual persistence."
-  ],
-  "confidence_score": 79,
-  "status": "emergent",
-  "_id": "alpr-surveillance-decoy-substrate"
- },
- {
-  "title": "Axon Fusus AI-Fusion Successor Grid (talk-adjacent denser net)",
-  "date_made": "2026-09-04",
-  "statement": "The denser successor that follows the Flock removals is not just swapped ALPR hardware but Axon's Fusus AI-fusion platform - a noted 'connect the dots across your entire data ecosystem' layer that merges Axon cameras, body cams, city and PRIVATE feeds (Lowe's/Home Depot) into a unified visual-surveillance grid. This is the real enclosure advance hiding beneath the Flock token-loss; watch it as the 'talk'-adjacent network Samuel originally suspected.",
-  "evidence_confirmed": [
-   "Fusus unites Axon cameras + city-owned + private visual feeds ('connect the dots across your entire data ecosystem') per Axon's own site (Guardian, Aug 2026).",
-   "Axon is the natural successor vehicle - already entrenched in police departments (Tasers, body cams, evidence repository), $48B, and capitalizing on Flock's PR collapse (apps in 7+ municipalities).",
-   "Private retailers (Lowe's, Home Depot) run their own cameras feeding surveillance beyond municipal contracts, outside the Flock-cancellation fight (Prospect/Guardian, May 2026).",
-   "Axon Q4-2025 earnings: 'we're hearing directly from customers - some of whom came to us from other vendors' - successor uptake is real and visible to investors."
+   "CSIS (2026-07-29): fewer than 827 Patriot interceptors, fewer than 278 THAAD remain \u2014 ~1/3 of pre-war inventory (csmonitor.com/USA/Military/2026/0817; cnn.com/2026/07/29/politics/us-weapons-stockpiles-dwindle-iran-war)",
+   "CNN (2026-08-04): ~80% of THAAD and ~half of Patriot interceptors depleted since Iran war start (cnn.com/2026/08/04/politics/us-iran-key-missile-interceptors-low)",
+   "AP (2026-08): ICE awarded $16.7M no-bid contract for 6,000 pairs of electric shock gloves, framed for use on detainees AND protesters (apnews.com/article/ice-electric-shock-gloves-immigration-680c6f8a96736f46529287178c57b44b)",
+   "Manufacturer's own manual warns of 'sudden death' for the G.L.O.V.E. device (latintimes.com/ices-new-shock-gloves-carry-manufacturers-own-warning-about-sudden-death)",
+   "Counter-noted: Hegseth disputes depleted-stockpile reports (stripes.com, 2026-08-05) \u2014 cite CSIS methodology when challenged"
   ],
   "evidence_contradicted": [],
-  "falsifier": "The Fusus-as-denser-successor claim breaks if, post-Flock-removal, communities that re-installed ALPRs do NOT adopt or expand AI-fusion/private-feed integration (i.e. they revert to simple, isolated, rigorously-governed plate readers with short retention and genuine city-owned data).",
+  "falsifier": "The regime launches a major new foreign war mobilization while CUTTING domestic enforcement/security budgets. Vector points outward; thesis dies. Secondary falsifier: domestic enforcement share of budget falls in FY2027.\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.6 (0-1 scale) to 60 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
   "forward_watchlist": [
-   "Any jurisdiction that canceled Flock subsequently adopting Axon Fusus / AI video-fusion (watch Denver, Longmont, Syracuse, Austin).",
-   "Fusus expansion into private retail feeds (Lowe's, Home Depot) as a national coverage mechanism outside warrant jurisdiction.",
-   "Whether Fusus integrates face/gait/reidentification beyond license plates - the 'talk'-type full-spectrum successor.",
-   "FL/TX orders: do they also restrict AI-fusion/private-feed integration, or only visible poles?",
-   "Data ownership terms in Axon successor contracts (who owns the fused data, retention, external agency sharing)."
+   "FY2027 OMB/CBO budget: domestic enforcement share",
+   "New oversight-body purges or reorganizations (domestic-facing)",
+   "Foreign crisis events vs. regime response type (strike vs. mobilization)",
+   "Outward rhetoric vs. inward budget divergence"
   ],
-  "confidence_score": 62,
+  "confidence_score": 60,
+  "status": "pending",
+  "confidence": 60.0
+ },
+ {
+  "title": "CDC Epistemic Capture (Interface Anomaly Case Study #1)",
+  "date_made": "2026-09-11",
+  "statement": "CDC is a maximum-anomaly case on the institution-substrate interface: an institution with an unusually deep, codified, evidence-bound baseline (published schedules, ACIP proceedings, MMWR as paper of record) can only degrade by breaking its own codified pattern \u2014 every break is legible. Observed anomalies: inverting the food pyramid, eliminating vaccine schedules, rejecting measles outbreak evidence. These fail precedent-class review: recommendation changes historically TRACE to published evidence review; these do not trace. Form is unprecedented; function is precedent-class (relatives: captured-agency science, Lysenkoism, tobacco-science apparatus) \u2014 epistemic degradation in service of legitimacy protection. Expectation: practicing clinicians and health systems increasingly act AROUND CDC (sourcing guidance from AAP, WHO, state health departments, professional societies) \u2014 functional abandonment by operational partners. Deep-codified-baseline institutions (FDA, NOAA, BLS next) are the corridor's worst off, because deviation-from-baseline IS the signal.",
+  "evidence_confirmed": [
+   "Food pyramid inversion \u2014 departs from decades of codified nutrition guidance without traceable evidence review",
+   "Vaccine schedule elimination/gutting \u2014 bypasses ACIP-style evidence-review precedent class",
+   "Rejection of measles outbreak evidence \u2014 contradicts MMWR-grade documentation standard",
+   "Method: five-question Interface Anomaly Test passed (form unprecedented, function precedent-class, substrate pre-loaded via healthcare-industry dependence on CDC reliability, absorbed-novelty counterfactual weak given pace/simultaneity, falsifier self-documenting)",
+   "[2026-09-17] CDC switched measles-death counting to NCHS mid-outbreak (PA, 3 apparent deaths), unannounced; ex-CDC chief medical officer Houry: 'the change doesn't make any sense' \u2014 instrument-swap concealment confirmed 9/17"
+  ],
+  "evidence_contradicted": [
+   "Possible counterargument: emergency conditions justify rapid recommendation changes \u2014 but precedent class still requires traceability to published review, which is absent",
+   "Noise alternative: individual recommendation revisions have always occurred; only the PACE and SIMULTANEITY across multiple codified interfaces distinguishes structural capture from ordinary adjustment"
+  ],
+  "falsifier": "Track dies if CDC recommendation changes resume tracing to published evidence review (MMWR/ACIP paper trail restored), OR if clinicians do NOT migrate guidance-sourcing away from CDC (operational partners remain bound). Corollary falsifier for the general thesis: if deep-codified-baseline institutions show LESS deviation than shallow-baseline ones, the corridor mapping is inverted.",
+  "forward_watchlist": [
+   "Clinician guidance-sourcing behavior: AAP/WHO/state health dept adoption rates vs CDC",
+   "MMWR and ACIP publication integrity (gaps, rewrites, suppression of outbreak data)",
+   "FDA, NOAA, BLS \u2014 next Interface Anomaly case studies for the corridor map",
+   "Interaction with Conservative-Space Defection Signal: two substrates (healthcare, right-media) showing same defection geometry = cross-validation",
+   "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
+  ],
+  "confidence_score": 82,
   "status": "emergent",
-  "_id": "axon-fusus-ai-fusion-successor"
+  "confidence": 82.0
+ },
+ {
+  "title": "Conservative-Space Defection Signal (Economic, Policy-Specific)",
+  "date_made": "2026-09-11",
+  "statement": "Conservative intra-coalition pushback in flagship right-media spaces (Shapiro/Daily Wire comment ecosystems) has become materially more common, sharper, and policy-specific \u2014 driven by ECONOMIC grievance (budgets, prices, deficit) rather than personality. Like/laugh reaction ratios function as unscientific but directionally useful telemetry of the engaged loyalist remnant. The defection is internal-opposition formation (defectors retain right-wing argument language, not leftward migration), and ridicule is the emerging sanction because it cannot be attributed to the enemy. Economic policy-specific defection cannot be absorbed by propaganda or personnel changes: finance never lies. This hollowing of the loyalist base feeds the Potemkin thesis: an external war run as theater becomes MORE attractive as internal legitimacy erodes.",
+  "evidence_confirmed": [
+   "Owner's first-person observation: pre-election (lone-voice, few allies, weak counterarguments) vs. post-election 20-month window (frequent, articulate pushback)",
+   "Like/laugh ratio inversion on Daily Wire / Shapiro pages \u2014 laughter from inside the coalition, unattributable to outgroup",
+   "Pushback is policy-specific and economic in character (personal budgets), the category propaganda cannot paper over",
+   "Consistent with documented fourth-turning pattern: counter-elite coalitions fracture during crisis phase; regime overreach converts bystanders into internal opposition",
+   "2026-09-15: NYT/Siena Hispanic-subsample generic ballot screenshot circulating (Dems +43, trend +8 \u2192 +16 \u2192 +30 \u2192 +43 over 16 months, via MeidasTouch) \u2014 unverified single source, magnitude suspect (small subsample n), but slope and channel match the defection mechanism: Hispanics disproportionately exposed to inflation/housing/employment channels where 'finance never lies.' Logged as sentiment telemetry, NOT model input \u2014 legacy instrument, measures stated preference under pre-consolidation rules.",
+   "[2026-09-17] Beck running oil-scarcity framing contradicting WH minimization; right infosphere now runs same material story the fence suppresses (9/16-17)"
+  ],
+  "evidence_contradicted": [
+   "Algorithm composition changes post-election (reaction-weighting shifts) could explain part of the VOLUME change \u2014 instrumentation, not defection",
+   "Left-venturing into right spaces could theoretically explain pushback presence, though it fails against the articulate, right-first-principles character of the arguments observed"
+  ],
+  "falsifier": "Signal dies if like/laugh ratios revert toward baseline as algorithms re-tune or the news cycle cools (instrumentation explanation wins), or if pushback reverts to personality-specific rather than policy-specific (absorbable by personnel changes). Signal STRENGTHENS if ratio inversion persists or worsens through the November Pause window and pushes economic \u2014 the structural read.",
+  "forward_watchlist": [
+   "Like/laugh ratio trend on flagship right-media pages through November Pause window",
+   "Policy-specific vs. personality-specific composition of pushback (economic vs. disgust)",
+   "Whether regime responds with economic concessions (absorption) or further consolidation (acceleration)",
+   "Interaction with War Question spread: hollowing coalition makes Potemkin posture (loud-but-shallow external war) MORE attractive",
+   "Emergence of named internal opposition figures or factions in right-media ecosystems"
+  ],
+  "confidence_score": 73,
+  "status": "emergent",
+  "confidence": 73.0
+ },
+ {
+  "title": "Houthi Red Sea Expansion: Escalation Fork (Resource Strain or Regional Spread)",
+  "date_made": "2026-09-11",
+  "statement": "Houthi coastal expansion along the Red Sea is highly escalatory and will bifurcate within ~90 days (by mid-December 2026): either (a) the US commits additional naval resources to Red Sea escort/interdiction beyond current CENTCOM posture \u2014 straining assets already saturated by the Hormuz blockade response \u2014 or (b) the theater spreads into regional war, most plausibly via Israeli strikes on Houthi infrastructure displacing the Oct 7 foreknowledge scandal (the Sept 8 divergence read: Israel needs escalation, America needs quiet). Distinct escalation pathway from the four logged theaters: proxy-at-chokepoint ignition (Bab el-Mandeb), which does not trip the direct Iran re-escalation triggers on the Master Thesis watchlist because the Houthis are Iranian-aligned but not Iranian-controlled. First theater to escalate via proxy rather than direct state action.",
+  "evidence_confirmed": [
+   "Houthi coastal expansion reported along Red Sea littoral",
+   "US fleet saturation: escort duties already split between Gulf of Oman convoys and Persian Gulf posture (logged Sept 8-11 cycle)",
+   "Divergent-interests structure (2026-09-08 journal): Netanyahu 7 weeks from Israeli election with Oct 7 foreknowledge recording in hand \u2014 external escalation displaces scandal",
+   "Prior precedent: Israeli strikes on Houthi ports/Sana'a infrastructure established in earlier phases of the war",
+   "Master Thesis interlocking-theater mechanism: chokepoint competition draws belligerents in \u2014 Bab el-Mandeb is the second chokepoint after Hormuz",
+   "[2026-09-17] Entire Yemeni Red Sea coast under Houthi control; Mocha + islands seized; guns along 12-mi Bab el-Mandeb; Saudi vessels explicitly excluded from safe passage (Euronews/US News/NBC, 9/17)"
+  ],
+  "evidence_contradicted": [
+   "Houthi capability remains attritional/harassment economics, not sea-denial decisive",
+   "November Pause pressure: US incentive to keep Red Sea quiet into midterms cuts against both prongs short-term",
+   "EU Aspides escort mission already absorbs part of the Red Sea patrol burden without US escalation"
+  ],
+  "falsifier": "If Houthi coastal operations plateau or are absorbed by existing escort rotations (EU Aspides + current CENTCOM posture) with NO new US resource commitment to the Red Sea and NO Israeli-Houthi kinetic exchange by mid-October 2026, the escalation reading is dead and the track downgrades to ambient noise. Prong (a) falsified if US Red Sea posture stays flat through mid-December; prong (b) falsified if no Israeli strike on Yemen/Houthi targets and no Houthi strike on a US naval vessel in the window.",
+  "forward_watchlist": [
+   "Israeli strikes on Houthi infrastructure (Yemen ports, Sana'a) \u2014 the regional-spread aperture",
+   "US carrier group repositioning toward Red Sea vs Gulf \u2014 the resource-strain tell",
+   "Tanker attacks resuming in Bab el-Mandeb (Suez transit rates as private-data tell for effective closure)",
+   "Any Houthi claim of hitting a US naval vessel \u2014 Article 5-adjacent fuse and Master Thesis uncontrolled-escalation trigger",
+   "Iranian resupply flow to Houthis (cross-check de-dollarization track if Iran diverts resources)",
+   "Interaction with SPR runway track (82): every Red Sea escort day competes with Hormuz convoy escort, feeding the oil clock"
+  ],
+  "confidence_score": 84,
+  "status": "emergent",
+  "confidence": 84.0
+ },
+ {
+  "title": "The War Question: Dueling Master Thesis (Spread Track)",
+  "date_made": "2026-09-11",
+  "statement": "Paired duel track \u2014 confidence score = SPREAD, not probability. Thesis A (Interlocking-Theater Escalation, see interlocking-theater-escalation.json, 57): the turning manifests as real, sustained external war; fronts genuinely ignite each other. Thesis B (the Potemkin War, named for effect not intent): external war posture is theater \u2014 loud but shallow, sustained for narrative cover and emergency powers \u2014 then collapses into internal struggle; the real war is domestic. NOTE: the two theses are not opposites \u2014 both terminate in internal struggle; they differ only on route. Scores measure mechanism support from different evidence bases: A is anchored in seven months of escalation receipts; B is currently structure and incentive inference with few positive receipts. The spread (currently +9 toward A) is what moves; each of the three tells shifts it.",
+  "evidence_confirmed": [
+   "November Pause logic already observed: regime incentive to keep external fronts quiet into midterms \u2014 consistent with war-as-theater rather than war-as-commitment",
+   "Divergent interests (Sept 8): Israel needs escalation, America needs quiet \u2014 the US side of that divergence is the Feint signature",
+   "Houthi Red Sea fork (76, logged 2026-09-11): resource-strain prong vs noise-without-commitment prong is now a live discriminator between the two theses",
+   "Domestic enforcement groundwork track running in parallel: apparatus pre-built for the internal landing regardless of external outcome"
+  ],
+  "evidence_contradicted": [
+   "Real resource commitments already exist: Hormuz convoy escort operations, ten tankers destroyed, month seven of the Iran war \u2014 the war is not purely theatrical",
+   "SPR runway track (82) treats the oil shock as a genuine fatality mechanism; a pure feint would not generate real scarcity dynamics",
+   "Escalation traps, once sprung, do not respect theatrical intent \u2014 Pape's escalation logic can force genuine commitment on an unwilling regime"
+  ],
+  "falsifier": "The duel resolves: if force posture, budgets, and casualty exposure stay flat while rhetoric spikes and domestic enforcement outpaces war spending through Q4 2026, B dominates and A weakens. If external theaters generate sustained verifiable resource commitment (permanent carrier repositioning, war appropriations exceeding domestic enforcement growth, a front the regime cannot de-escalate), A dominates and B dies. The spread collapses toward 0 only if the wire stays genuinely mixed \u2014 which is itself the honest forecast state.",
+  "forward_watchlist": [
+   "TELL 1 \u2014 FORCE POSTURE: carrier group repositioning orders vs. home-port holding during the next rhetoric spike (A move: repositioning; B move: holding)",
+   "TELL 2 \u2014 BUDGET: FY27 supplementary war appropriations vs. DHS/ICE domestic enforcement line-item growth (the cleanest single metric \u2014 money is the one thing a Potemkin cannot fake for long; B signature = domestic wins)",
+   "TELL 3 \u2014 HOUTHI FORK: does the Red Sea theater (houthi-red-sea-escalation-fork, 76) draw real fleet assets (A) or strikes/statements with flat posture (B)?",
+   "SPREAD WATCH: log each tell movement to the mget_ledger as a duel-read; the spread is the forecast, not either thesis",
+   "LANDING CONVERGENCE: whichever thesis wins, watch the domestic apparatus activate \u2014 both routes terminate in internal struggle",
+   "Inversion twin: 9-11-inversion-false-flag (35) supplies the ignition; the Potemkin thesis supplies the sustained posture if B wins the route"
+  ],
+  "confidence_score": 9,
+  "status": "emergent",
+  "confidence": 9.0
+ },
+ {
+  "title": "Terminal Unwinding of the Post-WWII Global Order (CASS 94%)",
+  "date_made": "2026-09-12",
+  "statement": "The four pillars of the post-WWII order (Pax Americana, Bretton Woods/dollar hegemony, technocratic neutrality, corporate apoliticalism) have simultaneously crossed their complexity caps. Their unwinding is irreversible under current institutional parameters \u2014 a systemic phase transition, not cyclical volatility. Reversion to factional capitalism, regionalized logistics, and hard-power competition is already underway.",
+  "evidence_confirmed": [
+   "Chokepoint closures: Bab el-Mandeb embargo, Hormuz throttled, Saudi East-West pipeline strikes",
+   "Fifth Fleet HQ compromised, Bahrain evacuation, forward basing contraction",
+   "Distillate refiners at 98% utilization; Brent >$100; Saudi output at 1990 lows",
+   "Battery scores in corridor: civil service 13/15, CDC 12/15, electoral admin 11/15",
+   "Legitimacy cascade signatures: ridicule replacing fear, official script losing attention",
+   "Corporate neutrality reversion: Steak 'n Shake public candidate endorsement (#MAHA)",
+   "NLT inversion on Bahrain confirmation; narrative velocity accelerating",
+   "2026-09-13: Saudi-Israel direct security coordination bypassing Washington while US only 'weighs' strikes (hub-and-spoke collapse)",
+   "2026-09-13: Gulf states + Iran negotiating Hormuz reopening via Oman WITHOUT the US at the table",
+   "2026-09-13: China imports +6.2% Aug \u2014 inventory buffer exhausted, replenishment under duress",
+   "2026-09-13: Costco motor-oil rationing \u2014 substrate squeeze reaches retail layer (consumer visibility)",
+   "2026-09-13: Saudi Eastern Province mobilization; BRICS UAE-Iran normalization 'put the past behind us'"
+  ],
+  "evidence_contradicted": [],
+  "falsifier": "Thesis is falsified within 24-36 months if ANY of: (1) Naval restoral \u2014 US/allies re-secure Red Sea/Hormuz chokepoints with restored deterrence and no domestic fracture; (2) Institutional rebound \u2014 trust and operational independence recover across federal agencies for two consecutive electoral cycles; (3) Corporate retreat \u2014 consumer brands collectively return to apolitical neutrality as market stability returns.\n\n[Provenance] [2026-09-12] confidence_score normalized from 0.94 (0-1 scale) to 94 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "Hormuz/Red Sea transit volumes and insurance rates",
+   "Distillate inventory weekly draws; retail diesel price path",
+   "January 3 mechanism: House clerk appointment, member certification disputes",
+   "Additional consumer brands breaking neutrality (pattern n>1)",
+   "Military red-line events: domestic deployment or public refusal",
+   "Dollar reserve behavior in China/BRICS settlement flows",
+   "Hub-and-spoke bypass pattern: further bilateral security pacts excluding Washington (watch: Egypt, Qatar, Turkey)"
+  ],
+  "confidence_score": 94,
+  "status": "emergent",
+  "confidence": 94.0
  }
 ]
