@@ -19,7 +19,7 @@
    "Sea-borne import dependency (India/Morocco/Turkey/Belarus): sustained = fragility; substituted by domestic = recovery.",
    "Winter immediacy: whether recovered capacity covers heating-season demand without rationing."
   ],
-  "_id": "ukraine-strikes-russian-oil"
+  "confidence": 100.0
  },
  {
   "title": "Assassination as Catalyst (Kirk)",
@@ -40,7 +40,7 @@
    "New primary evidence on the shooter: motive, complicity network, or any finding contradicting the lone-wolf framing.",
    "Whether staged is ever corroborated beyond catalytic use - vs. remaining a convenient use of a real tragedy."
   ],
-  "_id": "assassination-as-catalyst-kirk"
+  "confidence": 100.0
  },
  {
   "title": "Fertilizer Supply Crisis",
@@ -61,6 +61,101 @@
    "Actual landed fertilizer cost at US farm gate - the lagging input that hits food shelves 6-9 months out.",
    "Any fertilizer-specific carve-out corridors in the blockade (humanitarian analog)."
   ],
-  "_id": "fertilizer-supply-crisis"
+  "confidence": 85.0
+ },
+ {
+  "title": "Ground Invasion of Iran",
+  "date_made": "2026-07-20",
+  "statement": "We are preparing for a ground based invasion to secure the strait.",
+  "evidence_confirmed": [
+   "American bases devastated by attacks (Breeds need for escalation)",
+   "Lack of tactical options left",
+   "Israeli PM Benjamin Netanyahu openly states in i24NEWS Hebrew interview (Sept 2, 2026): 'We will defeat the regime. All of Israel\u2019s systems are working to overthrow this regime and defeat it,' directly linking external military actions to total regime collapse.",
+   "Primary juxtaposition (Sept 2, 2026): White House private leaks reveal leadership is discussing how to 'quiet quit' or declare the Iran war over to protect midterm optics, directly colliding with real-time reality as Iran launches surprise ballistic missile and drone strikes on U.S. assets in Kuwait\u2014proving the kinetic flywheel cannot be stopped by political wishful thinking."
+  ],
+  "evidence_contradicted": [
+   "China attempting to avoid escalation"
+  ],
+  "confidence_score": 49,
+  "status": "pending",
+  "falsifier": "No US ground invasion of Iran occurs - the strategy remains air/naval blockade + strikes (anvil), Iran is not invaded, and the regime either sues for terms or the war is quiet-quit/declared contained without boot on Iranian soil.",
+  "forward_watchlist": [
+   "Any troop-deployment/readiness signal (division mobilizations, FORCOM activation orders) pointing at a ground option.",
+   "Whether the quiet-quit/November Pause strategy suppresses ground-invasion momentum (de-escalation) or the regime needs a decisive win (escalation).",
+   "Iran willingness to return to the interim ceasefire (Pezeshkian signal) - a genuine off-ramp that kills the ground option.",
+   "China mediation posture - active de-escalation (lowers ground probability) vs. disengagement (raises it).",
+   "Regime domestic optics: if they NEED a victory before midterms, ground invasion becomes likelier; if quiet-quit serves them, less."
+  ],
+  "confidence": 49.0
+ },
+ {
+  "title": "Mid-August Oil Price Shock",
+  "date_made": "2026-07-20",
+  "statement": "A massive price shock in mid-August was projected; it never fully emerged because the regime used creative resource management (SPR releases + naval escorts) to blunt the shock and stretch the runway into the midterm calendar. This prediction has been superseded by the SPR-runway-breaks-before-midterms mechanism (status set to 'failed' as the specific August shock did not materialize).",
+  "evidence_confirmed": [
+   "UBS sounds alarm on oil price for rest of 2026",
+   "Barclays warns of $100 Brent risk",
+   "SUPERSEDED (Sept 3, 2026): The hard August price shock did not materialize as projected. The regime offset the crisis through strategic petroleum reserve releases and a naval escort surge \u2014 creative use of resources that shifted the pressure from an acute price shock to the chronic SPR runway breakage tracked under a separate prediction.",
+   "SPR official data now confirms reserves at a 44-year low (286.6M barrels, ~40% capacity), directly evidencing the resource-burn that averted the August shock but created the November runway crisis."
+  ],
+  "evidence_contradicted": [
+   "Goldman cuts 2026 forecast after potential (rumored) deal"
+  ],
+  "confidence_score": 10,
+  "status": "failed",
+  "falsifier": "Already FALSIFIED (status=failed): the projected mid-August hard oil-price shock did not materialize. The regime averted it via SPR releases + naval escort surge, shifting the pressure to the SPR-runway-breaks-before-midterms track. Not re-evaluated while it holds failed status.",
+  "forward_watchlist": [
+   "NYMEX Brent failing to break $100 within the original window (falsified the shock).",
+   "Pressure migrated to the SPR runway: SPR weekly drain toward the ~290M cavern-damage floor is now the live successor signal.",
+   "A resurrected hard shock in the pre-midterm window would be carried by the SPR-runway track, not this one."
+  ],
+  "confidence": 10.0
+ },
+ {
+  "title": "Strait of Hormuz Blockade",
+  "date_made": "2026-07-20",
+  "statement": "Strait is effectively closed and or blockaded. [RESOLVED 2026-09-14: confirmed as compliance blockade (condition b) \u2014 routing-sovereignty threshold fired at 75% vs ~60% threshold.]",
+  "evidence_confirmed": [
+   "Fitch Ratings notes 'longer-than-expected effective closure'",
+   "One-third of global fertilizer trade passes through Strait",
+   "Sept 1, 2026: US military confirms active US strikes on targets in Iran as hostilities flare; re-escalation after ceasefire rejection.",
+   "Sept 1, 2026 (Primary Source): DJT post confirming active strikes near Strait of Hormuz in retaliation for alleged mine-laying and intercepted missiles, threatening larger escalation ('biggest attack of them all... waiting in the wings').",
+   "Sept 1, 2026 (Primary Source/Wire): Israeli PM Netanyahu boasts on Channel 14 in Hebrew about a decades-long influence campaign ('close to 1,000 hours on American television') to manipulate US leadership into the Iran war, directly contradicting White House denials of foreign pressure.",
+   "Sept 1, 2026 (The Hormuz Letter / Senior US Official): US military formally adopts new 'tanker for tanker' policy, actively striking 2 Iranian state oil tankers in retaliatory bombing rather than interdiction \u2014 crossing the threshold into direct destruction of regional crude supply.",
+   "Reuters confirmation (Sept 2, 2026): White House 'November Pause' strategy backed by Vance/Rubio to keep conflict contained until midterms to protect congressional majorities and allow replenishment of depleted long-range precision munitions ('virtually all' stocks burned).",
+   "Primary juxtaposition (Sept 2, 2026): White House private leaks reveal leadership is discussing how to 'quiet quit' or declare the Iran war over to protect midterm optics, directly colliding with real-time reality as Iran launches surprise ballistic missile and drone strikes on U.S. assets in Kuwait\u2014proving the kinetic flywheel cannot be stopped by political wishful thinking.",
+   "EXECUTIVE PANIC RECEIPT (Sept 3, 2026): Truth Social post where Trump labels reporters 'treasonous SCUM' for covering wartime logistics, claiming 'virtually unlimited amounts of Mid to High Grade Ammunition' while threatening retroactive billing to Europe. Directly contradicts leaked Pentagon internal assessments of precision interceptor depletion and wartime maintenance backlogs.",
+   "Sept 3, 2026: House Appropriations disclosure reveals a secret Pentagon-NIH interagency agreement executed without congressional notification to siphon billions from NIAID (disease research) directly into DoD operating accounts to plug the catastrophic financial drain of the Iran war.",
+   "Sept 5, 2026: CENTCOM confirms Iran directly launched surprise anti-ship ballistic and cruise missile attacks on a U.S. aircraft carrier and guided-missile destroyer (fourth consecutive strike), with Washington responding by striking three Iranian crude oil tankers \u2014 confirming the physical closure mechanism and escalation spiral.",
+   "HORMUZ FRONT UPDATE (Sept 7, 2026 \u2014 marqzy aggregate, LOWER-SOURCE RELIABILITY; treat as telemetry-to-verify): (1) IRGC declares operational boundary outside Hormuz \u2014 foreign vessels entering without clearance face blacklisting and kinetic interception; formalizes the blockade's legal-deniability layer. (2) Iranian channels claim live anti-ship missile fired at a US warship during a 'tactical drill' \u2014 drill-as-cover kinetic probe pattern; CENTCOM separately claims 92 vessels redirected, 3 disabled, 2 boarded in enforcement sweeps (enforcement now = direct interference with commerce at scale). (3) IRGC downs a US surveillance aerostat over N. Iraq, publishes debris. (4) Iran stands up 'economic war headquarters' \u2014 ministry-level body for emergency financing, exporter support, and ALTERNATIVE PAYMENT RAILS (direct tie-in to de-dollarization-reserve-rotation). (5) Rolling blackouts/water rationing in Tehran and south \u2014 heatwave + strike damage to substations (internal-fragility compounding). (6) US strike damages an Iranian commercial tanker, crew survives. FOG NOTES: aggregator aggregates aggressively; each item needs primary-source confirmation before confident filing. But the DIRECTION of every item is consistent with the priced trajectory: blockade formalization, escalation probes, domestic Iranian economic stress, and sanctions-financial warfare. The economic-war-headquarters + alternative-payment-rails item is the strongest structural signal \u2014 it links Hormuz to the de-dollarization track.",
+   "AGGREGATOR ITEMS UPGRADED TO CONFIRMED (verification sweep, Sept 7, 2026): (1) CENTCOM 92 vessels redirected / 3 disabled / 2 boarded \u2014 CONFIRMED via CENTCOM release (as of Sept 6), corroborated by Middle East Eye, Newsquawk (Sept 2: 86/3/2 \u2014 the tally is live and incrementing), and global counters (Day 191). (2) IRGC Erbil aerostat \u2014 CONFIRMED CLAIMED by IRGC Aerospace Force (IRNA, PressTV); US/coalition have NOT confirmed the loss; DoD claims Sept 2 strike destroyed the aerostat's ground control/maintenance infrastructure. Treat as Iran-claimed, US-acknowledged-strike-adjacent. (3) Anti-ship missile 'drill' probe \u2014 PARTIALLY CONFIRMED: Iranian SNSC Secretary Mohsen Rezaei publicly claims a first live anti-ship missile over a US carrier/warship (PressTV/Fars); CENTCOM's independently confirmed version is IRGC ballistic missile fire at a carrier and destroyer on ~Sept 4-5 which triggered the 3-tanker retaliation. Treat Rezaei's framing as Iranian narrative on a real exchange. (4) Eight-state condemnation \u2014 CONFIRMED: FM joint statement Sept 6 (Saudi, Jordan, UAE, Indonesia, Pakistan, Turkiye, Qatar, Egypt) condemning Katz/Ben-Gvir displacement rhetoric. (5) Houthi downing Saudi surveillance aircraft \u2014 CONFIRMED via Reuters/India Today Sept 7. (6) Tehran blackouts/water rationing \u2014 CONFIRMED (Iran Intl, Al Jazeera, IranWire): strike-damaged grid + heatwave; Tehran capital 'shutdown' declared. (7) Economic war headquarters \u2014 CONFIRMED (Deputy Economy Minister statement via byteseu/agency pickup, Sept 6): ministry-level body for wartime economic response incl. financing and payment-rails. NET: the marqzy aggregator's substance largely checks out; confidence in the Hormuz trajectory structure unchanged; aggregator remains a discovery layer, not a citation layer.",
+   "HORMUZ TELEMETRY (Al Jazeera liveblog, Sept 7, 2026 \u2014 primary-ish): (1) KPLER DATA \u2014 the hard number: Hormuz traffic fell 28% to 77 vessels last week; loaded (cargo-carrying) transits fell 45->33. CRITICAL STRUCTURAL FINDING: Sept 4-6, 21 of 28 transiting vessels used IRAN'S UNILATERAL ROUTING SCHEME rather than international lanes (7 of 8 transits on final day). Kpler's own read: the shock is 'moving beyond vessel-level caution and beginning to weigh on underlying Gulf trade' \u2014 i.e., de facto compliance with Iranian routing authority WITHOUT formal blockade. This is the routing-sovereignty capture mechanism priced in this track, now observed in shipping data. (2) CONTRADICTION SIGNAL: senior US official tells Al Jazeera the strait is 'fully open and under US Navy control' while the same week's traffic falls 28% and shippers defer to Iranian routing \u2014 official narrative and market behavior diverging. (3) KHARG ISLAND STRIKES: US struck 3 IRGC-linked crude carriers Sat; tanker fire near Kharg (Iran's primary export hub, ~90% of pre-war crude shipments) extinguished, no spill. Escalation now touching Iran's export jugular. (4) QATAR MEDIATION WARNING: mediator spokesman warns of 'industrial catastrophe' if crisis persists; explicitly frames weaponized strait closure as a precedent that 'cannot become the new normal' \u2014 mediator language reaching for an off-ramp. (5) NEGOTIATION FRAMING: MEI's Harrison \u2014 no authentic negotiating track exists; both sides believe they gain more on the battlefield; Iran may escalate to break what it sees as a Trump trap. (6) WAR-SHIFT ASSESSMENT: the war has morphed from nuclear casus belli to a war over the Strait itself \u2014 Western powers trying to shift debate back to nuclear; Iran resisting. (7) IRAN INTERNAL: petrol subsidy phase-out announced (above-quota price doubling); ethnic armed-group crackdowns (Komala/Kurdish mobilization in Erbil \u2014 second-front potential); Pezeshkian calls for unity as economic pressure mounts. (8) SPILLOVER: Israeli strikes southern Lebanon (27 dead in 3 days); Erdogan accuses Israel of sabotaging Islamabad agreement; Syria distancing itself from Iran at Arab League; ICJ Nicaragua-v-Germany hearings on arms exports.",
+   "ESCALATION LADDER RUNG \u2014 GULF ENERGY INFRASTRUCTURE THREAT (Reuters/Japan Times, Sept 7-8, 2026): Following US strikes on IRGC-linked tankers over the weekend, Iranian Parliament Speaker Mohammad Baqer Qalibaf formally escalated Tehran's deterrence posture: 'Strike our assets and you get struck,' explicitly warning that energy infrastructure across the Gulf, including US oil and gas interests, is vulnerable. Concurrently, Mohsen Rezaei formalized the expanded restricted maritime zone boundary. Oil prices hit 6-week highs on Monday. STRUCTURAL READ: The conflict is crossing from maritime interdiction (shipping lanes) into direct reciprocal threats against regional energy extraction and processing infrastructure. This validates the escalation ladder's transition from gray-zone toll-gates to strategic asset vulnerability.",
+   "Sept 8, 2026: CENTCOM confirms the loss of a U.S. unmanned underwater vehicle (AUV/survey drone) after a 'malfunction' in the Strait; Iran recovers the intact unit \u2014 a major reverse-engineering and acoustic-signature harvesting win for the IRGC/adversaries during active kinetic confrontation.",
+   "2026-09-08: Hedge funds flipped net-long 177M barrels in fuels (gasoline/diesel) as US supply squeeze deepens (Oilprice.com, John Kemp); diesel at all-time high $5.90+/gal, record crack spreads; Brent ~$100. Smart money pricing the closure as structural, not transient.",
+   "Sept 11: largest tanker wave of the war; ten tankers destroyed in past week (CENTCOM); Brent breaks $100",
+   "2026-09-14 resolution: routing-sovereignty metric fired \u2014 Sept 4-6 Kpler data showed 75% of transits on Iran's unilateral routing scheme (21/28), 15pts above the ~60% stabilization threshold",
+   "2026-09-14 resolution: compliance blockade (condition b) \u2014 transit volumes at blockade levels and shippers treat Iranian routing authority as binding",
+   "2026-09-15: Houthi strike on YASREF Yanbu (East-West pipeline terminus, Red Sea) \u2014 NASA FIRMS heat anomalies confirmed. Blockade now bleeds onto the Red Sea flank; redundant Saudi export capacity under direct attack with no serious response."
+  ],
+  "evidence_contradicted": [],
+  "confidence_score": 98,
+  "status": "confirmed",
+  "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
+  "forward_watchlist": [
+   "IRAN'S UNILATERAL ROUTING SCHEME \u2014 the decisive early-warning metric: if Iranian-managed routing share stabilizes above ~60% of transits, Iran has achieved de facto toll-gate authority without firing a shot (blockade achieved via compliance, not force). Track Kpler weekly. Counterfactual falsifier: shippers reverting to international lanes under convoy/insurance guarantees would mark reversion.",
+   "Sustained daily Hormuz transit count climbing back toward pre-war baseline (Windward/Kpler/PortWatch); watch for a reopening announcement tested against actual vessel counts, not rhetoric.",
+   "Whether tanker-for-tanker active bombing of Iranian tankers expands to Gulf-of-Oman open-water interdiction (raises blockade permanence) or is walked back (lowers it).",
+   "CENTCOM/public COMMERCIAL vessel count vs. regime claim of continuing traffic - run every report through the ~95% drop figure as the falsifier frame.",
+   "LNG flows through the Strait (Qatar-to-Asia) - the cleanest private data series for whether effective closure is truly holding.",
+   "Any Iranian unilateral safe-corridor offer or US accepting Iranian opening terms - would immediately truncate blockade confidence.",
+   "Iran 'economic war headquarters' (Sept 7): verify via primary sources (Anadolu/IRNA) that Iran has stood up a ministry-level economic-war body with alternative-payment-rail mandates; if confirmed, cross-file to de-dollarization-reserve-rotation as a state-directed reserve-escape mechanism.",
+   "Aerostat downing (N. Iraq) + anti-ship missile 'drill' probes: watch whether CENTCOM/DoD confirms or denies; unacknowledged losses of ISR assets mark a tolerance-boundary shift in the gray-zone phase.",
+   "Watch: formal announcement vs de facto toll-gate persistence; physical reopening or US-Iran de-escalation agreement holding 30 days would trip the reopening falsifier",
+   "YASREF/Yanbu strike aftermath: retaliation vs rhetorical response within 72h",
+   "Strike expansion to Ras Tanura / East pipeline pumping stations",
+   "Brent reaction overnight (gap above ~$115 = acceleration)"
+  ],
+  "confidence": 98.0
  }
 ]
