@@ -1,1 +1,56 @@
-ewogICJtZXRhIjogewogICAgImdlbmVyYXRlZCI6ICIyMDI2LTA5LTE4VDEwOjQzOjAwLTA0OjAwIiwKICAgICJfc2hhcmRlZCI6IHRydWUKICB9LAogICJwcmVkaWN0aW9ucyI6IHsKICAgICJ0b3RhbCI6IDUzLAogICAgInNoYXJkcyI6IFsKICAgICAgInByZWRpY3Rpb25zLjAwLmpzb24iLAogICAgICAicHJlZGljdGlvbnMuMDEuanNvbiIsCiAgICAgICJwcmVkaWN0aW9ucy4wMi5qc29uIiwKICAgICAgInByZWRpY3Rpb25zLjAzLmpzb24iLAogICAgICAicHJlZGljdGlvbnMuMDQuanNvbiIsCiAgICAgICJwcmVkaWN0aW9ucy4wNS5qc29uIiwKICAgICAgInByZWRpY3Rpb25zLjA2Lmpzb24iLAogICAgICAicHJlZGljdGlvbnMuMDcuanNvbiIsCiAgICAgICJwcmVkaWN0aW9ucy4wOC5qc29uIiwKICAgICAgInByZWRpY3Rpb25zLjA5Lmpzb24iLAogICAgICAicHJlZGljdGlvbnMuMTAuanNvbiIsCiAgICAgICJwcmVkaWN0aW9ucy4xMS5qc29uIiwKICAgICAgInByZWRpY3Rpb25zLjEyLmpzb24iLAogICAgICAicHJlZGljdGlvbnMuMTMuanNvbiIsCiAgICAgICJwcmVkaWN0aW9ucy4xNC5qc29uIiwKICAgICAgInByZWRpY3Rpb25zLjE1Lmpzb24iLAogICAgICAicHJlZGljdGlvbnMuMTYuanNvbiIsCiAgICAgICJwcmVkaWN0aW9ucy4xNy5qc29uIgogICAgXQogIH0sCiAgIm1nZXRfbGVkZ2VyIjogewogICAgInRvdGFsIjogMTE2LAogICAgInNoYXJkcyI6IFsKICAgICAgIm1nZXRfbGVkZ2VyLjAwLmpzb24iLAogICAgICAibWdldF9sZWRnZXIuMDEuanNvbiIsCiAgICAgICJtZ2V0X2xlZGdlci4wMi5qc29uIiwKICAgICAgIm1nZXRfbGVkZ2VyLjAzLmpzb24iLAogICAgICAibWdldF9sZWRnZXIuMDQuanNvbiIsCiAgICAgICJtZ2V0X2xlZGdlci4wNS5qc29uIiwKICAgICAgIm1nZXRfbGVkZ2VyLjA2Lmpzb24iLAogICAgICAibWdldF9sZWRnZXIuMDcuanNvbiIsCiAgICAgICJtZ2V0X2xlZGdlci4wOC5qc29uIiwKICAgICAgIm1nZXRfbGVkZ2VyLjA5Lmpzb24iLAogICAgICAibWdldF9sZWRnZXIuMTAuanNvbiIsCiAgICAgICJtZ2V0X2xlZGdlci4xMS5qc29uIiwKICAgICAgIm1nZXRfbGVkZ2VyLjEyLmpzb24iLAogICAgICAibWdldF9sZWRnZXIuMTMuanNvbiIsCiAgICAgICJtZ2V0X2xlZGdlci4xNC5qc29uIgogICAgXQogIH0sCiAgIm1hY3JvX2ZvcmVjYXN0IjogewogICAgInRpdGxlIjogIlRlcm1pbmFsIFVud2luZGluZyBvZiB0aGUgUG9zdC1XV0lJIEdsb2JhbCBPcmRlciIsCiAgICAiY29uZmlkZW5jZSI6IDAuOTQsCiAgICAicHJldmlvdXNfY29uZmlkZW5jZSI6IDAuODgsCiAgICAic3RhdHVzIjogIkVNRVJHRU5UIiwKICAgICJyYWlzZWRfZGF0ZSI6ICIyMDI2LTA5LTEzIgogIH0KfQ==
+{
+  "meta": {
+    "generated": "2026-09-18T10:43:00-04:00",
+    "_sharded": true
+  },
+  "predictions": {
+    "total": 53,
+    "shards": [
+      "predictions.00.json",
+      "predictions.01.json",
+      "predictions.02.json",
+      "predictions.03.json",
+      "predictions.04.json",
+      "predictions.05.json",
+      "predictions.06.json",
+      "predictions.07.json",
+      "predictions.08.json",
+      "predictions.09.json",
+      "predictions.10.json",
+      "predictions.11.json",
+      "predictions.12.json",
+      "predictions.13.json",
+      "predictions.14.json",
+      "predictions.15.json",
+      "predictions.16.json",
+      "predictions.17.json"
+    ]
+  },
+  "mget_ledger": {
+    "total": 116,
+    "shards": [
+      "mget_ledger.00.json",
+      "mget_ledger.01.json",
+      "mget_ledger.02.json",
+      "mget_ledger.03.json",
+      "mget_ledger.04.json",
+      "mget_ledger.05.json",
+      "mget_ledger.06.json",
+      "mget_ledger.07.json",
+      "mget_ledger.08.json",
+      "mget_ledger.09.json",
+      "mget_ledger.10.json",
+      "mget_ledger.11.json",
+      "mget_ledger.12.json",
+      "mget_ledger.13.json",
+      "mget_ledger.14.json"
+    ]
+  },
+  "macro_forecast": {
+    "title": "Terminal Unwinding of the Post-WWII Global Order",
+    "confidence": 0.94,
+    "previous_confidence": 0.88,
+    "status": "EMERGENT",
+    "raised_date": "2026-09-13"
+  }
+}
