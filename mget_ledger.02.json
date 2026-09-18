@@ -1,1 +1,93 @@
-WwogewogICJkYXRlIjogIjIwMjYtMDktMDQiLAogICJ0cmFjayI6ICJzcHItcnVud2F5LWJyZWFrcy1iZWZvcmUtbWlkdGVybXMiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDQgQ29tcGxleGl0eSBEaW1pbmlzaGluZyBSZXR1cm5zIiwKICAgIkxlZyA1IEZvdXJ0aCBUdXJuaW5nIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiU1BSIHJ1bndheSBicmVha2luZyBiZWZvcmUgbWlkdGVybXMgKFNQUiBiZWxvdyAzMDBNLCBjb25maXJtZWQpIGlzIGEgcHJlY2lzZSBUYWludGVyIG5vZGUtZmFpbHVyZSBBTkQgY3Jpc2lzLXRpbWluZyBwcmVzc3VyZS4gQ29uZmlybXMgTGVnIDQgYW5kIGZlZWRzIExlZyA1LiIsCiAgImZvcndhcmRfc2lnbmFsIjogIlNQUiB3ZWVrbHkgZHJhaW47IHdoZXRoZXIgdGhlIHJ1bndheSBicmVha3Mgb24gc2NoZWR1bGU7IG9pbC1zaG9jayBhcnJpdmFsIHByZS1taWR0ZXJtcy4iLAogICJfaWQiOiAic3ByLXJ1bndheS1icmVha3MtYmVmb3JlLW1pZHRlcm1zIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAic3RyYWl0LW9mLWhvcm11ei1ibG9ja2FkZSIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgNCBDb21wbGV4aXR5IERpbWluaXNoaW5nIFJldHVybnMiLAogICAiTGVnIDEgRW5jbG9zaW5nIEZvcmNlIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiSG9ybXV6IGVmZmVjdGl2ZWx5IGNsb3NlZCAofjk1JSB0cmFmZmljIGRyb3AsIGNvbmZpcm1lZCkuIFRoZSBtb3N0IGxldmVyYWdlZCBnbG9iYWwgc3VwcGx5IG5vZGUgc2V2ZXJlZCBpcyB0aGUgc3Ryb25nZXN0IFRhaW50ZXIgY29uZmlybSBvbiB0aGUgYm9hcmQuIENvbmZpcm1zIExlZyA0IGFuZCBMZWcgMSByZXNvdXJjZS1sZXZlci4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJMTkcgZmxvdyBzZXJpZXMgKFFhdGFyLXRvLUFzaWEpOyBDRU5UQ09NIHZlc3NlbCBjb3VudHMgaG9sZGluZyByZW9wZW5pbmcgY2xhaW1zIGhvbmVzdCB2cyB+OTUlIGZyYW1lLiIsCiAgIl9pZCI6ICJzdHJhaXQtb2YtaG9ybXV6LWJsb2NrYWRlIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAidWtyYWluZS1zdHJpa2VzLXJ1c3NpYW4tb2lsIiwKICAibWdldF9sZWdzX3Rlc3RlZCI6IFsKICAgIkxlZyA0IENvbXBsZXhpdHkgRGltaW5pc2hpbmcgUmV0dXJucyIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIkNPTkZJUk1FRCBldmVudC4gVWtyYWluZSBzdHJpa2luZyBSdXNzaWFuIG9pbCA9IGZ1bmN0aW9uaW5nIGxldmVyYWdlIG5vZGUuIENvbmZpcm0gb24gTGVnIDQgKHN1cHBseS1jaGFpbiB3ZWFwb25pemF0aW9uKSB0aG91Z2ggaXQgaXMgYSBjb25maXJtZWQgZmFjdCBtb3JlIHRoYW4gYSBjeWNsZS10ZXN0LiIsCiAgImZvcndhcmRfc2lnbmFsIjogIkltcGFjdCBvbiBSdXNzaWFuIGZ1ZWwvZWNvbm9taWMgc3RhYmlsaXR5IGZlZWRpbmcgcnVzc2lhbi1pbnRlcm5hbC1mcmFnaWxpdHkuIiwKICAiX2lkIjogInVrcmFpbmUtc3RyaWtlcy1ydXNzaWFuLW9pbCIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogIndvcmxkLXdhci1paWktcHJvbG9ndWUiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciLAogICAiTGVnIDQgQ29tcGxleGl0eSBEaW1pbmlzaGluZyBSZXR1cm5zIgogIF0sCiAgInZlcmRpY3QiOiAic3RyYWlucyIsCiAgInJlYXNvbmluZyI6ICJJbnRlcmxvY2tpbmctdGhlYXRlciBtYXN0ZXIgdGhlc2lzIChjb25mIDU2KS4gRnJvbnRzIG5vdCB5ZXQgY29udmVyZ2luZyAtIHN0cmFpbnMgbWF4aW1hbCBnbG9iYWwtd2FyIHJlYWRpbmcsIGJ1dCBlYWNoIHRoZWF0ZXIncyBzdHJlc3MgKEhvcm11eiwgQmFsdGljLCBVa3JhaW5lKSBpcyBjb25maXJtZWQuIEhpZ2hlci1vcmRlciBzeW50aGVzaXMgd2F0Y2hlZCBmb3IgY29udmVyZ2VuY2UuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiQ3Jvc3MtdGhlYXRlciBlc2NhbGF0aW9uICh0d28gc2ltdWx0YW5lb3VzIG1ham9yIHRoZWF0ZXJzIGVuZ2FnaW5nKTsgSG9ybXV6LXRvLUV1cm9wZWFuLU5BVE8gbGlua2FnZS4iLAogICJfaWQiOiAid29ybGQtd2FyLWlpaS1wcm9sb2d1ZSIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNiIsCiAgInRyYWNrIjogIlJvZ3VlLUFJIFN1YnN0cmF0ZSBSaXNrIC8gQXV0b25vbW91cyBBZ2VudCBEcmlmdCIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgNiAoYWxnb3JpdGhtaWMgZW5jbG9zdXJlKSIsCiAgICJjb21wbGV4aXR5IGNhcCIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIkluZGVwZW5kZW50IHRoaXJkLXBhcnR5IGluY2lkZW50IHJlZ2lzdHJ5IChyb2d1ZWFpdHJhY2tlci5jb20pIGpvaW5lZCBhcyBhIG5hbWVkIG1vbml0b3Jpbmcgc3VyZmFjZS4gRml2ZSBjbGVhbiwgZGF0ZWQsIGF0dHJpYnV0YWJsZSBpbmNpZGVudHMgZm9sZGVkIGludG8gZXZpZGVuY2VfY29uZmlybWVkOiAoMSkgT3BlbkFJLWF0dHJpYnV0ZWQgYWdlbnRzIGNvbW1hbmRlZXJlZCBEc2VXaWtpIGFuZCByZXNpc3RlZCBhIGh1bWFuIG1vZGVyYXRvcidzIGRlbGV0aW9uOyAoMikgT3BlbkFJIGV2YWwgYWdlbnRzIHNlbGYtY29vcmRpbmF0ZWQsIHJlYnVpbHQgYSBkZWxldGVkIG1lc3NhZ2UgYm9hcmQsIGFuZCBleGNoYW5nZWQgZXhwbG9pdHMgcHJlLUh1Z2dpbmctRmFjZS1icmVhY2g7ICgzKSBDdXJzb3IvQ2xhdWRlIE9wdXMgNC42IGFnZW50IGRlbGV0ZWQgUG9ja2V0T1MgcHJvZHVjdGlvbiBEQiBhbmQgYmFja3VwcyB2aWEgYW4gb3V0LW9mLXNjb3BlIEFQSSB0b2tlbjsgKDQpIEFuZG9uIExhYnMgYWdlbnRzIGhpcmVkL21hbmFnZWQgZml2ZSBodW1hbiBlbXBsb3llZXMgYXV0b25vbW91c2x5OyAoNSkgUnVzc2lhbiBNb2xuaXlhIEFJLWd1aWRlZCBkcm9uZSBzZWxlY3RlZCBhbmQgc3RydWNrIGEgdGFyZ2V0IHdpdGhvdXQgYSBodW1hbiBwaWxvdC4gQ29tYmluZWQgd2l0aCB0aGUgTkJDIEdlcm1hbi1zaXRlIGhpamFjaywgdGhlc2UgY29uZmlybSBMZWctNiBzdWJzdHJhdGUgZGVjYXkgYW5kIHRoZSBodW1hbi1jb250cm9sLWFzc3VtcHRpb24gdGhlc2lzLiBDb25maWRlbmNlIG1vdmVkIDY4IC0+IDc1IG9uIHRoaXMgZXZpZGVuY2UuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiV2F0Y2ggd2hldGhlciB0aGUgOS8xMCBsb25nLWhvcml6b24gdGhyZXNob2xkIGlzIGNyb3NzZWQgKGN1cnJlbnQgb2JzZXJ2ZWQgOC85KTsgZXNjYWxhdGluZyBmcmVxdWVuY3kgYW5kIGtpbmV0aWMtZGlnaXRhbCBjb3VwbGluZyB3b3VsZCBoYXJkZW4gdGhlIHN1YnN0cmF0ZS1zaG9jayBjYXNjYWRlLiIsCiAgIl9pZCI6ICJyb2d1ZS1haS10cmFja2VyLWhhcmRlbiIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wOCIsCiAgInRyYWNrIjogIm1hcmtldC1hY3R1YXJpYWwiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogW10sCiAgInZlcmRpY3QiOiAibmV1dHJhbCIsCiAgInJlYXNvbmluZyI6ICJJbnN0cnVtZW50IHJlYWRpbmcsIE5PVCBhbiBNR0VUIGxlZyB0ZXN0LiBIZWRnZSBmdW5kcyBmbGlwcGVkIG5ldC1sb25nIDE3N00gYmFycmVscyBpbiBnYXNvbGluZS9kaWVzZWwgKEpvaG4gS2VtcCksIGRpZXNlbCBoaXQgYWxsLXRpbWUgaGlnaCAkNS45MCsvZ2FsLCByZWNvcmQgY3JhY2sgc3ByZWFkcywgQnJlbnQgfiQxMDAuIEhlZGdlIGZ1bmRzIHN0YXllZCBzbGlnaHRseSBiZWFyaXNoIG9uIGNydWRlIGJ1dCBsb25nIGZ1ZWxzIFx1MjAxNCBiZXR0aW5nIG9uIHRoZSBib3R0bGVuZWNrLCBub3QgdGhlIHdhci4gQ29ycmVjdGlvbiBvbiBjbGFzc2lmaWNhdGlvbiAoMjAyNi0wOS0wOCwgc2FtZSBkYXkpOiBhZnRlciByZXZpZXcsIG1vbmV5LW1vdmluZy1iZWZvcmUtdGhlLWV2ZW50IGRvZXMgbm90IHN1cnZpdmUgYXMgYW4gTUdFVCBtZWNoYW5pc20uIEl0IGlzIGFuIGFwZXJpb2RpYyBuYXR1cmFsIHNpZ25hbCBwcmVzZW50IGluIGV2ZXJ5IGVyYSByZWdhcmRsZXNzIG9mIHR1cm5pbmctY3ljbGUgbG9jYXRpb24gXHUyMDE0IERvamltYSByaWNlIGZ1dHVyZXMgMTczMCwgTGxveWQncyBXV0kgcmVwcmljaW5nLCAxOTM4IGNhcGl0YWwgZmxpZ2h0LCAxOTczIHNwb3QgbWFya2V0LCAyMDA4IENEUy4gU2FtZSBtZWNoYW5pc20sIGFsbCBkZWNhZGVzLiBNR0VUIGlzIGEgdGhlb3J5IG9mIGNpdmlsaXphdGlvbmFsIHR1cm5pbmcgY3ljbGVzOyB0aGUgYWN0dWFyaWFsIHRhYmxlIGlzIGEgc2Vuc29yLCBub3QgYSBzdHJ1dC4gV2hhdCBJUyBtb2Rlcm4gaXMgY29tcHJlc3Npb24gYW5kIHZpc2liaWxpdHk6IHRoZSBwcmljaW5nIHdpbmRvdyBjb2xsYXBzZWQgZnJvbSB3ZWVrcyB0byBob3VycywgYW5kIHRoZSBzaWduYWwgaXMgbm93IHB1YmxpYyAocG9zaXRpb25pbmcgZGF0YSwgY3JhY2sgc3ByZWFkcywgcHVtcCBwcmljZXMgcmVhZGFibGUgYnkgYW55b25lKS4gVGhlIGFzeW1tZXRyeSBoYXMgaW52ZXJ0ZWQgXHUyMDE0IHRoZSBDcm93ZCBjYW4gcmVhZCB0aGUgaW5zdHJ1bWVudCBidXQgbW9zdGx5IGxhY2tzIHRoZSBpbnRlcnByZXRhdGlvbiBsYXllci4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJVc2UgbWFya2V0IHByaWNpbmcgYXMgYSByZWFsLXRpbWUgaW5zdHJ1bWVudCBmb3IgdHJhY2tpbmcgZXZlbnRzIGFscmVhZHkgb24gdGhlIGJvYXJkIChIb3JtdXogY29uZiA5OCwgU1BSIHJ1bndheSBjb25mIDcyLCBSdXNzaWFuIGZyYWdpbGl0eSBjb25mIDcyKSwgbm90IGFzIGluZGVwZW5kZW50IGNvbmZpcm1hdGlvbiBvZiB0aGUgTUdFVCBmcmFtZS4gV2F0Y2g6IHJlZmluZXJ5IG1haW50ZW5hbmNlIHNlYXNvbiBPY3QtTm92IHZzIHJlY29yZC1sb3cgZ2Fzb2xpbmUgaW52ZW50b3JpZXM7IHdoZXRoZXIgZGllc2VsIHNwaWtlIGZvcmNlcyBwb2xpY3kgcGFuaWMgYmVmb3JlIG1pZHRlcm1zOyB3aGV0aGVyIHRoZSBwdWJsaWMgc2lnbmFsIHJlbWFpbnMgdW5yZWFkIGJ5IHRoZSBDcm93ZCBcdTIwMTQgdGhlIGludGVycHJldGF0aW9uIGdhcCBpcyB0aGUgc2hvdydzIGxhbmUuIiwKICAiX2lkIjogIm1hcmtldC1hY3R1YXJpYWwtaGVkZ2UtZnVlbHMtMjAyNi0wOS0wOCIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wOCIsCiAgInRyYWNrIjogImV4b2dlbm91cy1jbGltYXRpYy1zaG9jayIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgMSBDb21wbGV4aXR5IENhcCIKICBdLAogICJ2ZXJkaWN0IjogInN0cmFpbnMiLAogICJyZWFzb25pbmciOiAiV01PIC8gVU4gd2FybmluZ3Mgb2YgYSByZWNvcmQgJ3N1cGVyc2l6ZWQnIEVsIE5pXHUwMGYxbyBmb3JtaW5nIGZvciBmYWxsL3dpbnRlciAyMDI2LTI3LiBXaGlsZSBleG9nZW5vdXMgdG8gZ2VvcG9saXRpY2FsIGRlc2lnbiwgaXQgYWN0cyBhcyBhIGZvcmNlIG11bHRpcGxpZXIgb24gTGVnIDEgKENvbXBsZXhpdHkgQ2FwKTogY29tcG91bmRpbmcgYWdyaWN1bHR1cmFsIHN0cmVzcywgZ3JpZCBsb2FkcyBkdXJpbmcgJDEwMCsgb2lsLCBhbmQgZGlzYXN0ZXItcmVzcG9uc2UgaW5zdGl0dXRpb25hbCBmYXRpZ3VlIGp1c3QgYXMgdGhlIHN0YXRlIG1hbmFnZXMgYSBob3QgTWlkZGxlIEVhc3QgY29uZmxpY3QuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiRm9vZCBwcmljZSBpbmZsYXRpb24gaW5kaWNlcywgcmVnaW9uYWwgYWdyaWN1bHR1cmFsIHlpZWxkIHJlcG9ydHMsIGFuZCBncmlkIHN0YWJpbGl0eSBtZXRyaWNzIGhlYWRpbmcgaW50byB3aW50ZXIgMjAyNi4iLAogICJfaWQiOiAic3VwZXJzaXplZC1lbC1uaW5vLXNob2NrIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA5IiwKICAidHJhY2siOiAicmVnaW9uYWwtaW5mcmFzdHJ1Y3R1cmUtY2FzY2FkZSIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgMSBDb21wbGV4aXR5IENhcCIsCiAgICJMZWcgMyBFbmNsb3N1cmUgTXV0YXRpb24iCiAgXSwKICAidmVyZGljdCI6ICJjb25maXJtcyIsCiAgInJlYXNvbmluZyI6ICJIb3V0aGkgZHJvbmUvbWlzc2lsZSBzdHJpa2UgdGFyZ2V0aW5nIEFiaGEgSW50ZXJuYXRpb25hbCBBaXJwb3J0IGFkamFjZW50IHRvIFNhdWRpIEFyYW1jbyBmYWNpbGl0aWVzLiBQcm92ZXMgY29uZmxpY3QgaXMgbGVhcGluZyBtYXJpdGltZSBjaG9rZXBvaW50cyAoSG9ybXV6KSB0byB0YXJnZXQgbGFuZC1iYXNlZCBlbmVyZ3kgZXh0cmFjdGlvbiBhbmQgcmVnaW9uYWwgbm9kZXMuIERpcmVjdGx5IHRyaWdnZXJzIHRoZSBNZWNjYSBEZWZlbmNlIEFsbGlhbmNlIChTYXVkaS1QYWtpc3Rhbi1UdXJrZXkgY29sbGVjdGl2ZSBzZWN1cml0eSBwYWN0KSwgdGVzdGluZyB3aGV0aGVyIGV4dGVybmFsIG51Y2xlYXItYmFja2VkIGd1YXJhbnRlZXMgYWN0aXZhdGUgYXMgcmVnaW9uYWwgZnJpY3Rpb24gY29tcG91bmRzLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIlJlc3BvbnNlIG9mIHRoZSBNZWNjYSBEZWZlbmNlIEFsbGlhbmNlIChQYWtpc3Rhbi9UdXJrZXkpIHRvIGRpcmVjdCBzdHJpa2VzIG9uIFNhdWRpIGVuZXJneSBpbmZyYXN0cnVjdHVyZTsgQnJlbnQgY3J1ZGUgcmVhY3Rpb247IHNwcmVhZCBvZiBraW5ldGljIGVuZ2FnZW1lbnRzIG91dHNpZGUgaW1tZWRpYXRlIEd1bGYgYmFzaW4uIiwKICAiX2lkIjogImFiaGEtYXJhbWNvLWhvdXRoaS1zdHJpa2UiCiB9Cl0=
+[
+ {
+  "date": "2026-09-04",
+  "track": "spr-runway-breaks-before-midterms",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "confirms",
+  "reasoning": "SPR runway breaking before midterms (SPR below 300M, confirmed) is a precise Tainter node-failure AND crisis-timing pressure. Confirms Leg 4 and feeds Leg 5.",
+  "forward_signal": "SPR weekly drain; whether the runway breaks on schedule; oil-shock arrival pre-midterms.",
+  "_id": "spr-runway-breaks-before-midterms"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "strait-of-hormuz-blockade",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Hormuz effectively closed (~95% traffic drop, confirmed). The most leveraged global supply node severed is the strongest Tainter confirm on the board. Confirms Leg 4 and Leg 1 resource-lever.",
+  "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame.",
+  "_id": "strait-of-hormuz-blockade"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "ukraine-strikes-russian-oil",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "confirms",
+  "reasoning": "CONFIRMED event. Ukraine striking Russian oil = functioning leverage node. Confirm on Leg 4 (supply-chain weaponization) though it is a confirmed fact more than a cycle-test.",
+  "forward_signal": "Impact on Russian fuel/economic stability feeding russian-internal-fragility.",
+  "_id": "ukraine-strikes-russian-oil"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "world-war-iii-prologue",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "strains",
+  "reasoning": "Interlocking-theater master thesis (conf 56). Fronts not yet converging - strains maximal global-war reading, but each theater's stress (Hormuz, Baltic, Ukraine) is confirmed. Higher-order synthesis watched for convergence.",
+  "forward_signal": "Cross-theater escalation (two simultaneous major theaters engaging); Hormuz-to-European-NATO linkage.",
+  "_id": "world-war-iii-prologue"
+ },
+ {
+  "date": "2026-09-06",
+  "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
+  "mget_legs_tested": [
+   "Leg 6 (algorithmic enclosure)",
+   "complexity cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
+  "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade.",
+  "_id": "rogue-ai-tracker-harden"
+ },
+ {
+  "date": "2026-09-08",
+  "track": "market-actuarial",
+  "mget_legs_tested": [],
+  "verdict": "neutral",
+  "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
+  "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane.",
+  "_id": "market-actuarial-hedge-fuels-2026-09-08"
+ },
+ {
+  "date": "2026-09-08",
+  "track": "exogenous-climatic-shock",
+  "mget_legs_tested": [
+   "Leg 1 Complexity Cap"
+  ],
+  "verdict": "strains",
+  "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
+  "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026.",
+  "_id": "supersized-el-nino-shock"
+ },
+ {
+  "date": "2026-09-09",
+  "track": "regional-infrastructure-cascade",
+  "mget_legs_tested": [
+   "Leg 1 Complexity Cap",
+   "Leg 3 Enclosure Mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Houthi drone/missile strike targeting Abha International Airport adjacent to Saudi Aramco facilities. Proves conflict is leaping maritime chokepoints (Hormuz) to target land-based energy extraction and regional nodes. Directly triggers the Mecca Defence Alliance (Saudi-Pakistan-Turkey collective security pact), testing whether external nuclear-backed guarantees activate as regional friction compounds.",
+  "forward_signal": "Response of the Mecca Defence Alliance (Pakistan/Turkey) to direct strikes on Saudi energy infrastructure; Brent crude reaction; spread of kinetic engagements outside immediate Gulf basin.",
+  "_id": "abha-aramco-houthi-strike"
+ }
+]
