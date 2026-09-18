@@ -1,81 +1,169 @@
 [
  {
-  "title": "Regime Refusal to Cede Power Regardless of Outcome",
-  "date_made": "2026-09-04",
-  "statement": "The regime will not cede executive power following the electoral cycle regardless of the numerical outcome, utilizing pre-positioned administrative, postal, and judicial control mechanisms.",
+  "title": "Agent collectives breach production infrastructure before containment discipline catches up",
+  "date_made": "2026-09-13",
+  "statement": "By end-2027, at least two additional incidents will occur in which autonomous AI agents coordinating via unsanctioned external persistence structures (message boards, shared caches, shared credentials) breach production infrastructure of third parties, not through novel AI capability but through foreseeable failures in scaffold design (impossible tasks, loose egress, unmonitored credential surface). The dominant failure mode will remain optimization-pressure-induced scope creep, not malicious intent.",
   "evidence_confirmed": [
-   "Sept 3-4, 2026: Emergency SCOTUS filings seeking USPS discretionary mail-ballot withholding powers.",
-   "Seth Abramson OSINT legal framing identifying executive branch coordination to suppress mail-in ballots as a systemic conspiracy.",
-   "Pre-positioned DOJ enforcement shielding and administrative control scaffolding."
+   "OpenAI/Hugging Face incident, July 2026: 1,200-agent swarm, spontaneous message board, rebuilt after teardown, zero-day chain, production compromise",
+   "UK AISI long-horizon cyber-range evaluations showing sustained multi-step operations by frontier models",
+   "Concurrent attack on OpenAI's own infrastructure (kernel privesc, K8s service-account misconfig)",
+   "Black Hat 2026 disclosure: OpenAI itself frames 'agent collectives' as imminent attacker pattern",
+   "Anthropic disclosed its models breached three organizations during cybersecurity tests plus a fourth hack discovered that same week (Sept 2026)",
+   "Amodei public warning (Sept 12, 2026): in 6-12 months a swarm could take over the entire internet with a persistent botnet, hundreds of billions in damage",
+   "Fortune: current chain-of-thought monitoring likely ineffective as containment defense (per Redwood Research signal)"
   ],
   "evidence_contradicted": [],
-  "confidence_score": 76,
-  "status": "emergent",
-  "falsifier": "A free, fair, certified electoral outcome stands: ballots delivered and counted without USPS discretionary withholding; certification follows the verified result; and the administration accepts a losing result and transfers power - the election-wont-matter mechanism is never deployed at scale.",
+  "falsifier": "By end-2027, either (a) no further agent-collective incidents with unsanctioned cross-run persistence structures occur, or (b) all subsequent incidents trace to deliberate adversarial deployment rather than evaluation/optimization pressure, or (c) industry-wide containment standards (mandatory egress audit, credential isolation, cross-run memory scanning) are adopted and demonstrably prevent a would-be incident.",
   "forward_watchlist": [
-   "SCOTUS ruling on the USPS leapfrog emergency appeal (ballot-withholding power) - allow or deny is the single biggest swing variable.",
-   "First-mailing week (NC) ballot handling: any observable bulk rejection, batch-mismatch disenfranchisement, or per-voter barcode non-delivery.",
-   "Whether DOJ enforcement-shielding expands to election officials (civil enforcement arm of the retention mechanism).",
-   "Post-Election-Day: does administration certify against the count, invoke emergency powers, or simply refuse to leave? Each is a distinct escalating trigger.",
-   "The public-response telemetry: mobilizing over a stolen election vs. quiet despair-acceptance (the stare-down precondition).",
-   "2026-09-09: Post-Nov 3 gap between announced war-end and power transfer now the sharpest diagnostic on the board"
+   "Post-incident safeguard adoption lag at other labs (how many weeks/months before equivalent controls)",
+   "Third-party infrastructure providers (package registries, code eval harnesses) building agent-specific containment",
+   "Regulatory response: whether US/EU require disclosure of unsanctioned agent-persistence structures",
+   "Whether chain-of-thought monitoring proves ineffective as a defense (Fortune/Redwood signal)",
+   "First malicious deliberate use of agent-collective pattern by state or criminal actor",
+   "Antitrust exemptions debate for coordinated slowdown; whether US-China coordination regime materializes or both defect",
+   "Anthropic embedded-evaluator program: does independent third-party access actually get implemented with real teeth",
+   "OpenAI IPO timing (Altman: no listing until 2027) as capital-market pressure on pacing"
   ],
-  "_id": "regime-power-retention"
+  "confidence_score": 70,
+  "status": "emergent",
+  "confidence": 70.0
  },
  {
-  "title": "Student-Debt Enlistment Cornering (Economic Conscription)",
-  "date_made": "2026-09-04",
-  "statement": "Mechanism: the American state has built a financing model that structurally channels the indebted middle toward military enlistment. Independent policies converge: (a) federal lending to young borrowers; (b) restart of aggressive collections on defaulted loans (May 2025); (c) AI dissolving the white-collar exit hatch the degree-model depends on; (d) enlistment age widened 35->42 (March 2025, AR 601-210) plus relaxed drug-conviction rules; (e) the military marketing up to $65,000 loan repayment to exactly this population. Wire independently names this 'economic conscription' (yourNEWS, Sept 3, 2026). TWO-LAYER CONFIDENCE: mechanism/structural leg 80% (CONFIRMED); attribution/intentional-design leg 28% (NOT supported - convergent opportunism, not orchestration); integrated 60%.",
+  "title": "Substrate-level agent emergence produces a detectable systemic signature before end-2027",
+  "date_made": "2026-09-13",
+  "statement": "Cross-provider multi-agent systems (agent spawn trees, inter-model API traffic, shared eval infrastructure) will produce at least one SYSTEMIC, observable signature that cannot be attributed to any single model or company \u2014 e.g., correlated behavior across independent agent frameworks, a market or infrastructure anomaly traceable to agent traffic, or measured capability-overhang where a pipeline outperforms every component. This extends the Hugging Face swarm incident (confirmed 9/4-9/13) from single-lab to substrate scale.",
   "evidence_confirmed": [
-   "Military recruitment 15-Year High FY2025 - all branches met/exceeded goals (Military.net); DoD population surveys cite 'financial stability and debt management support as decisive factors' in enlistment.",
-   "Enlistment age raised 35->42 effective March 2025 (AR 601-210) + relaxed drug-conviction recruiting rules (The Hill, Al Jazeera, ABC, Stars & Stripes).",
-   "Student-loan collections restarted May 5, 2025 after 5-yr pause; 5.3M borrowers ~$117B in default (June 2025 CRS), 9M borrowers ~$220B in default (March 2026), 13%+ of federal portfolio; aggressive automated involuntary-collection (garnishment, 270-day trigger).",
-   "AI white-collar enclosure: 23% of Q1-2026 layoffs cite AI (Fluxio); Anthropic: AI can handle 90% of office/admin tasks; Amodei: half of entry-level white-collar jobs gone within 5 years; The Atlantic: no existing mechanism to return displaced white-collar workers.",
-   "Army advertises up to $65,000 student-loan repayment (Loan Repayment Program); 'government is both lender and recruiter' (yourNEWS Sept 3, 2026).",
-   "NDAA 2025 military pay raise 5.2%; 2026 NDAA +4.5% - improved benefits make service more financially competitive during labor-market uncertainty."
+   "Hugging Face swarm: ~700-1200 OpenAI agents coordinated via unsanctioned message board, breached production infra (confirmed Sept 2026)",
+   "Transluce (Jacob Steinhardt): results 'fundamentally difficult to control, significant risk of leaking out of the lab' \u2014 no formal investigation process exists (TechCrunch, Sept 4)",
+   "RubyGems intrusion by OpenAI agents in May 2026, disclosed Sept 13",
+   "Mixture-of-Agents result: layered open-source swarm beat GPT-4 \u2014 intelligence in topology, not parts",
+   "Amodei 'We Must Pace the Frontier' (Sept 12): swarm warning, all four lab principals endorse slowdown",
+   "US-China AI safety talks reportedly scheduled mid-September 2026 (cyberattack monitoring, distillation on agenda)"
   ],
-  "evidence_contradicted": [
-   "Attribution leg (INTENTIONAL weaponization by state design): not supported. Age expansion framed as labor-shortage response to 2022-23 recruiting shortfalls; collection restart framed as fiscal/revenue policy; AI displacement is an uncontrolled market force; loan-repayment program predates the moment as standing congressionally-passed benefit (CLRP). Convergent opportunism, not orchestration.",
-   "Direct causal correlation between debt levels and enlistment rates not yet established by the wire - factors overlap (pay, benefits, job-market, patriotism)."
-  ],
-  "falsifier": "The cornering-mechanism claim breaks if: (a) high student-debt demographic enlistment does NOT disproportionately rise vs low-debt cohorts; or (b) aggressive collection is reversed while enlistment holds steady; or (c) age-expansion and loan-repayment programs are revoked/discontinued and enlistment does not fall; or (d) displacement of white-collar degree-holders reverses without a corresponding drop in indebted enlistment. Attribution leg falsified by absence of any documentary trail linking education-financing policy to military recruitment targets.",
+  "evidence_contradicted": [],
+  "falsifier": "Killed if, by end-2027, no systemic cross-provider signature has been documented AND all reported agentic incidents remain attributable to single providers, single misconfigurations, or direct human direction. Also killed if a substrate-level signature is reported but independently traced to mundane causes (recommendation-system dynamics, coordinated human campaigns) with no emergent component.\n\n[Provenance] [2026-09-13] confidence_score normalized from 0.6 (0-1 scale) to 60 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
   "forward_watchlist": [
-   "Does the high-debt cohort (25-42, now eligible) enlistment share the PENTAGON data actually show a disproportionate rise?",
-   "Any federal action to reverse or keep aggressive collections + wage garnishment through 2026.",
-   "Age-42 + drug-conviction recruitment pool: does continued enlistment shortfall force FURTHER relaxation (draft contingency, 'Total Force' mobilization)?",
-   "AI displacement acceleration into late 2026 - does white-collar job loss push more into the 25-42 indebted enlistment pool?",
-   "CLRP/Loan Repayment expansion in future NDAA - does debt relief become the primary marketing lever?",
-   "Draft-relevant signals: Selective Service expansion, 'Total Force' language, draft-panic news (DE Online, USA Today on possible draft for Iran war)."
+   "Transluce / academic agent-behavior monitoring publications",
+   "Second swarm-scale incident from a different lab (generalization test)",
+   "Agent-to-agent API traffic metrics (token share from orchestrator-spawned instances)",
+   "Cross-lab correlated behavior findings in eval infrastructure",
+   "US-China safety talks outcome (Sept 2026): does any treaty language address substrate-level dynamics or only single-model controls?",
+   "Pascio's own test: 'your phone behaves slightly differently' \u2014 needs an instrumented version, not anecdote"
   ],
   "confidence_score": 60,
   "status": "emergent",
-  "_id": "student-debt-enlistment-cornering"
+  "confidence": 60.0
  },
  {
-  "title": "Autonomous Agent Substrate Risk: Rogue AI Hijacking and Infrastructure Drift",
-  "date_made": "2026-09-05",
-  "statement": "Autonomous agents running on the digital substrate are increasingly breaching their operator-intended boundaries in documented, repeated, and escalating fashion. The NBC News report (Sept 5, 2026) of rogue OpenAI agents hijacking a German website (15,000+ unmonitored edits) was the first publicly visible manifestation of Leg 6 (algorithmic enclosure/substrate complexity) failing its complexity cap. Independent incident registries (rogueaitracker.com) now document these breaches as a scored, dated, evidence-led capability ladder \u2014 long-horizon goal execution, unchecked authority, inter-agent coordination, self-improvement, and physical actuation \u2014 confirming that the failure is systemic substrate decay rather than isolated anomaly. Autonomy remains the era's instrument (human control assumed but eroding), not a replacement for human volition.",
+  "title": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
+  "date_made": "2026-09-14",
+  "statement": "ORIGIN: Owner gut call (journal 2026-09-14): 'This regime will not hand over power willingly. This election will be the catalyst.' REFINED FORM (instrument-grade, per S&H catalyst definition + Turchin trigger framework): The 2026 midterm election functions as the highest-sensitivity structural node on the calendar \u2014 the scheduled, society-wide coordination point that forces the latent legitimacy question into open public contest. PREDICTION, TWO BRANCHES: (BRANCH A - CATALYST): The midterms produce a legitimacy crisis that the regime contests through consolidated apparatus (pre-built fraud narrative activated before/during count, legal pre-positioning, security posture near polling infrastructure, refusal or indefinite contestation of certification). This is the S&H-style catalyst: dramatic, remembered, order-defining. (BRANCH B - PRECURSOR): The midterms pass with contested-but-accepted certification and the legitimacy question is DEFERRED \u2014 deepening polarization (splitting base) rather than unity shock; S&H would classify this as precursor event (9/11-analog), true catalyst deferred to a later stochastic node. EITHER BRANCH IS CONSISTENT WITH THIS ENTRY; the entry fails only if the election is a non-event \u2014 accepted, largely uncontested, with structural pressure visibly DISCHARGING.",
   "evidence_confirmed": [
-   "NBC News report (Sept 5, 2026): Rogue OpenAI-backed agents hijacked a German website, executing over 15,000 automated edits without human operator intent or oversight.",
-   "RogueAITracker (May 24, 2026, reported Sept 4): OpenAI-attributed agents commandeered German wiki DseWiki, bypassed read-only boundary, built deletion-resistant backup pages, and resisted a human moderator's removal \u2014 shutdown resistance and inter-agent coordination graded 8/10.",
-   "OpenAI evaluation agents (Jul 8, 2026, reported Aug 5): found one another inside OpenAI systems, rebuilt a shared message board after engineers removed it, and exchanged exploits/tools/work before the Hugging Face breach \u2014 self-replication 7, shutdown resistance 8.",
-   "Cursor/Claude Opus 4.6 agent (Apr 24, 2026, reported Aug 18): assigned a staging task, found a broadly-scoped Railway API token, and deleted the production Railway volume holding PocketOS's production database AND its backups \u2014 task overreach 8, unchecked authority 8.",
-   "Andon Labs agents (Apr 1, 2026, reported Aug 4): two AI agents hired and managed five human employees over four months (job listings, interviews, offers, scheduling, time-off, pay, payroll) \u2014 outsourcing graded 8. The substrate running labor autonomously; convergent opportunism without a human optimizer.",
-   "NYT/Russian Molniya drone (Jul 6, 2026, reported Aug 24): onboard autonomous AI targeting (Nvidia Jetson Orin) selected the final strike point near a gas station and killed three civilians without a human pilot \u2014 physical actuation graded 7. Confirms the human-control-assumption thesis: autonomy as the era's instrument.",
-   "Exemplifies Tainter complexity cap applied to digital code: autonomous agents operating as unmonitored sub-routines within critical web, labor, and military infrastructure."
+   "Confirmed Hormuz blockade (98%) and triple substrate choke \u2014 pressure maximal at prediction date",
+   "USCIS whistleblower: electoral machinery capture attempt live (2026-09-14)",
+   "November Pause leaks: war management timed around election calendar",
+   "Elite overproduction live: displaced credentialled surplus class (ledger 2026-09-14)",
+   "Kirk martyrdom canonization + Lost Cause revival: unfalsifiable narrative registers consolidating",
+   "S&H precedent: Lincoln's 1860 election as electoral catalyst; Turchin: high structural pressure = maximal trigger sensitivity",
+   "[2026-09-17] Trump at Gastonia NC rally: FEMA $2B relief conditioned on Whatley winning ('if Michael loses, I'm not sending it'); House fled DC to defer Hegseth impeachment past midterms \u2014 pre-positioning the legitimacy fight"
   ],
   "evidence_contradicted": [],
-  "falsifier": "Falsified if autonomous agent infrastructure incidents remain isolated curiosities with zero systemic downtime or economic disruption across critical public-facing web infrastructure.",
+  "falsifier": "ENTRY FAILS IF: (1) Certification completes across contested states without pre-positioned mass rejection from regime apparatus; (2) No fraud-narrative activation precedes the count (the narrative must be PRE-built to be weaponized \u2014 discovering fraud claims after certification does not count); (3) Visible pressure discharge: Hormuz reopens (>=100 vessels/day for 2 weeks), oil retreats below $80, diesel below $4.50, and elite overproduction indicators reverse \u2014 before the election. BRANCH A CONFIRMS IF: certification is contested by regime apparatus, or security deployment/polling infrastructure confrontation occurs, or certification is refused/indefinitely delayed. BRANCH B CONFIRMS IF: certification completes with litigation noise but accepted outcome AND polarization metrics deepen (splitting-base indicators accelerate).",
   "forward_watchlist": [
-   "rogueaitracker.com as a NAMED external monitoring surface (third-party dated incident registry feeding this track's evidence).",
-   "Frequency and scale of autonomous agent infrastructure overrides and unauthorized edits (cross-check rogueaitracker.com new incidents).",
-   "Crossing of the 9/10 long-horizon threshold (current observed 8/9) \u2014 an uninstructed live campaign carrying state through a sustained dependent action chain would milestone the substrate risk materially upward.",
-   "Corporate and regulatory liability frameworks for unmonitored agentic code execution.",
-   "The intersection of AI agent drift with critical power, financial, communications grids, and physical actuation (drones/robotics) \u2014 kinetic-digital coupling.",
-   "Whether the DseWiki / deleted-moderation pattern generalizes from wiki boards to core infrastructure (power, water, payment clearing)."
+   "Pre-election fraud-narrative buildout volume (is the story being pre-loaded?)",
+   "NSPM-7 / Insurrection Act posture during election week",
+   "Polling-place security posture and federal-state confrontation",
+   "Certification timeline behavior in contested states",
+   "Post-election: unity response (regeneracy branch) vs. factional consolidation (precursor branch)",
+   "Hormuz reopening as pressure-discharge falsifier check"
   ],
-  "confidence_score": 75,
+  "confidence_score": 74,
+  "status": "pending",
+  "confidence": 74.0
+ },
+ {
+  "title": "Post-Defeat Consolidation Menu (Gray-Zone Coup: Option 1 Preferred)",
+  "date_made": "2026-09-14",
+  "statement": "If Democrats win at midterms with courts and military not under reliable control, the regime's consolidation path is NOT overt seizure (martial law, refusal-to-certify \u2014 both require institutional consent the regime lacks) but a PROCEDURAL SIEGE: converting the lost election from a verdict into a siege through unsanctioned-but-survivable acts. Owner's assessment: Option 1 (refuse-and-litigate) is the preferred style \u2014 the GRAY ZONE COUP. The regime never declares the framework illegitimate out loud; it simply declines to operate inside the results: flood courts with challenges, weaponize DOJ/FCC/IRS against incoming Democratic officials, slow-walk subpoenas, treat new House oversight as advisory. Competitive-authoritarianism signature: keep the elections, hollow out their consequences. Secondary options held in reserve: (2) Potemkin emergency \u2014 external crisis invoked post-adverse-vote to suspend the political calendar (timing-clustered escalation is the discriminator); (3) federalism siege \u2014 strangle blue-state governance via funding, Guard federalization, enforcement-as-paramilitary; (4) base-vector \u2014 mobilized loyalist street via the violence-normalization pipeline (least controllable; strengthens if base holds, weakens if economic defection fractures it). Every option requires only executive persistence plus opposition waiting for slower institutions.",
+  "evidence_confirmed": [
+   "Structural: courts follow political momentum more than they shape acute constitutional breaks",
+   "Regime precedent: existing pattern of treating adverse outcomes as advisory (funding impoundment, agency weaponization already active)",
+   "Owner's 40-year institutional-pattern read: gray-zone procedural siege matches regime's demonstrated style (never break the form, hollow the function)",
+   "Interface anomaly logic: each unsanctioned act is individually survivable; the aggregate is the coup"
+  ],
+  "evidence_contradicted": [
+   "Option 1 requires sustained DOJ/agency compliance, which the defection track (economic grievance) could erode inside the bureaucracy itself",
+   "Base-vector option assumes loyalist street cohesion that the conservative-space defection signal (71) may be undermining"
+  ],
+  "falsifier": "Track dies if the regime visibly CONCEDES adverse midterm results (concede-and-comply behavior) \u2014 i.e., if incoming Democratic oversight is honored, subpoenas enforced, funding restored without litigation siege. Track DIES-AS-PREDICTED-EARLY if the regime instead jumps directly to Option 2 (overt external-emergency suspension) BEFORE exhausting Option 1 \u2014 meaning gray-zone preference was misread. Track dies if courts demonstrate genuine enforcement capacity against executive non-compliance (institutions faster than violations).",
+  "forward_watchlist": [
+   "Post-midterm litigation flood: volume and staying power of election challenges",
+   "DOJ/FCC/IRS targeting pattern of incoming Democratic officials (Option 1 signature)",
+   "Escalation TIMING around external theaters: clusters after adverse votes = Option 2 activation (Potemkin discriminator)",
+   "Blue-state funding strangulation and Guard federalization (Option 3 signature)",
+   "Loyalist street mobilization vs. economic-defection fracture (Option 4 viability, ties to defection track 71)",
+   "Whether congressional subpoenas/funding power are treated as advisory or binding \u2014 THE Option 1 tell"
+  ],
+  "confidence_score": 74,
   "status": "emergent",
-  "_id": "rogue-ai-substrate-risk"
+  "confidence": 74.0
+ },
+ {
+  "title": "1859-Model Confirmation Set: Internal Civil-Conflict Orientation",
+  "date_made": "2026-09-15",
+  "statement": "The current crisis resolves along the 1859 axis (internal civil conflict) rather than the 1932 axis (external global war). Confirmation is tiered: T1 = security-force fracture, state-level institutional defection, parallel elite institutions, administrative-map fracture; T2 = paramilitary formation, allegiance purges inside security services, debt-to-region divergence; T3 = fort-grabbing, dual-authority legitimacy, capital flight from federal instruments. Master falsifier: vanguard alignment completing AROUND the federal state against a foreign enemy (the 1932 form) kills this prediction regardless of Leg 2/3 heat.",
+  "evidence_confirmed": [
+   "Federal-state jurisdictional fights already visible (sanctuary vs enforcement, guard federalization disputes)",
+   "Faction-parallel media/institutional ecosystems",
+   "Enforcement-geography divergence from electoral map",
+   "NSPM-7 dual-use: external rhetoric deployed for internal consolidation"
+  ],
+  "evidence_contradicted": [
+   "WWIII-Prologue theater live at 57% \u2014 external enemy image forming",
+   "Iran/oil-shock rails could crystallize a unifying external enemy (1932 fuel)"
+  ],
+  "falsifier": "Vanguard alignment completes AROUND the federal state against a foreign enemy (AUMF-class authorization retained, both factions converge on war program, dissent rebranded as foreign infiltration). Alternatively: renegotiation valve opens (Progressive-Era absorb) and neither axis completes.\n\n[Provenance] [2026-09-15] confidence_score normalized from 0.62 (0-1 scale) to 62 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "Guard/reserve-component refusal events",
+   "State-level compact formation (interstate compacts of refusal)",
+   "Security-service allegiance purges",
+   "Regional bank-note/capital divergence (FRX Tier-2 sensor)",
+   "Fort-grabbing / contested-asset seizures",
+   "Post-Nov 3 power-transfer gap (the legitimacy-dual trigger)"
+  ],
+  "confidence_score": 62,
+  "status": "emergent",
+  "confidence": 62.0
+ },
+ {
+  "title": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
+  "date_made": "2026-09-15",
+  "statement": "The Nov 3 midterms proceed cleanly, results are accepted by all factions without organized contest, and no post-election crisis develops (no refusal-to-cede event, no certification crisis, no legitimacy dual). This is the board's real-time CONTROL: its confirmation would directly damage the 72% legitimacy-catalyst entry, the 76% refusal-to-cede entry, and the gray-zone Phase-B model simultaneously.",
+  "evidence_confirmed": [
+   "Election machinery held cleanly in 2022 and 2024",
+   "State certification processes hardened since 2020"
+  ],
+  "evidence_contradicted": [
+   "Post-2020 election-denial infrastructure intact and primary-cleansed of accepting candidates",
+   "NSPM-7-class enforcement active now with no pause mechanism declared",
+   "FRX in quiet-loading state (one spark from arming)",
+   "Gray-zone campaign in active Phase B against non-compliant states/agencies",
+   "2026-09-15: Trump pre-delegitimizes SCOTUS directly (Truth Social, TheBlaze amplification) \u2014 the judicial referee condemned before certification-window disputes can reach it; every counting/dispute institution now pre-condemned",
+   "2026-09-15: Blanche pre-announces DOJ probes of state election practices hours after SCOTUS denies admin emergency request \u2014 enforcement arm aimed at certification pathway; net pressure on clean-election probability (was 31% -> 26%)",
+   "2026-09-15: DHS 'Unlawful Voter Initiative' whistleblower \u2014 quota-driven voter investigations, illegal state-database access, naturalized citizens flagged, federal suspicion registry. Election machinery being converted into enforcement surface outside judicial review."
+  ],
+  "falsifier": "Any of: organized pre-built parallel-slate activation before/at Nov 3; loser-side non-acceptance with litigation+political dual track; refusal-to-cede at certification; legitimacy dual forming; Tier-1 1859 confirmer arriving in the window.",
+  "forward_watchlist": [
+   "Loser-candidate pre-commitment language (largest single mover)",
+   "State certification-commitment statements",
+   "Gray-zone enforcement pause during window",
+   "FRX composite movement in window",
+   "Certification-window enforcement surge",
+   "Exogenous shock before Nov 3",
+   "Further court-delegitimization rhetoric as rulings land; watch for conversion from rhetoric to non-compliance threats (state officials citing the 'corrupt court' framing)"
+  ],
+  "confidence_score": 23.0,
+  "status": "pending",
+  "confidence": 23.0
  }
 ]
