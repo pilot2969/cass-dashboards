@@ -1,84 +1,130 @@
 [
  {
-  "title": "Conditional NATO Guilt: US Transactionalizes Security Guarantee on Russian Baltic Escalation",
-  "date_made": "2026-09-03",
-  "statement": "When Russia makes its move (a limited Baltic incursion/provocation per WSJ/ISW fall window), the US will NOT instantly abandon NATO. It will deploy a 'conditional guilt + maximum squeeze' posture: declining or publicly hedging full Article 5 invocation, preconditioning support on allied defense-spending/financial concessions, dramatizing the crisis for leverage, then partially re-committing transactionally (fee-for-service alliance) - treating the guarantee as priced, not voided. The TOTAL break (Article 5 abandonment + NATO dissolution) is the post-election / blue-wave / Loud-Track contingency, not the default opening move. TWO BRANCHES: A) transactional re-commitment ~60%; B) total break as Loud-Track instrument ~35%. Falsifiable trigger: first US response being condition-setting (Branch A) vs. doctrine-withdrawal declaration (Branch B).",
+  "title": "Tactical Nuclear Weapon Use (Red-Line Escalation Variable)",
+  "date_made": "2026-09-07",
+  "statement": "Two-leg probability of tactical nuclear weapon use within the escalation-ladder window. LEG A (Russia in/around Ukraine, ~25% +/-5%): supported by Russia's lowered nuclear doctrine treating a non-nuclear Ukrainian strike supported by a nuclear NATO sponsor as a 'joint armed attack' threatening retaliation against the sponsor; rises as institutional off-ramps close (consulate expulsions, credibility drain, immunity-blanket failure) because the doctrine is DESIGNED to paralyze NATO vertical escalation. LEG B (Baltic/NATO/adversarial theater, ~10-12%): materially lower because crossing a NATO border crosses Article 5, which the gray-zone 'immunity blanket' is engineered to provoke WITHOUT crossing. STRONG CANCELER: no actor in a losing-conventional position has used a tactical nuke in 80 years, because leaders read it as converting a recoverable setback into a permanent catastrophe. NET CASS READ: P(tactical nuke preceding end of ladder) ~= 15-25% \u2014 real but not foregone; the hinge where deterrence holds (most likely) or catastrophically fails (small, rising, undismissable).",
   "evidence_confirmed": [
-   "FALKLANDIS PROBE (Sept 3, 2026): Trump told GB News he'd 'not necessarily' back the UK were Argentina to invade the Falklands, citing UK's failure to support US in Iran war ('they weren't there to help me'). Washington reviewing sovereignty doctrine; Milei called national address on 'sacred' Malvinas cause. Alliance support now explicitly rendered as quid pro quo, not shared-security commitment.",
-   "CONDITIONAL ARTICLE 5 DOCTRINE (Mar-Jul 2026): Trump floated stripping Article 5 rights from NATO allies missing defense targets (barring them from collective defense activation); told CBS the US is 'not going to defend' allies who fail his spending requirements; demanded 5% GDP by 2035 (3.5% direct + 1.5% indirect) and mused there are 'numerous definitions' of Article 5 (Hague summit aftermath, WaPo/NYT).",
-   "RUSSIAN BALTIC ESCALATION WINDOW (Aug-Sep 2026): WSJ (Aug 6) + Telegraph (Aug 7) report US intelligence warning Poland + Baltics that Putin is prepared to test NATO resolve with a limited incursion as early as this fall. ISW (Aug 27): Russia 'may conduct air, missile, or drone strikes or a limited incursion against one or more Baltic states to test and seek to break NATO's resolve to invoke and respond under Article 5.' Tusk (Aug 30): 'The escalation from Russia's side is progressing... We cannot rule out provocations against Russia against one of NATO's members.' Grushko (WEF, Sept 2): Russia threatens 'uncontrolled escalation' in the Baltic.",
-   "DIRECT-KENNEL TELL (Aug 26, 2026): CIA Director Ratcliffe flew to Moscow to urge the Kremlin not to escalate against US allies (Estonia/Latvia/Lithuania) - the kind of direct-communication signal indicating Washington is reading the same Russian escalation intent.",
-   "FALKLANDIS QUIP COINCIDES WITH PEAK RUSSIAN AGGRESSION: The transactionalization gesture lands exactly as assessed Russian Baltic escalation credibly threatens to test Article 5 - coordination signal that the guarantee is being kept ambiguous and conditional during the decisive window."
+   "RUSSIAN NUCLEAR DOCTRINE SHIFT (documented, board): non-nuclear strike on Russia by Ukraine supported by a nuclear power treated as 'joint armed attack' \u2014 the explicit threshold-lowering.",
+   "OFF-RAMP DRAWDOWN (Sept 2026): German consulate St. Petersburg expulsion + Lavrov 'real war' frame \u2014 institutional channels closing, raising the cornered-leader probability.",
+   "'IMMUNITY BLANKET' MECHANISM: nuclear doctrine acting as deterrent shield that paralyzes NATO vertical escalation \u2014 the wedge that keeps conflict sub-Article-5 (board: kinetic-european-conflict).",
+   "'NUCLEAR THRESHOLD SIGNAL' watch item on world-war-iii-prologue track."
   ],
   "evidence_contradicted": [
-   "NATO Secretary-General Rutte insists the alliance has an 'ironclad' security guarantee and allies have agreed to higher defense targets (BBC); Trump said after the Hague summit 'I stand with Article 5' - signaling the guarantee is NOT yet formally voided and a committed re-commitment frame remains available.",
-   "No confirmed US decision to formally withdraw from NATO or redefine Article 5 has been made public as of Sept 3, 2026 - the posture remains rhetorical/coercive rather than policy-enacted."
+   "80-YEAR BASE-RATE: no tactical-nuke use by a conventionally-behind power since 1945; leaders correctly read it as catastrophic self-harm.",
+   "DOCTRINE AS BLUFF-FOR-DETERRENCE: the doctrine's purpose is paralysis, not use; its credibility depends on non-use.",
+   "Ukraine demilitarizing rather than marching on Moscow \u2014 no present existential-threshold trigger for escalation to nukes."
+  ],
+  "falsifier": "Leg A breaks if a US/NATO conventional victory or a negotiated off-ramp (e.g., November Pause, China mediation) removes the cornered-leader condition and the nuclear threshold is never reached; Leg B breaks if no Baltic/NATO nuclear threat ever materializes through the full cascade. The track is falsified as 'likely' if both legs stay below 50% through end-of-window while conflict remains regionalized.",
+  "forward_watchlist": [
+   "Cornered-leader conditions: mass Russian battlefield collapse, Crimea/Kerch loss, regime-survival threat",
+   "Verbal nuclear signaling / nuclear exercise deployments / dals removals (strategic & tactical)",
+   "Any NATO territory conventional incursion that tests Article 5",
+   "Whether the November Pause / China mediation quarantines the fronts before the threshold",
+   "Kremlin personnel/discourse shift toward 'existential framing' of the war"
+  ],
+  "confidence_score": 18,
+  "status": "emergent",
+  "confidence": 18.0
+ },
+ {
+  "title": "90-Day Forecast: Phase 4 Detonation Window (Sept 9 - Dec 8, 2026)",
+  "date_made": "2026-09-09",
+  "statement": "CASS Monte Carlo forecast (5,000 paths) for the 90-day window: Acute Crisis/Phase 4 detonation 47.7%; Regime Concedes/Transition 26.2%; Regime Holds Contested 19.1%; External War Distraction 7.0%. First acute trigger most probable T-40 to T-20 (early-to-late October, 28.3%). Terminal stress: Hormuz 0.97 (blockade irreversible), De-Dollarization 0.67.",
+  "evidence_confirmed": [
+   "Trump Dividend pledge (Sept 9) - desperation tell at T-56",
+   "Brent breaks $100.72; diesel record $5.94/gal",
+   "SCOTUS postal-ballot docket live with opposition briefs due Sept 9",
+   "Largest tanker wave of war (5 US sinkings, 10 Iranian strikes)",
+   "Regime Refusal track at 78 with accountability trap structurally locked",
+   "Sept 11 (T-53): energy shock accelerates (Brent >$101); $5,000 dividend = desperation confirmation; SCOTUS postal case live with opposition briefs due Sept 9",
+   "2026-09-15: compounding-shock morning \u2014 10Y 5.02% (2007 high), Brent >$108 (both export valves compromised), SCOTUS denial converted into DOJ enforcement probes, space weaponization confirmed \u2014 external+internal stressors land same day, matching window configuration"
+  ],
+  "evidence_contradicted": [],
+  "falsifier": "Forecast is DISCONFIRMED if: (1) no acute trigger lands by Nov 3 (the 33% no-trigger branch dominates); (2) a clean concession/transition occurs without certification crisis (Concede branch > Refusal branch); (3) Hormuz stress collapses below 0.80 via negotiated reopening (terminal 0.97 falsified); (4) diesel retreats below $5.00 through October (energy attrition path falsified). Scenario weighting is falsified if the modal outcome (Acute Crisis) fails to materialize while the Concede branch exceeds 35% of realized outcomes.\n\n[Provenance] [2026-09-09] confidence_score normalized from 0.68 (0-1 scale) to 68 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "SCOTUS USPS ruling - VANGUARD DECISION SIGNAL: either outcome is destabilizing; the regime win -> state non-compliance crisis; the regime loss -> refusal-to-comply. This is the VANGUARD rehearsal for how institutional layers behave at the crisis moment - a Leg 4 snap in miniature (Samuel callout)",
+   "October danger window (T-40 to T-20) - certification rules, emergency decrees",
+   "Hormuz escalation or exhaustion-ceasefire by late October",
+   "Punitive consolidation test: do targeted punishments of opposition states consolidate or fragment opposition?",
+   "Dividend-pattern follow-ons: further unfunded retail promises as legitimacy drain",
+   "De-Dollarization: next Norway-style rotation or gold repatriation"
+  ],
+  "confidence_score": 68,
+  "status": "emergent",
+  "confidence": 68.0
+ },
+ {
+  "title": "Cognitive labor reprices first; political instability concentrates in the credentialed middle class",
+  "date_made": "2026-09-10",
+  "statement": "Through 2030, AI deployment will visibly reprice cognitive work (entry-level white collar, junior legal/finance/analysis, routine coding) faster than physical and relational work. The political friction from displacement will concentrate in the credentialed middle class \u2014 the overproduced cognitive elite \u2014 manifesting as credential-devaluation fights, elite-turned-populist movements, and enclosure battles over who may deploy AI professionally.",
+  "evidence_confirmed": [],
+  "evidence_contradicted": [],
+  "falsifier": "By end of 2030, either (a) cognitive-sector unemployment/wage compression remains statistically indistinguishable from pre-2025 trends, or (b) the strongest political AI-backlash constituencies turn out to be working-class/physical-labor sectors rather than credentialed professionals.\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.65 (0-1 scale) to 65 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "BLS and EU labor statistics on professional occupations",
+   "bar/accounting/medical licensing fights over AI practice",
+   "credentialism rhetoric in elections",
+   "graduate employment-entry rates"
+  ],
+  "confidence_score": 65,
+  "status": "pending",
+  "confidence": 65.0
+ },
+ {
+  "title": "Recursive acceleration: AI-on-AI-research compresses progress only after 2028, if at all",
+  "date_made": "2026-09-10",
+  "statement": "Deploying AI on AI research itself (designing architectures, running experiments, writing proofs) will NOT produce visibly super-linear research acceleration before 2028. Some acceleration is real but bounded by compute, physical experiments, and coordination overhead. If super-linear acceleration appears, it appears 2028-2029 at the earliest, and concentrates in software/algorithm domains before physical-world domains.",
+  "evidence_confirmed": [
+   "Amodei cites 'industry-wide RSI (recursive self-improvement) since summer 2026' as trigger for slowdown call",
+   "Sept 14 market repricing shows acceleration expectations were priced in and are now hedged"
+  ],
+  "evidence_contradicted": [],
+  "falsifier": "A verifiable example of a frontier system producing a Nobel-caliber or field-redirecting scientific breakthrough ahead of expert consensus timelines before 2028; or, conversely, research throughput visibly doubling year-over-year in AI-capability metrics by 2027 (would contradict the bounded claim).\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.6 (0-1 scale) to 60 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "AI-for-science announcements with independent replication",
+   "compute capex trajectories",
+   "capability benchmark doubling times"
   ],
   "confidence_score": 60,
-  "status": "emergent",
-  "falsifier": "The US responds to a Russian/Russian-aligned provocation with IMMEDIATE, UNCONDITIONAL Article 5 invocation and no defense-spending preconditions - the guarantee is honored as an automatic commitment rather than a priced, conditional one.",
-  "forward_watchlist": [
-   "The Falklands probe resolution: does Trump commit unconditionally to the UK, or does the conditional-guilt posture hold/persist? (live test of the doctrine).",
-   "First substantive US response to a real Baltic provocation: condition-setting (Branch A ~60%) vs. doctrine-withdrawal declaration (Branch B ~35%).",
-   "Whether the 5% GDP / numerous-definitions-of-Article-5 rhetoric is walked back to ironclad or codified into law (the fork in the road).",
-   "NATO Summit/SecGen framing after any incursion: Rutte ironclad vs. Trump transactional."
-  ],
-  "_id": "nato-conditional-guilt"
+  "status": "pending",
+  "confidence": 60.0
  },
  {
-  "title": "The Post-Trump Restructure (The Fall-Guy & New Caesar Thesis)",
-  "date_made": "2026-09-03",
-  "statement": "Trump functions as a sacrificial instrument and institutional battering ram rather than a sustainable regime builder. His unique personal hold on the MAGA base cannot be inherited. Therefore, the machinery behind the movement utilizes him to demolish legacy institutional rails to the point of structural failure, creating the crisis vacuum necessary for a pre-positioned 'white horse' figure to declare democratic failure and implement a technocratic/monarchical governmental reset (USv2).",
+  "title": "The decisive political fight is over scaffolds and epistemic infrastructure, not models",
+  "date_made": "2026-09-10",
+  "statement": "Public debate will fixate on model capability and 'AI safety' in the alignment sense, while the decisive enclosure fight \u2014 who owns memory, audit structures, personal archives, and trusted epistemic infrastructure \u2014 happens mostly in platform terms-of-service, procurement contracts, and standards bodies, largely unnoticed. Populations with disciplined epistemic scaffolds will measurably outperform those without (literacy-as-scaffold becomes a policy issue by 2030).",
   "evidence_confirmed": [
-   "Succession vacuum: No figure in the current pipeline carries Trump's persona-based dominance, making a post-Trump political fracture inevitable.",
-   "The Battering-Ram Strategy: Executive actions systematically test and break administrative, judicial, and military guardrails, rendering legacy norms non-functional.",
-   "MASTER PRESSURE TERM & BIOLOGICAL CLOCK: Executive age (80) and health realities ensure the transition window is mathematically bounded, forcing a compressed timeline for structural reset.",
-   "Yarvinian Alignment: Direct structural overlap with Curtis Yarvin's 'patching the software' thesis\u2014using a populist disruptor to shatter the old regime (The Cathedral/Democracy v1) to clear the path for a sovereign corporate/monarchical restructure.",
-   "PRIMARY WHITE-HORSE VECTOR (Thiel-Vance line): JD Vance is Peter Thiel's direct, promoted-to-VP investment in the executive branch. The Yarvin ideologue (Curtis Yarvin) -> Thiel money -> Thiel's ruler (Vance) pipeline is the conjoining structure of the Fall-Guy model. Vance's sober 'adult in the room' framing positions him as the 'restorer' after Trump-as-battering-ram and Hegseth-as-wrecking-crew absorb the blame for collapse.",
-   "Hegseth represents a competing but lower-probability claimant: Hegseth is a 44-year-old surrogate/bruiser ('Pentagon Pete') and has had leaked ambitions for a presidential bid, but lacks the institutional legitimacy and Thiel ecology of the Vance vector.",
-   "PRIMARY WITNESS - 'End Times' doctrine (Sept 1-2, 2026, The Bryce Crawford Podcast): Vance: 'I'm trying to focus on doing as much of God's work as possible. And if that leads to the end times, okay.' Also: 'the end times may be coming, in fact they are coming... a few months down the road.' Plus AI has 'really, really weird spiritual dark energy.' Psychological profile of a figure comfortable with apocalyptic collapse.",
-   "PRIMARY WITNESS - Thiel engineered the rise: Peter Thiel personally lobbied Trump to make Vance VP; Thiel is 'very pro-JD Vance' (off-the-record Antichrist lecture). The money behind the white knight is already positioned at the apex of the executive branch.",
-   "PRIMARY WITNESS - Doctrinal Yarvin adherent: Vance publicly name-checks Curtis Yarvin and echoes his core recommendation to purge the federal bureaucracy and defy courts/law; challenges the Supreme Court justices. (Esquire; New Yorker June 2025 Yarvin profile; Democracy Now 'The Nerd Reich').",
-   "PRIMARY WITNESS - Kirk martyrdom heir-designate: Vance was the sole administration voice at Charlie Kirk's Sept 21, 2025 memorial (State Farm Stadium, Glendale AZ), framed as 'a great American leader' - positioning him as heir to the martyrdom mythos (confirmed 100% assassination-catalyst track).",
-   "PRIMARY WITNESS - 2028 candidate in all but name: Widely reported (WaPo, Guardian) that Vance balances loyalty/distance from Trump while positioning for the 2026 midterms and a 2028 run - the 'adult in the room' restorer framing.",
-   "TIER-1 INSTITUTIONAL RECEIPT - USPS MAIL-BALLOT CONTROL (Sept 3, 2026, CNN): The administration asked SCOTUS via a leapfrog emergency appeal (skipping lower courts) to grant the USPS sweeping power to withhold delivery of mail ballots unless a state's voter list matches a federal portal, plus unique per-voter barcodes. A whistleblower report alleges USPS would reject ENTIRE BATCHES of ballots (delaying tens of thousands) if a single envelope mismatches. First ballots enter mail this week (NC sends Fri); states warn it's too late to redesign. This is the operationalized no-peaceful-exit mechanism: selective ballot invalidation infrastructure built in plain sight, mid-cycle, insulating the regime from any electoral consequence and guaranteeing the post-midterm loud-track path regardless of wave. Directly raises confidence that the election is structurally sterilized as a check on the regime.",
-   "PAWN-SACRIFICE CONFIRMATION (Sept 3, 2026): Georgia audited its voter rolls and found them ~99.9% accurate with no evidence of malicious manipulation or noncitizen fraud, growing the list of states debunking the administration's widespread-fraud narrative (ms.now via r/politics). This does NOT disarm the ballot-control mechanism - it confirms it. The regime's fraud narrative was always disposable insulation for the real objective (USPS discretionary ballot-withholding power via SCOTUS leapfrog); the debunking is a pawn sacrifice that lands AFTER the discretionary-rejection infrastructure is installed. KEY TELEMETRY: organic reaction to the audit is despair/acceptance rather than mobilization ('His cult doesn't care, reality has no power'; 'doesn't matter, they'll claim fraud anyway'). The public has internalized that facts are detached from outcomes - the psychological precondition the Quiet->Loud architecture requires. Falsifiability note: had the election been run clean, the audit would be celebrated; instead it is read as another mark on a rigged board."
+   "Sept 12: all four lab principals publicly endorse coordinated slowdown; Amodei 'We Must Pace the Frontier'",
+   "Sept 14: markets reprice instantly \u2014 Nasdaq -1.2% open, SoftBank -10.7%, SK Hynix -6.4%, ASML -6%, Micron/SanDisk -6% \u2014 the fight over pacing IS a fight over capital",
+   "Sept 14: Trump names Anthropic/Dario directly, claims personal guardrail role, threatens 'Treasonists, Traitors, and Leakers BEWARE'",
+   "Sept 14: Politico \u2014 chance of Congress acting on AI 'in the coming weeks is next to zero'"
   ],
   "evidence_contradicted": [],
-  "confidence_score": 76,
-  "status": "emergent",
-  "falsifier": "Trump's governance failure is absorbed by the existing system (impeachment, 2026/2028 electoral defeat leading to a normal non-Caesarist transition) WITHOUT a white-horse breakthrough - no Yarvin-aligned technocratic monarch, no Vance/Caesarist reset, and the democratic machinery survives the battering-ram intact.",
+  "falsifier": "Either (a) major legislation or regulation explicitly addressing user-owned memory/audit/scaffold portability emerges and dominates AI political debate by 2030 (claim too pessimistic about inattention), or (b) by 2030 no measurable gap exists between scaffolded and unscaffolded populations in belief-accuracy or manipulation resistance (claim too optimistic about scaffold effects).\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.55 (0-1 scale) to 55 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
   "forward_watchlist": [
-   "Vance profile/positioning: does he move beyond adult-in-the-room toward explicit emergency/Caesarist framing, or remain a conventional 2028 candidate?",
-   "Any actual succession-trigger (executive health event, incapacitation) forcing the post-Trump transition early - the biological clock.",
-   "Whether election-control mechanisms (USPS balloting) succeed in sterilizing the electoral check - removing the last off-ramp and forcing restructure.",
-   "Thiel continued proportion: observable funding/positioning of the Vance line vs. Thiel going quiet (de-escalation).",
-   "Whether the battering-ram actually breaks a load-bearing institution (a court, the Fed, the military command) vs. merely symbolic assaults."
+   "AI regulation drafts re: data portability and personal AI memory",
+   "platform ToS changes on account/AI-content ownership",
+   "research on epistemic resilience interventions",
+   "AI literacy policy programs"
   ],
-  "_id": "post-trump-restructure"
+  "confidence_score": 55,
+  "status": "pending",
+  "confidence": 55.0
  },
  {
-  "title": "Russian Internal Fragility Deepens as Fuel Crisis Bites Into Autumn",
-  "date_made": "2026-09-03",
-  "statement": "Russia's forced shift to sea-borne gasoline imports (India/Morocco/Turkey) plus regional rationing and 70+ refinery strikes signals a structural war-economy fragility that will deepen through autumn. A fuel-rationed Russia under ongoing strategic-strike pressure becomes a more unpredictable and desperate regional actor, raising risk of escalatory behavior as it enters winter \u2014 an unreliable domestic baseline eroding the regime's capacity to sustain the war while managing internal stability.",
-  "evidence_confirmed": [
-   "Putin admitted 'We Were Mistaken' (Sept 3, 2026): Russia assumed refineries were untargetable civilian facilities.",
-   "70+ Ukrainian drone strikes on Russian refineries since Jan 2026; refining output at lowest in two decades.",
-   "Gasoline covers ~70% of domestic demand (30k ton/day shortfall); 17 regions rationing fuel (caps, odd-even).",
-   "Russia importing gasoline by sea from India, Morocco, Turkey; record purchases from Belarus; KINEF (2nd-largest refinery) stopped processing Sept 2.",
-   "2026-09-08: Urals fell to $59, Russia's oil revenue sinking as fuel crunch deepens globally (Oilprice.com)."
-  ],
+  "title": "AGI arrives as an uneven profile, not a clean threshold",
+  "date_made": "2026-09-10",
+  "statement": "There will be no identifiable moment or system that counts as 'AGI arrives.' Systems will show superhuman performance in some capacities (synthesis, coding, exam tasks) while remaining unreliable at long-horizon agency, physical-world grounding, and self-knowledge of when they are wrong. Public debate will keep treating it as binary; the reality will remain a gradient through at least 2030.",
+  "evidence_confirmed": [],
   "evidence_contradicted": [],
-  "confidence_score": 72,
-  "status": "emergent",
-  "falsifier": "Russian refining recovers (KINEF restart, imports fall, rationing ends, output target met) AND domestic stability holds through winter - the regime demonstrates it can absorb the strategic-strike degradation without acute internal crisis or desperate external escalation.",
+  "falsifier": "A broadly accepted benchmark or event by which the field itself dates 'AGI achieved' as a clean threshold \u2014 e.g., a system passing a pre-registered cross-domain test suite with consensus from major labs that the AGI line has been crossed.\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.75 (0-1 scale) to 75 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
   "forward_watchlist": [
-   "KINEF restart + refining-throughput recovery - the recovery baseline.",
-   "Autumn/winter rationing expansion vs. relaxation; regional unrest over fuel/cold (internal-fragility transmission).",
-   "Continued Ukrainian strike tempo (sustained degradation) vs. negotiation-induced pause.",
-   "Any Russian escalatory act born of desperation (Baltic probe, sanctions-breaking, nuclear signaling) as fragility external shadow.",
-   "Sea-borne gasoline import dependency - the seam of the crisis."
+   "frontier model benchmark reports",
+   "lab announcements claiming AGI",
+   "economist/evaluator capability-profile studies"
   ],
-  "_id": "russian-internal-fragility"
+  "confidence_score": 75,
+  "status": "pending",
+  "confidence": 75.0
  }
 ]
