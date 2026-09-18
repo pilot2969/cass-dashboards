@@ -1,1 +1,93 @@
-WwogewogICJkYXRlIjogIjIwMjYtMDktMTUiLAogICJ0cmFjayI6ICJvaWwtZW5lcmd5IiwKICAibWdldF9sZWdzX3Rlc3RlZCI6IFsKICAgImxlZ18zX2VuY2xvc3VyZV9tdXRhdGlvbiIKICBdLAogICJ2ZXJkaWN0IjogInN0cmFpbnMiLAogICJyZWFzb25pbmciOiAiV2lyZSAxNDo0MiBcdTIwMTQgT2lsIHNob2NrIGRlZXBlbnM6IFNhdWRpIGNhbmNlbHMgY2FyZ29lcyBhZnRlciBwaXBlbGluZSBoaXQgKFJldXRlcnMpLCBsb2FkaW5ncyBoYWx0OyBCcmVudCArJDMgb24gU2F1ZGkgaGFsdCBwbHVzIExJQllBIG91dGFnZXMgKHNlY29uZCBwcm9kdWNlciBzdGF0ZSk7IEFsLU1vbml0b3I6IFNhdWRpICdydW5uaW5nIG91dCBvZiBvaWwgZXhwb3J0IG9wdGlvbnMnOyBuYXRpb25hbCBkaWVzZWwgcmVjb3JkLCBOSiBnYXMgJDQuNDM7IENvc3RjbyBsaW1pdHMgbW90b3Itb2lsIHB1cmNoYXNlcyAocmV0YWlsIHJhdGlvbmluZyBzaWduYWwpLiBCVVQ6IEVJQSBzYXlzIGdsb2JhbCBvdXRwdXQgcmV0dXJucyB0byBwcmUtd2FyIGxldmVsIGJ5IHllYXIgZW5kIFx1MjAxNCB0aGUgcGh5c2ljYWwgY3Jpc2lzIGhhcyBhIGNsb2NrOyB0aGUgTkFSUkFUSVZFIGNyaXNpcyBkb2Vzbid0LiIsCiAgImZvcndhcmRfc2lnbmFsIjogIkNyYXNoLW5hcnJhdGl2ZSBoYWxmLWxpZmUgdnMuIHBoeXNpY2FsIHJlbGllZiB0aW1lbGluZTogd2hpY2ggcmVzb2x2ZXMgZmlyc3Q/IEdvbGRtYW4gJDEyMCB0YWlsIHZzLiBFSUEgeWVhci1lbmQgbm9ybWFsaXphdGlvbi4iLAogICJfaWQiOiAiMWUyNWM4am50djl1IgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTE1IiwKICAidHJhY2siOiAib2lsX21hdGVyaWFsX2xlZyIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJsZWdfMV9jb21wbGV4aXR5X2NhcCIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIkNOQkMgMjAyNi0wOS0xNSBjb25maXJtcyB0aGUgRWFzdC1XZXN0IHBpcGVsaW5lIHNodXRkb3duIChBYnFhaXFcdTIxOTJZYW5idSwgfjRtYnBkIHJlbW92ZWQpIGlzIHRoZSBTQUZFVFktTkVUIGNsb3N1cmUsIG5vdCBqdXN0IG9uZSByb3V0ZS4gQnJlbnQgJDEwNi4yOSwgV1RJID4kMTAwLCArMjEtMjUlIG1vbnRobHkuIEtFWSBTVFJVQ1RVUkFMIElOU0lHSFQgZnJvbSB0aGUgZmVlZGJhY2sgbG9vcDogYXR0YWNrcyBvbiBlbmVyZ3kgaW5mcmFzdHJ1Y3R1cmUgbm93IGNvbnN0cmFpbiByZXBhaXIgY2FwYWNpdHkgXHUyMDE0IHRoZSBkaXNydXB0aW9uIHRvIHNoaXBwaW5nIHByZXZlbnRzIGltcG9ydCBvZiB0aGUgcGFydHMgbmVlZGVkIHRvIHJlc3RvcmUgdGhlIGFsdGVybmF0aXZlIHJvdXRlLiBUaGUgd29ya2Fyb3VuZCBpcyBub3QgbWVyZWx5IGRhbWFnZWQ7IGl0IGlzIHRyYXBwZWQgaW5zaWRlIHRoZSBzYW1lIGNsb3NlZCBzeXN0ZW0gaXQgd2FzIGRlc2lnbmVkIHRvIGJ5cGFzcy4gVGhlIGNob2tlcG9pbnQgaGFzIGJlY29tZSBzZWxmLXJlaW5mb3JjaW5nLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIkludmVudG9yeSBidWZmZXI6IH4xYm4gYmFycmVscyBhbHJlYWR5IGRyYXduIGZyb20gZ2xvYmFsIHN0b2NrcywgfjFibiByZW1haW5pbmcgdG8gdGFuayBib3R0b21zLiBGaXZlLXRvLXNldmVuLWRheSBTYXVkaSBpbnZlbnRvcnkgY3VzaGlvbiBiZWZvcmUgdGhlIG1hcmtldCByZXByaWNpbmcgZXZlbnQuIElmIHRoZSBwaXBlbGluZSBvdXRhZ2UgZXh0ZW5kcyBwYXN0IHRoZSBjdXNoaW9uIChhbmFseXN0IGVzdGltYXRlOiBtb250aHMgZm9yIHJlcGFpciksIEJyZW50IGJyZWFrcyB1cHdhcmQgaGFyZC4gV0FUQ0g6ICgxKSBSZWQgU2VhIC8gQmFiIGVsLU1hbmRlYiBhcyBzZWNvbmQgZnJvbnQgKEphbWVzIHdhcm5zIHRoZSB3aG9sZSBSZWQgU2VhIHJvdXRlIGlzIHVuZGVyIHRocmVhdCBmcm9tIElyYW5pYW4gcHJlc3N1cmUpLiAoMikgR3VsZi1zdGF0ZSBtdXR1YWwgbW9iaWxpemF0aW9uIHNpZ25hbHMgKE9tYW4tSXJhbiBtZWV0aW5nIHBvc3Rwb25lZCA9IGNvb3JkaW5hdGVkIHJlZ2lvbmFsIHJlc3BvbnNlKS4gKDMpIFdoZXRoZXIgQmFiIGVsLU1hbmRlYiBjbG9zZXMsIGNyZWF0aW5nIHRoZSBmaXJzdCB0d28tb2NlYW4gY2xvc3VyZSBldmVudCBpbiBtb2Rlcm4gaGlzdG9yeSAoSG9ybXV6ICsgU3Vlei1hZGphY2VudCBjaG9rZXBvaW50IHNpbXVsdGFuZW91c2x5KS4iLAogICJfaWQiOiAiMjAyNi0wOS0xNS1lYXN0LXdlc3QtcGlwZWxpbmUtY2hva2Vwb2ludC1zYXR1cmF0aW9uIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTE1IiwKICAidHJhY2siOiAid2FyLWNvYWxpdGlvbi1mcmFjdHVyZSIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgNCIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIk1hc3NpZSBpbXBlYWNobWVudCBmaWxlZCBzYW1lIGRheSBhcyBzaXggRGVtIGFydGljbGVzIG9uIEhlZ3NldGggXHUyMDE0IGNyb3NzLWZsYW5rIGNvbnN0aXR1dGlvbmFsIGNvbmZyb250YXRpb24gb3ZlciB0aGUgd2FyLiBFbGl0ZSB2YW5ndWFyZCBhbGlnbm1lbnQgKExlZyA0KSBzdHJhaW5pbmcgb24gYm90aCBmbGFua3Mgc2ltdWx0YW5lb3VzbHk7IE1hc3NpZSBmbG9vciBsYW5ndWFnZSBpbnZva2VzIG9hdGgvTWFkdXJvIHByZWNlZGVudC4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJTZWNvbmQgR09QIGNvc3BvbnNvciBieSBUaHVyc2RheSA9IGNvaGVzaW9uLWJyZWFrIHNpZ25hbDsgemVybyBjb3Nwb25zb3JzICsgbGVhZGVyc2hpcCBzdXBwcmVzc2lvbiA9IGNvbnRhaW5tZW50LiBXYXRjaCB3aGlwcy4iLAogICJfaWQiOiAiMjAyNi0wOS0xNS1oZWdzZXRoLWltcGVhY2htZW50LXNxdWVlemUiCiB9LAogewogICJkYXRlIjogIjIwMjYtMDktMTUiLAogICJ0cmFjayI6ICJlY29ub21pYy1wYWluL2NvYWxpdGlvbi1mcmFjdHVyZSIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJsZWdfMl9lbGl0ZV9vdmVycHJvZHVjdGlvbiIKICBdLAogICJ2ZXJkaWN0IjogInN0cmFpbnMiLAogICJyZWFzb25pbmciOiAiTm90IGVsaXRlIG92ZXJwcm9kdWN0aW9uIGluIHRoZSBjbGFzc2ljYWwgc2Vuc2UgXHUyMDE0IHRoaXMgaXMgYmFzZS1sZXZlbCBmcmFjdHVyZS4gQnV0IHRoZSBtZWNoYW5pc20gZmFtaWx5IGlzIHJlbGF0ZWQ6IHdoZW4gYSByZWdpbWUncyBjb3N0IHN0cnVjdHVyZSBicmVha3MgaXRzIG93biBjb2FsaXRpb24ncyBtYXRlcmlhbCBpbnRlcmVzdHMsIGxveWFsdHkgY29udmVydHMgZnJvbSBjb252aWN0aW9uIHRvIHRyYW5zYWN0aW9uLCBhbmQgdHJhbnNhY3Rpb25hbCBsb3lhbHR5IGV2YXBvcmF0ZXMgZmFzdCB1bmRlciBwcmljZSBzdHJlc3MuIFN0cmFpbnMgcmF0aGVyIHRoYW4gY29uZmlybXMgYmVjYXVzZSBuPTEsIGRlbm9taW5hdG9yIHVua25vd24sIGFuZCB0aGUgZGVmZWN0b3Igc3RpbGwgZW5kb3JzZXMgcmVnaW1lLXByb3RlY3RpdmUgZnJhbWluZ3MgaW4gaGlzIG93biByZXBsaWVzIChzY2FwZWdvYXQgKyA0RCBjaGVzcykuIFRoZSBmcmFjdHVyZSBpcyBhdCB0aGUgcHJpY2UgbGluZSwgbm90IHRoZSBpZGVudGl0eSBsaW5lIFx1MjAxNCB5ZXQuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiVHJhY2sgd2hldGhlciBlY29ub21pYyBkZWZlY3Rpb25zIChhKSBhY2N1bXVsYXRlIChyYXRlIG1hdHRlcnMsIG5vdCBjb3VudCksIChiKSBtaWdyYXRlIGZyb20gcHJpY2UtYmxhbWUgdG8gbGVhZGVyc2hpcC1ibGFtZSwgKGMpIGFwcGVhciBpbiBjb21tdW5pdGllcyB3aXRoIHJpc2luZyBiYXNlbGluZSBwb2xpdGljYWwgc2FsaWVuY2UuIFJldmVyc2liaWxpdHkgdGVzdDogaWYgZnVlbCBwcmljZXMgcmV0cmVhdCwgZG9lcyB0aGUgZGVmZWN0b3IgcmV0dXJuPyBJZiB5ZXMsIHRoZSBjb2FsaXRpb24gd2FzIHRyYW5zYWN0aW9uYWwgYWxsIGFsb25nIFx1MjAxNCBhIGNocm9uaWMgZnJhZ2lsaXR5LCBub3QgYW4gYWN1dGUgYnJlYWsuIiwKICAiX2lkIjogIjIwMjYtMDktMTUtbWFzb25lLWRpZXNlbC1kZWZlY3Rpb24iCiB9LAogewogICJkYXRlIjogIjIwMjYtMDktMTUiLAogICJ0cmFjayI6ICJvaWwtc2hvY2siLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDEiCiAgXSwKICAidmVyZGljdCI6ICJzdHJhaW5zIiwKICAicmVhc29uaW5nIjogIkJyZW50ICsyMCUgbS9tLCBTYXVkaSBFYXN0LVdlc3Qgd29ya2Fyb3VuZCBzdGlsbCBkb3duLCByZXRhaWwgcmF0aW9uaW5nIGNhcHMgYW5kIHJhaWwgc3VyY2hhcmdlcyBcdTIwMTQgcGh5c2ljYWwgc2hvY2sgcmVhbC4gQnV0IEVJQSBTVEVPIGhvbGRzICQ5MC9iIDJIMjYgd2l0aCAyMDI3IGdsaWRlIHRvICQ3NDogY29tcGxleGl0eS1jYXAgZmFpbHVyZSAoTGVnIDEpIE5PVCB5ZXQgb2JzZXJ2ZWQgaW4gcGh5c2ljYWwgc3lzdGVtOyB0aGUgZ2FwIGlzIG5hcnJhdGl2ZS1wcmVtaXVtLCBub3Qgc3VwcGx5IGNvbGxhcHNlLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIklmIEVJQSBmb3JlY2FzdCBzdXJ2aXZlcyBjb250YWN0IHdpdGggT2N0b2JlciBkYXRhLCBjcmFzaC1uYXJyYXRpdmUgd2Vha2VuczsgaWYgRWFzdC1XZXN0IHJlcGFpciBzbGlwcyBwYXN0IE9jdCAxLCBMZWcgMSBwcmVzc3VyZSByZXN1bWVzLiIsCiAgIl9pZCI6ICIyMDI2LTA5LTE1LW9pbC10YXBlLXZzLWVpYSIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0xNSIsCiAgInRyYWNrIjogIm5hcnJhdGl2ZS1kaWZmdXNpb24iLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDIiLAogICAiTGVnIDMiCiAgXSwKICAidmVyZGljdCI6ICJjb25maXJtcyIsCiAgInJlYXNvbmluZyI6ICJQcmUtcmVnaXN0ZXJlZCBmYWxzaWZpZXIgZnJvbSBSb3dlIGFydGlmYWN0ICh+M2ggb2xkKSByZXNvbHZlZDogZnVsbCBvcGVuaW5nLWxpbmV1cCBjb2xsYXBzZSArIFNoZWVyYW4ncyBvd24gYmFuZCB3YWxrZWQgb3ZlciBNYWNrbGVtb3JlIHJlbW92YWwuIEhvdXJzLXNjYWxlIGNhc2NhZGUgY29uZmlybXMgY3VsdHVyYWwtc2VjdG9yIGRpZmZ1c2lvbjsgdmVudWUtbGF5ZXIgcmVtb3ZhbCAobm90IGFydGlzdCBkZWNpc2lvbikgc2hpZnRzIGZyYWN0dXJlIGxvY3VzIHRvIGNvbW1lcmNpYWwgaW5mcmFzdHJ1Y3R1cmUgXHUyMDE0IExlZyAzIGVuY2xvc3VyZSBzaWduYXR1cmUgaW4gdGhlIGN1bHR1cmUgaW5kdXN0cnkuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiV2F0Y2ggdmVudWUgc3RhdGVtZW50cyAob3duZXJzaGlwIG9mIHJlbW92YWwpIHZzIHNpbGVuY2U7IHJlZnVzYWwgb2YgcmVwbGFjZW1lbnRzIHdvdWxkIG1hcmsgZGVlcCBjYXNjYWRlLiBQYXJhbGxlbDogc2FtZS1kYXkgY29hbGl0aW9uIGRlZmVjdGlvbiB0aGVtZSBhdCBlaWdodC1uYXRpb24gd2FyIGNvdW5jaWwuIiwKICAiX2lkIjogIjIwMjYtMDktMTUtdG91ci1jb2xsYXBzZS1jYXNjYWRlIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTE1IiwKICAidHJhY2siOiAidXMtaW5zdGl0dXRpb25hbC1icmVhayIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJsZWdfMl9lbGl0ZV9vdmVycHJvZHVjdGlvbiIsCiAgICJsZWdfNF92YW5ndWFyZF9hbGlnbm1lbnQiCiAgXSwKICAidmVyZGljdCI6ICJjb25maXJtcyIsCiAgInJlYXNvbmluZyI6ICJUaGUgQ0JTIGxlYWsgcmVwcmVzZW50cyBhIHRvdGFsIGNvbGxhcHNlIG9mIHRoZSAnT2ZmaWNpYWwgTmFycmF0aXZlJyBsYXllci4gU2VydmljZSBtZW1iZXJzIGFyZSBub3cgYWN0aXZlbHkgYnlwYXNzaW5nIHJpZ2lkIG1pbGl0YXJ5IG1lZGlhIHJlc3RyaWN0aW9ucyB0byBleHBvc2UgdGhlIGdhcCBiZXR3ZWVuIGNvbW1hbmQgY2xhaW1zICgnbWluaW1hbCBkYW1hZ2UnKSBhbmQgb3BlcmF0aW9uYWwgcmVhbGl0eSAoc2V2ZXJlZCBhaXJjcmFmdCwgaG9sbG93ZWQtb3V0IGJhcnJhY2tzKS4gVGhpcyBjb25maXJtcyB0aGUgdmFuZ3VhcmQgYWxpZ25tZW50IGZhaWx1cmU6IHRoZSBvZmZpY2Vycy9wb2xpdGljYWxzIGFyZSBkZXRhY2hlZCBmcm9tIHRoZSBncm91bmQtdHJ1dGgsIGFuZCB0aGUgZ3JvdW5kLXRydXRoIGlzIG5vdyBsZWFraW5nIGludG8gdGhlIHB1YmxpYyBkb21haW4gdG8gdW5kZXJtaW5lIHRoZSByZWdpbWUncyBjcmVkaWJpbGl0eS4gVGhlICQzLjdCIGxvc3MgaXMgYSBtYXRlcmlhbCBhbmNob3IgZm9yIHRoZSBpbnN0aXR1dGlvbmFsIGRlY2F5LiIsCiAgImZvcndhcmRfc2lnbmFsIjogIkV4cGVjdCBhbiBpbmNyZWFzZSBpbiAnd2hpc3RsZWJsb3dlcicgYWN0aXZpdHkgZnJvbSBsb3dlci10aWVyIG9mZmljZXJzIHdobyBjYW5ub3Qgc3VzdGFpbiB0aGUgbGllIG9mIGEgc3VjY2Vzc2Z1bCBkZWZlbnNlLiBUaGUgbmFycmF0aXZlIHNoaWZ0IG1vdmVzIGZyb20gJ3dpbm5pbmcgdGhlIHdhcicgdG8gJ3N1cnZpdmluZyB0aGUgY29sbGFwc2UnIGFtb25nIHRoZSByYW5rLWFuZC1maWxlLiIsCiAgIl9pZCI6ICIyMDI2LTA5LTE1LXVzLWJhc2UtZGFtYWdlLWxlYWsiCiB9LAogewogICJkYXRlIjogIjIwMjYtMDktMTUiLAogICJ0cmFjayI6ICJvaWwvaG9ybXV6LWVzY2FsYXRpb24iLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAibGVnXzFfY29tcGxleGl0eV9jYXAiLAogICAibGVnXzNfZW5jbG9zdXJlX211dGF0aW9uIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiSG91dGhpIHN0cmlrZSBvbiBZQVNSRUYgWWFuYnUgaGl0cyB0aGUgRWFzdC1XZXN0IHBpcGVsaW5lIHRlcm1pbnVzIFx1MjAxNCB0aGUgc2FtZSB3b3JrYXJvdW5kIGFscmVhZHkgZmxhZ2dlZCBkb3duIHRoaXMgbW9ybmluZy4gUmVkdW5kYW50IGNhcGFjaXR5IGlzIGJlaW5nIGNvbnN1bWVkIGZhc3RlciB0aGFuIGl0IGNhbiBiZSByZXBhaXJlZC4gRXNjYWxhdGlvbiB0ZW1wbyAoc3RyaWtlcyBwZXIgd2VlaykgcmlzaW5nIHdoaWxlIGRvbWluYW50LXBvd2VyIHJlc3BvbnNlIHN0YXlzIHJoZXRvcmljYWwuIENvbXBsZXhpdHkgY2FwIGxlZzogc3lzdGVtIGxvc2luZyBzcGFyZSBjYXBhY2l0eSB3aXRoIG5vIHJlc3RvcmF0aW9uIHBhdGggdmlzaWJsZS4gRW5jbG9zdXJlIGxlZzogaW5mcmFzdHJ1Y3R1cmUgY29udHJvbCBzaGlmdGluZyBmcm9tIHN0YXRlIG1vbm9wb2x5IHRvIHdob2V2ZXIgY2FuIHN0cmlrZSBpdC4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJJZiBCcmVudCBnYXBzIGFib3ZlIH4kMTE1IG92ZXJuaWdodCBvciBTYXVkaS9VUyByZXRhbGlhdGVzIHdpdGggZm9yY2UsIGVzY2FsYXRpb24tbGFkZGVyIHRyYWNrIGFjY2VsZXJhdGVzLiBJZiBib3RoIGZhaWwgdG8gbWF0ZXJpYWxpemUgd2l0aGluIDcyaCwgdGhlIGRldGVycmVuY2UtY29sbGFwc2UgcmVhZCBzdHJlbmd0aGVucyBmdXJ0aGVyIFx1MjAxNCB3YXRjaCBmb3Igc3RyaWtlIGV4cGFuc2lvbiB0byBSYXMgVGFudXJhLiIsCiAgIl9pZCI6ICIyMDI2LTA5LTE1LXlhc3JlZi15YW5idS1zdHJpa2UiCiB9Cl0=
+[
+ {
+  "date": "2026-09-15",
+  "track": "oil-energy",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "strains",
+  "reasoning": "Wire 14:42 \u2014 Oil shock deepens: Saudi cancels cargoes after pipeline hit (Reuters), loadings halt; Brent +$3 on Saudi halt plus LIBYA outages (second producer state); Al-Monitor: Saudi 'running out of oil export options'; national diesel record, NJ gas $4.43; Costco limits motor-oil purchases (retail rationing signal). BUT: EIA says global output returns to pre-war level by year end \u2014 the physical crisis has a clock; the NARRATIVE crisis doesn't.",
+  "forward_signal": "Crash-narrative half-life vs. physical relief timeline: which resolves first? Goldman $120 tail vs. EIA year-end normalization.",
+  "_id": "1e25c8jntv9u"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "oil_material_leg",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "CNBC 2026-09-15 confirms the East-West pipeline shutdown (Abqaiq\u2192Yanbu, ~4mbpd removed) is the SAFETY-NET closure, not just one route. Brent $106.29, WTI >$100, +21-25% monthly. KEY STRUCTURAL INSIGHT from the feedback loop: attacks on energy infrastructure now constrain repair capacity \u2014 the disruption to shipping prevents import of the parts needed to restore the alternative route. The workaround is not merely damaged; it is trapped inside the same closed system it was designed to bypass. The chokepoint has become self-reinforcing.",
+  "forward_signal": "Inventory buffer: ~1bn barrels already drawn from global stocks, ~1bn remaining to tank bottoms. Five-to-seven-day Saudi inventory cushion before the market repricing event. If the pipeline outage extends past the cushion (analyst estimate: months for repair), Brent breaks upward hard. WATCH: (1) Red Sea / Bab el-Mandeb as second front (James warns the whole Red Sea route is under threat from Iranian pressure). (2) Gulf-state mutual mobilization signals (Oman-Iran meeting postponed = coordinated regional response). (3) Whether Bab el-Mandeb closes, creating the first two-ocean closure event in modern history (Hormuz + Suez-adjacent chokepoint simultaneously).",
+  "_id": "2026-09-15-east-west-pipeline-chokepoint-saturation"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "war-coalition-fracture",
+  "mget_legs_tested": [
+   "Leg 4"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Massie impeachment filed same day as six Dem articles on Hegseth \u2014 cross-flank constitutional confrontation over the war. Elite vanguard alignment (Leg 4) straining on both flanks simultaneously; Massie floor language invokes oath/Maduro precedent.",
+  "forward_signal": "Second GOP cosponsor by Thursday = cohesion-break signal; zero cosponsors + leadership suppression = containment. Watch whips.",
+  "_id": "2026-09-15-hegseth-impeachment-squeeze"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "economic-pain/coalition-fracture",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction"
+  ],
+  "verdict": "strains",
+  "reasoning": "Not elite overproduction in the classical sense \u2014 this is base-level fracture. But the mechanism family is related: when a regime's cost structure breaks its own coalition's material interests, loyalty converts from conviction to transaction, and transactional loyalty evaporates fast under price stress. Strains rather than confirms because n=1, denominator unknown, and the defector still endorses regime-protective framings in his own replies (scapegoat + 4D chess). The fracture is at the price line, not the identity line \u2014 yet.",
+  "forward_signal": "Track whether economic defections (a) accumulate (rate matters, not count), (b) migrate from price-blame to leadership-blame, (c) appear in communities with rising baseline political salience. Reversibility test: if fuel prices retreat, does the defector return? If yes, the coalition was transactional all along \u2014 a chronic fragility, not an acute break.",
+  "_id": "2026-09-15-masone-diesel-defection"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "oil-shock",
+  "mget_legs_tested": [
+   "Leg 1"
+  ],
+  "verdict": "strains",
+  "reasoning": "Brent +20% m/m, Saudi East-West workaround still down, retail rationing caps and rail surcharges \u2014 physical shock real. But EIA STEO holds $90/b 2H26 with 2027 glide to $74: complexity-cap failure (Leg 1) NOT yet observed in physical system; the gap is narrative-premium, not supply collapse.",
+  "forward_signal": "If EIA forecast survives contact with October data, crash-narrative weakens; if East-West repair slips past Oct 1, Leg 1 pressure resumes.",
+  "_id": "2026-09-15-oil-tape-vs-eia"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "narrative-diffusion",
+  "mget_legs_tested": [
+   "Leg 2",
+   "Leg 3"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Pre-registered falsifier from Rowe artifact (~3h old) resolved: full opening-lineup collapse + Sheeran's own band walked over Macklemore removal. Hours-scale cascade confirms cultural-sector diffusion; venue-layer removal (not artist decision) shifts fracture locus to commercial infrastructure \u2014 Leg 3 enclosure signature in the culture industry.",
+  "forward_signal": "Watch venue statements (ownership of removal) vs silence; refusal of replacements would mark deep cascade. Parallel: same-day coalition defection theme at eight-nation war council.",
+  "_id": "2026-09-15-tour-collapse-cascade"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "us-institutional-break",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "The CBS leak represents a total collapse of the 'Official Narrative' layer. Service members are now actively bypassing rigid military media restrictions to expose the gap between command claims ('minimal damage') and operational reality (severed aircraft, hollowed-out barracks). This confirms the vanguard alignment failure: the officers/politicals are detached from the ground-truth, and the ground-truth is now leaking into the public domain to undermine the regime's credibility. The $3.7B loss is a material anchor for the institutional decay.",
+  "forward_signal": "Expect an increase in 'whistleblower' activity from lower-tier officers who cannot sustain the lie of a successful defense. The narrative shift moves from 'winning the war' to 'surviving the collapse' among the rank-and-file.",
+  "_id": "2026-09-15-us-base-damage-leak"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "oil/hormuz-escalation",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Houthi strike on YASREF Yanbu hits the East-West pipeline terminus \u2014 the same workaround already flagged down this morning. Redundant capacity is being consumed faster than it can be repaired. Escalation tempo (strikes per week) rising while dominant-power response stays rhetorical. Complexity cap leg: system losing spare capacity with no restoration path visible. Enclosure leg: infrastructure control shifting from state monopoly to whoever can strike it.",
+  "forward_signal": "If Brent gaps above ~$115 overnight or Saudi/US retaliates with force, escalation-ladder track accelerates. If both fail to materialize within 72h, the deterrence-collapse read strengthens further \u2014 watch for strike expansion to Ras Tanura.",
+  "_id": "2026-09-15-yasref-yanbu-strike"
+ }
+]
