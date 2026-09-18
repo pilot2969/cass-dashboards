@@ -8,8 +8,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "SPR runway breaking before midterms (SPR below 300M, confirmed) is a precise Tainter node-failure AND crisis-timing pressure. Confirms Leg 4 and feeds Leg 5.",
-  "forward_signal": "SPR weekly drain; whether the runway breaks on schedule; oil-shock arrival pre-midterms.",
-  "_id": "spr-runway-breaks-before-midterms"
+  "forward_signal": "SPR weekly drain; whether the runway breaks on schedule; oil-shock arrival pre-midterms."
  },
  {
   "date": "2026-09-04",
@@ -20,8 +19,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "Hormuz effectively closed (~95% traffic drop, confirmed). The most leveraged global supply node severed is the strongest Tainter confirm on the board. Confirms Leg 4 and Leg 1 resource-lever.",
-  "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame.",
-  "_id": "strait-of-hormuz-blockade"
+  "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame."
  },
  {
   "date": "2026-09-04",
@@ -31,8 +29,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "CONFIRMED event. Ukraine striking Russian oil = functioning leverage node. Confirm on Leg 4 (supply-chain weaponization) though it is a confirmed fact more than a cycle-test.",
-  "forward_signal": "Impact on Russian fuel/economic stability feeding russian-internal-fragility.",
-  "_id": "ukraine-strikes-russian-oil"
+  "forward_signal": "Impact on Russian fuel/economic stability feeding russian-internal-fragility."
  },
  {
   "date": "2026-09-04",
@@ -43,8 +40,7 @@
   ],
   "verdict": "strains",
   "reasoning": "Interlocking-theater master thesis (conf 56). Fronts not yet converging - strains maximal global-war reading, but each theater's stress (Hormuz, Baltic, Ukraine) is confirmed. Higher-order synthesis watched for convergence.",
-  "forward_signal": "Cross-theater escalation (two simultaneous major theaters engaging); Hormuz-to-European-NATO linkage.",
-  "_id": "world-war-iii-prologue"
+  "forward_signal": "Cross-theater escalation (two simultaneous major theaters engaging); Hormuz-to-European-NATO linkage."
  },
  {
   "date": "2026-09-06",
@@ -55,8 +51,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-  "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade.",
-  "_id": "rogue-ai-tracker-harden"
+  "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
  },
  {
   "date": "2026-09-08",
@@ -64,8 +59,7 @@
   "mget_legs_tested": [],
   "verdict": "neutral",
   "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
-  "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane.",
-  "_id": "market-actuarial-hedge-fuels-2026-09-08"
+  "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane."
  },
  {
   "date": "2026-09-08",
@@ -75,8 +69,7 @@
   ],
   "verdict": "strains",
   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-  "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026.",
-  "_id": "supersized-el-nino-shock"
+  "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
  },
  {
   "date": "2026-09-09",
@@ -87,7 +80,6 @@
   ],
   "verdict": "confirms",
   "reasoning": "Houthi drone/missile strike targeting Abha International Airport adjacent to Saudi Aramco facilities. Proves conflict is leaping maritime chokepoints (Hormuz) to target land-based energy extraction and regional nodes. Directly triggers the Mecca Defence Alliance (Saudi-Pakistan-Turkey collective security pact), testing whether external nuclear-backed guarantees activate as regional friction compounds.",
-  "forward_signal": "Response of the Mecca Defence Alliance (Pakistan/Turkey) to direct strikes on Saudi energy infrastructure; Brent crude reaction; spread of kinetic engagements outside immediate Gulf basin.",
-  "_id": "abha-aramco-houthi-strike"
+  "forward_signal": "Response of the Mecca Defence Alliance (Pakistan/Turkey) to direct strikes on Saudi energy infrastructure; Brent crude reaction; spread of kinetic engagements outside immediate Gulf basin."
  }
 ]
