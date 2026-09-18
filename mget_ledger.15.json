@@ -1,0 +1,72 @@
+[
+ {
+  "date": "2026-09-18",
+  "track": "energy-choke",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Pakistan imposes lockdown-like austerity over fuel/gas crisis (Dawn confirms): 9pm market closures, 50% fuel cut for government vehicles, ban on new vehicle purchases, foreign travel ban, spending cuts. Day 202 of Iran War. Mechanism: Gulf supply contraction propagating to import-dependent economies as rationing/enclosure by decree - the demand-side collapse leg of the oil shock, visible first in the periphery. Pakistan is an early-warning economy for how the shock lands politically: austerity imposed top-down before prices fully reflect the squeeze.",
+  "forward_signal": "Watch other import-dependent periphery economies (Bangladesh, Sri Lanka, Egypt) for copycat rationing; watch whether advanced economies frame identical measures as 'conservation' rather than 'crisis' - that framing shift is the tell. Also watch Pakistan destabilization spillover (nuclear-armed, IMF-dependent) as a second-order escalation vector.",
+  "confidence_moves": "Energy-choke track strengthens: SPR emergent (91) now has a demand-side companion signal. Peripheral rationing precedes advanced-economy recognition, consistent with the shock-lands-before-midterms sequencing."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "macro-thesis / post-WWII order dissolution",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_2_elite_overproduction"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Richard Wolff interview (AlterNet, 9/17). Three structural claims, two map to existing tracks: (1) Alliance decoupling is PERMANENT - Canada/China/Russia building around US (lumber to Europe, Canadian energy to China) - demand-side analog of de-dollarization/reserve-rotation track: physical trade flows rerouting, and re-laid supply chains amortize the old order for decades. (2) Post-1945 arrangement was artificial window, not natural state - US inherited intact colonial system as sole un-destroyed industrial power; consistent with Pax-Americana 1990-2000 control case (rules-based order = hegemony's accounting frame, dissolves as hegemon normalizes). (3) Elite denial as operative mechanism - leaders (Schumer/Macron/Merz/Starmer) narrating from a position that no longer exists; elite-leg signal in our sense. HONEST PUSHBACK: Wolff attributes more to Trump than his own final answer supports - he concedes 'mostly the latter' (structural) then indicts Trump throughout. Correct weighting: Trump = accelerant, not cause; process does not reverse under future administration, only rate changes - matters for forecasting. Cross-connect: Wolff cites diesel ~2x vs 8 months ago - consistent with SPR/Aramco/Pakistan cluster same day; energy choke and alliance decoupling are one crisis viewed from two sides.",
+  "forward_signal": "WATCH: (1) Canadian energy rerouting to Asia - physical confirmation via pipeline/port flows; (2) whether EU-Canada commodity deals formalize (supply chains re-laid = permanence confirmed); (3) elite-leg test - does any major-party leader publicly narrate US relative decline (Schumer/Macron class admitting the position is gone)? None doing so yet = denial leg intact; first one to breaks ranks is an elite-leg marker. (4) Wolff's own framing is elite-denial-adjacent - left intellectuals naming dissolution before institutional elites do is itself the historical pattern (late-Ottoman, late-British precedent). NOTE: editorial source, single outlet - treat structural claims as reasoning-anchored, not reporting-confirmed.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-18",
+  "track": "europe-war-drift",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Telegraph (paywalled; corroborated via wires): Putin regime signaling escalation ahead of Russian parliamentary election (result predetermined) - mobilisation-linked measures and increased hybrid-attack tempo aimed at European supporters of Ukraine. Tusk separately warns Russia may strike countries supporting Ukraine. Sequences directly on yesterday's Lavrov/Patrushev existential-threat track (2026-09-17-lavrov-very-short-war-poland-threat): escalation ladder engaged on both sides. Structural read: internal Russian fragility (election as legitimacy event; mobilisation as population lever) converting to EXTERNAL provocation - classic scapegoat_redirect under leg 3. Reinforces kinetic-european-conflict prediction (Baltic gray-zone window) and nato-conditional-guilt fork: if Russia escalates hybrid-to-kinetic while the US is in Iran amid the Hormuz fuel crisis, the conditional Article 5 test likely triggers under worst conditions - two war fronts, one energy crisis.",
+  "forward_signal": "Article 4 consultations after next NATO-territory drone strike; Russian mobilisation decrees; Duma election-night escalation framing; whether US endorses Russia's framing (vanguard crack) or distances; Zaporizhzhia blackout status.",
+  "confidence_moves": "Kinetic Conflict in Europe +2 (60 -> 62): escalation signaling converts prediction from ambient-risk to actively-forming; NATO conditional guilt watch +1: window tightens as Russian escalation tempo rises under election cover"
+ },
+ {
+  "date": "2026-09-18",
+  "track": "spr-runway-oil-shock",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "EIA weekly: SPR -403k bbl to 285.4M \u2014 lowest since Nov 1982; 25th consecutive weekly decline (-131M / -46% since 2021-23 period; 650M in 2020). Commercial crude ex-SPR -640k to 423.4M, lowest since end of 2014 era. This breaches the SPR-runway prediction's threshold zone (~290M cavern-damage floor) \u2014 285.4M is BELOW it. The prediction's stated trigger 'SPR breaching the ~290M floor' is now satisfied on the inventory leg; oil shock before midterms moves from conditional to structurally loaded. Composite buffers already depleted per Chevron Wirth (9/16), distillates <100M bbl through YE26 (EIA STEO), Brent ~$102. System has no refill capacity while at war \u2014 the drain is policy, not accident: retail price suppression via SPR draw is the enclosure-of-mobility mechanism running in reverse, spending the strategic reserve as an electoral subsidy.",
+  "forward_signal": "SPR weekly prints through November (each weekly decline now approaches the fatality condition); any emergency drawdown announcement vs. silent continued drain; whether retail gasoline holds under $6 through Election Day; tanker-loss cadence in Hormuz/Bab el-Mandeb; Bab el-Mandeb closure trigger; whether EIA STEO revises 2H26 price path upward off the $90 hold.",
+  "confidence_moves": "SPR runway breaks before midterms: 88 -> 91. Floor-breach trigger leg is now literally satisfied (285.4M < 290M); remaining uncertainty is timing and whether the regime accelerates drain as controlled burn vs. loses the cavern. Composite read: fatality-vs-electoral-loss fork sharpens \u2014 prediction was 'breakable oil shock before midterms, may be regime fatality'; the floor is broken with 7 weeks to Election Day."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "energy-choke/domestic-logistics",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "neutral",
+  "reasoning": "RUMOR WATCH ONLY - social-media reports of a US trucker strike beginning Oct 1; no confirmation from wire services, company union statements, or official channels as of this entry. Fuel costs post-Gulf-war and insurance/capacity stress are plausible causal vectors consistent with the energy-choke track, but unverified. Logged to establish the baseline date so confirmation-or-debunk is measurable rather than improvised. COUNTER-SIGNAL (same day, r/PrepperIntel + driver video @iamlarrycothran, CDT Lake City FL): trucker community itself doubts the strike - structural argument: unlike 1974, most drivers are NOT owner-operators and lack control to stop work; consignment/ELD dispatch leverage sits with carriers. Energy strain may dwarf 1973 but national shutdown unlikely. This is the rumor's first airplay from inside the trade, and it's skeptical - weakens near-term confirmation odds.",
+  "forward_signal": "CONFIRMATION CRITERIA: (1) named organizer or union (Owner-Operator Independent Drivers Association, etc.) calling for action; (2) wire-service pickup (AP/Reuters) or state-level government response; (3) load-board rate anomalies on DAT/FreightWaves before Oct 1. DEBUNK CRITERIA: origin traced to recycled 2019/2022 viral posts with no organizer, or date passes with no action. Watch: does it converge with Oct 1 Phase 4 window from the 90day forecast. REVISED: weight of evidence now leans rumor (no named organizer, community-internal skepticism, structural constraint of W2/company drivers). Keep the Oct 1 date and confirmation criteria active but downgrade expected probability. What would still upgrade it: OOIDA or a named owner-operator coalition endorsing; visible coordinated refusal on load boards. Note asymmetric fallback: even a failed strike call can produce scattered sympathy actions or fuel-protest convoys near metros - watch for that, not a national shutdown.",
+  "confidence_moves": "None yet. If confirmed by named organizers before Oct 1, upgrades to confirms and cross-links with fuel-crisis domestic transmission; if it fails the criteria, close as rumor."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "narrative control / press freedom",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Trump Truth Social (verified by TheBlaze social repost within ~10 min): bans CNN, MSNBC, Politico from White House effective immediately, citing 'fake news'; Politico targeted over $8M federal subscription under Biden. Media-vanguard-split pattern (2026-09-10 entry) now hardens into enforcement: outlets banned for narrative defiance. Signals: (a) escalation to audience-punishment as precedent for further bans - 'other outlets to follow' is explicit; (b) Politico $8M subscription angle = attempt to reframe federal payment as corruption, pre-text for defunding press; (c) timing amid Iran conflict + casualty-ratio rumors - this is a narrative-choke move in a rising-crisis environment.",
+  "forward_signal": "WATCH: (1) which outlets banned next (WAPO - casualty story source - is prime candidate); (2) court response / injunctive relief (AP precedent 2025); (3) whether ban extends to congressional press galleries, not just WH access; (4) interplay with the 9/18 casualty-ratio-anomaly entry - suppressing the outlets best positioned to independently verify casualty numbers is the mechanism that makes ratio manipulation stick. Connects: 2026-09-10 media-vanguard-split; JPM forecasting-capitulation entry (forecasting class deafening itself as narrative space narrows).",
+  "confidence_moves": null
+ }
+]
