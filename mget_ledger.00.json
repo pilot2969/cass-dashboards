@@ -8,8 +8,7 @@
   ],
   "verdict": "neutral",
   "reasoning": "Speculative track (conf 35). Only becomes MGET evidence if a false-flag is proven; otherwise it is a narrative-coherence probe. Logged neutral - neither confirms nor strengthens any leg.",
-  "forward_signal": "Proven perpetrator(s); forensic corroboration independent of official narrative.",
-  "_id": "9-11-inversion-false-flag"
+  "forward_signal": "Proven perpetrator(s); forensic corroboration independent of official narrative."
  },
  {
   "date": "2026-09-04",
@@ -19,8 +18,7 @@
   ],
   "verdict": "neutral",
   "reasoning": "CONFIRMED event (Kirk death), but confirming a death does not test the enclosing-force cycle itself. Logged neutral on MGET legs.",
-  "forward_signal": "Whether the death becomes a catalytic legitimizing pivot for a Reichstag-style escalation (this WOULD feed Leg 5/6).",
-  "_id": "assassination-as-catalyst-kirk"
+  "forward_signal": "Whether the death becomes a catalytic legitimizing pivot for a Reichstag-style escalation (this WOULD feed Leg 5/6)."
  },
  {
   "date": "2026-09-04",
@@ -31,8 +29,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "Anti-migrant/anti-muslim base mobilization plus enforcement groundwork is a direct expression of Leg 1 coercive mutation of the enclosing force. Strong confirm.",
-  "forward_signal": "Expansion of detention/enforcement infrastructure; quiet-track mobilization converting to overt policy.",
-  "_id": "domestic-enforcement-groundwork"
+  "forward_signal": "Expansion of detention/enforcement infrastructure; quiet-track mobilization converting to overt policy."
  },
  {
   "date": "2026-09-04",
@@ -43,8 +40,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "Global supply-chain fragility (fertilizer) firing is classic Tainter - the complex interdependent system breaks at its leveraged node. Confirms Leg 4 and the enclosing force food-security lever.",
-  "forward_signal": "Actual fertilizer price/availability disruption; famine-scale stress reaching domestic populations.",
-  "_id": "fertilizer-supply-crisis"
+  "forward_signal": "Actual fertilizer price/availability disruption; famine-scale stress reaching domestic populations."
  },
  {
   "date": "2026-09-04",
@@ -55,8 +51,7 @@
   ],
   "verdict": "strains",
   "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
-  "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains.",
-  "_id": "ground-invasion-of-iran"
+  "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
  },
  {
   "date": "2026-09-04",
@@ -67,8 +62,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
-  "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion.",
-  "_id": "iran-naval-escort-escalation"
+  "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
  },
  {
   "date": "2026-09-04",
@@ -79,8 +73,7 @@
   ],
   "verdict": "confirms",
   "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
-  "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm.",
-  "_id": "kemalist-preference-reichstag-fallback"
+  "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
  },
  {
   "date": "2026-09-04",
@@ -91,7 +84,6 @@
   ],
   "verdict": "strains",
   "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
-  "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering.",
-  "_id": "kinetic-european-conflict"
+  "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
  }
 ]
