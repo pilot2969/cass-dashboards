@@ -2,7 +2,7 @@
 // ---- shared utils (hoisted so engine + renderer see one copy) ----
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
-const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
+const badge=c=>{c=norm(c);return c>=80?'bg-red-600':c>=60?'bg-amber-500':'bg-emerald-600';};
 window.__CASS_UTILS={esc,norm,badge};
 
 // ---- Share-card engine (v2.8.1) ----
@@ -106,6 +106,7 @@ warningText:`# THRESHOLD WARNING
 A WARNING means a specific institutional failure is now happening in public view - not conditions, an event. The named mechanism is live. Details will be posted here at time of upgrade.`};
 const bust=u=>u+'?v='+Date.now();
 fetch(bust('data.json'),{cache:'no-store'}).then(r=>r.json()).then(async M=>{
+  document.querySelector('#app .placeholder')?.remove();
   let D={...M};
   if(M.predictions&&M.predictions._sharded){
     D.predictions=[];
@@ -134,7 +135,7 @@ wi.innerHTML='⏳ Threshold Watch <span class="text-amber-200/70 normal-case fon
 const mvBlock=()=>{if(!D.movers||!D.movers.length)return '';
 return `<details class="card p-6 rounded-xl border-l-4 border-emerald-500 mb-8" open><summary class="text-xl font-bold text-emerald-400">⏱ Changed in Last 24 Hours — movers only <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4"><p class="text-slate-400 text-xs mb-3">Only objects that CHANGED surface here: confidence moves, status resolutions, watch-item fires, stage transitions. New capture entries enter the ledger timeline without touching this panel. Empty panel = static board = information.</p>
-<ul class="space-y-2">${D.movers.map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
+<ul class="space-y-2">${D.movers.slice().reverse().map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
 // Watch details block
 const wd=document.getElementById('watch-details');
 wd.innerHTML=`<details class="card p-6 rounded-xl border-l-4 border-amber-500"><summary class="text-xl font-bold text-amber-400">⏳ Threshold Watch — active. Click to expand the full issuance text <span class="chev text-slate-400">▶</span></summary>
@@ -154,8 +155,8 @@ if(!byStatus[st])return;
 h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
 byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach((p,idxAll)=>{
 const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
-h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}<button class="share-btn px-2 py-1 bg-amber-600 text-white text-xs font-bold rounded" onclick="__shareP(${p.__i})">📸 Share Card</button></div>
+h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=80?'border-red-500':norm(p.confidence)>=60?'border-amber-500':'border-emerald-500'}"><summary class="p-6">
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}<button class="share-btn px-2 py-1 bg-slate-600 text-white text-xs font-bold rounded" onclick="__shareP(${p.__i})">📸 Share Card</button></div>
 <p class="text-lg font-bold text-amber-400">${esc(p.title)}</p>
 <p class="text-slate-300 text-sm mt-1">${esc(p.statement)}</p>
 <p class="text-slate-500 text-xs mt-2">📄 Expand for evidence base &amp; falsifier <span class="chev">▶</span></p>
@@ -211,7 +212,7 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 <p class="text-slate-300 text-sm">We do NOT track every variable. We track only transitions that clear a relevance threshold. Every number is a <em>bet on a mechanism</em>, and every bet is backed by a visible evidence base and an armed falsifier. A forecast that cannot be falsified is not a forecast — it is a mood. When a forecast stops clearing the bar, it moves to the accountability record below.</p>
 </div>
 <div id="watch-details" class="mb-8"></div>
-<div id="app"><p class="text-slate-400">Loading model state…</p></div>
+<div id="app"><p class="text-slate-400 placeholder">Loading model state…</p></div>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-10"><summary class="text-xl font-bold text-amber-400">📖 Methodology — how this board is built and how it is tested <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
 <div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">The MGET framework.</strong> The board runs on a four-leg model of systemic failure: <strong>Leg 1</strong> — complexity cap / material substrate (energy, logistics, money); <strong>Leg 2</strong> — elite overproduction / class friction; <strong>Leg 3</strong> — enclosure mutation (institutions becoming opaque, weaponized, or unaccountable); <strong>Leg 4</strong> — vanguard alignment (coordinated counter-elites forming). Each leg is scored 0–15 from visible, public evidence only.</div>
 <div class="text-slate-300 text-sm mb-3"><strong class="text-amber-400">Forecasts are bets on mechanisms, not dates.</strong> Each entry names its mechanism, its evidence base, and its falsifier — the specific condition that would retire it. When a falsifier triggers, the forecast is retired publicly, on this page. A forecast that cannot be falsified is not a forecast; it is a mood.</div>
@@ -247,6 +248,7 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 </tbody></table></div></details>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
 <table class="w-full text-xs text-slate-300"><tbody>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-18 · v2.9</td><td class="py-2">Stoplight confidence coding (green &lt;60 / amber 60–79 / red 80+) on all chips and card borders. "Changed in Last 24 Hours" movers panel restored and sorted newest-first — only objects that change surface there. Share Card button recolored gray. Loader-hang fix. Deploy pipeline moved to MCP with encode-bug root-cause fix; eight new ledger entries incl. Aramco European supply halt and SPR floor breach (SPR confidence 88→91, status pending→emergent).</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1–v2.8.7</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">📸 Share Card on every prediction card and the macro forecast header. Card exports the claim, plain-English translation, evidence chain, and armed falsifier as one shareable image.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Sparklines removed (low signal-to-noise); share-card engine v1 shipped.</td></tr>
@@ -260,5 +262,5 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 </tbody></table>
 <p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
 </div></details>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.7 · <span id="gen2"></span></footer>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.9 · <span id="gen2"></span></footer>
 </div></body></html>
