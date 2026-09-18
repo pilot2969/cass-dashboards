@@ -1,1 +1,95 @@
-WwogewogICJkYXRlIjogIjIwMjYtMDktMDQiLAogICJ0cmFjayI6ICJraXJrLWFubml2ZXJzYXJ5LW5hcnJhdGl2ZS0yMDI2IiwKICAibWdldF9sZWdzX3Rlc3RlZCI6IFsKICAgIkxlZyA2IEFsZ29yaXRobWljIEVuY2xvc3VyZSIsCiAgICJMZWcgMSBFbmNsb3NpbmcgRm9yY2UiCiAgXSwKICAidmVyZGljdCI6ICJuZXV0cmFsIiwKICAicmVhc29uaW5nIjogIk5hcnJhdGl2ZS1kb21pbmFuY2UgdHJhY2sgKGNvbmYgODgpLiBNZWFzdXJpbmcgbmFycmF0aXZlIGNvbnRyb2w7IG5ldXRyYWwgYXMgTUdFVCBldmlkZW5jZSB1bnRpbCBpdCBkcml2ZXMgYSBtZWFzdXJhYmxlIHBvd2VyIG91dGNvbWUuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiQW5uaXZlcnNhcnkgbmFycmF0aXZlIGNvbnZlcnRpbmcgaW50byBsZWdpc2xhdGl2ZS9wb2xpY3kgbGV2ZXJhZ2U7IFNlcHQgMTAgcHJveGltaXR5LiIsCiAgIl9pZCI6ICJraXJrLWFubml2ZXJzYXJ5LW5hcnJhdGl2ZS0yMDI2IgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAibWlkLWF1Z3VzdC1vaWwtcHJpY2Utc2hvY2siLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDQgQ29tcGxleGl0eSBEaW1pbmlzaGluZyBSZXR1cm5zIgogIF0sCiAgInZlcmRpY3QiOiAic3RyYWlucyIsCiAgInJlYXNvbmluZyI6ICJGQUlMRUQgdHJhY2sgKGNvbmYgMTApLiBNaWQtQXVndXN0IHNwaWtlIGRpZCBub3QgZmlyZS4gU1RSQUlOIG9uIHRoZSBlbmVyZ3ktc2hvY2sgcmVhZGluZyAtIGEgdGltaW5nIG1pc3MsIG5vdCBhIGtpbGwuIFNob2NrIGFwcGVhcnMgZGVmZXJyZWQgdG8gdGhlIFNQUi1ydW53YXkgY2xvY2sgcmF0aGVyIHRoYW4gZGVhZC4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJTUFIgd2Vla2x5IGRyYWluOyB3aGV0aGVyIHRoZSBzaG9jayBhcnJpdmVzIG9uIHRoZSBwcmUtbWlkdGVybSBydW53YXkgaW5zdGVhZCAod291bGQgcmVkZWVtIHRoZSBtZWNoYW5pc20pLiIsCiAgIl9pZCI6ICJtaWQtYXVndXN0LW9pbC1wcmljZS1zaG9jayIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogIm1pbGl0YXJ5LWNvdXAtZm91cnRoLXR1cm5pbmciLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciCiAgXSwKICAidmVyZGljdCI6ICJzdHJhaW5zIiwKICAicmVhc29uaW5nIjogIkZyYWN0dXJlIGNvbnRhaW5hYmxlIHNvIGZhciAoY29uZiA1NCkuIFN0cmFpbnMgdGhlIG1heGltYWwgbmFrZWQtY291cCByZWFkaW5nOyBwcm9jZXNzIG1heSB0YWtlIHF1aWV0ZXIgZW5mb3JjZW1lbnQtcGF0aCByYXRoZXIgdGhhbiBhIHRhbmsgaW4gdGhlIHN0cmVldC4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJDb25maXJtYWJsZSBicmVhayBpbiBpbnN0aXR1dGlvbmFsLW1pbGl0YXJ5IGxveWFsdHk7IGRlY2lzaXZlIG1pbGl0YXJ5IHBvc3R1cmUgY2hhbmdlLiIsCiAgIl9pZCI6ICJtaWxpdGFyeS1jb3VwLWZvdXJ0aC10dXJuaW5nIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAibmF0by1jb25kaXRpb25hbC1ndWlsdCIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgNCBDb21wbGV4aXR5IERpbWluaXNoaW5nIFJldHVybnMiLAogICAiTGVnIDEgRW5jbG9zaW5nIEZvcmNlIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiVVMgdHJhbnNhY3Rpb25hbGl6aW5nIHRoZSBOQVRPIGd1YXJhbnRlZSBvbiBCYWx0aWMgZXNjYWxhdGlvbiBpcyB0ZXh0Ym9vayBUYWludGVyIC0gc2hyaW5raW5nIGhlZ2Vtb24gcmUtcHJpY2VzIGNvbW1pdG1lbnRzIGJlY2F1c2UgYWxsaWFuY2UgcHJvZHVjZXMgZGltaW5pc2hpbmcgcmV0dXJucy4gQ29uZmlybXMgTGVnIDQuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiUHVibGljIHJlcHJpY2luZyBvZiB0aGUgc2VjdXJpdHkgZ3VhcmFudGVlOyBhbGxpYW5jZSBmcmFnbWVudGF0aW9uLiIsCiAgIl9pZCI6ICJuYXRvLWNvbmRpdGlvbmFsLWd1aWx0IgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAicG9zdC10cnVtcC1yZXN0cnVjdHVyZSIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgNSBGb3VydGggVHVybmluZyIsCiAgICJMZWcgMSBFbmNsb3NpbmcgRm9yY2UiCiAgXSwKICAidmVyZGljdCI6ICJjb25maXJtcyIsCiAgInJlYXNvbmluZyI6ICJGYWxsLWd1eS1hbmQtbmV3LUNhZXNhciByZXN0cnVjdHVyaW5nIGlzIHRoZSBpbnN0aXR1dGlvbmFsLWNhcGFjaXR5LWRpc3NvbHV0aW9uIHBoYXNlIG9mIGEgdHVybmluZyAtIG9sZCBvcmRlciBuYW1lcyBhIHNjYXBlZ29hdCB3aGlsZSBjb25zb2xpZGF0aW5nIGEgc3Ryb25nbWFuLiBDb25maXJtcyBMZWdzIDUgYW5kIDEuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiTmFtZWQgZmFsbCBndXk7IHdobyBhc3N1bWVzIGNvbnNvbGlkYXRlZCBwb3dlci4iLAogICJfaWQiOiAicG9zdC10cnVtcC1yZXN0cnVjdHVyZSIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogInJlZ2ltZS1wb3dlci1yZXRlbnRpb24iLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciLAogICAiTGVnIDYgQWxnb3JpdGhtaWMgRW5jbG9zdXJlIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiUmVnaW1lIHJlZnVzYWwgdG8gY2VkZSBwb3dlciByZWdhcmRsZXNzIG9mIG91dGNvbWUgaXMgdGhlIGRlZmluaW5nIGF0dHJpYnV0ZSBvZiBhIGNyaXNpcy1zZWF0IHJlZ2ltZS4gQ29uZmlybXMgTGVnIDUgYW5kIGl0cyBhbGdvcml0aG1pYy1lbmZvcmNlbWVudCBzdWJzZXQgKGJhbGxvdC1kYXRhIGNvbnRyb2wpLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIlNDT1RVUyBVU1BTIHJ1bGluZzsgZmlyc3QtbWFpbGluZy13ZWVrIGJ1bGstcmVqZWN0aW9uOyBET0ogZW5mb3JjZW1lbnQtc2hpZWxkaW5nIGV4dGVuZGluZyB0byBlbGVjdGlvbiBvZmZpY2lhbHMuIiwKICAiX2lkIjogInJlZ2ltZS1wb3dlci1yZXRlbnRpb24iCiB9LAogewogICJkYXRlIjogIjIwMjYtMDktMDQiLAogICJ0cmFjayI6ICJyZWljaHN0YWctZmlyZS1uYXRpb25hbC1lbWVyZ2VuY3kiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciLAogICAiTGVnIDYgQWxnb3JpdGhtaWMgRW5jbG9zdXJlIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiUGxhbm5lZCBuYXRpb25hbC1lbWVyZ2VuY3kgY29tcGxldGlvbiBvZiB0aGUgYXV0aG9yaXRhcmlhbiB0cmFuc2l0aW9uIGlzIHRoZSBtb3N0IGRpcmVjdCBMZWcgNSBjb25maXJtYXRpb24gb24gdGhlIGJvYXJkLiBIaWdoIGJ1dCBwZW5kaW5nLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIk9jdG9iZXIgY2F0YXN0cm9waGUgdHJpZ2dlcjsgYSBmYWxzZS1mbGFnIG9yIGNhdGFseXppbmcgZXZlbnQgbGVnaXRpbWl6aW5nIHRoZSBlbWVyZ2VuY3kuIiwKICAiX2lkIjogInJlaWNoc3RhZy1maXJlLW5hdGlvbmFsLWVtZXJnZW5jeSIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogInJ1c3NpYW4taW50ZXJuYWwtZnJhZ2lsaXR5IiwKICAibWdldF9sZWdzX3Rlc3RlZCI6IFsKICAgIkxlZyA0IENvbXBsZXhpdHkgRGltaW5pc2hpbmcgUmV0dXJucyIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIlJ1c3NpYW4gZnJhZ2lsaXR5IHVuZGVyIGZ1ZWwtY3Jpc2lzIGJpdGUgaXMgYSBUYWludGVyLXN0eWxlIHN5c3RlbS11bmRlci1zdHJlc3MgcmVhZGluZyAtIGV4dGVybmFsIHdhciBwbHVzIGludGVybmFsIGVjb25vbWljIGNvbGxhcHNlLiBDb25maXJtcyBMZWcgNCAoYWR2ZXJzYXJ5IHN0YXRlIGFwcGxpY2F0aW9uKS4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJBdXR1bW4gZnVlbC1jcmlzaXMgZGVwdGg7IGEgUnVzc2lhbiBpbnRlcm5hbCBicmVhay4iLAogICJfaWQiOiAicnVzc2lhbi1pbnRlcm5hbC1mcmFnaWxpdHkiCiB9Cl0=
+[
+ {
+  "date": "2026-09-04",
+  "track": "kirk-anniversary-narrative-2026",
+  "mget_legs_tested": [
+   "Leg 6 Algorithmic Enclosure",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "neutral",
+  "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+  "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity.",
+  "_id": "kirk-anniversary-narrative-2026"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "mid-august-oil-price-shock",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "strains",
+  "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+  "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism).",
+  "_id": "mid-august-oil-price-shock"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "military-coup-fourth-turning",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "strains",
+  "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+  "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change.",
+  "_id": "military-coup-fourth-turning"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "nato-conditional-guilt",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+  "forward_signal": "Public repricing of the security guarantee; alliance fragmentation.",
+  "_id": "nato-conditional-guilt"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "post-trump-restructure",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+  "forward_signal": "Named fall guy; who assumes consolidated power.",
+  "_id": "post-trump-restructure"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "regime-power-retention",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Regime refusal to cede power regardless of outcome is the defining attribute of a crisis-seat regime. Confirms Leg 5 and its algorithmic-enforcement subset (ballot-data control).",
+  "forward_signal": "SCOTUS USPS ruling; first-mailing-week bulk-rejection; DOJ enforcement-shielding extending to election officials.",
+  "_id": "regime-power-retention"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "reichstag-fire-national-emergency",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Planned national-emergency completion of the authoritarian transition is the most direct Leg 5 confirmation on the board. High but pending.",
+  "forward_signal": "October catastrophe trigger; a false-flag or catalyzing event legitimizing the emergency.",
+  "_id": "reichstag-fire-national-emergency"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "russian-internal-fragility",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Russian fragility under fuel-crisis bite is a Tainter-style system-under-stress reading - external war plus internal economic collapse. Confirms Leg 4 (adversary state application).",
+  "forward_signal": "Autumn fuel-crisis depth; a Russian internal break.",
+  "_id": "russian-internal-fragility"
+ }
+]
