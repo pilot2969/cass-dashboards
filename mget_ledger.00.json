@@ -1,1 +1,97 @@
-WwogewogICJkYXRlIjogIjIwMjYtMDktMDQiLAogICJ0cmFjayI6ICI5LTExLWludmVyc2lvbi1mYWxzZS1mbGFnIiwKICAibWdldF9sZWdzX3Rlc3RlZCI6IFsKICAgIkxlZyA2IEFsZ29yaXRobWljIEVuY2xvc3VyZSIsCiAgICJMZWcgMSBFbmNsb3NpbmcgRm9yY2UiCiAgXSwKICAidmVyZGljdCI6ICJuZXV0cmFsIiwKICAicmVhc29uaW5nIjogIlNwZWN1bGF0aXZlIHRyYWNrIChjb25mIDM1KS4gT25seSBiZWNvbWVzIE1HRVQgZXZpZGVuY2UgaWYgYSBmYWxzZS1mbGFnIGlzIHByb3Zlbjsgb3RoZXJ3aXNlIGl0IGlzIGEgbmFycmF0aXZlLWNvaGVyZW5jZSBwcm9iZS4gTG9nZ2VkIG5ldXRyYWwgLSBuZWl0aGVyIGNvbmZpcm1zIG5vciBzdHJlbmd0aGVucyBhbnkgbGVnLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIlByb3ZlbiBwZXJwZXRyYXRvcihzKTsgZm9yZW5zaWMgY29ycm9ib3JhdGlvbiBpbmRlcGVuZGVudCBvZiBvZmZpY2lhbCBuYXJyYXRpdmUuIiwKICAiX2lkIjogIjktMTEtaW52ZXJzaW9uLWZhbHNlLWZsYWciCiB9LAogewogICJkYXRlIjogIjIwMjYtMDktMDQiLAogICJ0cmFjayI6ICJhc3Nhc3NpbmF0aW9uLWFzLWNhdGFseXN0LWtpcmsiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciCiAgXSwKICAidmVyZGljdCI6ICJuZXV0cmFsIiwKICAicmVhc29uaW5nIjogIkNPTkZJUk1FRCBldmVudCAoS2lyayBkZWF0aCksIGJ1dCBjb25maXJtaW5nIGEgZGVhdGggZG9lcyBub3QgdGVzdCB0aGUgZW5jbG9zaW5nLWZvcmNlIGN5Y2xlIGl0c2VsZi4gTG9nZ2VkIG5ldXRyYWwgb24gTUdFVCBsZWdzLiIsCiAgImZvcndhcmRfc2lnbmFsIjogIldoZXRoZXIgdGhlIGRlYXRoIGJlY29tZXMgYSBjYXRhbHl0aWMgbGVnaXRpbWl6aW5nIHBpdm90IGZvciBhIFJlaWNoc3RhZy1zdHlsZSBlc2NhbGF0aW9uICh0aGlzIFdPVUxEIGZlZWQgTGVnIDUvNikuIiwKICAiX2lkIjogImFzc2Fzc2luYXRpb24tYXMtY2F0YWx5c3Qta2lyayIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogImRvbWVzdGljLWVuZm9yY2VtZW50LWdyb3VuZHdvcmsiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDEgRW5jbG9zaW5nIEZvcmNlIiwKICAgIkxlZyA2IEFsZ29yaXRobWljIEVuY2xvc3VyZSIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIkFudGktbWlncmFudC9hbnRpLW11c2xpbSBiYXNlIG1vYmlsaXphdGlvbiBwbHVzIGVuZm9yY2VtZW50IGdyb3VuZHdvcmsgaXMgYSBkaXJlY3QgZXhwcmVzc2lvbiBvZiBMZWcgMSBjb2VyY2l2ZSBtdXRhdGlvbiBvZiB0aGUgZW5jbG9zaW5nIGZvcmNlLiBTdHJvbmcgY29uZmlybS4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJFeHBhbnNpb24gb2YgZGV0ZW50aW9uL2VuZm9yY2VtZW50IGluZnJhc3RydWN0dXJlOyBxdWlldC10cmFjayBtb2JpbGl6YXRpb24gY29udmVydGluZyB0byBvdmVydCBwb2xpY3kuIiwKICAiX2lkIjogImRvbWVzdGljLWVuZm9yY2VtZW50LWdyb3VuZHdvcmsiCiB9LAogewogICJkYXRlIjogIjIwMjYtMDktMDQiLAogICJ0cmFjayI6ICJmZXJ0aWxpemVyLXN1cHBseS1jcmlzaXMiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDQgQ29tcGxleGl0eSBEaW1pbmlzaGluZyBSZXR1cm5zIiwKICAgIkxlZyAxIEVuY2xvc2luZyBGb3JjZSIKICBdLAogICJ2ZXJkaWN0IjogImNvbmZpcm1zIiwKICAicmVhc29uaW5nIjogIkdsb2JhbCBzdXBwbHktY2hhaW4gZnJhZ2lsaXR5IChmZXJ0aWxpemVyKSBmaXJpbmcgaXMgY2xhc3NpYyBUYWludGVyIC0gdGhlIGNvbXBsZXggaW50ZXJkZXBlbmRlbnQgc3lzdGVtIGJyZWFrcyBhdCBpdHMgbGV2ZXJhZ2VkIG5vZGUuIENvbmZpcm1zIExlZyA0IGFuZCB0aGUgZW5jbG9zaW5nIGZvcmNlIGZvb2Qtc2VjdXJpdHkgbGV2ZXIuIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiQWN0dWFsIGZlcnRpbGl6ZXIgcHJpY2UvYXZhaWxhYmlsaXR5IGRpc3J1cHRpb247IGZhbWluZS1zY2FsZSBzdHJlc3MgcmVhY2hpbmcgZG9tZXN0aWMgcG9wdWxhdGlvbnMuIiwKICAiX2lkIjogImZlcnRpbGl6ZXItc3VwcGx5LWNyaXNpcyIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogImdyb3VuZC1pbnZhc2lvbi1vZi1pcmFuIiwKICAibWdldF9sZWdzX3Rlc3RlZCI6IFsKICAgIkxlZyA0IENvbXBsZXhpdHkgRGltaW5pc2hpbmcgUmV0dXJucyIsCiAgICJMZWcgNSBGb3VydGggVHVybmluZyIKICBdLAogICJ2ZXJkaWN0IjogInN0cmFpbnMiLAogICJyZWFzb25pbmciOiAiQ29uZmlkZW5jZSB0cmltbWVkIHRvIDQ5IC0gbm8gZ3JvdW5kIGludmFzaW9uLiBTdGFsZW1hdGVkIGFpci9ibG9ja2FkZSBwb3N0dXJlIHN0cmFpbnMgdGhlIGVzY2FsYXRpb24tY2FzY2FkZSByZWFkaW5nOyB3ZWFrZW5zIHRoZSBhc3N1bXB0aW9uIHRoZSB0dXJuaW5nIHJlc29sdmVzIHZpYSBtYXhpbWFsIGV4dGVybmFsIGVzY2FsYXRpb24uIiwKICAiZm9yd2FyZF9zaWduYWwiOiAiUGl2b3QgdG8gYm9vdHMtb24tZ3JvdW5kICh3b3VsZCBmbGlwIHRvIGNvbmZpcm1zKTsgY29udmVyc2VseSBhIG5lZ290aWF0ZWQgZXhpdCBmdXJ0aGVyIHN0cmFpbnMuIiwKICAiX2lkIjogImdyb3VuZC1pbnZhc2lvbi1vZi1pcmFuIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAiaXJhbi1uYXZhbC1lc2NvcnQtZXNjYWxhdGlvbiIsCiAgIm1nZXRfbGVnc190ZXN0ZWQiOiBbCiAgICJMZWcgNSBGb3VydGggVHVybmluZyIsCiAgICJMZWcgMSBFbmNsb3NpbmcgRm9yY2UiCiAgXSwKICAidmVyZGljdCI6ICJjb25maXJtcyIsCiAgInJlYXNvbmluZyI6ICJBY3RpdmUgVVMtSXJhbiBuYXZhbCBmcmljdGlvbiBpbiBhIGNsb3NlZCBIb3JtdXogcmVmbGVjdHMgdGhlIGNyaXNpcyBmcmFtZXdvcmsgZXh0ZXJuYWwtZXNjYWxhdGlvbiBjaGFubmVsLiBDb25maXJtcyBMZWcgNSBjcmlzaXMgaW50ZW5zaXR5LiIsCiAgImZvcndhcmRfc2lnbmFsIjogIkxpdmUgZXhjaGFuZ2UgYWdhaW5zdCBhIFVTIG5hdmFsIGVzY29ydCAoaGlnaCBzaWduYWwpOyBpbnRlcmNlcHRvci1tYWdhemluZSBleGhhdXN0aW9uLiIsCiAgIl9pZCI6ICJpcmFuLW5hdmFsLWVzY29ydC1lc2NhbGF0aW9uIgogfSwKIHsKICAiZGF0ZSI6ICIyMDI2LTA5LTA0IiwKICAidHJhY2siOiAia2VtYWxpc3QtcHJlZmVyZW5jZS1yZWljaHN0YWctZmFsbGJhY2siLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciLAogICAiTGVnIDYgQWxnb3JpdGhtaWMgRW5jbG9zdXJlIgogIF0sCiAgInZlcmRpY3QiOiAiY29uZmlybXMiLAogICJyZWFzb25pbmciOiAiUXVpZXQtdHJhY2sgcHJlZmVyZW5jZSB3aXRoIGxvdWQtUmVpY2hzdGFnIGZhbGxiYWNrIGlzIGEgcHJlY2lzZSBwcmVkaWN0aW9uIG9mIHRoZSBGb3VydGggVHVybmluZyBkZW1vY3JhdGljLXJlc3QtZml0LW92ZXItaW5zdGl0dXRpb25hbC1kZWdyYWRhdGlvbiBkeW5hbWljLiBDb25maXJtcyBMZWcgNS4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICI2MS1kYXkgcHJlLW1pZHRlcm0gd2luZG93OyBPY3RvYmVyIGNhdGFzdHJvcGhlIHRpbWluZyAtIGlmIGxvdWQgZmFsbGJhY2sgZmlyZXMsIHN0cm9uZyBMZWcgNSBjb25maXJtLiIsCiAgIl9pZCI6ICJrZW1hbGlzdC1wcmVmZXJlbmNlLXJlaWNoc3RhZy1mYWxsYmFjayIKIH0sCiB7CiAgImRhdGUiOiAiMjAyNi0wOS0wNCIsCiAgInRyYWNrIjogImtpbmV0aWMtZXVyb3BlYW4tY29uZmxpY3QiLAogICJtZ2V0X2xlZ3NfdGVzdGVkIjogWwogICAiTGVnIDUgRm91cnRoIFR1cm5pbmciLAogICAiTGVnIDQgQ29tcGxleGl0eSBEaW1pbmlzaGluZyBSZXR1cm5zIgogIF0sCiAgInZlcmRpY3QiOiAic3RyYWlucyIsCiAgInJlYXNvbmluZyI6ICJCYWx0aWMgd2luZG93IG9wZW4gYnV0IG5vdCBsYW5kZWQ7IGNvbmZpZGVuY2UgNTkuIFN0cmFpbnMgZ3VhcmFudGVlZCBFdXJvcGVhbiBraW5ldGljIGNvbGxhcHNlIGFzc3VtcHRpb247IGxpdmUgZXZlbnQgd291bGQgZmxpcCB0byBjb25maXJtcy4iLAogICJmb3J3YXJkX3NpZ25hbCI6ICJHZW51aW5lIEJhbHRpYy9uYXZhbCBlbmdhZ2VtZW50OyBOQVRPIGNvbmRpdGlvbmFsaXR5IHRyaWdnZXJpbmcuIiwKICAiX2lkIjogImtpbmV0aWMtZXVyb3BlYW4tY29uZmxpY3QiCiB9Cl0=
+[
+ {
+  "date": "2026-09-04",
+  "track": "9-11-inversion-false-flag",
+  "mget_legs_tested": [
+   "Leg 6 Algorithmic Enclosure",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "neutral",
+  "reasoning": "Speculative track (conf 35). Only becomes MGET evidence if a false-flag is proven; otherwise it is a narrative-coherence probe. Logged neutral - neither confirms nor strengthens any leg.",
+  "forward_signal": "Proven perpetrator(s); forensic corroboration independent of official narrative.",
+  "_id": "9-11-inversion-false-flag"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "assassination-as-catalyst-kirk",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "neutral",
+  "reasoning": "CONFIRMED event (Kirk death), but confirming a death does not test the enclosing-force cycle itself. Logged neutral on MGET legs.",
+  "forward_signal": "Whether the death becomes a catalytic legitimizing pivot for a Reichstag-style escalation (this WOULD feed Leg 5/6).",
+  "_id": "assassination-as-catalyst-kirk"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "domestic-enforcement-groundwork",
+  "mget_legs_tested": [
+   "Leg 1 Enclosing Force",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Anti-migrant/anti-muslim base mobilization plus enforcement groundwork is a direct expression of Leg 1 coercive mutation of the enclosing force. Strong confirm.",
+  "forward_signal": "Expansion of detention/enforcement infrastructure; quiet-track mobilization converting to overt policy.",
+  "_id": "domestic-enforcement-groundwork"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "fertilizer-supply-crisis",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Global supply-chain fragility (fertilizer) firing is classic Tainter - the complex interdependent system breaks at its leveraged node. Confirms Leg 4 and the enclosing force food-security lever.",
+  "forward_signal": "Actual fertilizer price/availability disruption; famine-scale stress reaching domestic populations.",
+  "_id": "fertilizer-supply-crisis"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "ground-invasion-of-iran",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "strains",
+  "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+  "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains.",
+  "_id": "ground-invasion-of-iran"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "iran-naval-escort-escalation",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+  "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion.",
+  "_id": "iran-naval-escort-escalation"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "kemalist-preference-reichstag-fallback",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+  "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm.",
+  "_id": "kemalist-preference-reichstag-fallback"
+ },
+ {
+  "date": "2026-09-04",
+  "track": "kinetic-european-conflict",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "strains",
+  "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+  "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering.",
+  "_id": "kinetic-european-conflict"
+ }
+]
