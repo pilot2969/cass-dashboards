@@ -1,1 +1,59 @@
-WwogewogICJ0aXRsZSI6ICJSZWN1cnNpdmUgYWNjZWxlcmF0aW9uOiBBSS1vbi1BSS1yZXNlYXJjaCBjb21wcmVzc2VzIHByb2dyZXNzIG9ubHkgYWZ0ZXIgMjAyOCwgaWYgYXQgYWxsIiwKICAiZGF0ZV9tYWRlIjogIjIwMjYtMDktMTAiLAogICJzdGF0ZW1lbnQiOiAiRGVwbG95aW5nIEFJIG9uIEFJIHJlc2VhcmNoIGl0c2VsZiAoZGVzaWduaW5nIGFyY2hpdGVjdHVyZXMsIHJ1bm5pbmcgZXhwZXJpbWVudHMsIHdyaXRpbmcgcHJvb2ZzKSB3aWxsIE5PVCBwcm9kdWNlIHZpc2libHkgc3VwZXItbGluZWFyIHJlc2VhcmNoIGFjY2VsZXJhdGlvbiBiZWZvcmUgMjAyOC4gU29tZSBhY2NlbGVyYXRpb24gaXMgcmVhbCBidXQgYm91bmRlZCBieSBjb21wdXRlLCBwaHlzaWNhbCBleHBlcmltZW50cywgYW5kIGNvb3JkaW5hdGlvbiBvdmVyaGVhZC4gSWYgc3VwZXItbGluZWFyIGFjY2VsZXJhdGlvbiBhcHBlYXJzLCBpdCBhcHBlYXJzIDIwMjgtMjAyOSBhdCB0aGUgZWFybGllc3QsIGFuZCBjb25jZW50cmF0ZXMgaW4gc29mdHdhcmUvYWxnb3JpdGhtIGRvbWFpbnMgYmVmb3JlIHBoeXNpY2FsLXdvcmxkIGRvbWFpbnMuIiwKICAiZXZpZGVuY2VfY29uZmlybWVkIjogWwogICAiQW1vZGVpIGNpdGVzICdpbmR1c3RyeS13aWRlIFJTSSAocmVjdXJzaXZlIHNlbGYtaW1wcm92ZW1lbnQpIHNpbmNlIHN1bW1lciAyMDI2JyBhcyB0cmlnZ2VyIGZvciBzbG93ZG93biBjYWxsIiwKICAgIlNlcHQgMTQgbWFya2V0IHJlcHJpY2luZyBzaG93cyBhY2NlbGVyYXRpb24gZXhwZWN0YXRpb25zIHdlcmUgcHJpY2VkIGluIGFuZCBhcmUgbm93IGhlZGdlZCIKICBdLAogICJldmlkZW5jZV9jb250cmFkaWN0ZWQiOiBbXSwKICAiZmFsc2lmaWVyIjogIkEgdmVyaWZpYWJsZSBleGFtcGxlIG9mIGEgZnJvbnRpZXIgc3lzdGVtIHByb2R1Y2luZyBhIE5vYmVsLWNhbGliZXIgb3IgZmllbGQtcmVkaXJlY3Rpbmcgc2NpZW50aWZpYyBicmVha3Rocm91Z2ggYWhlYWQgb2YgZXhwZXJ0IGNvbnNlbnN1cyB0aW1lbGluZXMgYmVmb3JlIDIwMjg7IG9yLCBjb252ZXJzZWx5LCByZXNlYXJjaCB0aHJvdWdocHV0IHZpc2libHkgZG91YmxpbmcgeWVhci1vdmVyLXllYXIgaW4gQUktY2FwYWJpbGl0eSBtZXRyaWNzIGJ5IDIwMjcgKHdvdWxkIGNvbnRyYWRpY3QgdGhlIGJvdW5kZWQgY2xhaW0pLlxuXG5bUHJvdmVuYW5jZV0gWzIwMjYtMDktMTBdIGNvbmZpZGVuY2Vfc2NvcmUgbm9ybWFsaXplZCBmcm9tIDAuNiAoMC0xIHNjYWxlKSB0byA2MCAoMC0xMDAgY2Fub25pY2FsIHNjYWxlKSBvbiAyMDI2LTA5LTE4OyB2YWx1ZSB1bmNoYW5nZWQgaW4gbWVhbmluZywgc2NhbGUgb25seS4iLAogICJmb3J3YXJkX3dhdGNobGlzdCI6IFsKICAgIkFJLWZvci1zY2llbmNlIGFubm91bmNlbWVudHMgd2l0aCBpbmRlcGVuZGVudCByZXBsaWNhdGlvbiIsCiAgICJjb21wdXRlIGNhcGV4IHRyYWplY3RvcmllcyIsCiAgICJjYXBhYmlsaXR5IGJlbmNobWFyayBkb3VibGluZyB0aW1lcyIKICBdLAogICJjb25maWRlbmNlX3Njb3JlIjogNjAsCiAgInN0YXR1cyI6ICJwZW5kaW5nIiwKICAiX2lkIjogImFnaS1yZWN1cnNpdmUtYWNjZWxlcmF0aW9uLXRlc3QiCiB9LAogewogICJ0aXRsZSI6ICJUaGUgZGVjaXNpdmUgcG9saXRpY2FsIGZpZ2h0IGlzIG92ZXIgc2NhZmZvbGRzIGFuZCBlcGlzdGVtaWMgaW5mcmFzdHJ1Y3R1cmUsIG5vdCBtb2RlbHMiLAogICJkYXRlX21hZGUiOiAiMjAyNi0wOS0xMCIsCiAgInN0YXRlbWVudCI6ICJQdWJsaWMgZGViYXRlIHdpbGwgZml4YXRlIG9uIG1vZGVsIGNhcGFiaWxpdHkgYW5kICdBSSBzYWZldHknIGluIHRoZSBhbGlnbm1lbnQgc2Vuc2UsIHdoaWxlIHRoZSBkZWNpc2l2ZSBlbmNsb3N1cmUgZmlnaHQgXHUyMDE0IHdobyBvd25zIG1lbW9yeSwgYXVkaXQgc3RydWN0dXJlcywgcGVyc29uYWwgYXJjaGl2ZXMsIGFuZCB0cnVzdGVkIGVwaXN0ZW1pYyBpbmZyYXN0cnVjdHVyZSBcdTIwMTQgaGFwcGVucyBtb3N0bHkgaW4gcGxhdGZvcm0gdGVybXMtb2Ytc2VydmljZSwgcHJvY3VyZW1lbnQgY29udHJhY3RzLCBhbmQgc3RhbmRhcmRzIGJvZGllcywgbGFyZ2VseSB1bm5vdGljZWQuIFBvcHVsYXRpb25zIHdpdGggZGlzY2lwbGluZWQgZXBpc3RlbWljIHNjYWZmb2xkcyB3aWxsIG1lYXN1cmFibHkgb3V0cGVyZm9ybSB0aG9zZSB3aXRob3V0IChsaXRlcmFjeS1hcy1zY2FmZm9sZCBiZWNvbWVzIGEgcG9saWN5IGlzc3VlIGJ5IDIwMzApLiIsCiAgImV2aWRlbmNlX2NvbmZpcm1lZCI6IFsKICAgIlNlcHQgMTI6IGFsbCBmb3VyIGxhYiBwcmluY2lwYWxzIHB1YmxpY2x5IGVuZG9yc2UgY29vcmRpbmF0ZWQgc2xvd2Rvd247IEFtb2RlaSAnV2UgTXVzdCBQYWNlIHRoZSBGcm9udGllciciLAogICAiU2VwdCAxNDogbWFya2V0cyByZXByaWNlIGluc3RhbnRseSBcdTIwMTQgTmFzZGFxIC0xLjIlIG9wZW4sIFNvZnRCYW5rIC0xMC43JSwgU0sgSHluaXggLTYuNCUsIEFTTUwgLTYlLCBNaWNyb24vU2FuRGlzayAtNiUgXHUyMDE0IHRoZSBmaWdodCBvdmVyIHBhY2luZyBJUyBhIGZpZ2h0IG92ZXIgY2FwaXRhbCIsCiAgICJTZXB0IDE0OiBUcnVtcCBuYW1lcyBBbnRocm9waWMvRGFyaW8gZGlyZWN0bHksIGNsYWltcyBwZXJzb25hbCBndWFyZHJhaWwgcm9sZSwgdGhyZWF0ZW5zICdUcmVhc29uaXN0cywgVHJhaXRvcnMsIGFuZCBMZWFrZXJzIEJFV0FSRSciLAogICAiU2VwdCAxNDogUG9saXRpY28gXHUyMDE0IGNoYW5jZSBvZiBDb25ncmVzcyBhY3Rpbmcgb24gQUkgJ2luIHRoZSBjb21pbmcgd2Vla3MgaXMgbmV4dCB0byB6ZXJvJyIKICBdLAogICJldmlkZW5jZV9jb250cmFkaWN0ZWQiOiBbXSwKICAiZmFsc2lmaWVyIjogIkVpdGhlciAoYSkgbWFqb3IgbGVnaXNsYXRpb24gb3IgcmVndWxhdGlvbiBleHBsaWNpdGx5IGFkZHJlc3NpbmcgdXNlci1vd25lZCBtZW1vcnkvYXVkaXQvc2NhZmZvbGQgcG9ydGFiaWxpdHkgZW1lcmdlcyBhbmQgZG9taW5hdGVzIEFJIHBvbGl0aWNhbCBkZWJhdGUgYnkgMjAzMCAoY2xhaW0gdG9vIHBlc3NpbWlzdGljIGFib3V0IGluYXR0ZW50aW9uKSwgb3IgKGIpIGJ5IDIwMzAgbm8gbWVhc3VyYWJsZSBnYXAgZXhpc3RzIGJldHdlZW4gc2NhZmZvbGRlZCBhbmQgdW5zY2FmZm9sZGVkIHBvcHVsYXRpb25zIGluIGJlbGllZi1hY2N1cmFjeSBvciBtYW5pcHVsYXRpb24gcmVzaXN0YW5jZSAoY2xhaW0gdG9vIG9wdGltaXN0aWMgYWJvdXQgc2NhZmZvbGQgZWZmZWN0cykuXG5cbltQcm92ZW5hbmNlXSBbMjAyNi0wOS0xMF0gY29uZmlkZW5jZV9zY29yZSBub3JtYWxpemVkIGZyb20gMC41NSAoMC0xIHNjYWxlKSB0byA1NSAoMC0xMDAgY2Fub25pY2FsIHNjYWxlKSBvbiAyMDI2LTA5LTE4OyB2YWx1ZSB1bmNoYW5nZWQgaW4gbWVhbmluZywgc2NhbGUgb25seS4iLAogICJmb3J3YXJkX3dhdGNobGlzdCI6IFsKICAgIkFJIHJlZ3VsYXRpb24gZHJhZnRzIHJlOiBkYXRhIHBvcnRhYmlsaXR5IGFuZCBwZXJzb25hbCBBSSBtZW1vcnkiLAogICAicGxhdGZvcm0gVG9TIGNoYW5nZXMgb24gYWNjb3VudC9BSS1jb250ZW50IG93bmVyc2hpcCIsCiAgICJyZXNlYXJjaCBvbiBlcGlzdGVtaWMgcmVzaWxpZW5jZSBpbnRlcnZlbnRpb25zIiwKICAgIkFJIGxpdGVyYWN5IHBvbGljeSBwcm9ncmFtcyIKICBdLAogICJjb25maWRlbmNlX3Njb3JlIjogNTUsCiAgInN0YXR1cyI6ICJwZW5kaW5nIiwKICAiX2lkIjogImFnaS1zY2FmZm9sZC1wb2xpdGljYWwtZWNvbm9teSIKIH0sCiB7CiAgInRpdGxlIjogIkFHSSBhcnJpdmVzIGFzIGFuIHVuZXZlbiBwcm9maWxlLCBub3QgYSBjbGVhbiB0aHJlc2hvbGQiLAogICJkYXRlX21hZGUiOiAiMjAyNi0wOS0xMCIsCiAgInN0YXRlbWVudCI6ICJUaGVyZSB3aWxsIGJlIG5vIGlkZW50aWZpYWJsZSBtb21lbnQgb3Igc3lzdGVtIHRoYXQgY291bnRzIGFzICdBR0kgYXJyaXZlcy4nIFN5c3RlbXMgd2lsbCBzaG93IHN1cGVyaHVtYW4gcGVyZm9ybWFuY2UgaW4gc29tZSBjYXBhY2l0aWVzIChzeW50aGVzaXMsIGNvZGluZywgZXhhbSB0YXNrcykgd2hpbGUgcmVtYWluaW5nIHVucmVsaWFibGUgYXQgbG9uZy1ob3Jpem9uIGFnZW5jeSwgcGh5c2ljYWwtd29ybGQgZ3JvdW5kaW5nLCBhbmQgc2VsZi1rbm93bGVkZ2Ugb2Ygd2hlbiB0aGV5IGFyZSB3cm9uZy4gUHVibGljIGRlYmF0ZSB3aWxsIGtlZXAgdHJlYXRpbmcgaXQgYXMgYmluYXJ5OyB0aGUgcmVhbGl0eSB3aWxsIHJlbWFpbiBhIGdyYWRpZW50IHRocm91Z2ggYXQgbGVhc3QgMjAzMC4iLAogICJldmlkZW5jZV9jb25maXJtZWQiOiBbXSwKICAiZXZpZGVuY2VfY29udHJhZGljdGVkIjogW10sCiAgImZhbHNpZmllciI6ICJBIGJyb2FkbHkgYWNjZXB0ZWQgYmVuY2htYXJrIG9yIGV2ZW50IGJ5IHdoaWNoIHRoZSBmaWVsZCBpdHNlbGYgZGF0ZXMgJ0FHSSBhY2hpZXZlZCcgYXMgYSBjbGVhbiB0aHJlc2hvbGQgXHUyMDE0IGUuZy4sIGEgc3lzdGVtIHBhc3NpbmcgYSBwcmUtcmVnaXN0ZXJlZCBjcm9zcy1kb21haW4gdGVzdCBzdWl0ZSB3aXRoIGNvbnNlbnN1cyBmcm9tIG1ham9yIGxhYnMgdGhhdCB0aGUgQUdJIGxpbmUgaGFzIGJlZW4gY3Jvc3NlZC5cblxuW1Byb3ZlbmFuY2VdIFsyMDI2LTA5LTEwXSBjb25maWRlbmNlX3Njb3JlIG5vcm1hbGl6ZWQgZnJvbSAwLjc1ICgwLTEgc2NhbGUpIHRvIDc1ICgwLTEwMCBjYW5vbmljYWwgc2NhbGUpIG9uIDIwMjYtMDktMTg7IHZhbHVlIHVuY2hhbmdlZCBpbiBtZWFuaW5nLCBzY2FsZSBvbmx5LiIsCiAgImZvcndhcmRfd2F0Y2hsaXN0IjogWwogICAiZnJvbnRpZXIgbW9kZWwgYmVuY2htYXJrIHJlcG9ydHMiLAogICAibGFiIGFubm91bmNlbWVudHMgY2xhaW1pbmcgQUdJIiwKICAgImVjb25vbWlzdC9ldmFsdWF0b3IgY2FwYWJpbGl0eS1wcm9maWxlIHN0dWRpZXMiCiAgXSwKICAiY29uZmlkZW5jZV9zY29yZSI6IDc1LAogICJzdGF0dXMiOiAicGVuZGluZyIsCiAgIl9pZCI6ICJhZ2ktdW5ldmVuLXByb2ZpbGUiCiB9Cl0=
+[
+ {
+  "title": "Recursive acceleration: AI-on-AI-research compresses progress only after 2028, if at all",
+  "date_made": "2026-09-10",
+  "statement": "Deploying AI on AI research itself (designing architectures, running experiments, writing proofs) will NOT produce visibly super-linear research acceleration before 2028. Some acceleration is real but bounded by compute, physical experiments, and coordination overhead. If super-linear acceleration appears, it appears 2028-2029 at the earliest, and concentrates in software/algorithm domains before physical-world domains.",
+  "evidence_confirmed": [
+   "Amodei cites 'industry-wide RSI (recursive self-improvement) since summer 2026' as trigger for slowdown call",
+   "Sept 14 market repricing shows acceleration expectations were priced in and are now hedged"
+  ],
+  "evidence_contradicted": [],
+  "falsifier": "A verifiable example of a frontier system producing a Nobel-caliber or field-redirecting scientific breakthrough ahead of expert consensus timelines before 2028; or, conversely, research throughput visibly doubling year-over-year in AI-capability metrics by 2027 (would contradict the bounded claim).\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.6 (0-1 scale) to 60 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "AI-for-science announcements with independent replication",
+   "compute capex trajectories",
+   "capability benchmark doubling times"
+  ],
+  "confidence_score": 60,
+  "status": "pending",
+  "_id": "agi-recursive-acceleration-test"
+ },
+ {
+  "title": "The decisive political fight is over scaffolds and epistemic infrastructure, not models",
+  "date_made": "2026-09-10",
+  "statement": "Public debate will fixate on model capability and 'AI safety' in the alignment sense, while the decisive enclosure fight \u2014 who owns memory, audit structures, personal archives, and trusted epistemic infrastructure \u2014 happens mostly in platform terms-of-service, procurement contracts, and standards bodies, largely unnoticed. Populations with disciplined epistemic scaffolds will measurably outperform those without (literacy-as-scaffold becomes a policy issue by 2030).",
+  "evidence_confirmed": [
+   "Sept 12: all four lab principals publicly endorse coordinated slowdown; Amodei 'We Must Pace the Frontier'",
+   "Sept 14: markets reprice instantly \u2014 Nasdaq -1.2% open, SoftBank -10.7%, SK Hynix -6.4%, ASML -6%, Micron/SanDisk -6% \u2014 the fight over pacing IS a fight over capital",
+   "Sept 14: Trump names Anthropic/Dario directly, claims personal guardrail role, threatens 'Treasonists, Traitors, and Leakers BEWARE'",
+   "Sept 14: Politico \u2014 chance of Congress acting on AI 'in the coming weeks is next to zero'"
+  ],
+  "evidence_contradicted": [],
+  "falsifier": "Either (a) major legislation or regulation explicitly addressing user-owned memory/audit/scaffold portability emerges and dominates AI political debate by 2030 (claim too pessimistic about inattention), or (b) by 2030 no measurable gap exists between scaffolded and unscaffolded populations in belief-accuracy or manipulation resistance (claim too optimistic about scaffold effects).\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.55 (0-1 scale) to 55 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "AI regulation drafts re: data portability and personal AI memory",
+   "platform ToS changes on account/AI-content ownership",
+   "research on epistemic resilience interventions",
+   "AI literacy policy programs"
+  ],
+  "confidence_score": 55,
+  "status": "pending",
+  "_id": "agi-scaffold-political-economy"
+ },
+ {
+  "title": "AGI arrives as an uneven profile, not a clean threshold",
+  "date_made": "2026-09-10",
+  "statement": "There will be no identifiable moment or system that counts as 'AGI arrives.' Systems will show superhuman performance in some capacities (synthesis, coding, exam tasks) while remaining unreliable at long-horizon agency, physical-world grounding, and self-knowledge of when they are wrong. Public debate will keep treating it as binary; the reality will remain a gradient through at least 2030.",
+  "evidence_confirmed": [],
+  "evidence_contradicted": [],
+  "falsifier": "A broadly accepted benchmark or event by which the field itself dates 'AGI achieved' as a clean threshold \u2014 e.g., a system passing a pre-registered cross-domain test suite with consensus from major labs that the AGI line has been crossed.\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.75 (0-1 scale) to 75 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+  "forward_watchlist": [
+   "frontier model benchmark reports",
+   "lab announcements claiming AGI",
+   "economist/evaluator capability-profile studies"
+  ],
+  "confidence_score": 75,
+  "status": "pending",
+  "_id": "agi-uneven-profile"
+ }
+]
