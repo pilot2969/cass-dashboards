@@ -5,7 +5,7 @@ const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
 const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
 window.__CASS_UTILS={esc,norm,badge};
 
-// ---- Share-card engine (v2.8.1) ----
+// ---- Share-card engine (v3.0.0) ----
 const PLAIN_EN = {
 label: pe => {
   const st = pe.status, c = Math.round(norm(pe.confidence));
@@ -104,8 +104,32 @@ Re-checked every Monday. The watch either upgrades, holds, or expires - never qu
 warningText:`# THRESHOLD WARNING
 
 A WARNING means a specific institutional failure is now happening in public view - not conditions, an event. The named mechanism is live. Details will be posted here at time of upgrade.`};
+const sharded=a=>a&&a._sharded?null:a; // detect shard-dict vs array
+// Renderer contract: D.mget_ledger / D.predictions may arrive as {_sharded:true,parts:[...]}.
+// Expand shards inline so every downstream consumer sees plain arrays.
+function expandShards(D){
+  for(const k of ['mget_ledger','predictions']){
+    const v=D[k];
+    if(v&&v._sharded&&Array.isArray(v.parts)){
+      D[k]=[]; // will be filled by loader below
+    }
+  }
+  return D;
+}
 const bust=u=>u+'?v='+Date.now();
-fetch(bust('data.json'),{cache:'no-store'}).then(r=>r.json()).then(D=>fetch(bust('history.json'),{cache:'no-store'}).then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
+fetch(bust('data.json'),{cache:'no-store'}).then(r=>r.json()).then(D=>{
+  // shard expansion: fetch parts, concatenate, then continue to history
+  const shardedKeys=['mget_ledger','predictions'].filter(k=>D[k]&&D[k]._sharded);
+  const allParts=[];
+  shardedKeys.forEach(k=>D[k].parts.forEach(p=>allParts.push({k,url:p.part})));
+  return Promise.all(allParts.map(x=>fetch(bust(x.url),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(x.url+': '+r.status);return r.json();}).then(a=>{x.a=a;}))).then(()=>{
+    shardedKeys.forEach(k=>{
+      D[k]=[];
+      allParts.filter(x=>x.k===k).forEach(x=>D[k].push(...x.a));
+    });
+    return D;
+  });
+}).then(D=>fetch(bust('history.json'),{cache:'no-store'}).then(r=>r.json()).catch(()=>({points:{}})).then(H=>{
 window.__CASS_DATA = D; window.__CASS_HIST = H;
 const HIST=H;
 const md=t=>esc(t).replace(/^# (.*)$/m,'<h2 class="text-2xl font-bold text-amber-400 mb-3">$1</h2>').replace(/^## (.*)$/gm,'<h3 class="text-lg font-bold text-amber-300 mt-4 mb-2">$1</h3>').replace(/\n\n/g,'</p><p class="text-slate-300 text-sm mb-2">').replace(/\n/g,'<br>');
@@ -117,9 +141,9 @@ wi.className='px-3 py-1 rounded text-xs font-bold uppercase tracking-wider inlin
 wi.innerHTML='⏳ Threshold Watch <span class="text-amber-200/70 normal-case font-normal">· issued '+WATCH_TEXT.issued+' · expires '+WATCH_TEXT.expires+'</span>';
 // Movers panel (changed in last 24h) — collapsible, data-driven
 const mvBlock=()=>{if(!D.movers||!D.movers.length)return '';
-return `<details class="card p-6 rounded-xl border-l-4 border-emerald-500 mb-8" open><summary class="text-xl font-bold text-emerald-400">⏱ Changed in Last 24 Hours — movers only <span class="chev text-slate-400">▶</span></summary>
+return `<details class="card p-6 rounded-xl border-l-4 border-emerald-500 mb-8"><summary class="text-xl font-bold text-emerald-400">⏱ Changed in Last 24 Hours — movers only <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4"><p class="text-slate-400 text-xs mb-3">Only objects that CHANGED surface here: confidence moves, status resolutions, watch-item fires, stage transitions. New capture entries enter the ledger timeline without touching this panel. Empty panel = static board = information.</p>
-<ul class="space-y-2">${D.movers.map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — ${esc(m.ref)}: <span class="text-amber-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
+<ul class="space-y-2">${D.movers.map(m=>`<li class="text-sm text-slate-300 border-l-2 border-emerald-500/40 pl-3"><span class="text-emerald-400 font-semibold">${esc(m.time)}</span> — <span class="text-slate-100 font-medium">${esc(m.title||m.ref)}</span> <span class="text-amber-400">${esc(m.shift?'('+m.shift+')':'')}</span><br><span class="text-slate-400">${esc(m.change)}</span> <span class="text-slate-500 text-xs">[${esc(m.trigger)}]</span></li>`).join('')}</ul></div></details>`;};
 // Watch details block
 const wd=document.getElementById('watch-details');
 wd.innerHTML=`<details class="card p-6 rounded-xl border-l-4 border-amber-500"><summary class="text-xl font-bold text-amber-400">⏳ Threshold Watch — active. Click to expand the full issuance text <span class="chev text-slate-400">▶</span></summary>
@@ -150,10 +174,32 @@ ${p.evidence_contradicted&&p.evidence_contradicted.length?`<p class="text-xs fon
 ${p.falsifier?`<p class="text-xs mt-2"><strong class="text-red-400">Falsifier:</strong> <span class="text-slate-300">${esc(p.falsifier)}</span></p>`:''}
 ${p.forward_watchlist&&p.forward_watchlist.length?`<p class="text-xs mt-2"><strong class="text-amber-400">Watch:</strong> <span class="text-slate-300">${esc(p.forward_watchlist.join(' · '))}</span></p>`:''}
 </div></details>`;});});
-h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger (recent)</h3>`;
-D.mget_ledger.slice(-10).reverse().forEach(l=>{
-h+=`<div class="card p-4 rounded-xl mb-3 border-l-4 border-slate-600"><p class="text-sm font-bold text-amber-400">${esc(l.date)} · ${esc(l.track||'')} · <span class="${l.verdict==='confirms'?'text-emerald-400':l.verdict==='strains'?'text-amber-400':l.verdict==='undermines'?'text-red-400':'text-slate-400'}">${esc(l.verdict)}</span></p><p class="text-slate-300 text-xs mt-1">${esc(l.reasoning)}</p>${l.forward_signal?`<p class="text-slate-400 text-xs mt-2"><strong>Signal:</strong> ${esc(l.forward_signal)}</p>`:''}</div>`;});
+h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger</h3>`;
+// Collapsible ledger panel, movers-style: collapsed by default, filter chips, newest first
+const VERDICT_CLS=v=>v==='confirms'?'text-emerald-400':v==='strains'?'text-amber-400':v==='undermines'?'text-red-400':'text-slate-400';
+const VERDICT_BORDER=v=>v==='confirms'?'border-emerald-500/40':v==='strains'?'border-amber-500/40':v==='undermines'?'border-red-500/40':'border-slate-600';
+const LEDGER_ALL=D.mget_ledger||[];
+const ledgerLine=l=>`<li class="text-sm text-slate-300 border-l-2 ${VERDICT_BORDER(l.verdict||'')} pl-3"><span class="text-emerald-400 font-semibold">${esc(l.date)}</span> — <span class="text-slate-100 font-medium">${esc((l.track||'').split('-').slice(0,3).join(' '))}</span> <span class="${VERDICT_CLS(l.verdict||'')}">${esc(l.verdict||'')}</span><br><span class="text-slate-400">${esc((l.reasoning||'').slice(0,110))}${(l.reasoning||'').length>110?'…':''}</span></li>`;
+h+=`<details class="card p-6 rounded-xl border-l-4 border-slate-600 mb-8"><summary class="text-xl font-bold text-slate-200">📚 MGET Ledger — ${LEDGER_ALL.length} entries · click to expand <span class="chev text-slate-400">▶</span></summary>
+<div class="mt-4"><p class="text-slate-400 text-xs mb-3">The MGET Ledger is the running record of the board's model being tested against reality. Every real-world event gets scored against the four structural legs it stresses — <strong class="text-amber-400">complexity cap</strong> (material substrate: energy, logistics, money), <strong class="text-amber-400">elite overproduction</strong>, <strong class="text-amber-400">enclosure mutation</strong> (institutions turning opaque or unaccountable), and <strong class="text-amber-400">vanguard alignment</strong> — and receives one of four verdicts: <span class="text-emerald-400">confirms</span> (the event behaved as the model expects), <span class="text-amber-400">strains</span> (partially consistent, watch closely), <span class="text-red-400">undermines</span> (the model got it wrong — logged in public), or <span class="text-slate-400">neutral</span>. Entries are newest first; use the filter chips to isolate a verdict. A ledger that only ever says "confirms" is a diary, not a test.</p><div id="ledger-filters" class="flex flex-wrap gap-2 mb-3"></div>
+<p id="ledger-status" class="text-slate-400 text-xs mb-3"></p>
+<ul id="ledger-list" class="space-y-2"></ul></div></details>`;
+window.__CASS_LEDGER={all:LEDGER_ALL,render:()=>{}};
+// wire filters after DOM injection
+const renderLedger=(filter)=>{
+  const chipsEl=document.getElementById('ledger-filters'); if(!chipsEl)return;
+  const L=filter==='all'?LEDGER_ALL:LEDGER_ALL.filter(l=>l.verdict===filter||(l.mget_legs_tested||[]).includes(filter));
+  const list=LEDGER_ALL.slice().reverse().filter(l=>filter==='all'||l.verdict===filter||(l.mget_legs_tested||[]).includes(filter));
+  document.getElementById('ledger-list').innerHTML=list.map(ledgerLine).join('');
+  document.getElementById('ledger-status').textContent=`Showing ${list.length} of ${LEDGER_ALL.length} entries (newest first)`;
+  if(chipsEl.childElementCount)return; // chips built once
+  const chips=['all','confirms','strains','undermines','neutral'];
+  chips.forEach(c=>{const b=document.createElement('button');b.className='px-3 py-1 rounded text-xs font-bold border '+(c==='all'?'bg-slate-700 text-slate-100 border-slate-500':'bg-slate-800 text-slate-300 border-slate-600');b.textContent=c;b.dataset.chip=c;
+    b.onclick=()=>{chipsEl.querySelectorAll('button').forEach(x=>x.className=x.className.replace('bg-slate-700','bg-slate-800').replace('text-slate-100','text-slate-300'));b.className=b.className.replace('bg-slate-800','bg-slate-700').replace('text-slate-300','text-slate-100');renderLedger(c);};
+    chipsEl.appendChild(b);});
+};
 document.getElementById('app').innerHTML=h;
+renderLedger('all');
 }) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+' <button onclick="location.reload(true)" class="underline">Retry</button></p>';
 setInterval(()=>location.reload(true),120000);});
 
@@ -232,7 +278,8 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 </tbody></table></div></details>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-4"><summary class="text-xl font-bold text-amber-400">📜 Change Log — how this board evolved <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
 <table class="w-full text-xs text-slate-300"><tbody>
-<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1–v2.8.7</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
+<tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-21 · v3.0.0</td><td class="py-2">v3.0.0 — collapsible MGET Ledger (215 entries, newest-first, verdict filter chips); header explainer defining the four legs and verdict vocabulary; fix: prediction card field mismatch (confidence_score → confidence) restoring badge/sort/share-card fidelity.</td></tr>
+<td class="py-2">Staging pipeline rebuilt on MCP push protocol (staging-first verify before prod); data rebuilt from canonical /space at 215 ledger entries; VERSION bumped.</td></tr><tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-21 · v3.0.0</td><td class="py-2">Shard-aware loader (renderer expands _sharded arrays, killing the predictions.forEach error); movers card rebuilt: collapsed by default, descending order, 24h window keyed to newest ledger entry, one-line format (date · title · confidence shift + evidence); macro_forecast restored as build-time derivation from canonical prediction card; deploy pipeline hardened: 40KB transport cap, stdin payloads, API-based verification.</td></tr><tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.8.1–v2.8.7</td><td class="py-2">Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer now pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer so it survives deploys.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.7</td><td class="py-2">📸 Share Card on every prediction card and the macro forecast header. Card exports the claim, plain-English translation, evidence chain, and armed falsifier as one shareable image.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-17 · v2.6</td><td class="py-2">Sparklines removed (low signal-to-noise); share-card engine v1 shipped.</td></tr>
 <tr class="border-b border-slate-700"><td class="py-2 pr-4 font-bold text-amber-400 whitespace-nowrap align-top">2026-09-15 · v2.4</td><td class="py-2">Added Data Dictionary section (15 field definitions) and this Change Log. Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.</td></tr>
@@ -245,5 +292,5 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 </tbody></table>
 <p class="text-slate-400 text-xs mt-3">Full commit history: <a class="text-sky-400 hover:underline" href="https://github.com/pilot2969/cass-dashboards/commits/main" target="_blank" rel="noopener">github.com/pilot2969/cass-dashboards</a></p>
 </div></details>
-<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v2.8.7 · <span id="gen2"></span></footer>
+<footer class="text-center text-slate-500 text-xs mt-10">CASS Intelligence Board · Data-driven build v3.0.0 · <span id="gen2"></span></footer>
 </div></body></html>
