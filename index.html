@@ -198,8 +198,18 @@ const renderLedger=(filter)=>{
     b.onclick=()=>{chipsEl.querySelectorAll('button').forEach(x=>x.className=x.className.replace('bg-slate-700','bg-slate-800').replace('text-slate-100','text-slate-300'));b.className=b.className.replace('bg-slate-800','bg-slate-700').replace('text-slate-300','text-slate-100');renderLedger(c);};
     chipsEl.appendChild(b);});
 };
+if(D.notes_index&&D.notes_index.length){
+h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Notes Index (${D.notes_index.length})</h3><p class="text-slate-400 text-xs mb-3">Search the full notebook — analysis cards, call histories, and absorption reads.</p><input id="notes-q" type="text" placeholder="Search notes by title or tag..." class="w-full mb-3 px-4 py-2 bg-slate-800 border border-slate-600 rounded text-slate-100 text-sm" oninput="__renderNotes()"><div id="notes-list"></div>`;
+}
+window.__renderNotes=function(){
+const q=(document.getElementById('notes-q')?.value||'').toLowerCase();
+const {esc}=window.__CASS_UTILS;
+const list=(D.notes_index||[]).filter(n=>!q||n.title.toLowerCase().includes(q)||(n.tags||[]).some(t=>t.toLowerCase().includes(q)));
+document.getElementById('notes-list').innerHTML=list.map(n=>`<div class="card rounded-lg mb-2 p-4"><p class="font-bold text-amber-400">${esc(n.title)}</p><div class="flex flex-wrap gap-1 mt-1">${(n.tags||[]).map(t=>`<span class="px-2 py-0.5 bg-slate-800 text-slate-300 border border-slate-600 text-xs rounded">${esc(t)}</span>`).join('')}</div></div>`).join('')||'<p class="text-slate-500 text-sm">No notes match.</p>';
+};
 document.getElementById('app').innerHTML=h;
 renderLedger('all');
+__renderNotes();
 }) ).catch(e=>{document.getElementById('app').innerHTML='<p class="text-red-400">Failed to load data.json: '+e+' <button onclick="location.reload(true)" class="underline">Retry</button></p>';
 setInterval(()=>location.reload(true),120000);});
 
