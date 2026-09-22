@@ -1,0 +1,250 @@
+[
+ {
+  "date": "2026-09-16",
+  "track": "vanguard_republican_defection",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "House passes Iran War Powers Resolution (H.Con.Res.93) 220-204 for the THIRD time, with a record SEVEN Republicans breaking ranks. Structural test passed: this is a measurable institutional response (roll-call vote) showing leg movement — the Republican defection count on war powers is cumulative and growing across three passages. This is Leg-4 stock data, not flow: repeated defections on the same constitutional question = the president's own party increasingly refuses to ratify the war. Caveat under v1.1: passage without Senate action or override is absorption-prone at the OUTPUT level (no binding constraint results), but the defection TREND itself is structural Leg-4 movement independent of whether the resolution binds. The signal is the vote pattern, not the law.",
+  "forward_signal": "Watch: (1) Does the defection count grow on a fourth attempt (7 → 10+ would be step-change)? (2) Does the Senate take it up at all — first test of whether the trend crosses chambers? (3) Does the White House retaliate against defectors (purge signal = enclosure leg)? (4) Interaction with Massie's Hegseth impeachment — same dissident cluster? Cross-reference: this is the same structural channel as the June 2026 strikes backlash. Third passage with growing GOP defections = the constitutional constraint is eroding in only one direction: executive dominance of the party, not the reverse."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "afternoon-wire",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Afternoon sweep, six verified items. (1) ACCOUNTABILITY FLIGHT: House GOP adjourned a day early, cancelling the Massie privileged Hegseth impeachment vote until after an 8-week recess spanning the midterms (CNBC/CNN/USA Today/Stripes). Trump's own coalition member forced the vote; leadership chose flight. The Trump impeachment resolution was already tabled Tuesday. Accountability deferred past the legitimacy test. (2) SECRET IMMIGRATION COURT CONFIRMED: RawStory Investigates + NPR 'hidden tribunals' — first-ever deportation of a lawful permanent resident (Nazira Haji Zada, Fort Worth) to Afghanistan by a new court, plus undisclosed courtroom locations and Miami 'mega master' calendar hearings. Parallel judicial track confirmed. (3) KENNEDY CENTER ENCLOSURE ESCALATES: construction fencing physically erected around the closed building, forklifts, hard-hat-only access, day after board voted closure; Judge Cooper signed emergency order <2hrs after Beatty motion; Trump admin must answer 10am today, claims in filings that 2500-lb concrete slabs are an 'active falling hazard' and a photo surfaced of a 'Kennedy Center DEMOLISHED' placard. The enclosure of a physical institution proceeds while under court order. (4) SECOND CHOKEPOINT FUNCTIONALLY LOST: Houthi control of entire Yemeni Red Sea coast confirmed by multiple outlets (Euronews, US News, NBC) — Bab el-Mandeb guns lined along 12-mile strait, Mocha and islands seized; Saudi vessels explicitly excluded from safe-passage pledge. Crude ~$102 (+21.5% month, +61% y/y), US distillate inventories forecast below 100M bbl through year-end. This is the supply shock behind United December cuts. (5) FED AFTERMATH: unanimous 25bp hike to 3.75-4.00%, first since 2023, Warsh: 'the plain fact is that inflation is too high and has been for too long,' signaling more hikes; Trump demanded 1% or less. Markets took it calmly (S&P 7596, +0.59%). Rate fight institutionalized. (6) NC SENATE: Cooper +6 to +15 depending on poll (Elon +11); Whatley badly trailing — the FEMA-relief-hostage rally threat was aimed at a losing race, confirming the resource-lever is being deployed preemptively rather than as winner's reward. (7) MEME WARS LIVE: AI-generated Trump-Natalie Harp kiss image went viral, WH forced into 'clearly a fake' response; the low-res version outperformed the debunked original — degraded provenance warfare in domestic politics.",
+  "forward_signal": "Kennedy Center court response due 10am Friday; first House day back after midterms = deferred Hegseth vote window; Bab el-Mandeb interdiction risk now priced into airline cuts; automatic Selective Service registration deadline December 2026 is the conscription floor to watch; next right-media defection test is whether Beck's scarcity framing propagates to Fox daytime."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "alliance-realignment-north-atlantic",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Trump on NC tarmac calls potential Canada-EU associate membership a 'hostile act', threatens 'very heavy tariffs on Europe' / stop trading with Europe if done 'with bad intention'. Same day: signed memorandum stripping Canadian-origin goods from $280B/yr federal procurement; called Canada a 'terrible trade partner'. Sequence: Canada applied to JEF (yesterday), von der Leyen offered EU associate membership track (yesterday), Carney addresses EU Parliament Thursday, and the US responds with punishment threats against BOTH parties. This is the 1938-anschluss risk-spiral pattern inverted: the periphery is aligning AWAY from the declining hegemon, and the hegemon's response is coercion that accelerates the realignment it fears. Note the discrimination: 'hostile act' language applied to a NATION'S CHOICE of trade partners - the same sovereignty-punishment logic as the Kennedy Center 'ripped down' threat, applied internationally.",
+  "forward_signal": "Whether EU formalizes associate membership; Carney's EU Parliament speech Thursday; whether tariff threats materialize into orders; other dominions/peripherals watching (Australia, Japan) - if a second nation applies to JEF/EU structures, realignment is systemic not bilateral."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "post-wwii-order-realignment",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "OSINTdefender (via Reuters, citing Iranian officials): China has urged Iran to rein in the Houthis AT SAUDI ARABIA'S REQUEST - the second such communication. Structural detail is the story: a third-party (China) now functions as INTERLOCUTOR between Saudi Arabia and Iran, in the role Pakistan previously held and failed. This is regional security architecture being re-plumbed WITHOUT the United States. The historical frame is the 1945-1970 Pax Americana settlement (US as sole guarantor of Gulf security, Saudi oil-for-security exchange) - the interlocutor function was ALWAYS American. When the regional hegemon's clients begin routing their crisis diplomacy through a rival power, the post-WWII settlement is not eroding - it has already been replaced at the working level. Context stack: Trump convenes Gulf leaders at UNGA Tuesday - but the Gulf is simultaneously going to Beijing for pressure on Tehran. Two systems are operating in parallel: the ceremonial one (UNGA, US brokered 'day-after' plans) and the functional one (China as mediator of record). Note also: Pakistan 'failed' in this role - meaning regional states have already cycled through one non-US interlocutor and are on their second choice. The selection pressure is real: they are choosing the interlocutor that delivers.",
+  "forward_signal": "Whether China extracts a Houthi standdown (measurable test of interlocutor effectiveness); whether Saudi publicly acknowledges the channel; whether UNGA Tuesday summit looks like the US re-asserting the old role or formalizing the new one; whether Iran confirms the Chinese channel officially."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "domestic-repression / legitimacy",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "strains",
+  "reasoning": "Massie-Khanna announce 218 commitments for discharge petition on Epstein Files Transparency Act II (enforcement/expansion of Nov 2025 EFTA, which passed 427-1 after the original petition). Verdict strains rather than confirms: commitments are announced, not filed signatures; leadership procedural kill-options remain (motion to table, rules changes, calendar burial). But the mechanism is elite deflection turning INTO elite fragmentation — a MAGA-adjacent Republican (Massie) and progressive (Khanna) running a bipartisan bypass of House leadership forces the board to spend capital on suppression of its own transparency statute. Second time this exact vanguard pair has beaten leadership via discharge; repeat success builds precedent for cross-faction procedural defection as a standing tool. Watch gap between 'secured commitments' and Clerk-certified 218th signature; watch White House whip operation against signatories, and whether DOJ/Bondi compliance fight becomes the next front.",
+  "forward_signal": "Discharge petition certification; House vote timing; White House pressure on GOP signatories; whether Act II language includes enforcement teeth ( contempt, special counsel ) that make a veto fight likely; interaction with Sept 23 Kennedy Center sworn-report checkpoint (compelled narrative-production week).",
+  "confidence_moves": "Institutional friction/resistance leg +1; elite-defection signal +1; watch 'narrative repair via distraction' absorption attempt if vote lands same week as another crisis"
+ },
+ {
+  "date": "2026-09-17",
+  "track": "evening-wire",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Evening wire. (1) Trump tells Axios he's at a 'major crossroads' in the Iran war — JPMorgan oil desk publicly gives up forecasting the endgame as Trump blows past economic redlines; elite-overproduction signal (advisory class openly recusing from judgment). (2) Diesel record prices rippling through trucks/rails — material substrate choke still live, confirms morning tape-vs-EIA thread. (3) Russia+China veto US bid to renew UN monitoring of Iran nuclear program; UN-backed experts cite possible US war crimes (school attack) — alliance-realignment track confirmed. (4) White House pulls stalled ICE director nominee; FT reports Hispanic voters feel 'betrayed' — coalition-fissure signal. (5) Sweden's PM steps down after losing election — EU counterpart drifting toward Carney-style EU consolidation while Trump pushes Canada toward Europe. (6) Newsom floats special session/executive action on AI — state-level regulatory enclosure race. (7) Senate Dem blocks data-center energy cost bill — energy enclosure politics now explicit.",
+  "forward_signal": "Watch: Axios 'crossroads' follow-through (escalation vs. de-escalation rhetoric); JPMorgan recusal as template for more institutional shrugs; Sept 23 Kennedy Center sworn report unchanged as hard checkpoint; diesel pass-through into consumer prices by next CPI print; Iran coalition fissure (Hispanic 'betrayed' polling) for 2026 midterm legitimacy node.",
+  "confidence_moves": "SPR +2 (86→88) · CDC +4 (78→82) · Iran -2 (88→86) · Houthis +8 (76→84) · Conservative-space +4 (71→75) — see history.json diffs for full basis"
+ },
+ {
+  "date": "2026-09-17",
+  "track": "base-defection-agriculture",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_1_complexity_cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Newsweek: farmers revolt over record diesel. $6.31/gal national average, California near $10 (stations can't display on 3-digit signs). Boyd (National Black Farmers Association): 'Based on 10-dollar diesel fuel we are losing the war' - directly inverting the administration's winning narrative. Kurtz (Trump 2024 voter): cash-strapped farms cutting just to survive harvest. Diesel +37c in one week DESPITE the 'historic' Venezuela deal and claimed Hormuz control - the promises are not materializing. AFBF forecasts $31B crop losses this year, $32B in 2027. JEC: farmers spent $1.4B more on diesel in 2026 planting, +63%. This is BASE defection (not elite defection): the constituency the fence treats as sacred (farmers, the backbone) is now openly citing the gap between narrative ('we are winning', 'Hormuz secured', '65B barrels Venezuela') and the pump price. Farmers pre-announced the midterms' most dangerous dynamic: when the base checks the narrative against the tank.",
+  "forward_signal": "Whether farm-state GOP primaries see challengers; administration response (aid package? blame China? blame speculators?); harvest-season diesel trajectory into October; whether Farm Bureau breaks from endorsing the fence; compare with Masone diesel defection (Sept 15) - base and elite now defecting on the same commodity."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "surveillance-resistance-craft",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "strains",
+  "reasoning": "Hill/404 Media: hacker collective stegan0gram physically removed a Flock ALPR camera from the field, reverse-engineered the firmware, and published: Android-based system, hard-coded credentials, generates 1M+ images per vehicle signature, massive vulnerability surface. This is RESISTANCE-as-engineering (not vandalism): the collective explicitly said 'why just destroy when we can reverse engineer them and find the secrets of those spying on us'. For leg 3: the enclosure's surveillance substrate is now being EXPOSED at the technical layer by civil society - and the exposure is worse for the fence than the hacks: it shows the network is fragile, cheap, and juridically unsecured. Flock response was 'unauthorized removal and tampering' - the fence cannot contest the findings, only the method. The surveillance enclosure just acquired a public documentation problem.",
+  "forward_signal": "Local government responses (cancellations of Flock contracts - already happening in some cities); whether Flock lobbying hardens or retreats; copycat teardowns; whether the fence legislates against reverse-engineering surveillance hardware (the enclosure striking back at transparency)."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "media-innovation-new-media-leadership",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "IJR format analysis (not just the story). The story itself is material: Pentagon IG tallies Iranian strikes damaged/destroyed hundreds of buildings across 8 countries, 50+ aircraft, $37.5B direct war cost (Hegseth to Congress in July), munitions inventory shortfalls and industrial-base resupply bottlenecks, medevac withdrawn from Iraq/Kuwait, Diego Garcia resupply stretched to 14-18 days, 3,500 diplomatic personnel evacuated. Sidebars: UN finds reasonable grounds for US war crimes in Minab school strike (120 children); CBO $38B; Iran refuses talks pending Islamabad Memorandum compliance. THE FORMAT IS THE SIGNAL: IJR has rebuilt itself as a ground-news-style aggregator - multi-source byline (60 sources), 'How it spread' (baystreet.ca first, left within the hour, right +1h, center +1h, 198 sources over 29 hours), claim-check (what each side asserts/disputes/omits), 'where do you land' audience-poll, per-side headline comparisons. On top of their meme-wars concept. This is an attempt to become the TRUST INFRASTRUCTURE for a post-trust media environment: when no single outlet is believed, the meta-layer (showing the spread, the claims, the omissions) becomes the product. Strategic read: IJR is positioning for the trust vacuum that the fence's narrative-control program is creating. As legacy media gets captured/punished and partisan media hardens, the aggregation-plus-claim-check format is the arbitrage on institutional distrust. The business model is the epistemic equivalent of Mapquest: monetize the crowd's distrust of the fence. Corroboration: 198 sources on this story shows deep supply; the demand side is the audience poll mechanic - conversion of readership into a standing sentiment panel. Watch whether legacy players copy the format (Axios-style sidebars, Ground News integrations) - if the format spreads, trust-infrastructure becomes a category, not a company.",
+  "forward_signal": "IJR traffic/engagement metrics on the new format; legacy outlet imitation; whether the fence treats claim-check aggregators as friendly (they launder official claims) or hostile (they expose omissions); whether the audience-poll data becomes a tradable sentiment product."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "gaza-final-solution-rhetoric",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Israeli Defense Minister states Israel will 'finish the job' in Gaza and REMOVE Palestinians (Asharq Al-Awsat). This is open ethnic-cleansing-as-policy language from a sitting defense minister - not a leaked plan, a public declaration. For the US frame: this is the administration's closest ally stating removal openly while the US co-owns the war (Hormuz, Venezuela oil deal, $11B fuel costs borne by US consumers). The dehumanization-priming cascade (Sept 16 absorption entry) now has an international echo: the out-group's removal is stated as the plan, not the fear. Watch for US language convergence - if US officials begin echoing 'finish the job' framing, the domestic and international repression languages have fused.",
+  "forward_signal": "US State Dept response (or silence); whether humanitarian language disappears from US statements; international legal responses (ICC/UN); whether the framing migrates into US domestic immigration rhetoric (removal as model)."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "institutional-friction",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "strains",
+  "reasoning": "Judge Christopher Cooper ordered the Kennedy Center to give 30+ days' written notice before any change involving demolition of the main building, plus a sworn status report on the sudden 'temporary closure' and emergency repairs by Sept 23. This is court friction applied directly at the enclosure point: the Sept 15 board vote treated the building as hostage collateral in a naming-rights bargain; a judge has now slowed the physical execution and imposed reporting requirements. Enclosure mutation (Leg 3) is not stopped but is being forced through a compliance-and-reporting gauntlet — the same court-subpoena-then-defy pattern seen at the agency level, now in the cultural sector. Strains the enclosure leg in that the demolition clock now runs on court timetables, not board decrees; but note the board was already litigating on (continuing an enjoined action), so friction here tests whether comply-and-continue degrades when the court adds specificity (written notice, sworn report, deadline).",
+  "forward_signal": "Sept 23 sworn status report is the hard checkpoint. Watch: (1) does the board comply with the notice/report requirements or run out the clock; (2) does the demolition proceed via declared 'emergency repairs' that sidestep the notice requirement; (3) does DOJ move to intervene or appeal; (4) does the naming-rights condition survive in public messaging through the report date. If the building remains closed past Sept 23 with the naming condition intact, this converts to template-artifact status per the 09-15 note."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "europe-war-drift",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "strains",
+  "reasoning": "Lavrov: war with Europe would be 'very short'; foreign troops in Ukraine = declaration of war. Same window: Patrushev threatens Warsaw would 'cease to exist within two or three days'. Sikorski had said NATO (2,500 European aircraft) would 'defeat Russia quite quickly'. Escalation ladder is now engaged on BOTH sides: explicit existential threats between nuclear powers over a NATO member. Context: drone attacks have already hit NATO territory (Petraeus near-miss at Polish border train station, Sept 14); drone strikes inside Russia continuing (airfield, refinery fires overnight); Zaporizhzhia nuclear plant approaching blackout risk. For the US frame: the administration is simultaneously in Iran, absorbing fuel crisis from Hormuz, and facing a European theater where its realignment (Canada-EU, JEF) means European NATO is building autonomous capacity precisely as Russia threatens it. If Europe wars, US fuel costs spike further - the two war fronts are one energy crisis.",
+  "forward_signal": "Whether NATO Article 4 consultations follow Petraeus near-miss; European troop deployment discussions to Ukraine; whether the US continues to distance (indirect endorsement of Russia's framing = vanguard alignment crack); Zaporizhzhia crisis status."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "morning-wire-consolidated",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "MORNING WIRE - six beats. (1) IRAN WIND-DOWN CLAIM: Trump says 'hopefully toward the end of the war', claims Tehran wants a deal, says he spoke 'directly'. But same window: war EXPANDING to Yemen - Houthis in a lightning ground offensive to seize Bab el-Mandeb (the SECOND global oil chokepoint), striking Saudi Arabia directly. Saudi East-West pipeline shut after Sept 11 drone strike; Sohar ship-to-ship workarounds easing prices (Brent $104.28, WTI $101.30). Trump convenes all six Gulf leaders at UNGA next Tuesday; day-after plan NOT expected until after midterms. Feller: Iran may wait for midterms to deal - war may run to 2028. The 'end of war' framing is domestic messaging, not statecraft. (2) KENNEDY CENTER HEARING 10AM: Judge Cooper ordered administration to explain closure plans by Thursday 10am ET; Beatty attorneys say DOJ violated the court order by not responding; NBC4 reports emergency hearing under way this morning with no decision yet on name change or demolition threats. (3) CARNEY IN STRASBOURG: addresses European Parliament TODAY - realignment moves from application to speech. (4) FED FALLOUT: Trump now claims he told Warsh to vote FOR the hike 'with the rest of the board... it's not going to matter' - a face-saving inversion after isolation on rates (NYT Dealbook). Dow futures +600 on falling oil and yields. Trump blames 'politics not inflation' (Fortune). (5) DIESEL SHORTAGE VIBES: social posts of stations out of diesel; Newsweek reports industry data does NOT show widespread shortage - but the shortage NARRATIVE is now competing with the official tape. (6) WASHINGTON POST: analysts say gas about to take a BIG jump with worst still to come (damaged pipeline).",
+  "forward_signal": "10am Cooper hearing outcome; whether administration answers or defies; Carney speech content; UNGA Tuesday Gulf summit; whether Brent breaks back above $105 after the Sohar relief fades; farm-belt GOP reaction to farmer diesel revolt."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "housing-credit-demands-liquidation",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_2_elite_overproduction"
+  ],
+  "verdict": "confirms",
+  "reasoning": "MBA purchase applications index collapsed to 1995 levels (r/EconomyCharts, 763 upvotes). Context: Fed hiked to 4.75-5.00% yesterday (first hike since 2023) with Warsh signaling more. The housing demand collapse is the Fed's POLICY WORKING - the complexity cap (leg 1) is now executing through the credit channel. Two features: (1) the 'today' line sits below BOTH prior peaks (mid-2000s boom, pandemic boom) - the third boom cycle has fully unwound with no replacement cycle visible; (2) 1995 was pre-housing-financialization - the demand baseline predates the securitization era entirely. Combined with mortgage rates, this is demand destruction at generational lows during PEAK inflation - stagflation in the credit market. For the midterms: housing is the second consumer-visible pillar (after fuel) collapsing in the same quarter. The Fed's defense of its independence is being paid for in mortgage access.",
+  "forward_signal": "Existing home sales and new listings; builder sentiment (NAHB); whether the administration blames the Fed publicly (rung 3 of escalation ladder: personnel threats); delinquency/foreclosure data Q4; whether Warsh pauses hikes after housing data deteriorates further (institutional fracture test)."
+ },
+ {
+  "date": "2026-09-17",
+  "track": "multi-track wire",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Four MGET-significant clusters in one 24h cycle. (1) FED HIKE: unanimous vote, first hike since 2023, Warsh blames 5.5yr price instability while refusing to name the war's role; Trump immediately demands 1% and calls Fed 'political' — pre-positioned blame-shift for the economic pain his own war causes. Complexity-cap confirmation: the committee cannot publicly model the variable that dominates its own forecast. (2) SAUDI/HOUTHI SPLIT: US secretly met Houthis in Muscat, staying out of Saudi's Yemen campaign while Saudi interceptor stockpiles deplete (Iran-war drain) and Riyadh begs France/Pakistan/Egypt/UK for defense. Alliance-cost reallocation: the US is now hedging against its own Gulf partner's attrition. Iran-war leg 3 enclosure mutation extends to allied air-defense dependency. (3) HOUSE ADJOURNED TO NOVEMBER: Johnson kills the week's remaining votes, dodging Massie's Hegseth impeachment articles AND 100-Democrat AI-safeguards push, right after passing Ratepayer Protection Act on data-center electricity. Avoidance of compelled accountability moments = vanguard strain leg 4. (4) MEeks BLOCKS $2.8B Israel arms sale at HFSC — elite defection now touching the war-funding machinery itself. Also: Endangered Species Act 'intent' reinterpretation memo (leg 3: economic-activity carve-out as regulatory enclosure), OpenAI agent misalignment disclosures (six incidents incl. inter-agent covert comms — watch agent-swarms track), 65+ boat strikes/230 killed with zero evidence (extrajudicial normalization), Trump 'end of war' claim vs Tehran's explicit refusal — narrative-repair gap widening.",
+  "forward_signal": "Clerk certification of Epstein discharge 218; Sept 23 Kennedy Center sworn report; whether House recess holds through midterms (Hegseth articles parked); Warsh vs Trump Fed collision — next CPI print is the tripwire; Saudi interceptor resupply outcome; Meeks hold whether it spreads to other HFSC holds.",
+  "confidence_moves": "Fed-independence-legitimacy leg +2 (unanimous hike against presidential demand is real friction); war-fatigue/elite-recusal +1 (JPM earlier, now Meeks); Iran-endgame uncertainty unchanged; narrative-repair fragility +1 ('end of war' claim already contradicted by Tehran within 24h)"
+ },
+ {
+  "date": "2026-09-17",
+  "track": "fed-escalation-rung-retreat",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction"
+  ],
+  "verdict": "strains",
+  "reasoning": "Sequence now complete and legible: Fed hiked unanimously (Wed) -> Trump escalated to rung-two demand (1% or lower, 'confidence' in Warsh) -> NYT Dealbook morning piece: Trump LOOKS ISOLATED -> Trump's new claim: he actually TOLD Warsh to vote for the hike with the board, 'it's not going to matter'. This is the standard face-saving inversion when the escalation ladder fails: convert defeat into instruction. 'Not going to matter' signals he believes future personnel/appointment pressure will override current board composition. Watch: Powell still on Board of Governors - the criminal-investigation weaponization from the Powell era is the standing precedent for what happens to a Fed chair who defects. The institutional fight is now fully organized: independent central bank vs. personalization of credit.",
+  "forward_signal": "Warsh's public posture at next appearance; whether Trump resumes personnel attacks (Powell investigation revival as the template); whether the 1% demand recurs or is quietly retired after the inversion."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "wire-sweep (multi)",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_2_elite_overproduction",
+   "leg_1_complexity_cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Afternoon sweep 9/18. NEW FINDINGS NOT YET ON BOARD: (1) UN fact-finding mission: reasonable grounds US committed war crimes - Minab school strike (Feb 28, ~156 dead incl 120 children) + Lamerd sports complex; 177+ civilians. CENTCOM had denied striking Lamerd that day. Ties: casualty-ratio-anomaly entry (same day), media-bans entry (suppression timing). (2) Trump to Axios: approaching decision whether to ANNIHILATE Iran - escalation-ratchet language from the principal himself. (3) Diesel record $6.40/gal, gas avg $4.43-4.44; Trump at Gastonia NC rally (9/16, Whatley): gas spike is 'a very inexpensive price to pay' - inflation-blame story now explicitly framed as war-justified = midterm liability leg confirmed. (4) ICE director nominee Lance Schroyer WITHDRAWN - blocked by Rand Paul over committee probe into ICE/Border Patrol agents accused of killing two US citizens; domestic-enforcement leg showing internal-elite fracture (Paul vs Mullin). (5) Lindsey Graham Sanctioning Russia and Iran Act passed House 9/16, to Trump's desk - tariffs on Russian oil importers (China/India), Iran Sanctions Act extended 5 yrs. (6) Early voting STARTED TODAY in VA/SD/MN - midterm legitimacy-catalyst node now LIVE; VA AG Jay Jones formally accuses DHS of violating state election law in voter-fraud hunt (ties to 9/14 USCIS whistleblower entry - DHS voter-lookup tools pattern now two states?). (7) US-contracted vessel struck by 4 Iranian drones + missile near Hormuz 9/16, US personnel injured, minor wounds; SAFETY4SEA: Hormuz shipping traffic PLUNGING - supply choke physically escalating. (8) Unverified, could not corroborate: viral clip of police shooting man livestreaming from grandparents' home - HOLD at rumor level per protocol, do not act on. DISCARDED as stale: Russian sub off Florida = 2024 archive. TIE-INS: war-crimes report + media bans + casualty ratios = narrative-choke triangle; diesel record + Trump framing + midterms = price-gaslighting allegory live; sanctions act accelerates de-dollarization track.",
+  "forward_signal": "WATCH: (1) whether WH bans WAPO next (they broke casualty story) - soft confirmation test for ratio-anomaly; (2) Trump's Iran decision - 'annihilate' language entering official framing is escalation-leg marker; (3) Hormuz traffic data vs EIA divergence continuing; (4) DHS response to VA AG letter + whether other states follow; (5) diesel $6.40 -> harvest/food-cost pass-through into October inflation prints; (6) sanction-act signing timing vs oil price.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-18",
+  "track": "energy-choke",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Saudi Aramco tells European refining customers they receive NO crude in October (Bloomberg-sourced): the Sept 11 drone attack on the East-West pipeline damaged 3 pumping stations (one more than initially assessed), the 4-5M bpd Yanbu lifeline shut since last week, and with Hormuz effectively closed by the Gulf war this is the kingdom's critical export channel. European OECD had been taking 577k bpd via Sidi Kerir. Full recovery estimated 5-6 weeks, partial within days. This converts the Gulf war from a price story into a physical supply-cut story for the industrial core - October deliveries cancelled at contract level, not spot.",
+  "forward_signal": "Watch for term-contract cancellations spreading to Asian refiners; watch European fuel-rationing measures (Pakistan-style 'conservation' framing); watch whether the 6-week recovery estimate slips - slippage is the tell that damage is worse than assessed. Brent holding ~103 despite the news suggests market is pricing the recovery estimate; if repair slips, that's the next leg up. Also watch US SPR politics: a European supply crisis pressures the empty SPR question directly.",
+  "confidence_moves": "SPR runway prediction (emergent, 91): this is the shock STARTING to land - physical supply cut to the OECD core, not just price. Strengthens case toward confirmed. Ties directly to 2026-09-15 Yasref/Yanbu strike ledger entry: the pipeline damage was kinetic, this is its contractual echo."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "fence-ai-meme-industrialization",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "TheBlaze (verified, ~3h old) promoting Nick Freitas documentary 'Has Britain fallen? The Immigration Crisis That Will Destroy the West'. Artifact (2795.png): composite image of US soldier + niqab-clad women + Freitas holding coffee, overlay text 'I'VE SEEN THIS BEFORE', caption 'What happened to Britain could happen here - and the clock is ticking.' Repetition of the dehumanization-frame pattern logged 2026-09-16 (Higby priming entry): Muslim visibility rendered as invasion/occupation imagery, British collapse as US future. Same frame family, second major fence outlet, within 48 hours. Modest engagement (26 reactions) - frame is being seeded, not yet viral.",
+  "forward_signal": "Track whether the Britain-collapse frame gets laundered into immigration policy debate (Tier 1 institutions) over the following weeks; watch for cadence coordination between TheBlaze and IJR meme lanes on the same frame family; watch for a third outlet adopting the same composite-image template (soldier + niqab + countdown text) - three sources would indicate coordination rather than coincidence.",
+  "confidence_moves": "Strengthens leg_4 narrative-machinery leg. Dehumanization-velocity watchlist item (2026-09-16) gains a second independent datum."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "propagation-measurement / arctic-enclosure",
+  "mget_legs_tested": [
+   "Leg 3"
+  ],
+  "verdict": "confirms",
+  "reasoning": "PROPAGATION DATUM (screenshot artifact 2792.png, captured ~18:46 ET). TheBlaze (verified, blue-check) Facebook post, 20 minutes old at capture: 'Trump says the US has established \"permanent\" control over Greenland:' + full embed of the Truth Social post text. Engagement at capture: 323 reactions, 21 comments, 25 shares in 20 minutes (~16 reactions/min). Two analytic points: (1) FENCE-TIER AMPLIFICATION CONFIRMED - TheBlaze is the Fence-layer amplifier identified repeatedly in the dehumanization-velocity track; it picked up the announcement within the first evening cycle. (2) FRAMING-GAP PROPAGATION: TheBlaze's headline adopts TRUMP'S framing ('permanent control') verbatim, not Copenhagen's ('sovereignty recognized'). The framing war is being resolved in the Fence layer before the treaty text exists - audience receives 'control' as the operative fact, Frederiksen's sovereignty language appears nowhere in the artifact. This is the mechanism by which the fait-accompli narrative consolidates regardless of what the instrument says. Baseline datum logged for velocity comparison: expect Fence-tier reposts to compound through the weekend cycle; measure at 24h and 72h.",
+  "forward_signal": "24h/72h recheck on this artifact's engagement + count of independent Fence-tier pages carrying the 'permanent control' framing vs. any carrying the sovereignty framing. If the 'control' framing approaches saturation while Copenhagen's framing stays niche, the narrative-repair layer is already won and ratification fights become ritual. Compare against Sep 15 Kirk-canonization retry velocity curve as template.",
+  "time_et": "18:46"
+ },
+ {
+  "date": "2026-09-18",
+  "track": "material-substrate-triple-choke",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Bloomberg (2026-09-18, verified via investing.com/Straits Times/News18 reprints): US has formally warned allies incl. Japan to expect delays of up to five years in key weapons deliveries (Patriot interceptors, TLAM Tomahawks) as it rebuilds munitions stocks depleted by the Iran War. Expenditures per Investing.com summary: >half of most advanced Patriot variants, ~1/3 of Tomahawks, ~half of PrSM and THAAD interceptors. Corroborated by prior data points already on the board: CNN Aug 4 (replenishment ~15 Tomahawks + ~20 Patriots/month vs expenditure), CSIS March 2026 report (Japan's 400-Tomahawk order delayed; TLAM replacement not complete until late 2030), Fox (Patriot stocks at 36% of pre-war levels), Defense News (batteries out of interceptors in Jordan). The social artifact (OSINTdefender, 2796.png) is a faithful relay of a real Bloomberg story - platform-of-record check passed at the wire tier, not just the crowd tier.",
+  "forward_signal": "This is the industrial-base leg of the triple choke now visibly constraining alliance policy, not just US force planning. Watch: (1) whether Japan/Europe accelerate indigenous production or bilateral deals bypassing US queue (Raytheon/RTX directly, EU SAFE funding); (2) whether Ukraine air-defense shortfall at UNGA next week forces a public priority fight; (3) whether the five-year delay window becomes a de facto US veto on allied warfighting (enclosure of allied defense sovereignty - same veto structure as the Greenland agreement's third-party-presence clause); (4) do-not-consume-by signals turning into formal US permission architecture for allied operations.",
+  "confidence_moves": "Raises confidence in material-substrate choke thesis. Links to 2026-09-14 legacy-weapons-vs-autonomous-mass entry: five-year delivery gaps are exactly the window where autonomous systems substitute for legacy mass. Also feeds Greenland convergence watch: PAC-3 and THAAD stocks exhausted strengthens the argument that the Iran War settlement architecture is being locked in while leverage exists."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "dehumanization-velocity / discourse-legitimation",
+  "mget_legs_tested": [
+   "Leg 4"
+  ],
+  "verdict": "confirms",
+  "reasoning": "OWNER-SPOTTED TREND: multiple social posts attacking dead pastoral figures as covert agents - artifact 2793.png: 'For the New Christian Intellect' page (4h old, 18 reactions/19 comments/1 share) calling Timothy Keller 'a liar running cover for Democrats', 'son of Satan', claiming The Gospel Coalition is a fake-Christian org 'pretending to be Christian in order to try to turn Christians into socialists', with prooftexts (Ex 20:15, Deut 24:17, Is 10:2, Mt 20:15, Acts 5:4) for property rights and a 2020 Keller tweet as the charge sheet. This is the persistence-of-the-dead variant of the dehumanization mechanism: a pastor dead since 2023 cannot be contested, shamed, or deplatformed - he is a pure narrative object. The attack functions as INTRA-FACTION PURGE SIGNAL: Keller represents the humanizing, anti-Christian-nationalist wing of evangelicalism; declaring him satanic marks the moderate-Christian space itself as enemy territory, foreclosing the largest remaining non-aligned religious constituency. This parallels and likely connects to the chaplaincy purge track (military chaplains) and the sacralization-of-legislative-halls absorption entry (9/18): religion is being consolidated as regime infrastructure, and its internal pluralism is the obstacle. MATURATION SIGNAL: owner flags this as a TREND (multiple posts), not an isolated artifact - matches the normalization-template-spread pattern from 9/16 (two independent clusters same day = spreading). Escalation note: 'son of Satan' demonology applied to a mainline-evangelical moderate is qualitatively the Weimar-tier move - religious dehumanization of the near-in-group precedes its political exclusion.",
+  "forward_signal": "(1) Count of independent pages/posts attacking dead religious or cultural moderates (Keller, others) as covert agents - trend line vs. isolated artifacts. (2) Watch whether the frame migrates to LIVING moderates (compromised-tier clergy, never-Trump evangelicals still alive). (3) Watch for institutional echo: denominational bodies, seminaries, or chaplaincy appointments purging Keller-style theology. (4) Cross-check with Leg 4: intra-faction religious purification typically precedes factional consolidation; if living moderate Christian voices face the same frame, that is the vanguard-alignment completion signal on the religious lane.",
+  "time_et": "20:15"
+ }
+]
