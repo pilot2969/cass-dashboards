@@ -2,7 +2,7 @@
   "meta": {
     "generated": "2026-09-22",
     "counts": {
-      "mget_ledger": 216,
+      "mget_ledger": 218,
       "predictions": 55
     }
   },
@@ -51,7 +51,7 @@
       },
       {
         "part": "ledger_shard_10.json",
-        "count": 17
+        "count": 19
       }
     ]
   },
@@ -109,102 +109,6 @@
       "shift": "",
       "change": "iran-war leg-4 strain noted: alignment persists through month 7 of cost collapse",
       "trigger": "1) 'Geography of the war' reads most plausibly as Gulf shipping resumption or Saudi/Emirati energy infrastructure (Yasref/Yanbu thread, 2026-09-15) — watch tanker and insurance tape within 72h of any US strike. 2) 'Letti"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-afternoon-card-sweep",
-      "title": "Wire Sweep/Full Card Review",
-      "shift": "",
-      "change": "RAISE: dehumanization velocity (GSS chart laundering = mechanism migration from slur to statistic; owner independently assessed pre-violent transition). RAISE: institutional-health arbiter (cross-p...",
-      "trigger": "Convergence pattern: four acceleration legs (oil, judicial, press, territorial) fired within 48h of each other - the interlocking-theater pattern is on schedule at day 11-12 of the 90-day Phase-4 window. Biggest fork: UN"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-counter-case-backtest-discharge",
-      "title": "Counter Case Backtest",
-      "shift": "",
-      "change": "Timing confidence on the 2020s-2030s turning window REDUCED by the China case — the legs are necessary not sufficient, so window probability must be conditioned on substrate-choke trajectory, not l...",
-      "trigger": "HYPOTHESIS UPGRADE: turning requires legs (overproduction, enclosure mutation, vanguard strain) PLUS a material substrate choke. Legs alone buy stagnation-with-stability (China); substrate choke converts stagnation into "
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-counter-case-france-1788",
-      "title": "Counter Case Backtest",
-      "shift": "",
-      "change": "Turning-window timing confidence PARTIALLY RESTORED by France (model survived its most adverse prior test), but conversion-lag confidence now degraded to a RANGE (1-6 years) rather than a point, pe...",
-      "trigger": "GATED MODEL now tested on three substrate types: Soviet (semi-endogenous choke -> 3-5y lag to turning), France (exogenous choke -> <1y lag, rupture velocity scaling with choke sharpness), China (no choke -> indefinite st"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-full-suite-gated-model-backtest",
-      "title": "Counter Case Backtest",
-      "shift": "",
-      "change": "Model graduated: full-suite backtest passed at 10/13 clean + 2 partials with named mechanisms. Timing confidence now carries the R1 revision: watch for exogenous shock as choke-substitute (i.e., th...",
-      "trigger": "SUITE SCORE: 10 clean, 2 partial, 0 clean misses. The gated model now has a full-suite empirical basis, not just the three-case program. Two revisions logged: (R1) conversion gate = legs AND (substrate choke OR exogenous"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-gated-model-election-crosswalk",
-      "title": "Macro Thesis",
-      "shift": "",
-      "change": "Clean-election control (23) and catalyst (74) both now gate-conditioned rather than independently scored - election-window probability mass should be re-allocated per substrate trajectory at next v...",
-      "trigger": "PREDICTION UPGRADE, not new card: the legitimacy-catalyst card (74) should be re-read as conditioned on the gate - if substrate chokes deepen through November (diesel $6.50+, 10-yr >5.25%, Joliet/Whiting outages extendin"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-gss-ancestry-chart-dehumanization",
-      "title": "Dehumanization/Gss Ancestry Framing",
-      "shift": "",
-      "change": "Raise confidence slightly on dehumanization-velocity prediction: the recycled 2024 GSS chart resurfacing with AI-vocabulary laundering ('reality aligned') in 2026 suggests the template is being act...",
-      "trigger": "This is the statistical-legitimization arm of the dehumanization-velocity signal we've tracked (Higby priming 9/16, squirters narrative repair 9/15). The mechanism is new: chart-as-wedge, importing GSS/Cato credibility t"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-qing-1850s-fifth-regime-test",
-      "title": "Counter Case Backtest",
-      "shift": "",
-      "change": "Gated model now passed FIVE regimes (France, USSR, China-contemporary, full 13-case suite, Qing 1850s). Timing confidence unchanged; the R3/R4 refinements sharpen Leg 4 watches without moving confi...",
-      "trigger": "MODEL VERDICT: CONFIRMS, WITH A PRECISION BONUS. The gate holds in regime #5: extreme legs + monetary choke = rupture. But the case REFINES the model on two axes: (R3) BLOCKED-ASPIRANT VANGUARD DOCTRINE - the counter-van"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-richardson-1850s-convergence",
-      "title": "Historian Convergence/1850S Parallel",
-      "shift": "",
-      "change": "Raise confidence on the 1859-orientation thesis: independent convergence from a professional historian with a large audience strengthens the case that the 1850s parallel is structurally accurate ra...",
-      "trigger": "Watch: (1) whether Richardson's framing gets picked up and circulated by other historians/pundits over the following week - frame propagation rate is the metric; (2) whether the 1850s frame displaces the '1930s fascism' "
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-sarfartoq-rare-earths-us-alignment",
-      "title": "Arctic/Greenland Rare Earths",
-      "shift": "",
-      "change": "Raise confidence on mineral-enclosure thesis: pattern now includes pre-positioned private capital aligned with announced state security framework, mirroring USA Rare Earth $1.6B federal stake. Lowe...",
-      "trigger": "This is the mineral-enclosure leg made concrete: sovereignty officially unchanged (Frederiksen/Egede statements) while economic substrate quietly transfers to US-aligned capital BEFORE the security framework lands. Watch"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-saudi-houthi-retaliation-gp-frame",
-      "title": "Middle East/Houthi War",
-      "shift": "",
-      "change": "Raise confidence: Houthi-Saudi full-scope war reopening is now multi-source corroborated (AFP, UNSC, Saudi coalition spokesmen). GP frame is 'strains' for narrative-repair purposes but the underlyi...",
-      "trigger": "Watch for: (1) full Saudi air campaign vs Houthi capital Sanaa (Axios: Saudi crown prince urged Trump 9/10 to join; US withheld support); (2) Houthi claims of further strikes on Yanbu/Hormuz rerouting chokepoints - energ"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-schiltz-minnesota-judicial-noncompliance",
-      "title": "Judicial/Systemic Noncompliance",
-      "shift": "",
-      "change": "Raise confidence on judicial-independence-collapse thesis: it is now a cross-partisan judicial consensus statement, not an opposition-judge position. Lower confidence on 'incompetence' framing bein...",
-      "trigger": "This is the judicial-leg exhaustion confirmation: a Bush/Scalia-line judge publicly naming the executive as a 'grave threat to the rule of law' is the institutional-independence-collapse marker. The incompetence-not-defi"
-    },
-    {
-      "time": "2026-09-20",
-      "ref": "2026-09-20-triumphal-arch-military-complex",
-      "title": "Domestic/Militarization Of Capital",
-      "shift": "",
-      "change": "Raise confidence on domestic-militarization thesis: armed overwatch infrastructure is now being announced openly for the civilian capital core, with the memorial framing as camouflage. The claim is...",
-      "trigger": "Watch: (1) whether Congress appropriates or GSA/NPS formally reprograms the memorial site (legal fight outcome is the tell - this sits on federal parkland adjoining a national cemetery, likely requiring review); (2) whet"
     }
   ]
 }
