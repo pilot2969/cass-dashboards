@@ -186,6 +186,18 @@
  },
  {
   "date": "2026-09-22",
+  "time_et": "09:24",
+  "track": "press-pool",
+  "verdict": "confirms",
+  "mget_legs_tested": [
+   "vanguard-split",
+   "replacement-apparatus"
+  ],
+  "reasoning": "All five legacy networks (ABC, CBS, NBC, Fox, CNN) suspended White House pool coverage over the press ban (Guardian, 2026-09-21). WH response: Trump TV launched 9/21 on whitehouse.gov + official WH YouTube 24/7, with SMS short-code 45470 capture. This is the exact replacement-apparatus mechanism flagged in the press-ban and replacement-pool tracks: the networks' own boycott converts a one-day grievance into a permanent structural channel. Media Offenders list + White House Wire complete the replacement stack. UNGA day (9/22) provides the first test: coverage gap closed on the very day Trump addresses the General Assembly.",
+  "forward_signal": "Watch whether legacy networks retain any WH access after UNGA week; watch Trump TV uptime/content cadence vs. official events; watch whether 'state-run media' framing migrates into mainstream coverage or stays commentary-only."
+ },
+ {
+  "date": "2026-09-22",
   "time_et": "00:03",
   "track": "domestic-repression/state-broadcast",
   "mget_legs_tested": [
