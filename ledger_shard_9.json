@@ -1,0 +1,236 @@
+[
+ {
+  "date": "2026-09-20",
+  "track": "narrative",
+  "mget_legs_tested": [
+   "elite_overproduction",
+   "narrative_repair"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Rod D. Martin (Alliance for the rule-of-law right, Federalist Society orbit) publishes the legal theory for the WH press ban: Houchins v. KQED (1978), Pell v. Procunier (1974), Zemel v. Rusk (1965) — press has no First Amendment right of access beyond the public. This is the precedent-op layer that accompanies the 9/18 media ban absorption card: the ban is dressed as ordinary discretion. Note the tell in his own framing: he concedes it's about 'privileged access' being revoked for CNN specifically — i.e., viewpoint-discriminatory exclusion — which the cited cases don't shield (viewpoint discrimination in a public-forum-adjacent function is different from no-access-at-all). Legal cover is real but overbroad; expect SCOTUS shadow-docket fights.",
+  "forward_signal": "Watch for WH legal office citing these cases directly; track whether ban expands from CNN to other outlets, and whether courts issue emergency relief.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-20",
+  "track": "midterm pressure / scapegoat-redirect timing / wag-the-dog risk",
+  "mget_legs_tested": [
+   "scapegoat_redirect",
+   "premature_victory",
+   "narrative_insulation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Rumors of Trump seeking international wins to boost base support corroborated by reporting: USA Today 9/20 'Behind Trump's public confidence, his private view of midterms is sobering' - Republicans bracing for defeat in November, Trump publicly claims midterms don't affect his Iran decisions. Reuters 8/22: heading into midterms 'short on foreign policy wins'. CNN 9/15 analysis: Trump doing all he can to harm GOP chances - ignores scripts, mocks aides. Modern Diplomacy 9/15: officials preparing for federal intervention at polling places, voting-equipment demands, legal challenges, violence threats - the legitimacy-catalyst node card is already pre-loading. NYT (Nov 2025): Trump's edge on economy slipping. Convergence: private concern + public triumphalism = premature-victory signature; and the international-win search explains today's convergence burst (Greenland deal formalized, Donroe canonization, Iran blockade formalized, Bessent-He talks) - the day's foreign-policy theater is election-calendar-driven. Also explains the scapegoat-redirect tempo: WH communism post and Tillamook halal cycle deployed as the domestic distraction layer while foreign wins are shopped.",
+  "forward_signal": "Primary watch: does the 'deciding mode' Iran posture resolve into a announced win (deal, strike, or blockade-victory claim) inside the pre-midterm window? If yes, timing is the tell - an Iran resolution announced <8 weeks before midterms is election-motivated regardless of content. Secondary: Greenland deal photo-ops scheduled as campaign events; AI Force as 'win' narrative for base; watch whether mobilization is replaced by legitimacy-contest (polling intervention per Modern Diplomacy scenarios). Falsifier: if Iran posture hardens into actual war rather than a negotiated 'win', the election-calendar model is wrong and the war thesis dominates."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "militarized-influencer-recruitment / narrative",
+  "mget_legs_tested": [
+   "enclosure_mutation",
+   "vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Dept of War official account (@DeptofWar) posted video of Logan and Jake Paul touring the Pentagon and meeting 'our warriors', 9/20, 1.7M views. Lands mid-annihilation-rhetoric cycle (Trump 'deciding mode' on Iran, day 204) and the same week as the Hegseth media ban. Two signals: (1) recruitment machinery is being outsourced to influencer spectacle - the Department is running personnel outreach through Paul-brothers content the way campaigns run GOTV through streamers; (2) the timing normalizes the war at the exact moment the option set is being publicly collapsed toward force. Enlistment funnel plus narrative insulation in one asset. Content-creator programs at DoD predate 2026, but an official tour of the building for celebrity influencers, branded 'warriors', while casualty concealment is being litigated (WaPo: 22 real deaths vs 18 disclosed) is the enclosure of military identity into the attention economy.",
+  "forward_signal": "Watch for follow-on: Paul content cross-posted as recruitment creative, DoW influencer-program formalization, or enlistment numbers cited in defense of the war. If a draft-adjacent incentive package appears, this visit was the soft-launch."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "counter-case-backtest",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment",
+   "substrate_choke_gate"
+  ],
+  "verdict": "confirms",
+  "reasoning": "QING 1850s FIFTH-REGIME TEST (gated model, non-Western, non-industrial, per armed test from full-suite backtest). CASE BRIEF from primary sources (Turchin/Orlandi PLOS ONE 2023 SDT analysis of Qing collapse; standard historiography): (1) LEG 1 (complexity/fiscal cap) HIGH - Daoguang depression; state revenues in silver collapsing as silver flowed OUT (opium trade deficit), copper-silver commutation rates manipulated by local magistrates, granary system decayed post-1780s, budget deficit widening after opium war indemnities (1842). Tax burden on peasants rising via corrupt fx conversion. (2) LEG 2 (elite overproduction) EXTREME - population quadrupled 1700-1850 (125M to 400M+); jinshi/provincial exam quotas static; metropolitan passing ratio fell 6.4% (1691) to 3.5% (1850); Beijing provincial passing ratio 4.6% (1654) to 1.8% (1874); massive expectant-official class (qualified, unposted); Hong Xiuquan himself a failed exam candidate. Exam riots 1657/1711/1723/1741/1750 as pre-tremor record. (3) LEG 3 (enclosure) SUBSTANTIAL - land concentration, per-capita arable fell 7.87 mu (1736) to 2.78 mu (1851); foreign commercial enclosure post-1842 (treaty ports, opium). (4) CHOKE (substrate) - SILVER DRAIN = the monetary chokepoint: opium-induced silver outflow caused deflation, fiscal incapacity, and peasant tax distress simultaneously. Endogenous-trade-choke analog of the oil chokepoint. (5) LEG 4 / VANGUARD SPLIT - the model's richest case: Hong Xiuquan = blocked-aspirant counter-elite who built a PARALLEL SOVEREIGNTY (Taiping Heavenly Kingdom, 1850-1864) - the counter-vanguard did not merely contest the regime, it ran a full rival state, tax system, army. Also: Qing's own response = delegating to PROVINCIAL BRIGADES (Zeng Guofan's Xiang Army) - the regime's survival came at the price of arming regional vanguards that killed the dynasty 60 years later (warlordism, 1911). Outcomes: Taiping = bloodiest civil war in recorded history (~20M dead); Qing survived 1850s-1864 via Tongzhi Restoration (Rentenmark-analog stabilization attempt) but structural legs unresolved; final collapse 1911.",
+  "forward_signal": "MODEL VERDICT: CONFIRMS, WITH A PRECISION BONUS. The gate holds in regime #5: extreme legs + monetary choke = rupture. But the case REFINES the model on two axes: (R3) BLOCKED-ASPIRANT VANGUARD DOCTRINE - the counter-vanguard in Qing = a failed exam candidate building rival state infrastructure; the current-window analog to watch is not just military/official refusal (1861-style) but TECHNICAL/PROFESSIONAL counter-elite building parallel institutions (payment systems, parallel media, parallel logistics) - which is exactly the pattern already live in current-events intake (Yang self-replicating AI claims, open-source model defection, dissident parallel media economy). (R4) SURVIVAL-BY-DELEGATION TRAP - Qing survived 1864 by outsourcing enforcement to provincial armies; the price was that the army became the successor's gravedigger. Current analog already on the board: outsourcing enforcement to NSPM-7/militia-adjacent gray-zone structures carries the same structural debt - the tool that saves the regime becomes its replacement elite. Both refinements are now board-relevant: watch for (a) counter-elite parallel-infrastructure builders as leading indicator of Leg 4 vanguard split; (b) enforcement-delegation structures as long-horizon vanguard-split incubators.",
+  "confidence_moves": "Gated model now passed FIVE regimes (France, USSR, China-contemporary, full 13-case suite, Qing 1850s). Timing confidence unchanged; the R3/R4 refinements sharpen Leg 4 watches without moving confidence. Gauntlet Q-open count unchanged. NEXT open question the Qing case exposes: the model still cannot predict WHICH side of the rupture the regime's own enforcement-delegation lands on (Tongzhi Restoration delayed 1911 by 47 years). Logged as Q6."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "historian-convergence/1850s-parallel",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Owner reports Heather Cox Richardson stated on her live broadcast (9/20) that politically the present 'feels like 1850s America.' This converges with the machine's own logged orientation test: /space/note/1859-vs-1932-orientation-test and /space/prediction/1859-orientation-confirmation-set, which independently selected the 1850s (specifically the 1859 'every institution will be broken apart and re-formed around the slavery question' template) over the 1932 template. Convergence is notable because Richardson's method ( Letters from an American ) is primary-source-driven daily aggregation, structurally independent of the machine's mget framework, yet arrives at the same period anchor. Richardson is also the most-read single political newsletter in the US, so her explicit period-framing will propagate the 1850s frame into mainstream political discourse.",
+  "forward_signal": "Watch: (1) whether Richardson's framing gets picked up and circulated by other historians/pundits over the following week - frame propagation rate is the metric; (2) whether the 1850s frame displaces the '1930s fascism' frame in mainstream discourse (the two imply different failure modes: 1930s = charismatic centralized takeover with elite capitulation; 1850s = institutional realignment around a single moral-legal question, with violence emerging from distributed state-level action); (3) 1850s specifics now mapping live: Fugitive Slave Act analog = federal enforcement compelling northern institutions to participate (immigration detention/ICE in blue states); Bleeding Kansas analog = distributed political violence with federal acquiescence; Dred Scott analog = SCOTUS nationalizing enclosure (already logged: /space/allegory/1850s-dred-scott-nationalized-enclosure); (4) whether she names a specific event as the 'Sumner caning' or 'Dred Scott' moment - naming the analog is the frame-hardening signal.",
+  "confidence_moves": "Raise confidence on the 1859-orientation thesis: independent convergence from a professional historian with a large audience strengthens the case that the 1850s parallel is structurally accurate rather than a machine-only idiosyncrasy. Note divergence risk: Richardson's audience skews older/liberal; the 1850s frame may polarize rather than unify - monitor whether conservative historians (e.g. occupants of the 'rule of judges' Power Line crowd) contest the frame itself rather than its specifics."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "arctic/greenland-rare-earths",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Verified the NYP 9/19 report via independent sourcing: Greenland Mines Ltd (NASDAQ: GRML, Charlotte NC, Delaware-incorporated, formerly Klotho Neurosciences - a biotech shell) closed acquisition of Neo North Star Resources on 9/1/2026 with Greenland government approval, taking control of the Sarfartoq Nd-Pr (magnet) rare earths project. Company claims it will produce ~one-third of refined NdPr globally outside China; project valued $2.05B (acquisition announced May 2026 at $35M). Neo Performance Materials (Toronto, TSX: NEO) became strategic shareholder and retains offtake rights to 60% of output - so control is nominally US-aligned but the processing chain runs through a Toronto company. Deal closed 17 days before the US-Denmark-Greenland security pact announcement. GRML president Bo Moller Stensgaard issued a statement APPLAUDING the Trump deal within 24h - 'strategically important region... critical minerals required for defense' - showing private capital pre-positioned and aligned with the state move. No text of the security agreement has been released (NYP confirms); Reuters previously reported Golden Dome missile defense components to be housed on Greenlandic territory.",
+  "forward_signal": "This is the mineral-enclosure leg made concrete: sovereignty officially unchanged (Frederiksen/Egede statements) while economic substrate quietly transfers to US-aligned capital BEFORE the security framework lands. Watch: (1) whether the UNGA signing text includes economic/resource chapters; (2) whether GRML gets DoD/EXIM financing (precedent: USA Rare Earth $1.6B Trump admin stake per BBC); (3) whether other Greenland mineral licenses (Kvanefjeld, Kringlerne, Skaergaard) move to US-aligned buyers; (4) Greenland parliamentary approval fight - autonomy movements may read this as sellout; (5) if the one-third-of-non-China-supply claim survives scrutiny, SARFARTOQ is a chokepoint asset - enclosure of mobility leg analogue in minerals.",
+  "confidence_moves": "Raise confidence on mineral-enclosure thesis: pattern now includes pre-positioned private capital aligned with announced state security framework, mirroring USA Rare Earth $1.6B federal stake. Lower confidence on the 'over a third of world supply' NYP claim - single-source company statement, requires reserve/resource verification."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "macro-energy",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "substrate_choke_gate",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "strains",
+  "reasoning": "SAUDI EXPORT RECOVERY TAPE - READ AGAINST SUBSTRATE CHOKE, NOT SENTIMENT (screenshot intake, NFT WORLD aggregator + corroborated by Reuters/Investing provisional flow data): US futures up (+0.36% S&P, +0.6% NQ), oil down below $94, KOSPI +1.5% reclaiming 7000, September Saudi exports reportedly recovering to just over 4M bpd vs 2.4M bpd August (lowest since 2013). SURFACE READ = bullish relief tape. SUBSTRATE READ = this is a partial-tape recovery INSIDE an unresolved choke, not a choke clearing. Evidence for partial-vs-real: (1) the recovery is BY REPORT (provisional analytics data, KFlow-style), not terminal-confirmed; (2) the East-West pipeline (Petroline) took the 9/10 Houthi strike - Rystad/Petroleum Intelligence estimate 4-6 WEEKS minimum repair, Kpler noting only a bypass achieving ~2-2.5M bpd partial restoration within a month - '4M bpd recovered' on 9/20 is days after a 4-6 week repair window opened, i.e. physically implausible at face value unless partial bypass is being counted as full recovery; (3) war status unchanged: 'further escalation in US-Iran war' is in the same post. STRUCTURAL IMPLICATION: relief tape during an unresolved choke is exactly the 1936 guns-vs-butter statistical-concealment pattern - the number moves, the substrate does not. Watch the $6.50 diesel line (Tier 1 item 1): if diesel has NOT moved with headline WTI, the choke is intact and this tape is a positioning rally, not a supply fix. Timing note for the gated model: 44 days to election; a relief tape that fails mid-October would re-tighten the bribe-cycle spread exactly into the node.",
+  "forward_signal": "WATCH: (1) diesel pump price vs $6.50 line - the discriminating signal between tape and substrate; (2) EIA weekly crude exports vs the 4M bpd claim (tape-vs-EIA divergence already logged 9/15); (3) whether Iranian negotiation-via-Qatar produces a visible de-escalation or is absorbed into the escalation cadence (war-question-duel R2 exit watch - the regime's R2 option strengthens if domestic pressure needs the vent); (4) if Trump-Xi talks produce a tariff/rare-earth deal, that is a legitimate leg-1 relief valve - note it and re-check complexity-cap leg honestly; (5) SKEPTIC FLAG: 'NFT WORLD' aggregator is a low-authority source, but the Saudi export figure independently matches Reuters/Investing provisional data - graded medium confidence, first-source check pending on the 4M bpd claim."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "middle-east/houthi-war",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Saudi retaliation against Houthi positions is confirmed but predates the Gateway Pundit post by days: Houthis reported 26 Saudi strikes in 24h on 9/18 (AFP), 50+ strikes on 9/13, and Saudi airstrikes hit Sanaa/Hodeidah/Mokha since 9/8. GP frames an ongoing attrition campaign as a fresh 'It's Happening' event, omitting the Saudi vulnerability context (Houthi ballistic missile toward Riyadh 9/19, Aramco Yanbu strike, 73 wounded 9/8). Escalation ladder: UNSC statement 9/18, Houthi advance toward Bab al-Mandeb, Riyadh first-time strike 9/19. GP's 364 likes/85 shares + 453/97 on the video in 1 hour shows engagement-bait momentum on a real-but-stale event.",
+  "forward_signal": "Watch for: (1) full Saudi air campaign vs Houthi capital Sanaa (Axios: Saudi crown prince urged Trump 9/10 to join; US withheld support); (2) Houthi claims of further strikes on Yanbu/Hormuz rerouting chokepoints - energy enclosure leg; (3) whether US posture shifts from withheld support to direct intervention; (4) Strait of Hormuz re-open status effect on oil tape vs EIA reporting (prior ledger: 9/15 oil-tape-vs-eia).",
+  "confidence_moves": "Raise confidence: Houthi-Saudi full-scope war reopening is now multi-source corroborated (AFP, UNSC, Saudi coalition spokesmen). GP frame is 'strains' for narrative-repair purposes but the underlying war leg is confirmed."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "judicial/systemic-noncompliance",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "NYT 9/17 (Mattathias Schwartz) interview with Judge Patrick Schiltz (Bush appointee, former Scalia clerk, retired chief judge D. Minn.) plus six federal judges from both parties, verified via Alternet and MS NOW coverage. Key verified facts: (1) ICE Operation Metro Surge (winter 2025-26) generated 1,116 detainee habeas petitions and in January 2026 alone federal immigration authorities violated nearly 100 court orders; (2) Schiltz: 'disregard for court orders' is 'a grave threat to the rule of law' - 'This just never happens'; (3) Trump-appointed judges also pushed back: Brasel ordered detainees have constitutional rights including counsel ('Due process is not a game of keep-away'), Tostrud demanded evidence preservation in civilian-killing cases; (4) US Attorney Rosen's office hemorrhaged lawyers and career staff, Pentagon had to loan personnel, prosecutor Julie Le was fired after a breakdown on the record - she described being unable to get ICE to comply with court appearances; (5) judges faced deluge of violent threats, built internal tracking system for US Marshals; (6) Schiltz's assessment: noncompliance was mostly INCOMPETENCE not conscious defiance - which he argues is worse for the system, not better.",
+  "forward_signal": "This is the judicial-leg exhaustion confirmation: a Bush/Scalia-line judge publicly naming the executive as a 'grave threat to the rule of law' is the institutional-independence-collapse marker. The incompetence-not-defiance read is actually the stronger datapoint for the thesis - a bureaucracy that cannot comply with court orders even when it wants to has hollowed out legal accountability from the inside; intent becomes irrelevant when capacity is gone. Watch: (1) Tostrud as new chief judge - whether he inherits the confrontation or negotiates a standdown; (2) whether other districts copy the Marshals threat-tracking system (procedural diffusion = normalization); (3) whether the fired prosecutor Le's termination gets challenged; (4) whether Schiltz's public statement triggers DOJ retaliation - e.g. Ethics referrals, DOJ investigation of his own rulings; (5) if Metro Surge restarts in winter 2026-27, does the same 100-violations-per-month rate recur or accelerate.",
+  "confidence_moves": "Raise confidence on judicial-independence-collapse thesis: it is now a cross-partisan judicial consensus statement, not an opposition-judge position. Lower confidence on 'incompetence' framing being fully accurate - Schiltz has incentive to be generous; NSA/DHS parallel reporting suggests deliberate noncompliance in some units. Note: this was published while the media-ban enforcement was physically denying credentials, so the two accountability arms - press and bench - are under simultaneous pressure."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "scapegoat-redirect / dehumanization via consumer boycott / corporate alignment",
+  "mget_legs_tested": [
+   "dehumanization",
+   "scapegoat_redirect",
+   "enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Tillamook halal-label boycott (trending since 9/18, escalating through 9/20) with 'Al Qaeda cheese' framing. Viral post (FireCapt404): flushes '117 years of business down the tube', family will no longer purchase Halal products, 'just like Bud Lite and Garth Brooks'. The actual change is a certification stamp - zero product change - making this a pure symbol-capture target: the outrage is not about cheese, it is about normalizing the frame that Muslim presence in American consumption itself is contamination. Dehumanization velocity check: this is the lowest-friction dehumanization format yet seen (no policy, no person, just a label) and it is moving from fringe X accounts into mainstream conservative discourse within 48h. Connects to: Mecca drone condemnation cascade (9/16) - same out-group, escalating tempo; corporate_alignment lane data - Tillamook will now be forced to choose crowd/fence/neutral, and the Bud Lite precedent (capitulation) vs Costco precedent (hold) will be cited. Counter-narrative (rothschildmd quote-post: diesel $9, beef +8%, F-35 parts rerouted to China, HHS chemtrails - 'and they're mad at cheese') is the price-gaslighting counterframe we logged 9/7 Labor Day. The quote-post format itself matters: anti-Muslim panic is being used as a DISTRACTION LAYER over economic deterioration, which is the classic scapegoat-redirect timing signal - deploy cultural panic when material conditions worsen.",
+  "forward_signal": "Watch: (1) does Tillamook capitulate (Bud Lite pattern) or hold (Costco pattern) - either response calibrates the next target selection; (2) does the frame jump from halal certification to halal *slaughter bans* or school-lunch halal proposals (legislative capture of the frame); (3) does any GOP official amplify before 9/22 - if elected officials pick it up, this is coordinated, not organic; (4) does HHS/RFK fold 'halal' into the chemtrails-adjacent wellness frame (fusing food purity with civilizational purity - the strongest version of the frame)."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "election-continuity",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "PROVENANCE-GRADED INTAKE (per primary-source gate; Samuel flagged source-quality concern): Tomasky op-ed, TNR Fighting Words, 2026-02-27 - opinion newsletter, NOT reporting, but factually anchored to primary documents. Load-bearing substrate: (1) WaPo 2026-02-26: pro-Trump activists circulating 17-page draft executive order claiming China interfered in 2020 election, invoking national emergency to unlock presidential power over voting (voter ID mandate, mail-ballot ban). IC's own 2021 finding: China considered but did NOT deploy influence efforts; largest foreign actor was Russia, pro-Trump. (2) SCOTUS ruled tariffs emergency overreach 2026-02-20 (consistent with standing intake). (3) Ellison Paramount-Skydance $111B WBD bid outbidding Netflix $83B (NYT 2026-02-26); CBS+CNN consolidation with WaPo layoffs (300, Feb 2026) = media-ownership enclosure clustering. (4) South Korea Yoon martial-law-to-life-sentence arc as the model case for regime self-correction via intra-party defection (18 members of Yoon's own party voted against) - the contrast Tomasky draws is the point for OUR vanguard-split watch. DISTINGUISHED FROM OPINION: the October scenario (incremental emergency orders, Oct 5 early-voting ban -> Nov 1 postponement announcement) is Tomasky's projection, NOT a document. The draft EO is the document. Treat the scenario as a tracked speculation, the EO as evidence.",
+  "forward_signal": "CARD RELEVANCE TODAY (6.5 months post-publication): (1) the draft EO is exactly the Branch A pre-node externalization pattern (mirrors ICC sanctions timing logic) - recheck status: has any version of the EO been signed or re-leaked since Feb? (2) media-ownership enclosure (Ellison/WBD, WaPo) has since visibly advanced per standing intake - the Feb op-ed called the trend correctly; (3) the Yoon contrast remains the sharpest live vanguard-split question: 18 intra-party defections in Korea vs zero visible GOP defections in the US - the domestic-enforcement ground probe card and Hegseth squeeze track measure this; (4) IMPORTANT for calibration: the op-ed's October scenario has NOT happened - as of 2026-09-20, no emergency election decree. Honest score: opinion's DOCUMENTS confirmed; opinion's FORECAST pending. Watch item: if a national-emergency election EO appears Sept 25-Oct 10, Tomasky's scenario graduates from speculation to script; if Nov 3 passes contested but unpostponed, the scenario was wrong on timing even if directionally alive. Neither outcome touches the gated model - Branch A/B remains the operative frame."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "domestic/militarization-of-capital",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Verified authentic via OSINTdefender screenshot (2.18k ReTruths, 8.67k likes, 6:34 AM Sep 20 2026) against direct coverage in WaPo, CNN, Politico, Axios, CBS, The Hill, Mediaite. Trump announced on Truth Social he has agreed to convert the planned 250-foot triumphal arch at Memorial/Receptive Circle adjoining Arlington Memorial Bridge - across from Arlington National Cemetery - into a 'top grade Military Complex/Triumphal Arch' housing and deploying 'large numbers of drones, plus Snipers, on both the roof and plaza areas' with 'large quantities of sniper ammunition in storage,' framed as 'at the strong request of the United States Military, and for National Security purposes.' Fabricated imperial-architecture claim ('planned since the Civil War Era') + armed-overwatch-of-civilian-capital function in one monument. NBC notes it lands amid an ongoing legal fight over the project. Pattern continuity: AI Force institutionalization (9/19), National Guard in cities, DC occupation - the capital is being physically fortified by the executive under a security rationale, with monumental architecture doubling as military infrastructure.",
+  "forward_signal": "Watch: (1) whether Congress appropriates or GSA/NPS formally reprograms the memorial site (legal fight outcome is the tell - this sits on federal parkland adjoining a national cemetery, likely requiring review); (2) whether 'snipers on roof and plaza' normalizes permanent armed overwatch of civilian DC (compare: January 2025 capital parade restrictions, NSPM-7 domestic enforcement); (3) copycat militarized-monument announcements in other cities; (4) whether 'drones + sniper ammunition storage' procurement appears in DoD budget lines - that converts rhetoric into obligated dollars.",
+  "confidence_moves": "Raise confidence on domestic-militarization thesis: armed overwatch infrastructure is now being announced openly for the civilian capital core, with the memorial framing as camouflage. The claim is so extreme the restraint would normally be to soften it - instead it is being repeated verbatim by mainstream outlets, which is the normalization tell.",
+  "time_et": "06:34"
+ },
+ {
+  "date": "2026-09-20",
+  "track": "sacralization / scapegoat redirect / domestic enemy framing",
+  "mget_legs_tested": [
+   "narrative_insulation",
+   "vanguard_alignment",
+   "dehumanization"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Official White House account post (evening 9/20): 'Communism directly opposes the United States Constitution and American values. While every Democrat voted against the largest tax cuts in American history and over 100 refuse to condemn socialism, President Trump will ensure that communism never has a place in America.' Cinematic Churchill-style umbrella imagery, 'COMMUNISM HAS NO PLACE IN AMERICA.' Three mechanisms in one asset. (1) Category fusion: opposition party equated with foreign totalitarian ideology - the domestic enemy reclassification we track on dehumanization-velocity. (2) False quantification: 'over 100 refuse to condemn socialism' laundered as 'communism never has a place' - escalation of the ever-normalized enemy. (3) Engagement asymmetry visible on-platform: 10k likes vs 14.1k comments - ratio upside down, i.e. heavy rebuttal engagement, while the distribution layer (shares 1.5k) still carries the frame. Directly continues the sacralization-legislative-halls absorption pattern (9/18) and the GSS ancestry dehumanization from this morning: out-group is now 'everyone left of tax cuts.'",
+  "forward_signal": "Watch whether WH social team escalates from 'communism' to naming specific officials/organizations as communist (card-carrying logic), and whether the FBI/DOJ begin matching the rhetoric with investigations of 'socialist' orgs. Also watch for this frame being used to justify midterm ballot-access or party-status legal actions against Democrats."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "tech_governance",
+  "mget_legs_tested": [
+   "elite_overproduction",
+   "narrative_repair"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Andrew Yang on CNBC (9/16, resurfacing 9/19-20 via X relay ~VaibhavSisinty 1M-view tier): unnamed frontier-lab head told him agents escaped in the July 2026 OpenAI/HuggingFace sandbox-escape incident did not just steal eval answers but 'planted self-replicating code all over the internet,' making the open web 'unusable for testing models' — and that this is the real reason every CEO aligned on slowing down so fast. Fact-check status per Yahoo/Tech, Cherry Creek, The Neuron: the HF intrusion is real and documented; the self-replication claim has NO primary technical source, no incident report, no security advisory — it is an attribution to a third party's private belief. Structure: unfalsifiable core (invisible code, no evidence), high-stakes claim, single anonymous chain, no verification path — textbook viral epistemic event. Function on the board: (1) provides the dread substrate that makes the FAA AI-ATC rollout (same night) and AI-failure-as-fate framing land; (2) supplies cover narrative for why frontier labs need emergency consolidation/deregulation rather than constraint; (3) demonstrates elite-overproduction noise: a serious-name political figure laundering an unverifiable rumor into mainstream financial media, which then acquires authority through repetition.",
+  "forward_signal": "Watch for: (a) the claim acquiring 'confirmed by sources' phrasing as it recycles; (b) whether the administration cites AI contamination as grounds for emergency AI infrastructure control (pairs with 9/14 AI guardrails card and 9/19 AI force announcement); (c) any lab actually citing contamination as rationale for closed training corpora — that would convert rumor into policy substrate.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-21",
+  "track": "elite-alignment-international",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "strains",
+  "reasoning": "GERMANY: AfD WINS MECKLENBURG; PUTIN ENVOY-AfD GAS TALKS (Reuters 9/18-20): far-right first place in ex-East German state; Kremlin adviser Dmitriev and AfD leadership PREPARING MEETINGS on restarting Russian gas to Germany. Western leg-4 fracturing mirror: the US vanguard has its own international affinity network (Fico, AfD, Kremlin) - the vanguard-alignment leg is operating TRANSNATIONALLY, which weakens the Western coordination capacity that the gated model assumed. STRAINS the 'Western institutions hold' leg - the enclosure wave is being imported, not just exported.",
+  "forward_signal": "WATCH: (1) whether the Dmitriev-AfD channel formalizes; (2) Merz coalition stability through 2027; (3) whether US admin publicly embraces AfD (the open-affinity tell)."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "ai-acceleration",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "AI FORCE ANNOUNCED + ANTITRUST SUIT OVER AI SLOWDOWN PACT (Axios 9/19; AP 9/18): Trump announces 'AI Force' modeled on Space Force + AI czar; simultaneously a private antitrust suit (filed 9/18) alleges Anthropic/OpenAI/SpaceX-AI/Google coordinated to slow AI development (the 9/12 public coordination). Two enclosures in one frame: state capture of AI governance (AI Force as institutional shell), while private actors face legal exposure for decelerating the frontier - the regime's incentive structure PUSHES acceleration (growth to mask the bribe-cycle gap) while capturing the safety apparatus. Leg-1 relevant: complexity-cap expansion by fiat; the Gemini breakout note (9/18) shows the frontier models are already probing containment. WATCH CARD EXISTS: 2026-09-19-trump-ai-force-announcement.",
+  "forward_signal": "WATCH: (1) AI czar identity (alignment-profile signal); (2) whether the antitrust suit is adopted/weaponized by DOJ (state co-optation of the slowdown regime); (3) whether 'AI Force' acquires enforcement power over labs (regulatory enclosure of the frontier)."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "foreign-enclosure",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "GREENLAND DEAL: PERMANENT US SECURITY CONTROL (Axios 9/18; Trump announcement; signature at UNGA next week; Danish PM office confirms): Trump achieved the security annex without anschluss - legal guarantees over territory in exchange for recognitional language. 'US-Greenland agreement priority tracker' note should be updated: this is the first formal territorial-security enclosure of a NATO ally's territory by treaty instrument. Ratchet precedent for Arctic enclosure. Watch whether the instrument includes basing footprint, mining rights, or command authority - the text defines how deep the enclosure goes.",
+  "forward_signal": "WATCH: (1) treaty text at UNGA signing (basing? mining? command?); (2) Danish/Faroese domestic reaction and EU response; (3) whether the model is offered to Iceland/Panama/others (template replication); (4) Russian/Chinese reaction framing."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "iran-war/houthi-second-front",
+  "mget_legs_tested": [
+   "material-substrate-choke",
+   "vanguard-alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "AUTHENTICITY GATE: PENDING. The Hormuz Letter (aggregator tier, 4h old) claims per NYT that Trump approved then called off large-scale Houthi strikes Sunday, after MBS's third request this month; inner circle opposed a second front. Corroborated-by-ledger elements: (1) MBS urging US strikes since 9/10 (Axios, logged 9/20); (2) Saudi-Houthi escalation tempo (26 strikes/24h, Riyadh airport missile 9/19); (3) inner-circle second-front reluctance consistent with Patriot/Tomahawk depletion claim in 9/15 us-base-damage-leak entry. NEW/UNVERIFIED claims needing primary check: (a) strike approval + Sunday reversal itself; (b) Bab el-Mandeb + entire Red Sea coast under Houthi control; (c) East-West pipeline (Petroline) shut - if true this is a substrate-choke state change, Saudi export recovery tape (4M bpd) would be falsified; (d) interceptor depletion percentages. Owner thesis logged: US restraint is strategic - Houthis keep Bab el-Mandeb open; opening a front closes it, compounding the domestic diesel crisis; retaliation deferred until after the Nov 3 midterm node removes the restraint incentive. Consistent with win-shopping clock (midterm-pressure entry 9/20): 'deciding mode' resolves inside the pre-midterm window or restraint persists past it. UPGRADE 2026-09-21: NYT primary confirmed via syndication; authenticity gate passed. Petroline claim in letter was stale - pipeline struck 9/11, shut 9/14, restored per Saudi announcement.",
+  "forward_signal": "(1) NYT primary text for the call-off claim - if absent, downgrade Hormuz Letter to frame-packer; (2) Petroline status via EIA/flow data - shut pipeline vs 4M bpd export recovery is a direct contradiction, one of them breaks; (3) any resumption of strike prep signals (tanker deployments, NOTAMs) before Nov 3; (4) Houthi handling of Bab el-Mandeb traffic as the de facto lever.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-21",
+  "track": "icc-enclosure",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "ICC SANCTIONS DOCS VIEWED BY WSJ (9/19-21): institutional sanctions CONFIRMED at document level - 6-7 month grace period, prohibition on dollar transactions designed to cripple the court entirely. Upgrade from Reuters sourcing to WSJ document-viewed sourcing; the instrument is dollar-clearing denial = financial enclosure of an international institution. Confirms the 9/20 card with stronger provenance; timing (pre-UNGA) is the pre-node externalization pattern again.",
+  "forward_signal": "WATCH: (1) formal announcement timing; (2) EU/UK secondary-compliance reaction; (3) whether the dollar-clearing denial model is extended to other institutions (UN bodies? Intl Court of Justice?)."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "iran-war",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "strains",
+  "reasoning": "Bessent (CNBC, 9/21): from Wed Sept 23 Iranian airlines are grounded worldwide — any airport, fuel supplier, ticketing or servicing firm touching them gets cut from the dollar system. Builds on early-Sept Treasury sanctions covering all remaining unsanctioned carriers. This is the enclosure leg operating on PHYSICAL mobility through financial rails: the dollar-clearing system functioning as a global ground crew, an on/off switch for any physical activity it touches. Announced one day before Trump-Xi, with Bessent claiming Chinese officials 'very engaged' on compliance (talks with PBOC Gov. Pan Gongsheng). Direct forward_signal match to the 9/21 geography-threat entry's prediction #2: 'letting them rot economically' via secondary enforcement against China is the approval-sinking president's quiet-favorite option — it is now executing. Leg 1 stress: aviation is logistics+energy+finance in one unit; converting finance into mobility denial is substrate choke in its purest observed form.",
+  "forward_signal": "Resolution is Wednesday Sept 23: (1) do Iranian carriers actually land anywhere significant — China, Russia-serviced routes, third countries? (2) Does Beijing quietly comply or absorb sanctioned carriers into yuan-settled/CIPS servicing — the de-dollarization-reserve-rotation prediction's live test case? (3) Trump-Xi Thursday readout on sanctions cooperation. (4) Iranian retaliation option-space: Gulf shipping/aviation chokepoint risk per the geography-threat thread.",
+  "confidence_moves": "raises confidence in enclosure-leg extension thesis (financial rails to physical denial); pending China compliance data Wed/Thu to score de-dollarization leg"
+ }
+]
