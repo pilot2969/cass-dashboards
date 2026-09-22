@@ -124,6 +124,39 @@
   "status": "emergent"
  },
  {
+  "title": "Press Access Enclosure → Media Capture (pool collapse → friendly-inherit → enforcement)",
+  "date_made": "2026-09-22",
+  "time_et": "10:35",
+  "statement": "The WH will convert the press-pool vacuum (created by the 9/18-9/22 credential revocations and the networks' pool suspension) into a permanent, structured access regime before the 2026 midterms — via an officially designated replacement pool (OAN/RSBN-style), selective 'friendly-inherit' access grants, or both. The enemy frame ('foreign adversaries', 'FAKE NEWS cancer') and the 'privilege not right' meme are the enabling preconditions for this consolidation, not the consolidation itself. Sequence: priming (now) → assignment of access (weeks) → possible enforcement/leak-prosecution escalation against named outlets (months, midterms-adjacent).",
+  "evidence_confirmed": [
+   "09-10 media vanguard split (first outlet breaks with pool solidarity)",
+   "09-18 WH media ban + credential revocations (policy layer)",
+   "09-20 Martin Houchins op-ed (legal-theory layer: access is privilege, not right)",
+   "09-21 networks suspend pool coverage over the ban (coverage gap opens)",
+   "09-22 gap closes on UNGA day exactly as predicted",
+   "09-22 Clandestine enemy-frame post + Trump 'FAKE NEWS cancer' Truth Social (base-mobilization layer)",
+   "09-22 'privilege not right' meme propagation to regional pages (long-tail stratum)",
+   "Track standing: 7-for-7 confirmations since 09-10"
+  ],
+  "evidence_contradicted": [
+   "Any negotiated restoration of unified pool access without intermediaries",
+   "Courts enjoining access denial WITH WH compliance (would falsify the capture path, though not necessarily the enclosure)",
+   "Legacy networks credentialed again on pre-ban terms"
+  ],
+  "falsifier": "Unified WH press pool restored on pre-ban terms with all legacy networks credentialed and no replacement-pool structure created, before 2026-11-04. OR federal courts enjoin access denials and the WH complies without restructuring the pool.",
+  "forward_watchlist": [
+   "First official designation of a replacement pool (which outlets, what criteria)",
+   "'Friendly-inherit' grants: revoked outlets' spots reallocated to friendly media",
+   "WH press sec adopting 'privilege' language officially",
+   "Meme/frame propagation velocity (deep vs long-tail strata)",
+   "Named-journalist 'foreign agent' designations (FARA exposure escalation)",
+   "First injunction ruling and WH response posture (comply vs defy vs appeal)",
+   "Trump TV channel language adopting enemy frame directly"
+  ],
+  "confidence": 65,
+  "status": "pending"
+ },
+ {
   "title": "Recursive acceleration: AI-on-AI-research compresses progress only after 2028, if at all",
   "date_made": "2026-09-10",
   "statement": "Deploying AI on AI research itself (designing architectures, running experiments, writing proofs) will NOT produce visibly super-linear research acceleration before 2028. Some acceleration is real but bounded by compute, physical experiments, and coordination overhead. If super-linear acceleration appears, it appears 2028-2029 at the earliest, and concentrates in software/algorithm domains before physical-world domains.",
@@ -310,25 +343,5 @@
   ],
   "confidence": 70,
   "status": "emergent"
- },
- {
-  "title": "State Natalism Intensity as Turning-Phase Marker",
-  "date_made": "2026-09-16",
-  "statement": "State-level fertility-recovery programs (natalism as political program) intensify disproportionately in pre-crisis/turning phases, because natalism appears when the state perceives its demographic base as a strategic resource in an existential competition between social orders. Natalism policy intensity is a better turning-phase marker than raw TFR, which declines secularly and thus carries a base-rate trap. Sharpened signals: (1) cohort fertility-gap divergence (liberal-secular vs religious-national) widening in pre-turning phases; (2) elite family-formation collapse feeding elite-overproduction dynamics; (3) natalism policy escalation - cash grants, motherhood honors, reproduction rhetoric in state media, fertility clinics as national projects, anti-abortion expansion framed as demographic defense, restrictions on emigration of natal-cohort women in extreme cases.",
-  "evidence_confirmed": [
-   "Historical training set: French demographic anxiety and natalist code pre-1914; Weimar/Nazi Mother's Cross and marriage-loan programs; Ceausescu Decree 770; contemporary Hungary (CSOK family grants, constitution-level marriage-family clauses, NOKSIS); Russia (Mother Heroine reinstatement 2022, maternity capital escalation, 'traditional values' constitutional framing) - natalism escalation each co-occurring with regime stress phases"
-  ],
-  "evidence_contradicted": [
-   "Nordic states run substantial pro-family policy in stable phases without turning escalation - so the marker must be scored as ESCALATION/INTENSIFICATION of existing policy plus rhetoric tone, not mere policy existence"
-  ],
-  "falsifier": "A sustained multi-decade period of severe interstate/inter-order competition WITHOUT escalating state natalism, or natalism escalation during genuinely stable phases, would break the marker's diagnostic value. Also falsified if cohort fertility gaps fail to widen during confirmed pre-turning stress phases in the training set.",
-  "forward_watchlist": [
-   "US federal and state natalism proposals: baby bonuses, motherhood medals/awards, fertility-clinic nationalization or funding pushes, 'pronatalist' White House conference, agency restructuring toward family formation",
-   "anti-abortion escalation framed explicitly in demographic-defense terms (rebirth of the nation) vs. framed in moral terms - the demographic framing is the marker, not the policy itself",
-   "immigration-restriction rhetoric shifting from economic frames to demographic-survival frames - 'replacement' as official vocabulary is the completed fusion of natalism and dehumanization tracks",
-   "Russia/Hungary natalism escalation as comparator series; China pro-natalist panic escalation as null-comparator (authoritarian natalism without liberal base)"
-  ],
-  "confidence": 60,
-  "status": "pending"
  }
 ]
