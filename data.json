@@ -3,7 +3,7 @@
     "generated": "2026-09-22",
     "counts": {
       "mget_ledger": 219,
-      "predictions": 55
+      "predictions": 56
     }
   },
   "mget_ledger": {
@@ -76,7 +76,7 @@
       },
       {
         "part": "pred_shard_4.json",
-        "count": 4
+        "count": 5
       }
     ]
   },
