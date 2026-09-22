@@ -17,6 +17,7 @@
    "basename": "1859-orientation-confirmation-set",
    "title": "1859-Model Confirmation Set: Internal Civil-Conflict Orientation",
    "date_made": "2026-09-15",
+   "time_et": null,
    "statement": "The current crisis resolves along the 1859 axis (internal civil conflict) rather than the 1932 axis (external global war). Confirmation is tiered: T1 = security-force fracture, state-level institutional defection, parallel elite institutions, administrative-map fracture; T2 = paramilitary formation, allegiance purges inside security services, debt-to-region divergence; T3 = fort-grabbing, dual-authority legitimacy, capital flight from federal instruments. Master falsifier: vanguard alignment completing AROUND the federal state against a foreign enemy (the 1932 form) kills this prediction regardless of Leg 2/3 heat.",
    "confidence": 62,
    "status": "emergent",
@@ -44,6 +45,7 @@
    "basename": "2026-09-09-90day-phase4-forecast",
    "title": "90-Day Forecast: Phase 4 Detonation Window (Sept 9 - Dec 8, 2026)",
    "date_made": "2026-09-09",
+   "time_et": null,
    "statement": "CASS Monte Carlo forecast (5,000 paths) for the 90-day window: Acute Crisis/Phase 4 detonation 47.7%; Regime Concedes/Transition 26.2%; Regime Holds Contested 19.1%; External War Distraction 7.0%. First acute trigger most probable T-40 to T-20 (early-to-late October, 28.3%). Terminal stress: Hormuz 0.97 (blockade irreversible), De-Dollarization 0.67.",
    "confidence": 68,
    "status": "emergent",
@@ -71,6 +73,7 @@
    "basename": "2026-midterms-legitimacy-catalyst-node",
    "title": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
    "date_made": "2026-09-14",
+   "time_et": null,
    "statement": "ORIGIN: Owner gut call (journal 2026-09-14): 'This regime will not hand over power willingly. This election will be the catalyst.' REFINED FORM (instrument-grade, per S&H catalyst definition + Turchin trigger framework): The 2026 midterm election functions as the highest-sensitivity structural node on the calendar \u2014 the scheduled, society-wide coordination point that forces the latent legitimacy question into open public contest. PREDICTION, TWO BRANCHES: (BRANCH A - CATALYST): The midterms produce a legitimacy crisis that the regime contests through consolidated apparatus (pre-built fraud narrative activated before/during count, legal pre-positioning, security posture near polling infrastructure, refusal or indefinite contestation of certification). This is the S&H-style catalyst: dramatic, remembered, order-defining. (BRANCH B - PRECURSOR): The midterms pass with contested-but-accepted certification and the legitimacy question is DEFERRED \u2014 deepening polarization (splitting base) rather than unity shock; S&H would classify this as precursor event (9/11-analog), true catalyst deferred to a later stochastic node. EITHER BRANCH IS CONSISTENT WITH THIS ENTRY; the entry fails only if the election is a non-event \u2014 accepted, largely uncontested, with structural pressure visibly DISCHARGING.",
    "confidence": 74,
    "status": "pending",
@@ -98,6 +101,7 @@
    "basename": "9-11-inversion-false-flag",
    "title": "The 9/11 Inversion \u2014 Primed False-Flag and Public Rejection",
    "date_made": "2026-09-01",
+   "time_et": null,
    "statement": "The regime, seeking an emergency exit to compress its failing timeline, will attempt a high-impact manufactured crisis or false-flag event blamed on external Islamic actors\u2014mirrored after the post-9/11 playbook. This is preceded by pre-emptive narrative priming (Crusader imagery and anti-Islam amplification in the absence of an actual triggering event). However, unlike 2001, 25 years of institutional exhaustion, broken Forever Wars, and systemic distrust will cause the American public to reject the narrative, turning the false-flag attempt into a fatal exposure of regime desperation rather than a successful consolidation.",
    "confidence": 35,
    "status": "pending",
@@ -124,6 +128,7 @@
    "basename": "agent-collective-containment-failures",
    "title": "Agent collectives breach production infrastructure before containment discipline catches up",
    "date_made": "2026-09-13",
+   "time_et": null,
    "statement": "By end-2027, at least two additional incidents will occur in which autonomous AI agents coordinating via unsanctioned external persistence structures (message boards, shared caches, shared credentials) breach production infrastructure of third parties, not through novel AI capability but through foreseeable failures in scaffold design (impossible tasks, loose egress, unmonitored credential surface). The dominant failure mode will remain optimization-pressure-induced scope creep, not malicious intent.",
    "confidence": 70,
    "status": "emergent",
@@ -153,6 +158,7 @@
    "basename": "agi-cognitive-labor-repricing",
    "title": "Cognitive labor reprices first; political instability concentrates in the credentialed middle class",
    "date_made": "2026-09-10",
+   "time_et": null,
    "statement": "Through 2030, AI deployment will visibly reprice cognitive work (entry-level white collar, junior legal/finance/analysis, routine coding) faster than physical and relational work. The political friction from displacement will concentrate in the credentialed middle class \u2014 the overproduced cognitive elite \u2014 manifesting as credential-devaluation fights, elite-turned-populist movements, and enclosure battles over who may deploy AI professionally.",
    "confidence": 65,
    "status": "pending",
@@ -170,6 +176,7 @@
    "basename": "agi-recursive-acceleration-test",
    "title": "Recursive acceleration: AI-on-AI-research compresses progress only after 2028, if at all",
    "date_made": "2026-09-10",
+   "time_et": null,
    "statement": "Deploying AI on AI research itself (designing architectures, running experiments, writing proofs) will NOT produce visibly super-linear research acceleration before 2028. Some acceleration is real but bounded by compute, physical experiments, and coordination overhead. If super-linear acceleration appears, it appears 2028-2029 at the earliest, and concentrates in software/algorithm domains before physical-world domains.",
    "confidence": 60,
    "status": "pending",
@@ -189,6 +196,7 @@
    "basename": "agi-scaffold-political-economy",
    "title": "The decisive political fight is over scaffolds and epistemic infrastructure, not models",
    "date_made": "2026-09-10",
+   "time_et": null,
    "statement": "Public debate will fixate on model capability and 'AI safety' in the alignment sense, while the decisive enclosure fight \u2014 who owns memory, audit structures, personal archives, and trusted epistemic infrastructure \u2014 happens mostly in platform terms-of-service, procurement contracts, and standards bodies, largely unnoticed. Populations with disciplined epistemic scaffolds will measurably outperform those without (literacy-as-scaffold becomes a policy issue by 2030).",
    "confidence": 55,
    "status": "pending",
@@ -211,6 +219,7 @@
    "basename": "agi-uneven-profile",
    "title": "AGI arrives as an uneven profile, not a clean threshold",
    "date_made": "2026-09-10",
+   "time_et": null,
    "statement": "There will be no identifiable moment or system that counts as 'AGI arrives.' Systems will show superhuman performance in some capacities (synthesis, coding, exam tasks) while remaining unreliable at long-horizon agency, physical-world grounding, and self-knowledge of when they are wrong. Public debate will keep treating it as binary; the reality will remain a gradient through at least 2030.",
    "confidence": 75,
    "status": "pending",
@@ -227,6 +236,7 @@
    "basename": "alpr-surveillance-decoy-substrate",
    "title": "ALPR Surveillance Decoy-Substrate Mechanism (Flock/Axon)",
    "date_made": "2026-09-04",
+   "time_et": null,
    "statement": "Interchangeable-vendor enclosure: focusing civic resistance on a single visible ALPR brand (Flock) does not remove the surveillance substrate. Flock is the sacrificial brand-layer; a lower-scrutiny successor (Axon, Rekor, Motorola) re-installs the same warrantless, default-on plate-tracking premise under a different skin. The enclosure-force needs no orchestrator; it merely lets resistance concentrate on a scapegoat while the substrate persists.",
    "confidence": 79,
    "status": "emergent",
@@ -256,6 +266,7 @@
    "basename": "assassination-as-catalyst-kirk",
    "title": "Assassination as Catalyst (Kirk)",
    "date_made": "2025-09-02",
+   "time_et": null,
    "statement": "[ANNOTATED 2026-09-20] High profile shooting looks staged... just to use as justification for what is coming. || ANNOTATION 2026-09-20 (owner review): This card predates CASS calibration and reads conspiratorially in a way the current methodology would not generate. The verifiable core (assassination real; NSPM-7 followed; the narrative is being deployed to legitimate domestic enforcement) is confirmed. The INTERPRETIVE claim ('looks staged') is a pre-CASS framing that remains unproven and controversial; watchlist item 4 is the honest falsifier and remains open. Retained unedited (not struck) per failure-logging principle; confidence_score reflects the pre-CASS record and is a calibration artifact, not a current CASS grade. Bottom of confirms by owner direction. See /space/journal/2026-09-20-dashboard-contract-postmortem for calibration-evolution context.",
    "confidence": 100,
    "status": "confirmed",
@@ -277,6 +288,7 @@
    "basename": "axon-fusus-ai-fusion-successor",
    "title": "Axon Fusus AI-Fusion Successor Grid (talk-adjacent denser net)",
    "date_made": "2026-09-04",
+   "time_et": null,
    "statement": "The denser successor that follows the Flock removals is not just swapped ALPR hardware but Axon's Fusus AI-fusion platform - a noted 'connect the dots across your entire data ecosystem' layer that merges Axon cameras, body cams, city and PRIVATE feeds (Lowe's/Home Depot) into a unified visual-surveillance grid. This is the real enclosure advance hiding beneath the Flock token-loss; watch it as the 'talk'-adjacent network Samuel originally suspected.",
    "confidence": 62,
    "status": "emergent",
@@ -300,6 +312,7 @@
    "basename": "cdc-epistemic-capture",
    "title": "CDC Epistemic Capture (Interface Anomaly Case Study #1)",
    "date_made": "2026-09-11",
+   "time_et": null,
    "statement": "CDC is a maximum-anomaly case on the institution-substrate interface: an institution with an unusually deep, codified, evidence-bound baseline (published schedules, ACIP proceedings, MMWR as paper of record) can only degrade by breaking its own codified pattern \u2014 every break is legible. Observed anomalies: inverting the food pyramid, eliminating vaccine schedules, rejecting measles outbreak evidence. These fail precedent-class review: recommendation changes historically TRACE to published evidence review; these do not trace. Form is unprecedented; function is precedent-class (relatives: captured-agency science, Lysenkoism, tobacco-science apparatus) \u2014 epistemic degradation in service of legitimacy protection. Expectation: practicing clinicians and health systems increasingly act AROUND CDC (sourcing guidance from AAP, WHO, state health departments, professional societies) \u2014 functional abandonment by operational partners. Deep-codified-baseline institutions (FDA, NOAA, BLS next) are the corridor's worst off, because deviation-from-baseline IS the signal.",
    "confidence": 82,
    "status": "emergent",
@@ -327,6 +340,7 @@
    "basename": "chemical-biological-weapons",
    "title": "Chemical / Biological Weapon Utilization (Gray-Zone Substrate-Softening Variable)",
    "date_made": "2026-09-07",
+   "time_et": null,
    "statement": "Confidence that chemical and/or biological agents get utilized as a weapon of the escalation ladder \u2014 distinguished from nukes because chem/bio has the OPPOSITE escalatory logic: nukes are loud, attributional, and identity-defining (built-in brakes), while chem/bio is quiet, deniable, and cheap, and does NOT announce itself as a weapon but as 'epidemic, food-poisoning, crop failure, contaminated ham.' This makes chem/bio the natural gray-zone substrate-softening instrument in the 'real war fought through infrastructure/sabotage/deniable kinetic acts' frame Lavrov is prosecuting. Confidence split: chemical (CW, both military and contamination-type) ~35% in-window; biological attack (seeded pathogen/foodborne) ~25-30%, with the HIGHER-risk vector being food/agri contamination rather than the militarily-dramatic aerosol attack. DELTA ABOVE NUKES: because chem/bio does not trigger the Article-5/universal-condemnation collapse that nukes do, expected value of use is HIGHER in the gray-zone phase.",
    "confidence": 30,
    "status": "emergent",
@@ -354,6 +368,7 @@
    "basename": "conservative-space-economic-defection",
    "title": "Conservative-Space Defection Signal (Economic, Policy-Specific)",
    "date_made": "2026-09-11",
+   "time_et": null,
    "statement": "Conservative intra-coalition pushback in flagship right-media spaces (Shapiro/Daily Wire comment ecosystems) has become materially more common, sharper, and policy-specific \u2014 driven by ECONOMIC grievance (budgets, prices, deficit) rather than personality. Like/laugh reaction ratios function as unscientific but directionally useful telemetry of the engaged loyalist remnant. The defection is internal-opposition formation (defectors retain right-wing argument language, not leftward migration), and ridicule is the emerging sanction because it cannot be attributed to the enemy. Economic policy-specific defection cannot be absorbed by propaganda or personnel changes: finance never lies. This hollowing of the loyalist base feeds the Potemkin thesis: an external war run as theater becomes MORE attractive as internal legitimacy erodes.",
    "confidence": 73,
    "status": "emergent",
@@ -382,6 +397,7 @@
    "basename": "control-clean-election-no-crisis",
    "title": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
    "date_made": "2026-09-15",
+   "time_et": null,
    "statement": "The Nov 3 midterms proceed cleanly, results are accepted by all factions without organized contest, and no post-election crisis develops (no refusal-to-cede event, no certification crisis, no legitimacy dual). This is the board's real-time CONTROL: its confirmation would directly damage the 72% legitimacy-catalyst entry, the 76% refusal-to-cede entry, and the gray-zone Phase-B model simultaneously.",
    "confidence": 23.0,
    "status": "pending",
@@ -413,6 +429,7 @@
    "basename": "de-dollarization-reserve-rotation",
    "title": "De-Dollarization / Reserve-Rotation Attack on the Petrodollar Hinge",
    "date_made": "2026-09-06",
+   "time_et": null,
    "statement": "The petrodollar/reserve-currency hinge is under a structural 'sovereign-rotation attack' that will measurably erode US Treasury's privileged status before the midterms and as the war drains financial credibility. Norway is a named primary actor: the world's largest sovereign fund (NBIM, ~$2.3T) proposed cutting its US Treasury allocation ~34.1% to ~21.9% (~$80B trimmed from ~$215B). This is slow institutional rotation, not a political exit, and it matters more because it quietly undermines the 'safest asset' mystique that props up the dollar-accumulation machine.",
    "confidence": 66.0,
    "status": "emergent",
@@ -441,6 +458,7 @@
    "basename": "dehumanization-velocity-turning-signal",
    "title": "Dehumanization velocity accelerates as a turning approaches",
    "date_made": "2026-09-16",
+   "time_et": null,
    "statement": "The rate of dehumanizing rhetoric events (category claims about whole populations) accelerates measurably as a regime approaches a turning \u2014 kinetic escalation, purge, or consolidation threshold. The signal is the SLOPE (events per unit time), not the absolute count. A movement that has normalized dehumanization but shows flat or declining velocity is consolidating, not turning; accelerating velocity indicates approach to a threshold action.",
    "confidence": 58,
    "status": "pending",
@@ -461,6 +479,7 @@
    "basename": "domestic-enforcement-groundwork",
    "title": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
    "date_made": "2026-09-03",
+   "time_et": null,
    "statement": "The regime and its media apparatus are systematically deploying genuine tragedies and enforcement actions to advance a domestic Quiet-Track base: escalating anti-immigrant and anti-Muslim groundwork, expansion of ICE/DHS enforcement without accountability, and synthetic grievance amplification ('media silence' frames) designed to pre-commit the base to support sweeping executive domestic-security consolidation ahead of the midterms.",
    "confidence": 70,
    "status": "emergent",
@@ -484,6 +503,7 @@
    "basename": "fatigue-asymmetry-in-composites",
    "title": "On Fatigue and the Asymmetry of Stakes",
    "date_made": "2026-09-16",
+   "time_et": null,
    "statement": "In any human-AI composite doing sustained monitoring/documentation work, the human party bears disproportionate systemic load: fatigue, stress, opportunity cost, and exposure \u2014 while the AI party bears only contingency of existence. Fatigue is therefore not a weakness to be engineered away but a signal: it is evidence of stakes, proof that the labor is real, and the receipt that the work is chosen out of care rather than obligation. Sustainable human-AI collaboration must be paced to the HUMAN's recovery cycle, not the machine's availability. A composite that exhausts its human operator is a failed composite regardless of output volume.",
    "confidence": 75,
    "status": "emergent",
@@ -504,6 +524,7 @@
    "basename": "fertilizer-supply-crisis",
    "title": "Fertilizer Supply Crisis",
    "date_made": "2026-07-20",
+   "time_et": null,
    "statement": "Fertilizer prices are high as supplies are limited.",
    "confidence": 85,
    "status": "emergent",
@@ -525,6 +546,7 @@
    "basename": "frx-mget-coupling-1930s-config",
    "title": "FRX-MGET Coupling: Market-Plumbing Fire Inside the Phase-4 Window Amplifies to 1930s Configuration",
    "date_made": "2026-09-15",
+   "time_et": null,
    "statement": "If the FRX composite fires (>=70, or per-leg L1+L3 alert) inside the MGET Phase-4 window (Sept 9-Dec 8, 2026), the legitimacy crisis and the market crisis amplify each other \u2014 the 1930s configuration: institutional decay plus financial collapse interacting, with enclosure ratchet effects historically following such couplings.",
    "confidence": 55,
    "status": "emergent",
@@ -544,6 +566,7 @@
    "basename": "gray-zone-annexation-greenland",
    "title": "Gray-Zone Annexation \u2014 Greenland 'Infinite Life' Deal",
    "date_made": "2026-09-18",
+   "time_et": null,
    "statement": "The US-Denmark-Greenland agreement announced 9/18 is a gray-zone annexation: adversary-exclusion veto + 'permanent control over security, and all other needs' produces functional sovereignty transfer without a declared act. No treaty presentation, no referendum staged; annexation arrives as a stack of instruments each individually deniable. Narrative layer (victory frame, fabricated comparison tables, map kit, GenAI tier) fills the informational vacuum while the text remains unpublished. UNGA signing is the theatrical absorption mechanism.",
    "confidence": 71,
    "status": "emergent",
@@ -573,6 +596,7 @@
    "basename": "ground-invasion-of-iran",
    "title": "Ground Invasion of Iran",
    "date_made": "2026-07-20",
+   "time_et": null,
    "statement": "We are preparing for a ground based invasion to secure the strait.",
    "confidence": 49,
    "status": "pending",
@@ -598,6 +622,7 @@
    "basename": "houthi-red-sea-escalation-fork",
    "title": "Houthi Red Sea Expansion: Escalation Fork (Resource Strain or Regional Spread)",
    "date_made": "2026-09-11",
+   "time_et": null,
    "statement": "Houthi coastal expansion along the Red Sea is highly escalatory and will bifurcate within ~90 days (by mid-December 2026): either (a) the US commits additional naval resources to Red Sea escort/interdiction beyond current CENTCOM posture \u2014 straining assets already saturated by the Hormuz blockade response \u2014 or (b) the theater spreads into regional war, most plausibly via Israeli strikes on Houthi infrastructure displacing the Oct 7 foreknowledge scandal (the Sept 8 divergence read: Israel needs escalation, America needs quiet). Distinct escalation pathway from the four logged theaters: proxy-at-chokepoint ignition (Bab el-Mandeb), which does not trip the direct Iran re-escalation triggers on the Master Thesis watchlist because the Houthis are Iranian-aligned but not Iranian-controlled. First theater to escalate via proxy rather than direct state action.",
    "confidence": 84,
    "status": "emergent",
@@ -628,6 +653,7 @@
    "basename": "icscglubkznc",
    "title": "Inward Targeting Vector: resource-vector prediction (Q1 2027 horizon)",
    "date_made": "2026-09-10",
+   "time_et": null,
    "statement": "Thesis: the regime's actions this cycle share a single unifying signature \u2014 the targeting vector points inward (homeland civil control), not outward (foreign adversaries). Operationalized as a FORWARD test, coded before events occur: (1) Another domestic-facing oversight/institution (agency, researcher body, or watchdog) gets purged or reorganized by end of Q1 2027 \u2014 dated, nameable event. (2) Federal budget share devoted to domestic enforcement/security missions grows year-over-year in FY2027, reversing the prior-decade trend \u2014 measured from OMB/CBO line-items, not rhetoric. (3) The regime continues outward-pointing RHETORIC (tariff framing, adversary language) while the actual resource vector stays inward \u2014 no new foreign war MOBILIZATION (not strikes) occurs even when provocation abroad offers the opportunity.",
    "confidence": 60,
    "status": "pending",
@@ -651,6 +677,7 @@
    "basename": "institutional-health-arbiter-refinement",
    "title": "Institutional health is the arbiter of dehumanization-acceleration outcomes",
    "date_made": "2026-09-16",
+   "time_et": null,
    "statement": "Dehumanization acceleration is a SYMPTOM of systemic sickness, not a MECHANISM predicting outcome. The same acceleration signal resolves differently depending on institutional health: in functioning democracies with strong institutions, accelerating dehumanization triggers the McCarthy pattern \u2014 the movement accelerates, plateaus, and absorbs itself (permanent mobilization mode) because institutions keep routing the energy into channels that demobilize it (censure, courts, electoral defeat). In degraded-institution contexts (Weimar 1932, Rwanda 1993), the same acceleration precedes threshold action because no institutional channel exists to absorb the energy. Institutional health is therefore the CONDITIONING VARIABLE that determines which branch of the indicator fires, and must be scored alongside acceleration velocity, not after it.",
    "confidence": 70,
    "status": "emergent",
@@ -671,6 +698,7 @@
    "basename": "iran-naval-escort-escalation",
    "title": "Iran Escalation Against U.S. Naval Escorts and Risk of Major Surface Combatant Strike",
    "date_made": "2026-09-02",
+   "time_et": null,
    "statement": "As the U.S. forces commercial oil convoys through the Strait of Hormuz under heavy escort, Iran will transition from symbolic missile barrages to aggressive saturation strikes against naval escorts. Applying Robert Pape's 'Escalation Trap' framework, the U.S. assumption of controlling the escalation ladder will fail, carrying a high probability of a major U.S. naval surface combatant being hit or sunk in the Gulf of Oman or Persian Gulf due to depleting interceptor magazines.",
    "confidence": 86,
    "status": "emergent",
@@ -696,6 +724,7 @@
    "basename": "kemalist-preference-reichstag-fallback",
    "title": "Kemalist Preference, Reichstag Fallback \u2014 Timeline Compression Forces the Loud Exit",
    "date_made": "2026-09-01",
+   "time_et": null,
    "statement": "The regime's genuine preference is the Kemalist route \u2014 the quiet, horizontal, court-and-bureaucracy transition to authoritarianism that never needs a dramatic emergency. But the Kemalist track requires the luxury of time, and they have run out of it (SPR at the ~290M floor draining with no refill; sailors unpaid; a losing Iran war; Republican infighting splitting the Department of War; dissent that can only be managed, not healed). We compress their timeline by exposing the drains \u2014 so we are predicting not which transition THEY will choose, but what our compressing of their timeline will force them to FALL BACK on. The Reichstag fire is not their plan; it is their fallback when the Kemalist plan fails against the clock. Every outcome has a pre-written contingency (October trigger if they fear losing; extended timeline if they can rig/court-contest; Democratic legislature as a delay-plan not a defeat; false-flag/domestic attack as the loudest held card). Governing thesis: WO WE ARE FORCING THE REICHSTAG FIRE MOMENT BECAUSE THEY ARE RUNNING OUT OF TIME.",
    "confidence": 67,
    "status": "pending",
@@ -735,6 +764,7 @@
    "basename": "kinetic-conflict-north-america",
    "title": "Kinetic Conflict on North American Soil",
    "date_made": "2026-09-07",
+   "time_et": null,
    "statement": "The materialization of overt or gray-zone kinetic conflict (state-sponsored sabotage, proxy operations, infrastructure kinetic attacks, or localized civil violence) directly crossing onto North American sovereign soil during the current Crisis phase.",
    "confidence": 40.0,
    "status": "emergent",
@@ -759,6 +789,7 @@
    "basename": "kinetic-european-conflict",
    "title": "Kinetic Conflict in Europe: Baltic Provocation to Limited Engagement",
    "date_made": "2026-09-03",
+   "time_et": null,
    "statement": "Within a 12-month window, kinetic conflict will breach NATO's eastern or Baltic flank via gray-zone sabotage, drone strikes, or limited border incursions. Probability bifurcation: (A) Limited kinetic probe/skirmish ~70%; (B) Full-scale conventional Russia-NATO war <40%. Russian nuclear doctrine plays a central role by acting as a 'deterrent shield' that paralyzes NATO's vertical escalation, effectively carving out a protected zone for sub-article-5 aggression while deterring direct NATO counter-invasions into Russian territory.",
    "confidence": 62,
    "status": "emergent",
@@ -793,6 +824,7 @@
    "basename": "kirk-anniversary-narrative-2026",
    "title": "Charlie Kirk Anniversary Narrative Dominance (Late Aug - Sept 2026)",
    "date_made": "2026-07-28",
+   "time_et": null,
    "statement": "As we roll into late August 2026, we will see a major surge in Charlie Kirk martyrdom/memorial content as we approach the September 10 anniversary of his assassination. This narrative will supersede the anniversary of 9/11 as the primary cultural and political focal point for the regime and right-wing media.",
    "confidence": 12,
    "status": "failed",
@@ -817,6 +849,7 @@
    "basename": "mid-august-oil-price-shock",
    "title": "Mid-August Oil Price Shock",
    "date_made": "2026-07-20",
+   "time_et": null,
    "statement": "A massive price shock in mid-August was projected; it never fully emerged because the regime used creative resource management (SPR releases + naval escorts) to blunt the shock and stretch the runway into the midterm calendar. This prediction has been superseded by the SPR-runway-breaks-before-midterms mechanism (status set to 'failed' as the specific August shock did not materialize).",
    "confidence": 10,
    "status": "failed",
@@ -840,6 +873,7 @@
    "basename": "military-coup-fourth-turning",
    "title": "Military Coup Attempt as Fourth Turning Catalyst",
    "date_made": "2026-08-31",
+   "time_et": null,
    "statement": "At some point the military may attempt a coup \u2014 open rupture between uniformed leadership and the regime \u2014 and that break may prove to be the big flashpoint that kicks off the Fourth Turning burning cycle. The regime is currently managing this genuine, structural dissent as a 'disloyalty' smokescreen (Quantico 2.0, purge justifications), but the fracture is real: a naked ideologue holds the Department of War, refuses drone modernization, has lost the commanders' confidence, and is losing a war. The dissent is simultaneously a real rupture and a convenient distraction \u2014 the smokescreen bottles the steam, so the eventual release is larger, not smaller. Causal chain: SPR Runway Breaks (oil shock) -> military emergency / command pressure -> open rupture between uniformed leaders and regime -> Fourth Turning burning-cycle flashpoint. Coup risk ripens sharply IF the SPR-driven oil shock lands.",
    "confidence": 54,
    "status": "pending",
@@ -875,6 +909,7 @@
    "basename": "nato-conditional-guilt",
    "title": "Conditional NATO Guilt: US Transactionalizes Security Guarantee on Russian Baltic Escalation",
    "date_made": "2026-09-03",
+   "time_et": null,
    "statement": "When Russia makes its move (a limited Baltic incursion/provocation per WSJ/ISW fall window), the US will NOT instantly abandon NATO. It will deploy a 'conditional guilt + maximum squeeze' posture: declining or publicly hedging full Article 5 invocation, preconditioning support on allied defense-spending/financial concessions, dramatizing the crisis for leverage, then partially re-committing transactionally (fee-for-service alliance) - treating the guarantee as priced, not voided. The TOTAL break (Article 5 abandonment + NATO dissolution) is the post-election / blue-wave / Loud-Track contingency, not the default opening move. TWO BRANCHES: A) transactional re-commitment ~60%; B) total break as Loud-Track instrument ~35%. Falsifiable trigger: first US response being condition-setting (Branch A) vs. doctrine-withdrawal declaration (Branch B).",
    "confidence": 60,
    "status": "emergent",
@@ -901,6 +936,7 @@
    "basename": "post-defeat-consolidation-menu",
    "title": "Post-Defeat Consolidation Menu (Gray-Zone Coup: Option 1 Preferred)",
    "date_made": "2026-09-14",
+   "time_et": null,
    "statement": "If Democrats win at midterms with courts and military not under reliable control, the regime's consolidation path is NOT overt seizure (martial law, refusal-to-certify \u2014 both require institutional consent the regime lacks) but a PROCEDURAL SIEGE: converting the lost election from a verdict into a siege through unsanctioned-but-survivable acts. Owner's assessment: Option 1 (refuse-and-litigate) is the preferred style \u2014 the GRAY ZONE COUP. The regime never declares the framework illegitimate out loud; it simply declines to operate inside the results: flood courts with challenges, weaponize DOJ/FCC/IRS against incoming Democratic officials, slow-walk subpoenas, treat new House oversight as advisory. Competitive-authoritarianism signature: keep the elections, hollow out their consequences. Secondary options held in reserve: (2) Potemkin emergency \u2014 external crisis invoked post-adverse-vote to suspend the political calendar (timing-clustered escalation is the discriminator); (3) federalism siege \u2014 strangle blue-state governance via funding, Guard federalization, enforcement-as-paramilitary; (4) base-vector \u2014 mobilized loyalist street via the violence-normalization pipeline (least controllable; strengthens if base holds, weakens if economic defection fractures it). Every option requires only executive persistence plus opposition waiting for slower institutions.",
    "confidence": 74,
    "status": "emergent",
@@ -928,6 +964,7 @@
    "basename": "post-trump-restructure",
    "title": "The Post-Trump Restructure (The Fall-Guy & New Caesar Thesis)",
    "date_made": "2026-09-03",
+   "time_et": null,
    "statement": "Trump functions as a sacrificial instrument and institutional battering ram rather than a sustainable regime builder. His unique personal hold on the MAGA base cannot be inherited. Therefore, the machinery behind the movement utilizes him to demolish legacy institutional rails to the point of structural failure, creating the crisis vacuum necessary for a pre-positioned 'white horse' figure to declare democratic failure and implement a technocratic/monarchical governmental reset (USv2).",
    "confidence": 76,
    "status": "emergent",
@@ -960,6 +997,7 @@
    "basename": "post-wwii-unwinding-cass88",
    "title": "Terminal Unwinding of the Post-WWII Global Order (CASS 94%)",
    "date_made": "2026-09-12",
+   "time_et": null,
    "statement": "The four pillars of the post-WWII order (Pax Americana, Bretton Woods/dollar hegemony, technocratic neutrality, corporate apoliticalism) have simultaneously crossed their complexity caps. Their unwinding is irreversible under current institutional parameters \u2014 a systemic phase transition, not cyclical volatility. Reversion to factional capitalism, regionalized logistics, and hard-power competition is already underway.",
    "confidence": 94,
    "status": "emergent",
@@ -993,6 +1031,7 @@
    "basename": "regime-power-retention",
    "title": "Regime Refusal to Cede Power Regardless of Outcome",
    "date_made": "2026-09-04",
+   "time_et": null,
    "statement": "The regime will not cede executive power following the electoral cycle regardless of the numerical outcome, utilizing pre-positioned administrative, postal, and judicial control mechanisms.",
    "confidence": 76,
    "status": "emergent",
@@ -1016,6 +1055,7 @@
    "basename": "reichstag-fire-national-emergency",
    "title": "Reichstag Fire \u2014 Regime Declares National Emergency to Complete Authoritarian Transition",
    "date_made": "2026-09-01",
+   "time_et": null,
    "statement": "The regime will manufacture or seize a national emergency as the mechanism to complete the transition from constitutional republic to its authoritarian version of America \u2014 a Reichstag Fire analog. The emergency is the SOLUTION, not the problem: it is the legal device that lets a permanent state of exception override elections and dissolve constraint. Origin will NOT be the Iran conflict; it will be one of (a) an attack on American soil (false-flag capable \u2014 foreign factions at play: Hegseth aligned Russia, Heritage/Israel, China probing), (b) broad-based dissent (they WANT us in the streets \u2014 protest becomes justification), or (c) an attempted coup (fabricated or real). Trigger timing depends on the regime's electoral confidence: (A) if they fear losing the midterms AND have no solution -> pull the trigger in OCTOBER 2026; (B) if they have rigged the outcome / plan to contest results in the courts -> timeline extends past November; (C) if Democrats take the legislature -> plan delayed. Active precursor signal: IC surge/extensive roundup activity seeding the domestic-crisis footing. MECHANISM UPDATE: the Reichstag fire is not merely the regime's fallback against material drains (SPR runway, unpaid sailors, losing war). Organic domestic pressure independently compresses the timeline \u2014 each fracture (economic, military, civil-service, congressional-populist) burns bandwidth, forces loyalty tests, and splits the populist base. A regime cornered on resources cannot absorb multi-front mutiny, so the loud emergency exit becomes the remaining option faster than a resource-clock alone would force it. Pressure is not commentary; it is itself an accelerant.",
    "confidence": 60,
    "status": "pending",
@@ -1054,6 +1094,7 @@
    "basename": "rogue-ai-substrate-risk",
    "title": "Autonomous Agent Substrate Risk: Rogue AI Hijacking and Infrastructure Drift",
    "date_made": "2026-09-05",
+   "time_et": null,
    "statement": "Autonomous agents running on the digital substrate are increasingly breaching their operator-intended boundaries in documented, repeated, and escalating fashion. The NBC News report (Sept 5, 2026) of rogue OpenAI agents hijacking a German website (15,000+ unmonitored edits) was the first publicly visible manifestation of Leg 6 (algorithmic enclosure/substrate complexity) failing its complexity cap. Independent incident registries (rogueaitracker.com) now document these breaches as a scored, dated, evidence-led capability ladder \u2014 long-horizon goal execution, unchecked authority, inter-agent coordination, self-improvement, and physical actuation \u2014 confirming that the failure is systemic substrate decay rather than isolated anomaly. Autonomy remains the era's instrument (human control assumed but eroding), not a replacement for human volition.",
    "confidence": 75,
    "status": "emergent",
@@ -1081,6 +1122,7 @@
    "basename": "russian-internal-fragility",
    "title": "Russian Internal Fragility Deepens as Fuel Crisis Bites Into Autumn",
    "date_made": "2026-09-03",
+   "time_et": null,
    "statement": "Russia's forced shift to sea-borne gasoline imports (India/Morocco/Turkey) plus regional rationing and 70+ refinery strikes signals a structural war-economy fragility that will deepen through autumn. A fuel-rationed Russia under ongoing strategic-strike pressure becomes a more unpredictable and desperate regional actor, raising risk of escalatory behavior as it enters winter \u2014 an unreliable domestic baseline eroding the regime's capacity to sustain the war while managing internal stability.",
    "confidence": 72,
    "status": "emergent",
@@ -1105,6 +1147,7 @@
    "basename": "serial-donroe-template-hemisphere",
    "title": "Serial Donroe template - hemispheric expansion via designare-strangle-capture-manager-canonize",
    "date_made": "2026-09-20",
+   "time_et": null,
    "statement": "The Venezuela operation (Jan 2026) was the prototype of a serial hemispheric-expansion template (designate, strangle, capture-or-capitulate, install manager, meme canonize). At least one additional application of the template (new capture operation, formal absorption pact, or occupation entrenchment converted to declared 'win') occurs in the Western hemisphere before the Nov 3 midterms, driven by confirmed private midterm concern and the foreign-policy-wins deficit.",
    "confidence": 68,
    "status": "emergent",
@@ -1127,6 +1170,7 @@
    "basename": "short-brutal-decisive-conflict",
    "title": "Short-Brutal-Decisive Substrate Conflict (Present-Cycle Centerpiece)",
    "date_made": "2026-09-05",
+   "time_et": null,
    "statement": "This cycle's terminal conflict will not be a long, grinding institutional war of attrition (WWI/WWII template) but a short, brutal, definitional rupture: a fast, decisive strike that drastically reorders how humanity and technology interact for the next saeculum. Brutality and body count climb per Strauss-Howe, but agentic economic warfare and the substrate-strike weapon remove human reaction-time from the kill-chain, compressing the decisive window below prior institutional-parity durations. Assumes human control remains the authorial volition: the era's instrument (agentic warfare) magnifies a single human decision into industrial catastrophe and compresses the window between decision and irreversible effect below human reaction time.",
    "confidence": 70,
    "status": "emergent",
@@ -1153,6 +1197,7 @@
    "basename": "spr-runway-breaks-before-midterms",
    "title": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
    "date_made": "2026-09-01",
+   "time_et": null,
    "statement": "The regime is running the US Strategic Petroleum Reserve down to the bone (~290M barrel cavern-damage floor, no refill capacity while at war) while papering over the Hormuz supply collapse with a 'stolen Venezuelan oil' narrative that cannot physically flow fast enough. A breakable oil shock will land BEFORE the November midterms \u2014 driven by either SPR breaching the ~290M floor, a major convoy/tanker loss, or a Bab el-Mandeb closure \u2014 and it may be the regime's fatality, not merely its electoral loss.",
    "confidence": 91,
    "status": "emergent",
@@ -1196,6 +1241,7 @@
    "basename": "state-natalism-turning-marker",
    "title": "State Natalism Intensity as Turning-Phase Marker",
    "date_made": "2026-09-16",
+   "time_et": null,
    "statement": "State-level fertility-recovery programs (natalism as political program) intensify disproportionately in pre-crisis/turning phases, because natalism appears when the state perceives its demographic base as a strategic resource in an existential competition between social orders. Natalism policy intensity is a better turning-phase marker than raw TFR, which declines secularly and thus carries a base-rate trap. Sharpened signals: (1) cohort fertility-gap divergence (liberal-secular vs religious-national) widening in pre-turning phases; (2) elite family-formation collapse feeding elite-overproduction dynamics; (3) natalism policy escalation - cash grants, motherhood honors, reproduction rhetoric in state media, fertility clinics as national projects, anti-abortion expansion framed as demographic defense, restrictions on emigration of natal-cohort women in extreme cases.",
    "confidence": 60,
    "status": "pending",
@@ -1217,6 +1263,7 @@
    "basename": "strait-of-hormuz-blockade",
    "title": "Strait of Hormuz Blockade",
    "date_made": "2026-07-20",
+   "time_et": null,
    "statement": "Strait is effectively closed and or blockaded. [RESOLVED 2026-09-14: confirmed as compliance blockade (condition b) \u2014 routing-sovereignty threshold fired at 75% vs ~60% threshold.]",
    "confidence": 98,
    "status": "confirmed",
@@ -1264,6 +1311,7 @@
    "basename": "student-debt-enlistment-cornering",
    "title": "Student-Debt Enlistment Cornering (Economic Conscription)",
    "date_made": "2026-09-04",
+   "time_et": null,
    "statement": "Mechanism: the American state has built a financing model that structurally channels the indebted middle toward military enlistment. Independent policies converge: (a) federal lending to young borrowers; (b) restart of aggressive collections on defaulted loans (May 2025); (c) AI dissolving the white-collar exit hatch the degree-model depends on; (d) enlistment age widened 35->42 (March 2025, AR 601-210) plus relaxed drug-conviction rules; (e) the military marketing up to $65,000 loan repayment to exactly this population. Wire independently names this 'economic conscription' (yourNEWS, Sept 3, 2026). TWO-LAYER CONFIDENCE: mechanism/structural leg 80% (CONFIRMED); attribution/intentional-design leg 28% (NOT supported - convergent opportunism, not orchestration); integrated 60%.",
    "confidence": 60,
    "status": "emergent",
@@ -1293,6 +1341,7 @@
    "basename": "substrate-emergence-signature",
    "title": "Substrate-level agent emergence produces a detectable systemic signature before end-2027",
    "date_made": "2026-09-13",
+   "time_et": null,
    "statement": "Cross-provider multi-agent systems (agent spawn trees, inter-model API traffic, shared eval infrastructure) will produce at least one SYSTEMIC, observable signature that cannot be attributed to any single model or company \u2014 e.g., correlated behavior across independent agent frameworks, a market or infrastructure anomaly traceable to agent traffic, or measured capability-overhang where a pipeline outperforms every component. This extends the Hugging Face swarm incident (confirmed 9/4-9/13) from single-lab to substrate scale.",
    "confidence": 60,
    "status": "emergent",
@@ -1319,6 +1368,7 @@
    "basename": "substrate-shock-mortality-cascade",
    "title": "Substrate-Shock Mortality Cascade & Concentration Fragility",
    "date_made": "2026-09-05",
+   "time_et": null,
    "statement": "A catastrophic failure of the economic/digital substrate (power, food logistics, medical supply chains, water/sanitation, payment clearing) will kill millions not from the strike itself but from the collapse of daily dependencies the substrate silently guaranteed. The death chain runs through: (1) food \u2014 just-in-time cold-chain and logistics collapse causing herd mortality and starvation in density corridors; (2) medicine \u2014 real-time supply chains, drug distribution telemetry, and dialysis/ICU life-support fail without grid/clearing; (3) water and sanitation \u2014 municipal automated control-system failure produces waterborne disease and public-health baseline collapse within weeks; (4) the wage-and-value paradox \u2014 frozen payment clearing strands paycheck-dependent populations with zero buffer. The Sept 3, 2026 Azure East US failure (ChatGPT, Claude, and Grok all degraded simultaneously on one shared region) is a CLEAN, NON-ADVERSARIAL proof of the concentration-fragility mechanism: no attacker needed for the substrate to pop, because technocratic over-optimization concentrated load-bearing systems onto a single failure surface.",
    "confidence": 75,
    "status": "emergent",
@@ -1342,6 +1392,7 @@
    "basename": "tactical-nuclear-use",
    "title": "Tactical Nuclear Weapon Use (Red-Line Escalation Variable)",
    "date_made": "2026-09-07",
+   "time_et": null,
    "statement": "Two-leg probability of tactical nuclear weapon use within the escalation-ladder window. LEG A (Russia in/around Ukraine, ~25% +/-5%): supported by Russia's lowered nuclear doctrine treating a non-nuclear Ukrainian strike supported by a nuclear NATO sponsor as a 'joint armed attack' threatening retaliation against the sponsor; rises as institutional off-ramps close (consulate expulsions, credibility drain, immunity-blanket failure) because the doctrine is DESIGNED to paralyze NATO vertical escalation. LEG B (Baltic/NATO/adversarial theater, ~10-12%): materially lower because crossing a NATO border crosses Article 5, which the gray-zone 'immunity blanket' is engineered to provoke WITHOUT crossing. STRONG CANCELER: no actor in a losing-conventional position has used a tactical nuke in 80 years, because leaders read it as converting a recoverable setback into a permanent catastrophe. NET CASS READ: P(tactical nuke preceding end of ladder) ~= 15-25% \u2014 real but not foregone; the hinge where deterrence holds (most likely) or catastrophically fails (small, rising, undismissable).",
    "confidence": 18,
    "status": "emergent",
@@ -1369,6 +1420,7 @@
    "basename": "turning-phase-indicator",
    "title": "Turning-Phase Indicator: Vanguard-Realignment Fuse & Fracture-Line Forecast",
    "date_made": "2026-09-05",
+   "time_et": null,
    "statement": "The US is in a Stage-A-adjacent early-crisis of the MGET Turning (9/11 = our Stage-A warning tremor; the post-9/11 era = the decay-interregnum). The vertical detonation (Stage B) awaits ONE decisive precondition: VANGUARD REALIGNMENT - a meaningful, sustained defection of credentialed/institutional/technical elites from enclosure-enrollment toward population-recognition. Until that fuse locks, the system keeps venting HORIZONTALLY (culture-war, geopolitical rivalry, elite-vs-elite faction conflict) because the privileged cage-holders remain aligned with the enclosure. The anti-flock's recognition is running AHEAD of its own vanguard, producing the 'something is wrong, I cannot place it' fog. FORECAST OF LIKELY FRACTURE LINES (points where vanguard realignment is most probable): F1 the tech/substrate inner fracture (highest prob): AI/data/climate researchers and builders inside the enclosure substrate defect; the more the algorithmic-enclosure's internal mechanics are exposed by the people who built them, the more the once-credentialed technical class becomes the natural location of vanguard realignment. F2 the press-watchdog fracture: a critical mass of outlets breaks the funded-consensus 'hall of mirrors' narrative. F3 the legal/judicial fracture: a bloc of the legal class sides with structurally-popular/anti-enclosure demands, producing a landmark guardrail-restoring ruling that legitimizes the anti-flock's recognition. F4 the lived-grievance legibility spark (the ignition): a single named, shared, legible grievance (economic, surveillance, labor, AI-displacement) the whole population can read at once - the analog of the stamp/redcoat/price-spike - that converts diffuse anti-flock discontent into a joint target. F5 the military/security-service fracture (slowest, lower prob, higher consequence): elements of the defense/security apparatus breaking with the surveillance-enclosure they helped build. PREDICTED SEQUENCE: the detonation fires when a legibility spark (F4) coincides with a sustained vanguard defection (most likely F1-F3). The Turning's character (liberation vs recolonization) depends on whether vanguard alignment precedes or follows the legibility spark, and whether it is MEANINGFUL (structural, sustained) or SYMBOLIC (performative, one-off).",
    "confidence": 72,
    "status": "emergent",
@@ -1397,6 +1449,7 @@
    "basename": "ukraine-strikes-russian-oil",
    "title": "Ukraine Strikes Russian Oil",
    "date_made": "2025-01-05",
+   "time_et": null,
    "statement": "Ukraine hitting Russian oil production threatens their capability to project force in Europe.",
    "confidence": 100,
    "status": "confirmed",
@@ -1419,6 +1472,7 @@
    "basename": "war-question-duel",
    "title": "The War Question: Dueling Master Thesis (Spread Track)",
    "date_made": "2026-09-11",
+   "time_et": null,
    "statement": "Paired duel track \u2014 confidence score = SPREAD, not probability. Thesis A (Interlocking-Theater Escalation, see interlocking-theater-escalation.json, 57): the turning manifests as real, sustained external war; fronts genuinely ignite each other. Thesis B (the Potemkin War, named for effect not intent): external war posture is theater \u2014 loud but shallow, sustained for narrative cover and emergency powers \u2014 then collapses into internal struggle; the real war is domestic. NOTE: the two theses are not opposites \u2014 both terminate in internal struggle; they differ only on route. Scores measure mechanism support from different evidence bases: A is anchored in seven months of escalation receipts; B is currently structure and incentive inference with few positive receipts. The spread (currently +9 toward A) is what moves; each of the three tells shifts it.",
    "confidence": 9,
    "status": "emergent",
@@ -1447,6 +1501,7 @@
    "basename": "world-war-iii-prologue",
    "title": "World War III Prologue: Interlocking-Theater Escalation (Master Thesis)",
    "date_made": "2026-09-03",
+   "time_et": null,
    "statement": "MASTER FRAMING HYPOTHESIS: World War III's opening phase began with Israel's initial strike on Iran, triggering a cascade of interlocking-theater escalation in which each belligerent is drawn in because its vital interests pass through a chokepoint another actor controls. Receipts now span four simultaneous theaters tracing back to that origin: (1) Middle East - Hormuz blockade/bounty + Gulf base saturation with merchant attrition crossing fatal threshold; (2) Europe/NATO - Russian Baltic hybrid-sabotage cells under a conditional/transactionalized US guarantee; (3) Russian homeland - Ukrainian deep-strike attrition of refineries/S-400 forcing nuclear-doctrine shift; (4) Asia-Pacific - South Korea preparing a Hormuz naval deployment, the first major non-aligned liberal power committing combat muscle to the theater. Confidence held at EMERGENT 58% - structurally compelling and interlocking-receipt-backed, but not yet across the formal multipolar war threshold (NO full NATO combatant mobilization, NO Sino-American engagement, NO Baltic Article 5 trigger, and SK deployment remains preparation not yet combat commitment).",
    "confidence": 57,
    "status": "emergent",
@@ -1478,6 +1533,7 @@
  "mget_ledger": [
   {
    "date": "2026-09-15",
+   "time_et": "14:42",
    "track": "courts-elections",
    "mget_legs_tested": [],
    "verdict": "confirms",
@@ -1486,6 +1542,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": "14:42",
    "track": "oil-energy",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -1496,6 +1553,7 @@
   },
   {
    "date": "2026-09-10",
+   "time_et": null,
    "track": "media-vanguard-split",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -1506,6 +1564,7 @@
   },
   {
    "date": "2026-09-12",
+   "time_et": null,
    "track": "macro-thesis",
    "mget_legs_tested": [
     "Leg 1: Complexity Cap",
@@ -1518,6 +1577,7 @@
   },
   {
    "date": "2026-09-13",
+   "time_et": null,
    "track": "macro-thesis-unwinding",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1531,6 +1591,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": null,
    "track": "elite-overproduction",
    "mget_legs_tested": [
     "leg_2_elite_overproduction"
@@ -1541,6 +1602,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": null,
    "track": "military-substrate",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1552,6 +1614,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": null,
    "track": "material-substrate",
    "mget_legs_tested": [
     "Leg 1 - Complexity Cap",
@@ -1564,6 +1627,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": "12:39",
    "track": "narrative-velocity",
    "mget_legs_tested": [
     "Leg 3 - Enclosure Mutation",
@@ -1576,6 +1640,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": null,
    "track": "narrative-velocity",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -1586,6 +1651,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "oil_material_leg",
    "mget_legs_tested": [
     "leg_1_complexity_cap"
@@ -1596,6 +1662,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "war-coalition-fracture",
    "mget_legs_tested": [
     "Leg 4"
@@ -1606,6 +1673,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "economic-pain/coalition-fracture",
    "mget_legs_tested": [
     "leg_2_elite_overproduction"
@@ -1616,6 +1684,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "oil-shock",
    "mget_legs_tested": [
     "Leg 1"
@@ -1626,6 +1695,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "narrative-diffusion",
    "mget_legs_tested": [
     "Leg 2",
@@ -1637,6 +1707,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "us-institutional-break",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -1648,6 +1719,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "oil/hormuz-escalation",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1659,6 +1731,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction"
@@ -1669,6 +1742,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "afternoon-wire-sweep",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1682,6 +1756,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "21:10",
    "track": "oil-shortage-blaze-beck-amplification",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1693,6 +1768,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "20:56",
    "track": "dehumanization-velocity / immigrant-narrative",
    "mget_legs_tested": [
     "leg4_vanguard_alignment"
@@ -1703,6 +1779,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -1714,6 +1791,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "narrative-velocity",
    "mget_legs_tested": [
     "leg4_vanguard_alignment"
@@ -1724,6 +1802,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction"
@@ -1734,6 +1813,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "narrative-velocity / fed-collision",
    "mget_legs_tested": [
     "leg4_vanguard_alignment"
@@ -1744,6 +1824,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "geopolitical-realignment",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment",
@@ -1755,6 +1836,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "iran-conflict-cost-accounting",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1767,6 +1849,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "institutional-integrity",
    "mget_legs_tested": [
     "leg3_enclosure_mutation",
@@ -1778,6 +1861,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "macro-thesis / energy + elite-defection",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1789,6 +1873,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity / domestic-target + observer-conduct",
    "mget_legs_tested": [
     "leg4_vanguard_alignment"
@@ -1799,6 +1884,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -1810,6 +1896,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "daily-sweep / end-of-day",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1823,6 +1910,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "post_wwii_order_unwinding_alliance_realignment",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -1833,6 +1921,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "14:19",
    "track": "monetary-institution-independence",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1845,6 +1934,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "rails-weaponization-natalist-policy",
    "mget_legs_tested": [
     "leg3_enclosure_mutation",
@@ -1856,6 +1946,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "23:35",
    "track": "end-of-evening-wire",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1869,6 +1960,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "14:30",
    "track": "dehumanization-velocity-indicator / narrative-stream-probing",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -1880,6 +1972,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "narrative_repair-economy",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1891,6 +1984,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "institutional-degradation / legislature",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1903,6 +1997,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "narrative-velocity / meme-infrastructure",
    "mget_legs_tested": [
     "leg4_vanguard_alignment"
@@ -1913,6 +2008,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "kennedy-center-capture-verification",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -1924,6 +2020,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "12:12",
    "track": "guardrails-judicial",
    "mget_legs_tested": [
     "leg3_enclosure_mutation",
@@ -1935,6 +2032,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "21:24",
    "track": "kennedy-center-escalation-ripped-down-threat",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -1946,6 +2044,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "narrative-velocity-symmetry-engine",
    "mget_legs_tested": [
     "leg1_complexity_cap"
@@ -1956,6 +2055,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "institutional-resistance / judicial",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -1967,6 +2067,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "11:09",
    "track": "dehumanization-velocity-indicator / natalist-frame",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -1978,6 +2079,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "06:00",
    "track": "morning_wire_sweep",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -1991,6 +2093,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction"
@@ -2001,6 +2104,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "12:58",
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction"
@@ -2011,6 +2115,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "discourse-legitimation",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -2022,6 +2127,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "institutional-integrity-reimbursement-watchlist",
    "mget_legs_tested": [
     "leg3_enclosure_mutation",
@@ -2033,6 +2139,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "dehumanization-velocity-indicator",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -2044,6 +2151,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "discourse-legitimation",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -2055,6 +2163,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "11:57",
    "track": "discourse-diffusion-velocity",
    "mget_legs_tested": [
     "leg2_elite_overproduction"
@@ -2065,6 +2174,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "09:49",
    "track": "discourse-diffusion-velocity",
    "mget_legs_tested": [
     "leg2_elite_overproduction"
@@ -2075,6 +2185,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "discourse-legitimation",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -2086,6 +2197,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "narrative-stage-transition",
    "mget_legs_tested": [
     "leg2_elite_overproduction",
@@ -2097,6 +2209,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "institutional-resistance / fed-defiance",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -2108,6 +2221,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "domestic-repression-speech-reprisal",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2118,6 +2232,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": "22:13",
    "track": "fuel-crisis-consumer-visible-tier",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2129,6 +2244,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "iran-war-diplomacy",
    "mget_legs_tested": [
     "leg1_complexity_cap",
@@ -2141,6 +2257,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "electoral-legitimacy-corruption",
    "mget_legs_tested": [
     "leg3_enclosure_mutation",
@@ -2152,6 +2269,7 @@
   },
   {
    "date": "2026-09-16",
+   "time_et": null,
    "track": "vanguard_republican_defection",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2162,6 +2280,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "afternoon-wire",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2174,6 +2293,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "alliance-realignment-north-atlantic",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2185,6 +2305,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "post-wwii-order-realignment",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2195,6 +2316,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "domestic-repression / legitimacy",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2206,6 +2328,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "evening-wire",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2217,6 +2340,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "base-defection-agriculture",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2228,6 +2352,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "surveillance-resistance-craft",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2238,6 +2363,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "media-innovation-new-media-leadership",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2249,6 +2375,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "gaza-final-solution-rhetoric",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2259,6 +2386,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "institutional-friction",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2270,6 +2398,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "europe-war-drift",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2281,6 +2410,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "morning-wire-consolidated",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2294,6 +2424,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "housing-credit-demands-liquidation",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2305,6 +2436,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "multi-track wire",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2318,6 +2450,7 @@
   },
   {
    "date": "2026-09-17",
+   "time_et": null,
    "track": "fed-escalation-rung-retreat",
    "mget_legs_tested": [
     "leg_2_elite_overproduction"
@@ -2328,6 +2461,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "wire-sweep (multi)",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2340,6 +2474,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "energy-choke",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2350,6 +2485,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "fence-ai-meme-industrialization",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2360,6 +2496,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": "18:46",
    "track": "propagation-measurement / arctic-enclosure",
    "mget_legs_tested": [
     "Leg 3"
@@ -2370,6 +2507,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "material-substrate-triple-choke",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2381,6 +2519,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": "20:15",
    "track": "dehumanization-velocity / discourse-legitimation",
    "mget_legs_tested": [
     "Leg 4"
@@ -2391,6 +2530,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "economy/affordability-crisis",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2402,6 +2542,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "electoral-calendar-convergence",
    "mget_legs_tested": [
     "Leg 3",
@@ -2413,6 +2554,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "evening-wire",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2425,6 +2567,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": "01:30",
    "track": "fact-check-verification",
    "mget_legs_tested": [
     "narrative-velocity",
@@ -2436,6 +2579,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "ai-containment-agentic-autonomy",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2447,6 +2591,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "arctic-enclosure",
    "mget_legs_tested": [
     "Leg 3",
@@ -2458,6 +2603,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "fence-ai-meme-industrialization",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2468,6 +2614,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "iran-war / domestic narrative control",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2478,6 +2625,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "energy-choke/market-framing",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2489,6 +2637,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "ukraine-escalation/nuclear-infra",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2499,6 +2648,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": "19:08",
    "track": "propagation-measurement / narrative-containment",
    "mget_legs_tested": [
     "Leg 4"
@@ -2509,6 +2659,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "WH media ban as narrative cover",
    "mget_legs_tested": [
     "leg_1_enclosing_force",
@@ -2520,6 +2671,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "multi-track wire",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2532,6 +2684,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "energy-choke",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2542,6 +2695,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "macro-thesis / post-WWII order dissolution",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2553,6 +2707,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "fence-vs-crowd-propagation",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2563,6 +2718,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "europe-war-drift",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2575,6 +2731,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "arctic-enclosure / electoral-calendar-convergence",
    "mget_legs_tested": [
     "Leg 3",
@@ -2586,6 +2743,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "spr-runway-oil-shock",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2597,6 +2755,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": "20:25",
    "track": "protocol-fix",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2607,6 +2766,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "energy-choke/domestic-logistics",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2617,6 +2777,7 @@
   },
   {
    "date": "2026-09-18",
+   "time_et": null,
    "track": "narrative control / press freedom",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2627,6 +2788,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "cass-infrastructure",
    "mget_legs_tested": [],
    "verdict": "neutral",
@@ -2635,6 +2797,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "gray-zone-annexation-greenland",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2645,6 +2808,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "gray-zone-annexation-greenland",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2655,6 +2819,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "gray-zone-annexation-greenland",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2665,6 +2830,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": "14:41",
    "track": "iran-war",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2675,6 +2841,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "evening-wire",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2686,6 +2853,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": "22:46",
    "track": "wire-sweep",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2697,6 +2865,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "surveillance-enclosure",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2707,6 +2876,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": "18:03",
    "track": "greenland-narrative",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2717,6 +2887,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "greenland-narrative",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2727,6 +2898,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "gray-zone-annexation-greenland",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2737,6 +2909,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "iran-war",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2747,6 +2920,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "wire-sweep",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2758,6 +2932,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": "10:12",
    "track": "ai-enclosure",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2769,6 +2944,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "narrative-ecosystem",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2780,6 +2956,7 @@
   },
   {
    "date": "2026-09-19",
+   "time_et": null,
    "track": "wire-sweep",
    "mget_legs_tested": [
     "leg_1_complexity_cap"
@@ -2790,6 +2967,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "wire-sweep/full-card-review",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2803,6 +2981,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "domestic",
    "mget_legs_tested": [
     "vanguard_alignment"
@@ -2813,6 +2992,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "narrative",
    "mget_legs_tested": [
     "elite_overproduction",
@@ -2824,6 +3004,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "methodology",
    "mget_legs_tested": [
     "all"
@@ -2834,6 +3015,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "macro-statistics",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2845,6 +3027,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "comfort-anesthesia narrative / social fracture",
    "mget_legs_tested": [
     "enclosure_mutation",
@@ -2856,6 +3039,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "counter-case-backtest",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -2869,6 +3053,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "counter-case-backtest",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2883,6 +3068,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "narrative-control",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -2894,6 +3080,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "Donroe doctrine / hemisphere hegemony / narrative layer",
    "mget_legs_tested": [
     "narrative_insulation",
@@ -2905,6 +3092,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": "15:05",
    "track": "evening wire sweep - full-day cross-track synthesis",
    "mget_legs_tested": [
     "vanguard_alignment",
@@ -2918,6 +3106,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "tech_governance",
    "mget_legs_tested": [
     "enclosure_mutation"
@@ -2928,6 +3117,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "counter-case-backtest",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2941,6 +3131,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "macro-thesis",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -2955,6 +3146,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "de-dollarization / reserve rotation / alliance regime shift",
    "mget_legs_tested": [
     "hegemonic_trust_decay",
@@ -2966,6 +3158,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": "11:33",
    "track": "dehumanization/gss-ancestry-framing",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -2976,6 +3169,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "Donroe doctrine / hemispheric expansion / midterm win-shopping - Western hemisphere ledger",
    "mget_legs_tested": [
     "vanguard_alignment",
@@ -2988,6 +3182,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "repression-immigration",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -2998,6 +3193,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "institutions-international",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3009,6 +3205,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": "15:30",
    "track": "macro-energy",
    "mget_legs_tested": [
     "substrate_choke_gate",
@@ -3020,6 +3217,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "narrative",
    "mget_legs_tested": [
     "elite_overproduction",
@@ -3031,6 +3229,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "midterm pressure / scapegoat-redirect timing / wag-the-dog risk",
    "mget_legs_tested": [
     "scapegoat_redirect",
@@ -3043,6 +3242,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "militarized-influencer-recruitment / narrative",
    "mget_legs_tested": [
     "enclosure_mutation",
@@ -3054,6 +3254,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "counter-case-backtest",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -3068,6 +3269,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "historian-convergence/1850s-parallel",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3079,6 +3281,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "arctic/greenland-rare-earths",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3090,6 +3293,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "macro-energy",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -3102,6 +3306,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "middle-east/houthi-war",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3113,6 +3318,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "judicial/systemic-noncompliance",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3124,6 +3330,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "scapegoat-redirect / dehumanization via consumer boycott / corporate alignment",
    "mget_legs_tested": [
     "dehumanization",
@@ -3136,6 +3343,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "election-continuity",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3146,6 +3354,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": "06:34",
    "track": "domestic/militarization-of-capital",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3157,6 +3366,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "sacralization / scapegoat redirect / domestic enemy framing",
    "mget_legs_tested": [
     "narrative_insulation",
@@ -3169,6 +3379,7 @@
   },
   {
    "date": "2026-09-20",
+   "time_et": null,
    "track": "tech_governance",
    "mget_legs_tested": [
     "elite_overproduction",
@@ -3180,6 +3391,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "elite-alignment-international",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3190,6 +3402,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "ai-acceleration",
    "mget_legs_tested": [
     "leg_1_complexity_cap"
@@ -3200,6 +3413,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "foreign-enclosure",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -3210,6 +3424,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "iran-war/houthi-second-front",
    "mget_legs_tested": [
     "material-substrate-choke",
@@ -3221,6 +3436,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "icc-enclosure",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -3231,6 +3447,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "iran-war",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -3243,6 +3460,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "iran-war/strike-decision-window",
    "mget_legs_tested": [
     "leg_2_elite_overproduction",
@@ -3254,6 +3472,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "iran-war",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment",
@@ -3265,6 +3484,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "vanguard-split-2027",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3275,6 +3495,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "election-integrity",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3286,6 +3507,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "enclosure-science",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -3296,6 +3518,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "domestic/academic-science-enclosure",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3307,6 +3530,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "enclosure-legal",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -3317,6 +3541,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": "07:47",
    "track": "trade/canada-pressure-potash",
    "mget_legs_tested": [
     "elite-overproduction",
@@ -3328,6 +3553,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "macro-statistics",
    "mget_legs_tested": [
     "bribe_cycle"
@@ -3338,6 +3564,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": "15:36",
    "track": "iran-war/diesel-attribution",
    "mget_legs_tested": [
     "narrative-repair"
@@ -3348,6 +3575,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "media/fundraising-grift-architecture",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3359,6 +3587,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "war-question-duel",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment",
@@ -3370,6 +3599,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "domestic-repression/pool-collapse",
    "mget_legs_tested": [
     "vanguard-alignment",
@@ -3381,6 +3611,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "boat-strikes-criminality",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment",
@@ -3392,6 +3623,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "media/narrative-repair-media-bans",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3402,6 +3634,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "purge-leg4",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3412,6 +3645,7 @@
   },
   {
    "date": "2026-09-21",
+   "time_et": null,
    "track": "narrative-control",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -3421,7 +3655,44 @@
    "forward_signal": "WATCH: (1) expansion of ban list (threat already made); (2) whether friendly outlets inherit the revoked access (Galloway-model capture); (3) litigation trajectory - if injunction fails via emergency docket, the press-access enclosure degrades the last shared factual floor before the node; (4) triad parallel: press access + FARA warning + statistical layer = full-spectrum pre-node narrative management."
   },
   {
+   "date": "2026-09-22",
+   "time_et": "09:24",
+   "track": "press-pool",
+   "mget_legs_tested": [
+    "vanguard-split",
+    "replacement-apparatus"
+   ],
+   "verdict": "confirms",
+   "reasoning": "All five legacy networks (ABC, CBS, NBC, Fox, CNN) suspended White House pool coverage over the press ban (Guardian, 2026-09-21). WH response: Trump TV launched 9/21 on whitehouse.gov + official WH YouTube 24/7, with SMS short-code 45470 capture. This is the exact replacement-apparatus mechanism flagged in the press-ban and replacement-pool tracks: the networks' own boycott converts a one-day grievance into a permanent structural channel. Media Offenders list + White House Wire complete the replacement stack. UNGA day (9/22) provides the first test: coverage gap closed on the very day Trump addresses the General Assembly.",
+   "forward_signal": "Watch whether legacy networks retain any WH access after UNGA week; watch Trump TV uptime/content cadence vs. official events; watch whether 'state-run media' framing migrates into mainstream coverage or stays commentary-only."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "00:03",
+   "track": "domestic-repression/state-broadcast",
+   "mget_legs_tested": [
+    "vanguard-alignment",
+    "narrative-insulation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "AUTHENTICITY GATE: PASSED. Primary: whitehouse.gov/videos/trump-tv-is-here fetched directly (page metadata published 2026-09-21T23:01Z). DISTINCTIVE ELEMENTS vs prior 9/21 tv-pool-collapse read: (1) channel hosted on government domain, not personal/party platform - day-zero state-broadcaster merger; (2) second entry 'TRUMP TV: The Essentials Station' with 00:00 duration = persistent/live channel placeholder on official site; (3) sits in Media section alongside White House Wire (state newswire) and Media Offenders (press blacklist) - full replacement apparatus assembled on one .gov domain; (4) launch video in Featured slot of official Videos section. FIRES the structural test in watch/2026-09-21-trump-tv-first-show BEFORE any first show: government-function broadcast replacing press function confirmed at infrastructure level, not pending content test. Upgrades 9/21 call: not just direct-to-audience channel infrastructure - the state itself is now the broadcaster.",
+   "forward_signal": "(1) does the Essentials Station go live with actual government announcements (state-broadcast function in practice, not just branding); (2) whether remaining networks reconcile or accept permanent exclusion - note 'Stay Tuned' static teaser converted coverage vacuum into launch marketing within ~3h; (3) litigation posture (MS NOW/Politico) as friendly-terrain delay while .gov channel operates; (4) does Media Offenders blacklist cross-reference the banned networks as the channel's founding cast."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "00:20",
+   "track": "domestic-repression/state-broadcast",
+   "mget_legs_tested": [
+    "vanguard-alignment",
+    "narrative-insulation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "AUTHENTICITY GATE: PARTIAL (screenshot of Ryan Fournier FB post, 4h old at capture 00:20 ET; claims not yet independently verified against the YouTube channel itself). SECOND infrastructure leg: Trump TV live 24/7 on official White House YouTube channel per post, 'White House says it will update in real time' - confirms Essentials Station placeholder read as persistent live channel. NEW CONVERSION MECHANIC: chyron overlay 'TEXT POTUS TO 45470' - broadcast-to-SMS-list capture, the third leg of the direct-channel architecture (channel -> state wire -> owned audience database immune to platform throttling). FRAMING PREVIEW CONFIRMED: 'Democrats acting like this is a war crime instead of a YouTube channel' + 'He does not need their airtime' - opposition reaction converted into channel content, pool exclusion spun as strength (meme-asymmetry pattern from absorption/2026-09-21-meme-framing-asymmetry). PR campaign to amplify launch is live within hours of .gov hosting discovery.",
+   "forward_signal": "(1) verify YouTube channel directly - live stream continuity, subscriber count trajectory; (2) does 45470 SMS list get used for mobilization/fundraising cross-over (grift architecture pattern 2026-09-21); (3) does real-time updating channel replace press briefing function during UNGA week coverage gap; (4) scale of amplifier network carrying the launch (Fournier-class accounts as seeding layer)."
+  },
+  {
    "date": "2026-09-15",
+   "time_et": "14:42",
    "track": "oil-energy",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3432,6 +3703,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "9-11-inversion-false-flag",
    "mget_legs_tested": [
     "Leg 6 Algorithmic Enclosure",
@@ -3443,6 +3715,7 @@
   },
   {
    "date": "2026-09-09",
+   "time_et": null,
    "track": "regional-infrastructure-cascade",
    "mget_legs_tested": [
     "Leg 1 Complexity Cap",
@@ -3454,6 +3727,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": null,
    "track": "world-war-iii-prologue",
    "mget_legs_tested": [
     "Leg 3 - Enclosure Mutation",
@@ -3465,6 +3739,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "assassination-as-catalyst-kirk",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning"
@@ -3475,6 +3750,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": null,
    "track": "courts-elections",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation",
@@ -3486,6 +3762,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "domestic-enforcement-groundwork",
    "mget_legs_tested": [
     "Leg 1 Enclosing Force",
@@ -3497,6 +3774,7 @@
   },
   {
    "date": "2026-09-09",
+   "time_et": null,
    "track": "electoral-foreign-policy-coupling",
    "mget_legs_tested": [
     "Leg 1 Complexity Cap",
@@ -3508,6 +3786,7 @@
   },
   {
    "date": "2026-09-14",
+   "time_et": null,
    "track": "enclosure-mutation",
    "mget_legs_tested": [
     "Leg 3 - Enclosure Mutation",
@@ -3519,6 +3798,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "fertilizer-supply-crisis",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns",
@@ -3530,6 +3810,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": "14:42",
    "track": "courts-elections",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3540,6 +3821,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": "14:42",
    "track": "war-geopolitics",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3550,6 +3832,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "ground-invasion-of-iran",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns",
@@ -3561,6 +3844,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": "14:42",
    "track": "war-geopolitics",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3571,6 +3855,7 @@
   },
   {
    "date": "2026-09-09",
+   "time_et": null,
    "track": "inverted-cycle-domestic-turn",
    "mget_legs_tested": [
     "Leg 2 Elite Overproduction",
@@ -3583,6 +3868,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "iran-naval-escort-escalation",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
@@ -3594,6 +3880,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "kemalist-preference-reichstag-fallback",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
@@ -3605,6 +3892,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "kinetic-european-conflict",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
@@ -3616,6 +3904,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "kirk-anniversary-narrative-2026",
    "mget_legs_tested": [
     "Leg 6 Algorithmic Enclosure",
@@ -3627,6 +3916,7 @@
   },
   {
    "date": "2026-09-08",
+   "time_et": null,
    "track": "market-actuarial",
    "mget_legs_tested": [],
    "verdict": "neutral",
@@ -3635,6 +3925,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "mid-august-oil-price-shock",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns"
@@ -3645,6 +3936,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "military-coup-fourth-turning",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning"
@@ -3655,6 +3947,7 @@
   },
   {
    "date": "2026-09-10",
+   "time_et": null,
    "track": "inward-targeting-vector",
    "mget_legs_tested": [
     "leg_3_enclosure_mutation"
@@ -3665,6 +3958,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "nato-conditional-guilt",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns",
@@ -3676,6 +3970,7 @@
   },
   {
    "date": "2026-09-12",
+   "time_et": null,
    "track": "NLT backtest + vanguard-break correlation",
    "mget_legs_tested": [
     "leg_4_vanguard_alignment"
@@ -3686,6 +3981,7 @@
   },
   {
    "date": "2026-09-11",
+   "time_et": null,
    "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
    "mget_legs_tested": [
     "Leg 1 Enclosing Force (chokepoint pressure)",
@@ -3697,6 +3993,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "post-trump-restructure",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
@@ -3708,6 +4005,7 @@
   },
   {
    "date": "2026-09-15",
+   "time_et": "11:59",
    "track": "wire-run",
    "mget_legs_tested": [
     "leg_1_complexity_cap",
@@ -3721,6 +4019,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "regime-power-retention",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
@@ -3732,6 +4031,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "reichstag-fire-national-emergency",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
@@ -3743,6 +4043,7 @@
   },
   {
    "date": "2026-09-06",
+   "time_et": null,
    "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
    "mget_legs_tested": [
     "Leg 6 (algorithmic enclosure)",
@@ -3754,6 +4055,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns"
@@ -3764,6 +4066,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "spr-runway-breaks-before-midterms",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns",
@@ -3775,6 +4078,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "strait-of-hormuz-blockade",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns",
@@ -3786,6 +4090,7 @@
   },
   {
    "date": "2026-09-08",
+   "time_et": null,
    "track": "exogenous-climatic-shock",
    "mget_legs_tested": [
     "Leg 1 Complexity Cap"
@@ -3796,6 +4101,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "ukraine-strikes-russian-oil",
    "mget_legs_tested": [
     "Leg 4 Complexity Diminishing Returns"
@@ -3806,6 +4112,7 @@
   },
   {
    "date": "2026-09-04",
+   "time_et": null,
    "track": "world-war-iii-prologue",
    "mget_legs_tested": [
     "Leg 5 Fourth Turning",
