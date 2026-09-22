@@ -1,0 +1,187 @@
+[
+ {
+  "date": "2026-09-21",
+  "track": "iran-war/strike-decision-window",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "r/oil prediction vs. record: Trump confirmed (9/17 Newsmax, Axios) he faces a 'big decision' on resuming massive attacks on Iran; cut Camp David short 9/20; State Dept security alert 9/19 'leave Iran now', worldwide caution in effect; UNGA convening this week; midterms ~6 weeks out. Reddit prediction is one of two live hypotheses and the correction runs through it: on 9/9 Trump said the war 'could come to an end right after the November 3 midterm congressional elections', then 9/20 said peace 'could happen before the midterms' — timeline slipping EARLIER, not later, which cuts against the pure delay-to-post-election thesis. The 'great leaders asked me not to attack' de-escalation cover remains plausible as a face-saving off-ramp but is not yet evidenced; what IS evidenced is decision pressure rising on a compressed clock (Houthi escalation to Riyadh adds a second front forcing the choice).",
+  "forward_signal": "Live testable split: (A) strike before midterms for strength narrative, (B) delay with threats + 'asked me not to' cover, (C) pre-midterm ceasefire/peace announcement (now hinted by Trump's own 9/20 'before the midterms' line). Falsifiers set: UNGA-week rhetoric direction; State alert escalation/relaxation; strike execution or credible 'called it off' attribution story. Watch Houthi-Riyadh front as independent forcing function. Oil-market reaction to each branch noted for tape-vs-narrative divergence check."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "iran-war",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "strains",
+  "reasoning": "IRGC spokesman Mohebbi: 'if a new aggression takes place, we will definitely change the weapons and geography of the war' — deliberate category-of-surprise pre-commitment (new theater, new system), paired with face-saving frame ('US already defeated but lacks courage to admit') that argues against imminent major escalation. Trump same cycle (Fox/Trey Yingst): options listed as 'wiping Iran out, letting them rot economically, or making a deal' plus 'If and when do I blow the entire nation up? They better behave.' Genocidal-intimation now ambient option-space, not scandal. War at 7 months: 22+ US dead (WaPo 9/18: exceeds Pentagon disclosure), 820+ wounded, 3500+ Iranian dead, approval collapse with base (IGA 'War President: The Iran Trap', Politico July). Vance/Rubio reportedly war-gaming conflict past Inauguration Day 2029 (WSJ): operators have stopped believing in the Kushner/Witkoff deal pathway. Leg 4 strains: vanguard alignment persists despite cost collapse — elite consensus for war holds with no internal exit faction visible.",
+  "forward_signal": "1) 'Geography of the war' reads most plausibly as Gulf shipping resumption or Saudi/Emirati energy infrastructure (Yasref/Yanbu thread, 2026-09-15) — watch tanker and insurance tape within 72h of any US strike. 2) 'Letting them rot economically' is the quiet-favorite option for an approval-sinking president; watch for secondary-enforcement escalation against buyers of Iranian oil (China) as the non-strike path. 3) Same-cycle domestic: press ban drew exactly one (1) Republican public critic (Simpson); pool halt day 3; diGenova conspiracy probe continuing subpoenas post-resignation (Brennan). Four crack-up fronts serialized in one news bundle — fatigue-asymmetry intact.",
+  "confidence_moves": "iran-war leg-4 strain noted: alignment persists through month 7 of cost collapse"
+ },
+ {
+  "date": "2026-09-21",
+  "track": "vanguard-split-2027",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "MAMDANI MEETS TRUMP AT GRACIE MANSION TODAY (AP 9/21): first NYC mayoral meeting since election; regime engaging its highest-profile domestic opposition mayor directly. Cross-cutting signal: could be co-optation (R3 mirror - absorb the opposition into the enclosure economy) or isolation (separate the mayor from the national Dems). NYT notes 'issues affecting New Yorkers'. Vanguard-split watch: if the meeting yields cooperation (federal funds, ICE carve-outs), the regime is splitting the opposition vanguard - a Leg 4 diagnostic either way.",
+  "forward_signal": "WATCH: (1) outcomes/announcements from the meeting; (2) whether MAGA media attacks or praises Mamdani post-meeting (the split-diagnostic); (3) NYC as template city for selective accommodation."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "election-integrity",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "NEWSOM SIGNS 13 ANTI-INTERFERENCE BILLS (NYT 9/19): California legislating against possible FEDERAL election interference - a state building defensive infrastructure against its own federal government. This is the first formal state-level Branch B defensive architecture: blue states preemptively hardening certification/interference surfaces ahead of the node. Directly relevant to the gated model: the Branch A vs Branch B fork will partly be decided by whether defensive state capacity can match federal offensive capacity.",
+  "forward_signal": "WATCH: (1) other states replicating (cascade indicator); (2) DOJ response to CA laws (preemption litigation); (3) interaction with draft-EO emergency-election scenario from TNR card."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "enclosure-science",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "NIH EXTERNAL VETO COMMITTEE EO IN DRAFTING (WaPo/NYT 9/18-20): White House drafting EO creating external committee with power to veto NIH research awards not conforming to the political agenda; Vought pushing in Oval Office. Direct scientific-enclosure card - the intellectual-homestead thread: research funding (the substrate of institutional knowledge production) placed under political veto. Third federal science enclosure this month after CDC epistemic capture and the AI guardrail orders.",
+  "forward_signal": "WATCH: (1) EO signing; (2) whether universities litigate (risk of emergency docket); (3) whether the committee model is replicated to NSF/DOE/DoD research portfolios (generalization = full R&D enclosure)."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "domestic/academic-science-enclosure",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Draft EO would give OMB head Russ Vought veto power over every individual NIH grant, via unanimous committee with NIH director Bhattacharya (who objected and lost, per WaPo 9/18 meeting leak, confirmed by NYT/Politico). Third attempt at same objective after Congress blocked the halving budget and courts voided the DOGE grant terminations and the political-criteria funding rule (now on hold to December): when the front door is blocked, use the EO side door. Motivating lever: Harvard revenge — grant veto as workaround after courts ordered $2.6B restored. Mechanics practically impossible (64k+ grants/yr), which is the point: the mechanism is an impoundment device — if vetoes can't be reallocated (peer-review reranking also under attack), NIH simply cannot spend its appropriation, an end-run around Congress's power of the purse.",
+  "forward_signal": "WATCH: (1) EO signature timing — before or after the December Congress deal expires; (2) standing/first lawsuit — a rejected grantee sues; timing gap = damage window (could freeze billions before injunction); (3) whether committee applies to Harvard-adjacent institutions first as targeted test case; (4) Bhattacharya behavior — resignation letter would be the elite-defection tell; (5) peer-review rule status in December appropriations."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "enclosure-legal",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "DOJ/OLC: 1968 HANDGUN AGE RESTRICTION UNENFORCEABLE (Axios 9/18, Gaiser OLC opinion signed): DOJ unilaterally declares federal law unconstitutional via OLC opinion - the self-healing emergency pattern (1933 card) applied to gun policy: the executive overrides Congress by advisory opinion, no legislation, no court ruling. Enclosure of the legislative function via legal opinion - the ICC-sanction mechanism transposed domestically. Also relevant to domestic-enforcement groundwork: armed 18-20 cohort expanded ahead of the node.",
+  "forward_signal": "WATCH: (1) whether pattern repeats for other statutes DOJ dislikes (precedent cascade = wholesale legislative enclosure by OLC); (2) ATF enforcement posture; (3) court challenges to the opinion itself."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "trade/canada-pressure-potash",
+  "mget_legs_tested": [
+   "elite-overproduction",
+   "narrative-repair"
+  ],
+  "verdict": "strains",
+  "reasoning": "AUTHENTICITY GATE: SPLIT. Layer 1 (Trump Truth Social, 7:47 AM, verbatim via MeidasTouch): US working on 'massive Deal' to buy Belarusian potash at pricing 'substantially less than we are currently paying to Canada' - explicit Canada-pressure play, classic third-party substitution threat. Layer 2 (Nasha Niva, 16:26 local, same day): Lukashenka, receiving State Customs Committee head Orlovsky, says 'Even if we wanted to supply potash to the West, there's nothing to supply' - i.e., Belarusian side immediately undercut the deal's feasibility. Read: Trump's post is leverage messaging aimed at Ottawa (and Saskatchewan potash producers) ahead of trade talks, not a near-term supply reality. Belarus potash exports remain sanctioned-dependent and Lukashenka himself says capacity is not there. Timing same-day as Lukashenka's own statement suggests coordinated signaling or at least mutual awareness - Belarus gets legitimacy photo-op, Trump gets Canada-leverage headline. Falls in the same family as the Greenland framing play: announcement-level leverage before text/substance exists.",
+  "forward_signal": "(1) Whether any actual purchase agreement/instrument materializes (watch for signed deal or none); (2) Canadian response - Ottawa/Saskatchewan counter-messaging or concession in trade talks; (3) fertilizer price tape vs 'very good news for farmers' claim; (4) whether Belarus potash volumes actually move west (customs data) - if not, the deal was pure leverage and dies quietly.",
+  "confidence_moves": null,
+  "time_et": "07:47"
+ },
+ {
+  "date": "2026-09-21",
+  "track": "macro-statistics",
+  "mget_legs_tested": [
+   "bribe_cycle"
+  ],
+  "verdict": "strains",
+  "reasoning": "RUSSIAN DUMA ELECTIONS: UNITED RUSSIA 57.5% PARTIAL (Reuters 9/20-21): controlled-election model visible: partial results with the ruling party on track to a manufactured majority. Directly relevant to the Branch A certification-fight scenario: the international template for managed elections is in view, and the regime's international affinity network (Fico, AfD, Kremlin) has a working model of post-election management. STRAINS the Branch B assumption that domestic certification can't be managed - the tools exist and are being demonstrated.",
+  "forward_signal": "WATCH: (1) OSCE/election observation response; (2) whether US admin comments approvingly (affinity tell); (3) whether the managed-election playbook (partial results, turnout claims) echoes in US discourse pre-node."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "iran-war/diesel-attribution",
+  "mget_legs_tested": [
+   "narrative-repair"
+  ],
+  "verdict": "confirms",
+  "reasoning": "AUTHENTICITY GATE: PASSED. Primary sources: Trump Truth Social quote + Zelensky X response, both verbatim in Kyiv Independent (2026-09-21, 15:36 UTC). Trump pre-Zelensky-meeting (this week, NYC): 'Russia has unfortunately lost control of its Diesel Oil Industry due to its War with Ukraine'; refineries 'blown up... temporarily out of commission'; 'whole world suffers.' Zelensky: 'From the very first minute, Ukraine has sought peace' + energy/critical infrastructure/food exports must stop being targets for 'matching de-escalation steps.' Context: Moscow Oil Refinery ablaze after 'largest-ever' drone/missile blitz (9/20); Zelensky approved 'new long-range operations' (9/20); 2,000+ drones launched on Ukraine past week. ATTRIBUTION FRAMING CONFIRMED: Trump explicitly blames Ukrainian refinery strikes for global diesel cost pressure. KI already has an experts-rebuttal piece on file ('There's one massive problem with Trump's Ukraine diesel price theory') - experts say little evidence supports it, US-Iran war is the main driver. Kremlin calls energy-strike pause a 'very good idea' but conditions it on sanctions relief. Naftogaz building storage in Hungary for winter. EU sanctions crisis: France+Slovakia forcing delist of two Russian oligarchs, extension cut to 36 months for 3,000-euro-linked sanctions.",
+  "forward_signal": "(1) Zelensky-Trump NYC meeting outcome - energy truce terms; (2) whether 'lost control of diesel industry' framing migrates to US domestic diesel-price messaging (watch for it in WH press briefings this week as domestic attribution deflection); (3) Kremlin conditionality (sanctions relief) as the energy-truce sticking point; (4) EU sanctions-extension fragility (France/Slovakia oligarch delist) as second front of Western cohesion erosion.",
+  "confidence_moves": null,
+  "time_et": "15:36"
+ },
+ {
+  "date": "2026-09-21",
+  "track": "media/fundraising-grift-architecture",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Trump campaign email to user follows canonical grift architecture: (1) fake urgency — '(1) EVENT CANCELLED', 'READ. READ. READ.', 'URGENT MEMO', countdown/ultimatum framing; (2) fake personal address — first-name intimacy from 'Donald John Trump', 'I canceled my lunch break because I had to debate whether this was worth sharing with you'; (3) fake scarcity/insider framing — 'far too important to keep from you'; (4) monetization hook — Platinum Membership upsell. Format matches template family used across 2024-2026 fundraising: same subject-line grammar, same red-alert banners, same faux-episodic urgency. Analytically notable: this is the same psychological-urgency toolkit (alarm, personal appeal, exclusivity) applied to low-stakes monetization that the political apparatus applies to high-stakes mobilization — one shared rhetorical infrastructure, calibrated by A/B testing against donor response rather than by truth value.",
+  "forward_signal": "WATCH: (1) whether email cadence increases as midterms approach (fundraising desperation signal); (2) Platinum-Membership-tier naming vs actual legal entity receiving funds (WinRed/Joint Fundraising Committee opacity); (3) same template appearing from affiliated PACs (test of shared vendor infrastructure); (4) user-side: these are useful primary artifacts — archive subject-line text and dates for pattern-tracking rather than deleting."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "war-question-duel",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment",
+   "bribe_cycle"
+  ],
+  "verdict": "confirms",
+  "reasoning": "TRUMP: OIL 'WON'T COME DOWN UNTIL AFTER MIDTERMS' + IRAN ESCALATION RHETORIC (AP, and Trump 'inexpensive price to pay' framing): the bribe-cycle narrative is now ADMITTING the choke - the administration is openly pricing the war's economic cost to voters and framing it as patriotic necessity. This is the regime choosing the R1 (war posture) branch of the duel over R2 (negotiate) INTO the node: escalation cadence (tanker strikes 9/9, Yanbu, oil >$100 Brent) continues while the FARA narrative lockdown and media ban run in parallel. Trump simultaneously threatening Iran's 'leadership being wiped out' while Pezeshkian comes to NY = negotiation-through-coercion. KEY TELL: acknowledging prices won't fall pre-election is an implicit admission the choke is real - the statistical-concealment layer (record income, Dividend check) is being asked to cover a physical cost the regime now publicly concedes. Tape-vs-substrate divergence management by rhetoric.",
+  "forward_signal": "WATCH: (1) does the 'inexpensive price to pay' framing hold as Midwest diesel (Joliet) compounds - the moment the bribe-cycle spread visibly diverges, watch for subsidy/rationing rhetoric; (2) Pezeshkian UN meeting - if a deal framework appears, R2 exit opens; if talks collapse into strikes, R1 hardens into the node; (3) Xi visit 9/23-25 (confirmed by Chinese MFA) - watch for tariff/rare-earth relief valve (leg-1 test)."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "domestic-repression/pool-collapse",
+  "mget_legs_tested": [
+   "vanguard-alignment",
+   "elite-overproduction"
+  ],
+  "verdict": "confirms",
+  "reasoning": "AUTHENTICITY GATE: PASSED. Primary: Mercado Media post (pool announcement quoted verbatim) + pool's own statement text. The five-network TV pool (CNN/ABC/CBS/NBC/Fox News) halted all presidential pool coverage effective today after WH blocked CNN from fulfilling its assignment; no replacement pool put in place. MS NOW and Politico suing after credentials disabled without warning. UNGA trip this week is uncovered. ABSORPTION CONFIRMED: 9/18 media-ban entry predicted the ban as weekend cycle-filler for oil news; escalation now shows three WH benefits as owner identified: (1) attack press + assert dominance + control access while coverage obligation remains (press cannot refuse to cover WH, only the pool can refuse to participate, and it just did - which is the WH-preferred end state: disunited press, no unified front); (2) self-owned media channels carry framing directly; (3) precedent mapping: election-interference address non-carry. Structural note: pool refusal to send substitutes is the press's biggest self-inflicted wound - WH gets dominance without having to dismantle the pool itself; litigation (MS NOW, Politico) buys months of friendly-terrain delay.",
+  "forward_signal": "(1) whether WH installs its own chosen replacement pool (OAN/RSBN-style) as the permanent structure; (2) court posture on MS NOW/Politico suits in the known-friendly terrain pattern; (3) whether oil news breaks through to equal billing this week or press-ban story still crowds it out; (4) UNGA coverage gap as test of how much events coverage matters to narrative volume.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-21",
+  "track": "boat-strikes-criminality",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "UN RAPPORTEUR: 68 STRIKES, 223 DEAD = CRIMES AGAINST HUMANITY (Briefing Note, 9/20; also latest Caribbean strike kills 4, 9/19): formal international-law finding that the boat-strike campaign constitutes murder under customary international law. The strikes continue at cadence DESPITE the finding - the accountability enclosure is complete (ICC sanctions same window). This is the clearest regime-vs-international-law fork signal of the cycle: the regime has chosen defiance at document level while sanctioning the institutions that would adjudicate it.",
+  "forward_signal": "WATCH: (1) whether strike cadence changes post-finding (it hasn't); (2) which states act on the note (referrals?); (3) domestic legal exposure channels (state AGs? civil suits?)."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "media/narrative-repair-media-bans",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Vance defends WH media ban on CNN/MS NOW/Politico with reframing: 'not banning outlets, just refusing special access for propaganda.' Confirms the narrative-repair sequence logged 9/18: (1) formal ban with expansion clause, (2) sympathetic-outlet laundering of the justification (Blaze amplifying), (3) semantic retreat — 'not a ban, just access removal' — while function identical. Reported suits by the banned outlets mean the de-legitimization fight moves into courts, which historically produces further escalation on 'activist judges' narrative. Blaze framing 'no more special privileges for the FAKE NEWS' shows the base-laundering channel is operating as designed.",
+  "forward_signal": "WATCH: (1) court outcomes on the suits — an adverse ruling becomes the next 'deep state judiciary' escalation node; (2) whether 'special access' reframing is adopted by additional administration surrogates (message-consolidation test); (3) next outlets added to ban list vs 'Fake News Media Outlets to follow' clause; (4) press-freedom NGOs / First Amendment orgs engagement as institutional-pushback indicator."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "purge-leg4",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "MAJ. JASON WATSON ARTICLE 32 PROCEEDS (NYT 9/19-21): Air Force officer arrested in uniform at Capitol July for calling for impeachment; Article 32 hearing Friday; prosecutors framing constitutional defense as 'vitriolic attacks on the character of the president'. Confirms the impeachment-votes-tabled absorption card (9/15) - the regime is criminalizing the impeachment pathway itself, and the vanguard's military wing is being disciplined for constitutional speech. Purge track: uniformed dissent is now a court-martial matter - the 1933 Reichswehr-parallel watch item (military as independent check) is failing to hold.",
+  "forward_signal": "WATCH: (1) referral decision; (2) whether other officers face discipline (cascade = purge of the officer corps' independent voice); (3) whether Hegseth squeeze context (chaplaincy purge) generalizes - all services."
+ },
+ {
+  "date": "2026-09-21",
+  "track": "narrative-control",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "WHITE HOUSE BANS CNN/MS NOW/POLITICO + SUIT FILED (Axios 9/18, NYT 9/21): credential revocation 'effective immediately' with threat to expand; joint First Amendment suit filed 9/21. The absorption card 'wh-media-ban-cover' (9/18) now confirmed and escalating - the control-first sequence holds (control before consolidation). Also a pre-node narrative-lockdown move paralleling the FARA influencer warning: both the official press corps AND the independent influencer economy are being disciplined in the same window.",
+  "forward_signal": "WATCH: (1) expansion of ban list (threat already made); (2) whether friendly outlets inherit the revoked access (Galloway-model capture); (3) litigation trajectory - if injunction fails via emergency docket, the press-access enclosure degrades the last shared factual floor before the node; (4) triad parallel: press access + FARA warning + statistical layer = full-spectrum pre-node narrative management."
+ }
+]
