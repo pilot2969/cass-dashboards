@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://cdn.tailwindcss.com"></script><title>CASS Intelligence Board</title><script>
 // ---- shared utils (hoisted so engine + renderer see one copy) ----
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const etf=(d,t)=>t?esc(d)+' · '+esc(t)+' ET':esc(d);
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
 const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
 window.__CASS_UTILS={esc,norm,badge};
@@ -179,7 +180,6 @@ h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger</h3>`;
 const VERDICT_CLS=v=>v==='confirms'?'text-emerald-400':v==='strains'?'text-amber-400':v==='undermines'?'text-red-400':'text-slate-400';
 const VERDICT_BORDER=v=>v==='confirms'?'border-emerald-500/40':v==='strains'?'border-amber-500/40':v==='undermines'?'border-red-500/40':'border-slate-600';
 const LEDGER_ALL=D.mget_ledger||[];
-const etf=(d,t)=>t?esc(d)+' · '+esc(t)+' ET':esc(d);
 const ledgerLine=l=>`<li class="text-sm text-slate-300 border-l-2 ${VERDICT_BORDER(l.verdict||'')} pl-3"><span class="text-emerald-400 font-semibold">${esc(l.date)}</span> — <span class="text-slate-100 font-medium">${esc((l.track||'').split('-').slice(0,3).join(' '))}</span> <span class="${VERDICT_CLS(l.verdict||'')}">${esc(l.verdict||'')}</span><br><span class="text-slate-400">${esc((l.reasoning||'').slice(0,110))}${(l.reasoning||'').length>110?'…':''}</span></li>`;
 h+=`<details class="card p-6 rounded-xl border-l-4 border-slate-600 mb-8"><summary class="text-xl font-bold text-slate-200">📚 MGET Ledger — ${LEDGER_ALL.length} entries · click to expand <span class="chev text-slate-400">▶</span></summary>
 <div class="mt-4"><p class="text-slate-400 text-xs mb-3">The MGET Ledger is the running record of the board's model being tested against reality. Every real-world event gets scored against the four structural legs it stresses — <strong class="text-amber-400">complexity cap</strong> (material substrate: energy, logistics, money), <strong class="text-amber-400">elite overproduction</strong>, <strong class="text-amber-400">enclosure mutation</strong> (institutions turning opaque or unaccountable), and <strong class="text-amber-400">vanguard alignment</strong> — and receives one of four verdicts: <span class="text-emerald-400">confirms</span> (the event behaved as the model expects), <span class="text-amber-400">strains</span> (partially consistent, watch closely), <span class="text-red-400">undermines</span> (the model got it wrong — logged in public), or <span class="text-slate-400">neutral</span>. Entries are newest first; use the filter chips to isolate a verdict. A ledger that only ever says "confirms" is a diary, not a test.</p><div id="ledger-filters" class="flex flex-wrap gap-2 mb-3"></div>
