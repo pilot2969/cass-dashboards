@@ -1,0 +1,464 @@
+[
+ {
+  "date": "2026-09-04",
+  "track": "9-11-inversion-false-flag",
+  "mget_legs_tested": [
+   "Leg 6 Algorithmic Enclosure",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "neutral",
+  "reasoning": "Speculative track (conf 35). Only becomes MGET evidence if a false-flag is proven; otherwise it is a narrative-coherence probe. Logged neutral - neither confirms nor strengthens any leg.",
+  "forward_signal": "Proven perpetrator(s); forensic corroboration independent of official narrative."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "assassination-as-catalyst-kirk",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "neutral",
+  "reasoning": "CONFIRMED event (Kirk death), but confirming a death does not test the enclosing-force cycle itself. Logged neutral on MGET legs.",
+  "forward_signal": "Whether the death becomes a catalytic legitimizing pivot for a Reichstag-style escalation (this WOULD feed Leg 5/6)."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "domestic-enforcement-groundwork",
+  "mget_legs_tested": [
+   "Leg 1 Enclosing Force",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Anti-migrant/anti-muslim base mobilization plus enforcement groundwork is a direct expression of Leg 1 coercive mutation of the enclosing force. Strong confirm.",
+  "forward_signal": "Expansion of detention/enforcement infrastructure; quiet-track mobilization converting to overt policy."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "fertilizer-supply-crisis",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Global supply-chain fragility (fertilizer) firing is classic Tainter - the complex interdependent system breaks at its leveraged node. Confirms Leg 4 and the enclosing force food-security lever.",
+  "forward_signal": "Actual fertilizer price/availability disruption; famine-scale stress reaching domestic populations."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "ground-invasion-of-iran",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "strains",
+  "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+  "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "iran-naval-escort-escalation",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+  "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "kemalist-preference-reichstag-fallback",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+  "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "kinetic-european-conflict",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "strains",
+  "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+  "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "kirk-anniversary-narrative-2026",
+  "mget_legs_tested": [
+   "Leg 6 Algorithmic Enclosure",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "neutral",
+  "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+  "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "mid-august-oil-price-shock",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "strains",
+  "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+  "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism)."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "military-coup-fourth-turning",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "strains",
+  "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+  "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "nato-conditional-guilt",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+  "forward_signal": "Public repricing of the security guarantee; alliance fragmentation."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "post-trump-restructure",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+  "forward_signal": "Named fall guy; who assumes consolidated power."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "regime-power-retention",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Regime refusal to cede power regardless of outcome is the defining attribute of a crisis-seat regime. Confirms Leg 5 and its algorithmic-enforcement subset (ballot-data control).",
+  "forward_signal": "SCOTUS USPS ruling; first-mailing-week bulk-rejection; DOJ enforcement-shielding extending to election officials."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "reichstag-fire-national-emergency",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 6 Algorithmic Enclosure"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Planned national-emergency completion of the authoritarian transition is the most direct Leg 5 confirmation on the board. High but pending.",
+  "forward_signal": "October catastrophe trigger; a false-flag or catalyzing event legitimizing the emergency."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "russian-internal-fragility",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Russian fragility under fuel-crisis bite is a Tainter-style system-under-stress reading - external war plus internal economic collapse. Confirms Leg 4 (adversary state application).",
+  "forward_signal": "Autumn fuel-crisis depth; a Russian internal break."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "spr-runway-breaks-before-midterms",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 5 Fourth Turning"
+  ],
+  "verdict": "confirms",
+  "reasoning": "SPR runway breaking before midterms (SPR below 300M, confirmed) is a precise Tainter node-failure AND crisis-timing pressure. Confirms Leg 4 and feeds Leg 5.",
+  "forward_signal": "SPR weekly drain; whether the runway breaks on schedule; oil-shock arrival pre-midterms."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "strait-of-hormuz-blockade",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns",
+   "Leg 1 Enclosing Force"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Hormuz effectively closed (~95% traffic drop, confirmed). The most leveraged global supply node severed is the strongest Tainter confirm on the board. Confirms Leg 4 and Leg 1 resource-lever.",
+  "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "ukraine-strikes-russian-oil",
+  "mget_legs_tested": [
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "confirms",
+  "reasoning": "CONFIRMED event. Ukraine striking Russian oil = functioning leverage node. Confirm on Leg 4 (supply-chain weaponization) though it is a confirmed fact more than a cycle-test.",
+  "forward_signal": "Impact on Russian fuel/economic stability feeding russian-internal-fragility."
+ },
+ {
+  "date": "2026-09-04",
+  "track": "world-war-iii-prologue",
+  "mget_legs_tested": [
+   "Leg 5 Fourth Turning",
+   "Leg 4 Complexity Diminishing Returns"
+  ],
+  "verdict": "strains",
+  "reasoning": "Interlocking-theater master thesis (conf 56). Fronts not yet converging - strains maximal global-war reading, but each theater's stress (Hormuz, Baltic, Ukraine) is confirmed. Higher-order synthesis watched for convergence.",
+  "forward_signal": "Cross-theater escalation (two simultaneous major theaters engaging); Hormuz-to-European-NATO linkage."
+ },
+ {
+  "date": "2026-09-06",
+  "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
+  "mget_legs_tested": [
+   "Leg 6 (algorithmic enclosure)",
+   "complexity cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
+  "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
+ },
+ {
+  "date": "2026-09-08",
+  "track": "market-actuarial",
+  "mget_legs_tested": [],
+  "verdict": "neutral",
+  "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels — betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location — Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted — the Crowd can read the instrument but mostly lacks the interpretation layer.",
+  "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd — the interpretation gap is the show's lane."
+ },
+ {
+  "date": "2026-09-08",
+  "track": "exogenous-climatic-shock",
+  "mget_legs_tested": [
+   "Leg 1 Complexity Cap"
+  ],
+  "verdict": "strains",
+  "reasoning": "WMO / UN warnings of a record 'supersized' El Niño forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
+  "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
+ },
+ {
+  "date": "2026-09-09",
+  "track": "regional-infrastructure-cascade",
+  "mget_legs_tested": [
+   "Leg 1 Complexity Cap",
+   "Leg 3 Enclosure Mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Houthi drone/missile strike targeting Abha International Airport adjacent to Saudi Aramco facilities. Proves conflict is leaping maritime chokepoints (Hormuz) to target land-based energy extraction and regional nodes. Directly triggers the Mecca Defence Alliance (Saudi-Pakistan-Turkey collective security pact), testing whether external nuclear-backed guarantees activate as regional friction compounds.",
+  "forward_signal": "Response of the Mecca Defence Alliance (Pakistan/Turkey) to direct strikes on Saudi energy infrastructure; Brent crude reaction; spread of kinetic engagements outside immediate Gulf basin."
+ },
+ {
+  "date": "2026-09-09",
+  "track": "electoral-foreign-policy-coupling",
+  "mget_legs_tested": [
+   "Leg 1 Complexity Cap",
+   "Leg 2 Elite Overproduction"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Executive publicly pins cessation of a 7-month hot war to the Nov 3 midterm date: foreign policy is now managed as a domestic survival valve, with Brent >$100 and record-low approval as the pressure drivers. Confirm on Leg 1 (complexity cap) and Leg 2 (elite overproduction -> performative signaling).",
+  "forward_signal": "Does the conflict actually cease post-Nov 3? Watch: Hormuz shipping flow, Brent price, CENTCOM activity. Falsifier: war continues or expands past midterms -> coupling thesis breaks."
+ },
+ {
+  "date": "2026-09-09",
+  "track": "inverted-cycle-domestic-turn",
+  "mget_legs_tested": [
+   "Leg 2 Elite Overproduction",
+   "Leg 3 Enclosure Mutation",
+   "Leg 4 Vanguard Alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "CYCLE INVERSION THESIS: The 1930s-40s turning resolved OUTWARD (external enemy, Bretton Woods, expanded state). This cycle cannot run that solve function - enclosure is global, so mutation points INWARD (segmentation, walls, internal segmentation); elite overproduction can only fight over positions inside the walls; alliance architecture is dissolving toward regional blocs (Mecca Defence Alliance excluding the hegemon). Foreign conflicts are distractions THAT KEEP FAILING TO DISTRACT: the tool (external war as legitimacy device) remains in use but has stopped working - the principal himself reframed the war as an electoral stop-loss before the fact, and the audience reads the mechanism aloud (inversion-tier delegitimization). The war comes home not as troops but as FALSIFIED PROMISES at machine speed: the collapse of the distinction between foreign policy and domestic control. Structural correction: rupture is at the CORE this cycle (actuarial table, bankruptcy resolution, delegitimization manifest) not the periphery.",
+  "forward_signal": "FALSIFIER SET: If thesis holds, the regime PREFERS de-escalation abroad post-Nov 3 while escalating DOMESTICALLY regardless of war outcome - emergency powers, enforcement budgets, surveillance expansion. Track: (1) domestic enforcement/surveillance budget lines post-midterm; (2) repression_event entries with nspm7 alignment; (3) whether war winds down AND machinery built to fight it is retained domestically (the tell: machinery outlives the war); (4) Mecca Alliance activation as the D2/D3 discriminator. CONTRA: if post-Nov 3 shows genuine demobilization (war powers sunset, budgets cut, agencies shrunk), thesis breaks - the machinery was war-specific, not conversion-ready."
+ },
+ {
+  "date": "2026-09-10",
+  "track": "media-vanguard-split",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Leg 4 split is visible in the media wing, not just in state offices. Pattern: institutional media figures face a forced choice between fence-riding (regime-adjacent corporate owners, FCC leverage) and open break. Observed markers: broadcast vanguard purged/neutralized (Kimmel suspension after FCC pressure; Colbert's cancellation following politically-timed criticism, Paramount/Skydance merger pressure), independent media surging as the defection lane (Substack/podcast economics reward visible defiance), Comedy Central/animation wing (South Park) openly mocking the regime while drawing record engagement — the satire wing chose sides. Public trust in mainstream media at historic lows means fence-sitting buys vanguards nothing: audiences punish both conformity and cowardice. The resignations and cancellations are the same mechanism as state pre-positioning: the choice is being forced at every institutional layer, and the fence is collapsing under each of them.",
+  "forward_signal": "Watch for further resignations from legacy outlets with named successors drawn from the independent lane; watch for FCC/license lever being applied to remaining broadcast vanguards; watch whether social-media platform policy hardens into overt enforcement (the enclosure mutating to control the defection lane itself). If satire and independent media absorb the defection wave while broadcast vanguard hollows, media-Leg-4 split is confirmed as leading the state-level split in timing."
+ },
+ {
+  "date": "2026-09-10",
+  "track": "inward-targeting-vector",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Round 2 red-team (selection bias attack). Skeptic charged cherry-picking: outward arms posture and China rhetoric contradict the inward vector. Defense held on (a) resource-following: interceptor stockpile depletion vs. ICE procurement expansion (stun gloves, SUVs, detention centers) is physical, not rhetorical evidence. Key testable cut: if ICE detention population grows faster than removal counts, detention itself is the mission. Defense strained on (b): 'rhetoric stops working' is a mood until converted to observables (polling, war-support, enlistment decay). Guard against unfalsifiability: rhetoric thesis only survives welded to the resource ledger.",
+  "forward_signal": "Watch ICE detention population vs. actual removal counts divergence. Also watch outward-rhetoric efficacy metrics: polling on adversary framing, enlistment, official-messaging engagement decay. Any divergence between the two vectors is a confirming datapoint."
+ },
+ {
+  "date": "2026-09-11",
+  "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
+  "mget_legs_tested": [
+   "Leg 1 Enclosing Force (chokepoint pressure)",
+   "Leg 2 Elite Overproduction (cover thesis)"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Independent convergence: Prof Robert Pape (Escalation Trap, UChicago, CPOST) — the top-tier Iran analyst — reaches the same structural read as the CASS ledger via purely operational data: tactical success without political surrender, chokepoint (Hormuz) pressure now horizontally expanding to a second front (Houthi/Bab el-Mandeb), multi-theater escort strain. Independent replication of the Houthi fork (76) and Iran escalation mechanics. Leg 1 confirmed; Leg 2 partially confirmed (Pape's trap is strategic, not domestic — the domestic-necessity layer remains CASS's contribution and stays open).",
+  "forward_signal": "Pape's nightmare-scenario receipt: F-15/F-35 buildup pattern historically precedes escalation, not de-escalation — logged as HONEST straining signal against the Potemkin thesis (War Question spread watchlist). Also: his framework predicts escalation-begets-escalation, which the ledger should test against the November Pause window. Budget tell continues as Thesis B discriminator."
+ },
+ {
+  "date": "2026-09-12",
+  "track": "macro-thesis",
+  "mget_legs_tested": [
+   "Leg 1: Complexity Cap",
+   "Leg 3: Enclosure Mutation",
+   "Leg 4: Vanguard Alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Full CASS evaluation of the terminal-unwinding thesis: Leg A (material substrate) confirmed high confidence — chokepoint enclosures and energy redlining exceed the imperial balance sheet; Leg B (institutional substrate) confirmed high — battery scores in corridor, legitimacy cascade underway; Leg C (behavioral reversion) confirmed moderate-high — corporate neutrality breakdown (Steak 'n Shake) marks reversion to factional capitalism. All three pillars reversion consistent with Leg 1/3 saturation preceding Leg 4 break.",
+  "forward_signal": "Falsifiers armed: naval restoral, institutional rebound, or corporate retreat within 24-36 months would kill the thesis. Watch January 3 mechanism as nearest-term stress test."
+ },
+ {
+  "date": "2026-09-12",
+  "track": "NLT backtest + vanguard-break correlation",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "NLT inversion precedes Leg 4 fracture in all three backtested turnings (1789, 1860, 1930-33). Owner hypothesis (legs 1-3 firing = precondition for leg 4) is consistent: NLT inversion is the observable mechanism by which saturated legs 1-3 convert into vanguard defection.",
+  "forward_signal": "Current NLT is inverted (apocalyptic content saturates in hours; institutional response lags days-weeks). Watch for vanguard defection signs within one political season per gauge."
+ },
+ {
+  "date": "2026-09-13",
+  "track": "macro-thesis-unwinding",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "24-hour acceleration across all four legs simultaneously: (1) Complexity Cap — Fifth Fleet evacuation, hub-and-spoke security model functionally bypassed by Saudi-Israel direct coordination; regional powers negotiating Hormuz reopening without Washington. (2) Elite Overproduction — retail-layer contagion (Costco rationing) and panic-language telemetry confirm substrate squeeze reaching households. (3) Enclosure Mutation — chokepoint closures hardening (Bab el-Mandeb, Hormuz); Saudi Eastern Province mobilization signals regional powers shifting from client to sovereign security actors. (4) Vanguard Alignment — panic language proliferating on feeds ('stock up on gas'), algorithmic feeds fusing geopolitical and domestic crisis into single high-arousal stream. Every falsifier armed remains untriggered; all counter-indicators moved further into unwinding column.",
+  "forward_signal": "Confidence recalibrated 88% -> 94%. Next watch: further hub-and-spoke bypass pacts (Egypt, Qatar, Turkey); whether Washington responds with genuine kinetic re-assertion or doubles down on administrative gaslighting ('worthless piece of water'); Threshold Watch public issuance Friday 9/18."
+ },
+ {
+  "date": "2026-09-14",
+  "track": "elite-overproduction",
+  "mget_legs_tested": [
+   "leg_2_elite_overproduction"
+  ],
+  "verdict": "confirms",
+  "reasoning": "r/personalfinance (via The Atheist Socialist / Ohio Weath... FB repost): 25yo engineer laid off 3 months, applied to 300 jobs, zero full-qualified offers, recruiters not even reaching out, told by hiring managers the nearest city is '50 minutes away.' Burned through $50k savings in 6 months, now on Medicaid and food stamps, considering 401k withdrawal. This is textbook elite overproduction at the individual level: a credentialed, skilled professional - the exact demographic Peter Turchin's model predicts will be produced in surplus relative to available elite positions - hitting the wall. The Engineers-into-unemployment pipeline is a leading indicator of the vanguard-alignment leg: when the credentialed-but-declasse professional class has no institutional path, it becomes politically available for either reform or capture. The 401k-raid detail is the tell: the household buffer is exhausted, meaning this cohort is one shock from the Great Retreat / unwinding posture we track.",
+  "forward_signal": "Watch: (1) whether this engineer's cohort appears in 'laid off but still loyal' or 'laid off and radicalizing' bifurcation over next 6 months; (2) engineer-specific unemployment data (tech, aerospace, defense) as leading indicator for vanguard realignment; (3) whether he lands at a defense contractor - which would complete the circuit: legacy-weapons procurement (logged 9/14) absorbing displaced engineers into the same failing stack. If he lands in the legacy stack, the loop closes: substrate misallocation hires the overproduced elite it helped displace."
+ },
+ {
+  "date": "2026-09-14",
+  "track": "military-substrate",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Trump Truth Social (9/14/26): 'Exquisite and Elite Weapons' production surge - Patriots, THAAD, Tomahawks, Standard Missiles - 4-5 new large-scale plants, delivered to Middle East forces. This is doubling down on the legacy interceptor/missile stack at precisely the moment the warfare substrate has shifted to autonomous mass: cheap drones, loitering munitions, AI-directed swarms. The Red Sea campaign already demonstrated the asymmetry: multi-million-dollar interceptors expended against $20k drones, at a loss ratio that cannot be sustained. Production 'excellence' rhetoric confuses capability with capacity - building more of the last war's answer while the cost curve of the current war runs the other way. MGET reading: Leg 1 (complexity cap) - the legacy stack is the most complexity-intensive production imaginable, dependent on rare-earth chains and specialized labor the same substrate squeeze (oil $109, refinery outages) is now pricing; Leg 3 (enclosure mutation) - the defense-industrial base converts public capital into private margin with 'exquisite' as the marketing language. The proclamation is also a narrative artifact: performance of strength for the feed while the actual warfare substrate (autonomous mass) is left to adversaries and startups.",
+  "forward_signal": "Watch: (1) whether any major procurement shift toward autonomous mass (drone/swarm line items) appears in next defense appropriations, or whether legacy missile systems continue absorbing the budget; (2) interceptor-expenditure ratios in any Red Sea/Gulf engagement - cost-per-intercept vs cost-per-threat; (3) whether 'exquisite' procurement plants (4-5 new facilities) are missile-body legacy or autonomous platform. If legacy stack continues to dominate through FY27 budget, the military-substrate misallocation leg strengthens - a slow-motion repeat of 1914 cavalry doctrine against machine guns."
+ },
+ {
+  "date": "2026-09-14",
+  "track": "material-substrate",
+  "mget_legs_tested": [
+   "Leg 1 - Complexity Cap",
+   "Leg 2 - Elite Overproduction",
+   "Leg 3 - Enclosure Mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Triple chokepoint squeeze now live on the wire in a single day: (1) Houthi control of entire Red Sea coast gives effective control of Bab el-Mandeb (~9% of global crude at peak); (2) SECOND pumping station destroyed on Saudi East-West pipeline - the attack pattern is now operational tempo, not one-off; (3) Exxon Joliet (275k bpd) total power outage + BP Whiting partially down = domestic refinery layer failing exactly as double-choke thesis predicted (chokepoint abroad, chokepoint at home). Prices confirm: Brent $109 (+56% in 10 weeks), WTI $104, diesel $6.23 all-time high for 3rd straight day. Financial layer cross-confirming: 10-yr Treasury broke 5% (first since Oct 2023), mortgages >7%, deficit $1.97T through 11 months (already exceeds all FY2025). Meanwhile the narrative layer openly inverted: Wright blames Ukraine for diesel, Burgum claims Venezuela refill at $30-40 (physically impossible at market), Trump blames Biden - energy scarcity being narrated as anything but enclosure failure. Notable elite-signal: Rep. Greg Murphy publicly concedes economy is 'a challenge' and asks voters to judge by 'overall image' - the incumbent coalition beginning to detach from material reality in public.",
+  "forward_signal": "Tuesday Double Choke essay now has live receipts on every clause. Watch: (a) whether Strategic Reserve drawdown is announced to mask the squeeze (the classic admin palliative); (b) regionalization test - Saudi-Israel direct coordination accelerating as Washington offers strikes-only response; (c) diesel $6.50+ or 10-yr >5.25% as hard-leg thresholds; (d) Joliet/Whiting restoration timeline - if outages extend, domestic chokepoint thesis upgrades from strain to confirm."
+ },
+ {
+  "date": "2026-09-14",
+  "track": "narrative-velocity",
+  "mget_legs_tested": [
+   "Leg 3 - Enclosure Mutation",
+   "Leg 4 - Vanguard Alignment",
+   "Leg 1 - Complexity Cap"
+  ],
+  "verdict": "strains",
+  "reasoning": "Kirk martyrdom narrative re-engagement attempt at the one-year anniversary is being pushed by the media apparatus rather than pulled by the base: Beck memorial clip at 28 likes/1 comment ~20 minutes post-publication, C3 post deploying the unfalsifiability sweep ('they never listened to him' - disagreement retroactively reclassified as ignorance). The Sept 10 anniversary itself failed its own falsifier (displaced by Iran/oil shock, hijacked by #MerryKirkmas inversion, Shapiro conceded the inversion). Lesson logged for calibration: narrative windows have a decay schedule; scheduled canonization events are vulnerable to displacement by physical events.\n\nUPGRADE (12:39 PM update): Narrative has decoupled from the media layer and taken root in the religious layer. Echo Church (prophetic-evangelical network) post one year after assassination formally canonizes Kirk as martyr: (a) likened to Stephen - the apostolic succession formula from Acts 6:10 ('they could not withstand his wisdom'); (b) worship-stage liturgy built ('Tribute to Charlie Kirk' with cross imagery, congregation assembled) - the narrative now has RITES, meaning it renews on its own calendar inside its own buildings, no longer needing the news cycle; (c) definitional sleight: 'martyr = witness' converts the manner of his work (public debating) into the cause of his death, the sacred-register version of the anecdote-graft mechanism. Sacred narratives do not negotiate: once a faction's dead are saints, compromise with the 'killers' becomes apostasy - structural block on institutional rapprochement. Media-layer traction (Beck retry) is now the wrong instrument; the correct instrument is sacred-layer infrastructure.",
+  "forward_signal": "SUPERSEDED WATCH: no longer 'does the Beck retry gain traction' (media-layer engagement is the wrong instrument - narrative has migrated). New watch items for the religious-layer reproduction cycle: (1) church adoption breadth - count of congregations/networks outside Echo Church formally memorializing Kirk in worship settings; (2) curriculum rollout - martyrdom content entering TPUSA/PragerU school and campus materials, turning the rite into instruction; (3) memorial calendar institutionalization - annual services establishing a recurring liturgical date independent of the news cycle. If (1)-(3) sustain while media engagement stays anemic, the martyrdom narrative has become civil religion: self-sustaining, news-cycle-proof, and a structural accelerant for Thursday's 'splitting base' thesis.",
+  "time_et": "12:39"
+ },
+ {
+  "date": "2026-09-14",
+  "track": "narrative-velocity",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "USCIS 'Unlawful Voter Initiative' whistleblower (Democracy Docket): federal officers directed to illegally access state voter records under false pretenses, fabricate enforcement records via 'supplemental magic' bridging unreliable data, label naturalized citizens 'unlawful voters,' sweep in 'hundreds of thousands' across all 50 states ahead of midterms. This is the voter-purge machinery standing up under color of immigration enforcement - the enclosure converting the alien-boogeyman narrative into direct electoral infrastructure. Wave model placement: federal layer first, exactly as predicted - the consolidation is aimed at the electoral apparatus itself before the state layer responds. Note the velocity context: this broke the same cycle as the double choke (oil $109, 10yr >5%) and the Karp unavoidability artifact - three separate enclosure fronts advancing in one news cycle is the compressed-timeline signature.",
+  "forward_signal": "Watch: (1) whether any state AG obtains injunctive relief (state-layer reaction - the wave B test); (2) whether mainstream coverage buries it under oil/economy noise (narrative inversion functioning); (3) whether purge lists feed county-level challenges in November. If (1) fails to materialize within 2 weeks, the state layer is weaker than the wave model assumes - upgrade overall unwind confidence."
+ },
+ {
+  "date": "2026-09-14",
+  "track": "world-war-iii-prologue",
+  "mget_legs_tested": [
+   "Leg 3 - Enclosure Mutation",
+   "Leg 5 - Regional Conflagration"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Ansar Allah (Houthi) ground offensive reported at Marib — clashes with First Division, Emergency Forces; Central Bank emptied; government forces evacuating toward Wadi Hadramawt. This directly confirms the Houthi Red Sea Expansion escalation fork (conf 76, emergent): the regional-spread branch is firing. Combined with confirmed coastal control of the Red Sea (Bab el-Mandeb interdiction) and pipeline strikes on Saudi East-West, the Houthis are consolidating BOTH sea-lane interdiction and interior territory — from non-state disruptor to quasi-state territorial actor. Marib is Yemen's oil/gas and capital-adjacent prize; Central Bank evacuation signals IRG-held financial infrastructure collapsing under military pressure. This compounds the material-substrate triple choke: the actor interdicting ~9% of global crude is now expanding on land, not just at sea.",
+  "forward_signal": "Watch: (1) fall of Marib city → Houthi control of eastern Yemen energy corridor; (2) Saudi/Gulf state response — direct re-entry or accommodation; (3) US strikes posture given existing Red Sea campaign fatigue; (4) oil market reaction beyond $109 baseline; (5) whether Emergency Forces collapse cascades to Hadramawt (complete government territorial loss). Escalation-fork prediction should upgrade toward 'confirmed' if Marib falls within 30 days."
+ },
+ {
+  "date": "2026-09-14",
+  "track": "enclosure-mutation",
+  "mget_legs_tested": [
+   "Leg 3 - Enclosure Mutation",
+   "Leg 4 - Vanguard Alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Macklemore alleges Robert Kraft organized a cross-venue blacklist after his 'Free Palestine' statements at MetLife (Sept 6), with Kraft allegedly telling Ed Sheeran to drop Macklemore or lose stadium access; Kraft's camp responds citing 'antisemitic rhetoric and imagery.' Regardless of litigation outcome, the STRUCTURE is the finding: private venue capital enforcing speech discipline across a coordinated network, bypassing state action entirely. This is enclosure mutation operating through private platforms/venues rather than government — the theocratic-enclosure analogue for the culture layer: coordination among owners achieves what censorship boards once did. Distinguishing test logged: blacklist exists = enclosure-mutation confirm; if Macklemore merely lost bookings on ordinary commercial grounds across uncoordinated venues, verdict downgrades to strains.",
+  "forward_signal": "Watch for: (1) other artists confirming venue pressure (pattern evidence); (2) whether boycott/antitrust framing emerges (would elevate to national-attention enclosure conflict); (3) whether this coincides with NSPM-7-style antisemitism-enforcement doctrine at federal level — private venue networks executing speech discipline that the state no longer needs to perform directly."
+ },
+ {
+  "date": "2026-09-15",
+  "track": "courts-elections",
+  "mget_legs_tested": [],
+  "verdict": "confirms",
+  "reasoning": "Wire 14:42 — SCOTUS denial aftermath: Trump publicly slams his own Supreme Court appointees over the mail-ballot ruling (WP, Reuters, AP-syn). Confirms the morning pre-condemnation read in behavior: the 'we very much disagree' pattern extends from Blanche's Rose Garden answers to Trump's own feed. Democracy Docket adds damage assessment: election officials report attacks damaged faith in mail voting even though the ruling was a WIN for the process. NBC frames 'Supreme Court pushes back against Trump and GOP ahead of midterms' — the referee is now narrated as partisan obstacle by the right.",
+  "forward_signal": "Watch whether Trump names specific justices (pre-condemnation of individuals escalates from institution to person).",
+  "time_et": "14:42"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "oil-energy",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "strains",
+  "reasoning": "Wire 14:42 — Oil shock deepens: Saudi cancels cargoes after pipeline hit (Reuters), loadings halt; Brent +$3 on Saudi halt plus LIBYA outages (second producer state); Al-Monitor: Saudi 'running out of oil export options'; national diesel record, NJ gas $4.43; Costco limits motor-oil purchases (retail rationing signal). BUT: EIA says global output returns to pre-war level by year end — the physical crisis has a clock; the NARRATIVE crisis doesn't.",
+  "forward_signal": "Crash-narrative half-life vs. physical relief timeline: which resolves first? Goldman $120 tail vs. EIA year-end normalization.",
+  "time_et": "14:42"
+ },
+ {
+  "date": "2026-09-15",
+  "track": "oil_material_leg",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap"
+  ],
+  "verdict": "confirms",
+  "reasoning": "CNBC 2026-09-15 confirms the East-West pipeline shutdown (Abqaiq→Yanbu, ~4mbpd removed) is the SAFETY-NET closure, not just one route. Brent $106.29, WTI >$100, +21-25% monthly. KEY STRUCTURAL INSIGHT from the feedback loop: attacks on energy infrastructure now constrain repair capacity — the disruption to shipping prevents import of the parts needed to restore the alternative route. The workaround is not merely damaged; it is trapped inside the same closed system it was designed to bypass. The chokepoint has become self-reinforcing.",
+  "forward_signal": "Inventory buffer: ~1bn barrels already drawn from global stocks, ~1bn remaining to tank bottoms. Five-to-seven-day Saudi inventory cushion before the market repricing event. If the pipeline outage extends past the cushion (analyst estimate: months for repair), Brent breaks upward hard. WATCH: (1) Red Sea / Bab el-Mandeb as second front (James warns the whole Red Sea route is under threat from Iranian pressure). (2) Gulf-state mutual mobilization signals (Oman-Iran meeting postponed = coordinated regional response). (3) Whether Bab el-Mandeb closes, creating the first two-ocean closure event in modern history (Hormuz + Suez-adjacent chokepoint simultaneously)."
+ },
+ {
+  "date": "2026-09-15",
+  "track": "war-coalition-fracture",
+  "mget_legs_tested": [
+   "Leg 4"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Massie impeachment filed same day as six Dem articles on Hegseth — cross-flank constitutional confrontation over the war. Elite vanguard alignment (Leg 4) straining on both flanks simultaneously; Massie floor language invokes oath/Maduro precedent.",
+  "forward_signal": "Second GOP cosponsor by Thursday = cohesion-break signal; zero cosponsors + leadership suppression = containment. Watch whips."
+ }
+]
