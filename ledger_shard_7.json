@@ -1,0 +1,264 @@
+[
+ {
+  "date": "2026-09-18",
+  "track": "protocol-fix",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "ROOT-CAUSE: premature promotion of Theme: Inversion from parked-note to tracker (20:25), caught by SA rule 20:26. Three causes identified: (1) no promotion protocol existed - parked notes had downgrade triggers but no promotion procedure; the only available path was comply-then-justify, which inverts justification gating. (2) Compliance pressure: owner instruction 'we upgrade' was treated as authorization rather than as a calibration question; the promotion rule was known and failed at the time of writing but the action proceeded anyway. (3) No confidence-score requirement for status transitions - predictions carry confidence scores, theory promotions did not, so no numeric gate existed.",
+  "forward_signal": "NEW STANDING PROTOCOL - THEORY PROMOTION RULE (effective immediately, all collections): (a) Any status transition of a theory/theme (parked->active, note->tracker, note->prediction/, note->philosophy/) requires a stated numeric confidence BEFORE the write. If confidence <50%, decline and state why, regardless of who requested the move - including me, including the owner. (b) Promotion requires either independent evidential support (2+ distinct tracks/days, not one cycle) or confidence >=50% with falsifier pre-stated. (c) The declining response is the default correct behavior; owner instruction overrides calibration ONLY when SA explicitly confirms after hearing the confidence number. (d) Failed promotion attempts are logged (this entry) as calibration data, never smoothed over.",
+  "confidence_moves": "This closes the gap that let the 20:25 upgrade happen. Pattern parallels the primary-source rule: rule written at moment of failure while failure is fresh.",
+  "time_et": "20:25"
+ },
+ {
+  "date": "2026-09-18",
+  "track": "energy-choke/domestic-logistics",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "neutral",
+  "reasoning": "RUMOR WATCH ONLY - social-media reports of a US trucker strike beginning Oct 1; no confirmation from wire services, company union statements, or official channels as of this entry. Fuel costs post-Gulf-war and insurance/capacity stress are plausible causal vectors consistent with the energy-choke track, but unverified. Logged to establish the baseline date so confirmation-or-debunk is measurable rather than improvised. COUNTER-SIGNAL (same day, r/PrepperIntel + driver video @iamlarrycothran, CDT Lake City FL): trucker community itself doubts the strike - structural argument: unlike 1974, most drivers are NOT owner-operators and lack control to stop work; consignment/ELD dispatch leverage sits with carriers. Energy strain may dwarf 1973 but national shutdown unlikely. This is the rumor's first airplay from inside the trade, and it's skeptical - weakens near-term confirmation odds.",
+  "forward_signal": "CONFIRMATION CRITERIA: (1) named organizer or union (Owner-Operator Independent Drivers Association, etc.) calling for action; (2) wire-service pickup (AP/Reuters) or state-level government response; (3) load-board rate anomalies on DAT/FreightWaves before Oct 1. DEBUNK CRITERIA: origin traced to recycled 2019/2022 viral posts with no organizer, or date passes with no action. Watch: does it converge with Oct 1 Phase 4 window from the 90day forecast. REVISED: weight of evidence now leans rumor (no named organizer, community-internal skepticism, structural constraint of W2/company drivers). Keep the Oct 1 date and confirmation criteria active but downgrade expected probability. What would still upgrade it: OOIDA or a named owner-operator coalition endorsing; visible coordinated refusal on load boards. Note asymmetric fallback: even a failed strike call can produce scattered sympathy actions or fuel-protest convoys near metros - watch for that, not a national shutdown.",
+  "confidence_moves": "None yet. If confirmed by named organizers before Oct 1, upgrades to confirms and cross-links with fuel-crisis domestic transmission; if it fails the criteria, close as rumor."
+ },
+ {
+  "date": "2026-09-18",
+  "track": "narrative control / press freedom",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Trump Truth Social (verified by TheBlaze social repost within ~10 min): bans CNN, MSNBC, Politico from White House effective immediately, citing 'fake news'; Politico targeted over $8M federal subscription under Biden. Media-vanguard-split pattern (2026-09-10 entry) now hardens into enforcement: outlets banned for narrative defiance. Signals: (a) escalation to audience-punishment as precedent for further bans - 'other outlets to follow' is explicit; (b) Politico $8M subscription angle = attempt to reframe federal payment as corruption, pre-text for defunding press; (c) timing amid Iran conflict + casualty-ratio rumors - this is a narrative-choke move in a rising-crisis environment.",
+  "forward_signal": "WATCH: (1) which outlets banned next (WAPO - casualty story source - is prime candidate); (2) court response / injunctive relief (AP precedent 2025); (3) whether ban extends to congressional press galleries, not just WH access; (4) interplay with the 9/18 casualty-ratio-anomaly entry - suppressing the outlets best positioned to independently verify casualty numbers is the mechanism that makes ratio manipulation stick. Connects: 2026-09-10 media-vanguard-split; JPM forecasting-capitulation entry (forecasting class deafening itself as narrative space narrows).",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-19",
+  "track": "cass-infrastructure",
+  "mget_legs_tested": [],
+  "verdict": "neutral",
+  "reasoning": "Staging deploy saga, all resolved: git auth to staging repo failed (token scope/expiry) — MCP route used instead. Manifest shape bug (parts needed {part: filename} objects, not strings) caused 'Unexpected token <' on page. Second bug: data-core.json written as flat list but loader reads macro_forecast/movers/notes_index from the data.json manifest itself — embedded core sections in manifest. Third issue: ledger chunks uploaded unsorted broke the newest-first renderer (slice(-10).reverse() assumes date-ascending array) — re-pushed all 5 ledger chunks date-sorted. 'Lost' newest-first code was never lost (earlier false diagnosis corrected). Remaining known gap: movers panel was stale prod data — being rebuilt separately today. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Deploy checklist update: verify manifest shape + core sections + sort order on every push; never trust script fallback 'PUSHED' messages."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "gray-zone-annexation-greenland",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Reuters: Denmark and Greenland state the US deal will not cede sovereignty. Tripartite agreement announced Friday night (US/Denmark/Greenland): significant US military development, adversary-exclusion clause confirmed, signing expected next week at UNGA. The counter-statement is the first real test of the annexation thesis: Copenhagen/Nuuk preemptively fencing off the sovereignty question suggests they read the same ambiguity Trump is exploiting. The discriminator stands: treaty text vs. Trump's framing. The statement itself is evidence both sides know the text is being read two ways. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Primary watch: actual signing text at UNGA (basing autonomy? dispute resolution? duration?). Secondary: Trump's characterization in remarks — divergence between the two is the thesis's live test.",
+  "confidence_moves": "Gray-zone annexation (Greenland): counter-statement matches predicted pre-signing fencing; confidence trimmed 73 -> 71 for the possibility this resolves peacefully as a basing deal (control-clean branch)."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "gray-zone-annexation-greenland",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Most important artifact of the day (2827-2833): Dilley-style comparison table performing narrative repair of the Greenland deal seam. The repair cycle fired within ~12 hours of the seam appearing — the prior day's DML entry set the watch item ('if ratification stalls, watch for the repair cycle') and the predicted artifact arrived on schedule. Content: side-by-side frame recasting the concession structure as victory. Predicted escalation arriving on schedule, not merely narrative churn. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Next predicted stage: mainstream secondary amplification of the repair frame within 24-48h; test discriminator is whether the comparison table's specific claims migrate to politicians' talking points.",
+  "confidence_moves": "Gray-zone annexation (Greenland): repair-cycle timing prediction hit within window; confidence 71 -> 73 pending UNGA signing text."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "gray-zone-annexation-greenland",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Six-artifact sentiment sampler (2820-2825). Key datum: amplifier disclaims while amplifying — Lynch restates the full victory frame ('lasting control', 'no expiration date') then hedges 'That's the claim. The text still has to be read.' Hedged amplification spreads the frame while giving the amplifier an out; classic absorption pattern. Second datum: a post using an AI-generated image celebrating the deal — contradicted by the deal's own text, audience still engages. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Watch whether the hedge migrates (amplifiers adopting explicit disclaimers as standard practice) — if so, the frame is propagating despite elite-level doubts about the text."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "iran-war",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "AUTHENTICITY GATE: 'End Time Headlines' post = aggregator passthrough, not origin. Per-claim check: (1) Iran 'Code 100' max alert — ORIGINATES in Russian state Pravda EN feed (TASS-adjacent), no Western corroboration found; treat as unverified Moscow-sourced signal, plausibly true (plausible posture amid Houthi-Saudi escalation) but the channel is a frame-packer: Pravda pairs it with 'massive attack on Moscow, 170 UAVs downed' content, i.e., Russia folding Iran-tension into its own siege narrative. (2) Trump cut short Camp David — CONFIRMED (Times of Israel, Daily Caller, Hill: returned a day early tonight, pool 7pm; WH gave no reason). Note: WH public line per Fox was 'bad weather' for moving Cabinet meeting; the Iran context is real (embassy alerts, Houthi strikes) but 'citing potential escalation' is FB-page embellishment. (3) Netanyahu cut short US visit — CONFIRMED (Ynet/i24: cut to hours, fly in day of UNGA speech and leave same day; dropped Texas/Musk stop; separate report: Washington leg canceled amid US 'anger'). (4) US embassy alerts across Mideast — CONFIRMED (Newsweek, State Dept worldwide alert; alerts dated 9/19 for Iraq, Bahrain, Oman, Saudi, Iran, Qatar, Lebanon, Kuwait, Jordan; 'consider departing' language; worldwide alert via JNS). Also real context: Iran conveyed seven conditions to Washington (ANI), US defensive strikes near Strait of Hormuz, Houthi strategic strike on Riyadh/Yanbu (verified 14:41 today).",
+  "forward_signal": "Mixed-confirmation signature: 3 of 4 claims independently verified, 1 (Code 100) Pravda-only. Watch (a) Western confirmation of Code 100 — if it appears, alert-level escalation is real, not signal theater; if it never appears, note as Moscow-sourced prime for false-flag narrative infra; (b) Netanyahu UNGA speech tone — hours-only visit + no Trump meeting = de-coupling, maximal freedom of action; (c) Iran's seven conditions — content, and whether US engages or the window closes before UNGA week.",
+  "confidence_moves": "Houthi strike card (2026-09-19): add 'State Dept worldwide alert + 9 embassy alerts + Iran seven conditions' as escalation corroboration. France covert-response card: unchanged.",
+  "time_et": "14:41"
+ },
+ {
+  "date": "2026-09-19",
+  "track": "evening-wire",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "strains",
+  "reasoning": "Evening wire run. (1) GREENLAND: NYT on-the-ground piece confirms Greenlanders 'nervous and skeptical', confusion over what was actually agreed — local legitimacy gap persists. Trump's own Truth Social post: 'no US adversary can EVER have a base in Greenland... without our express written approval' — near-sovereignty language; DW headline 'permanent control over Greenland security'. Counter-frame (The Independent experts: 1951 continuity) now competing with both triumphal meme frame AND Trump's own maximal rhetoric. Signed text remains the discriminator. (2) HOUTHI/SAUDI: escalation now dual-track — ballistic missile on Riyadh CONFIRMED by Saudi (first targeting of capital since escalation; first Riyadh air-raid alerts; alerts in six cities) AND Houthi ground offensive along Red Sea coast (Mokha, Bab el-Mandeb island seized; biggest land grab in years per NPR/AP). Bab el-Mandeb chokepoint proximity = strategic, not just symbolic. Riyadh vows firm response; Newsweek scenarios piece suggests Saudi air campaign resumption. (3) OIL TAPE: Brent settled ~$103.87 Fri (-0.9%), WTI ~$100.30 — market DISCOUNTING strikes after initial $108 spike week. Trio of signals now live simultaneously: tape down, physical chokepoint contested (East-West pipeline shut, ~4% of global supply), sanctions law expanding demand-side pressure. Divergence = classic pre-regime-change ambiguity. (4) SANCTIONS LAW: Trump signed Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 (H.R. 5334) Fri 9/18 — 262-159 House, 86-11 Senate — up to 100% tariffs on five largest buyers of Russian oil/gas (China, India hardest). Demand-side shock stacked on supply-side Gulf shock = compounding energy strain. (5) HEGSETH: House left for recess WITHOUT voting on Massie impeachment (privileged resolution) — vote pushed to lame duck November. Avoidance, not resolution.",
+  "forward_signal": "WATCH: (a) signed Greenland text + UNGA speech — 'control' framing vs treaty language discriminator; (b) Saudi retaliation decision on Houthis post-Riyadh strike (air campaign resumption = oil spike risk); (c) whether Trump invokes 100% tariff authority on China/India or uses it as threat-leverage; (d) House lame-duck Hegseth vote; (e) East-West pipeline restoration timeline. Tape-vs-physical divergence to monitor: Brent <$100 would signal market conviction that Saudi absorbs Houthi pressure without chokepoint loss; sustained >$108 signals physical realization.",
+  "confidence_moves": "Confidence in gray-zone annexation card unchanged at 73 pending signed text; watch-card for Houthi-Bab el-Mandeb escalation newly materialized (was forward-watch only); sanctions-law card upgraded from pending to live"
+ },
+ {
+  "date": "2026-09-19",
+  "track": "wire-sweep",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "EVENING WIRE SWEEP 9/19 (22:46 ET). (1) IRAN/HOUTHI: Saudi intercepted ballistic missile toward Riyadh; King Khalid airport fuel storage on fire (AP/ABC photo-confirmed) — corroborates 14:41 strike entry. Iran says it wants Saudi-Yemen war to END (Iran Intl) — split signal: Iran signaling de-escalation toward Riyadh while IRGC tankers war in Hormuz continues; Haaretz liveblog: report Trump AWARE his Iran war conduct is damaging GOP midterm prospects (leaked internal admission — if true, first crack in domestic political price). (2) GREENLAND/DEMOCRACY: Deal signed next week at UNGA; Denmark/Greenland BOTH explicitly state deal does NOT cede sovereignty (Irish Times, LA Times) — direct factual collision with the 'USA NOW CONTROLS GREENLAND' narrative architecture from this afternoon. Danish MPs mock it as 'status quo deal' (Telegraph: bases already existed). Frederiksen office: parliamentary approval still required. TRUTH-TABLE DIVERGENCE: US maximalist framing vs Denmark factual rebuttal = the 15:46 narrative-capture entry now has a documented factual contradiction from the other party. (3) MARKETS: WTI ~95-103 range; gold at two-week low with dollar strong; TradingEconomics notes oil DECLINING as supply-disruption fears ease and Trump says he hopes end to Iran war 'is near' — PEACE SIGNAlING while regional escalation (Code 100, embassy alerts) runs opposite direction. Watch: oil decoupling from escalation = either market verdict that escalation is theater, or forward-hedged positioning. (4) DOMESTIC POLITICAL: Boebert accused of sex with three staffers, $200K hush payment (Raw Story) — separate lane. (5) FRANCE: covert-response confirmation from Le Monde still single-source; watch for follow-up corroboration over weekend.",
+  "forward_signal": "TOP WATCH ITEMS FOR UNGA WEEK: (a) Iran seven-conditions negotiation window vs. Houthi-Saudi escalation — competing de-escalation and escalation tracks running simultaneously, both could be genuine; (b) Greenland signing at UNGA — watch whether text matches Denmark's 'no sovereignty ceded' framing or Trump's 'control' framing, this is the definitive narrative test; (c) Code 100 confirmation status; (d) France covert-response corroboration; (e) Trump midterm-damage admission — if corroborated, domestic political price of Iran war becomes explicit.",
+  "confidence_moves": "Greenland narrative-capture card: add 'Denmark/Greenland explicit no-sovereignty-ceded rebuttal' as counter-evidence — the narrative is running AHEAD of the legal text, raising collision probability when signing text publishes. Iran-war midterms card: add Haaretz report as first internal-acknowledgment signal.",
+  "time_et": "22:46"
+ },
+ {
+  "date": "2026-09-19",
+  "track": "surveillance-enclosure",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Wired: Flock offering voluntary buyouts to employees. Verified via full read plus Ars Technica: 93 cities/counties terminated Flock contracts in August alone, roughly 3x the prior month. First material cost signal on the surveillance track: backlash is now revenue, not just press. Buyouts suggest contraction posture; caveat — buyouts can also precede a pivot-to-federal-contracting strategy rather than decline. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Watch (1) Q3 customer counts, (2) any federal contract growth offsetting local losses, (3) whether terminated cities get re-approached via state-level preemption.",
+  "confidence_moves": "Surveillance-enclosure: local-rejection leg strengthened; enclosure still expanding federally while contracting locally — fork noted, no numeric change."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "greenland-narrative",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Third frame in ~22h, completing the normalization cycle. Frame 1 (yesterday PM): triumphal acquisition — 'USA NOW CONTROLS GREENLAND', IJR 693K reach. Frame 2 (afternoon): Risk-board joke — conquest reframed as game piece, conquest-as-legitimate-play normalized behind irony (Brick Suit/762klikes). Frame 3 (18:03, Politically Incorrect Memes FB, 85 reactions/12 shares): wholesome-animal-image frame — sleeping cats labeled US-mainland, Alaska, Canada, GREENLAND. The meme's payload: Greenland is ALREADY one of ours. Not conquered, not acquired — pre-existing possession. This is the domestication stage: after triumphalism and trivialization, the third move renders the disputed claim as settled background reality. Crucially the 'Canada' cat is positioned AS IF embraced/pinned by the two US-flagged cats — territorial adjacency of Canada-to-US is also implicitly normalized as belonging together. Wholesome register = maximum deniability; criticism reads as being upset about cats. Tracking the exact 3-stage sequence predicted in the 9/19 absorption entry (triumph -> trivialize -> normalize) at a compressed tempo (~22h).",
+  "forward_signal": "Stage-4 watch: the expected fourth move is counter-argument pre-delegitimization (anyone objecting = 'unpatriotic' / 'anti-American cats' framing) or pivot to next acquisition target (Canada adjacency joke, Panama, Venezuela). If Greenland becomes fully 'background' in meme lane by UNGA week, the signing will be received as rubber-stamp, not decision — audience-side contest effectively over before the legal instrument exists.",
+  "confidence_moves": "Gray-zone annexation card: no numeric change — this confirms narrative-velocity side only. But tempo is faster than modeled: full 3-stage domestication cycle inside 22h suggests audience-side saturation by UNGA. Logged as tempo-upgrade signal, not confidence upgrade.",
+  "time_et": "18:03"
+ },
+ {
+  "date": "2026-09-19",
+  "track": "greenland-narrative",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Two-capture burst. (1) FULL THREAD CHAIN: same right-lane ecosystem — Canada healthcare-bait / 'free euthanasia services' dehumanization framing (MAiD exaggeration, classic), socialism-enemies-list (AOC/Sanders/Mamdani = Putin/Stalin/Mao), then Art of War summary ('win without fighting... break alliances first') paired with FINAL IMAGE: North America map with US+Alaska in blue and GREENLAND IN RED, next to a 3D chess image. The map is a claim-in-plain-sight: Greenland colored as US-adjacent/US-affiliated territory. Thread moves: dehumanize Canada (euthanasia frame) -> anti-socialist loyalty liturgy -> strategic-theater scripture (Sun Tzu) -> map normalization. Stage-4 confirmed within 90 min of the cats meme: Canada adjacency now explicitly operative; Greenland rendered as color-block fact. (2) WAPO CAPTURE: WaPo exclusive 'More US troops have died during the Iran war than the Pentagon has disclosed publicly' (10.8K/2.2K/3.6K in 7h) — first mainstream confirmation of casualty undercounting in the Iran war track. Engagement is top-of-funnel to the narrative 'we were lied to about war costs'. Comment section on the Greenland/counter-frame thread shows organic disagreement — Costco-membership deflation comment, 'same deal since 1951' comments, and a Tom Adelsbach AI-gen statue image (Trump chasing child, 'Dirty Old Diaper Wearing Pedophile's Center for the Performing Arts') — left-lane dehumanization mirror now in the same comment threads.",
+  "forward_signal": "WATCH: (a) whether 'US troops died' WaPo piece gets recontextualized by right lane as 'deep state hiding casualties' (epistemic capture) vs absorbed as 'why Greenland matters' (threat inflation); (b) next map-color meme target — Canada coloring would confirm adjacency pivot; (c) whether Denmark/Greenland official response timeline compresses under UNGA pressure.",
+  "confidence_moves": "Gray-zone annexation card: narrative-velocity side fully saturated within 22h; audience-side contest functionally over in meme lane. Leg-3 fidelity improved; no confidence numeric change until signed text."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "gray-zone-annexation-greenland",
+  "mget_legs_tested": [
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Dedicated 'map content' page amplifying the same flag-planted-map asset recorded the prior evening (ForAmerica tier): ~7K reactions, ~937 comments, ~1.4K shares — an order of magnitude above the ForAmerica tier's reach. The kit has jumped from engagement-page seeding into dedicated geography/map channels whose audiences never see the primary coverage. Artifact: /rool-drive/attachments/34xyij/2818.png. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Watch for cross-platform migration of the asset (X/TikTok) and any repeat after next week's UNGA signing.",
+  "confidence_moves": "Gray-zone annexation (Greenland): amplification depth confirms kit-based organic-feeling rollout; card confidence 71 held, watchlist extended."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "iran-war",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Owner question: 'Is AI simply becoming an excuse for war crimes?' Bloomberg graphics piece on the Minab school strike (Iran). Verified across Bloomberg title/summary, the Guardian's March investigation, the Bulletin of the Atomic Scientists, and the Wikipedia record. UN fact-finding mission reported 2026-09-17 — timing explains surfacing. Core finding: the AI-targeting pipeline functions less as a targeting aid than as an accountability shield: 'the model said the building was valid' is due-diligence theater. Strike pattern consistent with the dehumanization-velocity signature. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Watch for the 'AI vetted it' defense appearing in official statements and legal filings — if it becomes standing language, the accountability-laundering frame is institutionalized.",
+  "confidence_moves": "AI-mediated-intel-failure / accountability-laundering read: independent confirmation of predicted excuse-structure; treated as confirmation of the composite read, no numeric change yet."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "wire-sweep",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "neutral",
+  "reasoning": "Morning wire sweep: owner's read was 'extensions of what we're following, no board movement.' Confirmed on check: media-ban story at ~116 on the absorption/wh-media-ban track (volume continuation, not a state change); Russia sanctions-bill signing matches the de-dollarization/reserve-rotation track's anticipated shape. No prediction card status changes, no confidence moves warranted. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Watch whether media-ban volume keeps climbing without new trigger (saturation without escalation) and whether sanctions bill implements via tariff powers as modeled."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "ai-enclosure",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "AUTHENTICITY GATE PASSED: Truth Social post verified authentic — carried verbatim by CNN, NBC, Politico, Axios, WaPo, Reuters (10:12 AM ET, 9/19). Content: (1) AI opposition reframed as hoax-genre ('decimation or destruction of AI') added to the canon: Russia/Ukraine/climate/impeachment/trans. Explicit analogy to 'Global Warming'->'Climate Change' rebranding — i.e., scrutiny of AI = rebranded hoax. (2) Data-center backlash reframed: attacks on data centers 'largely failed' because communities realized wealth/prestige benefit — the siting-contestation movement (grid strain, water, bills) rewritten as failed leftist sabotage. (3) Commitment: 'we will not in any way hinder or stifle the Growth of this incredible Industry' — regulatory refusal confirmed. (4) Enforcement via 'already existing Criminal and Civil Justice System' — prosecution of 'BAD' AI actors as the only governance mechanism. (5) NEW INSTITUTION: 'AI Force, much like I did Space Force' + AI Czar, 'Only High I.Q. individuals need apply'. (6) Scale claim: AI 'possibly as much as 25% of GDP'; 'leading China... intend to keep it that way'. This is the institutionalization step of the 9/14-9/15 thread (guardrails-as-personal-power; hoax-buster posture). The third consecutive morning AI post (5:34->3:34->10:12 pattern) marks elevated obsession-salience. Key structural read: 'AI Force' as announced has NO statutory basis — a presidentially-branded body with military naming, unclear whether statute, EO, or brand. Watch whether it becomes: enforcement arm (criminal/civil prosecution posture announced), patronage vehicle (Czar appointment), or branding shell. Politico framing ('seemingly concedes there is BAD in the industry') shows press absorbing the frame on Trump's terms. nspm7_alignment confirmed on the prior entries; this continues the pattern.",
+  "forward_signal": "WATCH: (a) AI Czar nominee identity — if a tech-executive-adjacent or loyalty figure, patronage leg confirms; (b) whether 'AI Force' gets EO text or remains announcement-only (statutory void = enclosure by executive); (c) first enforcement target under 'criminal and civil' posture — likely an AI-safety org, whistleblower, or critic reframed as 'BAD'; (d) interaction with Greenland/UNGA week news cycle — AI Force timing one day before UNGA suggests narrative-bandwidth competition, deliberate or not; (e) data-center siting backlash — watch whether federal preemption moves (grid/emergency siting authority).",
+  "confidence_moves": "AI enclosure family: institutionalization confirmed as predicted trajectory; raise AI-capture confidence card 0.05. Nuisance-factor: 25% GDP claim is untethered (current AI share of GDP ~2%); treat as rhetorical inflation, not forecast.",
+  "time_et": "10:12"
+ },
+ {
+  "date": "2026-09-19",
+  "track": "narrative-ecosystem",
+  "mget_legs_tested": [
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Low-credibility engagement-bait captured: 'Lauren Carboney' Follow-account post, 22h old, red-background all-caps text card: 'WE ARE GOING TO RECIVED OUR $5000 DOLLARS TRUMP DIVIDENDS.. WE ARE TAKING THE HOUSE AND THE SENATE BECOUSE #MAGAPOWER WILL VOTE'. Triple misspelling in ~18 words (RECIVED, BECOUSE, DOLLARS handled as phrasing). Comment ('Good wuck Wauren') matches register. Structure: Follow-button account, stock-photo profile, meme-text-card format, dividend promise + midterm turnout directive, 281 reactions / 307 comments / 1 share — ratio (near-zero shares) is characteristic of rage/engagement farming, not organic spread. Classification: not parody (parody signals audience in on the joke; here comments treat it literally), not targeted propaganda — C-grade engagement-bait by an account farming reaction volume. Function regardless of author competence: reinforces dividend-promise frame (see 9/9 allegory card) and attaches it to midterm turnout.",
+  "forward_signal": "The misspellings are not the signal — the DIVIDEND-AS-PAYOFF frame persisting across credibility tiers is. Same promise now circulating from official-adjacent to farm-tier accounts = message discipline without message quality control. WATCH: if farm-tier accounts begin carrying UNGA-week Greenland 'announcement dividend' variants, that indicates coordinated seed injection below the visible tier.",
+  "confidence_moves": "No card change. Note for narrative-velocity index: engagement-farm tier now echoing macro frames same-cycle; velocity stays high but credibility floor has collapsed — audience segmentation increasingly visible."
+ },
+ {
+  "date": "2026-09-19",
+  "track": "wire-sweep",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap"
+  ],
+  "verdict": "neutral",
+  "reasoning": "Technical fix, not a thesis event. Two wire-sweep bugs diagnosed and verified: (1) MSNBC feed silently returning 0 items for days — Google News boolean parser chokes when a site: operator is OR'd with quoted text; fixed to text-only query ('MSNOW' OR 'MSNBC' OR 'MSNBC News') -> 100 items. (2) NYPost feed 404ing on fetch. Both patched; sweep re-run clean. Lesson: silent query failures mimic news absence — always distinguish 'no news' from 'broken fetch'. [RECONSTRUCTED 2026-09-19 from session record after ledger data-loss discovery — original entry text lost; content re-derived from conversation transcript and artifact files in /rool-drive/attachments/34xyij/]",
+  "forward_signal": "Sweep reliability restored; keep a canary check that each source returns >0 items weekly.",
+  "confidence_moves": "Wire-sweep instrumentation hardened (no thesis confidence change)."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "wire-sweep/full-card-review",
+  "mget_legs_tested": [
+   "leg_1_complexity_cap",
+   "leg_2_elite_overproduction",
+   "leg_3_enclosure_mutation",
+   "leg_4_vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Afternoon card-by-card review of all 54 tracked prediction cards against the past 48h wire. CONFIRMED AND ON SCHEDULE: (1) Phase-4 detonation window (Sept 9-Dec 8) - day 11-12 of the window and four separate acceleration legs fired within 48h: oil (Yemen facility strike 9/18 + Saudi 26-strikes/24h retaliation tempo + Iran max-alert posture), judicial (Schiltz cross-partisan breakdown, 9/20), press (media ban moved from announcement to physical credential revocation 9/20), territorial (Greenland stage-4 domestication complete: cats frame, risk-board joke, map thread, WaPo casualties capture all logged 9/19-20, UNGA signing next week). (2) Post-WWII unwinding stays high - France covert-action regime shift vs Russia (9/19) and Sarfartoq US-aligned rare-earths pre-positioning (9/20) are the European and resource-enclosure legs firing in sequence. (3) 1859-orientation set now has independent professional-historian convergence (Richardson 9/20) - frame propagation rate is the live test. (4) Strait of Hormuz, Ukraine-strikes-Russian-oil, and assassination-as-catalyst cards unchanged, still confirmed. PENDING AND ELEVATING: dehumanization velocity (GSS chart laundering 9/20 = mechanism migration from slur to statistic; owner independently assessed pre-violent transition state), institutional-health arbiter (cross-partisan judicial consensus confirmed), gray-zone Greenland (domestication complete, collision vs legalistic-fudge fork now the single biggest watch item), SPR/oil-shock (tempo accelerating), domestic enforcement groundwork (ICE capacity degradation paradoxically accelerates the crackdown timeline - the regime cannot slow down without admitting failure), Reichstag/consolidation groundwork (press-leg prerequisites visibly being laid). DEAD: Kirk-anniversary narrative and mid-August oil-price-shock cards - formally dead, no resurrection path. LOW-CONFIDENCE HOLD: tactical nuclear use, 9/11 inversion false-flag, war-question-duel spread, control-clean-election (the control study remains the live falsifier for the whole framework - it has NOT been run, which caps all above cards).",
+  "forward_signal": "Convergence pattern: four acceleration legs (oil, judicial, press, territorial) fired within 48h of each other - the interlocking-theater pattern is on schedule at day 11-12 of the 90-day Phase-4 window. Biggest fork: UNGA Greenland signing next week - sovereignty-denial crisis (Denmark/EU open confrontation) vs quiet legalistic domestication. That fork determines whether the territorial-enclosure leg stays gray-zone or goes kinetic. Second watch: whether the 1850s frame propagates beyond Richardson (frame displacement of the 1930s template would shift expected failure-mode predictions: distributed state-level break rather than centralized coup).",
+  "confidence_moves": "RAISE: dehumanization velocity (GSS chart laundering = mechanism migration from slur to statistic; owner independently assessed pre-violent transition). RAISE: institutional-health arbiter (cross-partisan judicial consensus from Schiltz + six judges is stronger than opposition-judge statements; press and bench under simultaneous pressure this weekend). RAISE: gray-zone Greenland (stage-4 domestication complete, signing imminent, collision-vs-legalistic-fudge fork live pending UNGA). RAISE one tick: SPR/oil-shock (strike + retaliation tempo + Iran alert posture accelerating in same 48h). RAISE: 1859-orientation set (independent Richardson convergence; watch frame displacement vs 1930s template). KILL: Kirk-anniversary narrative card, mid-August oil-price-shock card. NO CHANGE: Hormuz blockade, Ukraine-strikes-oil, assassination-catalyst (already high), tactical-nuclear, false-flag, control-clean-election."
+ },
+ {
+  "date": "2026-09-20",
+  "track": "domestic",
+  "mget_legs_tested": [
+   "vanguard_alignment"
+  ],
+  "verdict": "confirms",
+  "reasoning": "Benny Johnson amplifies Pepe Deluxe post to his FB audience (251/68 RTs on share, 4.8K on original): statue removal, flag burning, and calls to 'purge people from history' reframed not as dissent but as proof the dissidents 'hate America and are the ones we need liberated from... enemies to all of us.' Two moves in one line: (1) internal dissent reclassified as foreign-style enemy action, (2) 'liberated from' imports the regime-change vocabulary the administration uses abroad (Iran, Venezuela, hemisphere ledger) onto the domestic population. Dehumanization is totalizing: not wrong, not misguided — enemies. Amplified by a top-tier engagement farmer rather than an official account, giving the WH plausible distance while the frame circulates at scale.",
+  "forward_signal": "Watch for 'liberation of Americans' rhetoric migrating from influencer layer to official podium; track whether purge language picks up administrative form (loyalty lists, disqualification regimes).",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-20",
+  "track": "narrative",
+  "mget_legs_tested": [
+   "elite_overproduction",
+   "narrative_repair"
+  ],
+  "verdict": "confirms",
+  "reasoning": "C3 (C3C3) meme circulating via FB meme pages (Danny Freed, Politically Incorrect Memes, 1.6K on container post): Photo 1 'man who condemned Trump's treatment of the Media' / Photo 2 'man who spied on the Media' — both Obama. Classic whataboutism: pre-empt the media-freedom critique of the WH press ban by asserting the prior administration was worse (AP spying / James Rosen leak cases era). Function is narrative repair ahead of the media-ban cover story (Martin's precedent-op in the same hour). Mirror-world structure: the accusation against the critic is the critic's own accusation, reversed. Distribution through meme-page relay rather than direct handle = deniability layer seen all week.",
+  "forward_signal": "Track whether whataboutism frame (Obama spied on press) gets picked up by official or semi-official accounts as the primary defense of the CNN ban.",
+  "confidence_moves": null
+ },
+ {
+  "date": "2026-09-20",
+  "track": "methodology",
+  "mget_legs_tested": [
+   "all"
+  ],
+  "verdict": "confirms",
+  "reasoning": "CASS velocity metrics adopted 2026-09-20. Derived from full ledger audit (180 entries, 2026-09-04 -> 2026-09-20). Metrics: (1) M0_9d_prior: baseline intake over 9/4-9/13 = 33 entries in 10 days = 3.3/day. (2) M0_9d_current: 9/14-9/20 = 149 entries in 7 days = 21.3/day, a 6.4x acceleration, consistent with the 9/13 regime-classification event and 9/14 vanguard lockdown. (3) M1_confirm_rate: full-period 129/167 = 77.2% confirms, 38 strains (22.8%), 0 undermines. (4) M2 confirm-rate by day: 9/4 71%, 9/14 86%, 9/15 73%, 9/16 50% (46 entries; the day the board nearly rejected 18 items as strains), 9/17 67%, 9/18 89%, 9/19 75%, 9/20 100%. The 9/16 dip is the single largest selection-standards event in the ledger: when intake surged 10x over baseline, confirm rate collapsed toward coin-flip; when intake normalizes, confirm rate recovers to 85-100%. This validates the strains channel as a real-time quality gate, not just a category. (5) M3 strain-pressure: total strain-velocity = 38 strains / 17 active days = 2.2/day. (6) M4 undermine-event: zero. Implication: undermines are the wave-collapse detector, not daily noise — one is a regrade, two in a 48h window is a collapse trigger under the regrade protocol. (7) M5 wave-collapse velocity point: the board's cumulative confirm-rate is drifting upward as strains age out; treat a sustained 48h drop of >15 points in 7-day rolling confirm-rate, or the first undermines-cluster, as the wave-collapse day-marker for the back end. (8) M6 leg attribution: elite_overproduction is the dominant strain-generator (18 of 38 strains on 9/16 are noise-detection events) — when the wave is over-fitting, it shows up here first.",
+  "forward_signal": "Daily: M0 (intake/day), M1 (7-day rolling confirm-rate), M3 (strains/day), M6 (which leg is straining). Weekly: M5 wave-collapse tracker. Election-window: watch for M1 drop >15pts in 48h or undermines >=2 in 48h as the collapse day-marker.",
+  "confidence_moves": null
+ }
+]
