@@ -854,9 +854,9 @@
     "Midterm window: whether Iranian strikes target US vessels (attention-forcing) vs. Gulf-state assets (signaling).",
     "Any USN combatant hit/sunk report or casualty evacuation from the Gulf."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "Trap-activation confirms via any of the registered leading indicators firing before the falsifier window closes: (a) a launched Iranian ASBM near a US escort (the registered leading indicator of trap activation), (b) a reported USN interceptor magazine reorder/replenishment signal while public reporting still says magazines are near-depleted (the registered depletion tell), or (c) a USN combatant hit/sunk report or casualty evacuation from the Gulf. The strongest form is (c) landing before magazine replenishment is confirmed - the registered escalation-trap signature. DEDUP RULE: Houthi prong events (Israel-Houthi exchange, carrier repositioning to Red Sea) and Hormuz routing-share metrics do NOT confirm this card; it binds only to direct Iran-US naval-state-action tells. Pre-registered Sept 2, 2026 in the prediction's forward watchlist.",
+   "confirmer_base_rate": "Moderate-high tail. Saturation strikes on escorted convoys are precedented (Red Sea 2024); a major combatant hit in a 60-day saturation window is the ~15-25% tail. The leading indicators (a)/(b) are higher-probability (~50-60%) and confirm trap activation, not the hit itself.",
+   "confirmation_window": "Sept 2 - Nov 1, 2026 (60-day falsifier window)"
   },
   {
    "basename": "kemalist-preference-reichstag-fallback",
