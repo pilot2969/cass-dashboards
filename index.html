@@ -180,7 +180,7 @@ const stp=preds.filter(p=>p.status===st);
 if(!stp.length)return;
 h+=`<p class="text-sm font-bold ${STATUS_CLS[st]} uppercase tracking-wide mt-4 mb-2">${st} (${stp.length})</p>`;
 stp.sort((a,b)=>norm(b.confidence)-norm(a.confidence));
-byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach((p,idxAll)=>{
+stp.forEach((p,idxAll)=>{
 const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${etf(p.date_made,p.time_et)} → ${esc(p.resolved_date)}</span>`:'';
 h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
 <div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${etf(p.date_made,p.time_et)}</span>${lead}<button class="share-btn px-2 py-1 bg-amber-600 text-white text-xs font-bold rounded" onclick="__shareP(${p.__i})">📸 Share Card</button></div>
