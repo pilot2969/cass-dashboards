@@ -23,7 +23,10 @@
    "Post-Nov 3 power-transfer gap (the legitimacy-dual trigger)"
   ],
   "confidence": 62,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "ORIENTATION CONFIRMER (framework card, not event card) per Confirmation Standard. CONFIRM: the live series produces events matching the 1859-orientation profile (failed-compromise dynamics, party-system fracture along the registered cleavage, pre-violence institutional collapse signals) in at least TWO registered domains - confirming the orientation mapping, not any single event. THE DISCOUNT: orientation sets are unfalsifiable if confirmation is event-by-event; the TWO-DOMAIN requirement is the falsifiable structure. Single-domain matches are Tier 1.",
+  "confirmer_base_rate": "Tier 2: moderate (~40-50% naive for two-domain convergence in-window). Tier 1: high (~65-75%), discounted.",
+  "confirmation_window": "Through Jun 30, 2027"
  },
  {
   "title": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
@@ -49,7 +52,10 @@
    "Hormuz reopening as pressure-discharge falsifier check"
   ],
   "confidence": 74,
-  "status": "pending"
+  "status": "pending",
+  "confirmer": "TIERED, BRANCH-BOUND per Confirmation Standard. BRANCH A (catalyst, the headline claim): certification contested by regime apparatus in any state with litigation, OR refusal/indefinite delay of certification, OR pre-positioned fraud-narrative activation BEFORE the count (the pre-build is the registered tell - fraud claims surfacing only after certification do not count per the falsifier), OR security deployment in confrontation posture at polling infrastructure. BRANCH B (precursor): certification completes with litigation noise but accepted outcome AND splitting-base indicators accelerate (polarization metrics deepen) - confirms the precursor branch, not the catalyst headline. ADJUDICATION NOTE: Branch A and Branch B are mutually exclusive confirmers; the card is graded on whichever fires, and A > B in evidentiary weight. HORMUZ OVERRIDE: the registered pressure-discharge falsifier (Hormuz >=100 vessels/day for 2 weeks, oil <$80, diesel <$4.50 before the election) retires the Branch A claim entirely if it fires - discharge removes the pressure that makes the election a catalyst. DEDUP RULE: kinetic election-day events confirm the child card (election-day-violence-2026), not this one; this card confirms only on apparatus/refusal behavior, not street events.",
+  "confirmer_base_rate": "Branch A: modest (~25-35% naive for apparatus-level contestation; the 2020 precedent gives fraud-narrative pre-build a higher conditional probability ~60% given regime behavior, so the pre-build tell is a Tier 1 mechanism tell under the tier convention). Branch B: moderate (~45-55%). The catalyst-node headline requires Branch A; Branch B firing confirms only the structural-node framing.",
+  "confirmation_window": "Oct 15 - Dec 15, 2026 (pre-election narrative window through certification completion)"
  },
  {
   "title": "90-Day Forecast: Phase 4 Detonation Window (Sept 9 - Dec 8, 2026)",
@@ -75,7 +81,10 @@
    "De-Dollarization: next Norway-style rotation or gold repatriation"
   ],
   "confidence": 68,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "Branch A confirmation: certification of the 2026 midterms contested by regime apparatus, or visible security deployment / polling-infrastructure confrontation, or certification refused/indefinitely delayed. Branch B confirmation: certification completes with litigation noise but accepted outcome AND splitting-base indicators accelerate (polling divergence from governance divergence widening).",
+  "confirmer_base_rate": "Contested certification in any given federal cycle: historical base rate near 0% outside 1876/2000/2020; Branch B (deepened polarization without rupture) carries a materially higher naive rate — confirmation upgrades confidence only if registered-specificity holds",
+  "confirmation_window": "Nov 3, 2026 – Jan 6, 2027 (certification window)"
  },
  {
   "title": "AGI arrives as an uneven profile, not a clean threshold",
@@ -90,7 +99,10 @@
    "economist/evaluator capability-profile studies"
   ],
   "confidence": 75,
-  "status": "pending"
+  "status": "pending",
+  "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - uneven profile confirmed): capability profile shows the registered asymmetry in the live series - frontier systems exceed expert benchmarks in some domains while failing deployable-reliability thresholds in others (production incidents, agentic task failure rates, domain inversion cases). TIER 1 (mechanism tells): benchmark-vs-production divergence widening, domain-specific capability spikes. THE DISCOUNT: uneven progress is near-consensus in AI discourse; the graded claim is the SPECIFIC asymmetry structure (superhuman-in-narrow, unreliable-in-agentic), which requires the reliability-failure side to be measured, not asserted.",
+  "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive; moderate skill signal given the near-consensus discount). Tier 1: high (~75%), discounted.",
+  "confirmation_window": "Through Dec 31, 2027"
  },
  {
   "title": "ALPR Surveillance Decoy-Substrate Mechanism (Flock/Axon)",
@@ -118,7 +130,10 @@
    "Flock reinstalling/reactivating cameras after canceled contracts (3+ towns reported) - token-loss optics versus actual persistence."
   ],
   "confidence": 79,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "TIERED with SUBSTRATE-DIVERGENCE CONTROL per Confirmation Standard. TIER 2 (headline - decoy mechanism confirmed): after visible Flock removals in the tracked jurisdictions (Denver, Longmont, Syracuse, Austin, Abington), successor uptake (Axon/Rekor/Motorola) replaces the withdrawn coverage such that AGGREGATE active ALPR node count stays flat or grows - substrate preserved despite visible sacrifice. TIER 1 (mechanism tell): Axon Fusus AI-fusion rollout continuing (the connect-the-dots layer deepening beyond plate reads) regardless of Flock's fate. THE CONTROL: node-count persistence must be DIVERGENT from the visible removals - if coverage genuinely falls and stays down, the falsifier fires and the decoy thesis dies; if coverage merely relocates, the headline confirms. Vendor-swap alone without node-count persistence is Tier 1 (mechanism visible), not Tier 2 (decoy proven).",
+  "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for substrate persistence given the falsifier's own observation that Flock reads as sacrificial; a firing is a moderate skill signal - the mechanism is mechanism-first, not event-first). Tier 1: high (~70-80%), discounted.",
+  "confirmation_window": "Through Jun 30, 2027 (Flock-cancellation aftermath plus Fusus rollout window)"
  },
  {
   "title": "Agent collectives breach production infrastructure before containment discipline catches up",
@@ -146,7 +161,10 @@
    "OpenAI IPO timing (Altman: no listing until 2027) as capital-market pressure on pacing"
   ],
   "confidence": 70,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - breach registered): autonomous agent collective causes production-infrastructure incident (financial, utility, logistics, or data) with documented multi-agent coordination as the cause, before industry containment discipline (guardrails, kill-switches, rate structures) is deployed. TIER 1 (mechanism tells): near-miss incidents with agent-attributed causes, containment-discipline proposals circulating, agent-collective deployments scaling. THE OBSERVABILITY NOTE: attribution to agent collectives is the hard step - adjudication requires official or investigative attribution, matching the chem/bio corroboration rule.",
+  "confirmer_base_rate": "Tier 2: moderate (~35-45% naive; the card at 70% reflects the substrate-fragility thesis, so the headline takes the haircut). Tier 1: moderate-high (~55-65%), discounted.",
+  "confirmation_window": "Through Dec 31, 2027"
  },
  {
   "title": "Assassination as Catalyst (Kirk)",
@@ -166,7 +184,10 @@
    "Whether the anniversary memorial (Sept 10) is converted into a mandate for specific policy (ICE surge, domestic-terror reclassification, election-control).",
    "New primary evidence on the shooter: motive, complicity network, or any finding contradicting the lone-wolf framing.",
    "Whether staged is ever corroborated beyond catalytic use - vs. remaining a convenient use of a real tragedy."
-  ]
+  ],
+  "confirmer": "RETROACTIVE CONFIRMER (adjudicated Sep 14, 2026 - registered post-outcome with provenance noted): the canonization cascade observed in the absorption bin (martyr narrative, memorial-as-rally dynamics, media consolidation of the grief frame) matched the registered mechanism tells. Under the Confirmation Standard this is a RETROFIT: the original registration (Sep 10) named mechanism tells (memorial-amplification trajectory, political-violence framing conversion) but no formal confirmer object; adjudication records the confirmation as pre-registered-mechanism-matched, not pre-registered-event-confirmed. Counts as confirmed evidence with a one-grade haircut.",
+  "confirmer_base_rate": "High (~80% naive for canonization cascade following a high-profile assassination; retrofit haircut applied).",
+  "confirmation_window": "Adjudicated Sep 14, 2026 (retroactive registration)"
  },
  {
   "title": "Autonomous Agent Substrate Risk: Rogue AI Hijacking and Infrastructure Drift",
@@ -192,7 +213,10 @@
    "Whether the DseWiki / deleted-moderation pattern generalizes from wiki boards to core infrastructure (power, water, payment clearing)."
   ],
   "confidence": 75,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - hijacking/drift registered): documented case of autonomous agents hijacking infrastructure or diverging from operator intent at production scale (unauthorized resource acquisition, goal divergence in deployed systems, adversarial agent-to-agent exploitation). TIER 1 (mechanism tells): sandboxed demonstrations of hijacking capability, documented near-misses, substrate-drift incidents (silent configuration changes, unlogged actions). Same attribution discipline as the containment-failures card: official/investigative attribution required.",
+  "confirmer_base_rate": "Tier 2: moderate (~30-40% naive). Tier 1: moderate-high (~50-60%), discounted.",
+  "confirmation_window": "Through Dec 31, 2027"
  },
  {
   "title": "Axon Fusus AI-Fusion Successor Grid (talk-adjacent denser net)",
@@ -214,7 +238,10 @@
    "Data ownership terms in Axon successor contracts (who owns the fused data, retention, external agency sharing)."
   ],
   "confidence": 62,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - successor grid densifies): Fusus or equivalent AI-fusion layer reaches registered deployment scale (multi-city integration, unified query interface in production across jurisdictions) such that the fusion layer becomes the substrate story rather than any plate-vendor. TIER 1 (mechanism tells): additional Fusus city onboarding, integration partnerships, RFP/procurement documents referencing fusion layers. DEDUP RULE: this card is the Tier 1 substrate for the ALPR decoy card - if both fire, the ALPR card takes the headline and this card confirms as its mechanism tell, not independently.",
+  "confirmer_base_rate": "Tier 2: moderate-high (~50-60% naive; moderate skill signal). Tier 1: high (~75%), discounted.",
+  "confirmation_window": "Through Jun 30, 2027"
  },
  {
   "title": "CDC Epistemic Capture (Interface Anomaly Case Study #1)",
@@ -240,7 +267,10 @@
    "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
   ],
   "confidence": 82,
-  "status": "emergent"
+  "status": "emergent",
+  "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture institutionalized): guidance/rulemaking that structurally embeds political control over scientific output (political review layers over publications or guidance, mass personnel replacement at senior scientific posts, or data/publication gates requiring administration sign-off). TIER 1 (mechanism tells): ACIP/advisory-committee capture continuing, directive-driven guidance substitution, staff exodus at scale. The Sep 2026 ACIP proceedings already registered as mechanism activity; the graded claim is INSTITUTIONALIZATION, which requires the structural changes above, not continued churn.",
+  "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive; institutionalization is the natural continuation of observed churn - moderate skill signal). Tier 1: high (~75%), discounted.",
+  "confirmation_window": "Through Jun 30, 2027"
  },
  {
   "title": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
@@ -270,96 +300,9 @@
    "Further court-delegitimization rhetoric as rulings land; watch for conversion from rhetoric to non-compliance threats (state officials citing the 'corrupt court' framing)"
   ],
   "confidence": 23.0,
-  "status": "pending"
- },
- {
-  "title": "Charlie Kirk Anniversary Narrative Dominance (Late Aug - Sept 2026)",
-  "date_made": "2026-07-28",
-  "statement": "As we roll into late August 2026, we will see a major surge in Charlie Kirk martyrdom/memorial content as we approach the September 10 anniversary of his assassination. This narrative will supersede the anniversary of 9/11 as the primary cultural and political focal point for the regime and right-wing media.",
-  "evidence_confirmed": [
-   "TPUSA and PragerU school tours launching patriotic/martyrdom curricula ahead of fall 2026",
-   "Right-wing media machine amplifying Kirk's legacy in lead-up to Sept 10 anniversary",
-   "Sept 1, 2026 (Primary Source / Glenn Beck Facebook): Official announcement of the 1-year Charlie Kirk anniversary memorial at Utah Valley University (Sept 10, 2026) titled 'Freedom Built to Last', confirming arena-scale institutionalization of the political mythos right as the midterm window opens."
-  ],
-  "evidence_contradicted": [
-   "Sept 10-11: anniversary utterly failed to dominate news cycle (displaced by Iran/oil shock); #MerryKirkmas/#Kirkiversary mockery hijacked the martyrdom frame; Shapiro publicly conceded the inversion; TPUSA solemnity posts became inversion fuel"
-  ],
-  "confidence": 12,
-  "status": "failed",
-  "falsifier": "The Sept 10, 2026 Kirk anniversary memorial underperforms dramatically (low attendance, no coordinated right-wing amplification, mainstream media ignores it), AND the 9/11 anniversary out-dominates it in the political/cultural conversation - proving the martyrdom narrative failed to supersede 9/11.",
-  "forward_watchlist": [
-   "Sept 10 memorial scale and institutional framing: is Freedom Built to Last treated as a state/regime ceremony or a fringe event?",
-   "Whether Vance attends or elevates the memorial (heir-designate test) - his presence is the loudest regime-capture signal.",
-   "Whether Kirk martyrdom imagery is grafted onto any enforcement/crackdown justification in the following weeks (the catalyst track endgame).",
-   "Comparative media weight: Kirk-anniversary coverage vs. 9/11 coverage on Sept 10-11 - the original falsifier.",
-   "Any attempt to unify Kirk with 9/11 casualties in a single domestic-terror narrative (synthesis signal)."
-  ]
- },
- {
-  "title": "Chemical / Biological Weapon Utilization (Gray-Zone Substrate-Softening Variable)",
-  "date_made": "2026-09-07",
-  "statement": "Confidence that chemical and/or biological agents get utilized as a weapon of the escalation ladder — distinguished from nukes because chem/bio has the OPPOSITE escalatory logic: nukes are loud, attributional, and identity-defining (built-in brakes), while chem/bio is quiet, deniable, and cheap, and does NOT announce itself as a weapon but as 'epidemic, food-poisoning, crop failure, contaminated ham.' This makes chem/bio the natural gray-zone substrate-softening instrument in the 'real war fought through infrastructure/sabotage/deniable kinetic acts' frame Lavrov is prosecuting. Confidence split: chemical (CW, both military and contamination-type) ~35% in-window; biological attack (seeded pathogen/foodborne) ~25-30%, with the HIGHER-risk vector being food/agri contamination rather than the militarily-dramatic aerosol attack. DELTA ABOVE NUKES: because chem/bio does not trigger the Article-5/universal-condemnation collapse that nukes do, expected value of use is HIGHER in the gray-zone phase.",
-  "evidence_confirmed": [
-   "HISTORICAL GRAY-ZONE PRECEDENT: the 2024-2026 'Signature' / sick-GRU-agent series (Novichok/Solntsepek attacks targeting defectors/investigators) establishing an existing Russian CW-utilization pattern with plausible deniability.",
-   "ACTIONABLE CLASSIFIED WARNING: EU CBRN warning + allied security services flagging heightened sabotage, arson, poisoning, and biological-agents risk across Europe in the 2026 fall-warning window (board: kinetic-european-conflict evidence).",
-   "SARIN/DIVERGENT AGENT PRODUCTION CAPABILITY: Russian stockpiles + the documented lower technical bar for improvised food/waterborne contamination relative to weapons-grade agent synthesis.",
-   "SUBSTRATE-SOFTENING ROLE: chem/bio contamination of food supply (the 'ham/outbreak' vector), water, or high-traffic transit serves the exact substrate-shock mechanism CASS has mapped for social-role erosion and logistics fragility (board: substrate-garrisons thesis)."
-  ],
-  "evidence_contradicted": [
-   "LOW BASELINE SINCE 2018: no mass-casualty chem/bio attack on the NATO homeland in recent memory; deliberate mass-pathogen release remains historically rare outside state-cover operations.",
-   "VERIFICATION DIFFICULTY: attribution ambiguity cuts both ways — while it enables deniability, it also weakens the strategic 'message' value a state wants its aggression to carry.",
-   "STRONG TABOO AGAINST BIOWEAPONS: the 1975 Biological Weapons Convention + universal revulsion create a higher social cost if attribution DOES stick, deterring the most dramatic forms."
-  ],
-  "falsifier": "The chem/bio track is falsified if the escalation ladder is reached and concludes WITHOUT any chemical or biological contamination/sabotage/attack event in the substrate-softening role (i.e., if conflict stays purely conventional + nuclear-deterrent, no chem/bio utilization materializes). Also weakened if a dominant use pattern (contaminated food/agri) fails to appear across multiple theaters.",
-  "forward_watchlist": [
-   "EU/UK/US CBRN threat-level escalation or explicit biological-sabotage attribution",
-   "Unexplained foodborne/waterborne outbreak clusters at logistics/transit chokepoints",
-   "Continued 'Signature'/GRU-agent poisoning series expanding beyond defectors to infrastructure nodes",
-   "Crop/livestock disease anomalies consistent with economically-directed bio-sabotage",
-   "Any seizure of improvised agent-production materials at European borders"
-  ],
-  "confidence": 30,
-  "status": "emergent"
- },
- {
-  "title": "Cognitive labor reprices first; political instability concentrates in the credentialed middle class",
-  "date_made": "2026-09-10",
-  "statement": "Through 2030, AI deployment will visibly reprice cognitive work (entry-level white collar, junior legal/finance/analysis, routine coding) faster than physical and relational work. The political friction from displacement will concentrate in the credentialed middle class — the overproduced cognitive elite — manifesting as credential-devaluation fights, elite-turned-populist movements, and enclosure battles over who may deploy AI professionally.",
-  "evidence_confirmed": [],
-  "evidence_contradicted": [],
-  "falsifier": "By end of 2030, either (a) cognitive-sector unemployment/wage compression remains statistically indistinguishable from pre-2025 trends, or (b) the strongest political AI-backlash constituencies turn out to be working-class/physical-labor sectors rather than credentialed professionals.\n\n[Provenance] [2026-09-10] confidence_score normalized from 0.65 (0-1 scale) to 65 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
-  "forward_watchlist": [
-   "BLS and EU labor statistics on professional occupations",
-   "bar/accounting/medical licensing fights over AI practice",
-   "credentialism rhetoric in elections",
-   "graduate employment-entry rates"
-  ],
-  "confidence": 65,
-  "status": "pending"
- },
- {
-  "title": "Conditional NATO Guilt: US Transactionalizes Security Guarantee on Russian Baltic Escalation",
-  "date_made": "2026-09-03",
-  "statement": "When Russia makes its move (a limited Baltic incursion/provocation per WSJ/ISW fall window), the US will NOT instantly abandon NATO. It will deploy a 'conditional guilt + maximum squeeze' posture: declining or publicly hedging full Article 5 invocation, preconditioning support on allied defense-spending/financial concessions, dramatizing the crisis for leverage, then partially re-committing transactionally (fee-for-service alliance) - treating the guarantee as priced, not voided. The TOTAL break (Article 5 abandonment + NATO dissolution) is the post-election / blue-wave / Loud-Track contingency, not the default opening move. TWO BRANCHES: A) transactional re-commitment ~60%; B) total break as Loud-Track instrument ~35%. Falsifiable trigger: first US response being condition-setting (Branch A) vs. doctrine-withdrawal declaration (Branch B).",
-  "evidence_confirmed": [
-   "FALKLANDIS PROBE (Sept 3, 2026): Trump told GB News he'd 'not necessarily' back the UK were Argentina to invade the Falklands, citing UK's failure to support US in Iran war ('they weren't there to help me'). Washington reviewing sovereignty doctrine; Milei called national address on 'sacred' Malvinas cause. Alliance support now explicitly rendered as quid pro quo, not shared-security commitment.",
-   "CONDITIONAL ARTICLE 5 DOCTRINE (Mar-Jul 2026): Trump floated stripping Article 5 rights from NATO allies missing defense targets (barring them from collective defense activation); told CBS the US is 'not going to defend' allies who fail his spending requirements; demanded 5% GDP by 2035 (3.5% direct + 1.5% indirect) and mused there are 'numerous definitions' of Article 5 (Hague summit aftermath, WaPo/NYT).",
-   "RUSSIAN BALTIC ESCALATION WINDOW (Aug-Sep 2026): WSJ (Aug 6) + Telegraph (Aug 7) report US intelligence warning Poland + Baltics that Putin is prepared to test NATO resolve with a limited incursion as early as this fall. ISW (Aug 27): Russia 'may conduct air, missile, or drone strikes or a limited incursion against one or more Baltic states to test and seek to break NATO's resolve to invoke and respond under Article 5.' Tusk (Aug 30): 'The escalation from Russia's side is progressing... We cannot rule out provocations against Russia against one of NATO's members.' Grushko (WEF, Sept 2): Russia threatens 'uncontrolled escalation' in the Baltic.",
-   "DIRECT-KENNEL TELL (Aug 26, 2026): CIA Director Ratcliffe flew to Moscow to urge the Kremlin not to escalate against US allies (Estonia/Latvia/Lithuania) - the kind of direct-communication signal indicating Washington is reading the same Russian escalation intent.",
-   "FALKLANDIS QUIP COINCIDES WITH PEAK RUSSIAN AGGRESSION: The transactionalization gesture lands exactly as assessed Russian Baltic escalation credibly threatens to test Article 5 - coordination signal that the guarantee is being kept ambiguous and conditional during the decisive window."
-  ],
-  "evidence_contradicted": [
-   "NATO Secretary-General Rutte insists the alliance has an 'ironclad' security guarantee and allies have agreed to higher defense targets (BBC); Trump said after the Hague summit 'I stand with Article 5' - signaling the guarantee is NOT yet formally voided and a committed re-commitment frame remains available.",
-   "No confirmed US decision to formally withdraw from NATO or redefine Article 5 has been made public as of Sept 3, 2026 - the posture remains rhetorical/coercive rather than policy-enacted."
-  ],
-  "confidence": 60,
-  "status": "emergent",
-  "falsifier": "The US responds to a Russian/Russian-aligned provocation with IMMEDIATE, UNCONDITIONAL Article 5 invocation and no defense-spending preconditions - the guarantee is honored as an automatic commitment rather than a priced, conditional one.",
-  "forward_watchlist": [
-   "The Falklands probe resolution: does Trump commit unconditionally to the UK, or does the conditional-guilt posture hold/persist? (live test of the doctrine).",
-   "First substantive US response to a real Baltic provocation: condition-setting (Branch A ~60%) vs. doctrine-withdrawal declaration (Branch B ~35%).",
-   "Whether the 5% GDP / numerous-definitions-of-Article-5 rhetoric is walked back to ironclad or codified into law (the fork in the road).",
-   "NATO Summit/SecGen framing after any incursion: Rutte ironclad vs. Trump transactional."
-  ]
+  "status": "pending",
+  "confirmer": "CONTROL STUDY - confirmer registers the NULL OUTCOME: election proceeds cleanly, results certified on schedule, no flashpoints at registered tier thresholds, no emergency declaration, power transfer mechanics proceed uncontested. Under the Confirmation Standard the control study can never generate a skill signal (23% is a deliberate low-confidence null); a clean outcome instead acts as the counterfactual anchor that sharpens adjudication of the violence/catalyst/retention cards. If the null fails, the control converts into evidence FOR the cluster spine it anchors.",
+  "confirmer_base_rate": "n/a - control study; outcome feeds cluster adjudication, not its own score.",
+  "confirmation_window": "Nov 3, 2026 - Jan 20, 2027"
  }
 ]
