@@ -229,9 +229,9 @@
     "compute capex trajectories",
     "capability benchmark doubling times"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "SINGLE-TIER (bounded claim) per Confirmation Standard. CONFIRM: through 2027, AI-capability research throughput shows growth consistent with LINEAR-or-better bounds (visible year-over-year gains) WITHOUT any verifiable Nobel-caliber or field-redirecting breakthrough produced by a frontier system ahead of expert-consensus timelines - i.e., acceleration continues but stays bounded, exactly as claimed. ASYMMETRY NOTE: this is a falsifier-dominant card - the bounded claim is confirmed by its own falsifier NOT firing, which is deliberately weak evidence (absence-of-refutation). The registered confirmer therefore confirms the SURVIVAL of the bounded claim through the window, not a positive skill signal; a stronger confirm would require the 2028-2029 concentrated-acceleration branch to begin materializing on schedule.",
+   "confirmer_base_rate": "High naive (~60-70% for bounded survival through 2027) - explicitly discounted as persistence-check, NOT a skill signal, per the asymmetric-evidence note.",
+   "confirmation_window": "Through Dec 31, 2027 (claim horizon: no super-linear acceleration before 2028)"
   },
   {
    "basename": "agi-scaffold-political-economy",
@@ -521,9 +521,9 @@
     "More oil deals settled in Yuan/CIPS rails rather than USD",
     "Treasury auction bid-weakness or yield-suppression signals as war cost drains credibility"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with CONSENSUS-DISCOUNT per Confirmation Standard. TIER 2 (headline): continued sovereign rotation across MULTIPLE neutral/allied actors (per falsifier definition) - NBIM finalizes allocation at or below ~22% Treasury with JGB/MBS pivot, PLUS at least one additional non-adversarial sovereign (Japan, Korea, Gulf funds, Nordic peers) announces measurable US Treasury reduction through the window. TIER 1 (mechanism tells, individually discounted): gold repatriation movements from NY Fed/London vaults by allied sovereigns; incremental oil deals settling on Yuan/CIPS rails; further sovereign Treasury-cut proposals (any single one of these is footing-evidence only). CONSENSUS-DISCOUNT: central-bank gold buying and dollar-diversification chatter are decades-old consensus drifts; base rate for \"some rotation happens\" is high - only MULTI-ACTOR ALLIED rotation with the Norway floor holding counts as the headline skill signal.",
+   "confirmer_base_rate": "Headline: moderate-low (~25-35% naive for multi-actor allied rotation with NBIM floor <22% within window; this is beyond consensus drift, so a firing is a genuine skill signal). Tier 1 tells: individually high (~50-70%) - explicitly discounted as near-consensus; confirm persistence, not skill.",
+   "confirmation_window": "Oct 1, 2026 - Jun 30, 2027 (NBIM rebalancing cycle through post-midterms financial-credibility window)"
   },
   {
    "basename": "dehumanization-velocity-turning-signal",
@@ -545,9 +545,9 @@
     "Historical backtest: Weimar press 1930-33 antisemitic decree/press frequency",
     "Historical backtest: RTLM Rwanda 1990-94 hate-broadcast frequency"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - velocity is leading): monthly dehumanization-event count from the absorption bin (dehumanization_frame:true) shows accelerating slope in the 6-12 months PRECEDING any registered threshold action (kinetic escalation, purge, or consolidation event), with the slope rising before the event, not after. TIER 1 (mechanism tell - source migration): category-frame language migrates UP the hierarchy (influencer to elected official to administration official) or appears in official justification documents (EOs, war messaging) - confirms the transmission channel, not the predictive claim. ADJUDICATION NOTE: the card is confirmed only if slope-leads-event; if acceleration appears but lags the threshold action, the falsifier secondary fires (downgraded to descriptive) and the confirmer is retired with it.",
+   "confirmer_base_rate": "Headline: moderate (~40-50% naive for slope-leading in the live US series given the Weimar/Rwanda/Armenia priors; a firing within the window is a genuine skill signal since the claim is specifically about LEADING structure, not mere occurrence). Tier 1: high (~60-70%) - discounted as mechanism evidence.",
+   "confirmation_window": "Rolling; adjudicated at the first registered threshold action in the live series (expected through mid-2027)"
   },
   {
    "basename": "domestic-enforcement-groundwork",
