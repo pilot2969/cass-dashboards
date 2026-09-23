@@ -194,8 +194,8 @@ ${p.falsifier?`<p class="text-xs mt-2"><strong class="text-red-400">Falsifier:</
 ${p.confirmer?`<p class="text-xs mt-2"><strong class="text-emerald-400">Confirmer:</strong> <span class="text-slate-300">${esc(p.confirmer)}</span>${p.confirmer_base_rate?` <span class="text-slate-500">(base rate: ${esc(p.confirmer_base_rate)}${p.confirmation_window?`, window: ${esc(p.confirmation_window)}`:''})</span>`:(p.confirmation_window?` <span class="text-slate-500">(window: ${esc(p.confirmation_window)})</span>`:'')}</p>`:''}
 ${p.forward_watchlist&&p.forward_watchlist.length?`<p class="text-xs mt-2"><strong class="text-amber-400">Watch:</strong> <span class="text-slate-300">${esc(p.forward_watchlist.join(' · '))}</span></p>`:''}
 </div></details>`;});
-h+='</div></details>';
 });
+h+='</div></details>';
 });
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger</h3>`;
 // Collapsible ledger panel, movers-style: collapsed by default, filter chips, newest first
