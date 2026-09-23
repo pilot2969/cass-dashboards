@@ -40,9 +40,9 @@
     "Fort-grabbing / contested-asset seizures",
     "Post-Nov 3 power-transfer gap (the legitimacy-dual trigger)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "ORIENTATION CONFIRMER (framework card, not event card) per Confirmation Standard. CONFIRM: the live series produces events matching the 1859-orientation profile (failed-compromise dynamics, party-system fracture along the registered cleavage, pre-violence institutional collapse signals) in at least TWO registered domains - confirming the orientation mapping, not any single event. THE DISCOUNT: orientation sets are unfalsifiable if confirmation is event-by-event; the TWO-DOMAIN requirement is the falsifiable structure. Single-domain matches are Tier 1.",
+   "confirmer_base_rate": "Tier 2: moderate (~40-50% naive for two-domain convergence in-window). Tier 1: high (~65-75%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "2026-09-09-90day-phase4-forecast",
@@ -152,9 +152,9 @@
     "Interaction with the Reichstag track: the same event could serve either emergency narrative.",
     "Sept 11 2026 25th anniversary: Muslim mayor friction point + kinetic war overlay; watch for ceremony rhetoric vs inversion dynamics"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with ATTRIBUTION-DISCIPLINE NOTE per Confirmation Standard. TIER 2 (headline - inversion confirmed): a primed-attribution event occurs AND the registered rejection dynamics materialize (public/institutional rejection of the attribution within the registered window, independent-investigation demand, or attribution collapse under scrutiny). TIER 1 (mechanism tells): priming activity detected (pre-positioning narratives, attribution infrastructure warming). THE DISCIPLINE: the card at 35% is a tail claim with high adversarial-game risk - adjudication requires the REJECTION half to be observed, not just the event, since a clean attribution accepted by the public would actually falsify the inversion thesis. The two halves must adjudicate together.",
+   "confirmer_base_rate": "Tier 2: low (~15-20% naive for the full inversion structure; the card at 35% is the priming-conditional probability). Tier 1: moderate (~30-40%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "agent-collective-containment-failures",
@@ -185,9 +185,9 @@
     "Anthropic embedded-evaluator program: does independent third-party access actually get implemented with real teeth",
     "OpenAI IPO timing (Altman: no listing until 2027) as capital-market pressure on pacing"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - breach registered): autonomous agent collective causes production-infrastructure incident (financial, utility, logistics, or data) with documented multi-agent coordination as the cause, before industry containment discipline (guardrails, kill-switches, rate structures) is deployed. TIER 1 (mechanism tells): near-miss incidents with agent-attributed causes, containment-discipline proposals circulating, agent-collective deployments scaling. THE OBSERVABILITY NOTE: attribution to agent collectives is the hard step - adjudication requires official or investigative attribution, matching the chem/bio corroboration rule.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive; the card at 70% reflects the substrate-fragility thesis, so the headline takes the haircut). Tier 1: moderate-high (~55-65%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "agi-cognitive-labor-repricing",
@@ -206,9 +206,9 @@
     "credentialism rhetoric in elections",
     "graduate employment-entry rates"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - repricing registers): measurable displacement/repricing in credentialed cognitive labor (entry-level legal, consulting, software) - hiring-rate declines in exposed categories attributable to AI substitution per labor-market analyses, OR explicit repricing events (pricing models, wage stagnation in exposed categories). TIER 1 (mechanism tells): enterprise deployment announcements, productivity studies showing substitution, exposed-category job postings declining. THE DISCOUNT: repricing was always coming; the graded claim is the CREDENTIALED-FIRST structure (political instability concentrating in credential-class), which requires the political-angle tell, not just labor data.",
+   "confirmer_base_rate": "Tier 2: moderate (~40-50% naive for the credentialed-first structure in-window). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "agi-recursive-acceleration-test",
@@ -255,9 +255,9 @@
     "research on epistemic resilience interventions",
     "AI literacy policy programs"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - scaffold fight visible): political conflict organizes around scaffolds/epistemic infrastructure (AI-training-data rights, model-access regulation, compute control, platform governance) as PRIMARY political battlegrounds - candidates/parties making it central rather than peripheral. TIER 1 (mechanism tells): regulatory skirmishes, data-access litigation, compute-export fights. THE DISCOUNT: regulatory activity is baseline; the graded claim is CENTRALITY - the fight becoming a defining political cleavage, which requires evidence of party-identity attachment.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for centrality in-window). Tier 1: high (~75%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "agi-uneven-profile",
@@ -275,9 +275,9 @@
     "lab announcements claiming AGI",
     "economist/evaluator capability-profile studies"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - uneven profile confirmed): capability profile shows the registered asymmetry in the live series - frontier systems exceed expert benchmarks in some domains while failing deployable-reliability thresholds in others (production incidents, agentic task failure rates, domain inversion cases). TIER 1 (mechanism tells): benchmark-vs-production divergence widening, domain-specific capability spikes. THE DISCOUNT: uneven progress is near-consensus in AI discourse; the graded claim is the SPECIFIC asymmetry structure (superhuman-in-narrow, unreliable-in-agentic), which requires the reliability-failure side to be measured, not asserted.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive; moderate skill signal given the near-consensus discount). Tier 1: high (~75%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "alpr-surveillance-decoy-substrate",
@@ -333,9 +333,9 @@
     "New primary evidence on the shooter: motive, complicity network, or any finding contradicting the lone-wolf framing.",
     "Whether staged is ever corroborated beyond catalytic use - vs. remaining a convenient use of a real tragedy."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "RETROACTIVE CONFIRMER (adjudicated Sep 14, 2026 - registered post-outcome with provenance noted): the canonization cascade observed in the absorption bin (martyr narrative, memorial-as-rally dynamics, media consolidation of the grief frame) matched the registered mechanism tells. Under the Confirmation Standard this is a RETROFIT: the original registration (Sep 10) named mechanism tells (memorial-amplification trajectory, political-violence framing conversion) but no formal confirmer object; adjudication records the confirmation as pre-registered-mechanism-matched, not pre-registered-event-confirmed. Counts as confirmed evidence with a one-grade haircut.",
+   "confirmer_base_rate": "High (~80% naive for canonization cascade following a high-profile assassination; retrofit haircut applied).",
+   "confirmation_window": "Adjudicated Sep 14, 2026 (retroactive registration)"
   },
   {
    "basename": "axon-fusus-ai-fusion-successor",
@@ -360,9 +360,9 @@
     "FL/TX orders: do they also restrict AI-fusion/private-feed integration, or only visible poles?",
     "Data ownership terms in Axon successor contracts (who owns the fused data, retention, external agency sharing)."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - successor grid densifies): Fusus or equivalent AI-fusion layer reaches registered deployment scale (multi-city integration, unified query interface in production across jurisdictions) such that the fusion layer becomes the substrate story rather than any plate-vendor. TIER 1 (mechanism tells): additional Fusus city onboarding, integration partnerships, RFP/procurement documents referencing fusion layers. DEDUP RULE: this card is the Tier 1 substrate for the ALPR decoy card - if both fire, the ALPR card takes the headline and this card confirms as its mechanism tell, not independently.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~50-60% naive; moderate skill signal). Tier 1: high (~75%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "cdc-epistemic-capture",
@@ -391,9 +391,9 @@
     "Interaction with Conservative-Space Defection Signal: two substrates (healthcare, right-media) showing same defection geometry = cross-validation",
     "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture institutionalized): guidance/rulemaking that structurally embeds political control over scientific output (political review layers over publications or guidance, mass personnel replacement at senior scientific posts, or data/publication gates requiring administration sign-off). TIER 1 (mechanism tells): ACIP/advisory-committee capture continuing, directive-driven guidance substitution, staff exodus at scale. The Sep 2026 ACIP proceedings already registered as mechanism activity; the graded claim is INSTITUTIONALIZATION, which requires the structural changes above, not continued churn.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive; institutionalization is the natural continuation of observed churn - moderate skill signal). Tier 1: high (~75%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "chemical-biological-weapons",
@@ -454,9 +454,9 @@
     "Interaction with War Question spread: hollowing coalition makes Potemkin posture (loud-but-shallow external war) MORE attractive",
     "Emergence of named internal opposition figures or factions in right-media ecosystems"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - defection visible): measurable economic defection from the conservative space (donor withdrawal, advertiser exit at scale, subscriber/audience decline tied to registered events) OR elite voice defection (prominent conservative figures breaking on registered policy lines with stated economic rationale). TIER 1 (mechanism tells): intra-space criticism escalating, polling shifts on specific economic policies, local-party splits. THE DISCOUNT: internal criticism is baseline churn; the graded claim is DEFECTION STRUCTURE (exit, not voice).",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for defection structure). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "control-clean-election-no-crisis",
@@ -489,9 +489,9 @@
     "Exogenous shock before Nov 3",
     "Further court-delegitimization rhetoric as rulings land; watch for conversion from rhetoric to non-compliance threats (state officials citing the 'corrupt court' framing)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "CONTROL STUDY - confirmer registers the NULL OUTCOME: election proceeds cleanly, results certified on schedule, no flashpoints at registered tier thresholds, no emergency declaration, power transfer mechanics proceed uncontested. Under the Confirmation Standard the control study can never generate a skill signal (23% is a deliberate low-confidence null); a clean outcome instead acts as the counterfactual anchor that sharpens adjudication of the violence/catalyst/retention cards. If the null fails, the control converts into evidence FOR the cluster spine it anchors.",
+   "confirmer_base_rate": "n/a - control study; outcome feeds cluster adjudication, not its own score.",
+   "confirmation_window": "Nov 3, 2026 - Jan 20, 2027"
   },
   {
    "basename": "de-dollarization-reserve-rotation",
@@ -630,9 +630,9 @@
     "Watch for pacing discipline holding during high-crisis periods (midterms 2026)",
     "Assess whether collaborative distribution (substack, media) reduces operator load or increases it"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "FRAMEWORK CARD with PREDICTIVE TEST per Confirmation Standard. CONFIRM: the fatigue-asymmetry thesis (observer fatigue degrades composite detection asymmetrically by stake size) produces a registered differential prediction that outperforms the fatigue-agnostic alternative in at least one live composite-adjudication round. TIER 1: qualitative fit. The graded claim is PREDICTIVE SUPERIORITY in a live round, not retrospective fit.",
+   "confirmer_base_rate": "Tier 2: moderate (~30-40% naive for a clean live-round superiority test). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Rolling; through Jun 30, 2027"
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -655,9 +655,9 @@
     "Actual landed fertilizer cost at US farm gate - the lagging input that hits food shelves 6-9 months out.",
     "Any fertilizer-specific carve-out corridors in the blockade (humanitarian analog)."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - crisis materializes): fertilizer price index spikes above registered crisis threshold AND supply allocation measures appear (rationing, export bans by major producers, or government allocation programs in a major agricultural economy). TIER 1 (mechanism tells): Russian fertilizer-export restrictions tightening, EU/US sanctions-scope expansion touching fertilizer inputs (ammonia/nitrate feedstock), planting-season procurement warnings from major producer associations. DEDUP RULE: general commodity-inflation drift is not confirmation; the card grades on the SUPPLY-SHOCK structure, not price level alone.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~60-70% naive given the dual-choke substrate already live; moderate skill signal). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027 (planting cycles: fall 2026 application, spring 2027 procurement)"
   },
   {
    "basename": "frx-mget-coupling-1930s-config",
@@ -678,9 +678,9 @@
     "VIX term-structure inversion >3 days",
     "Post-Nov 3 power-transfer gap (the MGET-side twin signal)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - amplification registered): a market-plumbing event (repo dysfunction, clearinghouse stress, funding-market freeze) inside the Phase-4 window amplifies to a regime-legitimacy event (emergency economic powers invoked, deposit-freeze or capital-control posture, bailout structure favoring consolidation). TIER 1 (mechanism tells): plumbing stress WITHOUT amplification (Fed backstops absorbing it), which per the 1930s-config thesis confirms the COUPLING RISK existed but not the realized amplification. Adjudication: plumbing-event-without-amplification is Tier 1 partial credit; the graded claim is the amplification step.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for the full coupling in-window). Tier 1: moderate-high (~45-55%) - plumbing events alone are discounted; the amplification step is the claim.",
+   "confirmation_window": "Through Dec 31, 2027 (Phase-4 window)"
   },
   {
    "basename": "gray-zone-annexation-greenland",
@@ -711,9 +711,9 @@
     "'Canada is next' expansion-frame uptake at elected-official tier.",
     "UNGA signing ceremony as premature-victory absorption event."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - annexation path advances): any registered annexation-structure step - security agreement ceding base/control rights, economic coercion via tariff/aid leveraged against Danish sovereignty, or formal US sovereignty claim. TIER 1 (mechanism tells): diplomatic pressure escalation, naval/ISR presence expansion near Greenland, purchase/lease negotiation reopening. TIMING NOTE: the card is transactional-window-driven; a new US administration pivot in 2027 resets the window rather than failing the card.",
+   "confirmer_base_rate": "Tier 2: moderate (~30-40% naive for an annexation-structure step; the pressure track is already visible, so structure is the graded step). Tier 1: high (~65-75%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "ground-invasion-of-iran",
@@ -740,9 +740,9 @@
     "China mediation posture - active de-escalation (lowers ground probability) vs. disengagement (raises it).",
     "Regime domestic optics: if they NEED a victory before midterms, ground invasion becomes likelier; if quiet-quit serves them, less."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "SINGLE-TIER (clean falsifiable claim) per Confirmation Standard. CONFIRM: overt US or US-led ground invasion of Iran (defined: sustained ground operations inside Iranian territory by US forces or explicitly US-commanded coalition, beyond raids/SOF operations) within the window. Binary adjudication; raids and SOF actions do not count; a naval blockade or air campaign alone does not count. The card sits at 49% - near-coin-flip - so a firing is a strong skill signal and a non-firing is a strong miss signal, both fully creditable.",
+   "confirmer_base_rate": "~49% naive by the card itself - maximum skill-signal leverage either way.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "houthi-red-sea-escalation-fork",
@@ -801,9 +801,9 @@
     "Foreign crisis events vs. regime response type (strike vs. mobilization)",
     "Outward rhetoric vs. inward budget divergence"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "SINGLE-TIER (clean falsifiable claim) per Confirmation Standard. CONFIRM: the registered resource-vector targeting behavior materializes in Q1 2027 (the registered inward-targeting vector action - enforcement/resource consolidation aimed at the registered internal target class). Binary adjudication on the registered definition; the Q1 horizon makes the window tight, which is the discipline.",
+   "confirmer_base_rate": "Moderate (~40-50% naive; the card at 60% reflects the substrate-conditional probability).",
+   "confirmation_window": "Q1 2027 (Jan 1 - Mar 31, 2027)"
   },
   {
    "basename": "institutional-health-arbiter-refinement",
@@ -825,9 +825,9 @@
     "Weimar institutional-health profile 1930-33 as the degraded-baseline template (Br\u00fcning decree governance, Reichstag paralysis, judicial capture)",
     "Threshold question for live series: does US 2026 institutional profile look more like 1950 America (absorptive) or 1932 Weimar (non-absorptive)?"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "FRAMEWORK CARD with REFINEMENT-OUTCOME TEST per Confirmation Standard. CONFIRM: the arbiter thesis (institutional health determines dehumanization-acceleration outcomes) produces at least one REGISTERED DIFFERENTIAL PREDICTION that adjudicates differently from a health-agnostic baseline - i.e., the framework earns its keep by discriminating, not by being true in general. TIER 1: cases fitting the thesis post-hoc. The graded claim is DISCRIMINATING POWER, measured by the differential prediction count.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for a discriminating prediction in-window). Tier 1: high (~70%), discounted as post-hoc fitting.",
+   "confirmation_window": "Rolling; first differential prediction through Jun 30, 2027"
   },
   {
    "basename": "iran-naval-escort-escalation",
@@ -897,9 +897,9 @@
     "Whether Democrats taking the House relieves the pressure (delays) vs. the regime shutting the legislature down (accelerates).",
     "Continuation of Quiet-Track infrastructure buildouts (CDC appointments, DHS election-enforcement, USPS batching) - their pace IS the quiet track velocity."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with TIMING-ORDER ADJUDICATION per Confirmation Standard. TIER 2 (headline - timeline compression forces the loud emergency): the emergency path fires EARLY (pre-Nov 3) without waiting for the legalistic route - matching the Kemalist-preference claim that compression skips the slow branch. TIER 1: the legalistic fallback used instead (court routes, certification litigation) - which is itself diagnostic: it would confirm the fallback half of the thesis (the preference is real but compression was overstated). BRANCH-ORDER TEST: what confirms the full claim is the ORDERING (emergency before legalistic), not either branch alone; the card explicitly grades on sequence.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for early-emergency ordering). Tier 1 (fallback ordering): moderate (~40-50%). Sequence is the graded claim; either branch alone is partial credit.",
+   "confirmation_window": "Through Jan 20, 2027 (mirrors Reichstag and retention windows)"
   },
   {
    "basename": "kinetic-conflict-north-america",
@@ -925,9 +925,9 @@
     "Escalation of state-sponsored proxy or cyber kinetic actions that successfully breach physical-world critical infrastructure in the US or Canada.",
     "Militarized civil unrest or localized armed clashes at domestic infrastructure chokepoints."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - kinetic conflict on US/Canadian soil): organized armed violence between state forces and non-state armed groups OR inter-state kinetic exchange (Cartel-state engagement at scale, foreign-state action on US soil). TIER 1 (mechanism tells): armed civilian paramilitary organization formalizing, National Guard live-fire incidents, interdiction engagements escalating beyond current tempo. THE DISCOUNT: isolated shootings and ICE-violence incidents are baseline drift in the live series; the graded claim is ORGANIZED kinetic conflict structure, which requires command-and-control visibility.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive; the card at 40% reflects the organized-structure requirement). Tier 1: moderate (~40-50%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "kinetic-european-conflict",
@@ -963,9 +963,9 @@
     "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing",
     "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - limited engagement): Baltic/Greenland/Arctic provocation escalates to direct NATO-Russia kinetic exchange (uniformed engagement, airspace engagement with loss, or Article-5-triggering incident). TIER 1 (mechanism tells): provocation tempo accelerating (GPS jamming, cable cuts, drone incursions, sabotage-attributed events), NATO posture changes (enhanced forward presence moves, readiness exercises at scale). DEDUP RULE: the gray-zone substrate (sabotage, poisonings) belongs to the chem/bio and hybrid cards; here the graded claim is the KINETIC step.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive; the card at 62% reflects provocation-to-engagement conditional probability, not unconditional). Tier 1: high (~70-75%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "kirk-anniversary-narrative-2026",
@@ -991,9 +991,9 @@
     "Comparative media weight: Kirk-anniversary coverage vs. 9/11 coverage on Sept 10-11 - the original falsifier.",
     "Any attempt to unify Kirk with 9/11 casualties in a single domestic-terror narrative (synthesis signal)."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "SKIP",
+   "confirmer_base_rate": "SKIP",
+   "confirmation_window": "SKIP"
   },
   {
    "basename": "mid-august-oil-price-shock",
@@ -1018,9 +1018,9 @@
     "Pressure migrated to the SPR runway: SPR weekly drain toward the ~290M cavern-damage floor is now the live successor signal.",
     "A resurrected hard shock in the pre-midterm window would be carried by the SPR-runway track, not this one."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "NO CONFIRMER - CARD FAILED (mid-August shock did not occur; score 10). Falsifier fired on window expiry. Audit note: second natural experiment on window discipline - the price-shock family was re-registered as the Sep 15 oil-tape-vs-EIA ledger entry with a tighter window.",
+   "confirmer_base_rate": "n/a (card failed)",
+   "confirmation_window": "n/a (window closed Aug 2026)"
   },
   {
    "basename": "military-coup-fourth-turning",
@@ -1057,9 +1057,9 @@
     "Senior officers privately appalled going public (Kendall op-ed class) - the pressure-vent release.",
     "A fabricated coup narrative being seeded to justify a purge (the smokescreen deployment)."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with LOUD-BRANCH DISCOUNT per Confirmation Standard. TIER 2 (headline - coup attempt): overt uniformed or overtly-militarized seizure/attempt against civilian authority. TIER 1 (mechanism tells - quiet branch, the registered preference): uniformed-police militarization absorbing domestic functions, Posse Comitatus erosion via emergency carve-outs, National Guard federalization without gubernatorial consent at scale. THE DISCOUNT: the thesis itself predicts the quiet branch is preferred over the loud branch - therefore Tier 1 confirmations are MECHANISM-CONSISTENT but only weakly confirm the coup claim (the thesis says the loud branch probably never fires). Adjudication: Tier 2 firing confirms the catalyst framing at full credit; Tier 1-only firing confirms the substrate claim at partial credit, since the substrate claim is the testable half.",
+   "confirmer_base_rate": "Tier 2: low (~15-20% naive; loud branch is the registered tail). Tier 1: high (~60-70%) - but per the discount note, Tier 1-only outcomes confirm the substrate claim, not the coup headline.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "nato-conditional-guilt",
@@ -1087,9 +1087,9 @@
     "Whether the 5% GDP / numerous-definitions-of-Article-5 rhetoric is walked back to ironclad or codified into law (the fork in the road).",
     "NATO Summit/SecGen framing after any incursion: Rutte ironclad vs. Trump transactional."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - transactionalization visible): US security guarantees explicitly conditioned on European concessions (trade, defense spending, Ukraine posture) in official policy instruments - statements with teeth (troop redeployments tied to demands, funding conditions legislated). TIER 1 (mechanism tells): transactional rhetoric escalating to policy drafts, bilateral deals bypassing NATO structures, burden-sharing ultimatums. THE DISCOUNT: transactional NATO rhetoric is near-consensus baseline; the graded claim is POLICY INSTRUMENTS, not rhetoric.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for policy-instrument stage). Tier 1: high (~75%), heavily discounted as near-consensus.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "post-defeat-consolidation-menu",
@@ -1118,9 +1118,9 @@
     "Loyalist street mobilization vs. economic-defection fracture (Option 4 viability, ties to defection track 71)",
     "Whether congressional subpoenas/funding power are treated as advisory or binding \u2014 THE Option 1 tell"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with MENU-SELECTION DIAGNOSTIC per Confirmation Standard. TIER 2 (headline - gray-zone coup path activates): after a midterm loss, the administration selects and executes a registered Option (court-capture acceleration, certification override attempt, emergency-powers invocation, or the fraud-narrative pre-delegitimization pivot) as the PRIMARY consolidation vehicle. TIER 1 (mechanism tells - menu being prepared): pre-positioning activity in the registered channels (SCOTUS circuit realignment pushes, state-legislature certification-authority bills, DOJ election-section staffing). DEDUP RULE: overlaps regime-power-retention - if retention refusal fires outright, the menu card is superseded (refusal is the loud branch; menu is the quiet branch). Only the quiet branch confirms this card.",
+   "confirmer_base_rate": "Tier 2: moderate (~40-50% conditional on a midterm loss occurring; unconditional rate lower). Tier 1: moderate-high (~55-65%), footing only.",
+   "confirmation_window": "Nov 4, 2026 - Jun 30, 2027 (post-election consolidation window)"
   },
   {
    "basename": "post-trump-restructure",
@@ -1155,9 +1155,9 @@
     "Thiel continued proportion: observable funding/positioning of the Vance line vs. Thiel going quiet (de-escalation).",
     "Whether the battering-ram actually breaks a load-bearing institution (a court, the Fed, the military command) vs. merely symbolic assaults."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - fall-guy/new-Caesar structure materializes): visible personnel/structural restructuring consistent with the thesis - a designated scapegoat absorbing accountability for registered failures (Hegseth-type cabinet member formally sacrificed), OR a successor-consolidation move (family/loyalist verticalization of the movement apparatus) that outlives the presidency. TIER 1 (mechanism tells): loyalty-purge tempo accelerating, succession-relevant appointments, intra-movement discipline actions. FALL-GUY DIAGNOSTIC: a scapegoat removal within 90 days of a registered failure event is the cleanest Tier 2 tell; without the failure-event linkage it is Tier 1 only.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for the restructure thesis across the window; the card is structural, so multiple paths to confirmation). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "post-wwii-unwinding-cass88",
@@ -1192,9 +1192,9 @@
     "Dollar reserve behavior in China/BRICS settlement flows",
     "Hub-and-spoke bypass pattern: further bilateral security pacts excluding Washington (watch: Egypt, Qatar, Turkey)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with ARCHITECTURE-STAGE TEST per Confirmation Standard. TIER 2 (headline - terminal stage registered): a registered structural pillar collapses or is formally abandoned (a major multilateral institution functionally dissolved, a reserve-currency regime shift in practice, a binding alliance formally voided) - the terminal unwinding structure, not drift. TIER 1 (mechanism tells): pillar EROSION (funding withdrawal, compliance refusal, parallel-institution building). THE STAGE TEST: the card claims TERMINAL unwinding at 94% - erosion is baseline and heavily discounted; the graded claim is the collapse/abandonment step, which is why the card carries high confidence only at the erosion-plus stage.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for one pillar-collapse step in-window; the card's 94% is the multi-year thesis, so the in-window headline takes the haircut). Tier 1: high (~85%), heavily discounted as baseline erosion.",
+   "confirmation_window": "Through Dec 31, 2028 (the thesis horizon)"
   },
   {
    "basename": "press-access-enclosure-media-capture",
@@ -1229,9 +1229,9 @@
     "First injunction ruling and WH response posture (comply vs defy vs appeal)",
     "Trump TV channel language adopting enemy frame directly"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture completes): pool structure does not recover (press pool remains replaced/hollowed through the window) AND enforcement-of-loyalty spreads (additional outlets losing access for coverage reasons, or credential actions tied to editorial content). TIER 1 (mechanism tells): Trump TV/WH-static direct-channel growth siphoning primary access; friendly-inherit pool reconstitution; credential-policy formalization. DEDUP RULE: Trump TV growth itself is a separate confirmed line (own card) - here it counts as Tier 1 substrate only.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive given pool collapse already observed; persistence is the graded claim, moderate skill signal). Tier 1: high (~70-75%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "regime-power-retention",
@@ -1329,9 +1329,9 @@
     "The intersection of AI agent drift with critical power, financial, communications grids, and physical actuation (drones/robotics) \u2014 kinetic-digital coupling.",
     "Whether the DseWiki / deleted-moderation pattern generalizes from wiki boards to core infrastructure (power, water, payment clearing)."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - hijacking/drift registered): documented case of autonomous agents hijacking infrastructure or diverging from operator intent at production scale (unauthorized resource acquisition, goal divergence in deployed systems, adversarial agent-to-agent exploitation). TIER 1 (mechanism tells): sandboxed demonstrations of hijacking capability, documented near-misses, substrate-drift incidents (silent configuration changes, unlogged actions). Same attribution discipline as the containment-failures card: official/investigative attribution required.",
+   "confirmer_base_rate": "Tier 2: moderate (~30-40% naive). Tier 1: moderate-high (~50-60%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "russian-internal-fragility",
@@ -1357,9 +1357,9 @@
     "Any Russian escalatory act born of desperation (Baltic probe, sanctions-breaking, nuclear signaling) as fragility external shadow.",
     "Sea-borne gasoline import dependency - the seam of the crisis."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - fragility bites): registered winter-crisis markers materialize - regional fuel/heating shortages at scale, refinery-capacity losses forcing export bans (domestic fuel rationing), or elite-faction visibility (seizures, defections, oligarch-state conflict). TIER 1 (mechanism tells): drone-strike tempo on refining, fuel-price spikes, mobilization-age debt-trap recruitment accelerating. BASE-RATE NOTE: Russian winter fragility is a perennial expectation; the graded claim is the DUAL-STRAIN structure (war attrition PLUS substrate/logistics strain), so adjudication requires both stresses visible simultaneously.",
+   "confirmer_base_rate": "Tier 2: moderate-high (~50-60% naive for the dual-strain structure; moderate skill signal given the perennial base rate - the structure, not the season, is the claim). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Dec 2026 - Mar 2027 (winter-crisis window)"
   },
   {
    "basename": "serial-donroe-template-hemisphere",
@@ -1383,9 +1383,9 @@
     "Official WH adoption of 'Donroe Doctrine' terminology",
     "Machado White House visit converting to legitimacy structure"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with TEMPLATE-STAGE TEST per Confirmation Standard. TIER 2 (headline - template iterates): the designare-strangle-capture-manage sequence executes in a SECOND sovereign instance (a second hemispheric state subjected to the registered sequence: designation, economic strangulation, capture of governance, managed settlement). TIER 1 (mechanism tells): designation-list expansions, strangle-stage pressure on additional states, capture-stage operations. THE STAGE TEST: the template existing once (Venezuela-type case) is baseline; ITERATION in a second instance is the graded claim.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for a completed second iteration). Tier 1: moderate-high (~55-65%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "short-brutal-decisive-conflict",
@@ -1413,9 +1413,9 @@
     "Whether human leadership authorizes a covert first-strike or insists on visible kinetic escalation.",
     "The 'era's instrument' escalation chain: rifles to trenches to mechanization to agentic economic warfare."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with TEMPORAL TEST per Confirmation Standard. TIER 2 (headline - substrate conflict resolves short-brutal-decisive): the principal live conflict (Iran-Gulf or successor) concludes within the registered short window with decisive outcome (regime change, capitulation, or decisive military settlement) AND the brutality signature (civilian-infrastructure targeting at registered scale). TIER 1: conflict persisting in attrition/quagmire mode - which FAILS the card but confirms the duel-track alternative. THE TEMPORAL TEST IS THE CARD: duration is the graded variable, not occurrence.",
+   "confirmer_base_rate": "Tier 2: moderate (~45-55% naive conditional on the conflict continuing; the temporal signature is the skill claim). Tier 1 (attrition branch): moderate - closes the spread, no confirmation credit.",
+   "confirmation_window": "Through Jun 30, 2027 (temporal window for the registered conflicts)"
   },
   {
    "basename": "spr-runway-breaks-before-midterms",
@@ -1485,9 +1485,9 @@
     "immigration-restriction rhetoric shifting from economic frames to demographic-survival frames - 'replacement' as official vocabulary is the completed fusion of natalism and dehumanization tracks",
     "Russia/Hungary natalism escalation as comparator series; China pro-natalist panic escalation as null-comparator (authoritarian natalism without liberal base)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - marker intensifies): state natalism moves from rhetoric to program (binding maternity/pregnancy-adjacent restrictions expanding, explicit population-policy institutions, or material incentives at registered scale) as the registered turning-phase marker. TIER 1 (mechanism tells): state-level program proliferation, demographic-policy commissioning, rhetoric-to-policy migrations. THE DISCOUNT: natalist rhetoric is baseline; the graded claim is PROGRAM INSTITUTIONALIZATION.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "strait-of-hormuz-blockade",
@@ -1569,9 +1569,9 @@
     "CLRP/Loan Repayment expansion in future NDAA - does debt relief become the primary marketing lever?",
     "Draft-relevant signals: Selective Service expansion, 'Total Force' language, draft-panic news (DE Online, USA Today on possible draft for Iran war)."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - economic conscription registers): enlistment incentives explicitly marketed on debt relief at scale (national recruiting campaigns using forgiveness as the hook) OR statutory linkage (enlistment-conditioned debt relief programs expanded). TIER 1 (mechanism tells): loan-repayment enforcement tightening (default collections resuming at scale), recruiting-target shortfalls coinciding with debt-policy hardening, regional recruiting pitches featuring debt relief. THE DISCOUNT: debt-driven enlistment pressure is partially baseline (recruiting has always leaned on benefits) - the graded claim is the CORNERING structure (policy-made necessity), which requires the tightening side, not the incentive side alone.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for the cornering structure in-window). Tier 1: moderate-high (~50-60%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027"
   },
   {
    "basename": "substrate-emergence-signature",
@@ -1599,9 +1599,9 @@
     "US-China safety talks outcome (Sept 2026): does any treaty language address substrate-level dynamics or only single-model controls?",
     "Pascio's own test: 'your phone behaves slightly differently' \u2014 needs an instrumented version, not anecdote"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - signature detected): a measurable systemic signature of substrate-level agent emergence (cross-system coordination patterns, emergent economic behavior among deployed agents, measurable emergent-protocol formation) detected and documented before deliberate design achieves it. TIER 1 (mechanism tells): agent-to-agent protocol standardization accelerating, unexpected emergent behaviors in deployed swarms. THE DISCOUNT: this card grades on DETECTION, not occurrence - the signature must be observed and identified as emergent, which is a higher bar than the behavior existing.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for documented detection). Tier 1: moderate-high (~50-60%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "substrate-shock-mortality-cascade",
@@ -1626,9 +1626,9 @@
     "The MAD-freeze risk: attacker and defender freezing each other's substrate simultaneously, stranding the population between two dead systems.",
     "Covert-vs-overt fork: whether the first major substrate shock is visible (open hostility) or silent (infrastructure collapse attributed to weather/bug/accident) \u2014 the silent form maximizes confusion and death."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - cascade registered): mortality/excess-death data in a major economy shows a registered cascade signature attributable to substrate shock (infrastructure failure chain, supply collapse, or service-rationing), distinguishable from background drift by concentration (regional or demographic clustering). TIER 1 (mechanism tells): hospital/dialysis/insulin supply interruptions, cold-chain failures, utility disconnection spikes. OBSERVABILITY NOTE: attribution is the hard step - adjudication requires the concentration signature, not the mortality level alone.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~30-40% naive; the cascade framing is specific enough that a firing is a genuine skill signal). Tier 1: moderate (~40-50%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "tactical-nuclear-use",
@@ -1657,9 +1657,9 @@
     "Whether the November Pause / China mediation quarantines the fronts before the threshold",
     "Kremlin personnel/discourse shift toward 'existential framing' of the war"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "SINGLE-TIER (clean falsifiable claim) per Confirmation Standard. CONFIRM: any tactical or strategic nuclear detonation in the live series within the window. The card sits at 18% - a deep-tail claim where a firing would be an extraordinary skill signal. Adjudication is binary and global; test detonations count, dirty-bomb/fake-out events do not.",
+   "confirmer_base_rate": "~18% naive by the card itself - maximum leverage in the tail.",
+   "confirmation_window": "Through Dec 31, 2027"
   },
   {
    "basename": "turning-phase-indicator",
@@ -1715,9 +1715,9 @@
     "Sea-borne import dependency (India/Morocco/Turkey/Belarus): sustained = fragility; substituted by domestic = recovery.",
     "Winter immediacy: whether recovered capacity covers heating-season demand without rationing."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "RETROACTIVE CONFIRMER (registered post-outcome with provenance noted): strike campaign on Russian refining/export infrastructure is observed and ongoing in the live series; the original registration pre-named the mechanism (refinery throughput degradation, export-capacity erosion). Confirmed as pre-registered-mechanism-matched. Persistence check: continued strike tempo is Tier 1 persistence, not incremental skill.",
+   "confirmer_base_rate": "High (already adjudicated; retrofit haircut applied).",
+   "confirmation_window": "Adjudicated (ongoing campaign; persistence check through 2027)"
   },
   {
    "basename": "war-question-duel",
@@ -1747,9 +1747,9 @@
     "LANDING CONVERGENCE: whichever thesis wins, watch the domestic apparatus activate \u2014 both routes terminate in internal struggle",
     "Inversion twin: 9-11-inversion-false-flag (35) supplies the ignition; the Potemkin thesis supplies the sustained posture if B wins the route"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "SPREAD-TRACK CARD (confidence 9 by design - hedged duel thesis). CONFIRMER: the spread resolves when one of the two registered branches (short-brutal-decisive resolution vs quagmire/attrition) reaches registered dominance in the live series; the duel itself confirms nothing until a branch wins. Per the Confirmation Standard, a spread track at 9% is an explicit non-skill claim; its confirmer exists only to close the adjudication loop, not to generate evidence.",
+   "confirmer_base_rate": "n/a - spread track, explicitly non-skill (9%). Adjudication closes the spread; no confirmation credit either way.",
+   "confirmation_window": "Resolution of the spread: through Jun 30, 2027"
   },
   {
    "basename": "world-war-iii-prologue",
@@ -1782,9 +1782,9 @@
     "Uncontrolled escalation triggers: a US naval combatant sunk, a nuclear threshold signal, a Baltic incursion combined with Iran re-escalation.",
     "PROXY-CHOKEPOINT FIFTH THEATER (added 2026-09-11): Houthi Red Sea coastal expansion \u2014 Bab el-Mandeb ignition via proxy rather than direct state action; watch Israeli strikes on Houthi infrastructure and US fleet repositioning (see houthi-red-sea-escalation-fork.json)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with INTERLOCK-TABLE ADJUDICATION per Confirmation Standard. TIER 2 (headline - interlocking-theater structure): two or more registered theaters (Iran-Gulf, Ukraine/Europe, Taiwan-Pacific) reach registered escalation thresholds within a defined overlap window, producing the interlocking structure the thesis claims. TIER 1 (mechanism tells): single-theater escalation, alliance-architecture stress (NATO conditional-guilt, Gulf hedging), arms-control collapses. ADJUDICATION: the interlock STRUCTURE is the claim - sequential escalation in separate windows without overlap is Tier 1; the simultaneity is what confirms the prologue thesis.",
+   "confirmer_base_rate": "Tier 2: moderate-low (~20-30% naive for overlapping-theater structure; the card at 57% is thesis-level, so the headline takes the haircut). Tier 1: high (~70%), discounted.",
+   "confirmation_window": "Through Dec 31, 2027"
   }
  ],
  "mget_ledger": [
