@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://cdn.tailwindcss.com"></script><title>CASS Intelligence Board</title><script>
 // ---- shared utils (hoisted so engine + renderer see one copy) ----
 const esc=s=>String(s??'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+const etf=(d,t)=>t?esc(d)+' · '+esc(t)+' ET':esc(d);
 const norm=c=>{if(c==null)return 0;return c<=1?c*100:(c>100?100:c);};
 const badge=c=>{c=norm(c);return c>=90?'bg-red-600':c>=70?'bg-amber-600':'bg-slate-600';};
 window.__CASS_UTILS={esc,norm,badge};
@@ -63,7 +64,7 @@ window.__shareP = function(i){
     + (p.evidence_contradicted&&p.evidence_contradicted.length?`<div class="sc-sec">Evidence against</div><ul class="sc-list">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:'')
     + (p.falsifier?`<div class="sc-sec">How we would know we are wrong</div><div class="sc-body">${esc(p.faiserer||p.falsifier)}</div>`:'');
   shareCard(esc(p.title), Math.round(norm(p.confidence))+'% · '+p.status, badge(p.confidence), secs,
-    'CASS Intelligence Board · logged '+p.date_made+' · every claim carries its falsifier');
+    'CASS Intelligence Board · logged '+(p.time_et?p.date_made+' · '+p.time_et+' ET':p.date_made)+' · every claim carries its falsifier');
 };
 window.__shareMacro = function(){
   const D = window.__CASS_DATA;
@@ -156,15 +157,33 @@ let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Forecast Register (${D.predictions.length})</h3>`;
+// Theme-group nesting: master collapsible per theme, then status sub-headers, then cards.
+D.predictions.forEach((p,i)=>{p.__i=i});
+const THEME_ORDER=[['war-gulf','⚔️ Gulf & War Escalation'],['domestic','🏛️ Domestic Consolidation & Repression'],['econ','💵 Economic & Material Substrate'],['ai','🤖 AI & Substrate Emergence'],['method','🧭 Method & Framework']];
+const THEME_MAP={'war-gulf':['strait-of-hormuz-blockade','spr-runway-breaks-before-midterms','houthi-red-sea-escalation-fork','iran-naval-escort-escalation','ground-invasion-of-iran','tactical-nuclear-use','war-question-duel','short-brutal-decisive-conflict','ukraine-strikes-russian-oil','russian-internal-fragility','kinetic-european-conflict','nato-conditional-guilt','world-war-iii-prologue','9-11-inversion-false-flag','kinetic-conflict-north-america','chemical-biological-weapons'],
+'domestic':['domestic-enforcement-groundwork','election-day-violence-2026','regime-power-retention','post-defeat-consolidation-menu','post-trump-restructure','reichstag-fire-national-emergency','kemalist-preference-reichstag-fallback','military-coup-fourth-turning','cdc-epistemic-capture','press-access-enclosure-media-capture','alpr-surveillance-decoy-substrate','axon-fusus-ai-fusion-successor','state-natalism-turning-marker','assassination-as-catalyst-kirk','kirk-anniversary-narrative-2026','2026-midterms-legitimacy-catalyst-node','control-clean-election-no-crisis','dehumanization-velocity-turning-signal','conservative-space-economic-defection'],
+'econ':['fertilizer-supply-crisis','substrate-shock-mortality-cascade','student-debt-enlistment-cornering','frx-mget-coupling-1930s-config','de-dollarization-reserve-rotation','icscglubkznc','2026-09-09-90day-phase4-forecast'],
+'ai':['agi-uneven-profile','agi-cognitive-labor-repricing','agi-scaffold-political-economy','agent-collective-containment-failures','substrate-emergence-signature','rogue-ai-substrate-risk','agi-recursive-acceleration-test'],
+'method':['1859-orientation-confirmation-set','institutional-health-arbiter-refinement','fatigue-asymmetry-in-composites','post-wwii-unwinding-cass88','serial-donroe-template-hemisphere','gray-zone-annexation-greenland','mid-august-oil-price-shock','turning-phase-indicator','2026-09-22-caredock-lockin-p006']};
 const byStatus={};
-D.predictions.forEach((p,i)=>{p.__i=i;(byStatus[p.status]??=[]).push(p)});
+D.predictions.forEach((p,i)=>{(byStatus[p.status]??=[]).push(p)});
+const STATUS_CLS={confirmed:'text-emerald-400',emergent:'text-sky-400',pending:'text-slate-300',failed:'text-red-400'};
+THEME_ORDER.forEach(([tk,tl])=>{
+const preds=(THEME_MAP[tk]||[]).map(b=>D.predictions.find(p=>p.basename===b)).filter(p=>p&&p.__i!==undefined);
+if(!preds.length)return;
+const stCounts=preds.reduce((a,p)=>{a[p.status]=(a[p.status]||0)+1;return a},{});
+const confN=stCounts.confirmed||0,failN=stCounts.failed||0;
+h+=`<details class="card rounded-xl mb-6 border-l-4 border-sky-500/60" ${confN===preds.length?'open':''}><summary class="p-5">
+<div class="flex flex-wrap items-center gap-3"><span class="text-xl font-bold text-sky-300">${tl}</span><span class="px-2 py-0.5 bg-slate-800 text-slate-300 text-xs rounded">${preds.length} cards</span>${confN?`<span class="px-2 py-0.5 bg-emerald-900/40 text-emerald-400 border border-emerald-500/40 text-xs font-bold rounded">✓ ${confN} confirmed</span>`:''}${failN?`<span class="px-2 py-0.5 bg-red-900/40 text-red-400 border border-red-500/40 text-xs font-bold rounded">✗ ${failN} failed</span>`:''}<span class="chev text-slate-400">▶</span></div></summary><div class="px-4 pb-4">`;
 ['confirmed','emergent','pending','failed'].forEach(st=>{
-if(!byStatus[st])return;
-h+=`<p class="text-sm font-bold text-slate-300 uppercase tracking-wide mt-4 mb-2">${st} (${byStatus[st].length})</p>`;
+const stp=preds.filter(p=>p.status===st);
+if(!stp.length)return;
+h+=`<p class="text-sm font-bold ${STATUS_CLS[st]} uppercase tracking-wide mt-4 mb-2">${st} (${stp.length})</p>`;
+stp.sort((a,b)=>norm(b.confidence)-norm(a.confidence));
 byStatus[st].sort((a,b)=>norm(b.confidence)-norm(a.confidence)).forEach((p,idxAll)=>{
-const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${esc(p.date_made)} → ${esc(p.resolved_date)}</span>`:'';
+const lead=p.resolved_date&&p.date_made?`<span class="px-2 py-1 bg-slate-800 text-emerald-400 border border-emerald-500/30 text-xs font-semibold rounded" title="Lead time from log to resolution">⏱ ${etf(p.date_made,p.time_et)} → ${esc(p.resolved_date)}</span>`:'';
 h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'border-red-500':norm(p.confidence)>=70?'border-amber-500':'border-slate-600'}"><summary class="p-6">
-<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${esc(p.date_made)}</span>${lead}<button class="share-btn px-2 py-1 bg-amber-600 text-white text-xs font-bold rounded" onclick="__shareP(${p.__i})">📸 Share Card</button></div>
+<div class="flex flex-wrap items-center gap-2 mb-2"><span class="px-3 py-1 ${badge(p.confidence)} text-white text-xs font-bold rounded">${Math.round(norm(p.confidence))}%</span><span class="px-3 py-1 bg-slate-800 text-amber-400 border border-amber-500/30 text-xs font-semibold rounded">${esc(p.status)}</span><span class="text-slate-400 text-xs">logged ${etf(p.date_made,p.time_et)}</span>${lead}<button class="share-btn px-2 py-1 bg-amber-600 text-white text-xs font-bold rounded" onclick="__shareP(${p.__i})">📸 Share Card</button></div>
 <p class="text-lg font-bold text-amber-400">${esc(p.title)}</p>
 <p class="text-slate-300 text-sm mt-1">${esc(p.statement)}</p>
 <p class="text-slate-500 text-xs mt-2">📄 Expand for evidence base &amp; falsifier <span class="chev">▶</span></p>
@@ -172,9 +191,12 @@ h+=`<details class="card rounded-xl mb-4 border-l-4 ${norm(p.confidence)>=90?'bo
 ${p.evidence_confirmed&&p.evidence_confirmed.length?`<p class="text-xs font-bold text-emerald-400 uppercase mb-1">Evidence confirmed</p><ul class="list-disc list-inside text-slate-300 text-xs mb-3">${p.evidence_confirmed.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:''}
 ${p.evidence_contradicted&&p.evidence_contradicted.length?`<p class="text-xs font-bold text-red-400 uppercase mb-1">Evidence contradicted</p><ul class="list-disc list-inside text-slate-300 text-xs mb-3">${p.evidence_contradicted.map(e=>'<li>'+esc(e)+'</li>').join('')}</ul>`:''}
 ${p.falsifier?`<p class="text-xs mt-2"><strong class="text-red-400">Falsifier:</strong> <span class="text-slate-300">${esc(p.falsifier)}</span></p>`:''}
-${p.confirmer?(()=>{const c=p.confirmer;const parts=[];if(typeof c==='string'){parts.push(esc(c));}else{if(c.confirms)parts.push('<strong class="text-emerald-300">Confirms:</strong> '+esc(c.confirms));if(c.base_rate)parts.push('<strong class="text-emerald-300">Base rate:</strong> '+esc(c.base_rate));if(c.window)parts.push('<strong class="text-emerald-300">Window:</strong> '+esc(c.window));}return parts.length?`<p class="text-xs mt-2"><strong class="text-emerald-400">Confirmer:</strong> <span class="text-slate-300">${parts.join(' · ')}</span></p>`:'';})():''}
+${p.confirmer?`<p class="text-xs mt-2"><strong class="text-emerald-400">Confirmer:</strong> <span class="text-slate-300">${esc(p.confirmer)}</span>${p.confirmer_base_rate?` <span class="text-slate-500">(base rate: ${esc(p.confirmer_base_rate)}${p.confirmation_window?`, window: ${esc(p.confirmation_window)}`:''})</span>`:(p.confirmation_window?` <span class="text-slate-500">(window: ${esc(p.confirmation_window)})</span>`:'')}</p>`:''}
 ${p.forward_watchlist&&p.forward_watchlist.length?`<p class="text-xs mt-2"><strong class="text-amber-400">Watch:</strong> <span class="text-slate-300">${esc(p.forward_watchlist.join(' · '))}</span></p>`:''}
-</div></details>`;});});
+</div></details>`;});
+h+='</div></details>';
+});
+});
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">MGET Ledger</h3>`;
 // Collapsible ledger panel, movers-style: collapsed by default, filter chips, newest first
 const VERDICT_CLS=v=>v==='confirms'?'text-emerald-400':v==='strains'?'text-amber-400':v==='undermines'?'text-red-400':'text-slate-400';
