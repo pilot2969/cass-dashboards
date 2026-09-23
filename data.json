@@ -1256,9 +1256,9 @@
     "The public-response telemetry: mobilizing over a stolen election vs. quiet despair-acceptance (the stare-down precondition).",
     "2026-09-09: Post-Nov 3 gap between announced war-end and power transfer now the sharpest diagnostic on the board"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with COUNTERFACTUAL CONTROL per Confirmation Standard. TIER 2 (headline claim - regime refuses to cede): post-certification, administration (a) refuses to leave despite losing certified result, (b) invokes emergency powers to void/alter certified outcome, or (c) triggers the election-wont-matter mechanism at scale (USPS discretionary withholding, certification override). TIER 1 (mechanism tells - retention machinery live): any of the registered watchlist tripwires fire - USPS leapfrog appeal outcome preserves ballot-withholding discretion, observable bulk ballot rejection/mismatch disenfranchisement in first-mailing week, DOJ enforcement-shielding expanded to election officials. COUNTERFACTUAL CONTROL: the claim is conditional (refusal regardless of outcome), so confirmation requires the LOSS branch observable - if the regime wins the midterms, refusal proves nothing (retention machinery unused; claim untestable this cycle). If the regime loses and refuses, that is the headline confirmation. Adjudication must record which branch (win/loss) the cycle ran.",
+   "confirmer_base_rate": "Headline (Tier 2): moderate-low (~15-25% naive for refusal-after-loss; requires loss AND refusal, compounding probabilities). Tier 1 tells: individually 30-50%, but each is a mechanism tell, not headline confirmation under the tier convention. Win-branch: unconfirmable this cycle by design (counterfactual control).",
+   "confirmation_window": "Nov 3, 2026 - Jan 20, 2027 (Election Day through the constitutional transfer date)"
   },
   {
    "basename": "reichstag-fire-national-emergency",
