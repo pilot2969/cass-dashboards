@@ -774,9 +774,9 @@
     "Iranian resupply flow to Houthis (cross-check de-dollarization track if Iran diverts resources)",
     "Interaction with SPR runway track (82): every Red Sea escort day competes with Hormuz convoy escort, feeding the oil clock"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "Either prong's fork-specific observable fires by mid-Dec 2026: (a) a US carrier group or major surface-action group repositions to Red Sea escort/interdiction beyond current CENTCOM posture (the registered resource-strain tell), or (b) Israeli strikes on Houthi infrastructure (ports, Sana'a) OR a Houthi strike on a US naval vessel (the registered Article 5-adjacent fuse). DEDUP RULE: tanker attacks in Bab el-Mandeb and effective Red Sea closure do NOT confirm this card - those events are registered as tripwires on the SPR runway and Hormuz cards; confirmation must come from the fork's own registered commits to avoid one event confirming three cards. Pre-registered Sept 11, 2026 in the prediction's forward watchlist.",
+   "confirmer_base_rate": "Moderate. Fork events (major naval repositioning or Israel-Houthi kinetic exchange) are episodic but precedented; base rate of either firing within a 90-day window in an active multi-theater posture ~35-45%. Confirming requires the fork's OWN channel, not shared theater metrics.",
+   "confirmation_window": "Sept 11 - mid-Dec 2026"
   },
   {
    "basename": "icscglubkznc",
