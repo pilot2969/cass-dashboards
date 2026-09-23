@@ -1536,9 +1536,9 @@
     "Strike expansion to Ras Tanura / East pipeline pumping stations",
     "Brent reaction overnight (gap above ~$115 = acceleration)"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "Compliance blockade (condition b): Iranian-managed routing share of Strait transits stabilizes above ~60%, with shippers treating Iranian routing authority as binding rather than advisory. [Pre-registered July 20, 2026 in forward_watchlist item 1 as the routing-sovereignty threshold; adjudicated 2026-09-14 on Kpler data (Sept 4-6: 21/28 transits = 75%). Not a post-hoc construct.]",
+   "confirmer_base_rate": "Low. Historical strait disruptions (Tanker War 1984-88, 2019 attacks) closed transit via force or insurance withdrawal; voluntary mass compliance with a belligerent's routing scheme has no modern precedent, est. <25%.",
+   "confirmation_window": "July 20 - Oct 1, 2026"
   },
   {
    "basename": "student-debt-enlistment-cornering",
