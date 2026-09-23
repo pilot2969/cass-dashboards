@@ -1460,9 +1460,9 @@
     "House return status - the empty-legislature test during the runway period",
     "Weekly SPR prints through Nov 3; emergency-drawdown vs silent-drain fork; retail gasoline <$6 hold; Hormuz tanker-loss cadence; Bab el-Mandeb closure; EIA STEO revision off $90 hold"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "One of three registered tripwires fires before Nov 3: (a) SPR breaches the ~290M barrel cavern-damage floor, (b) major convoy/tanker loss in Hormuz, (c) Bab el-Mandeb closes. Pre-registered Sept 1, 2026 in the prediction's falsifier frame and weekly watchlist. [ADJUDICATION 2026-09-18: branch (a) fired - SPR printed 285.4M, below the ~290M floor, 25 consecutive weekly draws, lowest since Nov 1982. Confirms the runway-arithmetic claim; does NOT by itself confirm the regime-fatality mechanism, which remains open pending the Nov 3 adjudication.]",
+   "confirmer_base_rate": "Low. SPR floor breach is a structural-attrition event with no midterm precedent; the three-channel tripwire set is the ~15-20% tail of pre-midterm oil-shock history.",
+   "confirmation_window": "Sept 1 - Nov 3, 2026"
   },
   {
    "basename": "state-natalism-turning-marker",
