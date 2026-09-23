@@ -308,9 +308,9 @@
     "Whether anti-surveillance activists pivot from brand-war to data-governance/warrant/retention fights - the actual substrate contest (New Hampshire 3-min retention; WA public-records ruling; SCOTUS Carpenter implications).",
     "Flock reinstalling/reactivating cameras after canceled contracts (3+ towns reported) - token-loss optics versus actual persistence."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED with SUBSTRATE-DIVERGENCE CONTROL per Confirmation Standard. TIER 2 (headline - decoy mechanism confirmed): after visible Flock removals in the tracked jurisdictions (Denver, Longmont, Syracuse, Austin, Abington), successor uptake (Axon/Rekor/Motorola) replaces the withdrawn coverage such that AGGREGATE active ALPR node count stays flat or grows - substrate preserved despite visible sacrifice. TIER 1 (mechanism tell): Axon Fusus AI-fusion rollout continuing (the connect-the-dots layer deepening beyond plate reads) regardless of Flock's fate. THE CONTROL: node-count persistence must be DIVERGENT from the visible removals - if coverage genuinely falls and stays down, the falsifier fires and the decoy thesis dies; if coverage merely relocates, the headline confirms. Vendor-swap alone without node-count persistence is Tier 1 (mechanism visible), not Tier 2 (decoy proven).",
+   "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for substrate persistence given the falsifier's own observation that Flock reads as sacrificial; a firing is a moderate skill signal - the mechanism is mechanism-first, not event-first). Tier 1: high (~70-80%), discounted.",
+   "confirmation_window": "Through Jun 30, 2027 (Flock-cancellation aftermath plus Fusus rollout window)"
   },
   {
    "basename": "assassination-as-catalyst-kirk",
@@ -422,9 +422,9 @@
     "Crop/livestock disease anomalies consistent with economically-directed bio-sabotage",
     "Any seizure of improvised agent-production materials at European borders"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - utilization): any chemical or biological agent confirmed as a weapon of the escalation ladder within the window - military CW use, OR deniable contamination consistent with the substrate-softening role (food/agri/waterborne event with credible sabotage attribution at logistics chokepoints, OR GRU/Signature-series poisoning expanding beyond defectors to infrastructure nodes). TIER 1 (mechanism tells - gray-zone footing): CBRN threat-level escalations, official biological-sabotage attributions, or crop/livestock disease anomalies under investigation as economically-directed sabotage - confirms the escalation-ladder positioning, not utilization. SUBSTRATE NOTE: the HIGHER-risk vector (food/agri contamination, ~25-30% of the split) is the Tier 2 branch with the weakest observability - adjudication should require official attribution or multi-source corroboration, since the mechanism predicts deniable events that resist clean attribution.",
+   "confirmer_base_rate": "Tier 2: low (~30-35% naive for any utilization in-window, matching the card split CW ~35% / bio ~25-30% which already aggregates to the stated headline). Tier 1 tells: moderate (~30-40%), discounted as footing.",
+   "confirmation_window": "Through Jun 30, 2027 (escalation-ladder window; mirrors the war-escalation cluster)"
   },
   {
    "basename": "conservative-space-economic-defection",
@@ -572,9 +572,9 @@
     "The Tucson hate-crime narrative: does the anti-migrant/anti-Muslim amplification convert into policy, or does accountability pierce it?",
     "Coordination with the election-wont-matter mechanism: enforcement resources redirected toward electoral control."
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - groundwork converts): before the midterms, any of (a) ICE/DHS enforcement surge of the projected national scale (arrest/detention rates sustained well above status-quo baseline, multi-state simultaneous operation), (b) expansion of detention/deportation authority beyond current state (statutory, regulatory, or emergency-order), or (c) substantive anti-Muslim/anti-immigrant emergency action (designation, ban, programmatic bar). TIER 1 (mechanism tells - groundwork live): DOJ enforcement-shielding expansion (ICE-agent testimony blocks, accountability walls); a federal intervention in a blue city under the Chicago template; the Tucson hate-crime narrative converting into policy rather than being pierced by accountability. DEDUP RULE: kinetic election-day events belong to the violence card; enforcement machinery belongs here. AMPLIFICATION NOT CONFIRMATION: synthetic grievance amplification (media-silence frames) alone confirms nothing - it is the substrate, measured but not confirming.",
+   "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for full conversion pre-midterms; a firing is a genuine skill signal since consolidation requires multiple machinery steps). Tier 1 tells: individually moderate-high (~40-60%), discounted as footing evidence.",
+   "confirmation_window": "Sep 2026 - Nov 3, 2026 (pre-midterms conversion window)"
   },
   {
    "basename": "election-day-violence-2026",
