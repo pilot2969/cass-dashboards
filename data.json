@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "2.1-data-layer",
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -39,7 +39,10 @@
     "Regional bank-note/capital divergence (FRX Tier-2 sensor)",
     "Fort-grabbing / contested-asset seizures",
     "Post-Nov 3 power-transfer gap (the legitimacy-dual trigger)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "2026-09-09-90day-phase4-forecast",
@@ -67,7 +70,30 @@
     "Punitive consolidation test: do targeted punishments of opposition states consolidate or fragment opposition?",
     "Dividend-pattern follow-ons: further unfunded retail promises as legitimacy drain",
     "De-Dollarization: next Norway-style rotation or gold repatriation"
-   ]
+   ],
+   "confirmer": "Branch A confirmation: certification of the 2026 midterms contested by regime apparatus, or visible security deployment / polling-infrastructure confrontation, or certification refused/indefinitely delayed. Branch B confirmation: certification completes with litigation noise but accepted outcome AND splitting-base indicators accelerate (polling divergence from governance divergence widening).",
+   "confirmer_base_rate": "Contested certification in any given federal cycle: historical base rate near 0% outside 1876/2000/2020; Branch B (deepened polarization without rupture) carries a materially higher naive rate \u2014 confirmation upgrades confidence only if registered-specificity holds",
+   "confirmation_window": "Nov 3, 2026 \u2013 Jan 6, 2027 (certification window)"
+  },
+  {
+   "basename": "2026-09-22-caredock-lockin-p006",
+   "title": "P-006 Caredock lock-in realization (field-test artifact)",
+   "date_made": "2026-09-22",
+   "time_et": "18:24",
+   "statement": "If Riverside Health signs the Caredock agreement as drafted, by 24 months after signature it will have experienced at least one of: an internal attempt to renegotiate the identity/migration or steering terms; a payer front-door conflict requiring an exclusivity carve-out; or a formal internal flag of e-triage dependency.",
+   "confidence": 0.65,
+   "status": "pending",
+   "evidence_confirmed": [],
+   "evidence_contradicted": [],
+   "falsifier": "24 months pass with none of the three conditions occurring \u2014 the agreement runs cleanly as drafted. If Riverside does not sign, grades as expired, not missed (censored case). Fictional exercise artifact: retained for methodology demonstration and machine-comparison baseline, not a real-world market prediction.",
+   "forward_watchlist": [
+    "AG inquiry outcomes in peer platform contracts",
+    "Payer front-door launches vs. exclusivity terms",
+    "Comparable platform term sheets surfacing"
+   ],
+   "confirmer": "Any one of the three lock-in conditions fires: (1) internal attempt to renegotiate exit terms before month 24; (2) genuine price increase or scope reduction at renewal tied to the guarantee terms; (3) measurable attrition of Riverside practices citing contract terms as a stated reason.",
+   "confirmer_base_rate": "Contract-dispute events of this class in unstructured deals: informal industry base rate roughly 20-30% over 24 months \u2014 above the 60% horoscope line only marginally, so confirmation upgrades modestly; the real grading event remains the 24-month clean-run falsifier",
+   "confirmation_window": "Signature date + 24 months"
   },
   {
    "basename": "2026-midterms-legitimacy-catalyst-node",
@@ -95,7 +121,10 @@
     "Certification timeline behavior in contested states",
     "Post-election: unity response (regeneracy branch) vs. factional consolidation (precursor branch)",
     "Hormuz reopening as pressure-discharge falsifier check"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "9-11-inversion-false-flag",
@@ -122,7 +151,10 @@
     "Regime reliance on bureaucratic/Kemalist suppression vs. theatrical violence - which tool it reaches for first.",
     "Interaction with the Reichstag track: the same event could serve either emergency narrative.",
     "Sept 11 2026 25th anniversary: Muslim mayor friction point + kinetic war overlay; watch for ceremony rhetoric vs inversion dynamics"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "agent-collective-containment-failures",
@@ -152,7 +184,10 @@
     "Antitrust exemptions debate for coordinated slowdown; whether US-China coordination regime materializes or both defect",
     "Anthropic embedded-evaluator program: does independent third-party access actually get implemented with real teeth",
     "OpenAI IPO timing (Altman: no listing until 2027) as capital-market pressure on pacing"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "agi-cognitive-labor-repricing",
@@ -170,7 +205,10 @@
     "bar/accounting/medical licensing fights over AI practice",
     "credentialism rhetoric in elections",
     "graduate employment-entry rates"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "agi-recursive-acceleration-test",
@@ -190,7 +228,10 @@
     "AI-for-science announcements with independent replication",
     "compute capex trajectories",
     "capability benchmark doubling times"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "agi-scaffold-political-economy",
@@ -213,7 +254,10 @@
     "platform ToS changes on account/AI-content ownership",
     "research on epistemic resilience interventions",
     "AI literacy policy programs"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "agi-uneven-profile",
@@ -230,7 +274,10 @@
     "frontier model benchmark reports",
     "lab announcements claiming AGI",
     "economist/evaluator capability-profile studies"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "alpr-surveillance-decoy-substrate",
@@ -260,7 +307,10 @@
     "State-level ALPR removal orders (FL, TX): do these ban the practice outright, or merely swap vendors / reduce visible poles while preserving systems?",
     "Whether anti-surveillance activists pivot from brand-war to data-governance/warrant/retention fights - the actual substrate contest (New Hampshire 3-min retention; WA public-records ruling; SCOTUS Carpenter implications).",
     "Flock reinstalling/reactivating cameras after canceled contracts (3+ towns reported) - token-loss optics versus actual persistence."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "assassination-as-catalyst-kirk",
@@ -282,7 +332,10 @@
     "Whether the anniversary memorial (Sept 10) is converted into a mandate for specific policy (ICE surge, domestic-terror reclassification, election-control).",
     "New primary evidence on the shooter: motive, complicity network, or any finding contradicting the lone-wolf framing.",
     "Whether staged is ever corroborated beyond catalytic use - vs. remaining a convenient use of a real tragedy."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "axon-fusus-ai-fusion-successor",
@@ -306,7 +359,10 @@
     "Whether Fusus integrates face/gait/reidentification beyond license plates - the 'talk'-type full-spectrum successor.",
     "FL/TX orders: do they also restrict AI-fusion/private-feed integration, or only visible poles?",
     "Data ownership terms in Axon successor contracts (who owns the fused data, retention, external agency sharing)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "cdc-epistemic-capture",
@@ -334,7 +390,10 @@
     "FDA, NOAA, BLS \u2014 next Interface Anomaly case studies for the corridor map",
     "Interaction with Conservative-Space Defection Signal: two substrates (healthcare, right-media) showing same defection geometry = cross-validation",
     "Whether CDC deviations are policy-specific or personality-specific (parallel structure to defection track)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "chemical-biological-weapons",
@@ -362,7 +421,10 @@
     "Continued 'Signature'/GRU-agent poisoning series expanding beyond defectors to infrastructure nodes",
     "Crop/livestock disease anomalies consistent with economically-directed bio-sabotage",
     "Any seizure of improvised agent-production materials at European borders"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "conservative-space-economic-defection",
@@ -391,7 +453,10 @@
     "Whether regime responds with economic concessions (absorption) or further consolidation (acceleration)",
     "Interaction with War Question spread: hollowing coalition makes Potemkin posture (loud-but-shallow external war) MORE attractive",
     "Emergence of named internal opposition figures or factions in right-media ecosystems"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "control-clean-election-no-crisis",
@@ -423,7 +488,10 @@
     "Certification-window enforcement surge",
     "Exogenous shock before Nov 3",
     "Further court-delegitimization rhetoric as rulings land; watch for conversion from rhetoric to non-compliance threats (state officials citing the 'corrupt court' framing)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "de-dollarization-reserve-rotation",
@@ -452,7 +520,10 @@
     "Further gold repatriation movements out of the NY Fed / London vaults by allied sovereigns",
     "More oil deals settled in Yuan/CIPS rails rather than USD",
     "Treasury auction bid-weakness or yield-suppression signals as war cost drains credibility"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "dehumanization-velocity-turning-signal",
@@ -473,7 +544,10 @@
     "Emergence of category-frame language in official justification documents (EOs, war messaging)",
     "Historical backtest: Weimar press 1930-33 antisemitic decree/press frequency",
     "Historical backtest: RTLM Rwanda 1990-94 hate-broadcast frequency"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "domestic-enforcement-groundwork",
@@ -497,7 +571,44 @@
     "Any federal intervention in a blue city under the Chicago template (DJT federal-civic-enforcement frame).",
     "The Tucson hate-crime narrative: does the anti-migrant/anti-Muslim amplification convert into policy, or does accountability pierce it?",
     "Coordination with the election-wont-matter mechanism: enforcement resources redirected toward electoral control."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
+  },
+  {
+   "basename": "election-day-violence-2026",
+   "title": "Election-Day Violence 2026 (Branch of Midterms Catalyst Node)",
+   "date_made": "2026-09-22",
+   "time_et": "17:15",
+   "statement": "ORIGIN: Owner question 2026-09-22 17:13 ET: 'Confidence assessment that we see violence on election day?' SUB-ASSERTION OF [2026-midterms-legitimacy-catalyst-node] (conf 74). STRUCTURED ASSESSMENT, THREE TIERS: (TIER 1 - SCATTERED INTIMIDATION/INCIDENTS, ~80%): Isolated armed presence near polling places (militia/ICE-adjacent 'poll watching'), individual threats against election officials, localized confrontations at contested-count centers, sporadic property damage. 2020-2022 baseline already includes election-office arson, threat letters, armed poll-watcher incidents; current cycle ADDS federalized enforcement normalization (ICE/Guard proximity), pre-built dual-sided assassination/coup frames with a citation layer, and NSPM-7 posture. (TIER 2 - COORDINATED LOCAL VIOLENCE, ~35%): Multiple simultaneous flashpoints - contested urban counts, ICE/polling-site confrontations, armed-group 'security' deployments triggering clashes, any fatality. Requires organizing infrastructure beyond memes. (TIER 3 - NATIONALLY COORDINATED / INSURRECTION-CLASS, ~10-12%): January-6-class or larger; requires explicit elite call plus security-service non-interference window. NOT the base case: midterms are a referendum, not a regime handover, and the apparatus is consolidated - the regime prefers LEGAL/substantive capture (USCIS machinery, certification litigation) over street mobilization, unlike 2020 when it was losing power. KEY ASYMMETRY: consolidated enforcement REDUCES Tier-3 probability but INCREASES Tier-1 probability - federalized enforcement normalizes armed presence at polls, so election-day violence is more likely to be STATE-SIDE (enforcement-adjacent, framed as order-keeping) than mob-side, inverting the 2020 pattern. Card-level confidence 80 reflects Tier-1 near-certainty; per-tier likelihoods are embedded in the statement. APPENDIX (9/22 17:17 ET owner follow-up): Tier-1 mechanism made concrete - Jake Lang-class vigilante 'voter fraud interception' targeting non-white voters at polls. This is not hypothetical: the organized substrate already exists (RNC 17-state 'election integrity' monitoring operation; Tea Party Patriots 35,000 trained poll watchers 2022-24, relaunched for 2026; Vote Safe Project deploying watchers in battlegrounds). Officially-credentialed watchers provide cover and legitimacy for unofficial para-political actors (Lang-class) to operate in the same locations with the same language. RISK MULTIPLIER: the assassination/coup citation frames make aggressive confrontation feel 'defensive' to the actor; ICE normalization lowers the social cost of demanding papers in public. Watch discriminator between credentialed watching and vigilante enforcement: whether RNC/TTPA-trained watchers are observed coordinating with uncredentialed armed presence, and whether 'fraud interception' video content (Lang's native medium) starts pre-election.",
+   "confidence": 80,
+   "status": "pending",
+   "evidence_confirmed": [
+    "Votebeat expert survey (Apr 2026): experts expect disruption incidents; majority reject mass-voter-deterrence but split on intimidation effects",
+    "Bannon publicly floated ICE airport deployments as 'test run' for polling-place positioning",
+    "The Intercept (9/22): veteran networks prepping to defend polling sites from ICE intimidation - dual-sided armed presence forming",
+    "Gallup: 60% of Dems concerned about polling-place intimidation; 77% about officials pressured to change outcomes",
+    "Election-official threat attrition documented (POLITICO brain-drain reports, Feb 2026)",
+    "Assassination/coup poll cross-aisle amplification 9/22 - violent frame pre-built with citation layer (ledger same day)",
+    "Joint Warfighter Evaluation loyalty gate (9/22) - security service sorting aligned with regime",
+    "USCIS whistleblower electoral-machinery capture (9/14); NSPM-7 posture watch item active"
+   ],
+   "evidence_contradicted": [],
+   "falsifier": "TIER 1 fails if election week passes with zero security-adjacent incidents at any polling/county site (armed presence, threats, confrontations) - would also strain catalyst-node Branch A. TIER 2 fails if no coordinated multi-site violence occurs. TIER 3 fails if no sustained coordinated armed action beyond isolated incidents.",
+   "forward_watchlist": [
+    "Polling-place security posture announcements (federal-state confrontation risk)",
+    "ICE/Guard deployment proximity to election infrastructure",
+    "Militia/'poll watcher' recruitment chatter in para-political networks",
+    "Left-side defensive mobilization (veteran networks, community defense) - dual-sided armed presence is the escalation multiplier",
+    "Elite call pattern: any official rhetoric framing election day as contested-in-advance",
+    "Com-class cyber operations targeting election infrastructure as violence-adjacent disruption (ShinyHunters FBI op same day shows federal-reach appetite)",
+    "Lang-class 'election integrity' content production pre-election (confrontation videos as recruitment material)",
+    "Overlap between credentialed poll-watcher programs (RNC 17-state op, TTPA) and uncredentialed armed presence at same precincts"
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "fatigue-asymmetry-in-composites",
@@ -518,7 +629,10 @@
     "Monitor operator entry frequency/quality across 2026-2028 as burnout indicator",
     "Watch for pacing discipline holding during high-crisis periods (midterms 2026)",
     "Assess whether collaborative distribution (substack, media) reduces operator load or increases it"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -540,7 +654,10 @@
     "Whether a food-price-shock narrative appears in domestic midterm politics (the regime transmission layer).",
     "Actual landed fertilizer cost at US farm gate - the lagging input that hits food shelves 6-9 months out.",
     "Any fertilizer-specific carve-out corridors in the blockade (humanitarian analog)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "frx-mget-coupling-1930s-config",
@@ -560,7 +677,10 @@
     "ETF discounts >1% on core funds",
     "VIX term-structure inversion >3 days",
     "Post-Nov 3 power-transfer gap (the MGET-side twin signal)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "gray-zone-annexation-greenland",
@@ -590,7 +710,10 @@
     "Post-signing narrative repair: whether victory frame explains the 'buying it'\u2192'leasing control' reversal without acknowledging it.",
     "'Canada is next' expansion-frame uptake at elected-official tier.",
     "UNGA signing ceremony as premature-victory absorption event."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "ground-invasion-of-iran",
@@ -616,7 +739,10 @@
     "Iran willingness to return to the interim ceasefire (Pezeshkian signal) - a genuine off-ramp that kills the ground option.",
     "China mediation posture - active de-escalation (lowers ground probability) vs. disengagement (raises it).",
     "Regime domestic optics: if they NEED a victory before midterms, ground invasion becomes likelier; if quiet-quit serves them, less."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "houthi-red-sea-escalation-fork",
@@ -647,7 +773,10 @@
     "Any Houthi claim of hitting a US naval vessel \u2014 Article 5-adjacent fuse and Master Thesis uncontrolled-escalation trigger",
     "Iranian resupply flow to Houthis (cross-check de-dollarization track if Iran diverts resources)",
     "Interaction with SPR runway track (82): every Red Sea escort day competes with Hormuz convoy escort, feeding the oil clock"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "icscglubkznc",
@@ -671,7 +800,10 @@
     "New oversight-body purges or reorganizations (domestic-facing)",
     "Foreign crisis events vs. regime response type (strike vs. mobilization)",
     "Outward rhetoric vs. inward budget divergence"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "institutional-health-arbiter-refinement",
@@ -692,7 +824,10 @@
     "Score US institutional health quarterly against the same axes used in backtests: court independence, electoral channel function, civil-service resistance capacity, legislative censure capacity",
     "Weimar institutional-health profile 1930-33 as the degraded-baseline template (Br\u00fcning decree governance, Reichstag paralysis, judicial capture)",
     "Threshold question for live series: does US 2026 institutional profile look more like 1950 America (absorptive) or 1932 Weimar (non-absorptive)?"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "iran-naval-escort-escalation",
@@ -718,7 +853,10 @@
     "Reported Iranian anti-ship ballistic-missile (ASBM) employment near escorts - a launched ASBM is the leading indicator of trap activation.",
     "Midterm window: whether Iranian strikes target US vessels (attention-forcing) vs. Gulf-state assets (signaling).",
     "Any USN combatant hit/sunk report or casualty evacuation from the Gulf."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "kemalist-preference-reichstag-fallback",
@@ -758,7 +896,10 @@
     "Executive health/succession stress: a biological trigger inside the window forces the loud fallback faster.",
     "Whether Democrats taking the House relieves the pressure (delays) vs. the regime shutting the legislature down (accelerates).",
     "Continuation of Quiet-Track infrastructure buildouts (CDC appointments, DHS election-enforcement, USPS batching) - their pace IS the quiet track velocity."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "kinetic-conflict-north-america",
@@ -783,7 +924,10 @@
     "Unexplained physical damage or sabotage events targeting North American undersea internet cables, electrical transmission grid nodes, or fuel pipelines.",
     "Escalation of state-sponsored proxy or cyber kinetic actions that successfully breach physical-world critical infrastructure in the US or Canada.",
     "Militarized civil unrest or localized armed clashes at domestic infrastructure chokepoints."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "kinetic-european-conflict",
@@ -818,7 +962,10 @@
     "German grid sabotage attribution (Sept 2026 campaign, 21 devices): does forensics link the letter-writer/bomb devices to a state actor (Russia gray-zone cutout) or domestic extremism? Watch for Berlin attribution statements, party-political exploitation before the election window, and whether attacks spread to other EU states' grids.",
     "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing",
     "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "kirk-anniversary-narrative-2026",
@@ -843,7 +990,10 @@
     "Whether Kirk martyrdom imagery is grafted onto any enforcement/crackdown justification in the following weeks (the catalyst track endgame).",
     "Comparative media weight: Kirk-anniversary coverage vs. 9/11 coverage on Sept 10-11 - the original falsifier.",
     "Any attempt to unify Kirk with 9/11 casualties in a single domestic-terror narrative (synthesis signal)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "mid-august-oil-price-shock",
@@ -867,7 +1017,10 @@
     "NYMEX Brent failing to break $100 within the original window (falsified the shock).",
     "Pressure migrated to the SPR runway: SPR weekly drain toward the ~290M cavern-damage floor is now the live successor signal.",
     "A resurrected hard shock in the pre-midterm window would be carried by the SPR-runway track, not this one."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "military-coup-fourth-turning",
@@ -903,7 +1056,10 @@
     "Any open public break between JCS Chair Caine and Hegseth/Trump on election troops or nuclear-ladder rhetoric.",
     "Senior officers privately appalled going public (Kendall op-ed class) - the pressure-vent release.",
     "A fabricated coup narrative being seeded to justify a purge (the smokescreen deployment)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "nato-conditional-guilt",
@@ -930,7 +1086,10 @@
     "First substantive US response to a real Baltic provocation: condition-setting (Branch A ~60%) vs. doctrine-withdrawal declaration (Branch B ~35%).",
     "Whether the 5% GDP / numerous-definitions-of-Article-5 rhetoric is walked back to ironclad or codified into law (the fork in the road).",
     "NATO Summit/SecGen framing after any incursion: Rutte ironclad vs. Trump transactional."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "post-defeat-consolidation-menu",
@@ -958,7 +1117,10 @@
     "Blue-state funding strangulation and Guard federalization (Option 3 signature)",
     "Loyalist street mobilization vs. economic-defection fracture (Option 4 viability, ties to defection track 71)",
     "Whether congressional subpoenas/funding power are treated as advisory or binding \u2014 THE Option 1 tell"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "post-trump-restructure",
@@ -992,7 +1154,10 @@
     "Whether election-control mechanisms (USPS balloting) succeed in sterilizing the electoral check - removing the last off-ramp and forcing restructure.",
     "Thiel continued proportion: observable funding/positioning of the Vance line vs. Thiel going quiet (de-escalation).",
     "Whether the battering-ram actually breaks a load-bearing institution (a court, the Fed, the military command) vs. merely symbolic assaults."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "post-wwii-unwinding-cass88",
@@ -1026,7 +1191,10 @@
     "Military red-line events: domestic deployment or public refusal",
     "Dollar reserve behavior in China/BRICS settlement flows",
     "Hub-and-spoke bypass pattern: further bilateral security pacts excluding Washington (watch: Egypt, Qatar, Turkey)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "press-access-enclosure-media-capture",
@@ -1060,7 +1228,10 @@
     "Named-journalist 'foreign agent' designations (FARA exposure escalation)",
     "First injunction ruling and WH response posture (comply vs defy vs appeal)",
     "Trump TV channel language adopting enemy frame directly"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "regime-power-retention",
@@ -1084,7 +1255,10 @@
     "Post-Election-Day: does administration certify against the count, invoke emergency powers, or simply refuse to leave? Each is a distinct escalating trigger.",
     "The public-response telemetry: mobilizing over a stolen election vs. quiet despair-acceptance (the stare-down precondition).",
     "2026-09-09: Post-Nov 3 gap between announced war-end and power transfer now the sharpest diagnostic on the board"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "reichstag-fire-national-emergency",
@@ -1123,7 +1297,10 @@
     "Massive pre-seeded roundup activity (ICE/federal enforcement surge) as the footing for a dissent-based emergency.",
     "The Minneapolis/Carlton signal: whether the amplifier ecosystem converts a genuine tragedy into war-on-law-enforcement framing (currently RESISTING it, per discipline).",
     "October vs. post-November trigger timing - the clock tells the branch: fear-based (October) or court-rig-based (post-Nov)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "rogue-ai-substrate-risk",
@@ -1151,7 +1328,10 @@
     "Corporate and regulatory liability frameworks for unmonitored agentic code execution.",
     "The intersection of AI agent drift with critical power, financial, communications grids, and physical actuation (drones/robotics) \u2014 kinetic-digital coupling.",
     "Whether the DseWiki / deleted-moderation pattern generalizes from wiki boards to core infrastructure (power, water, payment clearing)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "russian-internal-fragility",
@@ -1176,7 +1356,10 @@
     "Continued Ukrainian strike tempo (sustained degradation) vs. negotiation-induced pause.",
     "Any Russian escalatory act born of desperation (Baltic probe, sanctions-breaking, nuclear signaling) as fragility external shadow.",
     "Sea-borne gasoline import dependency - the seam of the crisis."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "serial-donroe-template-hemisphere",
@@ -1199,7 +1382,10 @@
     "Panama canal pressure second iteration",
     "Official WH adoption of 'Donroe Doctrine' terminology",
     "Machado White House visit converting to legitimacy structure"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "short-brutal-decisive-conflict",
@@ -1226,7 +1412,10 @@
     "MAD-freeze risk: whether mutual grid-destruction capability produces stalemate rather than resolution.",
     "Whether human leadership authorizes a covert first-strike or insists on visible kinetic escalation.",
     "The 'era's instrument' escalation chain: rifles to trenches to mechanization to agentic economic warfare."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "spr-runway-breaks-before-midterms",
@@ -1270,7 +1459,10 @@
     "Whether foreign-agent vote frame absorbs the price story before corporate testimony reaches mainstream (blame-canal race)",
     "House return status - the empty-legislature test during the runway period",
     "Weekly SPR prints through Nov 3; emergency-drawdown vs silent-drain fork; retail gasoline <$6 hold; Hormuz tanker-loss cadence; Bab el-Mandeb closure; EIA STEO revision off $90 hold"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "state-natalism-turning-marker",
@@ -1292,7 +1484,10 @@
     "anti-abortion escalation framed explicitly in demographic-defense terms (rebirth of the nation) vs. framed in moral terms - the demographic framing is the marker, not the policy itself",
     "immigration-restriction rhetoric shifting from economic frames to demographic-survival frames - 'replacement' as official vocabulary is the completed fusion of natalism and dehumanization tracks",
     "Russia/Hungary natalism escalation as comparator series; China pro-natalist panic escalation as null-comparator (authoritarian natalism without liberal base)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "strait-of-hormuz-blockade",
@@ -1340,7 +1535,10 @@
     "YASREF/Yanbu strike aftermath: retaliation vs rhetorical response within 72h",
     "Strike expansion to Ras Tanura / East pipeline pumping stations",
     "Brent reaction overnight (gap above ~$115 = acceleration)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "student-debt-enlistment-cornering",
@@ -1370,7 +1568,10 @@
     "AI displacement acceleration into late 2026 - does white-collar job loss push more into the 25-42 indebted enlistment pool?",
     "CLRP/Loan Repayment expansion in future NDAA - does debt relief become the primary marketing lever?",
     "Draft-relevant signals: Selective Service expansion, 'Total Force' language, draft-panic news (DE Online, USA Today on possible draft for Iran war)."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "substrate-emergence-signature",
@@ -1397,7 +1598,10 @@
     "Cross-lab correlated behavior findings in eval infrastructure",
     "US-China safety talks outcome (Sept 2026): does any treaty language address substrate-level dynamics or only single-model controls?",
     "Pascio's own test: 'your phone behaves slightly differently' \u2014 needs an instrumented version, not anecdote"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "substrate-shock-mortality-cascade",
@@ -1421,7 +1625,10 @@
     "Kinetic-digital convergence: coupling of physical supply-chain shocks (Hormuz, Middle East) with digital clearing/payment-grid fragility.",
     "The MAD-freeze risk: attacker and defender freezing each other's substrate simultaneously, stranding the population between two dead systems.",
     "Covert-vs-overt fork: whether the first major substrate shock is visible (open hostility) or silent (infrastructure collapse attributed to weather/bug/accident) \u2014 the silent form maximizes confusion and death."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "tactical-nuclear-use",
@@ -1449,7 +1656,10 @@
     "Any NATO territory conventional incursion that tests Article 5",
     "Whether the November Pause / China mediation quarantines the fronts before the threshold",
     "Kremlin personnel/discourse shift toward 'existential framing' of the war"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "turning-phase-indicator",
@@ -1478,7 +1688,10 @@
     "Legibility-spark candidates: named, shared, legible grievances the whole population can read at once (economic, surveillance, labor, AI-displacement events).",
     "Release-channel geometry: monitor whether crisis-energy vents HORIZONTALLY (elite-vs-elite, faction-vs-faction) or begins shifting VERTICAL (population-vs-enclosure) - the single clearest indicator of Stage-B approach.",
     "Midterms as the first scheduled drop-point: watch for a catalyst that converts the diffuse anti-flock 'something is wrong' fog into a joint, named target."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "ukraine-strikes-russian-oil",
@@ -1501,7 +1714,10 @@
     "Russian gasoline rationing expansion vs. relaxation across the affected regions.",
     "Sea-borne import dependency (India/Morocco/Turkey/Belarus): sustained = fragility; substituted by domestic = recovery.",
     "Winter immediacy: whether recovered capacity covers heating-season demand without rationing."
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "war-question-duel",
@@ -1530,7 +1746,10 @@
     "SPREAD WATCH: log each tell movement to the mget_ledger as a duel-read; the spread is the forecast, not either thesis",
     "LANDING CONVERGENCE: whichever thesis wins, watch the domestic apparatus activate \u2014 both routes terminate in internal struggle",
     "Inversion twin: 9-11-inversion-false-flag (35) supplies the ignition; the Potemkin thesis supplies the sustained posture if B wins the route"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   },
   {
    "basename": "world-war-iii-prologue",
@@ -1562,7 +1781,10 @@
     "Whether the US November Pause and China mediation quarantine the fronts (de-escalation) vs. one front igniting the others.",
     "Uncontrolled escalation triggers: a US naval combatant sunk, a nuclear threshold signal, a Baltic incursion combined with Iran re-escalation.",
     "PROXY-CHOKEPOINT FIFTH THEATER (added 2026-09-11): Houthi Red Sea coastal expansion \u2014 Bab el-Mandeb ignition via proxy rather than direct state action; watch Israeli strikes on Houthi infrastructure and US fleet repositioning (see houthi-red-sea-escalation-fork.json)"
-   ]
+   ],
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": null
   }
  ],
  "mget_ledger": [
@@ -3691,6 +3913,43 @@
   },
   {
    "date": "2026-09-22",
+   "time_et": "19:34",
+   "track": "narrative",
+   "mget_legs_tested": [
+    "enclosure_mutation",
+    "self_healing_emergency",
+    "dehumanization_velocity"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Evening wire synthesis, six items: (1) IRAN/UN - Witkoff-Araghchi 3hr UNGA meeting confirms Iran's victory conditions (lift blockade, release frozen assets, end war on all fronts); Trump calls it 'very good' and says Iran 'will make a deal after the midterms' - open linkage of foreign policy to domestic political calendar, foreign-policy scaffolding for the midterms catalyst node; Trump denied weapons depletion on stage while experts/allies contradict - guns-vs-butter statistical concealment live; strait card stays locked-in. (2) AUSTIN ICE SHOOTING - Wilber Rafael Garces Perez, 28, Venezuelan, shot in back in vehicle Sunday 9/20; still in Pearsall ICE facility with bullet beside spine, lost left-side movement; judge blocked immediate deportation; Capitol protests, Pflugerville student walkouts; DHS runs 'Correct the Record' push labeling him 'criminal illegal alien'. Victimhood vs dehumanization framing collision in real time - direct feed to dehumanization-velocity card. Gov Abbott 'catching up' = first state-level distance-taking crack in unified enforcement narrative. (3) SHINYHUNTERS/FBI - Reuters confirms breach claim treated as credible; defaced apply.fbijobs.gov, 2-3TB GovCloud exfil claim, no ransom demand, demand is IC3 bulletin retraction. No-ransom structure = strategic narrative warfare against FBI authority, lands same day FBI political layer (Blanche artifacts, AI superintelligence rename) under stress. Watch: IC3 retraction question becomes internal loyalty test. (4) PRESS WAR - CNN/MSNOW/Politico sued this morning (legal layer on schedule); tonight three major networks pulled video coverage of the president (solidarity layer). DISCRIMINATOR for next 48h: networks hold the line (enclosure slows) vs vanguard-split repeats (enclosure accelerates). (5) UN SPEECH - silence/walkouts held through the cycle; consent-infrastructure failure entry confirmed by evening coverage; no coalition momentum; 'annihilate' now the quotable frame; Gulf mini-summit ran on Iran-blockade terms. (6) VANCE $300B FRAUD CLAIM - Medicaid/SS 'phantoms' framing = rationalization layer pre-loading justification for cuts; watch for citation as fiscal alibi in next enforcement/entitlement action. DAY ARC: purge-replace-ratify-escalate in four movements, all layers active simultaneously (legal suit, network solidarity, base priming, foreign spin). Classic turning-acceleration signature.",
+   "forward_signal": "48h discriminators: (1) networks hold vs split on video ban; (2) Austin dehumanization-velocity test - DHS frame adoption rate vs victim-narrative adoption rate; (3) IC3 retraction response (loyalty test inside FBI); (4) post-UNGA Iran follow-up - whether 'after the midterms' formulation gets echoed by surrogates as official position; (5) Vance $300B figure citation in next enforcement/entitlement action; (6) Austin shooting - whether Pearsall medical-care story (bullet beside spine, no adequate care) crosses into mainstream or stays regional."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "15:56",
+   "track": "war-hormuz",
+   "mget_legs_tested": [
+    "material-chokepoint",
+    "negotiation-leverage",
+    "oil-tape-vs-reality"
+   ],
+   "verdict": "confirms",
+   "reasoning": "First direct US-Iran meeting since the MOU framework fell apart. Iran accepted Wiktoff's meeting request specifically to communicate conditions for reopening the Strait of Hormuz, per Tasnim state media: (1) immediate lifting of the maritime blockade of vessels to/from Iran, (2) payment of ALL frozen Iranian assets, (3) end to the war on all 'resistance' fronts (full regional withdrawal, Israel included). These are victory conditions \u2014 the maximalist opening of a party negotiating from leverage. Each is independently a nonstarter for a US administration facing midterms: asset repatriation is politically radioactive, resistance-front withdrawal contradicts every public commitment since the war began. CONCLUSION: the morning's 'prospects for Gulf supplies improved' / Brent -4.7% repricing was the market trading on a reopening Iran never actually offered \u2014 the tape front-ran a bargaining chip. The compliance blockade (routing-sovereignty mechanism, 75% transit compliance) remains the operative state. Strait card falsifiers \u2014 (a) 100+ vessels/day for 2+ weeks, (b) formal agreement holding 30 days \u2014 moved by neither condition; a reopening on Iranian terms would not kill the mechanism anyway, it would make the toll-gate official policy.",
+   "forward_signal": "(1) US response to the demand list \u2014 acceptance of any single condition = major thesis update (would mean WH needs Hormuz open before midterms more than Iran does); (2) oil tape vs EIA divergence \u2014 Brent ~$95.6 Monday close pricing a reopening the physical record does not show; (3) whether Iran leaks further 'progress' headlines to hold the risk premium down during negotiation windows (hope-rally pattern, repeatable); (4) Kpler weekly transit count as the decisive number against the card's falsifier."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": null,
+   "track": "domestic-repression",
+   "mget_legs_tested": [
+    "Leg 2"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Hegseth announces Joint Warfighter Evaluation as gate for general-officer promotion (battlefield-credibility test). Structurally a loyalty filter without an explicit loyalty question: (1) ranks combat-tour volunteers over staff/strategic/acquisition/legal officers - the historical guardrail class (JAG, NATO, cyber); (2) retires the first-term-resister cohort by criteria rather than purge; (3) 'battlefield' is defined by the Secretary, so each redefinition (Iran front, border, domestic cities) re-ranks the corps without firing anyone. Stacks with same-day items: Trump renames AI 'super intelligence' and rejects any global control scheme at UNGA; 9/19 AI Force announcement - a coherent program of rebranding a sovereign unaccountable capability while selecting military leadership enthusiastic about it. Chaplaincy purge (2025-26) was the same conformity filter at the morale layer; this moves it to command layer. Counter-frame already forming: Mark Kelly ('military doesn't need more testosterone') - itself telling, as the only combat-veteran Dem senator.",
+   "forward_signal": "First promotion round under the new eval: check combat-tour clustering and public political alignment of promotees. Watch for redefinition of qualifying 'battlefield' billets to include domestic deployments - the moment the loyalty test becomes a constitutional-compliance test. Watch for senior officers declining consideration (guardrail-class attrition)."
+  },
+  {
+   "date": "2026-09-22",
    "time_et": "09:24",
    "track": "press-pool",
    "mget_legs_tested": [
@@ -3700,6 +3959,29 @@
    "verdict": "confirms",
    "reasoning": "All five legacy networks (ABC, CBS, NBC, Fox, CNN) suspended White House pool coverage over the press ban (Guardian, 2026-09-21). WH response: Trump TV launched 9/21 on whitehouse.gov + official WH YouTube 24/7, with SMS short-code 45470 capture. This is the exact replacement-apparatus mechanism flagged in the press-ban and replacement-pool tracks: the networks' own boycott converts a one-day grievance into a permanent structural channel. Media Offenders list + White House Wire complete the replacement stack. UNGA day (9/22) provides the first test: coverage gap closed on the very day Trump addresses the General Assembly.",
    "forward_signal": "Watch whether legacy networks retain any WH access after UNGA week; watch Trump TV uptime/content cadence vs. official events; watch whether 'state-run media' framing migrates into mainstream coverage or stays commentary-only."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "17:29",
+   "track": "narrative",
+   "mget_legs_tested": [
+    "enclosure_mutation",
+    "vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Owner correction (17:28-17:29 ET): the Pentagon press purge and influencer-credential roundtable are not a new probe-and-replace operation but the FINAL STAGE of a chain running since at least Oct 2025. Verified chain: (1) Oct 2025 WH antifa roundtable seats Shirley/Ngo/Posobiec as witnesses - para-journalist formal seating debuts; (2) Dec 2025 Shirley's Minnesota daycare video drives federal policy - WH 'taking cues from para-journalists to a degree that far surpasses anything we've seen before' (Seth Lewis, CSMonitor); (3) Jan 2026 NPR documents special WH access as established; (4) Jun 2026 former OANN Pentagon correspondent Gabrielle Cuccia alleges Shirley's rise was WH-manufactured (unconfirmed but pattern-consistent); (5) Jul 2026 Shirley testifies at Senate Homeland Security hearing - para-journalist elevated to congressional witness; (6) May-Sep 2026 Pentagon purge removes legacy defense correspondents (including outlets that broke casualty concealment: WaPo 22-vs-18 deaths, command-breakdown leaks); (7) Sep 18-20 media ban holds the credential vacuum open; (8) Sep 20 Paul brothers official @DeptofWar building tour (1.7M views); (9) Sep 22 influencer credential roundtable completes institutionalization. CORRECTION TO EARLIER FRAMING: not a rehearsal - the replacement class has been load-bearing for a year. Shirley was the live test: one aligned creator driving federal policy, surviving fact-checking, gaining congressional seating. Once demonstrated, purges could proceed knowing replacement infrastructure existed. Pentagon's version is deeper capture than the WH track: it selects for pro-military content producers, reaching the recruitment pipeline and force self-image, not just daily briefings. Pentagon is the smaller, faster-completing enclosure; WH is the rollout.",
+   "forward_signal": "Watch: (1) credential lists at Pentagon vs WH converging on the same cohort; (2) first para-journalist embedded in a military operational area (combat zone or domestic deployment) - the deep-capture endgame; (3) legacy outlets suing over Pentagon access in parallel with the CNN/MSNOW/Politico WH suit - cross-litigation signals the press reads the enclosure as class-wide; (4) Shirley-class figures receiving agency-level roles beyond access (advisory, commission)."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": null,
+   "track": "narrative",
+   "mget_legs_tested": [
+    "Leg 3"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Liberal Currents/CSP 2028 Dem primary crosstabs (Sept 14, surfaced 9/22) show 23% 'very positive' on Trump assassination headline, 31% total positive, and 43% 'very positive' on military coup 'to safeguard the Constitution' (59% total positive). Poll closes the meme-to-poll loop: Randy Fine's same-day 'one in three Democrats support killing the President' now has a citable data artifact from the left's own commissioned research. Priming stack completes in one day: influencer enemy-frame (Clandestine wartime/crimes frame) -> elite claim (Fine) -> data artifact (this PDF). Timing of a Sept 14 poll surfacing on the exact day of the Fine push suggests coordinated release, not organic discovery. Provenance caveats: opt-in SMS-to-web + online panel, n=683, English-only, +/-3.75% MoE, commissioned by a left-liberal outlet - 'even their own research admits it' veneer raises its propaganda value above a hostile poll. Coup figure (43% very positive) exceeds the assassination figure and is the likely next-cycle quote.",
+   "forward_signal": "Does the coup number (43% very positive / 59% total) enter elite rotation next (congressional floor statements, WH surrogates citing it)? Also watch: whether mainline outlets validate the poll's methodology (adoption without scrutiny = amplification), and whether 'one in three' becomes fixed floor language in WH talking points."
   },
   {
    "date": "2026-09-22",
@@ -3724,6 +4006,17 @@
    "verdict": "confirms",
    "reasoning": "AUTHENTICITY GATE: PARTIAL (screenshot of Ryan Fournier FB post, 4h old at capture 00:20 ET; claims not yet independently verified against the YouTube channel itself). SECOND infrastructure leg: Trump TV live 24/7 on official White House YouTube channel per post, 'White House says it will update in real time' - confirms Essentials Station placeholder read as persistent live channel. NEW CONVERSION MECHANIC: chyron overlay 'TEXT POTUS TO 45470' - broadcast-to-SMS-list capture, the third leg of the direct-channel architecture (channel -> state wire -> owned audience database immune to platform throttling). FRAMING PREVIEW CONFIRMED: 'Democrats acting like this is a war crime instead of a YouTube channel' + 'He does not need their airtime' - opposition reaction converted into channel content, pool exclusion spun as strength (meme-asymmetry pattern from absorption/2026-09-21-meme-framing-asymmetry). PR campaign to amplify launch is live within hours of .gov hosting discovery.",
    "forward_signal": "(1) verify YouTube channel directly - live stream continuity, subscriber count trajectory; (2) does 45470 SMS list get used for mobilization/fundraising cross-over (grift architecture pattern 2026-09-21); (3) does real-time updating channel replace press briefing function during UNGA week coverage gap; (4) scale of amplifier network carrying the launch (Fournier-class accounts as seeding layer)."
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": null,
+   "track": "narrative",
+   "mget_legs_tested": [
+    "Leg 3"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Trump UNGA speech (9/22): dead silence at 'America is back', Iranian delegation walkout during annihilation rhetoric ('annihilate the Islamic Republic and do it quickly' / 'drive them into hell'), Cuban delegation walkout over 'failed state' + Rubio 'deep into negotiations' on regime change. Speech openly celebrated Venezuela oil seizure as conquest ('To the visitor belong the spoils'). Consent infrastructure of the post-1945 order failing in public: ritual audience refuses to perform consent. Surrounding same-day evidence strengthens the collapse read: CNN poll 26% approval on Iran war (down 7 since March, -13 among Republicans) at month 7 with midterms in 7 weeks; Pentagon discloses $45.1B cost with explicit exclusions; military sources say casualties underdisclosed. ProPublica: FBI pay-to-play probe of Sen. Collins (Navatek, $40M/yr contracts, cooperating felon Kao) killed on administration return - enforcement apparatus confirmed one-directional. Vance announces 750K ACA cancellations + 419K additional verification (1 in 7 Americans on marketplace) - social contract thinning domestically while empire is celebrated abroad. Same day: press ban lawsuits, Trump TV launch, Fine/poll assassination priming stack, ShinyHunters FBI humiliation, AI rename, officer-corps loyalty gate - infrastructure being laid in a single news cycle.",
+   "forward_signal": "(1) Does GOP congressional speech adopt annihilation language after UNGA (officialization test)? (2) Does Cuba front activate before midterms (wag-the-dog window)? (3) GOP war approval trajectory - if it keeps sliding, escalation pressure rises. (4) Do ACA cancellation notices land mid-October for maximum pre-midterm damage or get timed?"
   },
   {
    "date": "2026-09-15",
