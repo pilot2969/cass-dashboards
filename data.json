@@ -606,9 +606,9 @@
     "Lang-class 'election integrity' content production pre-election (confrontation videos as recruitment material)",
     "Overlap between credentialed poll-watcher programs (RNC 17-state op, TTPA) and uncredentialed armed presence at same precincts"
    ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmer": "TIERED per Confirmation Standard amendment. TIER 1 (~80% headline claim): any security-adjacent incident at a polling or county-count site during the Nov 3 - Nov 14 window - armed presence, credible threats to officials, confrontations at count centers, or property damage (precedent: 2020-22 election-office arson). TIER 2 (~35%): two or more simultaneous flashpoints on a single day, or any fatality tied to election-related confrontation, or armed-group self-deployment to polling sites triggering police response. TIER 3 (~10-12%): sustained multi-site armed action beyond isolated incidents, or any January-6-class event. DEDUP RULE: fraud-narrative volume and elite contested-in-advance rhetoric are watchlist MONITORS for the parent catalyst node, not confirmers of this card - only kinetic/physical events confirm. BASE-RATE CAVEAT: Tier 1 is deliberately near the 2020-22 baseline; it confirms persistence, not skill, and is discounted accordingly.",
+   "confirmer_base_rate": "Tier 1: high (~70-80% naive, discounted to persistence-check status given 2020-22 baseline). Tier 2: ~35-40% naive; genuine skill signal. Tier 3: ~10-12% naive; low base rate, genuine skill signal if it fires.",
+   "confirmation_window": "Nov 3 - Nov 14, 2026 (Election Day plus 11-day count/certification exposure window)"
   },
   {
    "basename": "fatigue-asymmetry-in-composites",
