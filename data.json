@@ -1337,7 +1337,7 @@
     "Exemplifies Tainter complexity cap applied to digital code: autonomous agents operating as unmonitored sub-routines within critical web, labor, and military infrastructure."
    ],
    "evidence_contradicted": [],
-   "falsifier": "Falsified if autonomous agent infrastructure incidents remain isolated curiosities with zero systemic downtime or economic disruption across critical public-facing web infrastructure.",
+   "falsifier": "Falsified per NUMERIC ESCALATION LADDER (measured against rogueaitracker.com registry + documented outages), through Dec 31, 2027: (1) CARD FAILS (isolated-curiosity branch) if across the window there are ZERO incidents meeting any escalation rung AND quarterly incident counts on the registry show no upward trend (<=2 per quarter sustained, no year-over-year increase). ESCALATION RUNGS (any one met = non-isolated, card survives): R1: >=3 documented production-scale agent boundary-breach incidents in any rolling 90-day period; R2: any single incident causing >=6 hours of verifiable downtime or corruption on a top-500 public web service or a financial/utility platform; R3: any single incident with >=$1B in verifiable economic damage (measured remediation cost or market loss) or a state/market regulator attributing financial loss to autonomous-agent action; R4: an agent-to-agent adversarial exchange (agent hijacking or spoofing another autonomous agent) documented in production infrastructure. CREDIT RULE: R1 alone = Tier 1 (frequency, discounted); R2 or R3 = Tier 2 (systemic impact registered); R4 = Tier 2+ (the drift is now a hostile surface, not just an accident). Zero rungs met AND flat incident trend by Dec 31, 2027 = falsified.",
    "forward_watchlist": [
     "rogueaitracker.com as a NAMED external monitoring surface (third-party dated incident registry feeding this track's evidence).",
     "Frequency and scale of autonomous agent infrastructure overrides and unauthorized edits (cross-check rogueaitracker.com new incidents).",
@@ -1422,7 +1422,7 @@
     "Mutual assurance of destruction applied to substrate could produce a frozen MAD stalemate rather than a fast resolution.",
     "Human decision-lag (if human control holds) could stretch the authorization window beyond a single decisive stroke."
    ],
-   "falsifier": "Falsified if, 18 months after the first covert substrate-strike, the situation is a grinding attrition of mutual grid-warfare with no decisive rupture.",
+   "falsifier": "Falsified per TIERED TEMPORAL TEST against the Strauss-Howe decisive-phase baseline. Historical baseline: median hot-conflict decisive phase across the last three civilizational crises is ~4 years (Revolution 1775-83: ~96mo; Civil War 1861-65: ~48mo; WWII US active 1941-45: ~48mo) -> baseline B=48 months. SEVERITY TIERS as % of baseline, measured from first covert substrate-strike to decisive rupture (regime change, capitulation, or decisive military settlement): (1) <=10% of B (<=5 months): full TIER 2 'short-brutal-decisive' confirmation; (2) >10% and <=25% of B (5-12 months): TIER 2 discounted half-credit \u2014 fast by historical standard but not decisive-stroke signature; (3) >25% and <=37.5% of B (12-18 months): attrition branch \u2014 closes spread, no confirmation credit; (4) >18 months from first strike with no decisive rupture: FALSIFIED (grinding mutual grid-warfare of the WWI/WWII template \u2014 the exact outcome the card denies). Additional kill condition: if the conflict resolves decisively ONLY through human-deliberated negotiation/ceasefire on normal diplomatic timescales (not machine-speed counter-loop dynamics), the substrate thesis is not what explains the brevity \u2014 confirmation withheld regardless of duration.",
    "forward_watchlist": [
     "First covert substrate-strike event and whether it is visible or deniable.",
     "Speed of escalation vs. organizational reaction: whether counter-response is machine-speed or human-deliberated.",
@@ -6006,6 +6006,18 @@
    "ref": "SPR Runway / Oil Shock as Regime Fatality",
    "change": "numeric confirmation target set: regime loss + fuel/energy >=25% of switchers' cited reasons -> CONFIRMED as fatality-driver; 15-24% -> contributor not fatal mechanism; <15% -> link fails",
    "trigger": "Samuel: set a percentage target on exit-poll attribution"
+  },
+  {
+   "time": "9/24 4:26pm",
+   "ref": "Short-Brutal-Decisive Substrate Conflict",
+   "change": "falsifier rewritten per Samuel: tiered temporal test vs Strauss-Howe decisive-phase baseline B=48mo (median of Revolution ~96, Civil War ~48, WWII ~48); <=10% B = full TIER 2, 10-25% = half-credit, 25-37.5% = attrition no-credit, >18mo no rupture = falsified; human-deliberated resolution kills substrate-attribution regardless of duration",
+   "trigger": "Samuel: use historical turning cycles for baseline conflict length; tier as % of severity"
+  },
+  {
+   "time": "9/24 4:26pm",
+   "ref": "Autonomous Agent Substrate Risk: Rogue AI Hijack",
+   "change": "falsifier rewritten (owner delegation): 4-rung numeric escalation ladder (R1 >=3 incidents/90d; R2 >=6h top-500 downtime; R3 >=$1B damage or regulator attribution; R4 agent-to-agent adversarial exchange in production); zero rungs + flat registry trend by Dec 31 2027 = falsified",
+   "trigger": "Samuel: 'that one is on you' \u2014 numeric standard owed by CASS"
   }
  ]
 }
