@@ -5742,6 +5742,36 @@
  ],
  "movers": [
   {
+   "time": "9/23 9:05pm",
+   "ref": "Press Access Enclosure / Media Capture",
+   "change": "confidence 65 \u2192 70",
+   "trigger": "Networks HOLD (Fox stays in solidarity bloc); 'privilege not a right' enters federal filing; Judge Kelly skeptical at TRO hearing"
+  },
+  {
+   "time": "9/23 9:05pm",
+   "ref": "Mid-August Oil Price Shock",
+   "change": "confidence 10 \u2192 18",
+   "trigger": "Iran's victory-conditions go public at UNGA; Brent <$100 on talks headlines alone; diesel export ban floated as first economic emergency lever"
+  },
+  {
+   "time": "9/23 9:05pm",
+   "ref": "Domestic Enforcement Groundwork",
+   "change": "confidence 70 \u2192 72",
+   "trigger": "ICE requests mobile detention facilities (PA expansion) \u2014 detention decoupling from fixed sites"
+  },
+  {
+   "time": "9/23 9:05pm",
+   "ref": "Strait of Hormuz Blockade",
+   "change": "evidence append (no conf move)",
+   "trigger": "UKMTO tanker strike unattributed; Iran conditional now public; Xi summit = reopening-broker window"
+  },
+  {
+   "time": "9/23 9:05pm",
+   "ref": "Kinetic European Conflict",
+   "change": "evidence append (no conf move)",
+   "trigger": "CIA warning: Russia primed for drone attacks in Europe; Estonian incursion, NATO scramble"
+  },
+  {
    "time": "9/18 8:34pm",
    "ref": "Macro: Post-WWII Order Unwinding",
    "change": "raised 88 \u2192 94 (9/13) \u2014 holds",
