@@ -1459,7 +1459,8 @@
     "Sept 11: Brent >$101/WTI >$96 sustained \u2014 highest since July; diesel $5.94; ten tankers destroyed past week per CENTCOM; war in month seven",
     "2026-09-16 (Chevron CEO Mike Wirth, per WSJ): fuel crisis oil executives warned of has 'officially arrived'; mitigation buffers 'largely now played out'; system holding nowhere near war-start buffers - CORROBORATES the buffer-depletion mechanism of this prediction from the sector's largest US producer, corporate tier. Wirth has not spoken to Trump since Aug 3 ('DOWN, NOW!' demand). Also 9/16: Fed hiked 25bps into depleting-buffer system (stagflation config); Saudi east-west pipeline outage (4% global supply threat, 9/15) compounds; House adjourned until after midterms with gas-tax fix dead.",
     "[2026-09-17] Crude ~$102 (+21.5% mo, +61% y/y); US distillate inventories forecast below 100M bbl through YE2026 (EIA STEO Sept); United cutting December flights on fuel cost; American adding ~$ per-gallon surcharge \u2014 consumer tier reached",
-    "2026-09-18 (EIA weekly, via TKL): SPR -403k to 285.4M bbl \u2014 lowest since Nov 1982; 25th straight weekly decline; -131M/-46% since 2021-23; commercial crude ex-SPR 423.4M, lowest since ~2014. The ~290M cavern-damage floor trigger leg is now breached \u2014 prediction's primary trigger satisfied with 7 weeks to Election Day."
+    "2026-09-18 (EIA weekly, via TKL): SPR -403k to 285.4M bbl \u2014 lowest since Nov 1982; 25th straight weekly decline; -131M/-46% since 2021-23; commercial crude ex-SPR 423.4M, lowest since ~2014. The ~290M cavern-damage floor trigger leg is now breached \u2014 prediction's primary trigger satisfied with 7 weeks to Election Day.",
+    "Survey corroboration (pre-election, not exit polling \u2014 midterms not yet held): Reuters/Ipsos 8/28-31 finds 47% of registered voters name cost of living as top vote-deciding factor; Economist/YouGov mid-Aug has inflation/prices #1 at 31%, 17 pts above #2; Independent poll shows 37% of Trump 2024 voters say they face the worst cost-of-living crisis yet (perception of failure inside his own coalition); Pew July shows soft-disapproval Trump voters split 31/31 on House preference. Wikipedia 2026 synthesis: gasoline prices identified as the most direct war-cost channel to voters and a primary driver of the ceasefire push \u2014 independently linking oil shock mechanics to electoral fatality."
    ],
    "evidence_contradicted": [
     "US EIA (w/e Aug 14) showed crude inventories rose 4.4M bbl \u2014 commercial crude loosening even as products tighten",
@@ -5981,6 +5982,12 @@
    "ref": "Brent tape",
    "change": "$99\u2192$105.69 intraday reversal on diesel-ban lever + talks skepticism",
    "trigger": "no single event \u2014 repricing"
+  },
+  {
+   "time": "9/24 4:15pm",
+   "ref": "SPR Runway / Oil Shock as Regime Fatality",
+   "change": "evidence-append (confirmer: cost-of-living salience 47% top issue; 37% of Trump 2024 voters report worst COL crisis; Pew soft-middle 31/31 split)",
+   "trigger": "Reuters/Ipsos Aug 28-31 + Independent poll + Pew July; labeled pre-election survey, not exit polling"
   }
  ]
 }
