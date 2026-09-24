@@ -1467,7 +1467,7 @@
     "Regime has so far kept retail gasoline suppressed via SPR drain + trickle; no national price shock yet",
     "Prediction markets still see Bab el-Mandeb closure as minority event"
    ],
-   "falsifier": "Retail gasoline prices hold or fall through Election Day (Nov 3) via sustained SPR drain + trickle-flow, AND the SPR does NOT breach the ~290M cavern-damage floor before the midterms, AND no major convoy loss/Bab el-Mandeb closure lands - the regime successfully stretches its runway past the election without a break.",
+   "falsifier": "Fatality must be ATTRIBUTABLE to SPR/supply-side breach specifically, not merely coincident with it: (1) if a breakable oil shock lands before Nov 3 AND post-election analysis (AP Votecast/ANES-type defector surveys) attributes the loss primarily to general inflation NOT tied to supply-side/SPR mechanics, the SPR-specific causal leg FAILS even if the regime loses; (2) if SPR holds above the ~290M floor through Nov 3 with no convoy/tanker loss or Bab el-Mandeb closure, no breakable shock occurred \u2014 card fails regardless of outcome; (3) regime loses midterms but polling shows foreign policy (not economy) as the decisive driver \u2014 SPR-as-fatality interpretation fails. Confirmer (downgraded, honest scope): only establishes that the electoral channel is HOT \u2014 cost-of-living salience among 2024 Trump voters \u2014 NOT that voters would attribute fatality to the SPR. Individual-level attribution is unrecoverable from votes alone; only post-election defector surveys naming supply-side/SPR as an option can settle the causal leg.",
    "forward_watchlist": [
     "SPR level weekly vs ~290M floor (runway arithmetic to Nov 3)",
     "Retail gasoline vs $4/gal political line",
@@ -5988,6 +5988,12 @@
    "ref": "SPR Runway / Oil Shock as Regime Fatality",
    "change": "evidence-append (confirmer: cost-of-living salience 47% top issue; 37% of Trump 2024 voters report worst COL crisis; Pew soft-middle 31/31 split)",
    "trigger": "Reuters/Ipsos Aug 28-31 + Independent poll + Pew July; labeled pre-election survey, not exit polling"
+  },
+  {
+   "time": "9/24 4:18pm",
+   "ref": "SPR Runway / Oil Shock as Regime Fatality",
+   "change": "falsifier sharpened: fatality must be ATTRIBUTABLE to SPR/supply-side breach specifically, not merely coincident; confirmer downgraded to 'electoral channel is hot' \u2014 individual attribution recoverable only via post-election defector surveys",
+   "trigger": "Samuel's methodological challenge: attribution gap \u2014 votes alone can't distinguish SPR breach from general inflation as driver"
   }
  ]
 }
