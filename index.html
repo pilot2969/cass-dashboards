@@ -173,11 +173,11 @@ const preds=(THEME_MAP[tk]||[]).map(b=>D.predictions.find(p=>p.basename===b)).fi
 if(!preds.length)return;
 const NOW=Date.now();
 const moved=p=>{const d=p.last_moved||p.date_made;return d&&(NOW-new Date(d+'T00:00:00'))<7*864e5};
-const mvN=preds.filter(moved).length;
+const mvList=preds.filter(moved);const mvN=mvList.length;const mvNames=mvList.map(p=>esc(p.title)).join(' · ');
 const stCounts=preds.reduce((a,p)=>{a[p.status]=(a[p.status]||0)+1;return a},{});
 const confN=stCounts.confirmed||0,failN=stCounts.failed||0;
 h+=`<details class="card rounded-xl mb-6 border-l-4 border-sky-500/60" ${confN===preds.length?'open':''}><summary class="p-5">
-<div class="flex flex-wrap items-center gap-3"><span class="text-xl font-bold text-sky-300">${tl}</span><span class="px-2 py-0.5 bg-slate-800 text-slate-300 text-xs rounded">${preds.length} cards</span>${confN?`<span class="px-2 py-0.5 bg-emerald-900/40 text-emerald-400 border border-emerald-500/40 text-xs font-bold rounded">✓ ${confN} confirmed</span>`:''}${failN?`<span class="px-2 py-0.5 bg-red-900/40 text-red-400 border border-red-500/40 text-xs font-bold rounded">✗ ${failN} failed</span>`:''}${mvN?`<span class="px-2 py-0.5 bg-sky-900/40 text-sky-300 border border-sky-500/50 text-xs font-bold rounded" title="${mvN} card(s) with evidence or status movement in the last 7 days">⚡ ${mvN} active</span>`:''}<span class="text-slate-500 text-xs select-none">click to expand</span><span class="chev text-slate-400">▶</span></div></summary><div class="px-4 pb-4">`;
+<div class="flex flex-wrap items-center gap-3"><span class="text-xl font-bold text-sky-300">${tl}</span><span class="px-2 py-0.5 bg-slate-800 text-slate-300 text-xs rounded">${preds.length} cards</span>${confN?`<span class="px-2 py-0.5 bg-emerald-900/40 text-emerald-400 border border-emerald-500/40 text-xs font-bold rounded">✓ ${confN} confirmed</span>`:''}${failN?`<span class="px-2 py-0.5 bg-red-900/40 text-red-400 border border-red-500/40 text-xs font-bold rounded">✗ ${failN} failed</span>`:''}${mvN?`<span class="px-2 py-0.5 bg-sky-900/40 text-sky-300 border border-sky-500/50 text-xs font-bold rounded" title="${esc('Active cards (moved in last 7 days):')} ${mvNames}">⚡ ${mvN} active</span><span class="text-sky-400/70 text-xs">— ${mvNames}</span>`:''}<span class="text-slate-500 text-xs select-none">click to expand</span><span class="chev text-slate-400">▶</span></div></summary><div class="px-4 pb-4">`;
 ['confirmed','emergent','pending','failed'].forEach(st=>{
 const stp=preds.filter(p=>p.status===st);
 if(!stp.length)return;
