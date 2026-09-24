@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "2.1-data-layer",
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -555,13 +555,14 @@
    "date_made": "2026-09-03",
    "time_et": null,
    "statement": "The regime and its media apparatus are systematically deploying genuine tragedies and enforcement actions to advance a domestic Quiet-Track base: escalating anti-immigrant and anti-Muslim groundwork, expansion of ICE/DHS enforcement without accountability, and synthetic grievance amplification ('media silence' frames) designed to pre-commit the base to support sweeping executive domestic-security consolidation ahead of the midterms.",
-   "confidence": 70,
+   "confidence": 72,
    "status": "emergent",
    "evidence_confirmed": [
     "Ras Baraka arrest (May 9, 2025, Newark): federal agents arrested the Newark mayor at Delaney Hall ICE detention center on trespassing during an oversight standoff; aggressive prosecutorial pursuit criticized as politically motivated selective prosecution by the mayor's countersuit.",
     "DOJ blocks ICE agent testimony (2026, ProPublica): the DOJ has been escalating enforcement shielding, preventing ICE agents from testifying and blocking accountability for the domestic enforcement apparatus.",
     "Tucson gay bar hate crime (Aug 31, 2026, Tucson): Ousman Ceesay, a Gambian immigrant, killed two men (Vincent Siqueiros, 42; Cameron Capara, 33) in a confirmed anti-LGBTQ hate crime, carrying a list of further LGBTQ-friendly businesses. Conservative ecosystem (Blaze, Gateway Pundit, Daily Caller) layered a triple anti-migrant/anti-Muslim/anti-antifa frame onto a genuine tragedy, plus a fabricated 'media silence' grievance (NBC/NYT/CNN/AP/Reuters all reported the Muslim background and hate-crime finding).",
-    "Intercept/Airwars 'A Year of Murders' (Sept 2, 2026): 227 civilians killed in US boat strikes, deliberate follow-up strikes on survivors, whitewashed casualty reports \u2014 evidence of the broader accountability-evasion architecture."
+    "Intercept/Airwars 'A Year of Murders' (Sept 2, 2026): 227 civilians killed in US boat strikes, deliberate follow-up strikes on survivors, whitewashed casualty reports \u2014 evidence of the broader accountability-evasion architecture.",
+    "09-23 ICE requests MOBILE detention facilities in Pennsylvania expansion paperwork (NPR) \u2014 detention capacity decoupling from fixed sites; precedes deployable detention at protest sites"
    ],
    "evidence_contradicted": [],
    "falsifier": "Domestic enforcement groundwork does NOT convert into broad executive domestic-security consolidation before the midterms: no ICE/DHS surge of the projected national scale, no expansion of detention/deportation authority beyond current state, and no substantive anti-Muslim/anti-immigrant emergency actions - enforcement stays at status-quo levels with accountability intact.",
@@ -945,7 +946,9 @@
     "GERMAN CONSULATE ST. PETERSBURG EXPULSION (Sept 7, 2026, AP): Russia's Foreign Ministry ordered the closure of the German consulate in St. Petersburg, directly compounding the Leipzig airport drone crisis. Sequencing matters: coming within 24-48 hours of Lavrov's line that Germany's drone-attribution was 'by and large, the start of a real war,' this converts rhetoric into concrete unilateral state action. In escalation-ladder terms this is the first rung of institutional drawdown (consulate -> diplomats -> assets -> embassy closure), closing the off-ramps that make de-escalation possible. Treat as a leading indicator of inability-to-de-escalate, and as confirmation Lavrov is prosecuting a 'real war' fought through infrastructure/sabotage/deniable kinetic acts rather than a conventional front.",
     "GERMAN GRID SABOTAGE CAMPAIGN (Sept 4-7, 2026, Reuters): Sustained physical attack sequence on German electrical infrastructure \u2014 21 explosive devices total defused (9 found over weekend near high-voltage lines south of Graustein substation, Goerlitz district, Saxony); transformer substation fire in Berlin (Sept 7) \u2014 initially investigated as attack, now assessed 'technical fault' per Berlin police; fence cut open at Wesel substation (western Germany, Bild). A suspect sent letters CLAIMING RESPONSIBILITY and is at large; explosives found at his home. Context: follows the Aug Leipzig/Halle drone attack which Germany formally blamed on Russia. FOG NOTE: The letter-writer claiming credit suggests possible domestic-extremist component OR deniable gray-zone cutout (letters as channel to claim an 'activist' origin). Attribution unresolved \u2014 do NOT lock it to Moscow yet. What is confirmed: Germany's substrate (power grid) is under sustained, coordinated physical attack DURING an active Moscow-Berlin confrontation. This is the substrate-attack cascade landing in the theater we priced.",
     "2026-09-18: Putin regime escalation signaling ahead of Duma election; Tusk warning of strikes on Ukraine-supporting countries",
-    "2026-09-18: Putin regime escalation signaling ahead of Duma election; Tusk warning of strikes on Ukraine-supporting countries"
+    "2026-09-18: Putin regime escalation signaling ahead of Duma election; Tusk warning of strikes on Ukraine-supporting countries",
+    "09-23 CIA warning (El Mundo, corroborated by Daily Mail): US assessed Russia primed for possible drone attacks in Europe; Ratcliffe's August Moscow trip context; allies notified without deterrence posture",
+    "09-23 Estonian airspace drone incursion overnight; NATO scramble; Russia threatens 'devastating Baltic response'"
    ],
    "evidence_contradicted": [
     "NATO conventional superiority in Europe remains overwhelming if fully mobilized; Russia's conventional degradation in Ukraine limits its capacity to sustain a simultaneous second front against NATO without triggering total economic collapse."
@@ -961,7 +964,8 @@
     "Leipzig drone forensic + attribution chain (does Berlin formally accuse Moscow, triggering wider diplomatic rupture)",
     "German grid sabotage attribution (Sept 2026 campaign, 21 devices): does forensics link the letter-writer/bomb devices to a state actor (Russia gray-zone cutout) or domestic extremism? Watch for Berlin attribution statements, party-political exploitation before the election window, and whether attacks spread to other EU states' grids.",
     "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing",
-    "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing"
+    "Article 4 after next NATO-territory strike; Russian mobilisation decrees; Duma election-night framing",
+    "If a Russian strike lands on NATO territory: response = Article 5 reinforcement vs 'need diplomacy' (feeds conditional-NATO card)"
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - limited engagement): Baltic/Greenland/Arctic provocation escalates to direct NATO-Russia kinetic exchange (uniformed engagement, airspace engagement with loss, or Article-5-triggering incident). TIER 1 (mechanism tells): provocation tempo accelerating (GPS jamming, cable cuts, drone incursions, sabotage-attributed events), NATO posture changes (enhanced forward presence moves, readiness exercises at scale). DEDUP RULE: the gray-zone substrate (sabotage, poisonings) belongs to the chem/bio and hybrid cards; here the graded claim is the KINETIC step.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive; the card at 62% reflects provocation-to-engagement conditional probability, not unconditional). Tier 1: high (~70-75%), discounted.",
@@ -1001,13 +1005,17 @@
    "date_made": "2026-07-20",
    "time_et": null,
    "statement": "A massive price shock in mid-August was projected; it never fully emerged because the regime used creative resource management (SPR releases + naval escorts) to blunt the shock and stretch the runway into the midterm calendar. This prediction has been superseded by the SPR-runway-breaks-before-midterms mechanism (status set to 'failed' as the specific August shock did not materialize).",
-   "confidence": 10,
+   "confidence": 18,
    "status": "failed",
    "evidence_confirmed": [
     "UBS sounds alarm on oil price for rest of 2026",
     "Barclays warns of $100 Brent risk",
     "SUPERSEDED (Sept 3, 2026): The hard August price shock did not materialize as projected. The regime offset the crisis through strategic petroleum reserve releases and a naval escort surge \u2014 creative use of resources that shifted the pressure from an acute price shock to the chronic SPR runway breakage tracked under a separate prediction.",
-    "SPR official data now confirms reserves at a 44-year low (286.6M barrels, ~40% capacity), directly evidencing the resource-burn that averted the August shock but created the November runway crisis."
+    "SPR official data now confirms reserves at a 44-year low (286.6M barrels, ~40% capacity), directly evidencing the resource-burn that averted the August shock but created the November runway crisis.",
+    "09-23 Iran victory-conditions go public (Pezeshkian UNGA): blockade lift, frozen assets, end hostilities \u2014 first named conditional vs prior demands-only posture",
+    "09-23 Brent fell below $100 on talks headlines alone, zero physical-flow evidence \u2014 market pricing the conditional as real",
+    "09-23 domestic emergency lever floated: diesel export ban \u2014 first economic mobilization measure of the crisis (echoes 1936 guns-vs-butter concealment pattern)",
+    "D4 chronic-phase discriminator live: partial reopening framework within a week would resolve the shock arc"
    ],
    "evidence_contradicted": [
     "Goldman cuts 2026 forecast after potential (rumored) deal"
@@ -1202,7 +1210,7 @@
    "date_made": "2026-09-22",
    "time_et": "10:35",
    "statement": "The WH will convert the press-pool vacuum (created by the 9/18-9/22 credential revocations and the networks' pool suspension) into a permanent, structured access regime before the 2026 midterms \u2014 via an officially designated replacement pool (OAN/RSBN-style), selective 'friendly-inherit' access grants, or both. The enemy frame ('foreign adversaries', 'FAKE NEWS cancer') and the 'privilege not right' meme are the enabling preconditions for this consolidation, not the consolidation itself. Sequence: priming (now) \u2192 assignment of access (weeks) \u2192 possible enforcement/leak-prosecution escalation against named outlets (months, midterms-adjacent).",
-   "confidence": 65,
+   "confidence": 70,
    "status": "pending",
    "evidence_confirmed": [
     "09-10 media vanguard split (first outlet breaks with pool solidarity)",
@@ -1212,7 +1220,12 @@
     "09-22 gap closes on UNGA day exactly as predicted",
     "09-22 Clandestine enemy-frame post + Trump 'FAKE NEWS cancer' Truth Social (base-mobilization layer)",
     "09-22 'privilege not right' meme propagation to regional pages (long-tail stratum)",
-    "Track standing: 7-for-7 confirmations since 09-10"
+    "Track standing: 7-for-7 confirmations since 09-10",
+    "09-23 networks HOLD: Fox stays in five-network solidarity bloc, NYT 'Fox News Finds Itself at Odds With Trump on Press Ban'; base pressure now targets Fox for siding with 'fake news'",
+    "09-23 right-of-center framing defection: Washington Examiner covers ban as 'Trump with a cable blackout' \u2014 self-inflicted wound frame at elite tier",
+    "09-23 'privilege not a right' enters a federal filing (DOJ TRO response brief) \u2014 meme ratified as government legal position; Judge Kelly (Trump appointee) appears skeptical at 1PM hearing, no ruling yet",
+    "09-23 Navarro: Fox retained in PRINT pool while TV pool suspended \u2014 pool-split strategy confirmed live",
+    "Track standing: 8-for-8 since 09-10"
    ],
    "evidence_contradicted": [
     "Any negotiated restoration of unified pool access without intermediaries",
@@ -1227,7 +1240,9 @@
     "Meme/frame propagation velocity (deep vs long-tail strata)",
     "Named-journalist 'foreign agent' designations (FARA exposure escalation)",
     "First injunction ruling and WH response posture (comply vs defy vs appeal)",
-    "Trump TV channel language adopting enemy frame directly"
+    "Trump TV channel language adopting enemy frame directly",
+    "Kelly TRO ruling (under advisement 09-23): comply vs defy vs appeal posture",
+    "Does a second right-of-center outlet echo the 'self-inflicted wound' frame (elite-defection compounding)"
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture completes): pool structure does not recover (press pool remains replaced/hollowed through the window) AND enforcement-of-loyalty spreads (additional outlets losing access for coverage reasons, or credential actions tied to editorial content). TIER 1 (mechanism tells): Trump TV/WH-static direct-channel growth siphoning primary access; friendly-inherit pool reconstitution; credential-policy formalization. DEDUP RULE: Trump TV growth itself is a separate confirmed line (own card) - here it counts as Tier 1 substrate only.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive given pool collapse already observed; persistence is the graded claim, moderate skill signal). Tier 1: high (~70-75%), discounted.",
@@ -1518,7 +1533,9 @@
     "Sept 11: largest tanker wave of the war; ten tankers destroyed in past week (CENTCOM); Brent breaks $100",
     "2026-09-14 resolution: routing-sovereignty metric fired \u2014 Sept 4-6 Kpler data showed 75% of transits on Iran's unilateral routing scheme (21/28), 15pts above the ~60% stabilization threshold",
     "2026-09-14 resolution: compliance blockade (condition b) \u2014 transit volumes at blockade levels and shippers treat Iranian routing authority as binding",
-    "2026-09-15: Houthi strike on YASREF Yanbu (East-West pipeline terminus, Red Sea) \u2014 NASA FIRMS heat anomalies confirmed. Blockade now bleeds onto the Red Sea flank; redundant Saudi export capacity under direct attack with no serious response."
+    "2026-09-15: Houthi strike on YASREF Yanbu (East-West pipeline terminus, Red Sea) \u2014 NASA FIRMS heat anomalies confirmed. Blockade now bleeds onto the Red Sea flank; redundant Saudi export capacity under direct attack with no serious response.",
+    "09-23 UKMTO: LPG tanker struck by unknown projectiles in strait, 2 crew injured \u2014 attacker unattributed; transit count still ~1/day vs 85 baseline",
+    "09-23 Iran's reopening conditional made public at UNGA (blockade lift/assets/end hostilities); Rubio-Lavrov readout zero-substance; Xi summit this week = highest-stakes reopening-broker window"
    ],
    "evidence_contradicted": [],
    "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
