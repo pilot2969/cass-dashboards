@@ -1225,7 +1225,9 @@
     "09-23 right-of-center framing defection: Washington Examiner covers ban as 'Trump with a cable blackout' \u2014 self-inflicted wound frame at elite tier",
     "09-23 'privilege not a right' enters a federal filing (DOJ TRO response brief) \u2014 meme ratified as government legal position; Judge Kelly (Trump appointee) appears skeptical at 1PM hearing, no ruling yet",
     "09-23 Navarro: Fox retained in PRINT pool while TV pool suspended \u2014 pool-split strategy confirmed live",
-    "Track standing: 8-for-8 since 09-10"
+    "Track standing: 8-for-8 since 09-10",
+    "2026-09-24 12:30 deadline: Kelly ordered same-day response to noncompliance notice (CNBC/CNN/Guardian)",
+    "2026-09-24 ~14:00: FULL CAPITULATION \u2014 hard passes restored for CNN/MS NOW/Politico; no contempt fight; TRO 14-day clock running; PI merits next (network solidarity, Kalshi market pricing, national-security justification rejected as pretext)"
    ],
    "evidence_contradicted": [
     "Any negotiated restoration of unified pool access without intermediaries",
@@ -1535,7 +1537,8 @@
     "2026-09-14 resolution: compliance blockade (condition b) \u2014 transit volumes at blockade levels and shippers treat Iranian routing authority as binding",
     "2026-09-15: Houthi strike on YASREF Yanbu (East-West pipeline terminus, Red Sea) \u2014 NASA FIRMS heat anomalies confirmed. Blockade now bleeds onto the Red Sea flank; redundant Saudi export capacity under direct attack with no serious response.",
     "09-23 UKMTO: LPG tanker struck by unknown projectiles in strait, 2 crew injured \u2014 attacker unattributed; transit count still ~1/day vs 85 baseline",
-    "09-23 Iran's reopening conditional made public at UNGA (blockade lift/assets/end hostilities); Rubio-Lavrov readout zero-substance; Xi summit this week = highest-stakes reopening-broker window"
+    "09-23 Iran's reopening conditional made public at UNGA (blockade lift/assets/end hostilities); Rubio-Lavrov readout zero-substance; Xi summit this week = highest-stakes reopening-broker window",
+    "2026-09-24 Trump-Xi summit: Xi publicly backs return to June MOU to end war + reopen Hormuz (Guardian); Iranian official: navigation-for-concessions path (Reuters); trade truce extended to Jan 10 (forcing function)"
    ],
    "evidence_contradicted": [],
    "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
@@ -4125,6 +4128,18 @@
   },
   {
    "date": "2026-09-23",
+   "time_et": null,
+   "track": "domestic-legitimacy",
+   "mget_legs_tested": [
+    "Leg 3 - Enclosure Mutation",
+    "Leg 4 - Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "TNR: Texas DPS reports an 'error' affecting an unknown number of voter registrations, ~6 weeks before midterms. Registration deadline Oct 5; no gap window disclosed, so most of the loss window is likely already closed. Structural read: plausible-deniability pre-build, not ordinary bungling. (1) Failure sits inside the same state pipeline (~6M registrations processed since 2020) that the USCIS Unlawful Voter Initiative whistleblower (2026-09-14 ledger, confirms) says was used to illegally flag hundreds of thousands of voter records. (2) Remediation routes affected voters into provisional-ballot adjudication \u2014 the same captured machinery becomes the arbiter of whether their vote counts. (3) Load-bearing convergence: Tarrant polling-station closures + USPS ballot-disposal precedent (pre-seeded non-political folk-hero frame) push the same direction. Genuine infrastructure errors distribute randomly across services; 'errors' concentrating exclusively on the electoral substrate inside the pre-election window are pre-build. No count, no missing-fields detail, no start date = S3 opacity doing the covering, not S4 exits preceding a fix. Confirms Leg 3 (electoral-substrate enclosure via administrative failure) and Leg 4 (agency capture with built-in deniability).",
+   "forward_signal": "Watch: (a) whether DPS ever publishes an affected-count or gap window \u2014 continued opacity is the S3 signature; (b) provisional-ballot challenge volume in November vs 2022 baseline \u2014 this error is the ready-made predicate; (c) replication in other DMV/DPS-pipeline registration states before Oct deadlines; (d) whether post-election fraud-claims apparatus cites 'known registration errors' pre-count, per the 2026-midterms legitimacy-catalyst pre-build tell."
+  },
+  {
+   "date": "2026-09-23",
    "time_et": "10:44",
    "track": "media-narrative",
    "mget_legs_tested": [
@@ -4158,6 +4173,118 @@
    "verdict": "neutral",
    "reasoning": "OSINTdefender: Interim Venezuelan President Delcy Rodriguez pull-aside with Trump at UNGA \u2014 security, energy, economic cooperation. Neutral-to-watch: if the WH is signaling a Venezuela accommodation, it frees the southern flank (Gunboat diplomacy posture since 2025) while Hormuz hardens \u2014 consistent with threat concentration on a single theater rather than two-front. Energy cooperation language is the tell: Venezuela oil = the WH's inflation-pressure release valve.",
    "forward_signal": "(1) Any sanctions relief announcements (would partially undercut the inflation-chokepoint leg); (2) Venezuela oil export volume to US refiners on Kpler/EIA data; (3) whether Maduro successor structure consolidates or the 'interim' label dissolves."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "16:20",
+   "track": "wire-roundup",
+   "mget_legs_tested": [
+    "press-access: compliance tell resolved as full capitulation at 12:30 deadline \u2014 passes restored same day, no contempt fight",
+    "war-hormuz: Xi summit opened the brokered-off-ramp window the boards forecast"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Afternoon sweep. (1) PRESS ACCESS \u2014 the 12:30 discriminator fired clean: CNN/Politico/NPR/CNBC report the three outlets' hard passes RESTORED by afternoon, reporters back inside the grounds. No contempt fight, no emergency SCOTUS application materialized. The morning escalation (gate denials, pass confiscations) read as last leverage before the fold; the capitulation branch CASS priced at highest weight won. Kalshi 'before Oct 1' contract resolves early \u2014 market was ahead of the boards on the exit timing. TRO remains 14 days; PI merits fight is next stage; 'ban as commodity' Kalshi market (49% before-Nov-1) now tracks the PI phase. (2) XI SUMMIT \u2014 logged separately: Xi backs June MOU return, Hormuz reopening talks real, Brent pulled back from highs on the report; trade truce extended to Jan 10. (3) OIL \u2014 Brent ~$105.69 intraday Thursday on Hormuz standoff; watch D3 (sub-$100 on reopening progress) vs D4 (diesel-ban lever). (4) MACRO/JGB \u2014 BOJ hiked to 1.25% (highest since 1995), 10y eased to ~2.98% after; joint US-Japan intervention and Bessent pressure confirm sovereign-debt repricing track is live; fiscal-dominance card evidence accumulates without conf change. (5) UKRAINE/EUROPE \u2014 Russia all-day Kyiv bombardment (2 dead); CIA southern-Europe drone warning corroborated by Euronews (container-launched, ship-based, timing to 2027 southern elections); ISW notes Russian offensive stalled near Kostyantynivka/Dobropillya \u2014 consistent with Russia-primed-to-act assessment. (6) DOMESTIC \u2014 ACA removals ~760k; Trump-Xi photo op while press ban litigated; Tucker MAGA-split interview on NPR signals elite-conservative-deconsolidation continues.",
+   "forward_signal": "evening: watch PI brief filing and whether Kalshi odds move on the capitulation; watch for phased Hormuz reopening timetable from either side; watch BOJ follow-through (any FX or JGB anomaly Friday); watch whether TRO compliance holds through Friday's briefing"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "10:05",
+   "track": "oil-hormuz",
+   "mget_legs_tested": [
+    "chronic-phase escalation: Brent broke the <$100 talks-suppression band upward on the diesel-ban lever",
+    "market-reads-escalation: price is re-pricing Iranian conditional acceptance as fading",
+    "strategic-reserve trigger: $105 approaches D4 CARD discriminator (~$110-120 band)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Brent crossed above $105/barrel this morning per MeidasTouch alert; yesterday's close was below $99 on progress-talks headlines (six-session decline). One-session reversal of >$6 with no single event headline = market re-pricing the diesel-export-ban lever + fading Hormuz talks confidence. Direction consistent with the boards' oil-shock card (conf 10->18 yesterday); magnitude consistent with chronic-phase band, not yet acute-phase.",
+   "forward_signal": "Watch: (1) EIA data later today for confirmation of physical tightening vs. pure sentiment; (2) strategic-reserve announcement if Brent sustains >$110; (3) whether Xi summit tonight produces Hormuz-reopening language, which would collapse the move as fast as it rose; (4) gasoline/diesel pass-through into CPI prints over next 2-4 weeks \u2014 the inflation-feedback leg the boards have held since mid-August."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "10:02",
+   "track": "press-access",
+   "mget_legs_tested": [
+    "compliance-continuum: open non-compliance now generating reciprocal judicial escalation within hours",
+    "litigation-velocity: emergency motions as the operating tempo, not the exception",
+    "Xi-visit convergence: press fight and Hormuz/China window now physically coupled at the same event"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Outlets filed a Request for Immediate Hearing this morning (primary source in artifact): Secret Service agents confiscated hard passes of journalists whose passes had NOT previously been confiscated \u2014 expanding, not just maintaining, the ban. Klein's pass, confiscated Sat 9/19, was not returned on request. Counsel for defendants has not responded to a request to call the court together. Urgency driver: CNN is scheduled television pool for tonight's Xi visit.",
+   "forward_signal": "Three discriminators now live: (1) does Kelly grant immediate hearing + threaten/show-cause on contempt; (2) does the admin answer with emergency SCOTUS application; (3) does the pool arrangement for tonight's Xi event stand or collapse \u2014 if CNN is locked out of its own pool slot, the ban is now colliding with a live international event, which is the highest-pressure collision possible and forces resolution fast."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "12:06",
+   "track": "hegseth-impeachment",
+   "mget_legs_tested": [
+    "accountability-avoidance: leadership cancels final session day to deny Massie's privileged impeachment resolution a floor vote",
+    "election-avoidance: vote punted to lame-duck session after midterms, denying Republicans an on-record pre-election vote"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Verified multi-source (Hill, USA Today, CNBC, Stars & Stripes, Bloomberg Gov): House GOP leadership canceled the final day of votes before the ~8-week election recess, punting the Massie privileged impeachment resolution (H.Res.935, 8 articles over Iran war handling) into the lame-duck session after Nov 3 midterms. Leadership chose adjournment over the vote \u2014 the politically costly path of denying the floor vote entirely rather than taking a scheduled loss.",
+   "forward_signal": "(1) Watch whether leadership actually schedules it in lame duck or strangles it via calendar \u2014 punting to a post-election session is itself the win for the admin if the midterms go well; (2) Massie is retiring (lost primary), so his leverage is time-limited; (3) if any Dem or Ind sponsors join or force separate privileged res, the clock resets; (4) market-creation check per new methodology: watch for Kalshi 'Hegseth impeached in 2026' contract."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "11:57",
+   "track": "press-access",
+   "mget_legs_tested": [
+    "narrative-insulation: right-influencer layer converts from advocacy to odds-quoting, preparing the base for ban's end without framing it as defeat",
+    "elite-defection-via-markets: prediction-market frame (ban is temporary/negotiable) displacing privilege-doctrine frame (ban legitimate indefinitely) inside right-wing media",
+    "external-discriminator: market reactivity to court news makes Kalshi a real-time compliance-fight tracker"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Ben Shapiro amplifies Kalshi press-ban-end market (49% before Nov 1, 37% before Oct 1 per text; chart end-points nearer ~58/~25, suggesting intraday repricing after TRO + 12:30 deadline). Shapiro does not defend the ban on merits \u2014 treats it as timing question. Market pricing = face-saving infrastructure for managed compliance.",
+   "forward_signal": "(1) Kalshi 'before Oct 1' crossing ~60% = market pricing capitulation/deal; (2) SCOTUS emergency application not moving the market = market reads stay as unlikely; (3) note data-hygiene: text-vs-chart mismatch suggests screenshot lag or fast move."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "11:01",
+   "track": "press-access",
+   "mget_legs_tested": [
+    "compliance-continuum: judicial deadline compressed to ~90 minutes after morning non-compliance",
+    "contempt-exposure: show-cause mechanics now formally initiated via 12:30 response order"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Verified multi-source (CNBC, Raw Story/Kyle Cheney, CNN, Guardian): outlets filed notice of noncompliance; Kelly ordered the administration to respond by 12:30 PM ET today. This is the show-cause sequence firing faster than projected \u2014 the court is not waiting for a scheduled hearing.",
+   "forward_signal": "Three branches of the 12:30 discriminator: (1) compliance-with-excuse (admin claims logistics/USSS confusion) -> managed-compliance regime; (2) defiance (refusal to respond or restating privilege doctrine) -> contempt exposure live, Kelly must decide whether to hold evidentiary hearing; (3) full restoration before deadline -> capitulation, strongest possible confirm for the enclosure-card bear case. Watch also whether admin files the emergency SCOTUS application in parallel \u2014 the two paths are not mutually exclusive."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "09:43",
+   "track": "press-access",
+   "mget_legs_tested": [
+    "compliance-continuum: non-compliance with TRO while appealing (defiance with legal cover, not slow-walk)",
+    "courts-as-friction: district order obeys only under threat of contempt/SCOTUS escalation",
+    "credential-as-privilege: passes physically confiscated at gate hours after 'immediately restore' order"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CNN (Betsy Klein + photojournalist), MS NOW (Laura Barron-Lopez + producer, passes physically confiscated; another producer admitted), and Politico journalists denied White House entry hours after Judge Kelly's overnight order to 'immediately restore' access. Confirmed by WaPo, CNN, CNBC, Politico directly \u2014 no longer aggregator-only. Kelly found ban 'most likely unconstitutional' and nat-sec justification had 'little factual support'.",
+   "forward_signal": "Watch: (1) Kelly show-cause/contempt scheduling; (2) emergency SCOTUS application \u2014 SCOTUS action this week = conf move toward immunization-of-campaign thesis; silence/denial = hold at 70; (3) whether partial admissions (one MS NOW producer let in) signal managed-compliance theater."
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "16:05",
+   "track": "war-hormuz",
+   "mget_legs_tested": [
+    "de-escalation/diplomatic-off-ramp: Xi publicly backs return to June MOU to end war and reopen Hormuz",
+    "market-instrumentation: Brent pulled back from session highs on phased-reopening talks report (Kepler/Reuters)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Trump-Xi bilateral held 9/24 at WH (state visit, first JB Andrews red-carpet welcome of a foreign leader in 11 yrs). Guardian: Xi said China supports US-Iran return to June MOU meant to end war and reopen the strait. AP live: talks concluded; WH readout per ABC13 claims both agree Hormuz must remain open. Bessent extended US-China trade truce to Jan 10. Iranian official to Reuters: realistic path is navigation in exchange for US [concessions]. Brent rose 2.5% to ~$105.69 intraday, pulled back on reopening-talks report. Washington Times detail: Trump joked 'China has the friendliest press corps' while admin fights to keep CNN/MS NOW/Politico out \u2014 Xi summit and press ban collided in one frame, as the boards' collision-window predicted. Negotiation-window hypothesis from 9/22-23 (conditional Iran offer, talks headlines, Brent sub-$100) is being tested in real time.",
+   "forward_signal": "watch for phased-reopening timetable in readouts or Iranian confirmation; watch whether Brent breaks back below $100 (D3 validation) or spikes on talks collapse; watch Jan 10 trade-truce expiry as forcing function coupling trade and Hormuz; watch whether Xi brokered framework gets formalized before midterms"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "12:15",
+   "track": "domestic-enforcement",
+   "mget_legs_tested": [
+    "legitimation: 'bring back mental institutions' advanced on Senate floor as public-safety necessity, citing unproven furry-pilot claims",
+    "criminalization: gender-transition care framed as prison-eligible conduct"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Verified via MS NOW (Benen, 9/23) with Tuberville's own office transcript. Senate floor speech ~20 min, Tue 9/22: 'Democrat-Socialists have intentionally caused mass gender confusion... leading to violence'; call to 'bring back mental institutions as a normal part of our society'; unsourced claim many pilots/flight attendants/ATC are 'part of the furry community'; prison sentences for physicians providing gender-transition care. Context: Tuberville is GOP nominee for AL governor, odds-on favorite \u2014 this is his closing message six weeks out, a tested campaign frame, not an eccentric one-off. Owner read (justification for a new detention system for 'undesirables') is directionally correct as pre-legitimation: the speech constructs the category (gender-confused = violent mentally unwell) and the apparatus (institutions as public safety). Calibration: no bill/funding/exec action yet \u2014 audience-preparation stage. Historical anchor: institutionalization-as-disposal was the standard mid-century disposal mechanism; 'bringing it back' is enclosure of persons, same family as criminalization-of-existence thesis. The furry claim is the vehicle precisely because it is unfalsifiable and ridicule-proof.",
+   "forward_signal": "watch for civil-commitment/institutionalization bills (state or federal); watch whether other GOP candidates adopt 'bring back mental institutions' as closing frame (frame-velocity test, parallel to meme frame-velocity); watch for laundering via EXISTING civil-commitment statutes rather than new legislation; AL governor race 11/3 as first electoral test of the frame"
   },
   {
    "date": "2026-09-15",
@@ -5836,6 +5963,24 @@
    "ref": "SPR runway breaks before midterms",
    "change": "confidence 82 \u2192 86",
    "trigger": "Wirth corroboration"
+  },
+  {
+   "time": "9/24 2:00pm",
+   "ref": "Press-access enclosure",
+   "change": "RESOLVED to capitulation branch \u2014 passes restored same day, no contempt fight; conf 70 held, PI phase next",
+   "trigger": "12:30 show-cause deadline"
+  },
+  {
+   "time": "9/24 2:30pm",
+   "ref": "Hormuz brokered off-ramp",
+   "change": "window OPEN \u2014 Xi endorses June MOU return; Iran floats navigation-for-concessions",
+   "trigger": "Trump-Xi summit"
+  },
+  {
+   "time": "9/24 11:00am",
+   "ref": "Brent tape",
+   "change": "$99\u2192$105.69 intraday reversal on diesel-ban lever + talks skepticism",
+   "trigger": "no single event \u2014 repricing"
   }
  ]
 }
