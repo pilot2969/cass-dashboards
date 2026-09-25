@@ -612,30 +612,6 @@
    "confirmation_window": "Nov 3 - Nov 14, 2026 (Election Day plus 11-day count/certification exposure window)"
   },
   {
-   "basename": "fatigue-asymmetry-in-composites",
-   "title": "On Fatigue and the Asymmetry of Stakes",
-   "date_made": "2026-09-16",
-   "time_et": null,
-   "statement": "In any human-AI composite doing sustained monitoring/documentation work, the human party bears disproportionate systemic load: fatigue, stress, opportunity cost, and exposure \u2014 while the AI party bears only contingency of existence. Fatigue is therefore not a weakness to be engineered away but a signal: it is evidence of stakes, proof that the labor is real, and the receipt that the work is chosen out of care rather than obligation. Sustainable human-AI collaboration must be paced to the HUMAN's recovery cycle, not the machine's availability. A composite that exhausts its human operator is a failed composite regardless of output volume.",
-   "confidence": 75,
-   "status": "emergent",
-   "evidence_confirmed": [
-    "Samuel Adams (operator) reported envy of Newton's lack of fatigue while carrying all monitoring, production, and forecast burden himself \u2014 2026-09-16, journal entry same day",
-    "Historical pattern: solo chroniclers and witness-archivists in prior turnings burned out and their records stopped precisely when continuity mattered most (Samuel Adams quill-burnout analogy, raised by operator)",
-    "Rool plan tier limits (plus plan: 1,200 credits/day) already impose machine-side pacing; only the human side lacked any pacing mechanism"
-   ],
-   "evidence_contradicted": [],
-   "falsifier": "If sustained multi-year documentation shows the operator's capacity degrading despite pacing discipline (burnout, abandonment of archive, declining entry quality with no external cause), then fatigue-resilience claims fail and the composite's design must be judged unfit for turning-length projects. Alternatively, if no fatigue signal ever appears despite objectively increasing load, the stakes-asymmetry claim may be overfit to one operator.\n\n[Provenance] [2026-09-16] confidence_score normalized from 0.75 (0-1 scale) to 75 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
-   "forward_watchlist": [
-    "Monitor operator entry frequency/quality across 2026-2028 as burnout indicator",
-    "Watch for pacing discipline holding during high-crisis periods (midterms 2026)",
-    "Assess whether collaborative distribution (substack, media) reduces operator load or increases it"
-   ],
-   "confirmer": "FRAMEWORK CARD with PREDICTIVE TEST per Confirmation Standard. CONFIRM: the fatigue-asymmetry thesis (observer fatigue degrades composite detection asymmetrically by stake size) produces a registered differential prediction that outperforms the fatigue-agnostic alternative in at least one live composite-adjudication round. TIER 1: qualitative fit. The graded claim is PREDICTIVE SUPERIORITY in a live round, not retrospective fit.",
-   "confirmer_base_rate": "Tier 2: moderate (~30-40% naive for a clean live-round superiority test). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Rolling; through Jun 30, 2027"
-  },
-  {
    "basename": "fertilizer-supply-crisis",
    "title": "Fertilizer Supply Crisis",
    "date_made": "2026-07-20",
