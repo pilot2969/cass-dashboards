@@ -612,6 +612,40 @@
    "confirmation_window": "Nov 3 - Nov 14, 2026 (Election Day plus 11-day count/certification exposure window)"
   },
   {
+   "basename": "eurasia-settlement-hemisphere-pivot-domestic-consolidation",
+   "confidence": 68,
+   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)",
+   "confirmer": "Reserve tasking orders + settlement progress + domestic enforcement escalation all firing inside pre-registered windows",
+   "confirmer_base_rate": "No clean base rate; analog = post-WWII hemispheric interventions converted to domestic security frames (Operation Wetback 1954, PL-480 security coupling); sequencing analog = Eurasian detente preceding Western Hemisphere intervention surges (Nixon 1971-73 Chile track)",
+   "date_made": "2026-09-25",
+   "evidence_confirmed": [
+    "2026-09-25 carrier withdrawal beyond 1,200km envelope (Hormuz Letter Sentinel + Defensemirror wire) \u2014 force freeing leg",
+    "2026-09-25 Army Reserve availability survey: 6 formations flagged for SOUTHCOM ops re Venezuela/Cuba (CBS-verified) \u2014 pivot leg hard telemetry",
+    "2026-09-23 Rubio-Lavrov bilateral, process-only language \u2014 settlement channel active",
+    "2026-09-24 Xi state visit; June-MOU lane brokered; Bessent trade truce extended to Jan 10 \u2014 guarantor transfer leg",
+    "2026-09-23 Iran seven conditions via intermediaries \u2192 2026-09-25 published 7-day plan with nuclear access \u2014 asks descending, offramp live",
+    "electoral-stop-loss card: war managed as domestic survival valve pinned to Nov 3",
+    "domestic-enforcement-groundwork card (72): quiet-track base mobilization confirmed across Sept",
+    "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
+   ],
+   "evidence_contradicted": [
+    "escalation-trap card (86) unresolved \u2014 Gulf escalation hazard persists independent of settlement track; a combatant strike would fork the sequence"
+   ],
+   "falsifier": "SEQUENCE BREAKS IF: (1) Reserve tasking orders NOT issued to any surveyed formation by Jan 23, 2027 (60-120d from survey) with no replacement SOUTHCOM buildout telemetry; (2) Eurasian settlement fails to progress by Nov 3 (no Iran offramp initiated, no Ukraine language movement) AND carriers return to CENTCOM AOR \u2014 i.e., force not freed; (3) domestic enforcement escalation decouples from Hemisphere operations (no ICE/DHS expansion, no emergency powers sought) through Q1 2027 while the pivot proceeds. Any one breaks the sequence; all three absent = thesis dead.",
+   "forward_watchlist": [
+    "Reserve tasking orders to the six surveyed formations (Dec 24-Jan 23 window)",
+    "Iran deal announcement packaged with Ukraine language (cross-coupling test = one negotiation, not three)",
+    "Settlement language demoting NATO/UN frameworks in favor of power-to-power guarantees (order-transfer confirm)",
+    "Martial-law rhetoric migrating from Atlantic advisory layer into administration-official mouths (operational layer upgrade)",
+    "Venezuela/Cuba tasking scoped to include migration-corridor interdiction (enclosure confirm)",
+    "Hormuz discharge falsifier (oil <$80, lanes \u2265100/day) \u2014 offramp branch of the sequence"
+   ],
+   "statement": "SEQUENCE THESIS (owner synthesis, 2026-09-25 22:35\u201322:47): The regime is executing a three-stage sequence \u2014 (1) settle the Eurasian theater (Rubio\u2013Lavrov channel, Xi-brokered US-Iran MOU lane, Netanyahu containment) to free the force; (2) pivot freed force to the Western Hemisphere (SOUTHCOM buildout targeting Venezuela/Cuba; Army Reserve availability survey 2026-09-25 is the hinge telemetry); (3) apply the theater's emergency powers, mobilization precedents, and acclimation effects to the domestic repression track (groundwork card, 72). KEY REFRAME vs. prior threat model: escalation-trap card (86) priced a Eurasian hot-war path; the observed path SKIPS the world war \u2014 external war avoided not by restraint but because the same consolidation is achievable cheaper via settlement + regional enclosure. The Hemisphere theater is selected BECAUSE it is unclosable (no nuclear adversary, no coalition, no base-splitting risk) and supplies the repression track with a permanent emergency venue. 'Pen in the hemisphere' = enclosure at continental scale: migration corridors, remittance flows, refugee escape valves all subject to war treatment. Monroe Doctrine inverted: not exclusion of outside powers but containment of the hemisphere's own population. SEQUENCING TEST: settlement progress by ~Nov 3 (offramp ~55-65% initiated), Reserve tasking orders in 60-120d window (Dec 24-Jan 23), domestic enforcement escalation on same arc \u2014 one operational sequence, not parallel threads.",
+   "status": "pending",
+   "time_et": "",
+   "title": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence"
+  },
+  {
    "basename": "fertilizer-supply-crisis",
    "title": "Fertilizer Supply Crisis",
    "date_made": "2026-07-20",
