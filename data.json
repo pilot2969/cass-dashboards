@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "2.1-data-layer",
-  "generated": "2026-09-25",
+  "generated": "2026-09-26",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -5846,6 +5846,12 @@
  ],
  "movers": [
   {
+   "time": "2026-09-25",
+   "ref": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
+   "change": "confidence 68 \u2014 status pending",
+   "trigger": "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
+  },
+  {
    "time": "2026-09-24",
    "ref": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
    "change": "confidence 91 \u2014 status emergent",
@@ -5898,12 +5904,6 @@
    "ref": "Institutional health is the arbiter of dehumanization-acceleration outcomes",
    "change": "confidence 70 \u2014 status emergent",
    "trigger": "Weimar 1932-33: courts and party system still formally present but already hollowed by 1930 presidential decree rule \u2014 institutional health DEGRADED, so acceleration routed to thre"
-  },
-  {
-   "time": "2026-09-16",
-   "ref": "State Natalism Intensity as Turning-Phase Marker",
-   "change": "confidence 60 \u2014 status pending",
-   "trigger": "Historical training set: French demographic anxiety and natalist code pre-1914; Weimar/Nazi Mother's Cross and marriage-loan programs; Ceausescu Decree 770; contemporary Hungary (C"
   }
  ]
 }
