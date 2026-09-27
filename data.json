@@ -4706,6 +4706,21 @@
    "forward_signal": "Watch: (1) 7-day window expiry (~Oct 2) with no US engagement \u2014 Iran's response options: blockade escalation, tanker/US-vessel strikes (gives US its pretext), or asymmetric hits on Gulf shipping priced as 'Iran escalation' into the midterms; (2) any pre-Nov 3 US strike (stop-loss failure); (3) carrier movements."
   },
   {
+   "date": "2026-09-27",
+   "time_et": "19:30",
+   "track": "legitimacy-media",
+   "mget_legs_tested": [
+    "Leg 2 (enclosure of legitimacy via media control): court temporarily restored CNN/Politico/MS NOW access Sept 24-25, TV pool resumed; DOJ still defending ban, urged retention at least until Xi visit. Pushback is real but narrowing-scope fight continues.",
+    "Leg 1 (institutional decay/immunity signal): House delayed Massie-Hegseth impeachment vote until November; Thanedar filing two articles over boat strikes ('kill everybody' second strike). Floor action deferred, not resolved.",
+    "Economic-enclosure side-track: Fed drafting raise of bank oversight asset thresholds (Bowman capital-rules overhaul); DHS proposing elimination of 60-day H-1B grace period. Consolidation + hostage-taking of visa workers continues.",
+    "Rates: 10Y ~5.17% Friday close, Fed Oct hike odds firmed (66% per TE, some desks >75%). Six-percent watch not triggered.",
+    "Iran/Hormuz: Brent above $106, Iran refuses to soften Hormuz reopening demands; no second UKMTO strike warning observed in scan (sa1hrue4oky1 stays active)."
+   ],
+   "verdict": "strains",
+   "reasoning": "Strains the enclosure-of-legitimacy leg: a federal court restored banned outlets' access and the TV pool resumed - first visible judicial pushback on WH media control. But the administration is appealing/defending the ban (Xi-visit framing) and floor accountability (Hegseth) was deferred to November, so the decay leg is not confirmed this week either. Mixed week.",
+   "forward_signal": "Watch whether ban litigation reaches appellate stage or gets settled; watch Hegseth vote resumption in Nov; 10Y six-percent watch active until Oct 9; UKMTO second-strike watch until Sep 30."
+  },
+  {
    "date": "2026-09-26",
    "time_et": "21:55",
    "track": "world-war-iii-prologue",
@@ -6454,20 +6469,20 @@
   }
  ],
  "daily_read": {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "summary": [
-   "Today the dashboard got a calibration fix, and the world kept moving on the same tracks. The short version: the war track cooled its rhetoric but closed its exits, the domestic track is building blame infrastructure ahead of October's prices, and the money track is holding a currency together in South America.",
-   "The biggest single event: Iran's leadership said out loud, on the record, that a deal to reopen the Strait of Hormuz is not acceptable, and that the real answer is to \"settle with Putin.\" That closes the peaceful offramp on the record \u2014 it was previously closed only by silence. Watch for the next 48\u201372 hours to see whether the message stays quiet or escalates.",
-   "On the home front, a pattern worth naming: a small group of social media accounts is running the same blame story all day, every day \u2014 prices are high because of sabotage, not policy. This matters because October brings real price shocks (beef from immigration raids, fuel from the strait). The story is being built before the numbers arrive, so when the numbers come, there is already a place for them to fit.",
-   "Argentina is the other headline: the peso hit a record low and the U.S. Treasury is defending it. It looks like a bailout, but it works as a showcase \u2014 the administration's preferred economic model, propped up at your expense, right next door. How long the peg holds is now a live test of the hemisphere-pivot idea.",
-   "Finally, today's capture work filled out the picture of how dehumanizing content spreads \u2014 the comment sections are the signal, not the posts. That research program starts in earnest after Monday's X connector setup."
+   "Today the story was pushback \u2014 and the difference between pushback and resolution. A federal court restored the banned outlets' White House access, and the television pool went back to work. That is the first visible crack in the press enclosure since it was built. It is real, and it matters. But the same day, the Justice Department was still in court defending the ban, with the leaders' summit framed as the deadline for keeping it. So: the wall was dented, not torn down. The fight is narrowing to a single question with a date on it.",
+   "The accountability track did the same thing in miniature. The House delayed the impeachment vote until November, and a second set of articles was filed over the boat strikes. Filing is noise; a floor vote is signal. What today confirmed is the pattern from the whole week: challenges are arriving, and answers are being postponed. Watch November, not this week.",
+   "The quieter moves were on the economic track. Regulators are drafting a loosening of bank oversight thresholds, and immigration is proposing to eliminate the grace period that lets visa workers change jobs. Neither is loud. Both are the slow consolidation work that never makes a headline \u2014 the machine room of the enclosure.",
+   "Rates and the strait are the two clocks still running. The ten-year yield sat near 5.17% at Friday close and the market is pricing an October rate hike as more likely than not; the six-percent watch stays armed until October 9. Iran, meanwhile, is still refusing to soften its terms for reopening the strait, with oil above $106 \u2014 and the second-strike watch on shipping runs through September 30. Nothing has fired yet on either clock. But neither clock has stopped.",
+   "The overnight sweep confirmed the same five legs it has all week \u2014 settlement lane, closed exits, delegitimization, media restriction, consolidation at home. Verdict for today, honestly stated: strains. The court order strains the enclosure story; the defense of the ban strains back. This is the first day in a while where the counter-forces scored a visible point."
   ],
   "watching": [
-   "Strait of Hormuz: any Iranian action on shipping within 72 hours of the on-record rejection",
-   "October price data (beef, fuel) landing on the pre-built \"sabotage, not policy\" frame",
-   "Argentine peso: whether Treasury support holds the peg or it breaks anyway",
-   "Caption-template collisions between amplifier accounts (the attribution smoking gun)",
-   "Monday: X connector setup and the first automated caption-collision sweep"
+   "Whether the media-ban fight reaches an appeals court or a settlement before the leaders' summit",
+   "November: the delayed impeachment vote actually resuming, or slipping again",
+   "The two quiet regulatory moves (bank thresholds, H-1B grace period) reaching final text",
+   "10Y six-percent watch armed until Oct 9; October hike odds firming above 66%",
+   "Strait of Hormuz: any shipping action within the UKMTO second-strike window (through Sep 30)"
   ]
  }
 }
