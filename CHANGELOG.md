@@ -1,0 +1,57 @@
+# CASS Dashboard — Change Log
+
+All notable changes. Newest first. Dates are US Eastern.
+This file mirrors (and extends) the Version History table rendered in `index.html`.
+
+## 2026-09-27 · v3.1.0
+- **New "Today's Read" panel** — collapsible, open-by-default section above the Forecast Register: hand-authored plain-English daily trend summary (10th-grade reading level) with a "Watching next" list. Rendered from `Daily Read.md` at build time; new `daily_read` field in `data.json`; loader added to `deploy-cass.sh`.
+- **Wire sweep recalibration** — scoring switched from raw Google News result counts to corpus-share (hits per 100 aggregated-corpus headlines), fixing the ~100-item instrument ceiling that pinned four topic buckets; keyword sets tightened. Wire sweep now runs 9 sources.
+- **DW (Deutsche Welle) added** as ninth source via native feed — first non-US-native source; covers the Eurasia-settlement framing lane.
+- **Eurasia Hemisphere Pivot card moved 68→70** on the Argentina peg-defense entry (backfilled to /space).
+- Version history table updated; `meta.version` → `3.1.0-data-layer`.
+
+## 2026-09-22 · v3.0.2
+- Movers card persistence fix (export now preserves movers across deploys; canonical hand-maintained overlay); timestamp rendering fixed; stateful-bug class closed.
+- Methodology section updated: headline suite n=7 macro eras, 6-run policy track reported separately, Falsifiability Collapse Protocol promoted to standing clause.
+
+## 2026-09-21 · v3.0.1
+- Staging pipeline rebuilt on MCP push protocol (staging-first verify before prod); data rebuilt from canonical /space at 215 ledger entries; VERSION bumped.
+
+## 2026-09-21 · v3.0.0
+- Collapsible MGET Ledger (215 entries, newest-first, verdict filter chips); header explainer defining the four legs and verdict vocabulary.
+- Fix: prediction card field mismatch (`confidence_score` → `confidence`) restoring badge/sort/share-card fidelity.
+
+## 2026-09-21 · v3.0.0 (data layer)
+- Shard-aware loader (renderer expands `_sharded` arrays, killing the `predictions.forEach` error).
+- Movers card rebuilt: collapsed by default, descending order, 24h window keyed to newest ledger entry, one-line format.
+- `macro_forecast` restored as build-time derivation from canonical prediction card.
+- Deploy pipeline hardened: 40KB transport cap, stdin payloads, API-based verification.
+
+## 2026-09-17 · v2.8.1–v2.8.7
+- Share-card engine rebuilt after a deploy incident: shell/data separation hardened, card renderer pulls live sections (plain-English, evidence, falsifier) at click time; plain-English auto-draft persisted in the export layer.
+
+## 2026-09-17 · v2.7
+- 📸 Share Card on every prediction card and the macro forecast header: claim, plain-English translation, evidence chain, armed falsifier as one shareable image.
+
+## 2026-09-17 · v2.6
+- Sparklines removed (low signal-to-noise); share-card engine v1 shipped.
+
+## 2026-09-15 · v2.4
+- Data Dictionary section (15 field definitions) and in-shell Change Log added.
+- Data layer rebuilt from live source-of-truth export after a stale-data bug was caught: Hormuz entry flipped to confirmed per its own falsifier criteria.
+- Confidence-history sparklines added to every prediction card (daily snapshots auto-merged via persistent `history.json`).
+
+## 2026-09-14 · v2.3
+- Methodology explainer section: MGET legs, falsifier discipline, lead-time, Threshold Watch, blind backtest results.
+
+## 2026-09-14 · v2.2
+- Professional layout; log/resolve dates with lead-time display; Threshold Watch banner indicator with expandable issuance text.
+
+## 2026-09-14 · v2.1
+- Forecast language, confidence normalization, public header.
+
+## 2026-09-14 · v2.0
+- Data-driven rebuild: board renders live from `data.json`; live 94% macro forecast; credentials stripped from public files.
+
+## 2026-09-11 · v1.x
+- Early auto-sync builds — static board, first public deployment.
