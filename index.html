@@ -156,13 +156,13 @@ return `<details class="card p-6 rounded-xl border-l-4 border-violet-500 mb-8" o
 <div class="mt-4"><p class="text-slate-500 text-xs mb-3">${esc(R.date)}</p>
 ${R.summary.map(p=>`<p class="text-slate-200 text-sm leading-relaxed mb-3">${esc(p)}</p>`).join('')}
 ${R.watching&&R.watching.length?`<div class="mt-4 pt-3 border-t border-slate-700"><p class="text-amber-400 font-semibold text-sm mb-2">Watching next:</p><ul class="space-y-1">${R.watching.map(w=>`<li class="text-sm text-slate-300">• ${esc(w)}</li>`).join('')}</ul></div>`:''}</div></details>`;};
-wd.insertAdjacentHTML('afterend',drBlock());
-// Macro
+// Macro renders first (top card position), Daily Read after it.
 let h=`<div class="card p-6 rounded-xl mb-8 border-l-4 border-red-500">
 <div class="px-3 py-1 bg-red-600 text-white text-xs font-bold uppercase tracking-wider rounded inline-block mb-2">Macro Forecast · Active</div>
 <h2 class="text-2xl font-bold mb-2">${esc(D.macro_forecast.title)}</h2>
 <p class="text-3xl font-extrabold text-red-400 mb-2">CASS Confidence: ${Math.round(norm(D.macro_forecast.confidence))}% <span class="text-amber-400 text-lg">(raised from ${Math.round(norm(D.macro_forecast.previous_confidence))}% on ${esc(D.macro_forecast.raised_date)})</span></p>
 <p class="text-slate-300 text-sm">Status: ${esc(D.macro_forecast.status)} · Falsifiers armed and posted. If any trigger, this forecast is retired publicly.</p></div>`;
+h+=drBlock();
 h+=`<h3 class="text-lg font-bold text-emerald-400 mb-3 mt-8">Forecast Register (${D.predictions.length})</h3>`;
 // Theme-group nesting: master collapsible per theme, then status sub-headers, then cards.
 D.predictions.forEach((p,i)=>{p.__i=i});
@@ -277,10 +277,6 @@ details>summary{list-style:none}details>summary::-webkit-details-marker{display:
 <p class="text-slate-400 text-base">The transitions genuinely in motion — with the evidence base shown alongside every number — and the honest record of how we've done.</p>
 <p class="text-right text-amber-400 text-xs mt-2">⚡ Updated <span id="gen"></span></p>
 </header>
-<div class="card p-6 rounded-xl mb-8 border-l-4 border-amber-500">
-<h2 class="text-xl font-bold text-amber-400 mb-2">How to read this board</h2>
-<p class="text-slate-300 text-sm">We do NOT track every variable. We track only transitions that clear a relevance threshold. Every number is a <em>bet on a mechanism</em>, and every bet is backed by a visible evidence base and an armed falsifier. A forecast that cannot be falsified is not a forecast — it is a mood. When a forecast stops clearing the bar, it moves to the accountability record below.</p>
-</div>
 <div id="watch-details" class="mb-8"></div>
 <div id="app"><p class="text-slate-400">Loading model state…</p></div>
 <details class="card p-6 rounded-xl border-l-4 border-slate-600 mt-10"><summary class="text-xl font-bold text-amber-400">📖 Methodology — how this board is built and how it is tested <span class="chev text-slate-400">▶</span></summary><div class="mt-4">
