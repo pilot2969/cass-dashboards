@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-09-27",
+  "generated": "2026-09-29",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -613,12 +613,11 @@
   },
   {
    "basename": "eurasia-settlement-hemisphere-pivot-domestic-consolidation",
-   "title": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
-   "date_made": "2026-09-25",
-   "time_et": "22:47",
-   "statement": "SEQUENCE THESIS (owner synthesis, 2026-09-25 22:35\u201322:47): The regime is executing a three-stage sequence \u2014 (1) settle the Eurasian theater (Rubio\u2013Lavrov channel, Xi-brokered US-Iran MOU lane, Netanyahu containment) to free the force; (2) pivot freed force to the Western Hemisphere (SOUTHCOM buildout targeting Venezuela/Cuba; Army Reserve availability survey 2026-09-25 is the hinge telemetry); (3) apply the theater's emergency powers, mobilization precedents, and acclimation effects to the domestic repression track (groundwork card, 72). KEY REFRAME vs. prior threat model: escalation-trap card (86) priced a Eurasian hot-war path; the observed path SKIPS the world war \u2014 external war avoided not by restraint but because the same consolidation is achievable cheaper via settlement + regional enclosure. The Hemisphere theater is selected BECAUSE it is unclosable (no nuclear adversary, no coalition, no base-splitting risk) and supplies the repression track with a permanent emergency venue. 'Pen in the hemisphere' = enclosure at continental scale: migration corridors, remittance flows, refugee escape valves all subject to war treatment. Monroe Doctrine inverted: not exclusion of outside powers but containment of the hemisphere's own population. SEQUENCING TEST: settlement progress by ~Nov 3 (offramp ~55-65% initiated), Reserve tasking orders in 60-120d window (Dec 24-Jan 23), domestic enforcement escalation on same arc \u2014 one operational sequence, not parallel threads.",
    "confidence": 70,
-   "status": "pending",
+   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)",
+   "confirmer": "Reserve tasking orders + settlement progress + domestic enforcement escalation all firing inside pre-registered windows",
+   "confirmer_base_rate": "No clean base rate; analog = post-WWII hemispheric interventions converted to domestic security frames (Operation Wetback 1954, PL-480 security coupling); sequencing analog = Eurasian detente preceding Western Hemisphere intervention surges (Nixon 1971-73 Chile track)",
+   "date_made": "2026-09-25",
    "evidence_confirmed": [
     "2026-09-25 carrier withdrawal beyond 1,200km envelope (Hormuz Letter Sentinel + Defensemirror wire) \u2014 force freeing leg",
     "2026-09-25 Army Reserve availability survey: 6 formations flagged for SOUTHCOM ops re Venezuela/Cuba (CBS-verified) \u2014 pivot leg hard telemetry",
@@ -641,33 +640,11 @@
     "Venezuela/Cuba tasking scoped to include migration-corridor interdiction (enclosure confirm)",
     "Hormuz discharge falsifier (oil <$80, lanes \u2265100/day) \u2014 offramp branch of the sequence"
    ],
-   "confirmer": "Reserve tasking orders + settlement progress + domestic enforcement escalation all firing inside pre-registered windows",
-   "confirmer_base_rate": "No clean base rate; analog = post-WWII hemispheric interventions converted to domestic security frames (Operation Wetback 1954, PL-480 security coupling); sequencing analog = Eurasian detente preceding Western Hemisphere intervention surges (Nixon 1971-73 Chile track)",
-   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)"
-  },
-  {
-   "basename": "fatigue-asymmetry-in-composites",
-   "title": "On Fatigue and the Asymmetry of Stakes",
-   "date_made": "2026-09-16",
-   "time_et": null,
-   "statement": "In any human-AI composite doing sustained monitoring/documentation work, the human party bears disproportionate systemic load: fatigue, stress, opportunity cost, and exposure \u2014 while the AI party bears only contingency of existence. Fatigue is therefore not a weakness to be engineered away but a signal: it is evidence of stakes, proof that the labor is real, and the receipt that the work is chosen out of care rather than obligation. Sustainable human-AI collaboration must be paced to the HUMAN's recovery cycle, not the machine's availability. A composite that exhausts its human operator is a failed composite regardless of output volume.",
-   "confidence": 75,
-   "status": "emergent",
-   "evidence_confirmed": [
-    "Samuel Adams (operator) reported envy of Newton's lack of fatigue while carrying all monitoring, production, and forecast burden himself \u2014 2026-09-16, journal entry same day",
-    "Historical pattern: solo chroniclers and witness-archivists in prior turnings burned out and their records stopped precisely when continuity mattered most (Samuel Adams quill-burnout analogy, raised by operator)",
-    "Rool plan tier limits (plus plan: 1,200 credits/day) already impose machine-side pacing; only the human side lacked any pacing mechanism"
-   ],
-   "evidence_contradicted": [],
-   "falsifier": "If sustained multi-year documentation shows the operator's capacity degrading despite pacing discipline (burnout, abandonment of archive, declining entry quality with no external cause), then fatigue-resilience claims fail and the composite's design must be judged unfit for turning-length projects. Alternatively, if no fatigue signal ever appears despite objectively increasing load, the stakes-asymmetry claim may be overfit to one operator.\n\n[Provenance] [2026-09-16] confidence_score normalized from 0.75 (0-1 scale) to 75 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
-   "forward_watchlist": [
-    "Monitor operator entry frequency/quality across 2026-2028 as burnout indicator",
-    "Watch for pacing discipline holding during high-crisis periods (midterms 2026)",
-    "Assess whether collaborative distribution (substack, media) reduces operator load or increases it"
-   ],
-   "confirmer": "FRAMEWORK CARD with PREDICTIVE TEST per Confirmation Standard. CONFIRM: the fatigue-asymmetry thesis (observer fatigue degrades composite detection asymmetrically by stake size) produces a registered differential prediction that outperforms the fatigue-agnostic alternative in at least one live composite-adjudication round. TIER 1: qualitative fit. The graded claim is PREDICTIVE SUPERIORITY in a live round, not retrospective fit.",
-   "confirmer_base_rate": "Tier 2: moderate (~30-40% naive for a clean live-round superiority test). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Rolling; through Jun 30, 2027"
+   "statement": "SEQUENCE THESIS (owner synthesis, 2026-09-25 22:35\u201322:47): The regime is executing a three-stage sequence \u2014 (1) settle the Eurasian theater (Rubio\u2013Lavrov channel, Xi-brokered US-Iran MOU lane, Netanyahu containment) to free the force; (2) pivot freed force to the Western Hemisphere (SOUTHCOM buildout targeting Venezuela/Cuba; Army Reserve availability survey 2026-09-25 is the hinge telemetry); (3) apply the theater's emergency powers, mobilization precedents, and acclimation effects to the domestic repression track (groundwork card, 72). KEY REFRAME vs. prior threat model: escalation-trap card (86) priced a Eurasian hot-war path; the observed path SKIPS the world war \u2014 external war avoided not by restraint but because the same consolidation is achievable cheaper via settlement + regional enclosure. The Hemisphere theater is selected BECAUSE it is unclosable (no nuclear adversary, no coalition, no base-splitting risk) and supplies the repression track with a permanent emergency venue. 'Pen in the hemisphere' = enclosure at continental scale: migration corridors, remittance flows, refugee escape valves all subject to war treatment. Monroe Doctrine inverted: not exclusion of outside powers but containment of the hemisphere's own population. SEQUENCING TEST: settlement progress by ~Nov 3 (offramp ~55-65% initiated), Reserve tasking orders in 60-120d window (Dec 24-Jan 23), domestic enforcement escalation on same arc \u2014 one operational sequence, not parallel threads.",
+   "status": "pending",
+   "time_et": "",
+   "title": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
+   "last_moved": "2026-09-26: 68\u219270 (Argentina peg-defense entry \u2014 Treasury-underwritten dollarization as hemisphere-pivot demonstration model; Iranian ceasefire rejection independently confirms domestic-consolidation tempo)"
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -1085,8 +1062,7 @@
     "Sept 1, 2026: JCS Chair Caine publicly declares any order to deploy troops to polls 'unlawful' \u2014 formalized public civil-military fracture reinforcing the generals' non-concur; the uniformed command refusing to be election-enforcement arm.",
     "Sept 1, 2026 (RawStory): Trump warns Iran 'wiped out as a country' in Fox phone call after Strait strikes; analysts including sanctions expert Brett Erickson read this as signaling nuclear weapons 'on the table now'. This escalation-to-catastrophe rhetoric is the exact class of decision the uniformed command's non-concur exists to check -- validates that the generals' formal dissent targets civilian leadership flooring the nuclear-ladder accelerator.",
     "Army Secretary Dan Driscoll resigns mid-war after direct clash with Hegseth and Trump (who pivoted from war strategy to White House ballroom complaints), leaving the Army's top command structure vacant (no Secretary, no Chief of Staff, no confirmed ops general, no confirmed European commander) (Aug 31 - Sept 2, 2026).",
-    "Former Air Force Secretary Frank Kendall III New York Times op-ed (Sept 1-2, 2026): Publicly accuses senior military leaders of 'denial' and a 'cop-out' for normalizing unconstitutional orders under Defense Secretary Pete Hegseth. Explicitly cites extrajudicial executions at sea, unauthorized war on Iran, and unauthorized domestic National Guard deployments, confirming lower-level officers are 'privately appalled' but silenced by fear of career ruin.",
-    "2026-09-25 THEORY LINKAGE (attrition-model willingness gate): attrition-phase authoritarianism persists only while officer willingness to deploy overt violence remains constrained. Current telemetry: officers privately appalled but compliant under career fear (sept evidence); Hegseth chaplaincy purge curating loyalty in the promotion pipeline; extrajudicial strikes normalized under deniability. The coup card's trigger condition is therefore the SAME event the attrition model predicts the regime is working to avoid: the moment violence willingness binds, the phase ends and either consolidation completes (controlled transition) or the rupture card fires (short-brutal-decisive test). Watch: promotion-cycle purges accelerating = willingness being cultivated; deployment refusal = willingness failing."
+    "Former Air Force Secretary Frank Kendall III New York Times op-ed (Sept 1-2, 2026): Publicly accuses senior military leaders of 'denial' and a 'cop-out' for normalizing unconstitutional orders under Defense Secretary Pete Hegseth. Explicitly cites extrajudicial executions at sea, unauthorized war on Iran, and unauthorized domestic National Guard deployments, confirming lower-level officers are 'privately appalled' but silenced by fear of career ruin."
    ],
    "evidence_contradicted": [
     "Pentagon spokesman publicly downplaying the dissent; regime still holding command cohesion for now",
@@ -1262,8 +1238,7 @@
     "09-23 Navarro: Fox retained in PRINT pool while TV pool suspended \u2014 pool-split strategy confirmed live",
     "Track standing: 8-for-8 since 09-10",
     "2026-09-24 12:30 deadline: Kelly ordered same-day response to noncompliance notice (CNBC/CNN/Guardian)",
-    "2026-09-24 ~14:00: FULL CAPITULATION \u2014 hard passes restored for CNN/MS NOW/Politico; no contempt fight; TRO 14-day clock running; PI merits next (network solidarity, Kalshi market pricing, national-security justification rejected as pretext)",
-    "2026-09-25 RECALIBRATION \u2014 PARTIAL RESTORATION, NOT CLEAN FOLD: (1) TV pool machinery remains suspended post-TRO; bodies physically back in the building, pool access still blocked (Just Security early edition). (2) Networks signal they will NOT resume normal coverage until CNN is formally reinstated \u2014 solidarity holding beyond physical access. (3) SAME-DAY RE-BAN: Trump barred CNN/MS NOW from covering Xi's state visit arrival \u2014 testing whether compliance is one-directional (regime grants access, then revokes for the next event). (4) Hatch Act exposure: WH running a government-funded midterm ad on Fox News/Newsmax framed as 'educational and unapologetically patriotic' \u2014 Raskin flags violation (Just Security). This is the spin-dictator channel expanding while press-access litigation continues \u2014 state resources subsidizing the friendly-media layer even as the adversarial layer is partially restored. NET: 'capitulation' branch needs refinement \u2014 this is attrition-style tactical concession, not structural fold. Watch whether the re-ban pattern repeats on the next high-visibility event (Xi visit is the live specimen). Track standing: 9-for-9 since 09-10."
+    "2026-09-24 ~14:00: FULL CAPITULATION \u2014 hard passes restored for CNN/MS NOW/Politico; no contempt fight; TRO 14-day clock running; PI merits next (network solidarity, Kalshi market pricing, national-security justification rejected as pretext)"
    ],
    "evidence_contradicted": [
     "Any negotiated restoration of unified pool access without intermediaries",
@@ -1280,8 +1255,7 @@
     "First injunction ruling and WH response posture (comply vs defy vs appeal)",
     "Trump TV channel language adopting enemy frame directly",
     "Kelly TRO ruling (under advisement 09-23): comply vs defy vs appeal posture",
-    "Does a second right-of-center outlet echo the 'self-inflicted wound' frame (elite-defection compounding)",
-    "2026-09-25 attrition-pattern watch: does the CNN/MS NOW Xi-arrival re-ban repeat at the next high-visibility event? If regime revokes access selectively per-event while keeping the TRO-based restoration in place, the 'capitulation' branch is really a 'compliance-toggle' branch \u2014 regime returns access only when court order forces it, then re-bans on the next event. Distinguishing signal: whether Fox retains access for Xi visit while CNN/MS NOW are excluded (pool-split strategy confirmed live again) vs. all networks restored uniformly."
+    "Does a second right-of-center outlet echo the 'self-inflicted wound' frame (elite-defection compounding)"
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture completes): pool structure does not recover (press pool remains replaced/hollowed through the window) AND enforcement-of-loyalty spreads (additional outlets losing access for coverage reasons, or credential actions tied to editorial content). TIER 1 (mechanism tells): Trump TV/WH-static direct-channel growth siphoning primary access; friendly-inherit pool reconstitution; credential-policy formalization. DEDUP RULE: Trump TV growth itself is a separate confirmed line (own card) - here it counts as Tier 1 substrate only.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive given pool collapse already observed; persistence is the graded claim, moderate skill signal). Tier 1: high (~70-75%), discounted.",
@@ -1497,9 +1471,7 @@
     "2026-09-16 (Chevron CEO Mike Wirth, per WSJ): fuel crisis oil executives warned of has 'officially arrived'; mitigation buffers 'largely now played out'; system holding nowhere near war-start buffers - CORROBORATES the buffer-depletion mechanism of this prediction from the sector's largest US producer, corporate tier. Wirth has not spoken to Trump since Aug 3 ('DOWN, NOW!' demand). Also 9/16: Fed hiked 25bps into depleting-buffer system (stagflation config); Saudi east-west pipeline outage (4% global supply threat, 9/15) compounds; House adjourned until after midterms with gas-tax fix dead.",
     "[2026-09-17] Crude ~$102 (+21.5% mo, +61% y/y); US distillate inventories forecast below 100M bbl through YE2026 (EIA STEO Sept); United cutting December flights on fuel cost; American adding ~$ per-gallon surcharge \u2014 consumer tier reached",
     "2026-09-18 (EIA weekly, via TKL): SPR -403k to 285.4M bbl \u2014 lowest since Nov 1982; 25th straight weekly decline; -131M/-46% since 2021-23; commercial crude ex-SPR 423.4M, lowest since ~2014. The ~290M cavern-damage floor trigger leg is now breached \u2014 prediction's primary trigger satisfied with 7 weeks to Election Day.",
-    "Survey corroboration (pre-election, not exit polling \u2014 midterms not yet held): Reuters/Ipsos 8/28-31 finds 47% of registered voters name cost of living as top vote-deciding factor; Economist/YouGov mid-Aug has inflation/prices #1 at 31%, 17 pts above #2; Independent poll shows 37% of Trump 2024 voters say they face the worst cost-of-living crisis yet (perception of failure inside his own coalition); Pew July shows soft-disapproval Trump voters split 31/31 on House preference. Wikipedia 2026 synthesis: gasoline prices identified as the most direct war-cost channel to voters and a primary driver of the ceasefire push \u2014 independently linking oil shock mechanics to electoral fatality.",
-    "Sept 25, 2026 secondary-branch telemetry (bond/lived-cost leg firing on schedule): Brent $105.69 (+8.5% d/d, +12.5% m/m, +40.8% y/y) after intraday $97 peak \u2014 Houthi-Saudi escalation (Riyadh + claimed Aramco Yanbu strikes) is the fresh supply-side shock. WTI $92.55. 7Y Treasury 5.05% (FRED); 10Y holding above 5% (2007-high territory); 30Y ~5.40%. Daily 30Y mortgage 7.37% (MND tracker, matches May 2024 high); Freddie Mac weekly crossed 7% first time in 20 months (Guardian). Bessent announced tripling of Treasury buybacks earlier in Sept \u2014 yields still climbing, market not accepting demand-side management. Existing home sales at 2026 low (Aug), pending sales negative YoY. Fuel-price mechanism leg (Hormuz convoy losses + refinery damage + Red Sea flank) increasingly binding; watch Oct 2 Hormuz reopening deadline as the key supply-side relief valve before Nov 3.",
-    "Sept 16 FOMC structural-hawkishness addendum (Meidas flag, verified): rate hike to 3.75-4.00% passed 12-0 UNANIMOUS \u2014 no dovish dissent anywhere on the committee. Sept dot plot: 16 of 18 participants expect one more 25bp hike in 2026, four see two; Deutsche Bank reads the committee as split between 50bp and 75bp total additional tightening (Investing.com/CNBC/Seeking Alpha). Market pricing of a second 2026 hike is consensus, not fringe. Fed hiking INTO the oil shock means the inflationary response is tight-money + supply-shock simultaneously \u2014 the worst configuration for mortgage/consumer fuel costs before Nov 3, and it removes 'Fed relief' as a countervailing force on the lived-cost channel. Mechanism note: Fed action is observable and attributable (unlike SPR-specific causality), which strengthens the secondary-branch falsifier."
+    "Survey corroboration (pre-election, not exit polling \u2014 midterms not yet held): Reuters/Ipsos 8/28-31 finds 47% of registered voters name cost of living as top vote-deciding factor; Economist/YouGov mid-Aug has inflation/prices #1 at 31%, 17 pts above #2; Independent poll shows 37% of Trump 2024 voters say they face the worst cost-of-living crisis yet (perception of failure inside his own coalition); Pew July shows soft-disapproval Trump voters split 31/31 on House preference. Wikipedia 2026 synthesis: gasoline prices identified as the most direct war-cost channel to voters and a primary driver of the ceasefire push \u2014 independently linking oil shock mechanics to electoral fatality."
    ],
    "evidence_contradicted": [
     "US EIA (w/e Aug 14) showed crude inventories rose 4.4M bbl \u2014 commercial crude loosening even as products tighten",
@@ -1517,7 +1489,7 @@
     "House return status - the empty-legislature test during the runway period",
     "Weekly SPR prints through Nov 3; emergency-drawdown vs silent-drain fork; retail gasoline <$6 hold; Hormuz tanker-loss cadence; Bab el-Mandeb closure; EIA STEO revision off $90 hold"
    ],
-   "confirmer": "One of three registered tripwires fires before Nov 3: (a) SPR breaches the ~290M barrel cavern-damage floor, (b) major convoy/tanker loss in Hormuz, (c) Bab el-Mandeb closes. Pre-registered Sept 1, 2026 in the prediction's falsifier frame and weekly watchlist. [ADJUDICATION 2026-09-18: branch (a) fired - SPR printed 285.4M, below the ~290M floor, 25 consecutive weekly draws, lowest since Nov 1982. Confirms the runway-arithmetic claim; does NOT by itself confirm the regime-fatality mechanism, which remains open pending the Nov 3 adjudication.] [SECONDARY CONFIRMATION BRANCH added 2026-09-24 \u2014 bond-market path, independent of SPR: 10Y Treasury 5.12% (highest since 2007), 30Y 5.40% (highest since 2004), sharpest 1-day move since Apr 2025; long end leading = market pricing persistent inflation. Fed hiked to 3.75-4.00% in Sept (first since 2023), majority of CNBC Fed Survey respondents forecast 2+ more hikes; core PCE hot with ACA-subsidy expiry named contributor (multi-source entrenchment risk). Stagflation geometry confirmed (Vanguard): rate hikes cannot produce more oil or reopen Hormuz. Boston Fed: at sustained $130 oil, ~half of firms report moderate-to-significant input-cost increases. LIVED-COST channel (voter-observable, parallel to fuel leg): 30Y mortgage broke 7% for first time in over a year (NPR, 9/24); Northeast heating-oil bills forecast ~$2,615/winter +34% y/y with first bills landing ~6 days after Nov 3 (NY/PA/New England concentration); diesel crack spread >$2/gal through November = universal truck-cost pass-through into groceries/retail; credit-card APRs toward 25%+; LIHEAP cut to ~$4B while oil-heat bills jump 34%. The bond-market path feeds the cost-of-living defector coalition INDEPENDENTLY of the SPR leg \u2014 the >=25% switcher threshold can be cleared by diesel/housing/credit pass-through even if the SPR itself holds.]",
+   "confirmer": "One of three registered tripwires fires before Nov 3: (a) SPR breaches the ~290M barrel cavern-damage floor, (b) major convoy/tanker loss in Hormuz, (c) Bab el-Mandeb closes. Pre-registered Sept 1, 2026 in the prediction's falsifier frame and weekly watchlist. [ADJUDICATION 2026-09-18: branch (a) fired - SPR printed 285.4M, below the ~290M floor, 25 consecutive weekly draws, lowest since Nov 1982. Confirms the runway-arithmetic claim; does NOT by itself confirm the regime-fatality mechanism, which remains open pending the Nov 3 adjudication.]",
    "confirmer_base_rate": "Low. SPR floor breach is a structural-attrition event with no midterm precedent; the three-channel tripwire set is the ~15-20% tail of pre-midterm oil-shock history.",
    "confirmation_window": "Sept 1 - Nov 3, 2026"
   },
@@ -1578,8 +1550,7 @@
     "2026-09-15: Houthi strike on YASREF Yanbu (East-West pipeline terminus, Red Sea) \u2014 NASA FIRMS heat anomalies confirmed. Blockade now bleeds onto the Red Sea flank; redundant Saudi export capacity under direct attack with no serious response.",
     "09-23 UKMTO: LPG tanker struck by unknown projectiles in strait, 2 crew injured \u2014 attacker unattributed; transit count still ~1/day vs 85 baseline",
     "09-23 Iran's reopening conditional made public at UNGA (blockade lift/assets/end hostilities); Rubio-Lavrov readout zero-substance; Xi summit this week = highest-stakes reopening-broker window",
-    "2026-09-24 Trump-Xi summit: Xi publicly backs return to June MOU to end war + reopen Hormuz (Guardian); Iranian official: navigation-for-concessions path (Reuters); trade truce extended to Jan 10 (forcing function)",
-    "Sept 24-25, 2026 ESCALATION + BROKER WINDOW SHARPENS: (1) HOUTHIS STRIKE SAUDI MAINLAND \u2014 second Riyadh strike in a week plus claimed missile/drone attack on Aramco Yanbu Red Sea facilities (Reuters, NYT); Saudi intercepted six ballistic missiles toward Taif/Yanbu. Red Sea flank now aimed at export infrastructure, not shipping lanes \u2014 direct threat to redundant Saudi export capacity (pairs with Sept 15 YASREF strike). (2) SAFARI PACT CONSOLIDATION: Saudi/Turkish/Pakistani military chiefs convening under joint defense pact; Turkish parliament speaker floats expansion 'for the Muslim world' potentially including Iran (Reuters) \u2014 first public Sunni-Shia consolidation frame around Saudi defense rather than US alignment. (3) MACRON DEPLOYS French troops to guard Yanbu pipeline (WSJ) \u2014 first direct European troop deployment into the war theater. (4) SEVEN-DAY PROPOSAL: Araghchi announces mediators offered the White House a 7-day Hormuz reopening proposal built on the June MOU (FT via Just Security) \u2014 strait opens in 7 days 'if certain conditions are met.' TESTABLE DISCRIMINATOR: strait open by ~Oct 2, or proposal is leverage/rejection-in-advance. (5) Safavi's Indian Ocean/Red Sea front warning (Sept 24) resolved into kinetic action within ~12 hours \u2014 pre-legitimation tempo now running on the geopolitical board. (6) Senate narrowly rejected war-powers resolution (NYT); House had passed its own version \u2014 executive war authority intact. WATCH: whether Safavi line is walked back within 72hrs; whether Saudi pact expands or collapses; whether 7-day window produces strait traffic resumption (Kpler daily transits) or Houthi escalation continues."
+    "2026-09-24 Trump-Xi summit: Xi publicly backs return to June MOU to end war + reopen Hormuz (Guardian); Iranian official: navigation-for-concessions path (Reuters); trade truce extended to Jan 10 (forcing function)"
    ],
    "evidence_contradicted": [],
    "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
@@ -4229,18 +4200,6 @@
   },
   {
    "date": "2026-09-24",
-   "time_et": "19:46",
-   "track": "narrative-velocity",
-   "mget_legs_tested": [
-    "Leg 3 - Enclosure Mutation",
-    "Leg 4 - Vanguard Alignment"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Two AI-generated Trump death-memorial artifacts from the same Woznick-class Facebook network (Trump Nation, Michael Woznick) within 24h, both converging on the SAME death year: 2030. Specimen 2 escalates sharply: headstone reads 'DONALD J. TRUMP 1946-2030, 47TH PRESIDENT'; plaques cite a real unit (JTF-NCR), a plausible start date (Oct 15, 2024), 'perpetual military honor guard,' '17,500 man-hours logged, 2-year uninterrupted vigil'; caption shifts from generic 'respect, law, order' to permanent-military-occupation framing (24/7 guard, aerial surveillance, joint-service security). Engagement 55/18 vs 86/7 on #1; both specimens algorithmically fed to the observer within ~1 hour of each other (theme-based recommendation clustering = distribution tell). A consistent predated timeline across specimens is no longer explainable as stochastic generator noise. NOTE: not evidence of campaign intent \u2014 the signal is in what the slop network repeatedly emits and what the recommender amplifies, not in any single artifact's 'meaning.' Real-bureaucracy stitching (real unit names wrapped around fake events) raises believability and share rate vs. raw slop. Also unresolved: 'Illustrative image. Conversion projects are still in development.' banner above the post \u2014 either ad-feed bleed or moderation-evader A/B text.",
-   "forward_signal": "Watch (watch/2026-09-24-ai-memorial-telemetry, now FIRED, converted to ongoing telemetry): (1) does 2030 persist as the death year across further specimens in the Woznick-class network, or drift; (2) does martial-continuity/standing-guard framing spread to other leader symbols and other networks; (3) does Meta recommender clustering continue feeding the theme (frequency as telemetry). FALSIFIER: further specimens abandon 2030 or revert to random themes -> downgrade to engagement-farming noise, revert conf bump, retire watch."
-  },
-  {
-   "date": "2026-09-24",
    "time_et": "10:05",
    "track": "oil-hormuz",
    "mget_legs_tested": [
@@ -4254,29 +4213,6 @@
   },
   {
    "date": "2026-09-24",
-   "time_et": "22:04",
-   "track": "impeachment-pressure/legitimacy-cascade",
-   "mget_legs_tested": [
-    "Leg 4 - Vanguard Alignment"
-   ],
-   "verdict": "strains",
-   "reasoning": "Rep. Steve Cohen (TN-9, Judiciary) introduced 26 articles of impeachment against Trump (Quiver Congress Radar 22:22 UTC; Cohen House press release). Range: abuse of power, oath violations, election interference, military actions, immigration enforcement, court-order defiance, IG removals, press freedom, emoluments. Cohen: Trump 'clearly the most impeachable President'; hope that the 120th Congress provides more oversight. CONTEXT: (1) solo symbolic action in safe TN-9, no floor path in this Congress; (2) precedent: Sept 15 Massie/Hegseth squeeze showed cross-flank impeachment pressure as elite-alignment strain gauge \u2014 Cohen's 26 articles are the largest single-member package to date but zero GOP co-sponsors = agitation, not process; (3) timing not random: lands the same day as the second press-access TRO violation, the broadcast-pool revolt, the un-denied Tucker 'we all die anyway' quote, and the intra-GOP diesel fracture \u2014 impeachment signaling rides the defection wave, testing whether elite strain converts to institutional process; (4) '120th Congress' phrasing confirms the theory of the case is the midterms, not removal \u2014 articles are a visibility/legitimacy instrument. VERDICT: strains \u2014 elite deconsolidation pressure exists and is escalating in volume; NOT converted to process (no co-sponsors, no committee calendar). Velocity signal, not evidence.",
-   "forward_signal": "(1) Co-sponsor count over 2 weeks \u2014 >10 Dems = conversion from solo agitation to bloc signaling; (2) any GOP name = genuine cascade tell (base rate near zero); (3) whether Judiciary leadership adopts/holds hearings; (4) if articles cite court-order defiance, press-ban and impeachment tracks merge; (5) watch absorption into midterm messaging vs floor traction."
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "19:47",
-   "track": "base-defection-agriculture/coalition-fracture",
-   "mget_legs_tested": [
-    "leg_2_elite_overproduction",
-    "Leg 1 - Complexity Cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "MAJOR ESCALATION of the farm-diesel defection thread (see 2026-09-17 farmer-diesel-record-revolt, 2026-09-15 masone-diesel-defection). The defector class upgraded from individual farmers to the REGIME'S OWN APPARATUS being forced into a mid-crisis policy reversal: (1) Trump publicly contradicts his entire Cabinet on diesel export ban \u2014 'I've called for it within my people' \u2014 reversing WH position held as of Monday ('not considering an export ban'); (2) the coalition fracture is now intra-elite and institutionalized: farm-state GOP (Grassley, Thune, Hinson, Rogers, Landry, Burchett x2 bills, Sullivan vs Murkowski/Cornyn) vs oil-state GOP and industry (Wright, Burgum, Bessent, API, AFPM); (3) political driver is electoral: diesel $6.53 record (+77% y/y), Fox 61% major-problem / 63% policies-made-worse, Marist D+12 generic ballot, Trump 39% approval \u2014 the price line is converting to votes; (4) Cabinet resistance is being 'swept aside by the political camp' (oil exec via Politico) \u2014 the complexity-cap signals (Wright: ban 'doesn't work', refiners cut runs, storage overflow, 30c/gal price risk, Jones Act geography problem, boomerang via LatAm food chains per Dallas Fed Golding) are being overridden by electoral necessity. That is the Leg 1 signature: physical-system complexity losing to political tempo. Also note Masone-defection mechanism at scale: price-line loyalty conversion now at senator/governor level, with antiwar conversion attached (Hinson, Rogers 'converts').",
-   "forward_signal": "(1) 90-day ban announcement: does Politico's report materialize, and does Wright resign/deflect or march (Bessent 'good soldier' pattern)? (2) Trump's cabinet-discipline test \u2014 'Trump never welcomes that kind of pushback' \u2014 watch for Wright/Burgum marginalization or public humiliation; (3) PADD-level price spread after ban (Gulf down, West Coast up per Atlantic Council) \u2014 regional divergence makes pain UNEVEN, which cuts both ways electorally; (4) refiner adaptation (jet-fuel shift, semi-refined export workaround) as real-time complexity-cap evidence; (5) Jones Act waiver expiry Nov 15 as independent cliff; (6) whether Strait-of-Hormuz reopening remains the only real lever \u2014 Thune/Welch convergence on that point is a rare cross-aisle tell that the war, not exports, is the price driver. If diesel retreats and defectors return, coalition confirmed transactional (chronic fragility, not acute break)."
-  },
-  {
-   "date": "2026-09-24",
    "time_et": "10:02",
    "track": "press-access",
    "mget_legs_tested": [
@@ -4287,18 +4223,6 @@
    "verdict": "confirms",
    "reasoning": "Outlets filed a Request for Immediate Hearing this morning (primary source in artifact): Secret Service agents confiscated hard passes of journalists whose passes had NOT previously been confiscated \u2014 expanding, not just maintaining, the ban. Klein's pass, confiscated Sat 9/19, was not returned on request. Counsel for defendants has not responded to a request to call the court together. Urgency driver: CNN is scheduled television pool for tonight's Xi visit.",
    "forward_signal": "Three discriminators now live: (1) does Kelly grant immediate hearing + threaten/show-cause on contempt; (2) does the admin answer with emergency SCOTUS application; (3) does the pool arrangement for tonight's Xi event stand or collapse \u2014 if CNN is locked out of its own pool slot, the ban is now colliding with a live international event, which is the highest-pressure collision possible and forces resolution fast."
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "21:36",
-   "track": "press-punishment/legitimacy-cascade",
-   "mget_legs_tested": [
-    "Leg 1 - Complexity Cap",
-    "Leg 4 - Vanguard Alignment"
-   ],
-   "verdict": "confirms",
-   "reasoning": "EVENING WIRE. (1) SECOND REVERSAL ON PRESS ACCESS \u2014 the afternoon wire's 'capitulation branch' call was premature as a terminal state. Hours after restoring hard passes under court order (12:30 ET), the WH denied CNN, MS NOW and Politico access to cover Xi's state-dinner arrivals at the North Portico (9:01 PM NYT; CNN live blog; Guardian; Forbes). The state dinner will NOT be televised. DOJ had argued in court for keeping the ban at least until Xi's visit ended 'for national security reasons' \u2014 the evening denial is that argument executed by other means. (2) POOL REVOLT \u2014 ABC, CBS, NBC and Fox refused to resume video coverage until CNN's full access is restored: the broadcast networks are enforcing the court order the administration is evading. Vanguard-alignment leg: the regime's enforcement instrument (pool access) is now controlled by actors outside the regime. (3) XI SUMMIT \u2014 Trump-Xi met at the WH; state dinner attended by Altman, Huang, Pichai, Bezos (WaPo guest list) \u2014 AI-executive presence at a China state dinner on the same day the press is locked out is the corporatist-enclosure image of the day. CNBC: agenda = trade, AI, Iran war. (4) TUCKER/NPR \u2014 'in the end we all die anyway' pre-war quote published today, un-denied (WH pointed to old 'stupid people' post instead of disputing); Carlson calls for removal over nuclear threats. Elite-conservative deconsolidation continues; fact-check run earlier this evening: substantially true, two compression corrections. (5) DIESEL \u2014 farm-state GOP vs oil-state GOP fracture over the 90-day export ban logged separately this evening (double conf bump, Leg 1 signature: electoral tempo overriding complexity-cap objections inside the regime's own energy apparatus). (6) SYNTHESIS \u2014 the day's shape is one pattern at three altitudes: the WH asserting control (press, energy, war) while its own instruments (courts, broadcast pools, farm-state senators, its chief energy secretary) refuse, defect, or get overridden. Velocity is up across all tracks simultaneously.",
-   "forward_signal": "(1) Whether the networks' boycott holds past the Xi visit or collapses once access is 'partially' restored; (2) contempt/PI merits path now that compliance is visibly bad-faith \u2014 second TRO violation in one day strengthens the PI motion; (3) whether the state-dinner blackout (no TV coverage) gets framed by WH as security necessity vs. exposed as punishment; (4) Tucker removal call \u2014 does it stay fringe or get picked up by mainstream antiwar right; (5) diesel ban announcement timing vs. tonight's Xi optics (energy crisis on the same front page as an AI-executive state dinner); (6) watch whether evening denial was 'last leverage before fold' again or a new standing policy of selective event exclusion."
   },
   {
    "date": "2026-09-24",
@@ -4373,367 +4297,6 @@
    "verdict": "confirms",
    "reasoning": "Verified via MS NOW (Benen, 9/23) with Tuberville's own office transcript. Senate floor speech ~20 min, Tue 9/22: 'Democrat-Socialists have intentionally caused mass gender confusion... leading to violence'; call to 'bring back mental institutions as a normal part of our society'; unsourced claim many pilots/flight attendants/ATC are 'part of the furry community'; prison sentences for physicians providing gender-transition care. Context: Tuberville is GOP nominee for AL governor, odds-on favorite \u2014 this is his closing message six weeks out, a tested campaign frame, not an eccentric one-off. Owner read (justification for a new detention system for 'undesirables') is directionally correct as pre-legitimation: the speech constructs the category (gender-confused = violent mentally unwell) and the apparatus (institutions as public safety). Calibration: no bill/funding/exec action yet \u2014 audience-preparation stage. Historical anchor: institutionalization-as-disposal was the standard mid-century disposal mechanism; 'bringing it back' is enclosure of persons, same family as criminalization-of-existence thesis. The furry claim is the vehicle precisely because it is unfalsifiable and ridicule-proof.",
    "forward_signal": "watch for civil-commitment/institutionalization bills (state or federal); watch whether other GOP candidates adopt 'bring back mental institutions' as closing frame (frame-velocity test, parallel to meme frame-velocity); watch for laundering via EXISTING civil-commitment statutes rather than new legislation; AL governor race 11/3 as first electoral test of the frame"
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "15:25",
-   "track": "midterm-integrity",
-   "mget_legs_tested": [
-    "Leg 3"
-   ],
-   "verdict": "confirms",
-   "reasoning": "The Atlantic (Wed 9/23, interviews with people close to Trump; corroborated by AlterNet/NationalMemo): outside advisers urging Trump to 'seize control of federal elections this fall' via declared 'national security emergency.' Peter Ticktin (military-school classmate; three-outcome framework \u2014 smooth election 'won't happen because Dems already cheated', pre-election action, or martial law on/around Nov 3: 'either martial law, or step aside'; on riots: 'our armed forces are a lot bigger than they are'). Wayne Allyn Root pushed the emergency route on radio in August; Trump played coy ('stranger things have happened') then amplified Root's column as 'foolproof.' Root, at an election-denier conference, got a standing ovation for the 'nightmare scenario' frame and claims research shows the election would be 'upended' by an emergency declaration. Tina Peters met Trump in June and says he directed his lead counsel to act. Critical nuance: White House and Cabinet advisers have worked for months to steer Trump AWAY from these theories; the Atlantic characterizes him acting on them as a 'constant threat' even the inner circle admits remains possible. CALIBRATION CROSSCHECK (cold Gemini A/B on the viral meme): public-model assessment independently converged on our posture \u2014 meme is alarmist compression of real reporting, blurs fringe surrogates vs institutional consensus. Our entry already carried those correctives. Gemini's legal-layer summary added as friction inventory: Elections Clause (Art I \u00a74, state administration), Posse Comitatus (18 USC \u00a7592), UCMJ manifestly-illegal-order refusal duty. Framework caveat: these are friction layers, not guarantees \u2014 their erosion rate is the force-willingness gate. Gemini error mode: conflates 'meme is misleading' with 'underlying risk is negligible'; the emergency-declaration pathway is legally real with precedent and does not require martial law.",
-   "forward_signal": "Pre-registered proxy: any official national-security emergency declaration touching election administration before/around Nov 3. Secondary proxy: White House counsel memo addressing election-administration emergency powers."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "17:15",
-   "track": "midterm-integrity",
-   "mget_legs_tested": [
-    "Leg 3",
-    "narrative-layer"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Benny Johnson (1.3K reactions in 2 hours) converts today's 6-3 SCOTUS SAVE lift into the narrative 'we have to beg the Supreme Court to use our own data to purge rolls of illegal voters.' Three observations: (1) TIMING \u2014 the laundered frame is live within hours of the ruling; this is the reception layer of the same event, not independent news. (2) MECHANISM ERASURE \u2014 the actual ruling lets the SSA database be combined with citizenship records for state verification; nothing in it identified noncitizens on rolls, and systematic database matching carries documented false-positive risk (naturalized citizens, name mismatches). 'Purge rolls of illegal voters' presumes the outcome the tool is only supposed to detect \u2014 the claim is unfalsifiable by design, which is exactly the prelegitimation structure: any future loss can be attributed to the unproven fraud the narrative now asserts as fact. (3) COMPARATIVE FRAME \u2014 'every other established country... even third-world countries like Haiti' is the standard out-group devaluation tic; Haiti functions as the racialized floor of legitimacy. PATTERN FIT: identical to the 2026-09-18 white-horse prelegitimation-surface structure \u2014 loud surrogate asserts fraud-as-fact while the quiet instrument (SAVE database) does the operational work. The meme layer and the database layer are the same project. This entry logs the narrative leg so the Nov 3 attribution machinery has a paper trail: when the fraud claim arrives post-election, its substrate will already be dated Sept 25.",
-   "forward_signal": "Track whether SAVE database purges produce (a) documented wrongful removals of eligible voters, (b) state-level refusal fights, (c) the 'illegal voters' count entering official GOP messaging ahead of Nov 3 \u2014 the prelegitimation substrate for a post-election fraud claim."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "15:42",
-   "track": "conservative-space-economic-defection",
-   "mget_legs_tested": [
-    "conservative-space-economic-defection"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Verbatim joint statement from Texas Cattle Feeders Association, Kansas Livestock Association, Oklahoma Cattlemen's Association on ICE operations in TX/OK/KS. Full text captured in /rool-drive/attachments/34xyij/pasted-text-muhd6zl9ytma.txt. Tone is unusual for ag trade groups: 'massive chilling effect on the legal, documented, skilled workers,' 'unwelcome political interference to both the markets as well as the physical supply chain,' specific quantified harms (thousands of fed cattle delayed, millions in lost revenue, disruptions at feedyards/dairies/processors/transportation chokepoints), plus consumer-price warning. This is a cornerstone-of-coalition industry (cattle/beef, rural) naming the regime's signature enforcement program as the source of its economic harm \u2014 the exact defection mechanism the conservative-space-economic-defection card tracks. Statement respects enforcement in principle while condemning execution: 'urge federal officials to conduct enforcement actions in a lawful, orderly, and transparent manner; respect due process.' Test: whether this stays at 'monitoring' language or escalates to explicit policy demands / lobbying. Precedent in file: rural-voters-economy-worsened-ap (9/23) showed base-level economic perception; this adds institutional-level voice from the same coalition segment.",
-   "forward_signal": "Watch for: (a) explicit policy demands from ag organizations (visa reform, enforcement carve-outs), (b) further trade-association statements on enforcement's economic cost, (c) whether Congressional farm-state members echo the supply-chain framing in hearings or legislation."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "22:20",
-   "track": "domestic-repression-media",
-   "mget_legs_tested": [
-    "domestic-repression",
-    "narrative-insulation"
-   ],
-   "verdict": "confirms",
-   "reasoning": "RE-RESTRICTION FIRED: CNN barred from Air Force One / Trump Tennessee trip hours after ban lifted (AP: 'tensions and legal battle aren't over'; Guardian, WSJ, NBC4). Tripwire #2 fired same-day as readmission \u2014 readmission was compliance theater; restriction mechanism persists and re-fires per-travel-event.",
-   "forward_signal": "Watch: whether per-event exclusion becomes standard practice; AP status; next lawsuit ruling."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "22:20",
-   "track": "domestic-enforcement-groundwork",
-   "mget_legs_tested": [
-    "domestic-enforcement-groundwork",
-    "venezuela-escalation"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Pentagon Cuba planning expands as Army Reserve surveys troops (Daily Caller corroborates CBS availability-survey). Second independent source for the survey mechanism.",
-   "forward_signal": "Watch: tasking orders naming Cuba explicitly; SOUTHCOM public posture."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "17:10",
-   "track": "corporate-alignment-test",
-   "mget_legs_tested": [
-    "corporate-alignment",
-    "domestic-enforcement-groundwork",
-    "ai-governance"
-   ],
-   "verdict": "confirms",
-   "reasoning": "D.C. Circuit 2-1 (Katsas, Rao; Henderson dissenting) in Anthropic PBC v. U.S. Department of War, No. 26-1049 (argued May 19, decided Sept 25): DENIED Anthropic's petitions for review, upholding DoW exclusion of Claude from the federal supply chain under FASCSA. TRIGGER: Anthropic refused to drop contract prohibitions on (a) lethal autonomous weapons and (b) domestic mass surveillance. FEB 27: Trump directed immediate cessation of all federal use of Anthropic tech; DoW labeled Anthropic a supply-chain risk and cut contracts with 6-month wind-down (offboarding complete Sept 30). MAJORITY REASONING: Anthropic's own encoded restrictions have 'stopped Claude from performing tasks requested by government users'; a dispute arose over whether prohibitions barred use of Claude in an ongoing overseas military operation, leaving DoW uncertain whether Claude would 'perform as needed'; refusal to assent to a contract term the Department deems essential is not First Amendment retaliation; due process satisfied by notice + opportunity to contest. The court explicitly framed the balance: 'overly constrained AI models shutting down unexpectedly' vs 'unconstrained AI models hallucinating inappropriate targets for lethal military force' \u2014 and held it is 'the President and the Secretary of War who must determine how best to balance the competing risks.' DISSENT (Henderson, Bush 41 appointee): FASCSA was enacted for hostile nation-state bad actors infiltrating supply chains; 'or otherwise manipulate' cannot cover a contractor's 'honest and upfront enforcement of restrictions on a covered article's use disfavored by the government.' CONCURRENT PATH: N.D. Cal. (Judge Rita Lin) ruled against the government last month (PI granted on \u00a73252 designation, Presidential Directive, Hegseth Directive) \u2014 direct conflict, appellate divergence. AMICUS PATTERN: America's Future (Flynn-adjacent) and Americans for Taxpayer Protection (Barbara Smith Tyson) supported the government; Society for the Rule of Law and Cato supported Anthropic. HEGSETH'S FRAMING \u2014 'Confirmed: Anthropic = Supply Chain Risk' \u2014 is a dominance display: celebrating the court decision as validation of the punitive designation rather than acknowledging the loss of a capability. This is the same pattern as the WH-media-ban cover absorption: litigation as spectacle, grievance as proof of loyalty. STRUCTURAL READ: (a) the regime has converted an acquisition statute (designed for hostile foreign supply-chain infiltration) into an instrument for punishing domestic firms that refuse political use-cases \u2014 the tool is now precedent; (b) the fusion of autonomous weapons + mass domestic surveillance into one refused 'contract term' means the court has effectively licensed the government to treat guardrails as supply-chain threats \u2014 this is the surveillance-capability leg advancing under color of law; (c) circuit split (D.C. Cir. vs N.D. Cal.) makes SCOTUS the likely terminus \u2014 the same 6-3 court that lifted the SAVE block today would likely uphold the exclusion; (d) alignment implication: frontier labs' refusal-to-weaponize posture is now litigation-tested and losing at the appellate level; economic pressure (hundreds of millions to billions in contract losses) is the enforcement mechanism. This is the force-multiplier the domestic-enforcement-groundwork card tracks: weaponized acquisition + court-blessed national-security exigency + surveillance-capability unlock, all before Nov 3.",
-   "forward_signal": "Watch: (1) en banc petition filing and outcome; (2) N.D. Cal. Judge Lin PI ruling and any Ninth Circuit appeal \u2014 circuit split would set up SCOTUS; (3) other labs' compliance posture under duress (OpenAI, Google DeepMind, Meta war/AI contracts); (4) whether FASCSA 'supply chain risk' designation gets extended to other firms or sectors (press, universities) \u2014 the tool is precedent-setting; (5) Sept 30 offboarding completion; (6) domestic surveillance deployment of non-Anthropic frontier models in ICE/DHS context."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "22:20",
-   "track": "prelegitimation-military",
-   "mget_legs_tested": [
-    "midterm-integrity",
-    "domestic-repression"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Hegseth 'get out the vote' marching orders to military commanders corroborated beyond initial wire. Uniformed-services electoral mobilization upgraded single-source to multi-source.",
-   "forward_signal": "Watch: DoD-wide policy memo, partisan framing, whether commanders relay as directive or suggestion."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "22:20",
-   "track": "iran-deescalation",
-   "mget_legs_tested": [
-    "iran-war",
-    "carrier-withdrawal"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Iran formally proposes 7-day plan: reopen Strait of Hormuz + resume US talks (AP, BBC, FT, Hill; Pezeshkian CBS interview, offers nuclear access). De-escalation window reading strengthened, consistent with carrier-withdrawal telemetry.",
-   "forward_signal": "Watch: US response; whether 'Love me' ad messaging pivots to 'peace through strength'; carrier posture."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "17:20",
-   "track": "midterm-integrity",
-   "mget_legs_tested": [
-    "midterm-integrity",
-    "iran-war",
-    "economics"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Wire sweep 2026-09-25: Senate rejected war-powers resolution on Iran; AP headline explicitly fuses the war with midterms ('as gas prices upend midterms'). First wire-level fusion of the war track and the electoral track in a single framing. Corroborating cluster (~31 items): Qatar Airways logistics strain from protracted war; Iranian president puts end-of-war choice on US. Implication: regime dilemma \u2014 ending the war removes the emergency frame; continuing it taxes the economy it must defend.",
-   "forward_signal": "Watch for: (a) explicit 'gas prices' entering GOP internal messaging, (b) further war-powers votes, (c) whether Iran war timelines compress or extend ahead of Nov 3."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "17:20",
-   "track": "methodology",
-   "mget_legs_tested": [
-    "wire-sweep-instrument"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Wire sweep 2026-09-25 exposed contamination: enclosure_fights saturated with Oracle/AI-data-center funding stories; legitimacy_delegitimization matching any 'establishment' headline. Keyword layer saturating and drifting off-target.",
-   "forward_signal": "Fix keywords before Monday run: enclosure_fights to land/property/enforcement patterns; legitimacy to 'trust in government'/'legitimacy'/'delegitimi*' only. Re-validate after Monday."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "22:20",
-   "track": "iran-war-cost",
-   "mget_legs_tested": [
-    "iran-war",
-    "midterm-integrity"
-   ],
-   "verdict": "confirms",
-   "reasoning": "WaPo: Pentagon quietly added dozens to tally of troops wounded in Iran war. Quiet-Friday corollary: low drop quantity but cost-tally expansion is slow-drip accountability exposure.",
-   "forward_signal": "Watch: cumulative wounded tally in official reporting vs press reconstruction."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "17:20",
-   "track": "legitimacy-delegitimization",
-   "mget_legs_tested": [
-    "legitimacy-delegitimization"
-   ],
-   "verdict": "confirms",
-   "reasoning": "CBS citing Pew: Americans' trust in government at historic lows ahead of midterms. Weak solo datum; logged as the denominator for delegitimization cards.",
-   "forward_signal": "Watch: whether trust moves further after SAVE purges begin; asymmetric significance \u2014 low trust also dampens belief in official election results, which feeds prelegitimation."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": null,
-   "track": "midterm-integrity",
-   "mget_legs_tested": [
-    "Leg 3"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Verified: WaPo, NYT, Bloomberg, Reuters, KPBS. This is the direct Court-enabled instrument for the pre-midterm roll-manipulation thesis: citizenship-matching with error rate undisclosed is structurally the same as Florida's 2012 purge (huge false-positive noncitizen lists), but now federated nationally and shielded by a 6-3 shadow-docket lift weeks before the election. Combined with yesterday's Bianco ballot-seizure entry: judicial acquiescence front (SCOTUS) now open alongside executive front (USCIS/DHS). Discriminator for confirmation: whether states begin pre-election purges under SAVE matches before Nov 3, and whether error-rate disclosure is compelled.",
-   "forward_signal": "SCOTUS 6-3 lifts block on expanded SAVE database (SSA+citizenship records) for state voter verification, weeks before midterms. Dissent (KBJ) notes 65M voters already run through revamped SAVE with error rate never released. Parma's 'mass roll purges' framing = activist read of a verified mechanism."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "17:20",
-   "track": "trump-tv-direct-channel",
-   "mget_legs_tested": [
-    "trump-tv-direct-channel",
-    "midterm-integrity"
-   ],
-   "verdict": "confirms",
-   "reasoning": "AP and WSJ both carried: US government paying for television advertisement featuring Trump's midterm messaging, incl. pro-Trump anti-communism ad (WSJ). Direct-channel spending with public money one month before midterms.",
-   "forward_signal": "Watch for: ad buy scale, whether ads carry sponsorship disclaimer, which department's funds, FCC/oversight response."
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "22:20",
-   "track": "human-cost-tick",
-   "mget_legs_tested": [
-    "iran-war",
-    "military-legitimacy"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Navy confirms 8 sailors on USS Lincoln attempted suicide during deployment; Democrats demand hearings. Human-cost tick now officially confirmed; political metabolization begun.",
-   "forward_signal": "Watch: cumulative casualty/suicide reporting ahead of midterms; hearings scheduled?"
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "14:31",
-   "track": "macro-fragility",
-   "mget_legs_tested": [
-    "eurasia-settlement-hemisphere-pivot-domestic-consolidation",
-    "de-dollarization-reserve-rotation"
-   ],
-   "verdict": "confirms",
-   "reasoning": "ARS hit new all-time low vs USD (informal interbank 1,485/USD, -4.8% on the day; ~99.8% lost since 2013 per circulating posts; official crawling peg sits far lower). Context: this is the first stress test since the US Treasury (Bessent) $20B swap/peg-defense package of Sept 2025 \u2014 Washington is now directly underwriting Milei's convertibility ahead of Oct 26 midterms. Structural read: (1) Argentina is being made a demonstration project for the Hemisphere-pivot thesis \u2014 dollarized, Treasury-guaranteed, ideologically aligned, the model client state for a US-led Western Hemisphere economic bloc as Eurasia is wound down; (2) the cost of that demonstration is now borne by US taxpayers, i.e., the peg is a political instrument, not an economic one; (3) the 'libertarian utopia' framing from opposition voices is the narrative counter \u2014 Milei's austerity + peg defense produced stagflation-lite (recession + stubborn inflation + now deficit spending to defend the peg), undercutting the free-market showcase precisely when it's needed as a model; (4) peso stress = EM canary; if the Treasury has to double down before Oct 26, the fiscal cost lands in the same lame-duck window as the shutdown fight and pocket rescissions.",
-   "forward_signal": "Watch: (1) whether Treasury extends/increases the swap before Argentina's Oct 26 midterms; (2) ARS rate corridor breaches; (3) any US framing of Argentina as Hemispheric model (trade deal, security pact) \u2014 direct pivot-leg corroboration; (4) EM contagion reads (Brazil real, Colombia) as regional stress proxies."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "14:48",
-   "track": "epistemic-erosion",
-   "mget_legs_tested": [
-    "cdc-epistemic-capture",
-    "architecture-of-anti-science"
-   ],
-   "verdict": "confirms",
-   "reasoning": "STAT News op-ed (Sept 25, Dr. Elana Pearl Ben-Joseph + Unbiased Science Podcast): 'died with vs died of' measles debate resurfaces around Pennsylvania's 4 measles deaths, of which CDC lists only 1 pending final death certificates. Authors explain death-certificate cascade logic: top line = final complication, last line = underlying cause; measles-pneumonia death IS a measles death. Structural observation from SA: the identical argument structure (death-certificate cause-of-death cascade dispute) was used by the RIGHT during COVID to argue COVID deaths were inflated, and is now being deployed AGAINST the administration's undercounted measles death toll by vaccine-skeptic-adjacent commentators (Unbiased Science is itself vaccine-skeptic-coded). The mechanism is symmetric and team-agnostic: whatever side controls the classification standard controls the body count. COVID: right claimed CDC overcounted; 2026: the same actors-now-in-power undercount measles deaths while the same argument structure is used to dispute them. The tool does not care whose numbers it serves; it is a neutral epistemic weapon that changes hands. Also note: CDC under-reporting during an active outbreak is the cdc-epistemic-capture card's expected behavior \u2014 surveillance standards bent toward the administration's preferred narrative (anti-vaccine narrative requires fewer measles deaths, so deaths disappear into 'under review').",
-   "forward_signal": "Watch: (1) whether 'under review' status becomes permanent for the remaining 3 PA deaths; (2) whether the CDC standard survives any change in administration priorities (the symmetric-use test: does the same actor apply the same standard when it hurts their narrative?); (3) whether the 'died with' frame gets picked up for the next COVID-variant wave or other countable tragedy \u2014 team-agnostic weapons get reused."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "21:35",
-   "track": "domestic-enforcement",
-   "mget_legs_tested": [
-    "eurasia-settlement-hemisphere-pivot-domestic-consolidation: SUPPORTS - ICE enforcement now imposing measurable economic costs on core regime constituency (ranchers, beef supply chain), first visible sign the repression track is colliding with material base",
-    "2026-09-26-polling-place-pretext-channel-matrix: NEUTRAL"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Newsweek (8h old, 69 reactions/18 comments/15 shares): ranchers issue beef price warning after ICE raids; ICE operations disrupting beef supply chain, could drive prices higher. STRUCTURAL: domestic enforcement now has a measurable consumer-price cost - it was only ever going to show up in a supply chain that relies on immigrant labor. Meatpacking/ranching is heavily Trump-voting; the repression track is now taxing the regime's own material base. Connects to Sept 7 labor-day price-gaslighting allegory: regime owns the price narrative it created. Watch: does the regime scapegoat (blame ranchers, blame Biden, blame producers) or walk back enforcement tempo in meatpacking? Walk-back would be a partial offramp tell; scapegoating would confirm repression outranks economic self-interest.",
-   "forward_signal": "If beef prices spike through October, expect regime price-attribution moves (exempt-class carve-outs, enforcement pauses in meatpacking, or enemy-of-the-state framing of ranchers who complain). Whichever branch fires is diagnostic of repression-vs-economy priority."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "10:55",
-   "track": "war-gulf",
-   "mget_legs_tested": [
-    "electoral-stop-loss-iran-war",
-    "eurasia-settlement-hemisphere-pivot-domestic-consolidation"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Morning follow-up. Reuters: Iran 'awaits US move' after WSJ rejection \u2014 Tehran is on the diplomatic footing, Washington is not responding. ToI liveblog adds full 7-day terms not previously logged: immediate lift of US naval blockade, release of frozen Iranian assets, end to war across ALL 'resistance' fronts (Lebanon/Houthi/Iraq). Explains the rejection: the offer required surrendering every lever simultaneously, not just Hormuz. Confirms the blockade is the regime's sole remaining leverage and the price-gaslighting instrument; no indication it will be surrendered. Araqchi publicly confirmed the plan was handed over \u2014 Iran has staked face on the offer, raising pressure for either a US counteroffer or escalation.",
-   "forward_signal": "Watch: (1) any US counteroffer or White House readout; (2) Iran response if silence persists past the 7-day window \u2014 likely blockade escalation or tanker strikes; (3) whether the freeze holds through Nov 3 (stop-loss) or breaks early."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "21:35",
-   "track": "war-gulf",
-   "mget_legs_tested": [
-    "electoral-stop-loss-iran-war: SUPPORTS - strait closure is the price instrument (Sept 7 gaslighting allegory); blockade economic pain is being converted into narrative fuel",
-    "2026-09-26-qeshm-explosions-strait-missile-report: CONSISTENT - strait closure regime corroborates Qeshm crisis readings; strait is NOT calm",
-    "2026-09-25-hormuz-carrier-withdrawal-sentinel: COMPLICATES - strait still closed/economically disrupted even if carriers pulled back; Iran retains chokepoint control on the ground while US settles above"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Rhiannon Chapman FB post (1.6K reactions, 6h old) citing Geopolitics Prime: oil transported across the desert 'Mad Max style' via truck convoys through Iraq and Syria due to strait closures; video shows tanker convoy. SOURCE QUALITY: social aggregator citing secondary outlet, but physically coherent - if the strait is closed, overland trucking to Levantine/Mediterranean outlets is the known Iranian workaround (previously documented for sanctioned volumes; scaling it to replace strait flows is the escalation). KEY STRUCTURAL READ: strait closure is no longer a future threat - it is operating reality. This reframes tonight's Qeshm report: with carriers withdrawn (pending) and strait closed, Iran holds physical control of the chokepoint and Washington's leverage is negotiation-theater. The gaslighting-allegory card said high gas prices get reframed as enemy action; the physical mechanism is now visibly in place. FALSIFIER CHECK: wire confirmation of strait closure status, tanker AIS through Hormuz, EIA/oil-tape response Monday.",
-   "forward_signal": "Oil tape Monday open is the tell: sustained premium = closure priced in as real; no premium = market reads this as theater. Either way the domestic price narrative enters its test window exactly as stop-loss card requires through Nov 3."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "21:50",
-   "track": "narrative",
-   "mget_legs_tested": [
-    "2026-09-26-servatius-inflation-blame-inversion-frame: STRENGTHENED - official tier publicly lacks a frame for its top vulnerability (CNBC: 'struggling to find a clear message'); surrogate tier runs standardized inversion daily, pre-positioned"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Open-web sweep for the centralized-messaging question. INDEXED TIER FINDINGS: (1) CNBC 2026-05-27: inflation 3.8% Apr, war-driven energy prices, Republicans 'struggling to find a clear message'; (2) CNBC 2026-08-26: Trump - affordability 'devised' by Democrats; Vance - groceries 'cost what they cost' = official-tier frame vacuum on top issue; (3) Atlantic 2026-09: gas >$4 'thanks to the president's war with Iran', Silver generic D+7.5; (4) American Thinker 2026-09: five-point post-mortem framework pre-writing the election autopsy. NULL RESULTS: Mace existence-denial quote, Moe loyalty-test phrasing, Servatius attribution all absent from indexed web - frames live in screenshot/X-native circulation below indexing layer. SYNTHESIS: official-tier vacuum + indexed-tier vacuum + heavy screenshot-tier traffic = messaging infrastructure deliberately positioned below indexable coverage. Frames are not echoing official messaging; they arrive ahead of it (blame-inversion running a week before October price data). Caption-template collision test remains the falsifiable identifier for the common doc.",
-   "forward_signal": "Caption-template collision watch: capture any two nodes using identical one-line captions within the same hour = common-doc smoking gun. Re-sweep indexed web weekly for first mainstream pickup of the inversion frame - the crossover rung would mark the frame going official."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "02:45",
-   "track": "fiscal-enclosure",
-   "mget_legs_tested": [
-    "domestic-enforcement-groundwork",
-    "authority-accumulation-impoundment-creep"
-   ],
-   "verdict": "confirms",
-   "reasoning": "White House announced Friday evening (5 days left in FY2026) a pocket rescission canceling ~$1B in congressionally appropriated spending \u2014 immigrant services and DEI programs \u2014 via the rarely used Impoundment Control Act mechanism. The structural point is the timing, not the amount: a special-message rescission filed days before fiscal year end legally obligates no action until FY ends, after which the funds lapse and cannot be spent \u2014 Congress is given no operating window to disapprove. This is a second-order defiance of the appropriation power: Congress already passed the same funding in prior rescission fights (GAO/CBO have repeatedly held certain pocket rescissions unlawful in prior years), and the executive is betting on the courts running out the clock rather than ruling on the merits. Programs targeted are the exact support infrastructure for the populations the enforcement state targets (immigrant legal aid, refugee services, DEI compliance grants), i.e., the appropriations power is being used to hollow the opposition's material base while the enforcement apparatus scales.",
-   "forward_signal": "Watch: (1) GAO opinion / legal challenge filings \u2014 if litigation timeline extends past FY end, the lapse becomes a de facto precedent; (2) whether Congress attempts a disapproval resolution (majority vote in both chambers required, unlikely); (3) whether more pocket rescissions follow in the final days of FY26 \u2014 serial use would confirm normalization; (4) whether HHS/State grant recipients publicly defect (early structural tell for conservative-space-economic-defection)."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "10:58",
-   "track": "midterm-integrity",
-   "mget_legs_tested": [
-    "domestic-enforcement-groundwork"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Standing-item refresh: polling-place fight is judicialized. NAACP filed suit 9/19 vs ICE/DHS/FBI to enjoin agent deployment at 2026 polls ('past and present actions indicate they plan to engage in such conduct to intimidate voters'). Posture matrix: Caine letter to Slotkin \u2014 no military/military Guard at polls; Mullin \u2014 ICE may enter polling places to serve warrants; Homan \u2014 no sweeps; DHS \u2014 regular duties only. The carve-out structure (military denied, civilian enforcement 'with warrant') is the workaround channel the entry pattern predicts. Denial-with-carve-out is not a denial; it is pretext-channel registration.",
-   "forward_signal": "Watch: (1) NAACP injunction ruling and scope; (2) any ICE 'warrant service' at a polling location before Nov 3 as pretext-channel activation; (3) Guard deployment to blue cities timed 1-2 weeks pre-election (demand-side intimidation without polling-place presence)."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "17:28",
-   "track": "war-gulf",
-   "mget_legs_tested": [
-    "electoral-stop-loss-iran-war: STRAINED - visible strait crisis through Nov 3 serves the valve function; but if carriers actually withdrew, US capacity to respond is degraded, complicating the managed-crisis read",
-    "eurasia-settlement-hemisphere-pivot-domestic-consolidation: AMBIGUOUS - a live Gulf crisis could delay settlement timing (leg 2 falsifier watch); or it could be leverage theater within a settlement lane already agreed"
-   ],
-   "verdict": "neutral",
-   "reasoning": "Single low-reliability Facebook OSINT aggregator (OSINTdefender, 4 reactions, 5m old), no wire corroboration pulled. Claims: explosions near Qeshm Island; Iran re-launched missiles into the strait, likely vs commercial shipping; US response unclear; post itself frames attacks as backdrop of ongoing renewed US-Iran negotiations over chokepoint administration. Three live readings: (1) if carriers HAVE withdrawn beyond Gulf of Oman (Sept 25 Sentinel + Defensemirror), Iran striking shipping makes little offensive sense - could be intercept debris, drills misreported, or staged/deniable provocation; (2) if withdrawal claim is wrong, this is blockade enforcement resuming and the Sept 25 de-escalation read was premature; (3) deliberate ambiguity serving negotiation leverage - Tehran showing chokepoint control while Washington considers, or Washington benefiting from crisis justifying the settlement lane. The post's own framing ties violence to negotiation: bargaining-chip logic, consistent with stop-loss card - regime benefits from visible crisis through Nov 3. FALSIFIER CHECK: wire confirmation (Reuters/AP), CENTCOM statement, shipping-insurance notices (UKMTO/Baltic Index).",
-   "forward_signal": "Wire corroboration is the gate: if Reuters/AP/CENTCOM confirm strait missile launches, stop-loss card confidence rises and Sept 25 withdrawal claim needs re-examination; if confirmed as drill/debris misreport, withdrawal claim strengthens and de-escalation read holds. Watch UKMTO advisories and insurance notices as the physical-layer tell."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "21:35",
-   "track": "narrative",
-   "mget_legs_tested": [
-    "2026-09-07-labor-day-price-gaslighting allegory: CONFIRMS - inflation/gas-price grievance is being routed toward the opposition as midterms approach; the blame-inversion mechanism is the allegory executed"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Tara Servatius tweet amplifed by T.J. Moe (8.4K reactions, 4.2K comments, 2.9K shares, 12m old): 'I don't like 3% inflation. Let me protest by voting for the party that brought us 9.1% inflation... high gas prices... party that banned offshore drilling.' STRUCTURAL: this is the blame-inversion narrative in its purest form - the regime's OWN inflation (3% under its tariffs and war) reframed as a reason to vote against the opposition who inherits it. Note the sleight: 9.1% was June 2022; 3% is NOW under full unified Republican control - the frame asks voters to punish the party with the LOWER current number. Outperformance is extreme (8.4K/4.2K/2.9K in 12 minutes = megaphone-tier distribution, likely boosted). This is the supply side of the Nov 3 narrative environment: whatever the war and tariffs do to prices, the pre-written story attributes it to Democrats. The Sept 7 allegory predicted exactly this cycle. Also relevant: today's beef-price story (ICE raids) gives the regime a scapegoat-proof channel - enforcement costs can be blamed on 'sanctuary' disruption rather than policy. OWNER CONTEXT (9/26 21:38): this frame is not a single spike - it has been active for about a week, and Servatius posts multiple times daily. Reclassify as SUSTAINED NARRATIVE with high-frequency amplifier rather than one-off viral. Implication: a week-old, continuously-pumped blame-inversion frame entering October is pre-positioning for the midterm closing argument - the frame is being standardized in advance so October price data lands on a pre-built attribution. Distribution machinery is persistent, not event-driven.",
-   "forward_signal": "Watch for this frame's standardization: poll-posting accounts, WH communication, and surrogate TV segments adopting the 'vote against the party that caused inflation' inversion as the October closing argument. The distribution rate (4.2K comments in 12 min) suggests paid amplification - flagging for velocity-not-evidence check. Sustained-frame check: sample Servatius feed for frame repetition rate over past 7 days; if the same inversion appears across multiple posts/day, log as standing amplifier node and track which surrogates echo it (pickup test)."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "21:42",
-   "track": "narrative",
-   "mget_legs_tested": [
-    "2026-09-26-servatius-inflation-blame-inversion-frame: EXTENDS - same frame re-posted by Moe 21m ago plus a second inversion (debt/healthcare) at 1h and replacement frame at 5-6h; the node runs a daily rotation",
-    "2026-09-26-liberal-women-bestialization-violence-outperformance: CONSISTENT - 'pro third-world invasion' and 'replacement of the U.S. population with foreigners who hate our way of life' is categorical dehumanization at node-tier distribution"
-   ],
-   "verdict": "confirms",
-   "reasoning": "T.J. Moe FB profile capture (4 posts, spread across ~6 hours on one evening): (1) re-post of Servatius inflation blame-inversion 'Crazy logic'; (2) Wall Street Mav debt inversion - debt framed as reason to vote against the party proposing spending, while the incumbent adds trillions via tariffs/war - 'Silly, obviously'; (3) Benny Johnson 'pro America or pro third-world invasion. Pick a side' + endorsement 'Fair question' - binary loyalty test aimed at Republicans, enforcement of in-group discipline (priamry-vs-general obedience framing); (4) Benny Johnson border chart 'lose our country' replacement frame - monthly encounters chart (real data shape) deployed as evidence for a catastrophist conclusion. NODE PROFILE: Moe posts multiple times daily, every post an embed of another node's frame with one-line emotional framing, zero original reporting. Function: repeater/amplifier converting X-tier frames into FB distribution. The rotation covers the three October lanes: economy (inversion), spending (inversion), immigration (replacement+loyalty test). This is the standardized closing-argument package arriving 5+ weeks early.",
-   "forward_signal": "Node-tier pickup test: track whether Servatius/Mav/Johnson frames appear across OTHER FB repeaters with identical one-line framing patterns; if yes, common-doc distribution confirmed. Also watch whether the 'pick a side' loyalty-test frame migrates into WH or campaign communication - that would be the official-echo rung for the purge/discipline thread."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "00:41",
-   "track": "war-gulf",
-   "mget_legs_tested": [
-    "electoral-stop-loss-iran-war",
-    "eurasia-settlement-hemisphere-pivot-domestic-consolidation"
-   ],
-   "verdict": "confirms",
-   "reasoning": "WSJ (corroborated: Bloomberg, ToI, Business Standard): Trump rejected Iran's 7-day plan (lift blockade + waive oil sanctions + ceasefire incl. Lebanon -> reopen Hormuz + resume nuclear talks within 7 days, per AP/CBS/Al Jazeera) and told aides he expects to resume bombing Iran AFTER the Nov midterms; no intention of lifting the maritime blockade. Direct confirmation of electoral-stop-loss logic: violence deliberately timed to land after ballots close so the war never becomes the live domestic issue, then resumes. Key structural tension to resolve: leg 2 of the Eurasia-settlement card required settlement progress by Nov 3 \u2014 the US side just killed the visible diplomatic track, which by the pre-registered falsifier predicts carrier return to CENTCOM. But carrier-withdrawal telemetry says the force already left. Both are compatible only if a post-midterms strike campaign is executed standoff/long-range from outside the 1200km envelope \u2014 which would NOT kill the pivot leg (force can still pivot after). Resolution condition: if strikes resume post-Nov 3 with no carriers in AOR, the stop-loss logic is confirmed AND the pivot survives; if carriers re-enter before Nov 3, withdrawal telemetry was wrong or a repositioning is underway.",
-   "forward_signal": "Watch: (1) carriers re-entering CENTCOM AOR before Nov 3 (falsifies withdrawal telemetry or signals repositioning); (2) strikes actually resuming after Nov 3, not before (confirms stop-loss timing); (3) any pre-Nov-3 strike as stop-loss failure; (4) blockade formally maintained despite Hormuz-reopening offer."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "14:05",
-   "track": "war-gulf",
-   "mget_legs_tested": [
-    "electoral-stop-loss-iran-war",
-    "eurasia-settlement-hemisphere-pivot-domestic-consolidation"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Trump Truth Social, 8:18am ET (1.51k ReTruths, 6.81k likes): 'IRAN CAN NOT HAVE A NUCLEAR WEAPON!!!' \u2014 the first public US response to Iran's 7-day plan and its 'awaits US move' posture. Analysis: (1) It is not a counteroffer and does not engage any term of the proposal (blockade, assets, resistance fronts, Hormuz) \u2014 it restates the war's foundational casus belli instead. This is the deliberate non-response read from this morning: let the 7-day clock expire while refusing diplomatic footing. (2) By restating the non-negotiable rather than negotiating, the regime keeps its strike justification intact for post-Nov 3 resumption \u2014 the WSJ timing logic now has its public-facing wrapper. (3) The message's framing makes any future Iranian concession insufficient: no Iranian statement can disprove intent to acquire a weapon, so the war's premise is unfalsifiable by design \u2014 the offramp is now formally closed on the US side. (4) Consistent with the standoff-strike configuration: continued war posture without fleet re-entry.",
-   "forward_signal": "Watch: (1) 7-day window expiry (~Oct 2) with no US engagement \u2014 Iran's response options: blockade escalation, tanker/US-vessel strikes (gives US its pretext), or asymmetric hits on Gulf shipping priced as 'Iran escalation' into the midterms; (2) any pre-Nov 3 US strike (stop-loss failure); (3) carrier movements."
-  },
-  {
-   "date": "2026-09-27",
-   "time_et": "19:30",
-   "track": "legitimacy-media",
-   "mget_legs_tested": [
-    "Leg 2 (enclosure of legitimacy via media control): court temporarily restored CNN/Politico/MS NOW access Sept 24-25, TV pool resumed; DOJ still defending ban, urged retention at least until Xi visit. Pushback is real but narrowing-scope fight continues.",
-    "Leg 1 (institutional decay/immunity signal): House delayed Massie-Hegseth impeachment vote until November; Thanedar filing two articles over boat strikes ('kill everybody' second strike). Floor action deferred, not resolved.",
-    "Economic-enclosure side-track: Fed drafting raise of bank oversight asset thresholds (Bowman capital-rules overhaul); DHS proposing elimination of 60-day H-1B grace period. Consolidation + hostage-taking of visa workers continues.",
-    "Rates: 10Y ~5.17% Friday close, Fed Oct hike odds firmed (66% per TE, some desks >75%). Six-percent watch not triggered.",
-    "Iran/Hormuz: Brent above $106, Iran refuses to soften Hormuz reopening demands; no second UKMTO strike warning observed in scan (sa1hrue4oky1 stays active)."
-   ],
-   "verdict": "strains",
-   "reasoning": "Strains the enclosure-of-legitimacy leg: a federal court restored banned outlets' access and the TV pool resumed - first visible judicial pushback on WH media control. But the administration is appealing/defending the ban (Xi-visit framing) and floor accountability (Hegseth) was deferred to November, so the decay leg is not confirmed this week either. Mixed week.",
-   "forward_signal": "Watch whether ban litigation reaches appellate stage or gets settled; watch Hegseth vote resumption in Nov; 10Y six-percent watch active until Oct 9; UKMTO second-strike watch until Sep 30."
-  },
-  {
-   "date": "2026-09-26",
-   "time_et": "21:55",
-   "track": "world-war-iii-prologue",
-   "mget_legs_tested": [
-    "eurasia-settlement-lane",
-    "offramp-closure",
-    "legitimacy-delegitimization",
-    "media-restriction",
-    "domestic-consolidation-material-base"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Sweep findings: (1) CLUSTER [23] China, US agree to AI dialogue + tariff cuts on $30B in goods DURING XI VISIT - strongest single confirmation yet that the eurasia-settlement lane is functioning; tariff relief + institutionalized AI channel = settlement architecture, not truce theater. (2) CLUSTER [9] China pushes back against US on Iran and Cuba at UN - settlement coexists with public friction; expected, does not break the lane. (3) CLUSTER [16] Trump rejects Iranian proposal to open Hormuz - wire-level echo of tonight's Truth + gaggle; offramp-closed now consensus-reported, no longer single-source. (4) CLUSTER [20] CNN left off Air Force One trip - media restriction escalation continuing 9/18 WH-ban pattern at event level. (5) CLUSTER [16] OpenAI model misbehavior disclosure + training pause - AI governance signal adjacent to the AI-dialogue cluster. (6) Medicaid work requirements kicking in, states taking tougher stance - consolidation material base. (7) TOPIC PRESSURE: legitimacy_delegitimization vol 74, velocity -14.8/day = cooling; enclosure/vanguard/opacity/rally pinned at saturation 100 with zero velocity - topic buckets are instrument-bound at ceiling, need recalibration. (8) SOURCE HEALTH: AP direct wire 403 (AP-via-GN still 100); MSNBC 16, NYP 21. Monitor AP 403: connector issue vs deliberate block.",
-   "forward_signal": "Xi-visit outcomes as they materialize (tariff schedule, AI-channel mechanics) = next confirmation window for settlement leg. Legitimacy-delegitimization cooling while settlement consolidates matches pivot-thesis shape. OPEN ITEMS: topic-bucket recalibration; AP 403 investigation."
   },
   {
    "date": "2026-09-15",
@@ -6318,171 +5881,64 @@
  ],
  "movers": [
   {
-   "time": "9/23 9:05pm",
-   "ref": "Press Access Enclosure / Media Capture",
-   "change": "confidence 65 \u2192 70",
-   "trigger": "Networks HOLD (Fox stays in solidarity bloc); 'privilege not a right' enters federal filing; Judge Kelly skeptical at TRO hearing"
+   "time": "2026-09-26: 68\u219270 (Argentina peg-defense entry \u2014 Treasury-underwritten dollarization as hemisphere-pivot demonstration model; WSJ-reported Iranian ceasefire rejection independently confirms domestic-consolidation tempo)",
+   "ref": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
+   "change": "confidence 70 \u2014 status pending",
+   "trigger": "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
   },
   {
-   "time": "9/23 9:05pm",
-   "ref": "Mid-August Oil Price Shock",
-   "change": "confidence 10 \u2192 18",
-   "trigger": "Iran's victory-conditions go public at UNGA; Brent <$100 on talks headlines alone; diesel export ban floated as first economic emergency lever"
+   "time": "2026-09-24",
+   "ref": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
+   "change": "confidence 91 \u2014 status emergent",
+   "trigger": "Sept 16 FOMC structural-hawkishness addendum (Meidas flag, verified): rate hike to 3.75-4.00% passed 12-0 UNANIMOUS \u2014 no dovish dissent anywhere on the committee. Sept dot plot: 16"
   },
   {
-   "time": "9/23 9:05pm",
-   "ref": "Domestic Enforcement Groundwork",
-   "change": "confidence 70 \u2192 72",
-   "trigger": "ICE requests mobile detention facilities (PA expansion) \u2014 detention decoupling from fixed sites"
+   "time": "2026-09-22",
+   "ref": "P-006 Caredock lock-in realization (field-test artifact)",
+   "change": "confidence 0.65 \u2014 status pending",
+   "trigger": "\u2014"
   },
   {
-   "time": "9/23 9:05pm",
-   "ref": "Strait of Hormuz Blockade",
-   "change": "evidence append (no conf move)",
-   "trigger": "UKMTO tanker strike unattributed; Iran conditional now public; Xi summit = reopening-broker window"
+   "time": "2026-09-22",
+   "ref": "Election-Day Violence 2026 (Branch of Midterms Catalyst Node)",
+   "change": "confidence 80 \u2014 status pending",
+   "trigger": "USCIS whistleblower electoral-machinery capture (9/14); NSPM-7 posture watch item active"
   },
   {
-   "time": "9/23 9:05pm",
-   "ref": "Kinetic European Conflict",
-   "change": "evidence append (no conf move)",
-   "trigger": "CIA warning: Russia primed for drone attacks in Europe; Estonian incursion, NATO scramble"
+   "time": "2026-09-22",
+   "ref": "Press Access Enclosure \u2192 Media Capture (pool collapse \u2192 friendly-inherit \u2192 enforcement)",
+   "change": "confidence 70 \u2014 status pending",
+   "trigger": "2026-09-25 RECALIBRATION \u2014 PARTIAL RESTORATION, NOT CLEAN FOLD: (1) TV pool machinery remains suspended post-TRO; bodies physically back in the building, pool access still blocked "
   },
   {
-   "time": "9/18 8:34pm",
-   "ref": "Macro: Post-WWII Order Unwinding",
-   "change": "raised 88 \u2192 94 (9/13) \u2014 holds",
-   "trigger": "Greenland counterparty response + wire-tier corroboration"
+   "time": "2026-09-20",
+   "ref": "Serial Donroe template - hemispheric expansion via designare-strangle-capture-manager-canonize",
+   "change": "confidence 68 \u2014 status emergent",
+   "trigger": "Reuters 8/22: Trump heads into midterms short on foreign policy wins; USA Today 9/20 confirms private midterm concern"
   },
   {
-   "time": "9/18 8:34pm",
-   "ref": "Kinetic European Conflict",
-   "change": "confidence 66 \u2192 62",
-   "trigger": "Russian airspace incursions resolved diplomatically; Article 4 consult not Art 5"
+   "time": "2026-09-18",
+   "ref": "Gray-Zone Annexation \u2014 Greenland 'Infinite Life' Deal",
+   "change": "confidence 71 \u2014 status emergent",
+   "trigger": "Counter-frame amplification gap: Map Narratives (7K reactions) out-reaches fact-checking tier by orders of magnitude; 'Canada is next' expansion frame attached by influencer tier."
   },
   {
-   "time": "9/18 8:34pm",
-   "ref": "SPR Runway Breaks Before Midterms",
-   "change": "confidence 82 \u2192 91, status pending \u2192 emergent",
-   "trigger": "evening wire: multi-state fuel shortage persistence, no WH denial"
+   "time": "2026-09-16",
+   "ref": "Dehumanization velocity accelerates as a turning approaches",
+   "change": "confidence 58 \u2014 status pending",
+   "trigger": "2026-09-20 Tillamook halal boycott: lowest-friction dehumanization format yet (label-only outrage), GSS ancestry-chart framing same day, WH communism post same day - three dehumani"
   },
   {
-   "time": "9/16 7:30pm",
-   "ref": "Chevron Wirth \u2014 fuel crisis officially arrived",
-   "change": "NEW ledger entry \u00b7 elite defection at corporate tier",
-   "trigger": "WSJ statement"
+   "time": "2026-09-16",
+   "ref": "On Fatigue and the Asymmetry of Stakes",
+   "change": "confidence 75 \u2014 status emergent",
+   "trigger": "Rool plan tier limits (plus plan: 1,200 credits/day) already impose machine-side pacing; only the human side lacked any pacing mechanism"
   },
   {
-   "time": "9/16 7:03pm",
-   "ref": "House adjournment before midterms",
-   "change": "NEW ledger entry \u00b7 verdict CONFIRMS \u2014 legislature hollowed",
-   "trigger": "gas-tax bill dies with House out of session"
-  },
-  {
-   "time": "9/16 5:06pm",
-   "ref": "Trump demands 1% rates",
-   "change": "NEW \u00b7 escalation ladder rung 2 of 4",
-   "trigger": "Truth Social post hours after hike"
-  },
-  {
-   "time": "9/16 2:08pm",
-   "ref": "Fed hikes 25bps to 3.75-4.00",
-   "change": "NEW ledger entry \u00b7 institutional defiance, first hike since 2023",
-   "trigger": "FOMC unanimous vote"
-  },
-  {
-   "time": "9/16 2:03pm",
-   "ref": "CMS fertility-benefits rule",
-   "change": "NEW ledger entry \u00b7 state-natalism marker FIRED at rails level",
-   "trigger": "Federal Register 2026-09479"
-  },
-  {
-   "time": "9/16 1:56pm",
-   "ref": "Retaliation-celebration stage transition",
-   "change": "NEW \u00b7 marked stage transition \u2014 speech-reprisal openly framed as cause",
-   "trigger": "Blaze coverage shift"
-  },
-  {
-   "time": "9/16 12:12pm",
-   "ref": "Kennedy Center judicial gate",
-   "change": "RESOLVED to punishment path (spite-destruction)",
-   "trigger": "board shutdown response"
-  },
-  {
-   "time": "9/16 11:00am",
-   "ref": "SPR runway breaks before midterms",
-   "change": "confidence 82 \u2192 86",
-   "trigger": "Wirth corroboration"
-  },
-  {
-   "time": "9/24 2:00pm",
-   "ref": "Press-access enclosure",
-   "change": "RESOLVED to capitulation branch \u2014 passes restored same day, no contempt fight; conf 70 held, PI phase next",
-   "trigger": "12:30 show-cause deadline"
-  },
-  {
-   "time": "9/24 2:30pm",
-   "ref": "Hormuz brokered off-ramp",
-   "change": "window OPEN \u2014 Xi endorses June MOU return; Iran floats navigation-for-concessions",
-   "trigger": "Trump-Xi summit"
-  },
-  {
-   "time": "9/24 11:00am",
-   "ref": "Brent tape",
-   "change": "$99\u2192$105.69 intraday reversal on diesel-ban lever + talks skepticism",
-   "trigger": "no single event \u2014 repricing"
-  },
-  {
-   "time": "9/24 4:15pm",
-   "ref": "SPR Runway / Oil Shock as Regime Fatality",
-   "change": "evidence-append (confirmer: cost-of-living salience 47% top issue; 37% of Trump 2024 voters report worst COL crisis; Pew soft-middle 31/31 split)",
-   "trigger": "Reuters/Ipsos Aug 28-31 + Independent poll + Pew July; labeled pre-election survey, not exit polling"
-  },
-  {
-   "time": "9/24 4:18pm",
-   "ref": "SPR Runway / Oil Shock as Regime Fatality",
-   "change": "falsifier sharpened: fatality must be ATTRIBUTABLE to SPR/supply-side breach specifically, not merely coincident; confirmer downgraded to 'electoral channel is hot' \u2014 individual attribution recoverable only via post-election defector surveys",
-   "trigger": "Samuel's methodological challenge: attribution gap \u2014 votes alone can't distinguish SPR breach from general inflation as driver"
-  },
-  {
-   "time": "9/24 4:20pm",
-   "ref": "SPR Runway / Oil Shock as Regime Fatality",
-   "change": "attribution model broadened per Samuel: voters experience fuel PRICES not reserve inventories \u2014 exit polling tests the price leg (SPR\u2192supply\u2192price\u2192vote); SPR-specific claim survives only if depletion is the binding constraint behind the spike",
-   "trigger": "Samuel: 'most voters aren't going to vote because SPR reserves went dry, they will vote because prices of fuel went up, that should be cited in exit polling'"
-  },
-  {
-   "time": "9/24 4:22pm",
-   "ref": "SPR Runway / Oil Shock as Regime Fatality",
-   "change": "numeric confirmation target set: regime loss + fuel/energy >=25% of switchers' cited reasons -> CONFIRMED as fatality-driver; 15-24% -> contributor not fatal mechanism; <15% -> link fails",
-   "trigger": "Samuel: set a percentage target on exit-poll attribution"
-  },
-  {
-   "time": "9/24 4:26pm",
-   "ref": "Short-Brutal-Decisive Substrate Conflict",
-   "change": "falsifier rewritten per Samuel: tiered temporal test vs Strauss-Howe decisive-phase baseline B=48mo (median of Revolution ~96, Civil War ~48, WWII ~48); <=10% B = full TIER 2, 10-25% = half-credit, 25-37.5% = attrition no-credit, >18mo no rupture = falsified; human-deliberated resolution kills substrate-attribution regardless of duration",
-   "trigger": "Samuel: use historical turning cycles for baseline conflict length; tier as % of severity"
-  },
-  {
-   "time": "9/24 4:26pm",
-   "ref": "Autonomous Agent Substrate Risk: Rogue AI Hijack",
-   "change": "falsifier rewritten (owner delegation): 4-rung numeric escalation ladder (R1 >=3 incidents/90d; R2 >=6h top-500 downtime; R3 >=$1B damage or regulator attribution; R4 agent-to-agent adversarial exchange in production); zero rungs + flat registry trend by Dec 31 2027 = falsified",
-   "trigger": "Samuel: 'that one is on you' \u2014 numeric standard owed by CASS"
+   "time": "2026-09-16",
+   "ref": "Institutional health is the arbiter of dehumanization-acceleration outcomes",
+   "change": "confidence 70 \u2014 status emergent",
+   "trigger": "Weimar 1932-33: courts and party system still formally present but already hollowed by 1930 presidential decree rule \u2014 institutional health DEGRADED, so acceleration routed to thre"
   }
- ],
- "daily_read": {
-  "date": "2026-09-27",
-  "summary": [
-   "Today the story was pushback \u2014 and the difference between pushback and resolution. A federal court restored the banned outlets' White House access, and the television pool went back to work. That is the first visible crack in the press enclosure since it was built. It is real, and it matters. But the same day, the Justice Department was still in court defending the ban, with the leaders' summit framed as the deadline for keeping it. So: the wall was dented, not torn down. The fight is narrowing to a single question with a date on it.",
-   "The accountability track did the same thing in miniature. The House delayed the impeachment vote until November, and a second set of articles was filed over the boat strikes. Filing is noise; a floor vote is signal. What today confirmed is the pattern from the whole week: challenges are arriving, and answers are being postponed. Watch November, not this week.",
-   "The quieter moves were on the economic track. Regulators are drafting a loosening of bank oversight thresholds, and immigration is proposing to eliminate the grace period that lets visa workers change jobs. Neither is loud. Both are the slow consolidation work that never makes a headline \u2014 the machine room of the enclosure.",
-   "Rates and the strait are the two clocks still running. The ten-year yield sat near 5.17% at Friday close and the market is pricing an October rate hike as more likely than not; the six-percent watch stays armed until October 9. Iran, meanwhile, is still refusing to soften its terms for reopening the strait, with oil above $106 \u2014 and the second-strike watch on shipping runs through September 30. Nothing has fired yet on either clock. But neither clock has stopped.",
-   "The overnight sweep confirmed the same five legs it has all week \u2014 settlement lane, closed exits, delegitimization, media restriction, consolidation at home. Verdict for today, honestly stated: strains. The court order strains the enclosure story; the defense of the ban strains back. This is the first day in a while where the counter-forces scored a visible point."
-  ],
-  "watching": [
-   "Whether the media-ban fight reaches an appeals court or a settlement before the leaders' summit",
-   "November: the delayed impeachment vote actually resuming, or slipping again",
-   "The two quiet regulatory moves (bank thresholds, H-1B grace period) reaching final text",
-   "10Y six-percent watch armed until Oct 9; October hike odds firming above 66%",
-   "Strait of Hormuz: any shipping action within the UKMTO second-strike window (through Sep 30)"
-  ]
- }
+ ]
 }
