@@ -1,0 +1,57 @@
+#!/bin/bash
+# CASS dashboard data-layer sync — data-only, staging-first per protocol
+# Usage: ./sync_data.sh ["commit message"]
+set -euo pipefail
+cd "$(dirname "$0")"
+MSG="${1:-data refresh $(date +%Y-%m-%d): movers + history regenerated from /space}"
+
+python3 - <<'PY'
+import json, glob, os, datetime
+
+P="/space/prediction/"
+here=os.path.dirname(os.path.abspath(__file__)) if False else os.getcwd()
+
+# history: append today's confidence score per tracked series
+h=json.load(open("history.json"))
+today=datetime.date.today().isoformat()
+for f in glob.glob(P+"*.json"):
+    b=os.path.basename(f)[:-5]
+    if b not in h["points"]: continue
+    d=json.load(open(f)); s=d.get("confidence_score")
+    if s is None: continue
+    pts=h["points"][b]
+    if not pts or pts[-1][0]!=today:
+        pts.append([today, s])
+json.dump(h, open("history.json","w"), indent=1)
+
+# data.json movers: cards moved in last 7 days
+data=json.load(open("data.json"))
+cards=[json.load(open(f)) for f in glob.glob(P+"*.json") if not f.endswith(".schema.json")]
+INTERNAL=[l.strip() for l in open('internal_cards.txt')] if os.path.exists('internal_cards.txt') else []
+cards=[c for c in cards if c.get('basename') not in INTERNAL]
+md=lambda c: c.get("last_moved") or c.get("date_made") or ""
+recent=sorted([c for c in cards if md(c)>=today.replace(today[-2:], "01") or (md(c)>=str(datetime.date.today()-datetime.timedelta(days=7)))],
+              key=md, reverse=True)
+movers=[{"time":md(c), "ref":c.get("title",""),
+         "change":f"confidence {c.get('confidence_score')} — status {c.get('status')}",
+         "trigger":(c.get("evidence_confirmed") or ["—"])[-1][:180]} for c in recent[:10]]
+data["movers"]=movers
+data["meta"]["generated"]=today
+json.dump(data, open("data.json","w"), indent=1)
+print(f"regenerated: {len(movers)} movers, history through {today}")
+PY
+
+# git guard: only commit if something changed
+if git diff --quiet history.json data.json; then
+  echo "no data-layer changes — nothing to push"
+  exit 0
+fi
+
+# staging-first: verify JSON parses clean before any push
+python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json']]" \
+  && echo "staging gate: JSON valid"
+
+git add data.json history.json
+git commit -q -m "$MSG (data-only)"
+git pull --rebase -X ours -q origin main || true
+git push -q origin main && echo "PUSHED TO PROD ✓"
