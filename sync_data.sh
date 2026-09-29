@@ -36,6 +36,22 @@ movers=[{"time":md(c), "ref":c.get("title",""),
          "change":f"confidence {c.get('confidence_score')} — status {c.get('status')}",
          "trigger":(c.get("evidence_confirmed") or ["—"])[-1][:180]} for c in recent[:10]]
 data["movers"]=movers
+
+# daily_read: parse Daily Read.md into data.json (the board renders this panel
+# from data.json, not from the .md — if this field goes missing the panel
+# silently disappears from the render while the .md still exists)
+import re
+dr={"summary":[], "watching":[]}
+if os.path.exists("Daily Read.md"):
+    txt=open("Daily Read.md").read()
+    m=re.search(r"DATE:\s*(\S+)", txt)
+    if m: dr["date"]=m.group(1)
+    m=re.search(r"SUMMARY:\s*\n(.*?)\nWATCHING:\s*\n(.*)", txt, re.S)
+    if m:
+        dr["summary"]=[l.strip() for l in m.group(1).strip().splitlines() if l.strip()]
+        dr["watching"]=[l.strip().lstrip("- ") for l in m.group(2).strip().splitlines() if l.strip()]
+data["daily_read"]=dr
+
 data["meta"]["generated"]=today
 json.dump(data, open("data.json","w"), indent=1)
 print(f"regenerated: {len(movers)} movers, history through {today}")
