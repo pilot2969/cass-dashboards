@@ -75,9 +75,16 @@ print(f"regenerated: {len(movers)} movers, history through {today}")
 PY
 
 # git guard: only commit if something changed
-if git diff --quiet history.json data.json; then
-  echo "no data-layer changes — nothing to push"
-  exit 0
+# stranded-commit guard: a prior run can die between commit and push, leaving
+# prod stale while a naive "nothing to push" exit looks like success. If local
+# is ahead of origin, finish the push regardless of whether THIS run changed data.
+if ! git diff --quiet history.json data.json; then
+  git add history.json data.json
+  git commit -q -m "$MSG (data-only)"
+fi
+
+if [ -n "$(git rev-list origin/main..HEAD)" ]; then
+  echo "stranded commits detected: $(git rev-list --count origin/main..HEAD) — completing interrupted push"
 fi
 
 # staging-first: verify JSON parses clean before any push
