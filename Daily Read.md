@@ -1,20 +1,24 @@
-DATE: 2026-09-29
+DATE: 2026-09-29 (EVENING EDITION)
 SUMMARY:
-This morning the board reads as a settling-in, not a break. The 10-year eased a single basis point to 5.24% — still pinned at the 19-year-high plateau it hit last week, with no reversal in sight. Iran's foreign minister says Tehran is now waiting for an American answer to its seven-point proposal, while the White House keeps the "win one way or the other" language and dismisses the relief reports it floated itself. The diplomatic clock is running on Iran's side while the American side freezes — the exact posture you would expect if strike tempo is indexed to the day after the midterms.
+The evening wire found the day's two headline moves misfiring while the structural moves advanced underneath. The Jack Smith hearing ran exactly in the gray-zone show-trial form predicted this morning — verdict pre-written in the title, ritual degradation as the genre — but the ritual misfired: Smith answered "serious crimes… beyond reasonable doubt" and "I will not be silenced," Schmitt's smoking-gun memo collapsed on presentation, and the hearing ended in basketball questions. The consent-independent strategy thesis is unaffected; the referral pipeline never needed the hearing to succeed.
 
-The press enclosure moved from stalemate to open defiance. Late Monday the three banned outlets asked the court to bar enforcement of the ban while the merits case proceeds — because the White House kept enforcing despite last week's order restoring their access. The judge who found the ban likely unconstitutional was appointed by this administration. A ruling on the preliminary injunction is due this week; the question is no longer whether the court will rule, but whether the ruling will be obeyed.
+Markets: 10-year pinned at 5.24% flat — day seven on the 19-year-high plateau, no reversal. Dow 51,350 (-0.26%), S&P 7,698 (-0.17%), third session of yield-led pressure.
 
-In Brazil, five days before the first round, the runoff is now a statistical tie with the challenger nominally ahead (47.8 to 47.7). An op-ed in the Los Angeles Times names the White House interference — tariffs tied to the Bolsonaro trial — as a hemisphere-control play, and the Congressional Research Service confirms the linkage. The Donroe template has never been run through a ballot box before; Sunday is the first.
+Iran whipsaw now live: Araghchi says Tehran awaits the formal US response to the seven-point Hormuz reopening proposal via Doha while Trump has already rejected it publicly — public rejection, possibly private channel. Oil eased, Brent under $103, another SPR release ordered. Silence until Nov 3 remains the signal.
 
-The narrative lane logged consolidation, not just repetition: the "polls are fake" frame moved from the President's mouth to the opinion pages, which cataloged the full rigging apparatus behind it — voter-roll suits, mail-voting challenges, and a director of the FBI floating federal agents at polling sites. The frame is being staffed, not just repeated.
+The bang-for-buck read on the stump schedule is confirmed and expanding: Vandalia, Ohio rally locked for Saturday Oct 3 (Husted vs. Brown), circuit running Oklahoma Thursday, Alabama Friday, Ohio Saturday — and Politico reports Iowa and Florida just added, with Paxton and Sullivan stops being prepared. The red-state defense schedule is growing, not shrinking.
 
-And the health lane crossed an escalation marker: a second measles death this year, 3,659 confirmed cases, forty outbreaks, Pennsylvania at 903 — the worst in decades. The capacity test is no longer a probe.
+Brazil, five days out: polls converged to a statistical tie, with AtlasIntel posting Flávio Bolsonaro's first lead in that series. The Donroe template runs through its first ballot box Sunday.
 
-Overnight verdict: nothing fired this morning. Four clocks — rates, war, legitimacy, and Brazil on Sunday — are all visibly geared to the same spindle: November 3.
+And the Pentagon move sharpened from personnel to architecture: the 20% general/flag-officer SLOT cut is confirmed across three outlets — billets eliminated Jan 1, the day after the new Congress is seated — with the tenure memo killing multi-year "controlling legal authority" assignments signed the same day. Two prongs, one program: the loyalist force-formation thesis got its confirmation leg.
+
+Evening verdict: the spectacle layer misfired twice today (America.gov, the Smith ritual) and both backfired on day one; the quiet layer (slots, schedules, channels) advanced everywhere. Nothing fired. Everything is still geared to November 3.
 WATCHING:
-- Oct 2: White House reply to press-ban preliminary-injunction motion due; ruling expected this week
-- Iran: whether the WH responds to the 7-point proposal before Nov 3 — silence is the signal
-- Brazil first round Sunday Oct 4: fraud-frame chatter, tariff signals, WH commentary on the Bolsonaro "witch hunt"
-- Fake-polls frame frequency now that the frame is staffed on the opinion pages
-- 10Y six-percent watch armed until Oct 9; plateau at 5.24%, no reversal
-- Next EIA print vs. Saudi East-West bypass ramp — the chokepoint walk-around test
+- Wed Oct 1: Hegseth formal address on the slot cut; Jan 1 implementation date unchanged
+- Oct 2: press-ban preliminary-injunction ruling; whether enforcement obeys it
+- Iran: any formal US response to the 7-point proposal before Nov 3 — silence is the signal
+- Brazil first round Sunday Oct 4: fraud-frame chatter, WH commentary on the Bolsonaro "witch hunt"
+- Smith hearing follow-through: referral recommendation timing, post-election enforcement watch
+- Fake-polls frame frequency now the frame is staffed on opinion pages
+- 10Y six-percent watch armed until Oct 9; plateau at 5.24%
+- Sat Oct 3: Vandalia OH rally — turnout optics vs. Husted margin anxiety

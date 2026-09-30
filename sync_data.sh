@@ -13,7 +13,7 @@ here=os.path.dirname(os.path.abspath(__file__)) if False else os.getcwd()
 
 # history: append today's confidence score per tracked series
 h=json.load(open("history.json"))
-today=datetime.date.today().isoformat()
+import datetime as _dt; today=(_dt.datetime.now(_dt.timezone(_dt.timedelta(hours=-4)))).date().isoformat()
 for f in glob.glob(P+"*.json"):
     b=os.path.basename(f)[:-5]
     if b not in h["points"]: continue
