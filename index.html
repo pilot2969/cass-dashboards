@@ -223,7 +223,8 @@ window.__CASS_LEDGER={all:LEDGER_ALL,render:()=>{}};
 const renderLedger=(filter)=>{
   const chipsEl=document.getElementById('ledger-filters'); if(!chipsEl)return;
   const L=filter==='all'?LEDGER_ALL:LEDGER_ALL.filter(l=>l.verdict===filter||(l.mget_legs_tested||[]).includes(filter));
-  const list=LEDGER_ALL.slice().reverse().filter(l=>filter==='all'||l.verdict===filter||(l.mget_legs_tested||[]).includes(filter));
+  const LEDGER_SORTED=LEDGER_ALL.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')||String(b.time_et||'').localeCompare(String(a.time_et||'')));
+  const list=LEDGER_SORTED.filter(l=>filter==='all'||l.verdict===filter||(l.mget_legs_tested||[]).includes(filter));
   document.getElementById('ledger-list').innerHTML=list.map(ledgerLine).join('');
   document.getElementById('ledger-status').textContent=`Showing ${list.length} of ${LEDGER_ALL.length} entries (newest first)`;
   if(chipsEl.childElementCount)return; // chips built once
