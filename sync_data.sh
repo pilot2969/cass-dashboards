@@ -37,6 +37,23 @@ movers=[{"time":md(c), "ref":c.get("title",""),
          "trigger":(c.get("evidence_confirmed") or ["—"])[-1][:180]} for c in recent[:10]]
 data["movers"]=movers
 
+# mget_ledger: rebuild from /space/mget_ledger (dedup by basename, newest first).
+# Dedup key is the object basename — dates alone collide when multiple ledger
+# entries land the same day. Entries missing date/verdict are skipped and
+# counted, so silent ingestion gaps surface in the sync output.
+led=[]; skipped=0
+for f in glob.glob("/space/mget_ledger/*.json"):
+    b=os.path.basename(f)[:-5]
+    if b.endswith(".schema"): continue
+    d=json.load(open(f))
+    if not d.get("date") or not d.get("verdict"): skipped+=1; continue
+    d["basename"]=b
+    led.append(d)
+led.sort(key=lambda x:(x["date"], x.get("time_et") or ""), reverse=True)
+prev=data.get("mget_ledger") or []
+data["mget_ledger"]=led
+print(f"ledger: {len(led)} entries (was {len(prev)}), {skipped} skipped missing date/verdict, newest {led[0]['date'] if led else '—'}")
+
 # daily_read: parse Daily Read.md into data.json (the board renders this panel
 # from data.json, not from the .md — if this field goes missing the panel
 # silently disappears from the render while the .md still exists)
