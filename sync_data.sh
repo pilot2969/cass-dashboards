@@ -86,5 +86,8 @@ python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json'
 
 git add data.json history.json
 git commit -q -m "$MSG (data-only)"
-git pull --rebase -X ours -q origin main || true
+# pull with rebase; a failure must abort the script (set -e), never print success.
+# -X ours is safe here because data.json/history.json are generated artifacts:
+# our regen output is authoritative over any remote-only drift.
+git pull --rebase -X ours -q origin main
 git push -q origin main && echo "PUSHED TO PROD ✓"
