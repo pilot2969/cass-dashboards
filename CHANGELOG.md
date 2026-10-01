@@ -3,6 +3,11 @@
 All notable changes. Newest first. Dates are US Eastern.
 This file mirrors (and extends) the Version History table rendered in `index.html`.
 
+## 2026-09-30 · v3.1.1 (pipeline)
+- **Sync pipeline bug fixed (found by live failure, twice):** the stranded-commit guard echoed its warning but never pushed — the unconditional second `git commit` exited 1 on "nothing to commit," aborting the script before the push line ran. Guard now pushes when stranded commits exist; second commit is conditional (`git diff --cached --quiet`).
+- Failure taxonomy so far: dirty-tree rebase abort (edit in tree), regeneration-identical false clean (gate passes while commit is stranded), guard-as-lie (echo without push). All three closed today.
+- Evening edition Daily Read: Quantico State of the Force (six initiatives; AUTOWARCOM, Project Meridian, FORTRESS America, Office of Religious Affairs), 20% billet cut w/ Jan 1 2027 deadline, Iraq withdrawal complete, Nowa Deba package incident.
+
 ## 2026-09-27 · v3.1.0
 - **New "Today's Read" panel** — collapsible, open-by-default section above the Forecast Register: hand-authored plain-English daily trend summary (10th-grade reading level) with a "Watching next" list. Rendered from `Daily Read.md` at build time; new `daily_read` field in `data.json`; loader added to `deploy-cass.sh`.
 - **Wire sweep recalibration** — scoring switched from raw Google News result counts to corpus-share (hits per 100 aggregated-corpus headlines), fixing the ~100-item instrument ceiling that pinned four topic buckets; keyword sets tightened. Wire sweep now runs 9 sources.
