@@ -85,6 +85,7 @@ fi
 
 if [ -n "$(git rev-list origin/main..HEAD)" ]; then
   echo "stranded commits detected: $(git rev-list --count origin/main..HEAD) — completing interrupted push"
+  git push -q origin main && echo "PUSHED TO PROD ✓"
 fi
 
 # staging-first: verify JSON parses clean before any push
@@ -92,7 +93,7 @@ python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json'
   && echo "staging gate: JSON valid"
 
 git add data.json history.json
-git commit -q -m "$MSG (data-only)"
+git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # pull with rebase; a failure must abort the script (set -e), never print success.
 # -X ours is safe here because data.json/history.json are generated artifacts:
 # our regen output is authoritative over any remote-only drift.
