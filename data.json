@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -5124,6 +5124,17 @@
    "forward_signal": "Observables: (a) ABW/prosecutor statement on substance and sender; (b) any Polish government attribution claim; (c) whether the incident enters NATO's gray-zone escalation debate; (d) whether Polish evacuation-preparedness messaging accelerates in the next 72h. Confidence: incident HIGH (multi-source Polish outlets); attribution LOW by design \u2014 no scoring until evidence."
   },
   {
+   "date": "2026-10-01",
+   "time_et": "13:34",
+   "track": "oil_material_leg",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap"
+   ],
+   "verdict": "confirms",
+   "reasoning": "OSINTdefender: JMIC Update 101 (01 Mar - 01 Oct 2026), Middle East Maritime Region, threat level SEVERE. Four confirmed incidents in Strait of Hormuz since last report: 28 Sep outbound tanker struck by unknown projectile, small fire extinguished, continued to next port; 29 Sep three tankers struck by unknown projectiles while transiting (two outbound, one inbound), all crews safe, no environmental damage; damage assessments ongoing on two vessels. JMIC #101-26. Read-through: live harassment/saturation campaign against Hormuz transits, not open war closure \u2014 unknown projectiles, no responsibility claims, no casualties. This confirms the 2026-09-15 chokepoint saturation entry: physical risk premium building in the tanker market while headline crude stays quiet. With the morning wires Iran expulsion of IAEA inspectors + Fairford attribution, Iran pressure is escalating on BOTH nuclear-file and maritime lanes simultaneously. The material leg is being stressed by harassment cadence rather than by a single closure event.",
+   "forward_signal": "WATCH: (1) escalation from harassment to struck LNG/LPG carrier or mine strike (1980s tanker-war template); (2) US/Israeli response window \u2014 attribution claims tend to surface only after retaliation; (3) war-risk insurance premiums and VLCC rates as the physical tell; (4) whether the administration uses the SEVERE rating to justify escalation before the midterms (2026-09-28 iran-strikes-after-midterms watch object)."
+  },
+  {
    "date": "2026-09-15",
    "time_et": "14:42",
    "track": "oil-energy",
@@ -6881,9 +6892,13 @@
   }
  ],
  "daily_read": {
-  "date": "2026-10-01 (MORNING EDITION)",
+  "date": "2026-10-01 (EVENING EDITION)",
   "summary": [
-   "Quantico's two open questions closed yesterday: the 20% G/FO billet cut is formalized (cancellation memos, rank downgrades, Jan 1 2027 deadline) and the loyalty line went live \u2014 Hegseth accused media of treason over Iran-war coverage, in front of junior officers and enlisted leaders. The audience shifted downward from last year's general-officer assembly: the loyalty filter is now priming at the base of the corps, not the top.",
+   "The emergency-powers leg went on the record tonight. Asked whether he'd send ICE to polling sites, Trump wouldn't rule it out; in the same breath he wouldn't rule out declaring a state of emergency before the midterms \u2014 33 days out. The question we've been carrying as a watch-file hypothetical is now a live possibility stated by the principal. SCOTUS, same day, agreed to review the policy of detaining immigrants challenging deportation \u2014 the judicial arm of the enclosure track fast-tracked into the new term.",
+   "Iran's escalation window is now explicit: in the Time interview Trump said \"some munitions are low\" and the US \"could ramp up strikes after November's elections.\" The post-midterm escalation watch is confirmed by the principal's own framing. On the ground: 2,000 more Marines moved, a tanker hit in Hormuz, and the poll register reading \"not worth fighting.\"",
+   "The propaganda leg went public: lawmakers are calling the taxpayer-funded pro-Trump ads \"plainly illegal\" and Sullivan pegs the spend in the millions \u2014 colliding directly with the ad-enforcement watch. Brazil's AG escalated the Donroe thread into sovereign retaliation, formally calling for a probe into US funding of far-right causes.",
+   "State capacity took a fresh specimen: Christa Pike survived two lethal injections in Tennessee; executions are suspended and the editorial register read \"cruelty is inherent.\" Markets wobbled on the DeepSeek-driven AI rout \u2014 the valuation leg feeding the pre-midterm economy pressure.",
+   "The counter-move is now routine and everywhere: states sue over the EPA emissions repeal, states/cities pursue impoundment, the DNC sues over the overseas-voting form, California subpoenas OpenAI. Morning edition items below stand: Quantico's stacking (loyalty filter, AutoWarCom, Project Meridian), DOJ v. Minnesota judges, the impoundment observability test. Quantico's two open questions closed yesterday: the 20% G/FO billet cut is formalized (cancellation memos, rank downgrades, Jan 1 2027 deadline) and the loyalty line went live \u2014 Hegseth accused media of treason over Iran-war coverage, in front of junior officers and enlisted leaders. The audience shifted downward from last year's general-officer assembly: the loyalty filter is now priming at the base of the corps, not the top.",
    "Two new institutional organs surfaced. AUTOWARCOM \u2014 a four-star combatant command for AI/autonomous targeting, target establishment October 2027 \u2014 is being built while the Minab school-strike accountability question is still open: the prelegitimation pattern, now at command scale. Project Meridian (Musk, Luckey, Gingrich, Pentagon CTO Emil Michael) puts future-war doctrine formation in private hands. The loyalty filter, sacralization office, and autonomous-targeting stack all confirmed inside 24 hours \u2014 the fastest structural-stacking day since the war began.",
    "The impoundment defiance test has entered litigation: GAO ruled the >$800M pocket rescission illegal Sept 29; California + 6 states sued yesterday. The remedy is now a lawsuit the administration can stall past the midterms. Funds still haven't moved \u2014 today's observability test stands.",
    "New specimen: DOJ filed misconduct complaints against Minnesota federal judges for speaking to the NYT about immigration-enforcement impact on their courts, seeking recusal from DHS matters. Direct intimidation of sitting federal judges over press contact \u2014 one day before the press-ban preliminary-injunction ruling is due (Oct 2). The enclosure is now reaching the judiciary.",
