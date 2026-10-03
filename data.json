@@ -6986,25 +6986,37 @@
  ],
  "movers": [
   {
-   "time": "2026-09-30 C-015 sequestered ruling: joint 0.24 (was 0.72); 2026-10-01 spurious retraction withdrawn, reprice restored",
-   "ref": "Hegseth loyal-force infrastructure precedes enemy designation \u2014 war against the 'enemy within' under religious mandate",
-   "change": "confidence 0.24 \u2014 status pending",
-   "trigger": "Sacralization track: 2026-09-18 legislative-halls, 2026-09-21 Christian-trolling-theology entries corroborate religious-mandate direction."
-  },
-  {
-   "time": "2026-09-30",
+   "time": "2026-10-03",
    "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
    "change": "confidence 0.3 \u2014 status pending",
    "trigger": "Item 3: reported conditioning of federal disaster relief on electoral outcome (2026-09-17) \u2014 scoped to pre-build predicate only"
   },
   {
-   "time": "2026-09-30",
+   "time": "2026-10-03",
+   "ref": "Ground Invasion of Iran",
+   "change": "confidence 49 \u2014 status pending",
+   "trigger": "Primary juxtaposition (Sept 2, 2026): White House private leaks reveal leadership is discussing how to 'quiet quit' or declare the Iran war over to protect midterm optics, directly"
+  },
+  {
+   "time": "2026-10-03",
+   "ref": "Hegseth loyal-force infrastructure precedes enemy designation \u2014 war against the 'enemy within' under religious mandate",
+   "change": "confidence 0.24 \u2014 status pending",
+   "trigger": "Sacralization track: 2026-09-18 legislative-halls, 2026-09-21 Christian-trolling-theology entries corroborate religious-mandate direction."
+  },
+  {
+   "time": "2026-10-03",
+   "ref": "Iran Escalation Against U.S. Naval Escorts and Risk of Major Surface Combatant Strike",
+   "change": "confidence 86 \u2014 status emergent",
+   "trigger": "[2026-09-17] Houthi stranglehold on Bab el-Mandeb raises escort tempo; but WH pivot to China-brokered Iran diplomacy (Saudi routing via Beijing) adds de-escalation branch \u2014 trimmed"
+  },
+  {
+   "time": "2026-10-03",
    "ref": "Press Access Enclosure \u2192 Media Capture (pool collapse \u2192 friendly-inherit \u2192 enforcement)",
    "change": "confidence 45 \u2014 status pending",
    "trigger": "One episode (09-10 vanguard split, 09-18 ban + revocations, 09-20 Houchins op-ed, 09-21 network pool suspension, 09-22 gap closure on UNGA day) \u2014 five facets, scored as ONE episode"
   },
   {
-   "time": "2026-09-26: 68\u219270 (Argentina peg-defense entry \u2014 Treasury-underwritten dollarization as hemisphere-pivot demonstration model; WSJ-reported Iranian ceasefire rejection independently confirms domestic-consolidation tempo)",
+   "time": "2026-09-26",
    "ref": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
    "change": "confidence 70 \u2014 status pending",
    "trigger": "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
