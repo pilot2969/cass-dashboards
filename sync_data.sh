@@ -8,6 +8,14 @@ MSG="${1:-data refresh $(date +%Y-%m-%d): movers + history regenerated from /spa
 python3 - <<'PY'
 import json, glob, os, datetime
 
+# movers staleness gate: if the newest last_moved on any prediction card is older
+# than 48h, the mover-bump step was skipped after the wire — fail the run loudly
+# instead of silently publishing a stale panel (2026-10-03 regression).
+newest=max((json.load(open(f)).get("last_moved") or "")[:10] for f in glob.glob("/space/prediction/*.json"))
+age=(datetime.date.today()-datetime.date.fromisoformat(newest)).days
+if age>2:
+    raise SystemExit(f"MOVERS STALE: newest last_moved={newest} ({age}d old). Run the mover bump before sync.")
+
 P="/space/prediction/"
 here=os.path.dirname(os.path.abspath(__file__)) if False else os.getcwd()
 
