@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-10-03",
+  "generated": "2026-10-04",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -6986,6 +6986,12 @@
  ],
  "movers": [
   {
+   "time": "2026-10-04: no confidence change at evidence-append stage per verification gate \u2014 but note conditioning pattern now at three instances (Gastonia 09-17, dividend-conditioning 10-02, Acton 10-03); recommend next repricing session evaluate Branch A pre-positioning upgrade",
+   "ref": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
+   "change": "confidence 74 \u2014 status pending",
+   "trigger": "[2026-09-17] Trump at Gastonia NC rally: FEMA $2B relief conditioned on Whatley winning ('if Michael loses, I'm not sending it'); House fled DC to defer Hegseth impeachment past mi"
+  },
+  {
    "time": "2026-10-03",
    "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
    "change": "confidence 0.3 \u2014 status pending",
@@ -7014,36 +7020,31 @@
    "ref": "Press Access Enclosure \u2192 Media Capture (pool collapse \u2192 friendly-inherit \u2192 enforcement)",
    "change": "confidence 45 \u2014 status pending",
    "trigger": "One episode (09-10 vanguard split, 09-18 ban + revocations, 09-20 Houchins op-ed, 09-21 network pool suspension, 09-22 gap closure on UNGA day) \u2014 five facets, scored as ONE episode"
-  },
-  {
-   "time": "2026-09-26",
-   "ref": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
-   "change": "confidence 70 \u2014 status pending",
-   "trigger": "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
   }
  ],
  "daily_read": {
   "summary": [
-   "The Iran track is the story of the day: senior national-security officials met secretly at Camp David Friday on next steps in the war and the Houthi/Saudi Yemen escalation. An Iranian source says the country is \"gearing up for a major round of fighting with the US.\" Trump framed it as binary \u2014 \"we blow them up or make a deal.\" The IMO paused Hormuz escort operations after a vessel attack. Strikes-after-midterms remains the pattern; the decision node looks imminent.",
-   "Markets: the 10Y crossed 5.34% this week \u2014 highest since 2002. The final pre-election jobs report came in soft (+29K vs 84K expected, unemployment 4.2%) and stocks rallied on it: soft labor data read as Fed-hold odds is a stagflationary-late-cycle signature. The affordability lane hardens with a month to go.",
-   "Energy: the G7 agreed to release up to 100M barrels of crude and diesel reserves over four months; Trump announced the diesel piece at the Alabama rally. Pre-election strategic releases are the price-signal-suppression playbook, now multilateral. Brent fell back toward $101.",
-   "Midterms: Trump's stump circuit confirms the deep-red map read \u2014 Alabama for base maintenance, Ohio today to defend a close Senate seat, then Texas, Alaska, Iowa, Florida aimed at \"sporadic voters.\" Watch whether the fraud frame deploys before or only after Nov 3.",
-   "The military-vote apparatus stacked: Hegseth ordered a one-day October stand-down so troops can vote and says he was \"designated by the president to ensure military votes are counted.\" A defense secretary announcing vote-count oversight four weeks before an election \u2014 on top of the 20% slot purge \u2014 is the clearest institutional-capture move this week.",
-   "Media: DOJ filed Friday to reinstate the press ban; hearing next week, TRO expires Oct 8. The White House removed CNN from the pool a second time while under the restraining order. Also: Hegseth announced a Pentagon Office of Religious Affairs; Musk appointed to the \"future of warfare\" task force.",
-   "Also today: the owner captured a live platform-framing specimen \u2014 Facebook's tag-suggestion box read an image with no metadata and generated compliant PR copy for a post framing the regime's aesthetic as fascist. Vision-captioning on ingest, official-register default. Logged as a framing-enforcement observation."
+   "The Super Intelligence Force is the structural story of the day: a new task force putting AI governance under intelligence and security agencies \u2014 DNI Clayton leading, with FTC chair Ferguson, DoD CTO Emil Michael, and OPM director Kupor alongside. Two lanes at once: the AI-governance track we've been watching since the September guardrails actions, and the loyalist-appointment channel. Card pending once details firm.",
+   "The Iran theater widened: Yemeni government forces (Saudi/US-backed) launched an offensive to retake Houthi territory, with Houthis encircling Taiz; a Houthi-claimed strike hit the Aramco Riyadh refinery and Saudi strikes hit Sanaa. A fifth tanker strike of the week in Hormuz. Hegseth called the blockade \"ironclad\" and said the US controls the strait. Camp David principals (Vance, Rubio, Hegseth, Witkoff, Ratcliffe, Caine) met with ~9,000 more troops inbound \u2014 theater total ~20k. Trump reaffirmed on the trail that the war ends \"right after the election.\" The strikes-after-midterms watch holds: any pre-Nov 3 strike remains its falsifier.",
+   "Markets: the 10Y is plateauing around 5.3% \u2014 the read is \"weeks, not days\" at this level; 2y ~4.84%, 30y ~5.61%, Brent above $101. Fed-hike odds pared back to one move, shifted from October to December. The six-percent quest watch stays live; next barrier 5.5%.",
+   "Energy: the IEA has deployed 325M of the 400M-barrel release; the G7's coordinated 100M-barrel release continues, with European diesel reserves now in play. OPEC+ JMMC met today. The pre-election diesel-deflation operation runs on schedule.",
+   "Midterms: early voting is underway in the first jurisdictions this week \u2014 and NPR flags voters relying on AI for ballot decisions. That makes this the first observed AI-informed voting cycle, and it lands directly on the America.gov chatbot watch: a state-run AI channel at the front door of the federal government, three weeks before an election. The daily 2020-answer check stands.",
+   "Brazil: first round is today. Polls close ~5pm ET; a runoff Oct 25 if no majority. Per the Donroe watch protocol we report only TSE complete results, and we expect US-interference claims from the Bolsonaro camp with the tariff angle attached.",
+   "Also from the weekend: the Vandalia rally (verified against independent reporting \u2014 CNBC, Fox, AP, WHIO) carried the sharpest retaliation language of the tour so far: \"put them down once and for all,\" removals/\"Columbus, Ohio\" at campaign volume, and a joke about \"hanging\" opponents. Logged as an eliminationist-rhetoric absorption card with the 48hr-event record opened."
   ],
   "watching": [
-   "Press-ban preliminary-injunction ruling; TRO expires Oct 8 \u2014 does enforcement obey it",
+   "Super Intelligence Force: follow-up detail, real mandate vs. announcement, who reports to whom",
    "Iran decision node: Camp David follow-through; strikes before or after Nov 3; Hormuz escorts resume?",
+   "Yemen escalation: does the Houthi offensive spread the theater beyond Hormuz",
    "G7 reserve release: does it hold Brent under ~$100 through the election",
-   "Military-vote apparatus: scope of the Hegseth \"ensure counted\" designation; which commands get monitors",
-   "Sat Oct 3: Vandalia OH rally (5:30pm); tour legs next week",
-   "Sun Oct 4: Brazil first round \u2014 fraud-frame chatter, Donroe tool armed",
+   "Brazil first round tonight: TSE results; runoff math; fraud-frame chatter",
+   "Military-vote apparatus: scope of the Hegseth \"ensure counted\" designation",
+   "Press-ban preliminary-injunction hearing; TRO expires Oct 8",
    "Fraud-frame deployment timing: pre-election or post-loss only",
-   "10Y six-percent watch: 5.34% cleared; next barrier 5.5%",
+   "10Y six-percent watch: 5.3% plateau; next barrier 5.5%",
    "America.gov 2020 answer: daily check stands",
    "$800M impounded funds: does the money move?"
   ],
-  "date": "2026-10-03"
+  "date": "2026-10-04"
  }
 }
