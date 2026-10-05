@@ -25,3 +25,26 @@ WATCHING:
 - 10Y six-percent watch: 5.3% plateau; next barrier 5.5%
 - America.gov 2020 answer: daily check stands
 - $800M impounded funds: does the money move?
+
+---
+
+DATE: 2026-10-05 (MORNING EDITION)
+
+SUMMARY:
+Brazil resolved overnight: runoff Oct 25. TSE count at 98.69% has Bolsonaro 47.26% / Lula 44.89% — neither cleared 50%, but the polling miss is confirmed (final Datafolha had Lula 45–42). The late Bahia/Ceará/Pernambuco count ran Lula-heavy as modeled, just not enough. Lula called the result "unexpected." Expect US-interference claims from the Bolsonaro camp as the runoff campaign opens — the tariff angle comes attached. TSE-only protocol stands.
+
+The Iran theater keeps widening without a strike decision node: Yemeni government forces (Saudi/US-backed) launched an offensive to retake Houthi territory; Houthis are encircling Taiz and cutting the last road to Aden. Camp David principals met Friday; ~9,000 troops (Theodore Roosevelt + Makin Island ARG) are inbound, theater total ~20k. Trump reaffirmed the war ends "right after the election" — the strikes-after-midterms watch holds, and any pre-Nov 3 strike remains its falsifier.
+
+Markets: 10Y plateauing around 5.3% — "weeks, not days." 2y ~4.84%, 30y ~5.61%, Brent above $101. Fed-hike odds pared to one move, shifted from October to December. The six-percent quest watch stays live; next barrier 5.5%. OPEC+ JMMC met; the G7's coordinated 100M-barrel release continues with European diesel reserves in play — the pre-election diesel-deflation operation runs on schedule.
+
+Midterms: early voting opens in the first jurisdictions this week. NYT has Democrats up 10+ on the generic ballot; AP-KFF flags the immigration crackdown splitting rural voters. Feed baseline (10-05) shows no fraud-frame or emergency-powers content yet — deployment-timing watch stays pre-election-clear.
+
+Weekend carryover: the Vandalia rally eliminationist-rhetoric card stands (48hr-event record open), and the Flock Fourth Amendment suppression ruling (N.D. Okla., patrol-vehicle data) landed Sunday — surveillance-enclosure pushback lane.
+
+WATCHING:
+- Brazil runoff mechanics: Bolsonaro-camp interference claims, tariff linkage, TSE-only results
+- Iran decision node: Camp David follow-through; strikes before or after Nov 3; Hormuz escorts resume?
+- Yemen escalation: does the Houthi offensive spread the theater beyond Hormuz
+- G7 reserve release: does it hold Brent under ~$100 through the election
+- Super Intelligence Force follow-through: real mandate vs. announcement
+- DNS: machine domain n81t38.rool.cloud went NXDOMAIN ~09:25 ET — live verification blocked, upstream nameservers confirm the record is missing
