@@ -1,5 +1,6 @@
 #!/bin/bash
-# CASS dashboard data-layer sync — data-only, staging-first per protocol
+# CASS dashboard data-layer sync — data-only, prod+staging per PUSH-TARGET AMENDMENT (2026-10-05):
+#   card/data updates -> prod + staging simultaneously; design changes -> staging only until approval.
 # Usage: ./sync_data.sh ["commit message"]
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -107,3 +108,9 @@ git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # our regen output is authoritative over any remote-only drift.
 git pull --rebase -X ours -q origin main
 git push -q origin main && echo "PUSHED TO PROD ✓"
+# PUSH-TARGET AMENDMENT (2026-10-05): data pushes go to staging too so boards never diverge on numbers.
+if git remote get-url staging >/dev/null 2>&1; then
+  git push -q staging main && echo "PUSHED TO STAGING ✓"
+else
+  echo "WARN: no 'staging' remote configured — staging board NOT updated"
+fi
