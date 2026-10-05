@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-10-04",
+  "generated": "2026-10-05",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -6986,22 +6986,28 @@
  ],
  "movers": [
   {
-   "time": "2026-10-04: no confidence change at evidence-append stage per verification gate \u2014 but note conditioning pattern now at three instances (Gastonia 09-17, dividend-conditioning 10-02, Acton 10-03); recommend next repricing session evaluate Branch A pre-positioning upgrade",
+   "time": "2026-10-05",
    "ref": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
    "change": "confidence 74 \u2014 status pending",
-   "trigger": "[2026-09-17] Trump at Gastonia NC rally: FEMA $2B relief conditioned on Whatley winning ('if Michael loses, I'm not sending it'); House fled DC to defer Hegseth impeachment past mi"
+   "trigger": "2026-10-05: Brazil first-round resolved \u2014 runoff Oct 25 (Bolsonaro 47.26/Lula 44.89 at 98.69% TSE count), confirming 10-04 evening-wire polling-miss model; interference-claims angl"
+  },
+  {
+   "time": "2026-10-05",
+   "ref": "Ground Invasion of Iran",
+   "change": "confidence 49 \u2014 status pending",
+   "trigger": "2026-10-05 morning wire: theater tempo unchanged/widening \u2014 Yemeni gov launched Red Sea coast offensive under intensified Saudi coalition air campaign; Houthis press Taiz/cut last "
+  },
+  {
+   "time": "2026-10-04",
+   "ref": "ALPR Surveillance Decoy-Substrate Mechanism (Flock/Axon)",
+   "change": "confidence 79 \u2014 status emergent",
+   "trigger": "Sept 8, 2026 (TechSpot/Fox40): Grass Valley, CA canceled its Flock contract (Aug 11), removed all cameras \u2014 and Flock reinstalled at least two without permission, claiming its auto"
   },
   {
    "time": "2026-10-03",
    "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
    "change": "confidence 0.3 \u2014 status pending",
    "trigger": "Item 3: reported conditioning of federal disaster relief on electoral outcome (2026-09-17) \u2014 scoped to pre-build predicate only"
-  },
-  {
-   "time": "2026-10-03",
-   "ref": "Ground Invasion of Iran",
-   "change": "confidence 49 \u2014 status pending",
-   "trigger": "Primary juxtaposition (Sept 2, 2026): White House private leaks reveal leadership is discussing how to 'quiet quit' or declare the Iran war over to protect midterm optics, directly"
   },
   {
    "time": "2026-10-03",
