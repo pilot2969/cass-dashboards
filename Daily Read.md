@@ -1,50 +1,26 @@
-DATE: 2026-10-04 (MORNING EDITION)
+DATE: 2026-10-05 (EVENING EDITION)
 SUMMARY:
-The Super Intelligence Force is the structural story of the day: a new task force putting AI governance under intelligence and security agencies — DNI Clayton leading, with FTC chair Ferguson, DoD CTO Emil Michael, and OPM director Kupor alongside. Two lanes at once: the AI-governance track we've been watching since the September guardrails actions, and the loyalist-appointment channel. Card pending once details firm.
+The Iran theater held its dangerous tempo for a third straight day: a third tanker in two days hit near Hormuz, Pezeshkian ruled out US talks, and the Houthis struck Riyadh airport and an Aramco refinery while the Saudi coalition strikes Yemen. Trump called Iran "ready to fold up," declared peace with Tehran impossible, and renewed the threat to resume attacks after the midterms — the strikes-after-midterms sequencing is now reinforced three days running, with no pre-election strike activity. New signature detail: bombers recalled from England so as not to "tempt the enemy." Victory narration plus talks-dead plus force recall is the dissonance pattern to watch for walk-back or rally bait.
 
-The Iran theater widened: Yemeni government forces (Saudi/US-backed) launched an offensive to retake Houthi territory, with Houthis encircling Taiz; a Houthi-claimed strike hit the Aramco Riyadh refinery and Saudi strikes hit Sanaa. A fifth tanker strike of the week in Hormuz. Hegseth called the blockade "ironclad" and said the US controls the strait. Camp David principals (Vance, Rubio, Hegseth, Witkoff, Ratcliffe, Caine) met with ~9,000 more troops inbound — theater total ~20k. Trump reaffirmed on the trail that the war ends "right after the election." The strikes-after-midterms watch holds: any pre-Nov 3 strike remains its falsifier.
+OPEC+ declined to defuse the spike: seven major exporters agreed to hold November production steady with Brent above $100, 29 days before the midterms. That leaves the domestic deflation operation — reserve releases, gas-tax theater — carrying the pre-election affordability narrative alone. Expect the price-pain blame frames to keep running against the opposition (see the diesel/fisherman specimen from tonight's capture).
 
-Markets: the 10Y is plateauing around 5.3% — the read is "weeks, not days" at this level; 2y ~4.84%, 30y ~5.61%, Brent above $101. Fed-hike odds pared back to one move, shifted from October to December. The six-percent quest watch stays live; next barrier 5.5%.
+Election machinery moved on two fronts. The Supreme Court let the SAVE voter-eligibility database operate for the midterms; Travis County's own testing found 10–21% of SAVE flags were actually US citizens — false positives that feed both the fraud-claims lane and purge-harm, and pre-build fuel for post-election contestation (direct input to the c-002 catalyst node). Separately, a federal court struck down the FEMA funding-conditions election gambit as unlawful — the court-neutralization lane picked up a counterexample datapoint. And USA Today tallies the full pre-election package: taxpayer-funded ads, $500 checks, and the $5,000-per-voter payout promise if the GOP wins.
 
-Energy: the IEA has deployed 325M of the 400M-barrel release; the G7's coordinated 100M-barrel release continues, with European diesel reserves now in play. OPEC+ JMMC met today. The pre-election diesel-deflation operation runs on schedule.
+Brazil delivered the sharpest cross-finding of the day. The runoff is set for Oct 25 — Flávio Bolsonaro 47.26%, Lula 44.89% (TSE), with a real Datafolha polling miss. But tonight's Facebook map specimen already declares "BRASIL DEFEATS SOCIALISM IN HISTORIC ELECTION" — before the runoff. The narrative hardened ahead of the results, not after them: pre-legitimation, the mirror image of the domestic prepositioning family. The Donroe watch card is updated.
 
-Midterms: early voting is underway in the first jurisdictions this week — and NPR flags voters relying on AI for ballot decisions. That makes this the first observed AI-informed voting cycle, and it lands directly on the America.gov chatbot watch: a state-run AI channel at the front door of the federal government, three weeks before an election. The daily 2020-answer check stands.
+Markets: the 10Y plateau holds at 5.26–5.31%, the 30Y at 5.66% — multiyear highs on inflation and oil fear. Brent above $100; the WTI–10Y correlation is at 0.96, the strongest since 2019. Six-percent quest watch: plateau intact, next barrier 5.5%.
 
-Brazil: first round is today. Polls close ~5pm ET; a runoff Oct 25 if no majority. Per the Donroe watch protocol we report only TSE complete results, and we expect US-interference claims from the Bolsonaro camp with the tariff angle attached.
-
-Also from the weekend: the Vandalia rally (verified against independent reporting — CNBC, Fox, AP, WHIO) carried the sharpest retaliation language of the tour so far: "put them down once and for all," removals/"Columbus, Ohio" at campaign volume, and a joke about "hanging" opponents. Logged as an eliminationist-rhetoric absorption card with the 48hr-event record opened.
+Capture day note: 10-05 is the densest single capture day of the cycle — eight right-flank specimens in the evening roundup against the morning's two left-mirror prepositioning specimens, plus the named-actor Detroit/Philly fraud post and the verified Trump AI robot-army recirculation. Both flanks are running catastrophizing prepositioning simultaneously, one month out.
 WATCHING:
-- Super Intelligence Force: follow-up detail, real mandate vs. announcement, who reports to whom
-- Iran decision node: Camp David follow-through; strikes before or after Nov 3; Hormuz escorts resume?
-- Yemen escalation: does the Houthi offensive spread the theater beyond Hormuz
-- G7 reserve release: does it hold Brent under ~$100 through the election
-- Brazil first round tonight: TSE results; runoff math; fraud-frame chatter
-- Military-vote apparatus: scope of the Hegseth "ensure counted" designation
-- Press-ban preliminary-injunction hearing; TRO expires Oct 8
+- Iran decision node: strikes before or after Nov 3; walk-back of "ready to fold up"; Hormuz tanker tempo
+- OPEC+ November hold: does Brent stay >$100 through the election; reserve-release follow-on
+- SAVE false-positive fallout: purge litigation, contested-rolls prebuild, c-002 input
+- FEMA election-conditions ruling: appeal path; further grant-hostage tactics
+- Brazil runoff Oct 25: fraud-frame vs TSE; tariff linkage; WH formal comment; "defeats socialism" narrative hardening
+- Dividend-bribe lane: $500 checks disbursement timing vs. election day
 - Fraud-frame deployment timing: pre-election or post-loss only
 - 10Y six-percent watch: 5.3% plateau; next barrier 5.5%
 - America.gov 2020 answer: daily check stands
-- $800M impounded funds: does the money move?
+- Press-ban preliminary-injunction hearing; TRO expires Oct 8
 
 ---
-
-DATE: 2026-10-05 (MORNING EDITION)
-
-SUMMARY:
-Brazil resolved overnight: runoff Oct 25. TSE count at 98.69% has Bolsonaro 47.26% / Lula 44.89% — neither cleared 50%, but the polling miss is confirmed (final Datafolha had Lula 45–42). The late Bahia/Ceará/Pernambuco count ran Lula-heavy as modeled, just not enough. Lula called the result "unexpected." Expect US-interference claims from the Bolsonaro camp as the runoff campaign opens — the tariff angle comes attached. TSE-only protocol stands.
-
-The Iran theater keeps widening without a strike decision node: Yemeni government forces (Saudi/US-backed) launched an offensive to retake Houthi territory; Houthis are encircling Taiz and cutting the last road to Aden. Camp David principals met Friday; ~9,000 troops (Theodore Roosevelt + Makin Island ARG) are inbound, theater total ~20k. Trump reaffirmed the war ends "right after the election" — the strikes-after-midterms watch holds, and any pre-Nov 3 strike remains its falsifier.
-
-Markets: 10Y plateauing around 5.3% — "weeks, not days." 2y ~4.84%, 30y ~5.61%, Brent above $101. Fed-hike odds pared to one move, shifted from October to December. The six-percent quest watch stays live; next barrier 5.5%. OPEC+ JMMC met; the G7's coordinated 100M-barrel release continues with European diesel reserves in play — the pre-election diesel-deflation operation runs on schedule.
-
-Midterms: early voting opens in the first jurisdictions this week. NYT has Democrats up 10+ on the generic ballot; AP-KFF flags the immigration crackdown splitting rural voters. Feed baseline (10-05) shows no fraud-frame or emergency-powers content yet — deployment-timing watch stays pre-election-clear.
-
-Weekend carryover: the Vandalia rally eliminationist-rhetoric card stands (48hr-event record open), and the Flock Fourth Amendment suppression ruling (N.D. Okla., patrol-vehicle data) landed Sunday — surveillance-enclosure pushback lane.
-
-WATCHING:
-- Brazil runoff mechanics: Bolsonaro-camp interference claims, tariff linkage, TSE-only results
-- Iran decision node: Camp David follow-through; strikes before or after Nov 3; Hormuz escorts resume?
-- Yemen escalation: does the Houthi offensive spread the theater beyond Hormuz
-- G7 reserve release: does it hold Brent under ~$100 through the election
-- Super Intelligence Force follow-through: real mandate vs. announcement
-- DNS: machine domain n81t38.rool.cloud went NXDOMAIN ~09:25 ET — live verification blocked, upstream nameservers confirm the record is missing
