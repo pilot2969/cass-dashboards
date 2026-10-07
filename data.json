@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -6991,6 +6991,12 @@
  ],
  "movers": [
   {
+   "time": "2026-10-06",
+   "ref": "Inward-Turning Hegemon Cycle: Post-WWII Order Collapses as Great Powers Contest Internally",
+   "change": "confidence 0.32 \u2014 status pending",
+   "trigger": "2026-10-06 OSCE observer exclusion (first break since 2002; US joins Russia/Belarus) + DOJ own-monitor deployment: P16-T tell 2 of 2, blended P(tell>=2) 0.45-0.55 confirmed branch;"
+  },
+  {
    "time": "2026-10-05",
    "ref": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
    "change": "confidence 74 \u2014 status pending",
@@ -7043,12 +7049,6 @@
    "ref": "Hegseth loyal-force infrastructure precedes enemy designation \u2014 war against the 'enemy within' under religious mandate",
    "change": "confidence 0.24 \u2014 status pending",
    "trigger": "Sacralization track: 2026-09-18 legislative-halls, 2026-09-21 Christian-trolling-theology entries corroborate religious-mandate direction."
-  },
-  {
-   "time": "2026-10-03",
-   "ref": "Iran Escalation Against U.S. Naval Escorts and Risk of Major Surface Combatant Strike",
-   "change": "confidence 86 \u2014 status emergent",
-   "trigger": "[2026-09-17] Houthi stranglehold on Bab el-Mandeb raises escort tempo; but WH pivot to China-brokered Iran diplomacy (Saudi routing via Beijing) adds de-escalation branch \u2014 trimmed"
   }
  ],
  "daily_read": {
