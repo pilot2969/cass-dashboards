@@ -1,20 +1,21 @@
-DATE: 2026-10-06 (MORNING EDITION)
+DATE: 2026-10-07 (MORNING EDITION)
 SUMMARY:
-A genuinely quiet morning — the wire ran a 578-item corpus with no new US political shock cluster, consistent with campaign-trail mode: the candidate is the news, governing lanes thin out. The delegation gauge read zero this morning, the first flat morning in the stretch; watch whether it re-fires tonight or stays flat through the trail swing.
+The tempo lane broke open. Iran formally announced the maritime "exclusion zone" outside the Strait of Hormuz — the threat stream since 9/7 is now standing policy — and within it the IRGC hailed down a transiting tanker and ordered it around. Iran claims the Togo-flagged "Trend" strike; Bloomberg confirms tanker attacks ramping just as Gulf flows approach prewar levels; oil near $100 with US strikes on IRGC-linked tankers. Branch-C of the inward-turning card now has a live energy-price channel feeding domestic stress one month before midterms. Direct US Navy-Iran contact inside the zone is the standing contingency trigger (c1).
 
-Two lanes moved against the quiet. First, the Hegseth purge is now costing the administration with its own side — "Republican Senators Rip Hegseth Over Shock Purge" — plus an ICE lawsuit from a US citizen shot in Chicago. Vanguard churn is the live lane, and the friction is now intra-party. Second, the poll-and-money pair arrived together in one cycle: Reuters/Ipsos has approval at a record low with Hispanic voters souring, and in the same news cycle the super PAC announced it will personally pay for the taxpayer-funded election ads that drew backlash. Prepositioning and deflection landed in the same cycle, one month out.
+A second supply shock compounds it: PDVSA's Cardon refinery (310,000 bpd, Venezuela's second-largest) exploded and halted after a gas-line rupture, sabotage under investigation. Two hemispheres, two product-supply losses in one cycle. Crack spreads widen. Flagged pattern: if a third refinery incident in this window draws sabotage attribution, it escalates.
 
-The dominant volume story is not domestic: a plague-institute death in a Siberian city has Russia telling the WHO there are no cases while Rubio demands more information-sharing. High volume, health/uncertainty register — flagged only if it bleeds into trust-of-institutions territory.
+The domestic lane deepened rather than spiked. Three accountability layers hit the same day (IG restructuring "commanders are back in charge," the FBI whistleblower probe with oral-only directives, and the confirmed firing-squad execution order for Maj. Hasan — first US military execution since 1961, dated Dec 3, deliberate pre-midterm calendar). The OSCE observer exclusion is confirmed real — first break since 2002, US now in the same column as Russia and Belarus — and qualifies as the second pre-build tell on the P16-T premise (count: 2 of 2; blended p(tell>=2) holds 0.45-0.55). P18-T closed REVISED with the ~0.314 joint anchored; the inward-turning card carries the full verdict set.
 
-Energy substrate keeps thinning in the background: Chevron's CEO on thinning fuel buffers, Gulf flows at 81% of pre-war rate, and SCOTUS taking up the local climate suits against oil and gas. Spain's housing decrees triggering a snap election is the day's sharpest international enclosure item.
+The volume frame moving against a quiet feed: an antisemitic meme (shtetl vs Native figure) was the highest-engagement item in a no-selection-bias morning capture at 208k+ reactions — mass-scale normalization, not fringe. Mirror capture logged the same escalation structure on the left (firing-squad normalcy thread). Bidirectional dehumanization vocabulary now in ordinary feeds; the gender-pet frame gained an institutional shell (Traditional Skills Summit, Oct 12-16).
+
+MIDTERMS: NYT/Siena shows Dems gaining in five competitive Senate races incl. Texas and Alaska; model flips OH/ME/AK -> 51-49. Trend against the incumbent party one month out keeps the P15-T contested-results premise intact.
 
 WATCHING:
-- Whether legitimacy_delegitimization re-fires tonight after a zero morning
-- Hegseth purge intra-party blowback: does it stay in GOP-senator register or reach the floor
-- Poll cluster: does approval record-low stick; super-PAC ads payout framing vs backlash
-- Iran rhetoric prepositioning ("take out" LA/San Diego) vs post-midterm strikes watch
-- Siberia plague story: does it metastasize into trust-of-institutions lane
-- 10Y six-percent watch: plateau intact; next barrier 5.5%
-- America.gov 2020 answer: daily check stands
+- Exclusion-zone enforcement incidents; any direct US Navy-Iran contact (trigger c1)
+- Cardon investigation: sabotage attribution vs accident; the third-refinery-incident escalation flag
+- Iowa Senate debate tonight (Hinson 47-46)
+- Hasan execution-order reaction cycle: does celebration-normalcy become the register of the week
+- Antisemitic meme class: 500k cumulative or mainstream coverage = escalation to watch item
+- 10Y six-percent watch: plateau intact
 
 ---
