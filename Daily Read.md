@@ -1,21 +1,19 @@
-DATE: 2026-10-07 (MORNING EDITION)
+DATE: 2026-10-08 (MORNING EDITION)
 SUMMARY:
-The tempo lane broke open. Iran formally announced the maritime "exclusion zone" outside the Strait of Hormuz — the threat stream since 9/7 is now standing policy — and within it the IRGC hailed down a transiting tanker and ordered it around. Iran claims the Togo-flagged "Trend" strike; Bloomberg confirms tanker attacks ramping just as Gulf flows approach prewar levels; oil near $100 with US strikes on IRGC-linked tankers. Branch-C of the inward-turning card now has a live energy-price channel feeding domestic stress one month before midterms. Direct US Navy-Iran contact inside the zone is the standing contingency trigger (c1).
+The strike ladder converted from preparation to declared policy. At the San Antonio rally Trump publicly killed the deal: "the deal isn't really something that I want to do, but they're willing to offer us anything to stop." That converts the Axios reporting (CENTCOM combat preparatory orders issued days ago, windows late-Oct to Nov 3) into an open negotiating posture - no-deal while the Pentagon preps. NBC confirms the White House has discussed resuming large-scale operations in "the coming weeks," and Axios says outright that military aggression could influence the midterm outcome. The apparatus is openly entertaining war-as-rally-effect with 26 days to run, approval at record lows over gas prices.
 
-A second supply shock compounds it: PDVSA's Cardon refinery (310,000 bpd, Venezuela's second-largest) exploded and halted after a gas-line rupture, sabotage under investigation. Two hemispheres, two product-supply losses in one cycle. Crack spreads widen. Flagged pattern: if a third refinery incident in this window draws sabotage attribution, it escalates.
+Hormuz saturating: tanker struck off Qatar today with casualties; 12 attacks in the week to Oct 5 - highest weekly total of the entire war (UKMTO/Reuters/Guardian); oil above $100; third US carrier inbound. Strike ladder and chokepoint tempo are converging on the same window.
 
-The domestic lane deepened rather than spiked. Three accountability layers hit the same day (IG restructuring "commanders are back in charge," the FBI whistleblower probe with oral-only directives, and the confirmed firing-squad execution order for Maj. Hasan — first US military execution since 1961, dated Dec 3, deliberate pre-midterm calendar). The OSCE observer exclusion is confirmed real — first break since 2002, US now in the same column as Russia and Belarus — and qualifies as the second pre-build tell on the P16-T premise (count: 2 of 2; blended p(tell>=2) holds 0.45-0.55). P18-T closed REVISED with the ~0.314 joint anchored; the inward-turning card carries the full verdict set.
+The blue-wave signal is unambiguous and the delegitimization frame has its substrate: generic ballot Dems +8 (several polls +10), NPR shows Dems holding the enthusiasm edge 84/82 vs 77, CBC calls early data "something of a bloodbath" for Republicans. Slate already running the "are the polls wrong again?" piece. Both halves of Branch A's pretext chain are loaded before the vote: 50.6M ICE/DOJ voter records (Oct 7) meet a pre-delegitimized polling narrative, with right-pole street-mobilization pre-commitment (DC meetup meme) loading in the same window.
 
-The volume frame moving against a quiet feed: an antisemitic meme (shtetl vs Native figure) was the highest-engagement item in a no-selection-bias morning capture at 208k+ reactions — mass-scale normalization, not fringe. Mirror capture logged the same escalation structure on the left (firing-squad normalcy thread). Bidirectional dehumanization vocabulary now in ordinary feeds; the gender-pet frame gained an institutional shell (Traditional Skills Summit, Oct 12-16).
+Shutdown politics: Congress walked away. Senate failed a seventh time to reopen, adjourned until Monday; House cancelled next week's votes. Day 9+ with no path. A judge is weighing indefinite reversal of the White House media ban - ruling pending.
 
-MIDTERMS: NYT/Siena shows Dems gaining in five competitive Senate races incl. Texas and Alaska; model flips OH/ME/AK -> 51-49. Trend against the incumbent party one month out keeps the P15-T contested-results premise intact.
+CARD MOVEMENT: 2026-midterms-legitimacy-catalyst-node repriced 50 -> 55 (morning wire, premise confirmation: Trump no-deal, CENTCOM orders standing, oil >$100, generic ballot +8). Election-domain falsifier unchanged. Ground-invasion card holds at 20 ("massive bombing" is air-campaign vocabulary; Dec 1 checkpoint stands).
 
 WATCHING:
-- Exclusion-zone enforcement incidents; any direct US Navy-Iran contact (trigger c1)
-- Cardon investigation: sabotage attribution vs accident; the third-refinery-incident escalation flag
-- Iowa Senate debate tonight (Hinson 47-46)
-- Hasan execution-order reaction cycle: does celebration-normalcy become the register of the week
-- Antisemitic meme class: 500k cumulative or mainstream coverage = escalation to watch item
-- 10Y six-percent watch: plateau intact
-
----
+- Strike execution windows: late-Oct (Israeli election) to Nov 3; CENTCOM force movements as last observable
+- Hormuz enforcement tempo: direct US Navy-Iran contact (trigger c1); tanker casualty escalation
+- Oil: >$100 sustained vs premise-discharge threshold (<$80)
+- Pre-build tell count: distinct national-level actors activating fraud claims (threshold >=2; Beck frame = 1)
+- Media-ban ruling; shutdown resolution path (or its absence)
+- Poll->election-denial frame mutation as generic ballot holds or widens

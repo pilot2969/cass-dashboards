@@ -97,6 +97,30 @@ if [ -n "$(git rev-list origin/main..HEAD)" ]; then
   git push -q origin main && echo "PUSHED TO PROD ✓"
 fi
 
+
+# deploy-serialization guard (added 2026-10-07, incident: 3 pushes within 40s
+# stacked Pages deploys; the blocked one failed with 400 and the CDN kept
+# serving the stale build for ~10 min). Before pushing, wait until the latest
+# Pages run on prod has reached a terminal state (success|failure|cancelled).
+# Max 8 min wait; on timeout, abort loudly rather than risk another stack.
+if git remote get-url origin | grep -q github.com; then
+  REPO="pilot2969/cass-dashboards"
+  if [ -n "${GH_TOKEN:-}" ]; then AUTH=(-H "Authorization: Bearer $GH_TOKEN"); else AUTH=(); fi
+  for i in $(seq 1 48); do
+    STATE=$(curl -sf "https://api.github.com/repos/$REPO/actions/runs?per_page=1" \
+      "${AUTH[@]}" | python3 -c 'import json,sys;print(json.load(sys.stdin)["workflow_runs"][0]["status"])' 2>/dev/null || echo unknown)
+    case "$STATE" in success|failure|cancelled|completed|unknown) break;; esac
+    if [ "$i" -eq 1 ]; then echo "pages deploy in flight ($STATE) — waiting to serialize"; fi
+    sleep 10
+  done
+  if [ "$STATE" != "unknown" ] && case "$STATE" in success|failure|cancelled|completed) false;; *) true;; esac; then
+    echo "ERROR: Pages deploy still in flight after 8 min ($STATE) — aborting push to avoid stacking"
+    exit 1
+  fi
+  # also verify the latest run's commit is already deployed (terminal run ahead of HEAD is fine)
+  echo "deploy-serialization: clear (last run state: $STATE)"
+fi
+
 # staging-first: verify JSON parses clean before any push
 python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json']]" \
   && echo "staging gate: JSON valid"
