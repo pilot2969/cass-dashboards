@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-10-07",
+  "generated": "2026-10-08",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -6991,16 +6991,28 @@
  ],
  "movers": [
   {
+   "time": "2026-10-08 09:20 ET",
+   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
+   "change": "confidence 55 \u2014 status pending",
+   "trigger": "Dedup: kinetic election-day events confirm child card election-day-violence-2026 only"
+  },
+  {
+   "time": "2026-10-07",
+   "ref": "CONTROL-2: No Insurrection Act Invocation Tied to the 2026 Midterms (through Jan 20, 2027)",
+   "change": "confidence 76.0 \u2014 status pending",
+   "trigger": "Most recent civilian-law invocations (1992 LA riots) were narrow and crisis-triggered"
+  },
+  {
+   "time": "2026-10-07",
+   "ref": "Ground Invasion of Iran",
+   "change": "confidence 20 \u2014 status pending",
+   "trigger": "2026-10-05 morning wire: theater tempo unchanged/widening \u2014 Yemeni gov launched Red Sea coast offensive under intensified Saudi coalition air campaign; Houthis press Taiz/cut last "
+  },
+  {
    "time": "2026-10-06",
    "ref": "Inward-Turning Hegemon Cycle: Post-WWII Order Collapses as Great Powers Contest Internally",
    "change": "confidence 0.32 \u2014 status pending",
    "trigger": "2026-10-06 OSCE observer exclusion (first break since 2002; US joins Russia/Belarus) + DOJ own-monitor deployment: P16-T tell 2 of 2, blended P(tell>=2) 0.45-0.55 confirmed branch;"
-  },
-  {
-   "time": "2026-10-05",
-   "ref": "2026 Midterms as Legitimacy-Catalyst Node (S&H/Turchin Refined)",
-   "change": "confidence 74 \u2014 status pending",
-   "trigger": "2026-10-05: Brazil first-round resolved \u2014 runoff Oct 25 (Bolsonaro 47.26/Lula 44.89 at 98.69% TSE count), confirming 10-04 evening-wire polling-miss model; interference-claims angl"
   },
   {
    "time": "2026-10-05",
@@ -7022,12 +7034,6 @@
   },
   {
    "time": "2026-10-05",
-   "ref": "Ground Invasion of Iran",
-   "change": "confidence 49 \u2014 status pending",
-   "trigger": "2026-10-05 morning wire: theater tempo unchanged/widening \u2014 Yemeni gov launched Red Sea coast offensive under intensified Saudi coalition air campaign; Houthis press Taiz/cut last "
-  },
-  {
-   "time": "2026-10-05",
    "ref": "META: Prosecution losses track registration craft, not thesis lineage (defect-family predictor)",
    "change": "confidence 60 \u2014 status pending",
    "trigger": "Counter-instances to the original strong form: Case 015 (Hegseth) and P2-T share no thesis content with C-001 yet lost on craft defects only; C-003 and C-004 were deliberately sele"
@@ -7043,31 +7049,24 @@
    "ref": "ALPR Surveillance Decoy-Substrate Mechanism (Flock/Axon)",
    "change": "confidence 79 \u2014 status emergent",
    "trigger": "Sept 8, 2026 (TechSpot/Fox40): Grass Valley, CA canceled its Flock contract (Aug 11), removed all cameras \u2014 and Flock reinstalled at least two without permission, claiming its auto"
-  },
-  {
-   "time": "2026-10-03",
-   "ref": "Hegseth loyal-force infrastructure precedes enemy designation \u2014 war against the 'enemy within' under religious mandate",
-   "change": "confidence 0.24 \u2014 status pending",
-   "trigger": "Sacralization track: 2026-09-18 legislative-halls, 2026-09-21 Christian-trolling-theology entries corroborate religious-mandate direction."
   }
  ],
  "daily_read": {
   "summary": [
-   "The tempo lane broke open. Iran formally announced the maritime \"exclusion zone\" outside the Strait of Hormuz \u2014 the threat stream since 9/7 is now standing policy \u2014 and within it the IRGC hailed down a transiting tanker and ordered it around. Iran claims the Togo-flagged \"Trend\" strike; Bloomberg confirms tanker attacks ramping just as Gulf flows approach prewar levels; oil near $100 with US strikes on IRGC-linked tankers. Branch-C of the inward-turning card now has a live energy-price channel feeding domestic stress one month before midterms. Direct US Navy-Iran contact inside the zone is the standing contingency trigger (c1).",
-   "A second supply shock compounds it: PDVSA's Cardon refinery (310,000 bpd, Venezuela's second-largest) exploded and halted after a gas-line rupture, sabotage under investigation. Two hemispheres, two product-supply losses in one cycle. Crack spreads widen. Flagged pattern: if a third refinery incident in this window draws sabotage attribution, it escalates.",
-   "The domestic lane deepened rather than spiked. Three accountability layers hit the same day (IG restructuring \"commanders are back in charge,\" the FBI whistleblower probe with oral-only directives, and the confirmed firing-squad execution order for Maj. Hasan \u2014 first US military execution since 1961, dated Dec 3, deliberate pre-midterm calendar). The OSCE observer exclusion is confirmed real \u2014 first break since 2002, US now in the same column as Russia and Belarus \u2014 and qualifies as the second pre-build tell on the P16-T premise (count: 2 of 2; blended p(tell>=2) holds 0.45-0.55). P18-T closed REVISED with the ~0.314 joint anchored; the inward-turning card carries the full verdict set.",
-   "The volume frame moving against a quiet feed: an antisemitic meme (shtetl vs Native figure) was the highest-engagement item in a no-selection-bias morning capture at 208k+ reactions \u2014 mass-scale normalization, not fringe. Mirror capture logged the same escalation structure on the left (firing-squad normalcy thread). Bidirectional dehumanization vocabulary now in ordinary feeds; the gender-pet frame gained an institutional shell (Traditional Skills Summit, Oct 12-16).",
-   "MIDTERMS: NYT/Siena shows Dems gaining in five competitive Senate races incl. Texas and Alaska; model flips OH/ME/AK -> 51-49. Trend against the incumbent party one month out keeps the P15-T contested-results premise intact."
+   "The strike ladder converted from preparation to declared policy. At the San Antonio rally Trump publicly killed the deal: \"the deal isn't really something that I want to do, but they're willing to offer us anything to stop.\" That converts the Axios reporting (CENTCOM combat preparatory orders issued days ago, windows late-Oct to Nov 3) into an open negotiating posture - no-deal while the Pentagon preps. NBC confirms the White House has discussed resuming large-scale operations in \"the coming weeks,\" and Axios says outright that military aggression could influence the midterm outcome. The apparatus is openly entertaining war-as-rally-effect with 26 days to run, approval at record lows over gas prices.",
+   "Hormuz saturating: tanker struck off Qatar today with casualties; 12 attacks in the week to Oct 5 - highest weekly total of the entire war (UKMTO/Reuters/Guardian); oil above $100; third US carrier inbound. Strike ladder and chokepoint tempo are converging on the same window.",
+   "The blue-wave signal is unambiguous and the delegitimization frame has its substrate: generic ballot Dems +8 (several polls +10), NPR shows Dems holding the enthusiasm edge 84/82 vs 77, CBC calls early data \"something of a bloodbath\" for Republicans. Slate already running the \"are the polls wrong again?\" piece. Both halves of Branch A's pretext chain are loaded before the vote: 50.6M ICE/DOJ voter records (Oct 7) meet a pre-delegitimized polling narrative, with right-pole street-mobilization pre-commitment (DC meetup meme) loading in the same window.",
+   "Shutdown politics: Congress walked away. Senate failed a seventh time to reopen, adjourned until Monday; House cancelled next week's votes. Day 9+ with no path. A judge is weighing indefinite reversal of the White House media ban - ruling pending.",
+   "CARD MOVEMENT: 2026-midterms-legitimacy-catalyst-node repriced 50 -> 55 (morning wire, premise confirmation: Trump no-deal, CENTCOM orders standing, oil >$100, generic ballot +8). Election-domain falsifier unchanged. Ground-invasion card holds at 20 (\"massive bombing\" is air-campaign vocabulary; Dec 1 checkpoint stands)."
   ],
   "watching": [
-   "Exclusion-zone enforcement incidents; any direct US Navy-Iran contact (trigger c1)",
-   "Cardon investigation: sabotage attribution vs accident; the third-refinery-incident escalation flag",
-   "Iowa Senate debate tonight (Hinson 47-46)",
-   "Hasan execution-order reaction cycle: does celebration-normalcy become the register of the week",
-   "Antisemitic meme class: 500k cumulative or mainstream coverage = escalation to watch item",
-   "10Y six-percent watch: plateau intact",
-   ""
+   "Strike execution windows: late-Oct (Israeli election) to Nov 3; CENTCOM force movements as last observable",
+   "Hormuz enforcement tempo: direct US Navy-Iran contact (trigger c1); tanker casualty escalation",
+   "Oil: >$100 sustained vs premise-discharge threshold (<$80)",
+   "Pre-build tell count: distinct national-level actors activating fraud claims (threshold >=2; Beck frame = 1)",
+   "Media-ban ruling; shutdown resolution path (or its absence)",
+   "Poll->election-denial frame mutation as generic ballot holds or widens"
   ],
-  "date": "2026-10-07"
+  "date": "2026-10-08"
  }
 }
