@@ -2,7 +2,7 @@
  "meta": {
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "source": "Rool Machine space export"
  },
  "macro_forecast": {
@@ -6991,10 +6991,10 @@
  ],
  "movers": [
   {
-   "time": "2026-10-08 09:20 ET",
+   "time": "2026-10-09 10:00 ET",
    "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
    "change": "confidence 55 \u2014 status pending",
-   "trigger": "Dedup: kinetic election-day events confirm child card election-day-violence-2026 only"
+   "trigger": "Supporting (precursor, ungraded): NYC ICE shooting 10-08 (Marble Hill, 7 rounds, 5yo son wounded, stable) + Mamdani-Trump call with 'Abolish ICE' demand refused; Belgal identity co"
   },
   {
    "time": "2026-10-07",
