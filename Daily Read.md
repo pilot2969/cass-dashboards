@@ -1,19 +1,24 @@
-DATE: 2026-10-08 (MORNING EDITION)
+DATE: 2026-10-09 (EVENING EDITION)
 SUMMARY:
-The strike ladder converted from preparation to declared policy. At the San Antonio rally Trump publicly killed the deal: "the deal isn't really something that I want to do, but they're willing to offer us anything to stop." That converts the Axios reporting (CENTCOM combat preparatory orders issued days ago, windows late-Oct to Nov 3) into an open negotiating posture - no-deal while the Pentagon preps. NBC confirms the White House has discussed resuming large-scale operations in "the coming weeks," and Axios says outright that military aggression could influence the midterm outcome. The apparatus is openly entertaining war-as-rally-effect with 26 days to run, approval at record lows over gas prices.
+Diesel deal formalized: OFAC issued Russia-related General License 135 this afternoon — authorizing sale, delivery, offloading and IMPORTATION INTO THE US of Russian-origin diesel, effective through 12:01am Apr 7 2027. Treasury's own post: 'at President Trump's direction.' The Putin lifeline is no longer implicit — it is operative sanctions architecture, 25 days before an election. Oil fell on the news (Reuters: Trump comments + Iran talks easing supply concerns) — the price-signal suppression lane and the pre-war-levels narrative-repair meme are now running in parallel.
 
-Hormuz saturating: tanker struck off Qatar today with casualties; 12 attacks in the week to Oct 5 - highest weekly total of the entire war (UKMTO/Reuters/Guardian); oil above $100; third US carrier inbound. Strike ladder and chokepoint tempo are converging on the same window.
+Zelensky's counter came within hours, three layers deep: 'not fair and not honest' (Axios), sanctions easing without a de-escalation agreement is 'obvious weakness' (X statement), and — sharpest — the Florida peace talks are a 'SMOKESCREEN' for the diesel deal (POLITICO). Kyiv's public read matches ours exactly. Trump had publicly pleaded with Zelensky to stop refinery strikes BEFORE the deal: the timeline shows a de facto pause since Sept 26 (last refinery hit: Ilsky) converted into a binding Russian benefit Kyiv never signed. Resumed strikes now hand Trump the 'Ukraine is raising your gas prices' blame frame — the trap structure. Defection test live.
 
-The blue-wave signal is unambiguous and the delegitimization frame has its substrate: generic ballot Dems +8 (several polls +10), NPR shows Dems holding the enthusiasm edge 84/82 vs 77, CBC calls early data "something of a bloodbath" for Republicans. Slate already running the "are the polls wrong again?" piece. Both halves of Branch A's pretext chain are loaded before the vote: 50.6M ICE/DOJ voter records (Oct 7) meet a pre-delegitimized polling narrative, with right-pole street-mobilization pre-commitment (DC meetup meme) loading in the same window.
+Iran: Pentagon has instructed CENTCOM to COMPLETE preparations for resumption of major combat operations (Axios, Oct 7-8; NYT: three aircraft carriers soon). Trump holds the 'no strikes before midterms' commitment publicly while the preparation tempo builds the option. Watch: strike window late-Oct to Nov 3.
 
-Shutdown politics: Congress walked away. Senate failed a seventh time to reopen, adjourned until Monday; House cancelled next week's votes. Day 9+ with no path. A judge is weighing indefinite reversal of the White House media ban - ruling pending.
+Ukraine track: Witkoff and Kushner meet the Ukrainian delegation Fri-Sat in the US — first negotiation infrastructure since the frozen-plan controversy, now running under the diesel-deal shadow.
 
-CARD MOVEMENT: 2026-midterms-legitimacy-catalyst-node repriced 50 -> 55 (morning wire, premise confirmation: Trump no-deal, CENTCOM orders standing, oil >$100, generic ballot +8). Election-domain falsifier unchanged. Ground-invasion card holds at 20 ("massive bombing" is air-campaign vocabulary; Dec 1 checkpoint stands).
+Shutdown day 9. Senate moved tonight: 60-40 cloture on an appropriations package (Cramer release: 'key step toward ending the longest-lasting government shutdown in history') — deal to Dec 11 advancing. 'Shutdown Clock' page remains the White House pain-lever.
+
+Information-warfare watch: OpenAI says ChatGPT users in Iran generated 100+ fake articles across 20+ outlets (WaPo). Foreign-execution of the same narrative-velocity machinery tracked on the dehumanization cards — note the symmetry of tooling.
+
+CARD MOVEMENT: No reprice — candidate repricing flagged on de-dollarization (sanctions architecture as electoral instrument) and midterms catalyst, pending oil-tape data tomorrow morning. Noted movers: none formalized.
 
 WATCHING:
-- Strike execution windows: late-Oct (Israeli election) to Nov 3; CENTCOM force movements as last observable
-- Hormuz enforcement tempo: direct US Navy-Iran contact (trigger c1); tanker casualty escalation
-- Oil: >$100 sustained vs premise-discharge threshold (<$80)
-- Pre-build tell count: distinct national-level actors activating fraud claims (threshold >=2; Beck frame = 1)
-- Media-ban ruling; shutdown resolution path (or its absence)
-- Poll->election-denial frame mutation as generic ballot holds or widens
+- Tanker AIS vs 300k-ton/month claim (5-7 day window)
+- Defection test: Ukraine resumes refinery strikes or holds the pause Kyiv never signed
+- US response to 'smokescreen' accusation (aid-cut threat / public rebuke / neither)
+- Whether Europe links the two grievances: sanctioned ICC vs lifted Russian sanctions
+- Iran: carrier deployments vs pre-midterm commitment; strike windows late-Oct to Nov 3
+- Senate deal completion to Dec 11; 'Shutdown Clock' pain-lever continuation
+- Starnes purge-frame upgrade triggers: named 'evil' class, policy conversion, clergy endorsement, cross-platform velocity
