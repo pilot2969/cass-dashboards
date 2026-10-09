@@ -87,8 +87,8 @@ PY
 # stranded-commit guard: a prior run can die between commit and push, leaving
 # prod stale while a naive "nothing to push" exit looks like success. If local
 # is ahead of origin, finish the push regardless of whether THIS run changed data.
-if ! git diff --quiet history.json data.json; then
-  git add history.json data.json
+if ! git diff --quiet history.json data.json "Daily Read.md"; then
+  git add history.json data.json "Daily Read.md"
   git commit -q -m "$MSG (data-only)"
 fi
 
@@ -125,7 +125,11 @@ fi
 python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json']]" \
   && echo "staging gate: JSON valid"
 
-git add data.json history.json
+# canonical-source amendment (2026-10-09): Daily Read.md is the canonical source
+# for the daily_read panel; it must be committed with the generated artifacts or
+# the repo copy silently diverges from what was parsed (morning-wire incident:
+# rewrite landed after push -> deployed panel stale while local file current).
+git add data.json history.json "Daily Read.md"
 git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # pull with rebase; a failure must abort the script (set -e), never print success.
 # -X ours is safe here because data.json/history.json are generated artifacts:
