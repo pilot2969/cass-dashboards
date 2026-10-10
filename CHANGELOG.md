@@ -75,3 +75,6 @@ This file mirrors (and extends) the Version History table rendered in `index.htm
 
 ## v3.3.3 — Oct 9, 2026
 - Masthead rebuilt in legacy Command Dashboard style: Live Telemetry badge + midterm clock chips, large title with gold accent, updated stamp
+
+## v3.3.4 — Oct 9, 2026
+- Big-question cards now expandable: each drops down to What this is / Confirming action (with base rate + window) / What would kill it / Evidence for & against / Watchlist, pulled from the prediction objects
