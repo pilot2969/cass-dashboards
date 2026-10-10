@@ -150,3 +150,6 @@ if git remote get-url staging >/dev/null 2>&1; then
 else
   echo "WARN: no 'staging' remote configured — staging board NOT updated"
 fi
+# R26a (2026-10-10): after any HTML patch, rg EVERY date-bearing pattern
+# ("Updated <b>", "Built", "CASS Briefing —", hero text) — the footer stamp
+# and hero Updated line are SEPARATE strings; patching one is not the other.
