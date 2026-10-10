@@ -1,11 +1,3 @@
 <!doctype html><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>CASS Briefing — 2026-10-09</title><style>.mm{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:2px 14px;margin:18px 0}.mm summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0}.mm summary::-webkit-details-marker{display:none}.mm[open] .clmarker{transform:rotate(180deg)}.mmbody{padding-bottom:8px}.mmrow{color:var(--tx);font-size:13px;line-height:1.55;margin-bottom:10px}.mmterm{color:var(--warm);font-weight:700}.mmbul{color:var(--mut);font-size:12px;line-height:1.5;margin:0 0 7px 16px;padding-left:6px;border-left:2px solid var(--line)}.mmbul .mmterm{font-size:12px}.mmfoot{color:var(--mut);font-size:11.5px;line-height:1.55;margin-top:12px;border-top:1px solid var(--line);padding-top:10px}</style><style>.glossary{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:2px 14px;margin:18px 0}.glossary summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0}.glossary summary::-webkit-details-marker{display:none}.glossary[open] .clmarker{transform:rotate(180deg)}.glossary .clintro{color:var(--mut);font-size:12px;margin:2px 0 10px}.glrow{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);align-items:flex-start}.glterm{flex:0 0 128px;font-weight:700;color:var(--warm);font-size:12.5px;line-height:1.45}.gltext{flex:1;color:var(--tx);font-size:13px;line-height:1.55}@media(max-width:560px){.glrow{flex-direction:column;gap:3px}}</style><style>
 :root{--bg:#0d1117;--panel:#161b22;--line:#2d333b;--tx:#e6edf3;--mut:#9aa4b0;
---hot:#f85149;--warm:#d29922;--cool:#58a6ff;--cold:#7ee2b8;--ok:#3fb950}
-*{box-sizing:border-box;margin:0}
-body{background:var(--bg);color:var(--tx);font:16px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;padding:14px;max-width:760px;margin:auto}
-h1{font-size:1.5em;margin:.2em 0 .3em}
-h2{font-size:1.1em;margin:1.4em 0 .5em;color:#79c0ff}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:10px 0}
-.masthead{margin:8px 0 16px;padding-bottom:14px;border-bottom:1px solid var(--line)}
-.masthead .badges{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px;align-items:center}
-.badge-live{background:#f85149;color:#fff;font-size:.72em;font-weight:700;letter-spacing:.06em;padding:4px 12px;border-radius:6px;text-transform:uppercase}
+--hot:#f85149;--wa
