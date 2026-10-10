@@ -61,10 +61,10 @@ summary{cursor:pointer;font-weight:600}
 p{margin:.5em 0}
 a{color:#58a6ff;text-decoration:none}
 .evt{margin:6px 0;border:none;padding:0}
-.evt summary{font-weight:400;color:var(--mut);font-size:.95em}
+.evt summary{display:flex;flex-direction:column;font-weight:400;color:var(--mut);font-size:.95em}
 .evt>div{padding:6px 0 2px;border-top:1px dashed var(--line)}
-.evt summary:before{content:"\25B8 ";color:var(--mut)}
-.evt[open] summary:before{content:"\25BE "}
+.evt summary:before{content:"\25B8\0020 tap for detail";font-size:.8em;order:99;margin-top:6px;display:block;color:var(--mut)}
+.evt[open] summary:before{content:"\25BE\0020 tap to close"}
 .evt .bar{margin-top:6px}
 details.q>summary .row b{font-size:1.12em;font-weight:700;color:#f0f6fc;line-height:1.35}
 details.q .z26{color:#b6c2cf;font-size:.95em}
