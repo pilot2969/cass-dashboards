@@ -68,3 +68,7 @@ This file mirrors (and extends) the Version History table rendered in `index.htm
 
 ## 2026-09-11 · v1.x
 - Early auto-sync builds — static board, first public deployment.
+
+## v3.3.2 — Oct 9, 2026
+- Threshold Watch collapsed by default (tap to open); red warning styling kept
+- Watch body restructured into labeled sections with subheads; expiry line under the title
