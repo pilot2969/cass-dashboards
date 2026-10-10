@@ -95,3 +95,7 @@ footer{color:var(--mut);font-size:.8em;margin:24px 0 10px}
 .z16{color:var(--warm);font-weight:700;font-size:.9em}
 .z16 .z30{color:var(--mut);font-weight:400}
 .z15{color:var(--tx);font-size:.92em;line-height:1.5}
+
+footer{margin-top:26px;padding:14px 4px 18px;border-top:1px solid var(--rule,#243044);text-align:center;font-size:.78em;color:#5b6c85;line-height:1.7}
+footer a{color:#5b6c85}
+.ftver{display:inline-block;padding:2px 9px;border:1px solid #2c3a52;border-radius:10px;color:#9fb2cc;font-weight:600;letter-spacing:.4px}
