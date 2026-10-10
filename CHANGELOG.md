@@ -72,3 +72,6 @@ This file mirrors (and extends) the Version History table rendered in `index.htm
 ## v3.3.2 — Oct 9, 2026
 - Threshold Watch collapsed by default (tap to open); red warning styling kept
 - Watch body restructured into labeled sections with subheads; expiry line under the title
+
+## v3.3.3 — Oct 9, 2026
+- Masthead rebuilt in legacy Command Dashboard style: Live Telemetry badge + midterm clock chips, large title with gold accent, updated stamp
