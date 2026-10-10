@@ -94,7 +94,11 @@ fi
 
 if [ -n "$(git rev-list origin/main..HEAD)" ]; then
   echo "stranded commits detected: $(git rev-list --count origin/main..HEAD) — completing interrupted push"
-  git push -q origin main && echo "PUSHED TO PROD ✓"
+  git push -q origin main && echo "PUSHED TO STAGING ✓"
+# PROD-PUSH FIX (2026-10-10): remote 'origin' is the STAGING repo; the script
+# only ever pushed there and printed "PUSHED TO PROD ✓" (false success — the
+# real board went stale). prod remote now pushed explicitly.
+git push -q prod main:main && echo "PUSHED TO PROD ✓"
 fi
 
 
@@ -135,7 +139,11 @@ git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # -X ours is safe here because data.json/history.json are generated artifacts:
 # our regen output is authoritative over any remote-only drift.
 git pull --rebase -X ours -q origin main
-git push -q origin main && echo "PUSHED TO PROD ✓"
+git push -q origin main && echo "PUSHED TO STAGING ✓"
+# PROD-PUSH FIX (2026-10-10): remote 'origin' is the STAGING repo; the script
+# only ever pushed there and printed "PUSHED TO PROD ✓" (false success — the
+# real board went stale). prod remote now pushed explicitly.
+git push -q prod main:main && echo "PUSHED TO PROD ✓"
 # PUSH-TARGET AMENDMENT (2026-10-05): data pushes go to staging too so boards never diverge on numbers.
 if git remote get-url staging >/dev/null 2>&1; then
   git push -q staging main && echo "PUSHED TO STAGING ✓"
