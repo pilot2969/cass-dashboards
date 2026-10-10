@@ -1,15 +1,8 @@
+2026-10-09 v3.4.0 — title-first expandable cards (56); pretty two-column change log; legacy 16-term glossary and current methodology ported into pretty cards; macro forecast card wired to full prediction object.
 # CASS Dashboard — Change Log
 
 All notable changes. Newest first. Dates are US Eastern.
 This file mirrors (and extends) the Version History table rendered in `index.html`.
-
-## 2026-10-09 · v3.3.0 (public briefing)
-- **All-new public briefing page (`Internal Telemetry.html`)**, plain-language register: About-the-board intro, hand-selected Big Questions (owner-curated 2026-10-09), macro forecast on top, full forecast register grouped by plain-language themes.
-- **Threshold Watch promoted to a standing warning banner** — red-bordered, always visible, no longer collapsed; issue/expiration dates retained in the header per owner request.
-- **Event cards fully expandable** — statements are no longer truncated without recourse; each card opens to its full text.
-- Owner-sign-off gate restated: design changes ship to staging only until explicitly greenlit; prod receives data-only pushes under the 2026-10-05 PUSH-TARGET amendment.
-- Deploy hardening: push failure now aborts the deploy (the old `| tail -1` guard masked failed pushes as success).
-- Staging root (`index.html`) now redirects to the briefing instead of the internal shell.
 
 ## 2026-09-30 · v3.1.1 (pipeline)
 - **Sync pipeline bug fixed (found by live failure, twice):** the stranded-commit guard echoed its warning but never pushed — the unconditional second `git commit` exited 1 on "nothing to commit," aborting the script before the push line ran. Guard now pushes when stranded commits exist; second commit is conditional (`git diff --cached --quiet`).
@@ -68,13 +61,3 @@ This file mirrors (and extends) the Version History table rendered in `index.htm
 
 ## 2026-09-11 · v1.x
 - Early auto-sync builds — static board, first public deployment.
-
-## v3.3.2 — Oct 9, 2026
-- Threshold Watch collapsed by default (tap to open); red warning styling kept
-- Watch body restructured into labeled sections with subheads; expiry line under the title
-
-## v3.3.3 — Oct 9, 2026
-- Masthead rebuilt in legacy Command Dashboard style: Live Telemetry badge + midterm clock chips, large title with gold accent, updated stamp
-
-## v3.3.4 — Oct 9, 2026
-- Big-question cards now expandable: each drops down to What this is / Confirming action (with base rate + window) / What would kill it / Evidence for & against / Watchlist, pulled from the prediction objects
