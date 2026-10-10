@@ -3,6 +3,14 @@
 All notable changes. Newest first. Dates are US Eastern.
 This file mirrors (and extends) the Version History table rendered in `index.html`.
 
+## 2026-10-09 · v3.3.0 (public briefing)
+- **All-new public briefing page (`Internal Telemetry.html`)**, plain-language register: About-the-board intro, hand-selected Big Questions (owner-curated 2026-10-09), macro forecast on top, full forecast register grouped by plain-language themes.
+- **Threshold Watch promoted to a standing warning banner** — red-bordered, always visible, no longer collapsed; issue/expiration dates retained in the header per owner request.
+- **Event cards fully expandable** — statements are no longer truncated without recourse; each card opens to its full text.
+- Owner-sign-off gate restated: design changes ship to staging only until explicitly greenlit; prod receives data-only pushes under the 2026-10-05 PUSH-TARGET amendment.
+- Deploy hardening: push failure now aborts the deploy (the old `| tail -1` guard masked failed pushes as success).
+- Staging root (`index.html`) now redirects to the briefing instead of the internal shell.
+
 ## 2026-09-30 · v3.1.1 (pipeline)
 - **Sync pipeline bug fixed (found by live failure, twice):** the stranded-commit guard echoed its warning but never pushed — the unconditional second `git commit` exited 1 on "nothing to commit," aborting the script before the push line ran. Guard now pushes when stranded commits exist; second commit is conditional (`git diff --cached --quiet`).
 - Failure taxonomy so far: dirty-tree rebase abort (edit in tree), regeneration-identical false clean (gate passes while commit is stranded), guard-as-lie (echo without push). All three closed today.
