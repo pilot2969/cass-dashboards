@@ -66,6 +66,9 @@ a{color:#58a6ff;text-decoration:none}
 .evt summary:before{content:"\25B8 ";color:var(--mut)}
 .evt[open] summary:before{content:"\25BE "}
 .evt .bar{margin-top:6px}
+details.q>summary .row b{font-size:1.12em;font-weight:700;color:#f0f6fc;line-height:1.35}
+details.q .z26{color:#b6c2cf;font-size:.95em}
+
 footer{color:var(--mut);font-size:.8em;margin:24px 0 10px}
 .z3{background:var(--panel);border:1px solid var(--line,#26304a);border-radius:12px;padding:2px 14px}
 .z3 summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;padding:10px 2px;font-weight:700;color:var(--warm)}
