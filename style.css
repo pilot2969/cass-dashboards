@@ -1,5 +1,12 @@
 .mm{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:2px 14px;margin:18px 0}.mm summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0}.mm summary::-webkit-details-marker{display:none}.mm[open] .z5{transform:rotate(180deg)}.z23{padding-bottom:8px}.z28{color:var(--tx);font-size:13px;line-height:1.55;margin-bottom:10px}.z19{color:var(--warm);font-weight:700}.z31{color:var(--mut);font-size:12px;line-height:1.5;margin:0 0 7px 16px;padding-left:6px;border-left:2px solid var(--line)}.z31 .z19{font-size:12px}.z17{color:var(--mut);font-size:11.5px;line-height:1.55;margin-top:12px;border-top:1px solid var(--line);padding-top:10px}
-.z8{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:2px 14px;margin:18px 0}.z8 summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0}.z8 summary::-webkit-details-marker{display:none}.z8[open] .z5{transform:rotate(180deg)}.z8 .z9{color:var(--mut);font-size:12px;margin:2px 0 10px}.z29{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);align-items:flex-start}.z22{flex:0 0 128px;font-weight:700;color:var(--warm);font-size:12.5px;line-height:1.45}.z24{flex:1;color:var(--tx);font-size:13px;line-height:1.55}@media(max-width:560px){.z29{flex-direction:column;gap:3px}}
+.z8{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:2px 14px;margin:18px 0}.z8 summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0}.z8 summary::-webkit-details-marker{display:none}.z8[open] .z5{transform:rotate(180deg)}.z8 .z9{color:var(--mut);font-size:12px;margin:2px 0 10px}.z29{display:flex;gap:14px;padding:9px 0;border-top:1px solid var(--line);align-items:flex-start}.z22{flex:0 0 128px;font-weight:700;color:var(--warm);font-size:12.5px;line-height:1.45}.z24{flex:1;color:var(--tx);font-size:13px;line-height:1.55}/* v3.5.6: keep dd rows two-column, tighter */
+.z29{gap:14px;padding:6px 0}
+.z22{flex:0 0 120px;font-size:12.5px;line-height:1.4;min-width:0}
+.z24{flex:1;font-size:13px;line-height:1.5;min-width:0}
+/* ledger rows: title flexes, date pinned right and unbreakable */
+#ledger .row span.mut{white-space:nowrap;flex:0 0 auto}
+#ledger .row span:first-child{flex:1;min-width:0}
+#ledger .row{align-items:flex-start}
 
 :root{--bg:#0d1117;--panel:#161b22;--line:#2d333b;--tx:#e6edf3;--mut:#9aa4b0;
 --hot:#f85149;--warm:#d29922;--cool:#58a6ff;--cold:#7ee2b8;--ok:#3fb950}
