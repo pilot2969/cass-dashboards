@@ -58,7 +58,10 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
 <script>
 (function(){
  // Daily Read rendered live from data.json (v3.6.0: kills shell/data desync)
- var panel=document.querySelector('details.zpanel .zpanelbody');
+ var panels=[].slice.call(document.querySelectorAll('details.zpanel'));
+ var panel=panels.find(function(p){var s=p.querySelector('summary h2, summary .zhead');return s&&/Daily Read/i.test(s.textContent);});
+ if(!panel)return;
+ panel=panel.querySelector('.zpanelbody');
  if(!panel||!panel.querySelector('ul'))return;
  var stamp=new Date().toISOString().slice(0,10);
  fetch('data.json?v='+stamp,{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
