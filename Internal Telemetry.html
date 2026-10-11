@@ -55,3 +55,33 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
  });
 });
 </script>
+<script>
+(function(){
+ // Daily Read rendered live from data.json (v3.6.0: kills shell/data desync)
+ var panels=[].slice.call(document.querySelectorAll('details.zpanel'));
+ var panel=panels.find(function(p){var s=p.querySelector('summary h2, summary .zhead');return s&&/Daily Read/i.test(s.textContent);});
+ if(!panel)return;
+ panel=panel.querySelector('.zpanelbody');
+ if(!panel||!panel.querySelector('ul'))return;
+ var stamp=new Date().toISOString().slice(0,10);
+ fetch('data.json?v='+stamp,{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+  var dr=d.daily_read; if(!dr||!dr.summary)return;
+  var ul=panel.querySelector('ul');
+  ul.innerHTML='';
+  dr.summary.forEach(function(t){var li=document.createElement('li');li.textContent=t;ul.appendChild(li);});
+  panel.querySelectorAll('.watching, h4').forEach(function(n){ if(/Watching next/i.test(n.tagName==='H4'?n.textContent:n.className)||n.classList.contains('watching'))n.remove(); });
+  if(dr.watching&&dr.watching.length){
+   var items=dr.watching.map(function(t){return String(t).replace(/^[-\u2022]\\s*/,'').replace(/^["']|["']$/g,'').trim();}).filter(function(t){return t;});
+   if(items.length){
+    var h=document.createElement('h4');h.style.margin='10px 0 4px';h.textContent='Watching next';
+    panel.appendChild(h);
+    var wl=document.createElement('ul');wl.className='watching';
+    items.forEach(function(t){var li=document.createElement('li');li.textContent=t;wl.appendChild(li);});
+    panel.appendChild(wl);
+   }
+  }
+  var sum=panel.querySelector('.zdr-date');
+  if(sum)sum.textContent='edition '+dr.date;
+ }).catch(function(e){/* keep baked fallback */});
+})();
+</script>
