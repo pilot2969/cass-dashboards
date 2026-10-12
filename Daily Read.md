@@ -1,19 +1,24 @@
-DATE: 2026-10-11 (EVENING EDITION)
+DATE: 2026-10-12 (MIDDAY EDITION)
 SUMMARY:
-Pivot day closed on a narrated settlement. The day's signature event: within hours of Zelensky converting Trump's personnel demand into a condition (elections only after a 60-day total ceasefire), the White House announced Russia and Ukraine had 'agreed' to an energy ceasefire — with no terms published and no Russian confirmation observed as of 21:50 ET. This is the 9/28 dissonance signature applied to a prospective deal: announce the settlement before any verifiable substance exists, so the fact of agreement is the story rather than its content.
+The narrated settlement completed its cycle in under 12 hours. The energy ceasefire announced Sunday night never produced Russian confirmation; overnight Russia launched its largest attack on Ukrainian energy infrastructure since spring (~300 drones, 50 missiles, Centrenergo plant hit, 3+ dead) and rejected the 60-day truce plan outright. Zelensky now says Putin "does not want peace"; the settlement was narrative, not fact — the dissonance signature (announce before substance exists) resolved into its prediction.
 
-Riyadh ladder rung cleared. Riyadh King Khalid terminal hit again Sunday (1 dead, 11 injured, Terminal 4 fire) a day after the decade-deadliest 12-dead/309-injured strike. The Saudi-led coalition retaliated — Sanaa airport struck (Al Masirah, unconfirmed by Saudi) — and vowed a decisive response. Trump still 'evaluating' US entry: that decision is rung #2, and it only threads the no-Iran-attack-before-midterms pledge through the proxy loophole. Politico's structural-trap flag stands: US entry invites Houthi closure of Bab al-Mandab, spiking the same oil price the diesel deal was built to relieve.
+Riyadh ladder: second rung. Riyadh airport hit AGAIN Sunday night (12 dead total across the two strikes, Terminal 4 fire) — the Saudi-led coalition retaliated on Sanaa and vowed a decisive response. Trump remains publicly 'evaluating' US entry: rung #2, only reachable through the proxy loophole in the no-Iran-attack-before-midterms pledge. Politico's structural-trap flag stands: US entry invites Bab al-Mandab closure and spikes the oil price the diesel deal was built to relieve.
 
-Courts converge. Judge Rochon (SDNY) ordered DHS Sunday evening to cancel remaining airings of the ~$20M pro-Trump ad campaign — including spots set to air that night — and enjoined resumption; the contractor (LMD Media) was ordered notified directly. First judicial enforcement of the 10/09 launch. Tuesday brings the press-ban preliminary-injunction ruling (TRO extended through then). With Friday's DOJ antitrust probe of the five networks, three judicial/administrative fronts are now live in the same lane.
+Omar raid: day 2. Omar: 'I will not be silenced' — calls it weaponized law enforcement against political enemies; Walz calls it power abuse 'weeks before an election.' Watch object active (no promotion trigger: no charges, no detention, no second target). Provenance topology confirmed: DOJ statement -> Fox exclusive -> Blaze stack -> same-day target response. 24 days out, the pre-election weaponization optics are now the story the administration must fight.
 
-Election clock: 23 days. Pew approval 30%; markets ~62-63% Dem sweep; Silver Bulletin ~93% House / ~74-75% Senate. Trump campaigned in Tennessee Saturday. Georgia's Isaias emergency declaration (EM-3657-GA, 76 counties) stands; ~9k still out; disaster-relief funding-gap watch still open.
+Hegseth squeeze widens on two fronts. (1) Democrats' letter over the September Iran wedding strike (5 dead incl. 2 children, ~70 injured) opens the civilian-casualty accountability channel. (2) Republicans are publicly blasting him over 'public execution plans' (The Hill Rising). (3) The Pentagon QUIETLY revised the US war-fatality tally (18 vs 19 discrepancy from Day-225 SITREP) — revision, not correction; no press release. Guns-vs-butter statistical concealment pattern live.
 
-Iran talks formally stalled: Tehran calls the US response 'insufficient'; war month 8.
+Markets priced the trap. Brent ~$106 / WTI ~$94 (+2.4-2.7%) on war-supply fears; equities mixed on light Columbus Day volume; the tape's own framing is 'Fed rate hike bets weigh' — a rate-hike narrative INTO an energy shock with SPR at a 44-year low (283.0M bbl, Oct 2 print). Stagflationary combination; macro-thesis-unwinding thread has a second act.
 
+Prediction markets: House 91-92% Dem, Senate ~65% Dem (Polymarket/Kalshi avg). Expect the 9/28 fake-polls prepositioning to convert into deployed framing as the gap between market odds and desired outcome widens. 24 days out.
+
+Isaias: tied record for latest first hurricane of a season; Cat 2 landfall Destin FL; ~900k outages; FEMA EM-3655/3656 declared (FL/AL/GA). Disaster-response capacity under strain pre-election; aid-politicization watch open (same shape as the CDC capacity watch 9/27).
 WATCHING:
-- Russian confirmation of the energy ceasefire: silence + continued strikes = narrated settlement (falsifier for the deal frame)
-- Refinery-strike pause: does it hold, and does the energy-ceasefire get narrated as pro-domestic-energy (Energy Dominance Month reversal watch)
-- US entry decision on the Saudi retaliation ladder + Bab al-Mandab shipping rates
-- DHS compliance with the ad TRO: comply, delay, or appeal — and does DOJ fold it into the press-weaponization instrument class
+- Whether the White House walks back or doubles down on the dead energy-ceasefire frame
+- US entry decision on the Saudi retaliation ladder + Bab al-Mandab freight rates
+- DHS compliance with the Rochon TRO (comply, delay, appeal) — and any appeal filing as court-neutralization signal
 - Press-ban preliminary-injunction ruling Tuesday (Judge Kelly)
-- Iran: does any US or Israeli action run through the proxy loophole before the midterms
+- Omar raid escalation (charges/detention/second target) -> repression_event promotion triggers
+- Pre-build tell count: distinct national-level actors activating fraud claims before Nov 3 (C-002 threshold >=2)
+- Whether the Pentagon fatality revision converges on 19 or opens a new discrepancy
+- Fed rate-hike narrative persistence against the stagflationary tape
