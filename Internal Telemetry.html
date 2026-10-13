@@ -80,8 +80,45 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
     panel.appendChild(wl);
    }
   }
+  // v3.6.1: collapsible story cards from daily_read.cards (fallback: flat bullets)
+  if(dr.cards&&dr.cards.length){
+   var wrap=document.createElement('div');
+   wrap.style.marginTop='10px';
+   dr.cards.forEach(function(c){
+    var dt=document.createElement('details');dt.style.border='1px solid #2c3a52';dt.style.borderRadius='10px';dt.style.padding='8px 12px';dt.style.marginBottom='8px';dt.style.background='#131a25';
+    var sm=document.createElement('summary');sm.style.cursor='pointer';sm.style.fontWeight='600';sm.style.fontSize='14px';sm.textContent=c.title;
+    var bd=document.createElement('div');bd.style.marginTop='8px';bd.innerHTML=c.html;
+    dt.appendChild(sm);dt.appendChild(bd);wrap.appendChild(dt);
+   });
+   ul.parentNode.insertBefore(wrap, ul.nextSibling);
+  }
   var sum=panel.querySelector('.zdr-date');
   if(sum)sum.textContent='edition '+dr.date;
+ }).catch(function(e){/* keep baked fallback */});
+})();
+</script>
+<script>
+(function(){
+ // v3.6.1: "What moved today" rendered live from data.json.movers (fallback: baked overlay)
+ var h2s=[].slice.call(document.querySelectorAll('h2'));
+ var h2=h2s.find(function(n){return /What moved today/i.test(n.textContent);});
+ if(!h2)return;
+ var box=h2.nextElementSibling;
+ if(!box||!box.classList.contains('z37'))return;
+ fetch('data.json?v='+new Date().toISOString().slice(0,10),{cache:'no-store'}).then(function(r){return r.json()}).then(function(d){
+  var mv=d.movers; if(!mv||!mv.length)return;
+  var today=new Date().toISOString().slice(0,10);
+  var todays=mv.filter(function(m){return String(m.time||'').slice(0,10)===today;});
+  var list=todays.length?todays:mv.slice(0,5);
+  var out='';
+  if(!todays.length) out+='<p class=mut>Latest moves (past 7 days):</p>';
+  list.forEach(function(m){
+   out+='<div style="border:1px solid #2c3a52;border-radius:10px;padding:8px 12px;margin-bottom:8px;background:#131a25">'
+     +'<div style="font-weight:600;font-size:14px">'+m.ref+'</div>'
+     +'<div class=mut style="font-size:12px">'+m.time+' · '+m.change+'</div>'
+     +'<div style="font-size:12px;margin-top:4px">'+m.trigger+'</div></div>';
+  });
+  box.innerHTML=out;
  }).catch(function(e){/* keep baked fallback */});
 })();
 </script>

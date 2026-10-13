@@ -72,11 +72,29 @@ if os.path.exists("Daily Read.md"):
     txt=open("Daily Read.md").read()
     m=re.search(r"DATE:\s*(\S+)", txt)
     if m: dr["date"]=m.group(1)
-    m=re.search(r"SUMMARY:\s*\n(.*?)\nWATCHING:\s*\n(.*)", txt, re.S)
+    # 2026-10-12: card edition — lists live between the markers; cards below.
+    cut = txt.split("<!--parser markers above; collapsible cards below-->", 1)[0]
+    m = re.search(r"SUMMARY:\s*\n(.*?)\nWATCHING:\s*\n(.*)", cut, re.S)
     if m:
-        dr["summary"]=[l.strip() for l in m.group(1).strip().splitlines() if l.strip()]
-        dr["watching"]=[l.strip().lstrip("- ") for l in m.group(2).strip().splitlines() if l.strip()]
+        dr["summary"] = [l.strip().lstrip("- ") for l in m.group(1).strip().splitlines() if l.strip()]
+        dr["watching"] = [l.strip().lstrip("- ") for l in m.group(2).strip().splitlines() if l.strip() and not l.strip().startswith("*Sources")]  # sources line stays in prose, not the watch list
 data["daily_read"]=dr
+
+# daily_read.cards: parse the collapsible <details> cards below the parser
+# markers so the board can render per-story cards instead of flat bullets
+# (2026-10-12: card format is the standing Daily Read edition layout).
+try:
+    ctext=txt.split("collapsible cards below-->",1)[1] if "collapsible cards below-->" in txt else ""
+    cards=[]
+    for block in re.findall(r"<details>(.*?)</details>", ctext, re.S):
+        sm=re.search(r"<summary>(.*?)</summary>", block, re.S)
+        if not sm: continue
+        body=block[sm.end():].strip()
+        title=re.sub(r"<[^>]+>","",sm.group(1)).strip()
+        cards.append({"title":title, "html":body})
+    if cards: dr["cards"]=cards
+except Exception as e:
+    print("card parse warn:", e)
 
 data["meta"]["generated"]=today
 json.dump(data, open("data.json","w"), indent=1)
