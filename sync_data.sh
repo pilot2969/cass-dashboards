@@ -7,7 +7,7 @@ cd "$(dirname "$0")"
 MSG="${1:-data refresh $(date +%Y-%m-%d): movers + history regenerated from /space}"
 
 python3 - <<'PY'
-import json, glob, os, datetime
+import json, glob, os, datetime, html
 
 # movers staleness gate: if the newest last_moved on any prediction card is older
 # than 48h, the mover-bump step was skipped after the wire — fail the run loudly
@@ -90,7 +90,7 @@ try:
         sm=re.search(r"<summary>(.*?)</summary>", block, re.S)
         if not sm: continue
         body=block[sm.end():].strip()
-        title=re.sub(r"<[^>]+>","",sm.group(1)).strip()
+        title=html.unescape(re.sub(r"<[^>]+>","",sm.group(1))).strip()
         cards.append({"title":title, "html":body})
     if cards: dr["cards"]=cards
 except Exception as e:
