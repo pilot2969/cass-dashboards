@@ -1,142 +1,108 @@
-# The Evening Read — Monday, October 12, 2026
+# The Morning Read — Tuesday, October 13, 2026
 
-*Written as a news report with context. Filed ~21:45 ET.*
+*Written as a news report with context. Filed ~10:45 ET.*
 
 ---
 
-DATE: 2026-10-12
+DATE: 2026-10-13
 SUMMARY:
-- Russia bombs Ukraine's energy grid hours after US claims ceasefire deal; Zelensky says strikes are 'Putin's answer' to Trump
-- Houthis strike Saudi airports for third day; Trump still 'evaluating' joining Saudi war
-- Government airs banned ads hours after court order; DOJ blames unmonitored inbox
-- Federal agents raid Rep. Ilhan Omar's home; Democrats denounce timing
-- Pentagon will not release unedited video of Caribbean boat strike, Hegseth says
-- Markets: Brent at two-week high; Treasury yields near multi-decade records; CPI looms
-- Prediction markets: Democratic sweep at 62%; Trump allies circulate alternative polls
-- NATO commander lays out doctrine for countering Russia: 'block, blunt, and break'
+- Russia hits no Ukrainian energy targets for first day since Trump's 'ceasefire'; White House claims it is holding
+- Drones sink merchant ship off Bulgaria's coast; eleven sailors missing in NATO member's waters
+- Lawyers say banned government ads aired hundreds of times after court order; DOJ appeals mail-voting block
+- Iran reviewing US response on Strait of Hormuz reopening as talks set to resume
+- New Senate polls: Democrats lead in Texas, Ohio, Kansas, Nebraska and Michigan
+- Brent eases below $106 as record diesel refining margins tell a different story
 - What we're watching
 WATCHING:
-- Whether the White House walks back, or doubles down on, the dead energy-ceasefire frame
-- The US entry decision on the Saudi ladder — and Bab al-Mandab freight rates
-- Judge Kelly's press-ban ruling Tuesday; expected appeal either way
-- The Thursday SPR print
-- Omar raid escalation: charges, detention, a second target
-- Pre-build tell count on fraud claims before Nov 3 (C-002 threshold: two or more actors)
-- Whether the Pentagon's fatality revision converges or opens a new discrepancy
+- Whether the quiet Russian day repeats and the White House declares the ceasefire complete
+- NATO's attribution of the Bulgaria strikes — Article 5 threshold or shipping risk
+- Judge Kelly's press-ban preliminary injunction ruling, due today; expected appeal either way
+- Whether Judge Rochon moves from apology to contempt over the ad airings
+- The Thursday SPR print; retail diesel weekly due this afternoon
+- Response of administration-aligned poll circulation to the YouGov wave
+- Hormuz reopening talks: whether a proposal proceeds without US strikes before Nov 3
 
-*Sources: Guardian, BBC, NPR, AP/Reuters, CNN, WaPo, Time, Capital B, Twin Cities Pioneer Press, Mediaite, Lawdork, CNBC, The Hill, TheWrap, Politico, CBS, Business Insider, TradingEconomics, Rio Times, Polymarket, Kalshi, Silver Bulletin.*
+*Sources: Reuters, Guardian, Telegraph, Kyiv Independent, Al Jazeera, Euronews, WaPo, NYT, Sofia Globe, Mediaite, Lawdork, CNBC, The Hill, Democracy Docket, Silver Bulletin, Polymarket, Kalshi, TradingEconomics, EIA.*
 <!--parser markers above; collapsible cards below-->
 **IN THIS EDITION**
 
-- Russia bombs Ukraine's energy grid hours after US claims ceasefire deal; Zelensky says strikes are 'Putin's answer' to Trump
-- Houthis strike Saudi airports for third day; Trump still 'evaluating' joining Saudi war
-- Government airs banned ads hours after court order; DOJ blames unmonitored inbox
-- Federal agents raid Rep. Ilhan Omar's home; Democrats denounce timing
-- Pentagon will not release unedited video of Caribbean boat strike, Hegseth says
-- Markets: Brent at two-week high; Treasury yields near multi-decade records; CPI looms
-- Prediction markets: Democratic sweep at 62%; Trump allies circulate alternative polls
-- NATO commander lays out doctrine for countering Russia: 'block, blunt, and break'
+- Russia hits no Ukrainian energy targets for first day since Trump's 'ceasefire'; White House claims it is holding
+- Drones sink merchant ship off Bulgaria's coast; eleven sailors missing in NATO member's waters
+- Lawyers say banned government ads aired hundreds of times after court order; DOJ appeals mail-voting block
+- Iran reviewing US response on Strait of Hormuz reopening as talks set to resume
+- New Senate polls: Democrats lead in Texas, Ohio, Kansas, Nebraska and Michigan
+- Brent eases below $106 as record diesel refining margins tell a different story
 - What we're watching
 
 ---
 
 <details>
-<summary>Russia bombs Ukraine&#x27;s energy grid hours after US claims ceasefire deal; Zelensky says strikes are &#x27;Putin&#x27;s answer&#x27; to Trump</summary>
+<summary>Russia hits no Ukrainian energy targets for first day since Trump's 'ceasefire'; White House claims it is holding</summary>
 
-WASHINGTON/MOSCOW — Russia launched one of its largest attacks on Ukrainian energy infrastructure of the war overnight, hours after the White House announced Sunday that the two countries had agreed to an energy ceasefire, Ukrainian officials said Monday. At least three people were killed near Kramatorsk, including a 13-year-old girl, and 33 were wounded in strikes on gas facilities, according to Ukrainian authorities. Six people died in strikes Sunday, including three at a grocery store in Kharkiv.
+KYIV — Russia launched no strikes on Ukrainian energy facilities on Tuesday, the first such day since President Trump announced an energy ceasefire between Moscow and Kyiv on Sunday, according to Reuters. Ukraine, for its part, has not struck Russian oil refineries or energy infrastructure in the two days since the announcement, President Volodymyr Zelensky said.
 
-President Volodymyr Zelensky said the barrage was Russian President Vladimir Putin's "answer" to the American announcement, which produced no Russian confirmation when it was made. "It is increasingly clear that Russia does not want an energy ceasefire," Zelensky said Monday. The European Union imposed a new round of sanctions on Moscow the same day. British and French officials continued to describe a sustained energy ceasefire as the best route to stabilizing global fuel markets, a frame the overnight strikes did little to support.
+The quiet day follows one of collapse: overnight Sunday into Monday, Russian strikes hit six Ukrainian energy sites, cut power across the capital and killed civilians near Kramatorsk and Kharkiv. Zelensky said Tuesday that Russia "did not heed" Trump's call for a ceasefire and that Ukraine had received "no early warning" before the strikes on Kyiv — an indication that no direct channel between Washington and Moscow accompanied the announcement. Mr. Trump, for his part, insisted the ceasefire holds.
 
-The sequence fit a pattern the administration has repeated since late September: announcing diplomatic victories before any verifiable substance exists. On September 28, the White House declared progress on a Gaza framework that unraveled within a day. This time the gap between announcement and collapse was under twelve hours.
-
-Context: the announcement coincided with an unpublicized Treasury decision — general license GL135, authorizing imports of Russian diesel, which took effect twenty-five days before the November 3 election. Brent crude closed above $106 Monday, a two-week high, meaning even the price-relief rationale the license was built on did not materialize on the tape. The Trump administration has continued to demand that Zelensky be replaced, a demand the Ukrainian leader on Sunday tied directly to Moscow: "I know Putin wanted to change the president of Ukraine."
+Context: the White House announced the ceasefire without Russian confirmation, and within twelve hours the frame was collapsing on the tape. One quiet day after a day of failure is the standard pattern by which a dead narrative is rehabilitated: the quiet tape will be presented as evidence the deal exists, while the absence of any early-warning channel quietly kills the underlying claim. Watch whether the White House moves to declare the arrangement complete — and whether the quiet day repeats. The announcement coincided with a Treasury general license (GL135) authorizing Russian diesel imports, which took effect twenty-five days before the November 3 election.
 
 </details>
 
 <details>
-<summary>Houthis strike Saudi airports for third day; Trump still &#x27;evaluating&#x27; joining Saudi war</summary>
+<summary>Drones sink merchant ship off Bulgaria's coast; eleven sailors missing in NATO member's waters</summary>
 
-RIYADH — Yemen's Houthi forces fired missiles and drones at Saudi airports for a third consecutive day Monday, days after a strike on Riyadh's King Khalid International Airport killed at least 12 people and forced its closure through the week. Lufthansa and Air India suspended flights; the Houthis warned commercial airlines that Saudi airports remain "potential targets."
+VARNA, Bulgaria — Drones struck two merchant ships off Bulgaria's Black Sea coast overnight, sinking one and leaving eleven crew members missing, Prime Minister Rumen Radev said Tuesday. The sunk vessel, the Chelsea 3, went down roughly seventeen nautical miles east of the village of Krapets; a Bulgarian Border Police vessel ferried rescued sailors to Varna. It was the second such incident in a week.
 
-The Saudi-led coalition retaliated with strikes on Sanaa, where Houthi officials said a child was killed in Sunday's strikes. Saudi Arabia has vowed a "decisive" response to the airport attack.
-
-Context: the confrontation sits at the mouth of the Red Sea, where Bab al-Mandab carries a significant share of global oil transit. President Trump said Monday the United States — which he called the world's most powerful military — may join Saudi Arabia's campaign against the Iran-backed Houthis, while again declining to say when. The statement sits alongside his October 9 pledge not to attack Iran before the November 3 election; entry into the Saudi war would proceed through Houthi proxies rather than Iran directly. Analysts note that a wider engagement would likely close Bab al-Mandab and raise the oil prices the administration's diesel authorization was intended to relieve. The 25-day pre-election window gives both the pledge and the decision their shape.
+Context: the attacks occurred inside the exclusive economic zone of a NATO member state — the category of incident European officials have warned for weeks could test the alliance's Article 5 thresholds. The warning was given concrete form Monday, when Supreme Allied Commander Europe Gen. Alexus Grynkewich told the Warsaw Security Forum that NATO would "block, blunt, and break" any attack and was "ready to fight tonight." Whether the alliance treats a drone attack on merchant shipping in Bulgarian waters as an attack on NATO or as an operational hazard is now the live question. Article 5 remains a political decision requiring unanimity.
 
 </details>
 
 <details>
-<summary>Government airs banned ads hours after court order; DOJ blames unmonitored inbox</summary>
+<summary>Lawyers say banned government ads aired hundreds of times after court order; DOJ appeals mail-voting block</summary>
 
-NEW YORK — Justice Department lawyers acknowledged Monday that the administration's $20 million taxpayer-funded advertising campaign aired hours after a federal judge ordered it stopped, attributing the violation to an unmonitored email account at the Department of Homeland Security's office of general counsel.
+NEW YORK/WASHINGTON — Lawyers for Common Cause told a federal judge Tuesday that the administration's $20 million taxpayer-funded advertising campaign aired hundreds of times after Judge Jennifer Rochon ordered it stopped Sunday evening — an escalation from the previous day's account, in which the Justice Department had attributed the airings to an unmonitored email inbox at DHS and apologized. Ms. Rochon has already found the campaign likely violates federal law. A status conference to assess compliance is pending, and the DNC's parallel case holds a reply deadline at 5 p.m. Tuesday with a hearing Thursday morning.
 
-US District Judge Jennifer Rochon issued a temporary restraining order Sunday evening barring further airings of the ads, which promote the president's immigration agenda and feature Homeland Security Secretary Kristi Noem. In an opinion issued Monday, Rochon found the campaign "likely" violates the law on administrative-procedure and equal-protection grounds, naming DHS, the Office of Management and Budget and the Executive Office of the President. A DOJ attorney apologized to the court and said the contractor responsible for the buy is now compliant. The department declined to defend the legality of the ads on the merits.
+Separately, the Justice Department appealed an order blocking changes to mail voting rules. At trial, the government had argued against an injunction partly because ordinary appellate review "would come too late for the 2026 midterms."
 
-Context: the episode is the third in two weeks in which administration action has collided with a court order whose effect was delayed, disputed or — in this case — briefly ignored. The "unmonitored inbox" explanation drew skepticism from legal observers, who noted the airing occurred within hours of a widely covered ruling. Separately, US District Judge Timothy Kelly is expected to rule Tuesday on a preliminary injunction sought by CNN, MS NOW and Politico against the administration's ban on some mainstream outlets from White House events. Kelly, a Trump appointee, has appeared skeptical of the ban. Behind the press-ban case sits an administration antitrust probe of five networks opened last week — two court fronts in a single doctrine of using enforcement power against uncooperative media.
-
-</details>
-
-<details>
-<summary>Federal agents raid Rep. Ilhan Omar&#x27;s home; Democrats denounce timing</summary>
-
-WASHINGTON — Federal immigration agents raided the Washington-area home of Rep. Ilhan Omar, D-Minn., before dawn Monday, the second day of an operation that has drawn national attention. The Department of Homeland Security has pointed to an immigration matter; a source told MS NOW the raid ties to a criminal fraud investigation.
-
-"I will not be silenced," Omar said. Minnesota Gov. Tim Walz called the raid an abuse of power "weeks before an election," and House Minority Leader Hakeem Jeffries and Rep. Ro Khanna joined the criticism Monday.
-
-Context: Omar, a Somali-born naturalized citizen and frequent target of the president, has not been charged. With 23 days until the midterm elections, Democrats argue the timing is the story; administration officials point to the fraud investigation. The raid involves the same department whose advertising campaign was blocked by a court order it then violated — one agency functioning as both propaganda outlet and enforcement instrument within the same news cycle.
+Context: the appeal inverts that argument — the administration now asks for expedited review of an order it called premature, with ballots weeks from going out. Behind both cases sits the same posture: court orders treated as obstacles to be timed around rather than commands to be obeyed. Judge Timothy Kelly's ruling on the press ban — expected Tuesday, still pending as of this morning — will test the same posture on a third front.
 
 </details>
 
 <details>
-<summary>Pentagon will not release unedited video of Caribbean boat strike, Hegseth says</summary>
+<summary>Iran reviewing US response on Strait of Hormuz reopening as talks set to resume</summary>
 
-WASHINGTON — Defense Secretary Pete Hegseth said Monday the Pentagon will not publicly release the unedited video of a September strike on a suspected drug vessel in the Caribbean that killed two survivors clinging to the wreckage. Admiral Frank Mitchell, who oversaw the operation, testified to lawmakers that no order to "kill them all" was given, according to members present.
+TEHRAN — Iran is reviewing the American response to its proposal for reopening the Strait of Hormuz, Foreign Ministry spokesman Esmail Baghaei said Monday, and talks between Washington and Tehran are expected to resume this week. Iranian and Gulf officials met in Oman on Monday to discuss safe passage for shipping. Houthi attacks on Saudi Arabia continued, with a projectile falling in the Jazan region, and Riyadh's main airport remains constrained after last week's fatal strike.
 
-Separately, the Pentagon announced a strike in the Pacific that killed four people, the latest in a widening campaign whose legal basis remains undisclosed. The Department of Defense also quietly revised its official war-fatality count this week — a revision, not a correction, issued without a press release.
-
-Context: Democrats in Congress are weighing subpoenas for the full video and operating orders. The September wedding-party strike in Iran (five dead, including two children) remains under a separate accountability letter. Watch for the withheld video to re-enter the news cycle as election day approaches.
+Context: the negotiation channel reopening without American strikes tracks President Trump's October 9 pledge not to attack Iran before the November 3 election — twenty-one days out. The Houthis continue to carry the kinetic load in the Gulf theater while Iran negotiates, a division of labor that keeps the escalation ladder's second rung armed but untriggered. Watch whether the Hormuz proposal proceeds without a US strike — the thesis-consistent path — or whether a provocation resets the ladder.
 
 </details>
 
 <details>
-<summary>Markets: Brent at two-week high; Treasury yields near multi-decade records; CPI looms</summary>
+<summary>New Senate polls: Democrats lead in Texas, Ohio, Kansas, Nebraska and Michigan</summary>
 
-NEW YORK — Brent crude closed above $106, a two-week high, as the Russian strikes on Ukrainian energy and the Saudi airport closure compounded supply fears. WTI traded near $94. The 10-year Treasury yield eased from territory near a 24-year high after last week's auction, but remains historically elevated. Consumer price data due later this week is already being framed in financial coverage as a "global endurance test."
+WASHINGTON — A wave of YouGov polls released Tuesday shows Democrats leading in five Senate seats currently held by Republicans: Texas, Ohio, Kansas, Nebraska and Michigan, according to Nate Silver's Silver Bulletin, which treats independent Dan Osborn as a Democrat in Nebraska. Prediction markets align: Polymarket prices a Democratic sweep of both chambers at 62 percent, with a Senate takeover near 65 percent on on-chain readouts. Individual race odds include Abdul El-Sayed (Michigan) at 72 percent, Mary Peltola (Alaska) at 74, Sherrod Brown (Ohio) at 62 and James Talarico (Texas) at 64.
 
-Context: the combination — energy shock, elevated yields, strategic petroleum reserve at a 44-year low (283.0 million barrels as of the Oct. 2 print) — is the stagflationary configuration economists warned about when the diesel authorization took effect. The Federal Reserve's next move is being narrated in coverage as a possible rate hike into the shock, an inversion of the easing cycle markets priced earlier in the year.
-
-</details>
-
-<details>
-<summary>Prediction markets: Democratic sweep at 62%; Trump allies circulate alternative polls</summary>
-
-LONDON — Polymarket prices a Democratic sweep of the 2026 midterms at 62%, with Republicans favored for the Senate and Democrats heavily favored for the House. Kalshi shows House control at 90% Democratic and Senate at 62%; the Silver Bulletin's forecast models put House control near 93%.
-
-Context: the gap between market odds and administration-aligned polling has widened for three weeks. Trump allies circulated polls over the weekend showing tighter races than the forecasters and prediction markets indicate. Analysts who track pre-election narrative preparation note that disputed-polling frameworks tend to be deployed weeks before votes are cast, not after.
+Context: five Republican-held leads in one wave is the strongest single polling signal of the cycle, twenty-one days before the election. Over the weekend, allies of the president circulated polls showing tighter races than forecasters and markets indicate. Analysts who track pre-election narrative preparation note that disputed-polling frameworks tend to be deployed weeks before votes are cast — a pattern the morning's wave is likely to test.
 
 </details>
 
 <details>
-<summary>NATO commander lays out doctrine for countering Russia: &#x27;block, blunt, and break&#x27;</summary>
+<summary>Brent eases below $106 as record diesel refining margins tell a different story</summary>
 
-WARSAW — Supreme Allied Commander Europe Gen. Alexus Grynkewich said Monday that NATO is "ready to fight tonight" and laid out a phased doctrine for responding to an attack on alliance territory: "block, blunt, and break" — block the initial assault, blunt any advance, then destroy the attacking force. Any attack would be "utterly futile," he told the Warsaw Security Forum, promising to destroy "anything and everything" involved. He did not name Russia.
+LONDON — Brent crude eased about 1 percent to near $105 Tuesday, slipping from the two-week high it touched Monday, as traders weighed prospects of more Russian diesel reaching global markets. US distillate markets told a starker story: the ULSD crack spread — the refining margin on ultra-low-sulfur diesel — hit a record near $118 a barrel this month, and US distillate inventories sit near levels the Energy Information Administration projects will remain below the five-year range through 2027, even with US crude production headed for a record 13.8 million barrels a day.
 
-Context: European officials have warned for weeks that Moscow may test Article 5 thresholds with covert hybrid attacks — sabotage, drone incursions, interference — or a deliberately limited military incursion small enough to trigger alliance debate over whether it counts as an attack. Grynkewich's speech answers that ambiguity in advance: the alliance's response is now on the record as doctrine, not discretion. The venue was deliberate; Poland has been the epicenter of this fall's airspace violations. Legal analysts note that Article 5 remains a political decision requiring unanimity — the doctrine's credibility depends on the alliance holding together at the moment of test.
+Context: falling crude alongside record refining margins indicates the shortage is in diesel, not oil — a gap that record domestic production cannot close. The price relief now being narrated traces to Russian product authorized by the GL135 import license, the same instrument timed twenty-five days before the election. The Energy Information Administration's weekly petroleum report, shifted to Thursday by the Columbus Day holiday, and this afternoon's retail diesel print will test whether pump prices follow the easing crude or the tightening diesel market. The 10-year Treasury yield remains near historically extreme levels; consumer price data later this week is already being framed in coverage as a "global endurance test."
 
 </details>
 
 <details>
-<summary>What we&#x27;re watching</summary>
+<summary>What we're watching</summary>
 
-- Whether the White House walks back, or doubles down on, the dead energy-ceasefire frame
-- The US entry decision on the Saudi ladder — and Bab al-Mandab freight rates
-- Judge Kelly's press-ban ruling Tuesday; expected appeal either way
-- The Thursday SPR print
-- Omar raid escalation: charges, detention, a second target
-- Pre-build tell count on fraud claims before Nov 3 (C-002 threshold: two or more actors)
-- Whether the Pentagon's fatality revision converges or opens a new discrepancy
-
----
-
-*Sources: Guardian, BBC, NPR, AP/Reuters, CNN, WaPo, Time, Capital B, Twin Cities Pioneer Press, Mediaite, Lawdork, CNBC, The Hill, TheWrap, Politico, CBS, Business Insider, TradingEconomics, Rio Times, Polymarket, Kalshi, Silver Bulletin.*
+- Whether the quiet Russian day repeats and the White House declares the ceasefire complete
+- NATO's attribution of the Bulgaria strikes — Article 5 threshold or shipping risk
+- Judge Kelly's press-ban preliminary injunction ruling, due today; expected appeal either way
+- Whether Judge Rochon moves from apology to contempt over the ad airings
+- The Thursday SPR print; retail diesel weekly due this afternoon
+- Response of administration-aligned poll circulation to the YouGov wave
+- Hormuz reopening talks: whether a proposal proceeds without US strikes before Nov 3
 
 </details>
