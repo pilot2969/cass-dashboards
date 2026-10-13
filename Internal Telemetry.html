@@ -80,17 +80,19 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
     panel.appendChild(wl);
    }
   }
-  // v3.6.1: collapsible story cards from daily_read.cards (fallback: flat bullets)
+  // v3.6.2: story cards as JS accordion divs — nested native <details> toggles the outer panel on mobile Chrome; place cards after the index, before Watching next
   if(dr.cards&&dr.cards.length){
+   var watch=panel.querySelector('h4.watching-head, h4');
    var wrap=document.createElement('div');
    wrap.style.marginTop='10px';
    dr.cards.forEach(function(c){
-    var dt=document.createElement('details');dt.style.border='1px solid #2c3a52';dt.style.borderRadius='10px';dt.style.padding='8px 12px';dt.style.marginBottom='8px';dt.style.background='#131a25';
-    var sm=document.createElement('summary');sm.style.cursor='pointer';sm.style.fontWeight='600';sm.style.fontSize='14px';sm.textContent=c.title;
-    var bd=document.createElement('div');bd.style.marginTop='8px';bd.innerHTML=c.html;
-    dt.appendChild(sm);dt.appendChild(bd);wrap.appendChild(dt);
+    var card=document.createElement('div');card.style.border='1px solid #2c3a52';card.style.borderRadius='10px';card.style.padding='0';card.style.marginBottom='8px';card.style.background='#131a25';card.style.overflow='hidden';
+    var head=document.createElement('div');head.style.cursor='pointer';head.style.fontWeight='600';head.style.fontSize='14px';head.style.padding='10px 12px';head.textContent='▸ '+c.title;
+    var bd=document.createElement('div');bd.style.display='none';bd.style.margin='0';bd.style.padding='0 12px 10px';bd.innerHTML=c.html;
+    head.addEventListener('click',function(e){e.stopPropagation();var open=bd.style.display!=='none';bd.style.display=open?'none':'block';head.textContent=(open?'▸ ':'▾ ')+c.title;});
+    card.appendChild(head);card.appendChild(bd);wrap.appendChild(card);
    });
-   ul.parentNode.insertBefore(wrap, ul.nextSibling);
+   if(watch){panel.insertBefore(wrap,watch);}else{panel.appendChild(wrap);}
   }
   var sum=panel.querySelector('.zdr-date');
   if(sum)sum.textContent='edition '+dr.date;
