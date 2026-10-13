@@ -73,7 +73,7 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
    if(ul){ul.innerHTML='';dr.summary.forEach(function(t){var li=document.createElement('li');li.textContent=t;ul.appendChild(li);});}
   }
   panel.querySelectorAll('.watching, h4').forEach(function(n){ if(/Watching next/i.test(n.tagName==='H4'?n.textContent:n.className)||n.classList.contains('watching'))n.remove(); });
-  if(dr.watching&&dr.watching.length){
+  if(dr.watching&&dr.watching.length&&!(dr.cards&&dr.cards.length)){
    var items=dr.watching.map(function(t){return String(t).replace(/^[-\u2022]\\s*/,'').replace(/^["']|["']$/g,'').trim();}).filter(function(t){return t;});
    if(items.length){
     var h=document.createElement('h4');h.style.margin='10px 0 4px';h.textContent='Watching next';
@@ -91,7 +91,12 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
    dr.cards.forEach(function(c){
     var card=document.createElement('div');card.style.border='1px solid #2c3a52';card.style.borderRadius='10px';card.style.padding='0';card.style.marginBottom='8px';card.style.background='#131a25';card.style.overflow='hidden';
     var head=document.createElement('div');head.style.cursor='pointer';head.style.fontWeight='600';head.style.fontSize='14px';head.style.padding='10px 12px';head.textContent='▸ '+c.title;
-    var bd=document.createElement('div');bd.style.display='none';bd.style.margin='0';bd.style.padding='0 12px 10px';bd.innerHTML=c.html;
+    var bd=document.createElement('div');bd.style.display='none';bd.style.margin='0';bd.style.padding='0 12px 10px';var bodyHtml=c.html;
+    if(/watching/i.test(c.title)&&dr.watching&&dr.watching.length){
+     var lis=dr.watching.map(function(t){return String(t).replace(/^[\u2022-]\s*/,'').replace(/^["']|["']$/g,'').trim();}).filter(function(t){return t;}).map(function(t){return '<li>'+t+'</li>';}).join('');
+     bodyHtml='<ul class="watching" style="margin:0;padding-left:20px">'+lis+'</ul>';
+    }
+    bd.innerHTML=bodyHtml;
     head.addEventListener('click',function(e){e.stopPropagation();var open=bd.style.display!=='none';bd.style.display=open?'none':'block';head.textContent=(open?'▸ ':'▾ ')+c.title;});
     card.appendChild(head);card.appendChild(bd);wrap.appendChild(card);
    });
