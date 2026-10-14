@@ -1,115 +1,101 @@
-# The Evening Read — Tuesday, October 13, 2026
+# The Morning Read — Wednesday, October 14, 2026
 
-*Written as a news report with context. Filed ~21:05 ET.*
+*Written as a news report with context. Filed ~09:50 ET.*
 
 ---
 
-DATE: 2026-10-13
+DATE: 2026-10-14
 SUMMARY:
-- Bulgaria rules out NATO Article 4 and 5 after drone sinking in its Black Sea waters; alliance response capped at deterrence
-- Administration's banned ads aired hundreds of times after court order; DOJ says nobody checked the email, apologizes in court
-- Judge Kelly's press-ban ruling misses its own Tuesday deadline; TRO extension lapses with access still open
-- Russia quiet on Ukrainian energy for a second day; ceasefire frame rehab cycle advancing
-- Iran reviews US response on Hormuz reopening as Houthi strikes on Saudi Arabia continue
-- Democrats lead five Republican-held Senate states in YouGov wave; fake-poll response has not fired
-- Brent eases below $106 on Russian diesel narrative while the diesel crack spread sits at a record
+- Russia strikes Kyiv-region and Kharkiv energy grid overnight; 26 substations damaged, 600,000 in the dark — the two-quiet-day ceasefire frame dies in under 48 hours
+- SpaceX restricts Starlink on Ukraine's military without warning amid the US-Ukraine dispute; a private chokepoint is now war-fighting infrastructure
+- Judge Kelly issues the preliminary injunction against the White House press ban and denies a stay; DOJ appeal to the DC Circuit is next
+- Vance invokes the Defense Production Act to expand one Texas refinery — wartime authority for an election-cycle price problem
+- Iran says a Hormuz deal is 'getting close' while Houthi strikes kill three in Saudi Arabia and the Bab el-Mandeb blockade holds
+- Polymarket holds a Democratic sweep at 62-63% on day 20; the mail-ballot mirage is spreading faster than any fake-poll response
+- Brent climbs back above $106 as overnight risk reprices the relief narrative away
 - What we're watching
 WATCHING:
-- Black Sea insurance and freight repricing; attribution language from the EU; a third incident that could shift the framing
-- Kelly's ruling at the top of tomorrow's docket, with appeal expected either way
-- Rochon status conference on ad compliance: apology-plus-conference path holding, or contempt returning
-- Whether the White House declares the energy ceasefire complete after two quiet days
-- Hormuz review window: proposal proceeds without US strikes, or a provocation resets the ladder
-- Administration-aligned poll circulation response to the YouGov wave
-- Thursday SPR print and the weekly petroleum report, shifted by the Columbus Day holiday
+- SpaceX confirmation and mechanism: terminal licensing or contract language, and whether the restriction normalizes
+- DOJ appeal filing and any partial stay at the DC Circuit that revives the press ban pending appeal
+- DPA order text for the Delek Tyler expansion: scope, crude allocation, whether more refineries follow
+- The Hormuz review window and Saudi retaliation posture against the Houthis
+- Fake-poll or 'pendulum' narrative circulation in the final three weeks
+- Thursday EIA prints and the ULSD crack spread, shifted by the Columbus Day holiday
 
-*Sources: Reuters, Guardian, BBC, Al Jazeera, ABC, Politico, The Hill, Maritime Executive, CNBC, Forbes, FRED, Silver Bulletin, Mediaite, Above the Law, newsukraine.*
+*Sources: Le Monde, NYT, CNN, Guardian, BBC, Reuters, Politico, The Hill, WaPo, CBS, Sky News, Iran International, CNBC, Al Jazeera, EIA, Silver Bulletin, Polymarket, TradingEconomics.*
 <!--parser markers above; collapsible cards below-->
 **IN THIS EDITION**
 
-- Bulgaria rules out NATO Article 4 and 5 after drone sinking in its Black Sea waters; alliance response capped at deterrence
-- Administration's banned ads aired hundreds of times after court order; DOJ says nobody checked the email, apologizes in court
-- Judge Kelly's press-ban ruling misses its own Tuesday deadline; TRO extension lapses with access still open
-- Russia quiet on Ukrainian energy for a second day; ceasefire frame rehab cycle advancing
-- Iran reviews US response on Hormuz reopening as Houthi strikes on Saudi Arabia continue
-- Democrats lead five Republican-held Senate states in YouGov wave; fake-poll response has not fired
-- Brent eases below $106 on Russian diesel narrative while the diesel crack spread sits at a record
+- Russia strikes Kyiv-region and Kharkiv energy grid overnight; 26 substations damaged, 600,000 in the dark — the two-quiet-day ceasefire frame dies in under 48 hours
+- SpaceX restricts Starlink on Ukraine's military without warning amid the US-Ukraine dispute; a private chokepoint is now war-fighting infrastructure
+- Judge Kelly issues the preliminary injunction against the White House press ban and denies a stay; DOJ appeal to the DC Circuit is next
+- Vance invokes the Defense Production Act to expand one Texas refinery — wartime authority for an election-cycle price problem
+- Iran says a Hormuz deal is 'getting close' while Houthi strikes kill three in Saudi Arabia and the Bab el-Mandeb blockade holds
+- Polymarket holds a Democratic sweep at 62-63% on day 20; the mail-ballot mirage is spreading faster than any fake-poll response
+- Brent climbs back above $106 as overnight risk reprices the relief narrative away
 - What we're watching
 
 ---
 
 <details>
-<summary>Bulgaria rules out NATO Article 4 and 5 after drone sinking in its Black Sea waters; alliance response capped at deterrence</summary>
+<summary>Russia strikes Kyiv-region and Kharkiv energy grid overnight; 26 substations damaged, 600,000 in the dark — the two-quiet-day ceasefire frame dies in under 48 hours</summary>
 
-VARNA, Bulgaria — Drones struck two merchant ships, the Dignity and the Chelsea 3, overnight in Bulgaria's Black Sea exclusive economic zone, sinking the Chelsea 3 and leaving eleven crew members missing with one rescued, Prime Minister Rumen Radev said Tuesday. The strikes occurred just outside Bulgarian territorial waters; the BBC noted that a few nautical miles to the west, the attack could have triggered the treaty's Article 5. Sofia said there are no current grounds to invoke Articles 4 and 5, instead requesting security cooperation from the EU, NATO, Turkey and Romania. Mr. Radev summoned the Russian ambassador, and the NATO secretary general said the alliance may strengthen deterrence measures in the region. It was the second such sinking in a week.
+KYIV — Russia fired roughly 39 ballistic missiles and more than 120 drones at energy infrastructure in the Kyiv region and Kharkiv overnight, damaging 26 power stations and substations and leaving about 600,000 people in Kyiv without electricity, according to Le Monde, The New York Times and Ukrainian officials. President Zelensky said on X that the attack was 'a targeted Russian ballistic missile strike specifically against energy infrastructure — the very infrastructure covered by the ceasefire announced by the American President.'
 
-Context: this resolves the tell set up by Monday's alliance doctrine speech, in which Supreme Allied Commander Europe Gen. Alexus Grynkewich pledged that NATO would "block, blunt, and break" any attack. The answer to the threshold question is de-escalation: persistent hybrid attrition inside a NATO member's EEZ is being framed as peacetime shipping risk, and the alliance response is capped at deterrence measures rather than collective defense. Watch insurance and freight repricing of Black Sea routes, the EU's attribution language, and whether a third sinking shifts the framing.
-
-</details>
-
-<details>
-<summary>Administration's banned ads aired hundreds of times after court order; DOJ says nobody checked the email, apologizes in court</summary>
-
-NEW YORK — The Justice Department acknowledged in a filing that the Department of Homeland Security "did not become aware of the order" halting its $20 million taxpayer-funded advertising campaign until the morning after Judge Jennifer Rochon issued it Sunday evening. A DOJ attorney apologized in court Tuesday. Lawyers for Common Cause told the judge the banned ads aired hundreds of times after the order — an escalation from Monday's "hours" framing — but said they are not seeking contempt sanctions at this stage, instead requesting a status conference to assess compliance. Ms. Rochon's order also stayed DHS's purchase order with its ad vendor and the Office of Management and Budget's $20 million apportionment.
-
-Context: the compliance posture across the administration's court dockets is converging on a single pattern — procedural violations attributed to administrative error, an apology offered, and the underlying activity continuing. A court order is treated as an obstacle to be timed around rather than a command to be obeyed, and the sanction system currently prices that as a mistake rather than defiance. The same posture sits behind the mail-voting appeal, in which the Justice Department is now seeking expedited appellate review of an order it conceded at trial would be "too late for the 2026 midterms."
+Context: the strike refutes the frame that Monday and Tuesday's quiet skies had begun to rehab. The White House line — that the energy ceasefire holds — cannot now be converted into a completed-deal declaration before Election Day, and the market read this immediately: Brent climbed back through $106 (see the markets card). The pattern from the past week is consistent — a narrated settlement completes its cycle in under 48 hours when the underlying capability to keep striking is untouched. The strike also functions as a reminder of who sets tempo: the party that can hit the grid can decide when the quiet days happen.
 
 </details>
 
 <details>
-<summary>Judge Kelly's press-ban ruling misses its own Tuesday deadline; TRO extension lapses with access still open</summary>
+<summary>SpaceX restricts Starlink on Ukraine's military without warning amid the US-Ukraine dispute; a private chokepoint is now war-fighting infrastructure</summary>
 
-WASHINGTON — Judge Timothy Kelly, who committed at last Thursday's hearing to rule "no later than Tuesday" on the preliminary injunction restoring White House access to CNN, MS NOW and Politico, had not issued the ruling by day's end. The temporary restraining order he extended through Tuesday has now lapsed; the three outlets' access continues under his brief extension of the block pending the ruling. The judge said earlier the decision is likely to be appealed by whichever side loses.
+KYIV/WASHINGTON — Ukrainian authorities reported Wednesday that SpaceX restricted Starlink services overnight without warning, disrupting military logistics and what Zelensky aides called 'a number of missions,' CNN, the Guardian and The New York Times reported. The Pentagon-funded program was 'curbed without warning,' and the restriction lands amid an escalating dispute between Washington and Kyiv over the direction of US support — President Trump maintains the US is still providing intelligence support.
 
-Context: the press-ban case is the third front in the same compliance audit. The temporary reprieve keeps access open while the substantive ruling waits, and the expected appeal means the question of whether the administration can exclude critical outlets from the press pool will remain unresolved into the election's final three weeks. Watch the docket at the top of Wednesday morning.
-
-</details>
-
-<details>
-<summary>Russia quiet on Ukrainian energy for a second day; ceasefire frame rehab cycle advancing</summary>
-
-KYIV — For a second consecutive day, Russia launched no strikes on Ukrainian energy facilities, and Ukraine has held its own pause on striking Russian refineries and energy infrastructure, according to Reuters. The quiet stretch follows Monday's collapse of the frame, when overnight strikes hit six Ukrainian energy sites hours after President Trump announced an energy ceasefire — and after President Volodymyr Zelensky said Ukraine received "no early warning" before the Kyiv-area strikes, indicating no direct channel between Washington and Moscow accompanied the announcement.
-
-Context: one quiet day after a day of failure is the standard rehabilitation cycle for a dead narrative; two quiet days is enough for the White House to claim vindication. Watch for a declaration that the arrangement is complete, while the absence of any early-warning channel continues to undercut the underlying claim that a deal exists. Zelensky's counter — elections in exchange for a sixty-day total ceasefire — remains the pending demand that President Putin must pay for.
+Context: this is the morning's biggest structural event, bigger than the strike it sits beside. A private company's terminals have become war-fighting infrastructure for an allied military, and the owner can restrict them unilaterally, with no public channel and no appeal. It is the same single-control-plane topology as the French supermarket refrigeration failure earlier this week — the prop everyone depends on can be pulled by whoever owns it. Precedent exists: Reuters documented Musk ordering Starlink shutdowns as Ukraine retook territory, and the Crimea-era cutoff is well attested. The differentiation now is that the owner sits inside the Defense Department as a war-study co-director while holding billions in Pentagon contracts. Watch whether the restriction is technical (terminal licensing) or contractual, whether it normalizes into a standing lever, and whether Congress surfaces any oversight.
 
 </details>
 
 <details>
-<summary>Iran reviews US response on Hormuz reopening as Houthi strikes on Saudi Arabia continue</summary>
+<summary>Judge Kelly issues the preliminary injunction against the White House press ban and denies a stay; DOJ appeal to the DC Circuit is next</summary>
 
-TEHRAN — Iran is reviewing the American response to its proposal for reopening the Strait of Hormuz, Foreign Ministry spokesman Esmail Baghaei said, with talks between Washington and Tehran expected to resume this week. Iranian and Gulf officials met in Oman on Monday to discuss safe passage for shipping. Houthi attacks on Saudi Arabia continued, with projectiles reported in the Jazan region and Riyadh's main airport still constrained after last week's fatal strike.
+WASHINGTON — Judge Tim Kelly, a Trump appointee, issued the preliminary injunction Tuesday night in the press-ban case: the White House exclusion of CNN, MS NOW and Politico — more than 70 journalists — likely violates the First and Fifth Amendments, and the national-security justification was found to be post-hoc, cited only after the passes had been revoked. The government asked Kelly to suspend the injunction pending appeal; he denied it. Access continues. DOJ is expected to appeal to the DC Circuit, where the Associated Press already lost the pool, Oval Office and Air Force One portions of its own case pending appeal.
 
-Context: the negotiation channel reopening without American strikes tracks President Trump's October 9 pledge not to attack Iran before the November 3 election, twenty-one days out. The structure is unchanged: Iran prices in the pledge and the Houthis carry the kinetic load in the Gulf theater, keeping the escalation ladder's second rung armed but untriggered. The review window is the same pre-election substrate. Watch whether the Hormuz proposal proceeds without a US strike — the thesis-consistent path — or whether a provocation resets the ladder.
-
-</details>
-
-<details>
-<summary>Democrats lead five Republican-held Senate states in YouGov wave; fake-poll response has not fired</summary>
-
-WASHINGTON — A wave of YouGov polls released Tuesday shows Democrats leading in five Senate seats currently held by Republicans: Texas, Ohio, Kansas, Nebraska and Michigan, according to Nate Silver's Silver Bulletin, which treats independent Dan Osborn as a Democrat in Nebraska. Prediction markets align: Polymarket prices a Democratic sweep of both chambers at 62 percent, with a Senate takeover near 65 percent on on-chain readouts. Individual race odds include Abdul El-Sayed (Michigan) at 72 percent, Mary Peltola (Alaska) at 74, Sherrod Brown (Ohio) at 62 and James Talarico (Texas) at 64. The Economist's approval tracker puts President Trump at net minus 26.
-
-Context: five Republican-held leads in one wave, twenty-one days before the election, is the strongest single polling signal of the cycle — and the prepositioning watch built to detect it has not fired. Administration-aligned poll circulation over the weekend showed tighter races than forecasters and markets indicate; disputed-polling frameworks tend to be deployed weeks before votes are cast. Either that lane is dormant or it is waiting for a sharper trigger. Watch the overnight circulation response.
+Context: separately, in Judge Rochon's courtroom, the Justice Department's answer to the banned-ads order — DHS 'did not become aware' until the morning after — was an apology plus a status-conference request, with hundreds of post-order airings documented and no contempt sought. The two cases share a posture: procedural noncompliance framed as administrative error, the underlying activity continuing while courts write orders. The risk in the press lane is concrete — a partial stay at the DC Circuit that revives the ban for the appeal's duration, using the AP precedent as the vehicle. Watch the appeal filing this week.
 
 </details>
 
 <details>
-<summary>Brent eases below $106 on Russian diesel narrative while the diesel crack spread sits at a record</summary>
+<summary>Vance invokes the Defense Production Act to expand one Texas refinery — wartime authority for an election-cycle price problem</summary>
 
-LONDON — Brent crude eased about 1 percent to near $105 Tuesday, slipping from the two-week high it touched Monday, as traders weighed prospects of more Russian diesel reaching global markets. West Texas Intermediate opened near $93. The US distillate market told a starker story: the ultra-low-sulfur diesel crack spread sits at a record near $118 a barrel this month, and US distillate inventories hold near the sub-100-million-barrel floor the Energy Information Administration projects through 2027, even with US crude production headed for a record 13.8 million barrels a day.
+TYLER, Texas — Vice President Vance announced Tuesday that the administration has invoked the Defense Production Act to expand Delek's Tyler refinery, promising 'millions of gallons of commercial-grade and military-spec fuel.' Retail gasoline stood at $4.34 a gallon and diesel at $6.28 Tuesday. It is not yet clear whether the DPA use extends beyond this one refinery.
 
-Context: falling crude alongside record refining margins indicates the shortage is in diesel, not oil — a gap record domestic production cannot close. The price relief now being narrated traces to Russian product authorized by the GL135 import license, the instrument timed twenty-five days before the election. The Energy Information Administration's weekly petroleum report was shifted to Thursday by the Columbus Day holiday; the retail diesel print for the week through October 12 was due this afternoon, and Thursday's SPR figure is unchanged. President Trump's framing that someone is "purposefully trying to drive up Oil Prices" ahead of the election has already set the blame template for any pump-price spike.
+Context: wartime authority invoked for a price problem, three weeks before an election. The diesel shortage the tape has tracked for weeks — record ULSD crack spread, distillate stocks under 100 million barrels — now has a peacetime-DPA frame, and the 'military-spec fuel' line signals the war economy as the justification scaffold. One refinery's expansion is not a supply answer to a shortage this size; the invoke is legible as a narrative device, and the market will grade it by Thursday's EIA prints. Whether the order text shows real scope (crude allocation, priority ratings, further refineries) or a single-plant press release is the tell.
 
 </details>
 
 <details>
-<summary>What we're watching</summary>
+<summary>Iran says a Hormuz deal is 'getting close' while Houthi strikes kill three in Saudi Arabia and the Bab el-Mandeb blockade holds</summary>
 
-- Black Sea insurance and freight repricing; attribution language from the EU; a third incident that could shift the framing
-- Kelly's ruling at the top of tomorrow's docket, with appeal expected either way
-- Rochon status conference on ad compliance: apology-plus-conference path holding, or contempt returning
-- Whether the White House declares the energy ceasefire complete after two quiet days
-- Hormuz review window: proposal proceeds without US strikes, or a provocation resets the ladder
-- Administration-aligned poll circulation response to the YouGov wave
-- Thursday SPR print and the weekly petroleum report, shifted by the Columbus Day holiday
+TEHRAN/RIYADH — Iran said Wednesday that an Iran-Oman deal on reopening the Strait of Hormuz is 'getting close,' with Sky News reporting that Tehran and Washington see progress but differ on key details. Treasury Secretary Bessent, on Fox Sunday, framed Iran as the 'biggest loser' and credited the diesel-price relief to the deal while citing 'all legal authorities' in reserve. Meanwhile the Houthis escalated: strikes on Saudi airports killed three people, Saudi Arabia is probing why air defenses failed to intercept the barrage, and the blockade on Saudi-linked shipping through Bab el-Mandeb stands — more than six Saudi vessels hit since July 22. Egypt called for a halt to the Houthi attacks, and the Houthis threatened the US directly if it joins the Saudi campaign.
+
+Context: the pledge holds — no US strikes on Iran before November 3 — and Iran is pricing it in. The kinetic load sits on the Houthis and on the Bab el-Mandeb chokepoint while Hormuz diplomacy narrates relief for the tape. The Hormuz card remains confirmed at 98; the open question is whether the review window passes without provocation, or something resets the ladder before Election Day.
+
+</details>
+
+<details>
+<summary>Polymarket holds a Democratic sweep at 62-63% on day 20; the mail-ballot mirage is spreading faster than any fake-poll response</summary>
+
+WASHINGTON — Twenty days out, Polymarket holds the Democratic sweep at 62-63% for control of the House balance of power, with Republican Senate and Democratic House at 29%. The YouGov wave — Democrats leading in Texas, Ohio, Kansas, Nebraska-with-Osborn and Michigan — stands, and the Silver Bulletin has not flagged movement. President Trump stumps in Arizona and Montana this week; Treasury Secretary Bessent unveiled an ACA tax-credit eligibility-tightening plan Wednesday morning, opening a healthcare-cost lane.
+
+Context: the notable negative finding is on the response side. The fake-polls watch — expecting administration-aligned poll circulation to contest the wave — has not fired two days after the YouGov release. Instead the pipeline's narrative side is running outcome-rejection pre-legitimation: the Florida mail-ballot mirage, in which the early lagging return share is being sold as a trend, is spreading across conservative media faster than any poll invalidation. The read: the meme apparatus has shifted from contesting the polls to contesting the count before the count happens. Watch overnight circulation of 'pendulum' framing and any late data dumps in Nevada and Georgia.
+
+</details>
+
+<details>
+<summary>Brent climbs back above $106 as overnight risk reprices the relief narrative away</summary>
+
+LONDON — Brent is trading around $106.20-106.50 Wednesday morning, up roughly 0.7-0.8% and above the two-week high zone; a year ago it sat near $62. Tuesday's easing on a Russian diesel-supply narrative did not hold — the overnight strike on Kyiv's grid and the continuing Houthi blockade of Bab el-Mandeb repriced the risk. Retail prices: gasoline $4.34, diesel $6.28 per gallon. The EIA's weekly petroleum report shifts to Thursday, October 15, for the Columbus Day holiday; the distillate floor is unchanged and the record ULSD crack spread context intact.
+
+Context: the market is auditing the ceasefire story again and the answer came back negative — the quiet days were narrative, not supply. The DPA invoke is the administration's answer to a tape it cannot jawbone down; whether 'military-spec fuel' framing moves retail diesel futures is the Thursday watch. The structural note: energy prices running through one chokepoint's diplomacy and one refinery's wartime authority is the same dependency topology as the morning's other stories.
 
 </details>
