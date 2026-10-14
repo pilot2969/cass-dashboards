@@ -114,8 +114,10 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
   var grid=document.getElementById('zinst-grid'); if(!grid)return;
   var BAND={"Calm":'#4a9e6f',"Strained":'#e3b341',"Warning":'#e0823d',"Critical":'#d64545'};
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;');}
+  // Band derived from score (single source of truth) so needle color and label always match the legend: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100.
+  function bandOf(s){return s<40?'Calm':s<60?'Strained':s<75?'Warning':'Critical';}
   function dial(e){
-   var s=Math.max(0,Math.min(100,+e.score||0)), col=BAND[e.band]||'#8b95a7';
+   var s=Math.max(0,Math.min(100,+e.score||0)), band=bandOf(s), col=BAND[band]||'#8b95a7';
    var R=42, cx=60, cy=56;
    var th=(-90+s*1.8)*Math.PI/180;                 // needle angle: 0 score -> left, 50 -> up, 100 -> right
    var nx=cx+R*Math.sin(th), ny=cy-R*Math.cos(th);
@@ -131,7 +133,7 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
     +'<text x="'+cx+'" y="'+(cy-6)+'" text-anchor="middle" font-size="20" font-weight="700" fill="#e8edf5">'+s+'</text>'
     +'</svg>'
     +'<div style="font-size:.82em;font-weight:600;color:#e8edf5">'+esc(e.name)+'</div>'
-    +'<div style="font-size:.72em;color:'+col+';font-weight:600">'+esc(e.band)+(e.delta==null?'':' · '+d)+'</div>'
+    +'<div style="font-size:.72em;color:'+col+';font-weight:600">'+esc(band+(e.delta==null?'':' · '+d)+'</div>'
     +'</div>';
   }
   function render(inst){
