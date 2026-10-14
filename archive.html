@@ -1,0 +1,49 @@
+<!doctype html><html lang=en><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>CASS Daily Read Archive</title>
+<link rel=stylesheet href="style.css">
+<body><div class=z4>
+<div class=z21><a class=znav href="Internal%20Telemetry.html">← Live board</a>
+<span class=z0 id=edition-count>—</span></div>
+<h1>Daily Read <span class=z18>Archive</span></h1>
+<p class=z13>Every edition, searchable. Built from the machine's daily wire notes.</p>
+<p class=z11 style="margin-top:10px"><input id=q type=search placeholder="Search all editions… (e.g. Hormuz, Starlink, injunction)" style="width:100%;padding:10px 14px;font-size:1em;background:#161b22;color:#e6edf3;border:1px solid #2d333b;border-radius:10px;outline:none">
+<p class=z11 id=status>loading index…</p></div>
+<div id=results></div>
+<p class=z13 style="text-align:center;margin:18px 0">CASS Intelligence Board · <a href="Internal%20Telemetry.html">live board</a></p>
+<script>
+const q=document.getElementById('q'),st=document.getElementById('status'),out=document.getElementById('results');
+let EDITIONS=[];
+fetch('archive/index.json?v='+Date.now()).then(r=>r.json()).then(d=>{
+  EDITIONS=d; document.getElementById('edition-count').textContent=d.length+' editions';
+  st.textContent='type to search — matches highlight across the full text of every edition';
+  render('');
+});
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function snippet(text,terms){
+  const lower=text.toLowerCase(); let best=-1,bestScore=0;
+  for(const t of terms){let i=lower.indexOf(t); while(i!==-1){let sc=terms.includes(text.slice(i-12,i).toLowerCase().match(/[a-z]+$/)?.[0]||'')?2:1; if(bestScore<sc){bestScore=sc;best=i} i=lower.indexOf(t,i+1);}}
+  if(best<0) best=0;
+  const start=Math.max(0,best-90), end=Math.min(text.length,best+220);
+  let s=esc(text.slice(start,end).trim());
+  for(const t of terms){ s=s.replace(new RegExp('('+t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<mark style="background:#e3b34155;color:#f0f6fc;border-radius:3px;padding:0 2px">$1</mark>'); }
+  return (start>0?'… ':'')+s+(end<text.length?' …':'');
+}
+function terms(qs){return qs.toLowerCase().split(/\s+/).filter(w=>w.length>2)}
+function render(qs){
+  const ts=terms(qs);
+  let list=EDITIONS;
+  if(ts.length) list=EDITIONS.filter(e=>{const t=e.text.toLowerCase();return ts.every(w=>t.includes(w))});
+  out.innerHTML=list.length?'':`<div class=z37 style="text-align:center;color:#9aa4b0">No edition matches${qs?` “${esc(qs)}”`:''}.</div>`;
+  for(const e of list){
+    const div=document.createElement('div'); div.className='z37';
+    const hit=ts.length?snippet(e.text,ts):'';
+    div.innerHTML=`<div class=row><b><a href="${e.file}" style="color:#79c0ff;text-decoration:none">${esc(e.title)}</a></b><small style="color:#9aa4b0;white-space:nowrap">${e.filed}</small></div>
+      <p class=z13 style="margin:6px 0 0">${e.summary.split('\n').slice(0,2).map(esc).join(' · ')}</p>
+      ${hit?`<p style="color:#8b949e;font-size:.88em;margin:8px 0 0;line-height:1.5">${hit}</p>`:''}`;
+    out.appendChild(div);
+  }
+  document.getElementById('edition-count').textContent=ts.length?`${list.length} of ${EDITIONS.length} editions match`:`${EDITIONS.length} editions`;
+}
+let deb; q.addEventListener('input',()=>{clearTimeout(deb);deb=setTimeout(()=>render(q.value),120)});
+</script></body></html>

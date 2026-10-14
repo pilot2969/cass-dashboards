@@ -97,7 +97,6 @@ try:
 except Exception as e:
     print("card parse warn:", e)
 
-data["meta"]["generated"]=today
 # 2026-10-14 TIMESTAMP STANDARD: every push stamps ET date+hour in meta
 # (generated_stamped) and in the commit message, so prod state is auditable
 # to the hour without digging through git log.
@@ -109,12 +108,17 @@ print(f"regenerated: {len(movers)} movers, history through {today}, stamped {_et
 PY
 MSG="$MSG @ $(TZ=America/New_York date +%H:%M) ET"
 
+# daily read archive: convert the current Daily Read into archive/ and refresh
+# the search index (owner feature 2026-10-14). Runs before commit so archive
+# files ship with the same push; failure here must not block the data push.
+python3 build_archive.py >> archive.log 2>&1 || echo "WARN: archive build failed — see archive.log"
+
 # git guard: only commit if something changed
 # stranded-commit guard: a prior run can die between commit and push, leaving
 # prod stale while a naive "nothing to push" exit looks like success. If local
 # is ahead of origin, finish the push regardless of whether THIS run changed data.
-if ! git diff --quiet history.json data.json "Daily Read.md"; then
-  git add history.json data.json "Daily Read.md"
+if ! git diff --quiet history.json data.json "Daily Read.md" archive/; then
+  git add history.json data.json "Daily Read.md" archive/ archive.html build_archive.py archive.log
   git commit -q -m "$MSG (data-only)"
 fi
 
@@ -172,7 +176,7 @@ python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json'
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json "Daily Read.md"
+git add data.json history.json "Daily Read.md" archive/ archive.html build_archive.py archive.log
 git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # pull with rebase; a failure must abort the script (set -e), never print success.
 # -X ours is safe here because data.json/history.json are generated artifacts:
