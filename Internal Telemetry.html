@@ -116,11 +116,12 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
   function esc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;');}
   function dial(e){
    var s=Math.max(0,Math.min(100,+e.score||0)), col=BAND[e.band]||'#8b95a7';
-   var a=(-90+s*1.8)*Math.PI/180, R=42, cx=60, cy=56;
-   var nx=cx+R*Math.cos(a), ny=cy+R*Math.sin(a);
-   // arc: 180 deg from score 0 to 100; band segments drawn as stroke arcs
-   function seg(a1,a2,c2){var p1x=cx-R*Math.cos(a1*Math.PI/180),p1y=cy-R*Math.sin(a1*Math.PI/180),p2x=cx-R*Math.cos(a2*Math.PI/180),p2y=cy-R*Math.sin(a2*Math.PI/180);return '<path d="M'+p1x.toFixed(1)+' '+p1y.toFixed(1)+' A'+R+' '+R+' 0 0 1 '+p2x.toFixed(1)+' '+p2y.toFixed(1)+'" stroke="'+c2+'" stroke-width="7" fill="none" stroke-linecap="butt"/>';}
-   var arc=seg(-90,24,BAND['Calm'])+seg(24,72,BAND['Strained'])+seg(72,120,BAND['Warning'])+seg(120,180,BAND['Critical']);
+   var R=42, cx=60, cy=56;
+   var th=(-90+s*1.8)*Math.PI/180;                 // needle angle: 0 score -> left, 50 -> up, 100 -> right
+   var nx=cx+R*Math.sin(th), ny=cy-R*Math.cos(th);
+   // arc: 180 deg from score 0 to 100; band segments drawn as stroke arcs (same convention)
+   function seg(t1,t2,c2){var p1x=cx+R*Math.sin(t1*Math.PI/180),p1y=cy-R*Math.cos(t1*Math.PI/180),p2x=cx+R*Math.sin(t2*Math.PI/180),p2y=cy-R*Math.cos(t2*Math.PI/180);return '<path d="M'+p1x.toFixed(1)+' '+p1y.toFixed(1)+' A'+R+' '+R+' 0 0 1 '+p2x.toFixed(1)+' '+p2y.toFixed(1)+'" stroke="'+c2+'" stroke-width="7" fill="none" stroke-linecap="butt"/>';}
+   var arc=seg(-90,-19.8,BAND['Calm'])+seg(-19.8,16.2,BAND['Strained'])+seg(16.2,43.2,BAND['Warning'])+seg(43.2,90,BAND['Critical']);
    var d = e.delta==null?'':(e.delta>0?'<span style="color:#d64545">\u25b2+'+e.delta+'</span>':e.delta<0?'<span style="color:#4a9e6f">\u25bc'+e.delta+'</span>':'\u2013 0');
    return '<div style="text-align:center" title="'+esc(e.why||'')+'">'
     +'<svg viewBox="0 0 120 66" style="width:100%;max-width:150px">'
