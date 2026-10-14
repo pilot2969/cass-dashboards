@@ -2,6 +2,7 @@
 # CASS dashboard data-layer sync — data-only, prod+staging per PUSH-TARGET AMENDMENT (2026-10-05):
 #   card/data updates -> prod + staging simultaneously; design changes -> staging only until approval.
 # Usage: ./sync_data.sh ["commit message"]
+# 2026-10-14: pushes now stamp ET date+hour (meta.generated_stamped + commit msg). See /space/protocol/push-timestamp-standard.json
 set -euo pipefail
 cd "$(dirname "$0")"
 MSG="${1:-data refresh $(date +%Y-%m-%d): movers + history regenerated from /space}"
@@ -97,9 +98,15 @@ except Exception as e:
     print("card parse warn:", e)
 
 data["meta"]["generated"]=today
+# 2026-10-14 TIMESTAMP STANDARD: every push stamps ET date+hour in meta
+# (generated_stamped) and in the commit message, so prod state is auditable
+# to the hour without digging through git log.
+_et=_dt.datetime.now(_dt.timezone(_dt.timedelta(hours=-4)))
+data["meta"]["generated_stamped"]=_et.strftime("%Y-%m-%dT%H:%M ET")
 json.dump(data, open("data.json","w"), indent=1)
-print(f"regenerated: {len(movers)} movers, history through {today}")
+print(f"regenerated: {len(movers)} movers, history through {today}, stamped {_et.strftime('%Y-%m-%dT%H:%M ET')}")
 PY
+MSG="$MSG @ $(date +%H:%M) ET"
 
 # git guard: only commit if something changed
 # stranded-commit guard: a prior run can die between commit and push, leaving
