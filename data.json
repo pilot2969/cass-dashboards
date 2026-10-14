@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-14T12:09 ET"
+  "generated_stamped": "2026-10-14T12:29 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -7316,5 +7316,62 @@
     "html": "LONDON \u2014 Brent is trading around $106.20-106.50 Wednesday morning, up roughly 0.7-0.8% and above the two-week high zone; a year ago it sat near $62. Tuesday's easing on a Russian diesel-supply narrative did not hold \u2014 the overnight strike on Kyiv's grid and the continuing Houthi blockade of Bab el-Mandeb repriced the risk. Retail prices: gasoline $4.34, diesel $6.28 per gallon. The EIA's weekly petroleum report shifts to Thursday, October 15, for the Columbus Day holiday; the distillate floor is unchanged and the record ULSD crack spread context intact.\n\nContext: the market is auditing the ceasefire story again and the answer came back negative \u2014 the quiet days were narrative, not supply. The DPA invoke is the administration's answer to a tape it cannot jawbone down; whether 'military-spec fuel' framing moves retail diesel futures is the Thursday watch. The structural note: energy prices running through one chokepoint's diplomacy and one refinery's wartime authority is the same dependency topology as the morning's other stories."
    }
   ]
+ },
+ "institutions": {
+  "reviewed": "2026-10-14",
+  "reviewer": "CASS seed calibration (owner review pending)",
+  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
+  "institutions": [
+   {
+    "name": "Federal Courts",
+    "score": 78,
+    "band": "Critical",
+    "delta": null,
+    "why": "Emergency-docket capture accelerating; judicial norms treated as advisory. Wire: SCOTUS emergency applications pattern, judge pre-attack rhetoric (2026-09-21)."
+   },
+   {
+    "name": "Congress",
+    "score": 72,
+    "band": "Critical",
+    "delta": null,
+    "why": "Subpoena-as-advisory pattern active; funding power impoundment; certification-authority bills pre-positioned. Wire: post-defeat consolidation menu (60%)."
+   },
+   {
+    "name": "Election Offices",
+    "score": 73,
+    "band": "Critical",
+    "delta": null,
+    "why": "Official attrition (brain-drain reports), USCIS machinery capture, poll-watcher normalization. Wire: Leg-4 battery 11/15 (2026-09)."
+   },
+   {
+    "name": "Health Agencies",
+    "score": 80,
+    "band": "Critical",
+    "delta": null,
+    "why": "CDC epistemic capture; outbreak capacity test live. Wire: Leg-4 battery CDC 12/15 (2026-09)."
+   },
+   {
+    "name": "Civil Service",
+    "score": 87,
+    "band": "Critical",
+    "delta": null,
+    "why": "Polygraph loyalty tests, purge attrition, Schedule-F-class machinery. Wire: Leg-4 battery 13/15 (2026-09) \u2014 highest stress in the set."
+   },
+   {
+    "name": "Military Leadership",
+    "score": 65,
+    "band": "Warning",
+    "delta": null,
+    "why": "Chain-of-command contested but resistance visible: Caine letter (2026-09-01), generals' non-concur, Hegseth purge costing him. Watch: compliance drift vs open rupture."
+   },
+   {
+    "name": "Dollar & Credit",
+    "score": 58,
+    "band": "Strained",
+    "delta": null,
+    "why": "10Y at 24-yr high (~5.30%), worst Treasury quarter since 1994, reserve-rotation signals. Bellwether \u2014 moves first, breaks last."
+   }
+  ],
+  "age_days": 0
  }
 }
