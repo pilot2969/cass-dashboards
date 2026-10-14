@@ -97,6 +97,16 @@ try:
 except Exception as e:
     print("card parse warn:", e)
 
+# INSTITUTIONAL STRESS STALENESS (protocol 2026-10-14): scores are hand-reviewed
+# estimates; the daily sync auto-rolls the age clock. >7d since hand review = the
+# dashboard prints a stale flag next to the panel. Sync never rewrites scores.
+inst=data.get("institutions",{})
+if inst.get("institutions"):
+    last=inst.get("reviewed","2026-10-14")
+    inst["age_days"]=(datetime.date.today()-datetime.date.fromisoformat(last)).days
+    if inst["age_days"]>7:
+        print(f"WARNING: institutional stress scores {inst['age_days']}d unreviewed (reviewed {last}). Hand-review due.")
+
 # 2026-10-14 TIMESTAMP STANDARD: every push stamps ET date+hour in meta
 # (generated_stamped) and in the commit message, so prod state is auditable
 # to the hour without digging through git log.
