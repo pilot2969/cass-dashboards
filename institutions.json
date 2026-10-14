@@ -1,56 +1,64 @@
 {
-  "reviewed": "2026-10-14",
-  "reviewer": "CASS seed calibration (owner review pending)",
-  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
-  "institutions": [
-    {
-      "name": "Federal Courts",
-      "score": 78,
-      "band": "Critical",
-      "delta": null,
-      "why": "Emergency-docket capture accelerating; judicial norms treated as advisory. Wire: SCOTUS emergency applications pattern, judge pre-attack rhetoric (2026-09-21)."
-    },
-    {
-      "name": "Congress",
-      "score": 72,
-      "band": "Warning",
-      "delta": null,
-      "why": "Subpoena-as-advisory pattern active; funding power impoundment; certification-authority bills pre-positioned. Wire: post-defeat consolidation menu (60%)."
-    },
-    {
-      "name": "Election Offices",
-      "score": 73,
-      "band": "Warning",
-      "delta": null,
-      "why": "Official attrition (brain-drain reports), USCIS machinery capture, poll-watcher normalization. Wire: Leg-4 battery 11/15 (2026-09)."
-    },
-    {
-      "name": "Health Agencies",
-      "score": 80,
-      "band": "Critical",
-      "delta": null,
-      "why": "CDC epistemic capture; outbreak capacity test live. Wire: Leg-4 battery CDC 12/15 (2026-09)."
-    },
-    {
-      "name": "Civil Service",
-      "score": 87,
-      "band": "Critical",
-      "delta": null,
-      "why": "Polygraph loyalty tests, purge attrition, Schedule-F-class machinery. Wire: Leg-4 battery 13/15 (2026-09) — highest stress in the set."
-    },
-    {
-      "name": "Military Leadership",
-      "score": 65,
-      "band": "Warning",
-      "delta": null,
-      "why": "Chain-of-command contested but resistance visible: Caine letter (2026-09-01), generals' non-concur, Hegseth purge costing him. Watch: compliance drift vs open rupture."
-    },
-    {
-      "name": "Dollar & Credit",
-      "score": 58,
-      "band": "Strained",
-      "delta": null,
-      "why": "10Y at 24-yr high (~5.30%), worst Treasury quarter since 1994, reserve-rotation signals. Bellwether — moves first, breaks last."
-    }
-  ]
+ "reviewed": "2026-10-14",
+ "reviewer": "CASS seed calibration (owner review pending)",
+ "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
+ "institutions": [
+  {
+   "name": "Federal Courts",
+   "score": 78,
+   "band": "Critical",
+   "delta": null,
+   "why": "Emergency-docket capture accelerating; judicial norms treated as advisory. Wire: SCOTUS emergency applications pattern, judge pre-attack rhetoric (2026-09-21)."
+  },
+  {
+   "name": "Congress",
+   "score": 72,
+   "band": "Critical",
+   "delta": null,
+   "why": "Subpoena-as-advisory pattern active; funding power impoundment; certification-authority bills pre-positioned. Wire: post-defeat consolidation menu (60%)."
+  },
+  {
+   "name": "Election Offices",
+   "score": 73,
+   "band": "Critical",
+   "delta": null,
+   "why": "Official attrition (brain-drain reports), USCIS machinery capture, poll-watcher normalization. Wire: Leg-4 battery 11/15 (2026-09)."
+  },
+  {
+   "name": "Health Agencies",
+   "score": 80,
+   "band": "Critical",
+   "delta": null,
+   "why": "CDC epistemic capture; outbreak capacity test live. Wire: Leg-4 battery CDC 12/15 (2026-09)."
+  },
+  {
+   "name": "Civil Service",
+   "score": 87,
+   "band": "Critical",
+   "delta": null,
+   "why": "Polygraph loyalty tests, purge attrition, Schedule-F-class machinery. Wire: Leg-4 battery 13/15 (2026-09) \u2014 highest stress in the set."
+  },
+  {
+   "name": "Military Leadership",
+   "score": 65,
+   "band": "Warning",
+   "delta": null,
+   "why": "Chain-of-command contested but resistance visible: Caine letter (2026-09-01), generals' non-concur, Hegseth purge costing him. Watch: compliance drift vs open rupture."
+  },
+  {
+   "name": "Dollar & Credit",
+   "score": 58,
+   "band": "Strained",
+   "delta": null,
+   "why": "10Y at 24-yr high (~5.30%), worst Treasury quarter since 1994, reserve-rotation signals. Bellwether \u2014 moves first, breaks last."
+  },
+  {
+   "name": "Department of Education",
+   "score": 86,
+   "band": "Critical",
+   "delta": null,
+   "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
+  }
+ ],
+ "age_days": 0
 }

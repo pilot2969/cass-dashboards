@@ -7370,6 +7370,13 @@
     "band": "Strained",
     "delta": null,
     "why": "10Y at 24-yr high (~5.30%), worst Treasury quarter since 1994, reserve-rotation signals. Bellwether \u2014 moves first, breaks last."
+   },
+   {
+    "name": "Department of Education",
+    "score": 86,
+    "band": "Critical",
+    "delta": null,
+    "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
   "age_days": 0
