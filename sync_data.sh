@@ -101,12 +101,13 @@ data["meta"]["generated"]=today
 # 2026-10-14 TIMESTAMP STANDARD: every push stamps ET date+hour in meta
 # (generated_stamped) and in the commit message, so prod state is auditable
 # to the hour without digging through git log.
-_et=_dt.datetime.now(_dt.timezone(_dt.timedelta(hours=-4)))
+from zoneinfo import ZoneInfo
+_et=_dt.datetime.now(ZoneInfo("America/New_York"))
 data["meta"]["generated_stamped"]=_et.strftime("%Y-%m-%dT%H:%M ET")
 json.dump(data, open("data.json","w"), indent=1)
 print(f"regenerated: {len(movers)} movers, history through {today}, stamped {_et.strftime('%Y-%m-%dT%H:%M ET')}")
 PY
-MSG="$MSG @ $(date +%H:%M) ET"
+MSG="$MSG @ $(TZ=America/New_York date +%H:%M) ET"
 
 # git guard: only commit if something changed
 # stranded-commit guard: a prior run can die between commit and push, leaving
@@ -119,12 +120,10 @@ fi
 
 if [ -n "$(git rev-list origin/main..HEAD)" ]; then
   echo "stranded commits detected: $(git rev-list --count origin/main..HEAD) — completing interrupted push"
-  git push -q origin main && echo "PUSHED TO STAGING ✓"
-# PROD-PUSH FIX (2026-10-10): remote 'origin' is the STAGING repo; the script
-# only ever pushed there and printed "PUSHED TO PROD ✓" (false success — the
-# real board went stale). prod remote now pushed explicitly.
-git push -q prod main:main && echo "PUSHED TO PROD ✓"
 fi
+# NOTE: actual pushes happen ONCE, in the consolidated block at the bottom
+# (2026-10-14 review: this block previously duplicated the staging+prod pushes,
+# mislabeled 'PUSHED TO PROD' before the prod push line — removed).
 
 
 # deploy-serialization guard (added 2026-10-07, incident: 3 pushes within 40s
@@ -132,22 +131,37 @@ fi
 # serving the stale build for ~10 min). Before pushing, wait until the latest
 # Pages run on prod has reached a terminal state (success|failure|cancelled).
 # Max 8 min wait; on timeout, abort loudly rather than risk another stack.
-if git remote get-url origin | grep -q github.com; then
+# 2026-10-14 amendment: authenticated (fail-loud), and checks PAGES DEPLOYMENTS
+# not just workflow runs — the Oct-14 incident was a stuck deployment record
+# (0de2032) with NO in-progress workflow, which the run-only guard never saw.
+if git remote get-url prod | grep -q github.com; then
   REPO="pilot2969/cass-dashboards"
-  if [ -n "${GH_TOKEN:-}" ]; then AUTH=(-H "Authorization: Bearer $GH_TOKEN"); else AUTH=(); fi
+  TOK=$(git remote get-url prod | sed -n 's|https://[^:]*:\([^@]*\)@.*|\1|p')
+  if [ -n "$TOK" ]; then AUTH=(-H "Authorization: Bearer $TOK"); else
+    echo "ERROR: no prod token — serialization guard cannot run authenticated"; exit 1; fi
+  BLOCKED=""
   for i in $(seq 1 48); do
-    STATE=$(curl -sf "https://api.github.com/repos/$REPO/actions/runs?per_page=1" \
-      "${AUTH[@]}" | python3 -c 'import json,sys;print(json.load(sys.stdin)["workflow_runs"][0]["status"])' 2>/dev/null || echo unknown)
-    case "$STATE" in success|failure|cancelled|completed|unknown) break;; esac
-    if [ "$i" -eq 1 ]; then echo "pages deploy in flight ($STATE) — waiting to serialize"; fi
+    RUN=$(curl -sf "https://api.github.com/repos/$REPO/actions/runs?per_page=1" "${AUTH[@]}" | \
+      python3 -c 'import json,sys;w=json.load(sys.stdin)["workflow_runs"][0];print(w["status"]+":"+w["head_sha"][:7])' 2>/dev/null || echo ERR)
+    IN_FLIGHT=$(curl -sf "https://api.github.com/repos/$REPO/deployments?environment=github-pages&per_page=1" "${AUTH[@]}" | \
+      python3 -c 'import json,sys
+try:
+  ds=json.load(sys.stdin)
+  print("yes" if ds and not ds[0].get("statuses") else "no")
+except Exception: print("no")' 2>/dev/null || echo no)
+    STATE="${RUN%%:*}"
+    case "$STATE" in success|failure|cancelled|completed) : ;; *) BLOCKED="$RUN (run)" ;; esac
+    [ "$IN_FLIGHT" = yes ] && BLOCKED="$BLOCKED pending-pages-deployment"
+    if [ -z "$BLOCKED" ]; then break; fi
+    if [ "$i" -eq 1 ]; then echo "pages deploy in flight: $BLOCKED — waiting to serialize"; fi
     sleep 10
   done
-  if [ "$STATE" != "unknown" ] && case "$STATE" in success|failure|cancelled|completed) false;; *) true;; esac; then
-    echo "ERROR: Pages deploy still in flight after 8 min ($STATE) — aborting push to avoid stacking"
+  if [ -n "$BLOCKED" ]; then
+    echo "ERROR: pages deploy not settled after 8 min ($BLOCKED) — aborting push to avoid stacking."
+    echo "Stuck deployment without a running workflow needs manual cancel (browser: repo Settings→Environments→github-pages) or a PAT with deployments scope."
     exit 1
   fi
-  # also verify the latest run's commit is already deployed (terminal run ahead of HEAD is fine)
-  echo "deploy-serialization: clear (last run state: $STATE)"
+  echo "deploy-serialization: clear (last run: $RUN)"
 fi
 
 # staging-first: verify JSON parses clean before any push
@@ -164,14 +178,13 @@ git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # -X ours is safe here because data.json/history.json are generated artifacts:
 # our regen output is authoritative over any remote-only drift.
 git pull --rebase -X ours -q origin main
-git push -q origin main && echo "PUSHED TO STAGING ✓"
-# PROD-PUSH FIX (2026-10-10): remote 'origin' is the STAGING repo; the script
-# only ever pushed there and printed "PUSHED TO PROD ✓" (false success — the
-# real board went stale). prod remote now pushed explicitly.
+# CONSOLIDATED PUSH BLOCK (2026-10-14 review): exactly one push per remote, per
+# run. origin = staging repo, prod = prod repo, staging = alias of origin.
+git push -q origin main && echo "PUSHED TO STAGING (origin) ✓"
 git push -q prod main:main && echo "PUSHED TO PROD ✓"
-# PUSH-TARGET AMENDMENT (2026-10-05): data pushes go to staging too so boards never diverge on numbers.
 if git remote get-url staging >/dev/null 2>&1; then
-  git push -q staging main && echo "PUSHED TO STAGING ✓"
+  # staging alias already covered by origin push above; push only if it points elsewhere
+  [ "$(git remote get-url staging)" = "$(git remote get-url origin)" ] && echo "staging alias == origin (already pushed)" || { git push -q staging main && echo "PUSHED TO STAGING (staging remote) ✓"; }
 else
   echo "WARN: no 'staging' remote configured — staging board NOT updated"
 fi

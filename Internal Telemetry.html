@@ -137,7 +137,7 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
 (async()=>{
  try{
   const d=await (await fetch('data.json',{cache:'no-store'})).json();
-  const st=d.meta.generated_stamped||d.meta.generated||'unknown';
+  const st=(d.meta.generated_stamped||d.meta.generated||'unknown').replace(/T/,' ');
   document.getElementById('stamp').textContent=st;
   document.getElementById('builtstamp').textContent=st;
   document.title='CASS Briefing — '+st;
