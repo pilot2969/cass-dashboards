@@ -1,11 +1,11 @@
-<!doctype html><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>CASS Briefing — 2026-10-13</title><link rel=stylesheet href=style.css><link rel=stylesheet href=style.css><link rel=stylesheet href=style.css><style>
+<!doctype html><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>CASS Briefing</title><link rel=stylesheet href=style.css><link rel=stylesheet href=style.css><link rel=stylesheet href=style.css><style>
 details.zpanel{background:transparent!important;border:0!important;padding:0!important;margin:16px 0 10px}
 details.zpanel summary{list-style:none;cursor:pointer;padding:0}
 details.zpanel summary::before{content:none!important}
 details.zpanel .zpanelbody::before{content:'\25BE';position:absolute;top:14px;right:14px;color:#e3b341;font-size:.85em}
 details.zpanel:not([open]) .zpanelbody::before{content:'\25B8'}
 </style>
-<div class=z4><div class=z21><span class=z2>Live Telemetry</span><span class=z0>🔥 Midterm Clock: T-25 days (Nov 3, 2026)</span></div><h1>CASS <span class=z18>Intelligence Board</span></h1><p class=z13>Civil Alignment & Systemic Stability — real-time transition tracking &amp; institutional stress telemetry</p><p class=z11>⚡ Updated <b>2026-10-13</b> · briefing auto-built from the machine's live notes</p></div><details class="zpanel" open><summary><h2>About this board</h2></summary>
+<div class=z4><div class=z21><span class=z2>Live Telemetry</span><span class=z0>🔥 Midterm Clock: <span id=clock>—</span></span></div><h1>CASS <span class=z18>Intelligence Board</span></h1><p class=z13>Civil Alignment & Systemic Stability — real-time transition tracking &amp; institutional stress telemetry</p><p class=z11>⚡ Updated <b id=stamp>loading…</b> · briefing auto-built from the machine's live notes</p></div><details class="zpanel" open><summary><h2>About this board</h2></summary>
 <div class="zpanelbody" style="border:1px solid #2c3a52;border-radius:12px;padding:14px 16px;background:#161d29;margin-top:10px;position:relative">
 <p>CASS is a public scoreboard for the health of American institutions — the courts, Congress, election offices, health agencies, the civil service, the military. It does three things, and holds itself to the same standard it applies:</p>
 <ul>
@@ -46,7 +46,7 @@ details.zpanel:not([open]) .zpanelbody::before{content:'\25B8'}
 <div class="z31">• <strong>Counter-case battery</strong>: Soviet 1965, Singapore 1990, China 2000 — raw opacity shows ~zero conversion to decay timing; Leg 3's mutation signal, not opacity itself, carries the timing power.</div>
 <div class="z17">Full protocol: <em>CASS Blind Backtest Protocol (Standing Methodology)</em>, Samuel Adams, 2026, z11 2026-09-22. Headline sample: n=3 original + n=8 historical sweep + 3 counter-cases (14 eras; 4 PASS, 1 STRAIN, 1 MISS, 1 counter-case rejection class). A secondary track of 6 policy/regulatory blind runs (Basel III, GDPR, Medicaid expansion, No Surprises Act, Oregon Measure 110, PPACA subsidies) is reported separately and never mixed into the headline number. Known limits are stated in the protocol, including the risk of outcome contamination in self-graded runs and the provenance caveat that sweep eras are reconstructions rather than true blind runs. One falsifier-triggered failure (PPACA enrollment) is honestly logged on the secondary track. The <strong>Falsifiability Collapse Protocol</strong> — governing claims structured so that falsifying evidence is systematically unobservable — is a standing clause. Per-era leg scores and grades are recorded in the <strong>MGET control ledger</strong>.</div>
 </div></details>
-<footer><span class="ftver">v3.6.4</span> · Built Oct 13, 2026 10:22 AM ET by the CASS machine · plain-language briefing · underlying data: <a href=data.json>data.json</a></footer>
+<footer><span class="ftver">v3.6.4</span> · Built <span id=builtstamp>—</span> by the CASS machine · plain-language briefing · underlying data: <a href=data.json>data.json</a></footer>
 <script>
 document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
  b.addEventListener('click',function(e){
@@ -130,5 +130,24 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
   });
   box.innerHTML=out;
  }).catch(function(e){/* keep baked fallback */});
+})();
+</script>
+
+<script>
+(async()=>{
+ try{
+  const d=await (await fetch('data.json',{cache:'no-store'})).json();
+  const st=d.meta.generated_stamped||d.meta.generated||'unknown';
+  document.getElementById('stamp').textContent=st;
+  document.getElementById('builtstamp').textContent=st;
+  document.title='CASS Briefing — '+st;
+  const ms=Date.parse('2026-11-03T00:00:00')-Date.now();
+  const days=Math.ceil(ms/86400000);
+  document.getElementById('clock').textContent=days>0?('T-'+days+' days (Nov 3, 2026)'):('ELECTION DAY (Nov 3, 2026)');
+ }catch(e){
+  document.getElementById('stamp').textContent='stamp unavailable';
+  document.getElementById('builtstamp').textContent='build time unavailable';
+  document.getElementById('clock').textContent='clock unavailable';
+ }
 })();
 </script>
