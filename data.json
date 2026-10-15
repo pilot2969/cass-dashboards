@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-14T15:17 ET"
+  "generated_stamped": "2026-10-14T20:44 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,46 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-14",
+   "time_et": "afternoon",
+   "track": "foreign-energy",
+   "mget_legs_tested": [
+    "rung-1",
+    "narrative-management"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Artifact logged (screenshot in /rool-drive/media/2026-10-14 Musk Starshield Statement.png): Musk tweet 12:00 PM ET \u2014 'Starshield systems are owned and controlled by the US government. Any limits on speed or usage are decided by the US military and ultimately POTUS. Starlink is a commercial service\u2026 limited to civilian or defensive activities and cannot be used for offensive military action.' Follows overnight throttle on Ukraine drone terminals (>100 mph motion limit; ~100 mph terminals unaffected per Sternenko). Structure: single private chokepoint on allied military comms, with the operator explicitly naming POTUS as the final decision authority. The deniability ladder runs the wrong way \u2014 rather than distancing the White House from an unpopular restriction, the operator ascribes the on/off switch directly to the president. Same topology as the fridge control-plane: the operator of the prop decides what counts as misuse. MeidasTouch framing ('throws Trump under the bus') misreads it; the text does the opposite \u2014 it consolidates executive ownership of the restriction. OWNER REFINEMENT 16:46 ET (Sam): the POTUS attribution is dual-purpose. (1) Neutrality laundering \u2014 by naming POTUS as final authority, Musk positions himself as a mere compliant commercial provider despite holding government-tier decision access; he absorbs the political heat of the throttle (Ukraine's anger, EU alarm) while keeping the relationship intact. This is the fridge control-plane pattern from the operator's side: 'the prop operator decides what counts as misuse' now has a corollary \u2014 the operator publicly disclaims the deciding while still being the one who executes it. (2) Bilateralization \u2014 the message to Kyiv is that access runs through the Trump-Zelensky channel personally, not through any alliance structure; no NATO, no EU, no DPA committee. Starlink becomes a bilateral favor with a usage clause, which is exactly the leverage shape the morning wire flagged.",
+   "forward_signal": "Falsifiers: (a) if Starshield bandwidth to Ukraine shows NO degradation in coming days, the tweet is narrative-only repositioning; (b) if congressional oversight or Ukraine seeks alternatives (Eutelsat, EU sovereign constellation) and gets them fast, the chokepoint is contestable; (c) if SpaceX or the administration walks the POTUS-language back, treat as ad-hoc cover story. Confirms single-chokepoint-dependency specimen from morning wire; watch-item /space/watch/2026-10-14-starlink-ukraine-restriction.json updated with artifact.",
+   "confidence_moves": "owner-endorsed reading; raise confidence one notch \u2014 two independent structural reads converge on the same chokepoint shape",
+   "basename": "2026-10-14-starlink-potus-control-claim"
+  },
+  {
+   "date": "2026-10-14",
+   "track": "narrative-velocity",
+   "mget_legs_tested": [
+    "leg3-legitimacy"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Kirk canonization now carries BOTH movement and state layers on the same day: TPA paid resurrection/vote-summons ad (movement instrument) + White House 'National Day of Remembrance for CHARLIE KIRK' on his birthday (state liturgy). Pre-legitimation apparatus for a civil religion built around the martyr: the day is a recurring fixed date, the martyr's account issues electoral directives, dissent is framed as demonic. Predicted in /space/prediction/kirk-anniversary-narrative-2026.json (anniversary-narrative cycle) and /space/absorption/2026-09-18-sacralization-legislative-halls.json (sacralization spreading from legislative halls to executive). Confirmation is structural, not marginal: a national observance day for a private partisan actor is an unprecedented sacralization threshold.",
+   "forward_signal": "Watch whether 2027 sees an official recurring proclamation (liturgy institutionalized); whether federal agencies/schools are directed to observe; whether martyr imagery attaches to the final-battle ad frame before Nov 3. If the day becomes an annual official observance, expect future martyrs to be added via the same mechanism \u2014 a martyrology pipeline.",
+   "time_et": "20:45",
+   "basename": "2026-10-14-kirk-state-canonization"
+  },
+  {
+   "date": "2026-10-14",
+   "time_et": "17:40",
+   "track": "narrative-velocity-dehumanization",
+   "mget_legs_tested": [
+    "Leg 2",
+    "Leg 3"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Arizona rally, two-step in one speech: (1) lethal prescription against a defined class - leakers 'SHOULD BE SHOT' - delivered with crowd approval; (2) boundary expansion within minutes, folding journalists who report 'false information' into the leaker class. Matches the violence-outperformance and dehumanization-priming absorption pattern (2026-09-26): train the audience that lethal framing of an outgroup is normal, then widen the outgroup to include the press. Direct lineage with the 2026-09-21 Christian-trolling theology specimen (crowd as enforcement layer). Escalation from 'enemy of the people' framing to target-class language in a mass-audience setting.",
+   "forward_signal": "Watch for (a) WH press-shop non-walkback (silence = ratification), (b) recurrence at next rally within 14 days (persistence test), (c) sympathetic-media adoption of 'leaker' as a legal-adjacent label for journalists. Any DHS/DOJ action against a reporter citing leak statutes inside 60 days would be the material-consequence tell.",
+   "confidence_moves": "0.6 -> 0.8. Single source (MeidasTouch live) but the escalation is in the rhetoric itself, not the sourcing; artifact screenshot preserved at /rool-drive/media/2026-10-14 Trump Arizona Leakers Should Be Shot.png",
+   "basename": "2026-10-14-trump-leakers-should-be-shot"
+  },
   {
    "date": "2026-10-11",
    "time_et": "morning",
@@ -7379,6 +7419,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 0
+  "age_days": 1
  }
 }
