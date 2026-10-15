@@ -157,12 +157,38 @@ if git remote get-url prod | grep -q github.com; then
   for i in $(seq 1 48); do
     RUN=$(curl -sf "https://api.github.com/repos/$REPO/actions/runs?per_page=1" "${AUTH[@]}" | \
       python3 -c 'import json,sys;w=json.load(sys.stdin)["workflow_runs"][0];print(w["status"]+":"+w["head_sha"][:7])' 2>/dev/null || echo ERR)
-    IN_FLIGHT=$(curl -sf "https://api.github.com/repos/$REPO/deployments?environment=github-pages&per_page=1" "${AUTH[@]}" | \
-      python3 -c 'import json,sys
+    # 2026-10-14 amendment v2: Pages deployment records frequently carry ZERO
+    # statuses even after a fully successful run (observed 7077079117, 7080383605,
+    # 7080599080 — all succeeded, all statuses:0). A bare statusless record is NOT
+    # proof of an in-flight deploy. Pending only if the latest deployment has no
+    # statuses AND the latest workflow run for that deployment's SHA is not
+    # terminal (i.e. run is queued/in_progress, or run predates/sha-mismatch with
+    # the deployment created after it started). If the newest run completed, treat
+    # the deployment as settled regardless of its status list.
+    IN_FLIGHT=$(python3 - "$TOK" <<'PYEOF'
+import json,sys,urllib.request
+tok=sys.argv[1]
+def get(url):
+    r=urllib.request.Request(url,headers={"Authorization":"Bearer "+tok,"User-Agent":"sync-guard"})
+    return json.load(urllib.request.urlopen(r,timeout=15))
 try:
-  ds=json.load(sys.stdin)
-  print("yes" if ds and not ds[0].get("statuses") else "no")
-except Exception: print("no")' 2>/dev/null || echo no)
+    base="https://api.github.com/repos/pilot2969/cass-dashboards"
+    ds=get(base+"/deployments?environment=github-pages&per_page=1")
+    wr=get(base+"/actions/runs?per_page=5")
+    runs=wr.get("workflow_runs",[])
+    if not ds:
+        print("no"); sys.exit()
+    dep=ds[0]
+    depsha=dep["sha"][:7]
+    match=[r for r in runs if r["head_sha"][:7]==depsha]
+    if not match:
+        print("yes"); sys.exit()   # deployment with no matching run -> assume stuck
+    state=match[0]["status"]
+    print("no" if state in ("success","failure","cancelled","completed") else "yes")
+except Exception:
+    print("no")  # API hiccup: fail-open rather than deadlocking the sync
+PYEOF
+    )
     STATE="${RUN%%:*}"
     case "$STATE" in success|failure|cancelled|completed) : ;; *) BLOCKED="$RUN (run)" ;; esac
     [ "$IN_FLIGHT" = yes ] && BLOCKED="$BLOCKED pending-pages-deployment"
