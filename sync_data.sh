@@ -40,7 +40,7 @@ cards=[json.load(open(f)) for f in glob.glob(P+"*.json") if not f.endswith(".sch
 INTERNAL=[l.strip() for l in open('internal_cards.txt')] if os.path.exists('internal_cards.txt') else []
 cards=[c for c in cards if c.get('basename') not in INTERNAL]
 md=lambda c: c.get("last_moved") or c.get("date_made") or ""
-recent=sorted([c for c in cards if md(c)>=today.replace(today[-2:], "01") or (md(c)>=str(datetime.date.today()-datetime.timedelta(days=7)))],
+recent=sorted([c for c in cards if md(c)>=str(datetime.date.today()-datetime.timedelta(days=7))],
               key=md, reverse=True)
 movers=[{"time":md(c), "ref":c.get("title",""),
          "change":f"confidence {c.get('confidence_score')} — status {c.get('status')}",
@@ -67,10 +67,51 @@ print(f"ledger: {len(led)} entries (was {len(prev)}), {skipped} skipped missing 
 # daily_read: parse Daily Read.md into data.json (the board renders this panel
 # from data.json, not from the .md — if this field goes missing the panel
 # silently disappears from the render while the .md still exists)
-import re
+#
+# 2026-10-14 AUTO-CONVERTER: evening editions are written as prose reports, but
+# the parser needs the standing card layout (DATE:/SUMMARY:/WATCHING: lists,
+# marker line, <details> cards). Two evenings running that conversion was a
+# manual step; when skipped the panel silently went empty. Convert prose ->
+# card format IN PLACE before parsing. Idempotent: files that already carry the
+# marker line are left untouched.
+import re, html
+def _convert_prose_daily_read(txt):
+    if "<!--parser markers above" in txt:
+        return txt, False
+    sec = re.split(r"\n## ", txt)
+    stories=[]; watch=[]
+    for s in sec[1:]:
+        lines=s.split("\n"); title=lines[0].strip()
+        body="\n".join(lines[1:]).strip()
+        if title=="What we're watching":
+            watch=[l.strip().lstrip("- ") for l in body.split("\n") if l.strip().startswith("- ")]
+            continue
+        stories.append((title,body))
+    if not stories:
+        return txt, False   # not recognizably prose; leave as-is
+    summary=[re.split(r" — ",t)[0] for t,_ in stories]
+    _iso=re.search(r"\d{4}-\d{2}-\d{2}", txt)
+    _long=re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", txt)
+    _date=_iso.group(0) if _iso else (datetime.datetime.strptime(_long.group(1),"%B %d, %Y").date().isoformat() if _long else "missing — set before publishing")
+    out=["# The Daily Read","","DATE: " + _date,"SUMMARY:"]
+    out+=[f"- {x}" for x in summary]+["- What we're watching","WATCHING:"]
+    out+=[f"- {w}" for w in watch if not w.startswith("*Sources")]
+    out+=["","<!--parser markers above; collapsible cards below-->","**IN THIS EDITION**",""]
+    out+=[f"- {x}" for x in summary]+["","---",""]
+    for t,b in stories:
+        out+=["<details>",f"<summary>{t}</summary>","",b,"","</details>",""]
+    return "\n".join(out), True
+
 dr={"summary":[], "watching":[]}
+txt=""
 if os.path.exists("Daily Read.md"):
     txt=open("Daily Read.md").read()
+    txt, converted=_convert_prose_daily_read(txt)
+    if converted:
+        open("Daily Read.md","w").write(txt)
+        print("daily read: prose edition auto-converted to card format")
+    elif "DATE:" not in txt:
+        print("WARN: Daily Read.md has neither card markers nor recognizable prose — daily_read panel will be empty")
     m=re.search(r"DATE:\s*(\S+)", txt)
     if m: dr["date"]=m.group(1)
     # 2026-10-12: card edition — lists live between the markers; cards below.
@@ -123,15 +164,12 @@ MSG="$MSG @ $(TZ=America/New_York date +%H:%M) ET"
 # files ship with the same push; failure here must not block the data push.
 python3 build_archive.py >> archive.log 2>&1 || echo "WARN: archive build failed — see archive.log"
 
-# git guard: only commit if something changed
 # stranded-commit guard: a prior run can die between commit and push, leaving
 # prod stale while a naive "nothing to push" exit looks like success. If local
 # is ahead of origin, finish the push regardless of whether THIS run changed data.
-if ! git diff --quiet history.json data.json "Daily Read.md" archive/; then
-  git add history.json data.json "Daily Read.md" archive/ archive.html build_archive.py archive.log
-  git commit -q -m "$MSG (data-only)"
-fi
-
+# (2026-10-14: the earlier separate "commit if dirty" block was merged into the
+# single add/commit below the staging gate — two commit sites meant the first
+# could eat changes and the second see a clean tree, confusing the log.)
 if [ -n "$(git rev-list origin/main..HEAD)" ]; then
   echo "stranded commits detected: $(git rev-list --count origin/main..HEAD) — completing interrupted push"
 fi
