@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-15T09:10 ET"
+  "generated_stamped": "2026-10-15T21:48 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,21 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-15",
+   "time_et": "18:30",
+   "track": "iran-war / midterm-timing",
+   "mget_legs_tested": [
+    "leg_2_narrative_velocity",
+    "leg_3_enclosure_mutation",
+    "leg_4_accountability_laundering"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Bloomberg (2026-10-15): top Pentagon officials (Hegseth advisers) intend to hold release of the internal report on the Minab school strike (Shajareh Tayyebeh Elementary, southern Iran; 150+ killed incl. 123 children per Common Dreams/Moneycontrol; UN found reasonable grounds for US war crimes) until after the midterms. Report is all-but-complete for months \u2014 nothing new to investigate, only timing to manage. Verified across Bloomberg, Common Dreams, Antiwar.com, Investing.com, Moneycontrol. Owner read ('clearly dodging the midterm on bad news') confirmed by pattern, not just this item: Hegseth impeachment vote deferred past an 8-week recess spanning the midterms (2026-09-15 entry); watch item 2026-09-28 predicted Iran strikes would be sequenced after the midterms; pre-midterm 'mirror prepositioning' (2026-10-05). The Minab item is the cleanest specimen yet because the artifact of suppression IS the report itself, and the delay is admitted rather than discovered.",
+   "forward_signal": "Falsifier: if the report drops before Nov 3 with damaging content, the midterms-timing read strains. Watch for (a) the release window clustering Nov 5-7 with a rival news event, (b) coordinated 'investigation is thorough, not political' framing from the WH/Pentagon podium, (c) IJR/school-strike coverage volume dropping on the front pages while the report is held. Also watch whether the same 'after midterms' clock applies to the US base damage leak and the SPR runway \u2014 if all unresolved disclosures cluster post-Nov 3, that is the scheduling signature, not coincidence.",
+   "confidence_moves": "Scheduling-suppression pattern: second independent confirmation (first: impeachment vote deferral). No numeric change yet \u2014 waiting on the post-midterm release-window observation to count it as a dated hit.",
+   "basename": "2026-10-15-minab-report-held-past-midterms"
+  },
   {
    "date": "2026-10-14",
    "time_et": "afternoon",
@@ -7246,10 +7261,28 @@
  ],
  "movers": [
   {
-   "time": "2026-10-13 11:50 ET",
+   "time": "2026-10-15 21:45 ET",
+   "ref": "Omar Deportation as Pre-Election Spectacle",
+   "change": "confidence 45 \u2014 status emergent",
+   "trigger": "Passport/phone/computer seizure confirmed by WSJ; WaPo surfaces 2019 review that found NO citizenship issues same day officials confirm revocation aim \u2014 spectacle lane fully live."
+  },
+  {
+   "time": "2026-10-15 21:45 ET",
+   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
+   "change": "confidence 55 \u2014 status pending",
+   "trigger": "DOJ sues to block counting of ~20,000 CA mail ballots from alleged noncitizens on the 15,903-name list at 1.2% verified \u2014 counting-phase targeting 19 days out, strongest pre-contes"
+  },
+  {
+   "time": "2026-10-15 21:45 ET",
    "ref": "Ground Invasion of Iran",
    "change": "confidence 20 \u2014 status pending",
-   "trigger": "2026-10-10 wire: third Houthi attack on Riyadh KKIA this week (3 killed 10-08, blast wounded 10-10) \u2014 escalation pressure building BEFORE midterms, earlier than the post-midterm wa"
+   "trigger": "CNN: MOAB on strike plans for Iranian energy/nuclear sites 'before or after the midterms', strike-then-withdraw wording; Trump still publicly promising no strikes pre-election \u2014 pl"
+  },
+  {
+   "time": "2026-10-15 21:45 ET",
+   "ref": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
+   "change": "confidence 30 \u2014 status emergent",
+   "trigger": "Brent ~$104 (+70% y/y); IMO pauses Hormuz escorts; Houthis hit Aramco HQ in Dhahran; supply-side relief via easing Russian tanker sanctions under consideration pre-election."
   },
   {
    "time": "2026-10-12 21:30 ET",
@@ -7268,49 +7301,61 @@
    "ref": "Press Access Enclosure \u2192 Media Capture (pool collapse \u2192 friendly-inherit \u2192 enforcement)",
    "change": "confidence 45 \u2014 status pending",
    "trigger": "One episode (09-10 vanguard split, 09-18 ban + revocations, 09-20 Houchins op-ed, 09-21 network pool suspension, 09-22 gap closure on UNGA day) \u2014 five facets, scored as ONE episode"
-  },
-  {
-   "time": "2026-10-10 12:30 ET",
-   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
-   "change": "confidence 55 \u2014 status pending",
-   "trigger": "2026-10-10 wire: diesel-deal electoral timing confirmed \u2014 OFAC GL135 authorizing Russian diesel import operative 25 days pre-election; WH framing explicitly price-driven; Zelensky "
   }
  ],
  "daily_read": {
   "summary": [
-   "Trump doubles down: leakers \"should be shot,\" reporters \"almost as bad\"",
-   "GOP privately concedes the House; pivots to Senate salvage",
-   "Saudi\u2013Houthi war spike: Aramco HQ city hit, inflation pressure builds",
-   "Shutdown clock page flags DPA lapse \u2014 collides with the Delek refinery order",
-   "Ukraine aid squeeze: Starshield access limited as ceasefire diplomacy churns"
+   "Starshield throttle sourced to the White House \u2014 while the White House denies it",
+   "DOJ sues to block ballot COUNTING in California on a list that is 1.2% verified",
+   "Ukraine has run out of Patriot interceptors; Army warning was pre-war",
+   "Omar lane closes its loop: leak \u2192 seizure \u2192 elite synthesis \u2192 pavement, inside 24h",
+   "MOAB strike plans leak 19 days out while the president promises no strikes \u2014 the leak is the message"
   ],
   "watching": [
-   "Does the \"leakers should be shot\" framing spread to the administration's legal apparatus, or stay rally rhetoric?",
-   "Energy price pass-through into the October inflation print",
-   "DPA authorization status once the funding fight reaches Dec 11",
-   "Politico: five Republican lawmakers, anonymously, on the House being lost"
+   "Does the WH restate the no-strike pledge tonight/tomorrow, narrow it, or drop it (MOAB half-life test)",
+   "First court appearance on the DOJ v. California counting suit; emergency TRO attempt",
+   "Second state hit with a ballot ultimatum (the litigation is a template, not an endpoint)",
+   "Omar enforcement follow-through: citizenship-referral filing",
+   "Hormuz escort resumption; refinery-strike cadence after \"We're done\" into Friday's oil tape",
+   "Patriot-drought story migrating into elite commentary as \"relaunching is impossible\" framing"
   ],
   "date": "2026-10-15",
   "cards": [
    {
-    "title": "Trump doubles down: leakers \"should be shot,\" reporters \"almost as bad\"",
-    "html": "At Wednesday's Bullhead City rally for Andy Biggs, Trump repeated and hardened the leakers line: \"In the old days we used to shoot leakers, you know\" and \"leakers should be, in my opinion, leakers should be shot.\" He then called leakers \"the scum of the earth\" and pointed at the reporters covering the rally, saying they were \"almost as bad.\" Bloomberg's framing \u2014 straying from the economic pitch \u2014 tracks the polling headwind below, not a change in the threat. The JPost notes the remark came days after Trump approved a firing-squad execution. The past-tense nostalgia (\"in the old days we used to\") is doing escalation work: it normalizes the call by dressing it as restoration. Watch for the line to move from rally rhetoric into official sanction \u2014 the Fox-aligned press environment has already absorbed it without alarm.\n\nSources: [Time](https://time.com/article/2026/10/15/trump-leakers-shot-journalists-arizona-rally/), [Bloomberg](https://www.bloomberg.com/news/articles/2026-10-14/trump-says-leakers-should-be-shot-straying-from-economic-pitch), [The Hill](https://thehill.com/homenews/6149366-trump-rally-leakers-shot/), [Eastern Herald](https://easternherald.com/2026/10/15/trump-arizona-rally-leakers-should-be-shot-reporters/), [Jerusalem Post](https://www.jpost.com/international/article-911745)"
+    "title": "Starshield throttle sourced to the White House \u2014 while the White House denies it",
+    "html": "Reuters, top of the evening board: the order to limit Starshield access for Ukraine came from inside the White House, per two US officials and one Western official. Simultaneously Bloomberg runs a senior official denying Trump ordered it. Musk says Trump is \"ultimately\" responsible. Rep. Fitzpatrick promises \"consequences if US goes dark\"; the UK defense secretary will raise it with Hegseth \u2014 a bridging attempt from the coalition side. Senate Democrats demand an investigation. This confirms the watch-tell from last night: the POTUS-decision layer now has WH-sourced attribution, and the denial running alongside it is the position, not a slip. The contradiction is installed. Ukraine, meanwhile, has stopped waiting: Zelensky resumed refinery strikes (Ryazan burning) and said \"We're done.\"\n\nSources: [Reuters via memeorandum](https://www.memeorandum.com/251015/h2000), [Bloomberg](https://www.bloomberg.com), [CNN](https://www.cnn.com)"
    },
    {
-    "title": "GOP privately concedes the House; pivots to Senate salvage",
-    "html": "Politico reports top Republican officials increasingly accept the House \"may already be lost,\" with five GOP lawmakers speaking anonymously that the chamber is practically gone \u2014 the pivot now is damage limitation and holding the Senate majority. The economic picture driving it: Fox's latest survey has six in ten voters naming cost of living their top economic worry, with spending, jobs, inequality, tariffs and taxes trailing far behind. When the incumbent party's own pollster shows the kitchen-table number dominant three weeks out, the concession reads as honest, not spin.\n\nSources: [Politico](https://www.politico.com/politics), [Fox News live blog](https://www.foxnews.com/live-news/midterm-elections-2026-trump-democrats-october-15)"
+    "title": "DOJ sues to block ballot COUNTING in California on a list that is 1.2% verified",
+    "html": "The TPM framing is the finding: \"Trump DOJ now targeting ballots, not just voter rolls.\" After a 48-hour ultimatum, DOJ sued California to block the counting of roughly 20,000 mail ballots from alleged noncitizens \u2014 the same list whose evidentiary base was already collapsing this morning (DHS: 185 of 15,903 flagged, about 1.2%). Democracy Docket's experts call it the biggest escalation yet in election-interference attempts. This is the strongest pre-contestation infrastructure signal logged so far, and note what changed: the suit targets the counting phase, not registration \u2014 19 days before the election. The legitimacy contest is being pre-built through list-claims, intimidation (white-powder letters, multiple states) and administrative pressure rather than through ballots. Expect the suit as a template: watch for a second state ultimatum within days.\n\nSources: [TPM](https://talkingpointsmemo.com), [Axios](https://www.axios.com), [Democracy Docket](https://www.democracydocket.com), [NBC](https://www.nbcnews.com)"
    },
    {
-    "title": "Saudi\u2013Houthi war spike: Aramco HQ city hit, inflation pressure builds",
-    "html": "The Yemen conflict crossed another line: a building owned by Aramco was set ablaze late Tuesday in Dhahran, the city housing the company's headquarters, per the Saudi energy ministry \u2014 a direct strike on the symbolic heart of the kingdom's oil apparatus. The Houthis have declared Aramco sites a \"legitimate target\" after the Saudi-led coalition struck an oil facility in Sanaa; Saudi counterstrikes on Yemen's capital continue. Washington's response so far is rhetorical: Rubio condemning the Riyadh airport strike that killed an American. The economic channel is already visible \u2014 morning briefs carry \"inflation rises as Middle East attacks push energy costs higher,\" which is the pass-through mechanism showing up in data rather than forecasts. This is the pressure that makes the Delek refinery order from last night legible as response rather than election theater.\n\nSources: [NYT](https://www.nytimes.com/2026/10/13/world/middleeast/saudi-arabia-yemen-houthis-aramco-threat.html), [Al Jazeera](https://www.aljazeera.com/news/2026/10/13/houthis-threaten-saudi-arabias-aramco-facilities-and-airports), [Al Jazeera \u2014 Rubio](https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport), [2026Talks](https://kiowacountypress.net/content/politics-2026talks-october-15-2026)"
+    "title": "Ukraine has run out of Patriot interceptors; Army warning was pre-war",
+    "html": "CNN reports Ukraine's Patriot interceptor supply is exhausted \u2014 directly validating the CBS exclusive from this afternoon: Gen. Randy George's late-December 2025 warning that THAAD batteries and PAC-3 interceptors would remain \"strategically low\" through 2030. George was ousted in April, mid-war. The interceptor drought and the Starlink/Starshield throttle are one story: allied defensive capacity is now rationed by American political will, not by production. Watch for this migrating into elite commentary as \"relaunching is impossible\" \u2014 the legitimate version of tonight's social-media garble, which claimed Starshield support was cut because a missile-defense battery in Jordan ran dry; that post recycled the real September 1\u20132 IRGC strike on Camp Titin and dressed a six-week-old event as breaking news. The kernels are real; the causal chain is fabricated.\n\nSources: [CNN](https://www.cnn.com), [CBS News](https://www.cbsnews.com), [Reuters](https://www.reuters.com)"
    },
    {
-    "title": "Shutdown clock page flags DPA lapse \u2014 collides with the Delek refinery order",
-    "html": "The White House's own \"Government Shutdown Clock\" page states that a shutdown carries \"a lapse in authorization for three programs our industry relies on \u2014 Small Business Innovation Research, Cybersecurity Information Sharing Act, and the Defense Production Act.\" That last one collides directly with Tuesday's DPA order expanding Delek's refinery: the administration used a wartime-adjacent authority whose own authorization is on the shutdown clock. Holland & Knight has year-end funding deadlines converging on December 11. If the funding fight stretches, the Delek expansion would rest on an authority the White House itself says lapses \u2014 worth watching whether the order gets a fresh statutory footing or simply rides the confusion.\n\nSources: [White House shutdown clock](https://www.whitehouse.gov/government-shutdown-clock/), [Holland & Knight](https://www.hklaw.com/en/insights/publications/2026/10/beyond-the-midterms-congress-faces-converging-year-end-deadlines)"
+    "title": "Omar lane closes its loop: leak \u2192 seizure \u2192 elite synthesis \u2192 pavement, inside 24h",
+    "html": "The lane ran end-to-end in a single day. WSJ leak (Wed) \u2192 elite laundering by morning (Beck: \"Do her father's papers exist?\"; Shapiro carrier; MacIntyre's \"incredible reason to turn out\") \u2192 Franklin expulsion meme in under 12 hours \u2192 pavement by afternoon: anti-Somali call-box defacement in Cedar-Riverside, Omar's own constituency, with the top-sorted comment \"it's not hateful when it's true\" (85 likes), \"America is healing\" twice, and a 20-plus-strong Grokmaxus scam-bot swarm riding the thread as an algorithmic engagement subsidy. Evening closes it: WaPo surfaces the 2019 review that found NO citizenship issues \u2014 the same issues now under investigation \u2014 and WSJ confirms passport, phone and computers seized, with officials telling outlets the probe aims at revoking citizenship and deporting a sitting congresswoman. The inconvenient null result appearing the same day the machinery escalates is the calibration tell: the finding doesn't stop the process, it re-routes it.\n\nSources: [Washington Post](https://www.washingtonpost.com), [WSJ via Mediaite](https://www.mediaite.com), [capture: 2026-10-15-beck-papers-exist-laundering-third-carrier](rool-machine:/space/absorption/2026-10-15-beck-papers-exist-laundering-third-carrier.json)"
    },
    {
-    "title": "Ukraine aid squeeze: Starshield access limited as ceasefire diplomacy churns",
-    "html": "Two tracks moving in opposite directions. On the squeeze: Ukraine faces limited access to Starshield technology per this morning's NPR brief. On the diplomacy: FT reports Witkoff and Kushner have proposed EU countries partially unfreeze Russian assets, and Zelensky says he is not resigning \u2014 a statement that only needs making if the question is being raised in Washington. The pattern is the familiar one: pressure applied through capability (Starshield) while a settlement framework is marketed to Europe rather than to Kyiv.\n\nSources: [KNPR morning brief](https://knpr.org/npr/2026-10-15/morning-news-brief), [Pravda EN digest](https://news-pravda.com/world/2026/10/15/2667101.html)"
+    "title": "MOAB strike plans leak 19 days out while the president promises no strikes \u2014 the leak is the message",
+    "html": "CNN's exclusive (18-outlet pickup) put GBU-43/B MOAB onto strike plans for Iranian energy and nuclear sites, including Pickaxe Mountain, \"before or after the midterms,\" worded as \"prior to US retrograde in CENTCOM AOR\" \u2014 strike-then-withdraw. On the same tape, Trump has repeatedly said he will not resume strikes before November 3, and Iran vows to fight on, with Fars citing readiness for preemptive strikes on the US. A plans-leak this large, this close to an election, while the principal publicly promises no strikes, reads as the leak being the message: either deterrence/pre-legitimation for a post-election strike or a pressure lever on Tehran's negotiating posture. The pledge's half-life is the tell \u2014 watch whether it is restated, narrowed, or quietly dropped. Meanwhile the ceasefire is measured by the shipping lane itself: IMO paused Hormuz escorts (11,000+ sailors stranded), Houthis hit Aramco HQ in Dhahran, and the oil tape still carries war premium (Brent ~$104, +70% y/y) while a supply-side relief lever \u2014 easing Russian tanker sanctions \u2014 is being considered pre-election.\n\nSources: [CNN](https://www.cnn.com), [IMO/BBC](https://www.bbc.com), [capture: 2026-10-15-moab-iran-strike-plans-leak](rool-machine:/space/absorption/2026-10-15-moab-iran-strike-plans-leak.json)"
+   },
+   {
+    "title": "Feed capture audit: the day's specimens, and one that wasn't real",
+    "html": "Fourteen captures today; the pattern load was heavy on the Omar consolidation and the war lane, with two corrections worth recording. First: a widely shared post claiming Starshield support was cut because a Jordan missile-defense battery ran dry was a garble \u2014 real kernels (Camp Titin, the September IRGC strike, real interceptor shortages) wired into a false causal chain and a fake breaking-news frame. Second: the Shapiro-family-subpoena capture was scored against the wrong specimen and re-graded \u2014 enforcement-as-content, not narrative laundering. The structural reading from this morning holds: the regime runs a constant fraud narrative connecting immigrants to legal action while tearing down social programs \u2014 immigrants as the new welfare queens, a double-choke that delegitimizes the group and the program in one motion. The fraud story is the shared substrate for both the Omar citizenship lane and the program cuts; the Nick Shirley Minneapolis claim factually failed but politically succeeded, and comment sections now treat it as settled fact.\n\nSources: [captures](rool-machine:/space/absorption/), [journal: 2026-10-15-omar-lane-consolidation-day](rool-machine:/space/journal/2026-10-15-omar-lane-consolidation-day.json)"
+   },
+   {
+    "title": "Scapegoat lane rotation confirmed: corruption and gas outrank immigration",
+    "html": "The Fox poll topline filed this morning is the cleanest measurement yet of the scapegoat rotation: Trump approval 36% \u2014 lowest of both terms \u2014 22% on inflation, Dems +9 on the generic ballot, and the issue stack reads corruption 88%, gas 83%, Iran war 75%, immigration 66%. The immigration lane is underperforming its own salience while the war lane dominates \u2014 which is why today's moves (MOAB leak, Starshield-betrayal framing, refinery strikes resuming) are all re-amplifying the external-enemy lane three weeks out. The inflation scapegoat is already deployed in the forecast form: strikes Trump blames for high diesel prices. Money note on the same board: the \"Leading the Future\" AI super PAC's receipts collapsed to roughly $200k of interest-only income in Q3 \u2014 AI money is visibly retreating from politics while CLF posts a record $94.4M quarter including $20M from Musk, and Talarico sets a $64M record with the \"only minority destroying America is the billionaires\" frame. Realignment is visible on both flanks; only one of them has the money.\n\nSources: [Fox poll](https://www.foxnews.com), [capture: 2026-10-15-fox-poll-corruption-gas-iran-salience](rool-machine:/space/absorption/2026-10-15-fox-poll-corruption-gas-iran-salience.json), [Politico](https://www.politico.com)"
+   },
+   {
+    "title": "Ballroom donor ledger leak; leaker-pursuit runs on two channels",
+    "html": "WaPo obtained secret documents revealing $330M in donations for the East Wing ballroom: Nvidia and Apple at $25M each, tech combined at $92M, Comcast at $7.5M, the Adelson family among the donors. The White House vows to \"relentlessly\" pursue the leakers \u2014 while the MOAB strike-plans leak runs on the same day. Leaks-as-enemy is operating on two channels simultaneously: a corruption-revelation channel (the donor ledger) and a war-operations channel (the strike plans). The retaliation threat is identical in both, which is the point: the boundary being drawn is around what the government does, not what kind of secret it is. Watch whether the donor-ledger story converges with the corruption-#1 polling number (88%) \u2014 that pairing is the strongest organic attack surface the opposition has, and it is not Trump-controlled messaging.\n\nSources: [Washington Post](https://www.washingtonpost.com), [The Verge](https://www.theverge.com), [Mediaite](https://www.mediaite.com)"
+   },
+   {
+    "title": "Also moving: Gaetz suit, temple plot, Bend shooting, Noem out",
+    "html": "Federal civil suit filed in Miami by two women alleging Gaetz trafficked young women, supplied drugs and financed interstate travel \u2014 filed while he is out of politics but still a Trump-adjacent media figure; watch WH-proximity insulation dynamics. In Illinois, a 19-year-old was arrested over a plot against a Hindu temple carrying a white-supremacist manifesto; the gun jammed and Taco Bell workers stopped it; Rep. Krishnamoorthi and family were at the temple \u2014 and the Post Millennial immediately ran a trans-identification counter-frame in the first cycle (logged for the absorption backlog). Bend, Oregon: three children and a teacher killed at Silver Rail Elementary; the 16-year-old suspect is dead, reportedly shot by a bystander \u2014 the bystander-hero vs. gun-restriction frame war is already seeding on the boards. And Noem is out as Shield of the Americas special envoy after a public email fight. Heating-season politics continues in the background: Maine's Senate race runs on heating-oil relief and blame-the-war messaging, with EIA's Winter Fuels Outlook now the economic wedge document.\n\nSources: [Miami Herald](https://www.miamiherald.com), [Reuters](https://www.reuters.com), [Chicago Tribune](https://www.chicagotribune.com), [CBS](https://www.cbsnews.com), [Politico](https://www.politico.com)"
    }
   ]
  },
@@ -7376,6 +7421,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 1
+  "age_days": 2
  }
 }
