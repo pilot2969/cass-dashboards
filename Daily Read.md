@@ -1,4 +1,6 @@
-# The Daily Read
+# The Morning Read — Friday, October 16, 2026
+
+Filed ~09:45 ET
 
 DATE: 2026-10-16 (MORNING EDITION)
 SUMMARY:

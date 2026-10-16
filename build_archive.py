@@ -3,7 +3,7 @@
 # pages styled like the dashboard, and regenerates archive/index.json (the
 # client-side search index). Called by sync_data.sh so the archive grows
 # automatically with every push. 2026-10-14, owner-approved feature.
-import json, glob, os, re, html as H, subprocess, sys
+import json, glob, os, re, html as H, subprocess, sys, datetime
 
 REPO = os.path.dirname(os.path.abspath(__file__))
 ARCH = os.path.join(REPO, "archive")
@@ -61,8 +61,18 @@ for md in sorted(glob.glob(os.path.join(REPO, "Daily Read*.md"))):
     txt = plain_text(body)
     m = re.search(r"DATE:\s*(\S+)", txt)
     edate = (date_from_content(raw) or slug)
-    pretty = re.sub(r"^# |^The (Morning|Evening) Read — ", "", 
-                    next((l for l in open(md).read().splitlines() if l.startswith("# ")), name))
+    h1 = next((l for l in open(md).read().splitlines() if l.startswith("# ")), name)
+    pretty = re.sub(r"^# |^The (Morning|Evening) Read — ", "", h1).strip()
+    if not pretty or pretty == "The Daily Read":
+        # bare header — synthesize a dated title from the edition date
+        d = date_from_content(raw) or slug
+        if not d or not re.match(r"\d{4}-\d{2}-\d{2}", d):
+            d = "undated"
+        y, mo, dy = (d.split("+") + ["", ""])[0].split("-") if re.match(r"\d{4}-\d{2}-\d{2}", d) else ("", "", "")
+        month = {v: k for k, v in MONTHS.items()}.get(int(mo) if mo else 0, "")
+        edition = "Evening" if "evening" in (raw[:400].lower() + h1.lower() + name.lower()) else "Morning"
+        weekday = datetime.date(int(y), int(mo), int(dy)).strftime("%A") if y else ""
+        pretty = f"The {edition} Read — {weekday}, {month} {int(dy)}, {y}".replace(" , ", " ")
     fm = re.search(r"Filed ~(\d{2}:\d{2} ET)", txt)
     filed = f"Filed ~{fm.group(1)}" if fm else ""
     html_doc = TEMPLATE.format(title=H.escape(pretty), edate=edate, pretty=H.escape(pretty),
