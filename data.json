@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-16T09:39 ET"
+  "generated_stamped": "2026-10-17T12:37 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,20 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-17",
+   "track": "ukraine-pivot/sanctions-architecture-dismantlement",
+   "mget_legs_tested": [
+    "Leg 1",
+    "narrative-repair",
+    "material-substrate"
+   ],
+   "verdict": "confirms",
+   "reasoning": "AUTHENTICITY GATE: PASSED. NYT (Rappeport), WSJ (Lawler), AP, Reuters, Bloomberg all carry it; memeorandum 12:00pm ET board saturation ~12 outlets. Trump signed an EO Friday night 10-16 exempting Russia from most of the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 \u2014 a bill he signed into law himself last month \u2014 days before the sanctions were to take effect, citing 'national interest'. Russia hails it as 'historic' (France 24). GOP reaction hostile ('beyond irresponsible' \u2014 The Hill; NR: 'Trump Betrays Lindsey Graham'). Zelensky urges Americans to support the sanctions and warns Trump 'will continue' lifting them.\n\nThis completes the diesel-deal sequence end to end: 10-09 deal formalized (GL 135, Russian-origin diesel through Apr 2027) -> 10-10 'new Ukrainian president' regime-change rhetoric -> mid-Oct congressional override (Graham Act, bipartisan) -> 10-16 EO waiver. The state layer has converted the price-relief transaction into standing policy, and subsumes the OFAC license-135 renewal check from the 10-09 absorption card. Substrate leg: sanctions relief now priced into the diesel salience-management play 19 days pre-midterm, against the $1.99T FY26 deficit / $1T net-interest tape (same board). Elite Republican split is live at exactly the wrong moment for cohesion.",
+   "forward_signal": "Watch: (1) Zelensky's defection test \u2014 whether Ukraine resumes refinery strikes despite the lifeline (his trigger (b) already fired 10-10); (2) whether the EO is structured as reversible ('retains power to reinstate' \u2014 American Greatness), i.e. an always-available 2027 re-tightening card; (3) GOP intra-party reaction hardening into actual obstruction or folding after midterms; (4) whether the Starlink throttle (10-17 Telegraph) reads as the coercion follow-through on the same client \u2014 sanctions relief and comms chokepoint moving in opposite directions is the tell of extraction, not alliance.",
+   "confidence_moves": "Diesel-deal thesis upgraded from high-probability structural read to CONFIRMED sequence. Midterms legitimacy-catalyst node gains an economic-suppression leg (price relief procured from adversary, unpriced deficit cost).",
+   "basename": "2026-10-17-russia-sanctions-waiver-graham-act"
+  },
   {
    "date": "2026-10-15",
    "time_et": "18:30",
@@ -7408,6 +7422,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 2
+  "age_days": 3
  }
 }
