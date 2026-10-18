@@ -3,6 +3,7 @@
 DATE: 2026-10-17
 CATALYST: 55 → 60 (+5, evening). 19 days to midterms.
 SUMMARY:
+- [23:45] Suppression + synthetic + elite fractures
 - [23:45] NEW LEG — imported disorder
 - [23:45] DOJ v. California escalates toward seizure ambiguity
 - [23:45] Starlink throttle confirmed — mechanism named
@@ -20,6 +21,13 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>[23:45] Suppression + synthetic + elite fractures</summary>
+
+TikTok permanently bans the ad account for Gibney's Musk documentary as its subject throttles an ally's comms. A sitting senator defends sharing an AI deepfake. Amodei refuses to vote for his Trump-endorsed successor; Kansas becomes a Senate liability; Sanders campaigns in Tampa.
+
+</details>
 
 <details open>
 <summary>[23:45] NEW LEG — imported disorder</summary>
