@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-18T09:05 ET"
+  "generated_stamped": "2026-10-18T11:25 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,21 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-18",
+   "time_et": "11:35",
+   "track": "iran-war",
+   "mget_legs_tested": [
+    "P2T",
+    "P16T",
+    "P4T"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Daily Caller exclusive (corroborated WaPo/Anadolu) confirms watch card 2026-09-28-iran-strikes-after-midterms: war tempo openly indexed to midterms, sustainment build now (3rd CSG, ~9k troops), strike authorization deferred past Nov 3. Sequencing hypothesis strengthened. Not full confirmation of the ultimate event until strikes occur post-Nov 3. Check (1) holds - no pre-election strike activity. Attribution channel is credential-anonymous leak to friendly outlet: escalation pre-legitimized without ownership.",
+   "forward_signal": "If Roosevelt on station by end-Oct, watch check (4) fires. Post-Nov 3 strike window now the single highest-confidence forecast on the Iran track. Cross-lane: same calendar-indexed pattern as DOJ California suit (pre-election coercion, post-election instrument).",
+   "confidence_moves": "P2T up. No changes to SPR or certification legs.",
+   "basename": "2026-10-18-iran-post-midterm-sequencing"
+  },
   {
    "date": "2026-10-17",
    "time_et": "23:15",
