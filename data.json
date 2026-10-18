@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-17T12:39 ET"
+  "generated_stamped": "2026-10-17T23:06 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,35 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-17",
+   "time_et": "23:15",
+   "track": "european-instability/cost-of-living-unrest",
+   "mget_legs_tested": [
+    "economic-substrate",
+    "narrative-repair"
+   ],
+   "verdict": "neutral",
+   "reasoning": "AUTHENTICITY GATE: PASSED. AP, BBC, France 24, Euronews, Reuters, carried across the memeorandum 11pm board. Fourth week of French cost-of-living/student protests escalated Saturday: fires and looting in Paris, Marseille town hall stormed, Lyon tourism office torched, Milan looting in parallel (Italy lane), 1,200+ arrested, turnout estimated at half a million. Macron acknowledges the grievances but frames the violence as 'exploited' by political forces and vows prosecution. Composition note for the US wire: the American right instantly imports the frame as 'Islamo-Marxist rioters' (Gateway Pundit) and Trump vows to punish the rioters of an allied nation \u2014 transnational enemy-borrowing, same move as the Patriot Platform personnel-circulation thread. This is the 1933 self-healing-emergency anatomy at low intensity: real economic distress, a violent minority, and a state positioned to convert disorder into emergency legitimacy. It is also the material echo of the same global cost-of-living substrate the sanctions-waiver play is managing domestically.",
+   "forward_signal": "Watch: (1) whether French emergency measures (curfews, decree powers) follow within two weeks \u2014 the domestic-strong-state conversion test; (2) whether US midterms messaging explicitly cites European disorder ('it's coming here'); (3) whether the Italy lane (Milan) merges into a single European-unrest frame; (4) whether UK defense-consent priming (Walker, same day) gets stitched to the unrest imagery \u2014 'sacrifice needed because the streets are burning' would complete the loop.",
+   "confidence_moves": "New lane opened: european-instability. No prior leg tested; baseline established 2026-10-17.",
+   "basename": "2026-10-17-france-cost-of-living-unrest"
+  },
+  {
+   "date": "2026-10-17",
+   "time_et": "23:10",
+   "track": "coercion-infrastructure/ally-chokepoint",
+   "mget_legs_tested": [
+    "material-substrate",
+    "coercion-infrastructure",
+    "narrative-repair"
+   ],
+   "verdict": "confirms",
+   "reasoning": "AUTHENTICITY GATE: PASSED. Telegraph exclusive (Joe Barnes), corroborated by Laura Rozen, carried across Reuters/AP/Bloomberg/Hill/Newsweek on the memeorandum 11pm board. Telegraph: Musk PERSONALLY approached Trump to slow Starlink in Ukraine; Rozen: 'Musk proposed & Trump agreed.' Zelensky confirms access remains partially restricted and calls it a 'planned operation' (Kyiv Independent). Trump publicly denies he or Musk caused the outage \u2014 a denial that contradicts the agreed operation itself. Resolves the mechanism question open since the 10-14 watch: not technical failure, not contractual drift \u2014 private-chokepoint coercion at presidential request, with deniability maintained by both principals. Note the composition: the same 48 hours deliver sanctions RELIEF to the same client's adversary and comms RESTRICTION to the client. Relief and throttle moving in opposite directions on one client is the extraction signature, not an alliance signature.",
+   "forward_signal": "Watch: (1) whether Zelensky passes the defection test \u2014 refinery strikes resume despite the lifeline; (2) whether congressional Democrats' demand for explanation produces any admission of the Musk channel; (3) whether Starshield full restoration happens before or after midterms (i.e., whether the throttle is itself election-sequenced); (4) whether the 'ally dependency on one private chokepoint' precedent gets cited in other domains (GPS, payments, cloud).",
+   "confidence_moves": "10-14 watch item upgraded to CONFIRMED. Coercion-infrastructure leg of the midterms catalyst node is no longer inferential \u2014 named principals, named mechanism, on the record.",
+   "basename": "2026-10-17-starlink-musk-trump-approach"
+  },
   {
    "date": "2026-10-17",
    "track": "ukraine-pivot/sanctions-architecture-dismantlement",
@@ -7275,16 +7304,16 @@
  ],
  "movers": [
   {
+   "time": "2026-10-17 23:35 ET",
+   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
+   "change": "confidence 60 \u2014 status pending",
+   "trigger": "2026-10-17 evening: (a) Russia waiver signed late 10-16 \u2014 completes the diesel-deal sequence end-to-end (deal -> threat -> 10-09 lifeline -> signed waiver); NYT prints the election"
+  },
+  {
    "time": "2026-10-15 21:45 ET",
    "ref": "Omar Deportation as Pre-Election Spectacle",
    "change": "confidence 45 \u2014 status emergent",
    "trigger": "Passport/phone/computer seizure confirmed by WSJ; WaPo surfaces 2019 review that found NO citizenship issues same day officials confirm revocation aim \u2014 spectacle lane fully live."
-  },
-  {
-   "time": "2026-10-15 21:45 ET",
-   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
-   "change": "confidence 55 \u2014 status pending",
-   "trigger": "DOJ sues to block counting of ~20,000 CA mail ballots from alleged noncitizens on the 15,903-name list at 1.2% verified \u2014 counting-phase targeting 19 days out, strongest pre-contes"
   },
   {
    "time": "2026-10-15 21:45 ET",
@@ -7318,43 +7347,9 @@
   }
  ],
  "daily_read": {
-  "summary": [
-   "Trump waives his own Russia sanctions; the diesel-deal sequence completes end to end",
-   "Four-layer election-risk assembly now live simultaneously, 19 days out",
-   "DOJ v. California escalates to a presidential jail threat against local election officials",
-   "Starlink throttle fires: Musk personally approached Trump, Zelensky confirms access restricted",
-   "White House press office cannibalizes itself: Zacharia out after five days"
-  ],
-  "watching": [
-   "Zelensky's defection test: does Ukraine resume refinery strikes despite the lifeline",
-   "Whether the EO is structured as a reversible 2027 re-tightening card",
-   "GOP intra-party reaction: hardens into obstruction or folds after midterms",
-   "Emmer/Omar jailing-deportation push as instrument-layer othering recurrence",
-   "Georgia rally 2020-lie revival salience vs economy-frame suppression"
-  ],
-  "date": "2026-10-17",
-  "cards": [
-   {
-    "title": "Trump waives his own Russia sanctions; the diesel-deal sequence completes end to end",
-    "html": "Trump signed an EO Friday night exempting Russia from most of the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 \u2014 a bill he signed into law himself last month \u2014 days before it was to take effect, citing \"national interest.\" Russia hails it as \"historic\"; Graham calls it \"beyond irresponsible\"; NR runs \"Trump Betrays Lindsey Graham.\" This completes the sequence opened 10-09: GL-135 diesel deal \u2192 10-10 \"new Ukrainian president\" rhetoric \u2192 bipartisan congressional override \u2192 executive waiver. The state layer has converted a price-relief transaction into standing policy. Zelensky urges Americans to \"see what is really happening\" \u2014 the defection-signal firing on schedule. Ledger: /space/mget_ledger/2026-10-17-russia-sanctions-waiver-graham-act.json (verdict: confirms)."
-   },
-   {
-    "title": "Four-layer election-risk assembly now live simultaneously, 19 days out",
-    "html": "The midterms legitimacy-catalyst node now has all four layers documented on the same day: (a) economic \u2014 sanctions waiver as diesel price-relief against a $1.99T deficit tape with net interest past $1T; (b) coercion infrastructure \u2014 Starlink throttle; (c) legal-criminal \u2014 DOJ v. California plus the jail threat plus the Omar deportation probe; (d) narrative \u2014 Georgia rally reviving 2020 fraud lies on 2020 ground, with Collins' voting-machine-shooting ad as new violence-prop mythology. Fifth layer (salience): the ICE-quota watch item stands. No single event is decisive; the stack is the signal."
-   },
-   {
-    "title": "DOJ v. California escalates to a presidential jail threat against local election officials",
-    "html": "Trump quote-posted Fox's Matt Finn on the DOJ letter to LA County, overlaid with \"They will all go to jail for a long period of time!!!\" \u2014 the first explicit presidential jail threat against local election officials this cycle. Newsom's office recirculated within the hour, framing it as pressuring officials \"to break federal law.\" The counting-phase suit now has a coercion layer above the litigation layer."
-   },
-   {
-    "title": "Starlink throttle fires: Musk personally approached Trump, Zelensky confirms access restricted",
-    "html": "The 10-14 watch trigger fired: the Telegraph reports Musk personally approached Trump on Starlink restrictions, and Zelensky confirms Ukrainian access remains curtailed while sanctions relief flows the other way. Sanctions relief and comms chokepoint moving in opposite directions on the same client is the tell of extraction, not alliance."
-   },
-   {
-    "title": "White House press office cannibalizes itself: Zacharia out after five days",
-    "html": "Press-office exit after five days, Wiles orchestrating the Hannity hit while Trump keeps the principal in place, Santos volunteering for the loyalty vacancy. Same anatomy as the 10-10 media-vanguard split, transposed to the personnel layer: principal above the purge, loyalty as the sole sorting criterion."
-   }
-  ]
+  "summary": [],
+  "watching": [],
+  "date": "2026-10-17"
  },
  "institutions": {
   "reviewed": "2026-10-14",
@@ -7418,6 +7413,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 3
+  "age_days": 4
  }
 }
