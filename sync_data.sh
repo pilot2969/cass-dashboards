@@ -95,7 +95,7 @@ def _convert_card_stack(txt):
     out+=["- " + title for title,_ in cards]
     out+=["- What we're watching","WATCHING:","- see card stack below","",
           "<!--parser markers above; collapsible cards below-->","**CARD STACK** (newest first)","","---",""]
-    for t,title,body in cards:
+    for title,body in cards:
         out+=["<details open>",f"<summary>{title}</summary>","",body.strip(),"","</details>",""]
     return "\n".join(out), True
 
