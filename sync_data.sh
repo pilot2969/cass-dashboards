@@ -34,6 +34,7 @@ for f in glob.glob(P+"*.json"):
         pts.append([today, s])
 json.dump(h, open("history.json","w"), indent=1)
 
+
 # data.json movers: cards moved in last 7 days
 data=json.load(open("data.json"))
 cards=[json.load(open(f)) for f in glob.glob(P+"*.json") if not f.endswith(".schema.json")]
@@ -46,6 +47,16 @@ movers=[{"time":md(c), "ref":c.get("title",""),
          "change":f"confidence {c.get('confidence_score')} — status {c.get('status')}",
          "trigger":(c.get("evidence_confirmed") or ["—"])[-1][:180]} for c in recent[:10]]
 data["movers"]=movers
+
+# keep the Internal Telemetry ledger count in sync with data.json (single source:
+# count lives in data.json; the HTML summary is patched, never rebuilt — Rule 27)
+import re as _re
+_te = "Internal Telemetry.html"
+if os.path.exists(_te):
+    _txt = open(_te).read()
+    _txt = _re.sub(r"recent entries \(\d+ total\)", f"recent entries ({len(data['mget_ledger'])} total)", _txt)
+    open(_te, "w").write(_txt)
+
 
 # mget_ledger: rebuild from /space/mget_ledger (dedup by basename, newest first).
 # Dedup key is the object basename — dates alone collide when multiple ledger
