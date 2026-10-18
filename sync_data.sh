@@ -75,6 +75,30 @@ print(f"ledger: {len(led)} entries (was {len(prev)}), {skipped} skipped missing 
 # card format IN PLACE before parsing. Idempotent: files that already carry the
 # marker line are left untouched.
 import re, html
+def _convert_card_stack(txt):
+    # 2026-10-17 ROLLING CARD STACK format: individual '### [HH:MM] Title' cards,
+    # newest on top, stacked through the day (protocol: daily-read-rolling-edition).
+    # Converts to the standing parser layout. Idempotent via the same marker.
+    if "<!--parser markers above" in txt or "### [" not in txt:
+        return txt, False
+    head, _, stack = txt.partition("### [")
+    m_iso = re.search(r"\d{4}-\d{2}-\d{2}", head)
+    m_long = re.search(r"([A-Z][a-z]+ \d{1,2}, \d{4})", head)
+    _date = m_iso.group(0) if m_iso else (datetime.datetime.strptime(m_long.group(1),"%B %d, %Y").date().isoformat() if m_long else "missing - set before publishing")
+    catalyst = re.search(r"Catalyst node: (.+)", head)
+    cards = re.findall(r"### \[(\d{2}:\d{2})\] (.*?)\n(.*?)(?=\n### \[|\n---)", txt, re.S)
+    if not cards:
+        return txt, False
+    out=["# The Daily Read","","DATE: " + _date]
+    if catalyst: out.append("CATALYST: " + catalyst.group(1).strip())
+    out+=["SUMMARY:"]
+    out+=[f"- [{t}] {title}" for t,title,_ in cards]
+    out+=["- What we're watching","WATCHING:","- see card stack below","",
+          "<!--parser markers above; collapsible cards below-->","**CARD STACK** (newest first)","","---",""]
+    for t,title,body in cards:
+        out+=["<details open>",f"<summary>[{t}] {title}</summary>","",body.strip(),"","</details>",""]
+    return "\n".join(out), True
+
 def _convert_prose_daily_read(txt):
     if "<!--parser markers above" in txt:
         return txt, False
@@ -106,7 +130,9 @@ dr={"summary":[], "watching":[]}
 txt=""
 if os.path.exists("Daily Read.md"):
     txt=open("Daily Read.md").read()
-    txt, converted=_convert_prose_daily_read(txt)
+    txt, converted=_convert_card_stack(txt)
+    if not converted:
+        txt, converted=_convert_prose_daily_read(txt)
     if converted:
         open("Daily Read.md","w").write(txt)
         print("daily read: prose edition auto-converted to card format")
@@ -128,7 +154,7 @@ data["daily_read"]=dr
 try:
     ctext=txt.split("collapsible cards below-->",1)[1] if "collapsible cards below-->" in txt else ""
     cards=[]
-    for block in re.findall(r"<details>(.*?)</details>", ctext, re.S):
+    for block in re.findall(r"<details[^>]*>(.*?)</details>", ctext, re.S):
         sm=re.search(r"<summary>(.*?)</summary>", block, re.S)
         if not sm: continue
         body=block[sm.end():].strip()
