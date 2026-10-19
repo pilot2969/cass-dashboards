@@ -2,6 +2,17 @@
 
 DATE: 2026-10-19
 
+SUMMARY:
+- Waiver holds: nullification now demonstrated precedent
+- Starshield loop closed as coercion-through-service
+- Hormuz war-hold documented: school-strike report held past Nov 3
+- Early vote hardens Dem-lean against the pre-positioned suppression frame
+- Vouchtember: window holds, volume rises
+- Mirror pre-legitimization completes the pincer
+- What we're watching
+WATCHING:
+- see card stack below
+
 <!--parser markers above; collapsible cards below-->
 **CARD STACK** (newest first)
 
