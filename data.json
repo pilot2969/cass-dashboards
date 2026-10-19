@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-19T13:48 ET"
+  "generated_stamped": "2026-10-19T19:54 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,88 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-19",
+   "time_et": "~evening",
+   "track": "sacralization-surface-naming",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Palm Beach County: bomb threat prompted heavy law-enforcement response near Trump International Airport (renamed PBI) hours before Air Force One's first touchdown at the renamed field; WH social posted 'Air Force One touches down at President Donald J. Trump International Airport for the first time.' Threat itself (unverified perpetrator, no claim found at filing) is logged for pattern only: an infrastructure threat against a sacralized executive asset lands on the same day the asset's sacralization completes. Standard problem: the incident, regardless of authorship, feeds the victimization-as-legitimation substrate (security state framing, 'they attack him even at his own airport'). Do not assign authorship; log the interaction.",
+   "forward_signal": "Watch: if WH or surrogates frame the threat as left-wing/domestic-terror before attribution, that is the pre-legitimation-to-enforcement conversion tell. Attribution (or absence) within 72h.",
+   "confidence_moves": "The threat is also the first public incident AT the renamed airport \u2014 naming and incident now share a timeline.",
+   "basename": "2026-10-19-trump-intl-airport-bomb-threat-first-touchdown"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "~19:45 ET",
+   "track": "fake-polls-frame-frequency-sweep",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Fox live-blog, Kansas rally (Park City arena, KS-1 vs Marshall tight): Trump: 'A lot of the polls are rigged, just like the journalists are rigged.' 'So big, so powerful. Too big to rig.' Polymarket-style messaging quote captured ~19:31 ET. New consolidation instance (4th in Oct, after Newsmax 10-16 'they knew it was fake'). Note the pairing: rigged polls AND rigged journalists in one breath \u2014 the two enclosures (pollsters, press) are being welded into a single delegitimation package. 'Too big to rig' is the confidence-inversion line: pre-legitimation for the win claim in KS-01 and wherever the frame is needed. Kansas holding a tight race (Marshall) is itself frame-relevant: red state contested = narrative of collapse, preempted by 'rigged' framing.",
+   "forward_signal": "Watch: whether 'too big to rig' becomes a chant/merch/meme line (velocity check 48h); next poll releases get quote-retweeted with the rigged label by officials (that integration is the stronger signal).",
+   "confidence_moves": "Frame frequency this week: 4 instances, up from prior-week rate. Series continues to behave as predicted in the 2026-09-28 sweep.",
+   "basename": "2026-10-19-kansas-rally-rigged-polls-consolidation"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "~15:00 ET",
+   "track": "pre-election-fraud-exhibit-deployment",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment",
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "DOJ announces 'Operation Protect the Vote': 28 foreign nationals charged with voter fraud in California, two days after suing to block counting of ~20,000 mail ballots pending citizenship checks (C.D. Cal., filed 10-15). This is the exhibit-delivery step predicted in the pre-election legitimacy-catalyst chain: polls frame ('rigged', Trump Kansas rally 10-19 evening: 'a lot of the polls are rigged, just like the journalists are rigged') was always the softer vocabulary; the count frame needs concrete fraud exhibits. DOJ now manufactures them: 'likely aliens' rolls + criminal charges 2 weeks + 15 days before Nov 3. Guardian notes some charged appear to have been confused about eligibility \u2014 charge counts, not convictions, are the output; convictions irrelevant to frame function. Timing is the tell: exhibits deployed BEFORE the election, not after, so the 'count is wrong' frame arrives pre-armed.",
+   "forward_signal": "Watch: whether charges get cited at rallies/ads before Nov 3 (integration from DOJ platform to meme tier); whether more states see suits (NJ next?); court response to the C.D. Cal. ballot-blocking request \u2014 if a judge refuses, that refusal becomes the next exhibit ('activist judges blocking ballot integrity') in the judge-enclosure lane.",
+   "confidence_moves": "Frame-vocabulary shift risk: polls->count vocabulary now live on both channels (Trump 'rigged polls' + DOJ exhibits).",
+   "basename": "2026-10-19-doj-charges-28-noncitizen-voters"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "~14:10 ET incident / 19:45 ET capture",
+   "track": "mosque-shooting-adjacency-frame-capture",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment",
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Columbus OH: shooting in parking lot of apartment complex adjacent to Alrahma Mosque, 2200 block Albert Ave, ~14:10 ET. 1 dead (14:19), 1 injured. Police (Sgt. Fuqua): dispute among people at the complex, NOT an attack on the mosque; occurred while a funeral was underway. Federal presence: ATF Columbus initially posted 'responding to a reported shooting incident AT a mosque' \u2014 the at-the-mosque framing is what propagated nationally before police walked it back to 'next to, unrelated'. Geographic overlap with Ohio Statehouse masked-column epicenter and the Higby dehumanization priming cluster makes the state the densest anti-Muslim rhetorical environment in the country; an unrelated shooting at a mosque's doorstep there is high-specimen value independent of cause. Specimen type: frame-capture-in-real-time (error-velocity asymmetry: initial ATF phrasing travels, correction never catches up).",
+   "forward_signal": "Watch: (1) right-media pickup of 'mosque shooting' before correction propagates; (2) victim/suspect identity or immigration-status angle fusing with DOJ's same-day 28-charging operation; (3) ATF explanation for federal callout on a local dispute; (4) whether funeral congregation or mosque becomes target of retaliatory or celebratory posts.",
+   "confidence_moves": null,
+   "basename": "2026-10-19-columbus-mosque-adjacency-shooting"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "daily",
+   "track": "hormuz-chokepoint-material-substrate",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap",
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Guardian: Iran (IRGC/Naqdi line since 10-07) has attacked at least 15 container ships in past 10 days \u2014 record rate per available trackers. Strait transit effectively collapsed on 10-19 (2 commercial transits vs ~85/day norm per straits.live feeds; CENTCOM disputes 'closed'). Brent $109.40, US diesel avg ~$5.25/gal regional records. School-strike report remains held past Nov 3 per 10-17 logging. The war-hold and the de facto closure now sit 15 days from an election the admin is contesting with the count-exhibit frame. Material substrate (leg 1) no longer trackable as 'pressure' \u2014 it is now the dominant explanatory variable for CPI/gas/waiver chain.",
+   "forward_signal": "Watch: whether the administration converts Hormuz closure into a casus belli pre-election (strike on Iranian naval assets); whether allies (UK Marples route) get security-escort announcements; if a US-flagged ship is hit with US casualties before Nov 3, expect the 2012-Benghazi-to-Iranian-strike pattern per the 09-28 watch.",
+   "confidence_moves": "Escalation ladder now at record; the quiet part (no strikes yet) is the finding \u2014 the hold discipline has lasted 12 days.",
+   "basename": "2026-10-19-hormuz-record-attack-rate-strait-near-closed"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "afternoon",
+   "track": "gas-price-scapegoat-routing",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "WATCHER FIRED. National avg $4.30/gal, CPI 3.7% Sept, gas +34% y/y (+41% by other count), PPI 4-yr high on gas. Scapegoat routing running exactly as pre-filled: NEC Director Hassett (Fox) directs voter frustration to 'the runaway inflation that Joe Biden' \u2014 Biden attribution on fuel costs caused by Hormuz war-hold + waiver of Russia sanctions (10-16) \u2014 the two largest actual supply-side inputs of this administration. Trump Ohio speech (10-13) and CNN fact-check document the same routing. EIA projects prices stay elevated through October, decline 'after October 2026' \u2014 i.e., after Nov 3, consistent with the bet being survived-not-solved. Meanwhile pump avg dipped 6c nationally this week (Ohio +4c weekly) \u2014 micro-noise against a +34% y/y base.",
+   "forward_signal": "Watch: whether the Biden-routing survives contact with Nov 3 exit polls (blame distribution per the 10-17 social-mood watch); whether the gas-tax suspension lever is redeployed pre-election (Sept 29 House version dead on adjournment; EO version would be the transfer signature).",
+   "confidence_moves": "Routing capture: blame slotting held for 6+ weeks now; elastic yet on-script.",
+   "basename": "2026-10-19-cpi-scapegoat-routing-hassett-biden"
+  },
   {
    "date": "2026-10-18",
    "time_et": "11:35",
@@ -7366,10 +7448,16 @@
  ],
  "movers": [
   {
-   "time": "2026-10-17 23:35 ET",
+   "time": "2026-10-19 20:10 ET",
    "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
-   "change": "confidence 60 \u2014 status pending",
-   "trigger": "2026-10-17 evening: (a) Russia waiver signed late 10-16 \u2014 completes the diesel-deal sequence end-to-end (deal -> threat -> 10-09 lifeline -> signed waiver); NYT prints the election"
+   "change": "confidence 65 \u2014 status pending",
+   "trigger": "TIER-1 (2026-10-19 evening): DOJ 'Operation Protect the Vote' \u2014 28 noncitizen-voter charges announced (C.D. Cal.) 3 days after the ballot-count-blocking suit (~20k mail ballots). P"
+  },
+  {
+   "time": "2026-10-19 20:10 ET",
+   "ref": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
+   "change": "confidence 74 \u2014 status emergent",
+   "trigger": "2026-10-19: Columbus OH shooting adjacent to Alrahma Mosque (funeral underway) \u2014 ATF initial phrasing 'shooting AT a mosque' propagated nationally before police correction ('apartm"
   },
   {
    "time": "2026-10-15 21:45 ET",
@@ -7424,6 +7512,34 @@
   "date": "2026-10-19",
   "cards": [
    {
+    "title": "[EVENING] Justice Department charges 28 people with voting crimes \u2014 two weeks before the election",
+    "html": "<p><b>What happened:</b> On Monday the Justice Department announced criminal charges against 28 foreign nationals living in the US, accusing them of voter fraud in California. It comes three days after the department sued California to stop counting roughly 20,000 mail ballots until each voter's citizenship can be verified \u2014 a check election officials say cannot be completed in time. The campaign has a name: \"Operation Protect the Vote.\"</p>\n\n<p><b>Why it matters:</b> The charges are small in number but large in position: they arrive <i>before</i> the election, not after. A fraud story needs examples, and now it has them \u2014 filed, press-released, and quoted, two weeks before votes are counted.</p>\n\n<p><b>The pattern:</b> First the polls were called rigged. Now the government itself is producing the exhibits for the claim that the count is rigged. Reporters noted some of the 28 appear to have been confused about whether they were eligible at all \u2014 but for the story's purpose, an arrest photo matters more than a conviction.</p>\n\n<p><b>What history says:</b> Governments that planned to contest an election's result have always needed a violation to point to. The exhibit is staged in advance so that the losing side's grievance arrives pre-documented, regardless of what the tally shows.</p>\n\n<p><b>What we're watching next:</b> Whether these 28 charges show up in ads, rallies or official statements before Nov 3 \u2014 that's the handoff from courtroom to campaign. And how courts rule on the ballot-blocking request: a refusal itself becomes exhibit number twenty-nine.</p>"
+   },
+   {
+    "title": "[EVENING] At a rally tonight: \"The polls are rigged, just like the journalists are rigged\"",
+    "html": "<p><b>What happened:</b> Speaking tonight in Kansas, the president called the polls showing his party trailing \"rigged\" and added that the press is rigged too. He told the crowd victory would be \"too big to rig.\"</p>\n\n<p><b>Why it matters:</b> Two institutions are now being named as cheaters in the same breath \u2014 the pollsters and the press. And the reassuring line, \"too big to rig,\" does quiet double work: it tells supporters they will win, so that any other result can only be explained one way.</p>\n\n<p><b>The pattern:</b> This is the fourth time this month the \"rigged\" framing has been used. The claim is no longer attached to any single poll; it has become a standing verdict, ready to be applied to any number that appears \u2014 before or after the election.</p>\n\n<p><b>What history says:</b> When a leader spends weeks teaching followers that every measurement is fixed, the lesson doesn't expire on election night. It compounds: the loss is theft, and the win is a miracle. Both conclusions were written before the votes.</p>\n\n<p><b>What we're watching next:</b> Whether \"too big to rig\" spreads into campaign signs and social media over the next 48 hours \u2014 that tells us it's becoming a slogan, not a quote.</p>"
+   },
+   {
+    "title": "[EVENING] Iran has now attacked at least 15 merchant ships in ten days \u2014 and the strait is nearly empty",
+    "html": "<p><b>What happened:</b> Tracking organizations report Iran has struck at least 15 commercial ships near the Strait of Hormuz in the past ten days \u2014 the highest attack rate of the war. Commercial traffic through the strait has all but stopped; on Monday only a handful of transits were recorded where dozens would be normal. Oil trades near $109 a barrel.</p>\n\n<p><b>Why it matters:</b> A tenth of the world's oil normally moves through that water. Its closure is already visible in every American's fuel bill \u2014 and the Pentagon has confirmed it will not release its report on a US strike that killed around 156 people at a school until after the election.</p>\n\n<p><b>The pattern:</b> The war is being kept hot enough to dominate prices, and quiet enough to avoid a headline casualty at home \u2014 a balance that has now held for twelve days, which is itself the news. Every day it holds, the pressure transfers to voters rather than to the battlefield.</p>\n\n<p><b>What history says:</b> Wars in chokepoints historically end not when one side quits but when the world finds another route. Until one exists, each passing day raises the cost for everyone \u2014 and the government holding the war's calendar decides whose cost counts.</p>\n\n<p><b>What we're watching next:</b> Any attack on an American-flagged ship. So far the line has held \u2014 the moment it doesn't, expect the war to stop being background noise.</p>"
+   },
+   {
+    "title": "[EVENING] Bomb threat at the airport that now carries the president's name \u2014 hours before his plane landed",
+    "html": "<p><b>What happened:</b> Police swarmed near Palm Beach's airport Monday after a bomb threat, hours before Air Force One made its first-ever landing at the field \u2014 which was recently renamed for the sitting president. No device was reported found; the sender of the threat is unknown.</p>\n\n<p><b>Why it matters:</b> On the same day the airport's renaming was completed, an unclaimed threat against it generated dramatic images of police, dogs and closures around the president's own namesake facility. Whoever sent it, the pictures now exist.</p>\n\n<p><b>The pattern:</b> A threat with no author is the most useful kind for a political story: it can be attributed by anyone to anyone. Watch whether officials name a perpetrator before any investigation produces one \u2014 that gap between claim and evidence is where narratives are installed.</p>\n\n<p><b>What history says:</b> Pretext incidents have historically mattered less for what happened than for what they allowed to be said afterward. The rule of thumb: whoever narrates the threat fastest owns its meaning.</p>\n\n<p><b>What we're watching next:</b> Whether the White House or its allies attribute the threat within 72 hours \u2014 and to whom.</p>"
+   },
+   {
+    "title": "[EVENING] A rumor about North Korea's leader swept the internet today. No one confirmed it.",
+    "html": "<p><b>What happened:</b> Unverified claims raced across social media Monday that Kim Jong Un had suffered a brain hemorrhage, was in a coma, and possibly dead \u2014 with versions adding that he'd been secretly flown to a Beijing hospital. The origin traces to one exile group. No government, intelligence service or independent source has confirmed any of it.</p>\n\n<p><b>Why it matters:</b> When a story this large has exactly one source, the interesting fact isn't the claim \u2014 it's the velocity. Major outlets covered the <i>rumor itself</i>, which is how a fringe claim earns mainstream reach.</p>\n\n<p><b>The pattern:</b> Big, unfalsifiable claims about foreign leaders are the cheapest high-traffic content there is. They can never be disproven (no body, no press conference), and they teach audiences to expect dramatic hidden events \u2014 a habit that transfers to domestic politics.</p>\n\n<p><b>What history says:</b> Every era has its health-scare rumors about rival leaders; what changed is that coverage of \"what people are saying\" now outruns verification. The rumor's lifespan is usually decided by whether anyone with standing repeats it.</p>\n\n<p><b>What we're watching next:</b> Whether any official or major politician repeats the claim. Until then, it's noise with a ticker.</p>"
+   },
+   {
+    "title": "[EVENING] France saw its worst unrest in years; the government's answer is curfews and calm-talk",
+    "html": "<p><b>What happened:</b> Hundreds of thousands protested across France over the weekend \u2014 the worst street unrest in years \u2014 with looting reported and overnight curfews now in force in parts of Paris. President Macron called for calm and gave no ground.</p>\n\n<p><b>Why it matters:</b> The unrest grew out of an empty budget: no governing majority, no agreement on spending, and anger with no official channel. That combination \u2014 a crowd with no address \u2014 is what historically feeds parties promising to be the crowd's voice.</p>\n\n<p><b>The pattern:</b> When parliaments deadlock, the street becomes the second parliament. And the forces best positioned to harvest it are the ones that were never part of the deal that failed.</p>\n\n<p><b>What history says:</b> France's protest waves have repeatedly transferred energy to the opposition that promised order and representation at once \u2014 a pairing the exhausted center struggles to match.</p>\n\n<p><b>What we're watching next:</b> Whether the far right and far left move from sympathy statements to concrete demands on the same weekend's grievances.</p>"
+   },
+   {
+    "title": "What we're watching",
+    "html": "<ul>\n<li>Whether the 28 voting-crime charges get used in campaign ads or rally speeches before Nov 3</li>\n<li>The first court ruling on the Justice Department's request to block 20,000 California ballots</li>\n<li>Whether \"too big to rig\" becomes a slogan over the next 48 hours</li>\n<li>Any strike on a US-flagged ship in the Strait of Hormuz</li>\n<li>Whether anyone official repeats the Kim Jong Un rumor</li>\n<li>The budget office announcement, expected by Oct 27</li>\n<li>Whether attribution emerges in the airport bomb threat</li>\n</ul>"
+   },
+   {
     "title": "[12:35] The president just undid his own law \u2014 and Congress did nothing",
     "html": "<p><b>What happened:</b> In September, Congress passed \u2014 and the president signed \u2014 a law imposing tough new sanctions on Russia, set to take effect this Saturday. On Friday night, the president quietly signed an order suspending them, two days before they kicked in. He then publicly called the decision \"a very good deal\" for Americans buying diesel fuel.</p>\n\n<p><b>Why it matters:</b> When Congress writes a law and a president signs it, that's supposed to be the end of the argument \u2014 the law stands. Over the weekend, members of both parties condemned the move. But no one moved to stop it. No override, no court challenge, nothing. The president's own party mostly stayed quiet; one of its members openly celebrated.</p>\n\n<p><b>The pattern:</b> This is the first time we have watched a <i>finished</i> piece of legislation get wiped out by the signature of the same man who signed it \u2014 with the party that passed it unable, or unwilling, to respond. Laws that can be unmade by one official's private certification stop functioning as laws. They become suggestions.</p>\n\n<p><b>What history says:</b> In the 1930s, the erosion of legislative power in Germany didn't happen through a dramatic seizure. It happened through exactly this kind of step: each one defensible in isolation, each one met with silence, until the legislature met less and mattered less. The test is never one decree. It's whether the body that wrote the law fights back when it's undone.</p>\n\n<p><b>What we're watching next:</b> Whether this same self-certification trick gets reused on a different issue \u2014 any deadline, funding rule, or restriction this administration dislikes. If it happens a second time, we'll know it wasn't a one-off; it's a tool.</p>"
    },
@@ -7454,8 +7570,8 @@
   ]
  },
  "institutions": {
-  "reviewed": "2026-10-14",
-  "reviewer": "CASS seed calibration (owner review pending)",
+  "reviewed": "2026-10-19",
+  "reviewer": "Owner-authorized evening review 2026-10-19 (20:15 ET)",
   "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
   "institutions": [
    {
@@ -7474,17 +7590,19 @@
    },
    {
     "name": "Election Offices",
-    "score": 73,
+    "score": 78,
     "band": "Critical",
     "delta": null,
-    "why": "Official attrition (brain-drain reports), USCIS machinery capture, poll-watcher normalization. Wire: Leg-4 battery 11/15 (2026-09)."
+    "why": "DOJ filed to block counting ~20k CA mail ballots (2026-10-16) and launched 'Operation Protect the Vote' \u2014 28 noncitizen-voter charges (2026-10-19, C.D. Cal.) pre-positioning fraud exhibits before Election Day. Brain-drain attrition, USCIS machinery capture, poll-watcher normalization continue underneath.",
+    "note": "Wire: 2026-10-19 evening (28-charge launch + ballot-suit). Band moved Strained\u2192Warning."
    },
    {
     "name": "Health Agencies",
-    "score": 80,
+    "score": 82,
     "band": "Critical",
     "delta": null,
-    "why": "CDC epistemic capture; outbreak capacity test live. Wire: Leg-4 battery CDC 12/15 (2026-09)."
+    "why": "CDC epistemic capture; measles at 4,410 cases (+330/wk) with 5 pediatric deaths and no CDC counter-messaging \u2014 outbreak-capacity test unmet while capture deepens. Wire: Leg-4 battery CDC 12/15 (2026-09-...); 2026-10-19 evening momentum negative.",
+    "note": "2026-10-19: +2 on case-load acceleration with zero agency response. Band stays Critical."
    },
    {
     "name": "Civil Service",
@@ -7515,6 +7633,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 5
+  "age_days": 0
  }
 }
