@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-18T11:45 ET"
+  "generated_stamped": "2026-10-19T09:05 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -2007,6 +2007,53 @@
    "forward_signal": "If Roosevelt on station by end-Oct, watch check (4) fires. Post-Nov 3 strike window now the single highest-confidence forecast on the Iran track. Cross-lane: same calendar-indexed pattern as DOJ California suit (pre-election coercion, post-election instrument).",
    "confidence_moves": "P2T up. No changes to SPR or certification legs.",
    "basename": "2026-10-18-iran-post-midterm-sequencing"
+  },
+  {
+   "date": "2026-10-18",
+   "track": "narrative-diffusion",
+   "mget_legs_tested": [
+    "Leg 1",
+    "Leg 3"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Araqchi Sunday reaffirmation of the 7-day Hormuz proposal (Reuters/CBS) runs concurrently with continued tanker attacks in the Oman-corridor \u2014 proposal held open as narrative cover while kinetic tempo persists. Timing of the offer's public refresh (16 days pre-election, same week as the 'ballistic after midterms' leak) fits the pre-legitimization pattern: peace-channel signal for domestic consumption, strike authorization deferred past Nov 3.",
+   "forward_signal": "Watch WH response to the 7-day clock and any CENTCOM tempo change; a pre-election reopening of Hormuz would collapse the war-economy frame and hit oil before Nov 3 \u2014 a strong falsifier for sequencing-as-intended.",
+   "basename": "2026-10-18-iran-hormuz-7day-proposal-refresh"
+  },
+  {
+   "date": "2026-10-18",
+   "track": "alignment-consolidation",
+   "mget_legs_tested": [
+    "Leg 1 - Complexity Cap",
+    "Leg 3 - Enclosure Mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "WSJ reporting (via MeidasTouch capture): Putin proposed a Trump/Putin/Xi summit in China next month to settle Ukraine without Zelenskyy \u2014 a spheres-of-influence ('Yalta') structure echoing Rubio's own articulated doctrine. Same day as Trump's diesel-lever post withholding action against Russia and blaming Zelenskyy for diesel prices. If the reported Russian diesel purchase and sanctions halt confirm, the substrate-swap hypothesis (US realigning toward a Moscow-Beijing energy/security bloc) is no longer hypothesis \u2014 it is live policy motion. Elite-fracture leg sharpens in parallel: Rubio publicly denied a slowdown hours before the principal confirmed a deliberate hold.",
+   "forward_signal": "Confirm/deny tonight: (1) diesel purchase, (2) sanctions halt, (3) whether Trump accepts the summit invitation. Summit acceptance pre-election would be the largest alignment signal of the observation window; Starshield full-cutoff becomes more likely in a summit-track scenario.",
+   "basename": "2026-10-18-putin-trump-xi-summit-proposal"
+  },
+  {
+   "date": "2026-10-18",
+   "track": "elite-fracture",
+   "mget_legs_tested": [
+    "Leg 2"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Starshield dispute escalated from bilateral to cabinet-split: Bessent (NBC) calls Zelenskyy 'very reckless' while Rubio denies slowdown and says access is 'under discussion'; Zelenskyy publicly thanks Trump for intel sharing while disputing the throttle. State/WH message incoherence is the elite-fracture signature; the access lever is now explicitly tied to the diesel/refinery-strike dispute ahead of a tariff-sensitive election.",
+   "forward_signal": "Watch for Starshield access becoming an explicit quid pro quo; any full cutoff would be a pre-election oil-price self-inflicted wound and would force GOP incumbents to pick a lane.",
+   "basename": "2026-10-18-starshield-cabinet-split"
+  },
+  {
+   "date": "2026-10-18",
+   "track": "elite-fracture",
+   "mget_legs_tested": [
+    "Leg 2",
+    "Leg 3"
+   ],
+   "verdict": "confirms",
+   "reasoning": "The Starshield/diesel quid pro quo flagged this morning (ledger 2026-10-18-starshield-cabinet-split) went public same-day: Trump's own post confirms he is withholding action against Russia explicitly to keep the diesel lever live, and reframes Zelenskyy as the war-prolonging party. Cabinet-split signature sharpened: Rubio denied a slowdown hours before the principal confirmed a deliberate hold. The blame frame (Biden/Europe/Zelenskyy) is the pre-legitimation layer for either an access cutoff or a settlement imposed on Kyiv.",
+   "forward_signal": "Watch: does Starshield access become an explicit demand in talks; do GOP incumbents in farm states distance from the 'Zelenskyy hurts farmers' frame (diesel-price politics cuts against them); cross-page caption propagation velocity in feed captures over the next 48h.",
+   "basename": "2026-10-18-trump-russia-diesel-lever-public"
   },
   {
    "date": "2026-10-17",
@@ -7362,20 +7409,8 @@
   }
  ],
  "daily_read": {
-  "summary": [
-   "Suppression + synthetic + elite fractures: Iran sequencing confirmed, jail threat now 60 Minutes branded content",
-   "What we're watching"
-  ],
-  "watching": [
-   "see card stack below"
-  ],
-  "date": "2026-10-18",
-  "cards": [
-   {
-    "title": "Suppression + synthetic + elite fractures: Iran sequencing confirmed, jail threat now 60 Minutes branded content",
-    "html": "The Daily Caller exclusive \"The Iran War Is Going To Go Ballistic After Midterms\" (senior military official, ~9,000 additional sailors/Marines, USS Theodore Roosevelt CSG + Makin Island ARG, possible third carrier on station by end of October) corroborated by WaPo and Anadolu is the strongest confirmation yet of the post-midterm sequencing hypothesis filed 09-28: war tempo openly indexed to the election calendar, sustainment building pre-election while strike authorization is deferred past Nov 3. The sourcing channel is itself the finding \u2014 a credential-anonymous leak to a friendly outlet, escalation pre-legitimized without the administration owning it. Sixteen days out, check (1) still holds: no strike activity pre-election. The same capture carries the 60 Minutes preview: Lesley Stahl interviews Trump on his warning to election officials, meaning Friday's DOJ coercion threat against California officials is now being recycled into a direct-to-public pre-legitimization broadcast on the highest-audience Sunday slot. Two lanes, one calendar: coerce before the vote, strike after it. Watch card updated; ledger entry filed (confirms, P2T up); absorption filed with both specimens.\n\n# The Daily Read \u2014 2026-10-18\n\n**Rolling edition \u2014 stories stack as the wire runs all day. Archived at the start of the next day.**\n\n(no sections filed yet \u2014 first wire run of the day writes the morning edition)"
-   }
-  ]
+  "summary": [],
+  "watching": []
  },
  "institutions": {
   "reviewed": "2026-10-14",
@@ -7439,6 +7474,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 4
+  "age_days": 5
  }
 }
