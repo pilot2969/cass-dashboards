@@ -2,6 +2,9 @@
 
 DATE: 2026-10-20
 SUMMARY:
+- [15:40] Iran taunts Trump over gas prices while both sides wait for the vote
+- [15:40] France calls its crowds back for "Acte II" as a new enemy list goes public
+- [15:40] Trump's $400 million sprint — while his candidates run away from him
 - [09:35] DOJ charges 28 in California — the vote-fraud story gets its cast
 - [09:35] Trump shifts on Ukraine as Europe's streets burn over prices
 - What we're watching
@@ -12,6 +15,51 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>[15:40] Iran taunts Trump over gas prices while both sides wait for the vote</summary>
+
+**What happened.** Iran's state media is openly celebrating high US gas prices and polling that shows voters angry about the war, with the Revolutionary Guards calling the economy Trump's "biggest lie." At the same time, a third tanker in two days was hit near the Strait of Hormuz, and Pakistan's army chief flew to Tehran while Qatar and Pakistan float a plan to revive peace talks.
+
+**Why it matters.** Both sides are running out the election clock. Iran is working the pump price like a campaign ad; the US is holding back from escalation so oil doesn't jump before November 3. The war has become an election variable for everyone involved.
+
+**The pattern.** When a war's tempo visibly pauses for a vote, the ceasefire is political, not military. It resumes on the calendar of whoever wins.
+
+**What history says.** Leaders have long timed unpopular wars around elections. What's new is the adversary openly doing the timing for them — Iran mocking America's gas pumps in English-language messaging aimed at US voters.
+
+**Watching next.** Whether strikes resume after the midterms; whether the Qatar-Pakistan mediation produces a real proposal before the vote; and where Brent crude settles as talks rumors move prices around $107.
+
+</details>
+
+<details open>
+<summary>[15:40] France calls its crowds back for "Acte II" as a new enemy list goes public</summary>
+
+**What happened.** French activists plan a second wave of protests on October 24 — 212 separate mobilizations. An investigation branded "Chaos Inc" counts 101 activist groups in nine countries and publishes a list of 54 organizations it blames for the French riots. The State Department warns the second weekend could bring worse destruction.
+
+**Why it matters.** The riots started over cost of living and education, not religion — that's what independent fact-checking found. But the story being sold to English-speaking audiences is "Muslim extremists burning France," complete with a numbered enemy roster. The list is the product.
+
+**The pattern.** Once unrest gets a brand name and an enemy count, facts stop mattering: the story now has villains, and villains can be exported. Expect French imagery in US campaign ads within days.
+
+**What history says.** Red-scare and moral-panic campaigns have always run on published lists of subversives. Publishing the list is the point where a frame becomes a target list.
+
+**Watching next.** Acte II turnout on October 24; whether any provocation is staged at it; and whether the "Chaos Inc" roster gets applied to American protest movements before November 3.
+
+</details>
+
+<details open>
+<summary>[15:40] Trump's $400 million sprint — while his candidates run away from him</summary>
+
+**What happened.** Trump says he has spent over $300 million on the midterms and plans another $100 million by Election Day. Meanwhile Republican Senate hopefuls are running ads insisting they've "never even met the man," and JD Vance declined to endorse Israel's Netanyahu, citing the midterms.
+
+**Why it matters.** The President is buying the board while his candidates scrub his name off it. That two-way movement — money flows toward the brand, candidates flee it — is the clearest sign both sides expect to be judged on November 3 by what happens after.
+
+**The pattern.** When approval is at a historic low, the boss pays in cash and the candidates pay in distance. Both are positioning for the recrimination that follows a loss.
+
+**What history says.** Midterms are traditionally referendums on the incumbent. A record personal war chest turns this one into a referendum on one man — which is exactly the stakes election organizers are now claiming.
+
+**Watching next.** Whether the distancing ad becomes the standard closing move for GOP candidates; early-vote volume in battleground states (North Carolina is already near 9% turnout); and who gets blamed first if the House flips.
+
+</details>
 
 <details open>
 <summary>[09:35] DOJ charges 28 in California — the vote-fraud story gets its cast</summary>
