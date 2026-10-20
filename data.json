@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-20T09:36 ET"
+  "generated_stamped": "2026-10-20T09:45 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,18 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-20",
+   "track": "regional-infrastructure-cascade",
+   "mget_legs_tested": [
+    "Leg 1 Complexity Cap",
+    "Leg 3 Enclosure Mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "UK Defence Secretary Wes Streeting announced RAF Typhoons will fly 'defensive counter-air operations over Saudi Arabia' protecting cities/critical infrastructure from Houthi attack \u2014 explicitly NOT striking Houthi targets \u2014 plus military transport and an unspecified number of advisers. Follows last month's in-air refueling offer, now extended another 90 days (AP via Arab News, WaPo, 2026-10-20). Sequence: Abha airport/Aramco strike (2026-09-09, ledger) -> Riyadh King Khalid Intl attacked 3x in one week, air defense failing at the capital's main airport (2026-10-10 ledger) -> UK externalizes the air-defense burden within ~6 weeks. DIVERGENCE FROM THE MGET PREDICTION: Leg 3 named the Mecca Defence Alliance (Saudi-Pakistan-Turkey) as the alliance-level enclosure-mutation vehicle; instead a WESTERN power is stepping in \u2014 the umbrella migrating back toward Europe rather than toward a regional pact. Saudi vulnerability was priced, but the rescuer's identity was mispredicted. Note the carefully bounded mandate ('defensive', no Houthi strikes): entry posture that can escalate on a single incident \u2014 an RAF jet engaging a Houthi missile converts 'defensive patrol' into combat participation without a vote, announcement, or debate. TIMING: two weeks pre-midterms while US war tempo is publicly indexed to Nov 3 (watch 2026-09-28-iran-strikes-after-midterms: pre-election US strike falsifier still survives). UK entry is third-party escalation that raises the general temperature WITHOUT triggering the US-side falsifier \u2014 the only escalation lane currently open before Nov 3. Also aligned: Saudi cabinet same day declares 'energy security is a shared international responsibility' \u2014 Riyadh socializing the defense bill.",
+   "forward_signal": "Watch: (1) first RAF engagement of a Houthi projectile (defensive->combat conversion event); (2) whether the Mecca Defence Alliance activates anyway (Pakistan/Turkey troops or guarantees) \u2014 would confirm the original Leg 3 vehicle in parallel; (3) Brent response vs. Hormuz tape \u2014 UK entry should damp, not spike, oil if markets read it as capacity addition; a spike would mean markets read escalation instead; (4) whether the US uses UK entry as the post-midterm escalation pretext (allied participation pre-built).",
+   "basename": "2026-10-20-uk-typhoons-saudi-counterair"
+  },
   {
    "date": "2026-10-19",
    "time_et": "~evening",

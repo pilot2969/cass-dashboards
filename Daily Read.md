@@ -42,3 +42,14 @@ WATCHING:
 **Watching next.** Witkoff's Moscow return; whether European unrest mutates into anti-NATO framing; the next US scapegoat attribution before Nov 3.
 
 </details>
+
+### [09:52] Britain puts its jets over Saudi Arabia — the Houthi war goes multinational
+**What happened.** The UK announced Royal Air Force Typhoon jets will fly "defensive" air patrols over Saudi Arabia to shield cities and infrastructure from Houthi attack. The planes won't strike Houthi targets, Britain says. Refueling support from last month is extended 90 more days, with transport aircraft and advisers going too.
+
+**Why it matters.** A third foreign air force is now in the Saudi skies problem. Britain's entry came six weeks after repeated strikes on Abha airport and Riyadh's main airport — Saudi air defenses were visibly failing, and London is now underwriting the gap.
+
+**The pattern.** "Defensive-only" deployments are how countries enter wars by installment: each step looks like the last one. The moment a patrol jet shoots down a Houthi missile, Britain is at war without a vote or an announcement.
+
+**What history says.** Escalation in proxy wars has historically arrived through exactly this doorway — advisers, refueling, defensive screens — rather than declarations.
+
+**Watching next.** The first RAF engagement of a Houthi projectile; whether Saudi Arabia's regional pact partners step up in parallel; and whether the US points to allied participation when strikes resume after the midterms.
