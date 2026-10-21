@@ -119,7 +119,14 @@ def _convert_card_stack(txt):
     out+=["- What we're watching","WATCHING:","- see card stack below","",
           "<!--parser markers above; collapsible cards below-->","**CARD STACK** (newest first)","","---",""]
     for title,body in cards:
-        out+=["<details open>",f"<summary>{title}</summary>","",body.strip(),"","</details>",""]
+        # 2026-10-21 FORMAT LOCK: beats must render as separate paragraphs with
+        # bold labels — plain md (**) and bare newlines collapse inside <details>.
+        out+=["<details open>",f"<summary>{title}</summary>",""]
+        for para in [x.strip() for x in re.split(r"\n\s*\n", body.strip()) if x.strip()]:
+            para=re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", para)
+            para=re.sub(r"(?<![\\w])\*(?!\s)(.+?)(?<!\s)\*(?!\\w)", r"<i>\1</i>", para)
+            out+=["<p>"+para+"</p>",""]
+        out+=["</details>",""]
     return "\n".join(out), True
 
 def _convert_prose_daily_read(txt):
