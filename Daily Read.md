@@ -5,11 +5,11 @@ SUMMARY:
 - A senator warns of an "October surprise" before Election Day — and is mocked for it within hours
 - Iran threatens undersea internet cables in the Strait of Hormuz as a "legitimate target"
 - Conservative media turns a "fake pollster" revelation into an exhibit for its fraud narrative
-- 1. Saudi Arabia postpones its biggest investor conference as attacks continue
-- 2. A new poll finds Democrats' trust in election results is falling
-- 3. Trump administration launches a $25 million program paying people to report "fraud"
-- 4. The government's list of 20,000 possible noncitizen voters includes US-born citizens
-- 5. Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
+- Saudi Arabia postpones its biggest investor conference as attacks continue
+- A new poll finds Democrats' trust in election results is falling
+- Trump administration launches a $25 million program paying people to report "fraud"
+- The government's list of 20,000 possible noncitizen voters includes US-born citizens
+- Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
 - What we're watching
 WATCHING:
 - Whether any pre-election national-security incident materializes
@@ -23,11 +23,11 @@ WATCHING:
 - A senator warns of an "October surprise" before Election Day — and is mocked for it within hours
 - Iran threatens undersea internet cables in the Strait of Hormuz as a "legitimate target"
 - Conservative media turns a "fake pollster" revelation into an exhibit for its fraud narrative
-- 1. Saudi Arabia postpones its biggest investor conference as attacks continue
-- 2. A new poll finds Democrats' trust in election results is falling
-- 3. Trump administration launches a $25 million program paying people to report "fraud"
-- 4. The government's list of 20,000 possible noncitizen voters includes US-born citizens
-- 5. Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
+- Saudi Arabia postpones its biggest investor conference as attacks continue
+- A new poll finds Democrats' trust in election results is falling
+- Trump administration launches a $25 million program paying people to report "fraud"
+- The government's list of 20,000 possible noncitizen voters includes US-born citizens
+- Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
 
 ---
 
