@@ -90,8 +90,19 @@ def _convert_card_stack(txt):
     # 2026-10-17 ROLLING CARD STACK format: individual '### [HH:MM] Title' cards,
     # newest on top, stacked through the day (protocol: daily-read-rolling-edition).
     # Converts to the standing parser layout. Idempotent via the same marker.
-    if "<!--parser markers above" in txt or "### " not in txt:
+    if "### " not in txt:
         return txt, False
+    if "<!--parser markers above" in txt:
+        # 2026-10-21 HARDENING: marker present but cards below it written as bare
+        # '### ' headings (no <details>) -> parser silently yields 0 cards and
+        # the board renders only the watch list. Rebuild the whole file from the
+        # ### stack; idempotent because <details> files fall through untouched.
+        post = txt.split("<!--parser markers above",1)[1].partition("-->")[2]
+        if "<details" not in post:
+            txt = txt.split("<!--parser markers above",1)[0] + "### " + post
+            # fall through to the standard ### rebuild below
+        else:
+            return txt, False
     head, _, stack = txt.partition("### ")
     # header may sit BELOW the top card in the stacked format: scan the whole text
     m_iso = re.search(r"# The Daily Read(?: — )?(\d{4}-\d{2}-\d{2})", txt) or re.search(r"\d{4}-\d{2}-\d{2}", head)
@@ -283,6 +294,16 @@ fi
 # staging-first: verify JSON parses clean before any push
 python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json']]" \
   && echo "staging gate: JSON valid"
+
+# 2026-10-21 HARDENING: the daily_read panel fails SILENT when cards parse to
+# zero (md present, board shows watch list only). Assert loudly instead.
+python3 -c "
+import json,sys
+dr=json.load(open('data.json')).get('daily_read') or {}
+n=len(dr.get('cards') or [])
+print('daily_read cards parsed:',n)
+if n==0: sys.exit('FAIL: daily_read.cards==0 — Daily Read.md did not parse into cards; board would render empty panel. Fix the md format before pushing.')
+"
 
 # canonical-source amendment (2026-10-09): Daily Read.md is the canonical source
 # for the daily_read panel; it must be committed with the generated artifacts or
