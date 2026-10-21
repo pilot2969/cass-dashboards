@@ -31,7 +31,9 @@ WATCHING:
 
 ---
 
-### A senator warns of an "October surprise" before Election Day — and is mocked for it within hours
+<details open>
+<summary>A senator warns of an "October surprise" before Election Day — and is mocked for it within hours</summary>
+
 **What happened:** Sen. Elissa Slotkin (D-MI) said she is preparing for the possibility that the administration attempts to change the outcome of the election, pointing to the final two weeks as a window when a national security incident "only they can protect us from" could appear. Conservative outlets responded the same day by mocking her personally.
 
 **Why it matters:** The warning comes from a former CIA officer and Pentagon official — someone whose job was anticipating exactly this. What happens next is more telling than the warning itself: an attack on a claim that nobody believed would matter is itself evidence that the claim matters.
@@ -42,7 +44,11 @@ WATCHING:
 
 **What we're watching next:** Whether any national-security incident materializes in the final stretch, and which outlets cite the warning as proof of orchestration rather than foresight.
 
-### Iran threatens undersea internet cables in the Strait of Hormuz as a "legitimate target"
+</details>
+
+<details open>
+<summary>Iran threatens undersea internet cables in the Strait of Hormuz as a "legitimate target"</summary>
+
 **What happened:** IRGC commanders said over the weekend that undersea communication cables running through the Strait of Hormuz are now legitimate targets if the war resumes — turning a new category of civilian infrastructure into an explicit military objective.
 
 **Why it matters:** Only a handful of cable systems carry most of the data and voice traffic between Europe, the Gulf and Asia through that strait. Cutting them wouldn't stop oil (ships can still move) but would shake the invisible layer the global economy runs on — and rattle the markets that price Gulf risk.
@@ -53,7 +59,11 @@ WATCHING:
 
 **What we're watching next:** Whether shipping insurers reprice Gulf routes this week, and whether the threat is followed by any cable fault — even an ambiguous one.
 
-### Conservative media turns a "fake pollster" revelation into an exhibit for its fraud narrative
+</details>
+
+<details open>
+<summary>Conservative media turns a "fake pollster" revelation into an exhibit for its fraud narrative</summary>
+
 **What happened:** The Blaze amplified a story alleging that a Democratic-allied pollster fabricated survey results, presenting it as part of a broader effort to rig the midterm narrative — not just as a one-off scandal.
 
 **Why it matters:** A polling scandal is being converted from an accountability story into pre-election evidence for the larger claim that the whole system is rigged. The timing, days before the vote, matters more than the substance.
@@ -64,7 +74,11 @@ WATCHING:
 
 **What we're watching next:** Whether "the polls were fake" becomes the frame of choice for explaining any November surprise, and how fast it spreads to elected officials.
 
-### Saudi Arabia postpones its biggest investor conference as attacks continue
+</details>
+
+<details open>
+<summary>Saudi Arabia postpones its biggest investor conference as attacks continue</summary>
+
 **What happened:** Saudi Arabia pushed its Future Investment Initiative — the huge annual Riyadh gathering nicknamed "Davos in the Desert" — to 2027, after a wave of missile and drone attacks by Yemen's Houthi forces. Government staff in Riyadh were told to work from home, the Houthis declared Saudi airspace unsafe, and Britain offered military help.
 
 **Why it matters:** The forum is the centerpiece of Saudi Arabia's plan to attract hundreds of billions in foreign investment so its economy is less dependent on oil. Postponing it for a year is a public admission that the war next door is now scaring off the exact people the country is trying to impress.
@@ -75,7 +89,11 @@ WATCHING:
 
 **What we're watching next:** Whether other Gulf business events get postponed this week, and whether oil prices keep climbing even as barrels keep shipping — the gap between those two is the war's real price tag.
 
-### A new poll finds Democrats' trust in election results is falling
+</details>
+
+<details open>
+<summary>A new poll finds Democrats' trust in election results is falling</summary>
+
 **What happened:** An AP-NORC poll out Wednesday finds registered Democrats have notably less faith in the accuracy of U.S. election results than they did four years ago, though their trust still runs higher than Republicans'.
 
 **Why it matters:** The midterm election is less than two weeks away, and both parties' voters now carry doubts about whether the count will be honest. Trust in elections used to be roughly symmetric; now it is being worn down from both directions.
@@ -86,7 +104,11 @@ WATCHING:
 
 **What we're watching next:** Whether either side's campaign language shifts from "the polls" to "the count" in the final stretch, and whether early-vote totals get framed as suspicious.
 
-### Trump administration launches a $25 million program paying people to report "fraud"
+</details>
+
+<details open>
+<summary>Trump administration launches a $25 million program paying people to report "fraud"</summary>
+
 **What happened:** President Trump and Vice President Vance announced a $25 million whistleblower-style program that will pay members of the public who report fraud.
 
 **Why it matters:** The program arrives days after federal prosecutors charged 28 foreign nationals with election-related crimes — cases officials themselves have tied to a broader fraud narrative before Election Day.
@@ -97,7 +119,11 @@ WATCHING:
 
 **What we're watching next:** Whether the program's first publicized tips involve election administration specifically, and whether the exhibits show up in campaign ads within days.
 
-### The government's list of 20,000 possible noncitizen voters includes US-born citizens
+</details>
+
+<details open>
+<summary>The government's list of 20,000 possible noncitizen voters includes US-born citizens</summary>
+
 **What happened:** Reporting Wednesday found the Justice Department's list of roughly 20,000 suspected noncitizen registered voters — the basis for a lawsuit seeking to block mail ballots — contains names of people who were born in the United States.
 
 **Why it matters:** The list is being used to challenge ballots before an election. If a meaningful share of it is simply wrong, real voters could lose their votes over a data error.
@@ -108,7 +134,11 @@ WATCHING:
 
 **What we're watching next:** Whether courts block or allow the ballot challenges, and whether any wrongly flagged voters come forward publicly before Nov. 3.
 
-### Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
+</details>
+
+<details open>
+<summary>Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants</summary>
+
 **What happened:** Paris imposed nightly curfews as France's worst unrest in years entered another week, with President Macron so far unmoved. In the U.S., several Republican figures blamed France's riots on immigrants without evidence, an assertion news fact-checks found unsupported.
 
 **Why it matters:** France is a major U.S. ally, and the blame assignment — not the unrest itself — is what crossed the Atlantic within a day.
@@ -118,3 +148,5 @@ WATCHING:
 **What history says:** Foreign crises have repeatedly served as free evidence in U.S. immigration politics, from the 2015 European migration wave to cartel imagery in border campaigns. The loop is now measured in hours, not months.
 
 **What we're watching next:** Whether French political parties on both left and right adopt harder positions in response to the unrest, and whether U.S. campaign ads use the French footage directly.
+
+</details>
