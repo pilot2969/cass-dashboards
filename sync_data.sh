@@ -324,8 +324,27 @@ git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 git pull --rebase -X ours -q origin main
 # CONSOLIDATED PUSH BLOCK (2026-10-14 review): exactly one push per remote, per
 # run. origin = staging repo, prod = prod repo, staging = alias of origin.
+# 2026-10-21 PAGES-SERIALIZATION: GitHub Pages rejects a new deployment while
+# one is in flight ("in progress deployment" 400). Old behavior: back-to-back
+# pushes -> staging deploy always collides -> failure emails with no content
+# loss (Cloudflare serves the repo, not Pages). Fix: wait for in-flight runs,
+# push prod FIRST, wait for its Pages run to finish, then push staging.
+_pages_wait() { _r="$1"; _tok="$2"; _t0=$(date +%s);
+  while :; do
+    _st=$(curl -s -H "Authorization: token $_tok" \
+      "https://api.github.com/repos/$_r/actions/runs?per_page=1&event=push" \
+      | jq -r '.workflow_runs[0].status // "none"')
+    [ "$_st" = "in_progress" ] || [ "$_st" = "queued" ] || break
+    [ $(( $(date +%s) - _t0 )) -ge 420 ] && { echo "  pages-wait: timeout on $_r, pushing anyway"; break; }
+    sleep 15
+  done; }
+_ptok=$(git remote get-url prod | sed 's|https\://[^:]*:\([^@]*\)@.*|\1|')
+_pages_wait pilot2969/cass-dashboards-staging "$_ptok"
 git push -q origin main && echo "PUSHED TO STAGING (origin) ✓"
+_pages_wait pilot2969/cass-dashboards "$_ptok"
 git push -q prod main:main && echo "PUSHED TO PROD ✓"
+sleep 10
+_pages_wait pilot2969/cass-dashboards-staging "$_ptok"
 if git remote get-url staging >/dev/null 2>&1; then
   # staging alias already covered by origin push above; push only if it points elsewhere
   [ "$(git remote get-url staging)" = "$(git remote get-url origin)" ] && echo "staging alias == origin (already pushed)" || { git push -q staging main && echo "PUSHED TO STAGING (staging remote) ✓"; }
