@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-21T09:05 ET"
+  "generated_stamped": "2026-10-21T15:11 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,20 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-21",
+   "time_et": "morning",
+   "track": "hormuz-chokepoint-material-substrate",
+   "mget_legs_tested": [
+    "leg_1_complexity_cap",
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Owner question: WSJ reports Gulf oil flows now exceed pre-war levels despite the strait near-closed. Resolution: (1) The bypass is pre-built latent capacity, not new construction - Saudi East-West (Abqaiq-Yanbu, ~5 mbpd nameplate) and UAE ADCOP (~1.5-1.8 mbpd) ran under capacity pre-war because Hormuz routing was cheaper; war flipped the cost ranking and idled capacity maxed out, moving bypass share from ~17% to ~40%. (2) The inefficient leg is expensive per barrel, not prohibitive: at $108 Brent, war-risk insurance, dark transits, convoy cover and ship-to-ship transfers off Oman add single-digit dollars per barrel against a $30+ price uplift; marginal barrels still ship while price exceeds risky cost - classic blockade failure mode: blockade does not stop flows, it reprices them. (3) Shuttle-tanker arithmetic inflates measured throughput: the Oman STS pattern turns long-haul hulls into shuttle tankers making multiple short runs, each registered as a loading; oil that used to sit in Gulf storage or on float is pushed out and counted in motion. (4) Surge arithmetic: pent-up cargo backlog plus restocking at high price pulls exports forward - part of the over-prewar run-rate is borrowed from future weeks.",
+   "forward_signal": "Watch Gulf floating-storage drawdown rate and whether the over-prewar run-rate decays after backlog clears - the tell that throughput is borrowed. If flows stay above pre-war for 4+ weeks with no storage drawdown AND Brent drops below ~$80, the tightness reading is falsified. Otherwise expect the pipeline/shuttle ceiling to bind within weeks while the strait stays near-closed.",
+   "confidence_moves": "High on mechanism, medium on timing of ceiling bind. The record attack rate (10-19 entry) is stress on exactly the shuttle lane the over-prewar number depends on.",
+   "basename": "2026-10-21-hormuz-bypass-throughput-paradox"
+  },
   {
    "date": "2026-10-20",
    "time_et": "15:35",
@@ -7512,6 +7526,12 @@
  ],
  "movers": [
   {
+   "time": "2026-10-21",
+   "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
+   "change": "confidence 0.32 \u2014 status pending",
+   "trigger": "Item 6 (2026-10-21, reduced weight, independent corroboration only): Jack Hopkins public pre-registration #1057 (published 2026-10-16, predates our public pre-registration of 2026-"
+  },
+  {
    "time": "2026-10-20",
    "ref": "Trump Accounts as Social Security Phase-Out Infrastructure",
    "change": "confidence 55 \u2014 status emergent",
@@ -7549,8 +7569,23 @@
   }
  ],
  "daily_read": {
-  "summary": [],
-  "watching": []
+  "summary": [
+   "A senator warns of an \"October surprise\" before Election Day \u2014 and is mocked for it within hours",
+   "Iran threatens undersea internet cables in the Strait of Hormuz as a \"legitimate target\"",
+   "Conservative media turns a \"fake pollster\" revelation into an exhibit for its fraud narrative",
+   "1. Saudi Arabia postpones its biggest investor conference as attacks continue",
+   "2. A new poll finds Democrats' trust in election results is falling",
+   "3. Trump administration launches a $25 million program paying people to report \"fraud\"",
+   "4. The government's list of 20,000 possible noncitizen voters includes US-born citizens",
+   "5. Paris under nighttime curfew as French unrest continues \u2014 and U.S. politicians blame immigrants",
+   "What we're watching"
+  ],
+  "watching": [
+   "Whether any pre-election national-security incident materializes",
+   "Whether shipping insurers reprice Gulf routes this week",
+   "Whether \"the polls were fake\" becomes the frame for any November surprise"
+  ],
+  "date": "2026-10-21"
  },
  "institutions": {
   "reviewed": "2026-10-19",
