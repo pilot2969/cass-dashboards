@@ -201,6 +201,7 @@ try:
                    if g != "Daily Read.md")
         if eds:
             ftxt=open(eds[-1], encoding='utf-8').read()
+            ftxt,_fc=_convert_card_stack(ftxt)
             if "collapsible cards below-->" in ftxt:
                 ftext2 = ftxt
                 fcut = ftext2.split("<!--parser markers above; collapsible cards below-->",1)[0]
