@@ -1,6 +1,6 @@
 # The Daily Read
 
-DATE: 2026-10-21
+DATE: 2026-10-22
 SUMMARY:
 - A senator warns of an "October surprise" before Election Day — and is mocked for it within hours
 - Iran threatens undersea internet cables in the Strait of Hormuz as a "legitimate target"
@@ -15,11 +15,18 @@ SUMMARY:
 - The Pentagon approves a heat-ray device for testing at the southern border
 - A right-wing figure argues monarchy is "more compatible with Christianity" than democracy
 - A viral claim about Rep. Ilhan Omar rests on one anonymous-source report
+- Final NYT/Siena poll puts Democrats ahead by 11 points among likely voters
+- Albania's protests erupt into student riots that damage four government ministries
+- Houthi attack kills two at a Saudi airport as Iran says it is in "wartime conditions"
+- Supreme Court keeps full SNAP payments on hold until Thursday night as a shutdown deal nears
+- Records show ICE reviewed tens of millions of voter files and weighed sending in undercover agents
 - What we're watching
 WATCHING:
 - Whether any pre-election national-security incident materializes
 - Whether shipping insurers reprice Gulf routes this week
 - Whether "the polls were fake" becomes the frame for any November surprise
+- Whether the shutdown deal actually funds SNAP before the stay lapses Thursday midnight
+- Whether Republican campaigns run against the national polls or dispute them outright
 
 <!--parser markers above; collapsible cards below-->
 
@@ -233,5 +240,80 @@ WATCHING:
 <p><b>What history says:</b> Late-October bombshell stories have a long history of arriving with certainty and leaving quietly — the pattern holds on both sides of the political spectrum, across several elections.</p>
 
 <p><b>What we're watching next:</b> Whether charges are actually filed, whether any independent outlet confirms the report, and how the claim changes if nothing follows in two weeks.</p>
+
+</details>
+
+<details open>
+<summary>Final NYT/Siena poll puts Democrats ahead by 11 points among likely voters</summary>
+
+<p><b>What happened:</b> The New York Times/Siena University final pre-election national poll shows Democratic House candidates leading Republican ones 52 to 41 percent among likely voters — an 11-point margin. A separate NPR poll puts the gap at 12 points. Both come less than two weeks before Election Day, November 3.</p>
+
+<p><b>Why it matters:</b> A double-digit national lead this late, if it holds, points to a substantial House flip and trouble for Republicans in Senate races they expected to hold. The White House is spending the final week campaigning in states that should be safe.</p>
+
+<p><b>The pattern:</b> When polls show a wave building, the losing side's typical response is not to change the message but to attack the instrument — which is why the timing of the "fake pollster" scandal matters. It arrives just before the numbers get bad.</p>
+
+<p><b>What history says:</b> National polling leads of this size two weeks out have almost never disappeared, though they can narrow. Senate races are less predictable than national averages, so the House is the more reliable signal.</p>
+
+<p><b>What we're watching next:</b> Whether the polling narrative is preemptively discredited — "the polls are fake" — in the days before results, and whether early-voting turnout numbers match the poll picture.</p>
+
+</details>
+
+<details open>
+<summary>Albania's protests erupt into student riots that damage four government ministries</summary>
+
+<p><b>What happened:</b> A student demonstration in Tirana turned into rioting, with hundreds of young people smashing storefronts and setting fires during running battles with riot police, who used tear gas and water cannon. At least four government ministry buildings were damaged. The protests — the "Flamingo Revolution" — began over the destruction of protected beach and lagoon habitat for a luxury resort development whose investors include Jared Kushner, and have expanded to corruption, cost of living, and demands that Prime Minister Edi Rama resign.</p>
+
+<p><b>Why it matters:</b> A protest movement born from a local environmental grievance has become a national anti-government uprising with hundreds injured and arrested. Albania's government is now facing its largest sustained unrest in fifteen years.</p>
+
+<p><b>The pattern:</b> Governments that answer a specific grievance with contempt convert a single-issue movement into a general one. The demand list grows each time the original demand is refused.</p>
+
+<p><b>What history says:</b> Horizontal, leaderless movements can sustain disruption but struggle to negotiate — no one can speak for them, so governments have no one to cut a deal with. The movement survives only while the streets do.</p>
+
+<p><b>What we're watching next:</b> Whether opposition parties or any part of the state apparatus openly side with the movement, and whether Western governments call for restraint from the police or from the protesters.</p>
+
+</details>
+
+<details open>
+<summary>Houthi attack kills two at a Saudi airport as Iran says it is in "wartime conditions"</summary>
+
+<p><b>What happened:</b> A Houthi missile or drone strike on a Saudi airport killed two people, part of a sustained campaign against Saudi airports and infrastructure. Iran's contingency-planning chief says the country's airports, seaports, and power plants "have prepared for wartime conditions," and Iran International reports Iran remains in wartime posture. This follows the U.S. ordered departure of diplomats' families from Gulf posts.</p>
+
+<p><b>Why it matters:</b> The regional escalation is compounding: strikes are now producing civilian deaths in Gulf states, Iran is publicly preparing for another war, and the U.S. is clearing dependents from the region.</p>
+
+<p><b>The pattern:</b> Public "wartime conditions" language from a government's contingency apparatus is a signal that the state itself expects escalation — officials rarely say it unless planning has already assumed it.</p>
+
+<p><b>What history says:</b> Since the February war began, each round of strikes has followed this sequence: pre-strike clearing of civilians, escalation, retaliation, and a new baseline. The windows between rounds have been shortening.</p>
+
+<p><b>What we're watching next:</b> Whether the U.S. conducts a new wave of strikes before or immediately after Election Day — the window Iran itself is planning around — and whether Gulf shipping insurance reprices this week.</p>
+
+</details>
+
+<details open>
+<summary>Supreme Court keeps full SNAP payments on hold until Thursday night as a shutdown deal nears</summary>
+
+<p><b>What happened:</b> The Supreme Court extended a block on lower-court orders requiring the administration to pay full SNAP food benefits during the shutdown — roughly 42 million households are affected. The stay runs until midnight Thursday, just as Congress appears close to a deal to reopen the government and reauthorize funding. Some states have been paying benefits anyway, defying the federal hold.</p>
+
+<p><b>Why it matters:</b> This is the largest benefits cutoff in the program's history playing out in real time, resolved not by Congress but by emergency court orders. Whether full payments resume depends on a funding bill passing before the stay lapses.</p>
+
+<p><b>The pattern:</b> When a branch of government is broken, the burden migrates to the courts — and to states acting on their own. The result is a patchwork where your food benefits depend on where you live.</p>
+
+<p><b>What history says:</b> Government shutdowns have grown longer and more frequent, and each one normalizes governing-by-continuing-resolution, where benefits become leverage rather than obligations.</p>
+
+<p><b>What we're watching next:</b> Whether the funding deal passes before midnight Thursday, and whether the states paying benefits despite the stay face any federal retaliation.</p>
+
+</details>
+
+<details open>
+<summary>Records show ICE reviewed tens of millions of voter files and weighed sending in undercover agents</summary>
+
+<p><b>What happened:</b> CNN reports, based on internal records, that the Department of Homeland Security's election-fraud operation has drawn on tens of millions of voter records, scrutinized dozens of nonprofit voter-registration groups, and considered deploying undercover agents against organizations suspected of helping noncitizens register to vote.</p>
+
+<p><b>Why it matters:</b> A federal agency is building a national surveillance apparatus pointed at voter-registration infrastructure in the final weeks before an election. The scale — tens of millions of records — goes far beyond individualized suspicion.</p>
+
+<p><b>The pattern:</b> Election administration is being recast as a law-enforcement domain. Each step — a 20,000-name list that included US-born citizens, undercover operations against civic groups — reframes ordinary registration work as potential crime.</p>
+
+<p><b>What history says:</b> Voter-intimidation regimes historically target the machinery of registration rather than voters themselves, because scaring organizations out of doing registration work suppresses turnout without any law being broken.</p>
+
+<p><b>What we're watching next:</b> Whether any registration organization announces it is shutting down or scaling back because of the scrutiny, and whether any state election official pushes back formally.</p>
 
 </details>
