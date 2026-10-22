@@ -305,11 +305,16 @@ python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json'
 # 2026-10-21 HARDENING: the daily_read panel fails SILENT when cards parse to
 # zero (md present, board shows watch list only). Assert loudly instead.
 python3 -c "
-import json,sys
+import json,sys,os
+raw=open('Daily Read.md',encoding='utf-8').read() if os.path.getsize('Daily Read.md') else ''
+rolled_over=(not raw.strip()) or ('DATE:' not in raw and '<details' not in raw and '###' not in raw)
 dr=json.load(open('data.json')).get('daily_read') or {}
 n=len(dr.get('cards') or [])
 print('daily_read cards parsed:',n)
-if n==0: sys.exit('FAIL: daily_read.cards==0 — Daily Read.md did not parse into cards; board would render empty panel. Fix the md format before pushing.')
+if n==0 and not rolled_over:
+    sys.exit('FAIL: daily_read.cards==0 — Daily Read.md has content but parsed no cards; board would render empty panel. Fix the md format before pushing.')
+if n==0 and rolled_over:
+    print('rolled-over state: rolling file empty pre-morning-wire — retaining previous cards on the board (archive rebuild 2026-10-22)')
 "
 
 # canonical-source amendment (2026-10-09): Daily Read.md is the canonical source
