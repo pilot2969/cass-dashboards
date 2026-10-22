@@ -191,6 +191,33 @@ try:
         title=html.unescape(re.sub(r"<[^>]+>","",sm.group(1))).strip()
         cards.append({"title":title, "html":body})
     if cards: dr["cards"]=cards
+# 2026-10-22 ROLLOVER RETENTION    : after the daily archive resets the rolling
+    # file (pre-morning-wire), the board must keep showing the previous edition's
+    # cards instead of silently rendering an empty panel. Fall back to the newest
+    # dated edition .md (excluding today's rolling file) and parse it the same way.
+    if not dr.get("cards"):
+        import glob, fnmatch
+        eds=sorted(g for g in glob.glob("Daily Read 20*.md")
+                   if g != "Daily Read.md")
+        if eds:
+            ftxt=open(eds[-1], encoding='utf-8').read()
+            if "collapsible cards below-->" in ftxt:
+                ftext2 = ftxt
+                fcut = ftext2.split("<!--parser markers above; collapsible cards below-->",1)[0]
+                fm = re.search(r"DATE:\s*(\S+)", fcut)
+                if fm: dr["date"]=fm.group(1)
+                fm2 = re.search(r"SUMMARY:\s*\n(.*?)\nWATCHING:\s*\n(.*)", fcut, re.S)
+                if fm2:
+                    dr["summary"]=[l.strip().lstrip("- ") for l in fm2.group(1).strip().splitlines() if l.strip()]
+                    dr["watching"]=[l.strip().lstrip("- ") for l in fm2.group(2).strip().splitlines() if l.strip() and not l.strip().startswith("*Sources")]
+                fb_cards=[]
+                for block in re.findall(r"<details[^>]*>(.*?)</details>", ftext2, re.S):
+                    sm=re.search(r"<summary>(.*?)</summary>", block, re.S)
+                    if not sm: continue
+                    fb_cards.append({"title":html.unescape(re.sub(r"<[^>]+>","",sm.group(1))).strip(),"html":block[sm.end():].strip()})
+                if fb_cards:
+                    dr["cards"]=fb_cards
+                    print(f"rollover retention: panel restored from {eds[-1]} ({len(fb_cards)} cards)")
 except Exception as e:
     print("card parse warn:", e)
 
