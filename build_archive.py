@@ -54,6 +54,14 @@ def plain_text(html_body):
 
 entries = []
 for md in sorted(glob.glob(os.path.join(REPO, "Daily Read*.md"))):
+    _raw = open(md, encoding="utf-8").read() if os.path.getsize(md) else ""
+    # Skip empty/reset rolling file with no parseable date anywhere (content or
+    # filename) — prevents the 2026-10-22 'Daily Read-morning' garbage-entry bug.
+    # Dated prose editions with no DATE: line still archive via filename date.
+    if not _raw.strip() or (date_from_content(_raw) is None
+                            and not re.search(r"\d{4}-\d{2}-\d{2}", os.path.basename(md))):
+        print(f"skipped (no date or empty): {os.path.basename(md)}")
+        continue
     name = os.path.basename(md)
     raw = open(md).read()
     slug = slugify(name, raw) if re.search(r"\d{4}-\d{2}-\d{2}", name) else slugify(date_from_content(raw) or name, raw)
