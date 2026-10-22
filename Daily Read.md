@@ -10,6 +10,11 @@ SUMMARY:
 - Trump administration launches a $25 million program paying people to report "fraud"
 - The government's list of 20,000 possible noncitizen voters includes US-born citizens
 - Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
+- Albania's beach protests reach their second week and threaten the government's biggest project
+- The State Department orders diplomats' families out of Gulf posts amid Houthi attacks
+- The Pentagon approves a heat-ray device for testing at the southern border
+- A right-wing figure argues monarchy is "more compatible with Christianity" than democracy
+- A viral claim about Rep. Ilhan Omar rests on one anonymous-source report
 - What we're watching
 WATCHING:
 - Whether any pre-election national-security incident materializes
@@ -28,6 +33,11 @@ WATCHING:
 - Trump administration launches a $25 million program paying people to report "fraud"
 - The government's list of 20,000 possible noncitizen voters includes US-born citizens
 - Paris under nighttime curfew as French unrest continues — and U.S. politicians blame immigrants
+- Albania's beach protests reach their second week and threaten the government's biggest project
+- The State Department orders diplomats' families out of Gulf posts amid Houthi attacks
+- The Pentagon approves a heat-ray device for testing at the southern border
+- A right-wing figure argues monarchy is "more compatible with Christianity" than democracy
+- A viral claim about Rep. Ilhan Omar rests on one anonymous-source report
 
 ---
 
@@ -148,5 +158,80 @@ WATCHING:
 <p><b>What history says:</b> Foreign crises have repeatedly served as free evidence in U.S. immigration politics, from the 2015 European migration wave to cartel imagery in border campaigns. The loop is now measured in hours, not months.</p>
 
 <p><b>What we're watching next:</b> Whether French political parties on both left and right adopt harder positions in response to the unrest, and whether U.S. campaign ads use the French footage directly.</p>
+
+</details>
+
+<details open>
+<summary>Albania's beach protests reach their second week and threaten the government's biggest project</summary>
+
+<p><b>What happened:</b> Protests against the government-approved destruction of protected beach dunes in southern Albania — the "Flamingo Revolution" — have spread from the resort town of Himarë to Tirana, with clashes between demonstrators and police outside the parliament building. Prime Minister Edi Rama has called the protesters an attack on Albania's future and continues construction on the marina project at the center of the dispute.</p>
+
+<p><b>Why it matters:</b> Albania has one election per generation, and this is the first mass movement of Rama's fifteen years in power. A government that became a target of street anger over environmental protection is being tested at a moment when its finances and its biggest single project depend on outside investment.</p>
+
+<p><b>The pattern:</b> A movement built on a concrete, non-partisan grievance (protect the beach) is being met with the full toolkit of a government facing a threat it cannot negotiate with — police escalation, dismissal of the cause, and loyalty appeals to institutions.</p>
+
+<p><b>What history says:</b> Most protest waves of this type either win early concessions and fade, or harden when the government refuses to budge. The critical hinge is usually the security forces: if riot police begin refusing orders or defecting openly, the government's options narrow quickly.</p>
+
+<p><b>What we're watching next:</b> Whether the five named demands of the movement (including Rama's resignation and a technical government) get picked up by opposition parties or a sector of the state apparatus, and whether Western governments call for restraint.</p>
+
+</details>
+
+<details open>
+<summary>The State Department orders diplomats' families out of Gulf posts amid Houthi attacks</summary>
+
+<p><b>What happened:</b> The State Department ordered non-emergency U.S. personnel and all family members out of the embassy in Saudi Arabia, and ordered families out of embassies in the UAE, Qatar, Bahrain, Jordan, and Iraq. The move follows sustained Houthi missile and drone attacks on Saudi airports and infrastructure, including Iranian-made drones that struck near the U.S. embassy compound in Riyadh.</p>
+
+<p><b>Why it matters:</b> An "ordered departure" is one of the strongest signals in diplomacy short of closing an embassy — it says the government has concluded that families can't be protected there.</p>
+
+<p><b>The pattern:</b> Before major military campaigns, governments move civilians out first. The classic tell is the difference between "advising" people to leave and ordering them to.</p>
+
+<p><b>What history says:</b> Ordered departures preceded the 2003 Iraq war, the 2019 Iran escalation, and the 2023 Israel-Hamas war. It is a standard, reliable prelude.</p>
+
+<p><b>What we're watching next:</b> Whether shipping insurers reprice Gulf routes, and whether U.S. naval forces in the region receive new orders this week.</p>
+
+</details>
+
+<details open>
+<summary>The Pentagon approves a heat-ray device for testing at the southern border</summary>
+
+<p><b>What happened:</b> A memo signed by Defense Secretary Pete Hegseth grants the Department of Homeland Security permission to test the Active Denial System — a military machine that fires a millimeter-wave beam that heats water molecules in the top layer of skin, producing an unbearable burning sensation — and to develop tactics for possible use at the U.S.-Mexico border.</p>
+
+<p><b>Why it matters:</b> This weapon was shelved for domestic use twenty years ago after tests and public objections. Its revival, pointed at civilians on U.S. soil, is a new line.</p>
+
+<p><b>The pattern:</b> Equipment designed for warfields migrates to domestic policing gradually: first testing, then limited deployment, then standard use. Each step is small, and each becomes the baseline for the next.</p>
+
+<p><b>What history says:</b> The 2004 non-lethal weapon debates in Congress and the ACLU's public opposition killed the first attempt to deploy the ADS domestically. The reversal happened without a public hearing.</p>
+
+<p><b>What we're watching next:</b> Where the first testing happens, whether local officials object, and whether the equipment shows up in any public budget line before Election Day.</p>
+
+</details>
+
+<details open>
+<summary>A right-wing figure argues monarchy is "more compatible with Christianity" than democracy</summary>
+
+<p><b>What happened:</b> A social media post from a conservative commentator argued that monarchy is "far more compatible with Christianity than democracy," recasting anti-democratic politics as the religious position.</p>
+
+<p><b>Why it matters:</b> When the argument that democracy itself is un-Christian enters mainstream religious-political discourse, it stops being fringe and becomes a legitimating frame.</p>
+
+<p><b>The pattern:</b> A political movement can't be openly anti-democratic, but it can redefine democracy as foreign or godless — which makes attacks on it feel like defense of the faith.</p>
+
+<p><b>What history says:</b> Religious legitimation of one-party rule has a long record in 20th-century Europe, and the vocabulary is well preserved. The move usually comes at the same stage: when elections begin to look risky.</p>
+
+<p><b>What we're watching next:</b> Whether the argument spreads from a single figure to churches, podcasts, and campaign materials, and whether any officeholder repeats it.</p>
+
+</details>
+
+<details open>
+<summary>A viral claim about Rep. Ilhan Omar rests on one anonymous-source report</summary>
+
+<p><b>What happened:</b> Right-wing social media is presenting the claim that the Justice Department "confirmed" DNA evidence in a decades-old marriage-related allegation against Rep. Ilhan Omar of Minnesota. The claim traces to a single New York Post report citing unnamed "people familiar with the investigation." No charges have been filed and no court document has surfaced.</p>
+
+<p><b>Why it matters:</b> The post upgrades an anonymous-source report into "confirmed" — a move that outruns the evidence, but sets the narrative before the facts arrive.</p>
+
+<p><b>The pattern:</b> A single sourced-but-anonymous claim becomes a universal premise once social media strips its caveats. The original's hedging disappears; the headline survives.</p>
+
+<p><b>What history says:</b> Late-October bombshell stories have a long history of arriving with certainty and leaving quietly — the pattern holds on both sides of the political spectrum, across several elections.</p>
+
+<p><b>What we're watching next:</b> Whether charges are actually filed, whether any independent outlet confirms the report, and how the claim changes if nothing follows in two weeks.</p>
 
 </details>
