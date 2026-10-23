@@ -349,7 +349,7 @@ if n==0 and rolled_over:
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json "Daily Read.md" archive/ archive.html build_archive.py archive.log
+git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh archive.log
 git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # pull with rebase; a failure must abort the script (set -e), never print success.
 # -X ours is safe here because data.json/history.json are generated artifacts:
