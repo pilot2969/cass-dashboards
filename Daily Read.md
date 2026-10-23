@@ -10,6 +10,7 @@ WATCHING:
 - Whether DOJ election suits spread to more states
 - How the color-revolution frame converges with post-election contestation
 --- MID-DAY WIRE 2026-10-23 ---
+<!--parser markers above; collapsible cards below-->
 
 <details>
 <summary>Trump says he personally ordered the Justice Department to sue over the Alaska Senate race</summary>
