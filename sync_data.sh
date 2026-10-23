@@ -168,6 +168,12 @@ if os.path.exists("Daily Read.md"):
         print("daily read: prose edition auto-converted to card format")
     elif "DATE:" not in txt:
         print("WARN: Daily Read.md has neither card markers nor recognizable prose — daily_read panel will be empty")
+    # 2026-10-23 GUARD: <details> cards without the parser-marker line are silently
+    # ignored (main parse yields nothing, rollover fallback silently restores an
+    # old edition). Fail loudly instead — hit twice 2026-10-22/23.
+    elif "<details" in txt and "collapsible cards below-->" not in txt:
+        print("FATAL: Daily Read.md has <details> cards but no '<!--parser markers above; collapsible cards below-->' marker line before the first card. Cards will NOT be parsed; add the marker line and re-run.");
+        import sys; sys.exit(1)
     m=re.search(r"DATE:\s*(\S+)", txt)
     if m: dr["date"]=m.group(1)
     # 2026-10-12: card edition — lists live between the markers; cards below.
