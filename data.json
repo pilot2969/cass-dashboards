@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-22T22:46 ET"
+  "generated_stamped": "2026-10-23T11:42 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,45 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-23",
+   "time_et": "11:05",
+   "track": "legitimacy",
+   "mget_legs_tested": [
+    "certification-contestation",
+    "instrument-repurposing",
+    "pre-legitimation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "P16 forecast certification contestation as the midterms catalyst node. It has now arrived BEFORE election day, in its strongest form: DOJ itself seeking pre-emptive conditional relief to block Alaska's certification if Sullivan loses. The instrument is the legal apparatus, not a campaign; the remedy is prior restraint on certification; the timing (pre-vote) turns litigation into a banked election-night weapon. Arrives hours after the DataRepublican color-revolution frame saturated the right-media audience that will narrate any contestation.",
+   "forward_signal": "Replication is the tell. One state could be idiosyncratic (two Sullivans on the ballot); a second suit in another balance-of-power state is a template. Watch DOJ dockets in NC/ME/MI and whether a pre-Nov 3 ruling lands.",
+   "basename": "2026-10-23-doj-alaska-preemptive-certification-suit"
+  },
+  {
+   "date": "2026-10-23",
+   "track": "legitimacy",
+   "mget_legs_tested": [
+    "certification-contestation",
+    "instrument-repurposing"
+   ],
+   "verdict": "confirms",
+   "reasoning": "C-002 pre-build tell has fired: DOJ's Alaska suit is the second qualifying pre-Nov-3 activation by a named apparatus actor, and by a stronger class of evidence than the Oct 5 Truth Social frame \u2014 it is legal action by the Justice Department itself, not rhetoric. Confidence moved 0.32 -> 0.40. Branch A (in-window action, Nov 3 - Dec 14) is not yet triggered by a pre-window filing; the suit pre-positions in-window litigation instead. The suit's form is the notable escalation: contestation as prior restraint on certification rather than post-hoc challenge.",
+   "forward_signal": "Replication tell: second DOJ suit in another balance-of-power state converts this from single-state idiosyncrasy to doctrine, and would justify a move above 0.45. Correlation flag vs P15-T remains \u2014 no double-counting across the family.",
+   "basename": "2026-10-23-c002-prebuild-tell-fired"
+  },
+  {
+   "date": "2026-10-23",
+   "track": "narrative",
+   "mget_legs_tested": [
+    "pre-legitimation",
+    "narrative_velocity",
+    "certification-contestation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Beck primed the color-revolution frame in 2025; the October DataRepublican drop supplies the harvest. The primed audience now receives 'evidence' the frame predicted \u2014 the seeding-harvest cycle the white-horse prelegitimation note described, arriving on schedule nine days before the midterms. Absence of a signed plan is treated as proof ('nobody has to sign anything'), which makes the frame unfalsifiable from within.",
+   "forward_signal": "Watch for official adoption: if DOJ/FBI or Trump's own rhetoric picks up 'color revolution,' the frame has crossed from media prep-work into the legal apparatus \u2014 that is the escalation tell before Nov 3.",
+   "basename": "2026-10-23-color-revolution-harvest-beck"
+  },
   {
    "date": "2026-10-21",
    "time_et": "morning",
@@ -7526,10 +7565,10 @@
  ],
  "movers": [
   {
-   "time": "2026-10-21",
+   "time": "2026-10-23",
    "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
-   "change": "confidence 0.32 \u2014 status pending",
-   "trigger": "Item 6 (2026-10-21, reduced weight, independent corroboration only): Jack Hopkins public pre-registration #1057 (published 2026-10-16, predates our public pre-registration of 2026-"
+   "change": "confidence 0.4 \u2014 status pending",
+   "trigger": "Item 7 (2026-10-23): DOJ preemptive federal lawsuit in Alaska seeking an order BLOCKING certification if Sullivan (R) loses but 'would have won' counting votes cast for second ball"
   },
   {
    "time": "2026-10-20",
