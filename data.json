@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-22T17:29 ET"
+  "generated_stamped": "2026-10-22T22:44 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -7548,24 +7548,6 @@
    "ref": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
    "change": "confidence 74 \u2014 status emergent",
    "trigger": "2026-10-19: Columbus OH shooting adjacent to Alrahma Mosque (funeral underway) \u2014 ATF initial phrasing 'shooting AT a mosque' propagated nationally before police correction ('apartm"
-  },
-  {
-   "time": "2026-10-15 21:45 ET",
-   "ref": "Omar Deportation as Pre-Election Spectacle",
-   "change": "confidence 45 \u2014 status emergent",
-   "trigger": "Passport/phone/computer seizure confirmed by WSJ; WaPo surfaces 2019 review that found NO citizenship issues same day officials confirm revocation aim \u2014 spectacle lane fully live."
-  },
-  {
-   "time": "2026-10-15 21:45 ET",
-   "ref": "Ground Invasion of Iran",
-   "change": "confidence 20 \u2014 status pending",
-   "trigger": "CNN: MOAB on strike plans for Iranian energy/nuclear sites 'before or after the midterms', strike-then-withdraw wording; Trump still publicly promising no strikes pre-election \u2014 pl"
-  },
-  {
-   "time": "2026-10-15 21:45 ET",
-   "ref": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
-   "change": "confidence 30 \u2014 status emergent",
-   "trigger": "Brent ~$104 (+70% y/y); IMO pauses Hormuz escorts; Houthis hit Aramco HQ in Dhahran; supply-side relief via easing Russian tanker sanctions under consideration pre-election."
   }
  ],
  "daily_read": {
@@ -7620,7 +7602,23 @@
    },
    {
     "title": "Albanian court orders release of 27 protesters, ruling their arrests illegal",
-    "html": "<p><b>What happened:</b> A Tirana court ordered the release of 27 people detained during the Flamingo Revolution protests and ruled 18 of the arrests illegal. Demonstrations against Prime Minister Edi Rama \u2014 sparked by a Kushner-linked luxury resort project and demands over corruption and university conditions \u2014 have now run for more than a week, with police using tear gas, water cannon and rubber bullets.</p>\n\n<p><b>Why it matters:</b> The court\u2019s ruling is a check on the government\u2019s crackdown arriving from inside Albania\u2019s own institutions, not from outside pressure.</p>\n\n<p><b>The pattern:</b> When protest arrests are found unlawful in bulk, it usually means the arrests were a suppression tool first and a legal process second \u2014 the law catching up to the tactic after the tactic has already done its work.</p>\n\n<p><b>What history says:</b> Movements that survive mass arrests tend to grow when courts side with detainees; the release itself becomes a rallying story.</p>\n\n<p><b>What we\u2019re watching next:</b> Whether prosecutors appeal or comply, and whether the government escalates with emergency measures \u2014 the tell for which way Albania\u2019s institutions are actually leaning.</p>"
+    "html": "<p><b>What happened:</b> A Tirana court ordered the release of 27 people detained during the Flamingo Revolution protests and ruled 18 of the arrests illegal. Demonstrations against Prime Minister Edi Rama \u2014 sparked by a Kushner-linked luxury resort project and demands over corruption and university conditions \u2014 have now run for more than a week, with police using tear gas, water cannon and rubber bullets.</p>\n\n<p><b>Why it matters:</b> The court\u2019s ruling is a check on the government\u2019s crackdown arriving from inside Albania\u2019s own institutions, not from outside pressure.</p>\n\n<p><b>The pattern:</b> When protest arrests are found unlawful in bulk, it usually means the arrests were a suppression tool first and a legal process second \u2014 the law catching up to the tactic after the tactic has already done its work.</p>\n\n<p><b>What history says:</b> Movements that survive mass arrests tend to grow when courts side with detainees; the release itself becomes a rallying story.</p>\n\n<p><b>What we\u2019re watching next:</b> Whether prosecutors appeal or comply, and whether the government escalates with emergency measures \u2014 the tell for which way Albania\u2019s institutions are actually leaning.</p>\n\n<p><details><summary><b>Supreme Court clears New Hampshire's ban on same-day voter registration for this election</b></summary>\n<p><b>What happened:</b> Reporting on the court's order says the justices let New Hampshire enforce its new law requiring voters registering close to Election Day to present printed proof of citizenship or residency \u2014 banning the use of cell-phone or digital documents at the registration table. New Hampshire's all-day registration, used by thousands of voters each cycle, is now restricted days before Election Day.</p>\n<p><b>Why it matters:</b> A core piece of last-minute registration \u2014 the kind used by younger, poorer, and more transient voters \u2014 is now barred at the table itself, with a Supreme Court majority unwilling to step in before the election.</p>\n<p><b>The pattern:</b> When the vote itself gets harder rather than easier, the changes cluster in the final days before an election, when there is no time to appeal, adapt, or inform voters.</p>\n<p><b>What history says:</b> Same-day registration was expanded in most states over decades precisely to counter turnout suppression; rolling it back just before a vote repeats an old tactic \u2014 change the machinery, not the law, and let the clock do the rest.</p>\n<p><b>What we're watching next:</b> Whether other states attempt the same restriction before November 3, and whether turnout among young and first-time voters in New Hampshire tracks visibly below the national trend.</p>"
+   },
+   {
+    "title": "Canada bars its diplomats from being seen with US midterm candidates",
+    "html": "<p><b>What happened:</b> Ottawa has ordered Canadian diplomats in the US to avoid appearances with midterm candidates after the administration accused Canada of election meddling \u2014 the same accusation aimed at allies including Australia, the UK, and Germany in recent weeks. Diplomats are instructed not to attend campaign events, photo-ops, or public meetings with candidates.</p>\n<p><b>Why it matters:</b> Traditional allies are now distancing themselves from the election itself, treating contact with candidates as a liability. The interference accusation has become a wedge that isolates the US vote from outside observation.</p>\n<p><b>The pattern:</b> When a government wants fewer outside witnesses to an election, branding observers as meddlers accomplishes the retreat without a single new rule \u2014 the pressure is reputational, not legal.</p>\n<p><b>What history says:</b> Authoritarian governments have historically expelled or restrained foreign observers ahead of contested elections; democracies inviting them has been one of the clearest markers separating the two systems.</p>\n<p><b>What we're watching next:</b> Whether international election-monitoring organizations confirm reduced access or presence this cycle, and whether further allied governments receive the same accusation before Election Day.</p>"
+   },
+   {
+    "title": "Musk puts $76.8 million into America PAC in the first two weeks of October",
+    "html": "<p><b>What happened:</b> Campaign-finance filings show Elon Musk contributed $76.8 million to America PAC in the first half of October, on top of roughly $277 million in 2024 \u2014 with total outside spending on the midterms now approaching $2.5 billion, the most expensive non-presidential election in history. America PAC is the primary vehicle for his political spending, alongside a separate voter-mobilization operation.</p>\n<p><b>Why it matters:</b> A single private citizen is again supplying the largest share of one party's field operation in an election he has publicly threatened to involve himself in politically \u2014 including his threat to retaliate against investigators if Democrats win gavels.</p>\n<p><b>The pattern:</b> When electoral spending concentrates in one individual's hands, the money stops functioning as persuasion and starts functioning as leverage \u2014 the threat of withdrawal or redirection becomes as powerful as the spending itself.</p>\n<p><b>What history says:</b> Party machines once drew funds from many small donors, diluting any single funder's influence; re-concentration around a handful of billionaires echoes the Gilded Age, when party bosses and industrialists traded money for policy directly.</p>\n<p><b>What we're watching next:</b> Whether Musk's spending continues through Election Day, and whether any post-election investigation of him or his companies is publicly framed as retaliation for the spending.</p>"
+   },
+   {
+    "title": "Albania's PM blames protests on 'dark forces in Europe and the US'",
+    "html": "<p><b>What happened:</b> Prime Minister Edi Rama said his government faces 'dark forces' operating from Europe and the United States, framing the week-long Flamingo Revolution as foreign-instigated rather than domestic. The statement came as a Tirana court ordered 27 protesters released and found 18 arrests illegal, and as riots damaged four ministry buildings in Tirana.</p>\n<p><b>Why it matters:</b> A foreign-hand frame lets a government answer a domestic grievance without addressing it \u2014 and in Albania's case, the frame directly implicates the country's most important backers, including the US, whose investment the Kushner-linked resort represents.</p>\n<p><b>The pattern:</b> When protest movements outgrow a government's tools, blaming outsiders converts citizens into proxies of an enemy \u2014 the standard move before harsher measures are sold as defense of sovereignty rather than repression.</p>\n<p><b>What history says:</b> Every sustained uprising from 1848 onward has met the same response: the government reframes the crowd as a foreign instrument, because admitting the grievance is domestic would require addressing it.</p>\n<p><b>What we're watching next:</b> Whether the opposition parties embrace or reject the foreign-hand framing, whether Western embassies respond, and whether police tactics escalate beyond what the courts have already ruled illegal.</p>"
+   },
+   {
+    "title": "Trump asked Musk to lift Starlink restrictions in Ukraine \u2014 Rubio and Hegseth point at Musk",
+    "html": "<p><b>What happened:</b> The Wall Street Journal reports President Trump personally asked Elon Musk to lift slowdowns affecting Starlink service in Ukraine. Rubio and Hegseth then publicly pointed to Musk as the party responsible for degraded battlefield connectivity, while Ukraine says drone operations and coordination have been affected since the service was slowed.</p>\n<p><b>Why it matters:</b> The world's richest private citizen now controls battlefield connectivity in an active war, and the administration's public posture is to blame him rather than own the decision \u2014 a confession that no branch of government believes it can direct him.</p>\n<p><b>The pattern:</b> Private control of critical infrastructure is only manageable when the state holds the leverage. When the leverage inverts \u2014 the state pleading with the owner \u2014 the infrastructure has become a veto over policy itself.</p>\n<p><b>What history says:</b> The telegraph in the 19th century, radio in the 20th \u2014 states that ceded control of new communications infrastructure to private monopolies spent decades buying it back at multiples of the original price, usually during a crisis.</p>\n<p><b>What we're watching next:</b> Whether Starlink service is actually restored in Ukraine, whether Musk attaches conditions publicly, and whether any legislation targeting satellite-infrastructure control gains traction.</p>"
    }
   ]
  },
@@ -7688,6 +7686,6 @@
     "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
    }
   ],
-  "age_days": 3
+  "age_days": 4
  }
 }
