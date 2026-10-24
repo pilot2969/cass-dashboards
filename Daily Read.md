@@ -14,6 +14,76 @@ WATCHING:
 --- EVENING WIRE 2026-10-23 ---
 <!--parser markers above; collapsible cards below-->
 <details>
+<summary>Federal prosecutors charge a top Virginia Democrat days before the election</summary>
+
+<p><b>What happened:</b> The Justice Department has indicted L. Louise Lucas, the most senior Democrat in the Virginia Senate, charging her with running a criminal racketeering, drug distribution, and money-laundering conspiracy through a family cannabis business. Six relatives and associates were charged with her. The indictment was sealed on October 14 and became public October 22 — twelve days before Election Day. The case was brought by the Eastern District of Virginia, the same office long nicknamed 'rocket docket' for its speed in politically charged prosecutions.</p>
+
+<p><b>Why it matters:</b> Prosecuting a sitting legislative leader on a campaign-finance-adjacent timeline is the classic use of law enforcement as an electoral weapon: the charge lands when voters are already casting ballots, and the defense cannot finish before the election does. It continues a documented pattern of federal cases against prominent Black women in the opposition — Representative Ilhan Omar, New York Attorney General Letitia James, Federal Reserve Governor Lisa Cook, prosecutor Fani Willis, and Representative LaMonica McIver.</p>
+
+<p><b>The pattern:</b> History's authoritarian playbooks distinguish prosecution from persecution by timing and selectivity, not by whether the underlying conduct was questionable. When charges that could have been filed any day in the last two years are unsealed inside the final two weeks of a campaign, the purpose of the timing is the message.</p>
+
+<p><b>What history says:</b> In the 1930s Reichstag-era playbook, the machinery of justice was repurposed against opposition leaders in the run-up to elections; the lesson recorded across failed democracies is that a party that wins while jailing opponents tends not to need to win again the same way.</p>
+
+<p><b>What we're watching next:</b> Whether other state-level opposition figures face similarly timed charges before November 3; whether the Virginia case affects control-of-the-Senate arithmetic if Democrats are near a majority; and whether the defendants' trial dates are scheduled after the election, which would show the court system absorbing the political calendar.</p>
+</details>
+
+<details>
+<summary>The Pentagon lends a 'heat ray' to the border police</summary>
+
+<p><b>What happened:</b> The Defense Department has authorized Homeland Security to test a military 'heat ray' — the Active Denial System, a weapon that fires an invisible beam causing intense burning skin pain at ranges beyond half a mile — for possible use against migrants at the southern border. Defense Secretary Pete Hegseth signed the memo in September, lending one system to DHS for seven months. The weapon was trialed in Afghanistan two decades ago and never used in combat.</p>
+
+<p><b>Why it matters:</b> This crosses a line the US military has held for decades: a crowd-control weapon designed for war zones was never used on people, and now it is being adapted for use against civilians — specifically migrants — on US soil. 'Testing' is the standard first step between authorization and deployment.</p>
+
+<p><b>The pattern:</b> Security apparatuses expand by testing on the least protected populations first. What is trialed on migrants at the border does not stay at the border: protest policing, prison control, and crowd management are the documented downstream users.</p>
+
+<p><b>What history says:</b> Every institutionalized repression system on record normalized its tools through border or custodial populations before applying them domestically at scale. The language of 'non-lethal' does the work of making the intolerable administratively acceptable.</p>
+
+<p><b>What we're watching next:</b> Whether the system is deployed against gatherings (border crossings, protests) rather than only in open terrain; any injury reports from the testing period; and whether DHS formalizes a permanent transfer after the seven-month loan.</p>
+</details>
+
+<details>
+<summary>A polling firm admits its data was fake — and a campaign died of it</summary>
+
+<p><b>What happened:</b> A little-known polling firm called Wedgewood has admitted it fabricated its surveys as a 'social experiment' to expose the polling industry's lack of oversight. Its fake poll in Michigan's Democratic Senate primary — showing candidate Mallory McMorrow collapsing to 9 percent — was cited by donors, who pulled funding, and her campaign ended. The fraud was uncovered by the polling site FiftyPlusOne, which obtained the raw data and found it had been generated through an open survey platform.</p>
+
+<p><b>Why it matters:</b> One fabricated poll doesn't just mislead; it moved real money and ended a real campaign. And in the final days before the midterms, the story hands ammunition to a specific narrative already saturating right-wing media: that all unflattering polls are 'fake.' The difference — Wedgewood's fakes favored the left — will not survive the retelling.</p>
+
+<p><b>The pattern:</b> Trust infrastructure destroyed for one faction's purposes is destroyed for everyone's. An information ecosystem where fabricated polls move markets and campaigns cannot be repaired by 'better polling' — it can only be repaired by provenance: who made a number, and can it be checked.</p>
+
+<p><b>What history says:</b> Disinformation campaigns historically peak in the two weeks before a vote, when there is no time for corrections to circulate. The tell to watch is not whether the story is covered, but whether it gets fused to the pre-existing 'the polls are rigged' frame.</p>
+
+<p><b>What we're watching next:</b> Whether the Wedgewood admission is absorbed into the fake-polls fraud narrative this week; whether other fabricated polls surface before November 3; and whether polling outlets adopt provenance standards (registration, methodology disclosure) in response — or decide the industry is unsalvageable.</p>
+</details>
+
+<details>
+<summary>Musk puts a billion dollars into the company that now owns CNN</summary>
+
+<p><b>What happened:</b> Elon Musk has invested roughly $1 billion in Skydance, the media conglomerate that completed its takeover of Warner Bros. Discovery this month — putting CNN, CBS, HBO, and Paramount+ under one ownership led by Trump allies David and Larry Ellison. The report comes from Semafor. The company carries roughly $87 billion in debt, so the money matters. Separately, Musk — who has spent $366 million this election cycle — posted a warning to Democratic lawmakers threatening to investigate him: 'Live by the sword, die by the sword... I will find out who is really pulling the strings and come for them, not just their puppets.'</p>
+
+<p><b>Why it matters:</b> Two moves, one week: a billion-dollar stake in the company that owns the networks most critical of him, and a direct public threat against legislators who might investigate his companies. A tech billionaire with defense contracts, the largest social platform, and now influence over a major legacy news organization is not a press baron in the old sense — it is a convergence of platform, purse, and punishment.</p>
+
+<p><b>The pattern:</b> The consolidation is the mechanism: ownership of news infrastructure converts wealth into framing control. The threat converts it into deterrence. Together they signal that independent investigation of tech power is now priced into every editor's calculation.</p>
+
+<p><b>What history says:</b> Media capture precedes every documented autocratization episode in modern history — the pattern is never the sudden silencing of the press, but the slow purchase of it, followed by self-censorship among those who remain.</p>
+
+<p><b>What we're watching next:</b> Whether CNN's editorial posture shifts measurably in the coming weeks; whether further Ellison-linked acquisitions consolidate broadcast or print; and whether any Democratic-controlled chamber actually pursues the investigation Musk preempted.</p>
+</details>
+
+<details>
+<summary>US ambassador says the Iran war could last another year — as elections loom on two calendars</summary>
+
+<p><b>What happened:</b> US Ambassador to the UN Mike Waltz told the Financial Times the American war on Iran could last another year. President Trump has threatened new strikes; Israeli Prime Minister Netanyahu called overthrowing Iran's government Israel's 'primary objective.' Iranian intelligence reportedly assesses a high likelihood of a large-scale US-Israeli bombing campaign before Tuesday's Israeli elections. The war has already cost an estimated $43.6 billion, with Brent crude above $100.</p>
+
+<p><b>Why it matters:</b> The administration promised Americans the war would not escalate before the US midterms on November 3. The new wrinkle is a second election calendar: if strikes come before the Israeli vote on Tuesday, the sequencing promise is technically kept — and the war becomes a foreign electorate's October surprise.</p>
+
+<p><b>The pattern:</b> War tempo indexed to election calendars is a documented legitimacy signal: the executive is timing violence for maximum political yield, not strategic necessity. Watching which calendar the strikes follow tells you which audience the war is for.</p>
+
+<p><b>What history says:</b> Escalating a conflict just before someone else's election — while keeping your own promise to your own voters — is the signature of a war being managed for domestic narrative rather than military objectives.</p>
+
+<p><b>What we're watching next:</b> Any strike activity before November 5, which would falsify the administration's stated sequencing; whether the Roosevelt carrier group's posture peaks before the midterms; and whether the 'after the midterms' language is walked back in the final week.</p>
+</details>
+
+<details>
 <summary>El Salvador's president answers warnings with scripture: Haiti mission framed as a holy war</summary>
 
 <p>El Salvador's president, Nayib Bukele, responded to analysts who warn that sending his troops into Haiti's gang war is a trap. He did not answer with tactics. He answered with a Bible verse — Deuteronomy 28:7, in which enemies of the faithful flee "in seven directions" — and with the claim that the gangs are "satanic" and his troops "all believers." In a separate post marking the deployment of about 100 Salvadoran special forces, he used the phrase associated with medieval holy war, "Deus Vult" — God wills it.</p>

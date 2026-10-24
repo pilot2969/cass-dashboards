@@ -11,3 +11,16 @@ Gauntlet case P20-T ruled 5/5 charges sustained; original registration HELD FOR 
 
 ## Meta note
 Evening-run write error destroyed the mid-day card stack; recovered intact from git (7 cards, marker verified). Guard fired correctly on the synthetic test but the live failure mode this time was a full-file overwrite during prepends, not a missing marker. Consider a guard clause: if cards lost between runs, abort and restore from git before deploy. Filed for next sync-script hardening pass.
+
+--- EVENING SWEEP ADDENDUM (23:20 ET) ---
+
+Full sweep against wire roundups (Democracy Now, NPR, Fox live, AP) found five pattern-relevant stories missed in the initial evening stack; all five verified multi-source and now on prod as cards:
+
+1. LUCAS INDICTMENT (EDVA, sealed 10-14, unsealed 10-22, 12 days out). Continuation of Black-women opposition-targeting pattern (Omar, James, Cook, Willis, McIver). Politico: Lucas led redistricting push. Watch: whether other state-level opposition charges land before Nov 3; whether trial dates land post-election.
+2. HEAT RAY (ADS) loan to DHS, Hegseth memo Sept, 7-month loan. First adaptation of war-zone crowd-control weapon for use against civilians on US soil. Watch: deployment against gatherings, injury reports, permanent transfer.
+3. WEDGEWOOD FABRICATED POLLS. Fires fake-polls watch from a new direction: real fabrication exhibit now exists. Note direction — Wedgewood's fakes favored the LEFT (El-Sayed). Right-media will strip the direction; watch for the exhibit being fused to the 'polls are rigged' frame before Nov 3. McMorrow donor-pullback = fabricated data moving real money.
+4. MUSK $1B INTO SKYDANCE (Semafor; owns CNN/CBS/HBO/WBD post-merge; ~$87B debt so the money matters) + public threat to Dem investigators ('I will find out who is really pulling the strings and come for them, not just their puppets'). Media capture + open coercion in the same week. Watch: CNN editorial posture shift; further Ellison-linked acquisitions; whether the threatened investigation materializes anyway.
+5. WALTZ: IRAN WAR 'COULD LAST ANOTHER YEAR' + Iranian intel assessment of possible large-scale bombing BEFORE ISRAELI ELECTIONS (Tuesday). Competing election calendar. Watch update filed on iran-strikes-after-midterms: new falsifier test is strikes before Nov 5 (US sequencing promise); before-Tues Israeli-election strikes would keep the US promise technically while yielding a foreign-electorate October surprise.
+
+WATCH UPDATES FILED: 2026-09-28-iran-strikes-after-midterms (addendum); 2026-09-28-fake-polls-frame-frequency (addendum re Wedgewood).
+MID-DAY DUPLICATION CHECK: none of the five appeared in the mid-day or evening stacks.
