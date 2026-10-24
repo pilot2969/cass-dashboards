@@ -37,6 +37,14 @@ json.dump(h, open("history.json","w"), indent=1)
 
 # data.json movers: cards moved in last 7 days
 data=json.load(open("data.json"))
+
+# confidence scale normalization (2026-10-23): source objects mix 0-1 fractions
+# and 0-100 percentages; site renders round(conf) so a 0.4 prints as 0%.
+# Normalize anything <=1 to percent at the data layer.
+for _p in data.get("predictions", []):
+    _c = _p.get("confidence")
+    if isinstance(_c,(int,float)) and _c <= 1:
+        _p["confidence"] = round(_c*100)
 cards=[json.load(open(f)) for f in glob.glob(P+"*.json") if not f.endswith(".schema.json")]
 INTERNAL=[l.strip() for l in open('internal_cards.txt')] if os.path.exists('internal_cards.txt') else []
 cards=[c for c in cards if c.get('basename') not in INTERNAL]
