@@ -72,6 +72,8 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
    var ul=panel.querySelector('ul');
    if(ul){ul.innerHTML='';dr.summary.forEach(function(t){var li=document.createElement('li');li.textContent=t;ul.appendChild(li);});}
   }
+  if(dr.cards&&dr.cards.length){ /* v3.6.4: cards replace the bullet index — drop it so text no longer renders above the headlines */ var _u=panel.querySelector('ul'); if(_u)_u.remove();
+  }
   panel.querySelectorAll('.watching, h4').forEach(function(n){ if(/Watching next/i.test(n.tagName==='H4'?n.textContent:n.className)||n.classList.contains('watching'))n.remove(); });
   if(dr.watching&&dr.watching.length&&!(dr.cards&&dr.cards.length)){
    var items=dr.watching.map(function(t){return String(t).replace(/^[-\u2022]\\s*/,'').replace(/^["']|["']$/g,'').trim();}).filter(function(t){return t;});
