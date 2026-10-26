@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-26T13:26 ET"
+  "generated_stamped": "2026-10-26T16:01 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,39 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-26",
+   "time_et": "14:16",
+   "track": "narrative / brazil-pressure-loop / iran-war-prelegitimation",
+   "mget_legs_tested": [
+    "leg1_narrative_velocity",
+    "leg3_enclosure_mutation",
+    "brazil_lula_pressure_campaign",
+    "iran_war_strike_window"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Visegrad24 (21h ago) recirculates a genuine Washington Institute report: Hezbollah recruiting convicted criminals in Brazil (Operation Trapiche, Nov 2023, w/ Mossad assistance; STJ restored Lucas Passos Lima terrorism conviction Sept 15; crypto broker Dante Felipin financing allegations). The UNDERLYING STORY IS REAL - the timing is the anomaly. The report and court ruling date to Sept/earlier; the recirculation spikes 3 days after Lula's re-election (Oct 25) and one week before US midterms. Convergence of three frames in one post: (1) Brazil-as-terror-tolerant-state - extends the tariff/sanctions/Moraes pressure campaign and Presler's Brazil fraud template into a security register, giving a NATIONAL-SECURITY justification for post-election punitive action against Lula's Brazil, not merely an electoral-fraud one; (2) Iran-war pre-legitimation - Hezbollah-as-Iran-proxy links Brazil to the live 96-hour strike window, seeding the idea of a second theater; (3) timing with the 'strongman wins, election suspect' loop - the same week right-media ran the stolen-Brazil template, the terror frame arrives to stack on it. Note: Visegrad24 is a Poland-adjacent aggregator with a record of amplifying frames later picked up by US right-media; watch the loopback path (WINEP report -> Visegrad24 -> US influencers -> administration rhetoric).",
+   "forward_signal": "Watch for (1) the terror-tolerant-Brazil frame migrating from aggregators into US administration statements or sanctions designations against Brazilian entities (potential post-midterm action against Lula gov); (2) Hezbollah-Brazil appearing in Iran strike pre-legitimation rhetoric as a second-theater justification; (3) whether Washington Institute authors appear on right-media in the final pre-midterm week. Distinct test: if the frame had purely informational intent, its spike should track the report's content dates (Sept), not the election calendar.",
+   "confidence_moves": "color-revolution-target-ladder: no numeric move (Brazil already Tier-2 watch; this adds a security-register vector alongside the fraud template). iran-war sequencing watch: qualitative support for second-theater pre-legitimation, no numeric move.",
+   "basename": "2026-10-26-hezbollah-brazil-frame-recirculation-timing"
+  },
+  {
+   "date": "2026-10-26",
+   "time_et": "14:10",
+   "track": "legitimacy-catalyst / independent-convergence",
+   "mget_legs_tested": [
+    "leg1_narrative_velocity",
+    "leg3_enclosure_mutation",
+    "leg4_vanguard_alignment",
+    "c-002_certification_contestation",
+    "p16t_midterms_catalyst"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Robert Pape (UChicago CPOST), YouTube interview published 2026-10-21 promoting 'Our Own Worst Enemies' (2026), argues the most dangerous moment of the 2026 midterms is NOT Election Day but the weeks AFTER it - the danger is the reaction of the losers, expected on the Trump side. This is an independent, structurally identical convergence with our c-002 amended prediction (certification contestation as the legitimacy-catalyst mechanism, tribunal-amended to 0.32/REVISED with binding conditions) and P16-T. Convergence notes: (1) Same mechanism - pre-legitimated non-acceptance rather than polling-place violence; our pre-build tells (DOJ Alaska certification suit 10-23, 28-noncitizen-voter charges 10-19, Wedgewood fabricated-polls admission 10-23) map onto his 'losers pre-positioning the reaction' frame. (2) Same window - his 'weeks after' matches our certification-period window past Nov 3. (3) His CPOST quarterly surveys (up to ~30% expressing support for political violence) independently support the acceptance-shift leg of dehumanization-velocity tracking. CALIBRATION CAVEAT (attach to any public use): 2026 PNAS paper shows ambiguous survey items with no neutral midpoint and 4-of-5 scales coded as 'support' inflate violence-support estimates ~6x (median 18.5% prior studies vs 2.9% own estimate). CPOST headline figures likely sit on the inflated end; cite with caveat. FRAMING CAVEAT: Pape's demographic-identity thesis is criticized as both-sides-ism (Bruce Miller substack 9-30) - decades of incident data show actual violence concentrates on the far right; his timing/mechanism analysis is usable, his symmetry framing should not be laundered into neutral authority.",
+   "forward_signal": "Watch for mainstreaming of the 'danger is after the election, from the left/losers' frame in right-media and administration rhetoric over the final week - Pape's academic version gives the frame a citable authority; if the same post-midterm-danger frame appears in WH or campaign messaging citing 'experts', that is narrative-velocity convergence on c-002 pre-legitimation. Also watch whether CPOST post-election survey wave (due after Nov 3) shifts violence-support numbers; interpret with PNAS methodology caveat. Transcript not yet obtainable (YouTube bot-wall); secondary coverage is the basis here - upgrade entry if transcript surfaces.",
+   "confidence_moves": "c-002: no numeric move (convergence raises plausibility but tribunal binding conditions still govern scoring; affirmative Tier-1 classification still required before window closes). Logged as qualitative corroboration only.",
+   "basename": "2026-10-26-pape-independent-convergence-c002"
+  },
   {
    "date": "2026-10-26",
    "track": "sacralization-escalation",
@@ -7833,7 +7866,8 @@
    "With voting underway, the administration works to block ballot counts and certification in Alaska and California",
    "Judiciary Dems' 53-page report: 5 women accuse Trump of assault in Epstein's presence; AG accused of witness tampering",
    "Salvadoran special forces hunt Haitian gangs holding four soldiers \u2014 Bukele's crusade rhetoric meets combat reality",
-   "\"Color revolution\" frame saturates right-wing media over the weekend; no enforcement action yet"
+   "\"Color revolution\" frame saturates right-wing media over the weekend; no enforcement action yet",
+   "ICE leaves a US citizen special-education student with a broken wrist after detaining him near his school"
   ],
   "watching": [
    "Whether Trump approves Iran strikes before or after Election Day",
@@ -7842,6 +7876,10 @@
    "Whether \"color revolution\" rhetoric converts into an actual investigation before November 3"
   ],
   "cards": [
+   {
+    "title": "ICE leaves US citizen special-education student with broken wrist after detention near his school",
+    "html": "<p><b>What happened:</b> On October 23, ICE agents detained Adri\u00e1n Zepeda, a 20-year-old non-verbal special-education student and U.S. citizen, as he walked to Santa Maria High School in California. Witnesses say he was tackled and restrained. Agents handcuffed him, drove him in their vehicle while questioning him about his name, birth date, and citizenship \u2014 and never asked to see the ID he carried the entire time. He was released, walked to school, and staff called an ambulance: his wrist was broken in three places and required surgery. Santa Maria police turned surveillance footage over to investigators.</p>\n\n<p><b>Why it matters:</b> This is now a recurring category, not an isolated mistake \u2014 U.S. citizens, including a citizen death in federal custody this month, are being swept into enforcement actions built for people who have no right to be here. When the system cannot reliably identify a non-verbal 20-year-old carrying his own ID, the error rate is not an edge case; it is the operating cost of the quota-driven posture.</p>\n\n<p><b>The pattern:</b> Enforcement actions that injure or kill citizens or legal residents have produced no visible accountability mechanism \u2014 no agent identified, no policy changed, each incident treated as a one-off. The absence of consequence is the signal: it tells every subsequent operation that the cost is acceptable.</p>\n\n<p><b>What history says:</b> Domestic security forces that stop answering for injuries to the population stop being constrained by the population. The Santa Maria surveillance footage now sits with local police \u2014 whether anything happens next is the test of whether local institutions still have any leverage over federal agents operating in their city.</p>\n\n<p><b>What we're watching next:</b> Whether Santa Maria PD's footage produces any referral or charges; whether ICE issues any statement on the incident; and whether Congressionally visible citizen-injury cases start aggregating into a named pattern before November 3.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.latimes.com/politics/story/2026-10-23/santa-maria-high-school-student-u-s-citizen-is-injured-as-ice-detains-him\">Los Angeles Times</a> \u00b7 <a href=\"https://keyt.com/news/santa-maria-north-county/2026/10/23/santa-maria-police-turn-over-surveillance-footage-after-ice-agents-misidentify-injure-student/\">KEYT</a> \u00b7 <a href=\"https://www.noozhawk.com/santa-maria-special-education-injured-ice-agents/\">Noozhawk</a></p>"
+   },
    {
     "title": "US says forces could launch major strikes on Iran within 96 hours as Trump weighs his decision",
     "html": "<p><b>What happened:</b> Two US officials told CNN that American forces in the Middle East are prepared to launch new, potentially major military operations against Iran \"within 96 hours of receiving\" an order. Speaking Sunday, President Trump said he was still deciding between reaching an agreement with Iran and acting to \"finish them off,\" while ruling out a strike that day. The war \u2014 now in its eighth month \u2014 has already brought a US naval blockade that CENTCOM says has stopped $25 billion in Iranian exports, a missile strike that collapsed sections of Riyadh's airport terminals and killed 13 civilians, and a new Houthi missile campaign against Saudi Arabia with at least 12 missiles fired since October 24.</p>\n\n<p><b>Why it matters:</b> The war is spreading, not settling. A naval blockade is an act of war under most readings of international law, Houthi strikes are pulling Saudi Arabia deeper in, and Gulf Shield units have been deployed to Bahrain to quell protests. An administration choosing between a deal and escalation eight days before a midterm election is making that choice under maximum political pressure \u2014 and reports say the Pentagon has drawn up strike plans timed for after the polls.</p>\n\n<p><b>The pattern:</b> The administration has consistently preferred escalation sequences that wait for elections to pass \u2014 the strike planning is reportedly scheduled after midterms, matching a pattern of timing major military decisions to avoid electoral accountability before the vote rather than after it.</p>\n\n<p><b>What history says:</b> Governments at war tend to postpone politically risky decisions until after elections, then claim a mandate. The 96-hour readiness posture is a standing option, not a decision \u2014 but standing options with political timing attached have a way of being exercised.</p>\n\n<p><b>What we're watching next:</b> Whether strikes come before or after November 3; whether oil and shipping through the Strait of Hormuz absorb a new shock; whether the Mecca Defence Alliance talks in Tehran produce anything that would make a strike politically awkward.</p>\n\n<p><b>Sources:</b> <a href=\"https://edition.cnn.com/2026/10/26/politics/us-iran-strike-plans-trump\" target=\"_blank\" rel=\"noopener\">CNN</a>, <a href=\"https://www.cbsnews.com/live-updates/iran-war-trump-us-diplomacy-oil-prices-strait-of-hormuz/\" target=\"_blank\" rel=\"noopener\">CBS News</a>, <a href=\"https://understandingwar.org/research/middle-east/iran-update-october-25-2026/\" target=\"_blank\" rel=\"noopener\">ISW</a>, <a href=\"https://www.aljazeera.com/amp/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them\" target=\"_blank\" rel=\"noopener\">Al Jazeera</a></p>"
