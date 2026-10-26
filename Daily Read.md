@@ -5,6 +5,7 @@
 SUMMARY:
 - US forces ready for major Iran strikes "within 96 hours" as Trump weighs deal or escalation
 - With voting underway, the administration works to block ballot counts and certification in Alaska and California
+- Judiciary Dems' 53-page report: 5 women accuse Trump of assault in Epstein's presence; AG accused of witness tampering
 - Salvadoran special forces hunt Haitian gangs holding four soldiers — Bukele's crusade rhetoric meets combat reality
 - "Color revolution" frame saturates right-wing media over the weekend; no enforcement action yet
 
@@ -46,6 +47,22 @@ WATCHING:
 <p><b>What we're watching next:</b> The appeals court's ruling on the California ballots; any preliminary ruling in Alaska; whether DOJ follows through on threats to prosecute local election officials who process disputed ballots.</p>
 
 <p><b>Sources:</b> <a href="https://apnews.com/live/trump-midterm-elections-news-updates-10-26-2026" target="_blank" rel="noopener">AP</a>, <a href="https://www.axios.com/2026/10/25/trump-doj-midterms-interference" target="_blank" rel="noopener">Axios</a>, <a href="https://www.democracydocket.com/news-alerts/its-happening-from-alaska-to-california-the-trump-administration-is-working-to-subvert-the-midterms/" target="_blank" rel="noopener">Democracy Docket</a>, <a href="https://slate.com/news-and-politics/2026/10/2026-midterm-news-doj-alaska-trump-fraud.html" target="_blank" rel="noopener">Slate</a></p>
+</details>
+
+<details>
+<summary>House Judiciary Democrats: "sufficient evidence" Trump was an active participant in Epstein's abuse — and DOJ covered it up</summary>
+
+<p><b>What happened:</b> Rep. Jamie Raskin's Judiciary Committee staff released a 53-page report built on survivor interviews, sworn testimony, FBI records and the Epstein files: 11 women, five of whom directly accuse President Trump of rape or sexual assault in Jeffrey Epstein's presence — including accounts of a 1993 assault at his own pageant, a groping in Trump Tower with Epstein standing beside them, and Epstein introducing a 14-year-old to Trump at Mar-a-Lago. The report concludes Trump and a former senior administration official may have been co-conspirators in Epstein's trafficking operation through the 1990s modeling industry. It also documents the cover-up: Attorney General Todd Blanche personally stopped Ghislaine Maxwell from discussing one accuser at least three times, records contradicting Trump's account stay redacted, and flight logs show at least eight trips on Epstein's jet despite denials. Democrats are demanding an independent special counsel.</p>
+
+<p><b>Why it matters:</b> The officials who would investigate these crimes — the DOJ and FBI — are run by people the evidence implicates in suppressing them. The Attorney General himself is accused of conduct that could constitute witness tampering. Eight days before an election, this lands while the administration is already legally contesting how ballots get counted and certified.</p>
+
+<p><b>The pattern:</b> When an institution is captured by the person it would investigate, accountability migrates outward — to state prosecutors, foreign prosecutors, and independent counsel. Expect the administration's response to attack the source rather than the evidence; a counter-narrative framing the report as an election stunt is already the predictable move, since a denial campaign has been running on this file for months.</p>
+
+<p><b>What history says:</b> Cover-ups that survive one news cycle tend to fail on institutional documents — the recorded contradictions here (a redacted quote, flight logs, an Attorney General's own interview transcript) are the kind of paper that does not go away after Election Day.</p>
+
+<p><b>What we're watching next:</b> The White House response form; whether Maxwell's scheduled congressional testimony proceeds; whether the Attorney General faces a recusal fight; and whether the report's evidence reaches state and foreign prosecutors who are outside DOJ control.</p>
+
+<p><b>Sources:</b> <a href="https://democrats-judiciary.house.gov/media-center/press-releases/judiciary-democrats-report-details-mounting-evidence-linking-trump-to-epstein-s-criminal-activities-and-doj-s-cover-up-specific-accounts-involving-11-women-provide-more-evidence-of-potential-sex-crimes" target="_blank" rel="noopener">House Judiciary Democrats</a>, <a href="https://democrats-judiciary.house.gov/sites/evo-subsites/democrats-judiciary.house.gov/files/evo-media-document/2026-10.hjc-dems-staff-report-epstein-and-trump.pdf" target="_blank" rel="noopener">Full report (PDF)</a></p>
 </details>
 
 <details>
