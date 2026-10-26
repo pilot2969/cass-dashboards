@@ -1,63 +1,63 @@
 {
- "reviewed": "2026-10-14",
- "reviewer": "CASS seed calibration (owner review pending)",
+ "reviewed": "2026-10-26",
+ "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
  "institutions": [
   {
    "name": "Federal Courts",
-   "score": 78,
+   "score": 80,
    "band": "Critical",
-   "delta": null,
-   "why": "Emergency-docket capture accelerating; judicial norms treated as advisory. Wire: SCOTUS emergency applications pattern, judge pre-attack rhetoric (2026-09-21)."
+   "delta": 2,
+   "why": "DOJ preemptive Alaska certification suit filed pre-election; ballot-curing suits vs states; Lucas indictment timing (EDVA); ATF openly ceasing NFA enforcement; mass denaturalization program. Courts still issuing injunctions, but the executive is now litigating the election itself and openly declining to enforce statute \u2014 strain source moved from rhetoric to filed paper."
   },
   {
    "name": "Congress",
    "score": 72,
-   "band": "Critical",
-   "delta": null,
-   "why": "Subpoena-as-advisory pattern active; funding power impoundment; certification-authority bills pre-positioned. Wire: post-defeat consolidation menu (60%)."
+   "band": "Warning",
+   "delta": 0,
+   "why": "Re-stated: HJC Dems' Epstein report shows minority oversight alive; Maxwell testimony pending. But GOP majority passive through 96-hr Iran strike readiness without AUMF debate, Hegseth GFO slot cuts bypassing appropriations, and no war-powers motion. Paralysis holding, not worsening."
   },
   {
    "name": "Election Offices",
-   "score": 73,
-   "band": "Critical",
-   "delta": null,
-   "why": "Official attrition (brain-drain reports), USCIS machinery capture, poll-watcher normalization. Wire: Leg-4 battery 11/15 (2026-09)."
+   "score": 78,
+   "band": "Warning",
+   "delta": 5,
+   "why": "Delta +5 from 73. Two weeks brought the sharpest direct pressure since the panel launched: DOJ pre-election certification suit (Alaska), ballot-curing litigation vs states, USPS RTO cuts tripling late-postmark rejections in 30 rural WA counties with tens of thousands at risk nationally on Nov 3, and the Brazil stolen-election template entering influencer circulation 8 days out. Election machinery is now contested from three directions: litigation, logistics, narrative."
   },
   {
    "name": "Health Agencies",
    "score": 80,
    "band": "Critical",
-   "delta": null,
-   "why": "CDC epistemic capture; outbreak capacity test live. Wire: Leg-4 battery CDC 12/15 (2026-09)."
+   "delta": 0,
+   "why": "Re-stated: no new capture events. CDC outbreak-capacity watch still open; Medicaid work-requirements-for-terminal-illness rule continues to roll out. Stress is chronic, not acute."
   },
   {
    "name": "Civil Service",
-   "score": 87,
+   "score": 89,
    "band": "Critical",
-   "delta": null,
-   "why": "Polygraph loyalty tests, purge attrition, Schedule-F-class machinery. Wire: Leg-4 battery 13/15 (2026-09) \u2014 highest stress in the set."
+   "delta": 2,
+   "why": "Delta +2 from 87. Flynn's 'find and arrest the traitors' push explicitly targets contingency-planning nonprofits \u2014 criminalization of preparedness itself, a new vector. Combined with Scenario-network recordings, DoD SGE hostility, and the press-ban posture, the message to career staff is that lawful continuity planning is now evidence."
   },
   {
    "name": "Military Leadership",
-   "score": 65,
+   "score": 68,
    "band": "Warning",
-   "delta": null,
-   "why": "Chain-of-command contested but resistance visible: Caine letter (2026-09-01), generals' non-concur, Hegseth purge costing him. Watch: compliance drift vs open rupture."
+   "delta": 3,
+   "why": "Delta +3 from 65. 96-hour strike readiness against Iran signaled without congressional authorization; heat-ray/ADS gear loaned to DHS with Pentagon ad buy; Confucius Institutes security designation expanding DoD domestic-adjacent posture; briefing room repurposed as content set. Senior-officer acquiescence continues to be the load-bearing uncertainty."
   },
   {
    "name": "Dollar & Credit",
-   "score": 58,
-   "band": "Strained",
-   "delta": null,
-   "why": "10Y at 24-yr high (~5.30%), worst Treasury quarter since 1994, reserve-rotation signals. Bellwether \u2014 moves first, breaks last."
+   "score": 62,
+   "band": "Warning",
+   "delta": 4,
+   "why": "Delta +4 from 58. Strait of Hormuz at record attack rates and functionally near-closed while the administration signals strikes; gas-tax suspension suppresses the price signal; Russia sanctions architecture (Graham act waiver) being dismantled; 10Y six-percent quest unresolved. War-at-chokepoint risk is now priced into nothing official."
   },
   {
    "name": "Department of Education",
    "score": 86,
    "band": "Critical",
-   "delta": null,
-   "why": "Dismantlement-as-capture: OCR workforce ~50% cut and 7 of 12 regional offices closed; IDEA implementation office gutted; IG reports congressionally mandated activities hindered; OCR complaint handling shifted to DOJ; PSLF/IDR loan machinery in deep backlogs while remaining grant capacity politicized. Score rationale: operational degradation deeper than CDC (80) though with less live public health consequence; program dismantlement is effectively irreversible at staff level."
+   "delta": 0,
+   "why": "Re-stated: no new events. Dismantlement-as-capture continues at the 10-14 assessed depth."
   }
  ],
  "age_days": 0
