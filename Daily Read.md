@@ -8,6 +8,7 @@ SUMMARY:
 - Judiciary Dems' 53-page report: 5 women accuse Trump of assault in Epstein's presence; AG accused of witness tampering
 - Salvadoran special forces hunt Haitian gangs holding four soldiers — Bukele's crusade rhetoric meets combat reality
 - "Color revolution" frame saturates right-wing media over the weekend; no enforcement action yet
+- ICE leaves a US citizen special-education student with a broken wrist after detaining him near his school
 
 WATCHING:
 - Whether Trump approves Iran strikes before or after Election Day
@@ -16,6 +17,24 @@ WATCHING:
 - Whether "color revolution" rhetoric converts into an actual investigation before November 3
 
 <!--parser markers above; collapsible cards below-->
+<details>
+<summary>ICE leaves US citizen special-education student with broken wrist after detention near his school</summary>
+
+<p><b>What happened:</b> On October 23, ICE agents detained Adrián Zepeda, a 20-year-old non-verbal special-education student and U.S. citizen, as he walked to Santa Maria High School in California. Witnesses say he was tackled and restrained. Agents handcuffed him, drove him in their vehicle while questioning him about his name, birth date, and citizenship — and never asked to see the ID he carried the entire time. He was released, walked to school, and staff called an ambulance: his wrist was broken in three places and required surgery. Santa Maria police turned surveillance footage over to investigators.</p>
+
+<p><b>Why it matters:</b> This is now a recurring category, not an isolated mistake — U.S. citizens, including a citizen death in federal custody this month, are being swept into enforcement actions built for people who have no right to be here. When the system cannot reliably identify a non-verbal 20-year-old carrying his own ID, the error rate is not an edge case; it is the operating cost of the quota-driven posture.</p>
+
+<p><b>The pattern:</b> Enforcement actions that injure or kill citizens or legal residents have produced no visible accountability mechanism — no agent identified, no policy changed, each incident treated as a one-off. The absence of consequence is the signal: it tells every subsequent operation that the cost is acceptable.</p>
+
+<p><b>What history says:</b> Domestic security forces that stop answering for injuries to the population stop being constrained by the population. The Santa Maria surveillance footage now sits with local police — whether anything happens next is the test of whether local institutions still have any leverage over federal agents operating in their city.</p>
+
+<p><b>What we're watching next:</b> Whether Santa Maria PD's footage produces any referral or charges; whether ICE issues any statement on the incident; and whether Congressionally visible citizen-injury cases start aggregating into a named pattern before November 3.</p>
+
+<p><b>Sources:</b> <a href="https://www.latimes.com/politics/story/2026-10-23/santa-maria-high-school-student-u-s-citizen-is-injured-as-ice-detains-him">Los Angeles Times</a> · <a href="https://keyt.com/news/santa-maria-north-county/2026/10/23/santa-maria-police-turn-over-surveillance-footage-after-ice-agents-misidentify-injure-student/">KEYT</a> · <a href="https://www.noozhawk.com/santa-maria-special-education-injured-ice-agents/">Noozhawk</a></p>
+
+</details>
+
+
 
 <details>
 <summary>US says forces could launch major strikes on Iran within 96 hours as Trump weighs his decision</summary>
