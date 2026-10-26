@@ -239,6 +239,14 @@ except Exception as e:
 # INSTITUTIONAL STRESS STALENESS (protocol 2026-10-14): scores are hand-reviewed
 # estimates; the daily sync auto-rolls the age clock. >7d since hand review = the
 # dashboard prints a stale flag next to the panel. Sync never rewrites scores.
+# 2026-10-26 fix: institutions.json (hand-edited) is the source of truth;
+# import it into data.json each run. Sync still never invents scores.
+try:
+    _src=json.load(open("institutions.json"))
+    if _src.get("institutions"):
+        data["institutions"]=_src
+except Exception as e:
+    print("institution import warn:", e)
 inst=data.get("institutions",{})
 if inst.get("institutions"):
     last=inst.get("reviewed","2026-10-14")
