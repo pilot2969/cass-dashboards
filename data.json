@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T09:36 ET"
+  "generated_stamped": "2026-10-27T09:51 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -7951,6 +7951,42 @@
  ],
  "movers": [
   {
+   "time": "2026-10-27 09:55 ET (tribunal case-020)",
+   "ref": "CONTROL-2: No Insurrection Act Invocation Tied to the 2026 Midterms (through Jan 20, 2027)",
+   "change": "confidence 72 \u2014 status pending",
+   "trigger": "Sweep 2026-10-27 (case-020): no qualifying invocation or Tier-2 election-tied deployment order as of case filing; purpose test clean; 4 pressure-environment items logged 10-23..10-"
+  },
+  {
+   "time": "2026-10-27 09:45 ET (sweep)",
+   "ref": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
+   "change": "confidence 78 \u2014 status emergent",
+   "trigger": "Sweep 2026-10-27: refs 2026-10-26-ice-citizen-harm-compiled-ledger, 2026-10-23-ice-santa-maria-zepeda-citizen-injury, 2026-10-17-ice-lpr-death-andrade-covarrubias, 2026-10-usps-arm"
+  },
+  {
+   "time": "2026-10-27 09:45 ET (sweep)",
+   "ref": "Iran Escalation Against U.S. Naval Escorts and Risk of Major Surface Combatant Strike",
+   "change": "confidence 88 \u2014 status emergent",
+   "trigger": "Sweep 2026-10-27: refs 2026-10-26-iran-96hr-strike-readiness, 2026-10-20-hormuz-third-tanker-and-pakistan-iran-channel, 2026-10-27-iran-war-regionalization-egypt-saudi-tehran-talks"
+  },
+  {
+   "time": "2026-10-27 09:45 ET (sweep)",
+   "ref": "Post-Defeat Consolidation Menu (Gray-Zone Coup: Option 1 Preferred)",
+   "change": "confidence 76 \u2014 status emergent",
+   "trigger": "Sweep 2026-10-27: Menu-preparation confirms: DOJ 405-list sequester demand (10-26) and $1M fraud bounty (10-27) are Option-2/3 ingredients stockpiled pre-election; CA/AK/WA ballot "
+  },
+  {
+   "time": "2026-10-27 09:45 ET (sweep)",
+   "ref": "Press Access Enclosure \u2192 Media Capture (pool collapse \u2192 friendly-inherit \u2192 enforcement)",
+   "change": "confidence 50 \u2014 status pending",
+   "trigger": "Sweep 2026-10-27: Musk/Skydance billion-dollar media network + Wedgewood fabricated-polls admission both post-date last move; logged as confirms for capture + narrative-preposition"
+  },
+  {
+   "time": "2026-10-27 09:45 ET (sweep)",
+   "ref": "Russian Internal Fragility Deepens as Fuel Crisis Bites Into Autumn",
+   "change": "confidence 74 \u2014 status emergent",
+   "trigger": "Sweep 2026-10-27: Polar Train/Novatek financing strain (10-24) extends the fiscal leg into Arctic LNG logistics. Small move only."
+  },
+  {
    "time": "2026-10-27 09:10 ET",
    "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
    "change": "confidence 0.55 \u2014 status pending",
@@ -7973,30 +8009,6 @@
    "ref": "Korean War II \u2014 four-link chain (Samuel's reverse-order thesis), scored at 7% through 2030",
    "change": "confidence 10 \u2014 status emergent",
    "trigger": "Foreign Affairs: 'China Doesn't Want to Lead an Axis' \u2014 Beijing wants clients, not co-belligerents. Russia will not fight for China, the DPRK answers to Moscow, Iran is geographica"
-  },
-  {
-   "time": "2026-10-25 20:10 ET",
-   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
-   "change": "confidence 70 \u2014 status pending",
-   "trigger": "2026-10-25: contestation stack hardens 9 days out \u2014 (a) appeals court EXPEDITED DOJ's bid to block CA ballot counting into the election window; (b) DOJ deploying ~1,000 observers, "
-  },
-  {
-   "time": "2026-10-25 20:10 ET",
-   "ref": "Ground Invasion of Iran",
-   "change": "confidence 25 \u2014 status pending",
-   "trigger": "2026-10-25 evening: strike window REOPENED pre-election \u2014 envoy Barrack says strike 'absolutely' possible 'this weekend'; Trump: 'another little Epic Fury... either way we win,' vo"
-  },
-  {
-   "time": "2026-10-23",
-   "ref": "Color revolution frame: institutional target ladder",
-   "change": "confidence 0.3 \u2014 status pending",
-   "trigger": "Same-day Rubio open CIA recruitment solicitation shows regime-change frame normalized"
-  },
-  {
-   "time": "2026-10-20",
-   "ref": "Trump Accounts as Social Security Phase-Out Infrastructure",
-   "change": "confidence 55 \u2014 status emergent",
-   "trigger": "Same coalition that historically sought Social Security privatization (Bush 2005 effort, failed) is now executing it via brand-name rollout instead of legislation; Gerstner's cohor"
   }
  ],
  "daily_read": {
