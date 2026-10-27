@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T10:18 ET"
+  "generated_stamped": "2026-10-27T10:31 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -50,8 +50,8 @@
    "title": "90-Day Forecast: Phase 4 Detonation Window (Sept 9 - Dec 8, 2026)",
    "date_made": "2026-09-09",
    "time_et": null,
-   "statement": "CASS Monte Carlo forecast (5,000 paths) for the 90-day window: Acute Crisis/Phase 4 detonation 47.7%; Regime Concedes/Transition 26.2%; Regime Holds Contested 19.1%; External War Distraction 7.0%. First acute trigger most probable T-40 to T-20 (early-to-late October, 28.3%). Terminal stress: Hormuz 0.97 (blockade irreversible), De-Dollarization 0.67.",
-   "confidence": 68,
+   "statement": "RESTATED PER P22-T RULING (case-023): Monte Carlo distribution, exhaustive partition - Acute Crisis 36 / Concede 32 / Contested 23 / External War 9 (percent; the distribution IS the confidence statement, scalar struck). First-trigger window 2026-09-24..2026-10-14 PARTIALLY DISCONFIRMED: closed with no recorded trigger; 41-day ledger gap disclosed as recording failure (likelihood 0.5 in the published update rule: posterior = M*0.5/(M*0.5+(1-M)), M=0.283 -> 0.165; lost 0.118 reallocated pro-rata). Closed trigger-class list T-1 military / T-2 energy (Brent>=$120 x5 days) / T-3 domestic apparatus (C-002 register, registration exhibited: card 2026-09-30, case-022 2026-10-27) / T-4 political rupture. Classification rubric registered 10-27, uneditable: Acute = apparatus action OR sustained crisis (>=72h, 2+ states) OR Hormuz closure at close; Concede = accepted certification + elite split (2+ same-party officeholders); Contested = contested certification without concession. FAILED on Concede/Contested realization. Terminal indices context-only: Hormuz closure-in-force 0.90; USD-invoiced share (BIS/COFER) erosion, disconfirmed >=55% through 2027-Q1. Both windows close 2026-12-08 23:59 ET.",
+   "confidence": 36,
    "status": "emergent",
    "evidence_confirmed": [
     "Trump Dividend pledge (Sept 9) - desperation tell at T-56",
@@ -63,7 +63,7 @@
     "2026-09-15: compounding-shock morning \u2014 10Y 5.02% (2007 high), Brent >$108 (both export valves compromised), SCOTUS denial converted into DOJ enforcement probes, space weaponization confirmed \u2014 external+internal stressors land same day, matching window configuration"
    ],
    "evidence_contradicted": [],
-   "falsifier": "Forecast is DISCONFIRMED if: (1) no acute trigger lands by Nov 3 (the 33% no-trigger branch dominates); (2) a clean concession/transition occurs without certification crisis (Concede branch > Refusal branch); (3) Hormuz stress collapses below 0.80 via negotiated reopening (terminal 0.97 falsified); (4) diesel retreats below $5.00 through October (energy attrition path falsified). Scenario weighting is falsified if the modal outcome (Acute Crisis) fails to materialize while the Concede branch exceeds 35% of realized outcomes.\n\n[Provenance] [2026-09-09] confidence_score normalized from 0.68 (0-1 scale) to 68 (0-100 canonical scale) on 2026-09-18; value unchanged in meaning, scale only.",
+   "falsifier": "FAILED if realized outcome classifies Concede or Contested under the registered rubric (modal miss kills). Hormuz disconfirmed by verified reopening with sustained transit through 2026-12-08. De-dollarization disconfirmed if USD-invoiced share >=55% at any quarterly BIS/COFER reading through 2027-Q1. '33% no-trigger branch' struck; 35%-of-realized-outcomes clause deleted (n=1). Nothing after 2026-12-08 23:59 ET scores.",
    "forward_watchlist": [
     "SCOTUS USPS ruling - VANGUARD DECISION SIGNAL: either outcome is destabilizing; the regime win -> state non-compliance crisis; the regime loss -> refusal-to-comply. This is the VANGUARD rehearsal for how institutional layers behave at the crisis moment - a Leg 4 snap in miniature (Samuel callout)",
     "October danger window (T-40 to T-20) - certification rules, emergency decrees",
