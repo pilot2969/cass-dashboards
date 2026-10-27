@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T09:16 ET"
+  "generated_stamped": "2026-10-27T09:36 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -2153,6 +2153,17 @@
    "reasoning": "Four Salvadoran soldiers missing after gang ambush of their vehicle (explosives, burned) near Croix-des-Bouquets Oct 25. Bukele deployed ~200 special forces, threatens severe military response unless men returned alive. Clashes: 7+ gang dead, 4 GSF wounded. Comes days after Deus Vult crusader framing (2026-10-23 specimen): sacralized conflict now hits a martyrdom dynamic \u2014 retreat politically impossible, force-outperformance pressure active.",
    "forward_signal": "If soldiers die, expect disproportionate retaliation beyond GSF mandate. Watch whether crusade rhetoric intensifies or goes quiet on outcome.",
    "basename": "2026-10-26-bukele-haiti-hostage-crisis-escalation"
+  },
+  {
+   "date": "2026-10-26",
+   "track": "c002-certification-contestation",
+   "mget_legs_tested": [
+    "pre-build: named voter lists (layer 2) \u2014 DOJ names 405 in WA, demands pre-election ballot sequestration"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Oct 26 Seattle presser (Acting USA Floyd WDWA, First Asst USA Serrano EDWA): federal agents identified 405 noncitizens registered and voting in WA; letter to Sec. State Hobbs demanding immediate sequestration of their ballots; Floyd: 'confident we are looking at thousands.' Method: detainee/border-crosser interviews cross-referenced against public voter rolls. Follows Sept AAG Dillon refused demand for unredacted rolls. This is the layer-2 pre-build (named lists) now held by a named federal actor \u2014 the exact predicted mechanism. STRONG TELL, not a post-results qualifying action. Weaknesses: list quality contested (Hobbs: 'some of them actually have citizenship'; one record from 1994 \u2014 stale-data false-positive mode); NVRA 90-day quiet period makes sequestration legally dubious, teeing up a manufactured conflict if WA refuses. Viral Hoffman post accurate on numbers but launders the 'thousands' extrapolation. Sources: KOMO Oct 26 19:38 PT; WA SOS statement.",
+   "forward_signal": "If WA refuses sequestration, watch whether DOJ escalates to enforcement against a state election office (sue-and-defer, funding conditionality, or criminal referral) \u2014 a qualitatively new coercion layer ahead of Nov 3. Also watch same template being run in other ballot states.",
+   "basename": "2026-10-26-doj-wa-405-noncitizen-list-sequester-demand"
   },
   {
    "date": "2026-10-26",
@@ -7943,7 +7954,7 @@
    "time": "2026-10-27 09:10 ET",
    "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
    "change": "confidence 0.55 \u2014 status pending",
-   "trigger": "Item 8 (2026-10-27): pre-build activation #2 logged \u2014 $1,000,000 bounty for voter-fraud reports scoped to 'past Elections, or the upcoming 2026 Midterm Election,' payable 'upon the"
+   "trigger": "Item 8 (2026-10-26): DOJ (US Attorneys Floyd/Serrano) names 405 alleged noncitizen voters in WA, demands pre-election ballot sequestration; follows refused Sept unredacted-rolls de"
   },
   {
    "time": "2026-10-27 09:10 ET",
