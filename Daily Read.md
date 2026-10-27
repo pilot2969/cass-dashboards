@@ -3,6 +3,11 @@
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
 SUMMARY:
+- Tehran talks end with a promise to keep talking — and Houthi missiles land hours later
+- Israel votes at its highest rate since 1988 — and no bloc can reach 61
+- The FEC's filing system goes dark overnight, taking the last pre-vote spending disclosures with it
+- A judge rules this afternoon on 20,000 California ballots — as Trump says he'll accept the result "if it's honest"
+- Flávio Bolsonaro flies to Florida defying a court order, and asks Washington for asylum
 - One week out: where the forecasts stand
 - Abu Dhabi talks are days away and the peace track is already splitting from the weapons track
 - Brazil's reckoning begins: Flávio Bolsonaro's passport seized, Trump's orbit calls the result a 'cautionary tale'
@@ -21,6 +26,12 @@ SUMMARY:
 - ICE leaves a US citizen special-education student with a broken wrist
 
 WATCHING:
+- Whether a second Tehran round (Turkey) is scheduled before any strike order lands
+- Whether the US answers Iran's two-week pause offer before Nov 3
+- Whether any Netanyahu-aligned figure contests the Israeli count itself rather than merely losing it
+- How long the FEC filing system stays down, and whether 24/48-hour spending reports are filed at all
+- Judge Carter's ruling in the California ballot case, and whether DOJ goes to the Supreme Court
+- Whether Flávio Bolsonaro's asylum claim is formally filed and confirmed by the US government
 - Whether any post-election qualifying action lands: certification refusal/delay, overturn suits, or confrontation-posture deployments (through Dec 14)
 - Whether Hegseth releases Ukraine's paid-for missiles before the Nov 10 Abu Dhabi talks
 - Whether the Comey criminal information survives a judge or is forced back to a grand jury
@@ -36,6 +47,86 @@ WATCHING:
 - Whether "color revolution" rhetoric converts into an actual investigation before November 3
 
 <!--parser markers above; collapsible cards below-->
+<details>
+<summary>The Tehran talks end with a promise to keep talking — and Houthi missiles land hours later</summary>
+
+<p><b>What happened:</b> Saudi Defence Minister Prince Khalid bin Salman, Pakistan's army chief Asim Munir and Turkey's intelligence chief Ibrahim Kalin met Iran's president and security chief in Tehran on Monday. The talks ended without a deal: the clearest outcome, sources told <i>The National</i>, was an agreement to keep talking, with a second round possibly in Turkey. Iran asked its guests to persuade Washington to accept a two-week regional pause in hostilities in exchange for gradually reopening the Strait of Hormuz, and said it lacked the leverage to stop the Houthis attacking Saudi Arabia. Hours after the delegation left, the Saudi-led coalition intercepted three ballistic missiles and four drones fired toward the kingdom, then two more aimed at Riyadh.</p>
+
+<p><b>Why it matters:</b> This morning's card asked whether the Tehran talks would produce a named mechanism or only a communiqué. They produced neither — they produced a scheduling promise. Meanwhile the missiles kept flying through the window the talks were meant to open. Whatever the diplomacy is doing, it is not yet reducing the volume of fire.</p>
+
+<p><b>The pattern:</b> The Mecca pact states are now doing the mediation Washington used to do, and they are negotiating with Iran about how to contain a war rather than how to prevent one. Sources told <i>The National</i> the aim was not to deter a US–Israeli strike but to agree a course of action if fighting resumes — which is what a region looks like when it has priced the strike in.</p>
+
+<p><b>What history says:</b> Talks launched without a named mechanism usually become the runway for the next round rather than the exit from the last one. In this war the pattern has already repeated twice: negotiations ran in parallel with the strike package that ended them. The tell is not the communiqué, it is whether a second round happens before an order does.</p>
+
+<p><b>What we're watching next:</b> Whether a Turkey round is actually scheduled; whether Washington answers Iran's two-week pause offer before Nov 3 or lets it lapse; the Houthi strike cadence through the window; and whether the Nov 10 Abu Dhabi track survives contact with any strike order.</p>
+
+<p><b>Sources:</b> <a href="https://www.thenationalnews.com/news/mena/2026/10/27/exclusive/" target="_blank" rel="noopener">The National</a>, <a href="https://www.criticalthreats.org/analysis/iran-update-october-26-2026" target="_blank" rel="noopener">Critical Threats</a>, <a href="https://www.globalsecurity.org/military/ops/iran-war-oprep.htm" target="_blank" rel="noopener">GlobalSecurity</a></p>
+</details>
+
+<details>
+<summary>Israel votes at its highest rate since 1988 — and no bloc can reach 61</summary>
+
+<p><b>What happened:</b> Nearly three-quarters of Israeli voters had cast ballots two hours before polls closed on Tuesday, the highest turnout since 1988. The Channel 12 exit poll put the Jewish-led parties opposing Benjamin Netanyahu on 52 seats against 50 for his bloc, with Likud still the largest single party at 24 and Gadi Eisenkot's Yashar at 22. The Palestinian-led parties were projected at 18 seats — a record — and neither bloc reaches a 61-seat majority without them. Official counting continues.</p>
+
+<p><b>Why it matters:</b> Netanyahu ran the closing days on the claim that a loss means annihilation: an AI-generated mushroom cloud over Tel Aviv, a post telling voters their hands should tremble, and, on election day, warnings that "Muslim Brotherhood supporters" were stealing the vote. Those are the components of a fraud claim, assembled before the result exists. If the count goes against him, the script is already written.</p>
+
+<p><b>The pattern:</b> The Israeli and American cases are converging on one template in the same week — pre-built delegitimization of a count, framed as existential. In 2020 the American version had to be improvised after the fact. In 2026 the same rhetorical kit is deployed in two countries, each aimed at its own election, both times by the incumbent before the ballots are counted.</p>
+
+<p><b>What history says:</b> Israeli exit polls have been wrong before, and the 2021 and 2022 counts both moved. But the pre-election posture matters whatever the outcome: a theft claim prepared in advance survives a genuine loss, which is precisely why it is prepared in advance.</p>
+
+<p><b>What we're watching next:</b> Final results and bloc arithmetic, and whether the Arab parties end up inside a coalition for the first time. Also whether any Netanyahu-aligned figure contests the count itself rather than merely losing it — and what a post-Netanyahu government means for the Iran decision now sitting in Washington.</p>
+
+<p><b>Sources:</b> <a href="https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates" target="_blank" rel="noopener">The Guardian</a>, <a href="https://www.axios.com/2026/10/27/israel-election-turnout-netanyahu" target="_blank" rel="noopener">Axios</a>, <a href="https://www.thenationalnews.com/news/mena/2026/10/27/israel-awaits-election-results-after-turnout-soars/" target="_blank" rel="noopener">The National</a></p>
+</details>
+
+<details>
+<summary>The FEC's filing system went dark overnight — and the last spending disclosures before the vote went with it</summary>
+
+<p><b>What happened:</b> The Federal Election Commission's website has been targeted by a hacker or hackers, and its electronic filing system has been offline since about 10 p.m. ET on Monday, according to a status message and an email seen by Reuters. The agency says IT staff are working to restore service and that past reports remain searchable; CISA and the FBI did not respond to requests for comment. The outage blocks the 24-hour and 48-hour spending reports that show who is paying for closing-week advertising. "I've never seen this in 26 years," said compliance lawyer Steven Mele. "The result is there will be less disclosure on the elections."</p>
+
+<p><b>Why it matters:</b> The FEC does not administer elections, so no voter is blocked by this. The damage is narrower and more useful to someone: the last window in which the money behind the final week of ads is publicly disclosed has closed. Whoever did it — and nobody has attributed it — has produced exactly the outcome a late-cycle spending surge would want without touching a ballot.</p>
+
+<p><b>The pattern:</b> The closer to the vote, the fewer systems can absorb a failure. In six days this cycle has put federal courts, county election offices and now the federal disclosure system under stress in the same window. Only one of those three needed an adversary.</p>
+
+<p><b>What history says:</b> Late-cycle disclosure gaps have been manufactured before by design — FEC deadlock and the 501(c)(4) route pushed spending disclosure later every cycle — and each time the practical effect was the same one an outage delivers for free: the public learns who paid after the vote is over.</p>
+
+<p><b>What we're watching next:</b> How long the system stays down and whether the 24/48-hour reports are filed late or never. Also whether attribution arrives before Nov 3 — and whether any official offers a culprit before one is established, which would make the outage a narrative asset rather than an infrastructure failure.</p>
+
+<p><b>Sources:</b> <a href="https://www.reuters.com/technology/hacker-trying-to-breach-us-federal-election-commission-system-email-shows-2026-10-27/" target="_blank" rel="noopener">Reuters</a>, <a href="https://www.fec.gov/" target="_blank" rel="noopener">Federal Election Commission</a></p>
+</details>
+
+<details>
+<summary>A judge rules this afternoon on 20,000 California ballots — as the president says he will accept the result "if it's honest"</summary>
+
+<p><b>What happened:</b> Judge David O. Carter was due to hear arguments Tuesday afternoon in Los Angeles on the Justice Department's request to bar California from counting roughly 20,000 mail ballots it says belong to likely noncitizens, and has said he will rule "promptly." On Monday a 2-1 Ninth Circuit panel dismissed the DOJ's emergency appeal as premature, because the district judge had not yet ruled — a procedural rebuff that left the merits untouched. Meanwhile, en route to campaign events in Texas, Trump told reporters he would accept the midterm results "if they're honest."</p>
+
+<p><b>Why it matters:</b> The appeals court slowed the route, it did not close it. The question of whether ballots cast by people the government cannot yet show are noncitizens get counted now rests with a single district judge six days before the election. The president's conditional — acceptance of results, contingent on a standard he alone defines — is the same conditional that seeded the 2020 contest, stated before this vote rather than after it.</p>
+
+<p><b>The pattern:</b> Federal litigation over a state's count before the count finishes; named lists of suspect voters; a $1 million bounty for fraud convictions; and now a president reserving judgement on legitimacy. Each piece is separate and each is legal on its face. Together they form the precondition for a contested certification, and none of them requires a single false statement to work.</p>
+
+<p><b>What history says:</b> In 2000 the count fight began after close results and ran through one court process with both sides bound by it. The 2026 structure has the executive branch as a litigant in several states simultaneously before votes are counted — a posture no prior American cycle has held.</p>
+
+<p><b>What we're watching next:</b> Carter's ruling and its scope, and whether DOJ jumps to the Supreme Court if it loses. Also the Alaska certification suit and Washington state's sequester demand, and whether "honest" gets defined by anyone other than the side that loses.</p>
+
+<p><b>Sources:</b> <a href="https://www.latimes.com/politics/story/2026-10-26/9th-circuit-denies-feds-appeal-over-20-000-ballots-district-court-hearing-to-proceed" target="_blank" rel="noopener">Los Angeles Times</a>, <a href="https://www.usnews.com/news/politics/articles/2026-10-27/judge-to-consider-whether-california-should-count-20-000-ballots-disputed-by-trump-administration" target="_blank" rel="noopener">Associated Press</a>, <a href="https://www.theguardian.com/us-news/live/2026/oct/27/comey-trump-rubio-texas-vance-israel-midterms-politics-latest-news-updates" target="_blank" rel="noopener">The Guardian</a></p>
+</details>
+
+<details>
+<summary>Flávio Bolsonaro flies to Florida defying a court order — and asks Washington for asylum</summary>
+
+<p><b>What happened:</b> The defeated presidential candidate left Brazil on Tuesday with his wife and two daughters, reportedly bound for Florida, after refusing a Supreme Court order to surrender his passport. Lawmakers from Lula's Workers' Party asked the court to order his arrest and to place him on Interpol's red-notice list. Argentina's immigration authority said it had no record of the family entering the country. US officials confirmed to CNN and Reuters that a plane carrying him was heading to the United States; <i>Folha de S. Paulo</i>, citing family sources, reports the Trump administration will grant him asylum. He faces litigation tied to roughly $905 million.</p>
+
+<p><b>Why it matters:</b> Forty-eight hours after an election, the losing candidate's family is in the air, the winner's allies are seeking an international warrant, and the destination has already signalled protection. A domestic prosecution has become a bilateral dispute in one flight, and the asylum question now sits with a government that spent the campaign calling the Brazilian result a cautionary tale.</p>
+
+<p><b>The pattern:</b> When legal exposure closes in, the move is jurisdiction shopping, not defence. The family's post-election position shifts from legal to territorial in a single afternoon — and an asylum grant to a political ally is also a statement about what the United States is willing to absorb from a defeated friend.</p>
+
+<p><b>What history says:</b> Asylum for the families of fallen strongmen more often buys a decade of litigation and a permanent grievance channel than it buys a resolution. Red notices fail most often on exactly this kind of politics, which makes the Brazilian warrant a test of whether an Interpol request survives contact with Washington.</p>
+
+<p><b>What we're watching next:</b> Whether a formal asylum claim is filed and processed, and whether the grant is confirmed by the US government or stays sourced to the family. Also whether Moraes issues an arrest warrant in absentia — and what Lula's government does about a neighbour hosting its fugitives a week before its own transition.</p>
+
+<p><b>Sources:</b> <a href="https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled" target="_blank" rel="noopener">The Guardian</a>, <a href="https://english.elpais.com/international/2026-10-27/flavio-bolsonaro-flees-to-the-united-states-after-election-defeat-to-lula.html" target="_blank" rel="noopener">El País</a>, <a href="https://edition.cnn.com/2026/10/27/americas/flavio-bolsonaro-brazil-passports-latam-intl" target="_blank" rel="noopener">CNN</a>, <a href="https://www.courthousenews.com/flavio-bolsonaro-reportedly-flees-brazil-for-us-after-travel-ban/" target="_blank" rel="noopener">Courthouse News</a></p>
+</details>
+
 <details>
 <summary>One week out: where the forecasts stand</summary>
 
