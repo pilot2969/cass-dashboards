@@ -371,12 +371,18 @@ if n==0 and rolled_over:
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh archive.log
+git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh archive.log "Internal Telemetry.html" institutions.json internal_cards.txt
 git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
+# 2026-10-26 FIX: the sync itself rewrites Internal Telemetry.html (ledger count)
+# but the file was absent from the add list, leaving the tree dirty -> the rebase
+# below aborted with "cannot pull with rebase: You have unstaged changes" on every
+# run where the ledger count changed (silent: content committed locally, never
+# pushed). Sweep stragglers, and autostash as belt-and-braces.
+git add -A
 # pull with rebase; a failure must abort the script (set -e), never print success.
 # -X ours is safe here because data.json/history.json are generated artifacts:
 # our regen output is authoritative over any remote-only drift.
-git pull --rebase -X ours -q origin main
+git pull --rebase --autostash -X ours -q origin main
 # CONSOLIDATED PUSH BLOCK (2026-10-14 review): exactly one push per remote, per
 # run. origin = staging repo, prod = prod repo, staging = alias of origin.
 # 2026-10-21 PAGES-SERIALIZATION: GitHub Pages rejects a new deployment while
