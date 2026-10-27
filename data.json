@@ -1995,6 +1995,49 @@
  "mget_ledger": [
   {
    "date": "2026-10-26",
+   "time_et": "22:10",
+   "track": "iran war / strike sequencing vs regional mediation",
+   "mget_legs_tested": [
+    "leg2_chokepoint_saturation",
+    "leg4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Same day CNN reported US forces can launch major operations against Iran 'within 96 hours of receiving' an order, the first joint high-level Mecca Pact delegation (Saudi Defense Minister Khalid bin Salman, Pakistani CDF Asim Munir, Turkish intel chief Ibrahim Kalin) met in Tehran with SNSC secretary Mohsen Rezaei and President Pezeshkian \u2014 explicitly to prevent renewed US/Israeli strikes. First such meeting since the Saudi-Houthi flare. READ: two clocks now running against each other, military (96h) and diplomatic (four exposed governments, two of them nominal US partners). Structural significance: regional states are building a cost structure against resumption rather than awaiting US decision \u2014 the Mecca Pact is being used as a conflict-prevention instrument by states that would be hit by the widening. Historical prior (2003) is that mediation more often supplies cover for force generation than prevents it; the discriminator is whether a named mechanism emerges vs a communiqu\u00e9. Timing question is the live one: strike before 11-03 (rally effect, election salience) or held for after (post-election 'big effort' per IBTimes framing of the leak).",
+   "forward_signal": "(1) whether Tehran talks yield a named mechanism, monitoring regime, or only communiqu\u00e9; (2) whether Israel is party to or excluded from any arrangement; (3) whether the 96h readiness posture changes after the meetings; (4) strike order inside vs outside election window; (5) oil price/Bab el-Mandeb behavior if order given.",
+   "confidence_moves": "no numeric moves; sequencing watch updated.",
+   "basename": "2026-10-26-mecca-pact-tehran-mediation-vs-96hr-strike-readiness"
+  },
+  {
+   "date": "2026-10-26",
+   "time_et": "22:10",
+   "track": "election subversion / pre-certification litigation ladder",
+   "mget_legs_tested": [
+    "leg3_enclosure_mutation",
+    "leg1_material_substrate",
+    "leg4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "9th Circuit 2-1 ruled Monday evening that it lacked jurisdiction over DOJ's emergency bid to force California to segregate up to 20,000 ballots; case returns to district court for Tuesday hearing. Trump-appointed Judge Mark Bennett concurred, writing there is a 'real risk' the requested relief 'would result in disenfranchisement'; Bumatay dissented. Hours later DOJ opened a third front: Washington state asked to sequester 400+ ballots with a 24-hour review deadline, announced by Acting US Attorney Neil Floyd. San Benito County clerk reported two armed federal agents hand-delivered a demand letter for 33 names plus SSNs/license numbers: 'we will not be intimidated by agents with guns for simply doing our jobs.' LA County sampled 200 names from the federal list: <50% active voters, >70% never voted, ~25% self-reported US-born. READ: appellate defeat did not slow tempo (third state opened same evening), so the litigation campaign is not outcome-dependent \u2014 its product is the list and the record of 'irregularity,' not the injunction. Three-state simultaneity with pre-election deadlines while ballots are in transit is the enclosure pattern in its procedural form: the demand creates the violation it claims to prevent (state cannot comply in 24h -> noncompliance becomes the post-election claim). Bennett's concurrence supplies the tribunal's own language for the mechanism. Corroborates c-002 (post-election contestation) by demonstrating pre-positioned record-building rather than reactive post-hoc challenge.",
+   "forward_signal": "(1) Tuesday CA district court hearing outcome; (2) whether Washington complies/refuses/sues and whether the 24h clock is enforced; (3) whether ANY state or court produces a verified eligibility count for the federal lists (if none is ever produced, the lists are pure instrument); (4) whether a fourth state is added before 11-03; (5) whether post-election filings cite these pre-election lists as the record of irregularity.",
+   "confidence_moves": "c-002 midterm certification contestation: mechanism strengthened (pre-positioned record vs reactive claim). No numeric move this entry \u2014 logged as mechanism corroboration pending the post-election test.",
+   "basename": "2026-10-26-ninth-circuit-rejects-california-ballot-seizure-washington-third-front"
+  },
+  {
+   "date": "2026-10-26",
+   "time_et": "22:10",
+   "track": "color revolution / referent check",
+   "mget_legs_tested": [
+    "leg3_enclosure_mutation",
+    "leg4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Vu\u010di\u0107 conceded Sunday's snap parliamentary elections to the student-led 'Student List - Students Win' movement after two years of protest; highest turnout in decades, peaceful concession, celebrations in Novi Sad. This is the actual referent of the term being applied domestically this week (Flynn 'traitors/find and arrest', DataRepublican 'homegrown color revolution', RedState 'trial run' framing of Barcelona/Madrid/Rome riots). The genuine article: sustained (~2yr), leaderless, grievance-anchored, non-violent, resolved through the government's own administered ballot with incumbent acceptance. Contrast with the domestic usage, which points at nonprofit contingency planning and political organizing and proposes arrest. Analytic value is definitional: the label's real-world referent is mass civic action producing regime change via elections; the domestic usage inverts it to describe citizens preparing for state failure. This also supplies a falsification handle for claims that color revolutions are foreign-directed: Serbia 2026/2000 mechanics were student organizing, election monitoring, general strike \u2014 visible, local, slow.",
+   "forward_signal": "(1) whether a Serbian government forms and holds with Vu\u010di\u0107-era institutional levers intact; (2) EU/Russia posture adjustment to Belgrade; (3) whether US domestic users of the phrase acknowledge the Serbian case or drop the comparison; (4) whether the term's domestic usage intensifies after a genuine foreign example (inversion test: real case abroad + acceleration at home = the word is functioning as accusation, not description).",
+   "confidence_moves": "no numeric moves; definitional baseline logged for the color-revolution frame watch.",
+   "basename": "2026-10-26-serbia-vucic-concedes-student-movement-referent-check"
+  },
+  {
+   "date": "2026-10-26",
    "time_et": "22:05",
    "track": "information environment / fabricated pre-legitimation artifact",
    "mget_legs_tested": [
