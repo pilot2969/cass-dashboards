@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T09:54 ET"
+  "generated_stamped": "2026-10-27T10:07 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -496,26 +496,28 @@
    "title": "CONTROL-2: No Insurrection Act Invocation Tied to the 2026 Midterms (through Jan 20, 2027)",
    "date_made": "2026-10-07",
    "time_et": "22:35",
-   "statement": "The President of the United States will not invoke the Insurrection Act (10 U.S.C. 251-253) during the window Nov 1, 2026 - Jan 20, 2027, in any manner tied to the Nov 3 midterms, election administration, certification, or response to post-election protest. Invocation is defined as a signed presidential proclamation or executive order directing or authorizing deployment of armed forces under 10 U.S.C. 251-253, announced by the White House or published in the Federal Register. Ceremonial, rhetorical, or preparatory references (drafting, teasing, 'considering') do NOT constitute invocation. [P18-T REVISED 2026-10-07, Condition 1/6: Tier-2 LINKAGE CLAUSE \u2014 signed deployment orders under existing proclamation authority, or a declared national emergency, tied to election administration are scored as pressure AGAINST this card's cluster and MUST be recorded in this card's revision log when they occur; the substantive-outcome observable is carried by the paired P15-T card. No double registration.]",
-   "confidence": 76.0,
+   "statement": "The President of the United States will not deploy armed forces (including federalized Guard) in an election-administration, certification, or post-election-protest role during the window Nov 1, 2026 - Jan 20, 2027, regardless of statutory authority; any Insurrection Act (10 U.S.C. 251-253) use with its mandatory 254 dispersal proclamation is Tier-1 and falsifies. Continuing-operation clause: covers instruments signed pre-window and operative in-window. Terminus: 12:00 ET Jan 20, 2027. [P20-T REVISED 2026-10-27, all 6 conditions adopted: conduct-based falsifier with footprint-corroboration purpose test and pro-equivalence default; Tier-2 confined to signed orders under non-251-253/254 authorities tied to election administration (recorded in revision log, scored against the cluster); symmetric evidence admissibility (pre-window absences struck); explicit partial-hit rule across the three outcome families; stated derivation with live n=1 reference class and named movers.]",
+   "confidence": 70.0,
    "status": "pending",
    "evidence_confirmed": [
-    "The Act has never been invoked for a midterm election in US history (base rate)",
-    "No qualifying invocation as of 2026-10-07 despite sustained signaling environment",
-    "Most recent civilian-law invocations (1992 LA riots) were narrow and crisis-triggered"
+    "No Insurrection Act invocation under 251-253 in an election-tied role in US history; 1871 Enforcement Act proclamations distinguished (independent authority, not 251-253)",
+    "No qualifying conduct as of 2026-10-27 despite sustained signaling environment",
+    "Last civilian-law invocation (1992, Los Angeles) was narrow and crisis-triggered",
+    "Prior domestic deployments 2025-2026 under 12406 and related authorities without Act invocation (now also a falsifier route, per P20-T Charge 1 repair)"
    ],
    "evidence_contradicted": [
-    "2026-10-01 Time interview (verified): Trump refuses to rule out invocation or national emergency declaration 'around the midterm elections'",
-    "2026-10-06 Vought 'big surprises in another few weeks' remark (verified) consistent with pre-window action planning",
-    "2026-10-07 The Hill / USA Today / HuffPost / Election Law Blog coverage shows invocation frame mainstreamed pre-emptively",
-    "NSPM-7-class enforcement active with no declared pause mechanism"
+    "2026-10-01 Time interview (verified): refusal to rule out invocation or national emergency 'around the midterm elections'",
+    "'Big surprises coming up in another few weeks' (2026-10-06) - consistent with pre-window action planning",
+    "Invocation frame mainstreamed pre-emptively in national coverage",
+    "National-security-memo enforcement regime active with no declared pause mechanism"
    ],
-   "falsifier": "Any signed presidential proclamation or executive order invoking 10 U.S.C. 251-253 in the window Nov 1, 2026 - Jan 20, 2027, where the purpose determination is made per the P18-T objective purpose test: contemporaneous WH/DOD/DHS documents and public statements within 72 hours of the invocation control the purpose determination; where those are silent or contradictory, the tie goes to the null (Condition 4). Single observable, binary, resolvable within 48 hours. An invocation UNRELATED to the midterms is NOT a falsification. Tier machinery: Tier-1 = signed invocation (falsifies); Tier-2 = signed deployment order under existing proclamation authority or declared national emergency tied to election security (pressure, does not falsify \u2014 MANDATORY LINKAGE: recorded in this card's revision log, scored against the cluster per P12-T rule, substantive outcome carried by paired P15-T card; Condition 1); Tier-3 = public draft or tease (context only). Pre-window carve-out retained as written with P15-T linkage made explicit (Condition 6): a signed invocation before Nov 1 tied to midterms scores as Tier-2 pressure here and at full severity on the P15-T re-registered card (conf 50, moved on this event class 2026-10-05).",
+   "falsifier": "Conduct-based (P20-T): armed forces or federalized Guard deployed in an election-administration, certification, or post-election-protest role within the window, regardless of statutory authority (citation recorded as descriptor). Purpose adjudicated by footprint-consistency corroboration (locations, tasking, rules on the ground inconsistent with claimed rationale, or contemporaneous documents tying tasking to election administration) under a pro-equivalence default. Partial hits fire and record the firing family. Observable at +48h; purpose determination final at +72h; provisional before. Tier-1: any 251-253 use with its 254 proclamation, or qualifying conduct. Tier-2 (pressure, no falsify, logged): signed deployment orders under other authorities tied to election administration. Election-independent deployments (e.g., disaster response coincident with certification) do NOT falsify. Derivation: live class n=1 (2022 cycle signaled, not invoked), discounted historical prior; movers: Tier-2 election-tied order or WH counsel drafting leak -5 to -10; major-party nominee disavowal +5.",
    "forward_watchlist": [
-    "White House counsel drafting activity leaks (Tier-3 signal)",
-    "Any DOJ/DHS election-security deployment announcements (Tier-2 pressure)",
-    "Second national-level actor activating fraud frame before Nov 3 (midterms catalyst card linkage)",
-    "SCOTUS emergency applications touching federalized-force authority"
+    "WH counsel drafting leaks (Tier-3)",
+    "DOJ/DHS election-security deployments under any authority (Tier-2 if election-tied)",
+    "Second national-level actor activating fraud frame before Nov 3 (catalyst card linkage)",
+    "SCOTUS emergency applications touching federalized-force authority",
+    "Guard tasking orders near counting/certification sites (footprint-corroboration watch)"
    ],
    "confirmer": "CONTROL-2 registers the NULL OUTCOME: window closes Jan 20, 2027 with no qualifying invocation. [P18-T Condition 5: the 'converts into evidence FOR the cluster spine' clause is DELETED \u2014 self-sealing heads-I-win structure per prosecution Charge 5, sustained.] Null failure scores as null failure on this card; any cluster inference runs exclusively through the named-actor conversion rule (P12-T scoring rule), which names its conditions independently.",
    "confirmer_base_rate": "n/a - control study; outcome feeds emergency-powers/catalyst adjudication, not its own score.",
@@ -7951,12 +7953,6 @@
  ],
  "movers": [
   {
-   "time": "2026-10-27 09:55 ET (tribunal case-020)",
-   "ref": "CONTROL-2: No Insurrection Act Invocation Tied to the 2026 Midterms (through Jan 20, 2027)",
-   "change": "confidence 72 \u2014 status pending",
-   "trigger": "Sweep 2026-10-27 (case-020): no qualifying invocation or Tier-2 election-tied deployment order as of case filing; purpose test clean; 4 pressure-environment items logged 10-23..10-"
-  },
-  {
    "time": "2026-10-27 09:45 ET (sweep)",
    "ref": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
    "change": "confidence 78 \u2014 status emergent",
@@ -7997,6 +7993,12 @@
    "ref": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
    "change": "confidence 45.0 \u2014 status pending",
    "trigger": "State certification processes hardened since 2020"
+  },
+  {
+   "time": "2026-10-27 (P20-T ruling)",
+   "ref": "CONTROL-2: No Insurrection Act Invocation Tied to the 2026 Midterms (through Jan 20, 2027)",
+   "change": "confidence 70 \u2014 status pending",
+   "trigger": "Sweep 2026-10-27 (case-020): no qualifying invocation or Tier-2 election-tied deployment order as of case filing; purpose test clean; 4 pressure-environment items logged 10-23..10-"
   },
   {
    "time": "2026-10-27",
