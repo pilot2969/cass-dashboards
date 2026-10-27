@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T00:25 ET"
+  "generated_stamped": "2026-10-27T09:02 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1993,6 +1993,50 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-27",
+   "time_et": "09:01",
+   "track": "iran-war-regionalization",
+   "mget_legs_tested": [
+    "proxy war -> regional war conversion",
+    "hegemon attention scarcity",
+    "settlement-authority transfer"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Overnight: Saudi-led coalition intercepted Houthi ballistic missiles/drones targeting Eastern Province and Kharj (Reuters, Oct 27). Egypt's parliament voted to authorize Sisi to provide Saudi Arabia military support against the Houthis (AP). Simultaneously Iran's SNSC deputy secretary says senior reps of Saudi Arabia, Turkey, and Pakistan met Iranian officials in Tehran 'to promote regional security' (NYT). Iran's rivals are preparing to fight its proxy while talking to Iran itself \u2014 regional architecture building in real time because US attention is the scarce resource (three CSGs in CENTCOM, 96-hour readiness vs Iran proper). Same-cycle NYT: Netanyahu sought a new airstrike for weeks against IDF chief Zamir's resistance; Zamir warned a short-of-strike action would be a miscalculation provoking Iranian retaliation \u2014 the Israeli apparatus is split on escalation too. Both signs point to regional states taking settlement authority while Washington holds the strike option it is not using.",
+   "forward_signal": "Watch: Egyptian deployment beyond authorization; Houthi strike cadence; a Saudi-Iran channel bypassing Washington; whether the 96-hour readiness order comes before or after Nov 3; Israeli unilateral action around the IDF chief's resistance.",
+   "confidence_moves": "none (post-election-strike sequencing already live at prior confidence; regionalization is directional confirmation)",
+   "basename": "2026-10-27-iran-war-regionalization-egypt-saudi-tehran-talks"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "09:01",
+   "track": "midterms-catalyst",
+   "mget_legs_tested": [
+    "pre-election fraud narrative pre-position",
+    "loser-narrative pre-build",
+    "public incentive layer added to litigation stack"
+   ],
+   "verdict": "strains",
+   "reasoning": "Trump promises $1,000,000 'upon the arrest and conviction of those that created the Fraud' for reports covering past elections AND the 2026 midterms (morning wire items Oct 27; WH declined to identify funding source or reporting mechanism). Not a policy: a narrative pre-position manufacturing a standing incentive to generate fraud claims citable after Election Day regardless of the count. Third layer of the pre-build now assembled \u2014 courts (CA/AK/WA ballot suits, AK certification suit), states (WA sequester demand, 24h deadline), public (bounty). 'Past elections' scope keeps 2020 alive as precedent inside the 2026 frame. STRAINS: the bounty tightens the fraud pre-build around the legitimacy system \u2014 feeds the legitimacy-catalyst node and c-002 (the explanation for a lost count is now pre-funded, pre-announced, pre-associated with arrest).",
+   "forward_signal": "Watch: whether any funding/reporting mechanism materializes (expect none); volume of fraud referrals Nov 3-10; bounty cited in certification contests; copycat bounty framing migrating to state officials.",
+   "confidence_moves": "none (structural extension of already-live prediction; no countervailing evidence)",
+   "basename": "2026-10-27-trump-1m-fraud-bounty-pre-position"
+  },
+  {
+   "date": "2026-10-26",
+   "time_et": "22:42",
+   "track": "Korea / adversarial probing during domestic distraction \u2014 COVERAGE GAP (no prior Korea entry in ledger, prediction, or watch set)",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment (US bandwidth: two-theater load while in Iran war day 240, 8 days from midterms)",
+    "leg_3_enclosure_mutation (border fortification as territorial formalization \u2014 'two hostile states' doctrine)"
+   ],
+   "verdict": "neutral",
+   "reasoning": "VERIFIED, multiple independent sources (Reuters witness + Yonhap photojournalism, JCS on record Oct 27). Sequence: Sep 21 DMZ landmine blast (UN Command: North Korean mine across the line violated the armistice; Pyongyang denies) -> Oct 20 NK threatens to forward-deploy strike assets, Seoul warns 'decisive retaliation' -> Oct 21-22 Kim Yo-jong threatens 'new tactical weapons' + loudspeakers ready 'within days' -> Oct 23 Seoul letter to UNSC -> Oct 25 NK letter to UNSC calling the mine blast a South Korean fabrication, warning sovereignty violations 'could trigger self-defence measures' -> Oct 26 Yonhap photos from the Gimpo observatory: a 122mm self-propelled howitzer in coastal Kaepung County ~1.5km from the South Korean viewing deck, barrels south, ~20-30 troops fencing INSIDE the DMZ, vehicle slogan 'Annihilate the U.S. imperialist aggressors' -> Oct 27 JCS spokesperson Capt. Jang Do-young: legacy artillery deployed 'in plain view', explicitly NOT the new weapons system Pyongyang threatened. Seoul has proposed talks; Unification Ministry calls the NK letter a restatement of existing position. Two facts carry the analysis: (1) per Yonhap this is the first time the North has put a heavy weapons system directly on the border \u2014 the display is the signal, not the capability; (2) Seoul's own military publicly downgraded it within 24 hours. Lim Eul-chul's read is the one to keep: exposing the artillery conspicuously signals intent to enforce border policy by force rather than negotiation, while warning Seoul off escalation to prevent an accidental clash \u2014 i.e. a managed-signalling move with a de-escalatory face. WHY verdict=neutral, not confirms: we hold no falsifiable Korea claim. We have asserted the general mechanism (adversaries read domestic distraction as opportunity \u2014 price-of-empire / quagmire-at-home) but never stated it as a claim with a falsification test, so this cannot 'confirm' anything. Per the Gauntlet standing rules a claim without a falsification condition is HELD FOR REVISION; the same discipline applies to an unstated one. Filing this as a confirmed leg-4 hit would be exactly the laundering the charter forbids. FRAMING NOTE (the part that travels): the viral version of this \u2014 a 352K-view aggregation post \u2014 strips both qualifiers. It presents the howitzer as an emergency without the JCS 'legacy, not new' assessment and without the exchange-of-letters context that explains the timing. Substantively accurate, materially misleading by omission: the gap between 'North Korea is deploying artillery' and 'North Korea is deliberately showing a 60-year-old gun to signal, and its neighbour says so' is the whole story.",
+   "forward_signal": "Falsifiable test constructed so this stops being an unfalsifiable observation \u2014 ONE of three markers within 30 days (by 2026-11-25): (a) NK fires a weapon across or into the MDL/JMD area, or detonates a device injuring ROK personnel \u2014 would establish the display as pre-attack signalling rather than deterrent messaging; (b) NK actually forward-deploys a system its own state media identifies as one of the 'new tactical weapons', with independent imagery confirming the class \u2014 would falsify the JCS 'legacy only' assessment and the managed-signalling read; (c) NK accepts or engages Seoul's dialogue offer, or a working-level channel opens during or after Kim's China diplomacy \u2014 would establish the artillery as a bargaining chip and falsify the 'enforcement by force rather than negotiation' reading. If none of the three fires by 2026-11-25, record the managed-signalling interpretation as the standing read and retire the watch. NOTE THE STRUCTURAL BLIND SPOT, which is the real finding: this machine tracks Iran, the domestic election machinery, Brazil, and the transatlantic picture in detail and had ZERO Korea objects before tonight. A second theater opening while the US is committed in Iran and days from a contested certification is precisely the scenario our own distraction thesis predicts and we had no sensor on. Building the sensor, not claiming the prediction.",
+   "confidence_moves": "No prediction confidence moves \u2014 no Korea prediction exists to move. Gap logged. Late Oct 2026 is the first point at which a two-theater load became materially observable, and we were not watching it.",
+   "basename": "2026-10-26-nk-border-artillery-signalling-korea-blindspot"
+  },
   {
    "date": "2026-10-26",
    "time_et": "22:10",
@@ -7895,6 +7939,18 @@
   }
  ],
  "movers": [
+  {
+   "time": "2026-10-27",
+   "ref": "Korea \u2014 Russia's contraction produces a patron swap, not unification (and not regime collapse)",
+   "change": "confidence 72 \u2014 status emergent",
+   "trigger": "Lowy Institute: Pyongyang welcomes Russian security guarantees specifically to minimise dependence on Chinese ones \u2014 meaning the Russia tie is a diversification play, and its loss "
+  },
+  {
+   "time": "2026-10-27",
+   "ref": "Korean War II \u2014 four-link chain (Samuel's reverse-order thesis), scored at 7% through 2030",
+   "change": "confidence 10 \u2014 status emergent",
+   "trigger": "Foreign Affairs: 'China Doesn't Want to Lead an Axis' \u2014 Beijing wants clients, not co-belligerents. Russia will not fight for China, the DPRK answers to Moscow, Iran is geographica"
+  },
   {
    "time": "2026-10-25 20:10 ET",
    "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
