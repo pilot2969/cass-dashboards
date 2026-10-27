@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T09:02 ET"
+  "generated_stamped": "2026-10-27T09:11 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -7940,6 +7940,18 @@
  ],
  "movers": [
   {
+   "time": "2026-10-27 09:10 ET",
+   "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
+   "change": "confidence 0.55 \u2014 status pending",
+   "trigger": "Item 8 (2026-10-27): pre-build activation #2 logged \u2014 $1,000,000 bounty for voter-fraud reports scoped to 'past Elections, or the upcoming 2026 Midterm Election,' payable 'upon the"
+  },
+  {
+   "time": "2026-10-27 09:10 ET",
+   "ref": "CONTROL STUDY: Election Proceeds Cleanly, Results Accepted, No Crisis",
+   "change": "confidence 45.0 \u2014 status pending",
+   "trigger": "State certification processes hardened since 2020"
+  },
+  {
    "time": "2026-10-27",
    "ref": "Korea \u2014 Russia's contraction produces a patron swap, not unification (and not regime collapse)",
    "change": "confidence 72 \u2014 status emergent",
@@ -7956,12 +7968,6 @@
    "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
    "change": "confidence 70 \u2014 status pending",
    "trigger": "2026-10-25: contestation stack hardens 9 days out \u2014 (a) appeals court EXPEDITED DOJ's bid to block CA ballot counting into the election window; (b) DOJ deploying ~1,000 observers, "
-  },
-  {
-   "time": "2026-10-25 20:10 ET",
-   "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
-   "change": "confidence 0.45 \u2014 status pending",
-   "trigger": "2026-10-25: DOJ Alaska suit escalates through Sunday shows \u2014 AG Blanche refuses 4x to say whether Trump ordered it (Trump already admitted on camera 'I'm the one that said, do it')"
   },
   {
    "time": "2026-10-25 20:10 ET",
@@ -7984,6 +7990,7 @@
  ],
  "daily_read": {
   "summary": [
+   "One week out: where the forecasts stand",
    "Abu Dhabi talks are days away and the peace track is already splitting from the weapons track",
    "Brazil's reckoning begins: Fl\u00e1vio Bolsonaro's passport seized, Trump's orbit calls the result a 'cautionary tale'",
    "The third Comey case: charges filed under seal, without a judge or a jury seeing them first",
@@ -8001,6 +8008,7 @@
    "ICE leaves a US citizen special-education student with a broken wrist"
   ],
   "watching": [
+   "Whether any post-election qualifying action lands: certification refusal/delay, overturn suits, or confrontation-posture deployments (through Dec 14)",
    "Whether Hegseth releases Ukraine's paid-for missiles before the Nov 10 Abu Dhabi talks",
    "Whether the Comey criminal information survives a judge or is forced back to a grand jury",
    "Whether Egypt deploys forces beyond the authorization \u2014 and whether a Saudi\u2013Iran channel opens outside Washington",
@@ -8015,6 +8023,10 @@
    "Whether \"color revolution\" rhetoric converts into an actual investigation before November 3"
   ],
   "cards": [
+   {
+    "title": "One week out: where the forecasts stand",
+    "html": "<p><b>What happened:</b> With seven days to Election Day, we re-scored the forecast stack. The certification-contestation claim moved up (45% to 55%) because its pre-build test is now satisfied; the \"clean election\" control moved down (57% to 45%) because it keeps absorbing contradictions; the September 90-day stress forecast was re-stamped with its trigger window validated. The election-violence forecast stays low, unchanged.</p>\n\n<p><b>Why it matters:</b> The contestation pre-build is complete in every layer: courts (ballot-seizure suits in California and Washington, plus the Alaska certification suit), states (sequester demands with named voter lists), and public (a $1 million bounty for fraud reports covering \"past Elections, or the upcoming 2026 Midterm Election\"). The explanation for a lost count is being assembled before votes are counted \u2014 which is exactly what our September diagnosis said to watch for.</p>\n\n<p><b>The pattern:</b> Every contested-election script has the same anatomy, and it is written in advance: litigate the count, hold named lists of suspect voters, fund and amplify the fraud narrative, and keep arrest promises attached to it. None of that requires Election Day violence \u2014 and its absence is expected, not reassuring.</p>\n\n<p><b>What history says:</b> The 2020 sequence ran the same layers, but only after the count. In 2026 the litigation, the lists, and the narrative apparatus are being stood up beforehand, by the federal executive \u2014 the difference between improvising a challenge and pre-building one.</p>\n\n<p><b>What we're watching next:</b> Post-Nov 3 qualifying actions: certification refusals or delays, suits to overturn or re-run counts, or federal personnel in confrontation posture at counting sites through Dec 14. Also whether the $1M bounty ever gets a funding mechanism, and whether Iran strikes are ordered before or after the vote.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nytimes.com/live/2026/10/26/us/midterms-elections-trump\" target=\"_blank\" rel=\"noopener\">New York Times</a>, <a href=\"https://www.justsecurity.org/162113/early-edition-october-27-2026/\" target=\"_blank\" rel=\"noopener\">Just Security</a>, <a href=\"https://cicero.uchicago.edu/\" target=\"_blank\" rel=\"noopener\">UChicago CPOST (Pape)</a></p>"
+   },
    {
     "title": "Trump offers $1 million for voter-fraud convictions \u2014 seven days before an election he is already litigating",
     "html": "<p><b>What happened:</b> On Monday, Trump posted that anyone reporting voter fraud \u2014 in past elections \"or the upcoming 2026 Midterm Election\" \u2014 will be paid $1,000,000 \"upon the arrest and conviction of those that created the Fraud!\" The White House did not answer where the money would come from or how citizens would report accusations.</p>\n\n<p><b>Why it matters:</b> There is no appropriation, no program, no legal mechanism \u2014 and that is the point. The promise is not a policy, it is a narrative pre-position: it manufactures a standing incentive to generate fraud claims that can be cited after Election Day, whatever the count shows. It pairs with the ballot-seizure lawsuits and the Alaska certification suit as a three-layer pre-build: courts, states, and now the public.</p>\n\n<p><b>The pattern:</b> Every losing narrative needs a pre-built explanation that is not defeat. The 2020 script \u2014 fraud claims, arrest promises, \"stolen\" \u2014 is being loaded before votes are counted, not after.</p>\n\n<p><b>What history says:</b> The 2020 cycle ran this exact sequence, and the claims were tested in about 60 lost court cases. The difference in 2026 is that the fraud apparatus is being stood up in advance, by the federal executive, with a price attached.</p>\n\n<p><b>What we're watching next:</b> Whether any funding or reporting mechanism materializes (expect none); the volume of fraud referrals after November 3; whether the promise is cited in certification contests.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nytimes.com/live/2026/10/26/us/midterms-elections-trump\" target=\"_blank\" rel=\"noopener\">New York Times</a>, <a href=\"https://www.france24.com/en/americas/20261026-trump-offers-1-million-for-tipoffs-leading-to-v\" target=\"_blank\" rel=\"noopener\">France 24</a>, <a href=\"https://drydenwire.com/news/morning-headlines-tuesday-oct-27-2026\" target=\"_blank\" rel=\"noopener\">DrydenWire</a></p>"

@@ -3,6 +3,7 @@
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
 SUMMARY:
+- One week out: where the forecasts stand
 - Abu Dhabi talks are days away and the peace track is already splitting from the weapons track
 - Brazil's reckoning begins: Flávio Bolsonaro's passport seized, Trump's orbit calls the result a 'cautionary tale'
 - The third Comey case: charges filed under seal, without a judge or a jury seeing them first
@@ -20,6 +21,7 @@ SUMMARY:
 - ICE leaves a US citizen special-education student with a broken wrist
 
 WATCHING:
+- Whether any post-election qualifying action lands: certification refusal/delay, overturn suits, or confrontation-posture deployments (through Dec 14)
 - Whether Hegseth releases Ukraine's paid-for missiles before the Nov 10 Abu Dhabi talks
 - Whether the Comey criminal information survives a judge or is forced back to a grand jury
 - Whether Egypt deploys forces beyond the authorization — and whether a Saudi–Iran channel opens outside Washington
@@ -34,6 +36,22 @@ WATCHING:
 - Whether "color revolution" rhetoric converts into an actual investigation before November 3
 
 <!--parser markers above; collapsible cards below-->
+<details>
+<summary>One week out: where the forecasts stand</summary>
+
+<p><b>What happened:</b> With seven days to Election Day, we re-scored the forecast stack. The certification-contestation claim moved up (45% to 55%) because its pre-build test is now satisfied; the "clean election" control moved down (57% to 45%) because it keeps absorbing contradictions; the September 90-day stress forecast was re-stamped with its trigger window validated. The election-violence forecast stays low, unchanged.</p>
+
+<p><b>Why it matters:</b> The contestation pre-build is complete in every layer: courts (ballot-seizure suits in California and Washington, plus the Alaska certification suit), states (sequester demands with named voter lists), and public (a $1 million bounty for fraud reports covering "past Elections, or the upcoming 2026 Midterm Election"). The explanation for a lost count is being assembled before votes are counted — which is exactly what our September diagnosis said to watch for.</p>
+
+<p><b>The pattern:</b> Every contested-election script has the same anatomy, and it is written in advance: litigate the count, hold named lists of suspect voters, fund and amplify the fraud narrative, and keep arrest promises attached to it. None of that requires Election Day violence — and its absence is expected, not reassuring.</p>
+
+<p><b>What history says:</b> The 2020 sequence ran the same layers, but only after the count. In 2026 the litigation, the lists, and the narrative apparatus are being stood up beforehand, by the federal executive — the difference between improvising a challenge and pre-building one.</p>
+
+<p><b>What we're watching next:</b> Post-Nov 3 qualifying actions: certification refusals or delays, suits to overturn or re-run counts, or federal personnel in confrontation posture at counting sites through Dec 14. Also whether the $1M bounty ever gets a funding mechanism, and whether Iran strikes are ordered before or after the vote.</p>
+
+<p><b>Sources:</b> <a href="https://www.nytimes.com/live/2026/10/26/us/midterms-elections-trump" target="_blank" rel="noopener">New York Times</a>, <a href="https://www.justsecurity.org/162113/early-edition-october-27-2026/" target="_blank" rel="noopener">Just Security</a>, <a href="https://cicero.uchicago.edu/" target="_blank" rel="noopener">UChicago CPOST (Pape)</a></p>
+</details>
+
 
 <details>
 <summary>Trump offers $1 million for voter-fraud convictions — seven days before an election he is already litigating</summary>
