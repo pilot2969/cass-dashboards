@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T16:33 ET"
+  "generated_stamped": "2026-10-27T16:38 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1995,6 +1995,66 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-10-27",
+   "time_et": "16:30",
+   "track": "election-infrastructure-stress",
+   "mget_legs_tested": [
+    "substrate failure at close of cycle",
+    "disclosure window closure",
+    "attribution vacuum as narrative asset"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FEC website targeted by hacker(s); electronic filing system offline since ~22:00 ET Monday per status message and an email seen by Reuters; 24/48-hour spending reports blocked, which are the last pre-vote disclosures of who is paying for closing ads. CISA and FBI did not respond; no attribution. Compliance lawyer Steven Mele: 'I've never seen this in 26 years... there will be less disclosure on the elections.' Confirms the substrate reading: near the vote, few systems can absorb a failure, and the money trail is the cheapest thing to break. Third stress point in six days alongside courts and county election offices \u2014 only this one needed an adversary, which is the discriminator to keep.",
+   "forward_signal": "Restoration time; whether 24/48-hour reports are filed late or never; whether attribution lands before Nov 3, and whether any official names a culprit before one is established (which would convert an outage into a narrative asset).",
+   "confidence_moves": "none",
+   "basename": "2026-10-27-fec-disclosure-outage"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "16:30",
+   "track": "midterms-catalyst",
+   "mget_legs_tested": [
+    "loser-conditional on legitimacy",
+    "litigation-as-count-contestation",
+    "pre-vote legal front expansion"
+   ],
+   "verdict": "confirms",
+   "reasoning": "(a) Judge Carter heard DOJ's bid to set aside ~20,000 California mail ballots Tuesday afternoon and promised to rule 'promptly'; Monday's 9th Circuit 2-1 (Bennett/Sanchez) dismissed DOJ's emergency appeal as premature \u2014 procedural, merits untouched, route only slowed. (b) Trump en route to Texas: will accept midterm results 'if they're honest.' The conditional now precedes the vote rather than following it \u2014 in 2020 it arrived after the count. Confirms the pre-build read on C-002 without a confidence move: litigation in multiple states, named lists, a $1M bounty, and a reserved legitimacy judgement are each legal and separately survivable; the aggregate is the precondition for a contested certification.",
+   "forward_signal": "Carter's ruling and scope; DOJ to SCOTUS if it loses; Alaska certification suit and Washington sequester demand; whether 'honest' is ever defined by anyone other than the loser.",
+   "confidence_moves": "none (C-002 55 stands; pre-build tell closes Nov 3)",
+   "basename": "2026-10-27-honest-results-conditional"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "16:30",
+   "track": "prelegitimation-export",
+   "mget_legs_tested": [
+    "pre-built fraud claim",
+    "existential framing of a count",
+    "template transfer across allied democracies"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Israel: turnout highest since 1988 (~3/4 two hours out); Channel 12 exit poll anti-Netanyahu 52 / pro 50, Likud 24, Yashar 22, Palestinian-led 18 (record), no bloc to 61 without Arab parties. Closing week ran on annihilation framing (AI mushroom cloud over Tel Aviv, 'trembling hand' post) plus election-day claims that 'Muslim Brotherhood supporters' were stealing the vote. That is the full fraud-claim kit deployed before the count exists \u2014 the same structure the US stack has been pre-building through courts, named voter lists and the $1M bounty. Confirms the export reading: the template is now in use in two allied democracies in the same week, each by an incumbent, each framed as existential rather than procedural.",
+   "forward_signal": "Final results and whether any Netanyahu-aligned figure contests the count itself (not just losing it); whether Arab parties enter a coalition; what a post-Netanyahu government does about the Iran decision sitting in Washington.",
+   "confidence_moves": "none (prelegitimation export was already live; this is the second national specimen)",
+   "basename": "2026-10-27-israel-election-prebuild-fraud-claim"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "16:30",
+   "track": "iran-war-regionalization",
+   "mget_legs_tested": [
+    "settlement-authority transfer",
+    "de-escalation architecture without named mechanism",
+    "proxy control claim"
+   ],
+   "verdict": "strains",
+   "reasoning": "Tehran round ended with no deal: Saudi defence minister, Pakistan army chief, Turkish intel chief met Pezeshkian/Rezaei Monday; clearest outcome per The National was an agreement to keep talking, second round possibly Turkey. Iran asked the three to push Washington to accept a two-week regional pause in exchange for gradual Hormuz reopening and disclaimed leverage over the Houthis; hours later the Saudi-led coalition intercepted 3 ballistic missiles + 4 drones, then 2 more toward Riyadh. STRAINS the morning read: the regionalization thesis (rivals taking settlement authority while Washington holds an unused strike option) is intact, but the de-escalation half failed its first test \u2014 no mechanism, no communiqu\u00e9, and fire continuing through the diplomatic window. Also note the Iranian leverage disclaimer is a claim that cuts against the 'Iran controls the proxies' assumption built into several cards.",
+   "forward_signal": "Second round in Turkey scheduled? US answer to the two-week pause offer before Nov 3? Houthi cadence through the window? Nov 10 Abu Dhabi track surviving a strike order?",
+   "confidence_moves": "none (regionalization is directional; -0 on sequencing)",
+   "basename": "2026-10-27-tehran-talks-no-deal"
+  },
   {
    "date": "2026-10-27",
    "time_et": "12:45",
