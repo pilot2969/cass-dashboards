@@ -3,6 +3,11 @@
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
 SUMMARY:
+- Abu Dhabi talks are days away and the peace track is already splitting from the weapons track
+- Brazil's reckoning begins: Flávio Bolsonaro's passport seized, Trump's orbit calls the result a 'cautionary tale'
+- The third Comey case: charges filed under seal, without a judge or a jury seeing them first
+- The Iran war goes regional: Egypt votes to fight for Saudi Arabia while envoys fly into Tehran to stop the spread
+- Trump offers $1 million for voter-fraud convictions — seven days before an election he is already litigating
 - A federal appeals court rejects the ballot seizures 2-1 — and DOJ opens a third front in Washington
 - Iran's neighbors fly into Tehran to stop a war the United States is already positioned to start
 - A viral screenshot says Trump declared midterm victory. It's fabricated — and the real posts are worse
@@ -15,6 +20,10 @@ SUMMARY:
 - ICE leaves a US citizen special-education student with a broken wrist
 
 WATCHING:
+- Whether Hegseth releases Ukraine's paid-for missiles before the Nov 10 Abu Dhabi talks
+- Whether the Comey criminal information survives a judge or is forced back to a grand jury
+- Whether Egypt deploys forces beyond the authorization — and whether a Saudi–Iran channel opens outside Washington
+- Whether the $1M bounty gets a funding source or stays narrative-only — and fraud-referral volume after Nov 3
 - Tuesday's California district court hearing, and whether Washington complies, refuses, or sues
 - Whether the Tehran talks produce a named mechanism or only a communiqué — and when the strike order lands
 - Whether any state verifies how many names on the federal lists were actually ineligible
@@ -25,6 +34,86 @@ WATCHING:
 - Whether "color revolution" rhetoric converts into an actual investigation before November 3
 
 <!--parser markers above; collapsible cards below-->
+
+<details>
+<summary>Trump offers $1 million for voter-fraud convictions — seven days before an election he is already litigating</summary>
+
+<p><b>What happened:</b> On Monday, Trump posted that anyone reporting voter fraud — in past elections "or the upcoming 2026 Midterm Election" — will be paid $1,000,000 "upon the arrest and conviction of those that created the Fraud!" The White House did not answer where the money would come from or how citizens would report accusations.</p>
+
+<p><b>Why it matters:</b> There is no appropriation, no program, no legal mechanism — and that is the point. The promise is not a policy, it is a narrative pre-position: it manufactures a standing incentive to generate fraud claims that can be cited after Election Day, whatever the count shows. It pairs with the ballot-seizure lawsuits and the Alaska certification suit as a three-layer pre-build: courts, states, and now the public.</p>
+
+<p><b>The pattern:</b> Every losing narrative needs a pre-built explanation that is not defeat. The 2020 script — fraud claims, arrest promises, "stolen" — is being loaded before votes are counted, not after.</p>
+
+<p><b>What history says:</b> The 2020 cycle ran this exact sequence, and the claims were tested in about 60 lost court cases. The difference in 2026 is that the fraud apparatus is being stood up in advance, by the federal executive, with a price attached.</p>
+
+<p><b>What we're watching next:</b> Whether any funding or reporting mechanism materializes (expect none); the volume of fraud referrals after November 3; whether the promise is cited in certification contests.</p>
+
+<p><b>Sources:</b> <a href="https://www.nytimes.com/live/2026/10/26/us/midterms-elections-trump" target="_blank" rel="noopener">New York Times</a>, <a href="https://www.france24.com/en/americas/20261026-trump-offers-1-million-for-tipoffs-leading-to-v" target="_blank" rel="noopener">France 24</a>, <a href="https://drydenwire.com/news/morning-headlines-tuesday-oct-27-2026" target="_blank" rel="noopener">DrydenWire</a></p>
+</details>
+
+<details>
+<summary>The Iran war goes regional: Egypt votes to fight for Saudi Arabia while envoys fly into Tehran to stop the spread</summary>
+
+<p><b>What happened:</b> Overnight, Saudi-led coalition forces intercepted ballistic missiles and drones fired by the Houthis at Saudi Arabia's Eastern Province and Kharj. Egypt's parliament voted to authorize President Sisi to provide Saudi Arabia military support against the Houthis. At the same time, Iran's security council says senior representatives of Saudi Arabia, Turkey, and Pakistan met Iranian officials in Tehran "to promote regional security."</p>
+
+<p><b>Why it matters:</b> The war is growing neighbors. Iran's regional rivals are simultaneously preparing to fight its proxy and talking to Iran itself — that is what containment of a spreading war looks like from the inside. For the United States, every new front is leverage for the strike faction that argues the 96-hour readiness should be used.</p>
+
+<p><b>The pattern:</b> Wars regionalize when the dominant power's attention is the scarce resource. The US is committed and distracted; regional states are building their own security architecture in real time — which is how a proxy war stops being one.</p>
+
+<p><b>What history says:</b> The Iran–Iraq war regionalized the same way: Gulf states bought protection, then bought seats at the table. Whoever pays early writes the settlement.</p>
+
+<p><b>What we're watching next:</b> Whether Egypt deploys beyond authorizations; Houthi strike cadence; whether the Tehran talks produce a Saudi–Iran channel that bypasses Washington.</p>
+
+<p><b>Sources:</b> <a href="https://www.reuters.com/world/middleeast/saudi-led-coalition-says-it-intercepted-houthi-missiles-drones-attacking-kingdom-2026-10-27/" target="_blank" rel="noopener">Reuters</a>, <a href="https://apnews.com/article/egypt-saudi-arabia-military-support-parliament-houthis-0122d6201f904496a080e60e0f983697" target="_blank" rel="noopener">AP</a>, <a href="https://www.nytimes.com/2026/10/26/world/middleeast/iran-war-new-attacks-diplomacy.html" target="_blank" rel="noopener">New York Times</a></p>
+</details>
+
+<details>
+<summary>The third Comey case: charges filed under seal, without a judge or a jury seeing them first</summary>
+
+<p><b>What happened:</b> The Justice Department brought new charges against former FBI director James Comey — accusing him of mishandling classified information in 2016 that surfaced in a news article. It is the third prosecution attempt in 13 months. The charges were filed under seal via criminal information, meaning prosecutors charged without a grand jury indictment or a judge's review first. Comey called it an appalling abuse of the department. Separately, a judge ruled his daughter Maurene was illegally fired from her prosecutor's job, awarding back pay.</p>
+
+<p><b>Why it matters:</b> A criminal information is the weakest charging instrument in federal practice — normally used when a defendant cooperates. Used here, it bypasses the grand jury that previously declined to indict. The prosecution is now a procedure question, not an evidence question.</p>
+
+<p><b>The pattern:</b> Prosecution as attrition. When a target survives one indictment, file another — cheaper to produce — until the process itself is the punishment, and a warning to every current official weighing resistance.</p>
+
+<p><b>What history says:</b> Repeated prosecution of a single political enemy using a loyalized Justice Department is a hallmark of competitive authoritarianism; the courts have been the only brake so far — and this filing is designed to run past the jury brake.</p>
+
+<p><b>What we're watching next:</b> Whether the trial judge lets the information stand or forces a grand jury; whether other former officials face copycat informations before November 3.</p>
+
+<p><b>Sources:</b> <a href="https://www.justsecurity.org/162113/early-edition-october-27-2026/" target="_blank" rel="noopener">Just Security Early Edition</a>, <a href="https://www.bbc.co.uk/news/articles/cqly3v5vz4kko" target="_blank" rel="noopener">BBC News</a></p>
+</details>
+
+<details>
+<summary>Brazil's reckoning begins: Flávio Bolsonaro's passport seized, Trump's orbit calls the result a 'cautionary tale'</summary>
+
+<p><b>What happened:</b> A Brazilian Supreme Court justice ordered police to seize Senator Flávio Bolsonaro's passports over a money-laundering investigation tied to a $1 billion fraud scheme. Bolsonaro's party conceded the runoff, but Trump trade adviser Peter Navarro called Lula's win "a cautionary tale for the midterms" and claimed the vote was rigged; Trump called the election "rigged" while saying he "gets along very well" with Lula.</p>
+
+<p><b>Why it matters:</b> Two days after the vote, the accountability machinery Brazil built is operating on schedule — and the losing foreign patron's response is already pre-written: fraud, courts as enemies, elections as cautionary tales. Bolsonaro's own party conceding while Washington's orbit does not is the sharpest possible contrast.</p>
+
+<p><b>The pattern:</b> When elections go the wrong way abroad, they are framed as stolen to keep the domestic fraud frame warm. The election next week is the audience.</p>
+
+<p><b>What history says:</b> January 8 in Brasília followed the same denial sequence in 2022–23; the difference is that now the denial is being narrated from the White House itself.</p>
+
+<p><b>What we're watching next:</b> Whether the administration moves from rhetoric to measures against Brasília; more seizures or charges in the investigation; how the "cautionary tale" frame propagates through midterm closing arguments.</p>
+
+<p><b>Sources:</b> <a href="https://apnews.com/" target="_blank" rel="noopener">AP</a>, <a href="https://www.reuters.com/world/americas/" target="_blank" rel="noopener">Reuters</a></p>
+</details>
+
+<details>
+<summary>Abu Dhabi talks are days away and the peace track is already splitting from the weapons track</summary>
+
+<p><b>What happened:</b> Finland's president and Norway's prime minister called Putin on Tuesday ahead of the November 10 Abu Dhabi meetings, then briefed Zelensky. The limited ceasefire in Oleshky is holding, with evacuations and aid deliveries set to begin Friday. But Zelensky says Ukraine has waited "nearly a month" for Defense Secretary Hegseth to release air-defense missiles it has already paid for — and Russian strikes hit Kyiv's bridge and subway infrastructure anyway.</p>
+
+<p><b>Why it matters:</b> Europe is now running the diplomacy track around Washington: Nordic leaders talking to Putin directly, Ukraine negotiating locally at Oleshky, while the US sits on missiles and negotiates diesel deals with Moscow. The structure of the end-of-war settlement is being assembled without the guarantor who used to be indispensable.</p>
+
+<p><b>The pattern:</b> When a patron becomes a transactional supplier, clients route around it. A local ceasefire brokered by a first lady, missile releases held back, and a summit in the Gulf is not one war story — it is the transfer of settlement authority.</p>
+
+<p><b>What history says:</b> Settlements follow the paymaster. Whoever delivers the ceasefire terms — here, a patchwork of Europeans and Gulf states — owns the post-war architecture.</p>
+
+<p><b>What we're watching next:</b> Whether Hegseth releases the missiles before Abu Dhabi; whether the US is seated at the November 10 table or outside it; whether the Oleshky model spreads to other front sectors.</p>
+
+<p><b>Sources:</b> <a href="https://www.justsecurity.org/162113/early-edition-october-27-2026/" target="_blank" rel="noopener">Just Security Early Edition</a>, <a href="https://www.reuters.com/world/europe/" target="_blank" rel="noopener">Reuters</a></p>
+</details>
 
 <details>
 <summary>A federal appeals court rejects the ballot seizures 2-1 — and the Justice Department opens a third front in Washington</summary>
