@@ -1,7 +1,8 @@
-# The Daily Read — 2026-10-26
+# The Daily Read — 2026-10-27
 
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
+DATE: 2026-10-27
 SUMMARY:
 - Tehran talks end with a promise to keep talking — and Houthi missiles land hours later
 - Israel votes at its highest rate since 1988 — and no bloc can reach 61
