@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-10-27T10:07 ET"
+  "generated_stamped": "2026-10-27T10:18 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -375,8 +375,8 @@
    "title": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
    "date_made": "2026-09-30",
    "time_et": "19:48",
-   "statement": "Five closed apparatus-actor classes (President/WH staff; DOJ incl. Civil Rights Div & Election Crimes Branch; DHS incl. CISA; US Attorneys in contested-count districts; national party committees + funded legal ops) take at least one qualifying documented official action between Nov 3 and Dec 14, 2026: refusal to certify; indefinite delay beyond statutory deadline; litigation filed/joined by a named actor; or federal personnel deployment to polling/count locations in confrontation posture. Private litigation, legislative statements, social-media claims excluded. Pre-build tell: >=2 documented pre-Nov-3 fraud-narrative activations by named actors/principals (public, before results known). Prob mass: Branch A 30% | pre-build tell w/o Branch A 35% | null 35% (null raised from original 10% per Ruling Condition 5).",
-   "confidence": 32,
+   "statement": "BRANCH A (sole gradable proposition per P21-T Ruling): at least one of five apparatus-actor classes (President/WH staff; DOJ; DHS incl. CISA; US Attorneys per roster fixed 2026-11-03; national party committees + funded legal ops) takes at least one qualifying documented official action between Nov 3 and the rolled-forward latest contested-state statutory date: refusal to certify; certified-late by >=7 days; litigation seeking relief that would alter certification/count/result in a named contested-count state; uniformed/badged federal personnel at or within 100 yards of a polling/count location traceable to a named apparatus actor. Private litigation, private social-media, legislative statements excluded; principal's own social-media counts (stated rule). Tell tier: CONFIRMED-CONDITIONING (fired 2 of 2, threshold registered 2026-09-30 pre-activation; register R-01..R-07). Partition: 0.27 / 0.73 / null-impossible. Derived per Condition 6 binding clause: base 0.02 (0/11 midterms, narrowed predicate) x6 regime x1.8 DOJ-litigation x1.5 fired-tell x0.85 calendar = 0.27. Fail = fail regardless of tell status.",
+   "confidence": 27,
    "status": "pending",
    "evidence_confirmed": [
     "Item 2: whistleblower account of electoral-machinery capture attempts (2026-09-14) \u2014 reduced weight pending corroboration",
@@ -386,7 +386,7 @@
    "evidence_contradicted": [
     "None as of filing"
    ],
-   "falsifier": "By 2026-12-14: all contested-state certifications complete by statutory deadline without qualifying action by any named actor AND pre-build tell does not fire (<2 qualifying activations before Nov 3). Partial grading: tell without Branch A action confirms tell tier only.",
+   "falsifier": "If no qualifying action by 2026-12-14 (or rolled-forward latest contested-state statutory date, recorded at scoring), the card scores FAILED regardless of tell status. Partial credit abolished per P21-T Condition 1.",
    "forward_watchlist": [
     "Pre-build activation count (assessment 2026-11-03)",
     "State certification deadlines (assessment 2026-12-14)",
@@ -7953,6 +7953,12 @@
  ],
  "movers": [
   {
+   "time": "2026-10-27 10:20 ET (P21-T ruling)",
+   "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
+   "change": "confidence 0.27 \u2014 status pending",
+   "trigger": "Item 9 (2026-10-26): DOJ (US Attorneys Floyd/Serrano) names 405 alleged noncitizen voters in WA, demands pre-election ballot sequestration; follows refused Sept unredacted-rolls de"
+  },
+  {
    "time": "2026-10-27 09:45 ET (sweep)",
    "ref": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
    "change": "confidence 78 \u2014 status emergent",
@@ -7981,12 +7987,6 @@
    "ref": "Russian Internal Fragility Deepens as Fuel Crisis Bites Into Autumn",
    "change": "confidence 74 \u2014 status emergent",
    "trigger": "Sweep 2026-10-27: Polar Train/Novatek financing strain (10-24) extends the fiscal leg into Arctic LNG logistics. Small move only."
-  },
-  {
-   "time": "2026-10-27 09:10 ET",
-   "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
-   "change": "confidence 0.55 \u2014 status pending",
-   "trigger": "Item 8 (2026-10-26): DOJ (US Attorneys Floyd/Serrano) names 405 alleged noncitizen voters in WA, demands pre-election ballot sequestration; follows refused Sept unredacted-rolls de"
   },
   {
    "time": "2026-10-27 09:10 ET",
