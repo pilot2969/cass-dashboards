@@ -139,7 +139,7 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
     +'<text x="'+cx+'" y="'+(cy-6)+'" text-anchor="middle" font-size="20" font-weight="700" fill="#e8edf5">'+s+'</text>'
     +'</svg>'
     +'<div style="font-size:.82em;font-weight:600;color:#e8edf5">'+esc(e.name)+'</div>'
-    +'<div style="font-size:.72em;color:'+col+';font-weight:600">'+esc(band+(e.delta==null?'':' · '+d))+'</div>'
+    +'<div style="font-size:.72em;color:'+col+';font-weight:600">'+esc(band)+(e.delta==null?'':' · '+d)+'</div>'
     +'</div>';
   }
   function render(inst){
