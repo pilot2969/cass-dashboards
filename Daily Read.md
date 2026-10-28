@@ -4,6 +4,12 @@
 
 DATE: 2026-10-27
 SUMMARY:
+- Netanyahu declares a "decisive majority" the exit polls don't show — and says the time to finish Iran has come
+- Trump's closing-week gift: a million barrels of Venezuelan oil that the United States paid for
+- A sceptical judge takes DOJ's "monumental" ballot demand and promises a ruling Wednesday
+- Election officials' new worst case is not a hack. It is the federal government
+- The Ukraine talks now have a date, and the Kremlin says it will talk after the US votes
+- The Guard's quick reaction force has a deadline tomorrow and no public answer
 - Tehran talks end with a promise to keep talking — and Houthi missiles land hours later
 - Israel votes at its highest rate since 1988 — and no bloc can reach 61
 - The FEC's filing system goes dark overnight, taking the last pre-vote spending disclosures with it
@@ -27,6 +33,11 @@ SUMMARY:
 - ICE leaves a US citizen special-education student with a broken wrist
 
 WATCHING:
+- Whether the final Israeli tally holds the 50–52 split, and whether the Iran decision moves on the result
+- Whether the Venezuelan cargoes discharge, and whether diesel moves at all before Nov 3
+- Judge Carter's Wednesday ruling, and whether DOJ goes to the Supreme Court
+- Whether any written rule on federal agents near polling places is issued before Nov 3
+- Whether the Pentagon answers Slotkin and Kelly by Oct 28, and whether "crowd control" appears in writing
 - Whether a second Tehran round (Turkey) is scheduled before any strike order lands
 - Whether the US answers Iran's two-week pause offer before Nov 3
 - Whether any Netanyahu-aligned figure contests the Israeli count itself rather than merely losing it
@@ -48,6 +59,102 @@ WATCHING:
 - Whether "color revolution" rhetoric converts into an actual investigation before November 3
 
 <!--parser markers above; collapsible cards below-->
+<details>
+<summary>Netanyahu claims a 'decisive majority' the exit polls don't show — and says the time has come to finish Iran</summary>
+
+<p><b>What happened:</b> Speaking at Likud headquarters in Jerusalem late on Tuesday, Benjamin Netanyahu said right-wing parties had won a "decisive majority", called for a "national right-wing government", and ruled out sitting with the Palestinian-led parties that drew record turnout. He also said Israel and the United States now had an "unprecedented and unique opportunity to eliminate the Iranian threat once and for all", and that he had discussed it with President Trump. The count does not yet support the first claim: exit polls put his bloc on 50 seats to the opposition's 52, with neither side reaching 61, and with more than 1.2 million votes counted Likud stood at about 23 percent. Official results were expected overnight, the final tally by Oct 30, formal publication on Nov 4. Separately, <i>Haaretz</i> reported on Oct 21 that Netanyahu had ordered the military to prepare a renewed strike on Iran for early October, and that Trump opposed restarting the war before the US midterms.</p>
+
+<p><b>Why it matters:</b> He declared a majority that no published poll shows, then attached that majority to a war decision which requires Washington's participation — and which, on the <i>Haaretz</i> reporting, Washington had just braked. The claim does two jobs at once: it pre-validates the mandate if the count confirms it, and it pre-loads a dispute about the count if it does not. The Arab parties' record turnout is the thing his veto is aimed at, and it is also the thing that decides whether he can govern at all.</p>
+
+<p><b>The pattern:</b> The fraud kit is being deployed before the result, in two countries, in the same week: a declared victory, a suspect count, existential stakes. In 2020 the American version had to be assembled after the votes were in. This year it is assembled before them, and in Israel it comes with a war attached.</p>
+
+<p><b>What history says:</b> Israel held three elections in a year between 2019 and 2020 precisely because bloc claims that stop short of 61 seats do not produce governments. The speech is not the outcome; the arithmetic and the coalition negotiations are. And the one thing a declared majority does accomplish is to make any other coalition look stolen rather than merely negotiated.</p>
+
+<p><b>What we're watching next:</b> Whether the final tally holds the 50–52 split; whether he peels a faction from the other bloc rather than governing with the Arab parties; whether an Iran strike order moves before or after the Nov 4 publication; and whether the American brake described by <i>Haaretz</i> survives the Israeli result.</p>
+
+<p><b>Sources:</b> <a href="https://www.aljazeera.com/news/liveblog/2026/10/27/israel-election-results-live-exit-polls-soon-as-netanyahu-faces-tight-race" target="_blank" rel="noopener">Al Jazeera</a>, <a href="https://www.haaretz.com/middle-east-news/iran/2026-10-21/ty-article/report-trump-opposed-netanyahus-proposed-early-october-strikes-on-iran/000001a1-5cd6-d99f-a3e5-7df7c3350000" target="_blank" rel="noopener">Haaretz</a>, <a href="https://www.cnn.com/2026/10/27/world/live-news/israel-elections-live-results-latest-votes-intl" target="_blank" rel="noopener">CNN</a>, <a href="http://www.xinhuanet.com/english/20261020/f5a8daaadfc0403db6208b859d74e7c6/c.html" target="_blank" rel="noopener">Xinhua</a></p>
+</details>
+
+<details>
+<summary>Trump's closing-week gift: a million barrels of Venezuelan oil that the United States paid for</summary>
+
+<p><b>What happened:</b> Before leaving for Texas, Trump told reporters: "We took over Venezuela very successfully and they've sent me as a gift a boatload of a million barrels of oil, and I'm giving that to the United States of America." At rallies in Corpus Christi and Lubbock he promised "billions" of barrels and said fuel prices "will soon come plummeting". The tanker <i>Angerona</i> was docked at Corpus Christi; he visited it with Secretary of State Marco Rubio. <i>The Washington Post</i> reported that the shipment he called a gift is one the United States paid for. Fuel is at a record for an election week: AAA put the national average for regular at about $4.29 a gallon and diesel above $6.30, with diesel roughly $2.60 higher than a year ago on federal data, and 2026 has already set the record for the most days with $4 gasoline. In Lubbock, James Talarico held his own rally three miles away; a Fox News poll has him tied with Ken Paxton at 49, and prediction markets have him near 65 percent.</p>
+
+<p><b>Why it matters:</b> This is the one number voters feel every week, and the answer offered is a prop at a port. A million barrels is roughly an hour of American consumption — a gesture sized for a photograph, not for a price. "Billions of barrels" is not a delivery schedule, and nothing announced on Tuesday changes what a Texas driver pays on Nov 3.</p>
+
+<p><b>The pattern:</b> Price-signal management: announce supply, don't deliver it, and time the announcement to the vote rather than to the cargo. The same administration has spent the year suspending state fuel taxes and widening access to red-dyed diesel — interventions that move headlines faster than they move pumps.</p>
+
+<p><b>What history says:</b> The 2022 Strategic Petroleum Reserve release was the largest in history, about 180 million barrels, and pump prices still dominated that midterm. Releases move futures; they rarely move the corner station in time, and a million barrels moves futures by less than a headline does.</p>
+
+<p><b>What we're watching next:</b> Whether the cargoes actually discharge and at what price to Gulf refiners; whether diesel — the number that hits Texas freight and farms — moves at all before Nov 3; and whether the "billions" figure survives into December.</p>
+
+<p><b>Sources:</b> <a href="https://www.washingtonpost.com/world/2026/10/27/trump-greet-venezuelan-oil-shipment-calling-it-gift-us-paid-it/" target="_blank" rel="noopener">Washington Post</a>, <a href="https://tennesseestar.com/economy/trump-says-billions-of-barrels-of-venezuelan-oil-will-soon-lower-gas-prices/tcsquare/2026/10/27/" target="_blank" rel="noopener">The Center Square</a>, <a href="https://www.cnn.com/2026/10/26/economy/gas-oil-trump-iran-election" target="_blank" rel="noopener">CNN Business</a>, <a href="https://www.foxnews.com/politics/trump-won-reliably-red-state-double-digits-deadlocked-race-bringing-him-back" target="_blank" rel="noopener">Fox News</a></p>
+</details>
+
+<details>
+<summary>A skeptical judge takes DOJ's "monumental" ballot demand, and promises a ruling Wednesday</summary>
+
+<p><b>What happened:</b> After a hearing lasting more than three hours in Los Angeles, US District Judge David O. Carter said he would rule on Wednesday on the Justice Department's request to bar California from counting roughly 20,000 mail ballots it says belong to likely noncitizens. Carter pressed the government hard, at one point describing the demand as a "monumental" assertion of power, and noted that DOJ had first asked for a decision by Nov 3 and then pressed for one by Oct 22. Reporting from the courtroom described him as deeply sceptical and unlikely to grant the request. On Monday a divided Ninth Circuit panel dismissed DOJ's emergency appeal as premature, because the district judge had not yet ruled.</p>
+
+<p><b>Why it matters:</b> Most California mail ballots arrive in the final week, so Wednesday's ruling either restores the count or creates the vehicle for an appeal that runs out of runway before Nov 3. DOJ's own shifting deadlines are now part of the record, which is useful to whoever writes the next opinion.</p>
+
+<p><b>The pattern:</b> Forum sequencing — file where you might win, appeal before the ruling to open a second track, then compress the clock so the remedy arrives after the election. The same template is running in Alaska and Washington, and letters went to all 58 California counties demanding ballot segregation with criminal-liability warnings.</p>
+
+<p><b>What history says:</b> Courts apply a presumption against changing election rules close to an election. That doctrine cuts against the government here, which is why the timing argument, not the citizenship claim, is the part with the shortest fuse.</p>
+
+<p><b>What we're watching next:</b> The scope of the ruling; whether DOJ seeks en banc review or emergency relief from the Supreme Court; and whether a loss in California is followed by copycat filings in other states before Tuesday.</p>
+
+<p><b>Sources:</b> <a href="https://www.bloomberg.com/news/articles/2026-10-28/judge-questions-doj-bid-to-set-aside-20-000-california-ballots" target="_blank" rel="noopener">Bloomberg</a>, <a href="https://www.mercurynews.com/2026/10/27/in-la-a-federal-judge-considers-the-dojs-request-to-block-20000-california-ballots/" target="_blank" rel="noopener">Mercury News</a>, <a href="https://electionlawblog.org/2026/in-california-voting-case-judge-carter-reiterates-oct-27-hearing-date-on-tro-takes-doj-to-task-for-demanding-a-ruling-by-october-22-after-its-earlier-request-for-a-ruling-by-november-3/" target="_blank" rel="noopener">Election Law Blog</a></p>
+</details>
+
+<details>
+<summary>Election officials' new worst case is not a hack. It is the federal government.</summary>
+
+<p><b>What happened:</b> <i>The New York Times</i> reported on Tuesday that state and local plans for Nov 3 now include how to respond to possible immigration raids at or near polling places, misbehaviour by federal monitors, and attempts to seize ballots or voting machines. The Department of Homeland Security says it has no plans to send ICE agents to polling sites. Wisconsin is training poll workers on what to do if armed federal agents appear; Michigan's attorney general has readied agents, state police and pre-drafted legal filings. Arizona outlets described ICE activity near a Phoenix voting centre, which does not establish that agents were deployed to suppress votes. The Justice Department is planning its largest-ever Election Day monitoring operation, Democrats are training tens of thousands of poll watchers, and lawsuits are already filed to keep federal officers away from polling places and to protect the chain of custody on voted ballots.</p>
+
+<p><b>Why it matters:</b> For twenty years the American threat model for Election Day was a foreign actor. This year the scenario officials are rehearsing is the parent agency of the federal monitors, arriving with statutory authority on its side and no agreed rule about where it may stand. The absence of a written rule is the vulnerability; the agents are only the trigger.</p>
+
+<p><b>The pattern:</b> When a state's preparations are aimed at its own federal government, legitimacy has already moved — and it moved before any incident happened. Both parties are now pre-positioning lawyers rather than relying on the count, which is what a country looks like when it expects the result to be litigated rather than announced.</p>
+
+<p><b>What history says:</b> Federal monitors have been a routine, consensual feature of American elections since the 1965 Voting Rights Act. The consent is what is new to be missing — and where the presence of observers is contested in advance, every incident at a polling place becomes evidence for one side's story rather than a fact.</p>
+
+<p><b>What we're watching next:</b> Whether any written rule on federal personnel near polling places is issued before Nov 3; whether an incident occurs and who describes it first; and whether the FEC's filing system — still down with no attribution — returns in time for the final 48-hour spending reports.</p>
+
+<p><b>Sources:</b> <a href="https://www.nytimes.com/2026/10/27/us/election-interference-trump-midterms.html" target="_blank" rel="noopener">New York Times</a>, <a href="https://www.votebeat.org/wisconsin/2026/10/07/should-you-expect-ice-at-the-polls-november-midterm-election/" target="_blank" rel="noopener">Votebeat</a>, <a href="https://fortune.com/2026/10/26/midterm-election-poll-watchers-trump-doj/" target="_blank" rel="noopener">Fortune</a>, <a href="https://www.inquirer.com/politics/election/midterm-elections-federal-interference-preparations-poll-workers-volunteers-monitors-ice-20261027.html" target="_blank" rel="noopener">Philadelphia Inquirer</a></p>
+</details>
+
+<details>
+<summary>The Ukraine talks now have a date — and the Kremlin says it will talk after the US votes</summary>
+
+<p><b>What happened:</b> Poland's prime minister, Donald Tusk, said on Tuesday that trilateral US–Ukraine–Russia technical talks will be held in Abu Dhabi on Nov 4. The Kremlin's Dmitry Peskov said Moscow would talk with Kyiv "after November 4" — the day after the American midterms. President Zelensky said Ukraine has waited nearly a month for Defense Secretary Pete Hegseth to sign off on missiles for Patriot and NASAMS systems, and that he has ordered his team to raise it again. The Pentagon announced, on the margins of a NATO meeting, that Poland will host the European service centre for PAC-3 missiles. The leaders of Norway and Finland held a call with Vladimir Putin, described as frank, made in consultation with Kyiv.</p>
+
+<p><b>Why it matters:</b> The diplomatic calendar for a European war is now keyed to an American election. Nov 4 is also the date Israel publishes its final election tally — two countries' war decisions sitting behind the same vote. And a missile signature waiting a month in the Pentagon says as much about who sets the tempo of Ukraine's air defence as any communiqué would.</p>
+
+<p><b>The pattern:</b> Deferral dressed as scheduling. Every party now has a reason to wait for the American result: Moscow to price the next Congress, Kyiv to know what it is buying, and Washington not to hold a negotiation it might have to defend before voters.</p>
+
+<p><b>What history says:</b> Adversaries have timed offensives and pauses to American politics before — the 1968 Tet offensive and the 1972 Christmas bombing both ran on US election calendars — and each time the effect was to make the war an argument in the American vote rather than a decision taken outside it.</p>
+
+<p><b>What we're watching next:</b> Whether the Hegseth signature lands before Nov 4; whether the Abu Dhabi round actually convenes or slips to December; and whether any Iranian or Israeli action lands inside the same window.</p>
+
+<p><b>Sources:</b> <a href="https://eaworldview.com/2026/10/ukraine-war-kremlin-we-will-talk-with-kyiv-after-us-elections/" target="_blank" rel="noopener">EA WorldView</a>, <a href="https://reuters.com/world/europe/zelenskiy-says-ukrainian-russian-us-negotiators-meet-early-november-abu-dhabi-2026-10-23" target="_blank" rel="noopener">Reuters</a>, <a href="https://www.the-independent.com/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-truce-oil-refinery-b3073862.html" target="_blank" rel="noopener">The Independent</a></p>
+</details>
+
+<details>
+<summary>The Guard's quick reaction force has a deadline tomorrow — and no public answer</summary>
+
+<p><b>What happened:</b> Senators Elissa Slotkin and Mark Kelly wrote to the Department of War and the National Guard Bureau on Monday demanding the legal authority, the command chain and the intended use of the National Guard quick reaction force created by the Aug 25, 2025 executive order, including whether the force could be used around elections. They set a deadline of Wednesday, Oct 28. Separately, a Sept 23 memo from Defense Secretary Pete Hegseth to Air Force Secretary Troy Meink, released publicly on Oct 21, directed the creation of a Special Tactics Squadron in the Florida Air National Guard at Hurlburt Field, plus an associated new organisation at MacDill — the homes, respectively, of Air Force Special Operations Command and US Special Operations Command.</p>
+
+<p><b>Why it matters:</b> The question about the force is not whether it exists but who may order it, under which statute, and against whom. A force distributed across every state, whose command arrangements are described in memoranda rather than statutes, is a structure that can be used without a governor's consent and without an invocation of the Insurrection Act. The senators asked the right question and gave 48 hours to answer it, in the last week before a national election.</p>
+
+<p><b>The pattern:</b> Capability created by memorandum rather than legislation, so that no one votes on it and no floor speech marks its arrival. Each piece is facially lawful and individually small: a force requirement, a state modernisation, a special tactics squadron in a state that wants one. Together they are a chain of command that exists on paper that Congress never approved.</p>
+
+<p><b>What history says:</b> The Guard operates at home under its own charter while the active force needs an invocation to do so — which is exactly why the Guard is the vehicle of choice for domestic missions, and why the statute governing it, passed in 1878, has been reinterpreted in every generation since.</p>
+
+<p><b>What we're watching next:</b> Whether an answer arrives before Nov 3 and in what form; whether "crowd control" appears in writing rather than in briefings; and whether the force's command arrangement is ever put to a vote.</p>
+
+<p><b>Sources:</b> <a href="https://www.slotkin.senate.gov/2026/10/26/slotkin-kelly-demand-transparency-from-national-guard-pentagon-on-quick-reaction-force/" target="_blank" rel="noopener">Senator Elissa Slotkin</a>, <a href="https://defence-blog.com/senators-seek-details-on-23000-strong-national-guard-riot-force/" target="_blank" rel="noopener">Defence Blog</a></p>
+</details>
+
 <details>
 <summary>The Tehran talks end with a promise to keep talking — and Houthi missiles land hours later</summary>
 
