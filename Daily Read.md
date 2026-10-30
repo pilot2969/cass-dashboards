@@ -4,6 +4,11 @@
 
 DATE: 2026-10-29
 SUMMARY:
+- Federal prosecutors impanel a grand jury over the Alaska Senate race and issue at least three dozen subpoenas, five days before the vote
+- The Justice Department opens a criminal probe in California, subpoenas two county registrars, and a judge appoints a special master after refusing to set aside 20,000 ballots
+- Chinese hackers ran an AI agent against 200-plus organisations in 11 days and breached nine
+- The top military planner Hegseth fired failed three lie-detector tests, and the case is now a criminal referral
+- Alphabet's worst trading day ever, and Treasury yields fell anyway
 - The Pentagon now treats its own commissary freezers as a cyberattack — six bases, cooling units 'cranked up overnight', and investigators on the phone with Paris
 - Hegseth fires the Pentagon's top military planner five days before a possible strike on Iran
 - Washington tells allied governments to brace for strikes after the vote, while Vance writes to Tehran and oil falls
@@ -16,6 +21,11 @@ SUMMARY:
 - What we're watching
 
 WATCHING:
+- Whether any Alaska subpoena recipient is named or any target letter confirmed before Nov 3
+- Whether the special master's mandate reports before or after certification — and whether a third state appears within 48 hours
+- Whether a second security firm corroborates the CrowdStrike attribution
+- Whether the equity rotation holds past Friday and whether hyperscalers cut capital spending guidance
+- Whether an acting J5 is named, and whether it is a career officer or an appointee
 - Whether anyone names an actor in the commissary case, and whether the count grows past six bases
 - Whether a named monitoring mechanism comes out of the Vance channel before Nov 3, or the strike calendar simply proceeds
 - Whether the Joint Staff's plans office is still vacant on the day a strike is ordered
@@ -30,6 +40,66 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>Federal prosecutors impanel a grand jury over one Senate race, five days before the election</summary>
+
+<p><b>What happened:</b> The Justice Department has issued at least three dozen new subpoenas and document-preservation demands in its inquiry into the Alaska Senate race, seeking grand jury testimony, according to the Associated Press and NBC News, both citing an unnamed US official. The governor of Alaska, Mike Dunleavy, opened a separate state investigation on Wednesday. The President called again today for the Democratic candidate, Mary Peltola, to be prosecuted, and pressed his own administration to widen the inquiries. The underlying allegation, first reported by the New York Times, is that people working with her campaign helped recruit a second candidate also named Dan Sullivan into the race with the Republican incumbent.</p>
+<p><b>Why it matters:</b> A subpoena is not a charge. A preservation letter is not a finding. And "under criminal investigation" is a status a prosecutor can confer on anyone, unilaterally, without convincing a judge of anything. All three are being reported tonight in the register of established wrongdoing, and they are not the same thing. What is established is that the machinery is moving: a federal grand jury, a state investigator, and a President publicly demanding an indictment, aimed at one candidate, in the week her election is held.</p>
+<p><b>The pattern:</b> This board logged this morning that the case had crossed from a civil lawsuit into a criminal question inside a day. It crossed the rest of the way by tonight. The telling detail is that the legal predicate did not change while the apparatus did. The reported conduct is recruiting a namesake candidate; the most careful readings available — including the New York Times' own account, which describes recruiting but not coercion — say that is not a crime. So the machinery is doing the work that the evidence is not.</p>
+<p><b>What history says:</b> Investigations opened in the final week of a campaign have a poor record of producing verdicts and a strong record of producing headlines. The 2016 and 2020 cycles both showed the pattern: a disclosed probe, a burst of coverage, and a resolution arriving too late to matter to the election it was about. What is different here is the compression — the probe is aimed at a candidate on the ballot, not at a concluded vote.</p>
+<p><b>What we're watching next:</b> Whether any recipient of a subpoena is named, or any target letter confirmed. Whether the state and federal inquiries diverge in public, which would be the first genuinely exculpatory signal. And whether the grand jury returns anything before Nov 3, or is timed to land after it.</p>
+<p><b>Sources:</b> AP, NBC News, The Guardian, Alaska Public Media, Oct 28-29</p>
+
+</details>
+
+<details open>
+<summary>A judge refuses to set aside 20,000 California ballots — and then appoints someone to examine the claim</summary>
+
+<p><b>What happened:</b> The Justice Department has opened a criminal investigation in California into claims that thousands of noncitizens are registered to vote, and has begun subpoenaing election officials. Employees of the Los Angeles County registrar received grand jury subpoenas; Orange County's registrar received one this week, in addition to three in September, seeking unredacted registration records for 77 people. On Wednesday a federal judge, David Carter, refused the administration's request to order California to segregate and not count ballots from as many as 20,000 people the White House says are probably noncitizens. On Thursday he agreed to appoint a special master to evaluate the underlying claim.</p>
+<p><b>Why it matters:</b> Read the two rulings together and you get a hedge, not a win. The coercive remedy — set these ballots aside before they are counted — was denied. The factual claim was handed to an examiner. An examiner is also a clock, and five days out, a clock is the most useful instrument in the room. Meanwhile the subpoenas are producing exactly one durable product: a paper trail in the largest state, before the count.</p>
+<p><b>The pattern:</b> One state, one month, four instruments: criminal charges against a group of green-card holders, grand jury subpoenas to county registrars, a motion to segregate 20,000 ballots, and now a special master. No convictions. The volume is the message; the merits are still pending.</p>
+<p><b>What history says:</b> Judge Carter's own words are the historical record worth keeping. He wrote that never before in American history has the federal government, on the eve of an election, sought to coerce a state and local government to abandon its own constitutional election procedures and bend to the will of the executive branch. Courts have repeatedly declined this request in other states this month. Noncitizen voting is documented to be very rare, and every case found so far has been found one person at a time, after the fact.</p>
+<p><b>What we're watching next:</b> Whether the special master's mandate carries a reporting date before or after certification. Whether any county is asked to sequester ballots. Whether the 77-name list becomes a template in other counties. And whether a third state appears within 48 hours — a third would mean this is a national template, not a California fight.</p>
+<p><b>Sources:</b> Bloomberg Law, The New York Times, The Guardian, court ruling in Carter, Oct 28-29</p>
+
+</details>
+
+<details open>
+<summary>Chinese hackers pointed an AI agent at more than 200 organisations and got in to nine</summary>
+
+<p><b>What happened:</b> CrowdStrike reported today that a China-linked group it calls VAPOR PANDA used an AI agent framework, which it names ARTEX, running on the DeepSeek model and a second commercial model, to probe more than 200 organisations across roughly 14 countries in 11 days. Nine were breached. South Korean financial institutions are among the confirmed victims. A human operator, the report says, steered the key decisions.</p>
+<p><b>Why it matters:</b> This is the first publicly documented case of AI being used as the volume layer of a real espionage campaign rather than a demonstration. The useful number is the one nobody is quoting: nine successes out of more than two hundred attempts. That is a low yield. The AI did not find a new way in; it ran the old ways in parallel, at a breadth a person cannot.</p>
+<p><b>The pattern:</b> Third time this month the same shape has appeared. The French supermarket refrigeration, the American base commissary freezers, and now this: the leverage is a shared control plane and a credential, not a clever exploit. One technician's access, or one stolen key, multiplied across every system wired to the same cloud.</p>
+<p><b>What history says:</b> Every major automation of offence has produced the same two-part outcome — more attempts, similar success rates — from scripted worms through phishing kits to rented botnets. The scarce resource was never the number of attempts. It is the judgement about which door to push, and that stayed with the operator here, which is why the yield stayed low.</p>
+<p><b>What we're watching next:</b> Whether a second security firm corroborates independently — single-vendor attribution is the weak link. Whether any victim is named beyond the South Korean financial sector. And the one to expect: whether this report is cited within a week as proof that AI attack is already here, in service of either loosening rules for AI companies or widening network-surveillance powers. Neither conclusion follows from nine breaches in two hundred tries.</p>
+<p><b>Sources:</b> CrowdStrike, NBC News, Infosecurity Magazine, Oct 29</p>
+
+</details>
+
+<details open>
+<summary>Alphabet has its worst day ever, and the bond market rallies anyway</summary>
+
+<p><b>What happened:</b> Alphabet fell hard enough after a revenue miss to record its worst single trading day as a public company, dragging the Nasdaq down 1.4 percent. Caterpillar dropped more than 9 percent despite beating expectations on both revenue and profit. The S&amp;P 500 and the Dow each fell 0.3 percent. Health care, real estate and consumer staples rose, and most individual stocks finished higher. Inflation came in hot and growth came in strong, both close to forecasts. And the ten-year Treasury yield fell anyway, to 4.94 percent — down about a third of a point in a month, from a 24-year high.</p>
+<p><b>Why it matters:</b> That combination is the story. Strong data, hot inflation, and bonds rallying. When yields fall into good news, the money is not worried about the government's credit; it is worried about the trade that has been carrying the index. The selloff is concentrated in artificial intelligence and the capital spending behind it. Everything defensive went up.</p>
+<p><b>The pattern:</b> This board has carried a question since September about whether the bond market would force a funding crisis — a six percent ten-year, a failed auction, a sovereign scare. That has not happened. For a month, through a widening war and hot inflation, the long end has been easing. The risk has relocated: from the government's balance sheet to a single industry's earnings, and it arrives in one session, not in a slow squeeze.</p>
+<p><b>What history says:</b> Momentum trades do not break on a single bad print; they break when the spending that justified them gets cut. The 2000 telecom unwind and the 2014 energy unwind both began as one company missing, then became a sector repricing when the capital expenditure guidance came down a quarter later. One down day is noise. Three is a repricing.</p>
+<p><b>What we're watching next:</b> Whether the rotation holds past Friday. Whether hyperscalers cut capital spending guidance in the next earnings wave. Whether the ten-year stays below five percent through the election week — if it does, the rate-shock story is over for this cycle. And whether credit spreads widen; without that, this remains an equity event, not a systemic one.</p>
+<p><b>Sources:</b> Investopedia, CNBC, Trading Economics, Charles Schwab, AP, Oct 29</p>
+
+</details>
+
+<details open>
+<summary>The general Hegseth fired is reported to have failed three lie-detector tests, and the case is now criminal</summary>
+
+<p><b>What happened:</b> Lieutenant General Brett Sylvia, until this week the director for strategy, plans and policy on the Joint Staff — the Pentagon's top military planner — was removed by Defense Secretary Pete Hegseth and has been referred to the Justice Department for possible prosecution. Reporting says he failed polygraph examinations during the leak inquiry, and that the disclosures at issue concerned both the war with Iran and the war in Ukraine. Hegseth described the conduct as severe misconduct.</p>
+<p><b>Why it matters:</b> The office that writes the options and the plan for a strike is empty while the President is weighing one. And the way the seat was emptied matters more than the seat: a lie-detector failure and a criminal referral tell every remaining officer in that directorate that talking to a reporter is a polygraph and a prosecutor. That is a chill on exactly the function a strike decision needs most — the part where someone says the option is worse than it looks.</p>
+<p><b>The pattern:</b> This is the same instrument this board has tracked across agencies all year, arriving at the Pentagon: the removal is not the point, the example is. Loyalty tests do not usually announce themselves as loyalty tests. They arrive as a leak investigation with a defined procedure, and the procedure does the work.</p>
+<p><b>What history says:</b> Purges of planning staffs before a war have a specific signature — the narrowing of the options paper. When planners learn that pessimism is a risk, the memo that reaches the President contains fewer branches. The 1965 and 2002 escalations both show staffs that had learned to stop offering the option they knew would be unwelcome.</p>
+<p><b>What we're watching next:</b> Who is named acting director, and whether it is a career officer or an appointee. Whether the Justice Department confirms the referral on the record. Whether another Joint Staff or combatant-command officer is removed within a week. And whether the strike package narrows to options that need less planning staff — the quiet tell.</p>
+<p><b>Sources:</b> Reuters, CBS News, The New York Times, The Guardian, Al Jazeera, Oct 29</p>
+
+</details>
 
 <details open>
 <summary>The Pentagon now calls the freezer failures at its own grocery stores a cyberattack</summary>
