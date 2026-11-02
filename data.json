@@ -111,7 +111,7 @@
    "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": false,
-   "quarantine_reason": "A card with no anchor cannot be scored: the trigger (signature) has not occurred and no date is registered, so Rule 1 has nothing to expire and any outcome would be judged after the fact. Held out of scoring until it is re-registered with a date; restored the moment it has one.",
+   "quarantine_reason": "Field-test artifact: Riverside Health scenario is synthetic, not a live world-state claim",
    "public_status": "pre_gate_grandfathered",
    "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
    "evidence_confirmed": [],
@@ -9802,5 +9802,84 @@
     "html": "<p><b>What happened.</b> The European Commission said the appointment of eight members of Poland's Constitutional Tribunal \"lies within the constitutional power of the Sejm,\" citing a Venice Commission opinion and European Court of Human Rights interim measures from May. Prime Minister Donald Tusk ruled out any compromise in a televised address on Saturday. President Karol Nawrocki has refused to swear the judges in and calls the situation a breach of the constitutional order. The justice minister says the Tribunal will resume work within weeks, and police remain deployed at the building.</p>\n\n<p><b>Why it matters.</b> The Commission's intervention supplies the one thing a constitutional crisis of this shape never has: an external arbiter with a written opinion. It also doesn't settle anything, because the dispute is not about what the law says. It is about who is entitled to say it.</p>\n\n<p><b>The pattern.</b> Poland's crisis and the American one share a mechanism. In each, a court's composition is contested by a political actor, and the claim is procedural \u2014 who was appointed correctly \u2014 while the stakes are about electoral outcomes the court will adjudicate. External validation helps a government win an argument. It cannot make an institution legitimate in the eyes of people who already withdrew consent.</p>\n\n<p><b>What history says.</b> Constitutional courts that lose the argument to a president or a party tend to lose it permanently, regardless of who is legally right. Hungary's court was turned by expansion and appointment rather than by ruling. Poland's has been fought over for a decade, through two governments, and its independence rating has been an EU funding condition the entire time. The institution matters less than whether the losing side accepted the loss the first time.</p>\n\n<p><b>What we're watching next.</b> Whether the Tribunal issues a ruling with judges sworn by only one side of the dispute, and whether the government recognises it. Whether the \u20ac137 billion in frozen EU funds gets tied to this. Whether the standoff stays in the courtroom or moves to the street.</p>\n\n<p><b>Sources.</b> POLITICO Europe; Euronews; CNN; Kyiv Independent.</p>"
    }
   ]
+ },
+ "counts": {
+  "items_today": 2,
+  "tracked_predictions": 69,
+  "claims_tested": 28,
+  "unscored_predictions": 0
+ },
+ "institutions": {
+  "reviewed": "2026-11-02",
+  "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
+  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
+  "institutions": [
+   {
+    "name": "Federal Courts",
+    "score": 81,
+    "band": "Critical",
+    "delta": 1,
+    "why": "Delta +1 from 80. Two circuit-level checks held: Judge Carter refused DOJ's TRO (10-28) and the Ninth Circuit denied a second time with no emergency application filed through 11-01 - the appellate record is intact and DOJ has not asked the Supreme Court. But the filing became criminal process: roughly three dozen federal subpoenas to election officials in Alaska, a parallel California probe, and a special master reaching into DOJ/DHS list compilation. ATF ceasing NFA enforcement continues. Courts still enjoin; the same docket is now being used to make election administration itself the defendant.",
+    "prev_score": 80
+   },
+   {
+    "name": "Congress",
+    "score": 72,
+    "band": "Warning",
+    "delta": 0,
+    "why": "Re-stated at 72. No new capture event in the window. GOP majority stayed passive through the post-Doha strike clock without an AUMF or war-powers motion; Hegseth's GFO slot cut continues to bypass appropriations. Minority oversight is alive (HJC Epstein report, Maxwell testimony pending). Paralysis is intact, neither worse nor better.",
+    "prev_score": 72
+   },
+   {
+    "name": "Election Offices",
+    "score": 81,
+    "band": "Critical",
+    "delta": 3,
+    "why": "Delta +3 from 78. Federal criminal subpoenas hit election officials in two states inside the final week; county GOP suits to block certification are live; USPS RTO cuts are producing late-postmark rejections; the FEC suffered a 41-hour cyberattack outage; roughly 1,000 federal observers deploy with the Neff declaration on the record. Pressure is now litigation plus logistics plus criminal process simultaneously.",
+    "prev_score": 78
+   },
+   {
+    "name": "Health Agencies",
+    "score": 80,
+    "band": "Critical",
+    "delta": 0,
+    "why": "Re-stated at 80. No new capture event logged in the window. CDC outbreak-capacity watch remains open; Medicaid work-requirements-for-terminal-illness rollout continues. Chronic, not acute.",
+    "prev_score": 80
+   },
+   {
+    "name": "Civil Service",
+    "score": 90,
+    "band": "Critical",
+    "delta": 1,
+    "why": "Delta +1 from 89. DHS disclosed an Okta-compromise exposure of roughly 41,000 employee records ('Icepick') - the workforce itself is now the breach surface and the message. Sylvia's criminal referral reinforces that lawful dissent is evidence. No new litigation relief for career staff.",
+    "prev_score": 89
+   },
+   {
+    "name": "Military Leadership",
+    "score": 72,
+    "band": "Warning",
+    "delta": 4,
+    "why": "Delta +4 from 68. The J5 director was removed and criminally referred in the final week of the strike clock - the office that plans the war is being purged while the operation is being readied. No uniformed public non-concurrence. Commissary cyberattack plus heat-ray/ADS gear to DHS keep the domestic-adjacent posture. Senior-officer acquiescence remains load-bearing, but the purge moved from policy staff to planners.",
+    "prev_score": 68
+   },
+   {
+    "name": "Dollar & Credit",
+    "score": 65,
+    "band": "Warning",
+    "delta": 3,
+    "why": "Delta +3 from 62. AI-capex growth scare: Alphabet's worst session inside the window, Caterpillar down ~9%, Nasdaq -1.4% - the buildout repriced as a credit story, not a demand story. Oil closed the Iran window high but unbroken; the gas-tax suspension still suppresses the price signal; Russia sanctions architecture erodes. Nothing official prices the chokepoint.",
+    "prev_score": 62
+   },
+   {
+    "name": "Department of Education",
+    "score": 86,
+    "band": "Critical",
+    "delta": 0,
+    "why": "Re-stated at 86. No new events logged in the window. Dismantlement-as-capture continues at the previously assessed 10-14 depth.",
+    "prev_score": 86
+   }
+  ],
+  "age_days": 0,
+  "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  }
 }
