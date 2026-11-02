@@ -124,7 +124,7 @@
    "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": false,
-   "quarantine_reason": "Field-test artifact: Riverside Health scenario is synthetic, not a live world-state claim",
+   "quarantine_reason": "A card with no anchor cannot be scored: the trigger (signature) has not occurred and no date is registered, so Rule 1 has nothing to expire and any outcome would be judged after the fact. Held out of scoring until it is re-registered with a date; restored the moment it has one.",
    "public_status": "pre_gate_grandfathered",
    "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
    "evidence_confirmed": [],
@@ -157,44 +157,6 @@
    "resolution_date": null,
    "window_closes": "2026-11-03",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": null,
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "WSJ-sourced report confirmed by two independent carriers (ZeroHedge, Shapiro) within 24h \u2014 deliberate strategic-leak signature rather than accidental disclosure",
-    "Semi-elite amplifier (MacIntyre) states the electoral function explicitly: 'give the base an incredible reason to turn out in the midterms... teasing it isn't enough' \u2014 pre-election delivery demand is recorded in the amplification layer itself",
-    "Meme-factory latency under 12h (Franklin expulsion template live 10-15) \u2014 pre-rendering the enforcement as settled before any formal action",
-    "Administration enforcement style across the corpus (agency-raid specimens incl. the 10-12 Omar home raid) already favors spectacle staging",
-    "Passport/phone/computer seizure confirmed by WSJ; WaPo surfaces 2019 review that found NO citizenship issues same day officials confirm revocation aim \u2014 spectacle lane fully live.",
-    "2026-11-01 evening: window closes 11-03 with no Omar-specific spectacle event logged. The late-cycle targeting frame migrated to El-Sayed ('jihadist', Iowa rally) instead \u2014 adjacent instrument, different target; does not confirm this card. Trending to resolve NEGATIVE at window close unless the next 48h produces the named event."
-   ],
-   "evidence_contradicted": [],
-   "falsifier": "DISCONFIRMED if: (1) formal DOJ action on Omar citizenship lands AFTER Nov 3 (timing wrong); (2) action proceeds without spectacle staging \u2014 quiet administrative/diplomatic or litigation-only channel, no visual enforcement event; (3) no formal DOJ action materializes before Nov 3 (leak remains trial balloon only); (4) action stays at property/status level with no deportation-execution event. Spectacle-staging definition: armed/visual enforcement event on Omar herself (detention, removal-flight staging, or publicized raid format), not paperwork.",
-   "forward_watchlist": [
-    "DOJ formal filing on Omar citizenship (trigger (b) on the Omar raid watch card)",
-    "Any Omar-related enforcement visual event before Nov 3",
-    "Meme-template replication: second children's-book-format expulsion artifact",
-    "Targeting breadth signal: additional members of Congress entering the citizenship-strip lane"
-   ],
-   "confirmer": "Armed/visual enforcement event on Omar (or announced removal staging) before Nov 3 following the WSJ-sourced citizenship-strip track, in the spectacle format SA specified.",
-   "confirmer_base_rate": "Spectacle enforcement against a sitting federal legislator before a federal election: near-zero historical base rate; low naive rate raises the confirmation bar \u2014 timing specificity (pre-election) and format specificity (spectacle) must BOTH hold.",
-   "confirmation_window": "2026-10-15 to 2026-11-03"
-  },
-  {
-   "basename": "2026-10-15-omar-deportation-spectacle-pre-election",
-   "title": "Omar Deportation as Pre-Election Spectacle",
-   "date_made": "2026-10-15",
-   "time_et": "09:53",
-   "statement": "SA prediction (2026-10-15 09:53 ET): If the administration proceeds against Rep. Ilhan Omar on the citizenship-strip track, execution will be staged as a full-raid-style spectacle (armed, press-visible), completed before the Nov 3 midterm \u2014 the administration wants the optics and the pre-election timing. Continuation of the escalation ladder already logged: raid 10-12 -> WSJ citizenship-strip leak 10-14 -> elite laundering (MacIntyre) 10-15 -> dehumanization meme template live 10-15 (Franklin expulsion format).\n\nMECHANISM ANALYSIS (added 10-15, same morning): Deportation proper is not the correct frame \u2014 she is a naturalized citizen, and the citizenship-strip track is denaturalization litigation, which runs on court timelines (12-36 months in the normal case). What the spectacle can be built from instead: (1) PRETEXT DETENTION \u2014 ICE/DHS detainer or criminal referral on an unrelated charge (immigration-fraud-adjacent filing, marriage-litigation angle the corpus already tracks), producing physical custody while the citizenship claim is 'under review'. Detention of a citizen is unlawful but enforceable in practice when the status question is contested \u2014 the person must litigate their way out from inside custody, which is the classic chilling format. (2) STATUS LIMBO AS THE PRODUCT \u2014 DOJ filing triggers passport revocation / REAL-ID flag; she remains in the country but is rendered legally stateless-adjacent. This is the quiet branch that would falsify the spectacle format. (3) FULL SPECTACLE BRANCH \u2014 arrest/detention staged visually (raid format, per SA's specification), justified publicly as 'pending resolution of citizenship status'; this is the 45%-confidence path and matches the pre-election demand curve in the MacIntyre record. Key tell distinguishing (1)/(3) from (2): whether any physical custody event occurs before Nov 3. Falsifier (2) in the main statement covers the quiet branch explicitly.",
-   "confidence": 45,
-   "status": "emergent",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -2073,135 +2035,6 @@
    "resolution_date": null,
    "window_closes": "2027-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
-   "grace_locked": false,
-   "skill_eligible": false,
-   "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Russia-Ukraine local ceasefire in Oleshky agreed Oct 23 2026, effective Oct 27; trilateral talks set for Nov 10 2026 in Abu Dhabi \u2014 the subsidy's demand-side is now visibly contracting",
-    "Peskov Oct 26 2026: Russia will not halt hostilities even if talks resume \u2014 but a settlement process is running, which is the operative fact for NK's demand curve",
-    "Putin hinted at the May 9 2026 Victory Day parade that the war was entering its final phase",
-    "Daily NK June 2026 'triple jeopardy' analysis: NK faces loss of wartime benefits + an arsenal generating no development + reduced strategic value as US-China relations improve",
-    "East Asia Forum Jan 2026: if the war ends, Moscow's need for economic cooperation with Seoul could lead it to restore Moscow-Seoul ties and dampen the Pyongyang relationship \u2014 the alignment-inversion mechanism, flagged before it became live",
-    "Kim crossed into Dandong China Oct 24 2026 over a newly opened bridge, met Wang Huning, first trip in a year; FT framed it as reassurance amid concerns NK was moving closer to Russia \u2014 the hedge is already in motion",
-    "Wang Huning spoke of 'peaceful coexistence' while omitting denuclearization entirely (38 North, Oct 2026) \u2014 Beijing softening its public line, consistent with a patron preparing to absorb a client",
-    "NK constitutional revision removed unification provisions and added a territorial clause; the Arch of Reunification was demolished",
-    "Seoul's Lee government: three principles Feb 2026 (respect NK system, reject absorption, no hostile acts), reaffirmed in 2025 and 2026 Liberation Day addresses; 'denuclearization' and 'sanctions' dropped from the Sept 2026 UN text",
-    "Bloomberg Economics: NK amassed up to $22bn foreign revenue 2022-2025, nearly 4x the prior four-year period \u2014 the scale of the subsidy confirms how much withdrawal would bite",
-    "Lowy Institute: Pyongyang welcomes Russian security guarantees specifically to minimise dependence on Chinese ones \u2014 meaning the Russia tie is a diversification play, and its loss produces re-subordination, not collapse"
-   ],
-   "evidence_contradicted": [
-    "No nuclear-armed state has ever dissolved under economic pressure \u2014 the GDR/Yemen/Vietnam unification precedents all involved unarmed or comprehensively defeated states",
-    "NK continued expanding its arsenal through the window: Hwasong-20 displayed Oct 2026, underwater cruise missile launches Oct 14-15 2026, 600mm nuclear-capable MLRS paraded Feb 2026 \u2014 capability is increasing as the subsidy is set to fall, the opposite of a state preparing to dissolve",
-    "NK escalated at the DMZ in the same week the Russian ceasefire was agreed (artillery at Kaepung Oct 26, threats of 'new tactical weapons' Oct 20-22) \u2014 behaviour consistent with leverage-building, not capitulation",
-    "South Korea's constitution still commits to peaceful unification, creating a live domestic legal tension \u2014 but the current government's operative doctrine is 'peaceful coexistence', not absorption, so the clause has no policy instrument behind it",
-    "Yemen 1990 unification came from a stronger party absorbing a small, unarmed, collapsed state with no external guarantor \u2014 not a comparable case"
-   ],
-   "falsifier": "ANY of the following within the window (to 2027-12-31) falsifies the claim: (a) PATRON SWAP FAILS \u2014 NK-China trade share and high-level exchange do NOT rise while Russia ties contract, i.e. NK absorbs the shock internally rather than re-subordinating; (b) REGIME CRISIS \u2014 a legitimacy crisis reaching the elite/military layer: defection at Politburo or military-corps level, mass public unrest, Kim's authority publicly contested, or state media acknowledging 20x10 failure at scale; (c) UNIFICATION VEHICLE RESTORED \u2014 Pyongyang reintroduces a unification claim in constitutional or party text, OR Seoul reverts to absorption doctrine backed by budget and policy instruments; (d) NUCLEAR-ARMED COLLAPSE \u2014 any observable dissolution of central authority in Pyongyang. Note the asymmetry: (b), (c) or (d) firing would be a major escalation warning, not a positive development \u2014 a collapsing nuclear state is the worst outcome on the board, not a unification opportunity.",
-   "forward_watchlist": [
-    "Nov 10 2026 \u2014 trilateral US-Ukraine-Russia talks, Abu Dhabi; watch for energy/Black Sea ceasefire and for any Russia-Seoul economic channel",
-    "Dec 2026 \u2014 WPK plenum; whether 20x10 resource allocations are restated, expanded or quietly dropped",
-    "Q1 2027 \u2014 first full quarter of post-war Russian trade data; Russian oil and food transfers vs 2026 baseline",
-    "NK-China trade volume and high-level exchange frequency through 2027 (Dandong bridge throughput is the physical proxy)",
-    "Whether Moscow opens substantive economic ties with Seoul (reconstruction, investment, return of diplomats)",
-    "Any NK nuclear or ICBM test timed to the Nov 10 talks \u2014 the escalation-instead-of-collapse path",
-    "Elite-level defections, purges beyond routine, or public acknowledgment of development shortfalls",
-    "Whether Seoul's 'peaceful coexistence' doctrine survives domestic political contest \u2014 the constitutional unification commitment is the fault line"
-   ],
-   "confirmer": "Russian oil/food transfer volumes to NK; NK-China trade share; Moscow-Seoul economic re-engagement; absence of elite-layer crisis signals",
-   "confirmer_base_rate": "Base rate for patron-withdrawal producing unification across modern partitions: ~1 clear case (Germany 1990) against Taiwan/China, Cyprus, Ireland, Kashmir persisting through patron changes. Base rate for a nuclear-armed state dissolving under economic pressure: 0 documented cases.",
-   "confirmation_window": "2026-10-27 to 2027-12-31"
-  },
-  {
-   "basename": "korea-war-ii-reverse-order-chain",
-   "title": "Korean War II \u2014 four-link chain (Samuel's reverse-order thesis), scored at 7% through 2030",
-   "date_made": "2026-10-27",
-   "time_et": "00:52",
-   "statement": "SAMUEL'S THESIS, stated at full strength: the post-war order reverses; the Korean partition thaws as war rather than persisting or dissolving by consent ('Korean War II'); that war produces unification rather than another partition; and the winning patron becomes the dominant power in the unified Korea. Scored as a four-link chain, since each link carries independent probability: L1 order reverses and partitions thaw (plausible, consistent with WWIR cascade \u2014 but WWIR assigns externalization to the FAILURE-mode branch, not the base case); L2 the thaw expresses as war on the peninsula (LOW: both governments have abolished unification as policy, so war requires miscalculation or collapse, not intent); L3 war produces unification rather than re-partition (LOWEST: every documented planning artifact points to re-partition \u2014 RAND's collapse model has China grabbing a northern buffer and racing for Pyongyang, i.e. Korea III, not a unified Korea); L4 the winning patron dominates the unified Korea (structurally sound, near-law, but conditional on L3). Product: 7% through 2030. THE THESIS'S REAL CONTRIBUTION is that it supplies the missing vehicle \u2014 force, where institutional claim was abandoned on both sides. That is a genuine answer to the 00:45 objection and it cuts against my own prior. THE THESIS'S REAL PROBLEM is the peninsula's structural law, established twice: patron intervention prevents unification. 1950: MacArthur reaches the Yalu, China intervenes, unification days from completion is prevented. Collapse scenario: China moves to the buffer, unification is prevented again. The thesis requires Beijing to decline an intervention it has both interest and capability to make. STRONGEST VERSION: if Korean War II comes while the US is committed in Iran at day 240, eight days from a contested certification, with transactionalized guarantees, then the ROK's guarantor is the least available actor in the theatre \u2014 and L4 stops meaning Seoul absorbs and starts meaning Beijing arbitrates. That version (sphere transfer using unification as vocabulary) is the one I'd actually put probability on, and it inverts the thesis's valence from promise to defeat.",
-   "confidence": 10,
-   "status": "emergent",
-   "card_class": "THESIS",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2030-12-31",
-   "grace_horizon": null,
-   "grace_locked": false,
-   "skill_eligible": false,
-   "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
-   "public_status": "gated_public",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Korean War I is the founding case of the post-war order and created the partition as a permanent artifact \u2014 armistice, not peace treaty, still live after 73 years. Korea is the order's most literal unfinished object, so 'order in reverse' has a precise referent here",
-    "OPLAN/CONPLAN 5029 exists for 'sudden change' in North Korea \u2014 coup, revolution, mass defection, WMD outflow, natural disaster. The absorption machinery exists in military form while being abolished in political form: doctrine says coexistence, the plan says 5029",
-    "Both governments formally abolished unification as operative policy \u2014 NK constitutionally (provisions removed, territorial clause added, Arch of Reunification demolished), Seoul doctrinally (three principles Feb 2026, reaffirmed 2025 and 2026 Liberation Day addresses, 'denuclearization' and 'sanctions' dropped from the Sept 2026 UN text). This is what makes force the only remaining vehicle, which is the thesis's strongest move",
-    "The US venting condition is live and measurable: 96-hour strike readiness on Iran at day 240, contested certification eight days out, 47% social withdrawal, transactionalized security guarantees \u2014 maximum internal pressure with maximum externalization capacity, exactly WWIR's venting trigger",
-    "China has both the interest and the capability for a northern buffer: RAND and Brookings both assess ample ground forces in the northeast and model a race for Pyongyang. Jamestown: Beijing's nightmare is a pro-US unified Korea on the Yalu",
-    "ROK nuclear latency debate is live (Foreign Policy Jan 2026, NBR) precisely because US extended deterrence is under strain \u2014 Seoul is already pricing in guarantor unreliability, which is the thesis's precondition",
-    "PLA theater structure already separates the two missions: Eastern Theater Command (71st/72nd/73rd Group Armies, East Sea Fleet, Rocket Force Base 61) faces Taiwan; Northern Theater Command (78th/79th/80th Group Armies, North Sea Fleet, Rocket Force Base 65 in Shenyang) faces Korea and Russia, with Korean-peninsula contingency planning a stated core mission. A Taiwan war therefore does not draw down the Korea force \u2014 China does not have to choose",
-    "2026 National Defense Strategy explicitly admits the US cannot realistically fight two major wars simultaneously and subordinates all other missions to the Indo-Pacific, accepting risk in Europe and the Middle East as planning assumptions",
-    "The Iran war has committed three carrier strike groups to CENTCOM \u2014 'essentially all the deployable carrier aviation capacity' \u2014 while INDOPACOM planning assumes persistent Pacific carrier presence is needed to deter a Taiwan contingency",
-    "Acting Navy secretary confirmed Taiwan arms deliveries are delayed because the munitions are needed in Iran; a House Select Committee simulation found the US and Taiwan ran low on critical munitions within days of a Taiwan conflict",
-    "Navy at 293 battle force ships against a 381-ship goal \u2014 a ~90-hull shortfall with shipyard constraints on Virginia-class and DDG-51 production",
-    "2026 NDS resolves the simultaneity problem through allied burden-shifting (Europe for Russia; Japan and ROK backstopping the Pacific) \u2014 the Japan-and-allies-kinetic route is literally current US strategy, not an innovation",
-    "Japan's counterstrike build-out is real: FY2026 budget \u00a59.04 trillion (~2% GDP, ahead of schedule), \u00a543 trillion over FY2023-27, 400 Tomahawks purchased for accelerated delivery, domestic counterstrike missiles entering service 2026, legal basis from the 2014 reinterpretation and 2015 legislation",
-    "A sphere trade is structurally available: a China committed on Taiwan needs a secure northern flank and would prefer a neutral unified Korea to a US-allied one \u2014 Korea's status becomes the currency, and the WWIR notes already record a live Yalta-2.0 summit proposal sequence as the reverse-war shape ('order dissolves by invitation of its own patron')",
-    "China was NOT consulted about the Russia-DPRK June 2024 treaty (Foreign Affairs, reporting Chinese participants: Beijing did not encourage Kim's pivot and 'it seems likely that Beijing was not even consulted'). USCC records Beijing calling the Russia-NK relationship 'a matter for themselves' \u2014 a formula of unease about a state China regards as central to its own regional security",
-    "Moscow is competing with Beijing for Pyongyang: August 2026 reporting has Russia seeking a five-year military pact with North Korea while 'China scrambles to keep up'; Pak Thae-song's July 2026 Beijing visit (65th anniversary of the friendship treaty) was in part China pulling Pyongyang back",
-    "China has already conceded the nuclear point: The Diplomat (Oct 2026) reports Pyongyang got Beijing to quietly drop 'denuclearization' from its North Korea policy and to stop enforcing international sanctions \u2014 an admission the status quo is Beijing's ceiling, not unification",
-    "Northern Theater Command is the SAME command that faces Russia's Far East \u2014 the mission it was built for (1969 Zhenbao Island). Any PLA movement toward Korea must be read as preparation against a Russian client as much as an American one",
-    "PLA Western Theater Command maintains ~60,000-75,000 personnel within 100km of the LAC with hardened permanent posture (Type 15, Z-20, retractable-roof shelters) and conducted large-scale high-altitude exercises in 2026; Arunachal face-offs recurred in Oct 2026",
-    "China is structurally better placed than the US for a multi-front war: continental power, interior lines, no ocean to cross, five modular theater commands. The US must project with 293 ships against a 381-ship goal",
-    "Foreign Affairs: 'China Doesn't Want to Lead an Axis' \u2014 Beijing wants clients, not co-belligerents. Russia will not fight for China, the DPRK answers to Moscow, Iran is geographically irrelevant to any Chinese front, Pakistan is leverage on India rather than a war-fighting ally"
-   ],
-   "evidence_contradicted": [
-    "RAND's documented collapse scenario produces a PARTITION of North Korea \u2014 Chinese buffer zone in the north, ROK/US administration in the south \u2014 not unification. Reported by BBC among others. This is Korea III with the line moved 200km north",
-    "The peninsula's structural law runs opposite to the thesis: patron intervention has twice been the unification-prevention mechanism (China at the Yalu 1950; a Chinese buffer in any collapse scenario). The thesis needs Beijing to decline it",
-    "Atlantic Council simulations (via 38 North, April 2026) model DPRK use of low-yield tactical nuclear weapons specifically to collapse defensive cohesion and deter outside intervention \u2014 a nuclear-armed Korean War II has no clean winner and most likely ends at a ceasefire line",
-    "Seoul has no offensive plan and no absorption doctrine: it debates nuclear latency, not a northern campaign; its president has renounced absorption three times in eighteen months",
-    "Korean War I did not unify Korea despite a dynamic where unification was nearly achieved \u2014 it is the counter-case the thesis has to explain away, not the supporting case",
-    "WWIR's own venting law assigns externalization to the failure-mode branch of states least able to contain internal pressure; Korean War II is the purest externalization on the board, so the author's own master frame scores it as exception rather than base case",
-    "The simultaneity problem is AMERICAN, not Chinese: a Taiwan war removes the US from the Korean theatre far more completely than it removes China. China keeps its Korea theater; the US has no carriers, a munitions deficit, and a two-ocean problem with one ocean's worth of hulls",
-    "The 'Japan goes kinetic' leg is blocked at the political layer, not the capability layer: Seoul and Tokyo sidestepped a military logistics pact in July 2026; South Korea remains cautious over colonial-era grievances and public resistance to Japanese troops on the peninsula; a ROK military official named the precise worry \u2014 how the framework functions if Japanese assets are mobilised under US-led operations during a peninsula contingency. The mechanism is designed for exactly the contingency that makes it politically impossible",
-    "Bilateral ROK-Japan trust remains low; support for trilateral security cooperation has been flat near 51% for two years. Japan's 2026 Defense White Paper names the peninsula a risk to Japan, not a theatre Japan plans to enter",
-    "The nuclear floor is untouched by any patron configuration: Pyongyang's own formulation (Kang, July 2026) describes 'the absolute mechanical structure of no retreat built in the Korean Peninsula by the strongest nuclear weapons.' Removing China and adding Japan does not solve the DPRK arsenal, and unification requires solving it",
-    "In the sphere-trade path there is no winner at all \u2014 Korea's status is an instrument of great-power settlement, a return to 1905 and Yalta rather than an escape from either. L4 ('the winning state dominates the unified Korea') is not merely conditional but wrong in the most likely unification path",
-    "China's binding constraints are not front-related: no combat experience since 1979 (no officer above battalion has fought), no multi-theater joint operation ever conducted, untested joint logistics, and Xi's purges having removed much of the Rocket Force and CMC leadership that would run one",
-    "Energy is the real ceiling: ~70% of oil imported, most through Malacca. A three-front war implies a blockade, and a blockade stops the economy funding the war. China can win battles on three fronts and still lose \u2014 its fronts are not where its vulnerability lies",
-    "Because a three-front war is China's nightmare rather than its strategy, the rational Chinese move is to PREVENT simultaneity \u2014 buying off India, holding Korea quiet, and paying for an Asian settlement rather than fighting for one. That pushes toward Path C, not toward Path A or B",
-    "A Russian veto on unification now exists independently of China's, so removing the Chinese veto (the Taiwan move) does not clear the board \u2014 it substitutes one patron's veto for another's"
-   ],
-   "falsifier": "Falsified by any of: (a) Pyongyang restores a unification claim in constitutional or party text \u2014 the vehicle returns by consent, so unification becomes possible without war; (b) Seoul reverts to absorption doctrine backed by budget and policy instruments, or OPLAN 5029 is shelved in favor of sustained engagement; (c) a US-China understanding on Korean contingencies becomes explicit or credibly reported \u2014 sphere pre-allocation means no race and no war; (d) DMZ incident frequency declines through 2027 and no collapse signal appears. NOTE the chain structure: L1 or L2 failing falsifies the whole; L3 failing alone still leaves L4 as a valid principle (a war that re-partitions still has patrons determining the settlement), which is why the sub-claims are tracked separately from the chain. AMENDMENT 2026-10-27 00:55 (Taiwan route): the revised chain is falsified by (i) PLA Northern Theater remaining static while Eastern Theater is engaged \u2014 proving China holds rather than chooses the northern flank, which is the only way 'China taken out of the game' becomes true; (ii) no ROK-Japan logistics agreement within the window \u2014 the political block on the Japan-kinetic leg holding; (iii) the DPRK arsenal entering no negotiation framework, since unification is impossible while it stands. AMENDMENT 2026-10-27 00:57 (three-front / alignment): the revised chain is falsified by (iv) Sino-Russian cooperation over Pyongyang deepening rather than fragmenting \u2014 i.e. a genuine coordinated axis rather than two patrons competing for one client; (v) PLA proving multi-theater joint capability in a live exercise at scale, which would remove the 'fights alone and cannot sustain it' constraint; (vi) Russia declining to exercise a veto in any Korean settlement.",
-   "forward_watchlist": [
-    "Russia expanding the DPRK pact to a five-year military plan \u2014 confirms the independent Russian veto on unification",
-    "China further dropping sanctions enforcement or formalising the denuclearization concession \u2014 confirms Beijing abandoned unification as an objective",
-    "Any trilateral US-China-Russia contact on Asian security architecture \u2014 confirms Path C is live",
-    "Sino-Russian friction over Pyongyang \u2014 the tell that the axis is not an axis",
-    "PLA Northern Theater movement, read carefully: movement toward Korea is preparation against a Russian client as much as an American one",
-    "PLA multi-theater joint exercise at scale \u2014 would remove the 'never conducted one' constraint",
-    "ROK-Japan military logistics pact signed and ratified \u2014 still the hardest constraint on the Japan-kinetic leg",
-    "US carrier presence restored to the Pacific \u2014 closes the American simultaneity gap",
-    "Chinese buffer-zone rhetoric or PLA force movement in the northeast",
-    "DPRK arsenal entering any negotiation framework \u2014 precondition for unification to exist at all",
-    "Nov 10 2026 Abu Dhabi talks; Dec 2026 WPK plenum; Q1 2027 post-war Russian trade data; Feb-Mar 2027 Freedom Shield"
-   ],
-   "confirmer": "PLA force movement or buffer rhetoric in the northeast; ROK nuclear program (not debate); US Pacific posture drawdown; collapse signal in Pyongyang; re-partition rather than unification if war occurs",
-   "confirmer_base_rate": "Unifications achieved by war in the modern era: Vietnam 1975 (conquest of an unarmed-by-comparison state), Yemen 1990 (absorption of a small unarmed collapsed state). Unifications of nuclear-armed states by war: zero. Partitions that survived patron change: Taiwan/China, Cyprus, Ireland, Kashmir. Korean partitions produced by war: one, at the cost of ~3 million dead and a permanent armistice.",
-   "confirmation_window": "2026-10-27 to 2030-12-31"
-  },
-  {
-   "basename": "korea-patron-swap-not-unification",
-   "title": "Korea \u2014 Russia's contraction produces a patron swap, not unification (and not regime collapse)",
-   "date_made": "2026-10-27",
-   "time_et": "00:45",
-   "statement": "Russia's wartime relationship with North Korea will contract materially by end-2027 \u2014 either the war ends in a settlement, or Russian demand for NK munitions/labor/troops falls by a third or more, or both. That contraction will NOT produce Korean unification, and will NOT produce a regime-threatening crisis, within the window. Instead the dominant observable response will be increased North Korean dependence on China, measured by trade share, high-level exchange frequency, and Chinese diplomatic shielding. Rationale: (1) NK is nuclear-armed and no nuclear-armed state has dissolved under economic pressure \u2014 the GDR analogue fails on the single decisive variable; (2) both governments have abolished unification as operative policy, NK constitutionally and Seoul doctrinally, so no political vehicle exists on either side; (3) the patron swap is already observably underway \u2014 Kim's Oct 24 2026 Dandong crossing over a new bridge, six days before the Russian ceasefire took effect, framed by the FT as reassurance against over-reliance on Moscow; (4) base rate for patron-withdrawal-to-unification across modern partitions is roughly one case (Germany) out of many, and that case was an unarmed state.",
-   "confidence": 72,
-   "status": "emergent",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2027-12-31",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": false,
    "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
@@ -4620,17 +4453,6 @@
    "forward_signal": "W1: fourth ad / rhetoric escalation (does 'final battle' or enemy-cast-out language intensify through Oct 20 pre-midterm window?). W2: enforcement (GAO finding, Common Cause/congressional action on anti-propaganda riders, or any network declining government ad buys). W3: prelegitimation tell (does 'villains/final battle' rhetoric recur explicitly tied to midterm contesting, or appear in WH official channels - TRUMP TV - vs paid spots only?)."
   },
   {
-   "date": "2026-09-27",
-   "time_et": "23:09",
-   "track": "domestic-repression",
-   "mget_legs_tested": [
-    "Leg (normalization of military role in domestic security): Pentagon stood up a Homeland Defense Board (Federal Register Sep 11) - first DoD advisory board focused on homeland security, explicitly created to advise on Title 10/Title 32 domestic troop deployments and to 'bridge the gap' between the military and DHS."
-   ],
-   "verdict": "confirms",
-   "reasoning": "Two structural anomalies worth flagging: (1) The advisory structure is self-advisory - Hegseth chairs the board that advises Hegseth. The establishing documents claim the need for 'consensus-based, independent, and external peer review,' but the membership is the SecWar himself, his assistant secretaries, and one junior officer plus one civilian per branch 'and such other members as the SecWar may appoint.' There is no external check anywhere in the structure - this is the advisory form stripped of its advisory function. (2) Timing: created weeks after large-scale National Guard deployments to US cities and the border, and after drug interdiction missions expanded beyond Coast Guard scope. The board is the institutional scaffolding that makes those deployments reviewable only by the people who ordered them. Context: this board was created in the same purge cycle that killed DACOWITS and the sexual-misconduct prevention board - advisory bodies were eliminated when they could constrain, and created when they can legitimize. X-ref: detachment-201 observation, domestic-enforcement-groundwork prediction.",
-   "forward_signal": "W1: board composition announcements - do outside voices (state AGs, mayors, civil-liberties representation) ever appear? W2: first board recommendations - do they endorse expanding domestic troop missions?"
-  },
-  {
    "date": "2026-09-26",
    "time_et": "21:55",
    "track": "world-war-iii-prologue",
@@ -6385,6 +6207,7 @@
    "forward_signal": "(a) whether Kagan requests a response, which converts a same-day ask into a multi-day one; (b) any order before polls close; (c) whether the application survives as pending on Wednesday and how the count handles the 20,000; (d) a second state filing in the same posture by Friday; (e) whether DOJ converts the segregation demand into a post-certification contest in any state; (f) whether the LA County Registrar produces records under subpoena before the count completes."
   },
   {
+   "basename": "4x4gcb01otxx",
    "date": "2026-09-15",
    "time_et": "14:42",
    "track": "oil-energy",
@@ -6537,6 +6360,18 @@
    "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
   },
   {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "ground-invasion-of-iran",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+   "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
+  },
+  {
    "basename": "ground-invasion-of-iran",
    "date": "2026-09-04",
    "time_et": null,
@@ -6550,6 +6385,7 @@
    "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
   },
   {
+   "basename": "i2h7irv7sh0q",
    "date": "2026-09-15",
    "time_et": "14:42",
    "track": "war-geopolitics",
@@ -6559,6 +6395,156 @@
    "verdict": "strains",
    "reasoning": "Wire 14:42 \u2014 Pacific lane: Economist: China would face 'hellscape' in Taiwan war; US Marine Stand-In Forces worry China (Military Times); China tightens citizen exit bans on tech/national-security grounds (Courthouse). AP: China closing the AI gap with US while world debates AI risks. Bessent to hold Iran-ties talks with China before Trump-Xi summit (National) \u2014 the Iran war and China diplomacy are now coupled in a single negotiation channel.",
    "forward_signal": "Bessent-Xi pre-summit: does Iran-tilt pressure work, or does China use the oil crisis as leverage? Watch oil-for-ceasefire offers."
+  },
+  {
+   "date": "2026-09-09",
+   "time_et": null,
+   "track": "inverted-cycle-domestic-turn",
+   "mget_legs_tested": [
+    "Leg 2 Elite Overproduction",
+    "Leg 3 Enclosure Mutation",
+    "Leg 4 Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CYCLE INVERSION THESIS: The 1930s-40s turning resolved OUTWARD (external enemy, Bretton Woods, expanded state). This cycle cannot run that solve function - enclosure is global, so mutation points INWARD (segmentation, walls, internal segmentation); elite overproduction can only fight over positions inside the walls; alliance architecture is dissolving toward regional blocs (Mecca Defence Alliance excluding the hegemon). Foreign conflicts are distractions THAT KEEP FAILING TO DISTRACT: the tool (external war as legitimacy device) remains in use but has stopped working - the principal himself reframed the war as an electoral stop-loss before the fact, and the audience reads the mechanism aloud (inversion-tier delegitimization). The war comes home not as troops but as FALSIFIED PROMISES at machine speed: the collapse of the distinction between foreign policy and domestic control. Structural correction: rupture is at the CORE this cycle (actuarial table, bankruptcy resolution, delegitimization manifest) not the periphery.",
+   "forward_signal": "FALSIFIER SET: If thesis holds, the regime PREFERS de-escalation abroad post-Nov 3 while escalating DOMESTICALLY regardless of war outcome - emergency powers, enforcement budgets, surveillance expansion. Track: (1) domestic enforcement/surveillance budget lines post-midterm; (2) repression_event entries with nspm7 alignment; (3) whether war winds down AND machinery built to fight it is retained domestically (the tell: machinery outlives the war); (4) Mecca Alliance activation as the D2/D3 discriminator. CONTRA: if post-Nov 3 shows genuine demobilization (war powers sunset, budgets cut, agencies shrunk), thesis breaks - the machinery was war-specific, not conversion-ready."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "iran-naval-escort-escalation",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+   "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kemalist-preference-reichstag-fallback",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+   "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kinetic-european-conflict",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+   "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kirk-anniversary-narrative-2026",
+   "mget_legs_tested": [
+    "Leg 6 Algorithmic Enclosure",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+   "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "market-actuarial",
+   "mget_legs_tested": [],
+   "verdict": "neutral",
+   "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
+   "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "mid-august-oil-price-shock",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+   "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism)."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "military-coup-fourth-turning",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+   "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": null,
+   "track": "inward-targeting-vector",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Round 2 red-team (selection bias attack). Skeptic charged cherry-picking: outward arms posture and China rhetoric contradict the inward vector. Defense held on (a) resource-following: interceptor stockpile depletion vs. ICE procurement expansion (stun gloves, SUVs, detention centers) is physical, not rhetorical evidence. Key testable cut: if ICE detention population grows faster than removal counts, detention itself is the mission. Defense strained on (b): 'rhetoric stops working' is a mood until converted to observables (polling, war-support, enlistment decay). Guard against unfalsifiability: rhetoric thesis only survives welded to the resource ledger.",
+   "forward_signal": "Watch ICE detention population vs. actual removal counts divergence. Also watch outward-rhetoric efficacy metrics: polling on adversary framing, enlistment, official-messaging engagement decay. Any divergence between the two vectors is a confirming datapoint."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "nato-conditional-guilt",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+   "forward_signal": "Public repricing of the security guarantee; alliance fragmentation."
+  },
+  {
+   "date": "2026-09-12",
+   "time_et": null,
+   "track": "NLT backtest + vanguard-break correlation",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "NLT inversion precedes Leg 4 fracture in all three backtested turnings (1789, 1860, 1930-33). Owner hypothesis (legs 1-3 firing = precondition for leg 4) is consistent: NLT inversion is the observable mechanism by which saturated legs 1-3 convert into vanguard defection.",
+   "forward_signal": "Current NLT is inverted (apocalyptic content saturates in hours; institutional response lags days-weeks). Watch for vanguard defection signs within one political season per gauge."
+  },
+  {
+   "date": "2026-09-11",
+   "time_et": null,
+   "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
+   "mget_legs_tested": [
+    "Leg 1 Enclosing Force (chokepoint pressure)",
+    "Leg 2 Elite Overproduction (cover thesis)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent convergence: Prof Robert Pape (Escalation Trap, UChicago, CPOST) \u2014 the top-tier Iran analyst \u2014 reaches the same structural read as the CASS ledger via purely operational data: tactical success without political surrender, chokepoint (Hormuz) pressure now horizontally expanding to a second front (Houthi/Bab el-Mandeb), multi-theater escort strain. Independent replication of the Houthi fork (76) and Iran escalation mechanics. Leg 1 confirmed; Leg 2 partially confirmed (Pape's trap is strategic, not domestic \u2014 the domestic-necessity layer remains CASS's contribution and stays open).",
+   "forward_signal": "Pape's nightmare-scenario receipt: F-15/F-35 buildup pattern historically precedes escalation, not de-escalation \u2014 logged as HONEST straining signal against the Potemkin thesis (War Question spread watchlist). Also: his framework predicts escalation-begets-escalation, which the ledger should test against the November Pause window. Budget tell continues as Thesis B discriminator."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "post-trump-restructure",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+   "forward_signal": "Named fall guy; who assumes consolidated power."
   },
   {
    "date": "2026-09-09",
@@ -6913,6 +6899,31 @@
    "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
   },
   {
+   "date": "2026-09-06",
+   "time_et": null,
+   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
+   "mget_legs_tested": [
+    "Leg 6 (algorithmic enclosure)",
+    "complexity cap"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
+   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
+  },
+  {
+   "basename": "rogue-ai-tracker-harden",
+   "date": "2026-09-06",
+   "time_et": null,
+   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
+   "mget_legs_tested": [
+    "Leg 6 (algorithmic enclosure)",
+    "complexity cap"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
+   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
+  },
+  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -6948,6 +6959,29 @@
    "basename": "strait-of-hormuz-blockade"
   },
   {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "exogenous-climatic-shock",
+   "mget_legs_tested": [
+    "Leg 1 Complexity Cap"
+   ],
+   "verdict": "strains",
+   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
+   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "exogenous-climatic-shock",
+   "mget_legs_tested": [
+    "Leg 1 Complexity Cap"
+   ],
+   "verdict": "strains",
+   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
+   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
+  },
+  {
+   "basename": "supersized-el-nino-shock",
    "date": "2026-09-08",
    "time_et": null,
    "track": "exogenous-climatic-shock",
