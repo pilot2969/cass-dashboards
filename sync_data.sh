@@ -259,32 +259,29 @@ try:
     if _o2.path.exists(_tp):
         _h=open(_tp,encoding='utf-8').read()
         _blk=_h[_h.find("What we're tracking"):_h.find("Technical Information")]
-        _page=[]
-        for _m in _r2.finditer(r"<summary>(.*?)</summary>",_blk,_r2.S):
-            _seg=_m.group(1)
-            _sp=_r2.findall(r"<span>([^<]+)</span>",_seg)
-            _pc=_r2.search(r"(\d+)%",_seg)
-            if not _sp or not _pc: continue
-            if _sp[0].strip().lower().endswith("forecasts"): continue  # section header, not a card
-            _page.append((_ht2.unescape(_sp[0]).strip(), int(_pc.group(1))))
-        _n=lambda x:_r2.sub(r'[^a-z0-9]','',x.lower())
+        # 2026-11-02: match on data-card basename, exact. Fuzzy title matching both
+        # directions produced false drift (two Korea cards paired to the same row).
+        _page={}
+        for _m in _r2.finditer(r'<details class=evt data-card="([^"]+)">(.*?)</summary>',_blk,_r2.S):
+            _pc=_r2.search(r"(\d+)%",_m.group(2))
+            if _pc: _page[_m.group(1)]=int(_pc.group(1))
+        _internal=set()
+        if _o2.path.exists("internal_cards.txt"):
+            _internal={l.strip() for l in open("internal_cards.txt") if l.strip()}
         _absent=[]; _stale=[]
         for _f in sorted(_g2.glob("/space/prediction/*.json")):
             if _f.endswith(".schema.json"): continue
+            _bn=_o2.path.basename(_f)[:-5]
+            if _bn in _internal: continue
             _o=_j2.load(open(_f)); _c=_o.get("confidence_score")
             if _c is None: continue
             if isinstance(_c,(int,float)) and 0<_c<=1: _c=_c*100
             _c=int(round(float(_c)))
-            _t=_o.get("title") or _o2.path.basename(_f)[:-5]
-            _best=None; _br=0.0
-            for _pt,_pp in _page:
-                _r=_d2.SequenceMatcher(None,_n(_t),_n(_pt)).ratio()
-                if _r>_br: _br,_best=_r,(_pt,_pp)
-            _pn=_n(_best[0]) if _best else ""
-            _pref = bool(_pn) and (_n(_t).startswith(_pn) or _pn.startswith(_n(_t)[:35]))
-            if _br<0.72 and _pref and _best: _br=0.75  # page truncates long titles
-            if _br<0.72: _absent.append((_t,_c,_o.get("status")))
-            elif abs(_best[1]-_c)>=2: _stale.append((_t,_best[1],_c,_best[0]))
+            _t=_o.get("title") or _bn
+            if _bn not in _page:
+                _absent.append((_t,_c,_o.get("status"),_bn))
+            elif abs(_page[_bn]-_c)>=2:
+                _stale.append((_t,_page[_bn],_c,_bn))
         if _stale or _absent:
             print(f"WARNING: register drift — {len(_stale)} card(s) show a stale pct, {len(_absent)} scored card(s) off-register.")
             for _t,_pp,_lv,_pt in sorted(_stale,key=lambda x:-abs(x[2]-x[1]))[:15]:
@@ -310,13 +307,15 @@ try:
     _decided={"sustained","revised","overturned","held-for-revision"}
     _cnt["claims_tested"]=sum(1 for _f in _g2.glob("/space/gauntlet/*.json")
         if not _f.endswith(".schema.json") and str(_j2.load(open(_f)).get("verdict") or "").lower() in _decided)
-    _cnt["unscored_predictions"]=sum(1 for _p in data.get("predictions",[]) if _p.get("confidence_score") is None)
+    _cnt["unscored_predictions"]=sum(1 for _p in data.get("predictions",[]) if _p.get("confidence") is None)
     data["counts"]=_cnt
     print(f"counts: {_cnt['items_today']} logged today · {_cnt['tracked_predictions']} tracked · {_cnt['claims_tested']} claims tested")
     if _o2.path.exists("Internal Telemetry.html"):
         _h2=open("Internal Telemetry.html",encoding="utf-8").read()
         _reg=_h2[_h2.find("What we're tracking"):_h2.find("Technical Information")]
-        _cards=len(_r2.findall(r"<summary>",_reg))-len(_r2.findall(r"<span class=mut>[0-9]+ forecasts</span>",_reg))
+        # 2026-11-02: counted <summary> tags, so the "Resolving next 45 days" group
+        # summary scored as a card and the guard cried 70 vs 69 forever. Count cards.
+        _cards=len(_r2.findall(r"<details class=evt>",_reg))
         _heads=[int(x) for x in _r2.findall(r"<span class=mut>([0-9]+) forecasts</span>",_reg)]
         _says=sum(_heads)
         if _says!=_cards:
