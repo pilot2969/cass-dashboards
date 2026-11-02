@@ -76,16 +76,9 @@ def conf_of(o):
 def age_line(o):
     """The line that answers 'how old is this?'"""
     bits = []
-    # 2026-11-02 ANCHOR LOCK: the window has two edges and the card only showed one.
-    # window_opens is the anchor the expiry rule counts from, so it prints; expiry_date
-    # prints separately from window_closes because a ROLLING card can have a review
-    # expiry with no fixed close at all.
-    _wo = d(o.get("window_opens")) or d(o.get("date_made"))
     reg = d(o.get("date_made"))
-    if _wo:
-        bits.append(f"opened {_wo.isoformat()} ({days(_wo, TODAY)}d)")
-    if reg and _wo and reg != _wo:
-        bits.append(f"registered {reg.isoformat()}")
+    if reg:
+        bits.append(f"opened {reg.isoformat()} ({days(reg, TODAY)}d)")
     cls = o.get("card_class") or "—"
     bits.insert(0, cls)
     wc = d(o.get("window_closes"))
@@ -101,28 +94,9 @@ def age_line(o):
         when = f"in {n}d" if n > 0 else ("today" if n == 0 else f"{abs(n)}d ago — overdue")
         bits.append(f"window closes {wc.isoformat()} ({when})")
     else:
-        bits.append("open-ended — no fixed date")
-    # 2026-11-02 grace rule: a late hit only earns LATE credit if the horizon was
-    # locked before the window closed. Everything registered earlier is unlocked.
-    _g = str(o.get("grace_horizon") or "")
-    if o.get("grace_locked"):
-        bits.append(f"grace {_g.split('(')[0].strip()} (locked)")
-    elif _g.startswith("0"):
-        bits.append("no grace registered")
-    elif _g:
-        bits.append("grace unlocked — late hit scores LATE, not HIT")
-    if res in ("hit", "miss") and wc and closed and closed <= wc:
-        bits.append("in window")
-    _ag = str(o.get("anchor_grade") or "").strip().upper()
-    if _ag:
-        # The grade says how hard the claim is to score, so a reader can discount a
-        # D or an E without reading the whole card.
-        bits.append(f"anchor {_ag}")
-    _ex = d(o.get("expiry_date"))
-    if _ex and (not wc or _ex != wc):
-        bits.append(f"expires {_ex.isoformat()}")
+        bits.append("no window set")
     if o.get("skill_eligible") is False:
-        bits.append("not skill-eligible")
+        bits.append("scored — not skill-eligible")
     ps = o.get("public_status")
     if ps == "pending_adjudication":
         bits.append("published ahead of the gate")
