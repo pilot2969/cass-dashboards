@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-10-14",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-02T08:38 ET"
+  "generated_stamped": "2026-11-02T08:40 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1995,6 +1995,70 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-02",
+   "time_et": "08:05",
+   "track": "Election eve: Doha recesses without agreement and the post-vote strike clock becomes explicit; Ninth Circuit's second denial stands unchallenged; transit claim measured against CENTCOM's own numbers",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "pre-election enforcement posture",
+    "substrate shock / energy + rates",
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-02.md' and journal 2026-11-02-morning-wire.\n\n(1) Air: 190 aircraft 13:32Z, 6 Midwest, 0 bombers/fighters, Atlantic 0/0 \u2014 the 57-to-190 jump is time-of-day sampling, not posture. Real signal was off-feed: 13 US tankers photographed at Ramon AB, and three C-17s westbound in trail at FL340 \u2014 a channel flow rather than a deployment.\n\n(2) Doha recessed without agreement; draft proposal circulating, follow-up possible; Araghchi calling it a two-day pause. Paired with the Axios report that Netanyahu pressed for strikes immediately after the midterms while Trump wants talks to play out, the reading is that restraint is electoral rather than strategic \u2014 the war now has a start date shaped like Wednesday, conditional on the talks failing.\n\n(3) The transit claim is asserted, not measured: Bessent says Hormuz is back to pre-conflict minus Iranian barrels, against CENTCOM's 144 redirected, GEF day 242 CRITICAL, 23 attacks, ~492 waiting, LNG at 30% of pre-war. The claim is falsifiable by attack rate over the next week.\n\n(4) Legal channel still failing going into the vote: Alaska suit dismissed by Gleason; Ninth Circuit denied California a second time; no SCOTUS filing confirmed. ~1,000 observers deploy anyway. Stevens endorsed Rogers; NYT/Siena five of seven; Commission backs the Sejm in Poland.\n\n(5) Oil fell 3% into the vote on diplomacy \u2014 the price leg of the SPR card deflating on the timeline, not on the physicals.",
+   "forward_signal": "(a) any strike before close of polls; (b) whether the Doha draft becomes a published text or a date for reopening the strait by 10 Nov; (c) whether the attack rate on shipping falls (validating the transit claim) or holds near one per 36 hours (falsifying it); (d) whether an emergency SCOTUS application lands today and how narrow; (e) Brent holding above 108 through the vote; (q) whether the Roosevelt reaches CENTCOM before late November.",
+   "confidence_moves": "Naval escort 88 -> window closed 11-01, escalation re-read as deferred rather than absent; catalyst node 70 held (legal channel failing, pre-position continues); SPR 30 held with price leg deflating; election-day violence 20 held; Iran nuclear test 0.07 held.",
+   "basename": "2026-11-02-morning-wire"
+  },
+  {
+   "date": "2026-11-01",
+   "time_et": "21:35",
+   "track": "Full forecast-card ping into election eve; declaratory rungs only on the Iran ladder; oil closes the window high but unbroken",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "substrate shock / energy + rates",
+    "pre-election enforcement posture",
+    "midterm catalyst sequencing"
+   ],
+   "verdict": "neutral",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Evening Wire 2026-11-01.md'.\n\nAir: 57 aircraft 16:18Z (down from 66 in the morning \u2014 sampling, not signal), Midwest 0, bombers 0, fighters 0, lift/tanker 7, Atlantic 0 eastbound / 1 westbound (RCH814 C-17 FL340).\n\nNothing kinetic moved across the weekend; the vocabulary moved. Rezaei: no new decision on weaponizing, but Iran would use 'new weaponry' in any response. Khamenei: 'geographically unrestricted response'. Trump: 'we blow them up or we make a deal'. Both declaratory rungs; no technical rung \u2014 no CTBTO event, no IAEA special report, no facility imagery change.\n\nCard ping, 13 live or closing windows. Material results: naval escort window (60d) closed with no verified hit on a US major surface combatant \u2014 Iranian 'seriously damaged' claims (9-16, 10-26) unverified, CENTCOM records no damage \u2014 flagged for blind adjudication rather than self-resolved as a miss; SPR runway physical leg did not break (no breach, no Bab el-Mandeb closure, no new convoy loss) leaving the fatality leg on the exit-poll test; catalyst node's legal leg failing (Ninth Circuit twice, no SCOTUS filing) while pre-positioning continues, no score change; Omar card trending negative, frame migrated to El-Sayed; control cards (Control-2, clean election, power retention, 90-day Phase 4) open Tuesday.\n\nBrent ~113, WTI ~102, off Friday's four-year high, up sharply on the year. Michigan cross-party defection: Stevens endorsed Rogers hours after being kept out of a shared Detroit event; her chief of staff resigned; Trump called El-Sayed a 'jihadist' from an Iowa stage \u2014 a targeting frame on a named candidate.",
+   "forward_signal": "(a) strike before Tuesday's close of polls \u2014 the last clean falsifier; (b) a narrow SCOTUS application; (c) Rezaei's 'new weaponry' repeated by a principal inside 48 hours; (d) the El-Sayed targeting frame reaching down-ballot messengers; (e) Brent above 110 through the vote; (f) a concession speech inside 24 hours of the result.",
+   "confidence_moves": "No numbered moves. Naval escort 88 held pending adjudication; Omar 45 unchanged with negative trend recorded.",
+   "basename": "2026-11-01-evening-wire"
+  },
+  {
+   "date": "2026-11-01",
+   "time_et": "11:20",
+   "track": "War rescheduled not cancelled; Commission picks the Sejm in Warsaw; Michigan unity event cancelled; California still absent from the SCOTUS docket",
+   "mget_legs_tested": [
+    "substrate shock / energy + rates",
+    "pre-election enforcement posture",
+    "narrative pre-legitimation",
+    "kinetic escalation ladder"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-01.md'.\n\n(1) Air: 66 aircraft on the 16:18Z pull, 3 Midwest, 0 bombers, 0 fighter orbits, Atlantic 0/0, one feed 403. Baseline, not narrated.\n\n(2) The war has been rescheduled, not cancelled, and both sides have now priced the failure mode. Rubio: no decision, diplomacy preferred. Trump: needs to 'take care of one or two sites', spoke with Netanyahu about renewed strikes. Rezaei: Iran debating whether to keep its nuclear-weapons ban if hostilities resume, no decision taken \u2014 a price signal, not a doctrine change, and it hands Washington's strike advocates the argument that delay degrades. Doha running the seven-day step-by-step framework. What changed is that negotiation is no longer described as the way to avoid war; it is one option among two. The pre-vote sequencing promise is intact two days out.\n\n(3) The European Commission picked a side in Warsaw and it is the parliament's: appointing the eight Tribunal members 'lies within the constitutional power of the Sejm', citing ECtHR interim measures of 5 May 2026. The crisis had two competing theories of legitimacy and no external arbiter; it now has one, and it is the same record the government has used to stop publishing Tribunal rulings.\n\n(4) Michigan's unity event is off before it happened \u2014 El-Sayed's campaign asked Stevens to stay away; the two will not campaign together at all. Dan Sullivan says he will accept the Alaska result while calling the Peltola ballot scheme 'disdain' for voters. Asymmetry: the Republican pre-accepts the count, the Democratic tent cannot hold a photo line two days out.\n\n(5) Still no SCOTUS application on California. Precedent on the docket: Trump v. California, No. 26A124 (per curiam, 24 Aug 2026), stay on standing without reaching the merits.",
+   "forward_signal": "(a) any application landing today, and its breadth; (b) whether Rezaei's nuclear line is repeated by a principal; (c) whether the ECtHR posture is contested by Warsaw in writing; (d) whether any down-ballot Democrat echoes the Stevens defection; (e) whether Doha produces a dated framework.",
+   "confidence_moves": "Naval escort card held at 88 with its window closing tonight; referred to blind adjudication rather than self-resolved.",
+   "basename": "2026-11-01-morning-wire"
+  },
+  {
+   "date": "2026-10-31",
+   "time_et": "11:45",
+   "track": "Election instrument strays from the court record \u2014 appellate losses x3, fifty-state letters; Hormuz claim inflation; AI buildout as credit story",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "substrate shock / energy + rates",
+    "narrative pre-legitimation"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source is 'Morning Wire 2026-10-31.md' \u2014 no ledger entry was filed at the time (first of three consecutive wire days with no intake record).\n\n(1) The instrument survived the injunction in letter form. Ninth Circuit refused 2-1 to segregate ~20,000 California ballots \u2014 third loss on the same request inside a week, and the panel adopted Carter's reasoning almost verbatim ('no feasible way to identify and segregate', 'potentially catastrophic effects'). Thompson separately barred DOJ and DHS from a 'campaign to intimidate, threaten, and coerce' election officials; the DHS voter-fraud field operation block was left standing. In the same 24 hours McCotter sent near-identical letters to all fifty states citing 52 USC 20701, threatening a year in prison, naming no violation and no investigation. Read the sequence, not the filings: subpoenas, segregation motion, special master, criminal-referral drumbeat, fifty-state letter, three appellate losses. Volume is the message; the predicate has not moved \u2014 recruitment of a namesake candidate, without coercion on the careful reading.\n\n(2) States refuse monitors at the door: Indiana, Kentucky, Washington County (Ark.), Adams County (Colo.); Colorado's secretary of state barred them after DOJ rejected her conditions. The standoff is jurisdictional, which is litigated after the count.\n\n(3) Hormuz claim inflation is now the pattern: IRGC's burned-tanker count climbed 3->4 in two days with no maritime authority confirmation, against independently reported Oman rescue of 25 crew, a supertanker mine strike losing ~2M barrels, and an attack on a vessel carrying 27 Indian seafarers. IMF PortWatch two transits Oct 25 vs 85/day baseline; 114 AIS-visible vessels holding off berth; Brent settled 113.43 (+2.37%).",
+   "forward_signal": "Pre-registered: (a) SCOTUS application before Tuesday, and whether relief is timed to moot itself; (b) any documented state refusal of the fifty-state letter; (c) any polling place actually turning a monitor away; (d) independent confirmation of the mine claims; (e) Qatar's Doha session producing a framework and whether it is dated before or after the vote; (f) 10Y below 4.75 or above 5; (g) a second neocloud covenant or coupon failure; (h) whether either party's closing message mentions the war.",
+   "confidence_moves": "No repricing this run. C-002 held: Branch A still requires a post-11-03 action, not a pre-11-03 posture.",
+   "basename": "2026-10-31-morning-wire"
+  },
   {
    "date": "2026-10-30",
    "time_et": "14:04",
