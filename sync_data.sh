@@ -265,7 +265,7 @@ try:
             _c=_o.get('confidence_score')
             if _c is None: continue
             if isinstance(_c,(int,float)) and _c<=1: _c=round(float(_c)*100)
-            _k=_nrm(_o.get('title') or _o2.path.basename(_f)[:-5])
+            _k=_nrm(_o.get('title') or _o2.path.basename(_f)[:-5])[:45]  # same 45-char truncation as _pub
             # 2026-11-02: key on basename, not title. Title-key collision was
             # collapsing sibling cards (e.g. the two Korea cards) and under-reporting
             # the unpublished count (said 10, actual 14).
