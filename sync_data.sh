@@ -236,6 +236,40 @@ try:
 except Exception as e:
     print("card parse warn:", e)
 
+# REGISTER DRIFT GUARD (2026-11-02): the public forecast register in
+# Internal Telemetry.html is baked, not rendered from data.json, so a card that
+# moves in /space does not move on the page until the register is regenerated.
+# Found live on 2026-11-02: 14 cards displaying stale percentages (three showed
+# 0% — a 0-1 confidence scale artifact) and 6 cards missing entirely. Warn-only:
+# sync never rewrites the register, it just makes the drift loud each run.
+try:
+    import re as _r2, glob as _g2, json as _j2, os as _o2
+    _tp="Internal Telemetry.html"
+    if _o2.path.exists(_tp):
+        _h=open(_tp,encoding='utf-8').read()
+        _blk=_h[_h.find("What we're tracking"):_h.find("Technical Information")]
+        _nrm=lambda s:_r2.sub(r'[^a-z0-9]','',s.lower())[:45]
+        _pub={}
+        for _m in _r2.finditer(r'<span>([^<]{5,300})</span><span class="?z35 [a-z0-9]+"?>[^<]*?(\d+)%', _blk):
+            _pub[_nrm(_m.group(1))]=(_m.group(1)[:60], int(_m.group(2)))
+        _live={}
+        for _f in _g2.glob("/space/prediction/*.json"):
+            if _f.endswith('.schema.json'): continue
+            _c=_j2.load(open(_f)).get('confidence_score')
+            if _c is None: continue
+            if isinstance(_c,(int,float)) and _c<=1: _c=round(float(_c)*100)
+            _o=_j2.load(open(_f))
+            _live[_nrm(_o.get('title') or _o2.path.basename(_f)[:-5])]=int(round(float(_c)))
+        _drift=[(_pub[k][0],_pub[k][1],v) for k,v in _live.items() if k in _pub and abs(_pub[k][1]-v)>=2]
+        _miss=[k for k in _live if k not in _pub]
+        if _drift or _miss:
+            print(f"WARNING: register drift — {len(_drift)} card(s) show a stale pct, {len(_miss)} live card(s) unpublished. Reconcile Internal Telemetry.html.")
+            for _t,_p,_v in sorted(_drift,key=lambda x:-abs(x[2]-x[1]))[:15]:
+                print(f"  pct {_p:>3}% -> live {_v:>3}%  {_t}")
+            for _k in _miss[:15]: print(f"  unpublished: {_k}")
+except Exception as _e:
+    print("register drift check warn:", _e)
+
 # INSTITUTIONAL STRESS STALENESS (protocol 2026-10-14): scores are hand-reviewed
 # estimates; the daily sync auto-rolls the age clock. >7d since hand review = the
 # dashboard prints a stale flag next to the panel. Sync never rewrites scores.
