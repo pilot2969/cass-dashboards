@@ -209,4 +209,35 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
   document.getElementById('clock').textContent='clock unavailable';
  }
 })();
+</script><script>
+/* 2026-11-02: the ledger block was baked and had frozen at 2026-10-01 while data.json
+   carried 417 entries to 2026-11-02 — a month of silence underneath a header that still
+   said 417. Rendered live now, grouped by age, so old entries cannot pose as new. */
+(function(){
+ var box=document.getElementById('ledger-live'); if(!box) return;
+ var CLS={confirms:'z39',strains:'z41',neutral:'z40',undermines:'hot'};
+ function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+ fetch('data.json?v='+new Date().toISOString().slice(0,10)).then(function(r){return r.json();}).then(function(d){
+  var L=(d.mget_ledger||[]).slice().sort(function(a,b){
+    return (b.date+(b.time_et||'')).localeCompare(a.date+(a.time_et||''));});
+  var today=new Date('2026-11-02T00:00:00'), DAY=86400000;
+  var groups=[['Last 7 days',7],['Last 30 days',30],['Older',1e9]], out='';
+  groups.forEach(function(g,gi){
+   var lo=gi?groups[gi-1][1]:-1;
+   var rows=L.filter(function(e){
+     var n=Math.round((today-new Date(e.date+'T00:00:00'))/DAY);
+     return n>lo && n<=g[1];});
+   if(!rows.length) return;
+   out+='<details class=z1 '+(gi===0?'open':'')+'><summary><span class=z10>'+g[0]+
+        '</span> <span class=mut>'+rows.length+' entries</span></summary><div class=z37 style="padding:4px 2px">';
+   rows.forEach(function(e){
+     out+='<div class=row><span>'+esc(e.track||'(untitled)')+'</span>'+
+          '<span class="z35 '+(CLS[e.verdict]||'z40')+'">'+esc(e.date)+
+          (e.time_et?' '+esc(e.time_et)+' ET':'')+'</span></div>';
+   });
+   out+='</div></details>';
+  });
+  box.innerHTML=out||'<div class=mut>no entries</div>';
+ }).catch(function(){ box.innerHTML='<div class=mut>ledger unavailable</div>'; });
+})();
 </script>
