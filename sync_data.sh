@@ -276,6 +276,40 @@ try:
 except Exception as _e:
     print("register drift check warn:", _e)
 
+# CADENCE COUNTS + BAKED-FIGURE GUARD (2026-11-02): the counts row under the
+# gauge panel (items logged today / tracked predictions / claims tested) was baked
+# at 11 / 64 / 25 while the register and tribunal had moved to 1 / 64 / 28 — the
+# row read stale under a hard refresh because it was HTML, not data. Sync now
+# emits data.counts each run, which the page renders live (ids zc-items,
+# zc-preds, zc-claims). Baked fallbacks in the HTML are updated to match.
+# Guard also checks the heading and per-section forecast counts against the cards
+# actually present, so "64 forecasts" can never silently disagree with the page.
+try:
+    _cnt={}
+    _cnt["items_today"]=sum(1 for _e in data.get("mget_ledger",[]) if str(_e.get("date",""))[:10]==datetime.date.today().isoformat())
+    _cnt["tracked_predictions"]=len(data.get("predictions",[]))
+    _cnt["claims_tested"]=int(__import__("subprocess").run("ls /space/gauntlet/*.json | wc -l",shell=True,capture_output=True,text=True).stdout.strip() or 0)
+    _cnt["unscored_predictions"]=sum(1 for _p in data.get("predictions",[]) if _p.get("confidence_score") is None)
+    data["counts"]=_cnt
+    print(f"counts: {_cnt['items_today']} logged today · {_cnt['tracked_predictions']} tracked · {_cnt['claims_tested']} claims tested")
+    if _o2.path.exists("Internal Telemetry.html"):
+        _h2=open("Internal Telemetry.html",encoding="utf-8").read()
+        _reg=_h2[_h2.find("What we're tracking"):_h2.find("Technical Information")]
+        _cards=len(_r2.findall(r"<summary>",_reg))-len(_r2.findall(r"<span class=mut>[0-9]+ forecasts</span>",_reg))
+        _heads=[int(x) for x in _r2.findall(r"<span class=mut>([0-9]+) forecasts</span>",_reg)]
+        _says=sum(_heads)
+        if _says!=_cards:
+            print(f"WARNING: section forecast counts say {_says}, page holds {_cards} cards. Regenerate the register or fix the headers.")
+        for _id,_v in (("zc-items",_cnt["items_today"]),("zc-preds",_cnt["tracked_predictions"]),("zc-claims",_cnt["claims_tested"])):
+            _m=_r2.search(r'id="%s">([0-9]+)<'%_id,_h2)
+            if _m and int(_m.group(1))!=_v:
+                print(f"WARNING: baked fallback {_id}={_m.group(1)} but live is {_v} — update the HTML default so a failed fetch still reads true.")
+    _m2=_r2.search(r"Last review: <span id=\"zinst-reviewed\">",_h2)
+    if not _m2:
+        print("WARNING: gauges panel is missing its live review-date hook (zinst-reviewed); the staleness clock cannot render.")
+except Exception as _e:
+    print("counts/guard warn:", _e)
+
 # INSTITUTIONAL STRESS STALENESS (protocol 2026-10-14): scores are hand-reviewed
 # estimates; the daily sync auto-rolls the age clock. >7d since hand review = the
 # dashboard prints a stale flag next to the panel. Sync never rewrites scores.
