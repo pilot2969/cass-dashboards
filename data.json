@@ -3,8 +3,7 @@
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
-  "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-02T13:57 ET"
+  "source": "Rool Machine space export"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -8935,7 +8934,6 @@
    "forward_signal": "(a) whether Kagan requests a response, which converts a same-day ask into a multi-day one; (b) any order before polls close; (c) whether the application survives as pending on Wednesday and how the count handles the 20,000; (d) a second state filing in the same posture by Friday; (e) whether DOJ converts the segregation demand into a post-certification contest in any state; (f) whether the LA County Registrar produces records under subpoena before the count completes."
   },
   {
-   "basename": "4x4gcb01otxx",
    "date": "2026-09-15",
    "track": "courts-elections",
    "mget_legs_tested": [],
@@ -9580,6 +9578,18 @@
    "basename": "reichstag-fire-national-emergency"
   },
   {
+   "date": "2026-09-06",
+   "time_et": null,
+   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
+   "mget_legs_tested": [
+    "Leg 6 (algorithmic enclosure)",
+    "complexity cap"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
+   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
+  },
+  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -9615,6 +9625,17 @@
    "reasoning": "Hormuz effectively closed (~95% traffic drop, confirmed). The most leveraged global supply node severed is the strongest Tainter confirm on the board. Confirms Leg 4 and Leg 1 resource-lever.",
    "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame.",
    "basename": "strait-of-hormuz-blockade"
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "exogenous-climatic-shock",
+   "mget_legs_tested": [
+    "Leg 1 Complexity Cap"
+   ],
+   "verdict": "strains",
+   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
+   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
   },
   {
    "date": "2026-09-04",
