@@ -181,14 +181,7 @@
    ],
    "confirmer": "Armed/visual enforcement event on Omar (or announced removal staging) before Nov 3 following the WSJ-sourced citizenship-strip track, in the spectacle format SA specified.",
    "confirmer_base_rate": "Spectacle enforcement against a sitting federal legislator before a federal election: near-zero historical base rate; low naive rate raises the confirmation bar \u2014 timing specificity (pre-election) and format specificity (spectacle) must BOTH hold.",
-   "confirmation_window": "2026-10-15 to 2026-11-03",
-   "anchor_grade": "A",
-   "anchor_type": "statutory",
-   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
-   "window_opens": "2026-10-15",
-   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
-   "expiry_date": "2026-11-03",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "confirmation_window": "2026-10-15 to 2026-11-03"
   },
   {
    "basename": "2026-midterms-legitimacy-catalyst-node",
@@ -2182,14 +2175,7 @@
    ],
    "confirmer": "PLA force movement or buffer rhetoric in the northeast; ROK nuclear program (not debate); US Pacific posture drawdown; collapse signal in Pyongyang; re-partition rather than unification if war occurs",
    "confirmer_base_rate": "Unifications achieved by war in the modern era: Vietnam 1975 (conquest of an unarmed-by-comparison state), Yemen 1990 (absorption of a small unarmed collapsed state). Unifications of nuclear-armed states by war: zero. Partitions that survived patron change: Taiwan/China, Cyprus, Ireland, Kashmir. Korean partitions produced by war: one, at the cost of ~3 million dead and a permanent armistice.",
-   "confirmation_window": "2026-10-27 to 2030-12-31",
-   "anchor_grade": "B",
-   "anchor_type": "calendar_period",
-   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
-   "window_opens": "2026-10-27",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2030-12-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "confirmation_window": "2026-10-27 to 2030-12-31"
   },
   {
    "basename": "mid-august-oil-price-shock",
@@ -9738,19 +9724,6 @@
    "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
   },
   {
-   "basename": "rogue-ai-tracker-harden",
-   "date": "2026-09-06",
-   "time_et": null,
-   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
-   "mget_legs_tested": [
-    "Leg 6 (algorithmic enclosure)",
-    "complexity cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
-  },
-  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -9787,18 +9760,6 @@
   },
   {
    "date": "2026-09-04",
-   "time_et": null,
-   "track": "exogenous-climatic-shock",
-   "mget_legs_tested": [
-    "Leg 1 Complexity Cap"
-   ],
-   "verdict": "strains",
-   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
-  },
-  {
-   "basename": "supersized-el-nino-shock",
-   "date": "2026-09-08",
    "time_et": null,
    "track": "exogenous-climatic-shock",
    "mget_legs_tested": [
