@@ -280,7 +280,9 @@ try:
         # directions produced false drift (two Korea cards paired to the same row).
         _page={}
         for _m in _r2.finditer(r'<details class=evt data-card="([^"]+)">(.*?)</summary>',_blk,_r2.S):
-            _pc=_r2.search(r"(\d+)%",_m.group(2))
+            # pill only: the first "%" in a card can be in its title ("scored at 7%
+            # through 2030"), which produced phantom stale-pct alarms.
+            _pc=_r2.search(r'class="z35 [^"]*">[^<]*?(\d+)%',_m.group(2))
             if _pc: _page[_m.group(1)]=int(_pc.group(1))
         _internal=set()
         if _o2.path.exists("internal_cards.txt"):
@@ -332,7 +334,7 @@ try:
         _reg=_h2[_h2.find("What we're tracking"):_h2.find("Technical Information")]
         # 2026-11-02: counted <summary> tags, so the "Resolving next 45 days" group
         # summary scored as a card and the guard cried 70 vs 69 forever. Count cards.
-        _cards=len(_r2.findall(r"<details class=evt>",_reg))
+        _cards=len(_r2.findall(r"<details class=evt",_reg))
         _heads=[int(x) for x in _r2.findall(r"<span class=mut>([0-9]+) forecasts</span>",_reg)]
         _says=sum(_heads)
         if _says!=_cards:
@@ -566,12 +568,7 @@ _pages_wait pilot2969/cass-dashboards "$_ptok"
 # gets rejected (fetch first) and the run dies after staging already moved.
 if ! git push -q prod main:main 2>/dev/null; then
   git fetch -q prod main
-  # Same rule as the origin pull: -X theirs (our commits win in a rebase), and the
-  # generated files are restored from the snapshot afterwards rather than merged.
-  for _g in $GEN; do [ -f "$_g" ] && cp "$_g" "/tmp/_gen2_$(echo $_g | tr ' ' '_')"; done
-  git rebase --autostash -X theirs prod/main -q || { git rebase --abort; echo "ERROR: prod rebase failed"; }
-  for _g in $GEN; do [ -f "/tmp/_gen2_$(echo $_g | tr ' ' '_')" ] && cp "/tmp/_gen2_$(echo $_g | tr ' ' '_')" "$_g"; done
-  git add -A && { git diff --cached --quiet || git commit -q --amend --no-edit; }
+  git rebase --autostash -X ours prod/main -q || { git rebase --abort; echo "ERROR: prod rebase failed"; }
   git push -q prod main:main && echo "PUSHED TO PROD ✓ (rebased over deploy commit)"
 else echo "PUSHED TO PROD ✓"; fi
 sleep 10
