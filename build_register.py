@@ -90,7 +90,11 @@ def age_line(o):
         tag = {"hit": "CLOSED — HIT", "miss": "CLOSED — MISS", "holding": "HELD OPEN (holding)"}[res]
         bits.append(f'<b>{tag}</b>')
         if closed:
-            bits.append(f"closed {closed.isoformat()}")
+            # 2026-11-02: this printed the RESOLUTION date as "closed", so an in-window
+            # confirm read as a close date and looked like a late score. Name both dates.
+            bits.append(f"resolved {closed.isoformat()}")
+        if wc:
+            bits.append(f"window closed {wc.isoformat()}")
     elif wc:
         n = days(TODAY, wc)
         when = f"in {n}d" if n > 0 else ("today" if n == 0 else f"{abs(n)}d ago — overdue")
@@ -103,9 +107,11 @@ def age_line(o):
     if o.get("grace_locked"):
         bits.append(f"grace {_g.split('(')[0].strip()} (locked)")
     elif _g.startswith("0"):
-        bits.append("no grace — a late hit scores as late")
+        bits.append("no grace registered")
     elif _g:
         bits.append("grace unlocked — late hit scores LATE, not HIT")
+    if res in ("hit", "miss") and wc and closed and closed <= wc:
+        bits.append("in window")
     if o.get("skill_eligible") is False:
         bits.append("scored — not skill-eligible")
     ps = o.get("public_status")

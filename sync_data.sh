@@ -53,6 +53,24 @@ for _p in data.get("predictions", []):
 # Fix the class, not the instance: resolution-bearing fields are now overwritten
 # from /space on every sync. A card present in data.json but missing from /space is
 # a FAIL, not a silent keep — a deleted card must not keep publishing.
+#
+# DEDUPE (2026-11-02, second root cause): the prod branch carries a second writer
+# ("Board refresh from Rool Machine /space export") that APPENDS rather than
+# reconciles. A merge from prod landed 75 entries for 69 cards, six duplicates, and
+# every downstream count then read 75. Dedupe by basename here so a merge cannot
+# republish duplicates; the last occurrence wins, and reconciliation below makes
+# its fields authoritative from /space regardless.
+_pseen = {}
+for _p in data.get("predictions", []):
+    _bn = _p.get("basename")
+    if not _bn:
+        raise SystemExit("PREDICTION RECONCILE FAILED: prediction with no basename — cannot key it")
+    _pseen.pop(_bn, None)
+    _pseen[_bn] = _p
+if len(_pseen) != len(data.get("predictions", [])):
+    print(f"dedupe: predictions[] {len(data.get('predictions', []))} -> {len(_pseen)} (duplicate basenames removed)")
+    data["predictions"] = list(_pseen.values())
+
 _json_fields = ("card_class","resolution","resolution_date","window_closes","grace_horizon",
                 "grace_locked","skill_eligible","public_status","status",
                 "anchor_grade","expiry_date","tracking_state")
