@@ -46,50 +46,22 @@ for _p in data.get("predictions", []):
     if isinstance(_c,(int,float)) and _c <= 1:
         _p["confidence"] = round(_c*100)
 
-# predictions[] RECONCILIATION (2026-11-02). Three incidents in one day came from
-# the same root cause: predictions[] is a hand-carried snapshot, so a card that
-# changes in /space keeps publishing yesterday's resolution. The register was
-# rebuilt from /space and read correct while data.json still said resolution=holding.
-# Fix the class, not the instance: resolution-bearing fields are now overwritten
-# from /space on every sync. A card present in data.json but missing from /space is
-# a FAIL, not a silent keep — a deleted card must not keep publishing.
-#
-# DEDUPE (2026-11-02, second root cause): the prod branch carries a second writer
-# ("Board refresh from Rool Machine /space export") that APPENDS rather than
-# reconciles. A merge from prod landed 75 entries for 69 cards, six duplicates, and
-# every downstream count then read 75. Dedupe by basename here so a merge cannot
-# republish duplicates; the last occurrence wins, and reconciliation below makes
-# its fields authoritative from /space regardless.
-_pseen = {}
-for _p in data.get("predictions", []):
-    _bn = _p.get("basename")
-    if not _bn:
-        raise SystemExit("PREDICTION RECONCILE FAILED: prediction with no basename — cannot key it")
-    _pseen.pop(_bn, None)
-    _pseen[_bn] = _p
-if len(_pseen) != len(data.get("predictions", [])):
-    print(f"dedupe: predictions[] {len(data.get('predictions', []))} -> {len(_pseen)} (duplicate basenames removed)")
-    data["predictions"] = list(_pseen.values())
-
-_json_fields = ("card_class","resolution","resolution_date","window_closes","grace_horizon",
-                "grace_locked","skill_eligible","public_status","status",
-                "anchor_grade","expiry_date","tracking_state")
-_missing = []
-for _p in data.get("predictions", []):
-    _src = os.path.join(P, (_p.get("basename") or "") + ".json")
-    if not os.path.exists(_src):
-        _missing.append(_p.get("basename")); continue
-    _o = json.load(open(_src))
-    for _k in _json_fields:
-        if _k in _o:
-            _p[_k] = _o[_k]
-        else:
-            _p.pop(_k, None)
-    if _o.get("confidence_score") is not None:
-        _c = _o["confidence_score"]
-        _p["confidence"] = round(_c*100) if isinstance(_c,(int,float)) and 0 < _c <= 1 else _c
-if _missing:
-    raise SystemExit("PREDICTION RECONCILE FAILED: in data.json but not in /space — " + ", ".join(_missing))
+# predictions[] RECONCILIATION (2026-11-02). Three incidents in one day, one root
+# cause: predictions[] is a hand-carried snapshot, so a card that changes in /space
+# keeps publishing yesterday's resolution. The register was rebuilt from /space and
+# read correct while data.json still said resolution=holding.
+# DEDUPE is the second half of it: a second writer ("Board refresh from Rool Machine
+# /space export") APPENDS rather than reconciles, so merges republish cards two and
+# three times over. Live data.json carried 81 entries for 69 cards.
+# Both now live in reconcile_predictions.py so the SAME reconcile can run again after
+# `git pull --rebase` — that second call is the one that actually holds, because the
+# pull can land a remote data.json over the regenerated one.
+import subprocess
+_rp=subprocess.run(["python3","reconcile_predictions.py"],capture_output=True,text=True)
+print(_rp.stdout.strip() or _rp.stderr.strip())
+if _rp.returncode!=0:
+    raise SystemExit("PREDICTION RECONCILE FAILED:\n"+_rp.stdout+_rp.stderr)
+data=json.load(open("data.json"))   # re-read: the reconcile calls in from disk
 cards=[json.load(open(f)) for f in glob.glob(P+"*.json") if not f.endswith(".schema.json")]
 INTERNAL=[l.strip() for l in open('internal_cards.txt')] if os.path.exists('internal_cards.txt') else []
 cards=[c for c in cards if c.get('basename') not in INTERNAL]
@@ -541,9 +513,26 @@ else
 fi
 
 # pull with rebase; a failure must abort the script (set -e), never print success.
-# -X ours is safe here because data.json/history.json are generated artifacts:
-# our regen output is authoritative over any remote-only drift.
-git pull --rebase --autostash -X ours -q origin main
+# 2026-11-02 MERGE-DIRECTION FIX: this said "-X ours is safe because our regen
+# output is authoritative" — backwards. During a REBASE, -X ours means the branch
+# we are rebasing ONTO wins, i.e. the REMOTE data.json beats our regeneration. That
+# is how 81 entries for 69 cards reached the live site twice in one afternoon after
+# a dedupe that reported success. -X theirs means our commits win, which is what the
+# comment always claimed was happening.
+git pull --rebase --autostash -X theirs -q origin main
+
+# POST-PULL RE-ASSERT (2026-11-02). Merge direction is exactly the kind of thing that
+# gets flipped by accident, so the pull result is not trusted: reconcile again against
+# /space, rebuild if the pull changed anything, and amend before pushing. data.json's
+# predictions[] is never allowed to be whatever the remote happened to be carrying.
+if ! python3 reconcile_predictions.py --check >/tmp/_recon.txt 2>&1; then
+  echo "POST-PULL: remote data.json diverged from /space — re-asserting"
+  sed -n '1,6p' /tmp/_recon.txt
+  python3 reconcile_predictions.py
+  python3 build_register.py
+  git add -A
+  git commit -q --amend --no-edit
+fi
 # CONSOLIDATED PUSH BLOCK (2026-10-14 review): exactly one push per remote, per
 # run. origin = staging repo, prod = prod repo, staging = alias of origin.
 # 2026-10-21 PAGES-SERIALIZATION: GitHub Pages rejects a new deployment while

@@ -161,7 +161,37 @@ async function main(){
       const noClass=[...doc.querySelectorAll('details.evt')].filter(c=>!/\b(EVENT|THESIS|MECHANISM|PERSISTENCE|ROLLING)\b/.test(txt(c.textContent))).length;
       noClass?fail('register.class',`${noClass} card(s) with no class label`):pass('register.class','every card states its class');
 
-      // 10. resolution calendar present and honest
+      // 10. documentation must describe the data it sits above (2026-11-02).
+      // The register, the dictionary and the change log are all "technical" surfaces
+      // that a reader trusts to be current. Twice today they described a schema the
+      // board no longer used, so currency is now asserted rather than assumed.
+      // (a) no duplicate card IDs — a second writer appends to predictions[], and
+      //     81 entries for 69 cards is what that looks like before it is caught.
+      const ids=(dd.predictions||[]).map(p=>p.basename);
+      const dupes=ids.filter((b,i)=>ids.indexOf(b)!==i);
+      dupes.length?fail('data.predictions_unique',`${ids.length} entries for ${new Set(ids).size} cards — duplicated: ${[...new Set(dupes)].slice(0,4).join(', ')}`)
+                  :pass('data.predictions_unique',`${ids.length} predictions, all unique`);
+
+      // (b) every field published on a card has a dictionary entry, found by its
+      //     data-field marker. Add a field without documenting it and the push fails.
+      const present=[...new Set((dd.predictions||[]).flatMap(p=>Object.keys(p)))];
+      const documented=new Set([...doc.querySelectorAll('[data-field]')].map(n=>n.getAttribute('data-field')));
+      const undocumented=present.filter(k=>!documented.has(k));
+      undocumented.length?fail('docs.dictionary',`field(s) on cards with no dictionary entry: ${undocumented.join(', ')}`)
+                         :pass('docs.dictionary',`all ${present.length} card fields documented`);
+
+      // (c) the version in the footer must appear in the change log, and the newest
+      //     log entry must be recent — otherwise the footer advertises a build the
+      //     log has never heard of, which is how this drifted before.
+      const ver=txt(doc.querySelector('.ftver')?.textContent);
+      const logged=[...doc.querySelectorAll('.z12')].map(n=>txt(n.textContent).slice(0,120));
+      logged.some(t=>ver&&t.includes(ver))?pass('docs.changelog',`footer ${ver} has a change-log entry`)
+        :fail('docs.changelog',`footer version ${ver||'MISSING'} appears in no change-log entry`);
+      const newestLog=(logged.join(' ').match(/\d{4}-\d{2}-\d{2}/)||[])[0];
+      (newestLog&&daysBetween(newestLog,today)>30)?fail('docs.changelog_fresh',`newest change-log entry ${newestLog} — ${daysBetween(newestLog,today)}d behind`)
+        :pass('docs.changelog_fresh',`newest change-log entry ${newestLog}`);
+
+      // 11. resolution calendar present and honest
       const cal=[...doc.querySelectorAll('details')].find(d=>/Resolving next 45 days/.test(txt(d.querySelector('summary')?.textContent)));
       cal?pass('calendar.present',txt(cal.querySelector('summary').textContent).slice(0,60)):fail('calendar.present','resolution calendar missing');
     }
