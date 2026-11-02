@@ -196,6 +196,19 @@ async function main(){
       (newestLog&&daysBetween(newestLog,today)>30)?fail('docs.changelog_fresh',`newest change-log entry ${newestLog} — ${daysBetween(newestLog,today)}d behind`)
         :pass('docs.changelog_fresh',`newest change-log entry ${newestLog}`);
 
+      // 10b. the "big questions" section is legacy baked HTML with no renderer —
+      // exactly the failure mode that kept this board stale. Its numbers are now
+      // asserted against data.json's macro_forecast, so drift surfaces as a FAIL
+      // instead of a figure nobody re-reads.
+      const mf=dd.macro_forecast;
+      if(mf){
+        const mfSect=[...doc.querySelectorAll('details')].map(d=>d.textContent).join(' ');
+        const ttl=mfSect.includes((mf.title||'').slice(0,30));
+        const pct=mfSect.includes(String(Math.round((mf.confidence||0)*100))+'%');
+        (ttl&&pct)?pass('bigquestions.match',`macro forecast ${Math.round((mf.confidence||0)*100)}% matches data layer`)
+          :fail('bigquestions.match',`big questions section disagrees with data.json macro_forecast (${mf.title||'?'} ${Math.round((mf.confidence||0)*100)}%)`);
+      }
+
       // 11. resolution calendar present and honest
       const cal=[...doc.querySelectorAll('details')].find(d=>/Resolving next 45 days/.test(txt(d.querySelector('summary')?.textContent)));
       cal?pass('calendar.present',txt(cal.querySelector('summary').textContent).slice(0,60)):fail('calendar.present','resolution calendar missing');
