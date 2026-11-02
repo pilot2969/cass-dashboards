@@ -155,7 +155,10 @@ async function main(){
       // 9. register completeness
       const reg=doc.querySelectorAll('details.evt').length;
       reg===dd.counts.tracked_predictions?pass('register.count',`${reg} cards = ${dd.counts.tracked_predictions} tracked`):fail('register.count',`${reg} cards rendered vs ${dd.counts.tracked_predictions} tracked`);
-      const noClass=[...doc.querySelectorAll('details.evt')].filter(c=>!/EVENT|THESIS|MECHANISM|PERSISTENCE/.test(txt(c.textContent))).length;
+      // class vocabulary: ROLLING added 2026-11-02 with the fifth class (skill_eligible=false).
+      // Any new class must be added here in the same push as the class itself, or the
+      // cards it labels read as unlabelled and the gate blocks the build.
+      const noClass=[...doc.querySelectorAll('details.evt')].filter(c=>!/\b(EVENT|THESIS|MECHANISM|PERSISTENCE|ROLLING)\b/.test(txt(c.textContent))).length;
       noClass?fail('register.class',`${noClass} card(s) with no class label`):pass('register.class','every card states its class');
 
       // 10. resolution calendar present and honest
