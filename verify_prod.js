@@ -119,7 +119,12 @@ async function main(){
     fb.length?warn('render.fallback-visible:'+f,`${fb.length} fallback banner(s) visible — live render missing`)
              :pass('render.fallback-visible:'+f,'no fallback banners showing');
 
-    if(f==='Internal Telemetry.html'){
+    if(f==='Internal Telemetry.html' && !(dd&&dd.counts)){
+      // A data.json with no counts/institutions is a half-merged artifact, not a
+      // data error to be diagnosed page by page — name it once and move on.
+      fail('data.shape','data.json has no counts object — generated file was merged instead of restored');
+    }
+    if(f==='Internal Telemetry.html'&&dd&&dd.counts){
       // 5. counts row must equal the data layer
       const got={items:txt(doc.getElementById('zc-items')?.textContent),preds:txt(doc.getElementById('zc-preds')?.textContent),claims:txt(doc.getElementById('zc-claims')?.textContent)};
       const exp={items:String(dd.counts.items_today),preds:String(dd.counts.tracked_predictions),claims:String(dd.counts.claims_tested)};
