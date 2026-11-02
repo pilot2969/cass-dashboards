@@ -39,12 +39,10 @@ def cat_for(t):
     return "🗂️ Everything Else"
 
 def band(c):
-    # 2026-11-02: "warm"/"cool"/"cold" are not defined in style.css, so every
-    # non-hot pill rendered colourless. Map onto the classes the sheet actually has.
-    if c >= 75: return ("Very likely", "hot")     # .hot   red
-    if c >= 55: return ("Likely", "z41")          # .z41   amber
-    if c >= 35: return ("Uncertain", "z40")       # .z40   muted
-    return ("Unlikely", "z39")                    # .z39   teal
+    if c >= 75: return ("Very likely", "hot")
+    if c >= 55: return ("Likely", "warm")
+    if c >= 35: return ("Uncertain", "cool")
+    return ("Unlikely", "cold")
 
 def d(s):
     try: return datetime.date.fromisoformat(str(s)[:10])
@@ -90,28 +88,13 @@ def age_line(o):
         tag = {"hit": "CLOSED — HIT", "miss": "CLOSED — MISS", "holding": "HELD OPEN (holding)"}[res]
         bits.append(f'<b>{tag}</b>')
         if closed:
-            # 2026-11-02: this printed the RESOLUTION date as "closed", so an in-window
-            # confirm read as a close date and looked like a late score. Name both dates.
-            bits.append(f"resolved {closed.isoformat()}")
-        if wc:
-            bits.append(f"window closed {wc.isoformat()}")
+            bits.append(f"closed {closed.isoformat()}")
     elif wc:
         n = days(TODAY, wc)
         when = f"in {n}d" if n > 0 else ("today" if n == 0 else f"{abs(n)}d ago — overdue")
         bits.append(f"window closes {wc.isoformat()} ({when})")
     else:
-        bits.append("open-ended — no fixed date")
-    # 2026-11-02 grace rule: a late hit only earns LATE credit if the horizon was
-    # locked before the window closed. Everything registered earlier is unlocked.
-    _g = str(o.get("grace_horizon") or "")
-    if o.get("grace_locked"):
-        bits.append(f"grace {_g.split('(')[0].strip()} (locked)")
-    elif _g.startswith("0"):
-        bits.append("no grace registered")
-    elif _g:
-        bits.append("grace unlocked — late hit scores LATE, not HIT")
-    if res in ("hit", "miss") and wc and closed and closed <= wc:
-        bits.append("in window")
+        bits.append("no window set")
     if o.get("skill_eligible") is False:
         bits.append("scored — not skill-eligible")
     ps = o.get("public_status")
@@ -129,18 +112,15 @@ def card_html(o):
         pill = f'<span class="z35 {cls}">{lab} · {c:.0f}%</span>'
         bar = f'<div class=bar><span style="width:{c:.0f}%"></span></div>'
     else:
-        pill = '<span class="z35 z40">unscored</span>'
+        pill = '<span class="z35 cool">unscored</span>'
         bar = ""
     st = (o.get("statement") or "").strip()
     meta = f'<div class=mut style="font-size:.76em;opacity:.85;line-height:1.5;margin-top:4px">{age_line(o)}</div>'
-    body = [f'<div class=z38><div class=mut>{html.escape(st)}</div>']
+    body = [f'<div class=z7><div class=mut>{html.escape(st)}</div>']
     if o.get("resolution") in ("hit", "miss", "holding") and o.get("resolution_note"):
         body.append(f'<div class=mut style="font-size:.8em;margin-top:6px"><b>Resolution note:</b> {html.escape(str(o["resolution_note"])[:600])}</div>')
     body.append('</div>')
-    # data-card = /space basename: the drift guard matches on this key instead of
-    # fuzzy title similarity, which mis-paired ""Korea War II"" with a sibling card
-    # and reported phantom stale percentages (2026-11-02).
-    return (f'<div class="z37"><details class=evt data-card="{o["basename"]}"><summary><div class=row><span>{t}</span>{pill}</div>'
+    return (f'<div class="z37"><details class=evt><summary><div class=row><span>{t}</span>{pill}</div>'
             f'{bar}{meta}</summary>{"".join(body)}</details></div>')
 
 def build():
@@ -173,11 +153,9 @@ def build():
             label = "today" if n == 0 else (f"in {n}d" if n > 0 else f"{abs(n)}d past window — unresolved")
             t = html.escape(o.get("title") or o["basename"])
             c = conf_of(o) or 0
-            # overdue rows read red, closing-this-week amber, the rest muted
-            _cls = "hot" if n < 0 else ("z41" if n <= 7 else "z40")
-            rows.append(f'<div class=row><span>{t}</span><span class="z35 {_cls}">{wc.isoformat()} · {label}</span></div>')
+            rows.append(f'<div class=row><span>{t}</span><span class="z35 cool">{wc.isoformat()} · {label}</span></div>')
         R.append('<details><summary><b>⏳ Resolving next 45 days</b> <span class=mut>'
-                 f'{len(soon)} forecasts due</span> <span class="z35 z41">oldest first by window</span></summary>'
+                 f'{len(soon)} forecasts due</span> <span class="z35 warm">oldest first by window</span></summary>'
                  '<div class="z37" style="padding:6px 2px">' + "".join(rows) +
                  '<div class=mut style="font-size:.8em;margin-top:8px">A window is a promise to answer. Cards that '
                  'reach their close date are graded HIT, MISS, or HELD OPEN — never quietly extended.</div></div></details>')
@@ -201,7 +179,7 @@ def build():
         n_hold = sum(1 for o in items if o.get("resolution") == "holding")
         badges = ""
         if n_hit: badges += f'<span class="z35 hot">✓ {n_hit} hit</span>'
-        if n_miss: badges += f'<span class="z35 hot">✗ {n_miss} missed</span>'
+        if n_miss: badges += f'<span class="z35 cold">✗ {n_miss} missed</span>'
         if n_hold: badges += f'<span class="z35 z41">{n_hold} holding</span>'
         R.append(f'<details><summary><b>{name}</b> <span class=mut>{len(items)} forecasts</span> {badges}</summary>'
                  f'<div class="z37">{"".join(card_html(o) for o in items)}</div></details>')
