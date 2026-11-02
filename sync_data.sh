@@ -352,7 +352,11 @@ try:
         for _id,_v in (("zc-items",_cnt["items_today"]),("zc-preds",_cnt["tracked_predictions"]),("zc-claims",_cnt["claims_tested"])):
             _m=_r2.search(r'id="%s">([0-9]+)<'%_id,_h2)
             if _m and int(_m.group(1))!=_v:
-                print(f"WARNING: baked fallback {_id}={_m.group(1)} but live is {_v} — update the HTML default so a failed fetch still reads true.")
+                # 2026-11-02: this used to warn and leave a stale baked default, so a
+                # failed fetch rendered a number that was true two days ago. Stamp it.
+                print(f"baked fallback {_id}: {_m.group(1)} -> {_v}")
+                _h2=_r2.sub(r'id="%s">%d<'%(_id,_v), _h2, count=1)
+        open("Internal Telemetry.html","w",encoding="utf-8").write(_h2)
     _m2=_r2.search(r"Last review: <span id=\"zinst-reviewed\">",_h2)
     if not _m2:
         print("WARNING: gauges panel is missing its live review-date hook (zinst-reviewed); the staleness clock cannot render.")
