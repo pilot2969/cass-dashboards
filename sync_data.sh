@@ -242,41 +242,56 @@ try:
 except Exception as e:
     print("card parse warn:", e)
 
-# REGISTER DRIFT GUARD (2026-11-02): the public forecast register in
-# Internal Telemetry.html is baked, not rendered from data.json, so a card that
-# moves in /space does not move on the page until the register is regenerated.
-# Found live on 2026-11-02: 14 cards displaying stale percentages (three showed
-# 0% — a 0-1 confidence scale artifact) and 6 cards missing entirely. Warn-only:
-# sync never rewrites the register, it just makes the drift loud each run.
+# REGISTER DRIFT GUARD (2026-11-02, rebuilt 2026-11-02 14:05 ET): the public
+# forecast register in Internal Telemetry.html is baked, not rendered from
+# data.json, so a card that moves in /space does not move on the page until the
+# register is regenerated. Found live on 2026-11-02: 14 cards displaying stale
+# percentages (three showed 0% — a 0-1 confidence scale artifact) and 14 scored
+# predictions absent entirely.
+# REBUILD NOTE: the first version of this guard matched titles with a loose
+# span regex and a 45-char key, which both missed real absence and flagged
+# present cards. It now parses the register the same way a reader sees it
+# (<summary> row -> first <span> title, nearest NN%), then matches live cards
+# to page cards by best similarity, so the report is a true absent/stale list.
 try:
-    import re as _r2, glob as _g2, json as _j2, os as _o2
+    import re as _r2, glob as _g2, json as _j2, os as _o2, difflib as _d2, html as _ht2
     _tp="Internal Telemetry.html"
     if _o2.path.exists(_tp):
         _h=open(_tp,encoding='utf-8').read()
         _blk=_h[_h.find("What we're tracking"):_h.find("Technical Information")]
-        _nrm=lambda s:_r2.sub(r'[^a-z0-9]','',s.lower())[:45]
-        _pub={}
-        for _m in _r2.finditer(r'<span>([^<]{5,300})</span><span class="?z35 [a-z0-9]+"?>[^<]*?(\d+)%', _blk):
-            _pub[_nrm(_m.group(1))]=(_m.group(1)[:60], int(_m.group(2)))
-        _live={}
-        for _f in _g2.glob("/space/prediction/*.json"):
-            if _f.endswith('.schema.json'): continue
-            _o=_j2.load(open(_f))
-            _c=_o.get('confidence_score')
+        _page=[]
+        for _m in _r2.finditer(r"<summary>(.*?)</summary>",_blk,_r2.S):
+            _seg=_m.group(1)
+            _sp=_r2.findall(r"<span>([^<]+)</span>",_seg)
+            _pc=_r2.search(r"(\d+)%",_seg)
+            if not _sp or not _pc: continue
+            if _sp[0].strip().lower().endswith("forecasts"): continue  # section header, not a card
+            _page.append((_ht2.unescape(_sp[0]).strip(), int(_pc.group(1))))
+        _n=lambda x:_r2.sub(r'[^a-z0-9]','',x.lower())
+        _absent=[]; _stale=[]
+        for _f in sorted(_g2.glob("/space/prediction/*.json")):
+            if _f.endswith(".schema.json"): continue
+            _o=_j2.load(open(_f)); _c=_o.get("confidence_score")
             if _c is None: continue
-            if isinstance(_c,(int,float)) and _c<=1: _c=round(float(_c)*100)
-            _k=_nrm(_o.get('title') or _o2.path.basename(_f)[:-5])[:45]  # same 45-char truncation as _pub
-            # 2026-11-02: key on basename, not title. Title-key collision was
-            # collapsing sibling cards (e.g. the two Korea cards) and under-reporting
-            # the unpublished count (said 10, actual 14).
-            _live[_o2.path.basename(_f)]=(_o.get('title') or _o2.path.basename(_f)[:-5], _k, int(round(float(_c))))
-        _drift=[(t,_pub[k][1],v) for t,k,v in _live.values() if k in _pub and abs(_pub[k][1]-v)>=2]
-        _miss=[t for t,k,v in _live.values() if k not in _pub]
-        if _drift or _miss:
-            print(f"WARNING: register drift — {len(_drift)} card(s) show a stale pct, {len(_miss)} live card(s) unpublished. Reconcile Internal Telemetry.html.")
-            for _t,_p,_v in sorted(_drift,key=lambda x:-abs(x[2]-x[1]))[:15]:
-                print(f"  pct {_p:>3}% -> live {_v:>3}%  {_t}")
-            for _k in _miss[:15]: print(f"  unpublished: {_k}")
+            if isinstance(_c,(int,float)) and 0<_c<=1: _c=_c*100
+            _c=int(round(float(_c)))
+            _t=_o.get("title") or _o2.path.basename(_f)[:-5]
+            _best=None; _br=0.0
+            for _pt,_pp in _page:
+                _r=_d2.SequenceMatcher(None,_n(_t),_n(_pt)).ratio()
+                if _r>_br: _br,_best=_r,(_pt,_pp)
+            _pn=_n(_best[0]) if _best else ""
+            _pref = bool(_pn) and (_n(_t).startswith(_pn) or _pn.startswith(_n(_t)[:35]))
+            if _br<0.72 and _pref and _best: _br=0.75  # page truncates long titles
+            if _br<0.72: _absent.append((_t,_c,_o.get("status")))
+            elif abs(_best[1]-_c)>=2: _stale.append((_t,_best[1],_c,_best[0]))
+        if _stale or _absent:
+            print(f"WARNING: register drift — {len(_stale)} card(s) show a stale pct, {len(_absent)} scored card(s) off-register.")
+            for _t,_pp,_lv,_pt in sorted(_stale,key=lambda x:-abs(x[2]-x[1]))[:15]:
+                print(f"  pct {_pp:>3}% -> live {_lv:>3}%  {_t[:70]}")
+            for _t,_c,_st in sorted(_absent,key=lambda x:-x[1]):
+                print(f"  off-register: {_c:>3}% [{_st}] {_t[:70]}")
+            print(f"  register holds {len(_page)} cards.")
 except Exception as _e:
     print("register drift check warn:", _e)
 
