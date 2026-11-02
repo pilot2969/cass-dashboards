@@ -14,7 +14,7 @@ Runs from sync_data.sh. Safe to run twice. --check exits 1 if anything remains.
 import re, sys, glob, os
 
 DIR = os.path.dirname(os.path.abspath(__file__))
-TOK = re.compile(r"\bz3[78]\b")
+TOK = re.compile(r"\bz(?:27|37|38)\b")
 CHECK = "--check" in sys.argv
 
 def scrub_html(path):
