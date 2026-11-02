@@ -261,13 +261,17 @@ try:
         _live={}
         for _f in _g2.glob("/space/prediction/*.json"):
             if _f.endswith('.schema.json'): continue
-            _c=_j2.load(open(_f)).get('confidence_score')
+            _o=_j2.load(open(_f))
+            _c=_o.get('confidence_score')
             if _c is None: continue
             if isinstance(_c,(int,float)) and _c<=1: _c=round(float(_c)*100)
-            _o=_j2.load(open(_f))
-            _live[_nrm(_o.get('title') or _o2.path.basename(_f)[:-5])]=int(round(float(_c)))
-        _drift=[(_pub[k][0],_pub[k][1],v) for k,v in _live.items() if k in _pub and abs(_pub[k][1]-v)>=2]
-        _miss=[k for k in _live if k not in _pub]
+            _k=_nrm(_o.get('title') or _o2.path.basename(_f)[:-5])
+            # 2026-11-02: key on basename, not title. Title-key collision was
+            # collapsing sibling cards (e.g. the two Korea cards) and under-reporting
+            # the unpublished count (said 10, actual 14).
+            _live[_o2.path.basename(_f)]=(_o.get('title') or _o2.path.basename(_f)[:-5], _k, int(round(float(_c))))
+        _drift=[(t,_pub[k][1],v) for t,k,v in _live.values() if k in _pub and abs(_pub[k][1]-v)>=2]
+        _miss=[t for t,k,v in _live.values() if k not in _pub]
         if _drift or _miss:
             print(f"WARNING: register drift — {len(_drift)} card(s) show a stale pct, {len(_miss)} live card(s) unpublished. Reconcile Internal Telemetry.html.")
             for _t,_p,_v in sorted(_drift,key=lambda x:-abs(x[2]-x[1]))[:15]:
