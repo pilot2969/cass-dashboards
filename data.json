@@ -830,7 +830,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-12-22",
-   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
+   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -1762,7 +1762,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-11-03",
-   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
+   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": "trial_case field misused: it holds a source citation to Pape, not a Gauntlet docket",
@@ -3378,7 +3378,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2028-12-31",
-   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
+   "grace_horizon": null,
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -6028,8 +6028,8 @@
    "time_et": "22:20",
    "track": "prelegitimation-military",
    "mget_legs_tested": [
-    "midterm-integrity",
-    "domestic-repression"
+    "Leg 1 Complexity Cap",
+    "Leg 2 Elite Overproduction"
    ],
    "verdict": "confirms",
    "reasoning": "Hegseth 'get out the vote' marching orders to military commanders corroborated beyond initial wire. Uniformed-services electoral mobilization upgraded single-source to multi-source.",
