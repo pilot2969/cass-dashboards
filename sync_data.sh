@@ -544,6 +544,15 @@ if ! python3 reconcile_predictions.py --check >/tmp/_recon.txt 2>&1; then
   git add -A
   git commit -q --amend --no-edit
 fi
+
+# FINAL SCRUB (2026-11-02). The published prose must never carry the board's
+# internal card keys. The renderer scrubs what it builds, but the legacy
+# deep-dive blocks were baked years of commits ago and nothing regenerates them,
+# so the token kept reappearing after the file had already been cleaned. This is
+# the last write before the gate: clean, then fail loudly if anything survives.
+python3 scrub_internal_keys.py
+python3 scrub_internal_keys.py --check || { echo "GATE: internal card keys still in published prose — refusing to push"; exit 1; }
+git add -A && { git diff --cached --quiet || git commit -q --amend --no-edit; }
 # CONSOLIDATED PUSH BLOCK (2026-10-14 review): exactly one push per remote, per
 # run. origin = staging repo, prod = prod repo, staging = alias of origin.
 # 2026-10-21 PAGES-SERIALIZATION: GitHub Pages rejects a new deployment while

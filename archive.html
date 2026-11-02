@@ -36,7 +36,7 @@ function render(qs){
   if(ts.length) list=EDITIONS.filter(e=>{const t=e.text.toLowerCase();return ts.every(w=>t.includes(w))});
   out.innerHTML=list.length?'':`<div class=z37 style="text-align:center;color:#9aa4b0">No edition matches${qs?` “${esc(qs)}”`:''}.</div>`;
   for(const e of list){
-    const div=document.createElement('div'); div.className='z37';
+    const div=document.createElement('div'); div.className='card';
     const hit=ts.length?snippet(e.text,ts):'';
     div.innerHTML=`<div class=row><b><a href="${e.file}" style="color:#79c0ff;text-decoration:none">${esc(e.title)}</a></b><small style="color:#9aa4b0;white-space:nowrap">${e.filed}</small></div>
       <p class=z13 style="margin:6px 0 0">${e.summary.split('\n').slice(0,2).map(esc).join(' · ')}</p>
