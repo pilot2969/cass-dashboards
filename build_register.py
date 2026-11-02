@@ -54,29 +54,13 @@ def band(c):
 # from the card body — never hardcoded, because "holding" stopped being a legal
 # resolution value when the tracking rule landed and a baked count would have kept
 # advertising three cards that no longer exist.
-# Colour is semantic, not decorative: a HIT reads green, a MISS reads red. The
-# first pass had them backwards (hit red, miss teal) because it borrowed the
-# confidence palette, where red means "very likely" — the opposite of good news.
-# These .zst-* classes are defined inline in the shell (style.css has no bust).
 STATES = [
-    ("hit",     "\u2713 {n} hit",        "zst-hit",   "hits"),
-    ("miss",    "\u2717 {n} missed",     "zst-miss",  "misses"),
-    ("holding", "{n} holding",           "zst-hold",  "cards held open past their window"),
-    ("track",   "{n} on track",          "zst-track", "cards still tracking"),
-    ("overdue", "{n} past window",       "zst-over",  "cards past their window with no resolution"),
+    ("hit",     "\u2713 {n} hit",        "hot",  "hits"),
+    ("miss",    "\u2717 {n} missed",     "z39",  "misses"),
+    ("holding", "{n} holding",           "z41",  "cards held open past their window"),
+    ("track",   "{n} on track",          "z33",  "cards still tracking"),
+    ("overdue", "{n} past window",       "z41",  "cards past their window with no resolution"),
 ]
-
-# Per-card chip: the short label printed on the card itself (2026-11-02, owner:
-# "we are calling things hit/missed/etc. but there's no indicator on individual
-# cards"). Open is the default state and carries NO chip — a badge on 58 of 69
-# cards would be wallpaper, and the absence then means something.
-CARD_CHIP = {
-    "hit":     ("\u2713 HIT",      "zst-hit"),
-    "miss":    ("\u2717 MISS",     "zst-miss"),
-    "holding": ("\u29d6 HELD OPEN", "zst-hold"),
-    "track":   ("\u25c9 ON TRACK",  "zst-track"),
-    "overdue": ("\u26a0 PAST WINDOW", "zst-over"),
-}
 
 
 def state_of(o):
@@ -194,9 +178,7 @@ def card_html(o, catname):
              f'data-wc="{(wc or datetime.date(2099, 1, 1)).isoformat()}" '
              f'data-open="{(reg or datetime.date(2099, 1, 1)).isoformat()}" '
              f'data-conf="{(c if c is not None else -1):.0f}"')
-    wrap = "z37 zcardwrap" + (f" zstwrap-{stt}" if stt in CARD_CHIP else "")
-    return (f'<div class="{wrap}"><details class=evt {attrs}><summary><div class=row><span>{t}</span>'
-            f'<span class=zchips>{chip}{pill}</span></div>'
+    return (f'<div class="z37 zcardwrap"><details class=evt {attrs}><summary><div class=row><span>{t}</span>{pill}</div>'
             f'{bar}{meta}</summary>{"".join(body)}</details></div>')
 
 
