@@ -288,7 +288,9 @@ try:
     _cnt={}
     _cnt["items_today"]=sum(1 for _e in data.get("mget_ledger",[]) if str(_e.get("date",""))[:10]==datetime.date.today().isoformat())
     _cnt["tracked_predictions"]=len(data.get("predictions",[]))
-    _cnt["claims_tested"]=int(__import__("subprocess").run("ls /space/gauntlet/*.json | wc -l",shell=True,capture_output=True,text=True).stdout.strip() or 0)
+    _decided={"sustained","revised","overturned","held-for-revision"}
+    _cnt["claims_tested"]=sum(1 for _f in _g2.glob("/space/gauntlet/*.json")
+        if not _f.endswith(".schema.json") and str(_j2.load(open(_f)).get("verdict") or "").lower() in _decided)
     _cnt["unscored_predictions"]=sum(1 for _p in data.get("predictions",[]) if _p.get("confidence_score") is None)
     data["counts"]=_cnt
     print(f"counts: {_cnt['items_today']} logged today · {_cnt['tracked_predictions']} tracked · {_cnt['claims_tested']} claims tested")
