@@ -106,7 +106,13 @@ document.querySelectorAll('details.zpanel .zpanelbody').forEach(function(b){
     head.addEventListener('click',function(e){e.stopPropagation();var open=bd.style.display!=='none';bd.style.display=open?'none':'block';head.textContent=(open?'▸ ':'▾ ')+c.title;});
     card.appendChild(head);card.appendChild(bd);wrap.appendChild(card);
    });
+   // 2026-11-02: the stack carried no visible date, so a reader could not tell
+   // today's edition from a week-old one. Edition line now prints above the cards.
+   var ed=document.createElement('div');
+   ed.style.cssText='font-size:.78em;letter-spacing:.02em;text-transform:uppercase;color:#8b95a7;margin:6px 0 8px';
+   ed.textContent='Edition '+(dr.date||'undated')+' · '+dr.cards.length+' cards · newest first';
    if(watch){panel.insertBefore(wrap,watch);}else{panel.appendChild(wrap);}
+   panel.insertBefore(ed,wrap);
   }
   var al=document.getElementById('zdr-archive-link');
   if(al)panel.appendChild(al);
