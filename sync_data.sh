@@ -305,7 +305,7 @@ try:
             print(f"WARNING: register drift — {len(_stale)} card(s) show a stale pct, {len(_absent)} scored card(s) off-register.")
             for _t,_pp,_lv,_pt in sorted(_stale,key=lambda x:-abs(x[2]-x[1]))[:15]:
                 print(f"  pct {_pp:>3}% -> live {_lv:>3}%  {_t[:70]}")
-            for _t,_c,_st in sorted(_absent,key=lambda x:-x[1]):
+            for _t,_c,_st,_bn in sorted(_absent,key=lambda x:-x[1]):
                 print(f"  off-register: {_c:>3}% [{_st}] {_t[:70]}")
             print(f"  register holds {len(_page)} cards.")
 except Exception as _e:
@@ -345,7 +345,12 @@ try:
                 # 2026-11-02: this used to warn and leave a stale baked default, so a
                 # failed fetch rendered a number that was true two days ago. Stamp it.
                 print(f"baked fallback {_id}: {_m.group(1)} -> {_v}")
-                _h2=_r2.sub(r'id="%s">%d<'%(_id,_v), _h2, count=1)
+                # 2026-11-02: this call was written as sub(pattern, string, count=1),
+                # so it raised TypeError every run and the handler above swallowed it —
+                # the baked fallback was reported as "stamped" while never changing.
+                # And the pattern was built from the NEW value, so it could never match.
+                # Match the old digits, replace with the new ones.
+                _h2=_r2.sub(r'(id="%s">)\s*\d+(<)'%_id, r'\g<1>%d\g<2>'%_v, _h2, count=1)
         open("Internal Telemetry.html","w",encoding="utf-8").write(_h2)
     _m2=_r2.search(r"Last review: <span id=\"zinst-reviewed\">",_h2)
     if not _m2:
