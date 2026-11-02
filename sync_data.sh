@@ -51,8 +51,14 @@ cards=[c for c in cards if c.get('basename') not in INTERNAL]
 md=lambda c: c.get("last_moved") or c.get("date_made") or ""
 recent=sorted([c for c in cards if md(c)>=str(datetime.date.today()-datetime.timedelta(days=7))],
               key=md, reverse=True)
+def _pct(v):
+    # 2026-11-02: movers printed raw scores, so a 0-1 card rendered "confidence 0.07".
+    # Normalize here as well as in predictions[] above.
+    if isinstance(v,(int,float)) and 0 < v <= 1: return round(v*100)
+    if isinstance(v,float) and v.is_integer(): return int(v)   # 20.0 -> 20
+    return v
 movers=[{"time":md(c), "ref":c.get("title",""),
-         "change":f"confidence {c.get('confidence_score')} — status {c.get('status')}",
+         "change":f"confidence {_pct(c.get('confidence_score'))} — status {c.get('status')}",
          "trigger":(c.get("evidence_confirmed") or ["—"])[-1][:180]} for c in recent[:10]]
 data["movers"]=movers
 
