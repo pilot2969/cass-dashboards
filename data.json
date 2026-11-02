@@ -3,8 +3,7 @@
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
-  "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-02T13:57 ET"
+  "source": "Rool Machine space export"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -819,43 +818,6 @@
    "window_basis": "Window drawn to a fiscal-half/year boundary.",
    "expiry_date": "2027-06-30",
    "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
-  },
-  {
-   "basename": "color-revolution-target-ladder",
-   "title": "Color revolution frame: institutional target ladder",
-   "date_made": "2026-10-23",
-   "time_et": "22:58",
-   "statement": "If the administration operationalizes the color-revolution frame domestically (domestic unrest = foreign-directed), enforcement will climb a cost-ordered institutional ladder. Tier 1: community organizing networks with foreign/diaspora funding; diaspora political orgs; churches with international ties. Tier 2: university departments (funding clawbacks); foreign-funded media; philanthropy cast as the money layer. Tier 3: labor unions with international affiliations; legal-aid networks cast as obstruction on behalf of foreign interests.",
-   "confidence": 30,
-   "status": "pending",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2026-12-22",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": null,
-   "public_status": "gated_public",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Confucius Institute designation 10/23 (Hegseth) \u2014 cheap, clean probe normalizing 'foreign cultural entity = security threat'",
-    "Existing instruments: FARA enforcement, terrorist-adjacent designation path, USCIS denaturalization machinery",
-    "Press-ban and campus precedents show institutional resistance weak",
-    "Same-day Rubio open CIA recruitment solicitation shows regime-change frame normalized"
-   ],
-   "evidence_contradicted": [],
-   "falsifier": "No designations, FARA actions, funding clawbacks, or enforcement actions against tier-1 institutions in foreign-direction/influence frame language within 60 days of 2026-10-23 strains the forecast; frame remaining purely rhetorical (no institutional targets) weakens it.",
-   "forward_watchlist": [
-    "diaspora org or organizing-network designation/action citing foreign direction",
-    "university department funding action in foreign-influence language",
-    "foundation audit/tax/FARA action",
-    "labor union international-affiliation enforcement",
-    "legal-aid network action tied to immigration/protest enforcement"
-   ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": "60 days from 2026-10-23"
   },
   {
    "basename": "color-revolution-target-ladder",
@@ -1744,55 +1706,6 @@
    "window_basis": "Unclassified \u2014 review.",
    "expiry_date": "2026-11-01",
    "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
-  },
-  {
-   "basename": "iran-nuclear-test-before-midterms",
-   "title": "Iran conducts a nuclear test before the Nov 3 2026 midterms (Pape's October surprise, scored)",
-   "date_made": "2026-10-29",
-   "time_et": "10:05",
-   "statement": "TESTABLE CLAIM LOGGED AGAINST ITSELF. Robert Pape (UChicago, CPOST) stated on the Decoded Genius interview (published 2026-10-14, recorded ~Oct 12-13) that there is a >50/50 chance Iran obtains a nuclear weapon within a year, and a roughly ONE IN THREE chance Iran TESTS a nuclear weapon before the November 2026 midterms \u2014 'the October surprise.' Mechanism as he gives it: (1) maximum incentive, because without a weapon the US-Israeli attack cycle of June 2025 and Feb 28 2026 onward simply repeats forever; (2) midterm leverage, because a detonation collapses Trump's entire stated Iran strategy ('Iran cannot have, in any way, shape, or form, a Nuclear Weapon'), which he frames as a gambler's all-chips-on-red bet; (3) capability, because Iran holds mined uranium, centrifuge technology and enough HEU to assemble ~5 devices in dispersed drone-storage bunkers, without needing Fordow-scale facilities; (4) the binding constraint is covertness, not will or capability. His added predicate: ONE device is not enough \u2014 a single test invites preemption, two forecloses it (Hiroshima/Nagasaki logic), so any real event is a TWO-DETONATION sequence on a short fuse. Kick-on claim: a test would 'largely sink the Trump presidency,' produce a Democratic wave in both chambers, and deter future US attacks on the North Korea model. BOARD'S OWN NUMBER: 0.07 for a test before polls close Nov 3 \u2014 a deliberate, stated disagreement with Pape's 0.33, on window length and on the absence of a detection ladder, not on his capability read.",
-   "confidence": 7,
-   "status": "pending",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": "trial_case field misused: it holds a source citation to Pape, not a Gauntlet docket",
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "The desalination-water exchange is real and dated, and it is the interview's strongest verifiable content: US strikes hit an electricity and desalination plant in Iran's Hormozgan province (Jask) on July 18 2026; Iran struck a Kuwaiti desalination plant twice in two days the same week. Eight to nine days later, July 26-27, more than 30 municipal water systems in Minnesota were hit in a coordinated cyberattack, with US intelligence assessing Iran as likely behind it (NYT, WaPo, 2026-07-30) and CSIS later mapping the 2026 wave across at least 12 states. Pape's 'two weeks later' is accurate; his 'a few weeks ago' is not \u2014 the attack is three months old.",
-    "Capability leg is not exotic: Iran is in the NPT, has uranium mines, centrifuge capability and stockpiled HEU on its own soil; a small (5-device) program does not require the large declared facilities the US and Israel have already bombed. Nothing in the board's record contradicts this.",
-    "Incentive leg is consistent with the board's own read on the war's structure: the escalation trap is real, the strikes on Iranian leadership and population have continued since June 2025, and Iran has no conventional path to ending the cycle.",
-    "Hormuz leg matches a CONFIRMED board object (strait-of-hormuz-blockade): Iran is running a selective, discretionary blockade \u2014 per-ship permission rather than blanket closure \u2014 and Pape's structural claim that this converts into ~$100bn/yr and a permanent 'fourth center of world power' status is the same mechanism the board already tracks, stated in power terms.",
-    "The 'everyone ducks' list bears directly on kinetic-european-conflict and the immunity-blanket thesis: Germany, France and Britain all stay out even if the US uses a nuclear weapon in Iran; Turkey ducks; Japan drifts toward China; Saudi Arabia stays with Washington; Pakistan stays with China; India fences. His WWIII number for the next six months is 2 out of 10, and it rises only on US nuclear use at Estefan/Pickaxe Mountain.",
-    "TIER-1 (2 days out): falsifier intact and ladder rungs stacking without a doctrinal step. Rezaei 11-01 repeated 'no new decision' on nuclear doctrine (IRNA) while adding Iran would use 'new weaponry' in any response (Al Jazeera); Khamenei 11-01 warned of a 'geographically unrestricted response' if attacked again (Euronews). Declaratory rung up, technical rung absent \u2014 no CTBTO/IAEA event. Resolves NEGATIVE at 2026-11-03 23:59 ET absent a detonation.",
-    "2026-11-02: no development on the test itself (radarcell 11-02 sweep; Araqchi on the 'two-day proposal' only). Khamenei's 11-01 'no geographical restrictions' order and Rezaei's 'new weaponry' line are declaratory. Resolves NEGATIVE at 11-03 23:59 ET absent a detonation."
-   ],
-   "evidence_contradicted": [
-    "NO DETECTION LADDER. Every first nuclear test in the post-1964 record was preceded by months of visible preparation and explicit signalling: India 1974 and 1998 (Pokhran-II preceded by a new BJP government and weeks of public hawkish signalling), Pakistan 1998 (two weeks behind India, openly announced as a response), North Korea 2006 (NPT withdrawal in 2003, three years of declared reprocessing and missile tests first). A test is not a surprise event; it is the last step of a ladder that leaves public rungs. No rung is visible for Iran in the open record as of Oct 29.",
-    "HAZARD RATE. Unconditionally, the per-country-per-year rate of a state conducting a FIRST nuclear test is on the order of 0.1-0.2% across the ten threshold states since 1945. Even at 5% per year conditional on being a threshold state at war, the five-day window from Oct 29 to Nov 3 carries roughly 0.07%. Pape's 33% is two to three orders of magnitude above the unconditional hazard rate and therefore has to be carried ENTIRELY by the specific-condition argument. He does not price the covertness constraint he himself names \u2014 a program that must stay hidden long enough to build TWO devices is a program with a long detectable tail.",
-    "THE WINDOW IS ALREADY MOSTLY SPENT. He first made this call publicly on or before 2026-09-20 (Newsmax) and repeated it Oct 1. Five weeks of the six-week window have passed with no test, no NPT withdrawal, no IAEA special report and no CTBTO event. A claim that stays at one-in-three while the window burns down without any of its own indicators firing is not updating on its own evidence.",
-    "DIPLOMATIC CHANNEL OPEN, REPORTED TWO DAYS AFTER THE RECORDING. On 2026-10-28 the board logged Qatar-led mediation pressing Iran for nuclear concessions against partial sanctions relief, plus Hezbollah's leader hailing an Iran-US deal and Tehran signalling faster diplomacy. A test destroys the sanctions relief Iran is negotiating for. If Iran can get paid by waiting, testing is strictly dominated \u2014 which is the single strongest argument against the 1-in-3 and it postdates the interview.",
-    "COUNTER-INFERENCE ON THE PREDICTION'S OWN POLITICS. If the test would produce a Democratic wave, then Israel and the US have every incentive to preempt rather than let it land, and Iran knows that. The 'their gain is our catastrophe' logic cuts both ways; he treats the deterrence effect as established (North Korea) without pricing the difference between 2006 North Korea and 2026 Iran, which is under active surveillance by two nuclear states that have already bombed it twice.",
-    "THE INTERVIEW'S NOVELTY CLAIM IS FALSE. 'Never said this before on the air' is contradicted by his own six-week public record (see ledger entry 2026-10-29). The sealed-envelope format manufactures a disclosure that is a restatement."
-   ],
-   "falsifier": "RESOLVES NEGATIVE on 2026-11-03 23:59 ET with no confirmed Iranian nuclear detonation (no CTBTO seismic/radionuclide event in Iran, no state acknowledgement, no second detonation). Resolves POSITIVE on a confirmed test before polls close; in that case the two-device predicate is scored separately \u2014 a lone detonation with no follow-on inside ~30 days counts as a PARTIAL confirmation of the event and a failure of the stated mechanism. Secondary falsifier: an Iranian NPT withdrawal announcement before Nov 3 would count as a LADDER-RUNG confirmation even absent a detonation, and would move the number sharply up rather than resolving the claim.",
-   "forward_watchlist": [
-    "CTBTO / USGS seismic events in Iran (Dasht-e Kavir, Kerman, Semnan, Bushehr hinterland) \u2014 a nuclear test is detectable within hours and is the one indicator with no spin room",
-    "IAEA statements, requests for access, or a special Board of Governors session; any Iranian notification of withdrawal from the NPT",
-    "Commercial SAR imagery of Fordow, Natanz, Estefan and Pickaxe Mountain \u2014 earth-moving, new tunnelling, road traffic, power draw",
-    "Iranian official rhetoric shifting from 'peaceful program' to 'we are a nuclear state' \u2014 the declaratory rung usually precedes the technical one",
-    "Any second-detonation sequence, and the US/Israeli preemption window between the first and second",
-    "Oil and shipping reaction: a test should gap crude and shut Hormuz traffic far beyond the current selective blockade",
-    "Whether Pape's own next briefing moves the number down when the window closes with no test \u2014 the calibration test for him, not for Iran"
-   ],
-   "confirmer": "Public confirmation of an Iranian nuclear detonation before 2026-11-03 23:59 ET (CTBTO seismic/radionuclide detection or Iranian state acknowledgement)",
-   "confirmer_base_rate": "No state has conducted a first nuclear test inside a five-day window without months of preceding public preparation; unconditional threshold-state hazard per five-day window is ~0.01-0.03%.",
-   "confirmation_window": "2026-10-29 to 2026-11-03 23:59 ET"
   },
   {
    "basename": "iran-nuclear-test-before-midterms",
@@ -3360,50 +3273,6 @@
    "window_basis": "Window drawn to a fiscal-half/year boundary.",
    "expiry_date": "2027-12-31",
    "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
-  },
-  {
-   "basename": "trump-accounts-ss-privatization-substrate",
-   "title": "Trump Accounts as Social Security Phase-Out Infrastructure",
-   "date_made": "2026-10-20",
-   "time_et": "11:08",
-   "statement": "The Trump Accounts program (P.L. 119-21, launched July 2026; $1,000 federal seed for every US child born 2025-2028, index-fund managed, unlocked at 18) is being scaled toward universal lifetime coverage \u2014 Balchunas reports an expansion to everyone under 40 (~100M additional people, on top of ~70M kids + 3.5M annual newborns), per program architect Brad Gerstner. User's thesis: the program's actual function is to build the replacement substrate for Social Security, i.e. a personal-accounts privatization of retirement that never has to be voted on as one \u2014 coverage is rolled out by demographic cohort under a benefits-positive brand, and once the under-40 cohort has a pre-tax market account, the political groundwork exists to means-test, cut, or convert SSA benefits while blaming markets and prior deficits.",
-   "confidence": 55,
-   "status": "emergent",
-   "card_class": "THESIS",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2028-12-31",
-   "grace_horizon": null,
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": null,
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Program structure is genuinely cohort-based and expandable: births 2025-2028 seeded automatically at $1,000; ~4M children signed up, 1M claiming the seed (IRS newsroom, 2026); contributions open since July 4, 2026 (Schwab).",
-    "Expansion-by-expansion rollout, never one enabling vote: newborns -> under-40s (~100M, Balchunas citing Gerstner, 2026-10-20) -> every cohort alive is the obvious terminus. Each step can be framed as a giveaway rather than a retirement-system change.",
-    "Architect language is already replacement-shaped: Gerstner projects $4 trillion under management within a decade and 70M new investors \u2014 the scale language is about replacing national savings channels, not babysitting accounts (BigGo/finance coverage).",
-    "Bracketing logic: covering everyone under 40 means the account system matures into retirement age exactly as the Social Security trust-fund exhaustion window (mid-2030s per trustees) arrives. The substrate completes precisely on schedule for the 'crisis' that legitimizes benefit conversion.",
-    "Same coalition that historically sought Social Security privatization (Bush 2005 effort, failed) is now executing it via brand-name rollout instead of legislation; Gerstner's cohort is Trump-linked venture/donor capital."
-   ],
-   "evidence_contradicted": [
-    "No official statement ties Trump Accounts to Social Security reform; White House/Treasury framing is children's savings and 'long-term financial security.'",
-    "SSA retirement benefits remain statutory and untouched as of 2026-10-20; nothing in the IRS/Treasury materials references retirement conversion.",
-    "Trump Accounts contributions are capped (aggregate contribution limits in the low five figures annually; family/charitable contributions dominate) and are NOT payroll-linked \u2014 structurally unlike a Social Security replacement, which would need wage-tax redirection. The link between the account system and OASI financing is currently nonexistent.",
-    "Account balances from $1,000 seeds are orders of magnitude below projected retirement needs; even the $4T-a-decade projection is small vs. ~$1.5T/yr SSA outlays.",
-    "Balchunas/Gerstner claims are analyst/advocate sourcing, not administration policy \u2014 NFT WORLD amplified an X post; treat the under-40 expansion as rumor until Treasury confirms."
-   ],
-   "falsifier": "The program stays a children's savings vehicle: no proposal ever surfaces to redirect payroll tax, redirect OASI contributions, or set Social Security benefits off account balances; SSA benefit law is untouched through the trust-fund window; OR expansions stop short of working-age/lifetime coverage and no retirement-conversion legislative or regulatory step is ever introduced. A second falsifier: expansion proceeds but is funded wholly by appropriations/charity without any payroll-tax linkage ever being proposed \u2014 the account system and Social Security remain structurally parallel forever.",
-   "forward_watchlist": [
-    "Treasury/IRS confirmation or denial of the under-40 expansion; who lobbies for it in Congress (House Ways & Means / Senate Finance members carrying the bill).",
-    "Any legislative text amending FICA, OASI, or SSA benefit formulas that references individual accounts, 'personal retirement accounts,' or Trump Accounts as offset.",
-    "Framing shift: when deficit/Trustee reports (mid-2030s exhaustion) are invoked, does administration messaging direct toward account conversion as the 'solution'?",
-    "Whether the under-40 expansion includes employer payroll routing \u2014 the tell that converts a savings program into a retirement system.",
-    "Post-midterm budget bills: whether Trump Accounts become the offset vehicle cited for extending tax cuts or funding wars \u2014 creating the fiscal rationale for later benefit cuts."
-   ],
-   "confirmer": "TIER 2: any administration official or legislative sponsor explicitly proposes converting Social Security benefits to Trump Account balances or redirecting payroll tax into accounts. TIER 1: introduction of under-40 expansion legislation that adds employer/payroll routing, or administration messaging that explicitly positions accounts as retirement security for working-age adults.",
-   "confirmer_base_rate": "Tier 2: low-to-moderate (~20-30% within 24 months) \u2014 privatization-by-installment is the historical GOP preference but converting SSA outright remains a political third rail; Tier 1: moderate-high (~50%) given announced expansion intent.",
-   "confirmation_window": "Through Dec 31, 2028"
   },
   {
    "basename": "trump-accounts-ss-privatization-substrate",
@@ -8935,7 +8804,6 @@
    "forward_signal": "(a) whether Kagan requests a response, which converts a same-day ask into a multi-day one; (b) any order before polls close; (c) whether the application survives as pending on Wednesday and how the count handles the 20,000; (d) a second state filing in the same posture by Friday; (e) whether DOJ converts the segregation demand into a post-certification contest in any state; (f) whether the LA County Registrar produces records under subpoena before the count completes."
   },
   {
-   "basename": "4x4gcb01otxx",
    "date": "2026-09-15",
    "track": "courts-elections",
    "mget_legs_tested": [],
@@ -9580,6 +9448,18 @@
    "basename": "reichstag-fire-national-emergency"
   },
   {
+   "date": "2026-09-06",
+   "time_et": null,
+   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
+   "mget_legs_tested": [
+    "Leg 6 (algorithmic enclosure)",
+    "complexity cap"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
+   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
+  },
+  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -9615,6 +9495,17 @@
    "reasoning": "Hormuz effectively closed (~95% traffic drop, confirmed). The most leveraged global supply node severed is the strongest Tainter confirm on the board. Confirms Leg 4 and Leg 1 resource-lever.",
    "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame.",
    "basename": "strait-of-hormuz-blockade"
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "exogenous-climatic-shock",
+   "mget_legs_tested": [
+    "Leg 1 Complexity Cap"
+   ],
+   "verdict": "strains",
+   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
+   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
   },
   {
    "date": "2026-09-04",
