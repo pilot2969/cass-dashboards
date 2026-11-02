@@ -1,0 +1,181 @@
+#!/usr/bin/env node
+/* verify_prod.js — CASS prod-surface gate. Single entry point for every push.
+ * usage: node verify_prod.js --mode=prepush [--dir=.]   (local files, pre-commit)
+ *        node verify_prod.js --mode=postdeploy --url=https://... (live pages)
+ * exit 0 = all checks pass, exit 1 = at least one FAIL. WARN never fails a run.
+ */
+const fs=require('fs'),path=require('path');
+// jsdom lives outside the repo (never committed) and outside /tmp (wiped on sleep)
+const {createRequire}=require('module');
+const GATE_HOME=process.env.CASS_GATE_HOME||path.join(process.env.HOME||'/root','.cass-gate');
+let JSDOM;
+try{ JSDOM=require('jsdom').JSDOM; }
+catch(e){ JSDOM=createRequire(path.join(GATE_HOME,'node_modules/'))('jsdom').JSDOM; }
+const A=process.argv.slice(2);
+const arg=(k,d)=>{const h=A.find(x=>x.startsWith('--'+k+'='));return h?h.split('=').slice(1).join('='):d;};
+const MODE=arg('mode','prepush'), DIR=path.resolve(arg('dir','.')), URLBASE=arg('url','');
+const today=new Date().toISOString().slice(0,10);
+const R=[]; const pass=(p,m)=>R.push(['PASS',p,m]); const fail=(p,m)=>R.push(['FAIL',p,m]); const warn=(p,m)=>R.push(['WARN',p,m]);
+const daysBetween=(a,b)=>Math.round((new Date(b)-new Date(a))/864e5);
+
+async function loadPage(file){
+  const html=fs.readFileSync(path.join(DIR,file),'utf8');
+  const dataTxt=fs.readFileSync(path.join(DIR,'data.json'),'utf8');
+  const dom=new JSDOM(html,{runScripts:'dangerously',url:'https://gate.invalid/'+encodeURIComponent(file),
+    beforeParse(w){ w.fetch=(u)=>{ // serve the real local file the page asks for
+                      let rel=decodeURIComponent(String(u).split('?')[0]);
+                      try{ rel=decodeURIComponent(new URL(u,'https://gate.invalid/'+encodeURIComponent(file)).pathname).replace(/^\//,''); }catch(e){}
+                      let body; try{ body=fs.readFileSync(path.join(DIR,rel),'utf8'); }catch(e){ body=dataTxt; }
+                      return Promise.resolve({ok:true,json:()=>Promise.resolve(JSON.parse(body)),text:()=>Promise.resolve(body)}); };
+                    w.console.error=()=>{}; w.console.warn=()=>{}; }});
+  await new Promise(r=>setTimeout(r,2500));
+  return {dom,doc:dom.window.document,data:JSON.parse(dataTxt)};
+}
+const txt=s=>String(s||'').replace(/\s+/g,' ').trim();
+
+function proseText(doc){
+  const c=doc.body.cloneNode(true);
+  c.querySelectorAll('script,style,noscript,template').forEach(n=>n.remove());
+  return txt(c.textContent);
+}
+
+async function main(){
+  const data=JSON.parse(fs.readFileSync(path.join(DIR,'data.json'),'utf8'));
+
+  /* ---------- canonical-source checks (independent of any page) ---------- */
+  {
+    const P='/space/prediction/', files=fs.readdirSync(P).filter(f=>f.endsWith('.json')&&!f.startsWith('.'));
+    const REQ=['card_class','resolution','window_closes','grace_horizon','grace_locked','skill_eligible','public_status'];
+    const miss=[];
+    for(const f of files){const o=JSON.parse(fs.readFileSync(P+f,'utf8'));
+      const gaps=REQ.filter(k=>!(k in o)); if(gaps.length)miss.push(f+':'+gaps.join(','));}
+    miss.length?fail('schema.complete',`${miss.length} prediction(s) missing card-schema fields — ${miss.slice(0,3).join(' | ')}`)
+               :pass('schema.complete',`all ${files.length} predictions carry the card schema`);
+    const und=[]; for(const f of files){const o=JSON.parse(fs.readFileSync(P+f,'utf8'));
+      if(['hit','miss'].includes(o.resolution)&&!o.resolution_date)und.push(f);}
+    und.length?fail('schema.resolution_dates',`${und.length} resolved card(s) with no resolution_date — ${und.slice(0,3).join(', ')}`)
+              :pass('schema.resolution_dates','every scored outcome is dated');
+    const unl=[]; for(const f of files){const o=JSON.parse(fs.readFileSync(P+f,'utf8'));
+      if(o.grace_locked===true&&!o.grace_locked_date)unl.push(f);}
+    unl.length?fail('schema.grace_lock',`${unl.length} card(s) claim a locked grace horizon with no lock date`)
+              :pass('schema.grace_lock','grace-lock claims are all dated');
+  }
+
+  /* ---------- data-layer freshness (the root-cause class) ---------- */
+  {
+    const gen=data.meta&&data.meta.generated;
+    const gd=gen&&!isNaN(new Date(gen))?daysBetween(gen,today):null;
+    (gd!==null&&gd>1)?fail('data.generated',`data.json stamped ${gen} — ${gd}d behind today`):pass('data.generated',`data.json stamped ${gen}`);
+    const ds=(data.mget_ledger||[]).map(e=>String(e.date||'').slice(0,10)).filter(Boolean).sort();
+    const nd=ds[ds.length-1];
+    (nd&&daysBetween(nd,today)>2)?fail('data.ledger_fresh',`newest ledger entry ${nd} — ${daysBetween(nd,today)}d behind`):pass('data.ledger_fresh',`newest ledger entry ${nd}`);
+  }
+
+  /* ---------- render-verified page checks ---------- */
+  const pages=fs.readdirSync(DIR).filter(f=>f.endsWith('.html'));
+  for(const f of pages){
+    let doc,dd;
+    CURRENT=f;
+    try{ const r=await loadPage(f); doc=r.doc; dd=r.data; }
+    catch(e){ fail('render.throws:'+f,e.message.slice(0,120)); continue; }
+    const body=proseText(doc);
+
+    // 1. internal class tokens must never reach prose
+    const leaks=[...new Set((body.match(/\bz\d{1,2}\b/g)||[]))];
+    leaks.length?fail('prose.no-class-tokens:'+f,`internal token(s) in public text: ${leaks.join(' ')}`)
+                :pass('prose.no-class-tokens:'+f,'no internal class tokens in prose');
+
+    // 2. markdown that cannot render inside innerHTML
+    const md=(body.match(/\*\*|\[[^\]]+\]\([^)]+\)/g)||[]);
+    md.length?fail('prose.no-raw-markdown:'+f,`${md.length} markdown fragment(s) that innerHTML will not render`)
+             :pass('prose.no-raw-markdown:'+f,'no unrenderable markdown');
+
+    // 3. every container the scripts are supposed to fill must be non-empty
+    // -grid / -live containers must be filled by their script. -host is legacy
+    // in some pages (cards mount to the panel, not the host div) so it only warns.
+    const must=[...doc.querySelectorAll('[id$="-live"],[id$="-grid"]')];
+    const empty=must.filter(h=>h.innerHTML.trim()==='').map(h=>h.id);
+    empty.length?fail('render.containers-filled:'+f,`empty after scripts ran: ${empty.join(', ')}`)
+                :pass('render.containers-filled:'+f,`${must.length} live container(s) filled`);
+    const dh=[...doc.querySelectorAll('[id$="-host"]')].filter(h=>h.innerHTML.trim()==='').map(h=>h.id);
+    if(dh.length)warn('render.legacy-host:'+f,`unused host div(s): ${dh.join(', ')} — cards mount elsewhere; cosmetic`);
+
+    // 4. fallback banners must be suppressed when live data rendered
+    const fb=[...doc.querySelectorAll('[id$="-fallback"]')].filter(n=>n.style.display!=='none');
+    fb.length?warn('render.fallback-visible:'+f,`${fb.length} fallback banner(s) visible — live render missing`)
+             :pass('render.fallback-visible:'+f,'no fallback banners showing');
+
+    if(f==='Internal Telemetry.html'){
+      // 5. counts row must equal the data layer
+      const got={items:txt(doc.getElementById('zc-items')?.textContent),preds:txt(doc.getElementById('zc-preds')?.textContent),claims:txt(doc.getElementById('zc-claims')?.textContent)};
+      const exp={items:String(dd.counts.items_today),preds:String(dd.counts.tracked_predictions),claims:String(dd.counts.claims_tested)};
+      JSON.stringify(got)===JSON.stringify(exp)?pass('counts.match',JSON.stringify(exp))
+        :fail('counts.match',`rendered ${JSON.stringify(got)} vs data ${JSON.stringify(exp)}`);
+
+      // 6. gauges
+      const dials=doc.querySelectorAll('#zinst-grid svg').length, inst=dd.institutions.institutions.length;
+      dials===inst?pass('gauges.live',`${dials} dials = ${inst} institutions`):fail('gauges.live',`${dials} dials rendered vs ${inst} institutions`);
+      const rv=txt(doc.getElementById('zinst-reviewed')?.textContent);
+      const age=rv&&!isNaN(new Date(rv))?daysBetween(rv,today):null;
+      (age!==null&&age>7)?fail('gauges.fresh',`hand review dated ${rv} — ${age}d old (limit 7)`):pass('gauges.fresh',`review dated ${rv}, ${age}d old`);
+
+      // 7. ledger
+      const rows=doc.querySelectorAll('#ledger-live .row');
+      const n=(dd.mget_ledger||[]).length;
+      rows.length===n?pass('ledger.live',`${rows.length} rows = ${n} ledger entries`):fail('ledger.live',`${rows.length} rows rendered vs ${n} entries in data.json`);
+      const dates=[...rows].map(r=>txt(r.textContent).match(/\d{4}-\d{2}-\d{2}/)?.[0]).filter(Boolean).sort();
+      const newestD=dates[dates.length-1];
+      (newestD&&daysBetween(newestD,today)>2)?fail('ledger.fresh',`newest rendered entry ${newestD} — ${daysBetween(newestD,today)}d behind`):pass('ledger.fresh',`newest entry ${newestD}`);
+      const dateless=[...rows].filter(r=>!/\d{4}-\d{2}-\d{2}/.test(txt(r.textContent))).length;
+      dateless?fail('ledger.dated',`${dateless} row(s) with no date`):pass('ledger.dated','every ledger row is dated');
+
+      // 8. daily read
+      const drPanel=[...doc.querySelectorAll('details.zpanel')].find(p=>/Daily Read/i.test(txt(p.querySelector('summary h2, summary .zhead')?.textContent)));
+      const cards=drPanel?drPanel.querySelectorAll('div[style*="cursor: pointer"]').length:0;
+      const dc=(dd.daily_read?.cards||[]).length;
+      cards===dc?pass('dailyread.live',`${cards} cards = ${dc} in data.json`):fail('dailyread.live',`${cards} cards rendered vs ${dc}`);
+      const ed=(body.match(/Edition (\d{4}-\d{2}-\d{2})/)||[])[1];
+      ed===dd.daily_read?.date?pass('dailyread.edition',`edition stamp ${ed}`):fail('dailyread.edition',`stamp ${ed||'MISSING'} vs data ${dd.daily_read?.date}`);
+      daysBetween(dd.daily_read?.date,today)>1?fail('dailyread.fresh',`edition ${dd.daily_read?.date} is ${daysBetween(dd.daily_read?.date,today)}d behind — a dated card stack is the product`):pass('dailyread.fresh',`edition is current (${dd.daily_read?.date})`);
+
+      // 9. register completeness
+      const reg=doc.querySelectorAll('details.evt').length;
+      reg===dd.counts.tracked_predictions?pass('register.count',`${reg} cards = ${dd.counts.tracked_predictions} tracked`):fail('register.count',`${reg} cards rendered vs ${dd.counts.tracked_predictions} tracked`);
+      const noClass=[...doc.querySelectorAll('details.evt')].filter(c=>!/EVENT|THESIS|MECHANISM|PERSISTENCE/.test(txt(c.textContent))).length;
+      noClass?fail('register.class',`${noClass} card(s) with no class label`):pass('register.class','every card states its class');
+
+      // 10. resolution calendar present and honest
+      const cal=[...doc.querySelectorAll('details')].find(d=>/Resolving next 45 days/.test(txt(d.querySelector('summary')?.textContent)));
+      cal?pass('calendar.present',txt(cal.querySelector('summary').textContent).slice(0,60)):fail('calendar.present','resolution calendar missing');
+    }
+  }
+
+  /* ---------- post-deploy: live bytes must equal local bytes ---------- */
+  if(MODE==='postdeploy'){
+    if(!URLBASE)fail('deploy.url','--url required for postdeploy');
+    else{
+      const files=fs.readdirSync(DIR).filter(f=>f.endsWith('.html'));
+      for(const f of files){
+        try{
+          const res=await fetch(URLBASE.replace(/\/$/,'')+'/'+encodeURIComponent(f)+'?cb='+Date.now());
+          const live=await res.text(), local=fs.readFileSync(path.join(DIR,f),'utf8');
+          live===local?pass('deploy.match:'+f,`live ${live.length}b == local`):fail('deploy.match:'+f,`live ${live.length}b != local ${local.length}b — deploy not serving current build`);
+        }catch(e){fail('deploy.reach:'+f,e.message.slice(0,100));}
+      }
+      try{
+        const res=await fetch(URLBASE.replace(/\/$/,'')+'/data.json?cb='+Date.now());
+        const live=await res.json();
+        JSON.stringify(live.counts)===JSON.stringify(data.counts)?pass('deploy.data',`counts ${JSON.stringify(live.counts)}`):fail('deploy.data',`live counts ${JSON.stringify(live.counts)} vs local ${JSON.stringify(data.counts)}`);
+      }catch(e){fail('deploy.data',e.message.slice(0,100));}
+    }
+  }
+
+  /* ---------- report ---------- */
+  const w=Math.max(...R.map(r=>r[1].length));
+  for(const [s,k,m] of R) console.log(`[${s}] ${k.padEnd(w)}  ${m}`);
+  const nf=R.filter(r=>r[0]==='FAIL').length, nw=R.filter(r=>r[0]==='WARN').length;
+  console.log(`\n${MODE}: ${R.length-nf-nw} pass, ${nw} warn, ${nf} FAIL`);
+  process.exit(nf?1:0);
+}
+let CURRENT='?';process.on('unhandledRejection',(e)=>{console.log('[FAIL] page.runtime:'+CURRENT+'  script threw during render: '+String(e&&e.message||e).slice(0,140));});
+main().catch(e=>{console.error('GATE ERROR',e);process.exit(1);});

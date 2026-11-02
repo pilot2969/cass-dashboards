@@ -448,6 +448,20 @@ fi
 python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json']]" \
   && echo "staging gate: JSON valid"
 
+# 2026-11-02 FULL-SURFACE GATE (protocol: prod-review-gate). One command, every push.
+# Render-verifies all four pages in jsdom against the real data layer, then checks
+# canonical /space sources. A FAIL here blocks the commit+push: the board cannot
+# ship with a stale ledger, an undated edition, a dead panel, or a leaky token.
+# Overridable only deliberately: SKIP_GATE=1 (and the skip is printed).
+if [ "${SKIP_GATE:-0}" = "1" ]; then
+  echo "GATE SKIPPED BY SKIP_GATE=1 — the push is unverified and must not be called done"
+else
+  node verify_prod.js --mode=prepush || {
+    echo "GATE FAILED — push aborted. Fix every FAIL line above; WARNs are advisory."
+    echo "Re-run alone with: node verify_prod.js --mode=prepush"
+    exit 1; }
+fi
+
 # 2026-10-21 HARDENING: the daily_read panel fails SILENT when cards parse to
 # zero (md present, board shows watch list only). Assert loudly instead.
 python3 -c "
@@ -467,7 +481,7 @@ if n==0 and rolled_over:
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh archive.log "Internal Telemetry.html" institutions.json internal_cards.txt
+git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json internal_cards.txt
 git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # 2026-10-26 FIX: the sync itself rewrites Internal Telemetry.html (ledger count)
 # but the file was absent from the add list, leaving the tree dirty -> the rebase
@@ -519,3 +533,17 @@ fi
 # R26a (2026-10-10): after any HTML patch, rg EVERY date-bearing pattern
 # ("Updated <b>", "Built", "CASS Briefing —", hero text) — the footer stamp
 # and hero Updated line are SEPARATE strings; patching one is not the other.
+
+# 2026-11-02 POST-DEPLOY GATE (protocol: prod-review-gate). The pre-push gate proves
+# the BUILD is sound; this proves the DEPLOY is serving it. GitHub Pages can accept a
+# push and still serve the previous artifact, and Cloudflare sits in front of the
+# staging URL. Byte-compare live HTML against local, plus the live counts object.
+echo "post-deploy verify: live == local ?"
+sleep 20
+if ! node verify_prod.js --mode=postdeploy --url=https://pilot2969.github.io/cass-dashboards; then
+  echo "POST-DEPLOY GATE FAILED — the repo is pushed but the live site is not serving this build."
+  echo "Do not report the board as updated until this passes. Check the Pages workflow, then re-run:"
+  echo "  node verify_prod.js --mode=postdeploy --url=https://pilot2969.github.io/cass-dashboards"
+  exit 1
+fi
+echo "POST-DEPLOY VERIFIED ✓ (live bytes == local build)"
