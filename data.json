@@ -3,7 +3,8 @@
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
-  "source": "Rool Machine space export"
+  "source": "Rool Machine space export",
+  "generated_stamped": "2026-11-02T13:57 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -123,7 +124,7 @@
    "window_closes": "2028-09-22",
    "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
-   "skill_eligible": true,
+   "skill_eligible": false,
    "quarantine_reason": "Field-test artifact: Riverside Health scenario is synthetic, not a live world-state claim",
    "public_status": "pre_gate_grandfathered",
    "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
