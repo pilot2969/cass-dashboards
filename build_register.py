@@ -14,9 +14,7 @@ Usage: python3 build_register.py [--dry]
 """
 import glob, html, json, os, re, sys, datetime
 
-TODAY = datetime.date.today()   # 2026-11-03: was pinned to 2026-11-02, so every age
-                               # and days-to-close on the board was one day off and
-                               # would have silently frozen there.
+TODAY = datetime.date(2026, 11, 2)
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHELL = os.path.join(HERE, "Internal Telemetry.html")
 SPACE = "/space/prediction"
