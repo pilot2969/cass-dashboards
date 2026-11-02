@@ -20,76 +20,29 @@ SHELL = os.path.join(HERE, "Internal Telemetry.html")
 SPACE = "/space/prediction"
 
 CATS = [
- ("war", "⚔️ War & Conflict", ("war","iran","israel","gaza","russia","ukraine","putin","invasion","strike",
+ ("⚔️ War & Conflict", ("war","iran","israel","gaza","russia","ukraine","putin","invasion","strike",
                         "military","hormuz","oil","diesel","sanction")),
- ("gov", "🏛️ Power & Government", ("midterm","election","certification","catalyst","legitimacy","impeach",
+ ("🏛️ Power & Government", ("midterm","election","certification","catalyst","legitimacy","impeach",
                              "shutdown","fascism","authoritar","repression","ice","surveillance","coup",
                              "court","scotus")),
- ("econ", "💵 Economy", ("econ","market","bond","dollar","de-dollar","inflation","price","recession","debt",
+ ("💵 Economy", ("econ","market","bond","dollar","de-dollar","inflation","price","recession","debt",
                  "tariff","fed","credit","jobs")),
- ("ai", "🤖 AI & Technology", ("agi","ai ","ai-","model","agent","llm","compute","chip")),
- ("sci", "🔬 Science & Health", ("covid","vaccine","health","disease","outbreak","climate","energy")),
- ("other", "🗂️ Everything Else", ()),
+ ("🤖 AI & Technology", ("agi","ai ","ai-","model","agent","llm","compute","chip")),
+ ("🔬 Science & Health", ("covid","vaccine","health","disease","outbreak","climate","energy")),
 ]
-CAT_SLUGS = {slug: (name, kws) for slug, name, kws in CATS}
-OTHER = "🗂️ Everything Else"
 
 def cat_for(t):
     tl = t.lower()
-    for slug, name, kws in CATS:
-        if kws and any(k in tl for k in kws):
+    for name, kws in CATS:
+        if any(k in tl for k in kws):
             return name
-    return OTHER
+    return "🗂️ Everything Else"
 
 def band(c):
-    # 2026-11-02: "warm"/"cool"/"cold" are not defined in style.css, so every
-    # non-hot pill rendered colourless. Map onto the classes the sheet has.
-    if c >= 75: return ("Very likely", "hot")     # .hot   red
-    if c >= 55: return ("Likely", "z41")          # .z41   amber
-    if c >= 35: return ("Uncertain", "z33")       # .z33   blue
-    return ("Unlikely", "z39")                    # .z39   teal
-
-
-# Filter vocabulary for the state pills (2026-11-02). One state per card, derived
-# from the card body — never hardcoded, because "holding" stopped being a legal
-# resolution value when the tracking rule landed and a baked count would have kept
-# advertising three cards that no longer exist.
-# Colour is semantic, not decorative: a HIT reads green, a MISS reads red. The
-# first pass had them backwards (hit red, miss teal) because it borrowed the
-# confidence palette, where red means "very likely" — the opposite of good news.
-# These .zst-* classes are defined inline in the shell (style.css has no bust).
-STATES = [
-    ("hit",     "\u2713 {n} hit",        "zst-hit",   "hits"),
-    ("miss",    "\u2717 {n} missed",     "zst-miss",  "misses"),
-    ("holding", "{n} holding",           "zst-hold",  "cards held open past their window"),
-    ("track",   "{n} on track",          "zst-track", "cards still tracking"),
-    ("overdue", "{n} past window",       "zst-over",  "cards past their window with no resolution"),
-]
-
-# Per-card chip: the short label printed on the card itself (2026-11-02, owner:
-# "we are calling things hit/missed/etc. but there's no indicator on individual
-# cards"). Open is the default state and carries NO chip — a badge on 58 of 69
-# cards would be wallpaper, and the absence then means something.
-CARD_CHIP = {
-    "hit":     ("\u2713 HIT",      "zst-hit"),
-    "miss":    ("\u2717 MISS",     "zst-miss"),
-    "holding": ("\u29d6 HELD OPEN", "zst-hold"),
-    "track":   ("\u25c9 ON TRACK",  "zst-track"),
-    "overdue": ("\u26a0 PAST WINDOW", "zst-over"),
-}
-
-
-def state_of(o):
-    """hit / miss / holding / track / overdue / open — the pill a reader would click."""
-    res = (o.get("resolution") or "unresolved")
-    if res in ("hit", "miss", "holding"):
-        return res
-    if (o.get("tracking_state") or "").strip():
-        return "track"
-    wc = d(o.get("window_closes"))
-    if wc and wc < TODAY:
-        return "overdue"
-    return "open"
+    if c >= 75: return ("Very likely", "hot")
+    if c >= 55: return ("Likely", "warm")
+    if c >= 35: return ("Uncertain", "cool")
+    return ("Unlikely", "cold")
 
 def d(s):
     try: return datetime.date.fromisoformat(str(s)[:10])
@@ -120,13 +73,6 @@ def conf_of(o):
     try: return float(c)
     except Exception: return None
 
-def cat_slug(name):
-    for slug, (cat, _kw) in CAT_SLUGS.items():
-        if cat == name:
-            return slug
-    return "other"
-
-
 def age_line(o):
     """The line that answers 'how old is this?'"""
     bits = []
@@ -139,14 +85,10 @@ def age_line(o):
     res = o.get("resolution") or "unresolved"
     if res in ("hit", "miss", "holding"):
         closed = d(o.get("resolution_date")) or wc
-        # the CAPS tag that used to sit here is now the chip in the card header,
-        # where it is visible without reading the meta line
+        tag = {"hit": "CLOSED — HIT", "miss": "CLOSED — MISS", "holding": "HELD OPEN (holding)"}[res]
+        bits.append(f'<b>{tag}</b>')
         if closed:
-            # 2026-11-02: this printed the RESOLUTION date as "closed", so an
-            # in-window confirm read as a close date and looked like a late score.
-            bits.append(f"resolved {closed.isoformat()}")
-        if wc and (not closed or wc != closed):
-            bits.append(f"window closed {wc.isoformat()}")
+            bits.append(f"closed {closed.isoformat()}")
     elif wc:
         n = days(TODAY, wc)
         when = f"in {n}d" if n > 0 else ("today" if n == 0 else f"{abs(n)}d ago — overdue")
@@ -162,7 +104,7 @@ def age_line(o):
         bits.append("internal")
     return " · ".join(bits)
 
-def card_html(o, catname):
+def card_html(o):
     t = html.escape(o.get("title") or o["basename"].replace("-", " ").title())
     c = conf_of(o)
     if c is not None:
@@ -170,62 +112,16 @@ def card_html(o, catname):
         pill = f'<span class="z35 {cls}">{lab} · {c:.0f}%</span>'
         bar = f'<div class=bar><span style="width:{c:.0f}%"></span></div>'
     else:
-        pill = '<span class="z35 z33">unscored</span>'
+        pill = '<span class="z35 cool">unscored</span>'
         bar = ""
     st = (o.get("statement") or "").strip()
     meta = f'<div class=mut style="font-size:.76em;opacity:.85;line-height:1.5;margin-top:4px">{age_line(o)}</div>'
-    stt = state_of(o)
-    chip = ""
-    if stt in CARD_CHIP:
-        label, cls = CARD_CHIP[stt]
-        chip = f'<span class="zst {cls}">{label}</span>'
     body = [f'<div class=z7><div class=mut>{html.escape(st)}</div>']
     if o.get("resolution") in ("hit", "miss", "holding") and o.get("resolution_note"):
         body.append(f'<div class=mut style="font-size:.8em;margin-top:6px"><b>Resolution note:</b> {html.escape(str(o["resolution_note"])[:600])}</div>')
     body.append('</div>')
-    # Attributes the state filter reads (2026-11-02). data-card = /space basename, the
-    # drift guard's exact key (fuzzy title matching mis-paired two Korea cards and
-    # reported phantom stale percentages). state / window / confidence / registered
-    # are carried here so the filter and its sorts need no second data fetch.
-    wc = d(o.get("window_closes"))
-    reg = d(o.get("date_made"))
-    attrs = (f'data-card="{o["basename"]}" data-cat="{cat_slug(catname)}" '
-             f'data-catname="{html.escape(catname)}" data-state="{state_of(o)}" '
-             f'data-wc="{(wc or datetime.date(2099, 1, 1)).isoformat()}" '
-             f'data-open="{(reg or datetime.date(2099, 1, 1)).isoformat()}" '
-             f'data-conf="{(c if c is not None else -1):.0f}"')
-    wrap = "z37 zcardwrap" + (f" zstwrap-{stt}" if stt in CARD_CHIP else "")
-    return (f'<div class="{wrap}"><details class=evt {attrs}><summary><div class=row><span>{t}</span>'
-            f'<span class=zchips>{chip}{pill}</span></div>'
+    return (f'<div class="z37"><details class=evt><summary><div class=row><span>{t}</span>{pill}</div>'
             f'{bar}{meta}</summary>{"".join(body)}</details></div>')
-
-
-def state_pills(name, items):
-    """Clickable counts in the group header: one pill per state that actually exists."""
-    out = []
-    for state, label, cls, phrase in STATES:
-        n = sum(1 for o in items if state_of(o) == state)
-        if not n:
-            continue
-        out.append(f'<button type=button class="zpill z35 {cls}" data-fcat="{cat_slug(name)}" data-fstate="{state}" '
-                   f'aria-pressed=false title="Pull together the {phrase} in {html.escape(name)}">'
-                   f'{label.format(n=n)}</button>')
-    return "".join(out)
-
-
-def global_bar(cards):
-    """Board-wide state counts above the register: the same sort, across every category."""
-    out = ['<span class="zsbt">Sort by state:</span>']
-    out.append(f'<button type=button class="zpill z35" data-fcat="all" data-fstate="any" aria-pressed=false '
-               f'title="Show every forecast on the board">all {len(cards)} forecasts</button>')
-    for state, label, cls, phrase in STATES:
-        n = sum(1 for o in cards if state_of(o) == state)
-        if not n:
-            continue
-        out.append(f'<button type=button class="zpill z35 {cls}" data-fcat="all" data-fstate="{state}" aria-pressed=false '
-                   f'title="Pull together every forecast card here: the {phrase}">{label.format(n=n)}</button>')
-    out.append('<span class="zsbnote">one click pulls those cards together, oldest window first</span>')
-    return "".join(out)
 
 def build():
     cards = load()
@@ -239,14 +135,6 @@ def build():
     R.append(f"<h2>What we're tracking ({len(scored)} scored forecasts · {tracked} tracked · "
              f"{len(openc)} open · {len(closed)} resolved"
              + (f" · {gate_pending} ahead of the gate" if gate_pending else "") + ")</h2>")
-
-    # --- state bar + filter view (2026-11-02): the counts in group headers are
-    # clickable, and clicking one moves those cards into #zregview — a flat stack
-    # sorted by window close, so "which of these actually resolved" is one click
-    # instead of scrolling 69 accordions looking for the coloured pills.
-    R.append(f'<div id="zregbar" class="zsbar">{global_bar(cards)}</div>')
-    R.append('<div id="zregview" class="zsview" hidden></div>')
-    R.append('<div id="zreg">')
 
     # --- resolution calendar: what is about to close. This is the answer to
     # "it's a large stack, I can't tell what's old" — the future edge of the
@@ -265,21 +153,18 @@ def build():
             label = "today" if n == 0 else (f"in {n}d" if n > 0 else f"{abs(n)}d past window — unresolved")
             t = html.escape(o.get("title") or o["basename"])
             c = conf_of(o) or 0
-            # overdue rows read red, closing-this-week amber, the rest muted
-            _cls = "hot" if n < 0 else ("z41" if n <= 7 else "z33")
-            rows.append(f'<div class=row><span>{t}</span><span class="z35 {_cls}">{wc.isoformat()} · {label}</span></div>')
+            rows.append(f'<div class=row><span>{t}</span><span class="z35 cool">{wc.isoformat()} · {label}</span></div>')
         R.append('<details><summary><b>⏳ Resolving next 45 days</b> <span class=mut>'
-                 f'{len(soon)} forecasts due</span> <span class="z35 z41">oldest first by window</span></summary>'
+                 f'{len(soon)} forecasts due</span> <span class="z35 warm">oldest first by window</span></summary>'
                  '<div class="z37" style="padding:6px 2px">' + "".join(rows) +
                  '<div class=mut style="font-size:.8em;margin-top:8px">A window is a promise to answer. Cards that '
-                 'reach their close date are graded HIT or MISS — never quietly extended. A card still being '
-                 'tracked past its window says so on the card; it does not get a new date.</div></div></details>')
+                 'reach their close date are graded HIT, MISS, or HELD OPEN — never quietly extended.</div></div></details>')
 
     # --- theme groups
     reg = {}
     for o in cards:
         reg.setdefault(cat_for(o.get("title") or o["basename"]), []).append(o)
-    order = [n for _s, n, _k in CATS]
+    order = [n for n, _ in CATS] + ["🗂️ Everything Else"]
     for name in order:
         items = reg.get(name)
         if not items: continue
@@ -289,11 +174,15 @@ def build():
             wc = d(o.get("window_closes")) or datetime.date(2099, 1, 1)
             return (1 if res in ("hit", "miss") else 0, wc, -(conf_of(o) or 0))
         items = sorted(items, key=key)
-        badges = state_pills(name, items)
-        R.append(f'<details class=zcat data-cat="{cat_slug(name)}"><summary><b>{name}</b> '
-                 f'<span class=mut>{len(items)} forecasts</span> {badges}</summary>'
-                 f'<div class="z37 zgrp">{"".join(card_html(o, name) for o in items)}</div></details>')
-    R.append('</div>')
+        n_hit = sum(1 for o in items if o.get("resolution") == "hit")
+        n_miss = sum(1 for o in items if o.get("resolution") == "miss")
+        n_hold = sum(1 for o in items if o.get("resolution") == "holding")
+        badges = ""
+        if n_hit: badges += f'<span class="z35 hot">✓ {n_hit} hit</span>'
+        if n_miss: badges += f'<span class="z35 cold">✗ {n_miss} missed</span>'
+        if n_hold: badges += f'<span class="z35 z41">{n_hold} holding</span>'
+        R.append(f'<details><summary><b>{name}</b> <span class=mut>{len(items)} forecasts</span> {badges}</summary>'
+                 f'<div class="z37">{"".join(card_html(o) for o in items)}</div></details>')
     return "".join(R), dict(scored=len(scored), tracked=tracked, open=len(openc), closed=len(closed))
 
 def main():
