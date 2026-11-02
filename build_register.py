@@ -104,14 +104,8 @@ def age_line(o):
         bits.append("internal")
     return " · ".join(bits)
 
-def scrub(x):
-    """Internal card keys (z37, z38 …) are analyst shorthand that leaked into
-    published card prose. They mean nothing to a reader and the gate rejects them,
-    so they are rewritten at render time rather than trusted to be absent."""
-    return re.sub(r"\bz3[78]\b", "card", str(x or ""))
-
 def card_html(o):
-    t = html.escape(scrub(o.get("title") or o["basename"].replace("-", " ").title()))
+    t = html.escape(o.get("title") or o["basename"].replace("-", " ").title())
     c = conf_of(o)
     if c is not None:
         lab, cls = band(c)
@@ -120,7 +114,7 @@ def card_html(o):
     else:
         pill = '<span class="z35 cool">unscored</span>'
         bar = ""
-    st = scrub(o.get("statement") or "").strip()
+    st = (o.get("statement") or "").strip()
     meta = f'<div class=mut style="font-size:.76em;opacity:.85;line-height:1.5;margin-top:4px">{age_line(o)}</div>'
     body = [f'<div class=z7><div class=mut>{html.escape(st)}</div>']
     if o.get("resolution") in ("hit", "miss", "holding") and o.get("resolution_note"):
