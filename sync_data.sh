@@ -513,20 +513,26 @@ else
 fi
 
 # pull with rebase; a failure must abort the script (set -e), never print success.
-# 2026-11-02 MERGE-DIRECTION FIX: this said "-X ours is safe because our regen
-# output is authoritative" — backwards. During a REBASE, -X ours means the branch
-# we are rebasing ONTO wins, i.e. the REMOTE data.json beats our regeneration. That
-# is how 81 entries for 69 cards reached the live site twice in one afternoon after
-# a dedupe that reported success. -X theirs means our commits win, which is what the
-# comment always claimed was happening.
+#
+# 2026-11-02 GENERATED FILES ARE NEVER MERGED. Two things went wrong here today:
+#   (a) -X ours during a REBASE means the branch we are rebasing ONTO wins, i.e. the
+#       REMOTE data.json beats our regeneration — backwards, and how 81 entries for
+#       69 cards reached the live site twice after a dedupe that reported success.
+#   (b) Direction is not the real fix. A JSON file merged hunk-by-hunk can end up
+#       with neither version's shape: the pull produced a data.json that had lost
+#       `counts` and `institutions` entirely, because the remote writer never emits
+#       them and a merge is not a rebase of one file's contents.
+# So the generated artifacts are snapshotted before the pull and restored after it.
+# The remote may own commits; it does not own these files.
+GEN="data.json history.json Internal Telemetry.html Daily Read.md archive.html"
+for _g in $GEN; do [ -f "$_g" ] && cp "$_g" "/tmp/_gen_$(echo $_g | tr ' ' '_')"; done
 git pull --rebase --autostash -X theirs -q origin main
+for _g in $GEN; do [ -f "/tmp/_gen_$(echo $_g | tr ' ' '_')" ] && cp "/tmp/_gen_$(echo $_g | tr ' ' '_')" "$_g"; done
 
-# POST-PULL RE-ASSERT (2026-11-02). Merge direction is exactly the kind of thing that
-# gets flipped by accident, so the pull result is not trusted: reconcile again against
-# /space, rebuild if the pull changed anything, and amend before pushing. data.json's
-# predictions[] is never allowed to be whatever the remote happened to be carrying.
+# POST-PULL RE-ASSERT (2026-11-02). The restored data.json is ours, but it is still
+# checked against /space before it ships: reconcile, rebuild the register, amend.
 if ! python3 reconcile_predictions.py --check >/tmp/_recon.txt 2>&1; then
-  echo "POST-PULL: remote data.json diverged from /space — re-asserting"
+  echo "POST-PULL: data.json diverged from /space — re-asserting"
   sed -n '1,6p' /tmp/_recon.txt
   python3 reconcile_predictions.py
   python3 build_register.py
@@ -557,7 +563,12 @@ _pages_wait pilot2969/cass-dashboards "$_ptok"
 # gets rejected (fetch first) and the run dies after staging already moved.
 if ! git push -q prod main:main 2>/dev/null; then
   git fetch -q prod main
-  git rebase --autostash -X ours prod/main -q || { git rebase --abort; echo "ERROR: prod rebase failed"; }
+  # Same rule as the origin pull: -X theirs (our commits win in a rebase), and the
+  # generated files are restored from the snapshot afterwards rather than merged.
+  for _g in $GEN; do [ -f "$_g" ] && cp "$_g" "/tmp/_gen2_$(echo $_g | tr ' ' '_')"; done
+  git rebase --autostash -X theirs prod/main -q || { git rebase --abort; echo "ERROR: prod rebase failed"; }
+  for _g in $GEN; do [ -f "/tmp/_gen2_$(echo $_g | tr ' ' '_')" ] && cp "/tmp/_gen2_$(echo $_g | tr ' ' '_')" "$_g"; done
+  git add -A && { git diff --cached --quiet || git commit -q --amend --no-edit; }
   git push -q prod main:main && echo "PUSHED TO PROD ✓ (rebased over deploy commit)"
 else echo "PUSHED TO PROD ✓"; fi
 sleep 10
