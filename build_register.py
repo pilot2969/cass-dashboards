@@ -14,9 +14,7 @@ Usage: python3 build_register.py [--dry]
 """
 import glob, html, json, os, re, sys, datetime
 
-TODAY = datetime.date.today()   # 2026-11-03: was pinned to 2026-11-02, so every age
-                               # and days-to-close on the board was one day off and
-                               # would have silently frozen there.
+TODAY = datetime.date(2026, 11, 2)
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHELL = os.path.join(HERE, "Internal Telemetry.html")
 SPACE = "/space/prediction"
@@ -122,12 +120,7 @@ def card_html(o):
     if o.get("resolution") in ("hit", "miss", "holding") and o.get("resolution_note"):
         body.append(f'<div class=mut style="font-size:.8em;margin-top:6px"><b>Resolution note:</b> {html.escape(str(o["resolution_note"])[:600])}</div>')
     body.append('</div>')
-    # 2026-11-03: the drift check in sync_data.sh keys on data-card="<basename>",
-    # but this renderer emitted a bare <details class=evt>. Result: the check found
-    # only the 19 legacy deep-dive cards and reported all ~50 register cards
-    # "off-register" every run — a warning nobody could act on because the page
-    # was in fact fine. Key the cards so the check tests something real.
-    return (f'<div class="z37"><details class=evt data-card="{html.escape(o["basename"])}"><summary><div class=row><span>{t}</span>{pill}</div>'
+    return (f'<div class="z37"><details class=evt><summary><div class=row><span>{t}</span>{pill}</div>'
             f'{bar}{meta}</summary>{"".join(body)}</details></div>')
 
 def build():
