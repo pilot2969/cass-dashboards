@@ -45,6 +45,33 @@ for _p in data.get("predictions", []):
     _c = _p.get("confidence")
     if isinstance(_c,(int,float)) and _c <= 1:
         _p["confidence"] = round(_c*100)
+
+# predictions[] RECONCILIATION (2026-11-02). Three incidents in one day came from
+# the same root cause: predictions[] is a hand-carried snapshot, so a card that
+# changes in /space keeps publishing yesterday's resolution. The register was
+# rebuilt from /space and read correct while data.json still said resolution=holding.
+# Fix the class, not the instance: resolution-bearing fields are now overwritten
+# from /space on every sync. A card present in data.json but missing from /space is
+# a FAIL, not a silent keep — a deleted card must not keep publishing.
+_json_fields = ("card_class","resolution","resolution_date","window_closes","grace_horizon",
+                "grace_locked","skill_eligible","public_status","status",
+                "anchor_grade","expiry_date","tracking_state")
+_missing = []
+for _p in data.get("predictions", []):
+    _src = os.path.join(P, (_p.get("basename") or "") + ".json")
+    if not os.path.exists(_src):
+        _missing.append(_p.get("basename")); continue
+    _o = json.load(open(_src))
+    for _k in _json_fields:
+        if _k in _o:
+            _p[_k] = _o[_k]
+        else:
+            _p.pop(_k, None)
+    if _o.get("confidence_score") is not None:
+        _c = _o["confidence_score"]
+        _p["confidence"] = round(_c*100) if isinstance(_c,(int,float)) and 0 < _c <= 1 else _c
+if _missing:
+    raise SystemExit("PREDICTION RECONCILE FAILED: in data.json but not in /space — " + ", ".join(_missing))
 cards=[json.load(open(f)) for f in glob.glob(P+"*.json") if not f.endswith(".schema.json")]
 INTERNAL=[l.strip() for l in open('internal_cards.txt')] if os.path.exists('internal_cards.txt') else []
 cards=[c for c in cards if c.get('basename') not in INTERNAL]
