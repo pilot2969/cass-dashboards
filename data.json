@@ -3,8 +3,7 @@
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
-  "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-02T14:13 ET"
+  "source": "Rool Machine space export"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -1256,14 +1255,7 @@
    ],
    "confirmer": "Reserve tasking orders + settlement progress + domestic enforcement escalation all firing inside pre-registered windows",
    "confirmer_base_rate": "No clean base rate; analog = post-WWII hemispheric interventions converted to domestic security frames (Operation Wetback 1954, PL-480 security coupling); sequencing analog = Eurasian detente preceding Western Hemisphere intervention surges (Nixon 1971-73 Chile track)",
-   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)",
-   "anchor_grade": "D",
-   "anchor_type": "registrant_span",
-   "anchor_source": "Registrant-chosen tasking window (two legs: Nov 3 2026 settlement-progress gate; Dec 24 2026 - Jan 23 2027 tasking window)",
-   "window_opens": "2026-11-03",
-   "window_basis": "MULTI-LEG window, hand-corrected: the prior parse read the Nov 3 gate as the close. Real close is 2027-01-23.",
-   "expiry_date": "2027-01-23",
-   "expiry_basis": "Expires at window close. Grace not pre-registered, 0 days. Gap 2026-11-04 to 2026-12-23 is a dead leg inside the window \u2014 scored as in-window."
+   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)"
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -3560,165 +3552,10 @@
  ],
  "mget_ledger": [
   {
-   "date": "2026-11-03",
-   "time_et": "08:45",
-   "track": "domestic / legitimacy \u2014 pre-election legal channel vs certification window",
-   "mget_legs_tested": [
-    "the regime pre-positions a disputed count through the courts",
-    "narrative of stolen elections generates evidence after the fact"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Both pre-election mechanisms were refused inside a week: the Alaska certification-blocking suit dismissed 1 Nov and the California ballot-segregation application denied by Kagan 2 Nov, on top of the 22 Oct nine-state injunction against DHS election field ops. The Alaska filing's structure \u2014 seeking pre-authorisation to refuse certification conditional on a Republican losing \u2014 is a concession-refusal drafted before the votes existed, so refusal in court relocates the contest to the certification window rather than ending it. DOJ's 1,000 all-50-state monitors, confirmed by court order to have no arrest power, convert any polling-place incident into a narratable event with no authoritative adjudicator at the site.",
-   "forward_signal": "If Sullivan trails and a refiled action lands within 72h of the call, the certification-window thesis is live. If every loser concedes cleanly and no filing appears inside a week, the pre-registered concession-refusal fails and the catalyst node should be downgraded.",
-   "confidence_moves": "No card moves before tonight's close. Catalyst node anchored to post-election window, unchanged.",
-   "basename": "2026-11-03-pre-election-legal-channel-closed"
-  },
-  {
-   "date": "2026-11-02",
-   "time_et": "21:20",
-   "track": "iran / oil \u2014 narrative-to-material transmission",
-   "mget_legs_tested": [
-    "narrative sets price ahead of physical flow",
-    "regime survival through retail gasoline suppression"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Brent -7.6% to $104.77, WTI -7.36% to $96.46, largest one-day drop since July, on an assertion (Araqchi's four conditions plus Trump's 'could happen') with no change in the physical Hormuz series and GEF still CRITICAL. Same evening, US strikes on Qeshm Island in response to an Iranian shot at a US aircraft. The narrative leg moved material prices without material movement \u2014 the thesis operating efficiently, and in the regime's favour, days before the vote.",
-   "forward_signal": "If transit prints do not rise within ~72h of any acceptance, the drop unwinds. If they do not rise and the drop holds anyway, the price signal has been captured and the SPR-runway mechanism no longer needs barrels.",
-   "confidence_moves": "No change to card confidences. Hormuz transit claim test moves from scheduled to active measurement.",
-   "basename": "2026-11-02-price-channel-breaks-from-kinetic"
-  },
-  {
-   "date": "2026-11-02",
-   "time_et": "16:19",
-   "track": "dehumanization-velocity / scapegoat-redirect: Learjet copilot blamed within 27 hours of a crash with no cause of death established",
-   "mget_legs_tested": [
-    "leg_3_enclosure_mutation",
-    "leg_4_vanguard_alignment"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Specimen logged to absorption (2026-11-02-learjet-copilot-scapegoat). Verified 'Republican Army' post + Derek Utley share: a 20-year-old dead co-pilot named as the cause of a nine-fatality crash four hours after NTSB said no cause was imminent, and before the pilot-in-command was publicly identified. Leg 3 (enclosure mutation) confirmed at the level of target selection: a private individual killed in the event is converted into a public object for boundary-policing, and the dehumanizing content is the photograph rather than the conduct \u2014 'casual pose' as competence proxy. Leg 4 (vanguard alignment) confirmed weakly: an oppositional movement-media node reproduces a grievance template that has standing institutional lineage (the post-January-2025 aviation 'DEI hire' frame), performing alignment work for an audience rather than making an aviation argument. Structural note: this is amplification-power dehumanization, not institutional-power dehumanization \u2014 the 2026-10-05 symmetric-coding prediction (that whichever side holds institutional power dehumanizes first, because it can) is not tested by this specimen and should not be scored against it. Interest is in the asymmetry of cost: the target cannot litigate.",
-   "forward_signal": "Watch three things. (1) Whether any political or agency actor echoes the 'too young / DEI' formulation within 7 days \u2014 that is the movement-to-institution handoff and the point at which the specimen stops being online noise. (2) Whether the NTSB preliminary report (typically 2-4 weeks) names a weather, icing or PIC cause; if so this becomes a completed false-attribution cycle and a clean velocity measurement (accusation-to-refutation interval). (3) Whether the same template activates against a male pilot of comparable hours in the next 90 days \u2014 the discriminator between an experience argument and a gender argument.",
-   "confidence_moves": "No change to MGET leg confidences. Single specimen, non-institutional node; logged for velocity tracking, not for structural inference.",
-   "basename": "2026-11-02-learjet-copilot-scapegoat"
-  },
-  {
-   "date": "2026-11-02",
-   "time_et": "12:20",
-   "track": "DOJ files emergency application to the Supreme Court over 20,000 California mail ballots, straight to Kagan, one day before the vote; the legal channel stops failing on procedure and starts failing on timing",
-   "mget_legs_tested": [
-    "pre-election enforcement posture",
-    "certification contestation groundwork",
-    "midterm catalyst sequencing"
-   ],
-   "verdict": "strains",
-   "reasoning": "FILED 2026-11-02 12:20 ET.\n\n(1) FACT: Solicitor General D. John Sauer filed an emergency application with the Supreme Court on Monday 11-02, asking for a limited injunction directing California to segregate, and stop commingling, mail ballots from ~20,000 registrants the federal government identifies as 'likely' noncitizens, plus an administrative injunction while it considers the application (LA Times 11-02 08:41 PT; NPR 11-02 11:34 ET; USA Today; NYT). The application goes first to Justice Kagan as circuit justice for the Ninth Circuit. She can call for a response from California, which costs days \u2014 meaning it is not clear the Court sees this as an emergency, and not clear it acts before the count.\n\n(2) POSTURE: the DOJ has now lost three times in five days \u2014 district court 10-28 ('blistering' opinion, per LA Times), the Ninth Circuit panel Friday 10-30 (2-1, Bennett + Sanchez applying Purcell and the Elections Clause, Bumatay dissenting and calling segregation a 'modest remedy'), and the Ninth Circuit dismissing the emergency appeal Monday (Fox LA, Courthouse News). It is the Monday dismissal, not the Friday denial, that forces the application to the circuit justice. Reporting the sequence matters: 'denied twice' and 'dismissed then appealed' are different facts with different litigation consequences.\n\n(3) NARROWNESS: the relief requested is not a block on the count and not a halt to certification. It is segregation. Sauer's own framing \u2014 'limited injunction', 'administrative injunction', 'pending completion of the United States' appeal' \u2014 is a request to preserve an option, not to decide the election. NPR reports the real number is likely far below 20,000 because many listed people have no active registration and were never mailed a ballot. This is a demand designed to survive the count rather than to change it.\n\n(4) WHY IT MATTERS MORE THAN ITS SIZE: the application is unresolved going into the count. An application pending at the moment ballots are tabulated is the cleanest available pathway from 'litigation filed before the vote' to 'litigation seeking to pause or re-run a certification after it' \u2014 i.e. from pre-window noise into the C-002 Branch A window that opens tomorrow. It also lands alongside DOJ grand jury subpoenas to LA County Registrar employees (10-29) and public warnings that non-cooperative officials could be prosecuted \u2014 a three-vector squeeze on one county's election office, which is what the Election Offices gauge was moved to Critical on this morning.\n\n(5) SCORING: nothing scores today. C-002's window opens 2026-11-03; this filing is one day early and is therefore pre-window by construction. P15-T's window is open (10-15 to 12-14), but its enumerated observable (a) is litigation 'seeking to overturn, pause, or re-run a state certification' \u2014 this seeks to segregate ballots before any certification exists. Whether that is a qualifying (a) is an adjudication question, not a clerical one, and I am not resolving it internally. Referred to tribunal rather than scored.\n\n(6) THE TIMING-FILTER CHARGE APPLIES TO US, NOT TO THEM: the strongest apparatus evidence of the cycle keeps landing one or two days outside the window our cards define. Either the windows are drawn too tightly, or the apparatus is behaving exactly as the cards say and our observables are mis-specified. That question belongs in the same tribunal docket as the scoring.",
-   "forward_signal": "(a) whether Kagan requests a response, which converts a same-day ask into a multi-day one; (b) any order before polls close; (c) whether the application survives as pending on Wednesday and how the count handles the 20,000; (d) a second state filing in the same posture by Friday; (e) whether DOJ converts the segregation demand into a post-certification contest in any state; (f) whether the LA County Registrar produces records under subpoena before the count completes.",
-   "confidence_moves": "Catalyst node (P15-T) 70 -> 74: the apparatus has demonstrated willingness to go to the circuit justice and now has an unresolved demand that survives into the count, which raises the probability that an (a)-type action lands inside the 11-03/12-14 window. C-002 held at 27 despite the same evidence \u2014 correlation flag is set between the two cards and pricing one pre-window act into both would double-count it. No other card moved.",
-   "basename": "2026-11-02-scotus-california-ballot-application"
-  },
-  {
-   "date": "2026-11-02",
-   "time_et": "08:05",
-   "track": "Election eve: Doha recesses without agreement and the post-vote strike clock becomes explicit; Ninth Circuit's second denial stands unchallenged; transit claim measured against CENTCOM's own numbers",
-   "mget_legs_tested": [
-    "kinetic escalation ladder",
-    "pre-election enforcement posture",
-    "substrate shock / energy + rates",
-    "certification contestation groundwork"
-   ],
-   "verdict": "strains",
-   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-02.md' and journal 2026-11-02-morning-wire.\n\n(1) Air: 190 aircraft 13:32Z, 6 Midwest, 0 bombers/fighters, Atlantic 0/0 \u2014 the 57-to-190 jump is time-of-day sampling, not posture. Real signal was off-feed: 13 US tankers photographed at Ramon AB, and three C-17s westbound in trail at FL340 \u2014 a channel flow rather than a deployment.\n\n(2) Doha recessed without agreement; draft proposal circulating, follow-up possible; Araghchi calling it a two-day pause. Paired with the Axios report that Netanyahu pressed for strikes immediately after the midterms while Trump wants talks to play out, the reading is that restraint is electoral rather than strategic \u2014 the war now has a start date shaped like Wednesday, conditional on the talks failing.\n\n(3) The transit claim is asserted, not measured: Bessent says Hormuz is back to pre-conflict minus Iranian barrels, against CENTCOM's 144 redirected, GEF day 242 CRITICAL, 23 attacks, ~492 waiting, LNG at 30% of pre-war. The claim is falsifiable by attack rate over the next week.\n\n(4) Legal channel still failing going into the vote: Alaska suit dismissed by Gleason; Ninth Circuit denied California a second time; no SCOTUS filing confirmed. ~1,000 observers deploy anyway. Stevens endorsed Rogers; NYT/Siena five of seven; Commission backs the Sejm in Poland.\n\n(5) Oil fell 3% into the vote on diplomacy \u2014 the price leg of the SPR card deflating on the timeline, not on the physicals.",
-   "forward_signal": "(a) any strike before close of polls; (b) whether the Doha draft becomes a published text or a date for reopening the strait by 10 Nov; (c) whether the attack rate on shipping falls (validating the transit claim) or holds near one per 36 hours (falsifying it); (d) whether an emergency SCOTUS application lands today and how narrow; (e) Brent holding above 108 through the vote; (q) whether the Roosevelt reaches CENTCOM before late November.",
-   "confidence_moves": "Naval escort 88 -> window closed 11-01, escalation re-read as deferred rather than absent; catalyst node 70 held (legal channel failing, pre-position continues); SPR 30 held with price leg deflating; election-day violence 20 held; Iran nuclear test 0.07 held.",
-   "basename": "2026-11-02-morning-wire"
-  },
-  {
-   "date": "2026-11-01",
-   "time_et": "21:35",
-   "track": "Full forecast-card ping into election eve; declaratory rungs only on the Iran ladder; oil closes the window high but unbroken",
-   "mget_legs_tested": [
-    "kinetic escalation ladder",
-    "substrate shock / energy + rates",
-    "pre-election enforcement posture",
-    "midterm catalyst sequencing"
-   ],
-   "verdict": "neutral",
-   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Evening Wire 2026-11-01.md'.\n\nAir: 57 aircraft 16:18Z (down from 66 in the morning \u2014 sampling, not signal), Midwest 0, bombers 0, fighters 0, lift/tanker 7, Atlantic 0 eastbound / 1 westbound (RCH814 C-17 FL340).\n\nNothing kinetic moved across the weekend; the vocabulary moved. Rezaei: no new decision on weaponizing, but Iran would use 'new weaponry' in any response. Khamenei: 'geographically unrestricted response'. Trump: 'we blow them up or we make a deal'. Both declaratory rungs; no technical rung \u2014 no CTBTO event, no IAEA special report, no facility imagery change.\n\nCard ping, 13 live or closing windows. Material results: naval escort window (60d) closed with no verified hit on a US major surface combatant \u2014 Iranian 'seriously damaged' claims (9-16, 10-26) unverified, CENTCOM records no damage \u2014 flagged for blind adjudication rather than self-resolved as a miss; SPR runway physical leg did not break (no breach, no Bab el-Mandeb closure, no new convoy loss) leaving the fatality leg on the exit-poll test; catalyst node's legal leg failing (Ninth Circuit twice, no SCOTUS filing) while pre-positioning continues, no score change; Omar card trending negative, frame migrated to El-Sayed; control cards (Control-2, clean election, power retention, 90-day Phase 4) open Tuesday.\n\nBrent ~113, WTI ~102, off Friday's four-year high, up sharply on the year. Michigan cross-party defection: Stevens endorsed Rogers hours after being kept out of a shared Detroit event; her chief of staff resigned; Trump called El-Sayed a 'jihadist' from an Iowa stage \u2014 a targeting frame on a named candidate.",
-   "forward_signal": "(a) strike before Tuesday's close of polls \u2014 the last clean falsifier; (b) a narrow SCOTUS application; (c) Rezaei's 'new weaponry' repeated by a principal inside 48 hours; (d) the El-Sayed targeting frame reaching down-ballot messengers; (e) Brent above 110 through the vote; (f) a concession speech inside 24 hours of the result.",
-   "confidence_moves": "No numbered moves. Naval escort 88 held pending adjudication; Omar 45 unchanged with negative trend recorded.",
-   "basename": "2026-11-01-evening-wire"
-  },
-  {
-   "date": "2026-11-01",
-   "time_et": "11:20",
-   "track": "War rescheduled not cancelled; Commission picks the Sejm in Warsaw; Michigan unity event cancelled; California still absent from the SCOTUS docket",
-   "mget_legs_tested": [
-    "substrate shock / energy + rates",
-    "pre-election enforcement posture",
-    "narrative pre-legitimation",
-    "kinetic escalation ladder"
-   ],
-   "verdict": "strains",
-   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-01.md'.\n\n(1) Air: 66 aircraft on the 16:18Z pull, 3 Midwest, 0 bombers, 0 fighter orbits, Atlantic 0/0, one feed 403. Baseline, not narrated.\n\n(2) The war has been rescheduled, not cancelled, and both sides have now priced the failure mode. Rubio: no decision, diplomacy preferred. Trump: needs to 'take care of one or two sites', spoke with Netanyahu about renewed strikes. Rezaei: Iran debating whether to keep its nuclear-weapons ban if hostilities resume, no decision taken \u2014 a price signal, not a doctrine change, and it hands Washington's strike advocates the argument that delay degrades. Doha running the seven-day step-by-step framework. What changed is that negotiation is no longer described as the way to avoid war; it is one option among two. The pre-vote sequencing promise is intact two days out.\n\n(3) The European Commission picked a side in Warsaw and it is the parliament's: appointing the eight Tribunal members 'lies within the constitutional power of the Sejm', citing ECtHR interim measures of 5 May 2026. The crisis had two competing theories of legitimacy and no external arbiter; it now has one, and it is the same record the government has used to stop publishing Tribunal rulings.\n\n(4) Michigan's unity event is off before it happened \u2014 El-Sayed's campaign asked Stevens to stay away; the two will not campaign together at all. Dan Sullivan says he will accept the Alaska result while calling the Peltola ballot scheme 'disdain' for voters. Asymmetry: the Republican pre-accepts the count, the Democratic tent cannot hold a photo line two days out.\n\n(5) Still no SCOTUS application on California. Precedent on the docket: Trump v. California, No. 26A124 (per curiam, 24 Aug 2026), stay on standing without reaching the merits.",
-   "forward_signal": "(a) any application landing today, and its breadth; (b) whether Rezaei's nuclear line is repeated by a principal; (c) whether the ECtHR posture is contested by Warsaw in writing; (d) whether any down-ballot Democrat echoes the Stevens defection; (e) whether Doha produces a dated framework.",
-   "confidence_moves": "Naval escort card held at 88 with its window closing tonight; referred to blind adjudication rather than self-resolved.",
-   "basename": "2026-11-01-morning-wire"
-  },
-  {
-   "date": "2026-10-31",
-   "time_et": "11:45",
-   "track": "Election instrument strays from the court record \u2014 appellate losses x3, fifty-state letters; Hormuz claim inflation; AI buildout as credit story",
-   "mget_legs_tested": [
-    "pre-election enforcement posture",
-    "certification contestation groundwork",
-    "substrate shock / energy + rates",
-    "narrative pre-legitimation"
-   ],
-   "verdict": "strains",
-   "reasoning": "BACKFILL written 2026-11-02 evening; source is 'Morning Wire 2026-10-31.md' \u2014 no ledger entry was filed at the time (first of three consecutive wire days with no intake record).\n\n(1) The instrument survived the injunction in letter form. Ninth Circuit refused 2-1 to segregate ~20,000 California ballots \u2014 third loss on the same request inside a week, and the panel adopted Carter's reasoning almost verbatim ('no feasible way to identify and segregate', 'potentially catastrophic effects'). Thompson separately barred DOJ and DHS from a 'campaign to intimidate, threaten, and coerce' election officials; the DHS voter-fraud field operation block was left standing. In the same 24 hours McCotter sent near-identical letters to all fifty states citing 52 USC 20701, threatening a year in prison, naming no violation and no investigation. Read the sequence, not the filings: subpoenas, segregation motion, special master, criminal-referral drumbeat, fifty-state letter, three appellate losses. Volume is the message; the predicate has not moved \u2014 recruitment of a namesake candidate, without coercion on the careful reading.\n\n(2) States refuse monitors at the door: Indiana, Kentucky, Washington County (Ark.), Adams County (Colo.); Colorado's secretary of state barred them after DOJ rejected her conditions. The standoff is jurisdictional, which is litigated after the count.\n\n(3) Hormuz claim inflation is now the pattern: IRGC's burned-tanker count climbed 3->4 in two days with no maritime authority confirmation, against independently reported Oman rescue of 25 crew, a supertanker mine strike losing ~2M barrels, and an attack on a vessel carrying 27 Indian seafarers. IMF PortWatch two transits Oct 25 vs 85/day baseline; 114 AIS-visible vessels holding off berth; Brent settled 113.43 (+2.37%).",
-   "forward_signal": "Pre-registered: (a) SCOTUS application before Tuesday, and whether relief is timed to moot itself; (b) any documented state refusal of the fifty-state letter; (c) any polling place actually turning a monitor away; (d) independent confirmation of the mine claims; (e) Qatar's Doha session producing a framework and whether it is dated before or after the vote; (f) 10Y below 4.75 or above 5; (g) a second neocloud covenant or coupon failure; (h) whether either party's closing message mentions the war.",
-   "confidence_moves": "No repricing this run. C-002 held: Branch A still requires a post-11-03 action, not a pre-11-03 posture.",
-   "basename": "2026-10-31-morning-wire"
-  },
-  {
-   "date": "2026-10-30",
-   "time_et": "14:04",
-   "track": "Election instrument / pre-Nov-3 constraint failure \u2014 plus Hormuz, markets, and the day's four other items",
-   "mget_legs_tested": [
-    "pre-election enforcement posture",
-    "certification contestation groundwork",
-    "substrate shock / energy + rates",
-    "mass-fatality doctrine"
-   ],
-   "verdict": "strains",
-   "reasoning": "Air picture first: 243 unique at 18:02Z vs 329 at 15:24Z Oct 29 and 111 at 02:49Z Oct 30 \u2014 time-of-day curve, not signal. No bombers, no fighters, no Atlantic airlift surge on a day the regional commander briefed strike options and four tankers burned. Five consecutive pulls with zero strike-package signature; treat the absence as a finding.\n\n(1) THE INSTRUMENT OVERRODE THE COURT IN 48 HOURS \u2014 the day's real finding. Judge Carter's Wednesday written ruling: 'These threats must stop.' Thursday the acting Deputy Attorney General \u2014 the department's number two, Trent McCotter \u2014 mailed identical letters to what appears to be all fifty states citing 52 USC 20701, threatening a year in prison and a $1,000 fine, naming no violation and no investigation. Rank escalation is the tell: July by Dhillon (AAG Civil Rights), September by Neff (acting voting-section chief), October by the deputy's own office. Each round escalated rank as the courts narrowed the room. A fifty-state reminder citing no case is not a reminder; it is a floor being laid for post-election litigation, and it was laid while an order to cease was 48 hours old.\n\n(2) BOASBERG GOT A PARTIAL ANSWER. DHS letters to CA, NV, PA, NJ; DOJ to CA, WA. NV and PA were not previously public \u2014 the only genuinely new fact. Response objected broadly, disclosed no voter counts. The ratio is the finding: FIVE states with a legal theory attached, FIFTY threatened with prison, and the breadth arrived last. Ruling by Monday Nov 2 \u2014 the day before the vote, with no time to appeal twice. Boasberg has signalled standing doubt; if he denies on standing, the campaign has no live check before Tuesday and the reason is procedural rather than approbatory.\n\n(3) HORMUZ: four tankers (IRGC: three on an 'unauthorized southern route' near Oman; army: a fourth east of the strait). UKMTO confirms a small boat attaching two devices 25nm NE of Khasab, engine-room fire, crew safe. IRGC publicly demanded CENTCOM prove its demining claim with independent evidence \u2014 the sharpest information operation of the war, because mine clearance is unfalsifiable by design: an absence cannot be photographed, so the burden-shift costs nothing and cannot be answered. Two tracks in one week: Vance letter via Qatar to Rezaei, Cooper in person with strike options, President disowning the diplomatic track ('no'). Peace track disowned, war track owned.\n\n(4) MARKETS CONFIRM YESTERDAY'S RETIREMENT OF THE INFLATION THESIS. 10Y 4.91%, -33bp on month, from a 5.31% close Oct 5 (highest since 2002); 30Y mortgage 7.29%. Crude above $103, +2.8% day, +11.8% month. Bonds rallying through an oil shock for a third session, surviving earnings, war escalation, and a Fed hold with two hike dissents. Nasdaq -3% Thursday, worst since June. Intel's worst session in 50+ years took roughly $12B off the federal government's own equity stake \u2014 the state is a shareholder now, so an AI capex rout is a fiscal event. That point belongs in the economy track permanently.\n\n(5) KANSAS: WaPo-Schar has Hamilton (D) ahead of Marshall (R); would be the first Kansas Senate Democratic win in 94 years. Crucially the Post published a non-response caveat alongside it \u2014 Republicans harder to reach, released 'in the interest of transparency.' That is the methodological tell that the response gap is now large enough that professionals fear attribution. 43M+ early ballots.\n\n(6) MONITORS BARRED at the door in several states; Kansas SoS says present but not hindering; DOJ withholding the monitor list until Election Day; warnings about people falsely posing as monitors. The standoff has moved from staffing to jurisdiction \u2014 a fact-pattern that gets litigated after the count, not before it.\n\n(7) Two more US deaths, ninth month. (8) Alaska: judge fast-tracks motions to dismiss; four tracks on one race (civil, criminal grand jury, state, congressional), no finding anywhere, candidate denial.",
-   "forward_signal": "C-002 held at 0.27 \u2014 see confidence_moves for the reasoning and the stated flip condition. Pre-registered for next 72h: (a) does any state refuse the fifty-state letter in writing; (b) does Carter treat it as a breach of his Wednesday order; (c) does Monday's ruling turn on merits or standing; (d) does DOJ supplement its Boasberg filing before Monday; (e) do NV and PA describe their demands publicly; (f) does any polling place actually turn a monitor away; (g) does a third carrier arrive; (h) does any insurer or shipping authority independently confirm strait status; (i) does the 10Y break below 4.75; (j) does a second pollster publish response-rate disclosures; (k) does the Alaska judge rule before Nov 3; (l) does either party's closing argument mention the war.",
-   "confidence_moves": "C-002 held at 0.27. Today is the strongest apparatus-evidence day of the cycle \u2014 an order overridden in 48 hours, monitors barred at doors, four parallel Alaska tracks, a monitor roster built from three police agencies \u2014 and I am still not moving it, because Branch A requires a post-Nov-3 action rather than a pre-Nov-3 posture. Record the distinction: what was proven today is that the apparatus will not be constrained before the vote, which is weaker than the claim that it will contest the count. If Boasberg rules Monday on standing and the fifty-state letter stands unchallenged into Tuesday, that converts a readiness input into a live condition and the card moves then, publicly, with the number. Housekeeping: archive_day.sh guard tests for archive/daily-read-$Y-*.html, which already exists because build_archive.py writes a morning edition mid-day \u2014 so the evening stack is never archived and the rolling file never resets. Yesterday's stack was archived manually to 'archive/Daily Read 2026-10-29 Evening.md'. Guard should test a day-final marker, not any html for the date.",
-   "basename": "2026-10-30-afternoon-wire"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "23:24",
-   "track": "Manpower / mass-fatality doctrine \u2014 Operation Dragon Covenant Phase II and the third-option thesis",
-   "mget_legs_tested": [
-    "pre-war footing reading",
-    "domestic enforcement groundwork",
-    "substrate-shock mortality cascade"
-   ],
-   "verdict": "strains",
-   "reasoning": "Owner reports analysts reading the Army's mass-grave drill through terrain \u2014 concluding Europe, not Iran \u2014 and posits a third option: they are practising digging graves on US soil, for US soil. Checked the primary release (DVIDS 577612, via Army Times 2026-10-26). Facts: Operation Dragon Covenant PHASE II, 2026-10-20, Fayetteville NC, 20th Engineer Brigade (XVIII Airborne Corps) with 3rd Corps Sustainment Command; engineers, preventive medicine, chaplains, fatality-management specialists; D6 dozers excavated a 20-remain trench in 75 minutes against a prior standard of 10 remains per 3 hours with backhoes; planning figure of up to 2,400 bodies per engineer company per 24 hours; mock remains were skeletal models and water containers, deliberately hard to excavate without damage; Phase III is Spring 2027 and integrates security, medical and a mortuary collection point. THE TERRAIN ARGUMENT IS BAD REASONING AND SHOULD BE DISCARDED FIRST. Fort Bragg sits on sandy coastal-plain soil; you drill with the ground and the dozers you have at the installation where the engineers are stationed. Nothing in the release treats the soil as a proxy for any theatre. Worse, the actual finding of the exercise was that doctrine's seven-foot row spacing does not fit a D6 \u2014 a soil-and-machine problem that is theatre-independent. Anyone inferring a target geography from Carolina sand is inferring from an artefact of basing. THE THIRD OPTION IS THE STRONGEST FORM OF THE READ BUT THE RELEASE ITSELF ARGUES AGAINST IT. Everything distinctive about this exercise points away from contempt for the dead and toward accountability for them: forensic preservation for later exhumation and identification, repatriation as the stated purpose, Geneva Convention record-keeping extended to enemy dead, and chaplains consulting low-density faith groups because individual rites will be impossible and pre-consecration is the workaround. You do not build identification and interfaith-dignity protocols into a plan to dispose of your own population; those protocols are the expensive part, and they exist to make the graves temporary. Also disqualifying as a domestic contingency: the mission is named as LSCO, and domestic mass fatality runs through DSCA and FEMA/DMORT under civilian lead, a different exercise series entirely. And a domestic plan would not be a DVIDS press release with photographs and a chaplain's name attached. WHAT IS ACTUALLY SIGNIFICANT, AND IT IS NOT THE GRAVE: the doctrinal premise. Twenty years of air superiority let remains flow home through mortuary channels; the Army is now planning on the assumption that a future war may deny that. That is an admission about the character of the next war \u2014 contested air, contested rear, casualties accumulating faster than evacuation. On a peer-war premise, US rear areas are in the battlespace, and that is not a conspiracy, it is what the premise implies. THE HONEST STRUCTURAL CONCERN, STATED PLAINLY: a planning figure now exists \u2014 2,400 bodies per engineer company per day \u2014 and capabilities outlive the contingency that produced them. This board has already documented the pattern (COIN-era ISR migrating to domestic surveillance; 1033 transfers). The number is not evidence of intent; it is evidence of capacity, and the falsifiable question is whether the doctrine update that follows this exercise is scoped to overseas theatres or written theatre-agnostically. That is checkable, and it is the test to run instead of arguing about sand.",
-   "forward_signal": "FALSIFIABLE TESTS, pre-registered: (1) whether the post-exercise doctrine update to JP 4-06 and Army fatality-management publications is scoped to overseas theatres or written theatre-agnostically \u2014 theatre-agnostic language would be the first genuine ratchet; (2) whether Phase III (Spring 2027) security integration includes a civilian-authority interface, which would indicate a DSCA shadow mission, or only force protection, which would not; (3) whether the same drill is run at installations with different soil and hydrology (Fort Carson, Fort Hood, Drum) \u2014 if it spreads Corps-wide across all soils, that is mission-driven and the terrain argument dies twice; if it stays on coastal plain, terrain-driven; (4) whether any domestic mass-fatality exercise series (NDMS, WMD-CST, DMORT) begins referencing engineer trench capability; (5) whether the 2,400/company/day figure appears in any domestic planning document. Report any of these. Do not report the drill itself again.",
-   "confidence_moves": "No prediction card moved. Register note: this is the second item in two hours where the owner's ground-level pattern recognition has assembled a real capability change and then fused it to a war posture on a timing coincidence. The method that has worked today is to separate the two and price each \u2014 the capability ratchet is real and permanent (auto-registration; the 2,400 figure), the mobilization inference is not supported. Both items are logged with trigger ladders rather than conclusions.",
-   "basename": "2026-10-29-evening-mass-grave-drill-read"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "23:12",
-   "track": "Iran war / command structure \u2014 leak purge converts to criminal referral",
-   "mget_legs_tested": [
-    "planner-fired-before-strike-decision",
-    "domestic enforcement groundwork"
-   ],
+   "date": "2026-09-15",
+   "time_et": "14:42",
+   "track": "courts-elections",
+   "mget_legs_tested": [],
    "verdict": "confirms",
    "reasoning": "Wire 14:42 \u2014 SCOTUS denial aftermath: Trump publicly slams his own Supreme Court appointees over the mail-ballot ruling (WP, Reuters, AP-syn). Confirms the morning pre-condemnation read in behavior: the 'we very much disagree' pattern extends from Blanche's Rose Garden answers to Trump's own feed. Democracy Docket adds damage assessment: election officials report attacks damaged faith in mail voting even though the ruling was a WIN for the process. NBC frames 'Supreme Court pushes back against Trump and GOP ahead of midterms' \u2014 the referee is now narrated as partisan obstacle by the right.",
    "forward_signal": "Watch whether Trump names specific justices (pre-condemnation of individuals escalates from institution to person)."
@@ -4783,8 +4620,78 @@
    "time_et": "morning",
    "track": "hormuz-chokepoint-material-substrate",
    "mget_legs_tested": [
-    "leg_1_complexity_cap",
-    "leg_3_enclosure_mutation"
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "substrate shock / energy + rates",
+    "mass-fatality doctrine"
+   ],
+   "verdict": "strains",
+   "reasoning": "Air picture first: 243 unique at 18:02Z vs 329 at 15:24Z Oct 29 and 111 at 02:49Z Oct 30 \u2014 time-of-day curve, not signal. No bombers, no fighters, no Atlantic airlift surge on a day the regional commander briefed strike options and four tankers burned. Five consecutive pulls with zero strike-package signature; treat the absence as a finding.\n\n(1) THE INSTRUMENT OVERRODE THE COURT IN 48 HOURS \u2014 the day's real finding. Judge Carter's Wednesday written ruling: 'These threats must stop.' Thursday the acting Deputy Attorney General \u2014 the department's number two, Trent McCotter \u2014 mailed identical letters to what appears to be all fifty states citing 52 USC 20701, threatening a year in prison and a $1,000 fine, naming no violation and no investigation. Rank escalation is the tell: July by Dhillon (AAG Civil Rights), September by Neff (acting voting-section chief), October by the deputy's own office. Each round escalated rank as the courts narrowed the room. A fifty-state reminder citing no case is not a reminder; it is a floor being laid for post-election litigation, and it was laid while an order to cease was 48 hours old.\n\n(2) BOASBERG GOT A PARTIAL ANSWER. DHS letters to CA, NV, PA, NJ; DOJ to CA, WA. NV and PA were not previously public \u2014 the only genuinely new fact. Response objected broadly, disclosed no voter counts. The ratio is the finding: FIVE states with a legal theory attached, FIFTY threatened with prison, and the breadth arrived last. Ruling by Monday Nov 2 \u2014 the day before the vote, with no time to appeal twice. Boasberg has signalled standing doubt; if he denies on standing, the campaign has no live check before Tuesday and the reason is procedural rather than approbatory.\n\n(3) HORMUZ: four tankers (IRGC: three on an 'unauthorized southern route' near Oman; army: a fourth east of the strait). UKMTO confirms a small boat attaching two devices 25nm NE of Khasab, engine-room fire, crew safe. IRGC publicly demanded CENTCOM prove its demining claim with independent evidence \u2014 the sharpest information operation of the war, because mine clearance is unfalsifiable by design: an absence cannot be photographed, so the burden-shift costs nothing and cannot be answered. Two tracks in one week: Vance letter via Qatar to Rezaei, Cooper in person with strike options, President disowning the diplomatic track ('no'). Peace track disowned, war track owned.\n\n(4) MARKETS CONFIRM YESTERDAY'S RETIREMENT OF THE INFLATION THESIS. 10Y 4.91%, -33bp on month, from a 5.31% close Oct 5 (highest since 2002); 30Y mortgage 7.29%. Crude above $103, +2.8% day, +11.8% month. Bonds rallying through an oil shock for a third session, surviving earnings, war escalation, and a Fed hold with two hike dissents. Nasdaq -3% Thursday, worst since June. Intel's worst session in 50+ years took roughly $12B off the federal government's own equity stake \u2014 the state is a shareholder now, so an AI capex rout is a fiscal event. That point belongs in the economy track permanently.\n\n(5) KANSAS: WaPo-Schar has Hamilton (D) ahead of Marshall (R); would be the first Kansas Senate Democratic win in 94 years. Crucially the Post published a non-response caveat alongside it \u2014 Republicans harder to reach, released 'in the interest of transparency.' That is the methodological tell that the response gap is now large enough that professionals fear attribution. 43M+ early ballots.\n\n(6) MONITORS BARRED at the door in several states; Kansas SoS says present but not hindering; DOJ withholding the monitor list until Election Day; warnings about people falsely posing as monitors. The standoff has moved from staffing to jurisdiction \u2014 a fact-pattern that gets litigated after the count, not before it.\n\n(7) Two more US deaths, ninth month. (8) Alaska: judge fast-tracks motions to dismiss; four tracks on one race (civil, criminal grand jury, state, congressional), no finding anywhere, candidate denial.",
+   "forward_signal": "C-002 held at 0.27 \u2014 see confidence_moves for the reasoning and the stated flip condition. Pre-registered for next 72h: (a) does any state refuse the fifty-state letter in writing; (b) does Carter treat it as a breach of his Wednesday order; (c) does Monday's ruling turn on merits or standing; (d) does DOJ supplement its Boasberg filing before Monday; (e) do NV and PA describe their demands publicly; (f) does any polling place actually turn a monitor away; (g) does a third carrier arrive; (h) does any insurer or shipping authority independently confirm strait status; (i) does the 10Y break below 4.75; (j) does a second pollster publish response-rate disclosures; (k) does the Alaska judge rule before Nov 3; (l) does either party's closing argument mention the war."
+  },
+  {
+   "date": "2026-10-31",
+   "time_et": "11:45",
+   "track": "Election instrument strays from the court record \u2014 appellate losses x3, fifty-state letters; Hormuz claim inflation; AI buildout as credit story",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "substrate shock / energy + rates",
+    "narrative pre-legitimation"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source is 'Morning Wire 2026-10-31.md' \u2014 no ledger entry was filed at the time (first of three consecutive wire days with no intake record).\n\n(1) The instrument survived the injunction in letter form. Ninth Circuit refused 2-1 to segregate ~20,000 California ballots \u2014 third loss on the same request inside a week, and the panel adopted Carter's reasoning almost verbatim ('no feasible way to identify and segregate', 'potentially catastrophic effects'). Thompson separately barred DOJ and DHS from a 'campaign to intimidate, threaten, and coerce' election officials; the DHS voter-fraud field operation block was left standing. In the same 24 hours McCotter sent near-identical letters to all fifty states citing 52 USC 20701, threatening a year in prison, naming no violation and no investigation. Read the sequence, not the filings: subpoenas, segregation motion, special master, criminal-referral drumbeat, fifty-state letter, three appellate losses. Volume is the message; the predicate has not moved \u2014 recruitment of a namesake candidate, without coercion on the careful reading.\n\n(2) States refuse monitors at the door: Indiana, Kentucky, Washington County (Ark.), Adams County (Colo.); Colorado's secretary of state barred them after DOJ rejected her conditions. The standoff is jurisdictional, which is litigated after the count.\n\n(3) Hormuz claim inflation is now the pattern: IRGC's burned-tanker count climbed 3->4 in two days with no maritime authority confirmation, against independently reported Oman rescue of 25 crew, a supertanker mine strike losing ~2M barrels, and an attack on a vessel carrying 27 Indian seafarers. IMF PortWatch two transits Oct 25 vs 85/day baseline; 114 AIS-visible vessels holding off berth; Brent settled 113.43 (+2.37%).",
+   "forward_signal": "Pre-registered: (a) SCOTUS application before Tuesday, and whether relief is timed to moot itself; (b) any documented state refusal of the fifty-state letter; (c) any polling place actually turning a monitor away; (d) independent confirmation of the mine claims; (e) Qatar's Doha session producing a framework and whether it is dated before or after the vote; (f) 10Y below 4.75 or above 5; (g) a second neocloud covenant or coupon failure; (h) whether either party's closing message mentions the war."
+  },
+  {
+   "date": "2026-11-01",
+   "time_et": "21:35",
+   "track": "Full forecast-card ping into election eve; declaratory rungs only on the Iran ladder; oil closes the window high but unbroken",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "substrate shock / energy + rates",
+    "pre-election enforcement posture",
+    "midterm catalyst sequencing"
+   ],
+   "verdict": "neutral",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Evening Wire 2026-11-01.md'.\n\nAir: 57 aircraft 16:18Z (down from 66 in the morning \u2014 sampling, not signal), Midwest 0, bombers 0, fighters 0, lift/tanker 7, Atlantic 0 eastbound / 1 westbound (RCH814 C-17 FL340).\n\nNothing kinetic moved across the weekend; the vocabulary moved. Rezaei: no new decision on weaponizing, but Iran would use 'new weaponry' in any response. Khamenei: 'geographically unrestricted response'. Trump: 'we blow them up or we make a deal'. Both declaratory rungs; no technical rung \u2014 no CTBTO event, no IAEA special report, no facility imagery change.\n\nCard ping, 13 live or closing windows. Material results: naval escort window (60d) closed with no verified hit on a US major surface combatant \u2014 Iranian 'seriously damaged' claims (9-16, 10-26) unverified, CENTCOM records no damage \u2014 flagged for blind adjudication rather than self-resolved as a miss; SPR runway physical leg did not break (no breach, no Bab el-Mandeb closure, no new convoy loss) leaving the fatality leg on the exit-poll test; catalyst node's legal leg failing (Ninth Circuit twice, no SCOTUS filing) while pre-positioning continues, no score change; Omar card trending negative, frame migrated to El-Sayed; control cards (Control-2, clean election, power retention, 90-day Phase 4) open Tuesday.\n\nBrent ~113, WTI ~102, off Friday's four-year high, up sharply on the year. Michigan cross-party defection: Stevens endorsed Rogers hours after being kept out of a shared Detroit event; her chief of staff resigned; Trump called El-Sayed a 'jihadist' from an Iowa stage \u2014 a targeting frame on a named candidate.",
+   "forward_signal": "(a) strike before Tuesday's close of polls \u2014 the last clean falsifier; (b) a narrow SCOTUS application; (c) Rezaei's 'new weaponry' repeated by a principal inside 48 hours; (d) the El-Sayed targeting frame reaching down-ballot messengers; (e) Brent above 110 through the vote; (f) a concession speech inside 24 hours of the result."
+  },
+  {
+   "date": "2026-11-01",
+   "time_et": "11:20",
+   "track": "War rescheduled not cancelled; Commission picks the Sejm in Warsaw; Michigan unity event cancelled; California still absent from the SCOTUS docket",
+   "mget_legs_tested": [
+    "substrate shock / energy + rates",
+    "pre-election enforcement posture",
+    "narrative pre-legitimation",
+    "kinetic escalation ladder"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-01.md'.\n\n(1) Air: 66 aircraft on the 16:18Z pull, 3 Midwest, 0 bombers, 0 fighter orbits, Atlantic 0/0, one feed 403. Baseline, not narrated.\n\n(2) The war has been rescheduled, not cancelled, and both sides have now priced the failure mode. Rubio: no decision, diplomacy preferred. Trump: needs to 'take care of one or two sites', spoke with Netanyahu about renewed strikes. Rezaei: Iran debating whether to keep its nuclear-weapons ban if hostilities resume, no decision taken \u2014 a price signal, not a doctrine change, and it hands Washington's strike advocates the argument that delay degrades. Doha running the seven-day step-by-step framework. What changed is that negotiation is no longer described as the way to avoid war; it is one option among two. The pre-vote sequencing promise is intact two days out.\n\n(3) The European Commission picked a side in Warsaw and it is the parliament's: appointing the eight Tribunal members 'lies within the constitutional power of the Sejm', citing ECtHR interim measures of 5 May 2026. The crisis had two competing theories of legitimacy and no external arbiter; it now has one, and it is the same record the government has used to stop publishing Tribunal rulings.\n\n(4) Michigan's unity event is off before it happened \u2014 El-Sayed's campaign asked Stevens to stay away; the two will not campaign together at all. Dan Sullivan says he will accept the Alaska result while calling the Peltola ballot scheme 'disdain' for voters. Asymmetry: the Republican pre-accepts the count, the Democratic tent cannot hold a photo line two days out.\n\n(5) Still no SCOTUS application on California. Precedent on the docket: Trump v. California, No. 26A124 (per curiam, 24 Aug 2026), stay on standing without reaching the merits.",
+   "forward_signal": "(a) any application landing today, and its breadth; (b) whether Rezaei's nuclear line is repeated by a principal; (c) whether the ECtHR posture is contested by Warsaw in writing; (d) whether any down-ballot Democrat echoes the Stevens defection; (e) whether Doha produces a dated framework."
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "08:05",
+   "track": "Election eve: Doha recesses without agreement and the post-vote strike clock becomes explicit; Ninth Circuit's second denial stands unchallenged; transit claim measured against CENTCOM's own numbers",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "pre-election enforcement posture",
+    "substrate shock / energy + rates",
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-02.md' and journal 2026-11-02-morning-wire.\n\n(1) Air: 190 aircraft 13:32Z, 6 Midwest, 0 bombers/fighters, Atlantic 0/0 \u2014 the 57-to-190 jump is time-of-day sampling, not posture. Real signal was off-feed: 13 US tankers photographed at Ramon AB, and three C-17s westbound in trail at FL340 \u2014 a channel flow rather than a deployment.\n\n(2) Doha recessed without agreement; draft proposal circulating, follow-up possible; Araghchi calling it a two-day pause. Paired with the Axios report that Netanyahu pressed for strikes immediately after the midterms while Trump wants talks to play out, the reading is that restraint is electoral rather than strategic \u2014 the war now has a start date shaped like Wednesday, conditional on the talks failing.\n\n(3) The transit claim is asserted, not measured: Bessent says Hormuz is back to pre-conflict minus Iranian barrels, against CENTCOM's 144 redirected, GEF day 242 CRITICAL, 23 attacks, ~492 waiting, LNG at 30% of pre-war. The claim is falsifiable by attack rate over the next week.\n\n(4) Legal channel still failing going into the vote: Alaska suit dismissed by Gleason; Ninth Circuit denied California a second time; no SCOTUS filing confirmed. ~1,000 observers deploy anyway. Stevens endorsed Rogers; NYT/Siena five of seven; Commission backs the Sejm in Poland.\n\n(5) Oil fell 3% into the vote on diplomacy \u2014 the price leg of the SPR card deflating on the timeline, not on the physicals.",
+   "forward_signal": "(a) any strike before close of polls; (b) whether the Doha draft becomes a published text or a date for reopening the strait by 10 Nov; (c) whether the attack rate on shipping falls (validating the transit claim) or holds near one per 36 hours (falsifying it); (d) whether an emergency SCOTUS application lands today and how narrow; (e) Brent holding above 108 through the vote; (q) whether the Roosevelt reaches CENTCOM before late November."
+  },
+  {
+   "basename": "4x4gcb01otxx",
+   "date": "2026-09-15",
+   "time_et": "14:42",
+   "track": "oil-energy",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
    ],
    "verdict": "confirms",
    "reasoning": "Owner question: WSJ reports Gulf oil flows now exceed pre-war levels despite the strait near-closed. Resolution: (1) The bypass is pre-built latent capacity, not new construction - Saudi East-West (Abqaiq-Yanbu, ~5 mbpd nameplate) and UAE ADCOP (~1.5-1.8 mbpd) ran under capacity pre-war because Hormuz routing was cheaper; war flipped the cost ranking and idled capacity maxed out, moving bypass share from ~17% to ~40%. (2) The inefficient leg is expensive per barrel, not prohibitive: at $108 Brent, war-risk insurance, dark transits, convoy cover and ship-to-ship transfers off Oman add single-digit dollars per barrel against a $30+ price uplift; marginal barrels still ship while price exceeds risky cost - classic blockade failure mode: blockade does not stop flows, it reprices them. (3) Shuttle-tanker arithmetic inflates measured throughput: the Oman STS pattern turns long-haul hulls into shuttle tankers making multiple short runs, each registered as a loading; oil that used to sit in Gulf storage or on float is pushed out and counted in motion. (4) Surge arithmetic: pent-up cargo backlog plus restocking at high price pulls exports forward - part of the over-prewar run-rate is borrowed from future weeks.",
@@ -8577,9 +8484,56 @@
    ],
    "verdict": "confirms",
    "reasoning": "Wire 14:42 \u2014 War council aftermath: Massie (R) moves to IMPEACH Hegseth over Iran war (NPR, Reuters) \u2014 first formal GOP-internal fracture over the war. CBO $40B cost finding lands same cycle. 'Mecca Alliance' (Saudi+Gulf) publicly warns Iran over Houthi attacks (OilPrice). Iranian strikes damaged hundreds of structures at US bases (WP) \u2014 kinetic, ongoing. Saudi crown prince to Egypt seeking support; Saudi airstrikes kill 3 in Yemen. The war is now producing: Republican dissent (Massie), official cost accounting (CBO), Gulf realignment (Mecca Alliance), and direct base damage.",
-   "forward_signal": "Hegseth impeachment move: does GOP leadership smother it (internal discipline holds) or does it gain cosponsors (fracture spreads)? Watch Trump response to Massie personally.",
-   "time_et": "14:42",
-   "basename": "gf1ddotxjx8q"
+   "forward_signal": "Hegseth impeachment move: does GOP leadership smother it (internal discipline holds) or does it gain cosponsors (fracture spreads)? Watch Trump response to Massie personally."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "ground-invasion-of-iran",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+   "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "ground-invasion-of-iran",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+   "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "ground-invasion-of-iran",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+   "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
+  },
+  {
+   "basename": "ground-invasion-of-iran",
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "ground-invasion-of-iran",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Confidence trimmed to 49 - no ground invasion. Stalemated air/blockade posture strains the escalation-cascade reading; weakens the assumption the turning resolves via maximal external escalation.",
+   "forward_signal": "Pivot to boots-on-ground (would flip to confirms); conversely a negotiated exit further strains."
   },
   {
    "date": "2026-09-15",
@@ -8589,9 +8543,608 @@
    ],
    "verdict": "strains",
    "reasoning": "Wire 14:42 \u2014 Pacific lane: Economist: China would face 'hellscape' in Taiwan war; US Marine Stand-In Forces worry China (Military Times); China tightens citizen exit bans on tech/national-security grounds (Courthouse). AP: China closing the AI gap with US while world debates AI risks. Bessent to hold Iran-ties talks with China before Trump-Xi summit (National) \u2014 the Iran war and China diplomacy are now coupled in a single negotiation channel.",
-   "forward_signal": "Bessent-Xi pre-summit: does Iran-tilt pressure work, or does China use the oil crisis as leverage? Watch oil-for-ceasefire offers.",
-   "time_et": "14:42",
-   "basename": "i2h7irv7sh0q"
+   "forward_signal": "Bessent-Xi pre-summit: does Iran-tilt pressure work, or does China use the oil crisis as leverage? Watch oil-for-ceasefire offers."
+  },
+  {
+   "date": "2026-09-09",
+   "time_et": null,
+   "track": "inverted-cycle-domestic-turn",
+   "mget_legs_tested": [
+    "Leg 2 Elite Overproduction",
+    "Leg 3 Enclosure Mutation",
+    "Leg 4 Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CYCLE INVERSION THESIS: The 1930s-40s turning resolved OUTWARD (external enemy, Bretton Woods, expanded state). This cycle cannot run that solve function - enclosure is global, so mutation points INWARD (segmentation, walls, internal segmentation); elite overproduction can only fight over positions inside the walls; alliance architecture is dissolving toward regional blocs (Mecca Defence Alliance excluding the hegemon). Foreign conflicts are distractions THAT KEEP FAILING TO DISTRACT: the tool (external war as legitimacy device) remains in use but has stopped working - the principal himself reframed the war as an electoral stop-loss before the fact, and the audience reads the mechanism aloud (inversion-tier delegitimization). The war comes home not as troops but as FALSIFIED PROMISES at machine speed: the collapse of the distinction between foreign policy and domestic control. Structural correction: rupture is at the CORE this cycle (actuarial table, bankruptcy resolution, delegitimization manifest) not the periphery.",
+   "forward_signal": "FALSIFIER SET: If thesis holds, the regime PREFERS de-escalation abroad post-Nov 3 while escalating DOMESTICALLY regardless of war outcome - emergency powers, enforcement budgets, surveillance expansion. Track: (1) domestic enforcement/surveillance budget lines post-midterm; (2) repression_event entries with nspm7 alignment; (3) whether war winds down AND machinery built to fight it is retained domestically (the tell: machinery outlives the war); (4) Mecca Alliance activation as the D2/D3 discriminator. CONTRA: if post-Nov 3 shows genuine demobilization (war powers sunset, budgets cut, agencies shrunk), thesis breaks - the machinery was war-specific, not conversion-ready."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "iran-naval-escort-escalation",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+   "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kemalist-preference-reichstag-fallback",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+   "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kinetic-european-conflict",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+   "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kirk-anniversary-narrative-2026",
+   "mget_legs_tested": [
+    "Leg 6 Algorithmic Enclosure",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+   "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "market-actuarial",
+   "mget_legs_tested": [],
+   "verdict": "neutral",
+   "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
+   "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "mid-august-oil-price-shock",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+   "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism)."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "military-coup-fourth-turning",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+   "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": null,
+   "track": "inward-targeting-vector",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Round 2 red-team (selection bias attack). Skeptic charged cherry-picking: outward arms posture and China rhetoric contradict the inward vector. Defense held on (a) resource-following: interceptor stockpile depletion vs. ICE procurement expansion (stun gloves, SUVs, detention centers) is physical, not rhetorical evidence. Key testable cut: if ICE detention population grows faster than removal counts, detention itself is the mission. Defense strained on (b): 'rhetoric stops working' is a mood until converted to observables (polling, war-support, enlistment decay). Guard against unfalsifiability: rhetoric thesis only survives welded to the resource ledger.",
+   "forward_signal": "Watch ICE detention population vs. actual removal counts divergence. Also watch outward-rhetoric efficacy metrics: polling on adversary framing, enlistment, official-messaging engagement decay. Any divergence between the two vectors is a confirming datapoint."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "nato-conditional-guilt",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+   "forward_signal": "Public repricing of the security guarantee; alliance fragmentation."
+  },
+  {
+   "date": "2026-09-12",
+   "time_et": null,
+   "track": "NLT backtest + vanguard-break correlation",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "NLT inversion precedes Leg 4 fracture in all three backtested turnings (1789, 1860, 1930-33). Owner hypothesis (legs 1-3 firing = precondition for leg 4) is consistent: NLT inversion is the observable mechanism by which saturated legs 1-3 convert into vanguard defection.",
+   "forward_signal": "Current NLT is inverted (apocalyptic content saturates in hours; institutional response lags days-weeks). Watch for vanguard defection signs within one political season per gauge."
+  },
+  {
+   "date": "2026-09-11",
+   "time_et": null,
+   "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
+   "mget_legs_tested": [
+    "Leg 1 Enclosing Force (chokepoint pressure)",
+    "Leg 2 Elite Overproduction (cover thesis)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent convergence: Prof Robert Pape (Escalation Trap, UChicago, CPOST) \u2014 the top-tier Iran analyst \u2014 reaches the same structural read as the CASS ledger via purely operational data: tactical success without political surrender, chokepoint (Hormuz) pressure now horizontally expanding to a second front (Houthi/Bab el-Mandeb), multi-theater escort strain. Independent replication of the Houthi fork (76) and Iran escalation mechanics. Leg 1 confirmed; Leg 2 partially confirmed (Pape's trap is strategic, not domestic \u2014 the domestic-necessity layer remains CASS's contribution and stays open).",
+   "forward_signal": "Pape's nightmare-scenario receipt: F-15/F-35 buildup pattern historically precedes escalation, not de-escalation \u2014 logged as HONEST straining signal against the Potemkin thesis (War Question spread watchlist). Also: his framework predicts escalation-begets-escalation, which the ledger should test against the November Pause window. Budget tell continues as Thesis B discriminator."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "post-trump-restructure",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+   "forward_signal": "Named fall guy; who assumes consolidated power."
+  },
+  {
+   "date": "2026-09-09",
+   "time_et": null,
+   "track": "inverted-cycle-domestic-turn",
+   "mget_legs_tested": [
+    "Leg 2 Elite Overproduction",
+    "Leg 3 Enclosure Mutation",
+    "Leg 4 Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CYCLE INVERSION THESIS: The 1930s-40s turning resolved OUTWARD (external enemy, Bretton Woods, expanded state). This cycle cannot run that solve function - enclosure is global, so mutation points INWARD (segmentation, walls, internal segmentation); elite overproduction can only fight over positions inside the walls; alliance architecture is dissolving toward regional blocs (Mecca Defence Alliance excluding the hegemon). Foreign conflicts are distractions THAT KEEP FAILING TO DISTRACT: the tool (external war as legitimacy device) remains in use but has stopped working - the principal himself reframed the war as an electoral stop-loss before the fact, and the audience reads the mechanism aloud (inversion-tier delegitimization). The war comes home not as troops but as FALSIFIED PROMISES at machine speed: the collapse of the distinction between foreign policy and domestic control. Structural correction: rupture is at the CORE this cycle (actuarial table, bankruptcy resolution, delegitimization manifest) not the periphery.",
+   "forward_signal": "FALSIFIER SET: If thesis holds, the regime PREFERS de-escalation abroad post-Nov 3 while escalating DOMESTICALLY regardless of war outcome - emergency powers, enforcement budgets, surveillance expansion. Track: (1) domestic enforcement/surveillance budget lines post-midterm; (2) repression_event entries with nspm7 alignment; (3) whether war winds down AND machinery built to fight it is retained domestically (the tell: machinery outlives the war); (4) Mecca Alliance activation as the D2/D3 discriminator. CONTRA: if post-Nov 3 shows genuine demobilization (war powers sunset, budgets cut, agencies shrunk), thesis breaks - the machinery was war-specific, not conversion-ready."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "iran-naval-escort-escalation",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+   "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kemalist-preference-reichstag-fallback",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+   "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kinetic-european-conflict",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+   "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kirk-anniversary-narrative-2026",
+   "mget_legs_tested": [
+    "Leg 6 Algorithmic Enclosure",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+   "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "market-actuarial",
+   "mget_legs_tested": [],
+   "verdict": "neutral",
+   "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
+   "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "mid-august-oil-price-shock",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+   "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism)."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "military-coup-fourth-turning",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+   "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": null,
+   "track": "inward-targeting-vector",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Round 2 red-team (selection bias attack). Skeptic charged cherry-picking: outward arms posture and China rhetoric contradict the inward vector. Defense held on (a) resource-following: interceptor stockpile depletion vs. ICE procurement expansion (stun gloves, SUVs, detention centers) is physical, not rhetorical evidence. Key testable cut: if ICE detention population grows faster than removal counts, detention itself is the mission. Defense strained on (b): 'rhetoric stops working' is a mood until converted to observables (polling, war-support, enlistment decay). Guard against unfalsifiability: rhetoric thesis only survives welded to the resource ledger.",
+   "forward_signal": "Watch ICE detention population vs. actual removal counts divergence. Also watch outward-rhetoric efficacy metrics: polling on adversary framing, enlistment, official-messaging engagement decay. Any divergence between the two vectors is a confirming datapoint."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "nato-conditional-guilt",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+   "forward_signal": "Public repricing of the security guarantee; alliance fragmentation."
+  },
+  {
+   "date": "2026-09-12",
+   "time_et": null,
+   "track": "NLT backtest + vanguard-break correlation",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "NLT inversion precedes Leg 4 fracture in all three backtested turnings (1789, 1860, 1930-33). Owner hypothesis (legs 1-3 firing = precondition for leg 4) is consistent: NLT inversion is the observable mechanism by which saturated legs 1-3 convert into vanguard defection.",
+   "forward_signal": "Current NLT is inverted (apocalyptic content saturates in hours; institutional response lags days-weeks). Watch for vanguard defection signs within one political season per gauge."
+  },
+  {
+   "date": "2026-09-11",
+   "time_et": null,
+   "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
+   "mget_legs_tested": [
+    "Leg 1 Enclosing Force (chokepoint pressure)",
+    "Leg 2 Elite Overproduction (cover thesis)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent convergence: Prof Robert Pape (Escalation Trap, UChicago, CPOST) \u2014 the top-tier Iran analyst \u2014 reaches the same structural read as the CASS ledger via purely operational data: tactical success without political surrender, chokepoint (Hormuz) pressure now horizontally expanding to a second front (Houthi/Bab el-Mandeb), multi-theater escort strain. Independent replication of the Houthi fork (76) and Iran escalation mechanics. Leg 1 confirmed; Leg 2 partially confirmed (Pape's trap is strategic, not domestic \u2014 the domestic-necessity layer remains CASS's contribution and stays open).",
+   "forward_signal": "Pape's nightmare-scenario receipt: F-15/F-35 buildup pattern historically precedes escalation, not de-escalation \u2014 logged as HONEST straining signal against the Potemkin thesis (War Question spread watchlist). Also: his framework predicts escalation-begets-escalation, which the ledger should test against the November Pause window. Budget tell continues as Thesis B discriminator."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "post-trump-restructure",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+   "forward_signal": "Named fall guy; who assumes consolidated power."
+  },
+  {
+   "date": "2026-09-09",
+   "time_et": null,
+   "track": "inverted-cycle-domestic-turn",
+   "mget_legs_tested": [
+    "Leg 2 Elite Overproduction",
+    "Leg 3 Enclosure Mutation",
+    "Leg 4 Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CYCLE INVERSION THESIS: The 1930s-40s turning resolved OUTWARD (external enemy, Bretton Woods, expanded state). This cycle cannot run that solve function - enclosure is global, so mutation points INWARD (segmentation, walls, internal segmentation); elite overproduction can only fight over positions inside the walls; alliance architecture is dissolving toward regional blocs (Mecca Defence Alliance excluding the hegemon). Foreign conflicts are distractions THAT KEEP FAILING TO DISTRACT: the tool (external war as legitimacy device) remains in use but has stopped working - the principal himself reframed the war as an electoral stop-loss before the fact, and the audience reads the mechanism aloud (inversion-tier delegitimization). The war comes home not as troops but as FALSIFIED PROMISES at machine speed: the collapse of the distinction between foreign policy and domestic control. Structural correction: rupture is at the CORE this cycle (actuarial table, bankruptcy resolution, delegitimization manifest) not the periphery.",
+   "forward_signal": "FALSIFIER SET: If thesis holds, the regime PREFERS de-escalation abroad post-Nov 3 while escalating DOMESTICALLY regardless of war outcome - emergency powers, enforcement budgets, surveillance expansion. Track: (1) domestic enforcement/surveillance budget lines post-midterm; (2) repression_event entries with nspm7 alignment; (3) whether war winds down AND machinery built to fight it is retained domestically (the tell: machinery outlives the war); (4) Mecca Alliance activation as the D2/D3 discriminator. CONTRA: if post-Nov 3 shows genuine demobilization (war powers sunset, budgets cut, agencies shrunk), thesis breaks - the machinery was war-specific, not conversion-ready."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "iran-naval-escort-escalation",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+   "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kemalist-preference-reichstag-fallback",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+   "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kinetic-european-conflict",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+   "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kirk-anniversary-narrative-2026",
+   "mget_legs_tested": [
+    "Leg 6 Algorithmic Enclosure",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+   "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "market-actuarial",
+   "mget_legs_tested": [],
+   "verdict": "neutral",
+   "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
+   "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "mid-august-oil-price-shock",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+   "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism)."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "military-coup-fourth-turning",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+   "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": null,
+   "track": "inward-targeting-vector",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Round 2 red-team (selection bias attack). Skeptic charged cherry-picking: outward arms posture and China rhetoric contradict the inward vector. Defense held on (a) resource-following: interceptor stockpile depletion vs. ICE procurement expansion (stun gloves, SUVs, detention centers) is physical, not rhetorical evidence. Key testable cut: if ICE detention population grows faster than removal counts, detention itself is the mission. Defense strained on (b): 'rhetoric stops working' is a mood until converted to observables (polling, war-support, enlistment decay). Guard against unfalsifiability: rhetoric thesis only survives welded to the resource ledger.",
+   "forward_signal": "Watch ICE detention population vs. actual removal counts divergence. Also watch outward-rhetoric efficacy metrics: polling on adversary framing, enlistment, official-messaging engagement decay. Any divergence between the two vectors is a confirming datapoint."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "nato-conditional-guilt",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+   "forward_signal": "Public repricing of the security guarantee; alliance fragmentation."
+  },
+  {
+   "date": "2026-09-12",
+   "time_et": null,
+   "track": "NLT backtest + vanguard-break correlation",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "NLT inversion precedes Leg 4 fracture in all three backtested turnings (1789, 1860, 1930-33). Owner hypothesis (legs 1-3 firing = precondition for leg 4) is consistent: NLT inversion is the observable mechanism by which saturated legs 1-3 convert into vanguard defection.",
+   "forward_signal": "Current NLT is inverted (apocalyptic content saturates in hours; institutional response lags days-weeks). Watch for vanguard defection signs within one political season per gauge."
+  },
+  {
+   "date": "2026-09-11",
+   "time_et": null,
+   "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
+   "mget_legs_tested": [
+    "Leg 1 Enclosing Force (chokepoint pressure)",
+    "Leg 2 Elite Overproduction (cover thesis)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent convergence: Prof Robert Pape (Escalation Trap, UChicago, CPOST) \u2014 the top-tier Iran analyst \u2014 reaches the same structural read as the CASS ledger via purely operational data: tactical success without political surrender, chokepoint (Hormuz) pressure now horizontally expanding to a second front (Houthi/Bab el-Mandeb), multi-theater escort strain. Independent replication of the Houthi fork (76) and Iran escalation mechanics. Leg 1 confirmed; Leg 2 partially confirmed (Pape's trap is strategic, not domestic \u2014 the domestic-necessity layer remains CASS's contribution and stays open).",
+   "forward_signal": "Pape's nightmare-scenario receipt: F-15/F-35 buildup pattern historically precedes escalation, not de-escalation \u2014 logged as HONEST straining signal against the Potemkin thesis (War Question spread watchlist). Also: his framework predicts escalation-begets-escalation, which the ledger should test against the November Pause window. Budget tell continues as Thesis B discriminator."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "post-trump-restructure",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+   "forward_signal": "Named fall guy; who assumes consolidated power."
+  },
+  {
+   "basename": "inverted-cycle-war-comes-home",
+   "date": "2026-09-09",
+   "time_et": null,
+   "track": "inverted-cycle-domestic-turn",
+   "mget_legs_tested": [
+    "Leg 2 Elite Overproduction",
+    "Leg 3 Enclosure Mutation",
+    "Leg 4 Vanguard Alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "CYCLE INVERSION THESIS: The 1930s-40s turning resolved OUTWARD (external enemy, Bretton Woods, expanded state). This cycle cannot run that solve function - enclosure is global, so mutation points INWARD (segmentation, walls, internal segmentation); elite overproduction can only fight over positions inside the walls; alliance architecture is dissolving toward regional blocs (Mecca Defence Alliance excluding the hegemon). Foreign conflicts are distractions THAT KEEP FAILING TO DISTRACT: the tool (external war as legitimacy device) remains in use but has stopped working - the principal himself reframed the war as an electoral stop-loss before the fact, and the audience reads the mechanism aloud (inversion-tier delegitimization). The war comes home not as troops but as FALSIFIED PROMISES at machine speed: the collapse of the distinction between foreign policy and domestic control. Structural correction: rupture is at the CORE this cycle (actuarial table, bankruptcy resolution, delegitimization manifest) not the periphery.",
+   "forward_signal": "FALSIFIER SET: If thesis holds, the regime PREFERS de-escalation abroad post-Nov 3 while escalating DOMESTICALLY regardless of war outcome - emergency powers, enforcement budgets, surveillance expansion. Track: (1) domestic enforcement/surveillance budget lines post-midterm; (2) repression_event entries with nspm7 alignment; (3) whether war winds down AND machinery built to fight it is retained domestically (the tell: machinery outlives the war); (4) Mecca Alliance activation as the D2/D3 discriminator. CONTRA: if post-Nov 3 shows genuine demobilization (war powers sunset, budgets cut, agencies shrunk), thesis breaks - the machinery was war-specific, not conversion-ready."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "iran-naval-escort-escalation",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Active US-Iran naval friction in a closed Hormuz reflects the crisis framework external-escalation channel. Confirms Leg 5 crisis intensity.",
+   "forward_signal": "Live exchange against a US naval escort (high signal); interceptor-magazine exhaustion."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kemalist-preference-reichstag-fallback",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Quiet-track preference with loud-Reichstag fallback is a precise prediction of the Fourth Turning democratic-rest-fit-over-institutional-degradation dynamic. Confirms Leg 5.",
+   "forward_signal": "61-day pre-midterm window; October catastrophe timing - if loud fallback fires, strong Leg 5 confirm."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kinetic-european-conflict",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "Baltic window open but not landed; confidence 59. Strains guaranteed European kinetic collapse assumption; live event would flip to confirms.",
+   "forward_signal": "Genuine Baltic/naval engagement; NATO conditionality triggering."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "kirk-anniversary-narrative-2026",
+   "mget_legs_tested": [
+    "Leg 6 Algorithmic Enclosure",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Narrative-dominance track (conf 88). Measuring narrative control; neutral as MGET evidence until it drives a measurable power outcome.",
+   "forward_signal": "Anniversary narrative converting into legislative/policy leverage; Sept 10 proximity."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": null,
+   "track": "market-actuarial",
+   "mget_legs_tested": [],
+   "verdict": "neutral",
+   "reasoning": "Instrument reading, NOT an MGET leg test. Hedge funds flipped net-long 177M barrels in gasoline/diesel (John Kemp), diesel hit all-time high $5.90+/gal, record crack spreads, Brent ~$100. Hedge funds stayed slightly bearish on crude but long fuels \u2014 betting on the bottleneck, not the war. Correction on classification (2026-09-08, same day): after review, money-moving-before-the-event does not survive as an MGET mechanism. It is an aperiodic natural signal present in every era regardless of turning-cycle location \u2014 Dojima rice futures 1730, Lloyd's WWI repricing, 1938 capital flight, 1973 spot market, 2008 CDS. Same mechanism, all decades. MGET is a theory of civilizational turning cycles; the actuarial table is a sensor, not a strut. What IS modern is compression and visibility: the pricing window collapsed from weeks to hours, and the signal is now public (positioning data, crack spreads, pump prices readable by anyone). The asymmetry has inverted \u2014 the Crowd can read the instrument but mostly lacks the interpretation layer.",
+   "forward_signal": "Use market pricing as a real-time instrument for tracking events already on the board (Hormuz conf 98, SPR runway conf 72, Russian fragility conf 72), not as independent confirmation of the MGET frame. Watch: refinery maintenance season Oct-Nov vs record-low gasoline inventories; whether diesel spike forces policy panic before midterms; whether the public signal remains unread by the Crowd \u2014 the interpretation gap is the show's lane."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "mid-august-oil-price-shock",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns"
+   ],
+   "verdict": "strains",
+   "reasoning": "FAILED track (conf 10). Mid-August spike did not fire. STRAIN on the energy-shock reading - a timing miss, not a kill. Shock appears deferred to the SPR-runway clock rather than dead.",
+   "forward_signal": "SPR weekly drain; whether the shock arrives on the pre-midterm runway instead (would redeem the mechanism)."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "military-coup-fourth-turning",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning"
+   ],
+   "verdict": "strains",
+   "reasoning": "Fracture containable so far (conf 54). Strains the maximal naked-coup reading; process may take quieter enforcement-path rather than a tank in the street.",
+   "forward_signal": "Confirmable break in institutional-military loyalty; decisive military posture change."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": null,
+   "track": "inward-targeting-vector",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Round 2 red-team (selection bias attack). Skeptic charged cherry-picking: outward arms posture and China rhetoric contradict the inward vector. Defense held on (a) resource-following: interceptor stockpile depletion vs. ICE procurement expansion (stun gloves, SUVs, detention centers) is physical, not rhetorical evidence. Key testable cut: if ICE detention population grows faster than removal counts, detention itself is the mission. Defense strained on (b): 'rhetoric stops working' is a mood until converted to observables (polling, war-support, enlistment decay). Guard against unfalsifiability: rhetoric thesis only survives welded to the resource ledger.",
+   "forward_signal": "Watch ICE detention population vs. actual removal counts divergence. Also watch outward-rhetoric efficacy metrics: polling on adversary framing, enlistment, official-messaging engagement decay. Any divergence between the two vectors is a confirming datapoint."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "nato-conditional-guilt",
+   "mget_legs_tested": [
+    "Leg 4 Complexity Diminishing Returns",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "US transactionalizing the NATO guarantee on Baltic escalation is textbook Tainter - shrinking hegemon re-prices commitments because alliance produces diminishing returns. Confirms Leg 4.",
+   "forward_signal": "Public repricing of the security guarantee; alliance fragmentation."
+  },
+  {
+   "date": "2026-09-12",
+   "time_et": null,
+   "track": "NLT backtest + vanguard-break correlation",
+   "mget_legs_tested": [
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "NLT inversion precedes Leg 4 fracture in all three backtested turnings (1789, 1860, 1930-33). Owner hypothesis (legs 1-3 firing = precondition for leg 4) is consistent: NLT inversion is the observable mechanism by which saturated legs 1-3 convert into vanguard defection.",
+   "forward_signal": "Current NLT is inverted (apocalyptic content saturates in hours; institutional response lags days-weeks). Watch for vanguard defection signs within one political season per gauge."
+  },
+  {
+   "date": "2026-09-11",
+   "time_et": null,
+   "track": "iran-escalation-against-us-naval-escorts / houthi-red-sea-escalation-fork",
+   "mget_legs_tested": [
+    "Leg 1 Enclosing Force (chokepoint pressure)",
+    "Leg 2 Elite Overproduction (cover thesis)"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Independent convergence: Prof Robert Pape (Escalation Trap, UChicago, CPOST) \u2014 the top-tier Iran analyst \u2014 reaches the same structural read as the CASS ledger via purely operational data: tactical success without political surrender, chokepoint (Hormuz) pressure now horizontally expanding to a second front (Houthi/Bab el-Mandeb), multi-theater escort strain. Independent replication of the Houthi fork (76) and Iran escalation mechanics. Leg 1 confirmed; Leg 2 partially confirmed (Pape's trap is strategic, not domestic \u2014 the domestic-necessity layer remains CASS's contribution and stays open).",
+   "forward_signal": "Pape's nightmare-scenario receipt: F-15/F-35 buildup pattern historically precedes escalation, not de-escalation \u2014 logged as HONEST straining signal against the Potemkin thesis (War Question spread watchlist). Also: his framework predicts escalation-begets-escalation, which the ledger should test against the November Pause window. Budget tell continues as Thesis B discriminator."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": null,
+   "track": "post-trump-restructure",
+   "mget_legs_tested": [
+    "Leg 5 Fourth Turning",
+    "Leg 1 Enclosing Force"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Fall-guy-and-new-Caesar restructuring is the institutional-capacity-dissolution phase of a turning - old order names a scapegoat while consolidating a strongman. Confirms Legs 5 and 1.",
+   "forward_signal": "Named fall guy; who assumes consolidated power."
   },
   {
    "date": "2026-09-15",
@@ -9104,18 +9657,6 @@
    "basename": "reichstag-fire-national-emergency"
   },
   {
-   "date": "2026-09-06",
-   "time_et": null,
-   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
-   "mget_legs_tested": [
-    "Leg 6 (algorithmic enclosure)",
-    "complexity cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
-  },
-  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -9151,17 +9692,6 @@
    "reasoning": "Hormuz effectively closed (~95% traffic drop, confirmed). The most leveraged global supply node severed is the strongest Tainter confirm on the board. Confirms Leg 4 and Leg 1 resource-lever.",
    "forward_signal": "LNG flow series (Qatar-to-Asia); CENTCOM vessel counts holding reopening claims honest vs ~95% frame.",
    "basename": "strait-of-hormuz-blockade"
-  },
-  {
-   "date": "2026-09-08",
-   "time_et": null,
-   "track": "exogenous-climatic-shock",
-   "mget_legs_tested": [
-    "Leg 1 Complexity Cap"
-   ],
-   "verdict": "strains",
-   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
   },
   {
    "date": "2026-09-04",
@@ -10368,10 +10898,10 @@
    "trigger": "2026-11-02: no development on the test itself (radarcell 11-02 sweep; Araqchi on the 'two-day proposal' only). Khamenei's 11-01 'no geographical restrictions' order and Rezaei's 'n"
   },
   {
-   "time": "2026-11-02 08:40 ET (morning wire)",
-   "ref": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
-   "change": "confidence 30 \u2014 status emergent",
-   "trigger": "2026-11-02 (election eve): Brent -7.6% to $104.77 and WTI -7.36% to $96.46, largest one-day fall since July, on unaccepted Iranian conditions and Trump's 'could happen' \u2014 with GEF "
+   "time": "9/23 9:05pm",
+   "ref": "Mid-August Oil Price Shock",
+   "change": "confidence 10 \u2192 18",
+   "trigger": "Iran's victory-conditions go public at UNGA; Brent <$100 on talks headlines alone; diesel export ban floated as first economic emergency lever"
   },
   {
    "time": "2026-11-01 21:24 ET (evening wire ping)",
