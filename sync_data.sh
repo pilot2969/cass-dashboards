@@ -531,42 +531,25 @@ fi
 # The remote may own commits; it does not own these files.
 GEN="data.json history.json Internal Telemetry.html Daily Read.md archive.html"
 
-# Generated-file snapshot/restore as FUNCTIONS (2026-11-02, second pass). The first
-# version inlined this around the origin pull and missed the prod rebase — which is
-# where the damage actually happened every time: `git rebase -X ours prod/main`
-# during a rebase means the ONTO side wins, so the other writer's data.json (717
-# ledger entries, duplicate basenames) and its unscrubbed page replaced ours AFTER
-# the pre-push gate had already gone green. Prepush passed, prod served the other
-# writer's build, postdeploy failed. Three runs in a row. Both pulls now restore.
-_gen_snap() { for _g in $GEN; do [ -f "$_g" ] && cp "$_g" "/tmp/_gen_$(echo $_g | tr ' ' '_')"; done; }
-_gen_restore() { for _g in $GEN; do _s="/tmp/_gen_$(echo $_g | tr ' ' '_')"; [ -f "$_s" ] && cp "$_s" "$_g"; done; true; }
+# POST-PULL RE-ASSERT (2026-11-02). The restored data.json is ours, but it is still
+# checked against /space before it ships: reconcile, rebuild the register, amend.
+if ! python3 reconcile_predictions.py --check >/tmp/_recon.txt 2>&1; then
+  echo "POST-PULL: data.json diverged from /space — re-asserting"
+  sed -n '1,6p' /tmp/_recon.txt
+  python3 reconcile_predictions.py
+  python3 build_register.py
+  git add -A
+  git commit -q --amend --no-edit
+fi
 
-# One re-assert, used after EVERY pull. Order is the whole point: restore our
-# generated artifacts, re-derive them from /space, scrub the prose, then re-gate.
-_reassert() {
-  _gen_restore
-  if ! python3 reconcile_predictions.py --check >/tmp/_recon.txt 2>&1; then
-    echo "POST-PULL: data.json diverged from /space — re-asserting"
-    sed -n '1,6p' /tmp/_recon.txt
-    python3 reconcile_predictions.py
-    python3 build_register.py
-  fi
-  # FINAL SCRUB: published prose must never carry the board's internal card keys.
-  # The renderer scrubs what it builds, but the legacy deep-dive blocks under the
-  # big-questions cards were baked long before the renderer and nothing regenerates
-  # them, so the token reappeared after the file had already been cleaned once.
-  python3 scrub_internal_keys.py
-  python3 scrub_internal_keys.py --check || { echo "GATE: internal card keys still in published prose — refusing to push"; exit 1; }
-  git add -A && { git diff --cached --quiet || git commit -q --amend --no-edit; }
-  # the gate runs LAST, on the tree that will actually be pushed
-  node verify_prod.js --mode=prepush || {
-    echo "GATE FAILED after pull — push aborted. Fix every FAIL line above."
-    exit 1; }
-}
-
-_gen_snap
-git pull --rebase --autostash -X theirs -q origin main
-_reassert
+# FINAL SCRUB (2026-11-02). The published prose must never carry the board's
+# internal card keys. The renderer scrubs what it builds, but the legacy
+# deep-dive blocks were baked years of commits ago and nothing regenerates them,
+# so the token kept reappearing after the file had already been cleaned. This is
+# the last write before the gate: clean, then fail loudly if anything survives.
+python3 scrub_internal_keys.py
+python3 scrub_internal_keys.py --check || { echo "GATE: internal card keys still in published prose — refusing to push"; exit 1; }
+git add -A && { git diff --cached --quiet || git commit -q --amend --no-edit; }
 # CONSOLIDATED PUSH BLOCK (2026-10-14 review): exactly one push per remote, per
 # run. origin = staging repo, prod = prod repo, staging = alias of origin.
 # 2026-10-21 PAGES-SERIALIZATION: GitHub Pages rejects a new deployment while
