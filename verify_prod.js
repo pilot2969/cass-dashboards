@@ -147,6 +147,17 @@ async function main(){
       (newestD&&daysBetween(newestD,today)>2)?fail('ledger.fresh',`newest rendered entry ${newestD} — ${daysBetween(newestD,today)}d behind`):pass('ledger.fresh',`newest entry ${newestD}`);
       const dateless=[...rows].filter(r=>!/\d{4}-\d{2}-\d{2}/.test(txt(r.textContent))).length;
       dateless?fail('ledger.dated',`${dateless} row(s) with no date`):pass('ledger.dated','every ledger row is dated');
+      // The second writer APPENDS to data.json rather than reconciling, so merges
+      // republished entries two and three times over: 717 rows carrying 418 events.
+      // Rendering duplicates is invisible to a reader and lethal to every count on
+      // the page, so dedupe is asserted, not assumed.
+      {
+        const keys=(dd.mget_ledger||[]).map(e=>e.basename||'');
+        const noKey=keys.filter(k=>!k).length;
+        const dupes=keys.length-new Set(keys).size;
+        (noKey||dupes)?fail('ledger.deduped',`${keys.length} entries — ${dupes} duplicate basename(s), ${noKey} with no basename`)
+                      :pass('ledger.deduped',`${keys.length} entries, all unique`);
+      }
 
       // 8. daily read
       const drPanel=[...doc.querySelectorAll('details.zpanel')].find(p=>/Daily Read/i.test(txt(p.querySelector('summary h2, summary .zhead')?.textContent)));
