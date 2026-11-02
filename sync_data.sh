@@ -448,19 +448,6 @@ fi
 python3 -c "import json;[json.load(open(f)) for f in ['data.json','history.json']]" \
   && echo "staging gate: JSON valid"
 
-# 2026-11-02 FULL-SURFACE GATE (protocol: prod-review-gate). One command, every push.
-# Render-verifies all four pages in jsdom against the real data layer, then checks
-# canonical /space sources. A FAIL here blocks the commit+push: the board cannot
-# ship with a stale ledger, an undated edition, a dead panel, or a leaky token.
-# Overridable only deliberately: SKIP_GATE=1 (and the skip is printed).
-if [ "${SKIP_GATE:-0}" = "1" ]; then
-  echo "GATE SKIPPED BY SKIP_GATE=1 — the push is unverified and must not be called done"
-else
-  node verify_prod.js --mode=prepush || {
-    echo "GATE FAILED — push aborted. Fix every FAIL line above; WARNs are advisory."
-    echo "Re-run alone with: node verify_prod.js --mode=prepush"
-    exit 1; }
-fi
 
 # 2026-10-21 HARDENING: the daily_read panel fails SILENT when cards parse to
 # zero (md present, board shows watch list only). Assert loudly instead.
@@ -489,6 +476,21 @@ git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # run where the ledger count changed (silent: content committed locally, never
 # pushed). Sweep stragglers, and autostash as belt-and-braces.
 git add -A
+
+# 2026-11-02 FULL-SURFACE GATE (protocol: prod-review-gate). One command, every push.
+# Render-verifies all four pages in jsdom against the real data layer, then checks
+# canonical /space sources. A FAIL here blocks the commit+push: the board cannot
+# ship with a stale ledger, an undated edition, a dead panel, or a leaky token.
+# Overridable only deliberately: SKIP_GATE=1 (and the skip is printed).
+if [ "${SKIP_GATE:-0}" = "1" ]; then
+  echo "GATE SKIPPED BY SKIP_GATE=1 — the push is unverified and must not be called done"
+else
+  node verify_prod.js --mode=prepush || {
+    echo "GATE FAILED — push aborted. Fix every FAIL line above; WARNs are advisory."
+    echo "Re-run alone with: node verify_prod.js --mode=prepush"
+    exit 1; }
+fi
+
 # pull with rebase; a failure must abort the script (set -e), never print success.
 # -X ours is safe here because data.json/history.json are generated artifacts:
 # our regen output is authoritative over any remote-only drift.

@@ -61,6 +61,20 @@ async function main(){
               :pass('schema.grace_lock','grace-lock claims are all dated');
   }
 
+  /* ---------- generator sources must be committed with their output ---------- */
+  if(MODE==='prepush'){
+    try{
+      const {execSync}=require('child_process');
+      // sync_data.sh runs this AFTER `git add -A`, so a clean index means the fix
+      // is in the commit. Only unstaged (index char ' ') or untracked '??' count.
+      const dirty=execSync("git status --porcelain -- '*.py' '*.sh' '*.css' '*.js'",{cwd:DIR,encoding:'utf8'})
+        .split('\n').filter(l=>l&&!/node_modules/.test(l))
+        .filter(l=>/^\?\?|^ [MDAR]/.test(l));
+      dirty.length?fail('source.committed',`generator/source file(s) uncommitted — next rebuild reverts the fix: ${dirty.map(d=>d.replace(/^[A-Z?!]{1,2}\s+/,'')).join(', ')}`)
+                  :pass('source.committed','every generator and source file is committed with its output');
+    }catch(e){warn('source.committed','git unavailable — could not check source/output parity');}
+  }
+
   /* ---------- data-layer freshness (the root-cause class) ---------- */
   {
     const gen=data.meta&&data.meta.generated;
