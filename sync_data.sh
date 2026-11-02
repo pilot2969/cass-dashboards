@@ -502,9 +502,11 @@ _pages_wait pilot2969/cass-dashboards "$_ptok"
 # 2026-11-02: deploy-cass.sh pushes to the same prod repo, so a bare push here
 # gets rejected (fetch first) and the run dies after staging already moved.
 if ! git push -q prod main:main 2>/dev/null; then
+  # merge, not rebase: during a rebase "-X ours" means the UPSTREAM side wins, which
+  # silently reverted data.json to the deploy export and dropped data.counts (2026-11-02).
   git fetch -q prod main
-  git rebase --autostash -X ours prod/main -q || { git rebase --abort; echo "ERROR: prod rebase failed"; }
-  git push -q prod main:main && echo "PUSHED TO PROD ✓ (rebased over deploy commit)"
+  git merge -X ours -m "merge prod (data layer wins)" prod/main -q || { git merge --abort; echo "ERROR: prod merge failed"; }
+  git push -q prod main:main && echo "PUSHED TO PROD ✓ (merged over deploy commit)"
 else echo "PUSHED TO PROD ✓"; fi
 sleep 10
 _pages_wait pilot2969/cass-dashboards-staging "$_ptok"
