@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-03T08:05 ET"
+  "generated_stamped": "2026-11-03T08:46 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -121,7 +121,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2028-09-22",
+   "window_closes": null,
    "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": false,
@@ -138,7 +138,12 @@
    ],
    "confirmer": "Any one of the three lock-in conditions fires: (1) internal attempt to renegotiate exit terms before month 24; (2) genuine price increase or scope reduction at renewal tied to the guarantee terms; (3) measurable attrition of Riverside practices citing contract terms as a stated reason.",
    "confirmer_base_rate": "Contract-dispute events of this class in unstructured deals: informal industry base rate roughly 20-30% over 24 months \u2014 above the 60% horoscope line only marginally, so confirmation upgrades modestly; the real grading event remains the 24-month clean-run falsifier",
-   "confirmation_window": "Signature date + 24 months"
+   "confirmation_window": "Signature date + 24 months",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "External contractual trigger (signature date) + 24 months",
+   "window_basis": "NO DATE YET: signature has not occurred. Cannot expire; must be re-registered with a date or quarantined.",
+   "expiry_basis": "No expiry \u2014 no window."
   },
   {
    "basename": "2026-10-15-omar-deportation-spectacle-pre-election",
@@ -152,7 +157,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -176,45 +181,14 @@
    ],
    "confirmer": "Armed/visual enforcement event on Omar (or announced removal staging) before Nov 3 following the WSJ-sourced citizenship-strip track, in the spectacle format SA specified.",
    "confirmer_base_rate": "Spectacle enforcement against a sitting federal legislator before a federal election: near-zero historical base rate; low naive rate raises the confirmation bar \u2014 timing specificity (pre-election) and format specificity (spectacle) must BOTH hold.",
-   "confirmation_window": "2026-10-15 to 2026-11-03"
-  },
-  {
-   "basename": "2026-10-15-omar-deportation-spectacle-pre-election",
-   "title": "Omar Deportation as Pre-Election Spectacle",
-   "date_made": "2026-10-15",
-   "time_et": "09:53",
-   "statement": "SA prediction (2026-10-15 09:53 ET): If the administration proceeds against Rep. Ilhan Omar on the citizenship-strip track, execution will be staged as a full-raid-style spectacle (armed, press-visible), completed before the Nov 3 midterm \u2014 the administration wants the optics and the pre-election timing. Continuation of the escalation ladder already logged: raid 10-12 -> WSJ citizenship-strip leak 10-14 -> elite laundering (MacIntyre) 10-15 -> dehumanization meme template live 10-15 (Franklin expulsion format).\n\nMECHANISM ANALYSIS (added 10-15, same morning): Deportation proper is not the correct frame \u2014 she is a naturalized citizen, and the citizenship-strip track is denaturalization litigation, which runs on court timelines (12-36 months in the normal case). What the spectacle can be built from instead: (1) PRETEXT DETENTION \u2014 ICE/DHS detainer or criminal referral on an unrelated charge (immigration-fraud-adjacent filing, marriage-litigation angle the corpus already tracks), producing physical custody while the citizenship claim is 'under review'. Detention of a citizen is unlawful but enforceable in practice when the status question is contested \u2014 the person must litigate their way out from inside custody, which is the classic chilling format. (2) STATUS LIMBO AS THE PRODUCT \u2014 DOJ filing triggers passport revocation / REAL-ID flag; she remains in the country but is rendered legally stateless-adjacent. This is the quiet branch that would falsify the spectacle format. (3) FULL SPECTACLE BRANCH \u2014 arrest/detention staged visually (raid format, per SA's specification), justified publicly as 'pending resolution of citizenship status'; this is the 45%-confidence path and matches the pre-election demand curve in the MacIntyre record. Key tell distinguishing (1)/(3) from (2): whether any physical custody event occurs before Nov 3. Falsifier (2) in the main statement covers the quiet branch explicitly.",
-   "confidence": 45,
-   "status": "emergent",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": null,
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "WSJ-sourced report confirmed by two independent carriers (ZeroHedge, Shapiro) within 24h \u2014 deliberate strategic-leak signature rather than accidental disclosure",
-    "Semi-elite amplifier (MacIntyre) states the electoral function explicitly: 'give the base an incredible reason to turn out in the midterms... teasing it isn't enough' \u2014 pre-election delivery demand is recorded in the amplification layer itself",
-    "Meme-factory latency under 12h (Franklin expulsion template live 10-15) \u2014 pre-rendering the enforcement as settled before any formal action",
-    "Administration enforcement style across the corpus (agency-raid specimens incl. the 10-12 Omar home raid) already favors spectacle staging",
-    "Passport/phone/computer seizure confirmed by WSJ; WaPo surfaces 2019 review that found NO citizenship issues same day officials confirm revocation aim \u2014 spectacle lane fully live.",
-    "2026-11-01 evening: window closes 11-03 with no Omar-specific spectacle event logged. The late-cycle targeting frame migrated to El-Sayed ('jihadist', Iowa rally) instead \u2014 adjacent instrument, different target; does not confirm this card. Trending to resolve NEGATIVE at window close unless the next 48h produces the named event."
-   ],
-   "evidence_contradicted": [],
-   "falsifier": "DISCONFIRMED if: (1) formal DOJ action on Omar citizenship lands AFTER Nov 3 (timing wrong); (2) action proceeds without spectacle staging \u2014 quiet administrative/diplomatic or litigation-only channel, no visual enforcement event; (3) no formal DOJ action materializes before Nov 3 (leak remains trial balloon only); (4) action stays at property/status level with no deportation-execution event. Spectacle-staging definition: armed/visual enforcement event on Omar herself (detention, removal-flight staging, or publicized raid format), not paperwork.",
-   "forward_watchlist": [
-    "DOJ formal filing on Omar citizenship (trigger (b) on the Omar raid watch card)",
-    "Any Omar-related enforcement visual event before Nov 3",
-    "Meme-template replication: second children's-book-format expulsion artifact",
-    "Targeting breadth signal: additional members of Congress entering the citizenship-strip lane"
-   ],
-   "confirmer": "Armed/visual enforcement event on Omar (or announced removal staging) before Nov 3 following the WSJ-sourced citizenship-strip track, in the spectacle format SA specified.",
-   "confirmer_base_rate": "Spectacle enforcement against a sitting federal legislator before a federal election: near-zero historical base rate; low naive rate raises the confirmation bar \u2014 timing specificity (pre-election) and format specificity (spectacle) must BOTH hold.",
-   "confirmation_window": "2026-10-15 to 2026-11-03"
+   "confirmation_window": "2026-10-15 to 2026-11-03",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-10-15",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-11-03",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "2026-midterms-legitimacy-catalyst-node",
@@ -222,7 +196,7 @@
    "date_made": "2026-09-14",
    "time_et": "re-registered 2026-10-08 00:05 ET; original registration 2026-09-14",
    "statement": "RE-REGISTERED PER P15-T RULING CONDITIONS 1-6 (owner approved 2026-10-07 21:58 ET; filed 00:05 ET 10-08 for unambiguous timestamp). SCORED CLAIM (single branch, condition 1): Before the statutory certification deadline of Dec 14, 2026, the regime apparatus will take at least one certification-contestation action in an election-domain observable: (a) litigation filed by a named actor (campaign, party committee, state or federal official) seeking to overturn, pause, or re-run a state certification; (b) refusal or indefinite delay of certification by an official with statutory certification authority; or (c) pre-positioned mass fraud-narrative activation before or during the count - the pre-build tell, defined as >=2 distinct national-level actors activating fraud claims against specific counting processes before Nov 3, 2026. CARD FAILS if none of (a)-(c) occurs by Dec 14, 2026. No other branch scored. REGIME APPARATUS (defined): White House/House leadership, executive agencies (DOJ, DHS, USCIS), and affiliated campaign/party organizations acting in coordination on certification-contestation behavior. S&H/Turchin catalyst vocabulary is interpretive framing OUTSIDE the graded claim (condition 3). PRECURSOR SIDE CLAIM (ungraded): if certification completes with litigation noise but is accepted, polarization metrics accelerating through Jan 15, 2027 confirm the precursor framing - never scored as headline confirmation.",
-   "confidence": 70,
+   "confidence": 74,
    "status": "pending",
    "card_class": "EVENT",
    "resolution": "unresolved",
@@ -732,7 +706,7 @@
    "confidence": 82,
    "status": "emergent",
    "card_class": "PERSISTENCE",
-   "resolution": "holding",
+   "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": null,
    "grace_horizon": null,
@@ -832,7 +806,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-12-22",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -855,44 +829,14 @@
    ],
    "confirmer": null,
    "confirmer_base_rate": null,
-   "confirmation_window": "60 days from 2026-10-23"
-  },
-  {
-   "basename": "color-revolution-target-ladder",
-   "title": "Color revolution frame: institutional target ladder",
-   "date_made": "2026-10-23",
-   "time_et": "22:58",
-   "statement": "If the administration operationalizes the color-revolution frame domestically (domestic unrest = foreign-directed), enforcement will climb a cost-ordered institutional ladder. Tier 1: community organizing networks with foreign/diaspora funding; diaspora political orgs; churches with international ties. Tier 2: university departments (funding clawbacks); foreign-funded media; philanthropy cast as the money layer. Tier 3: labor unions with international affiliations; legal-aid networks cast as obstruction on behalf of foreign interests.",
-   "confidence": 30,
-   "status": "pending",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2026-12-22",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": null,
-   "public_status": "gated_public",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Confucius Institute designation 10/23 (Hegseth) \u2014 cheap, clean probe normalizing 'foreign cultural entity = security threat'",
-    "Existing instruments: FARA enforcement, terrorist-adjacent designation path, USCIS denaturalization machinery",
-    "Press-ban and campus precedents show institutional resistance weak",
-    "Same-day Rubio open CIA recruitment solicitation shows regime-change frame normalized"
-   ],
-   "evidence_contradicted": [],
-   "falsifier": "No designations, FARA actions, funding clawbacks, or enforcement actions against tier-1 institutions in foreign-direction/influence frame language within 60 days of 2026-10-23 strains the forecast; frame remaining purely rhetorical (no institutional targets) weakens it.",
-   "forward_watchlist": [
-    "diaspora org or organizing-network designation/action citing foreign direction",
-    "university department funding action in foreign-influence language",
-    "foundation audit/tax/FARA action",
-    "labor union international-affiliation enforcement",
-    "legal-aid network action tied to immigration/protest enforcement"
-   ],
-   "confirmer": null,
-   "confirmer_base_rate": null,
-   "confirmation_window": "60 days from 2026-10-23"
+   "confirmation_window": "60 days from 2026-10-23",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Registrant-chosen 60-day duration from a fixed start (2026-10-23)",
+   "window_opens": "2026-10-23",
+   "window_basis": "Duration chosen, start fixed.",
+   "expiry_date": "2026-12-22",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "conservative-space-economic-defection",
@@ -903,7 +847,7 @@
    "confidence": 73,
    "status": "emergent",
    "card_class": "PERSISTENCE",
-   "resolution": "holding",
+   "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-06-30",
    "grace_horizon": null,
@@ -1106,13 +1050,13 @@
    "statement": "The rate of dehumanizing rhetoric events (category claims about whole populations) accelerates measurably as a regime approaches a turning \u2014 kinetic escalation, purge, or consolidation threshold. The signal is the SLOPE (events per unit time), not the absolute count. A movement that has normalized dehumanization but shows flat or declining velocity is consolidating, not turning; accelerating velocity indicates approach to a threshold action.",
    "confidence": 20,
    "status": "pending",
-   "card_class": "MECHANISM",
+   "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": null,
    "grace_horizon": null,
    "grace_locked": false,
-   "skill_eligible": true,
+   "skill_eligible": false,
    "quarantine_reason": "Cap 0.10 until first control coded per P17-T conditions (i)-(iii); blind second-coder required before next headline score",
    "public_status": "gated_public",
    "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
@@ -1131,7 +1075,13 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - velocity is leading): monthly dehumanization-event count from the absorption bin (dehumanization_frame:true) shows accelerating slope in the 6-12 months PRECEDING any registered threshold action (kinetic escalation, purge, or consolidation event), with the slope rising before the event, not after. TIER 1 (mechanism tell - source migration): category-frame language migrates UP the hierarchy (influencer to elected official to administration official) or appears in official justification documents (EOs, war messaging) - confirms the transmission channel, not the predictive claim. ADJUDICATION NOTE: the card is confirmed only if slope-leads-event; if acceleration appears but lags the threshold action, the falsifier secondary fires (downgraded to descriptive) and the confirmer is retired with it.",
    "confirmer_base_rate": "Headline: moderate (~40-50% naive for slope-leading in the live US series given the Weimar/Rwanda/Armenia priors; a firing within the window is a genuine skill signal since the claim is specifically about LEADING structure, not mere occurrence). Tier 1: high (~60-70%) - discounted as mechanism evidence.",
-   "confirmation_window": "Rolling; adjudicated at the first registered threshold action in the live series (expected through mid-2027)"
+   "confirmation_window": "Rolling; adjudicated at the first registered threshold action in the live series (expected through mid-2027)",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 rolling, adjudicated at first registered threshold action",
+   "window_basis": "Card says 'expected through mid-2027'. Review horizon adopted as hard horizon; the registrant set no date.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Rolling card: expires 2027-06-30 if no threshold action has been registered. Unregistered at expiry = MISS by rule."
   },
   {
    "basename": "domestic-enforcement-groundwork",
@@ -1274,7 +1224,14 @@
    ],
    "confirmer": "Reserve tasking orders + settlement progress + domestic enforcement escalation all firing inside pre-registered windows",
    "confirmer_base_rate": "No clean base rate; analog = post-WWII hemispheric interventions converted to domestic security frames (Operation Wetback 1954, PL-480 security coupling); sequencing analog = Eurasian detente preceding Western Hemisphere intervention surges (Nixon 1971-73 Chile track)",
-   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)"
+   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Registrant-chosen tasking window (two legs: Nov 3 2026 settlement-progress gate; Dec 24 2026 - Jan 23 2027 tasking window)",
+   "window_opens": "2026-11-03",
+   "window_basis": "MULTI-LEG window, hand-corrected: the prior parse read the Nov 3 gate as the close. Real close is 2027-01-23.",
+   "expiry_date": "2027-01-23",
+   "expiry_basis": "Expires at window close. Grace not pre-registered, 0 days. Gap 2026-11-04 to 2026-12-23 is a dead leg inside the window \u2014 scored as in-window."
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -1285,7 +1242,7 @@
    "confidence": 85,
    "status": "emergent",
    "card_class": "PERSISTENCE",
-   "resolution": "holding",
+   "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-06-30",
    "grace_horizon": null,
@@ -1612,13 +1569,13 @@
    "statement": "Dehumanization acceleration is a SYMPTOM of systemic sickness, not a MECHANISM predicting outcome. The same acceleration signal resolves differently depending on institutional health: in functioning democracies with strong institutions, accelerating dehumanization triggers the McCarthy pattern \u2014 the movement accelerates, plateaus, and absorbs itself (permanent mobilization mode) because institutions keep routing the energy into channels that demobilize it (censure, courts, electoral defeat). In degraded-institution contexts (Weimar 1932, Rwanda 1993), the same acceleration precedes threshold action because no institutional channel exists to absorb the energy. Institutional health is therefore the CONDITIONING VARIABLE that determines which branch of the indicator fires, and must be scored alongside acceleration velocity, not after it.",
    "confidence": 70,
    "status": "emergent",
-   "card_class": "MECHANISM",
+   "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-06-30",
    "grace_horizon": null,
    "grace_locked": false,
-   "skill_eligible": true,
+   "skill_eligible": false,
    "quarantine_reason": null,
    "public_status": "pre_gate_grandfathered",
    "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
@@ -1703,10 +1660,10 @@
    "time_et": null,
    "statement": "As the U.S. forces commercial oil convoys through the Strait of Hormuz under heavy escort, Iran will transition from symbolic missile barrages to aggressive saturation strikes against naval escorts. Applying Robert Pape's 'Escalation Trap' framework, the U.S. assumption of controlling the escalation ladder will fail, carrying a high probability of a major U.S. naval surface combatant being hit or sunk in the Gulf of Oman or Persian Gulf due to depleting interceptor magazines.",
    "confidence": 88,
-   "status": "emergent",
+   "status": "failed",
    "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution": "miss",
+   "resolution_date": "2026-11-02",
    "window_closes": "2026-11-01",
    "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
@@ -1757,7 +1714,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": "trial_case field misused: it holds a source citation to Pape, not a Gauntlet docket",
@@ -1792,56 +1749,14 @@
    ],
    "confirmer": "Public confirmation of an Iranian nuclear detonation before 2026-11-03 23:59 ET (CTBTO seismic/radionuclide detection or Iranian state acknowledgement)",
    "confirmer_base_rate": "No state has conducted a first nuclear test inside a five-day window without months of preceding public preparation; unconditional threshold-state hazard per five-day window is ~0.01-0.03%.",
-   "confirmation_window": "2026-10-29 to 2026-11-03 23:59 ET"
-  },
-  {
-   "basename": "iran-nuclear-test-before-midterms",
-   "title": "Iran conducts a nuclear test before the Nov 3 2026 midterms (Pape's October surprise, scored)",
-   "date_made": "2026-10-29",
-   "time_et": "10:05",
-   "statement": "TESTABLE CLAIM LOGGED AGAINST ITSELF. Robert Pape (UChicago, CPOST) stated on the Decoded Genius interview (published 2026-10-14, recorded ~Oct 12-13) that there is a >50/50 chance Iran obtains a nuclear weapon within a year, and a roughly ONE IN THREE chance Iran TESTS a nuclear weapon before the November 2026 midterms \u2014 'the October surprise.' Mechanism as he gives it: (1) maximum incentive, because without a weapon the US-Israeli attack cycle of June 2025 and Feb 28 2026 onward simply repeats forever; (2) midterm leverage, because a detonation collapses Trump's entire stated Iran strategy ('Iran cannot have, in any way, shape, or form, a Nuclear Weapon'), which he frames as a gambler's all-chips-on-red bet; (3) capability, because Iran holds mined uranium, centrifuge technology and enough HEU to assemble ~5 devices in dispersed drone-storage bunkers, without needing Fordow-scale facilities; (4) the binding constraint is covertness, not will or capability. His added predicate: ONE device is not enough \u2014 a single test invites preemption, two forecloses it (Hiroshima/Nagasaki logic), so any real event is a TWO-DETONATION sequence on a short fuse. Kick-on claim: a test would 'largely sink the Trump presidency,' produce a Democratic wave in both chambers, and deter future US attacks on the North Korea model. BOARD'S OWN NUMBER: 0.07 for a test before polls close Nov 3 \u2014 a deliberate, stated disagreement with Pape's 0.33, on window length and on the absence of a detection ladder, not on his capability read.",
-   "confidence": 7,
-   "status": "pending",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": "trial_case field misused: it holds a source citation to Pape, not a Gauntlet docket",
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "The desalination-water exchange is real and dated, and it is the interview's strongest verifiable content: US strikes hit an electricity and desalination plant in Iran's Hormozgan province (Jask) on July 18 2026; Iran struck a Kuwaiti desalination plant twice in two days the same week. Eight to nine days later, July 26-27, more than 30 municipal water systems in Minnesota were hit in a coordinated cyberattack, with US intelligence assessing Iran as likely behind it (NYT, WaPo, 2026-07-30) and CSIS later mapping the 2026 wave across at least 12 states. Pape's 'two weeks later' is accurate; his 'a few weeks ago' is not \u2014 the attack is three months old.",
-    "Capability leg is not exotic: Iran is in the NPT, has uranium mines, centrifuge capability and stockpiled HEU on its own soil; a small (5-device) program does not require the large declared facilities the US and Israel have already bombed. Nothing in the board's record contradicts this.",
-    "Incentive leg is consistent with the board's own read on the war's structure: the escalation trap is real, the strikes on Iranian leadership and population have continued since June 2025, and Iran has no conventional path to ending the cycle.",
-    "Hormuz leg matches a CONFIRMED board object (strait-of-hormuz-blockade): Iran is running a selective, discretionary blockade \u2014 per-ship permission rather than blanket closure \u2014 and Pape's structural claim that this converts into ~$100bn/yr and a permanent 'fourth center of world power' status is the same mechanism the board already tracks, stated in power terms.",
-    "The 'everyone ducks' list bears directly on kinetic-european-conflict and the immunity-blanket thesis: Germany, France and Britain all stay out even if the US uses a nuclear weapon in Iran; Turkey ducks; Japan drifts toward China; Saudi Arabia stays with Washington; Pakistan stays with China; India fences. His WWIII number for the next six months is 2 out of 10, and it rises only on US nuclear use at Estefan/Pickaxe Mountain.",
-    "TIER-1 (2 days out): falsifier intact and ladder rungs stacking without a doctrinal step. Rezaei 11-01 repeated 'no new decision' on nuclear doctrine (IRNA) while adding Iran would use 'new weaponry' in any response (Al Jazeera); Khamenei 11-01 warned of a 'geographically unrestricted response' if attacked again (Euronews). Declaratory rung up, technical rung absent \u2014 no CTBTO/IAEA event. Resolves NEGATIVE at 2026-11-03 23:59 ET absent a detonation.",
-    "2026-11-02: no development on the test itself (radarcell 11-02 sweep; Araqchi on the 'two-day proposal' only). Khamenei's 11-01 'no geographical restrictions' order and Rezaei's 'new weaponry' line are declaratory. Resolves NEGATIVE at 11-03 23:59 ET absent a detonation."
-   ],
-   "evidence_contradicted": [
-    "NO DETECTION LADDER. Every first nuclear test in the post-1964 record was preceded by months of visible preparation and explicit signalling: India 1974 and 1998 (Pokhran-II preceded by a new BJP government and weeks of public hawkish signalling), Pakistan 1998 (two weeks behind India, openly announced as a response), North Korea 2006 (NPT withdrawal in 2003, three years of declared reprocessing and missile tests first). A test is not a surprise event; it is the last step of a ladder that leaves public rungs. No rung is visible for Iran in the open record as of Oct 29.",
-    "HAZARD RATE. Unconditionally, the per-country-per-year rate of a state conducting a FIRST nuclear test is on the order of 0.1-0.2% across the ten threshold states since 1945. Even at 5% per year conditional on being a threshold state at war, the five-day window from Oct 29 to Nov 3 carries roughly 0.07%. Pape's 33% is two to three orders of magnitude above the unconditional hazard rate and therefore has to be carried ENTIRELY by the specific-condition argument. He does not price the covertness constraint he himself names \u2014 a program that must stay hidden long enough to build TWO devices is a program with a long detectable tail.",
-    "THE WINDOW IS ALREADY MOSTLY SPENT. He first made this call publicly on or before 2026-09-20 (Newsmax) and repeated it Oct 1. Five weeks of the six-week window have passed with no test, no NPT withdrawal, no IAEA special report and no CTBTO event. A claim that stays at one-in-three while the window burns down without any of its own indicators firing is not updating on its own evidence.",
-    "DIPLOMATIC CHANNEL OPEN, REPORTED TWO DAYS AFTER THE RECORDING. On 2026-10-28 the board logged Qatar-led mediation pressing Iran for nuclear concessions against partial sanctions relief, plus Hezbollah's leader hailing an Iran-US deal and Tehran signalling faster diplomacy. A test destroys the sanctions relief Iran is negotiating for. If Iran can get paid by waiting, testing is strictly dominated \u2014 which is the single strongest argument against the 1-in-3 and it postdates the interview.",
-    "COUNTER-INFERENCE ON THE PREDICTION'S OWN POLITICS. If the test would produce a Democratic wave, then Israel and the US have every incentive to preempt rather than let it land, and Iran knows that. The 'their gain is our catastrophe' logic cuts both ways; he treats the deterrence effect as established (North Korea) without pricing the difference between 2006 North Korea and 2026 Iran, which is under active surveillance by two nuclear states that have already bombed it twice.",
-    "THE INTERVIEW'S NOVELTY CLAIM IS FALSE. 'Never said this before on the air' is contradicted by his own six-week public record (see ledger entry 2026-10-29). The sealed-envelope format manufactures a disclosure that is a restatement."
-   ],
-   "falsifier": "RESOLVES NEGATIVE on 2026-11-03 23:59 ET with no confirmed Iranian nuclear detonation (no CTBTO seismic/radionuclide event in Iran, no state acknowledgement, no second detonation). Resolves POSITIVE on a confirmed test before polls close; in that case the two-device predicate is scored separately \u2014 a lone detonation with no follow-on inside ~30 days counts as a PARTIAL confirmation of the event and a failure of the stated mechanism. Secondary falsifier: an Iranian NPT withdrawal announcement before Nov 3 would count as a LADDER-RUNG confirmation even absent a detonation, and would move the number sharply up rather than resolving the claim.",
-   "forward_watchlist": [
-    "CTBTO / USGS seismic events in Iran (Dasht-e Kavir, Kerman, Semnan, Bushehr hinterland) \u2014 a nuclear test is detectable within hours and is the one indicator with no spin room",
-    "IAEA statements, requests for access, or a special Board of Governors session; any Iranian notification of withdrawal from the NPT",
-    "Commercial SAR imagery of Fordow, Natanz, Estefan and Pickaxe Mountain \u2014 earth-moving, new tunnelling, road traffic, power draw",
-    "Iranian official rhetoric shifting from 'peaceful program' to 'we are a nuclear state' \u2014 the declaratory rung usually precedes the technical one",
-    "Any second-detonation sequence, and the US/Israeli preemption window between the first and second",
-    "Oil and shipping reaction: a test should gap crude and shut Hormuz traffic far beyond the current selective blockade",
-    "Whether Pape's own next briefing moves the number down when the window closes with no test \u2014 the calibration test for him, not for Iran"
-   ],
-   "confirmer": "Public confirmation of an Iranian nuclear detonation before 2026-11-03 23:59 ET (CTBTO seismic/radionuclide detection or Iranian state acknowledgement)",
-   "confirmer_base_rate": "No state has conducted a first nuclear test inside a five-day window without months of preceding public preparation; unconditional threshold-state hazard per five-day window is ~0.01-0.03%.",
-   "confirmation_window": "2026-10-29 to 2026-11-03 23:59 ET"
+   "confirmation_window": "2026-10-29 to 2026-11-03 23:59 ET",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-10-29",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-11-03",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "kemalist-preference-reichstag-fallback",
@@ -2042,7 +1957,12 @@
    ],
    "confirmer": "SKIP",
    "confirmer_base_rate": "SKIP",
-   "confirmation_window": "SKIP"
+   "confirmation_window": "SKIP",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 window marked SKIP",
+   "window_basis": "SKIP window; already resolved miss. Not a scorable card.",
+   "expiry_basis": "No expiry \u2014 no window."
   },
   {
    "basename": "korea-patron-swap-not-unification",
@@ -2056,7 +1976,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-12-31",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": false,
    "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
@@ -2095,7 +2015,14 @@
    ],
    "confirmer": "Russian oil/food transfer volumes to NK; NK-China trade share; Moscow-Seoul economic re-engagement; absence of elite-layer crisis signals",
    "confirmer_base_rate": "Base rate for patron-withdrawal producing unification across modern partitions: ~1 clear case (Germany 1990) against Taiwan/China, Cyprus, Ireland, Kashmir persisting through patron changes. Base rate for a nuclear-armed state dissolving under economic pressure: 0 documented cases.",
-   "confirmation_window": "2026-10-27 to 2027-12-31"
+   "confirmation_window": "2026-10-27 to 2027-12-31",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-10-27",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "korea-war-ii-reverse-order-chain",
@@ -2109,7 +2036,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2030-12-31",
-   "grace_horizon": null,
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": false,
    "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
@@ -2171,136 +2098,14 @@
    ],
    "confirmer": "PLA force movement or buffer rhetoric in the northeast; ROK nuclear program (not debate); US Pacific posture drawdown; collapse signal in Pyongyang; re-partition rather than unification if war occurs",
    "confirmer_base_rate": "Unifications achieved by war in the modern era: Vietnam 1975 (conquest of an unarmed-by-comparison state), Yemen 1990 (absorption of a small unarmed collapsed state). Unifications of nuclear-armed states by war: zero. Partitions that survived patron change: Taiwan/China, Cyprus, Ireland, Kashmir. Korean partitions produced by war: one, at the cost of ~3 million dead and a permanent armistice.",
-   "confirmation_window": "2026-10-27 to 2030-12-31"
-  },
-  {
-   "basename": "korea-patron-swap-not-unification",
-   "title": "Korea \u2014 Russia's contraction produces a patron swap, not unification (and not regime collapse)",
-   "date_made": "2026-10-27",
-   "time_et": "00:45",
-   "statement": "Russia's wartime relationship with North Korea will contract materially by end-2027 \u2014 either the war ends in a settlement, or Russian demand for NK munitions/labor/troops falls by a third or more, or both. That contraction will NOT produce Korean unification, and will NOT produce a regime-threatening crisis, within the window. Instead the dominant observable response will be increased North Korean dependence on China, measured by trade share, high-level exchange frequency, and Chinese diplomatic shielding. Rationale: (1) NK is nuclear-armed and no nuclear-armed state has dissolved under economic pressure \u2014 the GDR analogue fails on the single decisive variable; (2) both governments have abolished unification as operative policy, NK constitutionally and Seoul doctrinally, so no political vehicle exists on either side; (3) the patron swap is already observably underway \u2014 Kim's Oct 24 2026 Dandong crossing over a new bridge, six days before the Russian ceasefire took effect, framed by the FT as reassurance against over-reliance on Moscow; (4) base rate for patron-withdrawal-to-unification across modern partitions is roughly one case (Germany) out of many, and that case was an unarmed state.",
-   "confidence": 72,
-   "status": "emergent",
-   "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2027-12-31",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
-   "grace_locked": false,
-   "skill_eligible": false,
-   "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Russia-Ukraine local ceasefire in Oleshky agreed Oct 23 2026, effective Oct 27; trilateral talks set for Nov 10 2026 in Abu Dhabi \u2014 the subsidy's demand-side is now visibly contracting",
-    "Peskov Oct 26 2026: Russia will not halt hostilities even if talks resume \u2014 but a settlement process is running, which is the operative fact for NK's demand curve",
-    "Putin hinted at the May 9 2026 Victory Day parade that the war was entering its final phase",
-    "Daily NK June 2026 'triple jeopardy' analysis: NK faces loss of wartime benefits + an arsenal generating no development + reduced strategic value as US-China relations improve",
-    "East Asia Forum Jan 2026: if the war ends, Moscow's need for economic cooperation with Seoul could lead it to restore Moscow-Seoul ties and dampen the Pyongyang relationship \u2014 the alignment-inversion mechanism, flagged before it became live",
-    "Kim crossed into Dandong China Oct 24 2026 over a newly opened bridge, met Wang Huning, first trip in a year; FT framed it as reassurance amid concerns NK was moving closer to Russia \u2014 the hedge is already in motion",
-    "Wang Huning spoke of 'peaceful coexistence' while omitting denuclearization entirely (38 North, Oct 2026) \u2014 Beijing softening its public line, consistent with a patron preparing to absorb a client",
-    "NK constitutional revision removed unification provisions and added a territorial clause; the Arch of Reunification was demolished",
-    "Seoul's Lee government: three principles Feb 2026 (respect NK system, reject absorption, no hostile acts), reaffirmed in 2025 and 2026 Liberation Day addresses; 'denuclearization' and 'sanctions' dropped from the Sept 2026 UN text",
-    "Bloomberg Economics: NK amassed up to $22bn foreign revenue 2022-2025, nearly 4x the prior four-year period \u2014 the scale of the subsidy confirms how much withdrawal would bite",
-    "Lowy Institute: Pyongyang welcomes Russian security guarantees specifically to minimise dependence on Chinese ones \u2014 meaning the Russia tie is a diversification play, and its loss produces re-subordination, not collapse"
-   ],
-   "evidence_contradicted": [
-    "No nuclear-armed state has ever dissolved under economic pressure \u2014 the GDR/Yemen/Vietnam unification precedents all involved unarmed or comprehensively defeated states",
-    "NK continued expanding its arsenal through the window: Hwasong-20 displayed Oct 2026, underwater cruise missile launches Oct 14-15 2026, 600mm nuclear-capable MLRS paraded Feb 2026 \u2014 capability is increasing as the subsidy is set to fall, the opposite of a state preparing to dissolve",
-    "NK escalated at the DMZ in the same week the Russian ceasefire was agreed (artillery at Kaepung Oct 26, threats of 'new tactical weapons' Oct 20-22) \u2014 behaviour consistent with leverage-building, not capitulation",
-    "South Korea's constitution still commits to peaceful unification, creating a live domestic legal tension \u2014 but the current government's operative doctrine is 'peaceful coexistence', not absorption, so the clause has no policy instrument behind it",
-    "Yemen 1990 unification came from a stronger party absorbing a small, unarmed, collapsed state with no external guarantor \u2014 not a comparable case"
-   ],
-   "falsifier": "ANY of the following within the window (to 2027-12-31) falsifies the claim: (a) PATRON SWAP FAILS \u2014 NK-China trade share and high-level exchange do NOT rise while Russia ties contract, i.e. NK absorbs the shock internally rather than re-subordinating; (b) REGIME CRISIS \u2014 a legitimacy crisis reaching the elite/military layer: defection at Politburo or military-corps level, mass public unrest, Kim's authority publicly contested, or state media acknowledging 20x10 failure at scale; (c) UNIFICATION VEHICLE RESTORED \u2014 Pyongyang reintroduces a unification claim in constitutional or party text, OR Seoul reverts to absorption doctrine backed by budget and policy instruments; (d) NUCLEAR-ARMED COLLAPSE \u2014 any observable dissolution of central authority in Pyongyang. Note the asymmetry: (b), (c) or (d) firing would be a major escalation warning, not a positive development \u2014 a collapsing nuclear state is the worst outcome on the board, not a unification opportunity.",
-   "forward_watchlist": [
-    "Nov 10 2026 \u2014 trilateral US-Ukraine-Russia talks, Abu Dhabi; watch for energy/Black Sea ceasefire and for any Russia-Seoul economic channel",
-    "Dec 2026 \u2014 WPK plenum; whether 20x10 resource allocations are restated, expanded or quietly dropped",
-    "Q1 2027 \u2014 first full quarter of post-war Russian trade data; Russian oil and food transfers vs 2026 baseline",
-    "NK-China trade volume and high-level exchange frequency through 2027 (Dandong bridge throughput is the physical proxy)",
-    "Whether Moscow opens substantive economic ties with Seoul (reconstruction, investment, return of diplomats)",
-    "Any NK nuclear or ICBM test timed to the Nov 10 talks \u2014 the escalation-instead-of-collapse path",
-    "Elite-level defections, purges beyond routine, or public acknowledgment of development shortfalls",
-    "Whether Seoul's 'peaceful coexistence' doctrine survives domestic political contest \u2014 the constitutional unification commitment is the fault line"
-   ],
-   "confirmer": "Russian oil/food transfer volumes to NK; NK-China trade share; Moscow-Seoul economic re-engagement; absence of elite-layer crisis signals",
-   "confirmer_base_rate": "Base rate for patron-withdrawal producing unification across modern partitions: ~1 clear case (Germany 1990) against Taiwan/China, Cyprus, Ireland, Kashmir persisting through patron changes. Base rate for a nuclear-armed state dissolving under economic pressure: 0 documented cases.",
-   "confirmation_window": "2026-10-27 to 2027-12-31"
-  },
-  {
-   "basename": "korea-war-ii-reverse-order-chain",
-   "title": "Korean War II \u2014 four-link chain (Samuel's reverse-order thesis), scored at 7% through 2030",
-   "date_made": "2026-10-27",
-   "time_et": "00:52",
-   "statement": "SAMUEL'S THESIS, stated at full strength: the post-war order reverses; the Korean partition thaws as war rather than persisting or dissolving by consent ('Korean War II'); that war produces unification rather than another partition; and the winning patron becomes the dominant power in the unified Korea. Scored as a four-link chain, since each link carries independent probability: L1 order reverses and partitions thaw (plausible, consistent with WWIR cascade \u2014 but WWIR assigns externalization to the FAILURE-mode branch, not the base case); L2 the thaw expresses as war on the peninsula (LOW: both governments have abolished unification as policy, so war requires miscalculation or collapse, not intent); L3 war produces unification rather than re-partition (LOWEST: every documented planning artifact points to re-partition \u2014 RAND's collapse model has China grabbing a northern buffer and racing for Pyongyang, i.e. Korea III, not a unified Korea); L4 the winning patron dominates the unified Korea (structurally sound, near-law, but conditional on L3). Product: 7% through 2030. THE THESIS'S REAL CONTRIBUTION is that it supplies the missing vehicle \u2014 force, where institutional claim was abandoned on both sides. That is a genuine answer to the 00:45 objection and it cuts against my own prior. THE THESIS'S REAL PROBLEM is the peninsula's structural law, established twice: patron intervention prevents unification. 1950: MacArthur reaches the Yalu, China intervenes, unification days from completion is prevented. Collapse scenario: China moves to the buffer, unification is prevented again. The thesis requires Beijing to decline an intervention it has both interest and capability to make. STRONGEST VERSION: if Korean War II comes while the US is committed in Iran at day 240, eight days from a contested certification, with transactionalized guarantees, then the ROK's guarantor is the least available actor in the theatre \u2014 and L4 stops meaning Seoul absorbs and starts meaning Beijing arbitrates. That version (sphere transfer using unification as vocabulary) is the one I'd actually put probability on, and it inverts the thesis's valence from promise to defeat.",
-   "confidence": 10,
-   "status": "emergent",
-   "card_class": "THESIS",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2030-12-31",
-   "grace_horizon": null,
-   "grace_locked": false,
-   "skill_eligible": false,
-   "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
-   "public_status": "gated_public",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Korean War I is the founding case of the post-war order and created the partition as a permanent artifact \u2014 armistice, not peace treaty, still live after 73 years. Korea is the order's most literal unfinished object, so 'order in reverse' has a precise referent here",
-    "OPLAN/CONPLAN 5029 exists for 'sudden change' in North Korea \u2014 coup, revolution, mass defection, WMD outflow, natural disaster. The absorption machinery exists in military form while being abolished in political form: doctrine says coexistence, the plan says 5029",
-    "Both governments formally abolished unification as operative policy \u2014 NK constitutionally (provisions removed, territorial clause added, Arch of Reunification demolished), Seoul doctrinally (three principles Feb 2026, reaffirmed 2025 and 2026 Liberation Day addresses, 'denuclearization' and 'sanctions' dropped from the Sept 2026 UN text). This is what makes force the only remaining vehicle, which is the thesis's strongest move",
-    "The US venting condition is live and measurable: 96-hour strike readiness on Iran at day 240, contested certification eight days out, 47% social withdrawal, transactionalized security guarantees \u2014 maximum internal pressure with maximum externalization capacity, exactly WWIR's venting trigger",
-    "China has both the interest and the capability for a northern buffer: RAND and Brookings both assess ample ground forces in the northeast and model a race for Pyongyang. Jamestown: Beijing's nightmare is a pro-US unified Korea on the Yalu",
-    "ROK nuclear latency debate is live (Foreign Policy Jan 2026, NBR) precisely because US extended deterrence is under strain \u2014 Seoul is already pricing in guarantor unreliability, which is the thesis's precondition",
-    "PLA theater structure already separates the two missions: Eastern Theater Command (71st/72nd/73rd Group Armies, East Sea Fleet, Rocket Force Base 61) faces Taiwan; Northern Theater Command (78th/79th/80th Group Armies, North Sea Fleet, Rocket Force Base 65 in Shenyang) faces Korea and Russia, with Korean-peninsula contingency planning a stated core mission. A Taiwan war therefore does not draw down the Korea force \u2014 China does not have to choose",
-    "2026 National Defense Strategy explicitly admits the US cannot realistically fight two major wars simultaneously and subordinates all other missions to the Indo-Pacific, accepting risk in Europe and the Middle East as planning assumptions",
-    "The Iran war has committed three carrier strike groups to CENTCOM \u2014 'essentially all the deployable carrier aviation capacity' \u2014 while INDOPACOM planning assumes persistent Pacific carrier presence is needed to deter a Taiwan contingency",
-    "Acting Navy secretary confirmed Taiwan arms deliveries are delayed because the munitions are needed in Iran; a House Select Committee simulation found the US and Taiwan ran low on critical munitions within days of a Taiwan conflict",
-    "Navy at 293 battle force ships against a 381-ship goal \u2014 a ~90-hull shortfall with shipyard constraints on Virginia-class and DDG-51 production",
-    "2026 NDS resolves the simultaneity problem through allied burden-shifting (Europe for Russia; Japan and ROK backstopping the Pacific) \u2014 the Japan-and-allies-kinetic route is literally current US strategy, not an innovation",
-    "Japan's counterstrike build-out is real: FY2026 budget \u00a59.04 trillion (~2% GDP, ahead of schedule), \u00a543 trillion over FY2023-27, 400 Tomahawks purchased for accelerated delivery, domestic counterstrike missiles entering service 2026, legal basis from the 2014 reinterpretation and 2015 legislation",
-    "A sphere trade is structurally available: a China committed on Taiwan needs a secure northern flank and would prefer a neutral unified Korea to a US-allied one \u2014 Korea's status becomes the currency, and the WWIR notes already record a live Yalta-2.0 summit proposal sequence as the reverse-war shape ('order dissolves by invitation of its own patron')",
-    "China was NOT consulted about the Russia-DPRK June 2024 treaty (Foreign Affairs, reporting Chinese participants: Beijing did not encourage Kim's pivot and 'it seems likely that Beijing was not even consulted'). USCC records Beijing calling the Russia-NK relationship 'a matter for themselves' \u2014 a formula of unease about a state China regards as central to its own regional security",
-    "Moscow is competing with Beijing for Pyongyang: August 2026 reporting has Russia seeking a five-year military pact with North Korea while 'China scrambles to keep up'; Pak Thae-song's July 2026 Beijing visit (65th anniversary of the friendship treaty) was in part China pulling Pyongyang back",
-    "China has already conceded the nuclear point: The Diplomat (Oct 2026) reports Pyongyang got Beijing to quietly drop 'denuclearization' from its North Korea policy and to stop enforcing international sanctions \u2014 an admission the status quo is Beijing's ceiling, not unification",
-    "Northern Theater Command is the SAME command that faces Russia's Far East \u2014 the mission it was built for (1969 Zhenbao Island). Any PLA movement toward Korea must be read as preparation against a Russian client as much as an American one",
-    "PLA Western Theater Command maintains ~60,000-75,000 personnel within 100km of the LAC with hardened permanent posture (Type 15, Z-20, retractable-roof shelters) and conducted large-scale high-altitude exercises in 2026; Arunachal face-offs recurred in Oct 2026",
-    "China is structurally better placed than the US for a multi-front war: continental power, interior lines, no ocean to cross, five modular theater commands. The US must project with 293 ships against a 381-ship goal",
-    "Foreign Affairs: 'China Doesn't Want to Lead an Axis' \u2014 Beijing wants clients, not co-belligerents. Russia will not fight for China, the DPRK answers to Moscow, Iran is geographically irrelevant to any Chinese front, Pakistan is leverage on India rather than a war-fighting ally"
-   ],
-   "evidence_contradicted": [
-    "RAND's documented collapse scenario produces a PARTITION of North Korea \u2014 Chinese buffer zone in the north, ROK/US administration in the south \u2014 not unification. Reported by BBC among others. This is Korea III with the line moved 200km north",
-    "The peninsula's structural law runs opposite to the thesis: patron intervention has twice been the unification-prevention mechanism (China at the Yalu 1950; a Chinese buffer in any collapse scenario). The thesis needs Beijing to decline it",
-    "Atlantic Council simulations (via 38 North, April 2026) model DPRK use of low-yield tactical nuclear weapons specifically to collapse defensive cohesion and deter outside intervention \u2014 a nuclear-armed Korean War II has no clean winner and most likely ends at a ceasefire line",
-    "Seoul has no offensive plan and no absorption doctrine: it debates nuclear latency, not a northern campaign; its president has renounced absorption three times in eighteen months",
-    "Korean War I did not unify Korea despite a dynamic where unification was nearly achieved \u2014 it is the counter-case the thesis has to explain away, not the supporting case",
-    "WWIR's own venting law assigns externalization to the failure-mode branch of states least able to contain internal pressure; Korean War II is the purest externalization on the board, so the author's own master frame scores it as exception rather than base case",
-    "The simultaneity problem is AMERICAN, not Chinese: a Taiwan war removes the US from the Korean theatre far more completely than it removes China. China keeps its Korea theater; the US has no carriers, a munitions deficit, and a two-ocean problem with one ocean's worth of hulls",
-    "The 'Japan goes kinetic' leg is blocked at the political layer, not the capability layer: Seoul and Tokyo sidestepped a military logistics pact in July 2026; South Korea remains cautious over colonial-era grievances and public resistance to Japanese troops on the peninsula; a ROK military official named the precise worry \u2014 how the framework functions if Japanese assets are mobilised under US-led operations during a peninsula contingency. The mechanism is designed for exactly the contingency that makes it politically impossible",
-    "Bilateral ROK-Japan trust remains low; support for trilateral security cooperation has been flat near 51% for two years. Japan's 2026 Defense White Paper names the peninsula a risk to Japan, not a theatre Japan plans to enter",
-    "The nuclear floor is untouched by any patron configuration: Pyongyang's own formulation (Kang, July 2026) describes 'the absolute mechanical structure of no retreat built in the Korean Peninsula by the strongest nuclear weapons.' Removing China and adding Japan does not solve the DPRK arsenal, and unification requires solving it",
-    "In the sphere-trade path there is no winner at all \u2014 Korea's status is an instrument of great-power settlement, a return to 1905 and Yalta rather than an escape from either. L4 ('the winning state dominates the unified Korea') is not merely conditional but wrong in the most likely unification path",
-    "China's binding constraints are not front-related: no combat experience since 1979 (no officer above battalion has fought), no multi-theater joint operation ever conducted, untested joint logistics, and Xi's purges having removed much of the Rocket Force and CMC leadership that would run one",
-    "Energy is the real ceiling: ~70% of oil imported, most through Malacca. A three-front war implies a blockade, and a blockade stops the economy funding the war. China can win battles on three fronts and still lose \u2014 its fronts are not where its vulnerability lies",
-    "Because a three-front war is China's nightmare rather than its strategy, the rational Chinese move is to PREVENT simultaneity \u2014 buying off India, holding Korea quiet, and paying for an Asian settlement rather than fighting for one. That pushes toward Path C, not toward Path A or B",
-    "A Russian veto on unification now exists independently of China's, so removing the Chinese veto (the Taiwan move) does not clear the board \u2014 it substitutes one patron's veto for another's"
-   ],
-   "falsifier": "Falsified by any of: (a) Pyongyang restores a unification claim in constitutional or party text \u2014 the vehicle returns by consent, so unification becomes possible without war; (b) Seoul reverts to absorption doctrine backed by budget and policy instruments, or OPLAN 5029 is shelved in favor of sustained engagement; (c) a US-China understanding on Korean contingencies becomes explicit or credibly reported \u2014 sphere pre-allocation means no race and no war; (d) DMZ incident frequency declines through 2027 and no collapse signal appears. NOTE the chain structure: L1 or L2 failing falsifies the whole; L3 failing alone still leaves L4 as a valid principle (a war that re-partitions still has patrons determining the settlement), which is why the sub-claims are tracked separately from the chain. AMENDMENT 2026-10-27 00:55 (Taiwan route): the revised chain is falsified by (i) PLA Northern Theater remaining static while Eastern Theater is engaged \u2014 proving China holds rather than chooses the northern flank, which is the only way 'China taken out of the game' becomes true; (ii) no ROK-Japan logistics agreement within the window \u2014 the political block on the Japan-kinetic leg holding; (iii) the DPRK arsenal entering no negotiation framework, since unification is impossible while it stands. AMENDMENT 2026-10-27 00:57 (three-front / alignment): the revised chain is falsified by (iv) Sino-Russian cooperation over Pyongyang deepening rather than fragmenting \u2014 i.e. a genuine coordinated axis rather than two patrons competing for one client; (v) PLA proving multi-theater joint capability in a live exercise at scale, which would remove the 'fights alone and cannot sustain it' constraint; (vi) Russia declining to exercise a veto in any Korean settlement.",
-   "forward_watchlist": [
-    "Russia expanding the DPRK pact to a five-year military plan \u2014 confirms the independent Russian veto on unification",
-    "China further dropping sanctions enforcement or formalising the denuclearization concession \u2014 confirms Beijing abandoned unification as an objective",
-    "Any trilateral US-China-Russia contact on Asian security architecture \u2014 confirms Path C is live",
-    "Sino-Russian friction over Pyongyang \u2014 the tell that the axis is not an axis",
-    "PLA Northern Theater movement, read carefully: movement toward Korea is preparation against a Russian client as much as an American one",
-    "PLA multi-theater joint exercise at scale \u2014 would remove the 'never conducted one' constraint",
-    "ROK-Japan military logistics pact signed and ratified \u2014 still the hardest constraint on the Japan-kinetic leg",
-    "US carrier presence restored to the Pacific \u2014 closes the American simultaneity gap",
-    "Chinese buffer-zone rhetoric or PLA force movement in the northeast",
-    "DPRK arsenal entering any negotiation framework \u2014 precondition for unification to exist at all",
-    "Nov 10 2026 Abu Dhabi talks; Dec 2026 WPK plenum; Q1 2027 post-war Russian trade data; Feb-Mar 2027 Freedom Shield"
-   ],
-   "confirmer": "PLA force movement or buffer rhetoric in the northeast; ROK nuclear program (not debate); US Pacific posture drawdown; collapse signal in Pyongyang; re-partition rather than unification if war occurs",
-   "confirmer_base_rate": "Unifications achieved by war in the modern era: Vietnam 1975 (conquest of an unarmed-by-comparison state), Yemen 1990 (absorption of a small unarmed collapsed state). Unifications of nuclear-armed states by war: zero. Partitions that survived patron change: Taiwan/China, Cyprus, Ireland, Kashmir. Korean partitions produced by war: one, at the cost of ~3 million dead and a permanent armistice.",
-   "confirmation_window": "2026-10-27 to 2030-12-31"
+   "confirmation_window": "2026-10-27 to 2030-12-31",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-10-27",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2030-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "mid-august-oil-price-shock",
@@ -2670,13 +2475,13 @@
    "statement": "Refined owner hypothesis. Original: 'every downstream case is a loser until refined.' Refined: case loss (charges sustained) tracks presence at registration of any of the four defect families diagnosed in C-001 \u2014 (D1) engineered disjunctions/conjunctions in falsifier or confirmers; (D2) missing base rates; (D3) post-hoc adjustment against acknowledged disconfirmers; (D4) hedges or asserted constants standing in for forecasts. Cases sharing C-001's THESIS but not its craft are NOT predicted to lose disproportionately. Cases built after applying the sequestered rulings' remedies (per-branch probabilities, pre-committed thresholds, intake base rates, no escape hedges) should show fewer sustained charges than pre-remedy cases. First discriminating observation: Ground Invasion of Iran (registered 2026-07-20, conf 49) \u2014 clean single-falsifier case, downstream of no thesis; its charge count is the triad-bias vs craft-lineage discriminator.",
    "confidence": 60,
    "status": "pending",
-   "card_class": "MECHANISM",
+   "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": null,
    "grace_horizon": null,
    "grace_locked": false,
-   "skill_eligible": true,
+   "skill_eligible": false,
    "quarantine_reason": "Claim about our own tribunal instrument; circular if the same judges score it",
    "public_status": "pending_adjudication",
    "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
@@ -2696,7 +2501,12 @@
    ],
    "confirmer": "Charge counts on completed trials, coded blind against the four-family audit at intake",
    "confirmer_base_rate": "Unknown \u2014 prosecution has never overruled a charge (0 of 29 sustained); no base rate exists for differential loss by craft score. This is a fresh forward test, F1-eligible.",
-   "confirmation_window": "Rolling; first reading after 3 more sequestered trials complete, full reading at 6"
+   "confirmation_window": "Rolling; first reading after 3 more sequestered trials complete, full reading at 6",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 rolling, readings after N trials",
+   "window_basis": "NO CALENDAR HORIZON. Trigger is trial count only. Ineligible for scoring until a hard date is registered.",
+   "expiry_basis": "Rolling card with no horizon: cannot expire, therefore cannot be scored, therefore excluded from calibration until re-registered."
   },
   {
    "basename": "regime-power-retention",
@@ -2810,7 +2620,7 @@
    "confidence": 75,
    "status": "emergent",
    "card_class": "PERSISTENCE",
-   "resolution": "holding",
+   "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-12-31",
    "grace_horizon": null,
@@ -2859,7 +2669,7 @@
    "confidence": 74,
    "status": "emergent",
    "card_class": "PERSISTENCE",
-   "resolution": "holding",
+   "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-03-31",
    "grace_horizon": null,
@@ -3108,8 +2918,8 @@
    "confidence": 98,
    "status": "confirmed",
    "card_class": "PERSISTENCE",
-   "resolution": "holding",
-   "resolution_date": null,
+   "resolution": "hit",
+   "resolution_date": "2026-09-14",
    "window_closes": "2026-10-01",
    "grace_horizon": null,
    "grace_locked": false,
@@ -3373,7 +3183,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2028-12-31",
-   "grace_horizon": null,
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -3403,51 +3213,14 @@
    ],
    "confirmer": "TIER 2: any administration official or legislative sponsor explicitly proposes converting Social Security benefits to Trump Account balances or redirecting payroll tax into accounts. TIER 1: introduction of under-40 expansion legislation that adds employer/payroll routing, or administration messaging that explicitly positions accounts as retirement security for working-age adults.",
    "confirmer_base_rate": "Tier 2: low-to-moderate (~20-30% within 24 months) \u2014 privatization-by-installment is the historical GOP preference but converting SSA outright remains a political third rail; Tier 1: moderate-high (~50%) given announced expansion intent.",
-   "confirmation_window": "Through Dec 31, 2028"
-  },
-  {
-   "basename": "trump-accounts-ss-privatization-substrate",
-   "title": "Trump Accounts as Social Security Phase-Out Infrastructure",
-   "date_made": "2026-10-20",
-   "time_et": "11:08",
-   "statement": "The Trump Accounts program (P.L. 119-21, launched July 2026; $1,000 federal seed for every US child born 2025-2028, index-fund managed, unlocked at 18) is being scaled toward universal lifetime coverage \u2014 Balchunas reports an expansion to everyone under 40 (~100M additional people, on top of ~70M kids + 3.5M annual newborns), per program architect Brad Gerstner. User's thesis: the program's actual function is to build the replacement substrate for Social Security, i.e. a personal-accounts privatization of retirement that never has to be voted on as one \u2014 coverage is rolled out by demographic cohort under a benefits-positive brand, and once the under-40 cohort has a pre-tax market account, the political groundwork exists to means-test, cut, or convert SSA benefits while blaming markets and prior deficits.",
-   "confidence": 55,
-   "status": "emergent",
-   "card_class": "THESIS",
-   "resolution": "unresolved",
-   "resolution_date": null,
-   "window_closes": "2028-12-31",
-   "grace_horizon": null,
-   "grace_locked": false,
-   "skill_eligible": true,
-   "quarantine_reason": null,
-   "public_status": "pending_adjudication",
-   "instrument": "v1 (inferred retroactively from free text 2026-11-02; no class declared at registration)",
-   "evidence_confirmed": [
-    "Program structure is genuinely cohort-based and expandable: births 2025-2028 seeded automatically at $1,000; ~4M children signed up, 1M claiming the seed (IRS newsroom, 2026); contributions open since July 4, 2026 (Schwab).",
-    "Expansion-by-expansion rollout, never one enabling vote: newborns -> under-40s (~100M, Balchunas citing Gerstner, 2026-10-20) -> every cohort alive is the obvious terminus. Each step can be framed as a giveaway rather than a retirement-system change.",
-    "Architect language is already replacement-shaped: Gerstner projects $4 trillion under management within a decade and 70M new investors \u2014 the scale language is about replacing national savings channels, not babysitting accounts (BigGo/finance coverage).",
-    "Bracketing logic: covering everyone under 40 means the account system matures into retirement age exactly as the Social Security trust-fund exhaustion window (mid-2030s per trustees) arrives. The substrate completes precisely on schedule for the 'crisis' that legitimizes benefit conversion.",
-    "Same coalition that historically sought Social Security privatization (Bush 2005 effort, failed) is now executing it via brand-name rollout instead of legislation; Gerstner's cohort is Trump-linked venture/donor capital."
-   ],
-   "evidence_contradicted": [
-    "No official statement ties Trump Accounts to Social Security reform; White House/Treasury framing is children's savings and 'long-term financial security.'",
-    "SSA retirement benefits remain statutory and untouched as of 2026-10-20; nothing in the IRS/Treasury materials references retirement conversion.",
-    "Trump Accounts contributions are capped (aggregate contribution limits in the low five figures annually; family/charitable contributions dominate) and are NOT payroll-linked \u2014 structurally unlike a Social Security replacement, which would need wage-tax redirection. The link between the account system and OASI financing is currently nonexistent.",
-    "Account balances from $1,000 seeds are orders of magnitude below projected retirement needs; even the $4T-a-decade projection is small vs. ~$1.5T/yr SSA outlays.",
-    "Balchunas/Gerstner claims are analyst/advocate sourcing, not administration policy \u2014 NFT WORLD amplified an X post; treat the under-40 expansion as rumor until Treasury confirms."
-   ],
-   "falsifier": "The program stays a children's savings vehicle: no proposal ever surfaces to redirect payroll tax, redirect OASI contributions, or set Social Security benefits off account balances; SSA benefit law is untouched through the trust-fund window; OR expansions stop short of working-age/lifetime coverage and no retirement-conversion legislative or regulatory step is ever introduced. A second falsifier: expansion proceeds but is funded wholly by appropriations/charity without any payroll-tax linkage ever being proposed \u2014 the account system and Social Security remain structurally parallel forever.",
-   "forward_watchlist": [
-    "Treasury/IRS confirmation or denial of the under-40 expansion; who lobbies for it in Congress (House Ways & Means / Senate Finance members carrying the bill).",
-    "Any legislative text amending FICA, OASI, or SSA benefit formulas that references individual accounts, 'personal retirement accounts,' or Trump Accounts as offset.",
-    "Framing shift: when deficit/Trustee reports (mid-2030s exhaustion) are invoked, does administration messaging direct toward account conversion as the 'solution'?",
-    "Whether the under-40 expansion includes employer payroll routing \u2014 the tell that converts a savings program into a retirement system.",
-    "Post-midterm budget bills: whether Trump Accounts become the offset vehicle cited for extending tax cuts or funding wars \u2014 creating the fiscal rationale for later benefit cuts."
-   ],
-   "confirmer": "TIER 2: any administration official or legislative sponsor explicitly proposes converting Social Security benefits to Trump Account balances or redirecting payroll tax into accounts. TIER 1: introduction of under-40 expansion legislation that adds employer/payroll routing, or administration messaging that explicitly positions accounts as retirement security for working-age adults.",
-   "confirmer_base_rate": "Tier 2: low-to-moderate (~20-30% within 24 months) \u2014 privatization-by-installment is the historical GOP preference but converting SSA outright remains a political third rail; Tier 1: moderate-high (~50%) given announced expansion intent.",
-   "confirmation_window": "Through Dec 31, 2028"
+   "confirmation_window": "Through Dec 31, 2028",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-10-20",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "turning-phase-indicator",
@@ -3457,7 +3230,7 @@
    "statement": "The US is in a Stage-A-adjacent early-crisis of the MGET Turning (9/11 = our Stage-A warning tremor; the post-9/11 era = the decay-interregnum). The vertical detonation (Stage B) awaits ONE decisive precondition: VANGUARD REALIGNMENT - a meaningful, sustained defection of credentialed/institutional/technical elites from enclosure-enrollment toward population-recognition. Until that fuse locks, the system keeps venting HORIZONTALLY (culture-war, geopolitical rivalry, elite-vs-elite faction conflict) because the privileged cage-holders remain aligned with the enclosure. The anti-flock's recognition is running AHEAD of its own vanguard, producing the 'something is wrong, I cannot place it' fog. FORECAST OF LIKELY FRACTURE LINES (points where vanguard realignment is most probable): F1 the tech/substrate inner fracture (highest prob): AI/data/climate researchers and builders inside the enclosure substrate defect; the more the algorithmic-enclosure's internal mechanics are exposed by the people who built them, the more the once-credentialed technical class becomes the natural location of vanguard realignment. F2 the press-watchdog fracture: a critical mass of outlets breaks the funded-consensus 'hall of mirrors' narrative. F3 the legal/judicial fracture: a bloc of the legal class sides with structurally-popular/anti-enclosure demands, producing a landmark guardrail-restoring ruling that legitimizes the anti-flock's recognition. F4 the lived-grievance legibility spark (the ignition): a single named, shared, legible grievance (economic, surveillance, labor, AI-displacement) the whole population can read at once - the analog of the stamp/redcoat/price-spike - that converts diffuse anti-flock discontent into a joint target. F5 the military/security-service fracture (slowest, lower prob, higher consequence): elements of the defense/security apparatus breaking with the surveillance-enclosure they helped build. PREDICTED SEQUENCE: the detonation fires when a legibility spark (F4) coincides with a sustained vanguard defection (most likely F1-F3). The Turning's character (liberation vs recolonization) depends on whether vanguard alignment precedes or follows the legibility spark, and whether it is MEANINGFUL (structural, sustained) or SYMBOLIC (performative, one-off).",
    "confidence": 72,
    "status": "emergent",
-   "card_class": "THESIS",
+   "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": null,
@@ -3489,7 +3262,12 @@
    ],
    "confirmer": null,
    "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmation_window": null,
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 no window stated",
+   "window_basis": "NO WINDOW AND NO HORIZON. Ineligible for scoring until re-registered with a threshold and a date.",
+   "expiry_basis": "Rolling card with no horizon: cannot expire, therefore cannot be scored, therefore excluded from calibration until re-registered."
   },
   {
    "basename": "ukraine-strikes-russian-oil",
@@ -3499,8 +3277,8 @@
    "statement": "Ukraine hitting Russian oil production threatens their capability to project force in Europe.",
    "confidence": 100,
    "status": "confirmed",
-   "card_class": "PERSISTENCE",
-   "resolution": "holding",
+   "card_class": "ROLLING",
+   "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-10-01",
    "grace_horizon": null,
@@ -3525,7 +3303,14 @@
    ],
    "confirmer": "RETROACTIVE CONFIRMER (registered post-outcome with provenance noted): strike campaign on Russian refining/export infrastructure is observed and ongoing in the live series; the original registration pre-named the mechanism (refinery throughput degradation, export-capacity erosion). Confirmed as pre-registered-mechanism-matched. Persistence check: continued strike tempo is Tier 1 persistence, not incremental skill.",
    "confirmer_base_rate": "High (already adjudicated; retrofit haircut applied).",
-   "confirmation_window": "Adjudicated (ongoing campaign; persistence check through 2027)"
+   "confirmation_window": "Adjudicated (ongoing campaign; persistence check through 2027)",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 ongoing campaign; 'through 2027' is not a date",
+   "window_basis": "'persistence check through 2027' adopted as 2027-12-31.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Rolling card: expires 2027-12-31 if no threshold action has been registered. Unregistered at expiry = MISS by rule.",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "war-question-duel",
@@ -3636,8 +3421,53 @@
    "track": "courts-elections",
    "mget_legs_tested": [],
    "verdict": "confirms",
-   "reasoning": "Wire 14:42 \u2014 SCOTUS denial aftermath: Trump publicly slams his own Supreme Court appointees over the mail-ballot ruling (WP, Reuters, AP-syn). Confirms the morning pre-condemnation read in behavior: the 'we very much disagree' pattern extends from Blanche's Rose Garden answers to Trump's own feed. Democracy Docket adds damage assessment: election officials report attacks damaged faith in mail voting even though the ruling was a WIN for the process. NBC frames 'Supreme Court pushes back against Trump and GOP ahead of midterms' \u2014 the referee is now narrated as partisan obstacle by the right.",
-   "forward_signal": "Watch whether Trump names specific justices (pre-condemnation of individuals escalates from institution to person)."
+   "reasoning": "Both pre-election mechanisms were refused inside a week: the Alaska certification-blocking suit dismissed 1 Nov and the California ballot-segregation application denied by Kagan 2 Nov, on top of the 22 Oct nine-state injunction against DHS election field ops. The Alaska filing's structure \u2014 seeking pre-authorisation to refuse certification conditional on a Republican losing \u2014 is a concession-refusal drafted before the votes existed, so refusal in court relocates the contest to the certification window rather than ending it. DOJ's 1,000 all-50-state monitors, confirmed by court order to have no arrest power, convert any polling-place incident into a narratable event with no authoritative adjudicator at the site.",
+   "forward_signal": "If Sullivan trails and a refiled action lands within 72h of the call, the certification-window thesis is live. If every loser concedes cleanly and no filing appears inside a week, the pre-registered concession-refusal fails and the catalyst node should be downgraded.",
+   "confidence_moves": "No card moves before tonight's close. Catalyst node anchored to post-election window, unchanged.",
+   "basename": "2026-11-03-pre-election-legal-channel-closed"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "21:20",
+   "track": "iran / oil \u2014 narrative-to-material transmission",
+   "mget_legs_tested": [
+    "narrative sets price ahead of physical flow",
+    "regime survival through retail gasoline suppression"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Brent -7.6% to $104.77, WTI -7.36% to $96.46, largest one-day drop since July, on an assertion (Araqchi's four conditions plus Trump's 'could happen') with no change in the physical Hormuz series and GEF still CRITICAL. Same evening, US strikes on Qeshm Island in response to an Iranian shot at a US aircraft. The narrative leg moved material prices without material movement \u2014 the thesis operating efficiently, and in the regime's favour, days before the vote.",
+   "forward_signal": "If transit prints do not rise within ~72h of any acceptance, the drop unwinds. If they do not rise and the drop holds anyway, the price signal has been captured and the SPR-runway mechanism no longer needs barrels.",
+   "confidence_moves": "No change to card confidences. Hormuz transit claim test moves from scheduled to active measurement.",
+   "basename": "2026-11-02-price-channel-breaks-from-kinetic"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "16:19",
+   "track": "dehumanization-velocity / scapegoat-redirect: Learjet copilot blamed within 27 hours of a crash with no cause of death established",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Specimen logged to absorption (2026-11-02-learjet-copilot-scapegoat). Verified 'Republican Army' post + Derek Utley share: a 20-year-old dead co-pilot named as the cause of a nine-fatality crash four hours after NTSB said no cause was imminent, and before the pilot-in-command was publicly identified. Leg 3 (enclosure mutation) confirmed at the level of target selection: a private individual killed in the event is converted into a public object for boundary-policing, and the dehumanizing content is the photograph rather than the conduct \u2014 'casual pose' as competence proxy. Leg 4 (vanguard alignment) confirmed weakly: an oppositional movement-media node reproduces a grievance template that has standing institutional lineage (the post-January-2025 aviation 'DEI hire' frame), performing alignment work for an audience rather than making an aviation argument. Structural note: this is amplification-power dehumanization, not institutional-power dehumanization \u2014 the 2026-10-05 symmetric-coding prediction (that whichever side holds institutional power dehumanizes first, because it can) is not tested by this specimen and should not be scored against it. Interest is in the asymmetry of cost: the target cannot litigate.",
+   "forward_signal": "Watch three things. (1) Whether any political or agency actor echoes the 'too young / DEI' formulation within 7 days \u2014 that is the movement-to-institution handoff and the point at which the specimen stops being online noise. (2) Whether the NTSB preliminary report (typically 2-4 weeks) names a weather, icing or PIC cause; if so this becomes a completed false-attribution cycle and a clean velocity measurement (accusation-to-refutation interval). (3) Whether the same template activates against a male pilot of comparable hours in the next 90 days \u2014 the discriminator between an experience argument and a gender argument.",
+   "confidence_moves": "No change to MGET leg confidences. Single specimen, non-institutional node; logged for velocity tracking, not for structural inference.",
+   "basename": "2026-11-02-learjet-copilot-scapegoat"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "12:20",
+   "track": "DOJ files emergency application to the Supreme Court over 20,000 California mail ballots, straight to Kagan, one day before the vote; the legal channel stops failing on procedure and starts failing on timing",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "midterm catalyst sequencing"
+   ],
+   "verdict": "strains",
+   "reasoning": "FILED 2026-11-02 12:20 ET.\n\n(1) FACT: Solicitor General D. John Sauer filed an emergency application with the Supreme Court on Monday 11-02, asking for a limited injunction directing California to segregate, and stop commingling, mail ballots from ~20,000 registrants the federal government identifies as 'likely' noncitizens, plus an administrative injunction while it considers the application (LA Times 11-02 08:41 PT; NPR 11-02 11:34 ET; USA Today; NYT). The application goes first to Justice Kagan as circuit justice for the Ninth Circuit. She can call for a response from California, which costs days \u2014 meaning it is not clear the Court sees this as an emergency, and not clear it acts before the count.\n\n(2) POSTURE: the DOJ has now lost three times in five days \u2014 district court 10-28 ('blistering' opinion, per LA Times), the Ninth Circuit panel Friday 10-30 (2-1, Bennett + Sanchez applying Purcell and the Elections Clause, Bumatay dissenting and calling segregation a 'modest remedy'), and the Ninth Circuit dismissing the emergency appeal Monday (Fox LA, Courthouse News). It is the Monday dismissal, not the Friday denial, that forces the application to the circuit justice. Reporting the sequence matters: 'denied twice' and 'dismissed then appealed' are different facts with different litigation consequences.\n\n(3) NARROWNESS: the relief requested is not a block on the count and not a halt to certification. It is segregation. Sauer's own framing \u2014 'limited injunction', 'administrative injunction', 'pending completion of the United States' appeal' \u2014 is a request to preserve an option, not to decide the election. NPR reports the real number is likely far below 20,000 because many listed people have no active registration and were never mailed a ballot. This is a demand designed to survive the count rather than to change it.\n\n(4) WHY IT MATTERS MORE THAN ITS SIZE: the application is unresolved going into the count. An application pending at the moment ballots are tabulated is the cleanest available pathway from 'litigation filed before the vote' to 'litigation seeking to pause or re-run a certification after it' \u2014 i.e. from pre-window noise into the C-002 Branch A window that opens tomorrow. It also lands alongside DOJ grand jury subpoenas to LA County Registrar employees (10-29) and public warnings that non-cooperative officials could be prosecuted \u2014 a three-vector squeeze on one county's election office, which is what the Election Offices gauge was moved to Critical on this morning.\n\n(5) SCORING: nothing scores today. C-002's window opens 2026-11-03; this filing is one day early and is therefore pre-window by construction. P15-T's window is open (10-15 to 12-14), but its enumerated observable (a) is litigation 'seeking to overturn, pause, or re-run a state certification' \u2014 this seeks to segregate ballots before any certification exists. Whether that is a qualifying (a) is an adjudication question, not a clerical one, and I am not resolving it internally. Referred to tribunal rather than scored.\n\n(6) THE TIMING-FILTER CHARGE APPLIES TO US, NOT TO THEM: the strongest apparatus evidence of the cycle keeps landing one or two days outside the window our cards define. Either the windows are drawn too tightly, or the apparatus is behaving exactly as the cards say and our observables are mis-specified. That question belongs in the same tribunal docket as the scoring.",
+   "forward_signal": "(a) whether Kagan requests a response, which converts a same-day ask into a multi-day one; (b) any order before polls close; (c) whether the application survives as pending on Wednesday and how the count handles the 20,000; (d) a second state filing in the same posture by Friday; (e) whether DOJ converts the segregation demand into a post-certification contest in any state; (f) whether the LA County Registrar produces records under subpoena before the count completes.",
+   "confidence_moves": "Catalyst node (P15-T) 70 -> 74: the apparatus has demonstrated willingness to go to the circuit justice and now has an unresolved demand that survives into the count, which raises the probability that an (a)-type action lands inside the 11-03/12-14 window. C-002 held at 27 despite the same evidence \u2014 correlation flag is set between the two cards and pricing one pre-window act into both would double-count it. No other card moved.",
+   "basename": "2026-11-02-scotus-california-ballot-application"
   },
   {
    "date": "2026-09-15",
@@ -9722,31 +9552,6 @@
    "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
   },
   {
-   "date": "2026-09-06",
-   "time_et": null,
-   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
-   "mget_legs_tested": [
-    "Leg 6 (algorithmic enclosure)",
-    "complexity cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
-  },
-  {
-   "basename": "rogue-ai-tracker-harden",
-   "date": "2026-09-06",
-   "time_et": null,
-   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
-   "mget_legs_tested": [
-    "Leg 6 (algorithmic enclosure)",
-    "complexity cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
-  },
-  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -9795,29 +9600,6 @@
    "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
   },
   {
-   "date": "2026-09-08",
-   "time_et": null,
-   "track": "exogenous-climatic-shock",
-   "mget_legs_tested": [
-    "Leg 1 Complexity Cap"
-   ],
-   "verdict": "strains",
-   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
-  },
-  {
-   "date": "2026-09-08",
-   "time_et": null,
-   "track": "exogenous-climatic-shock",
-   "mget_legs_tested": [
-    "Leg 1 Complexity Cap"
-   ],
-   "verdict": "strains",
-   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
-  },
-  {
-   "basename": "supersized-el-nino-shock",
    "date": "2026-09-08",
    "time_et": null,
    "track": "exogenous-climatic-shock",
@@ -11036,7 +10818,7 @@
    "time": "2026-11-02 08:40 ET (morning wire)",
    "ref": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
    "change": "confidence 30 \u2014 status emergent",
-   "trigger": "2026-11-02: the price leg moved the WRONG way on election eve. Brent fell ~3% to ~$110 and WTI ~$101 Monday on the Hormuz reopening talks and the Axios report that Trump wants dipl"
+   "trigger": "2026-11-02 (election eve): Brent -7.6% to $104.77 and WTI -7.36% to $96.46, largest one-day fall since July, on unaccepted Iranian conditions and Trump's 'could happen' \u2014 with GEF "
   },
   {
    "time": "2026-11-01 21:24 ET (evening wire ping)",
@@ -11065,97 +10847,43 @@
  ],
  "daily_read": {
   "summary": [
-   "The Alaska story inverts: Democrats recruited the second Dan Sullivan \u2014 and Trump demands Peltola be thrown off the ballot on a question Alaska's Supreme Court settled in June",
-   "Judge Carter rejects DOJ's bid to set aside 20,000 California ballots: 'This Court declines to be a party to such process'",
-   "The White House says it will not strike Iran before the vote \u2014 while Washington and Israel draft the plans for after it",
-   "The FEC's outage was a cyberattack, not a glitch \u2014 restored after 41 hours, with the disclosure window inside the blackout",
-   "A leaked file of 41,000 Homeland Security employees puts a map of the deportation machine on the open web",
-   "Minnesota charges O'Keefe and Higby with identity theft over the 'Muslim garb' polling-place stunt",
-   "Washington explores lifting sanctions on Russia's state investment fund \u2014 inside a diesel deal",
-   "A grand jury refuses to indict Cassidy Hutchinson \u2014 DOJ's January 6 witness case dies at the first gate",
-   "Two federal judges find the paperwork itself unlawful: an unsigned charge struck, and LA's top prosecutor ruled to be serving illegally",
-   "Washington tells the Gulf to brace for a short, intense Iran campaign \u2014 after the votes are counted",
-   "Trump kills the methane rule at a rally \u2014 days after a satellite found a plume next to that same rally",
-   "Israel's count lands at 53 to 67: the 'decisive majority' does not exist",
-   "Fl\u00e1vio Bolsonaro lands in Miami with a US visa, as Brazil probes Vance's donor network",
-   "DOJ asks a judge to keep the Omar search warrant secret, a week before the vote",
-   "Trump jokes that $5,000 will not buy lunch at Mar-a-Lago"
+   "The Justice Department sends roughly 1,000 election monitors into all 50 states for the first time in its history \u2014 and a judge orders it to explain, by this morning, how it knows none of them are police",
+   "The Supreme Court kills the California ballot case in a single line, hours after it was filed; the Alaska suit was thrown out on Sunday. Every attempt to shape the count before the votes existed has now failed in court",
+   "A federal judge has already barred Homeland Security from election-related field operations in nine states through today",
+   "The United States strikes Iran's Qeshm Island after the Guard shoots down an American drone and fires at two US fighter jets over the Strait of Hormuz",
+   "Oil holds most of Monday's 7% collapse while two tankers a day move through the strait instead of eighty-five",
+   "Roughly 54 million early ballots are already in \u2014 past the 2022 record \u2014 and in Westchester County, New York, the ballots are too thick for the scanners"
   ],
   "watching": [
-   "Any US or Israeli strike on Iran before Nov 5 \u2014 the cleanest falsifier on the board, now that the White House has said it out loud",
-   "Whether Alaska's motion to dismiss survives once the recruitment scheme is documented, and whether any prosecutor opens an inquiry before Nov 3",
-   "Whether DOJ appeals Carter's ruling en banc or to the Supreme Court with six days left, and whether Blanche's 'number of states' threat produces new filings anyway",
-   "Whether the FEC publishes the 48-hour notices missed during the blackout, and whether any attribution is offered",
-   "Whether the undercover references in the DHS archive are specific enough to endanger named officers",
-   "Whether Qatar's mediation produces something signable before the vote \u2014 worth more to the administration than a strike",
-   "Whether the Roosevelt reaches CENTCOM before late November \u2014 the strike package promised to the Gulf is not in theater on Nov 3",
-   "Whether the four voters whose names were used sue, and whether the O'Keefe footage is released now that it is evidence",
-   "Israel's final tally on Oct 30 and formal publication on Nov 4, and whether Herzog's consultations start before it",
-   "Whether DOJ re-presents Hutchinson to a second grand jury, and whether the Comey case survives its own paperwork",
-   "Whether Fl\u00e1vio Bolsonaro's status becomes asylum, and whether Dino's order names the Rockbridge Network formally",
-   "Whether the 'rigged election' line is applied to the American result on Nov 3 and 4 as it was to Brazil's"
+   "Whether any losing candidate concedes cleanly tonight. The concession is the whole variable: Alaska already has a lawsuit drafted and dismissed that was built to refuse certification if the Republican lost",
+   "Whether a refiled certification challenge lands within 72 hours of a result, which is the trigger that matters, not the result itself",
+   "Whether the front-month oil price keeps falling while the gap to later months widens \u2014 that would mean traders are betting on timing rather than on barrels",
+   "Whether anyone independent corroborates Iran's claim that three tankers hit mines in the strait on unauthorized routes",
+   "Whether the Qeshm exchange stays at the level of drones and radar sites, or draws in the carrier strike group that is not yet in theater",
+   "Whether a polling-place incident gets narrated nationally by an observer with no power to act \u2014 1,000 monitors who cannot arrest, in a country told for six months that its elections are stolen, are an evidence machine for whoever reaches the microphone first",
+   "Whether the Roosevelt reaches the region before late November, and whether the Gulf states describe in public the warning they were given about a campaign after the vote"
   ],
-  "date": "2026-10-28",
+  "date": "2026-11-03",
   "cards": [
    {
-    "title": "Washington tells the Gulf to brace for a short, intense Iran campaign \u2014 after the votes are counted",
-    "html": "<p><b>What happened:</b> The Wall Street Journal reported Tuesday evening that the United States has told several Gulf Arab countries to be prepared for a short, intense military campaign against Iran following the Nov 3 midterms, according to people briefed on the conversations. No date, no target set and no casus belli was reported. The same day, the Pentagon gave Congress a new cost assessment: more than $47 billion spent as of Oct 16, up from $43.6 billion on Sept 3. Most of the increase is munitions and lost equipment, including $1 billion in replacement munitions during seven weeks in which the United States was not in active combat with Iran, and $1.8 billion in damaged or destroyed platforms. The figure excludes damage to US bases in the region, which NBC News has reported could exceed $30 billion to repair. And the third carrier, the Roosevelt, left Japan on Oct 16 and is not expected in CENTCOM until the end of November.</p>\n\n<p><b>Why it matters:</b> The warning answers the question this board has carried since September \u2014 before the vote or after \u2014 in favor of after. But it also puts the administration's own posture in tension with its message: the package being promised to the Gulf is not the one that exists on Nov 3. Two carriers are in theater. The third arrives three to four weeks late, which means any high-intensity campaign is a late-November or December event, not an election-week one. That sequencing is the useful part of the story, and it is also the part that a headline about 'after the midterms' invites readers to miss.</p>\n\n<p><b>The pattern:</b> Pre-briefing allies is a commitment device. It creates constituencies inside other governments who plan around a strike, and it makes not striking a visible reversal rather than a quiet decision. The structure is identical to the '96 hours' leak of Oct 25: the threat is aimed less at Tehran than at the domestic audience that needs to believe the option is live.</p>\n\n<p><b>What history says:</b> Before Iraq in 2002 and 2003 the United States pre-briefed basing states and built the force before asking permission; the briefings made the war harder to call off than the intelligence justified. The 1990 Gulf buildup worked the other way \u2014 host-nation consent set the timetable, and the timetable constrained the politics. Which of the two this becomes depends on whether the Gulf states say anything in public.</p>\n\n<p><b>What we're watching next:</b> Whether the Roosevelt's arrival slips past late November; whether Kuwait, Bahrain or Qatar describe the request publicly; whether diesel and Hormuz war-risk premiums move on the report; and whether the cost figure keeps climbing while nothing is being fired.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.timesofisrael.com/us-warns-gulf-states-of-possible-renewed-iran-offensive-after-midterms-report\" target=\"_blank\" rel=\"noopener\">Times of Israel</a>, <a href=\"https://english.nv.ua/nation/u-s-warns-gulf-allies-of-potential-iran-war-wsj-50654017.html\" target=\"_blank\" rel=\"noopener\">New Voice of Ukraine</a>, <a href=\"https://www.hindustantimes.com/world-news/us-warns-gulf-of-possible-short-intense-renewal-of-iran-war-after-midterms-101793156653803.html\" target=\"_blank\" rel=\"noopener\">Hindustan Times</a>, <a href=\"https://www.nbcnews.com/world/iran/iran-caused-extensive-damage-us-military-bases-publicly-known-rcna331853\" target=\"_blank\" rel=\"noopener\">NBC News (cost)</a></p>"
+    "title": "The Justice Department sends 1,000 monitors into all 50 states \u2014 and a judge wants to know by morning whether they are police",
+    "html": "<p><b>What happened:</b> The Justice Department is deploying roughly 1,000 election monitors and observers across every state for today's midterms, the largest monitoring effort in its history and the first time all fifty states are covered. In a hearing on Monday, an official put the real number closer to 900, citing staffing problems. A federal judge then ordered the department to file a status report early this morning explaining how it verified that none of the monitors are law enforcement officers and therefore have no power to make arrests.</p>\n\n<p><b>Why it matters:</b> A monitor without arrest power is a witness, and a witness is a narrator. The distinction the judge is pressing on is not bureaucratic housekeeping \u2014 it decides what a monitor's account of a disputed polling place is worth in public. If a credentialed observer tells a camera that something improper happened, there is no authority on site to confirm or contradict it, and the claim enters the record as a claim. At a thousand observers across fifty states, that is a lot of unverified testimony being generated in a single day, in a country where a large share of one party already believes the last election was stolen.</p>\n\n<p><b>The pattern:</b> Watch what the observers are for. Monitoring programs historically existed to protect access \u2014 to make sure nobody was turned away. This one is being deployed by an administration that has spent a year arguing that the voter rolls are contaminated, that noncitizens vote in numbers large enough to matter, and that the machinery of elections is captured. The same instrument does a different job depending on who is holding it, and this one is being held by the side that has already told its voters the result may be illegitimate before a ballot was counted.</p>\n\n<p><b>What history says:</b> Federal observers were sent south in the 1960s because local officials could not be trusted to let people vote; the observers were the federal check on local power. The 2002 law that governs monitors today assumed the same posture. Running the program in all fifty states, with no state asking for it, inverts the relationship: the federal government is now positioning itself as the auditor of elections it does not administer and has pre-emptively criticised. In 2020 the observation was scattered and improvised; this time it is planned, funded, and national.</p>\n\n<p><b>What we're watching next:</b> Whether the status report reveals any monitors who are in fact agents; whether state officials in the nine states covered by Friday's injunction try to turn monitors away at the door; and whether a dispute at a polling place tonight is described to the public by an observer rather than an election official.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.justice.gov/opa/pr/doj-monitor-elections-all-50-states-first-time\" target=\"_blank\" rel=\"noopener\">Justice Department</a>, <a href=\"https://www.nbcnews.com/politics/justice-department/doj-will-deploy-record-number-monitors-election-day-rcna607100\" target=\"_blank\" rel=\"noopener\">NBC News</a>, <a href=\"https://abcnews.com/Politics/live-updates/midterm-elections-live-updates/?id=137782085\" target=\"_blank\" rel=\"noopener\">ABC News</a>, <a href=\"https://www.votebeat.org/national/2026/10/31/justice-department-election-monitors-explainer-2026-midterms/\" target=\"_blank\" rel=\"noopener\">Votebeat</a></p>"
    },
    {
-    "title": "Judge Carter rejects DOJ's bid to set aside 20,000 California ballots: 'This Court declines to be a party to such process'",
-    "html": "<p><b>What happened:</b> US District Judge David O. Carter refused the Justice Department's request for a temporary restraining order that would have forced California to set aside and not count ballots from roughly 20,000 people the administration says are likely noncitizens. He found DOJ likely to fail on multiple fronts: likely no standing, likely no cause of action, no authority in the federal ban on noncitizen voting to override California's ballot-processing rules, and a remedy that would itself violate several federal voting laws. He rejected the emergency claim outright, writing that the government's eleventh-hour predicament was 'solely due to its own neglect.' The closing lines: 'Never before in American history has the federal government, on the eve of an election, sought to coerce a state and local government to abandon their own Constitutional elections procedures and bend to the will of the Executive Branch. In bringing this lawsuit, the Executive would have this Court believe that it reigns as a sole sovereign. But California and its people are sovereign, too.' He also condemned federal threats against county election workers \u2014 DOJ had warned officials of federal scrutiny and possible criminal exposure for continuing to count \u2014 writing simply: 'These threats must stop.'</p>\n\n<p><b>Why it matters:</b> The ruling removes the mechanism, not just the motion. Carter held that DOJ may still prosecute individual noncitizens when it has evidence they voted illegally, but may not substitute its preferred election procedures for those Congress and California enacted. That distinction kills the template: a list of names plus a demand is not a cause of action, and the Ninth Circuit's Monday dismissal had already flagged the same defect in a 2-1 opinion joined in the reasoning by a Trump appointee. The practical question a week out is no longer whether the courts stop the filings \u2014 they have, repeatedly \u2014 but whether the filings were ever meant to be stopped rather than counted.</p>\n\n<p><b>The pattern:</b> A demand engineered to be refused, refused in the strongest available language, and then cited as proof that the institutions are protecting themselves. Carter named the move while refusing it, which is the one outcome the template cannot absorb: a court that describes the strategy is harder to cast as a corrupt court.</p>\n\n<p><b>What history says:</b> The 1960s federal ballot-access suits were lost at the same stage and still functioned politically for a decade; the 1876 Hayes-Tilden dispute was decided by an extra-constitutional commission, not a court. Litigation that loses on standing can still win on narrative if the losses are read as process failures rather than as merits.</p>\n\n<p><b>What we're watching next:</b> Whether DOJ appeals to the Ninth Circuit en banc or the Supreme Court with six days left; whether Attorney General Blanche's threat of California-style suits in 'a number of states' produces new filings before Nov 3 despite this ruling; whether the Washington 405-ballot demand is withdrawn, narrowed, or pressed; and whether Carter's special-master plan survives in any form as an audit of the list itself.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.democracydocket.com/news-alerts/judge-rejects-doj-demand-that-california-set-aside-20000-ballots/\" target=\"_blank\" rel=\"noopener\">Democracy Docket</a>, <a href=\"https://www.latimes.com/politics/story/2026-10-27/judge-carter-los-angeles-justice-department-request-to-block-20000-california-votes\" target=\"_blank\" rel=\"noopener\">Los Angeles Times</a>, <a href=\"https://calmatters.org/politics/2026/10/trump-noncitizen-voting-court/\" target=\"_blank\" rel=\"noopener\">CalMatters</a></p>"
+    "title": "The Supreme Court ends the California ballot case in one line \u2014 the last of three attempts to shape the count before it existed",
+    "html": "<p><b>What happened:</b> The Supreme Court on Monday refused the Justice Department's emergency request to force California to set aside roughly 20,000 mail ballots the administration says may have been cast by noncitizens. The order was one line: the application, presented to Justice Kagan and referred by her to the full Court, was denied. It came hours after the request was filed. Two days earlier, a federal judge in Alaska dismissed a separate suit that would have barred the state from certifying its Senate result if the Republican incumbent, Dan Sullivan, lost \u2014 a case the Justice Department filed on the theory that voters would be confused by a second candidate named Dan Sullivan. And on 22 October a judge blocked Homeland Security from conducting election-related field operations in California, Connecticut, Georgia, Missouri, Nevada, New York, Pennsylvania, Washington and Wisconsin through today.</p>\n\n<p><b>Why it matters:</b> The administration's pre-election legal strategy is now 0-for-3, and the damage is not to its morale but to its instruments. The California ruling held that a list of names and a demand is not a cause of action \u2014 the government may prosecute individuals when it has evidence they voted illegally, but it may not replace a state's election procedure with its own preference on the eve of a vote. The Alaska filing was more revealing: it did not allege fraud and did not try to stop anyone voting. It asked a court, in advance, for permission to refuse the result if the Republican lost. That is a concession-refusal written before the votes exist, and it failed on the pleadings, not on the facts. The third order removes the enforcement arm from polling places in the states that matter most.</p>\n\n<p><b>The pattern:</b> When the courts close the front door, the pressure moves to the next one rather than stopping. The certification window \u2014 after results are known, before they are formal \u2014 is legally better ground than the pre-election window, because a challenge there is about a count rather than about a right, and because refusal to certify is a decision a state official can simply make and defend slowly. Every one of these three losses narrows where the fight can happen without ending it. The Alaska template is the tell that it was always aimed past today.</p>\n\n<p><b>What history says:</b> Contested American elections are usually resolved by the loser's concession, not by the count. 1876 was settled by a commission because one side would not concede; 2000 by a court because one side would not stop counting. The concession is the cheap, invisible infrastructure that makes the rest work, and it is the thing most easily withdrawn. In 2020 the withdrawal was improvised and late. This year it has been pre-drafted, filed, and dismissed \u2014 which tells us where it will be re-filed if it is needed.</p>\n\n<p><b>What we're watching next:</b> Whether Dan Sullivan concedes if he trails, and how quickly. Whether any certification challenge is filed within seventy-two hours of a result. And whether the administration's public language tonight describes the vote as administered or as contested \u2014 the difference between those two words, said by an official with a microphone, is most of the story.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.scotusblog.com/2026/11/trump-administration-asks-supreme-court-to-intervene-in-california-ballots-dispute/\" target=\"_blank\" rel=\"noopener\">SCOTUSblog</a>, <a href=\"https://www.latimes.com/politics/story/2026-11-02/trump-lawyers-ask-supreme-court-to-set-aside-20-000-california-ballots\" target=\"_blank\" rel=\"noopener\">Los Angeles Times</a>, <a href=\"https://www.npr.org/2026/11/01/nx-s1-6023766/doj-alaska-lawsuit-senate-race-dan-sullivan\" target=\"_blank\" rel=\"noopener\">NPR (Alaska)</a>, <a href=\"https://alaskapublic.org/news/politics/elections/2026-11-01/judge-tosses-doj-lawsuit-that-sought-to-block-election-results-if-republican-sen-dan-sullivan-loses\" target=\"_blank\" rel=\"noopener\">Alaska Public Media</a>, <a href=\"https://www.npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations\" target=\"_blank\" rel=\"noopener\">NPR (DHS injunction)</a>, <a href=\"https://thehill.com/regulation/court-battles/6164907-homeland-security-voter-fraud-operations-ruling/\" target=\"_blank\" rel=\"noopener\">The Hill (nine states)</a></p>"
    },
    {
-    "title": "A grand jury refuses to indict Cassidy Hutchinson \u2014 DOJ's January 6 witness case dies at the first gate",
-    "html": "<p><b>What happened:</b> A federal grand jury in Washington declined Tuesday to return an indictment against Cassidy Hutchinson, the former White House aide whose 2022 testimony to the House January 6 committee made her one of the most visible witnesses of the investigation. A Justice Department lawyer told a magistrate judge that the grand jury could not agree. Prosecutors had been building the case for months, on the theory that her account of Trump's conduct on Jan 6 amounted to false statements.</p>\n\n<p><b>Why it matters:</b> The most publicised retaliation case of the cycle failed at the grand jury rather than at a judge, and that distinction does real work. A grand jury is the one gate in the federal system that the Attorney General cannot staff with loyalists: it is drawn from the district, it votes in secret, and a prosecutor who loses it cannot appeal. Ordinary citizens looked at the evidence and declined. That is a harder failure to explain away than an adverse ruling from an appointee, and it is the first time in this campaign that the enforcement drive has been stopped by someone other than a judge.</p>\n\n<p><b>The pattern:</b> The programme assumes indictment is the default and dismissal is the exception. Grand juries invert that: they are the system's cheapest and least accountable veto, and they are rarely used against it because prosecutors screen cases before presenting them. A no-bill is news precisely because it means the screening failed.</p>\n\n<p><b>What history says:</b> Grand juries refused to indict in some of the most heavily pressured cases of the 20th century, including several Watergate-adjacent prosecutions that prosecutors assumed were automatic. The institution's independence is procedural rather than personal: secrecy means no one can be leaned on afterward, and the vote is taken by people who go home.</p>\n\n<p><b>What we're watching next:</b> Whether DOJ re-presents the case to a second grand jury \u2014 the usual response to a no-bill, and itself a signal; whether Attorney General Blanche addresses it publicly; whether the parallel cases against James Comey and Letitia James proceed on the same theory; and whether any of the other witness matters quietly stop.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.washingtonpost.com/national-security/2026/10/27/grand-jury-declines-indict-cassidy-hutchinson-over-jan-6-testimony/\" target=\"_blank\" rel=\"noopener\">Washington Post</a>, <a href=\"https://www.nbcnews.com/politics/justice-department/grand-jury-declines-indict-former-trump-aide-cassidy-hutchinson-jan-6-rcna603233\" target=\"_blank\" rel=\"noopener\">NBC News</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/27/cassidy-hutchinson-doj-indictment-trump\" target=\"_blank\" rel=\"noopener\">The Guardian</a>, <a href=\"https://www.axios.com/2026/10/27/cassidy-hutchinson-indictment-jan-6-testimony\" target=\"_blank\" rel=\"noopener\">Axios</a></p>"
+    "title": "The United States strikes Qeshm Island after Iran downs an American drone and fires at two US fighter jets over the strait",
+    "html": "<p><b>What happened:</b> US forces carried out what officials called limited, defensive strikes on Iran's Qeshm Island on Monday. The strikes followed the Guard's claim that it had destroyed an MQ-9 drone east of the Strait of Hormuz and captured two reconnaissance drones intact using electronic warfare south of Qeshm. US officials confirmed the drone loss and said two American fighter jets flying over the strait were shot at and missed. Explosions were reported on the island. Separately, an Indian seafarer was killed in a strike in the strait, the Indian Navy rescued an Iranian vessel, and a sanctioned tanker in Russia's shadow fleet was attacked nearby. Iranian state media claim three oil tankers exploded after hitting mines on routes Iran calls unauthorized; no maritime authority has endorsed that account.</p>\n\n<p><b>Why it matters:</b> The exchange is small in tonnage and large in meaning. Shooting at crewed aircraft crosses a line that shooting at a drone does not, and the American answer \u2014 strikes on the launch sites, not on the decision-makers \u2014 was calibrated to close the incident rather than open a campaign. Twenty-four hours later there is no sign of a build-up: no tanker aircraft moving east, no bombers off their home stations, no fighter patrols massing. That absence is the finding. The promised campaign after the vote is not staged, which means it is either not imminent or not decided.</p>\n\n<p><b>The pattern:</b> Two clocks are running in the same water. A negotiation clock, which oil prices measure, on which the Iranians have named conditions and the Americans have named conditions and nobody has solved the order in which they are met. And an attrition clock, measured in hulls and airframes, on which mines, drone losses and dead sailors keep a running argument alive inside Tehran against accepting any terms at all. The clocks do not move at the same speed. Every incident raises the price of the deal and simultaneously raises the cost of stopping.</p>\n\n<p><b>What history says:</b> The Tanker War of 1987 and 1988 ran exactly this way \u2014 months of mines and reflagged tankers and small retaliations, each side insisting it wanted de-escalation, until a mistaken shootdown of a civilian airliner killed 290 people and ended the phase by accident rather than by decision. The lesson of that period is not that escalation is chosen; it is that in a narrow waterway with two armed forces in proximity, the incident decides. Nothing about the current arrangement \u2014 two carriers, mines, drones, crews on edge \u2014 makes an accidental mass-casualty event less likely than it was then.</p>\n\n<p><b>What we're watching next:</b> Whether the mines claim is corroborated by any insurer, port authority or naval mission. Whether an eastbound tanker stream appears, which would be the physical evidence of a real campaign rather than a promised one. Whether the Guard's next move is another drone or something crewed. And whether the third carrier group arrives on schedule, because the force required for a high-intensity campaign is not in the theater today.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island\" target=\"_blank\" rel=\"noopener\">CNN</a>, <a href=\"https://www.nytimes.com/2026/11/02/us/politics/us-military-strikes-iran-qeshm-island.html\" target=\"_blank\" rel=\"noopener\">New York Times</a>, <a href=\"https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz\" target=\"_blank\" rel=\"noopener\">Al Jazeera</a>, <a href=\"https://straits.live/briefs/2026-11-03\" target=\"_blank\" rel=\"noopener\">Straits daily brief</a></p>"
    },
    {
-    "title": "Two federal judges find the paperwork itself unlawful \u2014 an unsigned charge struck, and LA's top prosecutor ruled to be serving illegally",
-    "html": "<p><b>What happened:</b> Two rulings Tuesday went to form rather than substance. In Washington, Magistrate Judge Zia M. Faruqui struck a superseding criminal complaint that DOJ had filed overnight adding an obstruction charge against two former FBI officials, Nikki Floris and Bradley Benavides, because the document was signed by no law enforcement officer and no judge. Prosecutor John Borchert conceded in court that 'this has never been done before' and suggested it could be signed during the hearing; Faruqui refused, asking why DOJ had departed from what it has done in 'every other case in the history of this district.' Separately, in a 64-page order, Judge J. Michael Seabright found that Bilal Essayli \u2014 the acting US attorney for the Central District of California, the largest federal district in the country \u2014 'is unlawfully serving as a de facto United States Attorney,' and barred him from participating in or supervising two criminal cases.</p>\n\n<p><b>Why it matters:</b> The enforcement being produced this week is running faster than its own forms. A charging document that no one signed, and a chief prosecutor a court has now twice said is holding his office illegally, are not ideological objections \u2014 they are defects that get convictions vacated years later. The practical consequence is that some of what is being announced before Nov 3 will not survive 2027, and the people being charged will have spent the election under a cloud that a court will eventually say should never have been raised.</p>\n\n<p><b>The pattern:</b> Velocity. This is the third paperwork failure in a week: the sealed Comey indictment that no judge or jury saw before it was announced, the unsigned obstruction charge struck Tuesday, and an acting official whose authority has been rejected twice by the same judge. Each is a shortcut around a step that exists to make the action reviewable.</p>\n\n<p><b>What history says:</b> The 'special attorney' problem has a precedent close to home: in 1973 the question of who lawfully held office at the Justice Department became the constitutional crisis itself, after the Saturday Night Massacre. Courts have consistently held that a prosecutor without valid authority taints what he touches, which is why the remedy is disqualification rather than admonition.</p>\n\n<p><b>What we're watching next:</b> Whether Essayli's disqualification is appealed, and whether it reaches the California ballot case, which sits in his district; whether DOJ re-files the Florida and Benavides charge properly and how long that takes; and whether other districts are running the same staffing arrangement, which would make this a nationwide defect rather than two local ones.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nbcnews.com/politics/justice-department/judge-berates-doj-attorney-new-charge-filed-former-fbi-officials-rcna606013\" target=\"_blank\" rel=\"noopener\">NBC News</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/27/bill-essayli-disqualified-overstay-role\" target=\"_blank\" rel=\"noopener\">The Guardian</a>, <a href=\"https://www.latimes.com/california/story/2026-10-27/judge-finds-l-a-s-top-federal-prosecutor-is-unlawfully-serving-bars-him-from-two-cases\" target=\"_blank\" rel=\"noopener\">Los Angeles Times</a>, <a href=\"https://www.foxnews.com/politics/federal-judge-rules-bill-essayli-unlawfully-serving-de-facto-us-attorney-california\" target=\"_blank\" rel=\"noopener\">Fox News</a></p>"
+    "title": "Oil keeps most of a 7% collapse while two tankers a day move through a strait that used to carry eighty-five",
+    "html": "<p><b>What happened:</b> Brent crude traded near $106 a barrel on Tuesday, having fallen 7.6% on Monday \u2014 the largest drop in three months \u2014 on signs of diplomatic progress. The front month has retraced only about two dollars of that fall. Meanwhile the physical series has not moved: the last recorded transit count through the Strait of Hormuz was two vessels on 25 October, against a pre-crisis baseline of 85 a day, and more than a hundred vessels were holding position away from berth in the strait and Gulf area as of midday. The strait has been effectively closed for 247 days by that measure.</p>\n\n<p><b>Why it matters:</b> The gap between the price and the water is the whole story. Markets are trading an expectation of a deal while not one additional barrel has moved, and the exchange of fire on Monday did not change the expectation. That is a market pricing a negotiation it believes is real, and it is either early or wrong. A barrel that is not moving is not a barrel that will move because a diplomat sounded optimistic; a hundred and four ships waiting is a queue, and queues are cleared by physical reopening, not by price action.</p>\n\n<p><b>The pattern:</b> Watch the shape of the curve rather than the headline number. Right now the market pays about seven dollars more for January delivery than for today's, which is what a market looks like when it expects the blockage to end but not immediately. If the front price keeps falling while that gap widens, traders are betting on the timing of a settlement. If the gap narrows toward the front, they have stopped expecting the blockage to matter. Those two are opposite beliefs and they produce similar headline numbers, which is why the headline is the least useful thing on the screen.</p>\n\n<p><b>What history says:</b> The 1973 embargo did not reprice oil because of the announcement; it repriced because the barrels stopped arriving for five months, and it took a second shock in 1979 to make the first one look permanent. The 2019 attack on Abqaiq produced the largest one-day jump in the history of the crude market, and then gave most of it back inside two weeks once it was clear the supply would return. Markets are good at pricing expected supply and bad at pricing duration. Every analyst who has called a chokepoint shock \"priced in\" early has been right about the direction and wrong about the size.</p>\n\n<p><b>What we're watching next:</b> The next transit count, which is the only number here that describes reality rather than belief. Whether war-risk premiums and diesel crack spreads \u2014 which follow physical scarcity, not futures \u2014 move at all on the diplomatic headlines. And whether the front-month price holds $100 while the queue stays above a hundred vessels; if it does, the market has stopped believing the strait matters, and that is a fragile place to be.</p>\n\n<p><b>Sources:</b> <a href=\"https://straits.live/briefs/2026-11-03\" target=\"_blank\" rel=\"noopener\">Straits daily brief</a>, <a href=\"https://www.bloomberg.com/news/articles/2026-11-02/latest-oil-market-news-and-analysis-for-nov-3\" target=\"_blank\" rel=\"noopener\">Bloomberg</a>, <a href=\"https://tradingeconomics.com/commodity/brent-crude-oil\" target=\"_blank\" rel=\"noopener\">Trading Economics</a></p>"
    },
    {
-    "title": "The Alaska story inverts: Democrats recruited the second Dan Sullivan \u2014 and Trump demands Peltola be thrown off the ballot, six days out, on a question the state's Supreme Court settled in June",
-    "html": "<p><b>What happened:</b> The New York Times reported that people working with Mary Peltola's campaign and senior DSCC aides took part in recruiting Daniel J. Sullivan Jr. \u2014 a second Dan Sullivan \u2014 into Alaska's Senate race to dilute the incumbent's vote, with a Midwestern operative traveling under a fake name and documents prepared for a potential lawsuit. Peltola denies it. Within hours Trump posted on Truth Social that Peltola 'should be removed from the Ballot and prosecuted \u2014 So should the FAKE Dan Sullivan,' called it 'Voter Fraud at the Highest Level,' said 'The Democrats cheated! They found a man named Dan Sullivan, put him on the Ballot, then lied to the Court,' and accused campaign staff of perjury in federal court. Senator Lisa Murkowski \u2014 who is not up this year \u2014 also condemned it: 'ballot-stacking should have no place in our electoral process... recruiting candidates to manipulate the field and influence voting outcomes is simply wrong.'</p>\n\n<p><b>Why it matters:</b> The reporting is serious and it changes the Alaska lawsuit's footing \u2014 a claim that previously rested on a theory now has a factual predicate. But the demand attached to it runs into a fact the coverage buries: <b>Alaska's Supreme Court already decided this question in June.</b> The Division of Elections, overseen by a Republican lieutenant governor, had removed Daniel J. Sullivan from the primary ballot; an Anchorage Superior Court judge ordered him restored, citing the Alaska Supreme Court's 'well-established presumption in favor of candidate eligibility,' and the Supreme Court upheld it. Sullivan then won enough primary votes to take one of four general-election slots. The constitutional standard for Senate eligibility is age, citizenship and residency \u2014 nothing about intent. So the legal question is not open; it was litigated, by the state, and the state lost. And a demand for removal now is not a demand for adjudication \u2014 Alaska's ballots are printed, absentee voting is under way, and Sullivan's name appears as 'Sullivan, Daniel J. Jr.' with no party label. Removal at this hour would mean invalidating or reprinting ballots already cast.</p>\n\n<p><b>The pattern:</b> This is the sharpest illustration yet of the difference between contestation and delegitimisation \u2014 and it is also the case where the two are hardest to separate, because the underlying conduct <i>is</i> real. Ballot composition is old, largely legal and constitutionally protected; naming a candidate for a Senate race to confuse voters is a norm violation, not a crime, and even Murkowski framed it as a norm ('should have no place') rather than a statute. The move from 'this was wrong' to 'this is Voter Fraud at the Highest Level, remove her' is the entire delegitimisation step, taken on a record where every court that has looked at the ballot question has ruled.</p>\n\n<p><b>What history says:</b> The 1878 'two John Smiths' manoeuvre in California legislative races is the canonical American case, and it produced no prosecutions \u2014 it produced a rule change. When ballot composition has been policed at all, it has been policed prospectively by legislatures, never retroactively by removing a candidate days before a vote. The one thing a democracy cannot do at that hour is change the field it has already asked people to vote on.</p>\n\n<p><b>What we're watching next:</b> Whether any Alaska or federal official attempts an actual removal, as opposed to a demand; whether absentee ballots already cast are addressed by anyone; whether the perjury allegation is ever particularised to a sworn statement; whether the state's motion to dismiss the DOJ suit is heard before Nov 3; whether Murkowski's intervention splits the Alaska Republican Party; and whether 'they lied to the Court' becomes the template for contesting a result that has not happened yet.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nytimes.com/2026/10/28/us/politics/alaska-dan-sullivan-conspiracy-peltola.html\" target=\"_blank\" rel=\"noopener\">New York Times</a>, <a href=\"https://alaskabeacon.com/2026/10/28/trump-calls-for-peltola-to-be-criminally-charged-removed-from-alaskas-u-s-senate-race/\" target=\"_blank\" rel=\"noopener\">Alaska Beacon</a>, <a href=\"https://www.politico.com/news/2026/10/28/trump-murkowski-peltola-alaska-ballot-01140131\" target=\"_blank\" rel=\"noopener\">POLITICO</a>, <a href=\"https://alaskabeacon.com/2026/06/29/alaska-supreme-court-rules-dan-j-sullivan-eligible-to-run-for-us-senate/\" target=\"_blank\" rel=\"noopener\">Alaska Beacon (June ruling)</a>, <a href=\"https://www.adn.com/politics/2026/10/27/alaska-election-officials-ask-federal-judge-to-toss-trump-ordered-senate-race-lawsuit/\" target=\"_blank\" rel=\"noopener\">Anchorage Daily News</a></p>"
-   },
-   {
-    "title": "The FEC's outage was a cyberattack, not a glitch \u2014 restored after 41 hours, with the disclosure window inside the blackout",
-    "html": "<p><b>What happened:</b> The Federal Election Commission took its electronic filing system offline for nearly 41 hours to contain a cyberattack, then restored it shortly before 5pm Wednesday; the search feature remained down. The outage began around 10pm Monday. The agency said it would not penalise campaigns for filings missed during the gap. The blackout covered the final stretch of the 48-hour pre-vote disclosure window, meaning spending that would ordinarily have become public days before the election surfaced late or not at all.</p>\n\n<p><b>Why it matters:</b> 'Capacity failure' and 'intrusion' are indistinguishable from outside, and for two days the honest answer was that nobody knew which this was. Now it is the second: an agency whose only job is disclosure lost disclosure during the exact days disclosure matters most, and pre-pardoned the gap. The political money that moved in the last week of a midterm is the money most useful to see before the vote, and the window in which it would have been visible was dark. That is a material change to what voters can know before they vote, regardless of who did it or why.</p>\n\n<p><b>The pattern:</b> An attack on the disclosure layer is an attack on the least defended part of the election system, and the cheapest. Voting machines are hardened, paper-audited and watched; the FEC's filing portal is a records website. The asymmetry is the lesson: if the goal is to make an election opaque, you do not need to touch a ballot \u2014 you take down the receipts.</p>\n\n<p><b>What history says:</b> In 2016 the targeting was of state voter databases and was characterised as probing rather than effect; the lesson drawn then was that the counting infrastructure was not the soft target, the administrative layer was. Nothing about this week suggests that lesson was implemented \u2014 the agency restored service and waived penalties, which is a resilience posture measured in hours rather than in guarantees.</p>\n\n<p><b>What we're watching next:</b> Whether any attribution is offered, and by whom; whether the 48-hour notices missed during the blackout are published retroactively; whether restored filings show unusual last-week spending by entities that had reason to expect the outage; and whether the no-penalty waiver is challenged by any watchdog before Nov 3.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.cnbc.com/2026/10/28/fec-hack-outage-campaign-finance-filings.html\" target=\"_blank\" rel=\"noopener\">CNBC</a>, <a href=\"https://thehill.com/policy/technology/6179588-fec-filing-system-restored/\" target=\"_blank\" rel=\"noopener\">The Hill</a>, <a href=\"https://srnnews.com/cyberattack-concealed-political-spending-by-big-donors-before-us-midterm-elections/\" target=\"_blank\" rel=\"noopener\">Reuters (via SRN)</a></p>"
-   },
-   {
-    "title": "Israel's count lands at 53 to 67 \u2014 the 'decisive majority' does not exist",
-    "html": "<p><b>What happened:</b> With 85.6 percent of votes counted, Israel's election commission tally puts Benjamin Netanyahu's bloc at 53 seats and the parties seeking to unseat him at 67, according to Haaretz; Gadi Eisenkot's bloc stands at 48 and the Palestinian-led parties at 19, a record. Turnout was the highest since 1988. President Isaac Herzog called for an 'open mind' in coalition talks. The final tally is expected Oct 30 and formal publication Nov 4. On Tuesday night, at Likud headquarters, Netanyahu had claimed a 'decisive majority', called for a 'national right-wing government', ruled out sitting with the Palestinian-led parties, and said there was an 'unprecedented and unique opportunity to eliminate the Iranian threat once and for all.'</p>\n\n<p><b>Why it matters:</b> The claim he made hours before any count existed is now contradicted in the only direction that matters: 53 is not a majority, and the route to 61 runs through the parties he vetoed. So either the veto is reversed \u2014 which requires him to do the thing he told his crowd he would never do \u2014 or he goes to opposition. Either way the 'decisive majority' line stops being a mandate claim and becomes the raw material for a stolen-result claim, with the recount and the double-envelope ballots as the mechanism.</p>\n\n<p><b>The pattern:</b> Declare first, dispute later. The American version of this in 2020 was assembled after the votes were counted, when the margin was known and could be called fraudulent. Here the declaration precedes the count, which means the claim is not a response to a result but a container waiting for one.</p>\n\n<p><b>What history says:</b> Israel held three elections in a year between 2019 and 2020 for exactly this reason: bloc arithmetic below 61 produces no government, and the parties that could break the deadlock are the ones nobody will sit with. The arithmetic is structural. A leader who has vetoed the kingmakers has vetoed his own path to office, and the only way out is to unsay it.</p>\n\n<p><b>What we're watching next:</b> Whether the final tally on Oct 30 holds the 53-67 split after double envelopes; whether Likud peels a faction from the other bloc instead; whether an Iran strike order moves before or after the Nov 4 publication; and whether the 'decisive majority' claim is quietly dropped or repeated.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.timesofisrael.com/liveblog-october-28-2026/\" target=\"_blank\" rel=\"noopener\">Times of Israel</a>, <a href=\"https://www.haaretz.com/israel-news/elections/2026-10-28/ty-article-live/over-70-of-votes-counted-arab-parties-at-historic-high/000001a1-81fb-d6da-a7eb-e7ff6bb30004\" target=\"_blank\" rel=\"noopener\">Haaretz</a>, <a href=\"https://www.theguardian.com/world/live/2026/oct/28/israel-election-results-live-updates-exit-polls-netanyahu-likud-eisenkot-latest-news\" target=\"_blank\" rel=\"noopener\">The Guardian</a>, <a href=\"https://www.ynetnews.com/article/hjnatbkaml\" target=\"_blank\" rel=\"noopener\">Ynet</a></p>"
-   },
-   {
-    "title": "Fl\u00e1vio Bolsonaro lands in Miami with a US visa \u2014 as Brazil opens a probe into Vance's donor network",
-    "html": "<p><b>What happened:</b> Fl\u00e1vio Bolsonaro landed in Miami on Wednesday morning with his wife and two daughters. A senior State Department official confirmed to NBC News that the United States is issuing visas to him and his family and allowing them entry. He has not conceded Sunday's election, has defied a Supreme Court order to surrender his passports, and is under investigation in Brazil over alleged money laundering; he denies the allegations. Trump, asked on the tarmac at Joint Base Andrews on Tuesday night, said he 'would approve' of Bolsonaro coming, that 'they're fine people', that 'the election was very strange, and I thought it was terrible', and that it 'looked like another rigged election'. Also on Tuesday, Supreme Court Justice Fl\u00e1vio Dino ordered Brazil's federal police to investigate alleged ties between the Rockbridge Network \u2014 co-founded by Vice President JD Vance \u2014 and Bolsonaro's presidential campaign, including reported contacts with businessmen Tallis Gomes and Pedro Sang. Rockbridge denies involvement.</p>\n\n<p><b>Why it matters:</b> The asylum file and the money file are now the same file. A US visa was issued to a man defying a court order in an allied democracy on the same day a Brazilian justice opened a probe into whether a US political network financed his campaign. That converts a domestic prosecution into a bilateral dispute in which Washington is a party rather than an observer \u2014 and it means the question 'did foreign money reach this election' is now being asked about an American network, in a foreign court, days before an American election.</p>\n\n<p><b>The pattern:</b> Two mechanisms in one story. The exit corridor gives a losing candidate somewhere to go, which lowers the cost of contesting. The foreign-financing probe reaches into the winner's side of the transaction, which raises the cost of having contested. Note also the export: the 'rigged election' line was applied to Brazil before it is applied to the United States, which normalises it as a description of any result the wrong side wins.</p>\n\n<p><b>What history says:</b> Brazil's courts have spent three years treating election subversion as a national-security matter, which is why the response was a passport order rather than a summons. The United States has no equivalent doctrine, because it has never had to imagine a domestic campaign financed from abroad in a contested race. The Rockbridge probe will force the question into a jurisdiction where the answer is already written.</p>\n\n<p><b>What we're watching next:</b> Whether Bolsonaro's entry is asylum or a visitor status, and whether he appears at any US hearing; whether Brazil's federal police seek his testimony and get an Interpol notice; whether Dino's order names the Rockbridge Network formally rather than describing it; and whether Trump's 'rigged' characterisation of Brazil's result is applied to the American one on Nov 3 and 4.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nbcnews.com/politics/2026-election/live-blog/trump-ohio-vance-north-carolina-2026-election-congress-live-updates-rcna606022\" target=\"_blank\" rel=\"noopener\">NBC News</a>, <a href=\"https://www.washingtonpost.com/world/2026/10/27/brazilian-judge-orders-investigation-into-jd-vance-donor-network/\" target=\"_blank\" rel=\"noopener\">Washington Post</a>, <a href=\"https://valorinternational.globo.com/politics/news/2026/10/28/brazils-supreme-court-orders-probe-into-foreign-election-interference.ghtml\" target=\"_blank\" rel=\"noopener\">Valor International</a>, <a href=\"https://www.bloomberg.com/news/articles/2026-10-27/brazil-court-probes-foreign-support-for-bolsonaro-campaign\" target=\"_blank\" rel=\"noopener\">Bloomberg</a></p>"
-   },
-   {
-    "title": "DOJ asks a judge to keep the Omar search warrant secret \u2014 mid-investigation, a week before the vote",
-    "html": "<p><b>What happened:</b> In a heavily redacted 47-page memorandum filed Tuesday, the Justice Department asked a federal judge to keep sealed the warrant used in the Oct 12 search of Representative Ilhan Omar's Washington home, arguing the request by more than a dozen news organisations is 'premature' and that 'the press is trying to unseal materials about a search warrant mid-execution within an active criminal investigation.' Officials wrote that unsealing would 'imperil the investigation' and that the First Amendment 'does not entitle the public to access a search warrant affidavit and related materials before prosecutors make a charging decision.' Omar has said agents were in her home for four to five hours and took 17 items, including old phones belonging to her and a daughter. The search was part of an immigration-related investigation.</p>\n\n<p><b>Why it matters:</b> Two weeks after a search of a sitting member of Congress, there is still no charge, and DOJ is now asking a court to keep the basis secret past the election. That order matters: the search itself was the message, delivered on the record and reported everywhere, while the predicate \u2014 what the government believed and why \u2014 stays sealed. An enforcement action that produces publicity but not a charge has done its work without ever being tested.</p>\n\n<p><b>The pattern:</b> Enforcement as communication. The spectacle does not require a conviction; it requires a warrant that nobody can read and a photograph of agents carrying boxes. The asymmetry is the product: the accusation is public, the justification is not.</p>\n\n<p><b>What history says:</b> Sealed search-warrant affidavits are routinely unsealed within weeks once the search is public, and courts have found a qualified First Amendment right of access to warrant materials precisely because the search has already happened and the privacy interest has been spent. 'Mid-execution' is an unusual description for a search concluded two weeks ago \u2014 which suggests the real objection is to the timing of disclosure rather than its content.</p>\n\n<p><b>What we're watching next:</b> Whether the judge orders any unsealing; whether a charge is filed after Nov 3 rather than before; whether the immigration predicate is ever described in public; and whether the 17 items include anything that would support the underlying theory.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nbcnews.com/politics/trump-administration/rep-ilhan-omar-home-searched-federal-agents-criminal-probe-dhs-rcna602950\" target=\"_blank\" rel=\"noopener\">NBC News</a>, <a href=\"https://www.nbcnews.com/politics/congress/ilhan-omar-details-federal-search-dc-home-will-move-safety-reasons-rcna604930\" target=\"_blank\" rel=\"noopener\">NBC News (Omar interview)</a></p>"
-   },
-   {
-    "title": "Trump jokes that $5,000 will not buy lunch at Mar-a-Lago",
-    "html": "<p><b>What happened:</b> At his rally in Lubbock, Texas, on Tuesday night, Trump promoted his proposal to send $5,000 payments to Americans if Republicans hold Congress, reminding the crowd the money would have to be spent domestically. 'You could even come to Mar-a-Lago,' he said. 'The problem is that for $5,000, the most you'll be able to buy is a hamburger and maybe a small dessert. I'm not even sure you could buy that. No, don't go there. That's not a good place if you're price conscious.' He and the audience laughed. Sending $5,000 to every American adult would cost roughly $1.3 trillion.</p>\n\n<p><b>Why it matters:</b> The proposal's own salesman supplied the arithmetic that makes it a joke: $5,000 is now Mar-a-Lago hamburger money. That is a statement about prices, delivered by the person offering the money as relief from them. The dividend is priced in the currency it is meant to compensate for, and the crowd laughed because everyone in the room already knew the number was small.</p>\n\n<p><b>The pattern:</b> A bribe that advertises its own inadequacy. The offer is not really the money \u2014 it is the recognition that something is owed, paired with the admission that the payment will not cover it. That combination builds the grievance it is trying to buy off.</p>\n\n<p><b>What history says:</b> One-off transfers in inflationary episodes get absorbed into prices; the 1970s rebate programmes did, and the closer analogue is 1923 Germany, where payments to restive groups were made in the currency that was collapsing and were understood by recipients as insults rather than relief. The political damage in that case came from the gesture, not the amount.</p>\n\n<p><b>What we're watching next:</b> Whether the $5,000 figure survives the week or is walked back; whether Speaker Johnson schedules a vote before Nov 3; whether gas and diesel prices move before Election Day, since the administration has repeatedly promised they fall when the Iran war ends; and whether the joke is repeated on the stump, which would make it the message rather than a slip.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nbcnews.com/politics/2026-election/live-blog/trump-ohio-vance-north-carolina-2026-election-congress-live-updates-rcna606022\" target=\"_blank\" rel=\"noopener\">NBC News</a>, <a href=\"https://www.nbcnews.com/politics/congress/johnson-congress-work-deliver-5000-checks-trump-midterm-elections-rcna597459\" target=\"_blank\" rel=\"noopener\">NBC News (dividend)</a></p>"
-   },
-   {
-    "title": "A leaked file of 41,000 Homeland Security employees puts a map of the deportation machine on the open web",
-    "html": "<p><b>What happened:</b> A group calling itself the Department of Peace obtained an internal DHS database from the department's Okta single sign-on system and handed it to the transparency group Distributed Denial of Secrets, which published it Wednesday under the name 'Icepick.' The archive covers more than 41,000 DHS employees and contractors across the department and seven component agencies, including ICE and Customs and Border Protection. Fields include names, job titles, email addresses, phone numbers and office addresses \u2014 and, per WIRED, references to internal systems and to undercover and surveillance programs. The records were last updated Aug 19, 2026. It follows a breach in which a group called ShinyHunters claimed to have taken personal data on nearly every FBI employee and their families; arrests and a detention followed that one. DHS and DOJ did not respond to WIRED. The FBI referred questions to DHS.</p>\n\n<p><b>Why it matters:</b> This is not a breach of secrets; it is a breach of the index to the secrets. A staff directory with team assignments and office locations is what a hostile actor needs before anything else \u2014 it is the targeting layer that sits above the operational layer. For the roughly 41,000 people in the file, the exposure is personal and immediate: a public list of who works for the agency conducting the country's most visible deportation programme is a list of names and workplaces that anyone can now search. And it is a demonstration, three days from an election, that the department that has been the administration's loudest instrument of enforcement cannot keep its own personnel roster out of public hands.</p>\n\n<p><b>The pattern:</b> Government cyber-defence is built for confidentiality \u2014 concealed documents, classified systems. It consistently fails at availability and identity: directories, sign-on layers, personnel records. The federal response to the FBI breach was arrest and detention after the fact. That is a reactive posture which treats each breach as a case rather than as a category, and the category keeps producing.</p>\n\n<p><b>What history says:</b> The 2015 OPM breach exposed the records of roughly 22 million people, including security-clearance files, and the lesson drawn then was that identity data is the highest-value target and the least glamorous to defend. The 2021 Okta compromises made the same point at the supplier layer: single sign-on is a single point of failure dressed as a convenience. This one combines both \u2014 a directory pulled through a sign-on provider.</p>\n\n<p><b>What we're watching next:</b> Whether DHS confirms the Okta vector and whether Okta issues a statement; whether the undercover and surveillance references in the archive are described concretely enough to endanger specific officers; whether anyone is reassigned or withdrawn from field work; whether the Department of Peace and ShinyHunters are linked; and whether Congress, which has been energetic about election security, holds a hearing on the department's own hygiene.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/\" target=\"_blank\" rel=\"noopener\">WIRED</a>, <a href=\"https://www.bbc.com/news/articles/cq8jzkpjr28vo\" target=\"_blank\" rel=\"noopener\">BBC News</a>, <a href=\"https://cyberscoop.com/dhs-employee-data-leak-ddosecrets/\" target=\"_blank\" rel=\"noopener\">CyberScoop</a>, <a href=\"https://www.politico.com/news/2026/10/28/dhs-data-leak-hacktivist-01140028\" target=\"_blank\" rel=\"noopener\">POLITICO</a>, <a href=\"https://ddosecrets.org/article/icepick\" target=\"_blank\" rel=\"noopener\">DDoSecrets</a></p>"
-   },
-   {
-    "title": "Minnesota charges O'Keefe and Higby with identity theft over the 'Muslim garb' polling-place stunt",
-    "html": "<p><b>What happened:</b> A Minnesota prosecutor charged conservative activists James O'Keefe and Cam Higby with felony identity theft and unlawful voting on Wednesday, over an operation at Minneapolis polling places during the state's August primary. The complaints allege the two wore disguises, used fake accents, and gave poll workers the names of four real registered voters to obtain ballots \u2014 but do not allege that either man cast a vote. They claim they were demonstrating that Minnesota's vouching rules let one voter speak for others.</p>\n\n<p><b>Why it matters:</b> The stunt was designed to produce a video proving that voter fraud is easy. What it produced instead is a criminal complaint establishing that the people committing the fraud were the people making the video. That is the cleanest possible inversion: the exhibit for the fraud narrative is now the prosecution's exhibit against the fraud narrative's authors. It also tests a legal question that has been mostly rhetorical for a decade \u2014 whether pretending to be someone else at a polling place, in order to film yourself doing it, is a crime. Minnesota says yes, and the charge is a felony.</p>\n\n<p><b>The pattern:</b> The provocateur model depends on the target being the institution's embarrassment. When the injury lands on named private citizens whose identities were borrowed \u2014 four real voters, now attached to a felony case they had nothing to do with \u2014 the frame breaks. The measure of the pattern's durability is what its audience does with this: either the charges become evidence of persecution, or the operation's credibility is spent.</p>\n\n<p><b>What history says:</b> O'Keefe's 2009 ACORN videos ended that organisation, and the model has been repeated dozens of times since with declining returns. The 2011 NPR and 2013 ProPublica cases produced resignations, retractions and lawsuits; the pattern that emerged is that the sting's editing gets discredited after the target has already been destroyed. The difference here is timing: the filings arrive before the footage has done its work, and the voters named were ordinary people rather than an organisation.</p>\n\n<p><b>What we're watching next:</b> Whether the video is released or held back now that it is evidence; whether the case is charged as a conspiracy or as individual counts; whether Hennepin County charges the others involved; whether any national figure calls for the prosecutor's removal; and whether the four named voters sue.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.washingtonpost.com/politics/2026/10/28/james-okeefe-charged-over-hidden-camera-operation-minnesota-polls/\" target=\"_blank\" rel=\"noopener\">Washington Post</a>, <a href=\"https://apnews.com/article/voucher-voting-election-sting-undercover-e32e80590b59ca50adbb6751092e7435\" target=\"_blank\" rel=\"noopener\">AP</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/28/voting-felony-disguise-minneapolis\" target=\"_blank\" rel=\"noopener\">The Guardian</a>, <a href=\"https://www.politico.com/news/2026/10/28/james-okeefe-cam-higby-minnesota-election-charges-01139006\" target=\"_blank\" rel=\"noopener\">POLITICO</a></p>"
-   },
-   {
-    "title": "The White House says it will not strike Iran before the vote \u2014 while Washington and Israel draft the plans for after it",
-    "html": "<p><b>What happened:</b> The White House said the United States will not resume military strikes on Iran before the Nov 3 midterms, with Trump stating it directly. The same day, reports across multiple outlets described the US and Israel drafting plans to resume strikes after the election \u2014 a short, intense campaign intended to push Tehran back to negotiations. Trump, at a Texas rally, put the war's end date in personal terms: it will end 'whenever I want it to be over.' Separately, Hezbollah's leader hailed an Iran-US deal and Tehran signalled faster diplomacy, with Qatar-led mediators pressing Iran to accept nuclear concessions in exchange for some sanctions relief.</p>\n\n<p><b>Why it matters:</b> The administration has now put the sequencing in writing, in its own voice, twice in two days: not before the vote, and being planned for after it. That converts the single most consequential question this board has carried since September from inference to near-commitment. It also creates a clean, dated test \u2014 the promise is specific, public and short-dated, and any strike before Nov 3 falsifies it outright. Meanwhile the diplomatic track running alongside is not decorative: if Qatar is close, the post-election strike becomes a bargaining instrument that may never need to be used, and the pre-briefing of Gulf states can be read as leverage rather than preparation.</p>\n\n<p><b>The pattern:</b> A war whose timing is set by a domestic electoral calendar is a war that is being used as a message, not fought as a campaign. The two things the administration has said this week \u2014 'not before the vote' and 'planned for after' \u2014 are not in tension; together they are a promise about the sequence, made to two audiences at once. The Gulf is told to prepare, the voters are told to relax, and Tehran is told the choice between a deal and a bombing window that opens on Nov 4.</p>\n\n<p><b>What history says:</b> The October surprise literature is mostly about information, but the operational version has precedents: the 1968 bombing halt was timed around an election and failed politically; the 2003 Iraq invasion proceeded on a schedule that was explicitly chosen to avoid a domestic political season. Where a military action is timed to a vote, the political benefit is usually smaller than the decision-makers expect and the strategic cost is paid later, because the other side now knows the calendar too.</p>\n\n<p><b>What we're watching next:</b> Any US or Israeli strike before Nov 5 \u2014 which would falsify the promise and is now the cleanest single falsifier on the board; whether Qatar's mediation produces a signing ceremony before the vote, which would be worth more to the administration than a strike; whether the Roosevelt's late-November arrival slips again, which would push the promised package past its own stated window; and whether the Gulf states describe the request publicly.</p>\n\n<p><b>Sources:</b> <a href=\"https://apnews.com/article/trump-iran-war-midterms-attack-422b1799a1a06466279ac265f560e014\" target=\"_blank\" rel=\"noopener\">AP</a>, <a href=\"https://www.timesofisrael.com/us-israel-said-to-draft-plans-for-resumed-strikes-on-iran-after-midterm-elections/\" target=\"_blank\" rel=\"noopener\">Times of Israel</a>, <a href=\"https://abcnews.com/Politics/us-israel-drawing-plans-resume-attacks-iran-post/story?id=137479897\" target=\"_blank\" rel=\"noopener\">ABC News</a>, <a href=\"https://www.middleeasteye.net/news/us-warns-gulf-intense-strikes-iran-after-midterms-report\" target=\"_blank\" rel=\"noopener\">Middle East Eye</a></p>"
-   },
-   {
-    "title": "Washington explores lifting sanctions on Russia's state investment fund \u2014 inside a diesel deal",
-    "html": "<p><b>What happened:</b> The administration is considering lifting US sanctions on Russia's flagship government investment fund, headed by Kremlin envoy Kirill Dmitriev, according to the New York Times. A US official described it as part of Trump's major energy deal with Putin to import millions of tons of Russian diesel. US officials have long described that fund as one of the Kremlin's most effective instruments of international influence.</p>\n\n<p><b>Why it matters:</b> This is the second use of the same instrument in a fortnight. A sanctions statute passed with a veto-proof margin was first neutralised by executive self-certification in mid-October; now the same waiver architecture is being used to hand back a designated financial channel in exchange for oil. The direction of the trade is worth stating plainly: the United States is importing diesel from the country it has sanctioned, in exchange for relaxing the sanctions on the entity that finances the country's influence operations \u2014 while domestic pump prices remain the administration's most-cited economic problem. The diesel deal was described in this board's files weeks ago as the lever behind the war's framing and the gas-price politics; this is the lever being pulled with something concrete on the other end of it.</p>\n\n<p><b>The pattern:</b> Sanctions are being treated as discretionary \u2014 not as a statute, but as a chip the executive can put on the table when it needs an outcome. That works until the counterparty notices the chip is reusable, at which point every future sanction is understood by both sides as temporary and priced accordingly.</p>\n\n<p><b>What history says:</b> The 1930s rearmament trade and the 1970s grain deals both show the same structure: a commodity need, a political need, and a concession to the adversary that the domestic audience is told is a win. The most instructive case is the 2015 Iran deal's sanctions architecture, which was reversible by executive action and was reversed \u2014 which is exactly why subsequent negotiations have been harder to close.</p>\n\n<p><b>What we're watching next:</b> Whether Treasury formally delists the fund or narrows to a licence; whether Congress tries to block it and whether the same override machinery fails again; whether the diesel volumes arrive, and by what route; whether European allies follow or object; and whether the fund resumes its role in Russian influence finance within a quarter.</p>\n\n<p><b>Sources:</b> <a href=\"https://politicalwire.com/2026/10/28/trump-explores-lifting-sanctions-on-putins-slush-fund/\" target=\"_blank\" rel=\"noopener\">Political Wire</a>, <a href=\"https://www.democracynow.org/2026/10/28/headlines/nyt_trump_admin_considering_lifting_us_sanctions_on_russian_governments_investment_fund\" target=\"_blank\" rel=\"noopener\">Democracy Now!</a>, <a href=\"https://unn.ua/en/amp/trumps-team-is-considering-lifting-sanctions-on-a-russian-investment-fund-nyt\" target=\"_blank\" rel=\"noopener\">UNN</a></p>"
-   },
-   {
-    "title": "Trump kills the methane rule at a rally \u2014 days after a satellite found a plume next to that same rally",
-    "html": "<p><b>What happened:</b> At his rally in Lubbock, Texas, on Tuesday night, Trump announced he was 'officially terminating Biden's expensive and unnecessary methane regulations to save consumers and energy producers $45 billion in costs.' The EPA proposal, developed with Administrator Lee Zeldin, would substantially loosen rules governing how the oil and gas industry handles methane. POLITICO reported that the announcement came days after a satellite detected a large plume of methane pouring from oil and gas wells near the Lubbock site of the rally. Continental Resources, whose founder Harold Hamm Trump named from the stage in Texas a day earlier, had written to the EPA in April arguing against provisions barring routine flaring.</p>\n\n<p><b>Why it matters:</b> The proximity is the story. A satellite recorded the leak at the site of the announcement that the rule against such leaks was being scrapped \u2014 the evidence and the decision occupying the same coordinates within the same week. Methane is roughly 28 times as potent a greenhouse gas as carbon dioxide over a century, and it is invisible to the eye, which is why it is regulated by measurement. The announcement made the measurement the dispute: a rule that only exists because satellites can see what people cannot is being removed by someone who can now say the plume was nobody's fault in particular.</p>\n\n<p><b>The pattern:</b> Deregulation announced as a price cut. The framing converts an environmental rule into a consumer benefit and borrows the authority of household economics for a decision about industrial practice. That structure has now been used for the methane from wells, the war that supplies the oil, and the dividend that is meant to offset the prices \u2014 three separate policies all sold as the same $45 billion or $5,000 that the listener will somehow receive.</p>\n\n<p><b>What history says:</b> Routine flaring rules were the centrepiece of the 2021-2024 methane strategy, and the industry's own position has been split \u2014 major integrated producers generally supported rules because they hold the cost better than small operators do. Rolling back the rule therefore favours exactly the operators least able to capture the gas, which is the opposite of what the 'energy producers' framing suggests.</p>\n\n<p><b>What we're watching next:</b> Whether the satellite operator publishes the Lubbock plume data and its size; whether the rule's removal survives legal challenge, given that methane emissions cross state lines and the EPA's finding rested on interstate harm; whether European buyers attach monitoring requirements to US gas, which would make the rollback a trade problem; and whether the same stage language is used in the next energy state.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.politico.com/news/2026/10/28/methane-trump-climate-oil-gas-01137313\" target=\"_blank\" rel=\"noopener\">POLITICO</a>, <a href=\"https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions\" target=\"_blank\" rel=\"noopener\">NPR</a>, <a href=\"https://www.bloomberg.com/news/articles/2026-10-28/trump-proposes-relaxing-epa-methane-controls-on-oil-and-gas-operations\" target=\"_blank\" rel=\"noopener\">Bloomberg</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas\" target=\"_blank\" rel=\"noopener\">The Guardian</a></p>"
+    "title": "Fifty-four million early ballots are already counted in \u2014 and in Westchester County the ballots are too thick for the machines",
+    "html": "<p><b>What happened:</b> Roughly 54 million Americans cast ballots before Election Day, already past the total early vote of the last midterms, on pace to beat 2022 turnout. In New York's Westchester County, voting machines at multiple polling places were reported broken this morning; officials and local reporting attribute it to the thickness of the ballots, with voters offered paper ballots to be placed in orange bags, or told to return later. The New York Attorney General's office is looking into it. Polls in New York are open until 9pm Eastern; New Jersey and Connecticut close at 8pm.</p>\n\n<p><b>Why it matters:</b> Heavy turnout and machinery failure are the most ordinary pair of events in American election administration, and they are also the raw material of every contested count. A jammed scanner in a county of a million people is a maintenance problem. The same jam, filmed, with no official explanation on site, is a story about whether votes are being counted. What decides which one it becomes is not the machine but the message discipline of the officials standing next to it \u2014 and this year those officials share the pavement with a thousand federally deployed observers.</p>\n\n<p><b>The pattern:</b> The early vote changes what Election Day means. When more than half the ballots are already in, the reporting we watch tonight is mostly a count of the remaining share, and the first numbers of the evening will be mail and early ballots from whichever states process them first. That produces early leads that do not predict outcomes and, more importantly, produces a window in which one candidate appears to be winning and then is not. That window is where fraud narratives are built \u2014 not from the final result, but from the shape of the night.</p>\n\n<p><b>What history says:</b> In 2020 the \"red mirage\" \u2014 in-person votes counted first, mail ballots after \u2014 was predicted by analysts and still became the factual core of a claim that the count had been stolen, because the claim did not require the pattern to be unexplained, only to exist. In Florida 2000 the ballot was the problem: a design that produced ambiguous marks, and a contest that turned on how they were interpreted. The difference between that crisis and 2020 is that 2000 was about reading ballots and 2020 was about believing counters. A thick ballot jamming a scanner sits uncomfortably between the two.</p>\n\n<p><b>What we're watching next:</b> Whether Westchester's problem stays local and explained. Whether any state with a close Senate race reports late-arriving absentee totals that change a lead after 11pm. And whether the first national description of tonight's count comes from an election administrator or from a campaign.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nbcnewyork.com/elections/live-updates-election-day-nyc-nj-poll-vote-governor-congress/6566156/\" target=\"_blank\" rel=\"noopener\">NBC New York</a>, <a href=\"https://abc7ny.com/live-updates/election-day-2026-what-voters-need-know-ny-nj-ct/20008999/\" target=\"_blank\" rel=\"noopener\">ABC7 New York</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms\" target=\"_blank\" rel=\"noopener\">The Guardian (early vote)</a>, <a href=\"https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/\" target=\"_blank\" rel=\"noopener\">USA Today</a></p>"
    }
   ]
  }
