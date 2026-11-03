@@ -11,15 +11,6 @@ SUMMARY:
 - Oil holds most of Monday's 7% collapse while two tankers a day move through the strait instead of eighty-five
 - Roughly 54 million early ballots are already in — past the 2022 record — and in Westchester County, New York, the ballots are too thick for the scanners
 
-DATE: 2026-11-03
-SUMMARY:
-- The Justice Department sends roughly 1,000 election monitors into all 50 states for the first time in its history — and a judge orders it to explain, by this morning, how it knows none of them are police
-- The Supreme Court kills the California ballot case in a single line, hours after it was filed; the Alaska suit was thrown out on Sunday. Every attempt to shape the count before the votes existed has now failed in court
-- A federal judge has already barred Homeland Security from election-related field operations in nine states through today
-- The United States strikes Iran's Qeshm Island after the Guard shoots down an American drone and fires at two US fighter jets over the Strait of Hormuz
-- Oil holds most of Monday's 7% collapse while two tankers a day move through the strait instead of eighty-five
-- Roughly 54 million early ballots are already in — past the 2022 record — and in Westchester County, New York, the ballots are too thick for the scanners
-
 WATCHING:
 - Whether any losing candidate concedes cleanly tonight. The concession is the whole variable: Alaska already has a lawsuit drafted and dismissed that was built to refuse certification if the Republican lost
 - Whether a refiled certification challenge lands within 72 hours of a result, which is the trigger that matters, not the result itself
