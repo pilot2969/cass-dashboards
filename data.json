@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-03T08:05 ET"
+  "generated_stamped": "2026-11-03T16:23 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3700,14 +3700,394 @@
    "window_basis": "Window drawn to a fiscal-half/year boundary.",
    "expiry_date": "2027-12-31",
    "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+  },
+  {
+   "title": "2026 Midterm Turnout Floor \u2014 the cohort-composition claim",
+   "date_made": "2026-11-03",
+   "time_et": "14:05 ET",
+   "statement": "Registered ~5.5 hours before the first Ohio poll closure, with no Election Day numbers in hand, and on the basis of cohort composition alone: the 2026 midterm VEP turnout rate lands at or above 41.0 percent, roughly 95 million ballots on an estimated 232 million voting-eligible population. The reasoning is structural, not atmospheric: 2018's 50.3 percent was produced by the 18-29 cohort nearly doubling from 13 percent (2014) to 28 percent, and that cohort's banked habit has since compounded while Gen Z entered at a rate above what Gen X and Millennials managed at their own first midterms. The 2022 decline to 46.8 percent is compositional, not demobilisation: the 18-29 rate held at 27 percent while the bracket was repopulated by a smaller cohort. Actuarial drag (65-74 voting at 68 percent, 18-24 at 27.6 percent) will depress the rate mechanically for a decade regardless of behaviour, so this card tests the composition floor, not an up-cycle. If 2026 lands at 2014 levels (36.4 percent) with this cohort structure in place, the composition model is wrong and the finding is more important than the election result.",
+   "evidence_confirmed": [
+    "18-29 VEP turnout: 13 percent 2014 -> 28 percent 2018 (CIRCLE) \u2014 largest single-cohort jump in the modern record; 27 percent 2022, essentially flat",
+    "Pew: voters under 50 were 40 percent of the 2018 electorate and 36 percent of 2022's \u2014 the 2022 rate decline tracks bracket repopulation, not disengagement",
+    "Gen Z's first midterm (2022) turnout exceeded Gen X's and Millennials' at their own first midterms (Census via CIRCLE)",
+    "Z + Millennials now roughly half of all eligible voters \u2014 first midterm where that is true; ~50M young people eligible, 8.5M newly aged in (CIRCLE)",
+    "Historical band: midterms ran 36-45 percent for a century and nothing moved them out \u2014 not 1974, not 1994, not 2010 (41.0 percent). Only 2018 broke 50, and 2022 held 46.8",
+    "60M+ early ballots already cast, past the 2022 record, before Election Day opened",
+    "65-74 cohort votes at 68.0 percent against 27.6 percent for 18-24 (2022 Census) \u2014 the drag is real and already priced into the threshold"
+   ],
+   "evidence_contradicted": [
+    "Democratic early-vote share gains in NC/GA/FL are composition-of-ballots evidence, not level evidence; they do not support a turnout floor",
+    "Registered-Republican early participation reported BELOW 2018 and 2022 at comparable points (McDonald, NC) \u2014 if that reading is right on its own denominator, one large bloc is under-performing its own pace",
+    "Mark Mitchell's on-camera claim that 'turnout is ass' (13:00 ET, single anonymous source) is a direct counter-claim to this card; registered as a separate pre-registration with its own tests",
+    "A genuine one-cycle collapse of 10 points (46.8 -> ~37) has no modern precedent, which cuts both ways: unprecedented events do happen, and the card's confidence rests on that absence"
+   ],
+   "falsifier": "Total ballots cast falls below the implied ~95M, or final VEP rate lands below 41.0 percent. A result at or below 36.4 percent (2014's level) with the current cohort structure is not a near-miss but a direct refutation of the composition model and must be reported as such, not graded as a late or ambiguous outcome.",
+   "forward_watchlist": [
+    "Final VEP rate and total ballots (McDonald / US Elections Project), and whether the two diverge \u2014 a higher total on a larger electorate can still be a lower rate",
+    "18-29 turnout in 2026 against 2022's 27 percent: flat supports the composition model, a fall below 22 percent undermines it",
+    "Party registration of Election Day ballots in FL, PA, NC, NV \u2014 the clean live composition read",
+    "Whether the 2018 cohort (now 26-38) retains its elevated rate ten years on: habit persistence is the load-bearing assumption",
+    "Any state where day-of in-person turnout tracks 2014 rather than 2022 as a share of the total, after adjusting for the early-vote shift"
+   ],
+   "status": "pending",
+   "confirmer": "Final official turnout: US Elections Project VEP rate published by Michael McDonald, cross-checked against the certified state returns aggregate. Secondary cross-check: total ballots cast against 2022's ~107M and 2018's ~118.9M.",
+   "confirmer_base_rate": "Naive base rate for 'next midterm clears 41 percent' is low across the century series (~4 of 26 midterms since 1914), but the 2018-2022 pair re-anchors it: two consecutive cycles at 46.8-50.3 has no precedent since 1914, so the pre-2016 base rate is not informative about this regime.",
+   "confirmation_window": "First national estimate tonight; resolves on final VEP figures when published, expected within weeks of certification",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-03",
+   "window_closes": "2026-12-31",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
+   "instrument": "v2 (class, anchor grade, expiry and threshold all declared at registration, per the 2026-11-02 anchoring protocol)",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "skill_eligible": true,
+   "public_status": "pending_adjudication",
+   "anchor_type": "external_institutional",
+   "anchor_source": "Certified state election returns compiled into the US Elections Project national series \u2014 external, institutional, and not amendable by this board",
+   "anchor_grade": "A",
+   "window_basis": "Window opens at the election and closes at the publication of final national turnout figures, the only date at which the threshold is measurable. No amendment permitted after any partial result is visible.",
+   "expiry_date": "2026-12-31",
+   "expiry_basis": "Final certified national turnout is published well inside this date; an unresolved card at close is a MISS by rule",
+   "threshold_definition": "PRIMARY: final VEP turnout rate >= 41.0 percent (2010's level). HIT at or above, MISS below. Implied ballots ~95M on an estimated 232M VEP \u2014 the VEP estimate is fixed here, at registration, and may not be recomputed after the fact. DIVERGENCE RULE: if total ballots and the rate disagree, the card resolves on the RATE, because the claim is about participation, not raw count. SECONDARY (reported, not graded): whether total ballots clears 2022's ~107M.",
+   "max_lifespan": "Through 2026-12-31",
+   "review_cadence": "Tonight after the first national estimate; again at certification; no re-registration",
+   "tracking_state": "registered pre-close, no data yet",
+   "basename": "2026-midterm-turnout-floor",
+   "confidence": 78
+  },
+  {
+   "date_made": "2026-11-03",
+   "time_et": "15:08 ET",
+   "status": "pending",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-03",
+   "window_closes": "2026-12-31",
+   "expiry_date": "2026-12-31",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
+   "instrument": "v2 (class, anchor grade, expiry and threshold declared at registration)",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "skill_eligible": true,
+   "public_status": "pending_adjudication",
+   "anchor_type": "external_institutional",
+   "anchor_grade": "A",
+   "anchor_source": "AP race call, cross-checked against certified state returns \u2014 external and not amendable by this board",
+   "window_basis": "Registered ~4.5 hours before the first poll closures on 2026-11-03, with no election-night returns in hand. Closes at certification. No amendment after any partial result is visible.",
+   "expiry_basis": "Certification of all contests falls inside this date; unresolved at close is a MISS by rule",
+   "max_lifespan": "Through 2026-12-31",
+   "review_cadence": "Tonight on the AP call; again at certification; no re-registration",
+   "tracking_state": "registered pre-close, no election-night data yet",
+   "correlation_flag": "LOADS ON THE SAME FACTOR: all four cards resolve on one underlying national environment variable. They are not independent draws; the product of the individual probabilities is not the joint probability of all four.",
+   "title": "Democrats take the US House \u2014 control test",
+   "statement": "Registered four and a half hours before the first poll closures: Democrats win a majority of seats in the US House. The claim rests on a generic-ballot lead comparable to 2018's (which produced a 40-seat net gain), a permanently enlarged 18-29 cohort that votes roughly double its pre-2018 rate and is the most Democratic bloc in the electorate, and a president's-party midterm penalty that applies regardless of the economy. It is held back from higher confidence by two things the polling cannot see: mid-decade redistricting worth an estimated four to six seats of Republican advantage (Texas, Missouri, Ohio, North Carolina and Indiana all redrawn), and the fact that a 2018-sized lead in the national vote is not the same as a 2018-sized seat margin once the map is accounted for.",
+   "evidence_confirmed": [
+    "Generic ballot at or near the 2018 lead \u2014 the only cycle since 2014 to produce a 40-seat net swing",
+    "Dems lead or tie all seven NYT/Siena Senate battlegrounds (5,708 LV, Oct 26-Nov 1), indicating a broad rather than regional swing",
+    "Record early voting (60M+ pre-Election Day) with composition moving toward Democrats in NC, PA, NV, FL and GA on the metrics observable today",
+    "18-29 VEP turnout at 27-28% in 2018 and 2022 against 13% in 2014 \u2014 a structurally larger young electorate than any pre-2018 midterm",
+    "President's-party midterm penalty: the White House party has lost House seats in 19 of the last 21 midterms"
+   ],
+   "evidence_contradicted": [
+    "Mid-decade redistricting (TX, MO, OH, NC, IN) worth an estimated +4 to +6 Republican seats versus the 2022 map",
+    "Pew's 2022 finding that Republican gains were driven mostly by TURNOUT advantage \u2014 composition, not conversion \u2014 cuts both ways if the turnout edge reverts",
+    "2022's actual outcome: a 2018-sized Democratic polling lead produced a Republican House majority, the closest available precedent for the failure mode",
+    "Turnout-pace data measures who voted, not how they voted; no vote-choice evidence exists yet"
+   ],
+   "falsifier": "Republicans retain the House majority. A Democratic popular-vote win paired with a Republican majority is a MISS on this card and simultaneously confirms the redistricting leg \u2014 the two must be reported together, not as a moral victory.",
+   "forward_watchlist": [
+    "AP call in the 25-30 districts rated Toss-up, beginning with the suburban seats in PA, MI, VA and NC",
+    "Whether the Democratic popular-vote margin clears +6 \u2014 below that, the map likely holds the majority for Republicans",
+    "Split-ticket behaviour in states with a statewide Republican win and a competitive House race"
+   ],
+   "confidence_rationale": "70 rather than 80+ because the map is a real, quantified drag and 2022 is a live precedent for a lead that did not convert. 70 rather than 60 because the polling position is broad rather than narrow, the cohort structure is durable rather than cyclical, and the pessimistic case has produced no verified data point today.",
+   "confirmer": "AP race calls for all 435 seats; majority threshold 218. Cross-checked against certified state returns.",
+   "confirmer_base_rate": "President's party has lost House seats in 19 of 21 midterms since 1934; base rate for 'the White House party holds the House' is roughly 15-20% unmodified by polling.",
+   "confirmation_window": "Called on election night or within days; certified within weeks",
+   "threshold_definition": "HIT if Democrats hold 218 or more seats. MISS if 217 or fewer. No partial credit, no confidence-adjusted grading.",
+   "resolution_note": "",
+   "basename": "2026-11-03-house-democratic-control",
+   "confidence": 70
+  },
+  {
+   "date_made": "2026-11-03",
+   "time_et": "15:08 ET",
+   "status": "pending",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-03",
+   "window_closes": "2026-12-31",
+   "expiry_date": "2026-12-31",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
+   "instrument": "v2 (class, anchor grade, expiry and threshold declared at registration)",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "skill_eligible": true,
+   "public_status": "pending_adjudication",
+   "anchor_type": "external_institutional",
+   "anchor_grade": "A",
+   "anchor_source": "AP race call, cross-checked against certified state returns \u2014 external and not amendable by this board",
+   "window_basis": "Registered ~4.5 hours before the first poll closures on 2026-11-03, with no election-night returns in hand. Closes at certification. No amendment after any partial result is visible.",
+   "expiry_basis": "Certification of all contests falls inside this date; unresolved at close is a MISS by rule",
+   "max_lifespan": "Through 2026-12-31",
+   "review_cadence": "Tonight on the AP call; again at certification; no re-registration",
+   "tracking_state": "registered pre-close, no election-night data yet",
+   "correlation_flag": "LOADS ON THE SAME FACTOR: all four cards resolve on one underlying national environment variable. They are not independent draws; the product of the individual probabilities is not the joint probability of all four.",
+   "title": "Ohio Governor \u2014 Acton wins",
+   "statement": "Registered four and a half hours before the first poll closures: Amy Acton wins the Ohio GOVERNORSHIP, the seat Mike DeWine vacates at term limit, against Vivek Ramaswamy. CORRECTION LOGGED AT 15:25 ET: this card was first written as an Ohio SENATE card, which was wrong \u2014 Acton is the Democratic gubernatorial nominee and the Ohio Senate race is Brown vs Husted. The substantive argument survives the correction and is arguably stronger for a governor race: Ohio's Republican presidential lean (roughly +8 in 2024, +11 in 2020) is real, but governor contests are more candidate-driven than federal ones, Ohio elected a Democratic governor as recently as Ted Strickland (2007-2011), and Ramaswamy is a first-time candidate with high name recognition and high polarisation. Acton carries the name-recognition advantage of a former state health director who became a household figure during the 2020 pandemic response.",
+   "evidence_confirmed": [
+    "AtlasIntel final (10/31): Acton 52, Ramaswamy 44 \u2014 a D+8 reading",
+    "Other late polling tighter: Acton +1.6 in one tracker after trailing by 2.8 in mid-October \u2014 a late move toward the Democrat",
+    "Governor races are more candidate-driven than Senate races and less bound to the state's federal lean",
+    "Ohio has a live Democratic statewide tradition outside presidential years (Strickland, 2007-2011; Brown held a Senate seat through 2024)"
+   ],
+   "evidence_contradicted": [
+    "Ohio's federal lean is now solidly Republican: Trump +8 in 2024, +11 in 2020, and the 2024 Senate seat flipped R",
+    "A D+8 AtlasIntel reading is 5 points left of that firm's own historical house effect, i.e. it may be measuring the cycle rather than Ohio",
+    "The other late tracker has this at D+1.6, inside the noise band of an R+8 state"
+   ],
+   "falsifier": "Acton loses. A narrow loss is a MISS, not a moral victory; the card is a win condition.",
+   "forward_watchlist": [
+    "Franklin, Hamilton, Cuyahoga and Montgomery county returns against 2022 \u2014 the Democratic margin engine",
+    "Whether Acton's rural and small-metro performance holds within 5 points of 2022 Democratic Senate levels",
+    "Turnout in the Cleveland and Columbus media markets relative to 2022"
+   ],
+   "confidence_rationale": "Below even because the state-level Republican lean is structural and the polling lead is inside the noise band. Close to even because Ohio has a genuine Democratic statewide tradition and the 2018 analogy is direct: a wave year produced a 6.7-point Democratic Senate win in this same state.",
+   "confirmer": "AP race call for the Ohio governor contest; certified by the Ohio Secretary of State.",
+   "confirmer_base_rate": "Ohio has elected Democratic senators in 2006, 2012 and 2018 while voting Republican for president in the two most recent cycles \u2014 a genuine but thinning split-ticket tradition.",
+   "confirmation_window": "Called on election night or within days",
+   "threshold_definition": "HIT if Acton is declared the winner of the Ohio governorship by AP. MISS otherwise. No margin condition.",
+   "resolution_note": "",
+   "revision_log": [
+    {
+     "at": "2026-11-03T15:25-05:00",
+     "change": "Office corrected from Senate to Governor (basename unchanged at 2026-11-03-ohio-acton). Confidence held at 45 \u2014 the correction is factual, and no number is moved after the AtlasIntel reading was seen post-registration, since moving it now would be indistinguishable from outcome-shopping.",
+     "by": "owner request at 15:08, correction found at 15:21"
+    }
+   ],
+   "basename": "2026-11-03-ohio-acton",
+   "confidence": 45
+  },
+  {
+   "date_made": "2026-11-03",
+   "time_et": "15:08 ET",
+   "status": "pending",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-03",
+   "window_closes": "2026-12-31",
+   "expiry_date": "2026-12-31",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
+   "instrument": "v2 (class, anchor grade, expiry and threshold declared at registration)",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "skill_eligible": true,
+   "public_status": "pending_adjudication",
+   "anchor_type": "external_institutional",
+   "anchor_grade": "A",
+   "anchor_source": "AP race call, cross-checked against certified state returns \u2014 external and not amendable by this board",
+   "window_basis": "Registered ~4.5 hours before the first poll closures on 2026-11-03, with no election-night returns in hand. Closes at certification. No amendment after any partial result is visible.",
+   "expiry_basis": "Certification of all contests falls inside this date; unresolved at close is a MISS by rule",
+   "max_lifespan": "Through 2026-12-31",
+   "review_cadence": "Tonight on the AP call; again at certification; no re-registration",
+   "tracking_state": "registered pre-close, no election-night data yet",
+   "correlation_flag": "LOADS ON THE SAME FACTOR: all four cards resolve on one underlying national environment variable. They are not independent draws; the product of the individual probabilities is not the joint probability of all four.",
+   "title": "Democrats take the US Senate \u2014 control test",
+   "statement": "Registered four and a half hours before the first poll closures: Democrats win a majority of US Senate seats, requiring a net gain of four from the current 53-47 Republican caucus. The path runs through the seven NYT/Siena battlegrounds where Democrats lead or tie \u2014 but leading all seven is not winning four of seven, and Senate outcomes are decided by state-level fundamentals more than by the national environment. This is the weakest of the four cards registered at this hour, and the one where the polling evidence most overstates the probability.",
+   "evidence_confirmed": [
+    "NYT/Siena final battleground series: Democrats lead or tie all seven of AK, IA, KS, ME, OH, MI, TX",
+    "Michigan the only double-digit margin (El-Sayed 53-42) \u2014 the cleanest Democratic hold",
+    "Enlarged young and college-educated electorate favours Democrats in exactly the suburban-heavy states on this map"
+   ],
+   "evidence_contradicted": [
+    "Seven simultaneous leads inside the margin of error is a polling position, not a seat count",
+    "Senate polling error is correlated across states; a uniform 2-3 point Republican shift flips several of these at once",
+    "Democrats must defend more competitive seats than they can pick up; a net gain of four requires near-perfect conversion",
+    "Recent Senate history shows Republican resilience in state-level federal races even in Democratic years (2020, 2022)"
+   ],
+   "falsifier": "Republicans retain 51 or more Senate seats. A 50-50 chamber is a MISS: the card requires a Democratic majority and the tie does not satisfy it.",
+   "forward_watchlist": [
+    "NC and Ohio closure times first \u2014 early Senate calls set the frame",
+    "Whether Ohio and Texas resolve inside 2 points; either flipping at that margin indicates correlated polling error in the Democrats' favour",
+    "Any seat outside the seven (Nebraska, Florida, Iowa's second seat) as an unexpected break"
+   ],
+   "confidence_rationale": "Slightly below even because a four-seat net gain is a demanding threshold and correlated polling error cuts against a clean sweep. Above 40 because the polling position is unusually broad \u2014 seven simultaneous leads has no recent precedent in a battleground set \u2014 and the environment is strongly against the incumbent party.",
+   "confirmer": "AP race calls; majority threshold 51, or 50 with the vice-presidential tie-break held by the same party.",
+   "confirmer_base_rate": "The president's party has gained Senate seats in only 3 of the last 21 midterms; a four-seat gain against a 53-47 caucus is historically rare.",
+   "confirmation_window": "Called on election night or over the following days depending on recounts",
+   "threshold_definition": "HIT if the Democratic caucus reaches 51, or 50 with a Democratic vice president. MISS at 49 or fewer. Runs through any runoff that resolves before the window closes.",
+   "resolution_note": "",
+   "basename": "2026-11-03-senate-democratic-control",
+   "confidence": 48
+  },
+  {
+   "date_made": "2026-11-03",
+   "time_et": "15:08 ET",
+   "status": "pending",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-03",
+   "window_closes": "2026-12-31",
+   "expiry_date": "2026-12-31",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
+   "instrument": "v2 (class, anchor grade, expiry and threshold declared at registration)",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "skill_eligible": true,
+   "public_status": "pending_adjudication",
+   "anchor_type": "external_institutional",
+   "anchor_grade": "A",
+   "anchor_source": "AP race call, cross-checked against certified state returns \u2014 external and not amendable by this board",
+   "window_basis": "Registered ~4.5 hours before the first poll closures on 2026-11-03, with no election-night returns in hand. Closes at certification. No amendment after any partial result is visible.",
+   "expiry_basis": "Certification of all contests falls inside this date; unresolved at close is a MISS by rule",
+   "max_lifespan": "Through 2026-12-31",
+   "review_cadence": "Tonight on the AP call; again at certification; no re-registration",
+   "tracking_state": "registered pre-close, no election-night data yet",
+   "correlation_flag": "LOADS ON THE SAME FACTOR: all four cards resolve on one underlying national environment variable. They are not independent draws; the product of the individual probabilities is not the joint probability of all four.",
+   "title": "Texas Senate \u2014 Talarico wins",
+   "statement": "Registered four and a half hours before the first poll closures: James Talarico wins the Texas US Senate race. The polling position is stronger than most cycles: NYT/Siena has Talarico 50-43 among likely voters (n=1,215, Oct 27-Nov 1) and AtlasIntel has him 51-45. The case is the long-run suburban realignment of the Texas metros plus a national environment comparable to 2018. The counter-case is the hardest base rate in American politics short of a third-party win: no Democrat has won a Texas statewide office since 1994, a thirty-two-year run that has survived two Democratic wave years, a prolonged Republican civil war, and repeated close polls.",
+   "evidence_confirmed": [
+    "NYT/Siena final (Oct 27-Nov 1, n=1,215 LV): Talarico 50, Paxton 43 \u2014 D+7, the widest lead any national pollster has shown since his campaign launched",
+    "AtlasIntel final (10/31): Talarico 51, Paxton 45 \u2014 D+6. Two independent pollsters, two methods, same direction",
+    "NYT/Siena also has Hinojosa 48-47 over Abbott in the governor race, so the Texas polling position is statewide rather than Senate-specific",
+    "Suburban shifts in Harris, Dallas, Tarrant and Collin counties over the last three cycles",
+    "An enlarged young and Hispanic-eligible electorate in a state with the largest under-30 population share of any large state"
+   ],
+   "evidence_contradicted": [
+    "No Democratic statewide win in Texas since 1994 \u2014 the single strongest base rate on this board",
+    "The implied swing is the objection: Texas was R+13.7 for president in 2024 and Cruz won the Senate race by 8.5. A D+7 result is a ~15-point single-cycle swing in a state that has moved R, not D, for a decade",
+    "Texas polling has shown competitive Democratic readings in 2018, 2020 and 2022 and converted none of them",
+    "Mid-decade redistricting and statewide administrative control sit with the Republican Party",
+    "Hispanic shift toward Republicans in South Texas since 2020 works directly against the Democratic coalition assumption",
+    "Ken Paxton is a weak nominee, which explains part of the deficit but is also the most priced-in factor in the race"
+   ],
+   "falsifier": "Talarico loses. Any margin. The card exists precisely to test whether the polling position is real, and a narrow loss settles it.",
+   "forward_watchlist": [
+    "Harris County turnout and Democratic margin against 2022",
+    "South Texas county returns \u2014 Starr, Hidalgo, Webb, Cameron \u2014 for signs of continued Republican gains",
+    "Whether the Democratic margin in the large metros exceeds the Republican margin in the rural and Panhandle counties by the required amount"
+   ],
+   "confidence_rationale": "30 not 20 because the polling position is now the strongest it has been in any cycle \u2014 two independent pollsters at D+6 and D+7, with a same-direction governor reading \u2014 and a 2018-sized national environment would put Texas genuinely in play. Not 40 because thirty-two years of failed predictions is the most informative prior available, the same polls have been wrong here three cycles running, South Texas movement actively cuts against the mechanism, and the polling position requires a ~15-point single-cycle swing in a state that has been trending the other way. Recorded honestly: taken at face value, these two polls imply a Talarico win. The card deliberately does not take them at face value, and that disagreement is the entire content of the call.",
+   "confirmer": "AP race call for the Texas Senate contest; certified by the Texas Secretary of State.",
+   "confirmer_base_rate": "Zero Democratic statewide wins in 32 years across 8+ cycles, including two strong Democratic national years. The unconditional base rate is below 5%.",
+   "confirmation_window": "Called on election night or within days",
+   "threshold_definition": "HIT if Talarico is declared the winner by AP. MISS otherwise. No margin condition.",
+   "resolution_note": "",
+   "revision_log": [
+    {
+     "at": "2026-11-03T15:25-05:00",
+     "change": "Corrected the polling evidence line, which wrongly described the NYT/Siena Texas reading as 'inside the margin of error or marginally Democratic'. The actual figure is Talarico 50-43, D+7, n=1,215. Confidence held at 30; the correction strengthens the evidence array without moving the number.",
+     "by": "owner request at 15:08; found on verification at 15:21"
+    }
+   ],
+   "basename": "2026-11-03-texas-talarico",
+   "confidence": 30
   }
  ],
  "mget_ledger": [
   {
-   "date": "2026-09-15",
-   "time_et": "14:42",
+   "date": "2026-11-03",
+   "time_et": "16:25",
+   "track": "turnout-composition",
+   "mget_legs_tested": [
+    "Leg 2"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Turnout reporting at 16:20 ET moved from 'expected' to 'observed', and it confirms the composition read rather than the collapse read. 59M+ early ballots cast nationally (NPR, mid-afternoon) \u2014 nearly half of ALL ballots cast in the entire 2022 midterm before a single Election Day vote was counted. Georgia: 775,000 cast with a 1.4M total expected (Raffensperger). Michigan: 2.3M+ early. Maine: Secretary of State Bellows says the state is on track to break its midterm turnout record. North Carolina, Georgia, Michigan all reported strong opening-hours turnout. IMPORTANT COUNTERWEIGHT, stated honestly: NBC News' data desk, comparing Election Day voting so far against the same hour in November 2022, finds the pace 'on average very similar' \u2014 not surging. Those two facts are not in conflict: a record early bank plus a 2022-paced Election Day produces a record total, and it also produces the thin-looking precincts Samuel noticed at 13:49. The 'empty polling place' read is now supported by the same arithmetic that predicts record turnout. That is the composition mechanism working as described, and it is the cleanest vindication available for treating thin precincts as an artefact rather than a signal. Sanity check on the floor card: 59M early + an ED day tracking 2022 would clear ~95M and the 41.0% VEP threshold with room. The card is tracking toward HIT, and nothing in this sweep moves it toward MISS. Do not upgrade before the count \u2014 the 78% was registered at 14:05 and stays at 78 until the number exists.",
+   "forward_signal": "Watch three numbers tonight, in order: (1) Georgia final total against the 1.4M projection \u2014 Raffensperger put a number on the table, so it is testable; a miss low by >10% would be the first genuine turnout warning. (2) Whether Maine actually breaks its midterm record (Bellows made it a public commitment). (3) The composition instrument already fixed at 15:10: turnout by party registration versus each party's 2022 base. If R falls below ~90% of its 2022 rate while D clears 100%, the answer is DISENGAGEMENT, not defection \u2014 do not report those as the same finding.",
+   "basename": "2026-11-03-turnout-observed-vs-projected"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "16:25",
+   "track": "prelegitimation-operational",
+   "mget_legs_tested": [
+    "Leg 3",
+    "Leg 4"
+   ],
+   "verdict": "confirms",
+   "reasoning": "END-OF-BUSINESS SWEEP. The 15:37 prelegitimation post ('election irregularities are being nipped in the bud', Blaze, RNC Election Integrity) was no longer rhetorical by 16:21 \u2014 it acquired a real anchor. Westchester County NY: EVERY ballot scanner in the county failed on a programming glitch (ABC7), affecting up to 250,000 ballots across 332 polling sites in 40+ municipalities (County Exec Jenkins presser, ~15:45 ET). Ballots diverted to emergency/orange bags for central tabulation. This is in NY-17 (Lawler R vs Conley D), a Harris-won district that sits inside the House majority calculation \u2014 i.e. the frame's first concrete specimen landed in a seat that can decide control. CRITICAL DISTINGUISHER, and it cuts AGAINST the frame rather than for it: (a) BOTH candidates (Lawler and Conley) urged voters to stay and vote and both said every ballot would count; (b) Republicans and Democrats are jointly seeking a court order for central tabulation at the County Board of Elections \u2014 a JOINT order, not a contest; (c) cause named publicly as a vendor programming fault within hours, not misconduct; (d) AG James monitoring and stating votes will count; (e) county exec publicly accepted responsibility ('we have fallen short', Gothamist) and promised an investigation. That is election ADMINISTRATION \u2014 specific, jurisdictional, disposition-oriented \u2014 which is the operational opposite of the declarative prelegitimation frame. So the frame is present and rising, and the system's first response was procedural in both directions. Second specimen, smaller: Fulton County GA \u2014 two scanners failed during EARLY voting, 1,069 early ballots unread; elections director seeking board approval tonight for a post-close rescan. Again a counted, numbered, disposition-tracked failure, not an allegation. FRAME-LANGUAGE ESCALATION logged: 'HERE WE GO' (RedState), 'AND SO IT BEGINS' (PJ Media), 'IT BEGINS AGAIN' (Geller), 'DEVELOPING... Ballots Being Placed in Orange Bags?' (Gateway Pundit). The orange bag \u2014 an ordinary chain-of-custody container \u2014 is being rendered as the visual tell of a steal. That is the relabeling move in its purest form: the mechanism of ballot security reframed as the mechanism of ballot loss. COUNTERVAILING JUDICIAL FACT, same 24h: SCOTUS denied the DOJ's emergency request to order California to segregate ~20,000 mail ballots, hours after filing (Mon 11-02 evening, 6-3 not confirmed in sweep). Federal prosecutors had written to all 58 county election officials demanding set-aside or potential criminal charges. The administration's theory of the case lost at the last available forum before the vote. Read together: the apparatus to contest was built and pre-positioned, its first major outing was rejected by the Supreme Court on the eve, and its first concrete Election Day anchor is a genuine equipment failure that local officials of BOTH parties are handling jointly. The frame is real; the mechanism it needs is not yet firing.",
+   "forward_signal": "TEST THRESHOLDS FIXED NOW, before any returns. (1) WESTCHESTER is the single diagnostic case tonight: if the emergency ballots are counted and certified by the county board with both parties' observers present, or under the joint court order, and the result is accepted by BOTH campaigns, the frame failed to convert and the prelegitimation read is downgraded \u2014 logged as atmosphere, not instrument. If instead either campaign refuses to accept the NY-17 result, or the RNC withdraws from the joint order and files its own contest, the frame converted. Watch specifically for a change in posture from 'joint' to 'separate'. (2) DISPOSITION COUNT: count county-level claims with a case number, a jurisdictional authority and a stated remedy. Blaze/RNC so far: 2 named counties (Westchester NY, Fulton GA), both equipment, both with stated remedies. Five or more named counties with case numbers by midnight = monitoring. Zero named counties with only atmospheric claims = pure frame. Do not count 'report it here' links as claims. (3) DIRECTIONAL TEST: if irregularity reporting skews to Democratic-leaning counties tonight while rural/exurban Republican-county machine failures go unreported, the account was never about integrity. Westchester is a Dem-leaning county with a Republican incumbent \u2014 note which of those two facts the coverage emphasises. (4) The Tell To Watch After Midnight: whether 'nipped in the bud' becomes the explanation for a loss. If Republicans lose the House and the RNC claims its own interventions prevented a larger loss, that is the frame's designed landing, and it is unfalsifiable \u2014 flag it as such at the moment it is said, not afterwards.",
+   "confidence_moves": "None to the forecast cards. House 70, Senate 48, Ohio 45, Texas 30, turnout floor 78 all unchanged; none of them turn on the Westchester failure, whose effect if any is delay in NY-17 reporting rather than a change in the national environment. Confidence DOES move on the prelegitimation track: conversion risk from atmosphere to instrument rated LOW tonight, upgraded from the 15:37 read, on the bipartisanship and the named technical cause \u2014 with the explicit caveat that a close NY-17 result reversing that posture is the upgrade trigger.",
+   "basename": "2026-11-03-westchester-scanner-glitch-first-anchor"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "15:10",
+   "track": "midterm-turnout",
+   "mget_legs_tested": [
+    "Leg 2"
+   ],
+   "verdict": "undermines",
+   "reasoning": "Samuel's question \u2014 how much of the voting R base still backs the regime, and can moderate crossover carry it on bad economic numbers \u2014 pre-registers a testable claim six hours before close, which is the only time it can be registered honestly. The conversion hypothesis is strained by the validated-voter literature: Pew's 2018-2022 panel finds 3% D->R and 2% R->D switching across cycles, and 50+1 puts in-party defection in the polls at ~6% on election day in both 2018 and 2022. Pew's own 2022 headline is 'Republican gains driven mostly by TURNOUT advantage' \u2014 midterms are composition elections, not conversion elections. So the reservoir of available crossover is small in every cycle, and the historically observed defection is already drawn from the moderate/college-R pool that has been leaving since 2016, leaving little unconverted stock. Economic distress has a real but indirect channel: gas price -> approval (10c ~ 0.6pt approval, Galston's pump rule holds for midterms since 1978), which moves turnout and referendum sentiment far more than party choice. Register's own PERSISTENCE card codes economic defection in this coalition as VOICE, not EXIT (internal opposition in right-wing argument language, ridicule as sanction) \u2014 i.e. the mechanism Samuel expects is the one the register already finds underdeveloped.",
+   "forward_signal": "TEST TO RUN TONIGHT, thresholds fixed now: (a) defection among self-identified Republicans in AP VoteCast / exit polls >= 10% would REFUTE the composition read and support crossover as the channel; 5-8% is the historical band and confirms nothing new; <= 5% confirms conversion was not the mechanism. (b) Split-ticket gap \u2014 statewide R win with House R loss in the same state, or ballot measures passing in red states against the state's partisan lean \u2014 is the cleanest available crossover instrument. (c) The composition instrument we already have and can compute tonight is turnout by party registration versus each party's 2022 base; if R turnout falls below ~90% of its 2022 rate while D clears 100%, the answer is DISENGAGEMENT, not defection, and the two must not be reported as the same finding. (d) Do not read a large drop in stated SUPPORT as a large drop in R vote share: the alternative is coded as illegitimate, so vote choice carries identity cost independent of preference.",
+   "confidence_moves": "None. No register moved; this entry pre-commits the thresholds before any exit-poll data exists so the post-mortem cannot be read backwards.",
+   "basename": "2026-11-03-crossover-vs-composition-pre-registration"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "14:40",
+   "track": "midterm-turnout",
+   "mget_legs_tested": [
+    "Leg 1",
+    "Leg 2"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Samuel-supplied chart (posted by Keith Edwards, Dem-aligned commentator; chart source unattributed in the screenshot) built on FL Division of Elections ED returns as of 2:53pm ET, 50 of 67 counties, counties grouped by 2024 presidential margin. Each party's ED ballots as share of its own 2022 ED ballots, against a required trajectory. GOP 46% vs 52% required; Dem 44% vs 36% required. KEY: the two bars have different denominators and are NOT directly comparable \u2014 GOP needs 99% of its 2022 ED volume because its early/mail is flat vs 2022; Dem needs only 76% because it banked ~30% more early. Edwards' 'Dems running ahead' is true of the chart and mostly arithmetic. Normalising to progress-toward-requirement (the only fair comparison): GOP at 88% of required pace, Dem at 122% \u2014 a 34-point gap that survives the denominator problem and points the same way as NC/NV/PA party-registration data. Confirms the early-vote composition thesis; undermines 'turnout is ass' a third time.",
+   "forward_signal": "GOP's largest single deficit row is Trump+40 or more (43 vs 52) \u2014 that is the Panhandle, still in its opening hour and largely unreported, so part of the gap is a time-zone/reporting artifact and will close. Watch the 7-9pm ET county-file updates: if GOP statewide ED lands below ~90% of 2022 while Dem clears 100%, FL is a real base-erosion read, not lag. If GOP converges to 95%+, the chart was measuring reporting speed. Do NOT read FL as a national bellwether: 2022 was an R-wave state (DeSantis +19.4) and the Dem floor is depressed, so Dem ED overperformance there understates a national Dem gain rather than overstating it.",
+   "confidence_moves": "Turnout floor card (78%): evidence_confirmed appended. No register moved.",
+   "basename": "2026-11-03-florida-ed-turnout-pace-gap"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "14:14",
+   "track": "legitimacy-immunization",
+   "mget_legs_tested": [
+    "Leg 3"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Election-day specimen captured by Samuel from feed, posted ~17h before polls close. Map of US captioned 'STATES WHERE JESUS IS STILL ON THE THRONE ARE IN ORANGE' with all 48 contiguous states orange \u2014 verified pixel-level: zero states excluded. The graphic borrows a map's discriminating authority while making a claim that cannot fail on the object level. The load-bearing word is 'still' (concession marker: it presumes an apparent setback and asserts continuity past it). Two-sided outcome structure: win = vindication, loss = sovereignty/judgment with throne intact. Zero Bayesian weight, high emotional function \u2014 distributes composure to the in-group ahead of polls that predict a loss.",
+   "forward_signal": "The revision is the data, not the post. If the account de-oranges states after a loss ('Michigan chose death'), the sovereignty claim has quietly reverted to a territory claim \u2014 that is the schism marker, and it is the seam to watch. Expect the sovereignty register to RISE after a defeat and turn inward (purge direction: 'nominal Christians') rather than demobilize. Logged neutral: specimen, no predictive claim attached yet.",
+   "confidence_moves": "None. No register moved.",
+   "basename": "2026-11-03-jesus-still-on-throne-immunization-map"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "13:11 ET",
    "track": "courts-elections",
-   "mget_legs_tested": [],
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "MIDDAY WIRE. Two moves in the legal channel while voting was underway, both in the same direction: the apparatus that was supposed to be frozen on election day is operating. (1) DOJ is sending roughly 20 target letters to Democrats in a criminal investigation of the Alaska Senate race \u2014 possible donor fraud and conspiracy, Marc Elias among likely recipients (NYT). The Alaska certification challenge logged at the morning wire has upgraded from a lawsuit to be filed into a criminal investigation with named targets, announced mid-vote. (2) The Ninth Circuit: a 2-1 panel lifted the TRO blocking DOJ from threatening California and Washington election officials with prosecution unless they set aside ballots; the full court granted en banc review and vacated the panel within three hours, restoring the TRO. The material fact is the three-hour window, not the outcome \u2014 for that window the operative federal posture toward two states' election officials was a criminal threat, and officials reading it in real time could not know it would be vacated. Supporting, all consistent with heavy turnout and none of it anomalous: Guam delegate flips D (51%, 100% precincts, before noon); Westchester scanner hardware failure countywide with paper ballots available and NY AG monitoring; Florida flooding relocates 31 precincts across 7 counties under state of emergency; UT Austin fire alarm pulled twice, criminal investigation opened; election protection coalition reports zero federal agents at polls as of midday against ~1,000 DOJ monitors deployed in all 50 states; ~60M early votes. Price channel: election-day national average gasoline $4.12/gal and diesel $6.28/gal, both records (GasBuddy). Iran: Trump tells Fox & Friends the war 'isn't really war' and 'we haven't shot anything', $47.1B Pentagon cost estimate, total Hormuz control claimed, oil revenue claimed at 100x cost, and a stated agreement with Netanyahu to end $4B in annual aid by year end; same day Reuters reports intelligence sharing on Iran has slowed or temporarily stopped, with a decision on resuming strikes held until after the vote. Europe: six aircraft searched across five countries after bomb threats, no devices found \u2014 coordinated signature, no attribution.",
+   "forward_signal": "Ohio closes 19:30 ET. Watch order of reporting, not margin. Two triggers now live: (a) any state official describing the DOJ letters as affecting ballot handling \u2014 that converts the Alaska instrument into a general method; (b) any concession or refusal to concede before 90% reporting in a race inside 3 points. Watch also whether the Ninth Circuit en banc ruling is followed by a further filing tonight; the en banc grant is a procedural win that does not foreclose an emergency application to the Supreme Court.",
+   "confidence_moves": "No change to MGET leg confidences. P15-T catalyst node held at 74 \u2014 the Alaska letters and the Ninth Circuit sequence are consistent with the pre-registered certification-domain falsifier without yet satisfying it; a target letter is not a contested count. Note for the register: this is the second consecutive wire in which the legal channel moved rather than froze, which is the pre-build posture the card describes.",
+   "basename": "2026-11-03-midday-wire"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "09:20 ET",
+   "track": "courts-elections",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FINAL POLL FREEZE \u2014 polls closed as inputs at midnight; last readings before the vote. All major trackers froze at midnight into Election Day. Final NYT/Siena battleground series (Oct 26-Nov 1, 5,708 likely voters across AK, IA, KS, ME, OH, MI, TX): Democrats lead or tie in all seven Senate battlegrounds, Michigan the only double-digit margin (El-Sayed 53-42 over Rogers); Iowa and Alaska inside the margin of error. Generic ballot final average D+8.1 (CallTheMap blend), ~D+9 (Yahoo aggregation); Reuters/Ipsos released Monday 46-38 (D+8). Trump net approval -25.0. Special-election environment D+9.0 across 46 races through Nov 2. Early votes: NPR reports more than 59 million cast before polls opened (prior count 54.5M at the 11-03 morning pull). CAUTION RECORDED AT FREEZE: final polls understated R in both 2020 and 2024, and a uniform national shift of this size is the setup in which a correlated turnout-model error does its damage. The OH/TX divergence watches both resolved toward the polls, not away: Ohio markets crashed from R-79c (10/22) to Acton 82-83c while polling held at Acton +4.7 (RCP 49.6-44.9) and NYT/Siena closed Acton +6; Texas markets moved from D 62-65c to Talarico 73c against a poliagg D+1.5 and a forecast ensemble at R+3.5. Per pre-registered action_on_trigger on both, market convergence of this shape is recorded as a thin-liquidity/forecast-model artifact, NOT as signal validating the polling read. Sources: NYT/Siena crosstabs 11-01, CallTheMap, RCP, Kalshi, NPR 11-03; resolutions filed to /space/watch/2026-10-22-oh-gov-polls-markets-divergence.json and /space/watch/2026-10-22-tx-senate-polls-forecast-divergence.json.",
+   "forward_signal": "Polling is now a closed input; from 18:00 ET the feed is results, county reporting order, and any refusal to concede. Ohio and Texas results resolve the two divergence watches directly. Watch certification-domain actors for the transition from pre-build tell to Tier-2 action once the margin is known: a wave outcome narrows the set of contestable races while raising the incentive to contest whichever ones stay close.",
+   "confidence_moves": "No change to MGET leg confidences. P15-T catalyst node held at 74 \u2014 its falsifier is certification-domain, not vote share. This reading adds turnout-environment support to the wave branch but does not touch the contestation mechanism.",
+   "basename": "2026-11-03-poll-freeze-final-readings"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:45",
+   "track": "domestic / legitimacy \u2014 pre-election legal channel vs certification window",
+   "mget_legs_tested": [
+    "the regime pre-positions a disputed count through the courts",
+    "narrative of stolen elections generates evidence after the fact"
+   ],
    "verdict": "confirms",
    "reasoning": "Wire 14:42 \u2014 SCOTUS denial aftermath: Trump publicly slams his own Supreme Court appointees over the mail-ballot ruling (WP, Reuters, AP-syn). Confirms the morning pre-condemnation read in behavior: the 'we very much disagree' pattern extends from Blanche's Rose Garden answers to Trump's own feed. Democracy Docket adds damage assessment: election officials report attacks damaged faith in mail voting even though the ruling was a WIN for the process. NBC frames 'Supreme Court pushes back against Trump and GOP ahead of midterms' \u2014 the referee is now narrated as partisan obstacle by the right.",
    "forward_signal": "Watch whether Trump names specific justices (pre-condemnation of individuals escalates from institution to person)."
@@ -8819,6 +9199,36 @@
  ],
  "movers": [
   {
+   "time": "2026-11-03",
+   "ref": "Democrats take the US House \u2014 control test",
+   "change": "confidence 70 \u2014 status pending",
+   "trigger": "President's-party midterm penalty: the White House party has lost House seats in 19 of the last 21 midterms"
+  },
+  {
+   "time": "2026-11-03",
+   "ref": "Ohio Governor \u2014 Acton wins",
+   "change": "confidence 45 \u2014 status pending",
+   "trigger": "Ohio has a live Democratic statewide tradition outside presidential years (Strickland, 2007-2011; Brown held a Senate seat through 2024)"
+  },
+  {
+   "time": "2026-11-03",
+   "ref": "Democrats take the US Senate \u2014 control test",
+   "change": "confidence 48 \u2014 status pending",
+   "trigger": "Enlarged young and college-educated electorate favours Democrats in exactly the suburban-heavy states on this map"
+  },
+  {
+   "time": "2026-11-03",
+   "ref": "Texas Senate \u2014 Talarico wins",
+   "change": "confidence 30 \u2014 status pending",
+   "trigger": "An enlarged young and Hispanic-eligible electorate in a state with the largest under-30 population share of any large state"
+  },
+  {
+   "time": "2026-11-03",
+   "ref": "2026 Midterm Turnout Floor \u2014 the cohort-composition claim",
+   "change": "confidence 78 \u2014 status pending",
+   "trigger": "FL ED returns 2:53pm ET, 50/67 counties: GOP at 46% of its 2022 ED volume vs 52% required trajectory; Dem 44% vs 36% required (normalised to pace: 88% vs 122%). Fourth state consis"
+  },
+  {
    "time": "2026-11-02 12:20 ET (SCOTUS emergency application)",
    "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
    "change": "confidence 74 \u2014 status pending",
@@ -8847,36 +9257,6 @@
    "ref": "Iran conducts a nuclear test before the Nov 3 2026 midterms (Pape's October surprise, scored)",
    "change": "confidence 7 \u2014 status pending",
    "trigger": "2026-11-02: no development on the test itself (radarcell 11-02 sweep; Araqchi on the 'two-day proposal' only). Khamenei's 11-01 'no geographical restrictions' order and Rezaei's 'n"
-  },
-  {
-   "time": "9/23 9:05pm",
-   "ref": "Mid-August Oil Price Shock",
-   "change": "confidence 10 \u2192 18",
-   "trigger": "Iran's victory-conditions go public at UNGA; Brent <$100 on talks headlines alone; diesel export ban floated as first economic emergency lever"
-  },
-  {
-   "time": "2026-11-01 21:24 ET (evening wire ping)",
-   "ref": "Omar Deportation as Pre-Election Spectacle",
-   "change": "confidence 45 \u2014 status emergent",
-   "trigger": "2026-11-01 evening: window closes 11-03 with no Omar-specific spectacle event logged. The late-cycle targeting frame migrated to El-Sayed ('jihadist', Iowa rally) instead \u2014 adjacen"
-  },
-  {
-   "time": "2026-11-01 21:24 ET (evening wire ping)",
-   "ref": "Dehumanization velocity accelerates as a turning approaches",
-   "change": "confidence 20 \u2014 status pending",
-   "trigger": "2026-11-01 evening velocity datapoints (ungraded, logged to series): (a) Trump at Iowa rally repeatedly called Abdul El-Sayed a 'jihadist' two days out \u2014 targeting-frame at a named"
-  },
-  {
-   "time": "2026-10-27 10:20 ET (P21-T ruling)",
-   "ref": "C-002 \u2014 2026 midterm certification contestation (amended claim, successor to C-001)",
-   "change": "confidence 27 \u2014 status pending",
-   "trigger": "PRE-WINDOW (2026-11-02): SG Sauer emergency application to SCOTUS to segregate ~20,000 California mail ballots, filed one day before the Branch A window opens (11-03). Does NOT sco"
-  },
-  {
-   "time": "2026-10-27 09:45 ET (sweep)",
-   "ref": "Domestic Enforcement Groundwork (Anti-Migrant / Anti-Muslim Quiet-Track Base Mobilization)",
-   "change": "confidence 78 \u2014 status emergent",
-   "trigger": "Sweep 2026-10-27: refs 2026-10-26-ice-citizen-harm-compiled-ledger, 2026-10-23-ice-santa-maria-zepeda-citizen-injury, 2026-10-17-ice-lpr-death-andrade-covarrubias, 2026-10-usps-arm"
   }
  ],
  "daily_read": {
@@ -8976,8 +9356,8 @@
   ]
  },
  "counts": {
-  "items_today": 2,
-  "tracked_predictions": 69,
+  "items_today": 13,
+  "tracked_predictions": 74,
   "claims_tested": 28,
   "unscored_predictions": 0
  },
