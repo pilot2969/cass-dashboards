@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-03T08:05 ET"
+  "generated_stamped": "2026-11-03T08:45 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3831,6 +3831,20 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-03",
+   "time_et": "08:45",
+   "track": "domestic / legitimacy \u2014 pre-election legal channel vs certification window",
+   "mget_legs_tested": [
+    "the regime pre-positions a disputed count through the courts",
+    "narrative of stolen elections generates evidence after the fact"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Both pre-election mechanisms were refused inside a week: the Alaska certification-blocking suit dismissed 1 Nov and the California ballot-segregation application denied by Kagan 2 Nov, on top of the 22 Oct nine-state injunction against DHS election field ops. The Alaska filing's structure \u2014 seeking pre-authorisation to refuse certification conditional on a Republican losing \u2014 is a concession-refusal drafted before the votes existed, so refusal in court relocates the contest to the certification window rather than ending it. DOJ's 1,000 all-50-state monitors, confirmed by court order to have no arrest power, convert any polling-place incident into a narratable event with no authoritative adjudicator at the site.",
+   "forward_signal": "If Sullivan trails and a refiled action lands within 72h of the call, the certification-window thesis is live. If every loser concedes cleanly and no filing appears inside a week, the pre-registered concession-refusal fails and the catalyst node should be downgraded.",
+   "confidence_moves": "No card moves before tonight's close. Catalyst node anchored to post-election window, unchanged.",
+   "basename": "2026-11-03-pre-election-legal-channel-closed"
+  },
   {
    "date": "2026-11-02",
    "time_et": "12:20",
@@ -10625,5 +10639,84 @@
     "html": "<p><b>What happened:</b> At his rally in Lubbock, Texas, on Tuesday night, Trump announced he was 'officially terminating Biden's expensive and unnecessary methane regulations to save consumers and energy producers $45 billion in costs.' The EPA proposal, developed with Administrator Lee Zeldin, would substantially loosen rules governing how the oil and gas industry handles methane. POLITICO reported that the announcement came days after a satellite detected a large plume of methane pouring from oil and gas wells near the Lubbock site of the rally. Continental Resources, whose founder Harold Hamm Trump named from the stage in Texas a day earlier, had written to the EPA in April arguing against provisions barring routine flaring.</p>\n\n<p><b>Why it matters:</b> The proximity is the story. A satellite recorded the leak at the site of the announcement that the rule against such leaks was being scrapped \u2014 the evidence and the decision occupying the same coordinates within the same week. Methane is roughly 28 times as potent a greenhouse gas as carbon dioxide over a century, and it is invisible to the eye, which is why it is regulated by measurement. The announcement made the measurement the dispute: a rule that only exists because satellites can see what people cannot is being removed by someone who can now say the plume was nobody's fault in particular.</p>\n\n<p><b>The pattern:</b> Deregulation announced as a price cut. The framing converts an environmental rule into a consumer benefit and borrows the authority of household economics for a decision about industrial practice. That structure has now been used for the methane from wells, the war that supplies the oil, and the dividend that is meant to offset the prices \u2014 three separate policies all sold as the same $45 billion or $5,000 that the listener will somehow receive.</p>\n\n<p><b>What history says:</b> Routine flaring rules were the centrepiece of the 2021-2024 methane strategy, and the industry's own position has been split \u2014 major integrated producers generally supported rules because they hold the cost better than small operators do. Rolling back the rule therefore favours exactly the operators least able to capture the gas, which is the opposite of what the 'energy producers' framing suggests.</p>\n\n<p><b>What we're watching next:</b> Whether the satellite operator publishes the Lubbock plume data and its size; whether the rule's removal survives legal challenge, given that methane emissions cross state lines and the EPA's finding rested on interstate harm; whether European buyers attach monitoring requirements to US gas, which would make the rollback a trade problem; and whether the same stage language is used in the next energy state.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.politico.com/news/2026/10/28/methane-trump-climate-oil-gas-01137313\" target=\"_blank\" rel=\"noopener\">POLITICO</a>, <a href=\"https://www.npr.org/2026/10/28/g-s1-150299/trump-methane-restrictions\" target=\"_blank\" rel=\"noopener\">NPR</a>, <a href=\"https://www.bloomberg.com/news/articles/2026-10-28/trump-proposes-relaxing-epa-methane-controls-on-oil-and-gas-operations\" target=\"_blank\" rel=\"noopener\">Bloomberg</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/27/trump-biden-era-methane-emissions-rules-oil-gas\" target=\"_blank\" rel=\"noopener\">The Guardian</a></p>"
    }
   ]
+ },
+ "counts": {
+  "items_today": 1,
+  "tracked_predictions": 69,
+  "claims_tested": 28,
+  "unscored_predictions": 0
+ },
+ "institutions": {
+  "reviewed": "2026-11-02",
+  "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
+  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
+  "institutions": [
+   {
+    "name": "Federal Courts",
+    "score": 81,
+    "band": "Critical",
+    "delta": 1,
+    "why": "Delta +1 from 80. Two circuit-level checks held: Judge Carter refused DOJ's TRO (10-28) and the Ninth Circuit denied a second time with no emergency application filed through 11-01 - the appellate record is intact and DOJ has not asked the Supreme Court. But the filing became criminal process: roughly three dozen federal subpoenas to election officials in Alaska, a parallel California probe, and a special master reaching into DOJ/DHS list compilation. ATF ceasing NFA enforcement continues. Courts still enjoin; the same docket is now being used to make election administration itself the defendant.",
+    "prev_score": 80
+   },
+   {
+    "name": "Congress",
+    "score": 72,
+    "band": "Warning",
+    "delta": 0,
+    "why": "Re-stated at 72. No new capture event in the window. GOP majority stayed passive through the post-Doha strike clock without an AUMF or war-powers motion; Hegseth's GFO slot cut continues to bypass appropriations. Minority oversight is alive (HJC Epstein report, Maxwell testimony pending). Paralysis is intact, neither worse nor better.",
+    "prev_score": 72
+   },
+   {
+    "name": "Election Offices",
+    "score": 81,
+    "band": "Critical",
+    "delta": 3,
+    "why": "Delta +3 from 78. Federal criminal subpoenas hit election officials in two states inside the final week; county GOP suits to block certification are live; USPS RTO cuts are producing late-postmark rejections; the FEC suffered a 41-hour cyberattack outage; roughly 1,000 federal observers deploy with the Neff declaration on the record. Pressure is now litigation plus logistics plus criminal process simultaneously.",
+    "prev_score": 78
+   },
+   {
+    "name": "Health Agencies",
+    "score": 80,
+    "band": "Critical",
+    "delta": 0,
+    "why": "Re-stated at 80. No new capture event logged in the window. CDC outbreak-capacity watch remains open; Medicaid work-requirements-for-terminal-illness rollout continues. Chronic, not acute.",
+    "prev_score": 80
+   },
+   {
+    "name": "Civil Service",
+    "score": 90,
+    "band": "Critical",
+    "delta": 1,
+    "why": "Delta +1 from 89. DHS disclosed an Okta-compromise exposure of roughly 41,000 employee records ('Icepick') - the workforce itself is now the breach surface and the message. Sylvia's criminal referral reinforces that lawful dissent is evidence. No new litigation relief for career staff.",
+    "prev_score": 89
+   },
+   {
+    "name": "Military Leadership",
+    "score": 72,
+    "band": "Warning",
+    "delta": 4,
+    "why": "Delta +4 from 68. The J5 director was removed and criminally referred in the final week of the strike clock - the office that plans the war is being purged while the operation is being readied. No uniformed public non-concurrence. Commissary cyberattack plus heat-ray/ADS gear to DHS keep the domestic-adjacent posture. Senior-officer acquiescence remains load-bearing, but the purge moved from policy staff to planners.",
+    "prev_score": 68
+   },
+   {
+    "name": "Dollar & Credit",
+    "score": 65,
+    "band": "Warning",
+    "delta": 3,
+    "why": "Delta +3 from 62. AI-capex growth scare: Alphabet's worst session inside the window, Caterpillar down ~9%, Nasdaq -1.4% - the buildout repriced as a credit story, not a demand story. Oil closed the Iran window high but unbroken; the gas-tax suspension still suppresses the price signal; Russia sanctions architecture erodes. Nothing official prices the chokepoint.",
+    "prev_score": 62
+   },
+   {
+    "name": "Department of Education",
+    "score": 86,
+    "band": "Critical",
+    "delta": 0,
+    "why": "Re-stated at 86. No new events logged in the window. Dismantlement-as-capture continues at the previously assessed 10-14 depth.",
+    "prev_score": 86
+   }
+  ],
+  "age_days": 1,
+  "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  }
 }
