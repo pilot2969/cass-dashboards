@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-03T08:46 ET"
+  "generated_stamped": "2026-11-03T08:49 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3428,6 +3428,74 @@
    "forward_signal": "If Sullivan trails and a refiled action lands within 72h of the call, the certification-window thesis is live. If every loser concedes cleanly and no filing appears inside a week, the pre-registered concession-refusal fails and the catalyst node should be downgraded.",
    "confidence_moves": "No card moves before tonight's close. Catalyst node anchored to post-election window, unchanged.",
    "basename": "2026-11-03-pre-election-legal-channel-closed"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "election-day administration \u2014 federal observer deployment as witness generator",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "DOJ fields ~1,000 monitors across all fifty states, the largest deployment in the programme's history and the first national one; the official number was revised to ~900 at a Monday hearing. A federal judge ordered a status report early 11-03 explaining how the department verified that no monitor is a law-enforcement officer with arrest authority. The distinction matters because a monitor without arrest power is a witness and a narrator, not an actor: the observation programme that historically existed to protect access is now held by an administration that has spent a year arguing the rolls are contaminated, so the same instrument does the opposite job. At ~1,000 observers in a country where a large share of one party already believes the last election was stolen, the deployment manufactures unverified testimony at scale, and 1,000 people who cannot arrest are an evidence machine for whoever reaches a microphone first.",
+   "forward_signal": "(a) whether the status report discloses any sworn agents among the monitors; (b) whether officials in the nine states covered by the 10-22 DHS injunction try to bar monitors at the door; (c) whether any polling-place dispute tonight is narrated to the public by an observer rather than an election administrator \u2014 that handoff is the discriminating observation.",
+   "confidence_moves": "Catalyst node held at 70: legal channel now 0-for-3 pre-election while pre-position continues. No other card moved.",
+   "basename": "2026-11-03-doj-monitors-all-fifty-states"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "election-day administration \u2014 record early vote plus machinery failure as contested-count substrate",
+   "mget_legs_tested": [
+    "certification contestation groundwork"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Roughly 54M early ballots cast as of this morning per the UF Election Lab tally, already past the 2022 early total and on pace to beat 2022 turnout overall. In Westchester County NY, scanners jammed at multiple polling places this morning, attributed to ballot thickness; voters were given paper ballots for orange bags or told to return later, and the state AG is reviewing. NY polls close 21:00 ET, NJ and CT 20:00 ET. Record turnout plus machinery failure is the most ordinary pair of events in American election administration and simultaneously the raw material of every contested count \u2014 a jam in a county of a million is maintenance, the same jam filmed with no official explanation on site is a story about whether votes are being counted, and what decides which is message discipline rather than the machine. With more than half the ballots already in, tonight's first numbers are the red-mirage shape, which is where fraud narratives are built: not from the final result but from the shape of the night.",
+   "forward_signal": "(a) whether Westchester stays local and explained; (b) whether any close Senate state reports late absentee totals that flip a lead after 23:00; (c) whether the first national description of the count comes from an administrator or a campaign.",
+   "confidence_moves": "Election-day violence card held at 20. Catalyst node held 70.",
+   "basename": "2026-11-03-early-vote-record-westchester-jam"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "substrate shock \u2014 price repricing on expectation while the physical series is unchanged",
+   "mget_legs_tested": [
+    "narrative sets price ahead of physical flow",
+    "regime survival through retail gasoline suppression"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Brent ~$106, having given back only ~$2 of Monday's 7.6% collapse; WTI ~$96. The physical series did not move at all: last recorded transit count 2 vessels (10-25) against an 85/day pre-crisis baseline, >100 vessels holding off berth, 247 days of effective closure by that measure. The market is trading a negotiation it believes is real rather than barrels that exist \u2014 the same mechanism as Monday, now with a floor under it, and untroubled by the exchange of fire. The curve is the instrument: a falling front month with a widening January spread means traders are betting on settlement timing; a narrowing spread means they have stopped believing the blockage matters. Those are opposite beliefs that print similar headlines.",
+   "forward_signal": "Next transit count (the only number describing reality rather than belief); whether war-risk premium and diesel crack \u2014 which track physical scarcity, not futures \u2014 move on diplomatic headlines; whether front-month holds $100 while the queue stays above 100 vessels.",
+   "confidence_moves": "SPR runway card held at 30, price leg deflating on diplomacy while the physical leg is intact. No change.",
+   "basename": "2026-11-03-oil-curve-vs-physical-strait"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "certification contestation \u2014 third pre-election avenue closes, pressure relocates to the count",
+   "mget_legs_tested": [
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "SCOTUS 11-02 denied the DOJ emergency application on ~20,000 California mail ballots in a one-line order \u2014 presented to Kagan, referred by her to the full Court, denied without opinion, hours after filing. That follows Alaska, where Judge Gleason dismissed a suit on 11-01 that did not allege fraud and did not seek to stop anyone voting: it asked a court in advance for permission to refuse certification if Republican Sen. Dan Sullivan lost. Together with the 10-22 nine-state DHS injunction, the pre-election legal strategy is 0-for-3. The Alaska filing is the diagnostic \u2014 a concession-refusal drafted before the votes existed, and it failed on the pleadings rather than the facts. Reading: the aim was always past election day, and the certification window is legally better ground than the pre-election one, because a challenge there contests a count rather than a right, and refusal to certify is a decision a state official can simply make and defend slowly. The concession is the cheap invisible infrastructure that makes the rest work, and it is now the thing pre-drafted for withdrawal.",
+   "forward_signal": "(a) whether Dan Sullivan concedes cleanly and how fast if he trails; (b) whether any certification challenge lands within 72 hours of a result \u2014 the trigger, not the result; (c) whether official language tonight describes the vote as administered or as contested.",
+   "confidence_moves": "C-002 amended claim (conf 27) unchanged: pre-window conduct, does not score until Branch A opens. Catalyst node held 70.",
+   "basename": "2026-11-03-scotus-denies-california-ballots"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "iran escalation \u2014 crewed-aircraft threshold crossed, answer calibrated to close the incident",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "narrative sets price ahead of physical flow"
+   ],
+   "verdict": "neutral",
+   "reasoning": "11-02: IRGC claims it destroyed an MQ-9 east of Hormuz and captured two reconnaissance drones intact by electronic warfare south of Qeshm; US officials confirm the drone loss and that two crewed fighter jets over the strait were shot at and missed. US answered with limited strikes on Qeshm launch sites \u2014 explosions reported on the island, no claim of decision-maker targeting. Shooting at crewed aircraft crosses a line that shooting at a drone does not, and the reply was calibrated to close rather than open. The air snapshot at 02:20Z shows no build-up: 141 unique, no bombers off home station, no fighter massing, no sustained eastbound tanker stream. Absence is the finding \u2014 the promised post-vote campaign is neither staged nor imminent. Also logged: an Indian seafarer killed in the strait, an Iranian vessel rescued by the Indian Navy, a sanctioned shadow-fleet tanker attacked nearby, and an uncorroborated Iranian claim of three tankers mining on unauthorized routes.",
+   "forward_signal": "(a) corroboration of the mines claim by any insurer, port authority or naval mission; (b) whether the Guard's next action is another unmanned platform or something crewed; (c) whether an eastbound tanker stream appears \u2014 the physical evidence of a campaign rather than a promise; (d) arrival of the third carrier group, absent which high-intensity operations are not supportable.",
+   "confidence_moves": "Naval-escort card remains failed (window closed 11-01). No change to catalyst node or SPR.",
+   "basename": "2026-11-03-us-strikes-qeshm-iran"
   },
   {
    "date": "2026-11-02",
@@ -10146,5 +10214,84 @@
     "html": "<p><b>What happened:</b> Roughly 54 million Americans cast ballots before Election Day, already past the total early vote of the last midterms, on pace to beat 2022 turnout. In New York's Westchester County, voting machines at multiple polling places were reported broken this morning; officials and local reporting attribute it to the thickness of the ballots, with voters offered paper ballots to be placed in orange bags, or told to return later. The New York Attorney General's office is looking into it. Polls in New York are open until 9pm Eastern; New Jersey and Connecticut close at 8pm.</p>\n\n<p><b>Why it matters:</b> Heavy turnout and machinery failure are the most ordinary pair of events in American election administration, and they are also the raw material of every contested count. A jammed scanner in a county of a million people is a maintenance problem. The same jam, filmed, with no official explanation on site, is a story about whether votes are being counted. What decides which one it becomes is not the machine but the message discipline of the officials standing next to it \u2014 and this year those officials share the pavement with a thousand federally deployed observers.</p>\n\n<p><b>The pattern:</b> The early vote changes what Election Day means. When more than half the ballots are already in, the reporting we watch tonight is mostly a count of the remaining share, and the first numbers of the evening will be mail and early ballots from whichever states process them first. That produces early leads that do not predict outcomes and, more importantly, produces a window in which one candidate appears to be winning and then is not. That window is where fraud narratives are built \u2014 not from the final result, but from the shape of the night.</p>\n\n<p><b>What history says:</b> In 2020 the \"red mirage\" \u2014 in-person votes counted first, mail ballots after \u2014 was predicted by analysts and still became the factual core of a claim that the count had been stolen, because the claim did not require the pattern to be unexplained, only to exist. In Florida 2000 the ballot was the problem: a design that produced ambiguous marks, and a contest that turned on how they were interpreted. The difference between that crisis and 2020 is that 2000 was about reading ballots and 2020 was about believing counters. A thick ballot jamming a scanner sits uncomfortably between the two.</p>\n\n<p><b>What we're watching next:</b> Whether Westchester's problem stays local and explained. Whether any state with a close Senate race reports late-arriving absentee totals that change a lead after 11pm. And whether the first national description of tonight's count comes from an election administrator or from a campaign.</p>\n\n<p><b>Sources:</b> <a href=\"https://www.nbcnewyork.com/elections/live-updates-election-day-nyc-nj-poll-vote-governor-congress/6566156/\" target=\"_blank\" rel=\"noopener\">NBC New York</a>, <a href=\"https://abc7ny.com/live-updates/election-day-2026-what-voters-need-know-ny-nj-ct/20008999/\" target=\"_blank\" rel=\"noopener\">ABC7 New York</a>, <a href=\"https://www.theguardian.com/us-news/2026/oct/31/early-voting-midterms\" target=\"_blank\" rel=\"noopener\">The Guardian (early vote)</a>, <a href=\"https://www.usatoday.com/story/news/politics/elections/2026/11/02/early-voting-data-2026-midterm-elections/92562865007/\" target=\"_blank\" rel=\"noopener\">USA Today</a></p>"
    }
   ]
+ },
+ "counts": {
+  "items_today": 6,
+  "tracked_predictions": 69,
+  "claims_tested": 28,
+  "unscored_predictions": 0
+ },
+ "institutions": {
+  "reviewed": "2026-11-02",
+  "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
+  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
+  "institutions": [
+   {
+    "name": "Federal Courts",
+    "score": 81,
+    "band": "Critical",
+    "delta": 1,
+    "why": "Delta +1 from 80. Two circuit-level checks held: Judge Carter refused DOJ's TRO (10-28) and the Ninth Circuit denied a second time with no emergency application filed through 11-01 - the appellate record is intact and DOJ has not asked the Supreme Court. But the filing became criminal process: roughly three dozen federal subpoenas to election officials in Alaska, a parallel California probe, and a special master reaching into DOJ/DHS list compilation. ATF ceasing NFA enforcement continues. Courts still enjoin; the same docket is now being used to make election administration itself the defendant.",
+    "prev_score": 80
+   },
+   {
+    "name": "Congress",
+    "score": 72,
+    "band": "Warning",
+    "delta": 0,
+    "why": "Re-stated at 72. No new capture event in the window. GOP majority stayed passive through the post-Doha strike clock without an AUMF or war-powers motion; Hegseth's GFO slot cut continues to bypass appropriations. Minority oversight is alive (HJC Epstein report, Maxwell testimony pending). Paralysis is intact, neither worse nor better.",
+    "prev_score": 72
+   },
+   {
+    "name": "Election Offices",
+    "score": 81,
+    "band": "Critical",
+    "delta": 3,
+    "why": "Delta +3 from 78. Federal criminal subpoenas hit election officials in two states inside the final week; county GOP suits to block certification are live; USPS RTO cuts are producing late-postmark rejections; the FEC suffered a 41-hour cyberattack outage; roughly 1,000 federal observers deploy with the Neff declaration on the record. Pressure is now litigation plus logistics plus criminal process simultaneously.",
+    "prev_score": 78
+   },
+   {
+    "name": "Health Agencies",
+    "score": 80,
+    "band": "Critical",
+    "delta": 0,
+    "why": "Re-stated at 80. No new capture event logged in the window. CDC outbreak-capacity watch remains open; Medicaid work-requirements-for-terminal-illness rollout continues. Chronic, not acute.",
+    "prev_score": 80
+   },
+   {
+    "name": "Civil Service",
+    "score": 90,
+    "band": "Critical",
+    "delta": 1,
+    "why": "Delta +1 from 89. DHS disclosed an Okta-compromise exposure of roughly 41,000 employee records ('Icepick') - the workforce itself is now the breach surface and the message. Sylvia's criminal referral reinforces that lawful dissent is evidence. No new litigation relief for career staff.",
+    "prev_score": 89
+   },
+   {
+    "name": "Military Leadership",
+    "score": 72,
+    "band": "Warning",
+    "delta": 4,
+    "why": "Delta +4 from 68. The J5 director was removed and criminally referred in the final week of the strike clock - the office that plans the war is being purged while the operation is being readied. No uniformed public non-concurrence. Commissary cyberattack plus heat-ray/ADS gear to DHS keep the domestic-adjacent posture. Senior-officer acquiescence remains load-bearing, but the purge moved from policy staff to planners.",
+    "prev_score": 68
+   },
+   {
+    "name": "Dollar & Credit",
+    "score": 65,
+    "band": "Warning",
+    "delta": 3,
+    "why": "Delta +3 from 62. AI-capex growth scare: Alphabet's worst session inside the window, Caterpillar down ~9%, Nasdaq -1.4% - the buildout repriced as a credit story, not a demand story. Oil closed the Iran window high but unbroken; the gas-tax suspension still suppresses the price signal; Russia sanctions architecture erodes. Nothing official prices the chokepoint.",
+    "prev_score": 62
+   },
+   {
+    "name": "Department of Education",
+    "score": 86,
+    "band": "Critical",
+    "delta": 0,
+    "why": "Re-stated at 86. No new events logged in the window. Dismantlement-as-capture continues at the previously assessed 10-14 depth.",
+    "prev_score": 86
+   }
+  ],
+  "age_days": 1,
+  "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  }
 }
