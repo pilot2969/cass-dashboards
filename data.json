@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-02T13:57 ET"
+  "generated_stamped": "2026-11-03T08:49 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3838,10 +3838,95 @@
  ],
  "mget_ledger": [
   {
-   "date": "2026-09-15",
-   "time_et": "14:42",
-   "track": "courts-elections",
-   "mget_legs_tested": [],
+   "date": "2026-11-03",
+   "time_et": "08:45",
+   "track": "domestic / legitimacy \u2014 pre-election legal channel vs certification window",
+   "mget_legs_tested": [
+    "the regime pre-positions a disputed count through the courts",
+    "narrative of stolen elections generates evidence after the fact"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Both pre-election mechanisms were refused inside a week: the Alaska certification-blocking suit dismissed 1 Nov and the California ballot-segregation application denied by Kagan 2 Nov, on top of the 22 Oct nine-state injunction against DHS election field ops. The Alaska filing's structure \u2014 seeking pre-authorisation to refuse certification conditional on a Republican losing \u2014 is a concession-refusal drafted before the votes existed, so refusal in court relocates the contest to the certification window rather than ending it. DOJ's 1,000 all-50-state monitors, confirmed by court order to have no arrest power, convert any polling-place incident into a narratable event with no authoritative adjudicator at the site.",
+   "forward_signal": "If Sullivan trails and a refiled action lands within 72h of the call, the certification-window thesis is live. If every loser concedes cleanly and no filing appears inside a week, the pre-registered concession-refusal fails and the catalyst node should be downgraded.",
+   "confidence_moves": "No card moves before tonight's close. Catalyst node anchored to post-election window, unchanged.",
+   "basename": "2026-11-03-pre-election-legal-channel-closed"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "election-day administration \u2014 federal observer deployment as witness generator",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "DOJ fields ~1,000 monitors across all fifty states, the largest deployment in the programme's history and the first national one; the official number was revised to ~900 at a Monday hearing. A federal judge ordered a status report early 11-03 explaining how the department verified that no monitor is a law-enforcement officer with arrest authority. The distinction matters because a monitor without arrest power is a witness and a narrator, not an actor: the observation programme that historically existed to protect access is now held by an administration that has spent a year arguing the rolls are contaminated, so the same instrument does the opposite job. At ~1,000 observers in a country where a large share of one party already believes the last election was stolen, the deployment manufactures unverified testimony at scale, and 1,000 people who cannot arrest are an evidence machine for whoever reaches a microphone first.",
+   "forward_signal": "(a) whether the status report discloses any sworn agents among the monitors; (b) whether officials in the nine states covered by the 10-22 DHS injunction try to bar monitors at the door; (c) whether any polling-place dispute tonight is narrated to the public by an observer rather than an election administrator \u2014 that handoff is the discriminating observation.",
+   "confidence_moves": "Catalyst node held at 70: legal channel now 0-for-3 pre-election while pre-position continues. No other card moved.",
+   "basename": "2026-11-03-doj-monitors-all-fifty-states"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "election-day administration \u2014 record early vote plus machinery failure as contested-count substrate",
+   "mget_legs_tested": [
+    "certification contestation groundwork"
+   ],
+   "verdict": "neutral",
+   "reasoning": "Roughly 54M early ballots cast as of this morning per the UF Election Lab tally, already past the 2022 early total and on pace to beat 2022 turnout overall. In Westchester County NY, scanners jammed at multiple polling places this morning, attributed to ballot thickness; voters were given paper ballots for orange bags or told to return later, and the state AG is reviewing. NY polls close 21:00 ET, NJ and CT 20:00 ET. Record turnout plus machinery failure is the most ordinary pair of events in American election administration and simultaneously the raw material of every contested count \u2014 a jam in a county of a million is maintenance, the same jam filmed with no official explanation on site is a story about whether votes are being counted, and what decides which is message discipline rather than the machine. With more than half the ballots already in, tonight's first numbers are the red-mirage shape, which is where fraud narratives are built: not from the final result but from the shape of the night.",
+   "forward_signal": "(a) whether Westchester stays local and explained; (b) whether any close Senate state reports late absentee totals that flip a lead after 23:00; (c) whether the first national description of the count comes from an administrator or a campaign.",
+   "confidence_moves": "Election-day violence card held at 20. Catalyst node held 70.",
+   "basename": "2026-11-03-early-vote-record-westchester-jam"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "substrate shock \u2014 price repricing on expectation while the physical series is unchanged",
+   "mget_legs_tested": [
+    "narrative sets price ahead of physical flow",
+    "regime survival through retail gasoline suppression"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Brent ~$106, having given back only ~$2 of Monday's 7.6% collapse; WTI ~$96. The physical series did not move at all: last recorded transit count 2 vessels (10-25) against an 85/day pre-crisis baseline, >100 vessels holding off berth, 247 days of effective closure by that measure. The market is trading a negotiation it believes is real rather than barrels that exist \u2014 the same mechanism as Monday, now with a floor under it, and untroubled by the exchange of fire. The curve is the instrument: a falling front month with a widening January spread means traders are betting on settlement timing; a narrowing spread means they have stopped believing the blockage matters. Those are opposite beliefs that print similar headlines.",
+   "forward_signal": "Next transit count (the only number describing reality rather than belief); whether war-risk premium and diesel crack \u2014 which track physical scarcity, not futures \u2014 move on diplomatic headlines; whether front-month holds $100 while the queue stays above 100 vessels.",
+   "confidence_moves": "SPR runway card held at 30, price leg deflating on diplomacy while the physical leg is intact. No change.",
+   "basename": "2026-11-03-oil-curve-vs-physical-strait"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "certification contestation \u2014 third pre-election avenue closes, pressure relocates to the count",
+   "mget_legs_tested": [
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "SCOTUS 11-02 denied the DOJ emergency application on ~20,000 California mail ballots in a one-line order \u2014 presented to Kagan, referred by her to the full Court, denied without opinion, hours after filing. That follows Alaska, where Judge Gleason dismissed a suit on 11-01 that did not allege fraud and did not seek to stop anyone voting: it asked a court in advance for permission to refuse certification if Republican Sen. Dan Sullivan lost. Together with the 10-22 nine-state DHS injunction, the pre-election legal strategy is 0-for-3. The Alaska filing is the diagnostic \u2014 a concession-refusal drafted before the votes existed, and it failed on the pleadings rather than the facts. Reading: the aim was always past election day, and the certification window is legally better ground than the pre-election one, because a challenge there contests a count rather than a right, and refusal to certify is a decision a state official can simply make and defend slowly. The concession is the cheap invisible infrastructure that makes the rest work, and it is now the thing pre-drafted for withdrawal.",
+   "forward_signal": "(a) whether Dan Sullivan concedes cleanly and how fast if he trails; (b) whether any certification challenge lands within 72 hours of a result \u2014 the trigger, not the result; (c) whether official language tonight describes the vote as administered or as contested.",
+   "confidence_moves": "C-002 amended claim (conf 27) unchanged: pre-window conduct, does not score until Branch A opens. Catalyst node held 70.",
+   "basename": "2026-11-03-scotus-denies-california-ballots"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "08:44",
+   "track": "iran escalation \u2014 crewed-aircraft threshold crossed, answer calibrated to close the incident",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "narrative sets price ahead of physical flow"
+   ],
+   "verdict": "neutral",
+   "reasoning": "11-02: IRGC claims it destroyed an MQ-9 east of Hormuz and captured two reconnaissance drones intact by electronic warfare south of Qeshm; US officials confirm the drone loss and that two crewed fighter jets over the strait were shot at and missed. US answered with limited strikes on Qeshm launch sites \u2014 explosions reported on the island, no claim of decision-maker targeting. Shooting at crewed aircraft crosses a line that shooting at a drone does not, and the reply was calibrated to close rather than open. The air snapshot at 02:20Z shows no build-up: 141 unique, no bombers off home station, no fighter massing, no sustained eastbound tanker stream. Absence is the finding \u2014 the promised post-vote campaign is neither staged nor imminent. Also logged: an Indian seafarer killed in the strait, an Iranian vessel rescued by the Indian Navy, a sanctioned shadow-fleet tanker attacked nearby, and an uncorroborated Iranian claim of three tankers mining on unauthorized routes.",
+   "forward_signal": "(a) corroboration of the mines claim by any insurer, port authority or naval mission; (b) whether the Guard's next action is another unmanned platform or something crewed; (c) whether an eastbound tanker stream appears \u2014 the physical evidence of a campaign rather than a promise; (d) arrival of the third carrier group, absent which high-intensity operations are not supportable.",
+   "confidence_moves": "Naval-escort card remains failed (window closed 11-01). No change to catalyst node or SPR.",
+   "basename": "2026-11-03-us-strikes-qeshm-iran"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "21:20",
+   "track": "iran / oil \u2014 narrative-to-material transmission",
+   "mget_legs_tested": [
+    "narrative sets price ahead of physical flow",
+    "regime survival through retail gasoline suppression"
+   ],
    "verdict": "confirms",
    "reasoning": "Update to this morning's 09:45 entry. Lt. Gen. Brett Sylvia, removed as J5 director for strategy, plans and policy, is now reported to have been referred to DOJ for criminal prosecution, with reporting that he failed polygraph examinations in the leak inquiry and that the Pentagon's case rests on disclosures touching both the Iran and Ukraine wars \u2014 the two files that define the current strike calendar. Hegseth's public framing is 'severe misconduct.' Two structural facts survive the noise. First, the seat is empty at the moment the President is weighing renewed strikes, which is precisely the office that would produce the plan and the options memo. Second, the mechanism of removal is lie-detector failure plus a criminal referral, which converts a personnel decision into a deterrent: every remaining J5 and Joint Staff officer now knows that contact with a reporter is a polygraph and a prosecutor. That is a chilling effect on the exact function \u2014 dissent and options analysis \u2014 that a strike decision needs most. The substantive question is not whether Sylvia leaked; it is what the plans office can still say out loud between now and Nov 3. || 23:12 REVISION \u2014 THE PREDICATE IS NOW ESTABLISHED, NOT ALLEGED, AND MY 22:49 ENTRY IMPLIED OTHERWISE. Axios obtained the internal investigation report. It says Sylvia ADMITTED, on video, to unauthorized disclosures to two reporters at separate outlets across roughly a year, beginning as early as June 2025 \u2014 i.e. BEFORE mainstream outlets were removed from the Pentagon \u2014 and continuing after via Signal and, once, at a Silver Diner in Arlington, because one reporter's Pentagon access had been revoked between meetings. Per the report he took notes while reviewing a classified SECRET report and orally relayed detail on US assistance to Ukraine; he did not route anything through Public Affairs. He also admitted being one of the '20 officials' quoted in a story criticizing Pentagon leadership. Polygraph count is four per Axios, not three. Officials suspect he deleted a Signal thread and framed it as accidental. Separately: acting Army Secretary Adam Telle's office allegedly lobbied the Joint Staff for a supportive statement, which was then retracted once the real reason for the firing reached the staff; the Army denies it flatly as 'a coordinated campaign of lies.' CORRECTION I OWE THE RECORD: I wrote at 22:49 that the mechanism was doing work the evidence wasn't. That was wrong on this item \u2014 there is an admission. The chill argument still stands, but it now stands on a different fact: what was leaked was a planner telling reporters what the plans were, in a building that had already banned reporters from the corridors. The enclosure produced the diner. That is the finding, and it is the opposite of the intended effect: revoking press access did not stop disclosure, it moved disclosure somewhere unrecorded and unescorted. Also material: this is the FOURTH leak-related removal under Hegseth and the first referral of a senior uniformed officer for prosecution \u2014 the first use of the criminal instrument rather than the personnel one.",
    "forward_signal": "Whether an acting J5 is named and from where (a loyalist acting appointment is the tell); whether DOJ confirms the referral on the record; whether any other Joint Staff or combatant-command officer is removed within seven days; whether the strike package's target set narrows to options that require less planning staff input. | Added: whether DOJ opens a formal case or declines (the admission makes a declination the interesting outcome \u2014 a declined referral would suggest the disclosure was embarrassing rather than damaging); whether any of the two reporters or the book project is named or subpoenaed; whether the Telle statement fight produces documents; whether Sylvia's retirement status (ABC reports he has retired) forecloses court-martial and leaves only civilian prosecution.",
@@ -8267,7 +8352,7 @@
   ]
  },
  "counts": {
-  "items_today": 2,
+  "items_today": 6,
   "tracked_predictions": 69,
   "claims_tested": 28,
   "unscored_predictions": 0
@@ -8342,7 +8427,7 @@
     "prev_score": 86
    }
   ],
-  "age_days": 0,
+  "age_days": 1,
   "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  }
 }
