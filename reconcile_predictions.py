@@ -60,6 +60,32 @@ for p in seen.values():
             problems.append(f"{p['basename']}.confidence: {p.get('confidence')!r} -> {c!r}")
         p["confidence"] = c
 
+# 3. ADDITIONS. predictions[] had no add path at all: reconcile could update and
+#    dedupe cards but never admit a new one, so a card registered in /space could
+#    not reach the board unless the other writer ("Board refresh from Rool Machine
+#    /space export") happened to append it — which is also what produced the
+#    duplicates this file exists to remove. /space is the register of record, so a
+#    card present there and absent here is drift, not a card to drop silently.
+#    (2026-11-03: the turnout-floor card hit exactly this — registered at 14:05 ET,
+#    still absent from the board at 14:40 with no error anywhere.)
+_internal = set()
+if os.path.exists('internal_cards.txt'):
+    _internal = {l.strip() for l in open('internal_cards.txt') if l.strip()}
+for _f in sorted(__import__('glob').glob(P + '*.json')):
+    if _f.endswith('.schema.json'):
+        continue
+    _bn = os.path.basename(_f)[:-5]
+    if _bn in _internal or _bn in seen:
+        continue
+    o = json.load(open(_f))
+    entry = {k: v for k, v in o.items() if k != 'confidence_score'}
+    entry['basename'] = _bn
+    entry['confidence'] = o.get('confidence_score')
+    if isinstance(entry['confidence'], (int, float)) and 0 < entry['confidence'] <= 1:
+        entry['confidence'] = round(entry['confidence'] * 100)
+    seen[_bn] = entry
+    problems.append(f"{_bn}: in /space, absent from predictions[] -> added")
+
 hard = [x for x in problems if " but not in /space" in x]
 if check:
     for x in problems[:12]:
