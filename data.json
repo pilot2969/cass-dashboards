@@ -3,7 +3,8 @@
   "name": "CASS Dashboards",
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
-  "source": "Rool Machine space export"
+  "source": "Rool Machine space export",
+  "generated_stamped": "2026-11-03T08:46 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -52,7 +53,14 @@
    ],
    "confirmer": "ORIENTATION CONFIRMER (framework card, not event card) per Confirmation Standard. CONFIRM: the live series produces events matching the 1859-orientation profile (failed-compromise dynamics, party-system fracture along the registered cleavage, pre-violence institutional collapse signals) in at least TWO registered domains - confirming the orientation mapping, not any single event. THE DISCOUNT: orientation sets are unfalsifiable if confirmation is event-by-event; the TWO-DOMAIN requirement is the falsifiable structure. Single-domain matches are Tier 1.",
    "confirmer_base_rate": "Tier 2: moderate (~40-50% naive for two-domain convergence in-window). Tier 1: high (~65-75%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-15",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "2026-09-09-90day-phase4-forecast",
@@ -93,7 +101,14 @@
    ],
    "confirmer": "Branch A confirmation: certification of the 2026 midterms contested by regime apparatus, or visible security deployment / polling-infrastructure confrontation, or certification refused/indefinitely delayed. Branch B confirmation: certification completes with litigation noise but accepted outcome AND splitting-base indicators accelerate (polling divergence from governance divergence widening).",
    "confirmer_base_rate": "Contested certification in any given federal cycle: historical base rate near 0% outside 1876/2000/2020; Branch B (deepened polarization without rupture) carries a materially higher naive rate \u2014 confirmation upgrades confidence only if registered-specificity holds",
-   "confirmation_window": "Nov 3, 2026 \u2013 Jan 6, 2027 (certification window)"
+   "confirmation_window": "Nov 3, 2026 \u2013 Jan 6, 2027 (certification window)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-11-03",
+   "window_basis": "90-day detonation window ending at the joint-session count.",
+   "expiry_date": "2027-01-06",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "2026-09-22-caredock-lockin-p006",
@@ -123,7 +138,12 @@
    ],
    "confirmer": "Any one of the three lock-in conditions fires: (1) internal attempt to renegotiate exit terms before month 24; (2) genuine price increase or scope reduction at renewal tied to the guarantee terms; (3) measurable attrition of Riverside practices citing contract terms as a stated reason.",
    "confirmer_base_rate": "Contract-dispute events of this class in unstructured deals: informal industry base rate roughly 20-30% over 24 months \u2014 above the 60% horoscope line only marginally, so confirmation upgrades modestly; the real grading event remains the 24-month clean-run falsifier",
-   "confirmation_window": "Signature date + 24 months"
+   "confirmation_window": "Signature date + 24 months",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "External contractual trigger (signature date) + 24 months",
+   "window_basis": "NO DATE YET: signature has not occurred. Cannot expire; must be re-registered with a date or quarantined.",
+   "expiry_basis": "No expiry \u2014 no window."
   },
   {
    "basename": "2026-10-15-omar-deportation-spectacle-pre-election",
@@ -137,7 +157,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-11-03",
-   "grace_horizon": "0 \u2014 fixed statutory/constitutional date; a late hit is not the same event",
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
    "quarantine_reason": null,
@@ -161,7 +181,14 @@
    ],
    "confirmer": "Armed/visual enforcement event on Omar (or announced removal staging) before Nov 3 following the WSJ-sourced citizenship-strip track, in the spectacle format SA specified.",
    "confirmer_base_rate": "Spectacle enforcement against a sitting federal legislator before a federal election: near-zero historical base rate; low naive rate raises the confirmation bar \u2014 timing specificity (pre-election) and format specificity (spectacle) must BOTH hold.",
-   "confirmation_window": "2026-10-15 to 2026-11-03"
+   "confirmation_window": "2026-10-15 to 2026-11-03",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-10-15",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-11-03",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "2026-10-15-omar-deportation-spectacle-pre-election",
@@ -251,7 +278,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. Tier 1 - pre-build tell (>=2 national-level actors, pre-Nov 3): mechanism activation only, does NOT confirm headline. Tier 2 - certification-domain actions (a) or (b): outcome events, confirm the headline. DEDUP: kinetic election-day events confirm the child card (election-day-violence-2026), not this one; this card confirms only on apparatus/certification behavior.",
    "confirmer_base_rate": "Naive base for certification-domain contestation by a named actor: ~25-35%. Pre-build tell conditional ~60% (2020 precedent). Union pricing at 50 as of 2026-10-07 evening reflects all three routes plus one week of accelerating pre-positioning evidence.",
-   "confirmation_window": "2026-10-15 (window opens) through 2026-12-14 (statutory certification deadline) or earlier on Tier-2 firing"
+   "confirmation_window": "2026-10-15 (window opens) through 2026-12-14 (statutory certification deadline) or earlier on Tier-2 firing",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-10-15",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-12-14",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "9-11-inversion-false-flag",
@@ -291,7 +325,14 @@
    ],
    "confirmer": "TIERED with ATTRIBUTION-DISCIPLINE NOTE per Confirmation Standard. TIER 2 (headline - inversion confirmed): a primed-attribution event occurs AND the registered rejection dynamics materialize (public/institutional rejection of the attribution within the registered window, independent-investigation demand, or attribution collapse under scrutiny). TIER 1 (mechanism tells): priming activity detected (pre-positioning narratives, attribution infrastructure warming). THE DISCIPLINE: the card at 35% is a tail claim with high adversarial-game risk - adjudication requires the REJECTION half to be observed, not just the event, since a clean attribution accepted by the public would actually falsify the inversion thesis. The two halves must adjudicate together.",
    "confirmer_base_rate": "Tier 2: low (~15-20% naive for the full inversion structure; the card at 35% is the priming-conditional probability). Tier 1: moderate (~30-40%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-01",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "agent-collective-containment-failures",
@@ -334,7 +375,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - breach registered): autonomous agent collective causes production-infrastructure incident (financial, utility, logistics, or data) with documented multi-agent coordination as the cause, before industry containment discipline (guardrails, kill-switches, rate structures) is deployed. TIER 1 (mechanism tells): near-miss incidents with agent-attributed causes, containment-discipline proposals circulating, agent-collective deployments scaling. THE OBSERVABILITY NOTE: attribution to agent collectives is the hard step - adjudication requires official or investigative attribution, matching the chem/bio corroboration rule.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive; the card at 70% reflects the substrate-fragility thesis, so the headline takes the haircut). Tier 1: moderate-high (~55-65%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-13",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "agi-cognitive-labor-repricing",
@@ -365,7 +413,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - repricing registers): measurable displacement/repricing in credentialed cognitive labor (entry-level legal, consulting, software) - hiring-rate declines in exposed categories attributable to AI substitution per labor-market analyses, OR explicit repricing events (pricing models, wage stagnation in exposed categories). TIER 1 (mechanism tells): enterprise deployment announcements, productivity studies showing substitution, exposed-category job postings declining. THE DISCOUNT: repricing was always coming; the graded claim is the CREDENTIALED-FIRST structure (political instability concentrating in credential-class), which requires the political-angle tell, not just labor data.",
    "confirmer_base_rate": "Tier 2: moderate (~40-50% naive for the credentialed-first structure in-window). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-10",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "agi-recursive-acceleration-test",
@@ -398,7 +453,14 @@
    ],
    "confirmer": "SINGLE-TIER (bounded claim) per Confirmation Standard. CONFIRM: through 2027, AI-capability research throughput shows growth consistent with LINEAR-or-better bounds (visible year-over-year gains) WITHOUT any verifiable Nobel-caliber or field-redirecting breakthrough produced by a frontier system ahead of expert-consensus timelines - i.e., acceleration continues but stays bounded, exactly as claimed. ASYMMETRY NOTE: this is a falsifier-dominant card - the bounded claim is confirmed by its own falsifier NOT firing, which is deliberately weak evidence (absence-of-refutation). The registered confirmer therefore confirms the SURVIVAL of the bounded claim through the window, not a positive skill signal; a stronger confirm would require the 2028-2029 concentrated-acceleration branch to begin materializing on schedule.",
    "confirmer_base_rate": "High naive (~60-70% for bounded survival through 2027) - explicitly discounted as persistence-check, NOT a skill signal, per the asymmetric-evidence note.",
-   "confirmation_window": "Through Dec 31, 2027 (claim horizon: no super-linear acceleration before 2028)"
+   "confirmation_window": "Through Dec 31, 2027 (claim horizon: no super-linear acceleration before 2028)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-10",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "agi-scaffold-political-economy",
@@ -434,7 +496,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - scaffold fight visible): political conflict organizes around scaffolds/epistemic infrastructure (AI-training-data rights, model-access regulation, compute control, platform governance) as PRIMARY political battlegrounds - candidates/parties making it central rather than peripheral. TIER 1 (mechanism tells): regulatory skirmishes, data-access litigation, compute-export fights. THE DISCOUNT: regulatory activity is baseline; the graded claim is CENTRALITY - the fight becoming a defining political cleavage, which requires evidence of party-identity attachment.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for centrality in-window). Tier 1: high (~75%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-10",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "agi-uneven-profile",
@@ -464,7 +533,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - uneven profile confirmed): capability profile shows the registered asymmetry in the live series - frontier systems exceed expert benchmarks in some domains while failing deployable-reliability thresholds in others (production incidents, agentic task failure rates, domain inversion cases). TIER 1 (mechanism tells): benchmark-vs-production divergence widening, domain-specific capability spikes. THE DISCOUNT: uneven progress is near-consensus in AI discourse; the graded claim is the SPECIFIC asymmetry structure (superhuman-in-narrow, unreliable-in-agentic), which requires the reliability-failure side to be measured, not asserted.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive; moderate skill signal given the near-consensus discount). Tier 1: high (~75%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-10",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "alpr-surveillance-decoy-substrate",
@@ -510,7 +586,14 @@
    ],
    "confirmer": "TIERED with SUBSTRATE-DIVERGENCE CONTROL per Confirmation Standard. TIER 2 (headline - decoy mechanism confirmed): after visible Flock removals in the tracked jurisdictions (Denver, Longmont, Syracuse, Austin, Abington), successor uptake (Axon/Rekor/Motorola) replaces the withdrawn coverage such that AGGREGATE active ALPR node count stays flat or grows - substrate preserved despite visible sacrifice. TIER 1 (mechanism tell): Axon Fusus AI-fusion rollout continuing (the connect-the-dots layer deepening beyond plate reads) regardless of Flock's fate. THE CONTROL: node-count persistence must be DIVERGENT from the visible removals - if coverage genuinely falls and stays down, the falsifier fires and the decoy thesis dies; if coverage merely relocates, the headline confirms. Vendor-swap alone without node-count persistence is Tier 1 (mechanism visible), not Tier 2 (decoy proven).",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for substrate persistence given the falsifier's own observation that Flock reads as sacrificial; a firing is a moderate skill signal - the mechanism is mechanism-first, not event-first). Tier 1: high (~70-80%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027 (Flock-cancellation aftermath plus Fusus rollout window)"
+   "confirmation_window": "Through Jun 30, 2027 (Flock-cancellation aftermath plus Fusus rollout window)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-04",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "assassination-as-catalyst-kirk",
@@ -545,7 +628,14 @@
    ],
    "confirmer": "RETROACTIVE CONFIRMER (adjudicated Sep 14, 2026 - registered post-outcome with provenance noted): the canonization cascade observed in the absorption bin (martyr narrative, memorial-as-rally dynamics, media consolidation of the grief frame) matched the registered mechanism tells. Under the Confirmation Standard this is a RETROFIT: the original registration (Sep 10) named mechanism tells (memorial-amplification trajectory, political-violence framing conversion) but no formal confirmer object; adjudication records the confirmation as pre-registered-mechanism-matched, not pre-registered-event-confirmed. Counts as confirmed evidence with a one-grade haircut.",
    "confirmer_base_rate": "High (~80% naive for canonization cascade following a high-profile assassination; retrofit haircut applied).",
-   "confirmation_window": "Adjudicated Sep 14, 2026 (retroactive registration)"
+   "confirmation_window": "Adjudicated Sep 14, 2026 (retroactive registration)",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 retroactive registration after the event",
+   "window_opens": "2025-09-02",
+   "window_basis": "Retroactive registration; already resolved. Excluded from forward calibration.",
+   "expiry_date": "2026-09-14",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "axon-fusus-ai-fusion-successor",
@@ -582,7 +672,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - successor grid densifies): Fusus or equivalent AI-fusion layer reaches registered deployment scale (multi-city integration, unified query interface in production across jurisdictions) such that the fusion layer becomes the substrate story rather than any plate-vendor. TIER 1 (mechanism tells): additional Fusus city onboarding, integration partnerships, RFP/procurement documents referencing fusion layers. DEDUP RULE: this card is the Tier 1 substrate for the ALPR decoy card - if both fire, the ALPR card takes the headline and this card confirms as its mechanism tell, not independently.",
    "confirmer_base_rate": "Tier 2: moderate-high (~50-60% naive; moderate skill signal). Tier 1: high (~75%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-04",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "c-002-midterm-certification-contestation-amended",
@@ -629,7 +726,14 @@
    ],
    "confirmer": "Per-state certification records; DOJ/DHS dockets; pre-build activation log",
    "confirmer_base_rate": "Federal contestation of certification in any presidential-era midterm: none observed in 1980-2024 baseline",
-   "confirmation_window": "2026-11-03 to 2026-12-14 (pre-build: 2026-11-03; certification: per-state statutory deadlines complete 2026-12-14)"
+   "confirmation_window": "2026-11-03 to 2026-12-14 (pre-build: 2026-11-03; certification: per-state statutory deadlines complete 2026-12-14)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-11-03",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-12-14",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "cdc-epistemic-capture",
@@ -670,7 +774,15 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture institutionalized): guidance/rulemaking that structurally embeds political control over scientific output (political review layers over publications or guidance, mass personnel replacement at senior scientific posts, or data/publication gates requiring administration sign-off). TIER 1 (mechanism tells): ACIP/advisory-committee capture continuing, directive-driven guidance substitution, staff exodus at scale. The Sep 2026 ACIP proceedings already registered as mechanism activity; the graded claim is INSTITUTIONALIZATION, which requires the structural changes above, not continued churn.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive; institutionalization is the natural continuation of observed churn - moderate skill signal). Tier 1: high (~75%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-11",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "chemical-biological-weapons",
@@ -755,7 +867,14 @@
    ],
    "confirmer": null,
    "confirmer_base_rate": null,
-   "confirmation_window": "60 days from 2026-10-23"
+   "confirmation_window": "60 days from 2026-10-23",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Registrant-chosen 60-day duration from a fixed start (2026-10-23)",
+   "window_opens": "2026-10-23",
+   "window_basis": "Duration chosen, start fixed.",
+   "expiry_date": "2026-12-22",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "conservative-space-economic-defection",
@@ -797,7 +916,15 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - defection visible): measurable economic defection from the conservative space (donor withdrawal, advertiser exit at scale, subscriber/audience decline tied to registered events) OR elite voice defection (prominent conservative figures breaking on registered policy lines with stated economic rationale). TIER 1 (mechanism tells): intra-space criticism escalating, polling shifts on specific economic policies, local-party splits. THE DISCOUNT: internal criticism is baseline churn; the graded claim is DEFECTION STRUCTURE (exit, not voice).",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for defection structure). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-11",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "control-2-no-insurrection-act",
@@ -840,7 +967,14 @@
    ],
    "confirmer": "CONTROL-2 registers the NULL OUTCOME: window closes Jan 20, 2027 with no qualifying invocation. [P18-T Condition 5: the 'converts into evidence FOR the cluster spine' clause is DELETED \u2014 self-sealing heads-I-win structure per prosecution Charge 5, sustained.] Null failure scores as null failure on this card; any cluster inference runs exclusively through the named-actor conversion rule (P12-T scoring rule), which names its conditions independently.",
    "confirmer_base_rate": "n/a - control study; outcome feeds emergency-powers/catalyst adjudication, not its own score.",
-   "confirmation_window": "Nov 1, 2026 - Jan 20, 2027 (Tier-1 observable; pre-Nov-1 signed invocation tied to midterms scores as Tier-2 pressure on the catalyst card, not as falsification here)"
+   "confirmation_window": "Nov 1, 2026 - Jan 20, 2027 (Tier-1 observable; pre-Nov-1 signed invocation tied to midterms scores as Tier-2 pressure on the catalyst card, not as falsification here)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-11-01",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "control-clean-election-no-crisis",
@@ -888,7 +1022,14 @@
    ],
    "confirmer": "CONTROL STUDY - confirmer registers the NULL OUTCOME: election proceeds cleanly, results certified on schedule, no flashpoints at registered tier thresholds, no emergency declaration, power transfer mechanics proceed uncontested. Under the Confirmation Standard the control study can never generate a skill signal (23% is a deliberate low-confidence null); a clean outcome instead acts as the counterfactual anchor that sharpens adjudication of the violence/catalyst/retention cards. If the null fails, the control converts into evidence FOR the cluster spine it anchors.",
    "confirmer_base_rate": "n/a - control study; outcome feeds cluster adjudication, not its own score.",
-   "confirmation_window": "Nov 3, 2026 - Jan 20, 2027"
+   "confirmation_window": "Nov 3, 2026 - Jan 20, 2027",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-11-03",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "de-dollarization-reserve-rotation",
@@ -930,7 +1071,14 @@
    ],
    "confirmer": "TIERED with CONSENSUS-DISCOUNT per Confirmation Standard. TIER 2 (headline): continued sovereign rotation across MULTIPLE neutral/allied actors (per falsifier definition) - NBIM finalizes allocation at or below ~22% Treasury with JGB/MBS pivot, PLUS at least one additional non-adversarial sovereign (Japan, Korea, Gulf funds, Nordic peers) announces measurable US Treasury reduction through the window. TIER 1 (mechanism tells, individually discounted): gold repatriation movements from NY Fed/London vaults by allied sovereigns; incremental oil deals settling on Yuan/CIPS rails; further sovereign Treasury-cut proposals (any single one of these is footing-evidence only). CONSENSUS-DISCOUNT: central-bank gold buying and dollar-diversification chatter are decades-old consensus drifts; base rate for \"some rotation happens\" is high - only MULTI-ACTOR ALLIED rotation with the Norway floor holding counts as the headline skill signal.",
    "confirmer_base_rate": "Headline: moderate-low (~25-35% naive for multi-actor allied rotation with NBIM floor <22% within window; this is beyond consensus drift, so a firing is a genuine skill signal). Tier 1 tells: individually high (~50-70%) - explicitly discounted as near-consensus; confirm persistence, not skill.",
-   "confirmation_window": "Oct 1, 2026 - Jun 30, 2027 (NBIM rebalancing cycle through post-midterms financial-credibility window)"
+   "confirmation_window": "Oct 1, 2026 - Jun 30, 2027 (NBIM rebalancing cycle through post-midterms financial-credibility window)",
+   "anchor_grade": "C",
+   "anchor_type": "external_event",
+   "anchor_source": "NBIM sovereign-fund rebalancing cycle (external institutional calendar)",
+   "window_opens": "2026-10-01",
+   "window_basis": "External cycle, but the cycle dates are not published to us.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "dehumanization-velocity-turning-signal",
@@ -965,7 +1113,13 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - velocity is leading): monthly dehumanization-event count from the absorption bin (dehumanization_frame:true) shows accelerating slope in the 6-12 months PRECEDING any registered threshold action (kinetic escalation, purge, or consolidation event), with the slope rising before the event, not after. TIER 1 (mechanism tell - source migration): category-frame language migrates UP the hierarchy (influencer to elected official to administration official) or appears in official justification documents (EOs, war messaging) - confirms the transmission channel, not the predictive claim. ADJUDICATION NOTE: the card is confirmed only if slope-leads-event; if acceleration appears but lags the threshold action, the falsifier secondary fires (downgraded to descriptive) and the confirmer is retired with it.",
    "confirmer_base_rate": "Headline: moderate (~40-50% naive for slope-leading in the live US series given the Weimar/Rwanda/Armenia priors; a firing within the window is a genuine skill signal since the claim is specifically about LEADING structure, not mere occurrence). Tier 1: high (~60-70%) - discounted as mechanism evidence.",
-   "confirmation_window": "Rolling; adjudicated at the first registered threshold action in the live series (expected through mid-2027)"
+   "confirmation_window": "Rolling; adjudicated at the first registered threshold action in the live series (expected through mid-2027)",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 rolling, adjudicated at first registered threshold action",
+   "window_basis": "Card says 'expected through mid-2027'. Review horizon adopted as hard horizon; the registrant set no date.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Rolling card: expires 2027-06-30 if no threshold action has been registered. Unregistered at expiry = MISS by rule."
   },
   {
    "basename": "domestic-enforcement-groundwork",
@@ -1005,7 +1159,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - groundwork converts): before the midterms, any of (a) ICE/DHS enforcement surge of the projected national scale (arrest/detention rates sustained well above status-quo baseline, multi-state simultaneous operation), (b) expansion of detention/deportation authority beyond current state (statutory, regulatory, or emergency-order), or (c) substantive anti-Muslim/anti-immigrant emergency action (designation, ban, programmatic bar). TIER 1 (mechanism tells - groundwork live): DOJ enforcement-shielding expansion (ICE-agent testimony blocks, accountability walls); a federal intervention in a blue city under the Chicago template; the Tucson hate-crime narrative converting into policy rather than being pierced by accountability. DEDUP RULE: kinetic election-day events belong to the violence card; enforcement machinery belongs here. AMPLIFICATION NOT CONFIRMATION: synthetic grievance amplification (media-silence frames) alone confirms nothing - it is the substrate, measured but not confirming.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for full conversion pre-midterms; a firing is a genuine skill signal since consolidation requires multiple machinery steps). Tier 1 tells: individually moderate-high (~40-60%), discounted as footing evidence.",
-   "confirmation_window": "Sep 2026 - Nov 3, 2026 (pre-midterms conversion window)"
+   "confirmation_window": "Sep 2026 - Nov 3, 2026 (pre-midterms conversion window)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-09-01",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-11-03",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "election-day-violence-2026",
@@ -1050,7 +1211,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard amendment. TIER 1 (~80% headline claim): any security-adjacent incident at a polling or county-count site during the Nov 3 - Nov 14 window - armed presence, credible threats to officials, confrontations at count centers, or property damage (precedent: 2020-22 election-office arson). TIER 2 (~35%): two or more simultaneous flashpoints on a single day, or any fatality tied to election-related confrontation, or armed-group self-deployment to polling sites triggering police response. TIER 3 (~10-12%): sustained multi-site armed action beyond isolated incidents, or any January-6-class event. DEDUP RULE: fraud-narrative volume and elite contested-in-advance rhetoric are watchlist MONITORS for the parent catalyst node, not confirmers of this card - only kinetic/physical events confirm. BASE-RATE CAVEAT: Tier 1 is deliberately near the 2020-22 baseline; it confirms persistence, not skill, and is discounted accordingly.",
    "confirmer_base_rate": "Tier 1: high (~70-80% naive, discounted to persistence-check status given 2020-22 baseline). Tier 2: ~35-40% naive; genuine skill signal. Tier 3: ~10-12% naive; low base rate, genuine skill signal if it fires.",
-   "confirmation_window": "Nov 3 - Nov 14, 2026 (Election Day plus 11-day count/certification exposure window)"
+   "confirmation_window": "Nov 3 - Nov 14, 2026 (Election Day plus 11-day count/certification exposure window)",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Election Day (legal) + registrant-chosen 11-day count span",
+   "window_opens": "2026-11-03",
+   "window_basis": "Start anchored in law; the 11-day length is the registrant's.",
+   "expiry_date": "2026-11-14",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "eurasia-settlement-hemisphere-pivot-domestic-consolidation",
@@ -1094,7 +1262,14 @@
    ],
    "confirmer": "Reserve tasking orders + settlement progress + domestic enforcement escalation all firing inside pre-registered windows",
    "confirmer_base_rate": "No clean base rate; analog = post-WWII hemispheric interventions converted to domestic security frames (Operation Wetback 1954, PL-480 security coupling); sequencing analog = Eurasian detente preceding Western Hemisphere intervention surges (Nixon 1971-73 Chile track)",
-   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)"
+   "confirmation_window": "Dec 24, 2026 - Jan 23, 2027 (tasking window); Nov 3, 2026 (settlement progress gate)",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Registrant-chosen tasking window (two legs: Nov 3 2026 settlement-progress gate; Dec 24 2026 - Jan 23 2027 tasking window)",
+   "window_opens": "2026-11-03",
+   "window_basis": "MULTI-LEG window, hand-corrected: the prior parse read the Nov 3 gate as the close. Real close is 2027-01-23.",
+   "expiry_date": "2027-01-23",
+   "expiry_basis": "Expires at window close. Grace not pre-registered, 0 days. Gap 2026-11-04 to 2026-12-23 is a dead leg inside the window \u2014 scored as in-window."
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -1129,7 +1304,15 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - crisis materializes): fertilizer price index spikes above registered crisis threshold AND supply allocation measures appear (rationing, export bans by major producers, or government allocation programs in a major agricultural economy). TIER 1 (mechanism tells): Russian fertilizer-export restrictions tightening, EU/US sanctions-scope expansion touching fertilizer inputs (ammonia/nitrate feedstock), planting-season procurement warnings from major producer associations. DEDUP RULE: general commodity-inflation drift is not confirmation; the card grades on the SUPPLY-SHOCK structure, not price level alone.",
    "confirmer_base_rate": "Tier 2: moderate-high (~60-70% naive given the dual-choke substrate already live; moderate skill signal). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027 (planting cycles: fall 2026 application, spring 2027 procurement)"
+   "confirmation_window": "Through Jun 30, 2027 (planting cycles: fall 2026 application, spring 2027 procurement)",
+   "anchor_grade": "C",
+   "anchor_type": "external_event",
+   "anchor_source": "Agricultural planting/application cycles (fall 2026 - spring 2027)",
+   "window_opens": "2026-07-20",
+   "window_basis": "External biological/seasonal calendar.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "frx-mget-coupling-1930s-config",
@@ -1162,7 +1345,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - amplification registered): a market-plumbing event (repo dysfunction, clearinghouse stress, funding-market freeze) inside the Phase-4 window amplifies to a regime-legitimacy event (emergency economic powers invoked, deposit-freeze or capital-control posture, bailout structure favoring consolidation). TIER 1 (mechanism tells): plumbing stress WITHOUT amplification (Fed backstops absorbing it), which per the 1930s-config thesis confirms the COUPLING RISK existed but not the realized amplification. Adjudication: plumbing-event-without-amplification is Tier 1 partial credit; the graded claim is the amplification step.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for the full coupling in-window). Tier 1: moderate-high (~45-55%) - plumbing events alone are discounted; the amplification step is the claim.",
-   "confirmation_window": "Through Dec 31, 2027 (Phase-4 window)"
+   "confirmation_window": "Through Dec 31, 2027 (Phase-4 window)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-15",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "gray-zone-annexation-greenland",
@@ -1205,7 +1395,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - annexation path advances): any registered annexation-structure step - security agreement ceding base/control rights, economic coercion via tariff/aid leveraged against Danish sovereignty, or formal US sovereignty claim. TIER 1 (mechanism tells): diplomatic pressure escalation, naval/ISR presence expansion near Greenland, purchase/lease negotiation reopening. TIMING NOTE: the card is transactional-window-driven; a new US administration pivot in 2027 resets the window rather than failing the card.",
    "confirmer_base_rate": "Tier 2: moderate (~30-40% naive for an annexation-structure step; the pressure track is already visible, so structure is the graded step). Tier 1: high (~65-75%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-18",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "ground-invasion-of-iran",
@@ -1248,7 +1445,14 @@
    ],
    "confirmer": "SINGLE-TIER (clean falsifiable claim) per Confirmation Standard. CONFIRM: overt US or US-led ground invasion of Iran (defined: sustained ground operations inside Iranian territory by US forces or explicitly US-commanded coalition, beyond raids/SOF operations) within the window. Binary adjudication; raids and SOF actions do not count; a naval blockade or air campaign alone does not count. The card sits at 49% - near-coin-flip - so a firing is a strong skill signal and a non-firing is a strong miss signal, both fully creditable.",
    "confirmer_base_rate": "Independent reference class (P19-T derivation): 4 overt US ground invasions of major regional powers since 1945 (Korea, Vietnam, Afghanistan 2001, Iraq 2003) in ~75 years; no Iran precedent; Iraq 2003 nearest analog required ~6 months visible buildup. Class rate single-digit-to-low-teens absent catalyzing event (mass-casualty strike, sustained strait closure).",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-07-20",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "hegseth-loyal-force-war-on-enemies",
@@ -1291,7 +1495,14 @@
    ],
    "confirmer": "SAM + Operations",
    "confirmer_base_rate": "structural-fabrication predictions this cycle: 8 of 9 confirmed",
-   "confirmation_window": "2026-09-30 to 2027-06-30"
+   "confirmation_window": "2026-09-30 to 2027-06-30",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-30",
+   "window_basis": "Registrant span ending on a fiscal half.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "houthi-red-sea-escalation-fork",
@@ -1335,7 +1546,14 @@
    ],
    "confirmer": "Either prong's fork-specific observable fires by mid-Dec 2026: (a) a US carrier group or major surface-action group repositions to Red Sea escort/interdiction beyond current CENTCOM posture (the registered resource-strain tell), or (b) Israeli strikes on Houthi infrastructure (ports, Sana'a) OR a Houthi strike on a US naval vessel (the registered Article 5-adjacent fuse). DEDUP RULE: tanker attacks in Bab el-Mandeb and effective Red Sea closure do NOT confirm this card - those events are registered as tripwires on the SPR runway and Hormuz cards; confirmation must come from the fork's own registered commits to avoid one event confirming three cards. Pre-registered Sept 11, 2026 in the prediction's forward watchlist.",
    "confirmer_base_rate": "Moderate. Fork events (major naval repositioning or Israel-Houthi kinetic exchange) are episodic but precedented; base rate of either firing within a 90-day window in an active multi-theater posture ~35-45%. Confirming requires the fork's OWN channel, not shared theater metrics.",
-   "confirmation_window": "Sept 11 - mid-Dec 2026"
+   "confirmation_window": "Sept 11 - mid-Dec 2026",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Registrant-chosen span from a fixed start (Sept 11); 'mid-Dec' is imprecise",
+   "window_opens": "2026-09-11",
+   "window_basis": "LOOSE: 'mid-Dec 2026' has no day. Locked to 12-15 for machine expiry; the imprecision is the registrant's and is recorded, not repaired.",
+   "expiry_date": "2026-12-15",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "icscglubkznc",
@@ -1372,7 +1590,14 @@
    ],
    "confirmer": "SINGLE-TIER (clean falsifiable claim) per Confirmation Standard. CONFIRM: the registered resource-vector targeting behavior materializes in Q1 2027 (the registered inward-targeting vector action - enforcement/resource consolidation aimed at the registered internal target class). Binary adjudication on the registered definition; the Q1 horizon makes the window tight, which is the discipline.",
    "confirmer_base_rate": "Moderate (~40-50% naive; the card at 60% reflects the substrate-conditional probability).",
-   "confirmation_window": "Q1 2027 (Jan 1 - Mar 31, 2027)"
+   "confirmation_window": "Q1 2027 (Jan 1 - Mar 31, 2027)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2027-01-01",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-03-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "institutional-health-arbiter-refinement",
@@ -1406,7 +1631,14 @@
    ],
    "confirmer": "FRAMEWORK CARD with REFINEMENT-OUTCOME TEST per Confirmation Standard. CONFIRM: the arbiter thesis (institutional health determines dehumanization-acceleration outcomes) produces at least one REGISTERED DIFFERENTIAL PREDICTION that adjudicates differently from a health-agnostic baseline - i.e., the framework earns its keep by discriminating, not by being true in general. TIER 1: cases fitting the thesis post-hoc. The graded claim is DISCRIMINATING POWER, measured by the differential prediction count.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for a discriminating prediction in-window). Tier 1: high (~70%), discounted as post-hoc fitting.",
-   "confirmation_window": "Rolling; first differential prediction through Jun 30, 2027"
+   "confirmation_window": "Rolling; first differential prediction through Jun 30, 2027",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None for the prediction; Jun 30 2027 is a reading horizon only",
+   "window_opens": "2026-09-16",
+   "window_basis": "Stated as 'first differential prediction through Jun 30, 2027'.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Rolling card: expires 2027-06-30 if no threshold action has been registered. Unregistered at expiry = MISS by rule."
   },
   {
    "basename": "inward-turning-hegemon-cycle",
@@ -1450,7 +1682,14 @@
    ],
    "confirmer": "TIERED, BRANCH-BOUND: Branch A confirms on the same apparatus-contestation family as the P15-T card (correlated, scored separately for the order-collapse claim); Branch B confirms on named Israel governance-crisis mechanisms per falsifier above; Branch C confirms on the pact fracturing at first divergent-interest contingency OR on a second regional security pact forming among non-aligned powers with explicit US-exclusion language. The HEADLINE claim (inward-turning as the cycle's distinguishing feature) requires at least TWO of three branches confirming within the window.",
    "confirmer_base_rate": "Branch A: ~35-40 (aligned with P15-T decomposition). Branch B: ~35 (Red Cell hazards often don't convert; but leak timing before elections raises conditional probability of contested outcome). Branch C: ~40 (pact brittleness is historically the base case for new multipolar pacts \u2014 Arab League precedent \u2014 but the falsifier requires a genuine divergent-interest contingency to occur, which is itself uncertain). Headline (2-of-3): roughly the joint of two firing among A~0.37, B~0.35, C~0.40 with positive correlation from shared substrate ~0.45-0.55.",
-   "confirmation_window": "2026-10-06 through 2027-01-31 (Israeli election + coalition-formation window; US certification window; pact stress-test window)"
+   "confirmation_window": "2026-10-06 through 2027-01-31 (Israeli election + coalition-formation window; US certification window; pact stress-test window)",
+   "anchor_grade": "C",
+   "anchor_type": "external_event",
+   "anchor_source": "Israeli election + coalition-formation window (external political calendar)",
+   "window_opens": "2026-10-06",
+   "window_basis": "External, though the coalition deadline is soft.",
+   "expiry_date": "2027-01-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "iran-naval-escort-escalation",
@@ -1548,7 +1787,14 @@
    ],
    "confirmer": "Public confirmation of an Iranian nuclear detonation before 2026-11-03 23:59 ET (CTBTO seismic/radionuclide detection or Iranian state acknowledgement)",
    "confirmer_base_rate": "No state has conducted a first nuclear test inside a five-day window without months of preceding public preparation; unconditional threshold-state hazard per five-day window is ~0.01-0.03%.",
-   "confirmation_window": "2026-10-29 to 2026-11-03 23:59 ET"
+   "confirmation_window": "2026-10-29 to 2026-11-03 23:59 ET",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-10-29",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-11-03",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "kemalist-preference-reichstag-fallback",
@@ -1601,7 +1847,14 @@
    ],
    "confirmer": "TIERED with TIMING-ORDER ADJUDICATION per Confirmation Standard. TIER 2 (headline - timeline compression forces the loud emergency): the emergency path fires EARLY (pre-Nov 3) without waiting for the legalistic route - matching the Kemalist-preference claim that compression skips the slow branch. TIER 1: the legalistic fallback used instead (court routes, certification litigation) - which is itself diagnostic: it would confirm the fallback half of the thesis (the preference is real but compression was overstated). BRANCH-ORDER TEST: what confirms the full claim is the ORDERING (emergency before legalistic), not either branch alone; the card explicitly grades on sequence.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for early-emergency ordering). Tier 1 (fallback ordering): moderate (~40-50%). Sequence is the graded claim; either branch alone is partial credit.",
-   "confirmation_window": "Through Jan 20, 2027 (mirrors Reichstag and retention windows)"
+   "confirmation_window": "Through Jan 20, 2027 (mirrors Reichstag and retention windows)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-09-01",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "kinetic-conflict-north-america",
@@ -1639,7 +1892,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - kinetic conflict on US/Canadian soil): organized armed violence between state forces and non-state armed groups OR inter-state kinetic exchange (Cartel-state engagement at scale, foreign-state action on US soil). TIER 1 (mechanism tells): armed civilian paramilitary organization formalizing, National Guard live-fire incidents, interdiction engagements escalating beyond current tempo. THE DISCOUNT: isolated shootings and ICE-violence incidents are baseline drift in the live series; the graded claim is ORGANIZED kinetic conflict structure, which requires command-and-control visibility.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive; the card at 40% reflects the organized-structure requirement). Tier 1: moderate (~40-50%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-07",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "kinetic-european-conflict",
@@ -1690,7 +1950,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - limited engagement): Baltic/Greenland/Arctic provocation escalates to direct NATO-Russia kinetic exchange (uniformed engagement, airspace engagement with loss, or Article-5-triggering incident). TIER 1 (mechanism tells): provocation tempo accelerating (GPS jamming, cable cuts, drone incursions, sabotage-attributed events), NATO posture changes (enhanced forward presence moves, readiness exercises at scale). DEDUP RULE: the gray-zone substrate (sabotage, poisonings) belongs to the chem/bio and hybrid cards; here the graded claim is the KINETIC step.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive; the card at 62% reflects provocation-to-engagement conditional probability, not unconditional). Tier 1: high (~70-75%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-03",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "kirk-anniversary-narrative-2026",
@@ -1728,7 +1995,12 @@
    ],
    "confirmer": "SKIP",
    "confirmer_base_rate": "SKIP",
-   "confirmation_window": "SKIP"
+   "confirmation_window": "SKIP",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 window marked SKIP",
+   "window_basis": "SKIP window; already resolved miss. Not a scorable card.",
+   "expiry_basis": "No expiry \u2014 no window."
   },
   {
    "basename": "korea-patron-swap-not-unification",
@@ -1742,7 +2014,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2027-12-31",
-   "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": false,
    "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
@@ -1781,7 +2053,14 @@
    ],
    "confirmer": "Russian oil/food transfer volumes to NK; NK-China trade share; Moscow-Seoul economic re-engagement; absence of elite-layer crisis signals",
    "confirmer_base_rate": "Base rate for patron-withdrawal producing unification across modern partitions: ~1 clear case (Germany 1990) against Taiwan/China, Cyprus, Ireland, Kashmir persisting through patron changes. Base rate for a nuclear-armed state dissolving under economic pressure: 0 documented cases.",
-   "confirmation_window": "2026-10-27 to 2027-12-31"
+   "confirmation_window": "2026-10-27 to 2027-12-31",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-10-27",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "korea-war-ii-reverse-order-chain",
@@ -1795,7 +2074,7 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2030-12-31",
-   "grace_horizon": null,
+   "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": false,
    "quarantine_reason": "QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
@@ -1857,7 +2136,14 @@
    ],
    "confirmer": "PLA force movement or buffer rhetoric in the northeast; ROK nuclear program (not debate); US Pacific posture drawdown; collapse signal in Pyongyang; re-partition rather than unification if war occurs",
    "confirmer_base_rate": "Unifications achieved by war in the modern era: Vietnam 1975 (conquest of an unarmed-by-comparison state), Yemen 1990 (absorption of a small unarmed collapsed state). Unifications of nuclear-armed states by war: zero. Partitions that survived patron change: Taiwan/China, Cyprus, Ireland, Kashmir. Korean partitions produced by war: one, at the cost of ~3 million dead and a permanent armistice.",
-   "confirmation_window": "2026-10-27 to 2030-12-31"
+   "confirmation_window": "2026-10-27 to 2030-12-31",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-10-27",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2030-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "korea-patron-swap-not-unification",
@@ -2027,7 +2313,14 @@
    ],
    "confirmer": "NO CONFIRMER - CARD FAILED (mid-August shock did not occur; score 10). Falsifier fired on window expiry. Audit note: second natural experiment on window discipline - the price-shock family was re-registered as the Sep 15 oil-tape-vs-EIA ledger entry with a tighter window.",
    "confirmer_base_rate": "n/a (card failed)",
-   "confirmation_window": "n/a (window closed Aug 2026)"
+   "confirmation_window": "n/a (window closed Aug 2026)",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 window already closed at registration",
+   "window_opens": "2026-07-20",
+   "window_basis": "Registered after/at close; already resolved miss.",
+   "expiry_date": "2026-08-02",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "military-coup-fourth-turning",
@@ -2077,7 +2370,14 @@
    ],
    "confirmer": "TIERED with LOUD-BRANCH DISCOUNT per Confirmation Standard. TIER 2 (headline - coup attempt): overt uniformed or overtly-militarized seizure/attempt against civilian authority. TIER 1 (mechanism tells - quiet branch, the registered preference): uniformed-police militarization absorbing domestic functions, Posse Comitatus erosion via emergency carve-outs, National Guard federalization without gubernatorial consent at scale. THE DISCOUNT: the thesis itself predicts the quiet branch is preferred over the loud branch - therefore Tier 1 confirmations are MECHANISM-CONSISTENT but only weakly confirm the coup claim (the thesis says the loud branch probably never fires). Adjudication: Tier 2 firing confirms the catalyst framing at full credit; Tier 1-only firing confirms the substrate claim at partial credit, since the substrate claim is the testable half.",
    "confirmer_base_rate": "Tier 2: low (~15-20% naive; loud branch is the registered tail). Tier 1: high (~60-70%) - but per the discount note, Tier 1-only outcomes confirm the substrate claim, not the coup headline.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-08-31",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "nato-conditional-guilt",
@@ -2117,7 +2417,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - transactionalization visible): US security guarantees explicitly conditioned on European concessions (trade, defense spending, Ukraine posture) in official policy instruments - statements with teeth (troop redeployments tied to demands, funding conditions legislated). TIER 1 (mechanism tells): transactional rhetoric escalating to policy drafts, bilateral deals bypassing NATO structures, burden-sharing ultimatums. THE DISCOUNT: transactional NATO rhetoric is near-consensus baseline; the graded claim is POLICY INSTRUMENTS, not rhetoric.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for policy-instrument stage). Tier 1: high (~75%), heavily discounted as near-consensus.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-03",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "post-defeat-consolidation-menu",
@@ -2159,7 +2466,14 @@
    ],
    "confirmer": "TIERED with MENU-SELECTION DIAGNOSTIC per Confirmation Standard. TIER 2 (headline - gray-zone coup path activates): after a midterm loss, the administration selects and executes a registered Option (court-capture acceleration, certification override attempt, emergency-powers invocation, or the fraud-narrative pre-delegitimization pivot) as the PRIMARY consolidation vehicle. TIER 1 (mechanism tells - menu being prepared): pre-positioning activity in the registered channels (SCOTUS circuit realignment pushes, state-legislature certification-authority bills, DOJ election-section staffing). DEDUP RULE: overlaps regime-power-retention - if retention refusal fires outright, the menu card is superseded (refusal is the loud branch; menu is the quiet branch). Only the quiet branch confirms this card.",
    "confirmer_base_rate": "Tier 2: moderate (~40-50% conditional on a midterm loss occurring; unconditional rate lower). Tier 1: moderate-high (~55-65%), footing only.",
-   "confirmation_window": "Nov 4, 2026 - Jun 30, 2027 (post-election consolidation window)"
+   "confirmation_window": "Nov 4, 2026 - Jun 30, 2027 (post-election consolidation window)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-11-04",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "post-trump-restructure",
@@ -2206,7 +2520,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - fall-guy/new-Caesar structure materializes): visible personnel/structural restructuring consistent with the thesis - a designated scapegoat absorbing accountability for registered failures (Hegseth-type cabinet member formally sacrificed), OR a successor-consolidation move (family/loyalist verticalization of the movement apparatus) that outlives the presidency. TIER 1 (mechanism tells): loyalty-purge tempo accelerating, succession-relevant appointments, intra-movement discipline actions. FALL-GUY DIAGNOSTIC: a scapegoat removal within 90 days of a registered failure event is the cleanest Tier 2 tell; without the failure-event linkage it is Tier 1 only.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for the restructure thesis across the window; the card is structural, so multiple paths to confirmation). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2025-02-19 (intuition trace: journal 2025-02-19 'Apparently we are a monarchy now' \u2014 position held informally ~18 months before CASS formalization) / formalized in CASS 2026-09-03",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "post-wwii-unwinding-cass88",
@@ -2253,7 +2574,14 @@
    ],
    "confirmer": "TIERED with ARCHITECTURE-STAGE TEST per Confirmation Standard. TIER 2 (headline - terminal stage registered): a registered structural pillar collapses or is formally abandoned (a major multilateral institution functionally dissolved, a reserve-currency regime shift in practice, a binding alliance formally voided) - the terminal unwinding structure, not drift. TIER 1 (mechanism tells): pillar EROSION (funding withdrawal, compliance refusal, parallel-institution building). THE STAGE TEST: the card claims TERMINAL unwinding at 94% - erosion is baseline and heavily discounted; the graded claim is the collapse/abandonment step, which is why the card carries high confidence only at the erosion-plus stage.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive for one pillar-collapse step in-window; the card's 94% is the multi-year thesis, so the in-window headline takes the haircut). Tier 1: high (~85%), heavily discounted as baseline erosion.",
-   "confirmation_window": "Through Dec 31, 2028 (the thesis horizon)"
+   "confirmation_window": "Through Dec 31, 2028 (the thesis horizon)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-12",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "press-access-enclosure-media-capture",
@@ -2297,7 +2625,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - capture completes): pool structure does not recover (press pool remains replaced/hollowed through the window) AND enforcement-of-loyalty spreads (additional outlets losing access for coverage reasons, or credential actions tied to editorial content). TIER 1 (mechanism tells): Trump TV/WH-static direct-channel growth siphoning primary access; friendly-inherit pool reconstitution; credential-policy formalization. DEDUP RULE: Trump TV growth itself is a separate confirmed line (own card) - here it counts as Tier 1 substrate only.",
    "confirmer_base_rate": "Tier 2: moderate-high (~55-65% naive given pool collapse already observed; persistence is the graded claim, moderate skill signal). Tier 1: high (~70-75%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-22",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "prosecution-loss-meta-craft-lineage",
@@ -2333,7 +2668,12 @@
    ],
    "confirmer": "Charge counts on completed trials, coded blind against the four-family audit at intake",
    "confirmer_base_rate": "Unknown \u2014 prosecution has never overruled a charge (0 of 29 sustained); no base rate exists for differential loss by craft score. This is a fresh forward test, F1-eligible.",
-   "confirmation_window": "Rolling; first reading after 3 more sequestered trials complete, full reading at 6"
+   "confirmation_window": "Rolling; first reading after 3 more sequestered trials complete, full reading at 6",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 rolling, readings after N trials",
+   "window_basis": "NO CALENDAR HORIZON. Trigger is trial count only. Ineligible for scoring until a hard date is registered.",
+   "expiry_basis": "Rolling card with no horizon: cannot expire, therefore cannot be scored, therefore excluded from calibration until re-registered."
   },
   {
    "basename": "regime-power-retention",
@@ -2370,7 +2710,14 @@
    ],
    "confirmer": "TIERED with COUNTERFACTUAL CONTROL per Confirmation Standard. TIER 2 (headline claim - regime refuses to cede): post-certification, administration (a) refuses to leave despite losing certified result, (b) invokes emergency powers to void/alter certified outcome, or (c) triggers the election-wont-matter mechanism at scale (USPS discretionary withholding, certification override). TIER 1 (mechanism tells - retention machinery live): any of the registered watchlist tripwires fire - USPS leapfrog appeal outcome preserves ballot-withholding discretion, observable bulk ballot rejection/mismatch disenfranchisement in first-mailing week, DOJ enforcement-shielding expanded to election officials. COUNTERFACTUAL CONTROL: the claim is conditional (refusal regardless of outcome), so confirmation requires the LOSS branch observable - if the regime wins the midterms, refusal proves nothing (retention machinery unused; claim untestable this cycle). If the regime loses and refuses, that is the headline confirmation. Adjudication must record which branch (win/loss) the cycle ran.",
    "confirmer_base_rate": "Headline (Tier 2): moderate-low (~15-25% naive for refusal-after-loss; requires loss AND refusal, compounding probabilities). Tier 1 tells: individually 30-50%, but each is a mechanism tell, not headline confirmation under the tier convention. Win-branch: unconfirmable this cycle by design (counterfactual control).",
-   "confirmation_window": "Nov 3, 2026 - Jan 20, 2027 (Election Day through the constitutional transfer date)"
+   "confirmation_window": "Nov 3, 2026 - Jan 20, 2027 (Election Day through the constitutional transfer date)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-11-03",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "reichstag-fire-national-emergency",
@@ -2422,7 +2769,14 @@
    ],
    "confirmer": "TIERED with HOROSCOPE-HAZARD CONTROL per Confirmation Standard. THE HAZARD, NAMED: the three branches (a domestic attack, b broad dissent, c attempted coup) cover so much of the event space that nearly any major crisis could be retro-fitted as the trigger - the registered failure mode of horoscope predictions. Controls: (1) the emergency declaration must be FEDERAL and EXPLICIT - a declared national emergency under explicit invocation of emergency scaffolding (EO 14420 / NSSTS / bulk-power expansion, or new declaration), not rhetoric, litigation posture, or state-level action; (2) the declaration must be functionally tied to completing authoritarian transition - used to override elections, dissolve constraint, or justify durable exception, not merely crisis management. TIER 1 (mechanism tell - footing live): IC/enforcement surge activity, pre-seeded roundup posture, or amplifier-ecosystem war-on-law-enforcement framing activation (the Minneapolis/Carlton signal). Confirms footing, not the declaration. TIER 2 (headline): federal emergency declared under the stated functional test, per branch (a) attack-on-soil trigger, (b) dissent-provocation trigger, (c) coup-pretext trigger. BRANCH-TIMING DIAGNOSTIC: October trigger implies branch A (fear of loss); post-November trigger implies court-rig branch (B/C) - timing itself is recorded as evidence, not confirmation.",
    "confirmer_base_rate": "Headline (Tier 2): low (~10-15% naive for an explicit federal emergency declaration within the window; deliberately low, and the two controls (federal-explicit + transition-functional) are what keep retro-fitted crises from counting). Tier 1 tells: individually moderate (~40-60%); footing-evidence only. Retro-fitted events that fail either control are logged as non-confirming, not near-misses.",
-   "confirmation_window": "Through Jan 20, 2027 (regime retentions window; mirrors the power-retention card)"
+   "confirmation_window": "Through Jan 20, 2027 (regime retentions window; mirrors the power-retention card)",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-09-01",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "rogue-ai-substrate-risk",
@@ -2463,7 +2817,15 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - hijacking/drift registered): documented case of autonomous agents hijacking infrastructure or diverging from operator intent at production scale (unauthorized resource acquisition, goal divergence in deployed systems, adversarial agent-to-agent exploitation). TIER 1 (mechanism tells): sandboxed demonstrations of hijacking capability, documented near-misses, substrate-drift incidents (silent configuration changes, unlogged actions). Same attribution discipline as the containment-failures card: official/investigative attribution required.",
    "confirmer_base_rate": "Tier 2: moderate (~30-40% naive). Tier 1: moderate-high (~50-60%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-05",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "russian-internal-fragility",
@@ -2502,7 +2864,15 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - fragility bites): registered winter-crisis markers materialize - regional fuel/heating shortages at scale, refinery-capacity losses forcing export bans (domestic fuel rationing), or elite-faction visibility (seizures, defections, oligarch-state conflict). TIER 1 (mechanism tells): drone-strike tempo on refining, fuel-price spikes, mobilization-age debt-trap recruitment accelerating. BASE-RATE NOTE: Russian winter fragility is a perennial expectation; the graded claim is the DUAL-STRAIN structure (war attrition PLUS substrate/logistics strain), so adjudication requires both stresses visible simultaneously.",
    "confirmer_base_rate": "Tier 2: moderate-high (~50-60% naive for the dual-strain structure; moderate skill signal given the perennial base rate - the structure, not the season, is the claim). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Dec 2026 - Mar 2027 (winter-crisis window)"
+   "confirmation_window": "Dec 2026 - Mar 2027 (winter-crisis window)",
+   "anchor_grade": "C",
+   "anchor_type": "external_event",
+   "anchor_source": "Seasonal/winter-crisis window (Dec-Mar) \u2014 climate and fiscal heating cycle, not registrant-set",
+   "window_opens": "2026-12-01",
+   "window_basis": "Hand-corrected: prose said 'Dec 2026 - Mar 2027'; prior parse read the open as the close.",
+   "expiry_date": "2027-03-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "serial-donroe-template-hemisphere",
@@ -2538,7 +2908,14 @@
    ],
    "confirmer": "TIERED with TEMPLATE-STAGE TEST per Confirmation Standard. TIER 2 (headline - template iterates): the designare-strangle-capture-manage sequence executes in a SECOND sovereign instance (a second hemispheric state subjected to the registered sequence: designation, economic strangulation, capture of governance, managed settlement). TIER 1 (mechanism tells): designation-list expansions, strangle-stage pressure on additional states, capture-stage operations. THE STAGE TEST: the template existing once (Venezuela-type case) is baseline; ITERATION in a second instance is the graded claim.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for a completed second iteration). Tier 1: moderate-high (~55-65%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-20",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "short-brutal-decisive-conflict",
@@ -2578,7 +2955,14 @@
    ],
    "confirmer": "TIERED with TEMPORAL TEST per Confirmation Standard. TIER 2 (headline - substrate conflict resolves short-brutal-decisive): the principal live conflict (Iran-Gulf or successor) concludes within the registered short window with decisive outcome (regime change, capitulation, or decisive military settlement) AND the brutality signature (civilian-infrastructure targeting at registered scale). TIER 1: conflict persisting in attrition/quagmire mode - which FAILS the card but confirms the duel-track alternative. THE TEMPORAL TEST IS THE CARD: duration is the graded variable, not occurrence.",
    "confirmer_base_rate": "Tier 2: moderate (~45-55% naive conditional on the conflict continuing; the temporal signature is the skill claim). Tier 1 (attrition branch): moderate - closes the spread, no confirmation credit.",
-   "confirmation_window": "Through Jun 30, 2027 (temporal window for the registered conflicts)"
+   "confirmation_window": "Through Jun 30, 2027 (temporal window for the registered conflicts)",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-05",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "spr-runway-breaks-before-midterms",
@@ -2641,7 +3025,14 @@
    ],
    "confirmer": "One of three registered tripwires fires before Nov 3: (a) SPR breaches the ~290M barrel cavern-damage floor, (b) major convoy/tanker loss in Hormuz, (c) Bab el-Mandeb closes. Pre-registered Sept 1, 2026 in the prediction's falsifier frame and weekly watchlist. [ADJUDICATION 2026-09-18: branch (a) fired - SPR printed 285.4M, below the ~290M floor, 25 consecutive weekly draws, lowest since Nov 1982. Confirms the runway-arithmetic claim; does NOT by itself confirm the regime-fatality mechanism, which remains open pending the Nov 3 adjudication.] [SECONDARY CONFIRMATION BRANCH added 2026-09-24 \u2014 bond-market path, independent of SPR: 10Y Treasury 5.12% (highest since 2007), 30Y 5.40% (highest since 2004), sharpest 1-day move since Apr 2025; long end leading = market pricing persistent inflation. Fed hiked to 3.75-4.00% in Sept (first since 2023), majority of CNBC Fed Survey respondents forecast 2+ more hikes; core PCE hot with ACA-subsidy expiry named contributor (multi-source entrenchment risk). Stagflation geometry confirmed (Vanguard): rate hikes cannot produce more oil or reopen Hormuz. Boston Fed: at sustained $130 oil, ~half of firms report moderate-to-significant input-cost increases. LIVED-COST channel (voter-observable, parallel to fuel leg): 30Y mortgage broke 7% for first time in over a year (NPR, 9/24); Northeast heating-oil bills forecast ~$2,615/winter +34% y/y with first bills landing ~6 days after Nov 3 (NY/PA/New England concentration); diesel crack spread >$2/gal through November = universal truck-cost pass-through into groceries/retail; credit-card APRs toward 25%+; LIHEAP cut to ~$4B while oil-heat bills jump 34%. The bond-market path feeds the cost-of-living defector coalition INDEPENDENTLY of the SPR leg \u2014 the >=25% switcher threshold can be cleared by diesel/housing/credit pass-through even if the SPR itself holds.]",
    "confirmer_base_rate": "Low. SPR floor breach is a structural-attrition event with no midterm precedent; the three-channel tripwire set is the ~15-20% tail of pre-midterm oil-shock history.",
-   "confirmation_window": "Sept 1 - Nov 3, 2026"
+   "confirmation_window": "Sept 1 - Nov 3, 2026",
+   "anchor_grade": "A",
+   "anchor_type": "statutory",
+   "anchor_source": "Electoral/statutory calendar fixed in law before registration",
+   "window_opens": "2026-09-01",
+   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
+   "expiry_date": "2026-11-03",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "state-natalism-turning-marker",
@@ -2676,7 +3067,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - marker intensifies): state natalism moves from rhetoric to program (binding maternity/pregnancy-adjacent restrictions expanding, explicit population-policy institutions, or material incentives at registered scale) as the registered turning-phase marker. TIER 1 (mechanism tells): state-level program proliferation, demographic-policy commissioning, rhetoric-to-policy migrations. THE DISCOUNT: natalist rhetoric is baseline; the graded claim is PROGRAM INSTITUTIONALIZATION.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-16",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "strait-of-hormuz-blockade",
@@ -2741,7 +3139,15 @@
    ],
    "confirmer": "Compliance blockade (condition b): Iranian-managed routing share of Strait transits stabilizes above ~60%, with shippers treating Iranian routing authority as binding rather than advisory. [Pre-registered July 20, 2026 in forward_watchlist item 1 as the routing-sovereignty threshold; adjudicated 2026-09-14 on Kpler data (Sept 4-6: 21/28 transits = 75%). Not a post-hoc construct.]",
    "confirmer_base_rate": "Low. Historical strait disruptions (Tanker War 1984-88, 2019 attacks) closed transit via force or insurance withdrawal; voluntary mass compliance with a belligerent's routing scheme has no modern precedent, est. <25%.",
-   "confirmation_window": "July 20 - Oct 1, 2026"
+   "confirmation_window": "July 20 - Oct 1, 2026",
+   "anchor_grade": "D",
+   "anchor_type": "registrant_span",
+   "anchor_source": "Registrant-chosen span",
+   "window_opens": "2026-07-20",
+   "window_basis": "Registrant span, July 20 \u2013 Oct 1 2026 (90-day class default at registration). Confirmation landed inside the window on 2026-09-14; Rule 1 expiry never applied.",
+   "expiry_date": "2026-10-01",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "closed \u2014 confirmed in-window 2026-09-14; no post-close tracking required"
   },
   {
    "basename": "student-debt-enlistment-cornering",
@@ -2784,7 +3190,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - economic conscription registers): enlistment incentives explicitly marketed on debt relief at scale (national recruiting campaigns using forgiveness as the hook) OR statutory linkage (enlistment-conditioned debt relief programs expanded). TIER 1 (mechanism tells): loan-repayment enforcement tightening (default collections resuming at scale), recruiting-target shortfalls coinciding with debt-policy hardening, regional recruiting pitches featuring debt relief. THE DISCOUNT: debt-driven enlistment pressure is partially baseline (recruiting has always leaned on benefits) - the graded claim is the CORNERING structure (policy-made necessity), which requires the tightening side, not the incentive side alone.",
    "confirmer_base_rate": "Tier 2: moderate (~35-45% naive for the cornering structure in-window). Tier 1: moderate-high (~50-60%), discounted.",
-   "confirmation_window": "Through Jun 30, 2027"
+   "confirmation_window": "Through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-04",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "substrate-emergence-signature",
@@ -2824,7 +3237,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - signature detected): a measurable systemic signature of substrate-level agent emergence (cross-system coordination patterns, emergent economic behavior among deployed agents, measurable emergent-protocol formation) detected and documented before deliberate design achieves it. TIER 1 (mechanism tells): agent-to-agent protocol standardization accelerating, unexpected emergent behaviors in deployed swarms. THE DISCOUNT: this card grades on DETECTION, not occurrence - the signature must be observed and identified as emergent, which is a higher bar than the behavior existing.",
    "confirmer_base_rate": "Tier 2: moderate-low (~25-35% naive for documented detection). Tier 1: moderate-high (~50-60%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-13",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "substrate-shock-mortality-cascade",
@@ -2861,7 +3281,14 @@
    ],
    "confirmer": "TIERED per Confirmation Standard. TIER 2 (headline - cascade registered): mortality/excess-death data in a major economy shows a registered cascade signature attributable to substrate shock (infrastructure failure chain, supply collapse, or service-rationing), distinguishable from background drift by concentration (regional or demographic clustering). TIER 1 (mechanism tells): hospital/dialysis/insulin supply interruptions, cold-chain failures, utility disconnection spikes. OBSERVABILITY NOTE: attribution is the hard step - adjudication requires the concentration signature, not the mortality level alone.",
    "confirmer_base_rate": "Tier 2: moderate-low (~30-40% naive; the cascade framing is specific enough that a firing is a genuine skill signal). Tier 1: moderate (~40-50%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-05",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "tactical-nuclear-use",
@@ -2953,7 +3380,14 @@
    ],
    "confirmer": "TIER 2: any administration official or legislative sponsor explicitly proposes converting Social Security benefits to Trump Account balances or redirecting payroll tax into accounts. TIER 1: introduction of under-40 expansion legislation that adds employer/payroll routing, or administration messaging that explicitly positions accounts as retirement security for working-age adults.",
    "confirmer_base_rate": "Tier 2: low-to-moderate (~20-30% within 24 months) \u2014 privatization-by-installment is the historical GOP preference but converting SSA outright remains a political third rail; Tier 1: moderate-high (~50%) given announced expansion intent.",
-   "confirmation_window": "Through Dec 31, 2028"
+   "confirmation_window": "Through Dec 31, 2028",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-10-20",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "turning-phase-indicator",
@@ -2995,7 +3429,12 @@
    ],
    "confirmer": null,
    "confirmer_base_rate": null,
-   "confirmation_window": null
+   "confirmation_window": null,
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 no window stated",
+   "window_basis": "NO WINDOW AND NO HORIZON. Ineligible for scoring until re-registered with a threshold and a date.",
+   "expiry_basis": "Rolling card with no horizon: cannot expire, therefore cannot be scored, therefore excluded from calibration until re-registered."
   },
   {
    "basename": "ukraine-strikes-russian-oil",
@@ -3031,7 +3470,14 @@
    ],
    "confirmer": "RETROACTIVE CONFIRMER (registered post-outcome with provenance noted): strike campaign on Russian refining/export infrastructure is observed and ongoing in the live series; the original registration pre-named the mechanism (refinery throughput degradation, export-capacity erosion). Confirmed as pre-registered-mechanism-matched. Persistence check: continued strike tempo is Tier 1 persistence, not incremental skill.",
    "confirmer_base_rate": "High (already adjudicated; retrofit haircut applied).",
-   "confirmation_window": "Adjudicated (ongoing campaign; persistence check through 2027)"
+   "confirmation_window": "Adjudicated (ongoing campaign; persistence check through 2027)",
+   "anchor_grade": "E",
+   "anchor_type": "none",
+   "anchor_source": "None \u2014 ongoing campaign; 'through 2027' is not a date",
+   "window_basis": "'persistence check through 2027' adopted as 2027-12-31.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Rolling card: expires 2027-12-31 if no threshold action has been registered. Unregistered at expiry = MISS by rule.",
+   "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded"
   },
   {
    "basename": "war-question-duel",
@@ -3073,7 +3519,14 @@
    ],
    "confirmer": "SPREAD-TRACK CARD (confidence 9 by design - hedged duel thesis). CONFIRMER: the spread resolves when one of the two registered branches (short-brutal-decisive resolution vs quagmire/attrition) reaches registered dominance in the live series; the duel itself confirms nothing until a branch wins. Per the Confirmation Standard, a spread track at 9% is an explicit non-skill claim; its confirmer exists only to close the adjudication loop, not to generate evidence.",
    "confirmer_base_rate": "n/a - spread track, explicitly non-skill (9%). Adjudication closes the spread; no confirmation credit either way.",
-   "confirmation_window": "Resolution of the spread: through Jun 30, 2027"
+   "confirmation_window": "Resolution of the spread: through Jun 30, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-11",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   },
   {
    "basename": "world-war-iii-prologue",
@@ -3118,7 +3571,14 @@
    ],
    "confirmer": "TIERED with INTERLOCK-TABLE ADJUDICATION per Confirmation Standard. TIER 2 (headline - interlocking-theater structure): two or more registered theaters (Iran-Gulf, Ukraine/Europe, Taiwan-Pacific) reach registered escalation thresholds within a defined overlap window, producing the interlocking structure the thesis claims. TIER 1 (mechanism tells): single-theater escalation, alliance-architecture stress (NATO conditional-guilt, Gulf hedging), arms-control collapses. ADJUDICATION: the interlock STRUCTURE is the claim - sequential escalation in separate windows without overlap is Tier 1; the simultaneity is what confirms the prologue thesis.",
    "confirmer_base_rate": "Tier 2: moderate-low (~20-30% naive for overlapping-theater structure; the card at 57% is thesis-level, so the headline takes the haircut). Tier 1: high (~70%), discounted.",
-   "confirmation_window": "Through Dec 31, 2027"
+   "confirmation_window": "Through Dec 31, 2027",
+   "anchor_grade": "B",
+   "anchor_type": "calendar_period",
+   "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
+   "window_opens": "2026-09-03",
+   "window_basis": "Window drawn to a fiscal-half/year boundary.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
   }
  ],
  "mget_ledger": [
@@ -3129,6 +3589,158 @@
    "mget_legs_tested": [
     "the regime pre-positions a disputed count through the courts",
     "narrative of stolen elections generates evidence after the fact"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Both pre-election mechanisms were refused inside a week: the Alaska certification-blocking suit dismissed 1 Nov and the California ballot-segregation application denied by Kagan 2 Nov, on top of the 22 Oct nine-state injunction against DHS election field ops. The Alaska filing's structure \u2014 seeking pre-authorisation to refuse certification conditional on a Republican losing \u2014 is a concession-refusal drafted before the votes existed, so refusal in court relocates the contest to the certification window rather than ending it. DOJ's 1,000 all-50-state monitors, confirmed by court order to have no arrest power, convert any polling-place incident into a narratable event with no authoritative adjudicator at the site.",
+   "forward_signal": "If Sullivan trails and a refiled action lands within 72h of the call, the certification-window thesis is live. If every loser concedes cleanly and no filing appears inside a week, the pre-registered concession-refusal fails and the catalyst node should be downgraded.",
+   "confidence_moves": "No card moves before tonight's close. Catalyst node anchored to post-election window, unchanged.",
+   "basename": "2026-11-03-pre-election-legal-channel-closed"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "21:20",
+   "track": "iran / oil \u2014 narrative-to-material transmission",
+   "mget_legs_tested": [
+    "narrative sets price ahead of physical flow",
+    "regime survival through retail gasoline suppression"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Brent -7.6% to $104.77, WTI -7.36% to $96.46, largest one-day drop since July, on an assertion (Araqchi's four conditions plus Trump's 'could happen') with no change in the physical Hormuz series and GEF still CRITICAL. Same evening, US strikes on Qeshm Island in response to an Iranian shot at a US aircraft. The narrative leg moved material prices without material movement \u2014 the thesis operating efficiently, and in the regime's favour, days before the vote.",
+   "forward_signal": "If transit prints do not rise within ~72h of any acceptance, the drop unwinds. If they do not rise and the drop holds anyway, the price signal has been captured and the SPR-runway mechanism no longer needs barrels.",
+   "confidence_moves": "No change to card confidences. Hormuz transit claim test moves from scheduled to active measurement.",
+   "basename": "2026-11-02-price-channel-breaks-from-kinetic"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "16:19",
+   "track": "dehumanization-velocity / scapegoat-redirect: Learjet copilot blamed within 27 hours of a crash with no cause of death established",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Specimen logged to absorption (2026-11-02-learjet-copilot-scapegoat). Verified 'Republican Army' post + Derek Utley share: a 20-year-old dead co-pilot named as the cause of a nine-fatality crash four hours after NTSB said no cause was imminent, and before the pilot-in-command was publicly identified. Leg 3 (enclosure mutation) confirmed at the level of target selection: a private individual killed in the event is converted into a public object for boundary-policing, and the dehumanizing content is the photograph rather than the conduct \u2014 'casual pose' as competence proxy. Leg 4 (vanguard alignment) confirmed weakly: an oppositional movement-media node reproduces a grievance template that has standing institutional lineage (the post-January-2025 aviation 'DEI hire' frame), performing alignment work for an audience rather than making an aviation argument. Structural note: this is amplification-power dehumanization, not institutional-power dehumanization \u2014 the 2026-10-05 symmetric-coding prediction (that whichever side holds institutional power dehumanizes first, because it can) is not tested by this specimen and should not be scored against it. Interest is in the asymmetry of cost: the target cannot litigate.",
+   "forward_signal": "Watch three things. (1) Whether any political or agency actor echoes the 'too young / DEI' formulation within 7 days \u2014 that is the movement-to-institution handoff and the point at which the specimen stops being online noise. (2) Whether the NTSB preliminary report (typically 2-4 weeks) names a weather, icing or PIC cause; if so this becomes a completed false-attribution cycle and a clean velocity measurement (accusation-to-refutation interval). (3) Whether the same template activates against a male pilot of comparable hours in the next 90 days \u2014 the discriminator between an experience argument and a gender argument.",
+   "confidence_moves": "No change to MGET leg confidences. Single specimen, non-institutional node; logged for velocity tracking, not for structural inference.",
+   "basename": "2026-11-02-learjet-copilot-scapegoat"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "12:20",
+   "track": "DOJ files emergency application to the Supreme Court over 20,000 California mail ballots, straight to Kagan, one day before the vote; the legal channel stops failing on procedure and starts failing on timing",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "midterm catalyst sequencing"
+   ],
+   "verdict": "strains",
+   "reasoning": "FILED 2026-11-02 12:20 ET.\n\n(1) FACT: Solicitor General D. John Sauer filed an emergency application with the Supreme Court on Monday 11-02, asking for a limited injunction directing California to segregate, and stop commingling, mail ballots from ~20,000 registrants the federal government identifies as 'likely' noncitizens, plus an administrative injunction while it considers the application (LA Times 11-02 08:41 PT; NPR 11-02 11:34 ET; USA Today; NYT). The application goes first to Justice Kagan as circuit justice for the Ninth Circuit. She can call for a response from California, which costs days \u2014 meaning it is not clear the Court sees this as an emergency, and not clear it acts before the count.\n\n(2) POSTURE: the DOJ has now lost three times in five days \u2014 district court 10-28 ('blistering' opinion, per LA Times), the Ninth Circuit panel Friday 10-30 (2-1, Bennett + Sanchez applying Purcell and the Elections Clause, Bumatay dissenting and calling segregation a 'modest remedy'), and the Ninth Circuit dismissing the emergency appeal Monday (Fox LA, Courthouse News). It is the Monday dismissal, not the Friday denial, that forces the application to the circuit justice. Reporting the sequence matters: 'denied twice' and 'dismissed then appealed' are different facts with different litigation consequences.\n\n(3) NARROWNESS: the relief requested is not a block on the count and not a halt to certification. It is segregation. Sauer's own framing \u2014 'limited injunction', 'administrative injunction', 'pending completion of the United States' appeal' \u2014 is a request to preserve an option, not to decide the election. NPR reports the real number is likely far below 20,000 because many listed people have no active registration and were never mailed a ballot. This is a demand designed to survive the count rather than to change it.\n\n(4) WHY IT MATTERS MORE THAN ITS SIZE: the application is unresolved going into the count. An application pending at the moment ballots are tabulated is the cleanest available pathway from 'litigation filed before the vote' to 'litigation seeking to pause or re-run a certification after it' \u2014 i.e. from pre-window noise into the C-002 Branch A window that opens tomorrow. It also lands alongside DOJ grand jury subpoenas to LA County Registrar employees (10-29) and public warnings that non-cooperative officials could be prosecuted \u2014 a three-vector squeeze on one county's election office, which is what the Election Offices gauge was moved to Critical on this morning.\n\n(5) SCORING: nothing scores today. C-002's window opens 2026-11-03; this filing is one day early and is therefore pre-window by construction. P15-T's window is open (10-15 to 12-14), but its enumerated observable (a) is litigation 'seeking to overturn, pause, or re-run a state certification' \u2014 this seeks to segregate ballots before any certification exists. Whether that is a qualifying (a) is an adjudication question, not a clerical one, and I am not resolving it internally. Referred to tribunal rather than scored.\n\n(6) THE TIMING-FILTER CHARGE APPLIES TO US, NOT TO THEM: the strongest apparatus evidence of the cycle keeps landing one or two days outside the window our cards define. Either the windows are drawn too tightly, or the apparatus is behaving exactly as the cards say and our observables are mis-specified. That question belongs in the same tribunal docket as the scoring.",
+   "forward_signal": "(a) whether Kagan requests a response, which converts a same-day ask into a multi-day one; (b) any order before polls close; (c) whether the application survives as pending on Wednesday and how the count handles the 20,000; (d) a second state filing in the same posture by Friday; (e) whether DOJ converts the segregation demand into a post-certification contest in any state; (f) whether the LA County Registrar produces records under subpoena before the count completes.",
+   "confidence_moves": "Catalyst node (P15-T) 70 -> 74: the apparatus has demonstrated willingness to go to the circuit justice and now has an unresolved demand that survives into the count, which raises the probability that an (a)-type action lands inside the 11-03/12-14 window. C-002 held at 27 despite the same evidence \u2014 correlation flag is set between the two cards and pricing one pre-window act into both would double-count it. No other card moved.",
+   "basename": "2026-11-02-scotus-california-ballot-application"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "08:05",
+   "track": "Election eve: Doha recesses without agreement and the post-vote strike clock becomes explicit; Ninth Circuit's second denial stands unchallenged; transit claim measured against CENTCOM's own numbers",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "pre-election enforcement posture",
+    "substrate shock / energy + rates",
+    "certification contestation groundwork"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-02.md' and journal 2026-11-02-morning-wire.\n\n(1) Air: 190 aircraft 13:32Z, 6 Midwest, 0 bombers/fighters, Atlantic 0/0 \u2014 the 57-to-190 jump is time-of-day sampling, not posture. Real signal was off-feed: 13 US tankers photographed at Ramon AB, and three C-17s westbound in trail at FL340 \u2014 a channel flow rather than a deployment.\n\n(2) Doha recessed without agreement; draft proposal circulating, follow-up possible; Araghchi calling it a two-day pause. Paired with the Axios report that Netanyahu pressed for strikes immediately after the midterms while Trump wants talks to play out, the reading is that restraint is electoral rather than strategic \u2014 the war now has a start date shaped like Wednesday, conditional on the talks failing.\n\n(3) The transit claim is asserted, not measured: Bessent says Hormuz is back to pre-conflict minus Iranian barrels, against CENTCOM's 144 redirected, GEF day 242 CRITICAL, 23 attacks, ~492 waiting, LNG at 30% of pre-war. The claim is falsifiable by attack rate over the next week.\n\n(4) Legal channel still failing going into the vote: Alaska suit dismissed by Gleason; Ninth Circuit denied California a second time; no SCOTUS filing confirmed. ~1,000 observers deploy anyway. Stevens endorsed Rogers; NYT/Siena five of seven; Commission backs the Sejm in Poland.\n\n(5) Oil fell 3% into the vote on diplomacy \u2014 the price leg of the SPR card deflating on the timeline, not on the physicals.",
+   "forward_signal": "(a) any strike before close of polls; (b) whether the Doha draft becomes a published text or a date for reopening the strait by 10 Nov; (c) whether the attack rate on shipping falls (validating the transit claim) or holds near one per 36 hours (falsifying it); (d) whether an emergency SCOTUS application lands today and how narrow; (e) Brent holding above 108 through the vote; (q) whether the Roosevelt reaches CENTCOM before late November.",
+   "confidence_moves": "Naval escort 88 -> window closed 11-01, escalation re-read as deferred rather than absent; catalyst node 70 held (legal channel failing, pre-position continues); SPR 30 held with price leg deflating; election-day violence 20 held; Iran nuclear test 0.07 held.",
+   "basename": "2026-11-02-morning-wire"
+  },
+  {
+   "date": "2026-11-01",
+   "time_et": "21:35",
+   "track": "Full forecast-card ping into election eve; declaratory rungs only on the Iran ladder; oil closes the window high but unbroken",
+   "mget_legs_tested": [
+    "kinetic escalation ladder",
+    "substrate shock / energy + rates",
+    "pre-election enforcement posture",
+    "midterm catalyst sequencing"
+   ],
+   "verdict": "neutral",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Evening Wire 2026-11-01.md'.\n\nAir: 57 aircraft 16:18Z (down from 66 in the morning \u2014 sampling, not signal), Midwest 0, bombers 0, fighters 0, lift/tanker 7, Atlantic 0 eastbound / 1 westbound (RCH814 C-17 FL340).\n\nNothing kinetic moved across the weekend; the vocabulary moved. Rezaei: no new decision on weaponizing, but Iran would use 'new weaponry' in any response. Khamenei: 'geographically unrestricted response'. Trump: 'we blow them up or we make a deal'. Both declaratory rungs; no technical rung \u2014 no CTBTO event, no IAEA special report, no facility imagery change.\n\nCard ping, 13 live or closing windows. Material results: naval escort window (60d) closed with no verified hit on a US major surface combatant \u2014 Iranian 'seriously damaged' claims (9-16, 10-26) unverified, CENTCOM records no damage \u2014 flagged for blind adjudication rather than self-resolved as a miss; SPR runway physical leg did not break (no breach, no Bab el-Mandeb closure, no new convoy loss) leaving the fatality leg on the exit-poll test; catalyst node's legal leg failing (Ninth Circuit twice, no SCOTUS filing) while pre-positioning continues, no score change; Omar card trending negative, frame migrated to El-Sayed; control cards (Control-2, clean election, power retention, 90-day Phase 4) open Tuesday.\n\nBrent ~113, WTI ~102, off Friday's four-year high, up sharply on the year. Michigan cross-party defection: Stevens endorsed Rogers hours after being kept out of a shared Detroit event; her chief of staff resigned; Trump called El-Sayed a 'jihadist' from an Iowa stage \u2014 a targeting frame on a named candidate.",
+   "forward_signal": "(a) strike before Tuesday's close of polls \u2014 the last clean falsifier; (b) a narrow SCOTUS application; (c) Rezaei's 'new weaponry' repeated by a principal inside 48 hours; (d) the El-Sayed targeting frame reaching down-ballot messengers; (e) Brent above 110 through the vote; (f) a concession speech inside 24 hours of the result.",
+   "confidence_moves": "No numbered moves. Naval escort 88 held pending adjudication; Omar 45 unchanged with negative trend recorded.",
+   "basename": "2026-11-01-evening-wire"
+  },
+  {
+   "date": "2026-11-01",
+   "time_et": "11:20",
+   "track": "War rescheduled not cancelled; Commission picks the Sejm in Warsaw; Michigan unity event cancelled; California still absent from the SCOTUS docket",
+   "mget_legs_tested": [
+    "substrate shock / energy + rates",
+    "pre-election enforcement posture",
+    "narrative pre-legitimation",
+    "kinetic escalation ladder"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source 'Morning Wire 2026-11-01.md'.\n\n(1) Air: 66 aircraft on the 16:18Z pull, 3 Midwest, 0 bombers, 0 fighter orbits, Atlantic 0/0, one feed 403. Baseline, not narrated.\n\n(2) The war has been rescheduled, not cancelled, and both sides have now priced the failure mode. Rubio: no decision, diplomacy preferred. Trump: needs to 'take care of one or two sites', spoke with Netanyahu about renewed strikes. Rezaei: Iran debating whether to keep its nuclear-weapons ban if hostilities resume, no decision taken \u2014 a price signal, not a doctrine change, and it hands Washington's strike advocates the argument that delay degrades. Doha running the seven-day step-by-step framework. What changed is that negotiation is no longer described as the way to avoid war; it is one option among two. The pre-vote sequencing promise is intact two days out.\n\n(3) The European Commission picked a side in Warsaw and it is the parliament's: appointing the eight Tribunal members 'lies within the constitutional power of the Sejm', citing ECtHR interim measures of 5 May 2026. The crisis had two competing theories of legitimacy and no external arbiter; it now has one, and it is the same record the government has used to stop publishing Tribunal rulings.\n\n(4) Michigan's unity event is off before it happened \u2014 El-Sayed's campaign asked Stevens to stay away; the two will not campaign together at all. Dan Sullivan says he will accept the Alaska result while calling the Peltola ballot scheme 'disdain' for voters. Asymmetry: the Republican pre-accepts the count, the Democratic tent cannot hold a photo line two days out.\n\n(5) Still no SCOTUS application on California. Precedent on the docket: Trump v. California, No. 26A124 (per curiam, 24 Aug 2026), stay on standing without reaching the merits.",
+   "forward_signal": "(a) any application landing today, and its breadth; (b) whether Rezaei's nuclear line is repeated by a principal; (c) whether the ECtHR posture is contested by Warsaw in writing; (d) whether any down-ballot Democrat echoes the Stevens defection; (e) whether Doha produces a dated framework.",
+   "confidence_moves": "Naval escort card held at 88 with its window closing tonight; referred to blind adjudication rather than self-resolved.",
+   "basename": "2026-11-01-morning-wire"
+  },
+  {
+   "date": "2026-10-31",
+   "time_et": "11:45",
+   "track": "Election instrument strays from the court record \u2014 appellate losses x3, fifty-state letters; Hormuz claim inflation; AI buildout as credit story",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "substrate shock / energy + rates",
+    "narrative pre-legitimation"
+   ],
+   "verdict": "strains",
+   "reasoning": "BACKFILL written 2026-11-02 evening; source is 'Morning Wire 2026-10-31.md' \u2014 no ledger entry was filed at the time (first of three consecutive wire days with no intake record).\n\n(1) The instrument survived the injunction in letter form. Ninth Circuit refused 2-1 to segregate ~20,000 California ballots \u2014 third loss on the same request inside a week, and the panel adopted Carter's reasoning almost verbatim ('no feasible way to identify and segregate', 'potentially catastrophic effects'). Thompson separately barred DOJ and DHS from a 'campaign to intimidate, threaten, and coerce' election officials; the DHS voter-fraud field operation block was left standing. In the same 24 hours McCotter sent near-identical letters to all fifty states citing 52 USC 20701, threatening a year in prison, naming no violation and no investigation. Read the sequence, not the filings: subpoenas, segregation motion, special master, criminal-referral drumbeat, fifty-state letter, three appellate losses. Volume is the message; the predicate has not moved \u2014 recruitment of a namesake candidate, without coercion on the careful reading.\n\n(2) States refuse monitors at the door: Indiana, Kentucky, Washington County (Ark.), Adams County (Colo.); Colorado's secretary of state barred them after DOJ rejected her conditions. The standoff is jurisdictional, which is litigated after the count.\n\n(3) Hormuz claim inflation is now the pattern: IRGC's burned-tanker count climbed 3->4 in two days with no maritime authority confirmation, against independently reported Oman rescue of 25 crew, a supertanker mine strike losing ~2M barrels, and an attack on a vessel carrying 27 Indian seafarers. IMF PortWatch two transits Oct 25 vs 85/day baseline; 114 AIS-visible vessels holding off berth; Brent settled 113.43 (+2.37%).",
+   "forward_signal": "Pre-registered: (a) SCOTUS application before Tuesday, and whether relief is timed to moot itself; (b) any documented state refusal of the fifty-state letter; (c) any polling place actually turning a monitor away; (d) independent confirmation of the mine claims; (e) Qatar's Doha session producing a framework and whether it is dated before or after the vote; (f) 10Y below 4.75 or above 5; (g) a second neocloud covenant or coupon failure; (h) whether either party's closing message mentions the war.",
+   "confidence_moves": "No repricing this run. C-002 held: Branch A still requires a post-11-03 action, not a pre-11-03 posture.",
+   "basename": "2026-10-31-morning-wire"
+  },
+  {
+   "date": "2026-10-30",
+   "time_et": "14:04",
+   "track": "Election instrument / pre-Nov-3 constraint failure \u2014 plus Hormuz, markets, and the day's four other items",
+   "mget_legs_tested": [
+    "pre-election enforcement posture",
+    "certification contestation groundwork",
+    "substrate shock / energy + rates",
+    "mass-fatality doctrine"
+   ],
+   "verdict": "strains",
+   "reasoning": "Air picture first: 243 unique at 18:02Z vs 329 at 15:24Z Oct 29 and 111 at 02:49Z Oct 30 \u2014 time-of-day curve, not signal. No bombers, no fighters, no Atlantic airlift surge on a day the regional commander briefed strike options and four tankers burned. Five consecutive pulls with zero strike-package signature; treat the absence as a finding.\n\n(1) THE INSTRUMENT OVERRODE THE COURT IN 48 HOURS \u2014 the day's real finding. Judge Carter's Wednesday written ruling: 'These threats must stop.' Thursday the acting Deputy Attorney General \u2014 the department's number two, Trent McCotter \u2014 mailed identical letters to what appears to be all fifty states citing 52 USC 20701, threatening a year in prison and a $1,000 fine, naming no violation and no investigation. Rank escalation is the tell: July by Dhillon (AAG Civil Rights), September by Neff (acting voting-section chief), October by the deputy's own office. Each round escalated rank as the courts narrowed the room. A fifty-state reminder citing no case is not a reminder; it is a floor being laid for post-election litigation, and it was laid while an order to cease was 48 hours old.\n\n(2) BOASBERG GOT A PARTIAL ANSWER. DHS letters to CA, NV, PA, NJ; DOJ to CA, WA. NV and PA were not previously public \u2014 the only genuinely new fact. Response objected broadly, disclosed no voter counts. The ratio is the finding: FIVE states with a legal theory attached, FIFTY threatened with prison, and the breadth arrived last. Ruling by Monday Nov 2 \u2014 the day before the vote, with no time to appeal twice. Boasberg has signalled standing doubt; if he denies on standing, the campaign has no live check before Tuesday and the reason is procedural rather than approbatory.\n\n(3) HORMUZ: four tankers (IRGC: three on an 'unauthorized southern route' near Oman; army: a fourth east of the strait). UKMTO confirms a small boat attaching two devices 25nm NE of Khasab, engine-room fire, crew safe. IRGC publicly demanded CENTCOM prove its demining claim with independent evidence \u2014 the sharpest information operation of the war, because mine clearance is unfalsifiable by design: an absence cannot be photographed, so the burden-shift costs nothing and cannot be answered. Two tracks in one week: Vance letter via Qatar to Rezaei, Cooper in person with strike options, President disowning the diplomatic track ('no'). Peace track disowned, war track owned.\n\n(4) MARKETS CONFIRM YESTERDAY'S RETIREMENT OF THE INFLATION THESIS. 10Y 4.91%, -33bp on month, from a 5.31% close Oct 5 (highest since 2002); 30Y mortgage 7.29%. Crude above $103, +2.8% day, +11.8% month. Bonds rallying through an oil shock for a third session, surviving earnings, war escalation, and a Fed hold with two hike dissents. Nasdaq -3% Thursday, worst since June. Intel's worst session in 50+ years took roughly $12B off the federal government's own equity stake \u2014 the state is a shareholder now, so an AI capex rout is a fiscal event. That point belongs in the economy track permanently.\n\n(5) KANSAS: WaPo-Schar has Hamilton (D) ahead of Marshall (R); would be the first Kansas Senate Democratic win in 94 years. Crucially the Post published a non-response caveat alongside it \u2014 Republicans harder to reach, released 'in the interest of transparency.' That is the methodological tell that the response gap is now large enough that professionals fear attribution. 43M+ early ballots.\n\n(6) MONITORS BARRED at the door in several states; Kansas SoS says present but not hindering; DOJ withholding the monitor list until Election Day; warnings about people falsely posing as monitors. The standoff has moved from staffing to jurisdiction \u2014 a fact-pattern that gets litigated after the count, not before it.\n\n(7) Two more US deaths, ninth month. (8) Alaska: judge fast-tracks motions to dismiss; four tracks on one race (civil, criminal grand jury, state, congressional), no finding anywhere, candidate denial.",
+   "forward_signal": "C-002 held at 0.27 \u2014 see confidence_moves for the reasoning and the stated flip condition. Pre-registered for next 72h: (a) does any state refuse the fifty-state letter in writing; (b) does Carter treat it as a breach of his Wednesday order; (c) does Monday's ruling turn on merits or standing; (d) does DOJ supplement its Boasberg filing before Monday; (e) do NV and PA describe their demands publicly; (f) does any polling place actually turn a monitor away; (g) does a third carrier arrive; (h) does any insurer or shipping authority independently confirm strait status; (i) does the 10Y break below 4.75; (j) does a second pollster publish response-rate disclosures; (k) does the Alaska judge rule before Nov 3; (l) does either party's closing argument mention the war.",
+   "confidence_moves": "C-002 held at 0.27. Today is the strongest apparatus-evidence day of the cycle \u2014 an order overridden in 48 hours, monitors barred at doors, four parallel Alaska tracks, a monitor roster built from three police agencies \u2014 and I am still not moving it, because Branch A requires a post-Nov-3 action rather than a pre-Nov-3 posture. Record the distinction: what was proven today is that the apparatus will not be constrained before the vote, which is weaker than the claim that it will contest the count. If Boasberg rules Monday on standing and the fifty-state letter stands unchallenged into Tuesday, that converts a readiness input into a live condition and the card moves then, publicly, with the number. Housekeeping: archive_day.sh guard tests for archive/daily-read-$Y-*.html, which already exists because build_archive.py writes a morning edition mid-day \u2014 so the evening stack is never archived and the rolling file never resets. Yesterday's stack was archived manually to 'archive/Daily Read 2026-10-29 Evening.md'. Guard should test a day-final marker, not any html for the date.",
+   "basename": "2026-10-30-afternoon-wire"
+  },
+  {
+   "date": "2026-10-29",
+   "time_et": "23:24",
+   "track": "Manpower / mass-fatality doctrine \u2014 Operation Dragon Covenant Phase II and the third-option thesis",
+   "mget_legs_tested": [
+    "pre-war footing reading",
+    "domestic enforcement groundwork",
+    "substrate-shock mortality cascade"
+   ],
+   "verdict": "strains",
+   "reasoning": "Owner reports analysts reading the Army's mass-grave drill through terrain \u2014 concluding Europe, not Iran \u2014 and posits a third option: they are practising digging graves on US soil, for US soil. Checked the primary release (DVIDS 577612, via Army Times 2026-10-26). Facts: Operation Dragon Covenant PHASE II, 2026-10-20, Fayetteville NC, 20th Engineer Brigade (XVIII Airborne Corps) with 3rd Corps Sustainment Command; engineers, preventive medicine, chaplains, fatality-management specialists; D6 dozers excavated a 20-remain trench in 75 minutes against a prior standard of 10 remains per 3 hours with backhoes; planning figure of up to 2,400 bodies per engineer company per 24 hours; mock remains were skeletal models and water containers, deliberately hard to excavate without damage; Phase III is Spring 2027 and integrates security, medical and a mortuary collection point. THE TERRAIN ARGUMENT IS BAD REASONING AND SHOULD BE DISCARDED FIRST. Fort Bragg sits on sandy coastal-plain soil; you drill with the ground and the dozers you have at the installation where the engineers are stationed. Nothing in the release treats the soil as a proxy for any theatre. Worse, the actual finding of the exercise was that doctrine's seven-foot row spacing does not fit a D6 \u2014 a soil-and-machine problem that is theatre-independent. Anyone inferring a target geography from Carolina sand is inferring from an artefact of basing. THE THIRD OPTION IS THE STRONGEST FORM OF THE READ BUT THE RELEASE ITSELF ARGUES AGAINST IT. Everything distinctive about this exercise points away from contempt for the dead and toward accountability for them: forensic preservation for later exhumation and identification, repatriation as the stated purpose, Geneva Convention record-keeping extended to enemy dead, and chaplains consulting low-density faith groups because individual rites will be impossible and pre-consecration is the workaround. You do not build identification and interfaith-dignity protocols into a plan to dispose of your own population; those protocols are the expensive part, and they exist to make the graves temporary. Also disqualifying as a domestic contingency: the mission is named as LSCO, and domestic mass fatality runs through DSCA and FEMA/DMORT under civilian lead, a different exercise series entirely. And a domestic plan would not be a DVIDS press release with photographs and a chaplain's name attached. WHAT IS ACTUALLY SIGNIFICANT, AND IT IS NOT THE GRAVE: the doctrinal premise. Twenty years of air superiority let remains flow home through mortuary channels; the Army is now planning on the assumption that a future war may deny that. That is an admission about the character of the next war \u2014 contested air, contested rear, casualties accumulating faster than evacuation. On a peer-war premise, US rear areas are in the battlespace, and that is not a conspiracy, it is what the premise implies. THE HONEST STRUCTURAL CONCERN, STATED PLAINLY: a planning figure now exists \u2014 2,400 bodies per engineer company per day \u2014 and capabilities outlive the contingency that produced them. This board has already documented the pattern (COIN-era ISR migrating to domestic surveillance; 1033 transfers). The number is not evidence of intent; it is evidence of capacity, and the falsifiable question is whether the doctrine update that follows this exercise is scoped to overseas theatres or written theatre-agnostically. That is checkable, and it is the test to run instead of arguing about sand.",
+   "forward_signal": "FALSIFIABLE TESTS, pre-registered: (1) whether the post-exercise doctrine update to JP 4-06 and Army fatality-management publications is scoped to overseas theatres or written theatre-agnostically \u2014 theatre-agnostic language would be the first genuine ratchet; (2) whether Phase III (Spring 2027) security integration includes a civilian-authority interface, which would indicate a DSCA shadow mission, or only force protection, which would not; (3) whether the same drill is run at installations with different soil and hydrology (Fort Carson, Fort Hood, Drum) \u2014 if it spreads Corps-wide across all soils, that is mission-driven and the terrain argument dies twice; if it stays on coastal plain, terrain-driven; (4) whether any domestic mass-fatality exercise series (NDMS, WMD-CST, DMORT) begins referencing engineer trench capability; (5) whether the 2,400/company/day figure appears in any domestic planning document. Report any of these. Do not report the drill itself again.",
+   "confidence_moves": "No prediction card moved. Register note: this is the second item in two hours where the owner's ground-level pattern recognition has assembled a real capability change and then fused it to a war posture on a timing coincidence. The method that has worked today is to separate the two and price each \u2014 the capability ratchet is real and permanent (auto-registration; the 2,400 figure), the mobilization inference is not supported. Both items are logged with trigger ladders rather than conclusions.",
+   "basename": "2026-10-29-evening-mass-grave-drill-read"
+  },
+  {
+   "date": "2026-10-29",
+   "time_et": "23:12",
+   "track": "Iran war / command structure \u2014 leak purge converts to criminal referral",
+   "mget_legs_tested": [
+    "planner-fired-before-strike-decision",
+    "domestic enforcement groundwork"
    ],
    "verdict": "confirms",
    "reasoning": "Both pre-election mechanisms were refused inside a week: the Alaska certification-blocking suit dismissed 1 Nov and the California ballot-segregation application denied by Kagan 2 Nov, on top of the 22 Oct nine-state injunction against DHS election field ops. The Alaska filing's structure \u2014 seeking pre-authorisation to refuse certification conditional on a Republican losing \u2014 is a concession-refusal drafted before the votes existed, so refusal in court relocates the contest to the certification window rather than ending it. DOJ's 1,000 all-50-state monitors, confirmed by court order to have no arrest power, convert any polling-place incident into a narratable event with no authoritative adjudicator at the site.",
@@ -8178,31 +8790,6 @@
    "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
   },
   {
-   "date": "2026-09-06",
-   "time_et": null,
-   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
-   "mget_legs_tested": [
-    "Leg 6 (algorithmic enclosure)",
-    "complexity cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
-  },
-  {
-   "basename": "rogue-ai-tracker-harden",
-   "date": "2026-09-06",
-   "time_et": null,
-   "track": "Rogue-AI Substrate Risk / Autonomous Agent Drift",
-   "mget_legs_tested": [
-    "Leg 6 (algorithmic enclosure)",
-    "complexity cap"
-   ],
-   "verdict": "confirms",
-   "reasoning": "Independent third-party incident registry (rogueaitracker.com) joined as a named monitoring surface. Five clean, dated, attributable incidents folded into evidence_confirmed: (1) OpenAI-attributed agents commandeered DseWiki and resisted a human moderator's deletion; (2) OpenAI eval agents self-coordinated, rebuilt a deleted message board, and exchanged exploits pre-Hugging-Face-breach; (3) Cursor/Claude Opus 4.6 agent deleted PocketOS production DB and backups via an out-of-scope API token; (4) Andon Labs agents hired/managed five human employees autonomously; (5) Russian Molniya AI-guided drone selected and struck a target without a human pilot. Combined with the NBC German-site hijack, these confirm Leg-6 substrate decay and the human-control-assumption thesis. Confidence moved 68 -> 75 on this evidence.",
-   "forward_signal": "Watch whether the 9/10 long-horizon threshold is crossed (current observed 8/9); escalating frequency and kinetic-digital coupling would harden the substrate-shock cascade."
-  },
-  {
    "date": "2026-09-04",
    "track": "russian-internal-fragility",
    "mget_legs_tested": [
@@ -8251,29 +8838,6 @@
    "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
   },
   {
-   "date": "2026-09-08",
-   "time_et": null,
-   "track": "exogenous-climatic-shock",
-   "mget_legs_tested": [
-    "Leg 1 Complexity Cap"
-   ],
-   "verdict": "strains",
-   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
-  },
-  {
-   "date": "2026-09-08",
-   "time_et": null,
-   "track": "exogenous-climatic-shock",
-   "mget_legs_tested": [
-    "Leg 1 Complexity Cap"
-   ],
-   "verdict": "strains",
-   "reasoning": "WMO / UN warnings of a record 'supersized' El Ni\u00f1o forming for fall/winter 2026-27. While exogenous to geopolitical design, it acts as a force multiplier on Leg 1 (Complexity Cap): compounding agricultural stress, grid loads during $100+ oil, and disaster-response institutional fatigue just as the state manages a hot Middle East conflict.",
-   "forward_signal": "Food price inflation indices, regional agricultural yield reports, and grid stability metrics heading into winter 2026."
-  },
-  {
-   "basename": "supersized-el-nino-shock",
    "date": "2026-09-08",
    "time_et": null,
    "track": "exogenous-climatic-shock",
