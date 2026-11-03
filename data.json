@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-02",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-03T08:49 ET"
+  "generated_stamped": "2026-11-03T13:12 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3415,6 +3415,34 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-03",
+   "time_et": "13:11 ET",
+   "track": "courts-elections",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "MIDDAY WIRE. Two moves in the legal channel while voting was underway, both in the same direction: the apparatus that was supposed to be frozen on election day is operating. (1) DOJ is sending roughly 20 target letters to Democrats in a criminal investigation of the Alaska Senate race \u2014 possible donor fraud and conspiracy, Marc Elias among likely recipients (NYT). The Alaska certification challenge logged at the morning wire has upgraded from a lawsuit to be filed into a criminal investigation with named targets, announced mid-vote. (2) The Ninth Circuit: a 2-1 panel lifted the TRO blocking DOJ from threatening California and Washington election officials with prosecution unless they set aside ballots; the full court granted en banc review and vacated the panel within three hours, restoring the TRO. The material fact is the three-hour window, not the outcome \u2014 for that window the operative federal posture toward two states' election officials was a criminal threat, and officials reading it in real time could not know it would be vacated. Supporting, all consistent with heavy turnout and none of it anomalous: Guam delegate flips D (51%, 100% precincts, before noon); Westchester scanner hardware failure countywide with paper ballots available and NY AG monitoring; Florida flooding relocates 31 precincts across 7 counties under state of emergency; UT Austin fire alarm pulled twice, criminal investigation opened; election protection coalition reports zero federal agents at polls as of midday against ~1,000 DOJ monitors deployed in all 50 states; ~60M early votes. Price channel: election-day national average gasoline $4.12/gal and diesel $6.28/gal, both records (GasBuddy). Iran: Trump tells Fox & Friends the war 'isn't really war' and 'we haven't shot anything', $47.1B Pentagon cost estimate, total Hormuz control claimed, oil revenue claimed at 100x cost, and a stated agreement with Netanyahu to end $4B in annual aid by year end; same day Reuters reports intelligence sharing on Iran has slowed or temporarily stopped, with a decision on resuming strikes held until after the vote. Europe: six aircraft searched across five countries after bomb threats, no devices found \u2014 coordinated signature, no attribution.",
+   "forward_signal": "Ohio closes 19:30 ET. Watch order of reporting, not margin. Two triggers now live: (a) any state official describing the DOJ letters as affecting ballot handling \u2014 that converts the Alaska instrument into a general method; (b) any concession or refusal to concede before 90% reporting in a race inside 3 points. Watch also whether the Ninth Circuit en banc ruling is followed by a further filing tonight; the en banc grant is a procedural win that does not foreclose an emergency application to the Supreme Court.",
+   "confidence_moves": "No change to MGET leg confidences. P15-T catalyst node held at 74 \u2014 the Alaska letters and the Ninth Circuit sequence are consistent with the pre-registered certification-domain falsifier without yet satisfying it; a target letter is not a contested count. Note for the register: this is the second consecutive wire in which the legal channel moved rather than froze, which is the pre-build posture the card describes.",
+   "basename": "2026-11-03-midday-wire"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "09:20 ET",
+   "track": "courts-elections",
+   "mget_legs_tested": [
+    "leg_3_enclosure_mutation",
+    "leg_4_vanguard_alignment"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FINAL POLL FREEZE \u2014 polls closed as inputs at midnight; last readings before the vote. All major trackers froze at midnight into Election Day. Final NYT/Siena battleground series (Oct 26-Nov 1, 5,708 likely voters across AK, IA, KS, ME, OH, MI, TX): Democrats lead or tie in all seven Senate battlegrounds, Michigan the only double-digit margin (El-Sayed 53-42 over Rogers); Iowa and Alaska inside the margin of error. Generic ballot final average D+8.1 (CallTheMap blend), ~D+9 (Yahoo aggregation); Reuters/Ipsos released Monday 46-38 (D+8). Trump net approval -25.0. Special-election environment D+9.0 across 46 races through Nov 2. Early votes: NPR reports more than 59 million cast before polls opened (prior count 54.5M at the 11-03 morning pull). CAUTION RECORDED AT FREEZE: final polls understated R in both 2020 and 2024, and a uniform national shift of this size is the setup in which a correlated turnout-model error does its damage. The OH/TX divergence watches both resolved toward the polls, not away: Ohio markets crashed from R-79c (10/22) to Acton 82-83c while polling held at Acton +4.7 (RCP 49.6-44.9) and NYT/Siena closed Acton +6; Texas markets moved from D 62-65c to Talarico 73c against a poliagg D+1.5 and a forecast ensemble at R+3.5. Per pre-registered action_on_trigger on both, market convergence of this shape is recorded as a thin-liquidity/forecast-model artifact, NOT as signal validating the polling read. Sources: NYT/Siena crosstabs 11-01, CallTheMap, RCP, Kalshi, NPR 11-03; resolutions filed to /space/watch/2026-10-22-oh-gov-polls-markets-divergence.json and /space/watch/2026-10-22-tx-senate-polls-forecast-divergence.json.",
+   "forward_signal": "Polling is now a closed input; from 18:00 ET the feed is results, county reporting order, and any refusal to concede. Ohio and Texas results resolve the two divergence watches directly. Watch certification-domain actors for the transition from pre-build tell to Tier-2 action once the margin is known: a wave outcome narrows the set of contestable races while raising the incentive to contest whichever ones stay close.",
+   "confidence_moves": "No change to MGET leg confidences. P15-T catalyst node held at 74 \u2014 its falsifier is certification-domain, not vote share. This reading adds turnout-environment support to the wave branch but does not touch the contestation mechanism.",
+   "basename": "2026-11-03-poll-freeze-final-readings"
+  },
   {
    "date": "2026-11-03",
    "time_et": "08:45",
@@ -8884,7 +8912,8 @@
    "date": "2026-09-04",
    "track": "regime-power-retention",
    "mget_legs_tested": [
-    "leg_1_complexity_cap"
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
    ],
    "verdict": "confirms",
    "reasoning": "Regime refusal to cede power regardless of outcome is the defining attribute of a crisis-seat regime. Confirms Leg 5 and its algorithmic-enforcement subset (ballot-data control).",
@@ -8895,7 +8924,8 @@
    "date": "2026-09-04",
    "track": "reichstag-fire-national-emergency",
    "mget_legs_tested": [
-    "Leg 4"
+    "Leg 5 Fourth Turning",
+    "Leg 6 Algorithmic Enclosure"
    ],
    "verdict": "confirms",
    "reasoning": "Planned national-emergency completion of the authoritarian transition is the most direct Leg 5 confirmation on the board. High but pending.",
@@ -10214,7 +10244,7 @@
   ]
  },
  "counts": {
-  "items_today": 6,
+  "items_today": 8,
   "tracked_predictions": 69,
   "claims_tested": 28,
   "unscored_predictions": 0
