@@ -2,40 +2,4 @@
 
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
-DATE: 2026-11-03
-SUMMARY:
-- The Justice Department sends roughly 1,000 election monitors into all 50 states for the first time in its history — and a judge orders it to explain, by this morning, how it knows none of them are police
-- The Supreme Court kills the California ballot case in a single line, hours after it was filed; the Alaska suit was thrown out on Sunday. Every attempt to shape the count before the votes existed has now failed in court
-- A federal judge has already barred Homeland Security from election-related field operations in nine states through today
-- The United States strikes Iran's Qeshm Island after the Guard shoots down an American drone and fires at two US fighter jets over the Strait of Hormuz
-- Oil holds most of Monday's 7% collapse while two tankers a day move through the strait instead of eighty-five
-- Roughly 54 million early ballots are already in — past the 2022 record — and in Westchester County, New York, the ballots are too thick for the scanners
-
-WATCHING:
-- Whether any losing candidate concedes cleanly tonight. The concession is the whole variable: Alaska already has a lawsuit drafted and dismissed that was built to refuse certification if the Republican lost
-- Whether a refiled certification challenge lands within 72 hours of a result, which is the trigger that matters, not the result itself
-- Whether the front-month oil price keeps falling while the gap to later months widens — that would mean traders are betting on timing rather than on barrels
-- Whether anyone independent corroborates Iran's claim that three tankers hit mines in the strait on unauthorized routes
-- Whether the Qeshm exchange stays at the level of drones and radar sites, or draws in the carrier strike group that is not yet in theater
-- Whether a polling-place incident gets narrated nationally by an observer with no power to act — 1,000 monitors who cannot arrest, in a country told for six months that its elections are stolen, are an evidence machine for whoever reaches the microphone first
-- Whether the Roosevelt reaches the region before late November, and whether the Gulf states describe in public the warning they were given about a campaign after the vote
-
-DATE: 2026-11-03
-SUMMARY:
-- The Justice Department sends roughly 1,000 election monitors into all 50 states for the first time in its history — and a judge orders it to explain, by this morning, how it knows none of them are police
-- The Supreme Court kills the California ballot case in a single line, hours after it was filed; the Alaska suit was thrown out on Sunday. Every attempt to shape the count before the votes existed has now failed in court
-- A federal judge has already barred Homeland Security from election-related field operations in nine states through today
-- The United States strikes Iran's Qeshm Island after the Guard shoots down an American drone and fires at two US fighter jets over the Strait of Hormuz
-- Oil holds most of Monday's 7% collapse while two tankers a day move through the strait instead of eighty-five
-- Roughly 54 million early ballots are already in — past the 2022 record — and in Westchester County, New York, the ballots are too thick for the scanners
-
-WATCHING:
-- Whether any losing candidate concedes cleanly tonight. The concession is the whole variable: Alaska already has a lawsuit drafted and dismissed that was built to refuse certification if the Republican lost
-- Whether a refiled certification challenge lands within 72 hours of a result, which is the trigger that matters, not the result itself
-- Whether the front-month oil price keeps falling while the gap to later months widens — that would mean traders are betting on timing rather than on barrels
-- Whether anyone independent corroborates Iran's claim that three tankers hit mines in the strait on unauthorized routes
-- Whether the Qeshm exchange stays at the level of drones and radar sites, or draws in the carrier strike group that is not yet in theater
-- Whether a polling-place incident gets narrated nationally by an observer with no power to act — 1,000 monitors who cannot arrest, in a country told for six months that its elections are stolen, are an evidence machine for whoever reaches the microphone first
-- Whether the Roosevelt reaches the region before late November, and whether the Gulf states describe in public the warning they were given about a campaign after the vote
-
 (no sections filed yet — first wire run of the day writes the morning edition)
