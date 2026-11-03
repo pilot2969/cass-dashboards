@@ -1,4 +1,4 @@
-# The Daily Read
+# The Daily Read — 2026-11-03
 
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
