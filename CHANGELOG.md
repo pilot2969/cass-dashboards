@@ -2,6 +2,10 @@
 
 ## 2026-11-04
 
+### Literal escape guard (v3.11.2)
+- 18 literal `\uXXXX` escapes were rendering as text in the Model State panel ("100 \u00d7 the mean"). Decoded in prose; same class of leak cleaned from five `/space` records.
+- New gate rule `prose.no-literal-escapes` checks **rendered** prose only, so escapes inside script source (regex classes, ▲▼ glyphs) are untouched. Fault-injected: 1 injected escape → FAIL, then removed.
+
 ### Register-drift warning fixed (v3.11.1)
 - The drift check parsed baked per-card percentages from the page, but the register renders live from `data.json` — so 83 scored cards read as "off-register" on every run with nothing wrong. Now compares against `data.json.predictions` and names its source in the output.
 - Upload protocol written into `README.md`: footer version, change log (page + CHANGELOG.md), Data Dictionary, version consistency across all four places, gate order after every pull.

@@ -104,6 +104,14 @@ async function main(){
     md.length?fail('prose.no-raw-markdown:'+f,`${md.length} markdown fragment(s) that innerHTML will not render`)
              :pass('prose.no-raw-markdown:'+f,'no unrenderable markdown');
 
+    // 2b. literal \uXXXX escapes in RENDERED prose (added 2026-11-04). A stray escape that
+    // never reaches the JS engine shows the reader "100 \u00d7 the mean" instead of a
+    // multiplication sign. Only checked against rendered text, so legitimate escapes inside
+    // script source (regex classes, '\u25b2' arrows) are untouched — they decode before render.
+    const esc=(body.match(/\\u[0-9a-fA-F]{4}/g)||[]);
+    esc.length?fail('prose.no-literal-escapes:'+f,`${esc.length} literal escape(s) on the page: ${[...new Set(esc)].join(' ')}`)
+             :pass('prose.no-literal-escapes:'+f,'no literal unicode escapes in rendered prose');
+
     // 3. every container the scripts are supposed to fill must be non-empty
     // -grid / -live containers must be filled by their script. -host is legacy
     // in some pages (cards mount to the panel, not the host div) so it only warns.
