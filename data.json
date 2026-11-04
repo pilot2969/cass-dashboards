@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-04T15:17 ET"
+  "generated_stamped": "2026-11-04T15:20 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -11546,8 +11546,8 @@
    "gate": "open",
    "phase": "Phase 4 \u2014 detonation window",
    "phase_closes": "2026-12-08",
-   "basis": "Three legs fired (M, G, E) and the fourth (T) is drifting, not absent. The model's gate is 3 of 4: at 3 the system is eligible for a rupture, it does not guarantee one.",
-   "note": "MGET names which engine is driving, never the outcome. The outcome channel is priced separately by the four lane cards below."
+   "basis": "Three of four legs fired (M, G, E). The fourth, T, is ABSENT, not straining-into-fired: the leg's own operational definition \u2014 sustained vanguard realignment of 3+ months with 5+ named institutional defection events that change funding, staffing or formal position, statements excluded \u2014 is nowhere near met. Legs fired is a count of fired/absent states, never of load.",
+   "note": "MGET names which engine is driving, never the outcome. Load (0-100) and leg state (fired/absent) are different fields on purpose: a leg can carry heavy pressure and still be absent, which is exactly leg 4's position now."
   },
   "legs": [
    {
@@ -11566,7 +11566,9 @@
      "spr-runway-breaks-before-midterms",
      "fertilizer-supply-crisis",
      "de-dollarization-reserve-rotation"
-    ]
+    ],
+    "fired": true,
+    "load_band": "Fired"
    },
    {
     "letter": "G",
@@ -11584,7 +11586,9 @@
      "regime-power-retention",
      "cdc-epistemic-capture",
      "control-2-no-insurrection-act"
-    ]
+    ],
+    "fired": true,
+    "load_band": "At capacity"
    },
    {
     "letter": "E",
@@ -11602,25 +11606,29 @@
      "agi-scaffold-political-economy",
      "press-access-enclosure-media-capture",
      "substrate-shock-mortality-cascade"
-    ]
+    ],
+    "fired": true,
+    "load_band": "Fired"
    },
    {
     "letter": "T",
     "name": "Turning",
     "question": "Is the elite conflict still internal, or has something formed that could replace it?",
     "plain": "Whether the fight is inside the old order between its own factions, or whether a new alignment has formed that could actually stand something up. High means the replacement exists. This is the leg that decides whether the period ends in repair or replacement.",
-    "state": "straining",
+    "state": "absent",
     "score": 82,
     "delta": 4,
     "derive": "Hand-set. Anchors: leg 4 reads drifting in the 2026-11-04 reading \u2014 strain is high, alignment is not formed.",
-    "why": "The highest reading on the board and the least measurable leg, which is exactly the problem: 39 of 88 cards are filed here and not one of them can still the question. Post-defeat routing is live, the vanguard split-or-fusion card is unresolved, and the succession question is 60 days old. Load is not evidence.",
+    "why": "Highest load, absent state \u2014 the pair that matters. Pressure toward realignment is heavy: 39 of 88 cards are filed here, the vanguard split-or-fusion card is live at 35%, post-defeat routing is unresolved, and the succession question is a day old. But by the leg's own test nothing has realigned: no sustained run of named institutional defections changing funding, staffing or formal position. Load is not the leg. The 2017 control case scores leg 4 ABSENT in a year of maximum discourse velocity, and calls that distinction load-bearing: discourse velocity is leg 2's signature, structural velocity is legs 1/3/4.",
     "watch": [
      "2026-11-04-vanguard-split-or-fusion",
      "2026-11-03-post-defeat-72h-routing",
      "hegseth-out-before-120th-congress",
-     "post-trump-restructure",
-     "1859-orientation-confirmation-set"
-    ]
+     "post-trump-restructure"
+    ],
+    "fired": false,
+    "load_band": "Straining",
+    "definition": "Operational test, from the Turning-Phase Indicator: sustained vanguard realignment = 3+ months, 5+ named institutional-level defection events that change funding, staffing or formal position. Statements alone never count. Personality-level churn is explicitly excluded \u2014 the 2026-09 self-audit split the two after 'vanguard' had been conflated with press-personality defection."
    }
   ],
   "register_load": {
