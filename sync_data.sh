@@ -385,6 +385,20 @@ try:
     _missing=[_l["letter"] for _l in _mg.get("legs",[]) if _l["letter"] not in _load]
     if _missing:
         print(f"WARNING: leg(s) with no cards filed: {_missing}")
+    # G is not hand-set. It is the mean of the institutional dials, computed here
+    # so the two panels cannot disagree — the panel says so, and this makes it true.
+    _il=(data.get("institutions") or {}).get("institutions") or []
+    if _il:
+        _g=round(sum(float(i.get("score") or 0) for i in _il)/len(_il))
+        for _l in _mg.get("legs",[]):
+            if _l["letter"]=="G":
+                _l["score"]=_g
+                _l["derive"]=(f"Derived, not hand-set: the mean of the {len(_il)} institutional "
+                    "dials above, computed at sync. Moves only when they move.")
+    _rv=_mg.get("reviewed")
+    if _rv:
+        try: _mg["age_days"]=(datetime.date.today()-datetime.date.fromisoformat(_rv)).days
+        except Exception: pass
     _lanes=[]
     for _b in ("phase4-branch-acute-crisis","phase4-branch-regime-concedes",
                "phase4-branch-regime-holds-contested","phase4-branch-external-war-diversion"):
@@ -659,7 +673,19 @@ fi
 # staging URL. Byte-compare live HTML against local, plus the live counts object.
 echo "post-deploy verify: live == local ?"
 sleep 20
-if ! node verify_prod.js --mode=postdeploy --url=https://pilot2969.github.io/cass-dashboards; then
+# 2026-11-04: under STAGING_ONLY=1 the prod push never happened, so a prod
+# post-deploy gate can only ever fail — and a gate that always fails stops being
+# read. Verify the STAGING site instead; prod parity is checked on the run that
+# actually promotes the design change.
+if [ "${STAGING_ONLY:-0}" = "1" ]; then
+  echo "post-deploy verify (STAGING_ONLY): checking staging, prod intentionally behind"
+  if node verify_prod.js --mode=postdeploy --url=https://pilot2969.github.io/cass-dashboards-staging; then
+    echo "STAGING GATE GREEN — prod still serving the previous build by design"
+  else
+    echo "STAGING GATE FAILED — the staging deploy is not serving this build."
+    exit 1
+  fi
+elif ! node verify_prod.js --mode=postdeploy --url=https://pilot2969.github.io/cass-dashboards; then
   echo "POST-DEPLOY GATE FAILED — the repo is pushed but the live site is not serving this build."
   echo "Do not report the board as updated until this passes. Check the Pages workflow, then re-run:"
   echo "  node verify_prod.js --mode=postdeploy --url=https://pilot2969.github.io/cass-dashboards"
