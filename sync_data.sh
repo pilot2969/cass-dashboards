@@ -287,6 +287,19 @@ try:
         _internal=set()
         if _o2.path.exists("internal_cards.txt"):
             _internal={l.strip() for l in open("internal_cards.txt") if l.strip()}
+        # v3.11.1 (2026-11-04): the register used to be baked into the page, so this check
+        # parsed HTML for per-card percentages. Since the register renders live from
+        # data.json, the baked marks are only the handful of hand-picked Big Questions —
+        # so all 83 scored cards read as "off-register" on every run. A WARN that fires when
+        # nothing is wrong trains the reader to ignore the one that matters. Compare against
+        # data.json.predictions (the actual rendering source) and keep the HTML as fallback.
+        try:
+            _dp=_j2.load(open("data.json"))
+            _page={e["basename"]:int(round(float(e.get("confidence_score") or e.get("confidence") or 0)))
+                   for e in _dp.get("predictions",[]) if e.get("basename")}
+            _src="data.json"
+        except Exception:
+            _src="page HTML"
         _absent=[]; _stale=[]
         for _f in sorted(_g2.glob("/space/prediction/*.json")):
             if _f.endswith(".schema.json"): continue
@@ -302,7 +315,7 @@ try:
             elif abs(_page[_bn]-_c)>=2:
                 _stale.append((_t,_page[_bn],_c,_bn))
         if _stale or _absent:
-            print(f"WARNING: register drift — {len(_stale)} card(s) show a stale pct, {len(_absent)} scored card(s) off-register.")
+            print(f"WARNING: register drift vs {_src} — {len(_stale)} card(s) show a stale pct, {len(_absent)} scored card(s) off-register.")
             for _t,_pp,_lv,_pt in sorted(_stale,key=lambda x:-abs(x[2]-x[1]))[:15]:
                 print(f"  pct {_pp:>3}% -> live {_lv:>3}%  {_t[:70]}")
             for _t,_c,_st,_bn in sorted(_absent,key=lambda x:-x[1]):

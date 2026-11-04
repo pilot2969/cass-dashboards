@@ -2,6 +2,10 @@
 
 ## 2026-11-04
 
+### Register-drift warning fixed (v3.11.1)
+- The drift check parsed baked per-card percentages from the page, but the register renders live from `data.json` — so 83 scored cards read as "off-register" on every run with nothing wrong. Now compares against `data.json.predictions` and names its source in the output.
+- Upload protocol written into `README.md`: footer version, change log (page + CHANGELOG.md), Data Dictionary, version consistency across all four places, gate order after every pull.
+
 ### Model State definitions (v3.11.0)
 - State and load separated on the panel. Each gauge prints the leg's operational state (FIRED / ABSENT / CONTESTED) beside its load, so a load of 82 with leg 4 absent reads as "conditions heavy, threshold not crossed" rather than "nearly fired."
 - LOAD defined on the panel and in the Data Dictionary: 100 × mean of four named anchors, each 0–5 on a fixed six-point scale; an anchor without a cited observable cannot score above 2; equal weights stated as a design choice. Bands are display-only and can never produce a state.
