@@ -2,6 +2,11 @@
 
 ## 2026-11-04
 
+### Direction fix + `prose.panel-direction` gate rule (v3.11.5)
+- Two places said the **Institutional Stress dials were "above"** — the Governance explainer and the panel footer. Model State renders first, so the dials sit **below**. Both now read "below"; `mget_state.json` derivation wording aligned.
+- New gate rule `prose.panel-direction`: every direction word about a named panel is read against actual document order and **fails the run on a mismatch**. Fault-injected (reintroducing "above" fails at byte 9171; restoring passes).
+- No numbers changed — a reading error, not a measurement error.
+
 ### Leg 4 docking test — a gauge with no moment cannot fire (v3.11.4)
 - Leg 4 carried nine words for "not fired" (ABSENT, HOLD, STABLE, EROSION, ANTI-ALIGNED, PENDING, SPLIT) and **no definition of the moment it would fire on**, so it was adjudicated by adjective rather than by act. That is why 82 load could sit beside absence with no stated boundary.
 - State now fires on the first dated act satisfying **D1–D4** (`/space/protocol/leg4-docking-test.json`): a refusal that sticks for 30 days; organised vanguard endorsement of a replacement authority; a veto institution removing executive capacity rather than delaying it; a transfer act that completes. **Persistence:** holds only if a second dock lands within 90 days; a single dock is a tremor and reverts.
