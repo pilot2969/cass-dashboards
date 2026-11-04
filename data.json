@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-04T15:48 ET"
+  "generated_stamped": "2026-11-04T16:17 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -4306,6 +4306,22 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-04",
+   "time_et": "15:59",
+   "track": "Texas \u2014 third channel. Special-session statute to strip emergency powers before inauguration (Harrison/HB911).",
+   "verdict": "confirms",
+   "mget_legs_tested": [
+    "institutional gray-zone portfolio",
+    "procedural nullification",
+    "pre-legitimation",
+    "72h routing (contest leg)"
+   ],
+   "reasoning": "VERIFIED, and the substance is stronger than the framing. Rep. Brian Harrison (R-Midlothian), who survived the wave and therefore has no personal loss to avenge, called on Abbott at ~15:5x ET to convene a special session to rein in gubernatorial emergency powers before Hinojosa is sworn in: 'Republicans lost last night, but Democrats were not sworn in. We still have total power in Texas... Ten weeks. Act like it.' Corroborated at Chron (Hearst/Austin American-Statesman), Houston Chronicle, Raw Story, Joe.My.God, and copied verbatim by Gateway Pundit.\n\nTHE MESSAGE IS NOT A FABRICATION AND THE CRITIQUE IS NOT A PRETEXT. HB911, the 'Liberty Protection in Emergencies Act,' was filed 2022-12-08 on the 1000th day of the COVID disaster declaration, referred 2023-03-02, and died in committee; Harrison filed a companion effort (HB 523) at the opening of the next session. Four years of consistent position, stated against a Republican governor, in writing, on the record. Anyone claiming this is invented for Hinojosa is wrong on the evidence.\n\nTHE LEGAL CLAIM IS ALSO CORRECT. Gov't Code ch. 418 (Texas Disaster Act of 1975) does delegate suspension of statutes to the governor, and it is genuinely broad. HB911's five parts are narrow and checkable: bar suspension/modification of statutes; sunset orders at 30 days absent legislative ratification; bar reissuance of expired or rejected orders; require narrow tailoring; allow remote participation. That is a real reform.\n\nWHAT MAKES IT GRAY ZONE IS THE DEADLINE, NOT THE ARGUMENT. Harrison's demand is not 'pass this eventually' but 'pass this in the ten weeks before the beneficiary takes office.' The same bill, passed in the regular session that opens January 2027, would be equivalent in law and would constrain Hinojosa equally \u2014 and would be subject to her veto or a two-thirds override. Passing it in a lame-duck special session is passing it at the only moment when the person it targets cannot veto it. The instrument is chosen for the window, not for the merits. That is the definition of the procedural channel: outcome-neutralise without contest.\n\nPRE-LEGITIMATION IS INTACT AND SELF-SUPPLYING. Hinojosa campaigned on declaring a high-cost emergency within an hour of taking office and suspending the gas and diesel tax and freezing electricity rates \u2014 i.e. she publicly committed to exercising precisely the s.418.016 suspension authority Harrison objects to. The critique therefore arrives with its own specimen attached, supplied by the target, in advance. Note the trap this sets: if she does it in January, the GOP says 'we told you,' and the strip is retroactively justified. A sincere critique and a pre-legitimation narrative can be the same document; the archive has this structure logged for the AI-predated memorial.\n\nWHAT IS NOT ESTABLISHED. Abbott has not called a session and has been refusing one on data centres; he is the gatekeeper and would have to sign away his own powers with weeks left. No other Republican has joined the demand publicly at capture. An actual vote requires Abbott plus both chambers plus his signature: three actors, unlike the Senate rules strip, which needs one caucus. So the expensive channel is being demanded while the cheap one is being executed.\n\nTHE PORTFOLIO POINT \u2014 the reason this belongs with the 15:34 entry, not after it. In 25 hours Texas Republicans have moved on three distinct channels against the same incoming Democratic executive: (1) Senate caucus rule to transfer the lieutenant governor's powers \u2014 needs a majority of one chamber and no statute; (2) House special-session statute to strip emergency suspension authority \u2014 needs governor plus two chambers; (3) pre-election redistricting and court packing already in motion. Different actors, different legal vehicles, same target, same window. Improvisation does not usually produce a portfolio this fast. This is the strongest argument yet for the ALEC/model-legislation watch item, and it raises the prior on 'coordinated doctrine' substantially.\n\nEFFECT ON THE FORK CARD: none, and the card's blindness is now three-for-three. 'We still have total power' is neither a 'we actually won' claim (falsifier) nor a concession (the confirmation branch). It is a third position the card cannot represent: the result is accepted as true and simultaneously declared irrelevant, because the office can be emptied without reversing the count. That is not a violation of the card, it is evidence the card's two-lane structure is wrong.",
+   "forward_signal": "(1) Does Abbott call a special session \u2014 and if so, is the emergency-powers item on the call? The governor sets the agenda, so the call is the whole question. (2) Do other Republican members join publicly in 48h? A lone member is a signal; a caucus demand is a programme. (3) Is HB911 or HB523 refiled verbatim in special session \u2014 verbatim refiling of an old bill is the cleanest evidence the text was held ready. (4) Does any Texas Republican state that the bill would constrain Abbott too? Sincerity marker, and the reason Abbott resists. (5) Does Hinojosa restate the emergency-order pledge after the demand \u2014 a restatement raises the pre-legitimation payoff and lowers her room to retreat. (6) Does the same emergency-powers bill appear in another state with a new Democratic governor within 30 days? That is the coordination test.",
+   "confidence_moves": "No card repriced \u2014 velocity rule. But the prior on 'coordinated gray-zone doctrine rather than parallel improvisation' moves up materially; will formalise at the postmortem rather than mid-window.",
+   "basename": "2026-11-04-texas-special-session-emergency-powers-strip"
+  },
   {
    "date": "2026-11-04",
    "time_et": "15:34",
@@ -11471,7 +11487,7 @@
   ]
  },
  "counts": {
-  "items_today": 7,
+  "items_today": 8,
   "tracked_predictions": 83,
   "claims_tested": 28,
   "unscored_predictions": 0
@@ -11561,7 +11577,7 @@
    "gate": "open",
    "phase": "Phase 4 \u2014 detonation window",
    "phase_closes": "2026-12-08",
-   "basis": "Three of four legs fired (M, G, E). The fourth, T, is ABSENT, not straining-into-fired: the leg's own operational definition \u2014 sustained vanguard realignment of 3+ months with 5+ named institutional defection events that change funding, staffing or formal position, statements excluded \u2014 is nowhere near met. Legs fired is a count of fired/absent states, never of load.",
+   "basis": "Three of four legs fired (M, G, E). The fourth, T, is ABSENT at 82 load \u2014 not straining-into-fired. Since 2026-11-04 the T state has a stated moment: it fires on the first dated act satisfying D1-D4 of the leg 4 docking test, and holds only if a second dock lands within 90 days. No such act is on record. Legs fired is a count of fired/absent states, never of load. The claim this makes is falsifiable: if the rupture arrives by vanguard replacement while T read absent, the model is wrong and the register will say so.",
    "note": "MGET names which engine is driving, never the outcome. Load (0-100) and leg state (fired/absent) are different fields on purpose: a leg can carry heavy pressure and still be absent, which is exactly leg 4's position now."
   },
   "legs": [
@@ -11634,7 +11650,7 @@
     "score": 82,
     "delta": 4,
     "derive": "Hand-set. Anchors: leg 4 reads drifting in the 2026-11-04 reading \u2014 strain is high, alignment is not formed.",
-    "why": "Highest load, absent state \u2014 the pair that matters. Pressure toward realignment is heavy: 39 of 88 cards are filed here, the vanguard split-or-fusion card is live at 35%, post-defeat routing is unresolved, and the succession question is a day old. But by the leg's own test nothing has realigned: no sustained run of named institutional defections changing funding, staffing or formal position. Load is not the leg. The 2017 control case scores leg 4 ABSENT in a year of maximum discourse velocity, and calls that distinction load-bearing: discourse velocity is leg 2's signature, structural velocity is legs 1/3/4.",
+    "why": "Highest load, absent state \u2014 the pair that matters, and now the pair with a stated boundary. Pressure toward realignment is heavy: 39 of 88 cards are filed here, the vanguard split-or-fusion card is live at 35%, post-defeat routing is unresolved, and the succession question is a day old. But no dated act satisfies D1-D4: no refusal has held, no organised body has endorsed a replacement authority, no veto institution has removed capacity, no transfer has completed. Backtest batch 1 (2026-11-04) re-coded 25 corpus cases against these tests: nine adjectives collapsed to three states, six verdicts that used a non-absent word re-coded to ABSENT for want of a dated act, and 0 of 7 null years and false-positive traps fired. The boundary case is 1890-1914: leg 4 ABSENT and the order ruptured anyway, by external capture rather than vanguard replacement. So absent means the rupture will not come from the vanguard \u2014 it says nothing about the external channel, which on this desk is the Iran track and the oil constraint.",
     "watch": [
      "2026-11-04-vanguard-split-or-fusion",
      "2026-11-03-post-defeat-72h-routing",
@@ -11643,7 +11659,7 @@
     ],
     "fired": false,
     "load_band": "Straining",
-    "definition": "Operational test, from the Turning-Phase Indicator: sustained vanguard realignment = 3+ months, 5+ named institutional-level defection events that change funding, staffing or formal position. Statements alone never count. Personality-level churn is explicitly excluded \u2014 the 2026-09 self-audit split the two after 'vanguard' had been conflated with press-personality defection."
+    "definition": "Operational test, from /space/protocol/leg4-docking-test.json. Leg 4 FIRES on the first dated act satisfying ANY of four docking tests. D1 refusal that sticks: an actor whose compliance is required declines a lawful executive order and is not made to comply within 30 days; removal or reversal inside 30 days does NOT fire (MacArthur 1951, Mattis 2018 \u2014 both rejected on this clause). D2 formal endorsement of a replacement authority by an organised vanguard body \u2014 petition, association vote, caucus decision; individual sympathies and press commentary never count. D3 a veto institution removing executive capacity rather than delaying it; remand and rulings the executive rebuilds around do not fire. D4 a transfer act that COMPLETES \u2014 an appointment, dissolution or emergency clause installing an actor the constitutional order would not produce; attempts do not fire (court-packing 1937). PERSISTENCE: the leg holds fired only if a second dock occurs within 90 days; a single unrepeated dock is a tremor, logged fired-once, and reverts. This replaced the 2026-11 count test (3+ months, 5+ named defections), which had a duration but no moment \u2014 the reason a load of 82 could sit beside 'absent' with no stated boundary."
    }
   ],
   "register_load": {

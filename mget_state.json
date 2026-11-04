@@ -9,7 +9,7 @@
   "gate": "open",
   "phase": "Phase 4 — detonation window",
   "phase_closes": "2026-12-08",
-  "basis": "Three of four legs fired (M, G, E). The fourth, T, is ABSENT, not straining-into-fired: the leg's own operational definition — sustained vanguard realignment of 3+ months with 5+ named institutional defection events that change funding, staffing or formal position, statements excluded — is nowhere near met. Legs fired is a count of fired/absent states, never of load.",
+  "basis": "Three of four legs fired (M, G, E). The fourth, T, is ABSENT at 82 load — not straining-into-fired. Since 2026-11-04 the T state has a stated moment: it fires on the first dated act satisfying D1-D4 of the leg 4 docking test, and holds only if a second dock lands within 90 days. No such act is on record. Legs fired is a count of fired/absent states, never of load. The claim this makes is falsifiable: if the rupture arrives by vanguard replacement while T read absent, the model is wrong and the register will say so.",
   "note": "MGET names which engine is driving, never the outcome. Load (0-100) and leg state (fired/absent) are different fields on purpose: a leg can carry heavy pressure and still be absent, which is exactly leg 4's position now."
  },
  "legs": [
@@ -82,7 +82,7 @@
    "score": 82,
    "delta": 4,
    "derive": "Hand-set. Anchors: leg 4 reads drifting in the 2026-11-04 reading — strain is high, alignment is not formed.",
-   "why": "Highest load, absent state — the pair that matters. Pressure toward realignment is heavy: 39 of 88 cards are filed here, the vanguard split-or-fusion card is live at 35%, post-defeat routing is unresolved, and the succession question is a day old. But by the leg's own test nothing has realigned: no sustained run of named institutional defections changing funding, staffing or formal position. Load is not the leg. The 2017 control case scores leg 4 ABSENT in a year of maximum discourse velocity, and calls that distinction load-bearing: discourse velocity is leg 2's signature, structural velocity is legs 1/3/4.",
+   "why": "Highest load, absent state — the pair that matters, and now the pair with a stated boundary. Pressure toward realignment is heavy: 39 of 88 cards are filed here, the vanguard split-or-fusion card is live at 35%, post-defeat routing is unresolved, and the succession question is a day old. But no dated act satisfies D1-D4: no refusal has held, no organised body has endorsed a replacement authority, no veto institution has removed capacity, no transfer has completed. Backtest batch 1 (2026-11-04) re-coded 25 corpus cases against these tests: nine adjectives collapsed to three states, six verdicts that used a non-absent word re-coded to ABSENT for want of a dated act, and 0 of 7 null years and false-positive traps fired. The boundary case is 1890-1914: leg 4 ABSENT and the order ruptured anyway, by external capture rather than vanguard replacement. So absent means the rupture will not come from the vanguard — it says nothing about the external channel, which on this desk is the Iran track and the oil constraint.",
    "watch": [
     "2026-11-04-vanguard-split-or-fusion",
     "2026-11-03-post-defeat-72h-routing",
@@ -91,7 +91,7 @@
    ],
    "fired": false,
    "load_band": "Straining",
-   "definition": "Operational test, from the Turning-Phase Indicator: sustained vanguard realignment = 3+ months, 5+ named institutional-level defection events that change funding, staffing or formal position. Statements alone never count. Personality-level churn is explicitly excluded — the 2026-09 self-audit split the two after 'vanguard' had been conflated with press-personality defection."
+   "definition": "Operational test, from /space/protocol/leg4-docking-test.json. Leg 4 FIRES on the first dated act satisfying ANY of four docking tests. D1 refusal that sticks: an actor whose compliance is required declines a lawful executive order and is not made to comply within 30 days; removal or reversal inside 30 days does NOT fire (MacArthur 1951, Mattis 2018 — both rejected on this clause). D2 formal endorsement of a replacement authority by an organised vanguard body — petition, association vote, caucus decision; individual sympathies and press commentary never count. D3 a veto institution removing executive capacity rather than delaying it; remand and rulings the executive rebuilds around do not fire. D4 a transfer act that COMPLETES — an appointment, dissolution or emergency clause installing an actor the constitutional order would not produce; attempts do not fire (court-packing 1937). PERSISTENCE: the leg holds fired only if a second dock occurs within 90 days; a single unrepeated dock is a tremor, logged fired-once, and reverts. This replaced the 2026-11 count test (3+ months, 5+ named defections), which had a duration but no moment — the reason a load of 82 could sit beside 'absent' with no stated boundary."
   }
  ]
 }

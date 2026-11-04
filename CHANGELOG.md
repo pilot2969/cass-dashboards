@@ -2,6 +2,14 @@
 
 ## 2026-11-04
 
+### Leg 4 docking test — a gauge with no moment cannot fire (v3.11.4)
+- Leg 4 carried nine words for "not fired" (ABSENT, HOLD, STABLE, EROSION, ANTI-ALIGNED, PENDING, SPLIT) and **no definition of the moment it would fire on**, so it was adjudicated by adjective rather than by act. That is why 82 load could sit beside absence with no stated boundary.
+- State now fires on the first dated act satisfying **D1–D4** (`/space/protocol/leg4-docking-test.json`): a refusal that sticks for 30 days; organised vanguard endorsement of a replacement authority; a veto institution removing executive capacity rather than delaying it; a transfer act that completes. **Persistence:** holds only if a second dock lands within 90 days; a single dock is a tremor and reverts.
+- Supersedes the earlier count test (3+ months, 5+ named defections), which had duration but no moment.
+- Re-coded against 25 corpus cases: nine adjectives → three states, **6 verdicts that used a non-absent word fell to ABSENT** for want of a dated act, **0 of 7** null years and designed false-positive traps fired (MacArthur 1951, court-packing 1937, impeachment 1998-99, 2017, 1993, 2022, 2018).
+- Boundary case recorded in the definition: **1890–1914** scored leg 4 absent and the order ruptured anyway — by external capture, not vanguard replacement.
+- No card field added, so no dictionary entry required; `mget_state.json` T `definition`, `why` and the threshold `basis` rewritten.
+
 ### Confirmation badge and lead delta (v3.11.3)
 - Resolved cards carry a badge in the headline row: `✓ CONFIRMED`, `✗ MISSED`, `● HELD OPEN`; dashed amber = same-day registration.
 - Each resolved card prints its **lead delta** (forecast date → confirmation date) and window margin.
