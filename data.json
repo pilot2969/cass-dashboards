@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-04T16:17 ET"
+  "generated_stamped": "2026-11-04T16:21 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -4306,6 +4306,22 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-04",
+   "time_et": "16:17",
+   "track": "NPVIC \u2014 Democratic procedure leg. Five new trifectas put 270 within reach; the symmetry test for the register.",
+   "verdict": "strains",
+   "mget_legs_tested": [
+    "institutional gray-zone portfolio",
+    "procedural nullification (symmetric)",
+    "pre-legitimation",
+    "2028 legitimacy lane"
+   ],
+   "reasoning": "VERIFIED, with the amplifier's hard edge removed. Axios published 18:50 UTC / 13:50 ET 2026-11-04: 'Democrats' sweeping statehouse gains Tuesday have opened a path to effectively replacing the Electoral College with a national popular vote in time for the 2028 presidential election \u2014 without needing to amend the Constitution.' The Facebook post (The Resistance, captured 16:17) rewrites the hedge 'could sideline' into 'BREAKING: have opened a path to effectively replacing... in time for 2028' and strips the 'Yes, but' block entirely. Owner's read ('doesn't have teeth yet') matches Axios; the post does not.\n\nTHE ARITHMETIC IS CORRECT. Compact stands at 222 EVs (18 states + DC; Virginia most recent, 2026). Threshold 270, so 48 short. PA 19 + MI 15 + AZ 11 + WI 10 + NV 6 = 61, landing at 283 \u2014 a 13-vote margin, meaning a single rescission of Pennsylvania breaks it. All five states have previously introduced the bill.\n\nTHREE GATES, AND THE 'PATH' IS ONLY THE FIRST. (1) ENACTMENT \u2014 and the two cleanest precedents are Democratic failures, not Republican obstruction: Michigan did not pass it during its 2023-24 trifecta; Nevada's Democratic governor vetoed it in 2019 on the explicit ground that it would diminish his state's influence. Control is not priority; that is the owner's 'no teeth yet' and it is exactly right. (2) CONGRESSIONAL CONSENT under the Compact Clause (Art. I \u00a710 cl. 3). Notre Dame's Derek Muller argues it is required; the compact's defenders rely on the narrow U.S. Steel reading. If consent is required it needs 60 Senate votes \u2014 dead on arrival \u2014 so the whole theory resolves into 'enact, then litigate.' (3) LITIGATION AND THE APPOINTMENT TIMING. Even fully enacted by 2027, the 2028 cycle would be consumed by challenges to whether a legislature may bind the appointment of electors under Art. II \u00a71 cl. 2, and whether the compact is an Article V end-run \u2014 the amendment route needs 2/3 of both chambers plus 38 states, the compact needs five states, and a court that sees the same result achieved at a fraction of the cost has an obvious reason to look hard.\n\nTHE REGISTER TEST \u2014 this is why it goes in the ledger today. Applied to the Texas actions at 15:34 and 15:59 the register called them gray-zone: legal in form, function-removing in substance, executed in the window where the other side cannot block. NPVIC is the same class of move by the other coalition: legal in form, function-removing in substance (it does not repeal the Electoral College; it renders it non-operative), chosen because the amendment route is unavailable, and \u2014 decisively \u2014 it requires no consent from the side it disadvantages. If it is real it is a LARGER change than the Texas rules strip and the emergency-powers bill combined, because those target one office's authority and this targets the method of presidential selection. The instrument either scores this or it is a partisan lens.\n\nWHERE A DEFENSIBLE ASYMMETRY ACTUALLY EXISTS, stated fairly because it will be argued: (a) contestability \u2014 NPVIC needs five legislatures over multiple sessions in public view, with hearings, vetoes, and elections in between; the Texas Senate rule needs one caucus meeting and twenty minutes; (b) transparency in advance \u2014 the compact text has been public and litigated-in-advance for twenty years, while the Texas Senate move was planned before the vote and executed the day after; (c) reversibility \u2014 a member state can repeal before activation, whereas a caucus rule change is self-executing. Those are differences of degree along a 'how contestable was the change' axis, and they matter. They are not a difference in kind.\n\nTHE RELOCATION POINT, which is the real 2028 risk and the reason this is not simply good news for anyone. NPVIC does not abolish the contested-elector scenario; it moves it. Under activation, a member state whose own voters chose candidate A must appoint electors for national winner B. The certifying official then faces a direct conflict between state law, the compact, and the state's own returns, and the flashpoint becomes the governor's certification and the safe-harbour deadline under the Electoral Count Reform Act \u2014 precisely the machinery the legitimacy lane already watches. Total EVs 538 stay the same; the number of officials who can credibly be pressured to certify against their own state's count goes up.",
+   "forward_signal": "(1) Any bill filed in PA, MI, AZ, WI, NV \u2014 sponsorship, committee referral, and whether it is a priority in inaugural or state-of-the-state messaging. (2) Nevada specifically: does a new governor repeat Sisolak's 2019 veto, and on what reasoning. (3) Michigan: does the second attempt fail where the first did. (4) Does any enacting state adopt an anti-rescission or effective-date clause hardening it against repeal. (5) Is congressional consent sought, and by whom \u2014 a request that goes nowhere is itself the proof the plan is litigation-first. (6) COUNTER-MOBILISATION, the sharpest tell: a red state bill forbidding participation, a red-state counter-compact on congressional-district allocation, pre-filed litigation, or a rescission bill in a current member state. (7) Any state AG opinion requested on constitutionality. (8) Does the total move off 222 at all before the 2027 sessions open.",
+   "confidence_moves": "No card repriced. Register-level: NPVIC logged as the symmetric test case. If it advances it must be scored as INSTITUTIONAL/structural with the same weight the Texas actions received, and I am recording that commitment now, before it is either convenient or inconvenient.",
+   "basename": "2026-11-04-npvic-five-trifectas-270-path"
+  },
   {
    "date": "2026-11-04",
    "time_et": "15:59",
@@ -11487,7 +11503,7 @@
   ]
  },
  "counts": {
-  "items_today": 8,
+  "items_today": 9,
   "tracked_predictions": 83,
   "claims_tested": 28,
   "unscored_predictions": 0
