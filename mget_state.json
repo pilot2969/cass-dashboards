@@ -41,7 +41,7 @@
    "state": "fired",
    "score": 78,
    "delta": 1,
-   "derive": "Derived: the mean of the eight institutional dials above (78.4, rounded). Moves only when they move, so the two panels cannot disagree.",
+   "derive": "Derived: the mean of the eight institutional dials in the Institutional Stress panel below (78.4, rounded). Moves only when they move, so the two panels cannot disagree.",
    "why": "Five of eight dials sit in Critical. The courts still enjoin; the same docket is now aimed at election administration itself. Congress lost its own session day to avoid a floor vote. Nothing has stopped working. Everything is working against itself.",
    "watch": [
     "house-seating-contest-120th-congress",

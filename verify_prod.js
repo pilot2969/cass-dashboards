@@ -29,7 +29,7 @@ async function loadPage(file){
                       return Promise.resolve({ok:true,json:()=>Promise.resolve(JSON.parse(body)),text:()=>Promise.resolve(body)}); };
                     w.console.error=()=>{}; w.console.warn=()=>{}; }});
   await new Promise(r=>setTimeout(r,2500));
-  return {dom,doc:dom.window.document,data:JSON.parse(dataTxt)};
+  return {dom,doc:dom.window.document,data:JSON.parse(dataTxt),html};
 }
 const txt=s=>String(s||'').replace(/\s+/g,' ').trim();
 
@@ -90,7 +90,8 @@ async function main(){
   for(const f of pages){
     let doc,dd;
     CURRENT=f;
-    try{ const r=await loadPage(f); doc=r.doc; dd=r.data; }
+    let raw='';
+    try{ const r=await loadPage(f); doc=r.doc; dd=r.data; raw=r.html||''; }
     catch(e){ fail('render.throws:'+f,e.message.slice(0,120)); continue; }
     const body=proseText(doc);
 
@@ -111,6 +112,35 @@ async function main(){
     const esc=(body.match(/\\u[0-9a-fA-F]{4}/g)||[]);
     esc.length?fail('prose.no-literal-escapes:'+f,`${esc.length} literal escape(s) on the page: ${[...new Set(esc)].join(' ')}`)
              :pass('prose.no-literal-escapes:'+f,'no literal unicode escapes in rendered prose');
+
+
+    // 3b. direction words must match document order (added 2026-11-04). The panel footer
+    // told the reader the Institutional Stress dials were "above" when the Model State
+    // panel renders first, so the dials it derives from sit BELOW it. A reader who trusts
+    // the sentence looks the wrong way and concludes the two panels contradict. Cheap to
+    // check, and it just cost a push.
+    if(raw){
+      const at=(re)=>{const m=raw.match(re);return m?m.index:null;};
+      const headingAt=(name)=>{const m=raw.match(new RegExp('class=zhead>'+name));return m?m.index:null;};
+      const mget=headingAt('Model State'), inst=headingAt('Institutional Stress');
+      const bad=[];
+      if(mget!==null&&inst!==null){
+        // "Institutional Stress dials above|below" — the claim is about where that panel sits.
+        const re=/Institutional Stress dials? (above|below)/g; let m;
+        while((m=re.exec(raw))){
+          const says=m[1], really=inst<m.index?'above':'below';
+          if(says!==really) bad.push(`"Institutional Stress dials ${says}" at byte ${m.index} — that panel renders ${really}`);
+        }
+        // "panel above|below Institutional Stress"
+        const re2=/panel (above|below) Institutional Stress/g;
+        while((m=re2.exec(raw))){
+          const says=m[1], really=mget<inst?'above':'below';
+          if(says!==really) bad.push(`"panel ${says} Institutional Stress" — Model State renders ${really}`);
+        }
+      }
+      bad.length?fail('prose.panel-direction:'+f,bad.join(' | '))
+                :pass('prose.panel-direction:'+f,'direction words match document order');
+    }
 
     // 3. every container the scripts are supposed to fill must be non-empty
     // -grid / -live containers must be filled by their script. -host is legacy
