@@ -131,6 +131,14 @@ def age_line(o):
             bits.append(f"resolved {closed.isoformat()}")
         if wc and (not closed or wc != closed):
             bits.append(f"window closed {wc.isoformat()}")
+        L = lead_of(o)
+        if L["bad"]:
+            bits.append("DATES INCOHERENT \u2014 resolved before it was written")
+        elif L["lead"] is not None:
+            bits.append(f"lead {L['lead']}d from forecast to confirmation")
+            if L["margin"] is not None:
+                bits.append(f"{L['margin']}d before window close" if L["margin"] >= 0
+                            else f"{-L['margin']}d after window close")
     elif wc:
         n = days(TODAY, wc)
         when = f"in {n}d" if n > 0 else ("today" if n == 0 else f"{abs(n)}d ago — overdue")
@@ -145,6 +153,50 @@ def age_line(o):
     elif ps == "internal":
         bits.append("internal")
     return " · ".join(bits)
+
+# --- Confirmation indicator + lead delta (2026-11-04) ----------------------
+# Owner requirement: a resolved card must SAY it is resolved, and the register
+# must measure how much foreknowledge it actually carried. Two numbers, and they
+# are not the same thing:
+#   LEAD   = resolution_date - date_made      (how long the call stood before it was tested)
+#   MARGIN = window_closes - resolution_date  (how much of its own window the call left unused)
+# A card with LEAD 0 was registered the day it resolved: not a forecast, a report.
+# That is a finding about the instrument, so the register names it rather than
+# burying it inside an average.
+def lead_of(o):
+    made, res, wc = d(o.get("date_made")), d(o.get("resolution_date")), d(o.get("window_closes"))
+    out = {"lead": None, "margin": None, "sameday": False, "late": False, "bad": False}
+    if made and res:
+        if res < made:
+            out["bad"] = True          # resolves before it was written: impossible, data error
+        else:
+            out["lead"] = (res - made).days
+            out["sameday"] = out["lead"] == 0
+    if wc and res:
+        out["margin"] = (wc - res).days
+        out["late"] = out["margin"] < 0
+    return out
+
+
+def conf_badge(o):
+    """The indicator. Absent for unresolved cards, so it never competes with a live claim."""
+    res = (o.get("resolution") or "unresolved")
+    if res not in ("hit", "miss", "holding"):
+        return ""
+    L = lead_of(o)
+    if res == "holding":
+        return '<span class="zconf hold">\u25cf HELD OPEN</span>'
+    word, cls, glyph = ("CONFIRMED", "hit", "\u2713") if res == "hit" else ("MISSED", "miss", "\u2717")
+    bits = [f"{glyph} {word}"]
+    if L["lead"] is not None:
+        bits.append(f'<span class="zconflead">{L["lead"]}d lead</span>')
+    if L["sameday"]:
+        cls += " sameday"
+        bits.append('<span class="zconflead">same-day, not a forecast</span>')
+    elif L["late"]:
+        bits.append(f'<span class="zconflead">{-L["margin"]}d past window</span>')
+    return f'<span class="zconf {cls}">{" \u00b7 ".join(bits)}</span>'
+
 
 def card_html(o, catname):
     t = html.escape(o.get("title") or o["basename"].replace("-", " ").title())
@@ -173,7 +225,7 @@ def card_html(o, catname):
              f'data-wc="{(wc or datetime.date(2099, 1, 1)).isoformat()}" '
              f'data-open="{(reg or datetime.date(2099, 1, 1)).isoformat()}" '
              f'data-conf="{(c if c is not None else -1):.0f}"')
-    return (f'<div class="z37 zcardwrap"><details class=evt {attrs}><summary><div class=row><span>{t}</span>{pill}</div>'
+    return (f'<div class="z37 zcardwrap"><details class=evt {attrs}><summary><div class=row><span>{t}</span>{conf_badge(o)}{pill}</div>'
             f'{bar}{meta}</summary>{"".join(body)}</details></div>')
 
 
@@ -204,6 +256,45 @@ def global_bar(cards):
     out.append('<span class="zsbnote">one click pulls those cards together, oldest window first</span>')
     return "".join(out)
 
+def lead_ledger(cards):
+    """The instrument's own report card: how much foreknowledge the resolved calls carried.
+    Printed above the register so a good hit rate can never be read without its lead times."""
+    closed = [o for o in cards if (o.get("resolution") or "unresolved") in ("hit", "miss")]
+    if not closed:
+        return ""
+    L = [(o, lead_of(o)) for o in closed]
+    hits = [1 for o, _ in L if o.get("resolution") == "hit"]
+    leads = sorted(x["lead"] for _, x in L if x["lead"] is not None and not x["sameday"])
+    sameday = [o for o, x in L if x["sameday"]]
+    bad = [o for o, x in L if x["bad"]]
+    early = [1 for _, x in L if x["margin"] is not None and x["margin"] > 0]
+    late = sum(1 for _, x in L if x["late"])
+    med = (leads[len(leads)//2] if len(leads) % 2 else
+           int((leads[len(leads)//2 - 1] + leads[len(leads)//2]) / 2 + 0.5)) if leads else None
+    cells = [
+        (f"{len(hits)}/{len(closed)}", "scored hit rate", "of the cards that have resolved"),
+        (f"{med}d" if med is not None else "\u2014", "median lead", "forecast to confirmation, same-day calls excluded"),
+        (f"{len(early)}/{len(closed)}", "confirmed inside window", "resolved before the window they were given"),
+        (f"{len(sameday)}", "same-day calls", "registered the day they resolved: a report, not a forecast"),
+    ]
+    out = ['<div class="zledger">',
+           '<div class="zledhead"><b>Confirmation ledger</b> \u2014 every resolved card carries a confirmation badge and a lead delta. '
+           'Lead is the distance from forecast to confirmation: the foreknowledge the call actually bought.</div>',
+           '<div class="zledgrid">']
+    for v, lab, sub in cells:
+        out.append(f'<div class="zledcell"><div class="zledv">{v}</div>'
+                   f'<div class="zledl">{lab}</div><div class="zleds">{sub}</div></div>')
+    out.append('</div>')
+    if late:
+        out.append(f'<div class="zlednote">{late} card{"s" if late != 1 else ""} resolved after its own window closed \u2014 '
+                   'shown as past-window on the card, never folded into the lead average.</div>')
+    if bad:
+        names = ", ".join(html.escape(o["basename"]) for o in bad)
+        out.append(f'<div class="zledbad"><b>Dates incoherent:</b> resolved before written \u2014 {names}</div>')
+    out.append('</div>')
+    return "".join(out)
+
+
 def build():
     cards = load()
     tracked = len(cards)
@@ -221,6 +312,7 @@ def build():
     # clickable, and clicking one moves those cards into #zregview — a flat stack
     # sorted by window close, so "which of these actually resolved" is one click
     # instead of scrolling 69 accordions looking for the coloured pills.
+    R.append(lead_ledger(cards))
     R.append(f'<div id="zregbar" class="zsbar">{global_bar(cards)}</div>')
     R.append('<div id="zregview" class="zsview" hidden></div>')
     R.append('<div id="zreg">')

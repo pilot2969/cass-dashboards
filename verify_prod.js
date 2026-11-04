@@ -146,6 +146,25 @@ async function main(){
       const age=rv&&!isNaN(new Date(rv))?daysBetween(rv,today):null;
       (age!==null&&age>7)?fail('gauges.fresh',`hand review dated ${rv} — ${age}d old (limit 7)`):pass('gauges.fresh',`review dated ${rv}, ${age}d old`);
 
+      // 6b. confirmation indicator + lead delta (2026-11-04). The owner read six recorded
+      // hits and could not see one confirmed: the resolution lived in a faint metadata
+      // line. A resolved card must now carry a badge in its headline row, and every
+      // resolved card with a resolved date must print a lead. Dates that resolve before
+      // the card was written are a data error, not a rounding difference.
+      if(dd.predictions){
+        const res=dd.predictions.filter(p=>['hit','miss','holding'].includes(p.resolution||'unresolved'));
+        const badges=doc.querySelectorAll('#zreg .zconf').length;
+        badges>=res.length?pass('confirmation.badge',`${badges} badge(s) for ${res.length} resolved card(s)`)
+          :fail('confirmation.badge',`${res.length} resolved card(s) but only ${badges} confirmation badge(s) rendered`);
+        const wantLead=res.filter(p=>p.resolution_date&&p.date_made&&p.resolution!=='holding').length;
+        const gotLead=(doc.getElementById('zreg')?.innerHTML.match(/class="zconflead">\d+d lead/g)||[]).length;
+        gotLead>=wantLead?pass('confirmation.lead',`${gotLead} lead delta(s) for ${wantLead} dated resolution(s)`)
+          :fail('confirmation.lead',`${wantLead} resolved card(s) have both dates but only ${gotLead} printed a lead`);
+        const bad=res.filter(p=>p.resolution_date&&p.date_made&&new Date(p.resolution_date)<new Date(p.date_made)).map(p=>p.basename);
+        bad.length?fail('confirmation.dates',`resolved before written: ${bad.join(', ')}`)
+                  :pass('confirmation.dates','no card resolves before it was written');
+      }
+
       // 7. ledger
       const rows=doc.querySelectorAll('#ledger-live .row');
       const n=(dd.mget_ledger||[]).length;

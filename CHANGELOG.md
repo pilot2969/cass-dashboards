@@ -2,6 +2,12 @@
 
 ## 2026-11-04
 
+### Confirmation badge and lead delta (v3.11.3)
+- Resolved cards carry a badge in the headline row: `✓ CONFIRMED`, `✗ MISSED`, `● HELD OPEN`; dashed amber = same-day registration.
+- Each resolved card prints its **lead delta** (forecast date → confirmation date) and window margin.
+- **Confirmation ledger** strip: 6/12 scored hit rate, 51d median lead (same-day excluded), 6/12 confirmed inside window, 4 same-day calls, 2 past-window resolutions.
+- New gate rules `confirmation.badge`, `confirmation.lead`, `confirmation.dates` — all fault-injected (badges stripped → 3 FAILs; resolution_date backdated before date_made → `resolved before written`).
+
 ### Literal escape guard (v3.11.2)
 - 18 literal `\uXXXX` escapes were rendering as text in the Model State panel ("100 \u00d7 the mean"). Decoded in prose; same class of leak cleaned from five `/space` records.
 - New gate rule `prose.no-literal-escapes` checks **rendered** prose only, so escapes inside script source (regex classes, ▲▼ glyphs) are untouched. Fault-injected: 1 injected escape → FAIL, then removed.
