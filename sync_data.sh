@@ -557,7 +557,15 @@ if n==0 and rolled_over:
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
 git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json mget_state.json internal_cards.txt
-git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
+# v3.11.1: the commit trailer asserted "(data-only)" on every run, including releases
+# that changed the footer version and the dictionary — a label that contradicts the
+# artifact it sits on. Derive it from the tree: shell/dictionary/README changed = release.
+if git diff --cached --name-only | grep -qE '^(Internal Telemetry\.html|index\.html|command\.html|archive\.html|README\.md|CHANGELOG\.md|style\.css|verify_prod\.js|sync_data\.sh|mget_state\.json|institutions\.json)$'; then
+  _KIND="release"
+else
+  _KIND="data-only"
+fi
+git diff --cached --quiet || git commit -q -m "$MSG ($_KIND)"
 # 2026-10-26 FIX: the sync itself rewrites Internal Telemetry.html (ledger count)
 # but the file was absent from the add list, leaving the tree dirty -> the rebase
 # below aborted with "cannot pull with rebase: You have unstaged changes" on every
