@@ -369,6 +369,41 @@ try:
         data["institutions"]=_src
 except Exception as e:
     print("institution import warn:", e)
+# MGET MODEL STATE (2026-11-04): mget_state.json (hand-edited) is the source of
+# truth for the four leg dials. sync NEVER rewrites a dial; it imports the file
+# and derives the two derived rows itself, from /space: register load per leg
+# (the leg_primary classifier on each card) and the lane distribution (the four
+# phase-4 branch cards, which must sum to 100).
+try:
+    _mg=json.load(open("mget_state.json"))
+    _load={}; _tot=0
+    for _f in glob.glob(P+"*.json"):
+        _d=json.load(open(_f)); _l=_d.get("leg_primary")
+        if not _l: continue
+        _tot+=1; _load[_l]=_load.get(_l,0)+1
+    _mg["register_load"]={"total":_tot,"by_leg":_load}
+    _missing=[_l["letter"] for _l in _mg.get("legs",[]) if _l["letter"] not in _load]
+    if _missing:
+        print(f"WARNING: leg(s) with no cards filed: {_missing}")
+    _lanes=[]
+    for _b in ("phase4-branch-acute-crisis","phase4-branch-regime-concedes",
+               "phase4-branch-regime-holds-contested","phase4-branch-external-war-diversion"):
+        _p=P+_b+".json"
+        if not os.path.exists(_p): continue
+        _d=json.load(open(_p))
+        _lanes.append({"basename":_b,"title":_d.get("title",""),
+                       "p":_d.get("confidence_score"),
+                       "resolution":_d.get("resolution"),
+                       "closes":_d.get("window_closes")})
+    if _lanes:
+        _sum=round(sum(l["p"] or 0 for l in _lanes),1)
+        if abs(_sum-100)>0.5:
+            print(f"WARNING: lane cards sum to {_sum}, not 100 — distribution is not a partition.")
+        _mg["lanes"]={"sum":_sum,"items":_lanes}
+    data["mget"]=_mg
+except Exception as e:
+    print("mget import warn:", e)
+
 inst=data.get("institutions",{})
 if inst.get("institutions"):
     last=inst.get("reviewed","2026-10-14")
@@ -494,7 +529,7 @@ if n==0 and rolled_over:
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json internal_cards.txt
+git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json mget_state.json internal_cards.txt
 git diff --cached --quiet || git commit -q -m "$MSG (data-only)"
 # 2026-10-26 FIX: the sync itself rewrites Internal Telemetry.html (ledger count)
 # but the file was absent from the add list, leaving the tree dirty -> the rebase
@@ -586,6 +621,12 @@ _pages_wait() { _r="$1"; _tok="$2"; _t0=$(date +%s);
 _ptok=$(git remote get-url prod | sed 's|https\://[^:]*:\([^@]*\)@.*|\1|')
 _pages_wait pilot2969/cass-dashboards-staging "$_ptok"
 git push -q origin main && echo "PUSHED TO STAGING (origin) ✓"
+# 2026-11-04: the push-target amendment (2026-10-05) has said "design changes ->
+# staging only until approval" since it was written, but nothing implemented it —
+# every run pushed prod unconditionally. STAGING_ONLY=1 is that missing switch.
+if [ "${STAGING_ONLY:-0}" = "1" ]; then
+  echo "STAGING_ONLY=1 — prod push SKIPPED (design change awaiting approval)"
+else
 _pages_wait pilot2969/cass-dashboards "$_ptok"
 # 2026-11-02: deploy-cass.sh pushes to the same prod repo, so a bare push here
 # gets rejected (fetch first) and the run dies after staging already moved.
@@ -599,6 +640,7 @@ if ! git push -q prod main:main 2>/dev/null; then
   _reassert
   git push -q prod main:main && echo "PUSHED TO PROD ✓ (rebased over deploy commit)"
 else echo "PUSHED TO PROD ✓"; fi
+fi  # end STAGING_ONLY guard
 sleep 10
 _pages_wait pilot2969/cass-dashboards-staging "$_ptok"
 if git remote get-url staging >/dev/null 2>&1; then

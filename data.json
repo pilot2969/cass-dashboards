@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-04T09:19 ET"
+  "generated_stamped": "2026-11-04T15:15 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -68,11 +68,11 @@
    "date_made": "2026-09-09",
    "time_et": null,
    "statement": "CASS Monte Carlo forecast (5,000 paths) for the 90-day window: Acute Crisis/Phase 4 detonation 47.7%; Regime Concedes/Transition 26.2%; Regime Holds Contested 19.1%; External War Distraction 7.0%. First acute trigger most probable T-40 to T-20 (early-to-late October, 28.3%). Terminal stress: Hormuz 0.97 (blockade irreversible), De-Dollarization 0.67.",
-   "confidence": 36,
+   "confidence": 47.7,
    "status": "emergent",
-   "card_class": "EVENT",
+   "card_class": "THESIS",
    "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution_date": "2026-11-04",
    "window_closes": "2027-01-06",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -121,7 +121,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": null,
+   "window_closes": "2028-09-22",
    "grace_horizon": "90 days (class default applied 2026-11-02; NOT pre-registered, so no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": false,
@@ -143,9 +143,9 @@
    "anchor_type": "registrant_span",
    "anchor_source": "External contractual trigger (signature date) + 24 months",
    "window_basis": "NO DATE YET: signature has not occurred. Cannot expire; must be re-registered with a date or quarantined.",
-   "expiry_basis": "No expiry \u2014 no window.",
+   "expiry_basis": "Expires at window close (2028-09-22).",
    "window_opens": null,
-   "expiry_date": null
+   "expiry_date": "2028-09-22"
   },
   {
    "basename": "2026-10-15-omar-deportation-spectacle-pre-election",
@@ -154,10 +154,10 @@
    "time_et": "09:53",
    "statement": "SA prediction (2026-10-15 09:53 ET): If the administration proceeds against Rep. Ilhan Omar on the citizenship-strip track, execution will be staged as a full-raid-style spectacle (armed, press-visible), completed before the Nov 3 midterm \u2014 the administration wants the optics and the pre-election timing. Continuation of the escalation ladder already logged: raid 10-12 -> WSJ citizenship-strip leak 10-14 -> elite laundering (MacIntyre) 10-15 -> dehumanization meme template live 10-15 (Franklin expulsion format).\n\nMECHANISM ANALYSIS (added 10-15, same morning): Deportation proper is not the correct frame \u2014 she is a naturalized citizen, and the citizenship-strip track is denaturalization litigation, which runs on court timelines (12-36 months in the normal case). What the spectacle can be built from instead: (1) PRETEXT DETENTION \u2014 ICE/DHS detainer or criminal referral on an unrelated charge (immigration-fraud-adjacent filing, marriage-litigation angle the corpus already tracks), producing physical custody while the citizenship claim is 'under review'. Detention of a citizen is unlawful but enforceable in practice when the status question is contested \u2014 the person must litigate their way out from inside custody, which is the classic chilling format. (2) STATUS LIMBO AS THE PRODUCT \u2014 DOJ filing triggers passport revocation / REAL-ID flag; she remains in the country but is rendered legally stateless-adjacent. This is the quiet branch that would falsify the spectacle format. (3) FULL SPECTACLE BRANCH \u2014 arrest/detention staged visually (raid format, per SA's specification), justified publicly as 'pending resolution of citizenship status'; this is the 45%-confidence path and matches the pre-election demand curve in the MacIntyre record. Key tell distinguishing (1)/(3) from (2): whether any physical custody event occurs before Nov 3. Falsifier (2) in the main statement covers the quiet branch explicitly.",
    "confidence": 45,
-   "status": "emergent",
+   "status": "failed",
    "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution": "miss",
+   "resolution_date": "2026-11-03",
    "window_closes": "2026-11-03",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -262,7 +262,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-09-11",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -294,9 +294,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-01",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-09-11 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-09-11",
+   "expiry_basis": "Expires at window close (2027-09-11); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "agent-collective-containment-failures",
@@ -359,7 +359,7 @@
    "card_class": "THESIS",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-12-31",
+   "window_closes": "2030-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -382,9 +382,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-10",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-12-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-12-31: the falsifier names 2030-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2030-12-31",
+   "expiry_basis": "Expires at window close (2030-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "agi-recursive-acceleration-test",
@@ -437,7 +437,7 @@
    "card_class": "THESIS",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-12-31",
+   "window_closes": "2030-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -465,9 +465,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-10",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-12-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-12-31: the falsifier names 2030-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2030-12-31",
+   "expiry_basis": "Expires at window close (2030-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "agi-uneven-profile",
@@ -480,7 +480,7 @@
    "card_class": "THESIS",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-12-31",
+   "window_closes": "2028-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -502,9 +502,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-10",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-12-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-12-31: the falsifier names 2028-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close (2028-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "alpr-surveillance-decoy-substrate",
@@ -517,7 +517,7 @@
    "card_class": "MECHANISM",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": false,
@@ -555,9 +555,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-04",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close (2027-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "assassination-as-catalyst-kirk",
@@ -612,7 +612,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -641,9 +641,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-04",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close (2027-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "c-002-midterm-certification-contestation-amended",
@@ -759,7 +759,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -792,9 +792,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-07",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close (2027-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "color-revolution-target-ladder",
@@ -804,9 +804,9 @@
    "statement": "If the administration operationalizes the color-revolution frame domestically (domestic unrest = foreign-directed), enforcement will climb a cost-ordered institutional ladder. Tier 1: community organizing networks with foreign/diaspora funding; diaspora political orgs; churches with international ties. Tier 2: university departments (funding clawbacks); foreign-funded media; philanthropy cast as the money layer. Tier 3: labor unions with international affiliations; legal-aid networks cast as obstruction on behalf of foreign interests.",
    "confidence": 30,
    "status": "pending",
-   "card_class": "EVENT",
+   "card_class": "THESIS",
    "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution_date": "2026-11-04",
    "window_closes": "2026-12-22",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -1055,7 +1055,7 @@
    "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": null,
+   "window_closes": "2026-12-31",
    "grace_horizon": "0 \u2014 class resolves on mechanism, not on a date; late credit is not defined for it",
    "grace_locked": false,
    "skill_eligible": false,
@@ -1082,8 +1082,8 @@
    "anchor_type": "none",
    "anchor_source": "None \u2014 rolling, adjudicated at first registered threshold action",
    "window_basis": "Card says 'expected through mid-2027'. Review horizon adopted as hard horizon; the registrant set no date.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Rolling card: expires 2027-06-30 if no threshold action has been registered. Unregistered at expiry = MISS by rule.",
+   "expiry_date": "2026-12-31",
+   "expiry_basis": "Expires at window close (2026-12-31).",
    "window_opens": null
   },
   {
@@ -1097,7 +1097,7 @@
    "card_class": "PERSISTENCE",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2026-11-03",
+   "window_closes": "2027-01-20",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -1129,9 +1129,9 @@
    "anchor_type": "statutory",
    "anchor_source": "Electoral/statutory calendar fixed in law before registration",
    "window_opens": "2026-09-01",
-   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
-   "expiry_date": "2026-11-03",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2026-11-03: the falsifier names 2027-01-20 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close (2027-01-20); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "election-day-violence-2026",
@@ -1195,7 +1195,7 @@
    "status": "pending",
    "card_class": "THESIS",
    "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution_date": "2026-11-04",
    "window_closes": "2027-01-23",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -1430,7 +1430,7 @@
    "card_class": "MECHANISM",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-07-01",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -1465,9 +1465,10 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-30",
-   "window_basis": "Registrant span ending on a fiscal half.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-07-01 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-07-01",
+   "expiry_basis": "Expires at window close (2027-07-01); window set to the falsifier's own observation date under T1.",
+   "tracking_state": "2026-11-04 14:20 ET - no score move (24 stands; velocity rule). Third-hand, hedged report that the President is asking advisers whether to fire Hegseth and that 'some White House aides' say blame will be placed on CENTCOM commander Brad Cooper and CJCS Dan Caine. No personnel action documented; unscored. Relevance to this card: the thesis is that the machinery was built in advance to be usable at a post-midterm legitimacy trigger. A blame move onto uniformed leadership is the trigger engaging; a floated one that dies is not. See /space/note/2026-11-04-blame-three-steps-down.json."
   },
   {
    "basename": "houthi-red-sea-escalation-fork",
@@ -1616,7 +1617,7 @@
    "card_class": "THESIS",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-01-31",
+   "window_closes": "2028-01-01",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -1652,9 +1653,9 @@
    "anchor_type": "external_event",
    "anchor_source": "Israeli election + coalition-formation window (external political calendar)",
    "window_opens": "2026-10-06",
-   "window_basis": "External, though the coalition deadline is soft.",
-   "expiry_date": "2027-01-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-01-31: the falsifier names 2028-01-01 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2028-01-01",
+   "expiry_basis": "Expires at window close (2028-01-01); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "iran-naval-escort-escalation",
@@ -1712,10 +1713,10 @@
    "time_et": "10:05",
    "statement": "TESTABLE CLAIM LOGGED AGAINST ITSELF. Robert Pape (UChicago, CPOST) stated on the Decoded Genius interview (published 2026-10-14, recorded ~Oct 12-13) that there is a >50/50 chance Iran obtains a nuclear weapon within a year, and a roughly ONE IN THREE chance Iran TESTS a nuclear weapon before the November 2026 midterms \u2014 'the October surprise.' Mechanism as he gives it: (1) maximum incentive, because without a weapon the US-Israeli attack cycle of June 2025 and Feb 28 2026 onward simply repeats forever; (2) midterm leverage, because a detonation collapses Trump's entire stated Iran strategy ('Iran cannot have, in any way, shape, or form, a Nuclear Weapon'), which he frames as a gambler's all-chips-on-red bet; (3) capability, because Iran holds mined uranium, centrifuge technology and enough HEU to assemble ~5 devices in dispersed drone-storage bunkers, without needing Fordow-scale facilities; (4) the binding constraint is covertness, not will or capability. His added predicate: ONE device is not enough \u2014 a single test invites preemption, two forecloses it (Hiroshima/Nagasaki logic), so any real event is a TWO-DETONATION sequence on a short fuse. Kick-on claim: a test would 'largely sink the Trump presidency,' produce a Democratic wave in both chambers, and deter future US attacks on the North Korea model. BOARD'S OWN NUMBER: 0.07 for a test before polls close Nov 3 \u2014 a deliberate, stated disagreement with Pape's 0.33, on window length and on the absence of a detection ladder, not on his capability read.",
    "confidence": 7,
-   "status": "pending",
+   "status": "failed",
    "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution": "miss",
+   "resolution_date": "2026-11-03",
    "window_closes": "2026-11-03",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -1877,7 +1878,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-09-03",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -1920,9 +1921,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-03",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-09-03 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-09-03",
+   "expiry_basis": "Expires at window close (2027-09-03)."
   },
   {
    "basename": "kirk-anniversary-narrative-2026",
@@ -2324,7 +2325,7 @@
    "card_class": "THESIS",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2030-06-30",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -2363,9 +2364,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2025-02-19 (intuition trace: journal 2025-02-19 'Apparently we are a monarchy now' \u2014 position held informally ~18 months before CASS formalization) / formalized in CASS 2026-09-03",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2030-06-30 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2030-06-30",
+   "expiry_basis": "Expires at window close (2030-06-30)."
   },
   {
    "basename": "post-wwii-unwinding-cass88",
@@ -2419,7 +2420,8 @@
    "window_opens": "2026-09-12",
    "window_basis": "Window drawn to a fiscal-half/year boundary.",
    "expiry_date": "2028-12-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "2026-11-04 14:50 ET - OWNER DISPOSITION, RECORDED, NOT SCORED. Owner stated: 'if that's the case I'm comfortable confirming the collapse of the post-WWII order, it's dead.' Recorded here for the postmortem and for the audit trail. NO RESOLUTION APPLIED and NO CONFIDENCE CHANGE: the card stands at 94, unresolved, to 2028-12-31, and its own falsifier is untouched (Hormuz/Red Sea at 100+ vessels/day for 30 consecutive days; current Hormuz transit 2/day, 247 days into effective closure). Rule 1 governs: a card resolves on its falsifier or at its window close, not on a registrant's change of disposition. Resolving a 94% card on the day an allied reaction wire is read, with the window open to 2028, would be the same defect as resolving one early to save it. What the disposition DOES do: it makes the newly registered operational limb (/space/prediction/operator-to-participant-no-delegated-reversion.json) the live test of the owner's position, and it means any future miss on that limb is a miss on the owner's thesis rather than on a hedged side bet. That is the useful consequence."
   },
   {
    "basename": "press-access-enclosure-media-capture",
@@ -2483,7 +2485,7 @@
    "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": null,
+   "window_closes": "2027-12-31",
    "grace_horizon": "0 \u2014 class resolves on mechanism, not on a date; late credit is not defined for it",
    "grace_locked": false,
    "skill_eligible": false,
@@ -2511,9 +2513,9 @@
    "anchor_type": "none",
    "anchor_source": "None \u2014 rolling, readings after N trials",
    "window_basis": "NO CALENDAR HORIZON. Trigger is trial count only. Ineligible for scoring until a hard date is registered.",
-   "expiry_basis": "Rolling card with no horizon: cannot expire, therefore cannot be scored, therefore excluded from calibration until re-registered.",
+   "expiry_basis": "Expires at window close (2027-12-31).",
    "window_opens": null,
-   "expiry_date": null
+   "expiry_date": "2027-12-31"
   },
   {
    "basename": "regime-power-retention",
@@ -2526,7 +2528,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-01-20",
+   "window_closes": "2029-01-06",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -2555,9 +2557,9 @@
    "anchor_type": "statutory",
    "anchor_source": "Electoral/statutory calendar fixed in law before registration",
    "window_opens": "2026-11-03",
-   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
-   "expiry_date": "2027-01-20",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-01-20: the falsifier names 2029-01-06 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2029-01-06",
+   "expiry_basis": "Expires at window close (2029-01-06); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "reichstag-fire-national-emergency",
@@ -2570,7 +2572,7 @@
    "card_class": "EVENT",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-01-20",
+   "window_closes": "2028-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -2614,9 +2616,9 @@
    "anchor_type": "statutory",
    "anchor_source": "Electoral/statutory calendar fixed in law before registration",
    "window_opens": "2026-09-01",
-   "window_basis": "Close is a date fixed in law; the open is the registrant's.",
-   "expiry_date": "2027-01-20",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-01-20: the falsifier names 2028-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close (2028-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "rogue-ai-substrate-risk",
@@ -2811,10 +2813,10 @@
    "time_et": null,
    "statement": "The regime is running the US Strategic Petroleum Reserve down to the bone (~290M barrel cavern-damage floor, no refill capacity while at war) while papering over the Hormuz supply collapse with a 'stolen Venezuelan oil' narrative that cannot physically flow fast enough. A breakable oil shock will land BEFORE the November midterms \u2014 driven by either SPR breaching the ~290M floor, a major convoy/tanker loss, or a Bab el-Mandeb closure \u2014 and it may be the regime's fatality, not merely its electoral loss.",
    "confidence": 30,
-   "status": "emergent",
+   "status": "failed",
    "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution": "miss",
+   "resolution_date": "2026-11-03",
    "window_closes": "2026-11-03",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -2885,7 +2887,7 @@
    "card_class": "MECHANISM",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2028-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -2912,9 +2914,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-16",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2028-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close (2028-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "basename": "strait-of-hormuz-blockade",
@@ -3000,7 +3002,7 @@
    "card_class": "MECHANISM",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-06-30",
+   "window_closes": "2027-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -3035,9 +3037,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-04",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-06-30: the falsifier names 2027-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2027-12-31",
+   "expiry_basis": "Expires at window close (2027-12-31)."
   },
   {
    "basename": "substrate-emergence-signature",
@@ -3238,8 +3240,8 @@
    "confidence": 72,
    "status": "emergent",
    "card_class": "ROLLING",
-   "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution": "excluded",
+   "resolution_date": "2026-11-04",
    "window_closes": null,
    "grace_horizon": "0 \u2014 class resolves on mechanism, not on a date; late credit is not defined for it",
    "grace_locked": false,
@@ -3284,12 +3286,12 @@
    "date_made": "2025-01-05",
    "time_et": null,
    "statement": "Ukraine hitting Russian oil production threatens their capability to project force in Europe.",
-   "confidence": 100,
+   "confidence": 98,
    "status": "confirmed",
    "card_class": "ROLLING",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": null,
+   "window_closes": "2027-06-30",
    "grace_horizon": "90 days (class default, applied 2026-11-02; NOT pre-registered \u2014 no LATE credit on this card)",
    "grace_locked": false,
    "skill_eligible": false,
@@ -3316,11 +3318,11 @@
    "anchor_grade": "E",
    "anchor_type": "none",
    "anchor_source": "None \u2014 ongoing campaign; 'through 2027' is not a date",
-   "window_basis": "'persistence check through 2027' adopted as 2027-12-31.",
-   "expiry_date": "2027-12-31",
-   "expiry_basis": "Rolling card: expires 2027-12-31 if no threshold action has been registered. Unregistered at expiry = MISS by rule.",
+   "window_basis": "2026-11-04: window was unset. Under T1 it is set to the falsifier's observation date; opens at registration.",
+   "expiry_date": "2027-06-30",
+   "expiry_basis": "Expires at window close (2027-06-30), the falsifier's own observation date.",
    "tracking_state": "on-track at last read; pre-expiry, so no resolution is recorded",
-   "window_opens": null
+   "window_opens": "2025-01-05"
   },
   {
    "basename": "war-question-duel",
@@ -3332,7 +3334,7 @@
    "status": "emergent",
    "card_class": "THESIS",
    "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution_date": "2026-11-04",
    "window_closes": "2027-06-30",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
@@ -3369,7 +3371,8 @@
    "window_opens": "2026-09-11",
    "window_basis": "Window drawn to a fiscal-half/year boundary.",
    "expiry_date": "2027-06-30",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70).",
+   "tracking_state": "spread track: force posture, budgets and casualty exposure flat against spiking rhetoric; domestic enforcement outpacing war spending through Q4 2026"
   },
   {
    "basename": "world-war-iii-prologue",
@@ -3382,7 +3385,7 @@
    "card_class": "THESIS",
    "resolution": "unresolved",
    "resolution_date": null,
-   "window_closes": "2027-12-31",
+   "window_closes": "2028-12-31",
    "grace_horizon": "0 days \u2014 grace not pre-registered (the 90-day class default was applied retroactively on 2026-11-02 and is therefore not granted)",
    "grace_locked": false,
    "skill_eligible": true,
@@ -3419,9 +3422,9 @@
    "anchor_type": "calendar_period",
    "anchor_source": "Calendar period boundary (fiscal-half/year end) \u2014 pre-existing, non-negotiable, but arbitrary to the claim",
    "window_opens": "2026-09-03",
-   "window_basis": "Window drawn to a fiscal-half/year boundary.",
-   "expiry_date": "2027-12-31",
-   "expiry_basis": "Expires at window close. Grace horizon was applied retroactively on 2026-11-02 and never pre-registered, so no grace is granted (grace_locked=false on all 70)."
+   "window_basis": "Repaired 2026-11-04 from 2027-12-31: the falsifier names 2028-12-31 as its observation date, so the window closes there. Under T1 the falsifier date and the close are the same fact.",
+   "expiry_date": "2028-12-31",
+   "expiry_basis": "Expires at window close (2028-12-31); window set to the falsifier's own observation date under T1."
   },
   {
    "title": "2026 Midterm Turnout Floor \u2014 the cohort-composition claim",
@@ -3755,7 +3758,7 @@
    "instrument": "Two-part: (1) frame count from a pre-listed actor set over the 72 hours, adjudicated at close, not incrementally; (2) binary contest-action check - any filing, demand, or resolution by the administration or national party seeking to contest, delay, or decertify. Operational resistance (pardons, rulemaking, investigations, agency direction) is explicitly out of scope and moving it does not move this card.",
    "confidence_rationale": "0.6. Base rate for a defeated party's ecosystem routing to internal repair rather than count dispute is high, and every observable so far sits on that side: a RINO designation before the result, a grassroots blame map naming candidate quality and the president himself, and a marquee-state concession from a podium. What holds it at 0.6 rather than higher is that the legitimacy-attack machinery was built and is simply unused, that this executive's own 2020 precedent is the strongest single counter-example, and that the self-healing branch would not trip this card's fraud trigger even if it were loading. Not higher because the discount is for the possibility that the observable branch and the operative branch differ.",
    "correlation_flag": "NEGATIVELY correlated with the vanguard-split card (0.35): a HIT here is the repair branch, which lowers split probability; a MISS raises it. Loads on administration-under-pressure (0.82) through the escalation branch if MISS.",
-   "tracking_state": "Registered 01:00 ET 2026-11-04, inside the window. Unpriced for 24 hours by the velocity rule - the 00:00-01:00 candle is excluded from any count. No score move until 2026-11-05 00:00 ET.",
+   "tracking_state": "Registered 01:00 ET 2026-11-04, inside the window; unpriced for 24 hours by the velocity rule, no score move until 2026-11-05 00:00 ET. TRACKING 2026-11-04 13:20 ET - no score change, evidence logged only. Inward evidence at five surfaces (descent, capture, demobilisation, purity expulsion, candidate selection); outward contestation at zero authenticated instances. The principal's 23:15 ET 'VETO' post plus 'tremendous powers' is the RESIST branch, not the CONTEST branch - a legislative-obstruction signal, not a stolen-election claim - and does not approach the falsifier. One counterfeit Paxton contestation statement circulated 12:00 ET 11-04 (see /space/note/2026-11-04-counterfeit-paxton-contestation.json); it is demand, not supply, and does not count toward the falsifier. Falsifier remains: a public assertion by the president or a named cabinet-level official that the election was stolen or systematically fraudulent.",
    "revision_log": [
     "2026-11-04 01:00 ET - registered at 0.60, window anchored before any post-midnight rhetoric was counted"
    ],
@@ -3840,7 +3843,7 @@
    "threshold_definition": "Hits on any one of three administration-level moves, documented: (a) escalation abroad with costly failure risk, initiated while domestic accountability rises; (b) an emergency declaration, decree, or jurisdictional maneuver routing a political loss into unreachable authority; (c) a dismissal or sidelining of an official whose presence implies the result's legitimacy. Acts only, by identified officials.",
    "max_lifespan": "2026-11-04 through 2027-01-20",
    "review_cadence": "Weekly, plus immediately on any certified loss or any named scapegoat",
-   "tracking_state": "0.82 restored 2026-11-04 00:0x ET per velocity-not-evidence (adopted 2026-09-15): a score is not moved by a datum arriving inside 24h of the event it describes. The 22:30 NYT acceptance statement is recorded in the revision log as a tracking observation only and moves no number. Zero administration acts as of 00:03 ET; the card's clock runs to 2027-01-20.",
+   "tracking_state": "0.82 restored 2026-11-04 00:0x ET per velocity-not-evidence (adopted 2026-09-15): a score is not moved by a datum arriving inside 24h of the event it describes. The 22:30 NYT acceptance statement is recorded in the revision log as a tracking observation only and moves no number. Zero administration acts as of 00:03 ET; the card's clock runs to 2027-01-20. TRACKING 2026-11-04 13:40 ET - no score move, 82 stands (velocity rule; earliest move 2026-11-05 00:00 ET). Aggregator-mediated report of a Vance X post attributing the loss to four causes, war with Iran primary: a leadership post-mortem is none of the three moves and is a legitimacy-accepting act, so it is mild falsifier-side evidence recorded here only. Primary post not obtained; see /space/absorption/2026-11-04-vance-loss-attribution-aggregator-relay.json. Note the selection logic: candidate quality - the base's leading frame and the one that lands on the running mate - is absent from the attributed list.",
    "basename": "2026-11-03-post-defeat-blame-direction",
    "confidence": 82
   },
@@ -3888,9 +3891,449 @@
    "instrument": "Persistence instrument: count distinct named actors taking a split move (a/b/c) within 90 days of each other. One actor = no split (repair). Two or more distinct actors within 90 days = split persisting at minimum. Requires full window to close; a single move never resolves the card.",
    "basename": "2026-11-04-vanguard-split-or-fusion",
    "confidence": 35
+  },
+  {
+   "title": "Divided Government's First Bill: a funding lapse before FY2028",
+   "date_made": "2026-11-04",
+   "time_et": "13:15",
+   "card_class": "EVENT",
+   "statement": "SCORED CLAIM (single branch). Between 2027-01-20 and 2027-09-30, a funding lapse occurs: at least one appropriations gap of >=3 consecutive days in which a federal agency with a published contingency plan furloughs employees or ceases non-excepted operations, arising from a dispute between the Democratic House majority and the executive over FY2027 or FY2028 appropriations. Debt-limit brinksmanship alone does NOT satisfy this card. A lapse under a continuing resolution counts only if furloughs or shutdown operations are implemented.",
+   "evidence_confirmed": [
+    "Democratic House majority effectively certain (NBC estimate 258 seats)",
+    "Every prior opposition-House configuration of the modern era produced at least one lapse or near-lapse",
+    "The post-defeat frame requires an obstruction foil; appropriations is the only forum with a statutory deadline and a visible hostage"
+   ],
+   "evidence_contradicted": [
+    "Most Congresses complete appropriations or pass a CR without a furlough-producing lapse",
+    "A party that just lost on prices has an incentive to avoid a visible shutdown",
+    "Lame-duck FY2027 action may remove the first collision"
+   ],
+   "falsifier": "MISSES if no appropriations gap of >=3 consecutive days with implemented furloughs or shutdown operations occurs between 2027-01-20 and 2027-09-30. Observable: OMB agency contingency-plan activations and CRS/GAO shutdown records.",
+   "forward_watchlist": [
+    "Lame-duck FY2027 approps action Nov-Dec 2026",
+    "Debt-limit X-date estimates",
+    "House leadership statements linking oversight to appropriations"
+   ],
+   "status": "pending",
+   "base_rate_numeric": 70,
+   "base_rate_source": "Divided-government Congresses since 1976 with an opposition House: 1981-86 (lapses 1981, 1984, 1986), 1995-96 (two), 2011-13 (2013), 2019 (35-day). ~5 of 6 produced at least one furlough-producing lapse.",
+   "base_rate_tier": "B",
+   "base_rate_frozen_date": "2026-11-04",
+   "confidence_rationale": "High base rate and the structural conditions are present (opposition House, grievance-seeking executive, price-sensitive electorate). Discounted because FY2027 may close out in the lame duck and because a party running on affordability has reason to avoid a visible shutdown.",
+   "window_opens": "2027-01-20",
+   "window_closes": "2027-09-30",
+   "expiry_date": "2027-09-30",
+   "expiry_basis": "First full appropriations cycle under divided government; falsifier observation date equals close.",
+   "anchor_type": "fiscal",
+   "anchor_source": "FY2027 appropriations cycle / fiscal year end",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "skill_eligible": true,
+   "correlation_flag": "DIVIDED_GOVERNMENT \u2014 loads with house-seating-contest-120th-congress and the oversight-war cluster on one factor. Not an independent draw.",
+   "resolution": "unresolved",
+   "public_status": "internal",
+   "instrument": "OMB contingency plan activations; agency furlough notices; CRS shutdown records",
+   "threshold_definition": "At least one lapse of >=3 consecutive days with implemented furloughs or shutdown operations in the window.",
+   "tracking_state": "Registered 2026-11-04 13:15 ET; nothing observable until 2027-01-20.",
+   "derivation_gap": "No predecessor card. Fills the appropriations gap in turning-phase-gap-register, which carried zero divided-government cards.",
+   "post_expiry_confirmation": "A lapse beginning after 2027-09-30 logs to post_expiry_confirmation; score does not change.",
+   "leg_primary": "G",
+   "leg_basis": "fiscal governance output",
+   "leg_secondary": [],
+   "basename": "divided-government-funding-lapse-2027",
+   "confidence": 71
+  },
+  {
+   "title": "Hegseth: out before the 120th Congress convenes",
+   "date_made": "2026-11-04",
+   "time_et": "14:35",
+   "statement": "Hegseth does not hold the office of Secretary of Defense when the 120th Congress convenes at noon ET on 2027-01-03. He leaves by resignation, by removal, or by any other route \u2014 the mechanism is not part of the claim, only the fact.\n\nWHY THE DATE IS THE RIGHT ONE. House GOP leadership canceled a session day on 2026-09-24 specifically to deny Massie's privileged resolution (H.Res.935, 8 articles over Iran war handling) a floor vote, and punted it into the lame-duck session. Lame duck is the last sitting of the 119th. When the 120th convenes, every pending resolution dies and Hegseth's accusers in the current majority lose their instruments. The punt therefore converts into a hard deadline: if he is still in the chair on 2027-01-03, the impeachment track has been strangled by calendar and he has survived it completely.\n\nTHE PRESSURE PACKAGE, assembled before registration: >50% public support for impeachment (YouGov, 2026-09-23); a privileged resolution already filed and denied a floor; a retiring sponsor with no future career to protect (Massie lost his primary); the party just lost the House after a war the vice president publicly named as the cause; and the President reported to be asking advisers whether to fire him, with 'some White House aides' reportedly placing blame on CENTCOM commander Cooper and CJCS Caine instead \u2014 which is the WH declining to defend him.\n\nWHY THE SCOURGE IS REAL AND WHY IT MIGHT NOT FIRE. Trump's pattern under 'fire X' pressure is to hold past the point the press expects and then move abruptly \u2014 and midterm losses are exactly when he moves, historically the day after. Both facts point the same way here. What argues against: the same announced exit had already been floated and absorbed once in September without a departure, and a president who fires his SecDef four seats into a lost House inherits an immediate confirmation fight in a chamber he no longer controls.",
+   "evidence_confirmed": [
+    "H.Res.935 (Massie, 8 articles, Iran war handling) filed 2026-09-15, denied a floor by cancellation of the final pre-recess session day (2026-09-24, multi-source)",
+    "YouGov 2026-09-23: more than half of Americans support impeaching Hegseth",
+    "Massie is retiring after losing his primary \u2014 no career cost to forcing votes in lame duck",
+    "Vance publicly attributes the midterm loss to the Iran war (2026-11-04)",
+    "Reported (unverified, third-hand): President asking advisers about firing Hegseth; 'some White House aides' placing blame on Cooper and Caine instead"
+   ],
+   "evidence_contradicted": [
+    "September's firing speculation produced no departure; the option was tested and did not fire then",
+    "WH has not spent capital defending him but has also not moved him \u2014 inaction is the current state"
+   ],
+   "falsifier": "Hegseth holds the office of Secretary of Defense at 12:00 ET on 2027-01-03, having neither resigned nor been removed. Measured from the DoD leadership listing and the Federal Register / CRS appointment record on that date. One condition, observable inside the window, at the window close.",
+   "forward_watchlist": [
+    "ORDERING TEST (free, discriminates mechanism, does not move the score): (a) generals relieved and Hegseth stays = he is buying his job with them, expect Hegseth to announce it; (b) Hegseth out and generals also out = a laundered exit in which the war policy survives, expect the WH or an acting secretary to announce; (c) Hegseth out with no generals touched = he simply lost and the exit is not being dressed",
+    "Whether any operational reason is ever stated for relieving Cooper or Caine - silence means a political act in personnel form",
+    "Lame-duck scheduling: whether leadership brings H.Res.935 to the floor, strangles it by calendar, or adjourns early again. An early adjournment before 2027-01-03 is the surviving-Hegseth path",
+    "A named CBS byline, airtime, or adviser name attaching to the 2026-11-04 firing report. Three hedges and no named source is a trial balloon; a named source is a decision",
+    "Whether a successor is floated before a resignation is announced - a pre-floated successor means the exit is managed",
+    "Whether Sen. confirmation arithmetic is discussed publicly by the WH: a nominee needing Dem votes in a lost Senate is the strongest single reason to delay past January"
+   ],
+   "status": "pending",
+   "confirmer": "Hegseth is not the Secretary of Defense on 2027-01-03",
+   "confirmer_base_rate": "60% - of the five midterm losses by the incumbent party since 2006, three produced a cabinet-level departure within a month (Rumsfeld day after 2006-11-07; Hagel 2014-11-24; Sessions day after 2018-11-06); 2010 and 2022 produced none. Elevated above the base rate because the officer in question already faces a filed privileged impeachment resolution and majority public support for removal.",
+   "confirmation_window": "2026-11-04 to 2027-01-03",
+   "last_moved": "2026-11-04",
+   "outcome_direction": "negative",
+   "base_rate_numeric": 40,
+   "base_rate_tier": "B",
+   "base_rate_source": "/space/note/base-rate-trump-firing-leak-series.json (n=15  Trump 'considering firing' leak series; 6/15 departed within 60 days; median lag 64d; 14/15 eventual)",
+   "base_rate_frozen_date": "2026-11-04",
+   "resolution_note": null,
+   "baseline_retrofit": false,
+   "confidence_rationale": "Base rate 60 (B tier), elevated to 68 for three pre-registered reasons: (1) a privileged resolution is already filed and punted, so a floor vote exists as an available instrument; (2) majority public support converts an elite fight into a mass-legitimacy problem; (3) the WH is reportedly declining to defend him and the VP has publicly assigned the loss to his war. Held below 75 because the same exit was floated in September and did not fire, and because a confirmation fight in a lost Senate makes January an expensive moment for a vacancy.",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_closes": "2027-01-03",
+   "window_opens": "2026-11-04",
+   "grace_horizon": null,
+   "grace_locked": false,
+   "grace_locked_note": "No grace. The convening of Congress is a constitutive date, not a conventional one; a departure on 2027-01-04 is a MISS and a separate fact.",
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "gated_public",
+   "instrument": "Press + DoD leadership listing + Federal Register appointment record",
+   "anchor_type": "constitutional_date",
+   "anchor_source": "20th Amendment: the 119th Congress ends and the 120th convenes at noon on 2027-01-03",
+   "anchor_grade": "A",
+   "window_basis": "Lame duck is the last sitting of the 119th; pending resolutions die at convening of the 120th. The date is fixed by the Constitution, not by the forecaster.",
+   "expiry_date": "2027-01-03",
+   "expiry_basis": "Convening of the 120th Congress ends the lame-duck window in which the punted resolution can be brought to a floor.",
+   "threshold_definition": "'Not holding the office' = not listed as Secretary of Defense in the DoD leadership listing at 12:00 ET 2027-01-03, whether by resignation, removal, death, or an acting arrangement in which no confirmed secretary sits.",
+   "max_lifespan": "60 days",
+   "review_cadence": "daily while the lame duck sits; weekly if it does not",
+   "tracking_state": "2026-11-04 14:35 ET - registered. Origin: third-hand report (Kobeissi citing CBS, via a partisan page) that the President is asking advisers about firing Hegseth and that 'some White House aides' would place blame on Cooper and Caine. The report itself scores nothing; what made the card admissible is the pre-existing September record (privileged resolution, punt to lame duck, majority public support), all of which was documented before today and is independent of the rumour.\n\n2026-11-04: reporting (CBS via multiple outlets) says Trump privately asked advisers whether to fire BOTH Hegseth AND Gen. Dan Caine, and that two officials assured him the Iran conflict would be wrapped up well before the midterms. WH statement: 'full confidence.' Trump to reporters: 'No, I think he's done a very good job.' Same coverage notes he is weighing a renewed bombing campaign while shopping the removal - leadership change with policy continuity, which is the laundering shape the 'out' hypothesis predicts. Separate framing circulating: he wants to salvage an 'anti-war president' legacy. If the war is the thing he wants distance from, Hegseth is the war's face - departure-positive and consistent with blaming the generals.",
+   "p_substance": 0.9,
+   "p_timing": 0.64,
+   "deadline_type": "constitutive",
+   "post_expiry_confirmation": "If the card MISSES and Hegseth leaves later in 2027, the departure is logged as post-expiry confirmation under the Post-Expiry Confirmation Rule: the score stays MISS, and the near-miss is recorded against the ordering between impeachment pressure and executive reaction time. The thesis that would be credited is 'a punted privileged resolution plus majority public support eventually forces a cabinet exit' - not 'the timing was right'.",
+   "successor_card": "2026-11-03-post-defeat-blame-direction",
+   "revision_log": [
+    "2026-11-04 14:35 ET - registered at 68, forward, before any personnel action. Base rate 60 frozen at registration (B tier).",
+    "BASE RATE NOTE: the 2006-2022 series is small (n=5) and is recorded as a rate, not as a law. Two of the three departures (Rumsfeld, Sessions) came the day after the midterms, which is why 68 rather than the base rate alone; if no action arrives by 2026-11-18, the analogy to those two cases has failed and the card should be repriced down toward the base rate.",
+    {
+     "date": "2026-11-04",
+     "old": 68,
+     "new": 58,
+     "reason": "Base-rate series built at Samuel's direction (15 historical 'considering firing' leaks). 68 double-counted high-pressure features already inside the reference class. p_substance 0.90 x p_timing 0.64 = 58."
+    }
+   ],
+   "falsifier_shape_audit": "T1 PASS - falsifier measurement date equals window_closes (2027-01-03); no later convenience date used. T2 PASS - single condition (holding the office at noon on the convening date); no conjunction, no second requirement. T3 PASS - polarity correct: firing the falsifier (he is still in the chair) makes the claim false, not true; and it tests the claim's own mechanism (does the punted resolution convert into an exit) rather than a vivid instance such as a resignation announcement. T4 PASS - 68, inside the [2,98] ceiling. ADMISSIBILITY: forward (registered 2026-11-04, window_opens 2026-11-04, no outcome visible - no personnel action had been announced), third-party observable (DoD listing + Federal Register), not already true, one claim, class EVENT.",
+   "correlation_flag": "Shares a cause with 2026-11-03-post-defeat-blame-direction (82, risk-acceptance/purge), 2026-11-03-post-defeat-72h-routing (60, purity lane) and hegseth-loyal-force-war-on-enemies (24, machinery). Common antecedent: post-midterm legitimacy crisis. Do NOT multiply: if the purity lane wins, both this card and blame-direction rise together; if the party consolidates quietly, both fall. Near-duplicate risk is LOW with blame-direction (that card scores the CLASS of target; this one scores a specific officeholder by a constitutional date) but the correlation is high enough that the joint probability of this card and blame-direction is materially below the product.",
+   "derivation_gap": "+24 points to the 40% unconditional 60-day rate. Post-election release-valve cluster: Sessions 1 day after midterms, Esper 6 days, Krebs 14 days (n=3, small but mechanistically coherent - the electoral constraint is what held the removal). Initiation was one day after the loss. Offset: -6 for Senate confirmation arithmetic (4-seat majority, nominee could sink), +10 for the H.Res.935 instrument that exists in no prior case. Trump's same-day public denial is recorded and deliberately weighted at zero: denials preceded both Nielsen surviving 5 months and Rosenstein never being fired, and also preceded removals that happened.",
+   "leg_primary": "T",
+   "leg_basis": "vanguard personnel",
+   "leg_secondary": [],
+   "basename": "hegseth-out-before-120th-congress",
+   "confidence": 58
+  },
+  {
+   "title": "The House Judges Its Own: seating contest against a member-elect, 120th Congress",
+   "date_made": "2026-11-04",
+   "time_et": "13:15",
+   "card_class": "EVENT",
+   "statement": "SCORED CLAIM (single branch). Before 2027-01-20, at least one of the following occurs in relation to a 2026 House race: (a) a contest of election is filed under the Federal Contested Elections Act (2 U.S.C. ch. 7) against a member-elect of the 120th Congress; (b) a state or county official with statutory certification authority refuses, or delays by >=7 days past the statutory deadline, certification of a House race; (c) the House adopts a resolution or the Speaker refers a contested-seat question to the Committee on House Administration on or before the opening of the 120th Congress. Disjunctive; any limb alone fires. The House judges the qualifications of its own members under Art. I s.5, so (a) and (c) are the historically novel limbs and (a) is the routine one.",
+   "evidence_confirmed": [
+    "Four 2026 House results conceded by the executive before the count was known, which removes the presidential contest but not candidate-level contests",
+    "No Jan 6 analogue exists for a midterm: no joint session, no Electoral Count Act pathway; the forum is the chamber itself",
+    "Democratic House majority makes (c) procedurally available"
+   ],
+   "evidence_contradicted": [
+    "FCEA contests are common and almost never succeed; the modal outcome is filing without consequence",
+    "Early concession reduces apparatus appetite for a seating fight"
+   ],
+   "falsifier": "MISSES if, by 2027-01-20 23:59 ET, no limb (a), (b) or (c) has occurred. Observable: FCEA dockets and House resolutions (a, c); state certification records (b).",
+   "forward_watchlist": [
+    "FCEA filings after 2026-11-04",
+    "County canvass-board refusals Nov 10-24",
+    "House Administration Committee statements",
+    "Certification records in AZ, MI, NC, CA"
+   ],
+   "status": "pending",
+   "base_rate_numeric": 60,
+   "base_rate_source": "FCEA contests filed per Congress, 1946-2022 (roughly 1-2 per Congress; most Congresses at least one); state refusal limbs rare (2020, 2022 precedents); limb (c) unprecedented in the modern era",
+   "base_rate_tier": "C",
+   "base_rate_frozen_date": "2026-11-04",
+   "confidence_rationale": "Anchor on the routine limb (a), which carries most of the mass; limbs (b) and (c) add. Discounted for early concession and because a midterm has no certification-fight machinery to inherit.",
+   "window_opens": "2026-11-04",
+   "window_closes": "2027-01-20",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Opening of the 120th Congress plus the fortnight in which seating questions are raised; falsifier observation date equals close.",
+   "anchor_type": "calendar",
+   "anchor_source": "20th Amendment / opening of the 120th Congress",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "skill_eligible": true,
+   "correlation_flag": "DIVIDED_GOVERNMENT \u2014 loads with divided-government-funding-lapse-2027 and c-002-midterm-certification-contestation-amended on one apparatus-contestation factor. Not an independent draw.",
+   "resolution": "unresolved",
+   "public_status": "internal",
+   "instrument": "FCEA dockets, House resolutions, state certification records",
+   "threshold_definition": "At least one documented limb (a)-(c) by 2027-01-20.",
+   "tracking_state": "Registered 2026-11-04 13:15 ET; nothing observable yet.",
+   "derivation_gap": "No predecessor card. Fills the divided-government / Art I s.5 gap in turning-phase-gap-register.",
+   "post_expiry_confirmation": "A contest filed after 2027-01-20 logs to post_expiry_confirmation; score does not change.",
+   "leg_primary": "G",
+   "leg_basis": "chamber judges its own membership",
+   "leg_secondary": [],
+   "basename": "house-seating-contest-120th-congress",
+   "confidence": 62
+  },
+  {
+   "title": "Iran deal announced: a declared win before 2027-03-31",
+   "date_made": "2026-11-04",
+   "time_et": "14:45",
+   "statement": "The United States and Iran publicly announce a written agreement, Qatar- or Oman-brokered or direct, trading partial sanctions relief for Iranian commitments on nuclear activity and/or Hormuz transit, on or before 2027-03-31. The card scores the ANNOUNCEMENT only, not implementation and not whether terms are met.",
+   "evidence_confirmed": [
+    "2026-10-28: Qatar-led mediators pressing Iran for nuclear concessions against partial sanctions relief; Hezbollah's leader publicly hailing an Iran-US deal; Tehran signalling faster diplomacy",
+    "2026-10-28: Trump at a Texas rally - the war ends 'whenever I want it to be over' (a satisfaction statement, not an outcome statement)",
+    "2026-11-03/04: the electoral constraint that suppressed the deal is gone; Brent below $103 on expectation repricing while physical transit is unchanged",
+    "2026-10-27: Iran war regionalisation track - Egypt and Saudi Arabia engaging Tehran"
+   ],
+   "evidence_contradicted": [
+    "2026-11-03: US strikes Qeshm launch sites after IRGC fired on crewed aircraft - the kinetic series is live, not frozen",
+    "2026-11-04: Trump publicly denied considering a Hegseth firing and the WH asserted full confidence - an actor still defending his war leadership, not winding it down",
+    "Minab report still withheld past the midterms, which the register treats as the ratchet rather than decompression"
+   ],
+   "falsifier": "No joint or parallel public announcement of a written US-Iran agreement occurs on or before 2027-03-31.",
+   "forward_watchlist": [
+    "Whether the announcement precedes implementation by more than 6 months - the form-over-substance signature",
+    "Whether Hormuz transit rises above 10 tankers/day on terms Tehran announces as a concession (separate card, unregistered)",
+    "Whether Minab is published: decompression; continued withholding is the ratchet",
+    "Whether the Qeshm calibrated-reply pattern repeats - matched, limited, closing rather than opening",
+    "Whether the third carrier group arrives; its absence remains the strongest de-escalatory fact",
+    "Whether the Gulf states describe the basing and overflight requests publicly"
+   ],
+   "status": "pending",
+   "confirmer": "A joint or parallel public US-Iran announcement of a written agreement exists on or before 2027-03-31",
+   "confirmer_base_rate": "50% - 4/4 Trump exits from unwinnable commitments were announced (Singapore 2018, China Phase One 2020, Doha 2020, Abraham Accords 2020); Iran-specific tempo set by the JCPOA track, 20+ months from formal opening to announcement.",
+   "confirmation_window": "2026-11-04 to 2027-03-31",
+   "last_moved": "2026-11-04",
+   "outcome_direction": "positive",
+   "base_rate_numeric": 50,
+   "base_rate_tier": "C",
+   "base_rate_source": "/space/note/base-rate-trump-declared-victory-exits.json (n=4, announced 4/4, primary commitments substantially met 0/4, partial 2/4) plus JCPOA negotiation tempo",
+   "base_rate_frozen_date": "2026-11-04",
+   "resolution_note": null,
+   "baseline_retrofit": false,
+   "confidence_rationale": "57 = 0.65 substance x 0.88 timing. Obstruction does not lengthen the grind, it determines the deal's shape: satisfaction is a face condition, and Iran can manufacture the appearance of capitulation more cheaply than the reality. Form-over-substance is this actor's own 4/4 record. NOT raised for 'Iran wants a deal' - every one of the four exits had a counterparty who wanted one; that is the class condition.",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_closes": "2027-03-31",
+   "window_opens": "2026-11-04",
+   "grace_horizon": null,
+   "grace_locked": false,
+   "grace_locked_note": "No grace. A negotiated settlement has no constitutive date; grace would be discretion.",
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "internal",
+   "instrument": "announcement event as reported by Reuters, AP, or a State Department readout. Implementation scored separately.",
+   "anchor_type": "calendar_span",
+   "anchor_source": "No statutory or institutional anchor exists for a negotiated settlement; the span is registrant-chosen and declared as such",
+   "anchor_grade": "B",
+   "window_basis": "147 days. Chosen because the JCPOA track ran 20+ months from formal opening, but the current package is already at draft stage per the 2026-10-28 ledger.",
+   "expiry_date": "2027-03-31",
+   "expiry_basis": "End of the declared window; Rule 1 applies with no discretion.",
+   "threshold_definition": "'Announced' = a written agreement whose existence and principal terms are stated publicly by both governments, or by one with the other's public acknowledgement, on a single identifiable date.",
+   "max_lifespan": "147 days",
+   "review_cadence": "weekly, and daily on any Qatar/Oman mediation report or State Department readout",
+   "tracking_state": "Registered 2026-11-04 14:45 ET. Mechanism per Samuel: Trump is obstinate and does not let go until satisfied; Iran wants a deal; hold-and-grind resolves nothing. Reframe that makes it priceable: obstruction does not lengthen the grind, it sets the deal's SHAPE. Modal outcome is a thin-substance agreement announced as a total win. The register already holds the package: Qatar mediation at draft stage (2026-10-28), Hezbollah hailing a deal, 'whenever I want it to be over.' || 2026-11-04 14:52: Ghalibaf (chief US negotiator) publicly endorsed the US result - 'Americans said NO TO WAR, and we endorse this message' - counterparty supplying face material; Khamenei says party shifts cannot change US 'hostility', cutting the other way; Tehran reported preparing a 'maximum deterrence plan' for any new attack. NO REPRICE: no pre-registered update rule, and re-pricing hours after registration is forbidden discretion. Watchlist hits: whether the announcement precedes implementation; whether Minab publishes.",
+   "p_substance": 0.65,
+   "p_timing": 0.88,
+   "deadline_type": "conventional",
+   "post_expiry_confirmation": "If the card MISSES and an announcement lands later in 2027, it is logged under the Post-Expiry Confirmation Rule: score stays MISS. The thesis credited is 'obstruction plus culpability resolves through a declared win, on a longer clock than 147 days' - not 'the window was nearly right'.",
+   "successor_card": null,
+   "revision_log": [],
+   "falsifier_shape_audit": "T1 PASS - single measurement date 2027-03-31 equal to window_closes. T2 PASS - single satisfiable condition. T3 PASS - polarity correct; tests the mechanism rather than a vivid instance like a signing ceremony. T4 PASS - 57 inside [2,98]. ADMISSIBILITY - forward, third-party observable, not already true, one claim, EVENT, announcement and implementation deliberately separated so 'announced but not delivered' cannot be argued both ways.",
+   "correlation_flag": "INVERSE to short-brutal-decisive-conflict (70): a declared deal is the chief route by which that conflict ends short of 36 months. Also inverse to ground-invasion-of-iran (25) and to the purity lane of 2026-11-03-post-defeat-72h-routing. Do NOT multiply against the escalation cards - competing branches of one tree, not independent draws.",
+   "derivation_gap": "+7 over the 50% class rate. For: Qatar mediation at draft stage; both principals want it; the electoral constraint is gone; a declared win is the cheapest answer to a lost election. Against: satisfaction is a face condition, so the package must be constructible as capitulation - cheap for Iran to supply; but obstinacy means he extracts to the last day of leverage, so the window runs long even though the deal is near. NOT raised for 'Iran wants a deal' - inside the class; double-counting is what took Hegseth from 68 to 58.",
+   "verdict": null,
+   "leg_primary": "T",
+   "leg_basis": "war exit",
+   "leg_secondary": [],
+   "basename": "iran-deal-announced-before-april-2027",
+   "confidence": 57
+  },
+  {
+   "title": "Iran war end-state fork: hold-and-grind is the modal lane through 2027-01-01",
+   "date_made": "2026-11-04",
+   "time_et": "15:02",
+   "statement": "FORK CARD, registered under /space/protocol/fork-scoring-discrete-lanes.json. The war's end state resolves into exactly one of three mutually exclusive lanes by 2027-01-01, and the register scores the DISTRIBUTION, not the modal pick. LANE A - ESCALATE (20%): a new threshold crossing occurs - a US or Israeli strike kills Iranian senior military or political leadership; a US naval vessel is struck; a crewed US aircraft is downed; or a tanker is sunk or seized in the strait. LANE B - BACK OFF (25%): Hormuz reopens to commercial transit at 40 or more vessels per day for 14 consecutive days, AND no new strike by either party in the same 14 days. LANE C - HOLD AND GRIND (55%): neither A nor B. Low-intensity exchange continues, transit stays impaired, no settlement, no threshold crossing. SIDE CARDS ALREADY OPEN, which must not be double-counted into this fork: iran-deal-announced-before-april-2027 (57%, closes 2027-03-31 - announcement, not end state) and ground invasion of Iran (25%, to 2027-06-30). TRACKED DEPENDENCY: Lane C. Attention and daily capture follow C, because C is where the evidence for the successor cards lives. The score is the distribution and does not move with attention. WHY C IS MODAL: US domestic aversion to a further ground war is now an electoral fact, not a sentiment; Iran cannot reopen the strait without conceding the leverage it built it for; and neither party can accept the terms that would end it. Grind is the lane where both sides prefer the present to any available alternative, which is the structural definition of a stable non-resolution.",
+   "evidence_confirmed": [
+    "2026-11-04: Trump acknowledged the war likely hurt his party, citing 'the short-term consequence of the price of gasoline' - a stated cost, not a stated intention to widen",
+    "2026-11-04: Ghalibaf publicly endorsed the US 'no to war' message while Khamenei said party shifts cannot change US hostility - both sides rhetorically locked, neither offering terms",
+    "2026-11-02: pre-vote restraint held for the major operation but a limited strike on Qeshm still landed - grind is already the observed behaviour",
+    "Hormuz at 2 vessels/day against a pre-crisis 85, 247 days into effective closure"
+   ],
+   "evidence_contradicted": [
+    "Mojtaba Khamenei said Tehran is preparing a 'maximum deterrence plan' for any new attack - preparation language, not de-escalation",
+    "13 US tankers staged at Ramon AB (Israeli media, 11-01) and a 'tough' Trump-Netanyahu call - strike planning continued through the vote"
+   ],
+   "falsifier": "Lane A fires - MISS on lane C if any of: senior Iranian leadership killed by US or Israeli strike; a US naval vessel struck; a crewed US aircraft downed; a tanker sunk or seized inside the strait. Lane B fires - MISS on lane C if Hormuz transit reaches 40+ vessels/day for 14 consecutive days with no new strike in that period. Falsifier shape PASS T2: each limb is a single mechanically checkable condition and the disjunction points toward falsification.",
+   "forward_watchlist": [
+    "Hormuz daily transit counts (Kpler/Vortexa) against the 40/day lane-B threshold",
+    "Whether a carrier group rotates in as a strike enabler or out as a de-escalation signal",
+    "Whether Minab (the withheld strike-damage evidence) gets published - decompression signal",
+    "Whether Doha/Qatar/Oman produces a draft text",
+    "Any strike killing senior Iranian leadership",
+    "Whether Netanyahu's caretaker government strikes during coalition formation"
+   ],
+   "status": "emergent",
+   "confirmer": "Lane C confirmed if neither lane A nor lane B fires by 2027-01-01: no threshold crossing and transit below 40 vessels/day throughout. Tracked on transit counts (Kpler/Vortexa/tanker trackers) and on strike logs.",
+   "confirmer_base_rate": "No published base rate for three-lane war end-state distributions. Forced base rate: uniform 33/33/33, so skill is measured against uniform by log loss.",
+   "confirmation_window": "2026-11-04 to 2027-01-01",
+   "last_moved": "2026-11-04",
+   "outcome_direction": "positive",
+   "base_rate_numeric": 33,
+   "base_rate_tier": "naive",
+   "base_rate_source": "Uniform 33.3% per lane is the null, not a reference class - no series of comparable three-lane war end states has been assembled, and pretending one exists would be the undocumented-base-rate defect flagged in the 2026-11-04 audit. Distribution is judgement, frozen at registration. It is scored against the uniform null by multiclass log loss, so a lucky pick cannot masquerade as skill.",
+   "base_rate_frozen_date": "2026-11-04",
+   "resolution_note": null,
+   "baseline_retrofit": false,
+   "confidence_rationale": "Lane C at 55 is reasoned, not derived: both parties prefer the present to the available alternatives. Lane A at 20 is set below the observed rate of threshold crossing across the war to date (two crossings in ~14 months, one of them the closure itself), discounted because the two principals both just lost electorally. Lane B at 25 is set just under the 57% announcement card because reopening is a stronger condition than announcing and closes three months earlier. The three sum to 100 by construction; a residual lane was rejected because 'none of the above' is not a state the war can be in.",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_closes": "2027-01-01",
+   "window_opens": "2026-11-04",
+   "grace_horizon": "none",
+   "grace_locked": false,
+   "grace_locked_note": "No grace. All three lanes are observable on published counts at the close date.",
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "internal",
+   "instrument": "fork distribution",
+   "anchor_type": "registrant_chosen",
+   "anchor_source": "2027-01-01 chosen to sit after the winter fighting season and before the Iranian new year (Nowruz, 2027-03-21), which is the natural decision point for any settlement.",
+   "anchor_grade": "C",
+   "window_basis": "Registrant-set close. Grade C: chosen date, though anchored to a real seasonal boundary.",
+   "expiry_date": "2027-01-01",
+   "expiry_basis": "Conventional close, forced so the distribution resolves rather than remaining open.",
+   "threshold_definition": "LANE A (escalate, 20%): senior Iranian leadership killed by US/Israeli strike; OR a US naval vessel struck; OR a crewed US aircraft downed; OR a tanker sunk or seized inside the strait. LANE B (back off, 25%): Hormuz transit at 40+ vessels/day for 14 consecutive days AND no new strike by either party in that period. LANE C (hold and grind, 55%): neither A nor B. TIE RULE: if both A and B occur inside the window, lane A wins, because a threshold crossing is not undone by a later reopening and the war's end state would be a settlement after escalation. SCORING: multiclass log loss against uniform (1/3 per lane); skill = 1 - (logloss / ln 3).",
+   "max_lifespan": "423 days",
+   "review_cadence": "weekly",
+   "tracking_state": "FROZEN DISTRIBUTION 2026-11-04 15:02 ET: A escalate 20 / B back off 25 / C hold and grind 55. Sum 100. TRACKED DEPENDENCY: lane C. Lane moves permitted only on these pre-registered triggers, logged with reason: (i) carrier group rotation order published -> shift 5pp between A and C; (ii) Doha/Oman draft text published -> shift 10pp from C to B; (iii) publication of Minab strike-damage evidence -> shift 10pp from A to C; (iv) senior Iranian principal killed -> lane A is already fired, card resolves. No lane may be added after registration unless it is a state unforeseeable on 2026-11-04, and any addition is logged.",
+   "p_substance": 0.6,
+   "p_timing": 0.92,
+   "deadline_type": "conventional",
+   "post_expiry_confirmation": "If unresolved at 2027-01-01 the fork VOIDS rather than misses: a lane that did not fire is not a wrong distribution, and forcing a hit/miss onto a three-lane object is the scoring error this card exists to avoid.",
+   "successor_card": "None until this resolves. Successor is written from the resolution, not alongside it, per /space/protocol/theme-freeze-sequential-reforecast.json.",
+   "revision_log": [
+    "2026-11-04 15:02 ET - created. Distribution frozen at A20/B25/C55. Base rate forced to uniform 33 (naive, documented as such). Tracked dependency: lane C. Falsifier shape PASS. Registered internal, not for publication."
+   ],
+   "falsifier_shape_audit": "PASS T1 forward-only: registered 2026-11-04, no lane has fired and none is known to be firing. PASS T2 single satisfiable condition per limb: each limb is one mechanical count or one named event. The disjunction points toward falsification of the modal lane. PASS T3 third-party observable: Kpler/Vortexa transit counts, strike logs, DoD and IRGC statements. PASS T4 one claim: which of three states the war is in on 2027-01-01. PASS T5 detectable at close: all three lanes resolve on published counts. TIE RULE declared so the outcome cannot be argued after the fact.",
+   "correlation_flag": "Shares mechanics with iran-deal-announced-before-april-2027 (57%, 2027-03-31) on lane B - a deal announced is a necessary but not sufficient condition for the strait reopening, so the two are positively but not perfectly correlated and must never be multiplied as independent. Inverse to kinetic-european-conflict and to ground invasion (25%, 2027-06-30) on lane A. Sits OUTSIDE the global-order theme freeze: the Iran war is its own track, so this registration does not breach /space/protocol/theme-freeze-sequential-reforecast.json.",
+   "derivation_gap": "Distribution is authored, not derived. No reference class exists for three-lane war end states, and the uniform null is honest about that rather than dressing judgement as arithmetic. This card will be scored against the null in the knowledge that its numbers are opinion.",
+   "verdict": null,
+   "leg_primary": "T",
+   "leg_basis": "war channel choice",
+   "leg_secondary": [],
+   "basename": "iran-war-end-state-fork-2027",
+   "confidence": 55
+  },
+  {
+   "title": "Operator to Participant: no delegated coordination authority returns to Washington before 2031",
+   "date_made": "2026-11-04",
+   "time_et": "14:55",
+   "statement": "ORIGIN: Owner thesis, 2026-11-04 14:48 ET: 'the world is realigning without the U.S., it will never revert back to what it was, the damage is done, we've burned our good will.' REFINED INTO SCORABLE FORM, with two defects in the original removed. (1) 'Never revert to what it was' is true of every era, 1919 as much as 1945, and so cannot be false: it is a mood, not a call. (2) 'Burned good will' is an affection claim, and states do not act on affection; they act on reliability and on the availability of alternatives. THE CLAIM: the United States forfeited the OPERATOR role - the state to which others voluntarily DELEGATE coordination - and now participates as one of the system's largest and least predictable members rather than as its operator. Concretely: no major allied state re-delegates a previously repatriated coordination function to US authority on any of three structural panels before 2031-01-01. MECHANISM (not sentiment): delegation is withdrawn when a counterparty discounts US commitments against the possibility of a change of government. The substitute is then BUILT and paid for in sunk capital - re-tooled procurement, standing joint borrowing, reorganized basing and logistics. Sunk cost is what makes realignment structural rather than cyclical, because reverting means writing off the investment. THE RIVAL READING THIS MUST BEAT: post-Iraq 2003. France and Germany opposed that war, the rupture was real, and it repaired substantially by 2006-08. If alienated allies always return because there is nowhere else to go, this card is wrong. The answer is that the 2003 repair was cheap precisely because no substitute supplier existed; that condition has changed, which is the whole wager.",
+   "evidence_confirmed": [],
+   "evidence_contradicted": [],
+   "falsifier": "MISSES if ANY of these three panels fires before 2031-01-01, each on a published count held for the stated duration: (a) PROCUREMENT - US prime contractors' share of new EU member-state defence contract value returns to 50% or more for two consecutive calendar years; (b) POSTURE - US military personnel permanently assigned to Europe rises above the 2025 baseline (~100,000) and holds for 12 consecutive months; (c) MONEY - any G7 central bank raises the USD share of its reserves by 3 percentage points or more above its 2026 level and holds it for four consecutive quarters. Declared deliberate: the disjunction sits inside a single condition ('the panel fires'), and it points toward FALSIFICATION - any one limb kills the claim. It is not a conjunction, which would make the card harder to kill and is the defect the shape rule exists to catch.",
+   "forward_watchlist": [
+    "EU defence procurement award shares by prime nationality (panel a)",
+    "DoD permanent European posture counts (panel b)",
+    "IMF COFER USD share, every G7 reporter (panel c)",
+    "Formation of any new US-led architecture and its accession count",
+    "Allied head-of-government language on whether US policy is personal or institutional",
+    "Whether EU joint defence borrowing becomes a standing instrument rather than an emergency one",
+    "Whether Gulf basing access is renewed on pre-2025 terms or repriced"
+   ],
+   "status": "emergent",
+   "confirmer": "Any ONE of: (a) no G7 state returns procurement to US primes through 2030; (b) permanent US force posture in Europe flat or declining through 2030; (c) USD share of global reserves flat or falling across all G7 reporters through 2030; (d) a new US-led multilateral architecture proposed with fewer than three G7 members joining; (e) allied heads of government continuing to describe US policy as personal rather than institutional (Merz, 2026-11-04: 'Trump has largely governed without consulting Congress. Why should things be any different now?').",
+   "confirmer_base_rate": "0/7 delegated reversion in the reference class; 2/7 recovered by coercion or a self-built rival channel, neither available here",
+   "confirmation_window": "2026-11-04 to 2031-01-01",
+   "last_moved": "2026-11-04",
+   "outcome_direction": "positive",
+   "base_rate_numeric": 88,
+   "base_rate_tier": "series",
+   "base_rate_source": "Reference class: /space/note/base-rate-hegemon-delegation-reversion-series.json. n=7 episodes, 1898-1991, of a hegemon losing a delegated coordination role with a substitute available. Delegated reversion 0/7; recovery through coercion or a rival self-built channel 2/7. Class rate 88 rather than 96 because three panels each have an independent chance to fire, and because a genuine hot war is the one mechanism history shows can restore operator status quickly (Korean War rearmament under US leadership). Derivation: 0.88 substance x 0.94 timing (five-year window, panels held for stated durations) = 0.83, discounted to 75 for the war-restoration pathway and for n=7 being thin. APPROVED CITATION LIMIT (2026-11-04, per /space/protocol/base-rate-series-as-instrument.json): the 0/7 series supports 'reversion is not the norm' and does NOT support 'reversion never occurs'. Its 95% upper bound is 43% and 0/7 is expected 21% of the time even if the true rate were 20%. The card's statement must therefore never be worded as certainty of non-reversion, and the 88 base rate is an estimate of the complement rather than of the case-conditional rate. Kill condition on the series: 3 resumptions in 12 admitted cases refutes it and requires this card's confidence to be revisited in the same filing.",
+   "base_rate_frozen_date": "2026-11-04",
+   "resolution_note": null,
+   "baseline_retrofit": false,
+   "confidence_rationale": "Composed as p_substance 0.83 x p_timing 0.94 = 0.78, then discounted to 75 for the war-restoration pathway. Substance rate is the class rate (0/7 delegated reversion) adjusted down from 96 because three independent panels can each fire. Timing discounted because a five-year window is long enough for one panel to catch a cyclical recovery that is not a phase change.",
+   "card_class": "THESIS",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_closes": "2031-01-01",
+   "window_opens": "2026-11-04",
+   "grace_horizon": "none",
+   "grace_locked": false,
+   "grace_locked_note": "No grace. Panels are published series with their own reporting lags; the durations are specified so the lag is internal to the test.",
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "internal",
+   "instrument": "structural panel",
+   "anchor_type": "registrant_chosen",
+   "anchor_source": "No external scheduled event fixes 2031-01-01; chosen to sit beyond a full US electoral cycle plus one year so neither a single election nor a single administration can settle it.",
+   "anchor_grade": "C",
+   "window_basis": "Registrant-set. Grade C because the date is chosen rather than given, and because the panels have annual or quarterly cadence while the window close is a fixed date.",
+   "expiry_date": "2031-01-01",
+   "expiry_basis": "Conventional close. Retained to force a resolution date on a claim that would otherwise stay open indefinitely.",
+   "threshold_definition": "Panel (a): >=50% US prime share of new EU member-state defence contract value, two consecutive calendar years. Panel (b): >2025 baseline permanent European posture, 12 consecutive months. Panel (c): +3pp USD reserve share above the 2026 level for any G7 reporter, four consecutive quarters. Any one panel firing = MISS.",
+   "max_lifespan": "1549 days",
+   "review_cadence": "semi-annual",
+   "tracking_state": "Registered 2026-11-04 14:55 ET at 75. No panel firing as of registration. Watch list loaded.",
+   "p_substance": 0.83,
+   "p_timing": 0.94,
+   "deadline_type": "conventional",
+   "post_expiry_confirmation": "Not applicable at registration; the post-expiry rule governs if unresolved at close.",
+   "successor_card": null,
+   "revision_log": [
+    "2026-11-04 14:55 ET - created. Confidence 75. Base rate 88 frozen from a 7-case series built the same day (/space/note/base-rate-hegemon-delegation-reversion-series.json). Falsifier shape audit PASS on all five tests.",
+    "2026-11-04 15:04: base_rate_source amended to state the series' citation limit and the series kill condition. Confidence, window and falsifier unchanged. This is a provenance correction, not a repricing."
+   ],
+   "falsifier_shape_audit": "PASS T1 forward-only: registered 2026-11-04, no panel has fired and none is known to be firing. PASS T2 single satisfiable condition: 'the panel fires' is one mechanically checkable condition; the disjunction inside it points toward falsification. PASS T3 third-party observable: EU contract awards, DoD personnel counts, IMF COFER. No access to the registrant required. PASS T4 one claim: does delegated authority return, yes or no. Mechanisms are held in the statement, unscored. PASS T5 detectable at close: all three panels are published series.",
+   "correlation_flag": "Inverse/operational to terminal-unwinding-of-post-wwii-order (94%): that card says the pillars crossed their complexity caps, this one says what it looks like in behaviour and supplies a falsifier the 94% card lacks. Shares panel (c) with de-dollarization-reserve-rotation (66%). Related to nato-conditional-guilt (60%): transactional invocation of Article 5 would be the operator role exercised as a priced service, partly captured by panel (b).",
+   "derivation_gap": "Timing discount is judgement, not measurement: no published series measures reversion hazard by year-since-rupture, so the 0.94 is an anchor rather than a rate.",
+   "verdict": null,
+   "leg_primary": "T",
+   "leg_basis": "order trajectory",
+   "leg_secondary": [],
+   "basename": "operator-to-participant-no-delegated-reversion",
+   "confidence": 75
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-04",
+   "time_et": "14:52",
+   "track": "Global order / terminal unwinding",
+   "mget_legs_tested": [
+    "regime-strategy",
+    "alliance-cohesion",
+    "narrative-velocity"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Al Jazeera reaction wire, 'Seismic shift', 2026-11-04 11:24Z. Read as a natural experiment on how the world prices a decisive US legitimacy event. Every principal reaction asserts INVARIANCE of its own behaviour. Allied continuity ritual: Frith (UK) 'unwavering and unchanging'; Kihara (Japan) 'cornerstone'; Marinakis (Greece) 'nothing will be affected'. Adversary denial of effect: Khamenei - party or factional shifts cannot change US 'hostility'; Ryabkov - Russia's position does not depend on 'the fluctuations of the political barometer in other countries'; Mao Ning - 'domestic affair'. The sentence that explains the wire is Merz's: 'Trump has, for the past two years, largely governed without consulting Congress. Why should things be any different now?' An allied head of government stating publicly that the unit of US policy is a person, not an institution. The world has already repriced the US from institution to individual, and a legislative outcome therefore cannot move allied expectations. WHY THIS MATTERS FOR THE UNWIND: the engine of the thesis is not US policy output but other states' expectations of US reliability. A domestic US event accelerates unwind only if it lowers them. The US just supplied the best available case for restoring them - a decisive opposition victory, both chambers - and no actor reads it as restored durability. The most optimistic line (Schaldemose: 'cautiously optimistic') arrives welded to 'the EU must continue the course of standing stronger and on its own two feet. That's not up for debate.' Pistorius: Europe must raise its game. Zero repositioning toward US-led institutions. Null result is the finding: consistent with terminal unwinding being structural rather than partisan. BURIED LEDE, not in the reactions: the two architects of the Iran war both lost within seven days. Trump lost both chambers 11-03; Netanyahu's bloc took 53 of 120 on 10-28 with the opposition at 67, and the final tally is published 11-04 - today. This breaks the mechanism that made the co-belligerent escalate: 'Netanyahu needs a strike to hold his coalition' no longer applies, because the coalition is already gone. A caretaker may strike to shape formation; the successor route backed by Eisenkot and the Arab parties (19 seats, record turnout) wants to rebuild US ties - Golan warns the alternative is 'sanctions, global isolation, and confrontation with the United States'. DEAL CARD: Ghalibaf, who IS the chief US negotiator, publicly endorsed the result - 'Americans said NO TO WAR, and we endorse this message' - the counterparty supplying face material. Khamenei cuts the other way. No reprice of iran-deal-announced-before-april-2027: no pre-registered update rule exists, and re-pricing hours after registration on a wire quote is the discretion the intake process forbids. Logged to tracking_state. UNVERIFIED, NOT ASSERTED: thumbnail headline 'Scepticism as Trump says he's ending Israel's $3.8 bn military aid deal'. Largest fact of the day for this track if real. Promoted headline only - no report read, no quote, no date.",
+   "forward_signal": "Whether any actor repositions behaviourally rather than rhetorically within 30 days - transit volumes, basing, procurement, reserve share; whether the 11-04 Israeli tally holds 53-67 and Herzog's consultation opens; whether Sanchez's 11-29 snap election is contested on the US result as a demonstration effect; whether the Israel aid claim resolves; and the disconfirmer for the person-not-institution reading - a Democratic Congress restoring one suspended capability within 100 days (Ukraine aid unblocked, tariff rollback, Saudi-Israel normalisation with Senate cover) by 2027-04-13.",
+   "confidence_moves": "None. The 94% unwinding card is untouched: this is confirmation of mechanism, not new evidence about the pillars' complexity caps, and its falsifier (100+ vessels/day through Hormuz or the Red Sea for 30 consecutive days) is untouched. A confirmation that arrives as words rather than behaviour is not a confidence input at this stage.",
+   "basename": "2026-11-04-world-reaction-wire-invariance"
+  },
+  {
+   "date": "2026-11-04",
+   "time_et": "11:55",
+   "track": "midterm-turnout / post-defeat routing",
+   "mget_legs_tested": [
+    "MGET governance",
+    "legitimacy-crisis",
+    "narrative-velocity"
+   ],
+   "verdict": "confirms",
+   "reasoning": "WHITE HOUSE ROUTES BLAME TO CANDIDATES, NOT TO THE COUNT. Full-day record now available (RTE/AFP 05:24Z, Semafor 03:40Z, The Blaze headline card at 11:55 ET). The load-bearing line, from a White House official: 'Candidate quality matters, and President Trump did a better job promoting many of the candidates on the ballot than the candidates did themselves.' That is the 72-hour fork card's internal-attribution arm, spoken by the principal's staff within hours of the loss, and it matches what the base was doing at 21:56 before any race was called. The routing is internal at both levels.\n\nACCEPTANCE, EXPLICIT. Trump to the New York Times: 'I am absolutely willing to accept those results. We'll work with the Democrats.' His own post: 'I wasn't on the Ballot and if I was, we would have won IN A LANDSLIDE!' The deflection and the acceptance arrived together - he conceded the result while refusing the verdict on himself. Neither the 'we actually won' claim nor a systematic-fraud allegation nor any filing contesting certification has appeared. The fork card's falsifier is not merely unmet; it is being actively declined by the person best positioned to trigger it.\n\nTHE INSTRUMENT IS NAMED, AND IT IS BOUNDED. To Fox: 'They'll send over things that are insane, and I'll veto them. And after a couple of months of vetoes, they'll call and they'll say how do we get this stuff done? And we'll work together.' This is the 01:21 VETO post read out loud: obstruction as the chosen terrain, negotiation as the exit, the certified result untouched. Veto overrides require two-thirds of both chambers; the Democrats' margin is not remotely there, so a veto wall is close to absolute, and both sides know it. Note the sequence in his own words - vetoes FIRST, then a phone call - which is a plan for extracting concessions from a position of institutional strength, not a plan for delegitimizing the chamber.\n\n'BUCKLE UP' IS RETRIBUTION LANGUAGE AIMED AT PERSONS, NOT AT THE COUNT. Full quote: 'Regardless of how today plays out, President Trump's resolve to stop the Radical Left is only going to become stronger. Buckle up.' Read against the 01:21 post and the 20:35 'RINO' designation of Abbott, the post-defeat programme that is actually forming is: accept the result, obstruct legislation, punish individuals. That third item is where the danger sits, and it is aimed at people and institutions rather than at the ballot.\n\nTHE WHITE HOUSE'S TURNOUT THEORY AGREES WITH THE DATA; THE BASE'S DOES NOT. Official, to Semafor: 'President Trump was not on the ballot, and it's proven that Trump voters show up when he is on the ballot.' That is demobilization of the Trump-only voter - exactly what last night's county checks found (D near-parity with Harris in high-completion SC counties sitting at 68-78% of 2024 presidential turnout). It contradicts the X post circulating at 01:11 with 1.4M views, 'REPUBLICANS voted for Democrats in record numbers.' So the leadership and the measurable evidence converge on the same mechanism while the base-level explanation with the widest distribution is the one the data does not support. Worth holding: the coalition is being told to rebuild around a theory of its own voters that the county returns contradict.\n\nUNLOGGED DETAIL, MATERIALLY RELEVANT TO YESTERDAY'S SPECIMENS: Trump announced on election day that the US will end roughly $4bn in annual aid to Israel after this year. The 4393 specimen, posted hours later, made 'Israel encouraged him into the war, therefore he betrayed America' its central indictment. Whatever the causal order, the principal moved on the base's chosen grievance on the same day the base chose it - which is what successful scapegoat management looks like from the top, and it is the opposite of collision.\n\nALSO ESTABLISHED: Michigan and Alaska remained uncalled at 11:55 ET; Democrats flipped IA, KS, ME, OH, NC, SC, TX and held GA and NH. Trump blamed Fox News coverage before polls closed ('ratings way down... because they are AGAINST me!'), and Elon Musk publicly joked about the loss after spending heavily - no evidence supports the earlier claim that Musk banned Abbott from X; the suspension of @GovAbbott remains real and unexplained as to cause.",
+   "forward_signal": "Watch three things inside the 72-hour window. (1) Whether 'tremendous powers' gets specified into a named mechanism aimed at seating, certification, appropriations, or state election administration - that is the only remaining path to the fork card's falsifier, and it would have to come from the principal, not the base. (2) Whether the retribution register ('buckle up', 'stop the Radical Left') converts into an institutional act against a named person - a prosecution, a clearance revocation, a subpoena fight - because that is the branch that carries real risk now that contestation is off the table. (3) Whether the candidate-quality line survives contact with the base: the Abbott RINO designation and the 'candidate quality' briefing are the same argument, and if 2028 hopefuls adopt the three-point creed from the 01:11 X post instead, the internal repair takes the purge route rather than the platform route. On the positive side, Trump told the FT he has no immediate plans to strike Iran - a war resumption would have been the strongest available 'we were right, they were wrong' move, and he declined it on the record.",
+   "confidence_moves": "72-hour fork card: not repriced (velocity rule; the card resolves on the window closing, not on this). Substantively the card is now closer to HIT than at 00:56 - acceptance is explicit, attribution is internal at both leadership and base level, and no filing exists. Recorded rather than scored.",
+   "basename": "2026-11-04-white-house-buckle-up-candidate-quality"
+  },
   {
    "date": "2026-11-04",
    "time_et": "09:05 ET",
@@ -10921,6 +11364,42 @@
    "trigger": "FL ED returns 2:53pm ET, 50/67 counties: GOP at 46% of its 2022 ED volume vs 52% required trajectory; Dem 44% vs 36% required (normalised to pace: 88% vs 122%). Fourth state consis"
   },
   {
+   "time": "2026-11-04",
+   "ref": "Divided Government's First Bill: a funding lapse before FY2028",
+   "change": "confidence 71 \u2014 status pending",
+   "trigger": "The post-defeat frame requires an obstruction foil; appropriations is the only forum with a statutory deadline and a visible hostage"
+  },
+  {
+   "time": "2026-11-04",
+   "ref": "Hegseth: out before the 120th Congress convenes",
+   "change": "confidence 58 \u2014 status pending",
+   "trigger": "Reported (unverified, third-hand): President asking advisers about firing Hegseth; 'some White House aides' placing blame on Cooper and Caine instead"
+  },
+  {
+   "time": "2026-11-04",
+   "ref": "The House Judges Its Own: seating contest against a member-elect, 120th Congress",
+   "change": "confidence 62 \u2014 status pending",
+   "trigger": "Democratic House majority makes (c) procedurally available"
+  },
+  {
+   "time": "2026-11-04",
+   "ref": "Iran deal announced: a declared win before 2027-03-31",
+   "change": "confidence 57 \u2014 status pending",
+   "trigger": "2026-10-27: Iran war regionalisation track - Egypt and Saudi Arabia engaging Tehran"
+  },
+  {
+   "time": "2026-11-04",
+   "ref": "Iran war end-state fork: hold-and-grind is the modal lane through 2027-01-01",
+   "change": "confidence 55 \u2014 status emergent",
+   "trigger": "Hormuz at 2 vessels/day against a pre-crisis 85, 247 days into effective closure"
+  },
+  {
+   "time": "2026-11-04",
+   "ref": "Operator to Participant: no delegated coordination authority returns to Washington before 2031",
+   "change": "confidence 75 \u2014 status emergent",
+   "trigger": "\u2014"
+  },
+  {
    "time": "2026-11-03 22:36 ET",
    "ref": "Administration under pressure: escalation, self-healing, or acceptance",
    "change": "confidence 82 \u2014 status pending",
@@ -10931,42 +11410,6 @@
    "ref": "Democrats take the US House \u2014 control test",
    "change": "confidence 70 \u2014 status confirmed",
    "trigger": "President's-party midterm penalty: the White House party has lost House seats in 19 of the last 21 midterms"
-  },
-  {
-   "time": "2026-11-03",
-   "ref": "Ohio Governor \u2014 Acton wins",
-   "change": "confidence 45 \u2014 status confirmed",
-   "trigger": "Ohio has a live Democratic statewide tradition outside presidential years (Strickland, 2007-2011; Brown held a Senate seat through 2024)"
-  },
-  {
-   "time": "2026-11-03",
-   "ref": "The 72-hour fork: does the post-defeat frame route to purity or to the count?",
-   "change": "confidence 60 \u2014 status emergent",
-   "trigger": "Party-losses-are-internal-repair is the strong base rate across comparable systems: Fidesz 2022 and AKP 2023 losses both produced purity/bench arguments rather than count disputes"
-  },
-  {
-   "time": "2026-11-03",
-   "ref": "Democrats take the US Senate \u2014 control test",
-   "change": "confidence 48 \u2014 status confirmed",
-   "trigger": "Enlarged young and college-educated electorate favours Democrats in exactly the suburban-heavy states on this map"
-  },
-  {
-   "time": "2026-11-03",
-   "ref": "Texas Senate \u2014 Talarico wins",
-   "change": "confidence 30 \u2014 status confirmed",
-   "trigger": "An enlarged young and Hispanic-eligible electorate in a state with the largest under-30 population share of any large state"
-  },
-  {
-   "time": "2026-11-02 12:20 ET (SCOTUS emergency application)",
-   "ref": "2026 Midterm Certification Contestation (P15-T Re-Registration)",
-   "change": "confidence 74 \u2014 status pending",
-   "trigger": "TIER-1 (2026-11-02 12:20 ET): apparatus escalated to the circuit justice \u2014 SG Sauer filed an emergency application asking the Supreme Court to order California to segregate ~20,000"
-  },
-  {
-   "time": "2026-11-02 08:40 ET (morning wire)",
-   "ref": "CONTROL-2: No Insurrection Act Invocation Tied to the 2026 Midterms (through Jan 20, 2027)",
-   "change": "confidence 70 \u2014 status pending",
-   "trigger": "2026-11-02: day 2 of window. No invocation, no proclamation, no midterm-tied emergency declaration. Guard federalisation remains curtailed after the SCOTUS s.12406 ruling. Baseline"
   }
  ],
  "daily_read": {
@@ -11011,8 +11454,8 @@
   ]
  },
  "counts": {
-  "items_today": 4,
-  "tracked_predictions": 77,
+  "items_today": 6,
+  "tracked_predictions": 83,
   "claims_tested": 28,
   "unscored_predictions": 0
  },
@@ -11089,5 +11532,137 @@
   "age_days": 2,
   "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  },
- "generated": "2026-11-04"
+ "generated": "2026-11-04",
+ "mget": {
+  "reviewed": "2026-11-04",
+  "reviewer": "CASS hand review (owner-directed)",
+  "scale_note": "Per-leg LOAD is 0-100 = hand-set pressure reading, same scale as the institutional dials: 0=slack, 100=at capacity. Every dial states its derivation in 'derive'. Register load counts are derived, not hand-set. The threshold row is the model's own output, not a score.",
+  "threshold": {
+   "legs_fired": 3,
+   "of": 4,
+   "state": "at-threshold",
+   "gate": "open",
+   "phase": "Phase 4 \u2014 detonation window",
+   "phase_closes": "2026-12-08",
+   "basis": "Three legs fired (M, G, E) and the fourth (T) is drifting, not absent. The model's gate is 3 of 4: at 3 the system is eligible for a rupture, it does not guarantee one.",
+   "note": "MGET names which engine is driving, never the outcome. The outcome channel is priced separately by the four lane cards below."
+  },
+  "legs": [
+   {
+    "letter": "M",
+    "name": "Material",
+    "question": "Can the country still physically afford its own continuity?",
+    "plain": "Energy, food, money, supply chains \u2014 the physical throughput the system runs on. High means the base is rationed and every political fight is now a fight over scarcity.",
+    "state": "fired",
+    "score": 71,
+    "delta": 3,
+    "derive": "Hand-set. Anchors: Hormuz constrained (not closed), the oil price shock feeding consumer cost, SPR drawdown, grain and fertiliser supply stress.",
+    "why": "The leg is fired on price and availability, not on shortage. Nothing has run out. The tell is that cost is now the transmission belt: it arrives in household budgets before it arrives in any statistic, which is why it moves politics faster than it moves the model.",
+    "watch": [
+     "strait-of-hormuz-blockade",
+     "mid-august-oil-price-shock",
+     "spr-runway-breaks-before-midterms",
+     "fertilizer-supply-crisis",
+     "de-dollarization-reserve-rotation"
+    ]
+   },
+   {
+    "letter": "G",
+    "name": "Governance",
+    "question": "Can the institutions still produce decisions anyone accepts?",
+    "plain": "Courts, Congress, election offices, agencies, the civil service, the military. High means they are still issuing orders, and fewer people are obeying them.",
+    "state": "fired",
+    "score": 78,
+    "delta": 1,
+    "derive": "Derived: the mean of the eight institutional dials above (78.4, rounded). Moves only when they move, so the two panels cannot disagree.",
+    "why": "Five of eight dials sit in Critical. The courts still enjoin; the same docket is now aimed at election administration itself. Congress lost its own session day to avoid a floor vote. Nothing has stopped working. Everything is working against itself.",
+    "watch": [
+     "house-seating-contest-120th-congress",
+     "2026-midterms-legitimacy-catalyst-node",
+     "regime-power-retention",
+     "cdc-epistemic-capture",
+     "control-2-no-insurrection-act"
+    ]
+   },
+   {
+    "letter": "E",
+    "name": "Enclosure",
+    "question": "Who ends up owning the substrate everybody now depends on?",
+    "plain": "Surveillance systems, data, and the AI machinery. High means the dependency is being fenced into private hands faster than any rule can be written about it.",
+    "state": "fired",
+    "score": 64,
+    "delta": 2,
+    "derive": "Hand-set. Anchors: ALPR and fusion-grid consolidation, press-access enclosure, scaffold-ownership as the live political fight.",
+    "why": "The lowest of the three fired legs, and the one that will outlast the others. Every other leg reverts when a government changes. This one reverts when a contract changes, which is rarer and slower.",
+    "watch": [
+     "alpr-surveillance-decoy-substrate",
+     "axon-fusus-ai-fusion-successor",
+     "agi-scaffold-political-economy",
+     "press-access-enclosure-media-capture",
+     "substrate-shock-mortality-cascade"
+    ]
+   },
+   {
+    "letter": "T",
+    "name": "Turning",
+    "question": "Is the elite conflict still internal, or has something formed that could replace it?",
+    "plain": "Whether the fight is inside the old order between its own factions, or whether a new alignment has formed that could actually stand something up. High means the replacement exists. This is the leg that decides whether the period ends in repair or replacement.",
+    "state": "straining",
+    "score": 82,
+    "delta": 4,
+    "derive": "Hand-set. Anchors: leg 4 reads drifting in the 2026-11-04 reading \u2014 strain is high, alignment is not formed.",
+    "why": "The highest reading on the board and the least measurable leg, which is exactly the problem: 39 of 88 cards are filed here and not one of them can still the question. Post-defeat routing is live, the vanguard split-or-fusion card is unresolved, and the succession question is 60 days old. Load is not evidence.",
+    "watch": [
+     "2026-11-04-vanguard-split-or-fusion",
+     "2026-11-03-post-defeat-72h-routing",
+     "hegseth-out-before-120th-congress",
+     "post-trump-restructure",
+     "1859-orientation-confirmation-set"
+    ]
+   }
+  ],
+  "register_load": {
+   "total": 88,
+   "by_leg": {
+    "T": 39,
+    "N": 2,
+    "G": 28,
+    "E": 9,
+    "M": 10
+   }
+  },
+  "lanes": {
+   "sum": 100.0,
+   "items": [
+    {
+     "basename": "phase4-branch-acute-crisis",
+     "title": "Phase 4 Branch: Acute Crisis / Phase 4 Detonation (47.7%)",
+     "p": 47.7,
+     "resolution": "unresolved",
+     "closes": "2027-01-06"
+    },
+    {
+     "basename": "phase4-branch-regime-concedes",
+     "title": "Phase 4 Branch: Regime Concedes / Transition (26.2%)",
+     "p": 26.2,
+     "resolution": "unresolved",
+     "closes": "2027-01-06"
+    },
+    {
+     "basename": "phase4-branch-regime-holds-contested",
+     "title": "Phase 4 Branch: Regime Holds, Contested (19.1%)",
+     "p": 19.1,
+     "resolution": "unresolved",
+     "closes": "2027-01-06"
+    },
+    {
+     "basename": "phase4-branch-external-war-diversion",
+     "title": "Phase 4 Branch: External War Distraction (7.0%)",
+     "p": 7.0,
+     "resolution": "unresolved",
+     "closes": "2027-01-06"
+    }
+   ]
+  }
+ }
 }

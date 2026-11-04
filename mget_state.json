@@ -1,0 +1,89 @@
+{
+ "reviewed": "2026-11-04",
+ "reviewer": "CASS hand review (owner-directed)",
+ "scale_note": "Per-leg LOAD is 0-100 = hand-set pressure reading, same scale as the institutional dials: 0=slack, 100=at capacity. Every dial states its derivation in 'derive'. Register load counts are derived, not hand-set. The threshold row is the model's own output, not a score.",
+ "threshold": {
+  "legs_fired": 3,
+  "of": 4,
+  "state": "at-threshold",
+  "gate": "open",
+  "phase": "Phase 4 — detonation window",
+  "phase_closes": "2026-12-08",
+  "basis": "Three legs fired (M, G, E) and the fourth (T) is drifting, not absent. The model's gate is 3 of 4: at 3 the system is eligible for a rupture, it does not guarantee one.",
+  "note": "MGET names which engine is driving, never the outcome. The outcome channel is priced separately by the four lane cards below."
+ },
+ "legs": [
+  {
+   "letter": "M",
+   "name": "Material",
+   "question": "Can the country still physically afford its own continuity?",
+   "plain": "Energy, food, money, supply chains — the physical throughput the system runs on. High means the base is rationed and every political fight is now a fight over scarcity.",
+   "state": "fired",
+   "score": 71,
+   "delta": 3,
+   "derive": "Hand-set. Anchors: Hormuz constrained (not closed), the oil price shock feeding consumer cost, SPR drawdown, grain and fertiliser supply stress.",
+   "why": "The leg is fired on price and availability, not on shortage. Nothing has run out. The tell is that cost is now the transmission belt: it arrives in household budgets before it arrives in any statistic, which is why it moves politics faster than it moves the model.",
+   "watch": [
+    "strait-of-hormuz-blockade",
+    "mid-august-oil-price-shock",
+    "spr-runway-breaks-before-midterms",
+    "fertilizer-supply-crisis",
+    "de-dollarization-reserve-rotation"
+   ]
+  },
+  {
+   "letter": "G",
+   "name": "Governance",
+   "question": "Can the institutions still produce decisions anyone accepts?",
+   "plain": "Courts, Congress, election offices, agencies, the civil service, the military. High means they are still issuing orders, and fewer people are obeying them.",
+   "state": "fired",
+   "score": 78,
+   "delta": 1,
+   "derive": "Derived: the mean of the eight institutional dials above (78.4, rounded). Moves only when they move, so the two panels cannot disagree.",
+   "why": "Five of eight dials sit in Critical. The courts still enjoin; the same docket is now aimed at election administration itself. Congress lost its own session day to avoid a floor vote. Nothing has stopped working. Everything is working against itself.",
+   "watch": [
+    "house-seating-contest-120th-congress",
+    "2026-midterms-legitimacy-catalyst-node",
+    "regime-power-retention",
+    "cdc-epistemic-capture",
+    "control-2-no-insurrection-act"
+   ]
+  },
+  {
+   "letter": "E",
+   "name": "Enclosure",
+   "question": "Who ends up owning the substrate everybody now depends on?",
+   "plain": "Surveillance systems, data, and the AI machinery. High means the dependency is being fenced into private hands faster than any rule can be written about it.",
+   "state": "fired",
+   "score": 64,
+   "delta": 2,
+   "derive": "Hand-set. Anchors: ALPR and fusion-grid consolidation, press-access enclosure, scaffold-ownership as the live political fight.",
+   "why": "The lowest of the three fired legs, and the one that will outlast the others. Every other leg reverts when a government changes. This one reverts when a contract changes, which is rarer and slower.",
+   "watch": [
+    "alpr-surveillance-decoy-substrate",
+    "axon-fusus-ai-fusion-successor",
+    "agi-scaffold-political-economy",
+    "press-access-enclosure-media-capture",
+    "substrate-shock-mortality-cascade"
+   ]
+  },
+  {
+   "letter": "T",
+   "name": "Turning",
+   "question": "Is the elite conflict still internal, or has something formed that could replace it?",
+   "plain": "Whether the fight is inside the old order between its own factions, or whether a new alignment has formed that could actually stand something up. High means the replacement exists. This is the leg that decides whether the period ends in repair or replacement.",
+   "state": "straining",
+   "score": 82,
+   "delta": 4,
+   "derive": "Hand-set. Anchors: leg 4 reads drifting in the 2026-11-04 reading — strain is high, alignment is not formed.",
+   "why": "The highest reading on the board and the least measurable leg, which is exactly the problem: 39 of 88 cards are filed here and not one of them can still the question. Post-defeat routing is live, the vanguard split-or-fusion card is unresolved, and the succession question is 60 days old. Load is not evidence.",
+   "watch": [
+    "2026-11-04-vanguard-split-or-fusion",
+    "2026-11-03-post-defeat-72h-routing",
+    "hegseth-out-before-120th-congress",
+    "post-trump-restructure",
+    "1859-orientation-confirmation-set"
+   ]
+  }
+ ]
+}
