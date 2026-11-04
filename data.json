@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-04T15:15 ET"
+  "generated_stamped": "2026-11-04T15:16 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3941,7 +3941,8 @@
    "leg_basis": "fiscal governance output",
    "leg_secondary": [],
    "basename": "divided-government-funding-lapse-2027",
-   "confidence": 71
+   "confidence": 71,
+   "grace_horizon": "0 \u2014 a lapse before the FY2028 deadline is the claim; a lapse after it falls in the next fiscal year and is a different event"
   },
   {
    "title": "Hegseth: out before the 120th Congress convenes",
@@ -4076,7 +4077,8 @@
    "leg_basis": "chamber judges its own membership",
    "leg_secondary": [],
    "basename": "house-seating-contest-120th-congress",
-   "confidence": 62
+   "confidence": 62,
+   "grace_horizon": "0 \u2014 the window closes on the constitutional convening date; a contest filed against the 121st is not this event, so there is no late credit"
   },
   {
    "title": "Iran deal announced: a declared win before 2027-03-31",
