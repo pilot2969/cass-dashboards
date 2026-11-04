@@ -2,6 +2,14 @@
 
 ## 2026-11-04
 
+### Model State definitions (v3.11.0)
+- State and load separated on the panel. Each gauge prints the leg's operational state (FIRED / ABSENT / CONTESTED) beside its load, so a load of 82 with leg 4 absent reads as "conditions heavy, threshold not crossed" rather than "nearly fired."
+- LOAD defined on the panel and in the Data Dictionary: 100 × mean of four named anchors, each 0–5 on a fixed six-point scale; an anchor without a cited observable cannot score above 2; equal weights stated as a design choice. Bands are display-only and can never produce a state.
+- Cards explicitly do not feed load. Card-mass weighting was computed and rejected (it would rank Governance first, Enclosure last — attention priced as evidence).
+- Data Dictionary gained: Model State, the four legs with their canon attributions (Tainter / Turchin / Polanyi / vanguard alignment), Load, State, Gate, Lane prices, Register load.
+- `node verify_prod.js` gate extended: `docs.changelog` asserts the footer version appears in a change-log entry, `docs.dictionary` asserts every published card field has an entry.
+- Staging-only runs are now first-class: `STAGING_ONLY=1 ./sync_data.sh` skips the prod push and is exempted from `deploy.match` (which otherwise compares against the prod URL and fails by construction). Approval is still a human step, not a flag default.
+
 ### Model State — MGET (v3.10.0)
 - New panel above Institutional Stress: four leg dials (Material, Governance, Enclosure, Turning), each with a plain-language explainer box and a stated derivation, plus the 3-of-4 gate row and the 90-day lane prices.
 - All 88 forecast cards now carry a `leg_primary` classifier in /space (`M`/`G`/`E`/`T`/`N`). Register load is derived at sync from those fields, never hand-typed.
