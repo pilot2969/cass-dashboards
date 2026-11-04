@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-04
+
+### Model State — MGET (v3.10.0)
+- New panel above Institutional Stress: four leg dials (Material, Governance, Enclosure, Turning), each with a plain-language explainer box and a stated derivation, plus the 3-of-4 gate row and the 90-day lane prices.
+- All 88 forecast cards now carry a `leg_primary` classifier in /space (`M`/`G`/`E`/`T`/`N`). Register load is derived at sync from those fields, never hand-typed.
+- Governance dial derives from the mean of the eight institutional dials so the two panels cannot disagree.
+- `mget_state.json` is the hand-edited source of truth, imported into `data.json.mget` each run — same arrangement as `institutions.json`. Sync never rewrites a dial, and warns if the lane partition stops summing to 100.
+
 ## 2026-10-14
 
 ### Infrastructure: GitHub Pages → Cloudflare Pages migration (15:00–15:15 ET)
