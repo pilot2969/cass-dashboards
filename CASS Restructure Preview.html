@@ -167,7 +167,7 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
  <div class="legend" id="legend"></div>
  <table style="margin-top:16px"><thead><tr><th>Register</th><th class="num">Cards</th><th class="num">Resolved</th><th class="num">Rate</th><th>What a low rate means</th></tr></thead><tbody id="regBody"></tbody></table>
  <div class="note">Rate is resolved divided by the cards that can score. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
- <div class="note"><b>One inconsistency the audit turned up.</b> Twelve cards carry an outcome; four of those twelve are flagged not scoreable. A card cannot be both resolved and excluded from scoring — either the resolution is being rendered while the card is withheld, or the flag is stale. The register should carry a gate rule in the same family as the ledger checks: a card with a hit or a miss must have skill_eligible true, or the push fails. Not fixed here, because changing the flag would silently move a published rate.</div>
+ <div class="note"><b>The distinction that changes the headline.</b> Twelve cards carry an outcome. Four of them are grandfathered pre-gate cards whose anchors were written after the fact, so they are held out of scoring. Score every resolved card and the forecast rate reads 12 of 58, 21%. Score only the cards that could be scored honestly and it reads 8 of 47, 17%. The second number is the one the board should print; the first is what a careless count produces. A gate rule should enforce the arithmetic rather than trust the reading: <code>resolved &amp;&amp; skill_eligible===false</code> must produce a stated quarantine reason, or the push fails.</div>
 </div>
 
 <h2>5 · MGET wire ledger</h2>
@@ -317,9 +317,15 @@ function render(data){
     const inelRes=set.filter(x=>x.skill_eligible===false&&["hit","miss"].includes(String(x.resolution||""))).length;
     let sub="";
     if(g.k==="A"){
-      sub+="<div class=\"small\">"+cards+" cards, of which "+inel+" are marked not scoreable: four ROLLING cards awaiting a threshold action, two PERSISTENCE cards and five EVENT cards outside their grace lock. The rate is counted over the "+eligible.length+" that can score.</div>";
+      const held=set.filter(x=>x.skill_eligible===false);
+      const quar=held.filter(x=>x.quarantine_reason).length;
+      const pend=held.filter(x=>!x.quarantine_reason&&String(x.public_status||"").includes("pending")).length;
+      const rest=held.length-quar-pend;
+      const bits=[quar+" quarantined or grandfathered",pend+" awaiting adjudication",rest+" otherwise held"];
+      sub+="<div class=\"small\">"+cards+" cards, of which "+inel+" are held out of scoring: "+bits.join(", ")+". The rate is counted over the "+eligible.length+" that can score.</div>";
       const resAll=set.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
-      if(inelRes){sub+="<div class=\"small\" style=\"color:var(--warm)\">"+inelRes+" of the "+resAll+" resolutions sit on cards marked not scoreable — an inconsistency in the register, flagged in the note below.</div>";}
+      const resQuar=set.filter(x=>x.skill_eligible===false&&x.quarantine_reason&&["hit","miss"].includes(String(x.resolution||""))).length;
+      if(inelRes){sub+="<div class=\"small\" style=\"color:var(--warm)\">"+inelRes+" of the "+resAll+" recorded resolutions sit on held-out cards, "+resQuar+" of them grandfathered pre-gate, where the anchors were written after the outcome was visible. Deliberate, not a defect, and it is the difference between a rate of 21% (all resolutions) and 17% (only the cards that could be scored honestly).</div>";}
     }
     rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div>'+sub+'</td><td class="num">'+
       shown+'</td><td class="num">'+(g.k==="B"?"—":res)+'</td><td class="num">'+
