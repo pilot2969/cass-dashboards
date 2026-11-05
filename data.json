@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-05T09:31 ET"
+  "generated_stamped": "2026-11-05T14:33 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -3477,7 +3477,7 @@
    "threshold_definition": "PRIMARY: final VEP turnout rate >= 41.0 percent (2010's level). HIT at or above, MISS below. Implied ballots ~95M on an estimated 232M VEP \u2014 the VEP estimate is fixed here, at registration, and may not be recomputed after the fact. DIVERGENCE RULE: if total ballots and the rate disagree, the card resolves on the RATE, because the claim is about participation, not raw count. SECONDARY (reported, not graded): whether total ballots clears 2022's ~107M.",
    "max_lifespan": "Through 2026-12-31",
    "review_cadence": "Tonight after the first national estimate; again at certification; no re-registration",
-   "tracking_state": "2026-11-04 08:45 ET: unresolved by rule. 57M+ pre-election ballots cast, above the entire 2022 early vote; early voting up over both 2018 and 2022 in the state series; Senate majority called the same night. None of that measures the threshold. An early-vote record plus a wave is compatible with a VEP rate anywhere from 44 to 52 percent. Falsifier unchanged and unsoftened: below 41.0 on the RATE is a MISS regardless of raw total; at or below 36.4 refutes the composition model rather than grading as a near-miss. No resolution until the US Elections Project publishes a final VEP rate.",
+   "tracking_state": "2026-11-04 08:45 ET: unresolved by rule. 57M+ pre-election ballots cast, above the entire 2022 early vote; early voting up over both 2018 and 2022 in the state series; Senate majority called the same night. None of that measures the threshold. An early-vote record plus a wave is compatible with a VEP rate anywhere from 44 to 52 percent. Falsifier unchanged and unsoftened: below 41.0 on the RATE is a MISS regardless of raw total; at or below 36.4 refutes the composition model rather than grading as a near-miss. No resolution until the US Elections Project publishes a final VEP rate.\n\n2026-11-05 15:40 ET: first national estimate published (Election Lab v0.2, 2026-11-04 21:50 ET) \u2014 122,683,000 ballots, VEP 251,588,219, rate 48.76 percent. Threshold 41.0 cleared by 7.76 points. STILL UNRESOLVED BY RULE: the confirmer is the certified rate, this is an initial estimate, and the threshold definition fixes the VEP at registration so the denominator may not be recomputed. Noting plainly, so the delay is on the record as procedure rather than doubt: failing at this point requires the certified count to lose roughly 19M ballots from an estimate where the only states still substantially counting are CA and WA. The 2022 anchor in this card reads 46.8; the Election Lab series carries 45.91. Immaterial to the threshold, material to the secondary read.",
    "basename": "2026-midterm-turnout-floor",
    "confidence": 78
   },
@@ -3758,7 +3758,7 @@
    "instrument": "Two-part: (1) frame count from a pre-listed actor set over the 72 hours, adjudicated at close, not incrementally; (2) binary contest-action check - any filing, demand, or resolution by the administration or national party seeking to contest, delay, or decertify. Operational resistance (pardons, rulemaking, investigations, agency direction) is explicitly out of scope and moving it does not move this card.",
    "confidence_rationale": "0.6. Base rate for a defeated party's ecosystem routing to internal repair rather than count dispute is high, and every observable so far sits on that side: a RINO designation before the result, a grassroots blame map naming candidate quality and the president himself, and a marquee-state concession from a podium. What holds it at 0.6 rather than higher is that the legitimacy-attack machinery was built and is simply unused, that this executive's own 2020 precedent is the strongest single counter-example, and that the self-healing branch would not trip this card's fraud trigger even if it were loading. Not higher because the discount is for the possibility that the observable branch and the operative branch differ.",
    "correlation_flag": "NEGATIVELY correlated with the vanguard-split card (0.35): a HIT here is the repair branch, which lowers split probability; a MISS raises it. Loads on administration-under-pressure (0.82) through the escalation branch if MISS.",
-   "tracking_state": "Registered 01:00 ET 2026-11-04, inside the window; unpriced for 24 hours by the velocity rule, no score move until 2026-11-05 00:00 ET. TRACKING 2026-11-04 13:20 ET - no score change, evidence logged only. Inward evidence at five surfaces (descent, capture, demobilisation, purity expulsion, candidate selection); outward contestation at zero authenticated instances. The principal's 23:15 ET 'VETO' post plus 'tremendous powers' is the RESIST branch, not the CONTEST branch - a legislative-obstruction signal, not a stolen-election claim - and does not approach the falsifier. One counterfeit Paxton contestation statement circulated 12:00 ET 11-04 (see /space/note/2026-11-04-counterfeit-paxton-contestation.json); it is demand, not supply, and does not count toward the falsifier. Falsifier remains: a public assertion by the president or a named cabinet-level official that the election was stolen or systematically fraudulent.",
+   "tracking_state": "Registered 01:00 ET 2026-11-04, inside the window; unpriced for 24 hours by the velocity rule, no score move until 2026-11-05 00:00 ET. TRACKING 2026-11-04 13:20 ET - no score change, evidence logged only. Inward evidence at five surfaces (descent, capture, demobilisation, purity expulsion, candidate selection); outward contestation at zero authenticated instances. The principal's 23:15 ET 'VETO' post plus 'tremendous powers' is the RESIST branch, not the CONTEST branch - a legislative-obstruction signal, not a stolen-election claim - and does not approach the falsifier. One counterfeit Paxton contestation statement circulated 12:00 ET 11-04 (see /space/note/2026-11-04-counterfeit-paxton-contestation.json); it is demand, not supply, and does not count toward the falsifier. Falsifier remains: a public assertion by the president or a named cabinet-level official that the election was stolen or systematically fraudulent.TRACKING 2026-11-05 11:28 ET - no score change (velocity rule; card is high-velocity and unpriced). FOURTH-ROUTE INSTANCE LOGGED: Relearn.org / Dale Partridge clip 'OR WE CAN DIVIDE', 266 reactions, posted ~10:30 ET 11-05. EXIT - the polity is not worth contesting - which is none of this card's three branches (purity/repair, the count/contest, operational resistance). Does NOT approach the falsifier: the speaker is a pastor with no office, and 'we can divide' is not a stolen-election claim. Instrument gap recorded: if exit becomes the dominant line, this card resolves HIT while 'is the loss treated as real' resolves MISS. See /space/note/2026-11-05-balkanisation-exit-route-assessment.json and /space/absorption/2026-11-04-relearn-partridge-or-we-can-divide.json. Falsifier unchanged.",
    "revision_log": [
     "2026-11-04 01:00 ET - registered at 0.60, window anchored before any post-midnight rhetoric was counted"
    ],
@@ -4303,9 +4303,212 @@
    "leg_secondary": [],
    "basename": "operator-to-participant-no-delegated-reversion",
    "confidence": 75
+  },
+  {
+   "title": "After the rebuke: does any armed formation acquire a named institutional patron?",
+   "date_made": "2026-11-05",
+   "time_et": "11:40 ET",
+   "statement": "The 2026 rebuke does not increase the capacity for organised violence, because capacity requires a patron and not a mood. Between 2026-11-05 and 2027-11-05, at least one SPONSORSHIP ACT occurs: a named institutional actor with standing provides material or protective support to an armed or paramilitary-adjacent formation. A qualifying act is any one of: (S1) a sitting governor, state attorney general, or elected sheriff publicly endorses, funds, or refuses to prosecute an armed formation; (S2) a sheriffs' or peace-officers' association formally affiliates with one; (S3) a US senator, US representative, national party committee figure, or national party staffer raises funds for or appears at an event of a formation that advertises firearms training or armed mobilisation as an activity; (S4) members of a militia-adjacent formation are integrated into an official enforcement, 'posse', or volunteer deputy role by a sheriff or state agency; (S5) a governor or state legislature creates, funds, or grants legal cover to a state-level armed volunteer body outside the National Guard chain of command. HIT: any one of S1-S5, documented in a primary source (official statement, filing, funding record, event listing, or on-record named quotation) and corroborated by a second independent source. MISS: none of S1-S5 by 2027-11-05. MATERIALITY GUARD: rhetoric, denunciations, 'make ready' language, attendee counts at rallies, unsponsored armed presence, and anonymous online coordination DO NOT count. The card measures institutional standing, not intensity, because standing is the only one of the two that converts a mood into a formation. ADJACENT OUTCOMES, not part of the call but required for scoring: a PARTIAL is a dated, location-specific assembly call from an account with reach, or a named organisation standing up an actual physical vehicle (training camp, chapter network, uniformed presence at a polling place) WITHOUT an institutional patron. A COUNTER is the routing of the same energy into electoral and legal institutional capture - precinct-committee takeovers, school-board and county-office slates, litigation - which is that energy choosing the ballot over the formation.",
+   "evidence_confirmed": [
+    "Sponsorship is the discriminator, not volume: Northern Ireland required Sinn Fein (political wing), both communities' tolerance, trained cadres and a state sponsor; the American formation space has the third partially and neither the first, second nor fourth",
+    "The formation space is fragmented pages with no shared roster, no commissioned officers, no munitions production, no revenue authority, no medical corps and no conscription power - 1861 inherited all six, 2026 inherits none (mechanism note 2026-11-04)",
+    "Same-week specimens show affect without command: 31.6K reactions on an imperial relay and a Death Star over Earth, versus 266 reactions on a pastoral 'OR WE CAN DIVIDE' clip and 7 reactions on a Thune-as-Brutus post - reach is high, logistics is absent",
+    "The base's own hour-one blame map (21:56 ET 11-03) blamed candidate quality and Trump personally, discharging into the coalition rather than recruiting for a formation",
+    "No governor or state official has endorsed an armed formation; the state-level action observed instead (Texas stripping the lieutenant governor's powers) is procedural and presupposes remaining inside the union",
+    "Armed presence at public events and official-harassment campaigns are already routine and are NOT the subject of this card - level-2 violence is elevated and ongoing, which is exactly why the question has to be distinguished from it"
+   ],
+   "evidence_contradicted": [
+    "The Vance succession move and the Gaetz-on-Hegseth attack show the coalition's energy routing INTO institutions - a succession fight, an impeachment calendar - which is the COUNTER branch strengthening in real time",
+    "The 2025-26 federal enforcement surge, Guard deployments and militia-adjacent volunteer enthusiasm around ICE operations is the closest existing thing to S4 and it is federal, informal and unarmed-adjacent rather than a sheriff-issued role",
+    "Charismatic Christian-nationalist factions in this cohort have historically preferred electoral and judicial capture over armed formation (postmillennial dominion theology explicitly rejects withdrawal and violence in favour of long-run institutional Christianisation)",
+    "Base rate: no US governor, attorney general or sheriffs' association has formally affiliated with an armed formation in the modern era; the sponsorship bar has not been cleared once in decades, so a one-year window is a high bar by construction"
+   ],
+   "falsifier": "MISSES if none of S1-S5 occurs, in a primary source with second-source corroboration, by 2027-11-05. A MISS is informative rather than null: it means one full year spanning the 2027 election build produced no institutional patron, and the level-3 hypothesis should be demoted to ambient for the 2028 cycle.",
+   "forward_watchlist": [
+    "any sheriff, sheriffs' association or state AG acting as patron - sheriff is the single most plausible S1/S2/S4 actor because the office is elected, armed, locally legitimated and has posse powers",
+    "state legislatures creating 'volunteer' or 'auxiliary' armed bodies outside the Guard chain (S5) - the cleanest legal pathway and the one to watch in TX, FL, TN, ID, MO",
+    "senators or national party figures appearing at armed-training events (S3) - the crossing from 'the base' to 'the party'",
+    "whether Vance's succession positioning recruits the formation space or ignores it - a VP who never mentions them is the COUNTER branch",
+    "militia integration into any official enforcement or volunteer-deputy role at county level (S4), including informal 'ride-along' arrangements with sheriffs",
+    "any named organisation standing up a physical vehicle - camp, chapter network, uniformed polling presence - even without a patron (PARTIAL)"
+   ],
+   "status": "emergent",
+   "confirmer": "A qualifying S1-S5 sponsorship act, primary source plus second-source corroboration, before 2027-11-05.",
+   "confirmer_base_rate": "Low. Zero modern instances of a governor, state AG or sheriffs' association formally affiliating with an armed formation; the historical analogue (1960s Klan-sheriff collusion in the deep south) is the closest and is six decades old, under a different enforcement and media environment.",
+   "confirmation_window": "2026-11-05 to 2027-11-05",
+   "last_moved": "2026-11-05",
+   "outcome_direction": "positive",
+   "base_rate_numeric": 3,
+   "confidence_rationale": "22, against a base rate of roughly 3. The uplift is real but modest: the 2026 rebuke raises grievance, the forgetfulness of a one-year window is short, and the single most plausible patron office (elected sheriff) is numerous and already ideologically heterogeneous. What holds it at 22 rather than higher: (a) the counter-branch is visibly strengthening - the coalition's energy is routing into a succession fight and an impeachment calendar, which is institutional capture, not formation; (b) postmillennial Christian nationalism explicitly prefers long-run institutional Christianisation to armed withdrawal, so the most mobilised theological wing is a counterweight to sponsorship rather than a source of it; (c) no governor has ever done it, and governors are the actors who could. This is priced as an unlikely-but-not-remote event, and a MISS would be the more informative result.",
+   "card_class": "PERSISTENCE",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_opens": "2026-11-05",
+   "window_closes": "2027-11-05",
+   "grace_horizon": null,
+   "grace_locked": false,
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "pending_adjudication",
+   "instrument": "Named-actor public acts on primary sources, scored against a five-item sponsorship taxonomy (S1-S5) with a materiality guard that excludes rhetoric, attendance and anonymous coordination.",
+   "anchor_type": "event",
+   "anchor_source": "Official statements, filings, funding records, event listings and on-record named quotations from the named actors in S1-S5, corroborated by a second independent source.",
+   "anchor_grade": "B",
+   "window_basis": "12 months spanning the 2027 election build and the first anniversary of the 2026 rebuke. Conventional rather than constitutive: no external calendar forces a sponsorship decision in this window, so the window is set to give the hypothesis a fair test at the point grievance is most likely to be acted on rather than at the point it is least likely.",
+   "expiry_date": "2027-11-05",
+   "expiry_basis": "Rule 1 automatic expiry. Unresolved at close is a MISS by rule; no discretion and no pending state.",
+   "threshold_definition": "One qualifying act from S1-S5, primary source plus second-source corroboration, at any point inside the window.",
+   "max_lifespan": "12 months",
+   "review_cadence": "weekly, folded into the evening wire; sponsorship acts are reported the same day they surface",
+   "deadline_type": "conventional",
+   "falsifier_shape_audit": "Shape is a dated named-actor event on primary sources - falsifiable, non-circular, and NOT scorable on rhetoric or volume. The risk flagged at registration is that S3 ('appears at an event of a formation that advertises firearms training') is the loosest item; the resolution standard requires the formation to advertise armed training as an activity, not merely to be described as extremist by a critic.",
+   "verdict": null,
+   "trial_case": "Gauntlet hearing scheduled 2026-11-06 - unpublished until adjudicated (owner instruction 2026-11-04 00:57).",
+   "revision_log": [
+    "2026-11-05 11:40 ET - registered, pending tribunal, unpublished. Confidence 22 set at registration, before any sponsorship act is visible."
+   ],
+   "tracking_state": "REGISTERED 2026-11-05 11:40 ET, unpublished pending Gauntlet 2026-11-06. No sponsorship act observed as of registration. Nearest observed items, all explicitly NON-qualifying: unsponsored armed presence at public events (level 2, ongoing); 'make ready'/'gloves come off' rhetoric; the New Right formation ('America First. America Only.') which is a labour-and-ethnicity programme, not an armed body; the Relearn 'OR WE CAN DIVIDE' clip which is an exit register with no vehicle. COUNTER branch observed strengthening at registration: Vance's Israel break, Gaetz on Hegseth, Massie's Nov 9 vote - coalition energy routing into institutional succession and a legislative calendar. That is the ballot, not the formation, and it is the main reason confidence sits at 22 rather than higher.",
+   "basename": "2026-11-05-armed-formation-sponsorship-persistence",
+   "confidence": 22
+  },
+  {
+   "title": "Hegseth is not Secretary of War when the 120th Congress is seated",
+   "date_made": "2026-11-05",
+   "time_et": "09:47 ET",
+   "statement": "Pete Hegseth is no longer serving as Secretary of War on 2027-01-03, the day the 120th Congress is seated. Resolution: YES if he has resigned or been dismissed on or before that date; NO if he still holds the office. Card is a single binary on incumbency. The successor-mechanism distribution (acting-Feinberg 26%, pending nominee 15%, clean confirmation 7%, under-secretary designation 4%, recess 3%) sits in the branch note and is not scored here.",
+   "evidence_confirmed": [
+    "Multiple GOP sources to CNN expect Massie's privileged resolution to pass next week; impeachment needs 218, Democrats hold 214 seated",
+    "Trump is privately asking advisers whether Hegseth should go (CBS, 04 Nov) while publicly backing him",
+    "Massie names the intended exit: 'Hegseth resigns.' The floor vote is a pressure device, not a removal device",
+    "Vance on record that 'the reason we lost is the war'; Tillis calls the confirmation his biggest regret; Pentagon funding being conditioned",
+    "Conviction is arithmetically impossible (67 needed, Democrats max 56), so no procedural resolution of the office exists short of resignation or dismissal",
+    "Succession already thin: Army acting since 3 Sept, Navy since 22 April, Deputy Feinberg confirmed and first in line"
+   ],
+   "evidence_contradicted": [
+    "Trump publicly backs Hegseth, and a public reversal on a loyalist reads to the base as capitulation to the press",
+    "DeSantis is floated with a lame-duck confirmation schedule, which makes a resignation easier to stage \u2014 but afloat that converts resignation into promotion is also an instrument, not a plan",
+    "Hegseth has survived every prior removal wave in this term, including the service-secretary clashes"
+   ],
+   "falsifier": "Hegseth appears publicly alongside Trump after the House vote, or the White House states on the record that he will serve through the term. Either moves the estimate toward survival by 10-15 points and, if both occur, flips the card.",
+   "forward_watchlist": [
+    "House floor vote on the privileged resolution (expected next week)",
+    "Pentagon statement using 'performing the duties of' within 72 hours of any resignation",
+    "Any nomination transmitted to the Senate by 20 November",
+    "Whether the Cerberus conflict review is closed, paused, or accelerated",
+    "A second departure at the department inside 30 days = purge, not scapegoat"
+   ],
+   "p_substance": 0.55,
+   "p_timing": 0.45,
+   "status": "emergent",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-05",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "expiry_basis": "Date the 120th Congress is sworn in; the mechanics of a lame-duck confirmation cease to exist after it.",
+   "anchor_type": "reporting",
+   "anchor_source": "CNN (multiple GOP sources) 04 Nov; CBS News 04 Nov; Massie public statement",
+   "anchor_grade": "B",
+   "window_basis": "Constitutive: the confirming Senate ceases to exist on 2027-01-03, so the date is in the structure of the question, not a convention.",
+   "deadline_type": "constitutive",
+   "card_class": "EVENT",
+   "skill_eligible": true,
+   "grace_locked": false,
+   "public_status": "pending_adjudication",
+   "instrument": "incumbency at seating of the 120th Congress",
+   "base_rate_numeric": 0.08,
+   "base_rate_source": "Cabinet-level departures within a 60-day post-midterm window: rare. Reagan 1982, Clinton 1994, Obama 2010, Trump 2018 all produced zero same-window cabinet removals; the 2018 case (Mattis) resolved in December but was a policy resignation, and Zinke in December 2018 went under investigation. Base ~8% for a forced departure inside 60 days.",
+   "base_rate_tier": "weak",
+   "base_rate_frozen_date": "2026-11-05",
+   "confidence_rationale": "Rated well above base because three conditions not present in the comparison cases are present simultaneously: a scheduled floor vote expected to pass, a president actively soliciting replacements, and no procedural route to resolution (conviction impossible). Against: Trump does not fire loyalists in public, and the base treats removal as capitulation. 55 is meaningfully above the 8% base and I am not smoothing toward it.",
+   "verdict": null,
+   "correlation_flag": "Shares a latent driver with the Iran drawdown and the vacancy instrument. If the posture is 'execute the pre-committed list,' Hegseth goes. If it is 'protect the principal,' he stays and the vote becomes pure branding. Do not score independently of those.",
+   "review_cadence": "daily through 20 Nov, then weekly",
+   "max_lifespan": "2027-01-03",
+   "tracking_state": "Registered 2026-11-05 09:47 ET pending tribunal. Not published. No prior score touched; no velocity adjustment made.",
+   "leg_primary": null,
+   "leg_secondary": [],
+   "grace_horizon": "0 days \u2014 grace not pre-registered; resolution is incumbency on a single fixed date (2027-01-03), so no post-close window applies",
+   "basename": "2026-11-05-hegseth-out-before-120th-congress",
+   "confidence": 55
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-05",
+   "time_et": "15:40 ET",
+   "track": "midterm-turnout \u2014 first national VEP estimate published",
+   "mget_legs_tested": [
+    "national environment (composition vs defection)",
+    "electoral participation"
+   ],
+   "verdict": "confirms",
+   "confidence_moves": "none \u2014 no card scored; turnout floor card stays unresolved by rule pending the certified rate",
+   "reasoning": "UF Election Lab published its initial national estimate on 2026-11-04 at 21:50 ET: 122,683,000 ballots counted, VEP 251,588,219, rate 48.76 percent. Same-series comparisons on identical denominator methodology: 2018 50.05 percent / 118.58M; 2022 45.91 percent / 112.03M; 2024 64.07 percent / 156.77M.\n\nThree things follow. (1) 2026 is the highest midterm raw vote total on record, beating 2018 by 4.1M while running 1.3 points lower on rate, because VEP grew 14.7M in eight years. (2) The turnout floor card's 41.0 threshold is cleared by 7.76 points on the first estimate; the falsification branch is dead and would require losing ~19M ballots from here. Resolution still waits on the certified rate per the card's own confirmer. (3) Mark Mitchell's Claim 2 (level below 2022) is falsified outright, as Claim 1 (composition) already was on the early-vote data \u2014 the pre-registered test is closed in both directions.\n\nDirection of error worth recording: the error in this cycle was not the wave call, it was the expectation that a wave implies depressed participation somewhere. Participation rose, and rose most in the red states being contested. The mechanism is de-alignment, not demobilisation: a realignment election recruits new voters on both sides in the places the realignment runs through.\n\nPrecision note against my own card: it anchors 2022 at 46.8; the Election Lab series carries 45.91. Immaterial to the 41.0 threshold, material to the secondary 'clears 2022' read (2.9 points rather than 2.0).",
+   "forward_signal": "Certified VEP rate for the card. The live questions the series raises: (a) 18-29 rate against 2022's 27 percent \u2014 flat confirms the composition model, below 22 undermines it; (b) whether PA's -4.3 and AZ's -2.5 are local-salience effects or the beginning of a participation decline in the states that decided 2024; (c) whether the red-state gains hold in a midterm without competitive statewide contests, which would separate race effects from realignment effects.",
+   "basename": "2026-11-05-turnout-first-national-estimate"
+  },
+  {
+   "date": "2026-11-05",
+   "time_et": "14:27 ET",
+   "track": "iran sequencing / force posture / Hegseth retention",
+   "mget_legs_tested": [
+    "logistics-gated war window",
+    "Hegseth exit mechanism",
+    "confirmation-calendar instrument"
+   ],
+   "verdict": "neutral",
+   "reasoning": "THE REPORT. Barak Ravid, citing a US official, via @OSINTdefender 05 Nov: USS Theodore Roosevelt (CVN-71), in the South China Sea approaching the Strait of Malacca, spends a few days in Singapore from 06 Nov for a port call and 'won't get to CENTCOM area of responsibility before mid-November.'\n\nIT IS CHECK (1) ON THE 10-27 FORCE-POSTURE GATE FIRING, AND IT MOVES THE DATE TOWARD US. We had end-November from the 21 Oct WSJ/NI reporting. Mid-November is ten to fourteen days earlier. The sequencing read - that 'ballistic after Nov 3' required a force package that did not exist on Nov 3 - gets TIGHTER, not looser. Two independent constraints (the 10-28 stated no-strike-before-the-vote commitment and the physical absence of the third hull) have now both held, which raises the read that the calendar was sufficient cause on its own and lowers the alternative that the sequencing talk was bluff.\n\nTHE PORT CALL IS NOT THE SIGNAL AND READING IT AS ONE IS THE ERROR. A Singapore stop westbound from 7th to 5th Fleet is standard practice, scheduled 30-90 days out, because there is no liberty between Singapore and Suez. Boring explanation dominates almost completely. The observable is CANCELLATION: a carrier that skips a scheduled liberty port has an order pending. That is testable within 72 hours from port notices and local spotting, and it precedes every other indicator. Also worth holding: she cannot enter CENTCOM from the east without transiting Bab el-Mandeb, so the arrival itself runs through the Houthi chokepoint. Suez is the far boundary - an exit, not an entrance. The wire will conflate the two.\n\nTHE HEGSETH COUPLING, WHICH IS THE ANALYTIC PAYLOAD. You do not remove a Secretary of War in the opening days of a live campaign, and per our 09-12 unwind note Hegseth is the disposable civilian shield whose value peaks DURING an operation, not before one. So war probability up implies Hegseth RETENTION up. That inverts the naive read that a crisis destabilises him. Carrier clock = force package complete ~15-20 Nov, physical and immovable. Hegseth clock = exit before 3 January, when a successor loses the 119th Senate. Whichever moves first identifies the driver. If Hegseth is gone inside ten days, the war branch is being deferred. If he is still in place on 15 November with the hull on station, the campaign and the confirmation squeeze are colliding.\n\nTHE SUBSTITUTION THAT MATTERS FOR THE CARD. The pre-3-January confirmation squeeze - one instrument, two instances (SecWar, and SoS if Rubio exits) - DIES in the war branch. Senate floor time belongs to a campaign; you do not run a war-cabinet confirmation hearing in the middle of one. Calendar squeeze and campaign are substitutes, not complements. So a live window in mid-November does not merely delay the Hegseth exit card, it may remove the successor-confirmation leg of it altogether, which is precisely the leg I priced this morning as the reason the exit is cheap.\n\nSOURCE AND INFORMATION GRADE, KEPT APART. Ravid: grade A chain, first-hand US official. The claim: low information, because a ship's schedule is pre-planned and semi-public. High confidence, low content. Its value is dating the question, not answering it. That distinction is the reason this entry does NOT move the Hegseth card on its own.",
+   "forward_signal": "(1) Port call cancelled or shortened, or CVN-71 sails early - loudest available tell, visible in port notices and Singapore spotting, resolves within 72 hours. (2) A third CSG surges EAST to cover the transit rather than join the package - coverage reads defensive, joining reads offensive. (3) Strikes begin before 15-20 Nov - per the 10-27 action-on-trigger this is recorded as a finding against my own reading: the constraint was never logistical. (4) Hegseth out before the hull arrives - war branch deferred, exit was calendar- or loyalty-driven. (5) AIS dark on the Bab el-Mandeb approach; announced transit is routine, a darkened one is not.",
+   "confidence_moves": "No score moves. Hegseth card held at 22 pending tribunal. Force-posture gate check (1) marked resolved, gate stays active until the package is complete. New note: /space/note/2026-11-05-two-clocks-carrier-and-hegseth-coupling.json",
+   "basename": "2026-11-05-roosevelt-port-call-transit-date"
+  },
+  {
+   "date": "2026-11-05",
+   "time_et": "14:25 ET",
+   "track": "succession / cabinet exits / white horse",
+   "mget_legs_tested": [
+    "successor positioning",
+    "cabinet exit taxonomy",
+    "white horse consolidation"
+   ],
+   "verdict": "neutral",
+   "reasoning": "THE CLAIM. The Independent (David Maddox and Andrew Feinberg) reports Rubio is 'preparing to resign' the Cabinet to launch a 2028 bid, citing 'sources in Washington and the UK government.' Stated motive: he 'needs to distance himself from controversial policies, including the war in Iran, to improve his prospects against key rival, Vice President JD Vance.' White House and State Department both 'strongly denied' it. Mediaite added two anonymous Republican expectation quotes, not confirmations: a Florida strategist, 'the war drums are beating about this'; a former Rubio colleague, 'whether it's true or not, I'm not sure, but this is his moment to move.'\n\nWHY THE SOURCE IS GRADE D AND WHY THAT IS NOT THE WHOLE STORY. Single outlet origin, anonymous throughout, denied by both principals, and 'sources in the UK government' is a strange chain of custody for a US personnel decision - that phrase more likely reflects British diplomatic chatter about 2028 than anyone in the room when such a decision would be made. Under our own collection discipline, D.\n\nBUT THE CLAIM GRADES C, AND THE DISTINCTION IS THE POINT. A badly sourced story independently corroborated by structure is a different object from one that is not. Three things corroborate it without touching the sourcing. (1) Rubio is the only cabinet officer with an independent national base: 2016 runner-up, 55, Secretary of State, Florida donor network. (2) The named motive, distance from the Iran war, is the one liability he personally owns, and it is consistent with our own market read that the war window was priced DOWN after the vote (oil -8% on 04 Nov, /space/note/2026-11-05-oil-minus-eight-market-prior-on-sequencing.json). (3) The structural inference is near-tautological: you cannot run for president from inside a cabinet whose principal has collapsed into what the owner called property-management mode. Grade the source D. Grade the claim C. Do not average them.\n\nTHE ANALYTIC PAYLOAD IS NOT FOUR CABINET EXITS. IT IS TWO SUCCESSION POLES OF DIFFERENT KINDS. Vance is INSIDE succession: sitting VP, inherits the base, broke with Trump toward the new right on Israel within 24 hours of the loss. Rubio is OUTSIDE succession: establishes distance, runs on restoration and electability against the inside candidate. The white horse card (/space/absorption/2026-09-22-white-horse-prelegitimation-surface.json) models a SINGLE consolidating figure arriving at step 3 of a mythic-crisis-official ladder. A second pole is not that figure getting stronger; it is a contested succession, a different object. It lowers the single-consolidation path and raises the open-primary path. Both outcomes belong on the card. Only one currently does.\n\nTHE EXIT TAXONOMY MUST NOT MERGE, and this is the methodological point of the day. Three exits or near-exits, three incompatible mechanisms. Dhillon = EXPOSURE PRICING, leaving before subpoena power arrives on 3 January. Hegseth = RETENTION / LOYALTY, the president deciding whether to hold an asset. Rubio = AMBITION, leaving to build a vehicle for himself. Collapse is not a diagnosis, it is a word. Filing all three under 'administration coming apart' measures nothing and predicts nothing, because they imply opposite futures: exposure pricing predicts more quiet exits before January and a hollowed department; ambition predicts a public campaign and a faction, not a vacancy.\n\nTHE APPLIED DISCRIMINATOR, from this morning's rule that command produces a calendar. A resignation to prepare a bid IS a calendar, which makes this the most falsifiable rumour we have had in a week, because every observable is a filing or a booking rather than a statement. In arrival order: (1) an FEC registration or a leadership PAC with a new name; (2) early-state travel in a non-official capacity; (3) donor call sheets surfacing; (4) a foreign-policy speech positioning him against the war rather than defending it; (5) Florida staff hires. NONE exist yet. Until one does, this is a story about logistics that has produced no logistics - the exact failure mode the rule was written to catch, applied to a man who might actually do it.\n\nWHO BENEFITS FROM THE STORY EXISTING, which is why a denial is not informative. (a) Rubio's camp: floating it prices donor response at zero cost, and the denial gives cover to keep both options open. (b) The White House: denying a Rubio exit directly rebuts the 'rats leaving' frame Dhillon's departure opened this morning. (c) Vance's camp: a Rubio rumour makes Vance the incumbent frontrunner and forces Rubio either to deny (weakening him) or confirm (starting the clock). (d) The outlet: 'UK government sources' makes a thin US personnel story read as internationally sourced. Four interested parties, a denial from two of them - that is evidence the story is USEFUL, not evidence it is false.\n\nCHAIN OF CUSTODY, ALREADY DOCUMENTED. If it happens, the SoS backfill runs through the same expiring Senate as the SecWar backfill: a nominee must clear the 119th before 3 January. Unlike the Pentagon, the acting is clean and pre-confirmed - Deputy Secretary Christopher Landau, sworn 25 March 2025, who becomes acting automatically on a resignation (State public schedule for 05 Nov lists him at the Department while Rubio is at the White House). So the department functions. But a permanent nominee faces the same eight-week squeeze. That gives a second instance of one instrument and converts 'crush the confirmation calendar' from hypothesis into measurement: count nominations confirmed between 5 November and 3 January.",
+   "forward_signal": "KILLS THE RUMOUR: Rubio publicly commits to serving through the term; no FEC filing or leadership PAC by 31 January 2027; he defends the Iran policy in his own voice. CONFIRMS: any FEC registration, early-state travel or Florida staff hires before the new Congress is seated, or a foreign-policy speech putting distance between himself and the war. AMBIGUOUS BUT WATCH: whether Fox - which broke the Vance story - runs Rubio framing next; sympathetic cycles for both men from one outlet mean the outlet is hosting an open primary rather than picking a horse. Also whether the White House denial is repeated UNPROMPTED, which would mean the story is being actively managed rather than waved off.",
+   "confidence_moves": "No score moves; velocity rule holds. Amendment QUEUED FOR TRIBUNAL, not applied: the white horse card needs a competing-pole branch. Registered as claim only, no public status.",
+   "basename": "2026-11-05-rubio-resignation-rumour-two-succession-poles"
+  },
+  {
+   "date": "2026-11-05",
+   "time_et": "13:38",
+   "track": "Market read: is this a global risk-off or a theme unwind?",
+   "mget_legs_tested": [
+    "M - mechanism",
+    "G - geometry (who is selling what)",
+    "T - timing",
+    "N - narrative"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FACT PATTERN, from live prices 13:38 ET and the wire. S&P 7,427.81 (-3.39%, a three-month closing low, 5% off its 3m high). Nasdaq Comp 24,559.99 (-4.57%, -11.0% from its 3m high: correction confirmed). Dow 51,994.27 (-2.55%). Russell 2,757.96 (-3.46%). VIX 23.84 (+43.5%). CAUSE, from Reuters and CNN, is explicit: the Democratic midterm win is being read as raising the probability that the AI data-centre buildout slows and is more tightly regulated. Reuters puts the Nasdaq 100 mark-to-market at -$1.8 trillion.\n\nTHE ANALYTIC POINT IS THE GEOMETRY, NOT THE HEADLINE INDEX. Three populations, three different prices. (1) SEMIS AND LEVERED AI CAPEX, crushed: SOXX -10.40% on the day, -21.46% over five days, -30.76% over a month; AMD -15.18% (1d) / -35.81% (1m); Micron -13.48% / -36.76%; Oracle -7.55% / -20.32%; Vistra -6.58% / -32.60%; Constellation -4.38% / -21.58%; Tesla -10.83%. (2) THE HYPERSCALER CASH FLOWS, barely touched: Microsoft -2.52% on the day but +2.27% over the month and 4.95% above its 50-day. (3) THE REGULATED UTILITY, up: NextEra -0.21% today, +7.45% over five days, +14.53% over a month. That third pair is the sharpest reading on the tape and it is not a mood. Merchant power that signed AI co-location deals (VST, CEG) is down 20-33% in a month while the regulated utility is UP 14.5%. The market is pricing CANCELLED OR DELAYED data-centre PPAs, not expensive power. That is a specific, falsifiable expectation about contracts rather than about sentiment.\n\nTHE MACRO CHANNELS ARE CLOSED, which is what distinguishes this from a systemic event. MOVE 93.96 (+0.08% on the day). LQD IG credit +0.19%. JNK high yield -0.41%. EMB -0.43%. US 10y 4.84%, down ~6bp; 30y 5.25%, down ~3bp; TLT +0.40%. Dollar index 101.45, -0.06%. Gold 4,132.30, +1.46%. A growth scare in equities accompanied by RALLYING Treasuries and flat credit spreads is a discount-rate and earnings-revision event in one sector, not a funding event.\n\nWHAT IS GLOBALLY TRUE AND WHAT IS NOT. Not global: Europe is essentially flat (Stoxx -0.55%, FTSE -0.43%, DAX -0.43%, CAC +0.34%, IBEX +0.59%; DAX +4.86% and CAC +5.61% over the month). Global: the AI SUPPLY CHAIN, which is where the damage is actually severe - Taiwan -4.00% (1d) and -14.02% (1m), EWY Korea -9.39% (1d) and -24.96% (1m) with KOSPI 24% off its 3m high, EWJ -4.32%, Nikkei -3.18% (1m -10.59%). But on the same day, KWEB China tech +1.01% (+7.79% over five days), FXI +0.80% (+6.65% 5d), Hang Seng +5.40%, Shanghai +2.27%, Sensex +3.11%, Nifty +3.05%. A -4.6% Nasdaq day with Hong Kong +5.4% is not risk-off. It is a ROTATION, out of the US AI complex and into China and India. One day is not a trend and must be coded as a hypothesis, not a finding.\n\nTHE UNCOMFORTABLE DOUBLE READ, and the best thing on the tape today. Yesterday the Dow rose 1,569 points (+3.03%), the best post-midterm session in 44 years, and the instant commentary was that divided government is good for markets. Today the Dow gave back 1,500 on the view that divided government blocks the capex. Same event, two opposite prices, 24 hours apart. Both cannot be the mechanism. What actually happened is that the market's first read was political risk removal, and its second read was specific policy exposure - and the second read is the one made with more information, because it required looking at which companies own which approvals.\n\nTIMING STRUCTURE. VIX3M 23.02 against VIX 23.84 and VIX9D 26.53 (+74.65% on the day, +125% on the month). The curve is inverted at the front, which prices EVENT risk inside days rather than a regime break. The event is named: Nvidia's earnings, cited across the wires as the signal for AI spending momentum. That is a dated, binary, priced catalyst - the opposite of an unanchored selloff.",
+   "forward_signal": "Falsifiers that would make this systemic rather than thematic, in order of arrival speed. (1) Credit: JNK or LQD breaching -2% on the day, or MOVE above 120. Neither is close. (2) Funding: a repo or basis dislocation, which would show as SOFR-IORB or cross-currency basis widening; nothing in this tape suggests it. (3) A hyperscaler capex GUIDANCE CUT rather than a semiconductor derating - Microsoft and the other cash-flow names holding while semis fall is the signature of a multiple event, and it reverses if the guidance is cut. The one to actually watch, because it is the difference between a trade and an economy: data-centre FINANCING. Oracle (-20% in a month) is the leveraged buildout story rather than the AI story, and if private-credit data-centre paper starts repricing, this stops being an equity event. No public price for that yet, which is itself worth noting as a blind spot.",
+   "confidence_moves": "No score moves. Velocity axis held per owner instruction. NEW CHANNEL IDENTIFIED for the federal procedure inventory: AI infrastructure policy - permitting, interconnection queue priority, state-level resistance, antitrust - is now a PRICED channel of the political outcome. It was not on yesterday's inventory and it is the first one the market has put a number on.",
+   "basename": "2026-11-05-ai-capex-unwind-theme-not-macro"
+  },
+  {
+   "date": "2026-11-05",
+   "time_et": "11:42",
+   "track": "Post-rebuke personnel: the first exit out of DOJ Civil Rights",
+   "mget_legs_tested": [
+    "M - instrument capacity",
+    "G - legal exposure",
+    "T - timing window",
+    "N - narrative"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FACT, confirmed independently: Harmeet Kaur Dhillon, AAG for Civil Rights, plans to resign per Bloomberg (2026-11-05), picked up by Election Law Blog and Political Wire. First senior DOJ official to exit after the 2026 rebuke. Bloomberg reports the department is bracing for additional high-level departures.\n\nWHY HER, AND WHY FIRST. She is the most legally exposed appointee in the building for the specific program the new House majority will subpoena. The rank-escalation ladder runs through her: the July 2026 52 USC 20701 letter to the states (Dhillon), September (Neff, acting voting-section chief), October (DAG McCotter, all fifty states). If a Democratic House wants the paper trail of the pre-election enforcement program, the subpoena targets are the three signers, and she is the first rung. She also declined to open a criminal-section investigation into the January ICE killing in Minneapolis, which cost her the section's leadership at the time; that decision is now itself an oversight exhibit. Leaving before 3 January is the rational act of a witness, not a protest.\n\nTHE CAPACITY FACT IS THE ONE THAT MATTERS FOR THE BOARDS. Independent of the resignation, the division she ran is an empty vessel: 300 of 400-plus attorneys gone across 19 months, per Bloomberg Law, restocked in part with inexperienced ideological hires. That is the division that carries the Alaska preemptive certification suit, the poll-monitor program, the voter-roll demands, and the fifty-state threats. The regime's instrument here was never personnel depth; it was letters and docket entries. Letters survive the signer. So this is a capacity problem in the operational sense and a continuity non-problem in the doctrinal sense, and those must be kept apart.\n\nWHAT THE EXIT DOES NOT SHOW. Not policy defection - no stated disagreement, and Bloomberg reports no cause. Not collapse - one departure is one departure, and 'bracing for additional' is a reporter's sourcing, not a measured series. Not, on its own, evidence of a weak president: every administration loses appointees after a bad midterm. The claim it does support is narrower and better: the people with personal legal exposure price a House subpoena as imminent and act before the gavel.\n\nTHE TIMING CONVERGENCE WORTH FLAGGING. A successor AAG needs Senate confirmation. The Senate that can confirm is the 119th, in lame duck, before 3 January; the 120th cannot be relied on. That is the identical institutional structure as the SecWar branch logged at 09:47. Two separate personnel crises are now running through the same expiring-senate window, which is why that window, not the 72-hour narrative window, is the operative clock for structural change in this period.",
+   "forward_signal": "Discriminator is the REPLACEMENT, not the departure. (1) Acting career deputy -> continuity, capacity stays low, program runs on autopilot. (2) A named loyalist nominated for confirmation before 3 January -> the vulnerable-window logic applies and the Alaska/election-infra program likely accelerates, because an unconfirmable hardliner has nothing to lose. (3) No replacement named for weeks -> the retrenchment read holds. Second-order, and the one to actually watch: whether the exit becomes a series. If three or more senior DOJ officials follow inside 30 days, the exposed-witness hypothesis is confirmed and the retrenchment read strengthens. If the exit stays singular, it was one lawyer reading a subpoena calendar, and that is not a political event.",
+   "confidence_moves": "No score moves. Velocity axis held per owner instruction. Cross-linked to the SecWar branch (same expiring-senate window) and to the vacuum note (retention as an observable of a presidency that has stopped issuing futures).",
+   "basename": "2026-11-05-dhillon-resignation-first-exit"
+  },
   {
    "date": "2026-11-05",
    "time_et": "09:40",
@@ -4322,6 +4525,20 @@
    "forward_signal": "1) HORMUZ: does any insurer, P&I club, UKMTO or shipping authority corroborate the IRGC mine claims, and does war-risk premium move. Claim-only through 05 Nov. 2) IRAN: does the US strike again before the 120th Congress is seated - the market has priced 'no'. 3) OHIO: a FILED lame-duck bill transferring or removing governor's powers, not an advocacy paper. 4) TEXAS: whether the caucus vote is taken today and whether it survives constitutional challenge as January rules. 5) HEGSETH: cosponsor count before Monday 9 Nov; any resignation soundings. 6) PARDONS: first use in the 77-day unreviewable window. 7) DEMOCRATIC INSTRUMENT ORDER: first subpoena issued vs first bill filed - which arrives first tells us whether the majority governs or investigates. 8) VACUUM: Vance's separation from the administration widening or closing.",
    "confidence_moves": "None. Velocity-override standing rule: every open card holds its score; evidence filed only. Repricing waits for the postmortem and tribunal.",
    "basename": "2026-11-05-morning-wire"
+  },
+  {
+   "date": "2026-11-05",
+   "time_et": "08:40",
+   "track": "Electoral contestation / Alaska count",
+   "mget_legs_tested": [
+    "narrative-velocity",
+    "institutional-degradation"
+   ],
+   "verdict": "confirms",
+   "reasoning": "The 03 Nov note recorded a specific expectation: the Alaska suit was dismissed 01 Nov, and 'if Sullivan trails tonight, expect a refiled action within days, and expect it in the post-election window where the catalyst-node card is actually anchored.' Peltola leads by roughly 600 votes at 70-75% counted. The refiling has not come. What came instead is one channel up: the principal, on his own account, at 08:40, demanding that the vote totals for Daniel J. Sullivan and the other Republican be 'immediately given to the REAL Dan Sullivan' \u2014 with a pre-declared verdict ('He easily wins') and a pre-declared legitimacy test ('There is no other fair solution!').\n\nSEQUENCING: CONFIRMED. The instrument has moved from pre-election pre-authorisation (suit, dismissed) to election-day criminal lever (~20 DOJ target letters to Alaska Democrats) to post-election allocation demand (this). Three channels, one state, five days. Nothing in the sequence required a new fact \u2014 only that the losing side of a close count be identified.\n\nWHAT IS NEW AND WHAT IS NOT. Not new: the refusal to accept a count. New: the specificity. This does not dispute how ballots were counted; it directs where they should go. That is not a contestation claim, which a court can hear, but an allocation claim, which no court can grant. The consequence is that the demand cannot be satisfied procedurally \u2014 only politically \u2014 which is what makes it a stable grievance rather than an argument.\n\nC-002 CANDIDATE QUALIFYING ACTION \u2014 FLAGGED, NOT SCORED. Under the stated principal-channel rule, a principal's own social-media statement counts. Branch A(c) requires litigation filed or joined seeking relief that would alter count or result in a named contested-count state. This is a demand for that relief, by the actor who controls the litigating apparatus, in a named state, published by the principal \u2014 but it is not itself a filing. Whether a principal-channel demand NAMING AN ARITHMETIC OUTCOME satisfies (c) is the object/materiality ambiguity P23-T already charged and the tribunal has not resolved. Recorded as evidence; no confidence move today (same-day ban, and the standing instruction not to move scores on velocity).\n\nSECOND-ORDER READ. The demand is most informative if Sullivan is ahead or the race tightens toward him: it would then mean the allocation claim is not about rescuing a loss but about pre-empting a result that is being counted at all. It is least informative if he loses by a wide margin, in which case it is checked-out grievance. Hold this open and re-read at tabulation.",
+   "forward_signal": "Whether a state official answers the transfer demand on the record; whether any named national Republican echoes it (principal statement -> caucus position); whether DOJ or a party committee files in Alaska after 05 Nov; whether Alaska's RCV tabulation date is contested; whether Trump applies the allocation language to a second state.",
+   "confidence_moves": "None. Same-day ban in force; velocity rule standing. Evidence filed only.",
+   "basename": "2026-11-05-trump-alaska-vote-transfer-demand"
   },
   {
    "date": "2026-11-04",
@@ -11523,6 +11740,18 @@
  ],
  "movers": [
   {
+   "time": "2026-11-05",
+   "ref": "After the rebuke: does any armed formation acquire a named institutional patron?",
+   "change": "confidence 22 \u2014 status emergent",
+   "trigger": "Armed presence at public events and official-harassment campaigns are already routine and are NOT the subject of this card - level-2 violence is elevated and ongoing, which is exac"
+  },
+  {
+   "time": "2026-11-05",
+   "ref": "Hegseth is not Secretary of War when the 120th Congress is seated",
+   "change": "confidence 55 \u2014 status emergent",
+   "trigger": "Succession already thin: Army acting since 3 Sept, Navy since 22 April, Deputy Feinberg confirmed and first in line"
+  },
+  {
    "time": "2026-11-04",
    "ref": "Vanguard split or tighter fusion: does the 2026 rebuke fragment the party-media-state layer?",
    "change": "confidence 35 \u2014 status emergent",
@@ -11569,39 +11798,41 @@
    "ref": "Operator to Participant: no delegated coordination authority returns to Washington before 2031",
    "change": "confidence 75 \u2014 status emergent",
    "trigger": "\u2014"
-  },
-  {
-   "time": "2026-11-03 22:36 ET",
-   "ref": "Administration under pressure: escalation, self-healing, or acceptance",
-   "change": "confidence 82 \u2014 status pending",
-   "trigger": "Archive analogues run this way: 1933 Reichstag decree (self-healing emergency), 1938 Anschluss (divergent-interest escalation spiral), risk-001 loyal-force capture (purge machinery"
-  },
-  {
-   "time": "2026-11-03",
-   "ref": "Democrats take the US House \u2014 control test",
-   "change": "confidence 70 \u2014 status confirmed",
-   "trigger": "President's-party midterm penalty: the White House party has lost House seats in 19 of the last 21 midterms"
   }
  ],
  "daily_read": {
   "summary": [
-   "[09:20] Wall Street's best day after a midterm in 44 years, and the oil number is the one that means something",
-   "[09:15] Iran says mines destroyed four tankers in Hormuz. No one else has confirmed it.",
-   "[09:10] Every tool the president reached for, he had already named before the vote",
-   "[09:05] Republicans expect their own impeachment vote to pass. The target is the defense secretary.",
-   "[09:00] Texas Republicans move to take the powers of the office they just lost",
-   "[08:55] The new majority says it will investigate before it legislates"
+   "[14:20] The chip selloff found the level the election actually controls: local permitting",
+   "[14:10] The defense secretary has been given a choice: resign, or face a vote",
+   "[14:05] Two states lost the same election. Only one can do anything about it.",
+   "[14:00] Iran keeps counting tankers on fire. No one else has confirmed one."
   ],
   "watching": [
-   "Whether crude holds Wednesday's fall or gives it back",
-   "A hull name, position, or war-risk move behind the Hormuz mine claims",
-   "Whether Hegseth resigns before Monday's vote, and whether anyone else signs on",
-   "Whether the Texas Senate caucus vote becomes January rules or is walked back",
-   "Which arrives first from the new majority: a subpoena date or a legislative calendar",
-   "Any presidential tool that was not signalled before 3 November"
+   "Whether credit spreads confirm the AI repricing, or it stays a one-sector story",
+   "Whether the Roosevelt skips its Singapore port call \u2014 the tell that an order is pending",
+   "Whether Hegseth resigns before the vote the week of 9 November",
+   "The published text of the Texas Senate rules, not the caucus readout",
+   "A hull name, position, or insurance move behind the Hormuz claims",
+   "Whether Ohio's outgoing majority reaches for agency rulemaking before 12 January"
   ],
   "date": "2026-11-05",
   "cards": [
+   {
+    "title": "[14:20] The chip selloff found the level the election actually controls: local permitting",
+    "html": "<p><b>What happened.</b> The Nasdaq fell as much as 5.7 percent on Thursday and closed in correction \u2014 more than 10 percent below its high \u2014 with the Philadelphia semiconductor index down nearly 10 percent. Nvidia fell 7.7 percent, Palantir shed roughly $40 billion in value, and the Dow gave back all of Wednesday's 1,569-point gain, falling more than 1,300 points. Reuters, CNN Business and Yahoo all attributed the move to the Democratic sweep: investors marked down the data-centre buildout on the expectation of tougher AI regulation.</p>\n\n<p><b>Why it matters.</b> The obvious objection is that a Democratic Congress cannot pass AI regulation \u2014 the president has a veto and the votes for an override do not exist. That objection is correct and beside the point. Data centres are not approved in Washington. They are approved by county boards and state regulators in Virginia, Georgia, Ohio, Texas and Arizona, and those are precisely the jurisdictions that changed hands on Tuesday. The market repriced the layer where the permit is actually issued, and no legislation is required for that layer to bite.</p>\n\n<p><b>The pattern.</b> This is the first place the election showed up as a number rather than a statement, and it arrived in the sector most exposed to a single political variable. Wednesday's rally and Thursday's fall are the same trade in opposite directions: the market first priced divided government as stability, then read the same result as a cost to the largest capital project in the economy. Both readings can be true at once, because they are about different things \u2014 the federal government got harder to use, and the states got more expensive to build in.</p>\n\n<p><b>What history says.</b> Sector repricings on a change of state-level control are common and usually overdone in the first week; the 2010 Republican wave repriced health care names hard, and the actual regulatory path took two more years and a Supreme Court case. The signal that separates a repricing from a crisis is credit: in 2000 and 2008 the equity fall was confirmed by widening credit spreads, and in ordinary sector rotations it is not. Credit has not moved. That is the number to keep watching.</p>\n\n<p><b>What we're watching next.</b> Whether the fall is contained to the companies whose revenue depends on the buildout, or spreads to the utilities, landlords and debt issuers who financed it. The second group is where a permitting slowdown becomes a credit event, and it is the one place we are not yet measuring.</p>\n\n<p>Sources: <a href=\"https://edition.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges\">CNN Business</a>, <a href=\"https://www.investing.com/news/stock-market-news/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-on-chip-weakness-5003237\">Reuters via Investing.com</a>, <a href=\"https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html\">Yahoo Finance</a>, <a href=\"https://tradingeconomics.com/united-states/stock-market\">Trading Economics</a></p>"
+   },
+   {
+    "title": "[14:10] The defense secretary has been given a choice: resign, or face a vote",
+    "html": "<p><b>What happened.</b> Representative Thomas Massie said on Thursday that he will reintroduce articles of impeachment against Defense Secretary Pete Hegseth when the House returns for its lame-duck session, with floor action expected the week of 9 November. He added one condition: \"There is one contingency in which I won't reintroduce the articles of impeachment: Hegseth resigns.\" Senator Mark Kelly said Hegseth needs to \"go as soon as possible.\" The president said publicly that Hegseth is doing a great job and denied considering replacements, while reporting continued that a former Florida governor is being discussed as a successor.</p>\n\n<p><b>Why it matters.</b> The vote cannot remove him. Impeachment needs 218 votes in the House and conviction needs 67 in the Senate, where Democrats will hold at most 56 seats. What the vote can do is put every Republican on the record about a secretary the president has publicly defended, days after a defeat his own party is blaming on the war. That makes the resolution an ultimatum with a date rather than a punishment, and it moves the operative question from whether he is convicted to what it costs the president to keep him.</p>\n\n<p><b>The pattern.</b> This is the same instrument we have seen twice this week at the other end of Pennsylvania Avenue: a procedural move that does not need to succeed in order to work. A confirmation vote scheduled before the new Senate is seated, an impeachment vote scheduled while the old House still sits, an election result challenged through an allocation demand rather than a lawsuit. None of these is designed to win on the merits. Each is designed to force a decision before the clock runs out, and the clock is 3 January.</p>\n\n<p><b>What history says.</b> Cabinet secretaries are rarely impeached \u2014 the House has done it once, in 1876, against a secretary of war accused of selling appointments. He resigned before the Senate trial. The precedent that matters here is not the impeachment but the resignation: the vote's function in 1876 was to make staying in office more expensive than leaving, and that is the function it has now.</p>\n\n<p><b>What we're watching next.</b> Whether he resigns before the vote rather than after it. A resignation before 9 November means the vote did its work without being held. A resignation after a passed vote means the president needed the tally to justify a decision he had already made.</p>\n\n<p>Sources: <a href=\"https://www.forbes.com/sites/siladityaray/2026/11/05/gop-rep-massie-threatens-pete-hegseth-impeachment-unless-he-resigns/\">Forbes</a>, <a href=\"https://www.cnn.com/2026/11/04/politics/pete-hegseth-impeachment-trump\">CNN Politics</a>, <a href=\"https://rollcall.com/2026/10/26/massie-vows-week-one-vote-in-lame-duck-to-impeach-hegseth/\">Roll Call</a>, <a href=\"https://thehill.com/homenews/house/6152919-massie-calls-trump-fire-hegseth/\">The Hill</a></p>"
+   },
+   {
+    "title": "[14:05] Two states lost the same election. Only one can do anything about it.",
+    "html": "<p><b>What happened.</b> Republican state senators in Texas met on Thursday afternoon to discuss reorganising their chamber and moving the lieutenant governor's powers to a leader their majority would elect. They hold 19 of 31 seats, and the chamber's rules are adopted by simple majority. In Ohio, where Democrats won the governor's office and broke the Republican supermajority in the House, the outgoing legislature returns in November for its final session \u2014 but Republicans kept their supermajority in the Senate, and an Ohio veto override requires three-fifths of both chambers.</p>\n\n<p><b>Why it matters.</b> These are the same event in two states with opposite outcomes, and the difference is not political will. It is arithmetic. Texas Republicans need one vote more than half. Ohio Republicans would need 60 of 99 House seats and no longer have them, so anything the lame-duck legislature passes can be vetoed by the incoming governor and cannot be overridden. One majority can entrench; the other can only posture.</p>\n\n<p><b>The pattern.</b> When a party loses an election, it reaches for whatever lever the rules left in its hand \u2014 not the constitution, and not the voters. In Texas the lever is the chamber's own rulebook, which is why the fight is about committee referrals and floor recognition rather than any statute. The Texas lieutenant governor's power was always a creature of the rules, which means it can be rewritten by the same simple majority that made it.</p>\n\n<p><b>What history says.</b> This is a well-drilled move. North Carolina's legislature stripped powers from an incoming Democratic governor in a December 2016 special session, and Wisconsin's did the same in a 2018 lame-duck session days before a new governor was sworn in. Both survived challenge, because both were exercises of legislative procedure rather than constitutional amendment. Texas is following the template, and the constitutional limit that applies \u2014 the lieutenant governor must preside \u2014 is the same limit that applied in both those states: the office survives, hollowed.</p>\n\n<p><b>What we're watching next.</b> The published text of the Texas rules when the session opens, not the readout from the caucus meeting. And in Ohio, whether the outgoing majority reaches for the one thing a veto cannot stop: clawing back agency rulemaking authority before 12 January, which would bind the new governor's administration rather than legislating over it.</p>\n\n<p>Sources: <a href=\"https://www.texastribune.org/2026/11/05/texas-senate-republican-majority-lieutenant-governor-powers/\">Texas Tribune</a>, <a href=\"https://ohiocapitaljournal.com/2026/11/04/ohio-democrats-break-republican-supermajority-in-the-ohio-house/\">Ohio Capital Journal</a>, <a href=\"https://www.bricker.com/insights/publications/2026-ohio-general-election-results-and-analysis\">Bricker Graydon</a>, <a href=\"https://www.kxan.com/news/texas-politics/post-election-2027-legislative-session-preview/\">KXAN</a></p>"
+   },
+   {
+    "title": "[14:00] Iran keeps counting tankers on fire. No one else has confirmed one.",
+    "html": "<p><b>What happened.</b> Iran's Revolutionary Guard and army said on Thursday that five oil tankers and a tugboat caught fire in the Strait of Hormuz, describing a \"violating\" tanker that struck a naval mine in an \"unsafe area\" east of the strait. The count has risen through the day from four. There is still no independent confirmation: no flag state, no shipowner, no insurer, no coalition statement, and no named vessel.</p>\n\n<p><b>Why it matters.</b> A claim that grows while its corroboration stays at zero is a claim being used, not reported. The mechanism matters more than the number: mines require no order from Washington and no decision from Tehran's foreign ministry. In a week when both governments have been signalling restraint, this is the one actor in the system that can raise the temperature without anybody deciding to \u2014 which is exactly why the uncorroborated version of the story is the more dangerous one to take at face value.</p>\n\n<p><b>The pattern.</b> During the tanker campaign of 2019, the same shape appeared: attributions issued within hours, and the details that would have settled them \u2014 hull names, positions, insurers \u2014 arriving days later or never. The tell was never the count. It was whether the insurance market moved, because war-risk premiums are priced by people who lose money when the claim is wrong.</p>\n\n<p><b>What history says.</b> The 1987\u201388 Tanker War ran for more than a year of attacks on shipping without closing the strait, because the cost of closure fell on Iran's own customers. That is the constraint that has held every time: the chokepoint is a threat Iran can exercise and cannot spend.</p>\n\n<p><b>What we're watching next.</b> A hull name, a position, or a war-risk premium move \u2014 any one of the three would convert this from a claim into an event. Until then it stays what it has been for three days: an assertion by an interested party, in a week when the other side is not shooting.</p>\n\n<p>Sources: <a href=\"https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack\">Al Jazeera</a>, <a href=\"https://www.usnews.com/news/top-news/articles/2026-11-05/tankers-hit-in-hormuz-as-iran-keeps-up-pressure-after-us-vote\">Reuters via US News</a>, <a href=\"https://www.thehindu.com/news/international/iran-says-five-tankers-tugboat-caught-fire-in-hormuz/article71671070.ece\">The Hindu</a></p>"
+   },
    {
     "title": "[09:20] Wall Street's best day after a midterm in 44 years, and the oil number is the one that means something",
     "html": "<p><b>What happened.</b> The Dow closed up 1,569.40 points, 3.03 percent, at 53,356.12 on Wednesday \u2014 its best day since April 2025 and its biggest single-day gain after a midterm election since 1982, according to CFRA. The S&amp;P 500 rose 1.58 percent, the Nasdaq 1.44 percent. West Texas Intermediate crude fell more than 8 percent, settling at its lowest level since 31 August. Brent, below $100 for the first time in weeks, was steady to slightly higher Thursday morning near $95 to $96.</p>\n\n<p><b>Why it matters.</b> A three percent equity day after an election can be about many things \u2014 divided government, the end of uncertainty, the tech trade. An eight percent one-day fall in crude is narrower and more specific: traders marked down, in one session, the probability that the Strait of Hormuz closes and American strikes resume. For six weeks they had been told by both governments, on the record, that the strikes were coming after 3 November. They repriced the day after voters closed the window.</p>\n\n<p><b>The pattern.</b> Markets are not opinions and they are frequently wrong, but this is the first number in this story that is neither a statement by an interested party nor a reading of one. It is a third party putting money on what the president will do next. It is also a price on something larger: a president who cannot legislate and will be constrained from escalating gets priced as a lame duck, not as a crisis. What the tape did on Wednesday was the first independent evidence for that, and it did not come from anything the president said.</p>\n\n<p><b>What history says.</b> Post-midterm rallies are the rule rather than the exception, and the biggest ones in the 1982 and 1994 cycles were followed by months of ordinary volatility. Crash-less is not the same as stable: the 1982 comparison day was the start of a two-year bull market, the 1994 one preceded a government shutdown fight. The specific claim here is only about oil.</p>\n\n<p><b>What we're watching next.</b> Whether crude keeps falling or holds. Thursday's bounce of about 1.6 percent is a market discovering that de-escalation and a deal are different things: Eurasia Group cut its odds of an Iran deal to 10 percent the same morning oil fell.</p>\n\n<p>Sources: <a href=\"https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html\">CNBC</a>, <a href=\"https://www.cnn.com/2026/11/04/investing/us-markets-midterm-elections\">CNN Business</a>, <a href=\"https://247wallst.com/investing/2026/11/05/the-dow-just-jumped-1569-points-for-its-best-post-midterm-day-in-44-years/\">24/7 Wall St.</a>, <a href=\"https://www.cornerstonefuturesllc.com/post/morning-highlights-eurasia-group-cuts-odds-of-an-iran-deal-to-10-as-oil-steadies-after-an-8-drop\">Cornerstone Futures</a></p>"
@@ -11629,8 +11860,8 @@
   ]
  },
  "counts": {
-  "items_today": 1,
-  "tracked_predictions": 83,
+  "items_today": 7,
+  "tracked_predictions": 85,
   "claims_tested": 28,
   "unscored_predictions": 0
  },
