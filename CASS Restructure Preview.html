@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>CASS v4 — Restructure Preview (STAGING)</title>
+<title>CASS v5 — Restructure Preview (STAGING)</title>
 <style>
 :root{
 --bg:#0e1420; --panel:#151d2b; --line:#2c3a52; --ink:#e6ecf5; --dim:#8fa1bb;
@@ -20,9 +20,12 @@ h1{font-size:27px;line-height:1.2;margin:26px 0 6px;letter-spacing:-.01em}
 h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);
  margin:38px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line);font-weight:700}
 h3{font-size:14.5px;margin:0 0 8px;letter-spacing:.01em}
+.subhead{font:700 10.5px/1 ui-sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin:20px 0 9px}
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
 .grid3{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:10px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gaugegrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:900px){.gaugegrid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:820px){.grid3,.grid2{grid-template-columns:1fr}}
 .tag{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;padding:4px 7px;border-radius:4px;
  border:1px solid currentColor;vertical-align:2px;margin-left:7px}
@@ -33,38 +36,45 @@ h3{font-size:14.5px;margin:0 0 8px;letter-spacing:.01em}
 .big{font:700 30px/1 ui-sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
 .note{color:var(--dim);font-size:12.5px;line-height:1.5;margin-top:9px}
 .note b{color:#c3d2e6;font-weight:600}
-.w{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;padding:3px 6px;border-radius:4px;border:1px solid}
-.hard{color:var(--hot);border-color:var(--hot);background:#2a1512}
-.mid{color:var(--warm);border-color:var(--warm);background:#2a2113}
-.soft{color:var(--dim);border-color:#3b4a63}
 table{width:100%;border-collapse:collapse;font-size:13px}
 th{text-align:left;font:700 10px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
  padding:0 8px 7px 0;border-bottom:1px solid var(--line)}
 td{padding:6px 8px 6px 0;border-bottom:1px solid #1d2637;vertical-align:middle}
 tr:last-child td{border:0}
 .num{text-align:right;font-variant-numeric:tabular-nums}
-.barcell{width:34%}
+.barcell{width:30%}
 .bar{height:9px;border-radius:3px;background:var(--acc)}
 .bar.warm{background:var(--warm)}
+.bar.hot{background:var(--hot)}
 .rail{display:flex;height:22px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:10px 0 6px}
 .rail div{height:100%}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--dim);margin-top:6px}
 .legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:0px}
-button{background:#1d2839;color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:7px 11px;
- font:600 12px/1 ui-sans-serif;cursor:pointer;margin:0 7px 7px 0}
-button:hover{border-color:var(--acc);color:#fff}
-button.on{background:#24344d;border-color:var(--acc)}
 .hidden{display:none}
 .card{background:#141c29;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;padding:12px 14px;margin-bottom:10px}
 .card h4{margin:0 0 6px;font-size:14px;line-height:1.35}
 .card p{margin:0 0 7px;font-size:13px;color:#cfdaea}
 .card p:last-child{margin-bottom:0}
-.card .src{font-size:11.5px;color:var(--dim)}
 .err{background:#2a1512;border:1px solid var(--hot);color:#f2c0bb;padding:10px 12px;border-radius:8px;font-size:13px}
 .small{font-size:12px;color:var(--dim)}
+details.dr{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:0}
+details.dr>summary{cursor:pointer;padding:14px 17px;list-style:none;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+details.dr>summary::-webkit-details-marker{display:none}
+details.dr>summary .lead{font-size:14.5px;font-weight:600;color:var(--ink);flex:1 1 320px}
+details.dr>summary .cue{font:700 10px/1 ui-sans-serif;letter-spacing:.12em;color:var(--acc)}
+details.dr[open]>summary{border-bottom:1px solid var(--line);margin-bottom:12px}
+details.dr>div{padding:0 17px 15px}
+.gauge{background:#101825;border:1px solid var(--line);border-radius:9px;padding:8px 6px 10px;text-align:center}
+.gauge .nm{font-size:11.5px;color:#c3d2e6;margin-top:2px;line-height:1.25}
+.gauge .bd{font:700 9px/1 ui-sans-serif;letter-spacing:.1em;margin-top:4px}
+.verdict{font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;padding:3px 6px;border-radius:4px;border:1px solid;white-space:nowrap}
+.v-add{color:var(--ok);border-color:var(--ok)} .v-hold{color:var(--warm);border-color:var(--warm)}
+.v-no{color:var(--dim);border-color:#3b4a63}
+.ftver{font:700 11px/1 ui-sans-serif;letter-spacing:.06em;color:var(--dim)}
+code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b2433;padding:1px 5px;border-radius:4px;color:#cfdaea}
 </style></head>
 <body>
-<div class="mockbar"><b>STAGING PREVIEW</b><span>v4 restructure proposal — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
+<div class="mockbar"><b>STAGING PREVIEW</b><span>v5 — revisions applied — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
 <div class="wrap">
 
 <h1>CASS — restructured board, live preview</h1>
@@ -73,14 +83,19 @@ button.on{background:#24344d;border-color:var(--acc)}
 
 <h2>About this page</h2>
 <div class="panel">
- This is the proposed layout running on real data. Three things differ from the live board. <b>The order changed</b>: state, then flow, then stock, instead of state jumping straight to institutional stress. <b>The registers are separated</b> into forecast, accumulation and thesis, because only one of the three can score. <b>Every model leg now has an instrument</b> — four named anchors per leg, so a leg's pressure reading can be argued with instead of asserted.
- <div class="note">The Daily Read is unchanged and keeps second position. Nothing was deleted: thesis cards are still on the board, folded, with their count printed in the header.</div>
+ This is the proposed layout running on real data. The order is now the order a reader should think in: <b>what happened today</b>, then <b>the model as a whole</b>, then <b>each leg</b>, then <b>the institutions underneath</b>. Daily Read is collapsible and the model now follows it directly. The audience fork card is gone. Provenance, which used to be its own card, is now a column in the data dictionary, where it answers a question at the moment you ask it.
+ <div class="note">Nothing was deleted from the record: the thesis pile is still counted, the wire ledger is still here, and the forecast register still scores in public. What was deleted is one card that explained the page to itself.</div>
 </div>
 
-<h2>Daily Read <span class="tag t-stock">KEPT AS IS</span></h2>
-<div id="dailyread"></div>
+<h2>1 · Daily Read</h2>
+<details class="dr" id="drwrap">
+  <summary><span class="cue" id="drcue">DAILY READ</span><span class="lead" id="drlead">Loading…</span><span class="small" id="drmeta"></span></summary>
+  <div id="dailyread"></div>
+</details>
+<div class="note">Collapsed by default, so the page opens on the model rather than on a wall of cards. The summary line carries the edition date, the card count and the lead headline, so nothing is hidden in substance — one click opens the stack. If you would rather it open expanded, that is one attribute on the <code>details</code> element.</div>
 
-<h2>1 · Model state <span class="tag t-state">UNCHANGED</span></h2>
+<h2>2 · The MGET model — macro to micro</h2>
+<div class="subhead">2.1 Macro · model state</div>
 <div class="grid3">
   <div class="panel">
     <h3>Legs fired <span class="tag t-state">STATE</span></h3>
@@ -104,11 +119,44 @@ button.on{background:#24344d;border-color:var(--acc)}
     <div class="kv"><span>Dials at Critical</span><b id="stockCrit">–</b></div>
     <div class="kv"><span>Dials at Warning</span><b id="stockWarn">–</b></div>
     <div class="kv"><span>Worst dial</span><b id="stockWorst">–</b></div>
-    <div class="note">The mean of the eight institutional dials. This is the number Governance has always been: derived, never hand-set, so it moves only when the dials move.</div>
+    <div class="note">The mean of the institutional dials. This is the number Governance has always been: derived, never hand-set, so it moves only when the dials move.</div>
   </div>
 </div>
 
-<h2>2 · Registers — what each pile can and cannot tell you</h2>
+<div class="subhead">2.2 Micro · what feeds each leg</div>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Four anchors per leg, each scored 0 to 5 on one written scale, and <b>load = (sum of anchors ÷ 4) × 20</b>. An anchor is something you can go and find, not a judgement about how bad things feel. The legs read in model order: M, G, E, T.</div>
+ <div class="grid2" style="margin-top:12px" id="legs-live"></div>
+ <div class="note" style="margin-top:14px">The computed column is what the anchors produce; the live board column is the hand-set number it would replace. <b>Where they differ, the anchor reading is the one with a paper trail</b> — and T's gap is the reason this instrument exists.</div>
+</div>
+
+<div class="subhead">2.3 Finest · institutional dials</div>
+<div id="gauges-grid" class="gaugegrid"></div>
+<div class="panel" style="margin-top:10px">
+ <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="num">Δ</th><th class="barcell">Load</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
+ <div class="note" id="dialNote"></div>
+</div>
+
+<h2>3 · Institutional coverage — where the dial set has holes</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Eight dials is not a list of institutions, it is a list of <b>the ones that happened to be scored</b>. Audited against four admission rules:</div>
+ <table style="margin-top:10px"><thead><tr><th style="width:20%">Rule</th><th>Test</th></tr></thead><tbody>
+  <tr><td><b>R1 · Gate</b></td><td>Does it sit astride a decision another actor must clear to complete a transfer of function? A gate is a veto, not an opinion.</td></tr>
+  <tr><td><b>R2 · Capture target</b></td><td>Would its compliance decide whether an enforcement action actually lands on the street, or whether a claim can be published at all?</td></tr>
+  <tr><td><b>R3 · Not already inside a dial</b></td><td>Sub-components do not get their own dial. The bar is not the courts; the accreditation office is not the university.</td></tr>
+  <tr><td><b>R4 · Scoreable</b></td><td>Can a hand-set score be defended at the monthly review from public observables? If you cannot name the observable, it is a mood, not a dial.</td></tr>
+ </tbody></table>
+ <table style="margin-top:18px"><thead><tr><th style="width:22%">Candidate</th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>Verdict</th></tr></thead><tbody id="gapBody"></tbody></table>
+ <div class="note" id="gapNote"></div>
+</div>
+<div class="panel" style="margin-top:10px">
+ <h3>The series break nobody would notice</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">Adding dials changes the mean by arithmetic, not by news. Media at 84, State Governments at 70 and Local Law Enforcement at 74 would take the set from 8 to 11: the <b>mean moves 78 → 78</b> (627 ÷ 8 = 78.4, 855 ÷ 11 = 77.7 — it rounds back to the same number), while <b>dials at Critical falls from 5 of 8 to 6 of 11</b>, or 63% to 55%. Nothing got calmer. Two Warning dials diluted the share.
+ <div class="note"><b>Recommendation:</b> store a set version with every reading (<code>8-dial-2026-10</code> → <code>11-dial-2026-11</code>) and never compare a mean or a Critical share across a set change. Add the gate rule with the dials: a mean published without a set version is a FAIL. Alternatively admit Media now and hold the other two as watchlist dials, scored on the same scale but excluded from the mean until a dated recalibration — which keeps the series continuous at the cost of a coverage hole that is at least stated.</div>
+ </div>
+</div>
+
+<h2>4 · Registers — what each pile can and cannot tell you</h2>
 <div class="panel">
  <div class="note" style="margin-top:0;color:#c3d2e6">
  <b>A forecast</b> is a bet: a claim with a price, a deadline and two possible endings. It is the only pile that can be right or wrong, so it is the only pile that scores.<br>
@@ -121,35 +169,29 @@ button.on{background:#24344d;border-color:var(--acc)}
  <div class="note">Rate is resolved divided by cards. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
 </div>
 
-<h2>3 · Leg instrument — what feeds M, G, E and T</h2>
+<h2>5 · MGET wire ledger</h2>
+<details class="dr" id="ledwrap">
+  <summary><span class="cue">WIRE LEDGER</span><span class="lead" id="ledlead">Loading…</span><span class="small" id="ledmeta"></span></summary>
+  <div id="ledger"></div>
+</details>
+<div class="note">Not dropped. The ledger is the running record of what the wire said against each leg — every entry is a dated observation with a verdict, and it is the only place the model can be caught being wrong on a Tuesday. It stays collapsible because it is 469 entries and grows by roughly ten a day; the newest twelve render here, the full run stays on the live board.</div>
+
+<h2>6 · Data dictionary</h2>
 <div class="panel">
- <div class="note" style="margin-top:0;color:#c3d2e6">Four anchors per leg, each scored 0 to 5 on one written scale, and <b>load = (sum of anchors ÷ 4) × 20</b>. An anchor is something you can go and find, not a judgement about how bad things feel.</div>
- <div class="grid2" style="margin-top:12px" id="legs"></div>
- <div class="note" style="margin-top:14px">The right-hand column is what the anchors compute; the live board column is the hand-set number it would replace. <b>Where they differ, the anchor reading is the one with a paper trail</b> — and T's gap is the reason this instrument exists.</div>
+ <div class="note" style="margin-top:0;color:#c3d2e6">Every term this board uses in a way that is not ordinary English, plus where each number comes from. The provenance column replaces the old "what is real on this page" card: it answers the same question next to the thing it describes, instead of in a separate box you have to remember.</div>
+ <table style="margin-top:12px"><thead><tr><th style="width:22%">Term</th><th>What it means</th><th style="width:20%">Where it comes from</th></tr></thead><tbody id="dictBody"></tbody></table>
 </div>
 
-<h2>4 · Institutional stress — eight dials</h2>
+<h2>7 · Change log</h2>
 <div class="panel">
- <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="num">Δ</th><th style="width:30%">Load</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
- <div class="note" id="dialNote"></div>
+ <div id="changelog">
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Five revisions to the restructure.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
+ </div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.0-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
-<h2>5 · The audience fork</h2>
-<div class="grid2">
- <div class="panel"><h3>Public build</h3>
-  <div class="note" style="margin-top:0">Daily Read, model state, institutional stress, movers. The forecast register stays visible because a board that scores itself in public is the product. Accumulation appears as one flow number with its kill condition beside it. Thesis cards and the anchor working stay internal.</div></div>
- <div class="panel"><h3>Internal build</h3>
-  <div class="note" style="margin-top:0">Everything above, plus the full anchor tables, the admitted-case list behind the flow number, and the register split with per-card resolution state. This is where the arguments about scoring happen.</div></div>
-</div>
-
-<h2>6 · What is real on this page</h2>
-<div class="panel">
- <div class="kv"><span>Model state, dials, registers, Daily Read</span><b>live from data.json</b></div>
- <div class="kv"><span>Accumulation flow</span><b>pinned — wired on the next build</b></div>
- <div class="kv"><span>Anchor scores</span><b>hand-coded instrument, one coder</b></div>
- <div class="note">The flow panel is the only figure not reading from the data layer yet. Everything else moves when the board updates. The anchor instrument is a proposal running on real inputs; it is not blind-coded, so it can show relative movement but cannot file or settle a card.</div>
-</div>
-
+<div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
 </div>
 <script>
 const FLOW={cases:21,weighted:42,channels:13,of:13,weeks:25,windowNote:"2026-05-07 to 2026-11-05",kill:"fewer than 2 cases per 90 days"};
@@ -159,18 +201,74 @@ const ANCHORS={
  E:{name:"Enclosure",anchors:[["Detention capacity","Expansion awarded and running at named facilities",4],["Domestic enforcement reach","Federal agents in cities over state objection; guard augmentation",4],["Statutory non-enforcement","Enumerated statutes published as not enforced",3],["Surveillance and data consolidation","Procurement merged across agencies",2]]},
  T:{name:"Turning",anchors:[["Conflict intensity","Sustained street confrontation, no sustained organised violence",4],["Elite turnover","14 of 15 eventually leave, median 64 days. Turnover is not defection",3],["Replacement authority articulated","D2: no organised body has named an alternative authority",1],["Transfer act completed","D4: no dated act has moved a constitutional function to a rival",0]]}
 };
+// Additions under the 2026-11-05 coverage audit. Scored on the dial scale, admitted to the mean only with a set version.
+const NEWDIALS=[["Media and Press",84,"Critical"],["State Governments",70,"Warning"],["Local Law Enforcement",74,"Warning"]];
+const GAPS=[
+ ["Media and press",'no formal veto — legitimation, not law','yes — decides whether a claim can be published at all','open','yes — pool access, ban coverage, ownership, WH static channel','ADD','add','84 · Critical. The one he named, and it clears R2 and R4 cleanly. R1 fails, which is the point: it is a capture target, not a gate.'],
+ ["State governments",'yes — certification, guard authorisation, state charges','yes — a governor can refuse to send the Guard','open','yes — AG suits, certification refusals, legislative actions','ADD','add','70 · Warning. The largest single hole. In a federal system the states are the body that either resists or ratifies, and nothing on the board scores them.'],
+ ["Local law enforcement",'no','yes — the street-level base of any enforcement programme','open','yes — cooperation refusals, deputisation, task-force participation','ADD','add','74 · Warning. Federal reach is already an Enclosure anchor; what is missing is whether the locals show up.'],
+ ["Statistical agencies",'no','yes — the state\'s ability to know anything','open','partial — publication suspensions are observable, quiet revisions are not','HOLD','hold','76-range estimate. Real, but R4 is shaky: the observable is the absence of a release, which is hard to date and easy to miss.'],
+ ["Universities and accreditation",'no','partial — accreditation is the gate, not the university','open','yes','HOLD','hold','72-range. Clears R4. Held because the capture runs through grant and visa channels already inside Congress and Education.'],
+ ["Intelligence community",'no','yes — but it is an instrument, not a gate','open','no — the informative readings are not public','REJECT','no','Scored inside Military Leadership, badly. Named as a known blind spot rather than solved by a dial.'],
+ ["Bar and legal profession",'no','partial','already inside Federal Courts','yes','COVERED','no','Sanctions and disciplinary action move through the courts dial.'],
+ ["Religious institutions",'no','no — legitimation only','open','yes','REJECT','no','Clears R4 and fails R1 and R2. The channel it carries is the media one.'],
+ ["Labour unions",'no','weakened','open','yes','REJECT','no','No scoreable gate left. Nothing to measure that would change a reading.'],
+ ["Hospitals and health systems",'no','partial','already inside Health Agencies','partial','COVERED','no',''],
+ ["Federal grant-making and OMB",'yes — money is a gate','yes','partly inside Congress','yes','HOLD','hold','The administrative money valve. Admit at the next full recalibration, not mid-cycle.'],
+ ["Rank-and-file military",'no','yes — the one that matters if T ever fires','open','no — not at monthly review cadence','BLIND SPOT','no','Military Leadership scores the leadership, not the force. Say so on the panel rather than paper over it.']
+];
+const DICT=[
+ ["Leg","One of four engines the model watches: Material, Governance, Enclosure, Turning. MGET names which engine is driving, never the outcome.","model definition, /space"],
+ ["Fired / absent","A leg's own operational state. Fired means its stated test has been met by a dated act. Absent means it has not, whatever the load reads.","model definition, /space"],
+ ["Load","Pressure on a leg, 0 to 100, computed as (sum of four anchors ÷ 4) × 20. Load is not state.","computed from the anchors"],
+ ["Anchor","One named, observable input to a leg, scored 0 to 5 on a written six-point scale. An anchor that cannot cite its observable may not score above 2.","hand-scored, one coder"],
+ ["Gate","Whether all four legs are fired. Closed means the model is not yet claiming the rupture; open means it is.","computed from legs fired"],
+ ["Phase","Which stage of the turning the model is in, with a dated close. The phase is a claim, so it can be early, late, or wrong.","model definition, /space"],
+ ["Flow","Administrative acts admitted into the accumulation census, weighted 3 statutory or contractual, 2 institutional arrangement, 1 episodic enforcement.","census, pinned on this page"],
+ ["Case","One admitted act at one named facility or agency, at announced scale. Admission happens on the trigger event, never on a later judgement of effect.","census, /space"],
+ ["Channel","One of thirteen institutional routes through which an admitted case can run. A channel closes when no new case lands in it for 90 days.","census, /space"],
+ ["Kill condition","The reading that would retire an instrument. For flow: fewer than 2 cases per 90 days. Without one, a tally can only ever grow.","protocol"],
+ ["Stock","The institutional dial readings beneath the model — the state of the institutions that would have to hold for continuity.","hand-set per review"],
+ ["Dial","One institution's captured-ness, 0 to 100, 0 slack to 100 captured. Hand-set at each review from public observables, with the derivation recorded.","hand-set, mget_state.json"],
+ ["Band","Calm below 60, Warning 60 to 74, Critical 75 and above. Derived from the score, never typed separately.","computed from score"],
+ ["Register","One of three piles the record divides into. Only the forecast register can score.","computed from card class"],
+ ["Card class","EVENT, PERSISTENCE or ROLLING (forecast, scoreable) · THESIS or MECHANISM (frame, not scoreable). Printed on every card.","card field"],
+ ["Resolution","hit or miss for a scored card; unresolved while open; excluded when it is not a public claim.","card field"],
+ ["Window / expiry","The dates a forecast is answerable between, and the date after which an unresolved card is a miss by rule. No window may be amended once its outcome is visible.","card field"],
+ ["Anchor grade","A to E, how well the card was anchored at registration: window, price, resolution threshold and source all stated in advance.","card field"],
+ ["Confidence","The registered price, 0 to 100. Not a probability of being right about everything — a price on one stated claim.","card field"],
+ ["Public status","public, internal or pending adjudication. Internal cards are withheld from the public export by name, not by silence.","card field"],
+ ["Accumulation","A tally with no deadline. Cannot be wrong, which is exactly why it is not scored.","definition"],
+ ["Thesis","A frame with no deadline. Nothing settles it, so it costs attention without ever resolving.","definition"],
+ ["Provenance","Where a number on this page comes from: live from the export, computed from other numbers, or hand-set by a named reviewer. Shown per term above and per panel on the page.","this build"]
+];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const bandCol=s=>s>=75?"var(--hot)":s>=60?"var(--warm)":"var(--ok)";
+function gauge(name,score,delta){
+  const r=44,cx=62,cy=66,circ=Math.PI*r;
+  const fill=circ*Math.max(0,Math.min(100,score))/100;
+  const th=Math.PI*(1-score/100);
+  const nx=cx+36*Math.cos(th), ny=cy-36*Math.sin(th);
+  return '<div class="gauge"><svg viewBox="0 0 124 84" width="100%" height="72" role="img" aria-label="'+esc(name)+' '+score+' of 100">'+
+    '<path d="M18,66 A44,44 0 0 1 106,66" fill="none" stroke="#1f2a3c" stroke-width="9" stroke-linecap="round"/>'+
+    '<path d="M18,66 A44,44 0 0 1 106,66" fill="none" stroke="'+bandCol(score)+'" stroke-width="9" stroke-linecap="round" stroke-dasharray="'+fill.toFixed(1)+' '+circ.toFixed(1)+'"/>'+
+    '<line x1="'+cx+'" y1="'+cy+'" x2="'+nx.toFixed(1)+'" y2="'+ny.toFixed(1)+'" stroke="#e6ecf5" stroke-width="2.6" stroke-linecap="round"/>'+
+    '<circle cx="'+cx+'" cy="'+cy+'" r="3.4" fill="#e6ecf5"/>'+
+    '<text x="'+cx+'" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#e6ecf5">'+score+'</text></svg>'+
+    '<div class="nm">'+esc(name)+'</div><div class="bd" style="color:'+bandCol(score)+'">'+(delta>0?"+"+delta:(delta||0))+'</div></div>';
+}
 function render(data){
   const m=data.mget||{}, th=m.threshold||{}, legs=m.legs||[];
-  $("stamp").textContent="Data layer generated "+((data.meta&&data.meta.generated)||data.generated||"unknown")+" · this page reads the same data.json the live board does.";
+  const gen=(data.meta&&data.meta.generated)||data.generated||"unknown";
+  $("stamp").textContent="Data layer generated "+gen+" · this page reads the same data.json the live board does.";
+  $("gstamp").textContent=gen;
   $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
   $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
   $("flowBig").textContent=FLOW.cases+" / "+FLOW.channels;
   $("flowW").textContent=FLOW.weighted; $("flowC").textContent=FLOW.channels+" of "+FLOW.of;
   $("flowWin").textContent=FLOW.weeks+" weeks";
 
-  // stock: institutional mean
   const inst=(data.institutions&&data.institutions.institutions)||[];
   const scores=inst.map(i=>Number(i.score)).filter(n=>!isNaN(n));
   const mean=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null;
@@ -179,14 +277,20 @@ function render(data){
   $("stockWarn").textContent=inst.filter(i=>i.band==="Warning").length;
   const worst=inst.slice().sort((a,b)=>b.score-a.score)[0];
   $("stockWorst").textContent=worst?(worst.name+" "+worst.score):"–";
+
+  $("gauges-grid").innerHTML=inst.map(i=>gauge(i.name,Number(i.score)||0,i.delta)).join("")+
+    NEWDIALS.map(x=>'<div class="gauge" style="border-style:dashed;opacity:.92"><svg viewBox="0 0 124 84" width="100%" height="72" role="img" aria-label="proposed dial '+esc(x[0])+'"><text x="62" y="42" text-anchor="middle" font-size="11" font-weight="700" fill="'+bandCol(x[1])+'">PROPOSED</text><text x="62" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#e6ecf5">'+x[1]+'</text></svg><div class="nm">'+esc(x[0])+'</div><div class="bd" style="color:var(--dim)">'+esc(x[2])+'</div></div>').join("");
   $("dialBody").innerHTML=inst.map(i=>{
     const s=Number(i.score)||0;
     return '<tr><td>'+esc(i.name)+'</td><td class="num">'+s+'</td><td class="num">'+(i.delta>0?"+"+i.delta:(i.delta||0))+
-      '</td><td class="barcell"><div class="bar '+(s>=75?"warm":"")+'" style="width:'+s+'%"></div></td><td>'+esc(i.band||"")+'</td></tr>';
-  }).join("");
-  $("dialNote").innerHTML="Reviewed "+esc((data.institutions||{}).reviewed||"–")+". Dials are hand-set per review, 0 calm to 100 captured. Their mean is the Governance leg — which is why Governance never needed its own anchor set.";
+      '</td><td class="barcell"><div class="bar '+(s>=75?"hot":s>=60?"warm":"")+'" style="width:'+s+'%"></div></td><td>'+esc(i.band||"")+'</td></tr>';
+  }).join("")+NEWDIALS.map(x=>'<tr><td>'+esc(x[0])+' <span class="small">proposed, not in the mean</span></td><td class="num">'+x[1]+
+    '</td><td class="num">new</td><td class="barcell"><div class="bar" style="width:'+x[1]+'%;opacity:.45"></div></td><td>'+esc(x[2])+'</td></tr>').join("");
+  $("dialNote").innerHTML="Reviewed "+esc((data.institutions||{}).reviewed||"–")+". Dials are hand-set per review, 0 calm to 100 captured. Their mean is the Governance leg — which is why Governance never needed its own anchor set. The three dashed gauges are proposed additions: scored, shown, and excluded from the mean until the set is versioned at a recalibration.";
 
-  // registers
+  $("gapBody").innerHTML=GAPS.map(g=>'<tr><td><b>'+esc(g[0])+'</b></td><td class="small">'+esc(g[1])+'</td><td class="small">'+esc(g[2])+'</td><td class="small">'+esc(g[3])+'</td><td class="small">'+esc(g[4])+'</td><td><span class="verdict v-'+(g[6]==="add"?"add":g[6]==="hold"?"hold":"no")+'">'+esc(g[5])+'</span></td></tr>').join("");
+  $("gapNote").innerHTML="Three additions clear all four rules and one of them is Media. Three are held rather than rejected: statistical agencies, accreditation, and the federal money valve are real gates whose observables are either hard to date or already partly inside another dial. Two are rejected for having no scoreable gate at all. One is named as a blind spot the dial set cannot fix: <b>Military Leadership scores the leadership, not the force</b>, and rank-and-file compliance is the single reading that would matter most if Turning ever fires.";
+
   const preds=(data.predictions||[]).filter(x=>String(x.resolution||"")!=="excluded");
   const cls=x=>String(x.card_class||"").toUpperCase();
   const groups=[
@@ -200,11 +304,13 @@ function render(data){
   groups.forEach(g=>{
     const set=preds.filter(x=>g.f(cls(x)));
     const cards=set.length;
-    const res=set.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+    const eligible=set.filter(x=>x.skill_eligible!==false);
+    const res=eligible.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
     const shown=(g.k==="B")?FLOW.cases:cards;
-    const rate=cards?Math.round(res/cards*100):0;
+    const rate=eligible.length?Math.round(res/eligible.length*100):0;
     counts[g.k]=shown;
-    rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div></td><td class="num">'+
+    const sub=(g.k==="A")?("<div class=\"small\">"+(cards-eligible.length)+" of these are ROLLING and cannot score (skill_eligible false) until a threshold action is registered, so the rate is counted over "+eligible.length+".</div>"):"";
+    rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div>'+sub+'</td><td class="num">'+
       shown+'</td><td class="num">'+(g.k==="B"?"—":res)+'</td><td class="num">'+
       (g.k==="B"?"n/a":rate+"%")+'</td><td class="small">'+
       (g.k==="A"?"Cards that reached an ending are scored; the rest are open, not failed.":
@@ -220,16 +326,15 @@ function render(data){
   $("rail").innerHTML=rail;
   $("legend").innerHTML=leg+'<span>'+preds.length+' forecast cards in this export</span>';
 
-  // anchors
   let out="";
-  Object.keys(ANCHORS).forEach(k=>{
+  ["M","G","E","T"].forEach(k=>{
     const a=ANCHORS[k];
     const sum=a.anchors.reduce((s,x)=>s+x[2],0);
     const load=(k==="G"&&mean!=null)?mean:Math.round(sum/4*20);
     const live=legs.find(l=>l.letter===k);
     const lv=live&&live.score!=null?live.score:null;
     const gap=lv==null?null:load-lv;
-    out+='<div class="panel"><h3>'+k+" — "+esc(a.name)+'<span class="tag '+(k==="T"?"t-flow":"t-stock")+'">'+(k==="T"?"INSTRUMENT":"INSTRUMENT")+'</span></h3>'+
+    out+='<div class="panel"><h3>'+k+" — "+esc(a.name)+'<span class="tag t-stock">INSTRUMENT</span></h3>'+
       '<div class="kv"><span>Computed load</span><b>'+load+'</b></div>'+
       '<div class="kv"><span>Live board reads</span><b>'+(lv==null?"–":lv)+'</b></div>'+
       '<div class="kv"><span>Gap</span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
@@ -237,18 +342,33 @@ function render(data){
       a.anchors.map(x=>'<tr><td>'+esc(x[0])+'<div class="small">'+esc(x[1])+'</div></td><td class="num">'+x[2]+'</td></tr>').join("")+
       '</tbody></table>'+
       (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs.</div>':
-       k==="G"?'<div class="note">The dials are the anchors here. Its computed load and the live board agree by construction.</div>':
+       k==="G"?'<div class="note">The dials below are the anchors here. Its computed load and the live board agree by construction — which is the counter-example that shows the method works.</div>':
        '<div class="note">Within a few points of the hand-set number, which is what an instrument should do when the hand-set number was reasonable.</div>')+
       '</div>';
   });
-  $("legs").innerHTML=out;
+  $("legs-live").innerHTML=out;
 
-  // daily read
-  const dr=data.daily_read||{};
-  const cards=dr.cards||[];
-  $("dailyread").innerHTML=(dr.date?'<div class="small" style="margin-bottom:8px">Edition '+esc(dr.date)+'</div>':'')+
-    (cards.length?cards.map(c=>'<div class="card"><h4>'+esc(c.title||"")+'</h4>'+String(c.html||"")+'</div>').join(""):
+  const dr=data.daily_read||{}; const cards=dr.cards||[];
+  const first=cards[0]||{};
+  $("drcue").textContent="DAILY READ";
+  $("drlead").textContent=first.title||(cards.length?cards.length+" cards":"No edition");
+  $("drmeta").textContent=(dr.date?"Edition "+dr.date+" · ":"")+cards.length+" cards";
+  $("dailyread").innerHTML=(cards.length?cards.map(c=>'<div class="card"><h4>'+esc(c.title||"")+'</h4>'+String(c.html||"")+'</div>').join(""):
     '<div class="panel">No Daily Read in this export.</div>');
+
+  const led=(data.mget_ledger||[]).slice().reverse();
+  const newest=led.slice(0,12);
+  $("ledlead").textContent=(data.mget_ledger||[]).length+" entries · newest "+((newest[0]&&newest[0].date)||"–");
+  $("ledmeta").textContent="showing 12";
+  $("ledger").innerHTML=newest.map(e=>{
+    const v=String(e.verdict||"").toLowerCase();
+    const col=v==="confirms"?"var(--ok)":v==="contradicts"?"var(--hot)":"var(--warm)";
+    return '<div class="card" style="border-left-color:'+col+'"><h4>'+esc(e.date||"")+(e.time_et?' · '+esc(e.time_et):'')+
+      ' <span class="small" style="color:'+col+';text-transform:uppercase;letter-spacing:.08em">'+esc(e.verdict||"")+'</span>'+
+      (e.track?' <span class="small">· '+esc(e.track)+'</span>':'')+'</h4><p class="src">'+esc(String(e.reasoning||"").slice(0,240))+'</p></div>';
+  }).join("");
+
+  $("dictBody").innerHTML=DICT.map(r=>'<tr><td><b>'+esc(r[0])+'</b></td><td class="small">'+esc(r[1])+'</td><td class="small">'+esc(r[2])+'</td></tr>').join("");
 }
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(render).catch(e=>{
   const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
