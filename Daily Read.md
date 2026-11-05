@@ -2,6 +2,10 @@
 
 DATE: 2026-11-04
 SUMMARY:
+- [21:50] Texas Republicans move to strip the powers of the office they just lost
+- [21:40] Massie forces a floor vote on impeaching the defense secretary
+- [21:30] The promised escalation did not arrive on its announced day
+- [21:20] The blame war hardens into two camps
 - [09:15] The wave was defections, not new voters
 - [09:10] Texas sends a Democrat to the Senate for the first time in a generation
 - [09:05] He accepted the count and refused the verdict, in the same hour
@@ -16,6 +20,74 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>[21:50] Texas Republicans move to strip the powers of the office they just lost</summary>
+
+<p><b>What happened.</b> Texas Senate Republicans met Wednesday afternoon to discuss reorganising their chamber: electing a majority leader and transferring the lieutenant governor's authority over committees, bill referrals and the floor calendar. Vikki Goodwin, who beat Dan Patrick on Tuesday, will still preside. Her office will no longer run the Senate.</p>
+
+<p><b>Why it matters.</b> In Texas, those powers are not written into the constitution. They are delegated by the chamber's own rules, which members adopt at the start of each session. A majority can take them back without challenging a vote, filing a lawsuit, or alleging fraud. The election stands. The office becomes ceremonial.</p>
+
+<p><b>The pattern.</b> It is the same manoeuvre at a lower level that the White House reached for at the federal level, where the answer was the veto. Both accept the result and both move power out of its reach. One is counted and reported; the other is a rules vote on a Wednesday.</p>
+
+<p><b>What history says.</b> North Carolina did this to a governor's powers in 2016 and Wisconsin did it to a governor's in 2018. In both cases it slowed the incoming administration without reversing the election, and in both cases voters eventually answered it at the ballot.</p>
+
+<p><b>What we're watching next.</b> Whether the caucus vote is written into the rules in January, or quietly dropped. The formal adoption is not until the next session opens.</p>
+
+<p>Sources: <a href="https://x.com/scottbraddock/status/2118025592906129718">Quorum Report</a>, <a href="https://www.texastribune.org/2026/11/03/texas-house-legislature-outcomes-control-republicans-democrats-2026/">Texas Tribune</a></p>
+
+</details>
+
+<details open>
+<summary>[21:40] Massie forces a floor vote on impeaching the defense secretary</summary>
+
+<p><b>What happened.</b> Thomas Massie said he will bring a privileged resolution to impeach Pete Hegseth to the floor on Monday 9 November, and named the one thing that would stop it: resignation. Hegseth called it a political stunt.</p>
+
+<p><b>Why it matters.</b> A privileged resolution cannot be buried in committee. Leadership has one tool left, and it is the calendar. That matters because leadership already used it once, cancelling a voting day in September to keep this resolution off the floor.</p>
+
+<p><b>The pattern.</b> The article of impeachment that has been circulating concerns the war and the orders behind it, not personal conduct. A forced vote converts an argument into a record, and a record survives the session that made it.</p>
+
+<p><b>What history says.</b> Forced impeachment votes have failed before and still mattered: they set down who was willing to say what, on the record, before an election. What is different here is the timetable. The vote lands with two months left in a Congress that has already been repudiated.</p>
+
+<p><b>What we're watching next.</b> Whether leadership schedules it, moves it, or lets it fail on a procedural motion. And whether anyone else signs on before Monday.</p>
+
+<p>Sources: <a href="https://www.courier-journal.com/story/news/politics/2026/11/04/massie-plans-house-vote-to-impeach-pete-hegseth-as-congress-returns/92611524007/">Courier-Journal</a></p>
+
+</details>
+
+<details open>
+<summary>[21:30] The promised escalation did not arrive on its announced day</summary>
+
+<p><b>What happened.</b> For two weeks, Gulf governments had been told to brace for a short, intense round of strikes on Iran as early as 4 November. The president said Wednesday he had no immediate plans for more strikes. No attack was reported.</p>
+
+<p><b>Why it matters.</b> The date was never a military secret. It was briefed outward to allies, which is what you do when the deadline is meant to be heard rather than kept.</p>
+
+<p><b>The pattern.</b> Israel's preparations were dated 3 November and are real: hospital parking structures emptied, northern shelters opened. That half of the sequence is regional and was set before the American vote. The American half simply did not arrive on schedule.</p>
+
+<p><b>What history says.</b> Ultimatums built around a domestic calendar usually slide once the calendar turns. The 1964 Tonkin reprisal and the 1998 Desert Fox timing both show the opposite pull: a strike already planned finds a reason after the vote too.</p>
+
+<p><b>What we're watching next.</b> The next ten days. If the strikes resume before the new Congress is seated, the timing was political. If the window closes quietly, it was pressure.</p>
+
+<p>Sources: <a href="https://www.bloomberg.com/news/articles/2026-11-04/trump-plays-down-prospect-of-strikes-on-iran-after-midterm-rout">Bloomberg</a>, <a href="https://eaworldview.com/2026/11/us-war-on-iran-trump-threatens-strikes-november-4/">EA WorldView</a></p>
+
+</details>
+
+<details open>
+<summary>[21:20] The blame war hardens into two camps</summary>
+
+<p><b>What happened.</b> A day of recriminations consolidated into something more organised than complaint. Matt Walsh called the result a catastrophe of historic proportions and the president an eighty-year-old lame duck, blaming the Iran war. Alex Jones declared war on him. Nancy Mace told Mark Levin to shut up about his beloved war. The president blamed Fox News.</p>
+
+<p><b>Why it matters.</b> Two explanations are now competing inside the same movement. One blames the war and the cost of living. The other blames betrayal of the base. They lead to opposite strategies: end the war, or intensify.</p>
+
+<p><b>The pattern.</b> Nobody in the argument blames the voters. Every explanation puts the cause somewhere else, which means the result is being treated as a failure of execution, not a verdict.</p>
+
+<p><b>What history says.</b> After 2006 the same argument ran through the conservative press and resolved toward escalation, with the 2007 surge. After 2012 it resolved toward a rebrand. Which way this one goes depends on who wins the next month inside the media apparatus, not inside the party.</p>
+
+<p><b>What we're watching next.</b> Which camp gets the bookings and the president's ear, and whether the war-blamers or the betrayal-blamers set the language by the weekend.</p>
+
+<p>Sources: <a href="https://www.wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout/">Wired</a>, <a href="https://www.washingtonpost.com/business/2026/11/04/maga-media-civil-war-erupts-over-whos-blame-gops-thrashing/">Washington Post</a></p>
+
+</details>
 
 <details open>
 <summary>[09:15] The wave was defections, not new voters</summary>
