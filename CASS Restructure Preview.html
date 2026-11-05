@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CASS v4 — Restructure Preview (STAGING)</title>
+<style>
+:root{
+--bg:#0e1420; --panel:#151d2b; --line:#2c3a52; --ink:#e6ecf5; --dim:#8fa1bb;
+--hot:#e2564d; --warm:#d99a3c; --ok:#4fae7c; --acc:#5b9bd5; --vio:#8a7fd0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",ui-sans-serif,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px}
+.mockbar{position:sticky;top:0;z-index:9;background:#0f2a33;border-bottom:1px solid #1f5468;color:#a9ddec;
+ font:600 12.5px/1.4 ui-sans-serif;padding:9px 20px;letter-spacing:.02em;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.mockbar b{color:#fff;letter-spacing:.08em}
+.mockbar span{font-weight:400;opacity:.9}
+.mockbar a{color:#a9ddec}
+h1{font-size:27px;line-height:1.2;margin:26px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--dim);font-size:14px;margin-bottom:26px}
+h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);
+ margin:38px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line);font-weight:700}
+h3{font-size:14.5px;margin:0 0 8px;letter-spacing:.01em}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
+.grid3{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:10px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:820px){.grid3,.grid2{grid-template-columns:1fr}}
+.tag{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;padding:4px 7px;border-radius:4px;
+ border:1px solid currentColor;vertical-align:2px;margin-left:7px}
+.t-state{color:var(--vio)} .t-flow{color:var(--warm)} .t-stock{color:var(--acc)}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dotted #253147;font-size:13.5px}
+.kv:last-child{border:0}
+.kv b{font-variant-numeric:tabular-nums}
+.big{font:700 30px/1 ui-sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.note{color:var(--dim);font-size:12.5px;line-height:1.5;margin-top:9px}
+.note b{color:#c3d2e6;font-weight:600}
+.w{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;padding:3px 6px;border-radius:4px;border:1px solid}
+.hard{color:var(--hot);border-color:var(--hot);background:#2a1512}
+.mid{color:var(--warm);border-color:var(--warm);background:#2a2113}
+.soft{color:var(--dim);border-color:#3b4a63}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font:700 10px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
+ padding:0 8px 7px 0;border-bottom:1px solid var(--line)}
+td{padding:6px 8px 6px 0;border-bottom:1px solid #1d2637;vertical-align:middle}
+tr:last-child td{border:0}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.barcell{width:34%}
+.bar{height:9px;border-radius:3px;background:var(--acc)}
+.bar.warm{background:var(--warm)}
+.rail{display:flex;height:22px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:10px 0 6px}
+.rail div{height:100%}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--dim);margin-top:6px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:0px}
+button{background:#1d2839;color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:7px 11px;
+ font:600 12px/1 ui-sans-serif;cursor:pointer;margin:0 7px 7px 0}
+button:hover{border-color:var(--acc);color:#fff}
+button.on{background:#24344d;border-color:var(--acc)}
+.hidden{display:none}
+.card{background:#141c29;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;padding:12px 14px;margin-bottom:10px}
+.card h4{margin:0 0 6px;font-size:14px;line-height:1.35}
+.card p{margin:0 0 7px;font-size:13px;color:#cfdaea}
+.card p:last-child{margin-bottom:0}
+.card .src{font-size:11.5px;color:var(--dim)}
+.err{background:#2a1512;border:1px solid var(--hot);color:#f2c0bb;padding:10px 12px;border-radius:8px;font-size:13px}
+.small{font-size:12px;color:var(--dim)}
+</style></head>
+<body>
+<div class="mockbar"><b>STAGING PREVIEW</b><span>v4 restructure proposal — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
+<div class="wrap">
+
+<h1>CASS — restructured board, live preview</h1>
+<div class="sub" id="stamp">Loading the data layer…</div>
+<div id="fail" class="err hidden"></div>
+
+<h2>About this page</h2>
+<div class="panel">
+ This is the proposed layout running on real data. Three things differ from the live board. <b>The order changed</b>: state, then flow, then stock, instead of state jumping straight to institutional stress. <b>The registers are separated</b> into forecast, accumulation and thesis, because only one of the three can score. <b>Every model leg now has an instrument</b> — four named anchors per leg, so a leg's pressure reading can be argued with instead of asserted.
+ <div class="note">The Daily Read is unchanged and keeps second position. Nothing was deleted: thesis cards are still on the board, folded, with their count printed in the header.</div>
+</div>
+
+<h2>Daily Read <span class="tag t-stock">KEPT AS IS</span></h2>
+<div id="dailyread"></div>
+
+<h2>1 · Model state <span class="tag t-state">UNCHANGED</span></h2>
+<div class="grid3">
+  <div class="panel">
+    <h3>Legs fired <span class="tag t-state">STATE</span></h3>
+    <div class="big" id="legsBig">–</div>
+    <div class="kv"><span>Gate</span><b id="gate">–</b></div>
+    <div class="kv"><span>Phase</span><b id="phase">–</b></div>
+    <div class="kv"><span>Phase closes</span><b id="closes">–</b></div>
+    <div class="note">A count of legs in the <b>fired</b> state. Never a count of load — a leg can read 80 and still be absent, and that distinction is the whole model.</div>
+  </div>
+  <div class="panel">
+    <h3>Accumulation flow <span class="tag t-flow">FLOW</span></h3>
+    <div class="big" id="flowBig">–</div>
+    <div class="kv"><span>Weighted total</span><b id="flowW">–</b></div>
+    <div class="kv"><span>Channels with a case</span><b id="flowC">–</b></div>
+    <div class="kv"><span>Window</span><b id="flowWin">–</b></div>
+    <div class="note"><b>New panel.</b> Administrative acts admitted per week, weighted 3 for statutory or contractual, 2 for institutional arrangement, 1 for episodic enforcement. It cannot be a bet, because it has no deadline — which is why it carries its own kill condition: fewer than 2 cases per 90 days.</div>
+  </div>
+  <div class="panel">
+    <h3>Institutional stock <span class="tag t-stock">STOCK</span></h3>
+    <div class="big" id="stockBig">–</div>
+    <div class="kv"><span>Dials at Critical</span><b id="stockCrit">–</b></div>
+    <div class="kv"><span>Dials at Warning</span><b id="stockWarn">–</b></div>
+    <div class="kv"><span>Worst dial</span><b id="stockWorst">–</b></div>
+    <div class="note">The mean of the eight institutional dials. This is the number Governance has always been: derived, never hand-set, so it moves only when the dials move.</div>
+  </div>
+</div>
+
+<h2>2 · Registers — what each pile can and cannot tell you</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">
+ <b>A forecast</b> is a bet: a claim with a price, a deadline and two possible endings. It is the only pile that can be right or wrong, so it is the only pile that scores.<br>
+ <b>An accumulation</b> is a tally: no deadline, no resolution, just a count that goes up. Useful as a measurement, useless as a prediction — a tally can never be wrong.<br>
+ <b>A thesis</b> is a frame: an argument about how the system works. No deadline either, so nothing settles it, so it sits there burning attention while looking unfinished.
+ </div>
+ <div class="rail" id="rail"></div>
+ <div class="legend" id="legend"></div>
+ <table style="margin-top:16px"><thead><tr><th>Register</th><th class="num">Cards</th><th class="num">Resolved</th><th class="num">Rate</th><th>What a low rate means</th></tr></thead><tbody id="regBody"></tbody></table>
+ <div class="note">Rate is resolved divided by cards. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
+</div>
+
+<h2>3 · Leg instrument — what feeds M, G, E and T</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Four anchors per leg, each scored 0 to 5 on one written scale, and <b>load = (sum of anchors ÷ 4) × 20</b>. An anchor is something you can go and find, not a judgement about how bad things feel.</div>
+ <div class="grid2" style="margin-top:12px" id="legs"></div>
+ <div class="note" style="margin-top:14px">The right-hand column is what the anchors compute; the live board column is the hand-set number it would replace. <b>Where they differ, the anchor reading is the one with a paper trail</b> — and T's gap is the reason this instrument exists.</div>
+</div>
+
+<h2>4 · Institutional stress — eight dials</h2>
+<div class="panel">
+ <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="num">Δ</th><th style="width:30%">Load</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
+ <div class="note" id="dialNote"></div>
+</div>
+
+<h2>5 · The audience fork</h2>
+<div class="grid2">
+ <div class="panel"><h3>Public build</h3>
+  <div class="note" style="margin-top:0">Daily Read, model state, institutional stress, movers. The forecast register stays visible because a board that scores itself in public is the product. Accumulation appears as one flow number with its kill condition beside it. Thesis cards and the anchor working stay internal.</div></div>
+ <div class="panel"><h3>Internal build</h3>
+  <div class="note" style="margin-top:0">Everything above, plus the full anchor tables, the admitted-case list behind the flow number, and the register split with per-card resolution state. This is where the arguments about scoring happen.</div></div>
+</div>
+
+<h2>6 · What is real on this page</h2>
+<div class="panel">
+ <div class="kv"><span>Model state, dials, registers, Daily Read</span><b>live from data.json</b></div>
+ <div class="kv"><span>Accumulation flow</span><b>pinned — wired on the next build</b></div>
+ <div class="kv"><span>Anchor scores</span><b>hand-coded instrument, one coder</b></div>
+ <div class="note">The flow panel is the only figure not reading from the data layer yet. Everything else moves when the board updates. The anchor instrument is a proposal running on real inputs; it is not blind-coded, so it can show relative movement but cannot file or settle a card.</div>
+</div>
+
+</div>
+<script>
+const FLOW={cases:21,weighted:42,channels:13,of:13,weeks:25,windowNote:"2026-05-07 to 2026-11-05",kill:"fewer than 2 cases per 90 days"};
+const ANCHORS={
+ M:{name:"Material",anchors:[["Energy chokepoint","Hormuz constrained, not closed. Tanker war-risk premia elevated but transit continuing",3],["Cost reaching household budgets","Cost is the binding constraint before any physical shortage shows in a statistic",4],["Fiscal and reserve buffer","SPR drawdown continues. Strain in the buffer, not yet in the market",3],["Food and fertiliser throughput","Fertiliser supply stress has not become a food shortage",3]]},
+ G:{name:"Governance",anchors:[["Federal courts","81 on the dial. Still enjoining, docket now aimed at election administration itself",4],["Congress","72. Majority passive through the strike clock",4],["Election administration","Certification contested in multiple states; officials under subpoena",4],["Civil service and military","Compliance intact at the top, friction at the edges",3]]},
+ E:{name:"Enclosure",anchors:[["Detention capacity","Expansion awarded and running at named facilities",4],["Domestic enforcement reach","Federal agents in cities over state objection; guard augmentation",4],["Statutory non-enforcement","Enumerated statutes published as not enforced",3],["Surveillance and data consolidation","Procurement merged across agencies",2]]},
+ T:{name:"Turning",anchors:[["Conflict intensity","Sustained street confrontation, no sustained organised violence",4],["Elite turnover","14 of 15 eventually leave, median 64 days. Turnover is not defection",3],["Replacement authority articulated","D2: no organised body has named an alternative authority",1],["Transfer act completed","D4: no dated act has moved a constitutional function to a rival",0]]}
+};
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+function render(data){
+  const m=data.mget||{}, th=m.threshold||{}, legs=m.legs||[];
+  $("stamp").textContent="Data layer generated "+((data.meta&&data.meta.generated)||data.generated||"unknown")+" · this page reads the same data.json the live board does.";
+  $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
+  $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
+  $("flowBig").textContent=FLOW.cases+" / "+FLOW.channels;
+  $("flowW").textContent=FLOW.weighted; $("flowC").textContent=FLOW.channels+" of "+FLOW.of;
+  $("flowWin").textContent=FLOW.weeks+" weeks";
+
+  // stock: institutional mean
+  const inst=(data.institutions&&data.institutions.institutions)||[];
+  const scores=inst.map(i=>Number(i.score)).filter(n=>!isNaN(n));
+  const mean=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null;
+  $("stockBig").textContent=mean==null?"–":mean;
+  $("stockCrit").textContent=inst.filter(i=>i.band==="Critical").length;
+  $("stockWarn").textContent=inst.filter(i=>i.band==="Warning").length;
+  const worst=inst.slice().sort((a,b)=>b.score-a.score)[0];
+  $("stockWorst").textContent=worst?(worst.name+" "+worst.score):"–";
+  $("dialBody").innerHTML=inst.map(i=>{
+    const s=Number(i.score)||0;
+    return '<tr><td>'+esc(i.name)+'</td><td class="num">'+s+'</td><td class="num">'+(i.delta>0?"+"+i.delta:(i.delta||0))+
+      '</td><td class="barcell"><div class="bar '+(s>=75?"warm":"")+'" style="width:'+s+'%"></div></td><td>'+esc(i.band||"")+'</td></tr>';
+  }).join("");
+  $("dialNote").innerHTML="Reviewed "+esc((data.institutions||{}).reviewed||"–")+". Dials are hand-set per review, 0 calm to 100 captured. Their mean is the Governance leg — which is why Governance never needed its own anchor set.";
+
+  // registers
+  const preds=(data.predictions||[]).filter(x=>String(x.resolution||"")!=="excluded");
+  const cls=x=>String(x.card_class||"").toUpperCase();
+  const groups=[
+    {k:"A",n:"Forecast",desc:"A bet with a deadline. The only pile that scores.",f:c=>c==="EVENT"||c==="PERSISTENCE"||c==="ROLLING"},
+    {k:"B",n:"Accumulation",desc:"A tally with no deadline. Cannot be wrong.",f:()=>false},
+    {k:"C",n:"Thesis",desc:"A frame with no deadline. Nothing settles it.",f:c=>c==="THESIS"||c==="MECHANISM"}
+  ];
+  let rows="",rail="",leg="";
+  const colors={A:"#5b9bd5",B:"#d99a3c",C:"#8a7fd0"};
+  const counts={};
+  groups.forEach(g=>{
+    const set=preds.filter(x=>g.f(cls(x)));
+    const cards=set.length;
+    const res=set.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+    const shown=(g.k==="B")?FLOW.cases:cards;
+    const rate=cards?Math.round(res/cards*100):0;
+    counts[g.k]=shown;
+    rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div></td><td class="num">'+
+      shown+'</td><td class="num">'+(g.k==="B"?"—":res)+'</td><td class="num">'+
+      (g.k==="B"?"n/a":rate+"%")+'</td><td class="small">'+
+      (g.k==="A"?"Cards that reached an ending are scored; the rest are open, not failed.":
+       g.k==="B"?"No resolution is possible by construction. Its usefulness is the rate of change and its kill condition.":
+       "0% here is a fact about how the claim was written, not about the world. Rewrite as a bet, or retire it.")+'</td></tr>';
+  });
+  const tot=Math.max(1,counts.A+counts.B+counts.C);
+  ["A","B","C"].forEach(k=>{
+    rail+='<div style="width:'+(counts[k]/tot*100).toFixed(1)+'%;background:'+colors[k]+'"></div>';
+    leg+='<span><i style="background:'+colors[k]+'"></i>'+k+" "+esc(groups.find(g=>g.k===k).n)+' ('+counts[k]+')</span>';
+  });
+  $("regBody").innerHTML=rows;
+  $("rail").innerHTML=rail;
+  $("legend").innerHTML=leg+'<span>'+preds.length+' forecast cards in this export</span>';
+
+  // anchors
+  let out="";
+  Object.keys(ANCHORS).forEach(k=>{
+    const a=ANCHORS[k];
+    const sum=a.anchors.reduce((s,x)=>s+x[2],0);
+    const load=(k==="G"&&mean!=null)?mean:Math.round(sum/4*20);
+    const live=legs.find(l=>l.letter===k);
+    const lv=live&&live.score!=null?live.score:null;
+    const gap=lv==null?null:load-lv;
+    out+='<div class="panel"><h3>'+k+" — "+esc(a.name)+'<span class="tag '+(k==="T"?"t-flow":"t-stock")+'">'+(k==="T"?"INSTRUMENT":"INSTRUMENT")+'</span></h3>'+
+      '<div class="kv"><span>Computed load</span><b>'+load+'</b></div>'+
+      '<div class="kv"><span>Live board reads</span><b>'+(lv==null?"–":lv)+'</b></div>'+
+      '<div class="kv"><span>Gap</span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
+      '<table style="margin-top:10px"><thead><tr><th>Anchor</th><th class="num">0-5</th></tr></thead><tbody>'+
+      a.anchors.map(x=>'<tr><td>'+esc(x[0])+'<div class="small">'+esc(x[1])+'</div></td><td class="num">'+x[2]+'</td></tr>').join("")+
+      '</tbody></table>'+
+      (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs.</div>':
+       k==="G"?'<div class="note">The dials are the anchors here. Its computed load and the live board agree by construction.</div>':
+       '<div class="note">Within a few points of the hand-set number, which is what an instrument should do when the hand-set number was reasonable.</div>')+
+      '</div>';
+  });
+  $("legs").innerHTML=out;
+
+  // daily read
+  const dr=data.daily_read||{};
+  const cards=dr.cards||[];
+  $("dailyread").innerHTML=(dr.date?'<div class="small" style="margin-bottom:8px">Edition '+esc(dr.date)+'</div>':'')+
+    (cards.length?cards.map(c=>'<div class="card"><h4>'+esc(c.title||"")+'</h4>'+String(c.html||"")+'</div>').join(""):
+    '<div class="panel">No Daily Read in this export.</div>');
+}
+fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(render).catch(e=>{
+  const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
+  $("stamp").textContent="Static shell only.";
+});
+</script>
+</body></html>
