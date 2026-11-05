@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CASS v4 — Restructure Mock (INTERNAL)</title>
+<style>
+:root{
+--bg:#0e1420; --panel:#151d2b; --line:#2c3a52; --ink:#e6ecf5; --dim:#8fa1bb;
+--hot:#e2564d; --warm:#d99a3c; --ok:#4fae7c; --acc:#5b9bd5; --vio:#8a7fd0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",ui-sans-serif,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px}
+.mockbar{position:sticky;top:0;z-index:9;background:#3a2a0e;border-bottom:1px solid #6b5220;color:#f0d9a8;
+ font:600 12.5px/1.4 ui-sans-serif;padding:9px 20px;letter-spacing:.02em;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.mockbar b{color:#fff;letter-spacing:.08em}
+.mockbar span{font-weight:400;opacity:.9}
+h1{font-size:27px;line-height:1.2;margin:26px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--dim);font-size:14px;margin-bottom:26px}
+h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);
+ margin:38px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line);font-weight:700}
+h3{font-size:14.5px;margin:0 0 8px;letter-spacing:.01em}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
+.grid3{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:10px}
+@media(max-width:820px){.grid3{grid-template-columns:1fr}}
+.flow{position:relative}
+.tag{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;padding:4px 7px;border-radius:4px;
+ border:1px solid currentColor;vertical-align:2px;margin-left:7px}
+.t-state{color:var(--vio)} .t-flow{color:var(--warm)} .t-stock{color:var(--acc)}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dotted #253147;font-size:13.5px}
+.kv:last-child{border:0}
+.kv b{font-variant-numeric:tabular-nums}
+.big{font:700 30px/1 ui-sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.note{color:var(--dim);font-size:12.5px;line-height:1.5;margin-top:9px}
+.note b{color:#c3d2e6;font-weight:600}
+.w{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;padding:3px 6px;border-radius:4px;border:1px solid}
+.hard{color:var(--hot);border-color:var(--hot);background:#2a1512}
+.mid{color:var(--warm);border-color:var(--warm);background:#2a2113}
+.soft{color:var(--dim);border-color:#3b4a63}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font:700 10px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
+ padding:0 8px 7px 0;border-bottom:1px solid var(--line)}
+td{padding:6px 8px 6px 0;border-bottom:1px solid #1d2637;vertical-align:middle}
+tr:last-child td{border:0}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.barcell{width:38%}
+.bar{height:9px;border-radius:3px;background:var(--acc)}
+.bar.warm{background:var(--warm)}
+.rail{display:flex;height:22px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:10px 0 6px}
+.rail div{height:100%}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--dim);margin-top:6px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:0px}
+button{background:#1d2839;color:var(--ink);border:1px solid var(--line);border-radius:7px;padding:7px 11px;
+ font:600 12px/1 ui-sans-serif;cursor:pointer;margin:0 7px 7px 0}
+button:hover{border-color:var(--acc);color:#fff}
+button.on{background:#24344d;border-color:var(--acc)}
+.rev{background:#141c29;border:1px solid var(--line);border-left:3px solid var(--warm);border-radius:8px;padding:12px 14px;margin-bottom:9px}
+.rev .id{font:700 11px/1 ui-monospace,monospace;color:var(--warm);letter-spacing:.06em}
+.rev .q{font-size:13.5px;margin:6px 0 0}
+.rev .opt{font-size:12.5px;color:var(--dim);margin-top:6px}
+.rev .opt b{color:#c3d2e6}
+.hidden{display:none}
+.fold{opacity:.55;font-style:italic}
+.chip{font:700 10px/1 ui-sans-serif;letter-spacing:.09em;color:var(--dim);border:1px solid #33415a;border-radius:20px;padding:4px 9px;margin-right:6px}
+</style>
+<style>
+.ab{background:#233145;height:8px;border-radius:4px;overflow:hidden;min-width:70px}
+.abf{height:100%;border-radius:4px}
+.grid8{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:10px}
+.gwrap{text-align:center;padding:6px 2px;border:1px solid #1f2a3a;border-radius:8px;background:#141b26}
+.g{width:100%;max-width:96px;display:block;margin:0 auto}
+.gval{font-size:19px;font-weight:700;margin-top:-16px;font-variant-numeric:tabular-nums}
+.glab{font-size:10.5px;color:#c3cad6;margin-top:8px;line-height:1.25}
+.gsub{font-size:9.5px;color:#7c8798;margin-top:2px}
+</style>
+</head><body>
+
+<div class="mockbar"><b>PROPOSAL v0.1</b>
+<span>Internal mock — not the live board. Nothing here is wired to data.json; numbers are real as of 2026-11-05 but hand-placed. Styled to be argued with.</span></div>
+
+<div class="wrap">
+
+<h1>CASS v4 — restructure mock</h1>
+<div class="sub">State → flow → stock. Three registers instead of one list. Nine revision points, numbered R1–R9, at the bottom.</div>
+
+<h2>1 · The model block, as it would render</h2>
+<div class="grid3">
+
+  <div class="panel">
+    <h3>Model State — MGET<span class="tag t-state">STATE</span></h3>
+    <div class="big">3<span style="font-size:15px;color:var(--dim);font-weight:600"> / 4 legs fired</span></div>
+    <div class="kv"><span>M · Material</span><b>71 <span class="w hard">FIRED</span></b></div>
+    <div class="kv"><span>G · Governance</span><b>78 <span class="w hard">FIRED</span></b></div>
+    <div class="kv"><span>E · Enclosure</span><b>64 <span class="w hard">FIRED</span></b></div>
+    <div class="kv"><span>T · Turning</span><b>82 <span class="w soft">ABSENT</span></b></div>
+    <div class="note">Load ≠ state. T carries the highest pressure and has not fired. Phase 4 closes <b>2026-12-08</b>.</div>
+  </div>
+
+  <div class="panel flow">
+    <h3>What's charging the legs<span class="tag t-flow">FLOW</span></h3>
+    <div class="big">21<span style="font-size:15px;color:var(--dim);font-weight:600"> cases · 42 wt · 13 ch</span></div>
+    <div class="kv"><span>Rate, trailing 90d</span><b>21.7</b></div>
+    <div class="kv"><span>Hard to reverse (wt 3)</span><b>6</b></div>
+    <div class="kv"><span>Channels closed</span><b>0 of 13</b></div>
+    <div class="kv"><span>Charging E / G</span><b>8 / 13</b></div>
+    <div class="note">Kill condition S-01: <b>&lt;2 per 90 days</b> — currently ~11× below rate. Charges M and E, <b>cannot</b> charge T.</div>
+  </div>
+
+  <div class="panel">
+    <h3>Institutional Stress<span class="tag t-stock">STOCK</span></h3>
+    <div class="big">78<span style="font-size:15px;color:var(--dim);font-weight:600"> mean of 8 dials</span></div>
+    <div class="kv"><span>Dials in Critical</span><b>5 of 8</b></div>
+    <div class="kv"><span>Derivation</span><b>computed</b></div>
+    <div class="kv"><span>Feeds</span><b>G, one way</b></div>
+    <div class="note">The only leg with a real derivation chain. G moves when these move, so the two panels cannot disagree.</div>
+  </div>
+</div>
+
+<div class="panel" style="margin-top:10px;border-left:3px solid var(--warm)">
+  <div class="note" style="margin:0">The three panels read left to right and only left to right. <b>State</b> says which engines are running. <b>Flow</b> says what is charging them. <b>Stock</b> is the one measure that already has a derivation chain and feeds G. Today the board goes state straight to stock — which is why M and E are asserted on three anchors each. Once the flow panel is real, <b>E's delta becomes computed from admitted cases in the trailing 90 days</b> instead of hand-set. That is the only claim of substance in this restructure.</div>
+</div>
+
+<h2>2 · Three registers, not one list</h2>
+
+<div class="panel" style="margin-bottom:14px">
+<h3>What this section is actually saying</h3>
+<div class="note" style="margin:0">Everything the board tracks gets written down as a "card" — one claim, one date, one way to be wrong. The problem is that not all cards are the same <i>kind</i> of thing, and the board lists them as if they were. This section splits them into three piles by what they can ever do.
+
+<div style="margin-top:10px">
+<b>Register A — Forecast.</b> A bet. "X happens by date Y." It has a price (a probability), a deadline, and two possible endings: it hits or it misses. <b>This is the only pile that can score.</b><br>
+<b>Register B — Accumulation.</b> A tally. "This many things of this kind happened." It has no deadline and no way to be wrong — it just counts up. Useful as a measure, useless as a prediction. It cannot score, and pretending otherwise would be a lie.<br>
+<b>Register C — Thesis.</b> A frame. "Here is the shape of what's coming." It has no deadline either, so nothing ever settles it, so it sits on the page forever looking unfinished.
+</div>
+
+<div style="margin-top:10px"><b>How to read the table:</b> <i>Cards</i> = how many are in the pile. <i>Resolved</i> = how many have reached an ending. <i>Rate</i> = resolved ÷ cards. A pile with a low rate is not necessarily bad work — but a pile at <b>0%</b> is not being tested at all, and that is a fact about how the claim was written, not about the world. Register C sits at 0 of 28, and that number is the single most useful thing on this page: it tells you where to spend the next hour.</div>
+</div>
+
+<div>
+  <span class="chip">A · FORECAST</span><span class="chip">B · ACCUMULATION</span><span class="chip">C · THESIS</span>
+</div>
+<button id="demoBtn" class="on">Demo: unfold register C</button>
+<button id="foldBtn">Demo: fold C as it would ship default</button>
+
+<table style="margin-top:12px">
+<tr><th></th><th>Register</th><th class="num">Cards</th><th class="num">Resolved</th><th class="num">Rate</th><th>Instrument</th></tr>
+<tr><td><span class="chip">A</span></td><td><b>Forecast</b><br><span class="note" style="margin:0">"X by Y" — a bet with an ending</span></td><td class="num">58</td><td class="num">12</td><td class="num" style="color:var(--ok)">21%</td><td>probability · scores · expires</td></tr>
+<tr><td><span class="chip">B</span></td><td><b>Accumulation</b><br><span class="note" style="margin:0">"how many, of this kind" — a tally</span></td><td class="num">21 cases</td><td class="num">—</td><td class="num" style="color:var(--dim)">n/a</td><td>count · scores nothing · never expires</td></tr>
+<tr class="fold" id="rowC"><td><span class="chip">C</span></td><td><b>Thesis</b><br><span class="note" style="margin:0">"the shape of it" — a frame with no deadline</span></td><td class="num">28</td><td class="num">0</td><td class="num" style="color:var(--hot)">0%</td><td>series + kill condition · no probability</td></tr>
+</table>
+
+<div class="panel hidden" id="blockC" style="margin-top:10px">
+  <h3>Register C — what ships inside the fold</h3>
+  <div class="note" style="margin:0 0 10px">Each thesis becomes a <b>series with a kill condition</b> instead of a card that sits in <i>emergent</i> forever. A kill condition is the answer to "what would make me drop this?" — it is the only thing that lets a frame be wrong. Below is the conversion of the first one, S-01, done for real today.</div>
+  <table>
+  <tr><th>Thesis</th><th>Was</th><th>Becomes</th></tr>
+  <tr><td>Administrative accumulation</td><td class="fold">THESIS card, no deadline, 0% resolvable</td><td>21 cases / 13 channels, kill &lt;2 per 90d, admission rules published</td></tr>
+  <tr><td>Vanguard realignment (T)</td><td class="fold">THESIS card, 41 T-leg cards total</td><td>Docking test D1–D4, 5+ named defections, dated</td></tr>
+  <tr><td>Ratchet vs detonation</td><td class="fold">not written</td><td>Dated test on <b>2026-12-08</b>: phase 4 closes with no detonation while S-01 still accrues → clock wrong, legs may stand</td></tr>
+  </table>
+</div>
+
+<h2>3 · What is feeding each leg — the instrument</h2>
+<div class="panel" style="margin-bottom:14px">
+<h3>Why this section exists</h3>
+<div class="note" style="margin:0">M, G, E and T are the four legs of the model — Material, Governance, Enclosure, Turning. Each carries a <b>load</b> (0–100, how much pressure is on that leg) and a <b>state</b> (fired / absent). The state was argued case by case. <b>The load was not</b>: three of the four numbers were set by feel with no stated anchors, so nothing could ever move them down and no reader could check them. This section is the missing instrument — <b>four anchors per leg, each scored 0–5 on the same written scale, load = (sum ÷ 4) × 20.</b> Equal weights, published anchors, and a number that falls when an anchor falls.</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px">
+<div class="note" style="margin:0"><b>The scale — identical for every anchor, every leg:</b><br>
+<b>0</b> — nothing there; absent on the record<br>
+<b>1</b> — rhetoric only; talk with no act behind it<br>
+<b>2</b> — an act, isolated, no second instance<br>
+<b>3</b> — an act <i>plus</i> a standing mechanism that repeats it<br>
+<b>4</b> — the mechanism is the default; it runs without being asked<br>
+<b>5</b> — complete, irreversible, something else has taken over</div>
+<div class="note" style="margin:0"><b>The rule that makes anchors work:</b> an anchor must be a thing you can <i>find</i>, not a judgement about how bad it feels. "ALPR procurement consolidation" can be checked; "enclosure is bad" cannot. Where a leg's definition names fewer than four anchors, the gap is filled and marked as added — <b>E needed one, T needed all four.</b><br><br><b>Status: provisional.</b> One coder, not blind, n=1. Load here transmits <i>relative movement</i>, not absolute truth, and cannot be used to file or settle a card until coded blind twice.</div>
+</div>
+</div>
+<div class="panel" style="margin-top:14px">
+<h3><span style="color:#e2564d">M · Material</span> — FIRED <span style="font-size:11px;color:var(--dim);font-weight:400">· Can the country still physically afford its own continuity?</span></h3>
+<div style="display:flex;gap:18px;align-items:baseline;margin:4px 0 10px">
+  <div><span style="font-size:11px;color:var(--dim)">hand-set</span> <span style="font-size:22px;color:var(--dim)">71</span></div>
+  <div style="color:var(--dim)">→</div>
+  <div><span style="font-size:11px;color:var(--dim)">from anchors</span> <span style="font-size:22px;color:#e2564d">65</span></div>
+  <div style="margin-left:auto;font-size:12px;color:var(--hot)">-6 from the anchor instrument</div>
+</div>
+<table>
+<tr><th>Anchor</th><th class="num">0–5</th><th style="width:24%"></th><th class="fold">What's on the record</th></tr>
+<tr><td>Energy chokepoint</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Hormuz constrained, not closed. Tanker war-risk and the Yasref/Yanbu strikes price the route, they do not shut it.</td></tr><tr><td>Cost reaching household budgets</td><td class="num">4/5</td><td><div class="ab"><div class="abf" style="width:80%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Cost is the binding constraint on decisions: the gas-tax suspension is actors choosing around a price, not a shortage.</td></tr><tr><td>Fiscal and reserve buffer</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">SPR drawdown continues. Strain is in the reserve, not exhaustion of it.</td></tr><tr><td>Food and fertiliser throughput</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Fertiliser supply stress has a named series; no rationing, no closure.</td></tr>
+</table>
+<div class="note" style="margin:8px 0 0"><b>Hand-set at 71 was reading the same four anchors and pricing them six points heavier. Direction right, level overstated; band unchanged (Fired either way).</b></div>
+</div>
+<div class="panel" style="margin-top:14px">
+<h3><span style="color:#e2564d">G · Governance</span> — FIRED <span style="font-size:11px;color:var(--dim);font-weight:400">· Can the institutions still produce decisions anyone accepts?</span></h3>
+<div style="display:flex;gap:18px;align-items:baseline;margin:4px 0 10px">
+  <div><span style="font-size:11px;color:var(--dim)">hand-set</span> <span style="font-size:22px;color:var(--dim)">78</span></div>
+  <div style="color:var(--dim)">→</div>
+  <div><span style="font-size:11px;color:var(--dim)">from anchors</span> <span style="font-size:22px;color:#e2564d">78</span></div>
+  <div style="margin-left:auto;font-size:12px;color:var(--ok)">+0 from the anchor instrument</div>
+</div>
+<table>
+<tr><th>Anchor</th><th class="num">0–5</th><th style="width:24%"></th><th class="fold">What's on the record</th></tr>
+<tr><td>Federal Courts</td><td class="num">81/5</td><td><div class="ab"><div class="abf" style="width:1620%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Critical · Δ+1</td></tr><tr><td>Congress</td><td class="num">72/5</td><td><div class="ab"><div class="abf" style="width:1440%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Warning · Δ0</td></tr><tr><td>Election Offices</td><td class="num">81/5</td><td><div class="ab"><div class="abf" style="width:1620%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Critical · Δ+3</td></tr><tr><td>Health Agencies</td><td class="num">80/5</td><td><div class="ab"><div class="abf" style="width:1600%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Critical · Δ0</td></tr><tr><td>Civil Service</td><td class="num">90/5</td><td><div class="ab"><div class="abf" style="width:1800%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Critical · Δ+1</td></tr><tr><td>Military Leadership</td><td class="num">72/5</td><td><div class="ab"><div class="abf" style="width:1440%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Warning · Δ0</td></tr><tr><td>Dollar and Credit</td><td class="num">65/5</td><td><div class="ab"><div class="abf" style="width:1300%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Warning · Δ0</td></tr><tr><td>Department of Education</td><td class="num">86/5</td><td><div class="ab"><div class="abf" style="width:1720%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Critical · Δ0</td></tr>
+</table>
+<div class="note" style="margin:8px 0 0"><b>The only leg that was already an instrument: mean of the eight institutional dials (78.4, rounded). Nothing to fix. G's dials are the template M, E and T now follow — and they are still the gauges you already like, not replaced.</b></div>
+</div>
+<div class="panel" style="margin-top:14px">
+<h3><span style="color:#e2564d">E · Enclosure</span> — FIRED <span style="font-size:11px;color:var(--dim);font-weight:400">· Who ends up owning the substrate everybody now depends on?</span></h3>
+<div style="display:flex;gap:18px;align-items:baseline;margin:4px 0 10px">
+  <div><span style="font-size:11px;color:var(--dim)">hand-set</span> <span style="font-size:22px;color:var(--dim)">64</span></div>
+  <div style="color:var(--dim)">→</div>
+  <div><span style="font-size:11px;color:var(--dim)">from anchors</span> <span style="font-size:22px;color:#e2564d">65</span></div>
+  <div style="margin-left:auto;font-size:12px;color:var(--ok)">+1 from the anchor instrument</div>
+</div>
+<table>
+<tr><th>Anchor</th><th class="num">0–5</th><th style="width:24%"></th><th class="fold">What's on the record</th></tr>
+<tr><td>Surveillance and fusion grid</td><td class="num">4/5</td><td><div class="ab"><div class="abf" style="width:80%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">ALPR consolidation, Axon Fusus, ICE robot-dog deployment. Procurement is choosing around the rules, not waiting for them.</td></tr><tr><td>Press and access enclosure</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">The White House press ban is a standing rule with a named date. Access is the thing being fenced.</td></tr><tr><td>AI scaffold and compute ownership</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Scaffold ownership is a live political fight; the capex unwind is repricing who can hold the position.</td></tr><tr><td>Ownership of the record</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#e2564d"></div></div></td><td class="fold" style="font-size:11px">Data and records contracts awarded without published terms. ADDED BY ME: the definition names three anchors, the instrument needs four.</td></tr>
+</table>
+<div class="note" style="margin:8px 0 0"><b>Closest to its hand-set value (+1). E is the leg this episode's thesis rests on and the thinnest instrumented — 9 cards of 91. The anchors are defensible; the register behind them is not.</b></div>
+</div>
+<div class="panel" style="margin-top:14px">
+<h3><span style="color:#4fae7c">T · Turning</span> — ABSENT <span style="font-size:11px;color:var(--dim);font-weight:400">· Is the elite conflict still internal, or has something formed that could replace it?</span></h3>
+<div style="display:flex;gap:18px;align-items:baseline;margin:4px 0 10px">
+  <div><span style="font-size:11px;color:var(--dim)">hand-set</span> <span style="font-size:22px;color:var(--dim)">82</span></div>
+  <div style="color:var(--dim)">→</div>
+  <div><span style="font-size:11px;color:var(--dim)">from anchors</span> <span style="font-size:22px;color:#4fae7c">40</span></div>
+  <div style="margin-left:auto;font-size:12px;color:var(--hot)">-42 from the anchor instrument</div>
+</div>
+<table>
+<tr><th>Anchor</th><th class="num">0–5</th><th style="width:24%"></th><th class="fold">What's on the record</th></tr>
+<tr><td>Conflict inside the old order</td><td class="num">4/5</td><td><div class="ab"><div class="abf" style="width:80%;background:#4fae7c"></div></div></td><td class="fold" style="font-size:11px">Heavy and named: the succession question, the forced exits, the post-defeat argument.</td></tr><tr><td>Vanguard turnover and defection</td><td class="num">3/5</td><td><div class="ab"><div class="abf" style="width:60%;background:#4fae7c"></div></div></td><td class="fold" style="font-size:11px">The firing-leak series measures this mechanically — 14 of 15 eventually leave, median 64 days. Turnover is not defection.</td></tr><tr><td>A replacement authority is articulated (D2)</td><td class="num">1/5</td><td><div class="ab"><div class="abf" style="width:20%;background:#4fae7c"></div></div></td><td class="fold" style="font-size:11px">No organised body has endorsed one. Individual sympathies and press commentary do not count.</td></tr><tr><td>A transfer act completes (D4)</td><td class="num">0/5</td><td><div class="ab"><div class="abf" style="width:0%;background:#4fae7c"></div></div></td><td class="fold" style="font-size:11px">None on record. Attempts do not count.</td></tr>
+</table>
+<div class="note" style="margin:8px 0 0"><b>The one that matters. The definition named NO load anchors for T, so 82 could not be argued down by anything — which is how it sat next to ABSENT at 82. Scored on the four things that decide whether a replacement formed, T is 40: Straining, not At capacity, and now in agreement with its own state instead of contradicting it.</b></div>
+</div>
+<div class="panel" style="margin-top:14px">
+<h3>The comparison, side by side</h3>
+<table>
+<tr><th>Leg</th><th class="num">Hand-set</th><th class="num">From anchors</th><th class="num">Δ</th><th>State (unchanged)</th></tr>
+<tr><td><b>M</b> Material</td><td class='num'>71</td><td class='num' style='color:#e2564d'>65</td><td class='num' style='color:var(--hot)'>-6</td><td>FIRED</td></tr><tr><td><b>G</b> Governance</td><td class='num'>78</td><td class='num' style='color:#e2564d'>78</td><td class='num' style='color:var(--ok)'>+0</td><td>FIRED</td></tr><tr><td><b>E</b> Enclosure</td><td class='num'>64</td><td class='num' style='color:#e2564d'>65</td><td class='num' style='color:var(--ok)'>+1</td><td>FIRED</td></tr><tr><td><b>T</b> Turning</td><td class='num'>82</td><td class='num' style='color:#4fae7c'>40</td><td class='num' style='color:var(--hot)'>-42</td><td>ABSENT</td></tr>
+<tr><td><b>Mean</b></td><td class="num">73.8</td><td class="num">62.0</td><td class="num" style="color:var(--hot)">−11.8</td><td></td></tr>
+</table>
+
+<div class="note" style="margin-top:10px"><b>Read the bottom row before the top.</b> Legs-fired does <u>not</u> move: still three of four, still at-threshold, still gate open. State and load are separate fields on purpose, and the anchor instrument only touches load. That is what makes it safe — it cannot change what the model says about the world, it only makes the pressure reading checkable.</div>
+
+<div style="border-left:3px solid var(--hot);padding-left:12px;margin-top:14px">
+<b>The finding — and it is the reason to build this at all.</b> T read <b>82</b> while its state said <b>ABSENT</b>: the highest load on the board sitting on the leg the model says has not fired. Under the anchor instrument it reads <b>40</b>. Nothing in the world changed. The 82 was double-counting pressure already captured on E and G — conflict intensity and turnover are real, and they belong to those legs. What makes T fire is not how loud the argument is, it is whether something has <b>formed</b> that could take over, and on D2 and D4 that is 1 and 0.<br><br>
+Two consequences, opposite directions, both good. <b>First:</b> "no replacement exists" becomes a checkable claim instead of the model's softest number. <b>Second:</b> a load of 40 sets a <i>harder</i> bar for T firing, so the model is now less likely to fire it on atmosphere. If 82 was a feel, the honest correction is 40.
+</div>
+</div>
+<div class="panel" style="margin-top:14px">
+<h3>Stock — the eight institutional dials, unchanged</h3>
+<div class="note" style="margin:0 0 10px">These are the gauges already on the board, same data, same scale (0 = calm, 100 = captured). Nothing here is being redesigned. Their mean <i>is</i> G — this is the one leg that never needed an instrument because it already had eight.</div>
+<div class="grid8"><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#e2564d" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="20.3"/>
+</svg><div class="gval" style="color:#e2564d">81</div></div><div class="glab">Federal Courts</div><div class="gsub">Critical · Δ+1</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#d99a3c" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="29.9"/>
+</svg><div class="gval" style="color:#d99a3c">72</div></div><div class="glab">Congress</div><div class="gsub">Warning · Δ+0</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#e2564d" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="20.3"/>
+</svg><div class="gval" style="color:#e2564d">81</div></div><div class="glab">Election Offices</div><div class="gsub">Critical · Δ+3</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#e2564d" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="21.4"/>
+</svg><div class="gval" style="color:#e2564d">80</div></div><div class="glab">Health Agencies</div><div class="gsub">Critical · Δ+0</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#e2564d" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="10.7"/>
+</svg><div class="gval" style="color:#e2564d">90</div></div><div class="glab">Civil Service</div><div class="gsub">Critical · Δ+1</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#d99a3c" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="29.9"/>
+</svg><div class="gval" style="color:#d99a3c">72</div></div><div class="glab">Military Leadership</div><div class="gsub">Warning · Δ+4</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#d99a3c" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="37.4"/>
+</svg><div class="gval" style="color:#d99a3c">65</div></div><div class="glab">Dollar & Credit</div><div class="gsub">Warning · Δ+3</div></div><div class="gwrap"><div class="gbox"><svg viewBox="0 0 80 46" class="g">
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#233145" stroke-width="7" stroke-linecap="round"/>
+<path d="M6 40 A34 34 0 0 1 74 40" fill="none" stroke="#e2564d" stroke-width="7" stroke-linecap="round" stroke-dasharray="106.8" stroke-dashoffset="15.0"/>
+</svg><div class="gval" style="color:#e2564d">86</div></div><div class="glab">Department of Education</div><div class="gsub">Critical · Δ+0</div></div></div>
+<div class="note" style="margin:10px 0 0">Bands: Calm 0–39 · Strained 40–59 · Warning 60–74 · Critical 75–100. Five of eight in Critical. Reviewed 2026-11-02 on a 7-day hand cadence.</div>
+</div>
+<h2>4 · Byte budget — and what "byte" means</h2>
+<div class="panel">
+<h3>Plainly, for a reader who has never thought about this</h3>
+<div class="note" style="margin:0">
+A <b>byte</b> is roughly <b>one character</b> — a letter, a digit, a space, a full stop. The word "the" plus its space is 4 bytes. This paragraph is about 300 bytes.<br><br>
+A <b>kilobyte (KB)</b> is about a thousand of those. The dashboard page is <b>290 KB</b> — about <b>290,000 characters</b>, which is roughly <b>a 100-page paperback</b>. Every time anyone opens the board, their device downloads that whole paperback before it can draw the first line.
+</div>
+
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px">
+<div class="note" style="margin:0"><b>Why it matters, three reasons, in the order a reader feels them:</b><br><br>
+<b>1. It's slow.</b> 290 KB on a phone is several seconds of blank screen and a slice of someone's data plan, every single visit.<br><br>
+<b>2. It's the wrong shape.</b> Half the page is <i>one</i> list — the forecast register at 145 KB. And of that list, 28 cards are theses that can never resolve, so they will still be there, word for word, in six months. <b>The page gets heavier as it ages without getting more informative.</b><br><br>
+<b>3. It hides the good part.</b> The model block at the top is 7 KB. It's 2.4% of the page. The thing worth reading is a rounding error in the thing being downloaded.</div>
+<div class="note" style="margin:0"><b>The newspaper analogy:</b> imagine a paper where the front page is excellent, and pages 2 to 50 reprint, in full, every claim the paper has ever made that it never checked. Nobody would call that thorough. They'd call it unread.<br><br><b>The fix is not deletion.</b> Nothing is thrown away or softened. The 28 thesis cards move one click away into an annex; the 58 forecast cards stay inline; the 41 T-leg cards, which describe a leg the model scores absent, fold by default with their count still printed in the header. The board keeps every claim and loses 64 KB of scroll.</div>
+</div>
+</div>
+<table style="margin-top:16px">
+<tr><th>Section</th><th class="num">Now</th><th class="num">Proposed</th><th>What changes</th></tr>
+<tr><td>About</td><td class="num">1.2K</td><td class="num">1.4K</td><td>one added sentence: what is not scored and why</td></tr>
+<tr><td>Daily Read</td><td class="num">0.6K</td><td class="num">0.6K</td><td>unchanged</td></tr>
+<tr><td>Model State</td><td class="num">7K</td><td class="num">7K</td><td>unchanged</td></tr>
+<tr><td><b>Accumulation (new)</b></td><td class="num">—</td><td class="num" style="color:var(--warm)">8K</td><td>new middle panel</td></tr>
+<tr><td>Institutional Stress</td><td class="num">3.3K</td><td class="num">3.3K</td><td>unchanged</td></tr>
+<tr><td>Big questions</td><td class="num">42K</td><td class="num">42K</td><td>unchanged</td></tr>
+<tr><td><b>Tracking</b></td><td class="num" style="color:var(--hot)">145K</td><td class="num" style="color:var(--ok)">78K</td><td>58 A-cards inline · C folded to summary · 41 T-cards folded</td></tr>
+<tr><td>Technical</td><td class="num">86K</td><td class="num">86K</td><td>unchanged</td></tr>
+<tr><td><b>Total</b></td><td class="num">290K</td><td class="num">226K</td><td>−64K, and 28 unresolvable cards stop occupying the page</td></tr>
+</table>
+
+
+<h2>5 · The audience fork — pick one</h2>
+<div class="grid3">
+  <div class="panel" style="grid-column:span 2">
+    <h3>(a) Public-lite panel — recommended</h3>
+    <div class="kv"><span>Shows</span><b>count · channels · wt-3 · kill condition</b></div>
+    <div class="kv"><span>Hides</span><b>admission rules, weights, allocation</b></div>
+    <div class="kv"><span>Stamped</span><b>“not scored, cannot be scored”</b></div>
+    <div class="note">Keeps the board's stated contract — commits in advance, scores in public, the miss stays — by <b>declining to score this one</b> and saying so on the face of it. Lets the board state its own blind spot: the scored register excludes the administrative mode, 6.6:1 toward drama.</div>
+  </div>
+  <div class="panel">
+    <h3>(b) Internal only</h3>
+    <div class="kv"><span>Shows</span><b>everything</b></div>
+    <div class="kv"><span>Public sees</span><b>nothing</b></div>
+    <div class="note" style="color:var(--hot)">Fails the transparency test the board sets for itself. The blind spot stays invisible, which is the condition that produced it.</div>
+  </div>
+</div>
+
+<h2>6 · Revision points</h2>
+
+<div class="rev"><div class="id">R1</div>
+<div class="q">Does the flow panel sit <b>between</b> state and stock, or after both as a footnote?</div>
+<div class="opt"><b>Between</b> (mock as built) makes the derivation chain legible and gives E a computable delta. <b>After</b> keeps the two existing panels adjacent as they are today. Cost of “between”: the board's top three panels change at once, so one bad panel breaks the whole read.</div></div>
+
+<div class="rev"><div class="id">R2</div>
+<div class="q">Do THESIS and MECHANISM keep a row on the public page at all?</div>
+<div class="opt"><b>Summary row only</b> (mock): “28 theses under test, 0 resolved by design, converted to series.” <b>Alternative:</b> remove entirely and link the annex. I lean summary row — deleting them would hide that they were ever claimed.</div></div>
+
+<div class="rev"><div class="id">R3</div>
+<div class="q">Are the 41 T-leg cards folded by default?</div>
+<div class="opt">Yes in the mock, on the gauge protocol's own logic — card volume on a leg is not evidence about that leg, and T scores <b>absent</b>. <b>Counter-argument:</b> folding them hides the highest-pressure leg's work. <b>Compromise:</b> fold, but state the count in the panel header so the volume is visible without being led with.</div></div>
+
+<div class="rev"><div class="id">R4</div>
+<div class="q">Weights 3 / 2 / 1 — keep, or drop weights entirely?</div>
+<div class="opt">Keep and print (mock). Dropping weights makes the series a pure count — harder to dismiss as analyst judgement, but then Boston Dynamics robot dogs and the mass denaturalisation memo count the same. <b>Third option:</b> publish both numbers, count as headline, weight as secondary.</div></div>
+
+<div class="rev"><div class="id">R5</div>
+<div class="q">Court blocks: negative score, or separate track?</div>
+<div class="opt">Currently counted <b>negative and reported separately, never netted</b>. Keeping it that way means a green number can't be produced by winning in court. <b>Alternative:</b> a second rail on the same panel — “accrued” vs “stayed” — which is more informative but invites the reader to subtract.</div></div>
+
+<div class="rev"><div class="id">R6</div>
+<div class="q">What is the baseline for “21”?</div>
+<div class="opt">There is none before May 2026, so the page can only say <b>“21 admitted, 13 channels, none closing”</b> — never “high.” <b>To fix properly</b> means a backward census of 2024–2025 press and Federal Register output, which is a research task, not a build task. Until then the panel should carry the absence of a baseline as a visible label, not a footnote.</div></div>
+
+<div class="rev"><div class="id">R7</div>
+<div class="q">Does the accumulation panel get a <b>date it dies</b>?</div>
+<div class="opt">An instrument that cannot miss needs an expiry or it becomes permanent furniture. <b>Proposal:</b> rule sunsets 2027-11-05 unless re-adopted, and S-01's kill condition sits in the panel header, not the notes.</div></div>
+
+<div class="rev"><div class="id">R8</div>
+<div class="q">Do we retire <code>command.html</code>?</div>
+<div class="opt">87KB duplicate board, <b>zero inbound links</b>; <code>index.html</code> redirects to Internal Telemetry. Retire it. Separate small fix: a <code>/space</code> → <code>data.json</code> reconciliation guard, because 5 of 92 cards silently vanish from the export and one of them is a ROLLING card.</div></div>
+
+<div class="rev"><div class="id">R9</div>
+<div class="q">Does T's anchor set survive someone who disagrees with my scoring?</div>
+<div class="opt">I scored T2 (turnover) at 3 on the firing-leak series — 14 of 15 eventually leave, median 64 days — and called that turnover, not defection. A reasonable person scores it 4, which puts T at 45: still Straining, still absent, deck unchanged. <b>Anchors are built to absorb disagreement without flipping the model, and that is the point of them.</b> The number to watch is not the total, it is whether <b>D2</b> ever moves — a replacement authority being articulated by an organised body. That single anchor is what decides whether T fires.</div></div>
+
+<div class="panel" style="margin-top:26px;border-left:3px solid var(--hot)">
+<div class="note" style="margin:0"><b>What this mock does not do:</b> it is not wired to the data layer, so every figure above is hand-placed from today's census and will be stale tomorrow. It exists to settle the shape and R1–R9 before any of it touches <code>sync_data.sh</code> — because once the flow panel is live it has to pass the prod gate after every pull, and rewriting a panel that is already in production is how the other writer's build ends up served.</div>
+</div>
+
+</div>
+
+<script>
+const bC=document.getElementById('blockC'), rowC=document.getElementById('rowC');
+document.getElementById('demoBtn').onclick=function(){bC.classList.remove('hidden');rowC.classList.remove('fold');this.classList.add('on');document.getElementById('foldBtn').classList.remove('on')};
+document.getElementById('foldBtn').onclick=function(){bC.classList.add('hidden');rowC.classList.add('fold');this.classList.add('on');document.getElementById('demoBtn').classList.remove('on')};
+</script>
+</body></html>
