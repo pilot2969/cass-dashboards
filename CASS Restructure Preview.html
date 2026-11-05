@@ -64,6 +64,23 @@ details.dr>summary .lead{font-size:14.5px;font-weight:600;color:var(--ink);flex:
 details.dr>summary .cue{font:700 10px/1 ui-sans-serif;letter-spacing:.12em;color:var(--acc)}
 details.dr[open]>summary{border-bottom:1px solid var(--line);margin-bottom:12px}
 details.dr>div{padding:0 17px 15px}
+.dredition{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:0 0 10px;border-bottom:1px solid var(--line);margin-bottom:10px}
+.dredition .elab{font:700 10.5px/1 ui-sans-serif;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+.dredition .ecount{font:600 11px/1 ui-sans-serif;letter-spacing:.1em;color:var(--acc);text-transform:uppercase}
+details.drcard{background:#141c29;border:1px solid var(--line);border-radius:8px;margin-bottom:7px;border-left:3px solid #2c3a4f}
+details.drcard[open]{border-left-color:var(--acc)}
+details.drcard>summary{cursor:pointer;list-style:none;padding:9px 12px;display:flex;gap:10px;align-items:baseline;font-size:13.5px;line-height:1.4;color:#cfdaea}
+details.drcard>summary::-webkit-details-marker{display:none}
+details.drcard>summary:hover{color:var(--ink)}
+details.drcard>summary .tstamp{font:700 11px/1 ui-monospace,monospace;color:var(--hot);letter-spacing:.02em;flex:0 0 auto}
+details.drcard>summary .ttl{flex:1 1 auto;font-weight:600;color:var(--ink)}
+details.drcard>summary .dcar{font-size:10px;color:var(--mut);flex:0 0 auto;transition:transform .15s}
+details.drcard[open]>summary .dcar{transform:rotate(90deg)}
+.drbody{padding:2px 12px 12px;border-top:1px solid var(--line);margin-top:2px}
+.drbody p{margin:8px 0 0;font-size:13px;color:#cfdaea}
+.drbody p.sources{margin-top:10px;font-size:11.5px;color:var(--mut)}
+.drarch{display:inline-block;margin-top:12px;padding:7px 14px;border:1px solid #2c3a4f;border-radius:7px;color:var(--acc);text-decoration:none;font:600 12px/1 ui-sans-serif}
+.drarch:hover{border-color:var(--acc);background:#16202e}
 .gauge{background:#101825;border:1px solid var(--line);border-radius:9px;padding:8px 6px 10px;text-align:center}
 .gauge .nm{font-size:11.5px;color:#c3d2e6;margin-top:2px;line-height:1.25}
 .gauge .bd{font:700 9px/1 ui-sans-serif;letter-spacing:.1em;margin-top:4px}
@@ -90,9 +107,11 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
 <h2>1 · Daily Read</h2>
 <details class="dr" id="drwrap">
   <summary><span class="cue" id="drcue">DAILY READ</span><span class="lead" id="drlead">Loading…</span><span class="small" id="drmeta"></span></summary>
+  <div class="dredition"><span class="elab" id="dredate">Edition</span><span class="ecount" id="drcount"></span><span class="small" id="drsort">newest first</span></div>
   <div id="dailyread"></div>
+  <a class="drarch" id="drarchive" href="archive.html">Daily Read Archive →</a>
 </details>
-<div class="note">Collapsed by default, so the page opens on the model rather than on a wall of cards. The summary line carries the edition date, the card count and the lead headline, so nothing is hidden in substance — one click opens the stack. If you would rather it open expanded, that is one attribute on the <code>details</code> element.</div>
+<div class="note">Two levels of nesting, both closed by default except the newest card. The outer row is the edition — date, card count, newest first — so the section costs one line until you want it. The inner rows are the cards, each stamped with the time it was filed and its headline; open one and the five beats are under it. The archive button leads to every past edition.</div>
 
 <h2>2 · The MGET model — macro to micro</h2>
 <div class="subhead">2.1 Macro · model state</div>
@@ -186,11 +205,12 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
 <h2>7 · Change log</h2>
 <div class="panel">
  <div id="changelog">
-  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.1-preview</b></span></div><div class="z15"><b>Your five revisions, applied.</b> (1) Daily Read is collapsible, closed by default, lead headline and card count in the summary line. (2) The MGET model now sits directly under it — whole model, then the four legs with the brightness meter on each, then the institutions beneath them. (3) The institutional set gains an admission audit against four rules: Media and Press, State Governments and Local Law Enforcement admitted, with the series break stated; three held, two rejected, one named as a blind spot. (4) The audience fork card is cut. (5) A data dictionary of 23 terms and a change log, both on the page; the wire ledger is kept, collapsed, and nothing was dropped.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.2-preview</b></span></div><div class="z15"><b>Daily Read nested two deep.</b> The section opens on an edition line — date, card count, newest first — with each card beneath it as its own collapsible row carrying its filing time and headline; the newest card is open, the rest are one click. A Daily Read Archive button closes the block. Nothing in the card bodies changed: still five beats per card, still public-facing prose.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.1-preview</b></span></div><div class="z15"><b>Prior: five revisions, applied.</b> (1) Daily Read is collapsible, closed by default, lead headline and card count in the summary line. (2) The MGET model now sits directly under it — whole model, then the four legs with the brightness meter on each, then the institutions beneath them. (3) The institutional set gains an admission audit against four rules: Media and Press, State Governments and Local Law Enforcement admitted, with the series break stated; three held, two rejected, one named as a blind spot. (4) The audience fork card is cut. (5) A data dictionary of 23 terms and a change log, both on the page; the wire ledger is kept, collapsed, and nothing was dropped.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
  </div>
- <div class="note" style="margin-top:14px"><span class="ftver">v4.1-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.2-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
 <div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
@@ -369,8 +389,17 @@ function render(data){
   const first=cards[0]||{};
   $("drcue").textContent="DAILY READ";
   $("drlead").textContent=first.title||(cards.length?cards.length+" cards":"No edition");
-  $("drmeta").textContent=(dr.date?"Edition "+dr.date+" · ":"")+cards.length+" cards";
-  $("dailyread").innerHTML=(cards.length?cards.map(c=>'<div class="card"><h4>'+esc(c.title||"")+'</h4>'+String(c.html||"")+'</div>').join(""):
+  $("drmeta").textContent="";
+  $("dredate").textContent="Edition "+(dr.date||"–");
+  $("drcount").textContent=cards.length+" cards";
+  const split=cards.map(c=>{
+    const t=String(c.title||"");
+    const m=t.match(/^\s*\[([0-9]{1,2}:[0-9]{2})\]\s*(.*)$/);
+    return {time:m?m[1]:"", head:m?m[2]:t, html:String(c.html||"")};
+  });
+  $("dailyread").innerHTML=(split.length?split.map((c,i)=>'<details class="drcard"'+(i===0?' open':'')+'><summary><span class="tstamp">'+
+      (c.time?'['+esc(c.time)+']':'')+'</span><span class="ttl">'+esc(c.head)+'</span><span class="dcar">▶</span></summary>'+
+      '<div class="drbody">'+c.html+'</div></details>').join(""):
     '<div class="panel">No Daily Read in this export.</div>');
 
   const led=(data.mget_ledger||[]).slice().sort((a,b)=>String(b.date||"").localeCompare(String(a.date||""))||String(b.time_et||"").localeCompare(String(a.time_et||"")));
