@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-04",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-05T14:36 ET"
+  "generated_stamped": "2026-11-05T15:04 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -4430,6 +4430,172 @@
    "grace_horizon": "0 days \u2014 grace not pre-registered; resolution is incumbency on a single fixed date (2027-01-03), so no post-close window applies",
    "basename": "2026-11-05-hegseth-out-before-120th-congress",
    "confidence": 55
+  },
+  {
+   "title": "Cosmetic not ideological: the GOP sacrifices personnel, not the program",
+   "date_made": "2026-11-05",
+   "time_et": "14:55 ET",
+   "statement": "The Republican response to the 2026 defeat is cosmetic, not ideological. The party will sacrifice PERSONNEL and RHETORIC on the cheapest available dimension -- immigration optics, with Stephen Miller as the named offering -- while the core program (the deportation apparatus's capacity, the Iran posture, executive aggrandizement) remains materially unchanged through 2027-01-20. Test in one act: whether the immigration retreat reaches appropriations. Moderation that only removes a man is not moderation; moderation that removes capacity is.",
+   "evidence_confirmed": [
+    "The first post-defeat named target is Miller, and the charge against him is optics, not doctrine: Melania Trump complaining that people she knew were being deported, Wiles having tried for months to change course (WSJ, NYT via New Republic, 2026-11-05)",
+    "Every prominent voice calling for a course correction is politically dead: Cornyn is being succeeded by Talarico and has no further primary to face; Romney retired in 2024; DeSantis is out of office in January 2027. The moderation caucus is composed of the politically dead",
+    "The one figure with a live national future, Vance, deflected to the Iran war rather than conceding anything on immigration -- and Trump Jr. ratified the deflection, meaning the base will accept a war excuse",
+    "Blaming the war is the cheapest possible adjustment: it concedes nothing on the domestic program the base actually wants, which is the signature of cosmetic repair",
+    "Trump's own first post-defeat move was a RINO designation of Abbott -- purity, not moderation -- and the base's hour-one blame map named candidate quality and the president himself",
+    "The 2012 autopsy is the exact precedent and it failed completely: a party that formally diagnosed its own coalition problem and recommended moderation on immigration nominated Trump four years later",
+    "Structural: with a lame-duck executive holding the party until 2027-01-20, succession is blocked for fourteen months. Moderation after defeat normally runs through a leadership change; here there cannot be one",
+    "Pre-election reporting (Palmeri, 2026-09-30) had Miller drafting the post-loss pretext, armed-presence conversations, and an emergency declaration. A man building the post-defeat machinery is an odd choice to sacrifice for the defeat -- either the machinery dies with him or it was never his"
+   ],
+   "evidence_contradicted": [
+    "The magnitude is real and the establishment knows it: DeSantis calling Texas the anchor without which the party is 'not viable nationally', and conceding the House and Senate may be unreachable in 2028, is the language of a party that understands it has a structural problem, not a personnel one",
+    "Texas falling and five states flipping to trifectas is a coalition-level defeat, and coalition-level defeats have produced genuine moderation before (Dems 1988 to 1992)",
+    "The National Popular Vote Interstate Compact reaching 283 electoral votes would threaten the party's structural advantage directly, which is the one pressure that could force substance rather than theatre",
+    "If Wiles, the internal moderator, is also removed, then the operation is cutting both the hardliner and the moderate, which is incoherent -- and incoherence under leak pressure is not the same as a strategy of cosmetic repair"
+   ],
+   "falsifier": "MISSES if, before 2027-01-20, Congress enacts and the president signs an appropriations or authorization act that reduces ICE detention capacity below its pre-midterm level, or sets a binding statutory ceiling on deportations.",
+   "forward_watchlist": [
+    "whether Miller actually leaves, and whether his departure is framed as a policy failure or a personal one",
+    "whether Wiles survives -- if the internal moderator is cut alongside the hardliner, read incoherence, not strategy",
+    "the FY2027 appropriations mark for ICE detention beds: any reduction below pre-midterm capacity is the one clean moderation signal",
+    "whether the Iran blame line holds -- if the base accepts 'the war lost it', the domestic program is fully insulated and cosmetic repair is confirmed",
+    "any primary challenge filed against a Republican who endorsed a course correction: the price of moderation made visible",
+    "whether any Republican senator in a state Harris carried in 2028 votes against an ICE expansion"
+   ],
+   "status": "emergent",
+   "confirmer": null,
+   "confirmer_base_rate": null,
+   "confirmation_window": "2026-11-05 to 2027-01-20",
+   "last_moved": "2026-11-05 14:55 ET",
+   "outcome_direction": "negative",
+   "base_rate_numeric": 50,
+   "resolution_note": null,
+   "baseline_retrofit": false,
+   "confidence_rationale": "0.72. The base rate for a defeated party moderating SUBSTANTIVELY within two years is roughly a coinflip on my own count -- Dems 1988-1992 yes, GOP 2008-2010 no, GOP 2012-2016 no, Dems 2016-2020 partial yes, Labour 2019-2024 yes, GOP 2020-2024 no -- about 3.5 of 7, Laplace-smoothed to 50. Two conditions push this case above the base rate. First, moderation historically runs through leadership succession, and that is mechanically blocked here: the defeated leader remains party leader for fourteen months and the successor-apparent is deflecting rather than correcting. Second, the composition of the correction caucus is itself the evidence -- Cornyn departing, Romney retired, DeSantis term-limited. People who never face another primary can afford to call for moderation, which is exactly why their calls cost the party nothing and change nothing. Held below 0.8 because magnitude matters and DeSantis's own words concede a structural, decade-length problem, which is the condition under which parties have sometimes rebuilt for real.",
+   "trial_case": null,
+   "verdict": null,
+   "correlation_flag": "NEGATIVELY correlated with the post-defeat 72-hour routing card (which predicts the frame routes INTERNAL): a cosmetic-repair outcome is the HIT branch of that card. Positively correlated with administration-under-pressure (82) on the purge branch, but note the distinction -- Miller's removal would be a POLICY sacrifice, not a branch-(c) purge, because his presence does not imply the RESULT was legitimate. This card does not score that one.",
+   "revision_log": [
+    "2026-11-05 14:55 ET - registered. Base rate frozen at 50 (own count, 7 cases, contested tier)."
+   ],
+   "card_class": "THESIS",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_opens": "2026-11-05",
+   "window_closes": "2027-01-20",
+   "grace_horizon": "0 days - grace not pre-registered",
+   "grace_locked": false,
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "internal",
+   "instrument": "Single-act test on appropriations, not on rhetoric. Personnel exits are tracking observables and score nothing; only a capacity reduction counts.",
+   "anchor_type": "external_institutional",
+   "anchor_source": "Enacted appropriations or authorization law, and named personnel decisions, documented in primary sources",
+   "anchor_grade": "A",
+   "window_basis": "Registered the day after results, before any personnel action was announced, so the cosmetic call is dated against an empty field",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Inauguration ends the lame-duck and the period in which the defeated leader still controls the party; unresolved at close is a MISS by rule",
+   "threshold_definition": "HIT if no capacity reduction is enacted by 2027-01-20, regardless of how much personnel is sacrificed. MISS on the single appropriations act specified in the falsifier.",
+   "max_lifespan": "2026-11-05 through 2027-01-20",
+   "review_cadence": "Weekly, and immediately on any ICE appropriations mark or senior departure",
+   "tracking_state": "Registered against an empty personnel field. At registration, zero named exits and zero appropriations movement.",
+   "grace_locked_date": "2026-11-05T14:55-05:00",
+   "grace_locked_note": "Declaration dated at registration: this THESIS card carries no grace. Recorded so the no-grace claim is dated rather than retrospective.",
+   "base_rate_source": "[composite, own count] Substantial ideological moderation within ~2 years of a major defeat: Dems 1988-1992 yes; GOP 2008-2010 no; GOP 2012-2016 no; Dems 2016-2020 partial; Labour UK 2019-2024 yes; Labour UK 2010-2015 partial; GOP 2020-2024 no = 3.5/7, Laplace-smoothed 50%. Conditional adjustment for blocked leadership succession not applied to the base rate; carried in confidence_rationale instead.",
+   "base_rate_frozen_date": "2026-11-05",
+   "base_rate_tier": "contested",
+   "derivation_gap": "+22.0",
+   "p_substance": 0.28,
+   "p_timing": 1.0,
+   "deadline_type": "constitutive",
+   "post_expiry_confirmation": null,
+   "successor_card": null,
+   "falsifier_shape_audit": "Single observable (one enacted appropriations/authorization act), single dated deadline (2027-01-20), no conjunction, no 'and/or'. Passes D1-D4.",
+   "leg_primary": "T",
+   "leg_secondary": [],
+   "leg_basis": "vanguard blame allocation and repair routing",
+   "basename": "2026-11-05-gop-post-defeat-cosmetic-not-ideological",
+   "confidence": 72
+  },
+  {
+   "title": "Mass-casualty domestic political attack before the inauguration (the Pape window limb, scored independently)",
+   "date_made": "2026-11-05",
+   "time_et": "15:15",
+   "statement": "THRESHOLD EVENT, symmetric across direction: a single incident on US soil between 2026-11-04 and 2027-01-20 23:59 ET in which ten or more people are killed and the attacker's stated or documented motive is political or ideological \u2014 targeting a group, official, institution or population in American public life. Counts in either direction: right-motivated, left-motivated, jihadist-inspired, or ethnonationalist. Excludes ordinary crime, domestic disputes, workplace shootings with no ideological content, and accidents. A foreign-directed plot counts only if it is carried out on US soil inside the window. Mass-casualty thresholds are set at ten rather than at 'any attack' because the Pape claim being tested is the wildfire claim, not the intimidation claim \u2014 the latter is already priced on election-day-violence-2026 (Tier 1 at 65-70, Tier 2 at 20, Tier 3 at 3-5). ORIGIN: the 2026-11-05 Diary of a CEO interview with Robert Pape (recorded 2026-10-29), which warns that violent populism 'spreads like wildfire' in the eight weeks after the midterms. His eight-week window closes 2026-12-29 and his own mechanism requires January, so this card runs the full 78 days to inauguration rather than his 56.",
+   "evidence_confirmed": [
+    "Base rate is real and countable: six qualifying incidents in the 31 years from Oklahoma City (1995) to Buffalo (2022) \u2014 Oklahoma City 168, San Bernardino 14, Orlando Pulse 49, Pittsburgh Tree of Life 11, El Paso 23, Buffalo 10. Approximately one every five years.",
+    "Environment is measurably elevated on our own instruments: dehumanization velocity up, armed-formation sponsorship branch open, and the legitimacy-contest catalyst node at 74 \u2014 all of which raise the hazard above the unconditional rate.",
+    "Both directions are live in the specimen record this week, which is the condition under which symmetric coding matters: a monetised right-wing civil-war call from a roofer with a GoFundMe, and the 2026-11-04 masked-column observation in Ohio.",
+    "Pape's structural point that both sides have an incentive to build capacity before the result is known is directly relevant to the sponsorship branch, even where his symmetric framing does not match our asymmetric specimen distribution."
+   ],
+   "evidence_contradicted": [
+    "Tier 3 violence, which is the scale this card tests, has two binding preconditions on our register \u2014 an elite call and a security-service non-interference window \u2014 and neither is in place as of 2026-11-05.",
+    "Pape's own track record on dated catastrophes is one-for-one against him: his one-in-three nuclear test before the midterms resolved MISS on 2026-11-03, with declaratory rungs up and no technical rung beneath them.",
+    "The market leg disagrees with the war-related half of his thesis: crude fell more than 8 percent on 4 November and WTI settled at its lowest since 31 August, repricing the escalation he says is imminent.",
+    "Wartime mass-casualty attacks in the US have historically been conducted by attackers with no organisational sponsorship; sponsorship is our watch item precisely because its absence is the current state, and a lone actor does not require it."
+   ],
+   "falsifier": "RESOLVES NEGATIVE on 2027-01-20 23:59 ET with no qualifying incident. RESOLVES POSITIVE on the first qualifying incident inside the window; the card resolves on that date and does not wait for window close. Post-expiry confirmations score nothing \u2014 the window is constitutive of the claim.",
+   "forward_watchlist": [
+    "Any attack with ten or more killed on US soil, in either direction \u2014 this resolves the card on the day, not at close",
+    "A single event with fewer killed but an explicit political target list, which is the leading indicator and is tracked on the violence card rather than here",
+    "Elite-call language from named institutional actors, the first of the two Tier 3 preconditions",
+    "Security-service posture changes \u2014 stand-down, non-interference, or delayed federal response at a state or local incident",
+    "Whether Pape's own eight-week basket produces anything by 29 December, which is the cleaner test of his model and is tracked separately"
+   ],
+   "status": "pending",
+   "confirmer": "Public confirmation by AP, Reuters or a federal indictment of a single incident on US soil, 2026-11-04 to 2027-01-20, with ten or more killed and a documented political or ideological motive.",
+   "confirmer_base_rate": "Six qualifying incidents in 31 years (1995-2026), ~0.19 per year; 78-day window at the unconditional rate is ~4 percent.",
+   "confirmation_window": "2026-11-04 to 2027-01-20 23:59 ET",
+   "last_moved": "2026-11-05 15:15 ET (created)",
+   "outcome_direction": null,
+   "base_rate_numeric": 0.19,
+   "resolution_note": null,
+   "baseline_retrofit": false,
+   "confidence_rationale": "4 percent unconditional, doubled and a half into an environment our own instruments call elevated, and then held at 10 rather than pushed to 15 because the two conditions that would make an attack of this scale likely are absent and visible. The honest gap to the naive base rate is small; that is the point. Pape's framing reaches this outcome as near-certain, we reach it as improbable, and 10 is what a base rate does when it is allowed to stay a base rate. If the card resolves positive at 10, our number was too low, not our method.",
+   "trial_case": "Pape, The Diary of a CEO, published 2026-11-05, recorded 2026-10-29. The card tests his wildfire claim in the only form that can be scored; the interview does not itself state a threshold or a count, and this is therefore an independent operationalisation, not his number.",
+   "verdict": null,
+   "correlation_flag": "Shares the Pape source window with iran-nuclear-test-before-midterms (resolved MISS) and with control-2-no-insurrection-act. Do not treat the three as independent evidence for a single 'Pape is right' or 'Pape is wrong' judgment; they are one analyst and one registered board. The violence limb is genuinely new and does not duplicate election-day-violence-2026, which ends 2026-11-14 and prices tiers rather than a mass-casualty count.",
+   "revision_log": [
+    {
+     "date": "2026-11-05",
+     "change": "Created at 10, window 2026-11-04 to 2027-01-20, threshold ten killed, symmetric direction. Public status pending_adjudication; nothing on the board until the tribunal hears it."
+    }
+   ],
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "resolution_date": null,
+   "window_closes": "2027-01-20",
+   "grace_horizon": "0 days",
+   "grace_locked": false,
+   "skill_eligible": true,
+   "quarantine_reason": null,
+   "public_status": "pending_adjudication",
+   "instrument": "v2 (class, anchor grade, expiry and threshold declared at registration)",
+   "window_opens": "2026-11-04",
+   "anchor_type": "statutory",
+   "anchor_source": "Inauguration date fixed in the Constitution as 20 January following the election.",
+   "anchor_grade": "A",
+   "window_basis": "Closes on a date fixed in law. Opens on the day after the midterms, which is the registrant's choice and is stated as such.",
+   "expiry_date": "2027-01-20",
+   "expiry_basis": "Expires at window close. No grace pre-registered, so none is granted.",
+   "threshold_definition": "One incident; ten or more killed; US soil; political or ideological motive documented by law enforcement, prosecution or the attacker's own statement; either direction; excludes ordinary crime and accidents.",
+   "max_lifespan": "2027-01-20",
+   "review_cadence": "daily through 15 November, then weekly",
+   "tracking_state": "armed; zero qualifying incidents as of 2026-11-05",
+   "base_rate_source": "[documented] Six incidents 1995-2026 with ten or more killed and a political or ideological motive, enumerated in evidence_confirmed. Enumerated at registration so the class can be audited.",
+   "base_rate_frozen_date": "2026-11-05",
+   "base_rate_tier": "documented",
+   "derivation_gap": null,
+   "p_substance": 0.1,
+   "p_timing": 1.0,
+   "deadline_type": "constitutive",
+   "leg_primary": "T",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "timing floor \u2014 the window is statutory and the hazard is window-bounded",
+   "falsifier_shape_audit": "Single-act count test, resolves on occurrence rather than at close, no ambiguity in the threshold. Threshold set at ten to keep it out of the tier card's territory and to make the count auditable.",
+   "basename": "2026-11-05-mass-casualty-political-attack-inauguration",
+   "confidence": 10
   }
  ],
  "mget_ledger": [
@@ -11740,6 +11906,18 @@
  ],
  "movers": [
   {
+   "time": "2026-11-05 15:15 ET (created)",
+   "ref": "Mass-casualty domestic political attack before the inauguration (the Pape window limb, scored independently)",
+   "change": "confidence 10 \u2014 status pending",
+   "trigger": "Pape's structural point that both sides have an incentive to build capacity before the result is known is directly relevant to the sponsorship branch, even where his symmetric fram"
+  },
+  {
+   "time": "2026-11-05 14:55 ET",
+   "ref": "Cosmetic not ideological: the GOP sacrifices personnel, not the program",
+   "change": "confidence 72 \u2014 status emergent",
+   "trigger": "Pre-election reporting (Palmeri, 2026-09-30) had Miller drafting the post-loss pretext, armed-presence conversations, and an emergency declaration. A man building the post-defeat m"
+  },
+  {
    "time": "2026-11-05",
    "ref": "After the rebuke: does any armed formation acquire a named institutional patron?",
    "change": "confidence 22 \u2014 status emergent",
@@ -11786,18 +11964,6 @@
    "ref": "Iran deal announced: a declared win before 2027-03-31",
    "change": "confidence 57 \u2014 status pending",
    "trigger": "2026-10-27: Iran war regionalisation track - Egypt and Saudi Arabia engaging Tehran"
-  },
-  {
-   "time": "2026-11-04",
-   "ref": "Iran war end-state fork: hold-and-grind is the modal lane through 2027-01-01",
-   "change": "confidence 55 \u2014 status emergent",
-   "trigger": "Hormuz at 2 vessels/day against a pre-crisis 85, 247 days into effective closure"
-  },
-  {
-   "time": "2026-11-04",
-   "ref": "Operator to Participant: no delegated coordination authority returns to Washington before 2031",
-   "change": "confidence 75 \u2014 status emergent",
-   "trigger": "\u2014"
   }
  ],
  "daily_read": {
@@ -11861,7 +12027,7 @@
  },
  "counts": {
   "items_today": 7,
-  "tracked_predictions": 85,
+  "tracked_predictions": 87,
   "claims_tested": 28,
   "unscored_predictions": 0
  },
@@ -12036,9 +12202,9 @@
    }
   ],
   "register_load": {
-   "total": 88,
+   "total": 90,
    "by_leg": {
-    "T": 39,
+    "T": 41,
     "N": 2,
     "G": 28,
     "E": 9,
