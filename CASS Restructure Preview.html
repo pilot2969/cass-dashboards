@@ -166,7 +166,8 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
  <div class="rail" id="rail"></div>
  <div class="legend" id="legend"></div>
  <table style="margin-top:16px"><thead><tr><th>Register</th><th class="num">Cards</th><th class="num">Resolved</th><th class="num">Rate</th><th>What a low rate means</th></tr></thead><tbody id="regBody"></tbody></table>
- <div class="note">Rate is resolved divided by cards. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
+ <div class="note">Rate is resolved divided by the cards that can score. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
+ <div class="note"><b>One inconsistency the audit turned up.</b> Twelve cards carry an outcome; four of those twelve are flagged not scoreable. A card cannot be both resolved and excluded from scoring — either the resolution is being rendered while the card is withheld, or the flag is stale. The register should carry a gate rule in the same family as the ledger checks: a card with a hit or a miss must have skill_eligible true, or the push fails. Not fixed here, because changing the flag would silently move a published rate.</div>
 </div>
 
 <h2>5 · MGET wire ledger</h2>
@@ -309,10 +310,17 @@ function render(data){
     const shown=(g.k==="B")?FLOW.cases:cards;
     const rate=eligible.length?Math.round(res/eligible.length*100):0;
     counts[g.k]=shown;
-    const sub=(g.k==="A")?("<div class=\"small\">"+(cards-eligible.length)+" of these are ROLLING and cannot score (skill_eligible false) until a threshold action is registered, so the rate is counted over "+eligible.length+".</div>"):"";
+    const inel=cards-eligible.length;
+    const inelRes=set.filter(x=>x.skill_eligible===false&&["hit","miss"].includes(String(x.resolution||""))).length;
+    let sub="";
+    if(g.k==="A"){
+      sub+="<div class=\"small\">"+cards+" cards, of which "+inel+" are marked not scoreable: four ROLLING cards awaiting a threshold action, two PERSISTENCE cards and five EVENT cards outside their grace lock. The rate is counted over the "+eligible.length+" that can score.</div>";
+      const resAll=set.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+      if(inelRes){sub+="<div class=\"small\" style=\"color:var(--warm)\">"+inelRes+" of the "+resAll+" resolutions sit on cards marked not scoreable — an inconsistency in the register, flagged in the note below.</div>";}
+    }
     rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div>'+sub+'</td><td class="num">'+
       shown+'</td><td class="num">'+(g.k==="B"?"—":res)+'</td><td class="num">'+
-      (g.k==="B"?"n/a":rate+"%")+'</td><td class="small">'+
+      (g.k==="B"?"n/a":rate+"% ("+res+" of "+eligible.length+")")+'</td><td class="small">'+
       (g.k==="A"?"Cards that reached an ending are scored; the rest are open, not failed.":
        g.k==="B"?"No resolution is possible by construction. Its usefulness is the rate of change and its kill condition.":
        "0% here is a fact about how the claim was written, not about the world. Rewrite as a bet, or retire it.")+'</td></tr>';
@@ -356,7 +364,7 @@ function render(data){
   $("dailyread").innerHTML=(cards.length?cards.map(c=>'<div class="card"><h4>'+esc(c.title||"")+'</h4>'+String(c.html||"")+'</div>').join(""):
     '<div class="panel">No Daily Read in this export.</div>');
 
-  const led=(data.mget_ledger||[]).slice().reverse();
+  const led=(data.mget_ledger||[]).slice().sort((a,b)=>String(b.date||"").localeCompare(String(a.date||""))||String(b.time_et||"").localeCompare(String(a.time_et||"")));
   const newest=led.slice(0,12);
   $("ledlead").textContent=(data.mget_ledger||[]).length+" entries · newest "+((newest[0]&&newest[0].date)||"–");
   $("ledmeta").textContent="showing 12";
