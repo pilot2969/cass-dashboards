@@ -334,7 +334,10 @@ except Exception as _e:
 # actually present, so "64 forecasts" can never silently disagree with the page.
 try:
     _cnt={}
-    _cnt["items_today"]=sum(1 for _e in data.get("mget_ledger",[]) if str(_e.get("date",""))[:10]==datetime.date.today().isoformat())
+    _et_today=(datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))).date().isoformat()
+    # ET, not UTC: the box runs UTC, so date.today() flips to tomorrow at 20:00 ET and the
+    # board read "0 logged today" for every item logged this evening (2026-11-05).
+    _cnt["items_today"]=sum(1 for _e in data.get("mget_ledger",[]) if str(_e.get("date",""))[:10]==_et_today)
     _cnt["tracked_predictions"]=len(data.get("predictions",[]))
     _decided={"sustained","revised","overturned","held-for-revision"}
     _cnt["claims_tested"]=sum(1 for _f in _g2.glob("/space/gauntlet/*.json")
