@@ -14,7 +14,9 @@ Usage: python3 build_register.py [--dry]
 """
 import glob, html, json, os, re, sys, datetime
 
-TODAY = datetime.date(2026, 11, 2)
+# ET, not UTC: the box runs UTC so date.today() rolled to tomorrow at 20:00 ET
+# and every 'in Nd' label in the calendar was a day short after that (2026-11-05).
+TODAY = (datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=-4)))).date()
 HERE = os.path.dirname(os.path.abspath(__file__))
 SHELL = os.path.join(HERE, "Internal Telemetry.html")
 SPACE = "/space/prediction"
