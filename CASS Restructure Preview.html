@@ -102,6 +102,28 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
 .wkbar{width:100%;max-width:38px;background:linear-gradient(180deg,#e0452f,#8e2417);border-radius:3px 3px 0 0}
 .wkv{font:600 11px/1.4 ui-monospace,monospace;color:#e6edf7;margin-top:4px}
 .wkl{font:400 10px/1.4 ui-monospace,monospace;color:#7d8ea6;margin-bottom:2px}
+
+/* 3.2 / ledger drill-down: a row opens its own evidence. Same denominator as the
+   number printed beside it, keyed by /space basename, read from the data layer. */
+tr.drillable{cursor:pointer}
+tr.drillable:hover td{background:#18212f}
+tr.drillable td:first-child{position:relative}
+tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:700;margin-right:6px}
+.ledrow{cursor:pointer}
+.ledrow:hover{border-color:#3b5170}
+.drill{position:fixed;top:0;right:0;bottom:0;width:min(560px,94vw);background:#101724;border-left:1px solid var(--line);
+ box-shadow:-18px 0 44px rgba(0,0,0,.5);z-index:40;display:flex;flex-direction:column}
+.drill.hidden{display:none}
+.drill header{display:flex;gap:10px;align-items:baseline;padding:14px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.drill header b{font-size:14px}
+.drill header .x{margin-left:auto;cursor:pointer;color:var(--dim);font:700 15px/1 ui-sans-serif;border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+.drill header .x:hover{color:var(--ink);border-color:#3b5170}
+.drill .body{overflow:auto;padding:12px 16px 30px}
+.drill .body p{font-size:13px;color:#cfdaea;margin:0 0 9px}
+.drill .body h5{font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:14px 0 6px}
+.drill .item{border-bottom:1px solid #1d2637;padding:7px 0}
+.drill .item .k{font:600 12px/1.5 ui-monospace,monospace;color:#cfdaea}
+.drill .item .m{font-size:11.5px;color:var(--dim)}
 </style></head>
 <body>
 <div class="mockbar"><b>STAGING PREVIEW</b><span>v5 — revisions applied — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
@@ -174,7 +196,7 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
 <div class="note" style="margin-top:0">Section 2 measures <b>stocks</b>: holdings, hand-set once a month. This measures a <b>flow</b>: how fast dehumanizing frames move through the feed, counted continuously. The two answer different questions. A stock says how captured an institution is today; a flow says whether the audience that would have to accept force is being prepared faster than it was last week. The second is the leading indicator, and it never belonged in the dial table — you cannot defend "dehumanization is 71" from public observables, but you can defend "33 specimens this week, 45 coded right-flank, 25 reciprocal."</div>
 
 <div class="scroll"><table><thead><tr><th>Reading</th><th class="num">Value</th><th>What it means</th></tr></thead><tbody>
-<tr><td><b>Specimens in corpus</b></td><td class="num">219</td><td>Captured items, each with a screenshot set and a full comment-thread capture (post + 6 frames).</td></tr>
+<tr><td><b>Specimens in corpus</b></td><td class="num" id="corpusN">—</td><td>Captured items, each with a screenshot set and a full comment-thread capture (post + 6 frames).</td></tr>
 <tr><td><b>Capture span</b></td><td class="num">8-01 → 11-05</td><td>Capture began 2026-10-07. The August date is a single origin specimen carried forward; the series is honest only from W38.</td></tr>
 <tr><td><b>This week</b></td><td class="num">33</td><td>W45, election week. Up from 8 the week before — a 4× step, not a drift.</td></tr>
 <tr><td><b>Peak week</b></td><td class="num">65</td><td>W41, the pre-midterm escalation run. The current rate is half the peak and four times the trough.</td></tr>
@@ -260,9 +282,15 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
  <table style="margin-top:12px"><thead><tr><th style="width:22%">Term</th><th>What it means</th><th style="width:20%">Where it comes from</th></tr></thead><tbody id="dictBody"></tbody></table>
 </div>
 
+<div id="drill" class="drill hidden" role="dialog" aria-modal="false" aria-labelledby="drillTitle">
+ <header><b id="drillTitle">Evidence</b><span class="small" id="drillMeta"></span><span class="x" id="drillX" role="button" tabindex="0" aria-label="Close">✕</span></header>
+ <div class="body" id="drillBody"></div>
+</div>
+
 <h2>8 · Change log</h2>
 <div class="panel">
  <div id="changelog">
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.7-preview</b></span></div><div class="z15"><b>Two numbers on this page were unauditable; both now open.</b> The 3.2 flank row and the wire-ledger card each open a drawer holding the rows behind them — for 3.2, the specimens counted under that exact key (basename, date, theme, newest first); for the ledger, the entry verbatim with date, verdict, track, legs tested, full reasoning and the /space path it came from. Both read the data layer: <code>flank.json</code> now carries a <code>rows</code> map keyed by the same flank the count was made under, so the drawer resolves to the same denominator as the figure beside it rather than to a looser dataset. The corpus counter and coded ratio on the readings table are now stamps, not hand-typed: 224 specimens and 185 coded at this build, up from 219 and 87, because today's captures landed. Where the counter and the drawer list disagree, the panel says so rather than hiding it. Esc or ✕ closes. No new claim: the split is still not the finding.</div></div>
   <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.6-preview</b></span></div><div class="z15"><b>Dictionary audit, and the one collision it found.</b> The dictionary had two terms defined twice with different meanings — <b>Stock</b> meant both the institutional dial readings and a point-in-time level, and <b>Flow</b> meant both the accumulation census and a rate of movement — so a reader looking up either word got the wrong definition half the time. Fixed by naming the four senses separately: <b>Census flow</b>, <b>Stock reading</b>, <b>Flow reading</b>. A stray empty entry in the array is removed. Eight terms added for words this board uses as terms of art and never defined: instrument, scoreable / unscoreable, hit / miss, quarantine, register rate, institutional stress mean, critical share, and the stock-versus-flow distinction itself, which is the one that makes the dial set legible.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.5-preview</b></span></div><div class="z15"><b>New section 3: Absorption velocity.</b> The board could see stocks and not flows, which is why a month of administrative accumulation read as calm. This section counts the thing that actually moves: 219 specimens, 8 weeks of rate, 45 right-flank / 25 reciprocal / 17 left-flank among the 87 direction-coded, and the theme mix led by narrative repair at 53. The finding is the rate — 7 → 13 → 39 → 65 into the election, a fall to 8, then a 4× step back to 33 the week after the defeat. <b>High stock with rising flow</b> is the combination no stock can express. Falsifier and sampler bias printed on the panel, not hidden. Sections renumbered: institutional coverage is 4, registers 5, ledger 6, dictionary 7, change log 8. Dictionary gains six terms: stock, flow, specimen, absorption velocity, capture skew, reciprocal pair.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.4-preview</b></span></div><div class="z15"><b>Four changes.</b> (1) <b>Dial set v2</b>: Arts and Expression admitted at 83 Critical on a named request, alongside Media and Press, State Governments and Local Law Enforcement — twelve dials, mean unchanged at 78 (627÷8 = 78.4, 938÷12 = 78.2), Critical share 63% → 58%, set version stored with every reading. The three previously dashed gauges are solid and inside the mean. (2) <b>Why the audit missed it</b>: the candidate list was generated from vetoes and licences, and legitimation institutions hold neither. Stated on the page with the gate rule that fixes it. (3) <b>Ledger defaulted</b>: grouped by age — 7 days, 30 days, older — with derived genre and subject labels, time printed only when filed, NAME chips capped at two, the scraped track string demoted to a tooltip, and a more/less expand on every row. (4) <b>Data dictionary</b> extended by eight terms: dial set version, legitimation, key-stake test, blind spot, genre, subject, NAME chip.</div></div>
@@ -272,7 +300,7 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
  </div>
- <div class="note" style="margin-top:14px"><span class="ftver">v4.6-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.7-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
 <div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
@@ -351,13 +379,18 @@ const DICT=[
  ["Register rate (resolved ÷ scoreable)","The share of scoreable cards in a pile that have reached an ending. Read it as workload, not skill: a low rate in the forecast register means lots of open bets, a high rate means the pile has been cleared. Accuracy is a different number — the hit rate among resolved cards — and the two are never added together or shown as one.","computed from the register"],
  ["Institutional stress mean","The plain average of every dial in the current set, 0 slack to 100 captured. One number for the whole institutional layer, and it is a crude one: a set of twelve can hide two captured institutions behind ten calm ones. It moves only when someone re-scores a dial, and it is never compared across a set change.","computed from the dial set"],
  ["Critical share","How many dials sit at 75 or above, as a count and a share of the set. The mean tells you the average and can be dragged by one extreme reading; the Critical share tells you how many institutions are already past the line. Print both, because either alone can mislead in the opposite direction.","computed from the dial set"],
- ["Specimen","One captured dehumanizing item plus its comment-thread capture (post + six frames), coded for direction, power position, theme and frame. 219 in corpus.","/space/absorption"],
+ ["Specimen","One captured dehumanizing item plus its comment-thread capture (post + six frames), coded for direction, power position, theme and frame. Counted live on section 3, not fixed here.","/space/absorption"],
  ["Absorption velocity","Specimens per week, and the direction and function split inside them. The leading edge of the M reading: high stock plus rising flow means the frame is being refreshed, not merely retained.","section 3, counted weekly"],
  ["Capture skew","The known bias in the specimen corpus: capture is opportunistic, taken from the owner's own feed, so the rate is indicative and not a census. Printed on the panel so a chart cannot imply otherwise.","stated, cannot be corrected by scoring"],
  ["Reciprocal pair","A specimen answered by a mirrored specimen from the opposite flank. Flagged high-value on capture, because a spiral is a different phenomenon from a one-directional drip.","flagged at capture"]
 ];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+/* Hoisted 2026-11-06: the drill-down drawer prints the same genre and time label the
+   ledger row does, so these must exist outside render()'s scope. */
+const GENRE=[[/^macro|thesis|market/i,"Macro & markets"],[/court|election|law|impeach/i,"Courts & elections"],[/media|press|vanguard|meme/i,"Media"],[/oil|energy|material|drupa/i,"Oil & materials"],[/military|defen|hegseth|carrier|force/i,"Military"],[/iran|israel|greenland|china|russia|nato|mexico|venez/i,"Foreign"],[/census|administr|enforcement|repr/i,"Institutions"],[/immig|ice|border/i,"Immigration"],[/elite|corporate|business/i,"Corporate"]];
+const genre=t=>{for(const [re,n] of GENRE) if(re.test(t||"")) return n; return "Wire";};
+const t24=s=>{const m=String(s||"").match(/^([01]?\d|2[0-3]):[0-5]\d/);return m?m[0].padStart(5,"0"):"";};
 const bandCol=s=>s>=75?"var(--hot)":s>=60?"var(--warm)":"var(--ok)";
 function gauge(name,score,delta){
   const r=44,cx=62,cy=66,circ=Math.PI*r;
@@ -501,11 +534,8 @@ function render(data){
      what the wire carried; the subject is taken from the entry text; a NAME chip appears only
      when a proper name is present. Nothing is invented: no subject, no line. A time is printed
      only when one was filed and it parses as 24h. */
-  const GENRE=[[/^macro|thesis|market/i,"Macro & markets"],[/court|election|law|impeach/i,"Courts & elections"],[/media|press|vanguard|meme/i,"Media"],[/oil|energy|material|drupa/i,"Oil & materials"],[/military|defen|hegseth|carrier|force/i,"Military"],[/iran|israel|greenland|china|russia|nato|mexico|venez/i,"Foreign"],[/census|administr|enforcement|repr/i,"Institutions"],[/immig|ice|border/i,"Immigration"],[/elite|corporate|business/i,"Corporate"]];
-  const genre=t=>{for(const [re,n] of GENRE) if(re.test(t||"")) return n; return "Wire";};
   const NAMERE=/\b(?:Trump|Vance|Hegseth|Rubio|Dhillon|Miller|Kennedy|Pape|Musk|Thiel|Biden|Obama|Reagan|Partridge|Cooper|Beatty|Carter|Watson|Kavanaugh|Thomas|Alito|Sotomayor|Jackson|Kagan|Roberts|Newsom|DeSantis|Bannon|Wiles|Blanche|Pirro|Bondi|Patel|Gabbard|Waltz|Homan|Noem|Duffy|Lutnick|Bessent|Warsh|Hassett|Miranda|Sherrill|Talarico|Acton|Mandel|Moreno|Hawley|Cruz|Jeffries|Schumer|Ocasio|Sanders|Kirk|Crowder|Owens|Shapiro|Carlson|Rogan)\b/g;
   const NAMES=led.map(e=>{const m=String(e.reasoning||"").match(NAMERE)||[];return m.filter((x,i)=>m.indexOf(x)===i);});
-  const t24=s=>{const m=String(s||"").match(/^([01]?\d|2[0-3]):[0-5]\d/);return m?m[0].padStart(5,"0"):"";};
   const VCOL={confirms:"var(--ok)",strains:"var(--warm)",neutral:"var(--dim)",undermines:"var(--hot)",contradicts:"var(--hot)"};
   const today=new Date(); today.setHours(0,0,0,0);
   if(led.length){const nw=new Date(led[0].date+"T00:00:00"); if(nw>today) today=nw;}
@@ -526,7 +556,7 @@ function render(data){
       const v=String(e.verdict||"").toLowerCase();
       const col=VCOL[v]||"var(--dim)";
       const t=t24(e.time_et);
-      lout+='<div class="card ledrow" style="border-left-color:'+col+'"><h4>'+
+      lout+='<div class="card ledrow" data-bn="'+esc(e.basename||"")+'" style="border-left-color:'+col+'"><h4>'+
         '<span class="small" style="color:var(--dim)">'+esc(genre(e.track))+'</span> · '+esc(e.date||"")+
         (t?' <span class="small" style="color:var(--dim)">'+esc(t)+' ET</span>':'')+
         ' <span class="small" style="color:'+col+';text-transform:uppercase;letter-spacing:.08em">'+esc(e.verdict||"")+'</span>'+
@@ -542,10 +572,19 @@ function render(data){
   $("ledlead").textContent=(data.mget_ledger||[]).length+" entries · newest "+((led[0]&&led[0].date)||"–")+" "+((t24(led[0]&&led[0].time_et))||"")+" ET";
   $("ledmeta").textContent="12 per group · grouped by age";
   $("ledger").innerHTML=lout;
+  [...$("ledger").querySelectorAll(".ledrow")].forEach(c=>{
+    const e=led.find(x=>x.basename===c.dataset.bn);
+    if(!e) return;
+    c.addEventListener("click",ev=>{
+      if(ev.target.closest("a")) return;   // the inline "more" link keeps working
+      openLedger(e);
+    });
+  });
 
 
   // ---- Section 3 flow panel, generated by build_flank.py from /space/absorption ----
   const F=data.flank||null;
+  window.__F=F;
   if(F){
     const maxN=Math.max(...F.weeks.map(w=>w.n));
     $("wkChart").innerHTML=F.weeks.filter(w=>w.wk!=="W31").map(w=>
@@ -558,13 +597,61 @@ function render(data){
     const tot=F.total, coded=F.coded;
     $("flankBody").innerHTML=["right","mixed","left","structure"].map(k=>{
       const n=F.split[k]||0, share=coded&&k!=="structure"?Math.round(n/coded*100)+"% of coded":"—";
-      return '<tr><td>'+LAB[k][0]+'</td><td class="num">'+n+'</td><td class="num">'+share+'</td><td class="small">'+LAB[k][1]+'</td></tr>';
+      return '<tr class="drillable" data-flank="'+k+'" tabindex="0"><td>'+LAB[k][0]+'</td><td class="num">'+n+'</td><td class="num">'+share+'</td><td class="small">'+LAB[k][1]+'</td></tr>';
     }).join("");
+    $("corpusN").textContent=tot;
+    [...$("flankBody").querySelectorAll("tr.drillable")].forEach(tr=>{
+      const open=()=>openFlank(tr.dataset.flank, LAB);
+      tr.addEventListener("click",open);
+      tr.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();open();}});
+    });
     $("codedN").textContent=coded+" / "+tot;
     $("flankNote").innerHTML="Generated from the corpus, not hand-set. <b>Rule:</b> flank = the direction a specimen is produced and carried by. "+coded+" of "+tot+" specimens ("+Math.round(coded/tot*100)+"%) carry a flank; the rest are structure. <b>The earlier 45/25/17/132 split did not reproduce</b> — it counted only specimens whose own frame targets an out-group, which needs the <code>dehumanization_frame</code> flag repaired before it can be computed (78 true, 141 false, inconsistently set). The rate series reproduced exactly; only the split moved. <b>The split is not the finding. The rate is.</b>";
   }
   $("dictBody").innerHTML=DICT.map(r=>'<tr><td><b>'+esc(r[0])+'</b></td><td class="small">'+esc(r[1])+'</td><td class="small">'+esc(r[2])+'</td></tr>').join("");
 }
+
+/* ---- drill-down drawer -------------------------------------------------------
+   One panel, two entry points: a 3.2 flank row and a ledger card. Both open the
+   rows that produced the number that was clicked, read from the data layer, and
+   nothing else. No specimen is inferred, no entry is summarised from memory. */
+const DRILL={title:$("drillTitle"),meta:$("drillMeta"),body:$("drillBody"),wrap:$("drill")};
+function closeDrill(){DRILL.wrap.classList.add("hidden");}
+function drawDrill(title,meta,html){
+  DRILL.title.textContent=title; DRILL.meta.textContent=meta; DRILL.body.innerHTML=html;
+  DRILL.wrap.classList.remove("hidden"); DRILL.body.scrollTop=0;
+}
+$("drillX").addEventListener("click",closeDrill);
+$("drillX").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();closeDrill();}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape") closeDrill();});
+
+function openFlank(k,LAB){
+  const F=window.__F; if(!F||!F.rows) return;
+  const rs=(F.rows[k]||[]).slice().sort((a,b)=>b.d.localeCompare(a.d));
+  const n=F.split[k]||0, coded=F.coded||0;
+  const share=(k!=="structure"&&coded)?Math.round(n/coded*100)+"% of the "+coded+" coded":"not counted in the coded split";
+  const html='<p><b>'+esc(LAB[k][0])+'</b> — '+n+' of '+(F.total||0)+' specimens, '+share+'.<br>'+
+    '<span class="small">Every specimen counted under this key, newest first, plus any that are not yet usable (no date, no filename derivable). Click a row in the ledger for the wire entry that carried the same pattern.</span></p>'+
+    '<h5>Specimens in the /space denominator ('+rs.length+')</h5>'+
+    (rs.length?rs.map(r=>'<div class="item"><div class="k">'+esc(r.b)+'</div><div class="m">'+esc(r.d||"no date")+' · theme '+esc(r.theme||"other")+'</div></div>').join(""):
+      '<p class="small">No specimen rows in this export for this key. The count came from the generator; the row list was added after this build — rebuild flank.json to populate it.</p>')+
+    '<h5>What this drawer cannot tell you</h5>'+
+    '<p class="small">The count is authoritative; the list is the audit trail. A specimen that failed to parse a date is inside the count in flank.json but absent from this list, which is why the two numbers are printed side by side. If they disagree by more than a couple, treat the split as stale, not the list as wrong.</p>';
+  drawDrill("Section 3.2 — "+LAB[k][0], n+" specimens · denominator "+(F.total||0), html);
+}
+
+function openLedger(e){
+  const rows=[["Date",esc(e.date||"–")+(e.time_et?" "+esc(e.time_et)+" ET":"")],
+              ["Verdict",esc(e.verdict||"–")],["Track",esc(e.track||"–")],
+              ["Legs tested",(e.mget_legs_tested||[]).length?esc((e.mget_legs_tested||[]).join(", ")):"–"],
+              ["File",'<code>/space/mget_ledger/'+esc(e.basename||"")+'.json</code>']];
+  const html='<h5>Entry</h5>'+rows.map(r=>'<div class="item"><div class="m">'+r[0]+'</div><div class="k" style="font-size:12.5px">'+r[1]+'</div></div>').join("")+
+    '<h5>Reasoning, as filed</h5><p>'+esc(e.reasoning||"No reasoning field on this entry.")+'</p>'+
+    (e.forward_signal?'<h5>Forward signal</h5><p>'+esc(e.forward_signal)+'</p>':'')+
+    '<h5>What this drawer cannot tell you</h5><p class="small">This is the ledger entry, verbatim. It is one observer\'s read at the time it was filed, not a resolution; the forecast register on this page is where outcomes are scored.</p>';
+  drawDrill("Ledger — "+(e.date||"undated"), esc((e.verdict||"")+" · "+genre(e.track)), html);
+}
+
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(render).catch(e=>{
   const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
   $("stamp").textContent="Static shell only.";

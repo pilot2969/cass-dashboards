@@ -57,6 +57,13 @@ payload = {
     "split": {k: split.get(k, 0) for k in ("right", "left", "mixed", "structure", "uncoded")},
     "coded": sum(v for k, v in split.items() if k in ("right", "left", "mixed")),
     "themes": dict(themes.most_common()),
+    # Every counted specimen, grouped by the flank it was counted under. The 3.2
+    # drawer opens THESE rows and nothing else: same denominator, same key (the
+    # /space basename), so a segment cannot resolve to a looser dataset than the
+    # number printed beside it.
+    "rows": {k: [{"b": r["b"], "d": r["d"], "theme": r["theme"]}
+                 for r in rows if (r["flank"] or "structure") == k]
+             for k in ("right", "mixed", "left", "structure")},
     "legacy": LEGACY,
     "rules": {
         "flank": "direction the frame is produced and carried by (actor/source basis)",

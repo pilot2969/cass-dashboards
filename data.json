@@ -12377,10 +12377,10 @@
  },
  "generated": "2026-11-04",
  "flank": {
-  "generated": "2026-11-06 17:30",
-  "total": 219,
+  "generated": "2026-11-06 21:01",
+  "total": 224,
   "span": [
-   "2026-08-01",
+   "2025-08-28",
    "2026-11-05"
   ],
   "weeks": [
@@ -12389,6 +12389,28 @@
     "n": 1,
     "split": {
      "structure": 1
+    }
+   },
+   {
+    "wk": "W35",
+    "n": 2,
+    "split": {
+     "right": 2
+    }
+   },
+   {
+    "wk": "W36",
+    "n": 1,
+    "split": {
+     "right": 1
+    }
+   },
+   {
+    "wk": "W37",
+    "n": 2,
+    "split": {
+     "right": 1,
+     "mixed": 1
     }
    },
    {
@@ -12461,19 +12483,1149 @@
    }
   ],
   "split": {
-   "right": 166,
+   "right": 170,
    "left": 6,
-   "mixed": 8,
+   "mixed": 9,
    "structure": 39,
    "uncoded": 0
   },
-  "coded": 180,
+  "coded": 185,
   "themes": {
    "other": 67,
    "narrative_repair": 53,
-   "institutional": 49,
-   "scapegoat_redirect": 42,
+   "institutional": 51,
+   "scapegoat_redirect": 45,
    "premature_victory": 8
+  },
+  "rows": {
+   "right": [
+    {
+     "b": "2025-08-28-annunciation-shooting-six-frame",
+     "d": "2025-08-28",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2025-08-29-mannarino-mass-detention-call",
+     "d": "2025-08-29",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2025-09-04-doj-trans-gun-ban-deliberation",
+     "d": "2025-09-04",
+     "theme": "institutional"
+    },
+    {
+     "b": "2025-09-09-blaze-memorial-standing-claim-and-four-stage-flow",
+     "d": "2025-09-09",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-15-squirters-narrative-repair",
+     "d": "2026-09-15",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-16-higby-dehumanization-priming",
+     "d": "2026-09-16",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-17-sydney-sweeney-filler-cycle",
+     "d": "2026-09-17",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-18-sacralization-legislative-halls",
+     "d": "2026-09-18",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-18-wh-media-ban-cover",
+     "d": "2026-09-18",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-21-christian-trolling-theology",
+     "d": "2026-09-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-21-meme-framing-asymmetry",
+     "d": "2026-09-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-21-trump-tv-direct-channel",
+     "d": "2026-09-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-22-white-horse-prelegitimation-surface",
+     "d": "2026-09-22",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-09-26-crowder-case-for-fascism-recirculation",
+     "d": "2026-09-26",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-09-26-heritage-egg-freezing-fatherless-dystopia",
+     "d": "2026-09-26",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-09-26-liberal-women-bestialization-violence-outperformance",
+     "d": "2026-09-26",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-26-mace-trans-existence-denial-moe-amplification",
+     "d": "2026-09-26",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-26-thiel-competence-scarcity-white-horse-setup",
+     "d": "2026-09-26",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-09-27-liberal-deportation-buddy-system-meme",
+     "d": "2026-09-27",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-28-right-election-narrative-triad",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-28-rsbn-chat-specimen",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-28-rsbn-clip-sequence-programming",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-28-rsbn-grift-economy-observation",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-28-rsbn-machine-case-study",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-28-rsbn-website-architecture",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-29-cia-mediterranean-drone-prelegitimation",
+     "d": "2026-09-29",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-29-divine-judgment-immigration-theodicy",
+     "d": "2026-09-29",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-29-dow-cto-superintelligence-branding",
+     "d": "2026-09-29",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-09-29-final-battle-ad-comment-sacralization",
+     "d": "2026-09-29",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-29-folk-poll-suppression-meme",
+     "d": "2026-09-29",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-09-29-folk-terminal-date-collapse-prediction",
+     "d": "2026-09-29",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-29-hegseth-operator-cosplay-spec-ops",
+     "d": "2026-09-29",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-09-29-identity-politics-force-cascade-specimen",
+     "d": "2026-09-29",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-29-jane-doe-accuser-delegitimization",
+     "d": "2026-09-29",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-01-ark-scans-curriculum-prelegitimation",
+     "d": "2026-10-01",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-01-cornell7-elite-accuser-delegitimization",
+     "d": "2026-10-01",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-01-endwokeness-flydubai-attribution",
+     "d": "2026-10-01",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-01-guests-weapons-meme-ambiguity",
+     "d": "2026-10-01",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-01-imprecatory-psalms-hate-orthodoxy",
+     "d": "2026-10-01",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-01-invictus-train-like-mainstream",
+     "d": "2026-10-01",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-01-kestbaum-religious-prelegitimation-pair",
+     "d": "2026-10-01",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-01-kid-rock-piety-conversion-cycle",
+     "d": "2026-10-01",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-01-press-vest-terrorist-designation",
+     "d": "2026-10-01",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-01-state-dept-meme-enforcement-aestheticization",
+     "d": "2026-10-01",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-01-trad-west-crusade-prelegitimation",
+     "d": "2026-10-01",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-01-west-responsible-press-prelegitimation",
+     "d": "2026-10-01",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-02-benny-johnson-ice-defamation-suit",
+     "d": "2026-10-02",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-02-eeoc-nativist-agency-voice",
+     "d": "2026-10-02",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-02-war-dept-office-religious-affairs",
+     "d": "2026-10-02",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-04-vandalia-retaliation-eliminationist-rally",
+     "d": "2026-10-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "3iuo7pmbzegf",
+     "d": "2026-10-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-05-evening-roundup-right-flank",
+     "d": "2026-10-05",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-05-hasan-firing-squad-execution-order",
+     "d": "2026-10-05",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-05-trump-ai-robot-army-recirculation",
+     "d": "2026-10-05",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-05-trump-detroit-philly-rig-prepositioning",
+     "d": "2026-10-05",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-05-trump-media-arrest-ohio-rally",
+     "d": "2026-10-05",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-05-usaid-dismantling-latin-america-swing-attribution",
+     "d": "2026-10-05",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-06-fbi-whistleblower-unconstitutional-probe",
+     "d": "2026-10-06",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-06-hasan-firing-squad-execution-order",
+     "d": "2026-10-06",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-06-hegseth-ig-reform-command-supremacy",
+     "d": "2026-10-06",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-06-hostile-networks-mamdani-frame",
+     "d": "2026-10-06",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-06-osce-observer-exclusion",
+     "d": "2026-10-06",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-06-trump-vought-big-surprises-prepositioning",
+     "d": "2026-10-06",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-10-07-abuse-divorce-covenant-supremacy",
+     "d": "2026-10-07",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-07-beck-senate-polls-delegitimization",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-07-c3c3-immigration-plague-reveal",
+     "d": "2026-10-07",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-07-hegseth-isaiah-send-me-faith-war-framing",
+     "d": "2026-10-07",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-07-ice-voter-records-dragnet-thread",
+     "d": "2026-10-07",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-07-macintyre-american-conversation-exclusion",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-07-reclaim-scotland-militia-training",
+     "d": "2026-10-07",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-07-remigration-or-die-eliminationist-feed",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-07-rubio-acropolis-excellence-doctrine",
+     "d": "2026-10-07",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-07-wh-worship-oct7-anniversary",
+     "d": "2026-10-07",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-08-hasan-execution-feed-penetration-telemetry",
+     "d": "2026-10-08",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-08-hasan-public-execution-declaration",
+     "d": "2026-10-08",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-08-hutchinson-revenge-indictment",
+     "d": "2026-10-08",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-08-ice-bronx-shooting-victim-pre-frame-graft",
+     "d": "2026-10-08",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-08-minnesota-fight-back-incitement-dual-lane",
+     "d": "2026-10-08",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-08-oil-pre-war-levels-narrative-repair-meme",
+     "d": "2026-10-08",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-08-superintelligence-enemy-terminology-policing",
+     "d": "2026-10-08",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-09-daily-wire-execution-fait-accompli-wedge",
+     "d": "2026-10-09",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-09-deuteronomy-13-participatory-execution-theology",
+     "d": "2026-10-09",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-09-execution-spectacle-full-stack-capture",
+     "d": "2026-10-09",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-09-execution-watching-as-loyalty-test-brutality-inoculation",
+     "d": "2026-10-09",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-09-ice-3000-per-day-directive-election-timed",
+     "d": "2026-10-09",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-09-public-executions-high-trust-normie-adoption",
+     "d": "2026-10-09",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-09-putin-diesel-election-lifeline-sanctions-trade",
+     "d": "2026-10-09",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-09-rubio-venezuela-transition-icc-sanctions-dual-track",
+     "d": "2026-10-09",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-09-starnes-purge-evil-unnamed-class",
+     "d": "2026-10-09",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-10-boat-strike-justice-meme",
+     "d": "2026-10-10",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-10-moe-stomach-exemplary-violence",
+     "d": "2026-10-10",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-10-noticing-solution-dehumanization-thread",
+     "d": "2026-10-10",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-10-trump-stupidest-things-admission",
+     "d": "2026-10-10",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-11-talarico-hospital-hoax-collapse",
+     "d": "2026-10-11",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-12-graham-allen-whale-bestialization",
+     "d": "2026-10-12",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-13-judicial-tyranny-amplifier-first",
+     "d": "2026-10-13",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-14-2020-files-recirculation-midterm-timing",
+     "d": "2026-10-14",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-10-14-firearm-feed-algorithm-shift",
+     "d": "2026-10-14",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-14-gaetz-mitchell-fake-polls-dual-use",
+     "d": "2026-10-14",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-14-kirk-birthday-canonization-vote-summons",
+     "d": "2026-10-14",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-14-kirk-martyr-enforces-turnout-discipline",
+     "d": "2026-10-14",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-14-leakers-shot-press-class-expansion",
+     "d": "2026-10-14",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-14-mail-ballot-mirage-prelegitimation",
+     "d": "2026-10-14",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-10-14-omar-citizenship-strip-midterm-turnout",
+     "d": "2026-10-14",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-beck-papers-exist-laundering-third-carrier",
+     "d": "2026-10-15",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-cedar-riverside-callbox-anti-somali",
+     "d": "2026-10-15",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-cnn-poll-error-scenario-recirculation",
+     "d": "2026-10-15",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-10-15-evans-kick-out-foreigners-fraud-welfare-queen",
+     "d": "2026-10-15",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-fox-poll-corruption-gas-iran-salience",
+     "d": "2026-10-15",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-15-hasan-livestream-walkback-obama-deflection",
+     "d": "2026-10-15",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-15-nov4-jan2-danger-window-countdown",
+     "d": "2026-10-15",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-15-omar-franklin-dehumanization-specimen",
+     "d": "2026-10-15",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-panama-10th-mountain-deployment-framing",
+     "d": "2026-10-15",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-15-shapiro-family-subpoena-enforcement-as-content",
+     "d": "2026-10-15",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-trump-cornyn-rove-paxton-purge",
+     "d": "2026-10-15",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-15-vance-elsayed-loyalty-othering-monroe",
+     "d": "2026-10-15",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-16-novanow-biological-racism-mobilization",
+     "d": "2026-10-16",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-16-russia-sanctions-waiver-eo",
+     "d": "2026-10-16",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-17-trump-jail-threat-la-election-officials",
+     "d": "2026-10-17",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-18-iran-ballistic-after-midterms-dc-exclusive",
+     "d": "2026-10-18",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-18-putin-trump-xi-yalta-summit-proposal",
+     "d": "2026-10-18",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-18-trump-russia-diesel-lever-public",
+     "d": "2026-10-18",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-19-democrats-planning-civil-war-mirror-prelegitimation",
+     "d": "2026-10-19",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-20-citizens-us-refusal-enforcement-recruitment",
+     "d": "2026-10-20",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-21-blaze-fake-pollster-outing-cycle",
+     "d": "2026-10-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-21-blaze-slotkin-preemptive-mockery",
+     "d": "2026-10-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-21-burnett-monarchy-democracy-theological-legitimation",
+     "d": "2026-10-21",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-21-carr-fcc-fake-polls-regulatory-threat",
+     "d": "2026-10-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-21-essayli-la-citizenship-dilution-frame",
+     "d": "2026-10-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-21-harris-omar-dna-breaking-overstatement",
+     "d": "2026-10-21",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-21-omar-doj-filing-name-framing",
+     "d": "2026-10-21",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-21-shapiro-wedgewood-fake-polls-frame",
+     "d": "2026-10-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-22-blanche-certification-doomsday-non-disclaimer",
+     "d": "2026-10-22",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-22-ramaswamy-acton-rape-claim-attack",
+     "d": "2026-10-22",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-23-bukele-deus-vult-haiti-crusader-register",
+     "d": "2026-10-23",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-23-datarepublican-color-revolution-harvest",
+     "d": "2026-10-23",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-23-omar-null-void-recirc",
+     "d": "2026-10-23",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-23-omar-removal-demand-presidential",
+     "d": "2026-10-23",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-25-fortress-homeland-disruption-prelegitimation",
+     "d": "2026-10-25",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-26-sauve-love-as-expulsion-license",
+     "d": "2026-10-26",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-27-chain-compression-holocaust-tokenization",
+     "d": "2026-10-27",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-27-edwards-western-civilization-sacralization",
+     "d": "2026-10-27",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-27-portelli-flavio-flight-fight-your-way-out",
+     "d": "2026-10-27",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-02-learjet-copilot-scapegoat",
+     "d": "2026-11-02",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-posobiec-hes-us-sand-people-autocracy",
+     "d": "2026-11-02",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-03-conservative-base-blame-map-ircompletion",
+     "d": "2026-11-03",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-03-evies-magazine-anakin-rehabilitation",
+     "d": "2026-11-03",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-03-musk-anakin-throne-dispossession",
+     "d": "2026-11-03",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-03-trump-abbott-rino-scapegoat",
+     "d": "2026-11-03",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-american-exceptionalism-ramaswamy-racial-degradation",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-anakin-fascist-ladder-america-first-only",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-base-psyop-demobilization-and-worth-it-accounting",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-counterfeit-paxton-contestation-statement",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-empire-aesthetic-death-star-over-earth",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-finish-the-job-iran-window-pressure",
+     "d": "2026-11-04",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-04-gaetz-opens-fire-on-hegseth",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-hegseth-firing-generals-blame-balloon",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-masked-minuteman-good-men-do-bad-things",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-masked-minuteman-necessary-things-rerender",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-post-defeat-blame-set-replacement-and-enemy-alliance",
+     "d": "2026-11-04",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-11-04-relearn-partridge-or-we-can-divide",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-repthomas-punishment-vote-israel-capture",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-stofel-good-men-do-bad-things-gloves-come-off",
+     "d": "2026-11-04",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-04-thune-as-brutus-leadership-as-assassin",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-trump-veto-tremendous-powers",
+     "d": "2026-11-04",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-11-04-trump-witchcraft-post-unverified",
+     "d": "2026-11-04",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-04-vance-loss-attribution-aggregator-relay",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-wolfe-guidarini-edwards-cadre-bridge",
+     "d": "2026-11-04",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-05-crazy-conservative-roofer-civil-war-call",
+     "d": "2026-11-05",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-05-trump-alaska-vote-transfer-demand",
+     "d": "2026-11-05",
+     "theme": "institutional"
+    }
+   ],
+   "mixed": [
+    {
+     "b": "2025-09-10-kirk-shooting-grief-venue-and-mirror",
+     "d": "2025-09-10",
+     "theme": "institutional"
+    },
+    {
+     "b": "07g5lg3ql2kw",
+     "d": "2026-10-05",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-05-evening-feed-baseline",
+     "d": "2026-10-05",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-05-mirror-prepositioning-specimen-2-cross-page-diffusion",
+     "d": "2026-10-05",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-06-afternoon-feed-capture",
+     "d": "2026-10-06",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-06-morning-feed-baseline",
+     "d": "2026-10-06",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-07-morning-feed-capture",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-10-us-kills-its-clients-ukraine-meme",
+     "d": "2026-10-10",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-11-04-webbon-vader-book-burning",
+     "d": "2026-11-04",
+     "theme": "institutional"
+    }
+   ],
+   "left": [
+    {
+     "b": "2026-10-02-democrats-collins-allegations-spend",
+     "d": "2026-10-02",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-05-mirror-prepositioning-midterms-left-viral",
+     "d": "2026-10-05",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-06-left-execution-normalcy-mirror",
+     "d": "2026-10-06",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-09-fresno-ice-shooting-left-celebration-mirror",
+     "d": "2026-10-09",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-10-21-alt-nps-tn-machine-flip-claims",
+     "d": "2026-10-21",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-21-democrats-election-officials-lawsuit-vanguard",
+     "d": "2026-10-21",
+     "theme": "institutional"
+    }
+   ],
+   "structure": [
+    {
+     "b": "2026-08-01-chan-prophecy-larp-hormuz-armageddon",
+     "d": "2026-08-01",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-15-impeachment-votes-tabled",
+     "d": "2026-09-15",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-09-16-mecca-drone-condemnation-cascade",
+     "d": "2026-09-16",
+     "theme": "scapegoat_redirect"
+    },
+    {
+     "b": "2026-09-22-voxium-claude-code-culture",
+     "d": "2026-09-22",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-23-coupled-intelligence-field-claim",
+     "d": "2026-09-23",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-27-foreign-bot-influence-hemisphere-folk-corroboration",
+     "d": "2026-09-27",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-28-diesel-wedge-collusion-frame",
+     "d": "2026-09-28",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-29-boeing-6gen-feed-render",
+     "d": "2026-09-29",
+     "theme": "other"
+    },
+    {
+     "b": "2026-09-29-random-feed-control-sample",
+     "d": "2026-09-29",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-02-g7-diesel-release-under-us-pressure",
+     "d": "2026-10-02",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-02-third-carrier-iran-strike-prepositioning",
+     "d": "2026-10-02",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-04-fairford-b1-extraction-iran-plot",
+     "d": "2026-10-04",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-06-brazil-federal-police-interference-raids",
+     "d": "2026-10-06",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-06-mecca-pact-activation-turkish-deployment",
+     "d": "2026-10-06",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-07-atlantic-pre-midterm-iran-strike-options",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-07-public-citizen-canceled-enforcement-205",
+     "d": "2026-10-07",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-07-russia-massive-strike-putin-birthday-patriot-shortage",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-07-russia-nato-soil-sabotage-latvia-denmark",
+     "d": "2026-10-07",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-08-ice-hotel-black-box-child-detention-flores-defiance",
+     "d": "2026-10-08",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-08-pakistan-air-force-houthi-strikes",
+     "d": "2026-10-08",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-09-galactica-suppression-template",
+     "d": "2026-10-09",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-09-zelensky-diesel-deal-counter-statement",
+     "d": "2026-10-09",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-10-mahoney-athenian-democracy-post",
+     "d": "2026-10-10",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-11-collective-evolution-war-after-midterms-synthesis",
+     "d": "2026-10-11",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-12-nato-grynkewich-prelegitimation",
+     "d": "2026-10-12",
+     "theme": "other"
+    },
+    {
+     "b": "2026-10-13-engagement-step-function-corroboration",
+     "d": "2026-10-13",
+     "theme": "narrative_repair"
+    },
+    {
+     "b": "2026-10-13-fridge-control-plane-failure",
+     "d": "2026-10-13",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-13-rockbridge-succession-architecture-crosscheck",
+     "d": "2026-10-13",
+     "theme": "premature_victory"
+    },
+    {
+     "b": "2026-10-15-moab-iran-strike-plans-leak",
+     "d": "2026-10-15",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-15-sberbank-balakovo-strike-russian-internet-outage",
+     "d": "2026-10-15",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-28-three-country-theft-claim-convergence",
+     "d": "2026-10-28",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-29-alaska-elite-consensus-30-hours",
+     "d": "2026-10-29",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-29-commissary-freezer-cyberattack",
+     "d": "2026-10-29",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-10-29-notam-template-read-as-event",
+     "d": "2026-10-29",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-11-03-anakin-virtue-checklist-long-live-the-empire",
+     "d": "2026-11-03",
+     "theme": "institutional"
+    },
+    {
+     "b": "2026-11-03-vader-pension-provider-register-collapse",
+     "d": "2026-11-03",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-04-desouza-vc-in-the-wire-readiness-frame",
+     "d": "2026-11-04",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-04-loeffler-withdrawn-no-artifact",
+     "d": "2026-11-04",
+     "theme": "other"
+    },
+    {
+     "b": "2026-11-04-vader-meme-body-armor-ad-pairing",
+     "d": "2026-11-04",
+     "theme": "other"
+    }
+   ]
   },
   "legacy": {
    "right": 45,
