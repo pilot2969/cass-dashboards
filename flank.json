@@ -1,0 +1,111 @@
+{
+ "generated": "2026-11-06 17:30",
+ "total": 219,
+ "span": [
+  "2026-08-01",
+  "2026-11-05"
+ ],
+ "weeks": [
+  {
+   "wk": "W31",
+   "n": 1,
+   "split": {
+    "structure": 1
+   }
+  },
+  {
+   "wk": "W38",
+   "n": 7,
+   "split": {
+    "structure": 2,
+    "right": 5
+   }
+  },
+  {
+   "wk": "W39",
+   "n": 13,
+   "split": {
+    "right": 10,
+    "structure": 3
+   }
+  },
+  {
+   "wk": "W40",
+   "n": 39,
+   "split": {
+    "structure": 6,
+    "right": 32,
+    "left": 1
+   }
+  },
+  {
+   "wk": "W41",
+   "n": 65,
+   "split": {
+    "mixed": 7,
+    "right": 43,
+    "left": 3,
+    "structure": 12
+   }
+  },
+  {
+   "wk": "W42",
+   "n": 34,
+   "split": {
+    "right": 28,
+    "structure": 6
+   }
+  },
+  {
+   "wk": "W43",
+   "n": 19,
+   "split": {
+    "right": 17,
+    "left": 2
+   }
+  },
+  {
+   "wk": "W44",
+   "n": 8,
+   "split": {
+    "right": 4,
+    "structure": 4
+   }
+  },
+  {
+   "wk": "W45",
+   "n": 33,
+   "split": {
+    "right": 27,
+    "structure": 5,
+    "mixed": 1
+   }
+  }
+ ],
+ "split": {
+  "right": 166,
+  "left": 6,
+  "mixed": 8,
+  "structure": 39,
+  "uncoded": 0
+ },
+ "coded": 180,
+ "themes": {
+  "other": 67,
+  "narrative_repair": 53,
+  "institutional": 49,
+  "scapegoat_redirect": 42,
+  "premature_victory": 8
+ },
+ "legacy": {
+  "right": 45,
+  "mixed": 25,
+  "left": 17,
+  "structure": 132
+ },
+ "rules": {
+  "flank": "direction the frame is produced and carried by (actor/source basis)",
+  "coded": "right + left + mixed; structure specimens name no out-group",
+  "sensitivity": "the legacy hand-set split counted only specimens whose own frame is aimed at an out-group; this generator counts every specimen a flank produced or carried, so structure specimens shrink and right rises. Neither number is wrong; they answer different questions. Target-based coding needs the dehumanization_frame flag repaired first (78 true / 141 false in corpus, inconsistent)."
+ }
+}

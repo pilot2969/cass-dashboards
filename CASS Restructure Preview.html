@@ -178,21 +178,16 @@ code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b243
 <tr><td><b>Capture span</b></td><td class="num">8-01 → 11-05</td><td>Capture began 2026-10-07. The August date is a single origin specimen carried forward; the series is honest only from W38.</td></tr>
 <tr><td><b>This week</b></td><td class="num">33</td><td>W45, election week. Up from 8 the week before — a 4× step, not a drift.</td></tr>
 <tr><td><b>Peak week</b></td><td class="num">65</td><td>W41, the pre-midterm escalation run. The current rate is half the peak and four times the trough.</td></tr>
-<tr><td><b>Direction coded</b></td><td class="num">87 / 219</td><td>40% carry an explicit flank coding. The rest are structure specimens where the dehumanizing flank is not the point.</td></tr>
+<tr><td><b>Direction coded</b></td><td class="num" id="codedN">87 / 219</td><td>40% carry an explicit flank coding. The rest are structure specimens where the dehumanizing flank is not the point.</td></tr>
 </tbody></table></div>
 
 <div class="subhead">3.1 Rate — specimens per week</div>
-<div class="wkchart"><div class="wk"><div class="wkbar" style="height:9px"></div><div class="wkv">7</div><div class="wkl">W38</div></div><div class="wk"><div class="wkbar" style="height:18px"></div><div class="wkv">13</div><div class="wkl">W39</div></div><div class="wk"><div class="wkbar" style="height:53px"></div><div class="wkv">39</div><div class="wkl">W40</div></div><div class="wk"><div class="wkbar" style="height:88px"></div><div class="wkv">65</div><div class="wkl">W41</div></div><div class="wk"><div class="wkbar" style="height:46px"></div><div class="wkv">34</div><div class="wkl">W42</div></div><div class="wk"><div class="wkbar" style="height:26px"></div><div class="wkv">19</div><div class="wkl">W43</div></div><div class="wk"><div class="wkbar" style="height:11px"></div><div class="wkv">8</div><div class="wkl">W44</div></div><div class="wk"><div class="wkbar" style="height:45px"></div><div class="wkv">33</div><div class="wkl">W45</div></div></div>
+<div class="wkchart" id="wkChart"><div class="wk"><div class="wkbar" style="height:9px"></div><div class="wkv">7</div><div class="wkl">W38</div></div><div class="wk"><div class="wkbar" style="height:18px"></div><div class="wkv">13</div><div class="wkl">W39</div></div><div class="wk"><div class="wkbar" style="height:53px"></div><div class="wkv">39</div><div class="wkl">W40</div></div><div class="wk"><div class="wkbar" style="height:88px"></div><div class="wkv">65</div><div class="wkl">W41</div></div><div class="wk"><div class="wkbar" style="height:46px"></div><div class="wkv">34</div><div class="wkl">W42</div></div><div class="wk"><div class="wkbar" style="height:26px"></div><div class="wkv">19</div><div class="wkl">W43</div></div><div class="wk"><div class="wkbar" style="height:11px"></div><div class="wkv">8</div><div class="wkl">W44</div></div><div class="wk"><div class="wkbar" style="height:45px"></div><div class="wkv">33</div><div class="wkl">W45</div></div></div>
 <div class="note" style="margin-top:2px">W45 is a partial week (through 2026-11-05) and is already second-highest. Read the ramp, not the point: 7 → 13 → 39 → 65, a fall to 8, then a step back to 33. <b>A fall is not a good sign on this instrument.</b> Post-defeat volume in the record is dominated by narrative repair and blame routing, which is absorption working, not absorption stopping.</div>
 
 <div class="subhead">3.2 Direction of the coded specimens</div>
-<div class="scroll"><table><thead><tr><th>Flank</th><th class="num">n</th><th>Note</th></tr></thead><tbody>
-<tr><td>Right-flank</td><td class="num">45</td><td>Direction of institutional power. The protocol's power-anchored rule predicts this side weaponizes first because it can.</td></tr>
-<tr><td>Mixed / reciprocal</td><td class="num">25</td><td>The escalation edge. Reciprocal pairs are flagged high-value on capture — a mirror response is the spiral, not a separate event.</td></tr>
-<tr><td>Left-flank</td><td class="num">17</td><td>Deliberate counterweight against a right-skewed specimen base (2026-10-05 amendment). Recorded, not discounted.</td></tr>
-<tr><td>No flank coding</td><td class="num">132</td><td>Structure specimens: elite-to-base loyalty framing, narrative repair, in-group blame. Real absorption, no out-group named.</td></tr>
-</tbody></table></div>
-<div class="note" style="margin-top:2px">The split is <b>not</b> the finding. The absolute rate is. A 45/25/17 split at 87 specimens a week is a different country from the same split at 12.</div>
+<div class="scroll"><table><thead><tr><th>Flank</th><th class="num">n</th><th class="num">Share of coded</th><th>Rule</th></tr></thead><tbody id="flankBody"></tbody></table></div>
+<div class="note" id="flankNote" style="margin-top:2px"></div>
 
 <div class="subhead">3.3 What work the frame is doing</div>
 <div class="scroll"><table><thead><tr><th>Theme (capture enum)</th><th class="num">n</th><th>Function</th></tr></thead><tbody>
@@ -548,6 +543,26 @@ function render(data){
   $("ledmeta").textContent="12 per group · grouped by age";
   $("ledger").innerHTML=lout;
 
+
+  // ---- Section 3 flow panel, generated by build_flank.py from /space/absorption ----
+  const F=data.flank||null;
+  if(F){
+    const maxN=Math.max(...F.weeks.map(w=>w.n));
+    $("wkChart").innerHTML=F.weeks.filter(w=>w.wk!=="W31").map(w=>
+      '<div class="wk"><div class="wkbar" style="height:'+Math.max(4,Math.round(w.n/maxN*90))+'px"></div>'+
+      '<div class="wkv">'+w.n+'</div><div class="wkl">'+w.wk+'</div></div>').join("");
+    const LAB={right:["Right-flank","Direction of institutional power. The power-anchored rule predicts this side weaponises first because it can."],
+               mixed:["Mixed / reciprocal","The escalation edge. A mirror pair is the spiral, not two separate events."],
+               left:["Left-flank","Recorded, not discounted. The specimen watch is deliberately symmetric."],
+               structure:["No flank coding","Structure specimens: elite-to-base loyalty framing, narrative repair, in-group blame. Real absorption, no out-group named."]};
+    const tot=F.total, coded=F.coded;
+    $("flankBody").innerHTML=["right","mixed","left","structure"].map(k=>{
+      const n=F.split[k]||0, share=coded&&k!=="structure"?Math.round(n/coded*100)+"% of coded":"—";
+      return '<tr><td>'+LAB[k][0]+'</td><td class="num">'+n+'</td><td class="num">'+share+'</td><td class="small">'+LAB[k][1]+'</td></tr>';
+    }).join("");
+    $("codedN").textContent=coded+" / "+tot;
+    $("flankNote").innerHTML="Generated from the corpus, not hand-set. <b>Rule:</b> flank = the direction a specimen is produced and carried by. "+coded+" of "+tot+" specimens ("+Math.round(coded/tot*100)+"%) carry a flank; the rest are structure. <b>The earlier 45/25/17/132 split did not reproduce</b> — it counted only specimens whose own frame targets an out-group, which needs the <code>dehumanization_frame</code> flag repaired before it can be computed (78 true, 141 false, inconsistently set). The rate series reproduced exactly; only the split moved. <b>The split is not the finding. The rate is.</b>";
+  }
   $("dictBody").innerHTML=DICT.map(r=>'<tr><td><b>'+esc(r[0])+'</b></td><td class="small">'+esc(r[1])+'</td><td class="small">'+esc(r[2])+'</td></tr>').join("");
 }
 fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(render).catch(e=>{
