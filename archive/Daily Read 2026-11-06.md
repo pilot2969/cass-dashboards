@@ -1,0 +1,95 @@
+# The Daily Read — 2026-11-06
+
+**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
+
+DATE: 2026-11-06
+SUMMARY:
+- [10:00] The election's biggest consequence so far is $3.2 trillion
+- [09:57] A Senate race has nowhere to go, because Mississippi has no recount law
+- [09:54] A war decision is now "soon" — and the ceiling came off
+- [09:51] The Supreme Court answered in six hours
+WATCHING:
+- Whether the money taken out of AI stocks comes back within five sessions, or the building plans get cut instead
+- Whether Mississippi's 1,800-vote margin ends in a concession, a lawsuit, or a referral to the Senate
+- Which comes first: an Iran strike order or the House impeachment vote
+- Whether the Supreme Court's ballot ruling is refiled in a state with a tighter margin
+<!--parser markers above; collapsible cards below-->
+**CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[10:00] The election's biggest consequence so far is $3.2 trillion</summary>
+
+<p><i>Forty-one local votes about data centres were on the ballot on Tuesday. Almost every one of them went against the industry. By Thursday, investors had taken $3.2 trillion out of the stock market.</i></p>
+
+<p><b>What happened.</b> Across ten states, voters were asked about data centres — the vast warehouse buildings that run artificial intelligence. The questions were local and specific: temporary bans, outright bans, limits on how much electricity a facility can draw, and requirements that residents get a vote before anything gets built. Voters backed the restrictions almost everywhere they appeared. The single exception was Harwood, North Dakota, where a proposal adding extra review was rejected about three to one. Two days later, the market responded. The Dow fell 1,833 points, almost 3.5%. The tech-heavy Nasdaq fell 5.5% and entered what traders call a correction. Nvidia, one of the most valuable companies in the world, lost 9% in a day. In total, around $3.2 trillion of value disappeared — the largest one-day loss since the start of the pandemic.</p>
+
+<p><b>Why it matters.</b> On Wednesday, the day after the election, the market had gone the other way. The Dow rose 1,569 points, its best day after any midterm election since 1982. That rise was a bet about Washington: with power divided or shifted, taxes were less likely to go up. One day later that bet was abandoned, because investors realised they had been looking at the wrong branch of government. Nothing about data centres is decided in Washington. It is decided in town halls and county commissions — which is exactly where Tuesday's votes were.</p>
+
+<p><b>The pattern.</b> A boom that depends on land, water and electricity is a boom that depends on local permission. For two years the story of artificial intelligence has been told as a story about chips and money. It is actually a story about whether a county will let you build. What happened this week is that tens of thousands of people, voting on zoning questions most of them had never seen on a ballot before, quietly became the most important regulators of the most valuable industry in the country.</p>
+
+<p><b>What history says.</b> This is how large infrastructure fights usually go, and the pattern is worth knowing. Railways, mines, nuclear plants and pipelines all faced the same sequence: a national enthusiasm, then a local revolt, then a long slow negotiation conducted one county at a time. The revolt almost never comes from Congress. It comes from people whose well went dry, whose power bill doubled, or who simply did not want the building next door. When the objection is local, the industry cannot solve it by winning one election — it has to win thousands.</p>
+
+<p><b>What we're watching next.</b> Whether the money comes back within a week. If it does, investors decided forty local votes were noise. If it does not, the cost of building artificial intelligence has permanently gone up, because the risk is now political and it is spread across the whole country. The clearest sign either way will be a company cutting its building plans and saying so, rather than a headline about the share price.</p>
+
+<p>Sources: <a href="https://www.washingtonpost.com/technology/2026/11/04/voters-pass-over-20-ballot-measures-ban-or-restrict-data-centers/">Washington Post</a>, <a href="https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html">CNBC</a>, <a href="https://fortune.com/2026/11/05/wall-street-drop-off-tech-ai-plunge-2-trillion/">Fortune</a>, <a href="https://www.theguardian.com/us-news/2026/nov/04/datacenters-midterm-elections">Guardian</a></p>
+
+</details>
+
+<details open>
+<summary>[09:57] A Senate race has nowhere to go, because Mississippi has no recount law</summary>
+
+<p><i>One of the closest Senate races in the country is separated by about 1,800 votes. Mississippi law provides no way to ask for a recount — automatic or otherwise.</i></p>
+
+<p><b>What happened.</b> Mississippi's Senate race is still uncalled. With about 96% of the vote counted, Democrat Scott Colom leads Republican incumbent Cindy Hyde-Smith by roughly 1,800 votes. The ballots still being counted are mostly absentee ballots arriving by mail inside the window state law allows — a practice the Supreme Court has already upheld. And here is the part most people do not know: Mississippi has no provision for a recount. Not an automatic one, not one a candidate can request. If the result is disputed, the only routes left are a courtroom or the Senate itself.</p>
+
+<p><b>Why it matters.</b> The entire national argument about election integrity has been conducted as though there were a procedure to argue about. In most states there is. In Mississippi there is not, and the difference is not a matter of principle — it is a matter of what the legislature happened to write. So the same margin that would trigger an automatic recount in Ohio triggers nothing at all here. Where the rules are silent, whoever is losing has to invent a remedy rather than invoke one.</p>
+
+<p><b>The pattern.</b> America has no single election system. It has fifty, and they disagree about the most basic mechanics: who counts, who certifies, when, and what happens when it is close. That is not a bug introduced recently; it is how the Constitution set things up, and it is why every close race is a different kind of fight. The vulnerability in the system is not that one side will rig a count. It is that the rules are so uneven that the losing side's options depend entirely on which state line they happen to be standing on.</p>
+
+<p><b>What history says.</b> The last time a Senate seat was decided this way was 2008 in Minnesota, where a 215-vote margin took eight months, a manual recount and a court case to settle. In 1984, Indiana's eighth district race was so close that the House refused to seat the certified winner and left the seat empty for months. Both cases ended with the chamber itself, not a court, deciding who belonged in it. That is the road map — and it runs through a body that now belongs to the other party.</p>
+
+<p><b>What we're watching next.</b> Whether Hyde-Smith concedes or contests, and if she contests, where she files. A state court is one kind of fight. A referral to the Senate is a different and much larger one, because it would be the first time this cycle that the winners get to rule on the losers' result.</p>
+
+<p>Sources: <a href="https://www.washingtonpost.com/politics/2026/11/05/mississippi-senate-race-why-theres-no-recount-colom-vs-hyde-smith/">Washington Post</a>, <a href="https://www.cbsnews.com/news/mississippi-senate-race-results-2026-midterms/">CBS News</a>, <a href="https://www.cnbc.com/2026/11/05/mississippi-senate-election-scott-colom-hyde-smith.html">CNBC</a>, <a href="https://abcnews.com/Politics/recounts-mississippi-razor-thin-margin-senate-race/story?id=137844445">ABC News</a></p>
+
+</details>
+
+<details open>
+<summary>[09:54] A war decision is now "soon" — and the ceiling came off</summary>
+
+<p><i>The president met his national security team about resuming major strikes on Iran, and said he may have to "destroy the rest of the country."</i></p>
+
+<p><b>What happened.</b> On Thursday the president met his national security team to discuss resuming large-scale military strikes on Iran, and told reporters a decision would come soon. He added that he would prefer not to, but that he might have to "destroy the rest of the country." Military planning for a further wave is reportedly under way, and reporting on the internal debate describes his advisers as divided. Iran's position has not changed: the Strait of Hormuz stays closed until a list of conditions is met, and Iran's Revolutionary Guard claims three more tankers were struck on Thursday — a claim with no independent confirmation.</p>
+
+<p><b>Why it matters.</b> The sentence matters more than the decision. Saying you may have to destroy a country is not a description of a military plan; it is a statement that the only thing standing between the plan and the country is the president's own preference. Restraint that exists because it cannot be overcome is a constraint. Restraint that exists because someone is choosing it is a decision renewed every day. Once a limit is described that way, everything on the other side of it becomes available.</p>
+
+<p><b>The pattern.</b> Escalation rarely announces itself by moving a line. It announces itself by changing the vocabulary — from objectives to totality, from targets to the country. And the timing is never accidental. This comes in the same week that Congress is preparing to vote on whether to impeach the defence secretary over the conduct of this same war. If a strike is ordered first, that vote becomes a vote on a war in progress. If the vote happens first, it becomes a limit on the decision. The order of those two events tells you which body is actually deciding.</p>
+
+<p><b>What history says.</b> Markets and wars have a long and reliable disagreement. Oil rose about 4% on Thursday to near $99 a barrel, and was trading near $102 on Friday morning, against a peak above $110 earlier in the week. So traders are pricing de-escalation while the president describes escalation. That is not unusual — markets price what they think will happen, not what they are told will happen, and they have usually been right about Middle East supply over the past two years. Sometimes they are simply wrong.</p>
+
+<p><b>What we're watching next.</b> Which comes first: the strike order or the impeachment vote. Also whether the Strait reopens, and whether a single independent shipping or insurance source confirms the tanker attacks, rather than the Iranian military's own account. Those are the two facts that would change the picture, and neither is a speech.</p>
+
+<p>Sources: <a href="https://www.breitbart.com/politics/2026/11/05/trump-decision-renewed-strikes-iran-coming-soon/">Breitbart</a>, <a href="https://www.indiatoday.in/world/us-news/story/donald-trump-iran-strikes-centcom-preparations-diplomatic-efforts-3033496-2026-11-06">India Today</a>, <a href="https://www.bloomberg.com/news/articles/2026-11-05/latest-oil-market-news-and-analysis-for-nov-6">Bloomberg</a></p>
+
+</details>
+
+<details open>
+<summary>[09:51] The Supreme Court answered in six hours</summary>
+
+<p><i>The administration asked the justices to set aside 20,000 California ballots. A unanimous-speed rejection followed the same day — and two judges from opposite parties had already written the answer together.</i></p>
+
+<p><b>What happened.</b> The Justice Department asked the Supreme Court to order California to set aside roughly 20,000 mail ballots that the department claims were cast by non-citizens. The justices rejected the request the same day, in a brief unsigned order that offered no explanation. Days earlier, a federal appeals court had refused the same relief in an opinion written jointly by two judges — one appointed by a Democrat, one by a Republican. They cited a long-standing principle that election rules should not be changed on the eve of an election, and the Constitution's assignment of election administration to the states.</p>
+
+<p><b>Why it matters.</b> Speed is the signal. Courts can be slow, and slow is a form of decision: a case that is still pending when the votes are certified has effectively been decided in favour of the certification. That did not happen here. The Court did not run out the clock and it did not narrow the request to something smaller, like preserving records. It said no, quickly, on the papers. When an institution is under pressure to bend and instead moves faster than usual to refuse, that is worth recording, because it is the thing that most predictions about institutional collapse get wrong.</p>
+
+<p><b>The pattern.</b> The interesting detail is who wrote the appeals opinion: one judge appointed by each party, agreeing with each other and disagreeing with the administration. Election law is one of the few areas where that still happens often. The result is a court system that has been repeatedly tested in this cycle and has repeatedly held — while remaining, in every case, a decision about counting rather than a decision about who is entitled to vote.</p>
+
+<p><b>What history says.</b> The Purcell principle dates from a 2006 case about an Arizona voter identification law, and it exists because courts learned the hard way that last-minute changes to election rules cause more damage than the rules themselves. It has been applied to both parties and by judges of every persuasion, which is why it functions as a genuine brake rather than a partisan one. The doctrine is about timing, not fairness — and that is precisely its value in a contested year.</p>
+
+<p><b>What we're watching next.</b> Whether the same request is refiled in a state with a tighter margin, where the argument that ballots are already tainted might land differently — and whether it is filed in state court instead of as a federal emergency. A refiling after a fast loss is a new instrument, not a repeat of the old one.</p>
+
+<p>Sources: <a href="https://www.cnn.com/2026/11/02/politics/trump-supreme-court-california-noncitizen-ballot">CNN</a>, <a href="https://www.npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump">NPR</a>, <a href="https://thehill.com/regulation/court-battles/6190525-supreme-court-trump-administration-california-ballots/">The Hill</a></p>
+
+</details>
