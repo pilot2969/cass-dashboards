@@ -873,7 +873,7 @@ function render(data){
   $("legs-live").innerHTML=out;
 
   // Q5: every .term resolves to a data.json terms[] key — same source the gate checks.
-  const TERMS=(D&&D.terms)||{};
+  const TERMS=(data&&data.terms)||(D&&D.terms)||{};
   document.querySelectorAll(".term").forEach(el=>{
     const k=el.dataset.term||(el.textContent||"").trim().toLowerCase();
     const t=TERMS[k]; if(!t) return;
