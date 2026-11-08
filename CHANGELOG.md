@@ -1,5 +1,25 @@
 # Changelog
 
+## 2026-11-06
+
+### Belief ledger becomes section 0 — first major change since v1 (v4.14-preview)
+- The board now opens on **what it used to claim**. Seven v1 statements, the test that moved each, and the verdict: calendar **downgraded** (failed its first out-of-sample test), continental windows **withdrawn** (RR 2.44→5.74 on start-year choice alone), window independence **refuted** (tautological inside English history), corpus-as-population **revised**, legs 1–2 and leg 4 **rebuilt**, velocity **split**.
+- Backing objects: `/space/belief_ledger` — one object per row, verdicts never deleted, changed only by a later dated test. Rule: `/space/protocol/belief-ledger.json`.
+- Five open commitments carry a falsifier and a scoring date. An experiment run in public without a stop condition becomes permanent framing.
+- **Snapshotting begins.** Any build making a structural model change is frozen before it ships — leg added/removed/redefined, instrument rebuilt, deck or calendar thesis altered, or a change to what the board claims. Routine data refreshes and new readings on unchanged instruments are not snapshotted (rule narrowed 19:03: archiving every reading change implied every number shift was a model revision). listed in the internal archive (not published). Two snapshots: `2026-11-06-1755-v4.13-preview.html`, `2026-11-06-1802-v4.14-preview.html`. Snapshots are immutable, stay on the machine, and are excluded from this repo; corrections go in the next one.
+- No numbers were recomputed in this build. This is a record-keeping release, and it is the one that makes the rest checkable.
+
+
+### Four legs instrumented — two on external baselines, one on a stored register (v4.9-preview)
+- Legs 1 and 2 were **specified but empty**: leg 1 needed `repression_event.processing_status/.resolution_date/.processor`, which no record has; leg 2 needed seatings, which do not exist in `/space` at all, so its denominator was structurally zero. Both now read **external series that already cover the period**, and neither depends on this desk noticing anything.
+- **Leg 1 baseline, 26 years** — nationwide injunctions. Harvard Law Review counts 6 (2001–08) and 12 (2009–16) under a narrower definition; CRS R48467 gives 86 (2017–20) and 28 (2021–24); CRS R48476 gives 25 in the first 100 days of 2025, ~91 annualised. **The definition breaks at 2017**, so the pre-2017 years are shown as a band (≤1.5/yr) and never joined to the later points. The 2025 figure is labelled an **estimate**, not a realised count.
+- **Leg 2 baseline, 45 years** — Tenpas/Brookings senior-staff turnover: 9% (Obama y1), 17% (Reagan y1, previous record), 34% (Trump I y1), ~56% cumulative (Trump II at ~20 months, **not yet comparable to a year-one figure**). The rate is published; the claim resting on it is not — displacement needs an exit-type split (forced / pressured / promoted / voluntary) that has not been coded.
+- **Leg 4 register stored.** The 14 scored docking cases existed only as prose in a note body, so the board printed "14 scored candidate acts" and no code could count them. One object per case in `/space/docking_case` (14 fields → `d_fired`, `direction`, `order_survived`): **7 of 14 fired, 0 of 7 false alarms, direction 6 replacement / 1 restoration.**
+- Leg 3 unchanged: 56% fence share on 6 of 9 assigned firms, one observation, no series.
+- Register line now reads **1 of 4 fired, 4 of 4 instrumented, 2 of 4 thin** — replacing "1 of 4 legs measured", which is no longer true.
+- No gate-bearing generated file changed; `data.json` untouched and this build was not pushed.
+
+
 ## 2026-11-04
 
 ### Direction fix + `prose.panel-direction` gate rule (v3.11.5)

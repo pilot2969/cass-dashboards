@@ -1,0 +1,103 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Target-field mock — Section 3.2 rebuild</title>
+<style>
+:root{--ink:#16181d;--mut:#5c6270;--line:#d9dce3;--bg:#fbfbfc}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+.wrap{max-width:1000px;margin:0 auto;padding:34px 26px 70px}
+h1{font-size:22px;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:14px;text-transform:uppercase;letter-spacing:.09em;color:var(--mut);margin:36px 0 10px;font-weight:650}
+.stamp{color:var(--mut);font-size:12.5px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:6px}
+.card{border:1px solid var(--line);background:#fff;padding:16px 18px;margin:12px 0}
+table{border-collapse:collapse;width:100%}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11.5px;text-transform:uppercase;letter-spacing:.07em;color:var(--mut);font-weight:650}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr.drill{cursor:pointer}tr.drill:hover{background:#f4f6fa}tr.open{background:#eef1f7}
+.small{font-size:12.5px;color:var(--mut)}
+.bar{height:9px;background:#eceef3;position:relative;border-radius:1px}
+.bar i{position:absolute;top:0;bottom:0;left:0;background:#8a1f1f}
+.bar.men i{background:#b9bec8}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.big{font-size:29px;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.drawer{background:#f7f8fa;border-top:1px solid var(--line);padding:10px 14px;max-height:230px;overflow:auto}
+.drawer ul{margin:0;padding-left:16px}.drawer li{margin:3px 0;font-size:12.5px}
+.note{font-size:12.5px;color:var(--mut);margin-top:10px}.note b{color:var(--ink)}
+ul.plain{margin:6px 0 0;padding-left:18px}ul.plain li{margin:6px 0}
+code{font:12px ui-monospace,SFMono-Regular,Menlo,monospace;background:#f0f2f6;padding:1px 4px;border-radius:2px}
+.rule{border-left:3px solid var(--line);padding:2px 0 2px 12px;margin:9px 0}
+.rule b{display:block;font-size:13px}
+</style></head><body><div class="wrap">
+<h1>Section 3.2 — Aim, not flank</h1>
+<div class="stamp">MOCK · proposed replacement for the flank field · pilot on 24 randomly drawn specimens of 224 · payload inlined, renders from disk</div>
+
+<h2>Why this is the better field</h2>
+<div class="card">
+<p style="margin:0 0 8px">Flank asks <i>who produced this</i>. That is not in the text — it is inferred from the producer, and the blind recode showed the inference reproduces at κ 0.53. Aim asks <i>who is the degraded object here</i>. That is in the text: the slur, the category claim, the group named in the caption. Two coders reading the same post can agree on it without knowing who wrote it.</p>
+<p class="small" style="margin:0">It also stops the corpus depending on a feed you cannot audit for the half of the finding that matters least. You already accept the direction is right-dominant; the open questions are <b>which populations are being constructed as subhuman</b>, and <b>whether the aim set is broadening</b>. Flank cannot answer either.</p>
+</div>
+
+<h2>Proposed aim taxonomy</h2>
+<div class="card">
+<div class="rule"><b>LGBT / trans people</b> — existence denial, bestialization, predation frame, "mentally ill" construction.</div>
+<div class="rule"><b>Muslims</b> — category claims about Islam, civilizational incompatibility, blanket threat attribution.</div>
+<div class="rule"><b>Immigrants / foreigners</b> — invasiveness, contamination, "not our people," removal as cleansing.</div>
+<div class="rule"><b>Democrats, left, liberals</b> — "leftist," "progressive," named Democratic officials where the frame is the party.</div>
+<div class="rule"><b>Press, pollsters, experts</b> — the epistemic class: "fake polls," "phony pollster," journalists as enemies, credentialed people as liars.</div>
+<div class="rule"><b>Republicans / own side</b> — RINO, traitor, insufficiently loyal, "not a real conservative." New cell, and it matters: it separates party-dehumanization from movement-dehumanization.</div>
+<div class="rule"><b>Women</b> · <b>Black people</b> — separate codes; do not fold into "Democrats."</div>
+<div class="rule"><b>Institutions / the state</b> — courts, agencies, Congress as a body. Sacralization specimens land here.</div>
+<div class="rule"><b>Foreign states</b> — Iran, Houthis, Venezuela. Adversary framing, not population framing.</div>
+<div class="rule"><b>No human target</b> — technical reporting, market data, control baselines, pure strategic analysis.</div>
+<p class="small" style="margin:10px 0 0"><b>Coding rules:</b> code the <i>object</i>, not the speaker. A post by a right-flank account about RINOs aims at Republicans. Multi-aim allowed and expected — record every target with a stated aim, cap at four. Where the object is a named individual, code the group the individual stands for and say so in the record. Where aim is genuinely absent, code <code>none</code> — do not force a flank.</p>
+</div>
+
+<h2>Pilot — 24 specimens, aim coded</h2>
+<div class="card">
+<table><thead><tr><th>Target</th><th class="num">n</th><th class="num">% of 24</th><th style="width:34%"></th></tr></thead><tbody id="tbl"></tbody></table>
+<div class="note">Click a row for the specimens. 7 of 24 carry more than one aim. <b>n=24 is a pilot, not a result</b> — it tests whether the field codes cleanly, not what the shares are.</div>
+</div>
+
+<h2>Two things the pilot already shows</h2>
+<div class="card two">
+  <div><div class="small">Aimed at Democrats or the press</div><div class="big">12 / 24</div>
+  <div class="small" style="margin-top:4px">Aim concentrates on the <b>opposition and the epistemic class</b>, not on the named vulnerable groups. That is a different claim from the flank finding, and it is the one worth testing at full n.</div></div>
+  <div><div class="small">Aimed at the own side</div><div class="big">2 / 24</div>
+  <div class="small" style="margin-top:4px">Real, and post-defeat — <code>post-defeat-blame-set</code>, <code>thiel-competence-scarcity</code>. Flank coding cannot express this cell at all.</div></div>
+</div>
+
+<h2>Mention is not aim — why you cannot extract this field</h2>
+<div class="card">
+<p class="small" style="margin:0 0 10px">Crude keyword sweep over all 224 records counting <i>mentions</i>, against the 24-record pilot counting <i>aim</i>:</p>
+<table><thead><tr><th>Cluster</th><th class="num">Mentions / 224</th><th class="num">Aimed at / 24</th><th>Read</th></tr></thead><tbody>
+<tr><td>Republicans</td><td class="num">57 (25%)</td><td class="num">2</td><td class="small">"MAGA," "conservative," "GOP" mostly appear as the <b>speaker</b>. Extraction would report a quarter of the corpus aimed at the right. It isn't.</td></tr>
+<tr><td>Media / press</td><td class="num">81 (36%)</td><td class="num">5</td><td class="small">Every "the media is lying" line counts, including inside analysis. Aim is a fifth of that.</td></tr>
+<tr><td>Democrats</td><td class="num">62 (28%)</td><td class="num">7</td><td class="small">Closest alignment, still roughly 2×.</td></tr>
+<tr><td>LGBT / trans</td><td class="num">41 (18%)</td><td class="num">2</td><td class="small">Inflated when the group appears in a headline being defended.</td></tr>
+<tr><td>Muslims</td><td class="num">26 (12%)</td><td class="num">1</td><td class="small">Concentrated, not diffuse — a handful of specimens carrying a category claim.</td></tr>
+</tbody></table>
+<div class="note"><b>Any automated pass on this field produces a wrong finding.</b> The gap is not noise; it is the speaker leaking into the target. Aim has to be coded.</div>
+</div>
+
+<h2>What this does not fix</h2>
+<div class="card">
+<ul class="plain" style="margin-top:0">
+<li><b>The sampler.</b> Aim counts how the corpus is composed, not how the world is. Encounter-rule capture still passes through your ranked feed. Aim inherits that defect untouched.</li>
+<li><b>Intensity.</b> Aim says <i>who</i>, not <i>how far down the ladder</i>. Pair it with the existing bestialization / existence-denial / extermination scale and you get aim × severity, which is the shape you actually want on the wall.</li>
+<li><b>Single-name specimens.</b> A post aimed at one official still needs the group code, and that is a judgment call — the likeliest place two coders diverge. Reliability testing goes there first.</li>
+</ul>
+</div>
+</div>
+<script>
+const D={"rows": {"lgbt": [{"b": "2026-10-06-morning-feed-baseline", "d": "2026-10-06"}, {"b": "2026-09-26-mace-trans-existence-denial-moe-amplification", "d": "2026-09-26"}], "muslims": [{"b": "2026-09-16-higby-dehumanization-priming", "d": "2026-09-16"}], "immigrants": [{"b": "2026-11-04-post-defeat-blame-set-replacement-and-enemy-alliance", "d": "2026-11-04"}, {"b": "2026-10-01-state-dept-meme-enforcement-aestheticization", "d": "2026-10-01"}], "democrats": [{"b": "2026-10-08-hasan-public-execution-declaration", "d": "2026-10-08"}, {"b": "2026-10-21-blaze-fake-pollster-outing-cycle", "d": "2026-10-21"}, {"b": "2026-09-21-christian-trolling-theology", "d": "2026-09-21"}, {"b": "2026-10-12-graham-allen-whale-bestialization", "d": "2026-10-12"}, {"b": "2026-09-26-liberal-women-bestialization-violence-outperformance", "d": "2026-09-26"}, {"b": "2026-10-09-execution-spectacle-full-stack-capture", "d": "2026-10-09"}, {"b": "2026-10-14-mail-ballot-mirage-prelegitimation", "d": "2026-10-14"}], "media": [{"b": "2026-10-21-blaze-fake-pollster-outing-cycle", "d": "2026-10-21"}, {"b": "2026-10-14-gaetz-mitchell-fake-polls-dual-use", "d": "2026-10-14"}, {"b": "2026-10-14-mail-ballot-mirage-prelegitimation", "d": "2026-10-14"}, {"b": "2026-10-08-superintelligence-enemy-terminology-policing", "d": "2026-10-08"}, {"b": "2026-09-21-meme-framing-asymmetry", "d": "2026-09-21"}], "republicans": [{"b": "2026-11-04-post-defeat-blame-set-replacement-and-enemy-alliance", "d": "2026-11-04"}, {"b": "2026-09-26-thiel-competence-scarcity-white-horse-setup", "d": "2026-09-26"}], "women": [{"b": "2026-10-12-graham-allen-whale-bestialization", "d": "2026-10-12"}, {"b": "2026-09-26-liberal-women-bestialization-violence-outperformance", "d": "2026-09-26"}], "blacks": [], "institutions": [{"b": "2026-09-29-final-battle-ad-comment-sacralization", "d": "2026-09-29"}, {"b": "2026-10-01-state-dept-meme-enforcement-aestheticization", "d": "2026-10-01"}, {"b": "2026-10-08-superintelligence-enemy-terminology-policing", "d": "2026-10-08"}], "foreign": [{"b": "2026-10-15-moab-iran-strike-plans-leak", "d": "2026-10-15"}, {"b": "2026-10-08-pakistan-air-force-houthi-strikes", "d": "2026-10-08"}, {"b": "2026-10-02-third-carrier-iran-strike-prepositioning", "d": "2026-10-02"}], "none": [{"b": "2026-10-06-morning-feed-baseline", "d": "2026-10-06"}, {"b": "2026-09-18-sacralization-legislative-halls", "d": "2026-09-18"}, {"b": "2026-09-22-white-horse-prelegitimation-surface", "d": "2026-09-22"}, {"b": "2026-10-07-public-citizen-canceled-enforcement-205", "d": "2026-10-07"}, {"b": "2026-09-22-voxium-claude-code-culture", "d": "2026-09-22"}]}, "counts": {"lgbt": 2, "none": 5, "institutions": 3, "democrats": 7, "media": 5, "immigrants": 2, "republicans": 2, "foreign": 3, "women": 2, "muslims": 1}, "n": 24, "multi": 7}, LAB={"lgbt": "LGBT / trans people", "muslims": "Muslims", "immigrants": "Immigrants / foreigners", "democrats": "Democrats, left, liberals", "media": "Press, pollsters, experts", "republicans": "Republicans / own side", "women": "Women", "blacks": "Black people", "institutions": "Institutions / the state", "foreign": "Foreign states", "none": "No human target"};
+const ORD=Object.keys(D.rows).sort((a,b)=>(D.counts[b]||0)-(D.counts[a]||0));
+document.getElementById("tbl").innerHTML=ORD.map(k=>{const n=D.counts[k]||0;
+ return '<tr class="drill" data-k="'+k+'"><td>'+(LAB[k]||k)+'</td><td class="num">'+n+'</td><td class="num">'+(n/D.n*100).toFixed(0)+'%</td><td><div class="bar '+(k==="none"?"men":"")+'"><i style="width:'+(n/D.n*100)+'%"></i></div></td></tr>';
+}).join("");
+document.querySelectorAll('#tbl tr.drill').forEach(tr=>tr.onclick=()=>{
+ const ex=tr.nextElementSibling; if(ex&&ex.classList.contains('drawerrow')){ex.remove();tr.classList.remove('open');return;}
+ const rs=D.rows[tr.dataset.k]||[];
+ const n=document.createElement('tr');n.className='drawerrow';
+ n.innerHTML='<td colspan="4"><div class="drawer"><ul>'+(rs.length?rs.map(r=>'<li><code>'+r.b+'</code> &middot; '+r.d+'</li>').join(""):'<li class="small">none in pilot</li>')+'</ul></div></td>';
+ tr.after(n);tr.classList.add('open');
+});
+</script></body></html>

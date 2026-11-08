@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-05",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-07T08:05 ET"
+  "generated_stamped": "2026-11-07T23:11 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -314,10 +314,10 @@
    "time_et": "01:00 ET (Nov 4)",
    "statement": "Over the 72 hours from 2026-11-04 00:00 ET to 2026-11-07 00:00 ET, the dominant post-defeat attribution in the administration's own communications and its leading allied accounts routes INTERNAL, not to the count. HIT: the administration or its named senior surrogates/the party's leading media figures attribute the loss to the bench, candidate quality, turnout, or insufficient purity (at-least-marginal-fraud or 'the count is wrong' language appears but is not the dominant frame), AND no filing or demand contesting certification of the House, Senate, Texas, or Ohio results is made by the administration or the national party. MISS: the count-legitimacy frame becomes dominant (a 'we actually won' or systematic-fraud claim from the president or a named senior official, or any administration or national-party action seeking to contest, delay, or decertify a 2026 result). Distinct from the resistance question, which this card does not measure: operational resistance through unilateral executive action (pardons, rulemaking, investigations, agency direction) may run at any level and does not affect the call.",
    "confidence": 60,
-   "status": "emergent",
+   "status": "confirmed",
    "card_class": "EVENT",
-   "resolution": "unresolved",
-   "resolution_date": null,
+   "resolution": "hit",
+   "resolution_date": "2026-11-07",
    "window_closes": "2026-11-07T00:00-05:00",
    "grace_horizon": "none - EVENT class, closes at window end",
    "grace_locked": true,
@@ -361,7 +361,7 @@
    "threshold_definition": "Dominance test, adjudicated once at close by counting attributable statements from a pre-listed set of actors (president, VP, cabinet, national party chair, the five largest aligned accounts): HIT if count-legitimacy statements are absent or fewer than candidate-quality/purity/turnout statements AND no contest action is filed. MISS if any contest action is filed, or if count-legitimacy statements are the plurality. Ties resolve to HIT only when no contest action exists.",
    "confidence_rationale": "0.6. Base rate for a defeated party's ecosystem routing to internal repair rather than count dispute is high, and every observable so far sits on that side: a RINO designation before the result, a grassroots blame map naming candidate quality and the president himself, and a marquee-state concession from a podium. What holds it at 0.6 rather than higher is that the legitimacy-attack machinery was built and is simply unused, that this executive's own 2020 precedent is the strongest single counter-example, and that the self-healing branch would not trip this card's fraud trigger even if it were loading. Not higher because the discount is for the possibility that the observable branch and the operative branch differ.",
    "correlation_flag": "NEGATIVELY correlated with the vanguard-split card (0.35): a HIT here is the repair branch, which lowers split probability; a MISS raises it. Loads on administration-under-pressure (0.82) through the escalation branch if MISS.",
-   "tracking_state": "Registered 01:00 ET 2026-11-04, inside the window; unpriced for 24 hours by the velocity rule, no score move until 2026-11-05 00:00 ET. TRACKING 2026-11-04 13:20 ET - no score change, evidence logged only. Inward evidence at five surfaces (descent, capture, demobilisation, purity expulsion, candidate selection); outward contestation at zero authenticated instances. The principal's 23:15 ET 'VETO' post plus 'tremendous powers' is the RESIST branch, not the CONTEST branch - a legislative-obstruction signal, not a stolen-election claim - and does not approach the falsifier. One counterfeit Paxton contestation statement circulated 12:00 ET 11-04 (see /space/note/2026-11-04-counterfeit-paxton-contestation.json); it is demand, not supply, and does not count toward the falsifier. Falsifier remains: a public assertion by the president or a named cabinet-level official that the election was stolen or systematically fraudulent.TRACKING 2026-11-05 11:28 ET - no score change (velocity rule; card is high-velocity and unpriced). FOURTH-ROUTE INSTANCE LOGGED: Relearn.org / Dale Partridge clip 'OR WE CAN DIVIDE', 266 reactions, posted ~10:30 ET 11-05. EXIT - the polity is not worth contesting - which is none of this card's three branches (purity/repair, the count/contest, operational resistance). Does NOT approach the falsifier: the speaker is a pastor with no office, and 'we can divide' is not a stolen-election claim. Instrument gap recorded: if exit becomes the dominant line, this card resolves HIT while 'is the loss treated as real' resolves MISS. See /space/note/2026-11-05-balkanisation-exit-route-assessment.json and /space/absorption/2026-11-04-relearn-partridge-or-we-can-divide.json. Falsifier unchanged.\nTRACKING 2026-11-05 22:31 ET - no score change (velocity rule). ALASKA TRANSFER DEMAND (08:40 ET 11-05, principal's own account): demands the vote totals for Daniel J. Sullivan and the other Republican be 'immediately given to the REAL Dan Sullivan', with a pre-declared verdict ('He easily wins') and a pre-declared legitimacy test ('There is no other fair solution!'). This is the first authenticated instance from the principal that disputes an allocation of a 2026 count. It does NOT approach the current falsifier (no 'stolen' or 'systematically fraudulent' assertion). It DOES trip the surviving contest-action MISS clause in threshold_definition ('any demand ... seeking to contest ... a 2026 result'). CLAUSE CONFLICT NOW DISPOSITIVE: the falsifier was narrowed under D-002-13 (CONJ) on 2026-11-04 to a single stolen/fraudulent assertion; threshold_definition was not restated and still carries the contest-action MISS. Two live MISS conditions in different fields, and the Alaska event trips one and not the other. Flagged for tribunal ruling BEFORE close (2026-11-07 00:00 ET), so the governing clause is fixed before the outcome is final. Countervailing HIT evidence: NYT 05 Nov, principal 'absolutely willing' to accept the results; attribution remains internal (RINO designation, candidate quality). | 2026-11-05 22:34 ET: Alaska vote-transfer demand (08:40 ET, principal's own account) logged. Under D-002-62 it does NOT score against this card; scored on the Alaska carrier card. In-window read at 22:31 ET: HIT side holding (no stolen/systematic-fraud assertion from president or cabinet; 'absolutely willing' to accept results, NYT 11-05). | PRE-CLOSE READ 2026-11-06 12:10 ET (window shuts 2026-11-07 00:00 ET; filed before close under Rule 1(4)). HIT side holds on the governing falsifier: no public assertion from the president or a named cabinet-level official that the election was stolen or systematically fraudulent. Direct evidence, 11-06: principal told reporters he is 'absolutely willing' to accept the results (NYT 11-05, already logged). Attribution continues INTERNAL \u2014 RINO designation of Abbott, candidate quality, turnout, the grassroots blame map naming the president. Outward contestation toward the count: the Alaska vote-transfer demand (08:40 ET 11-05) remains the single candidate instance and is scored on the carrier card under D-002-62, not here. No filing by the administration or a national committee against certification of the House, Senate, Texas or Ohio results as of this read. Material that would flip it inside the remaining hours: any stolen/systematic-fraud assertion by the principal or a named cabinet official in a public forum; a party-committee filing. Fourth-route (EXIT) instances continued to accumulate (Relearn/Partridge 'or we can divide'), which the card does not measure and which do not touch the falsifier. NO SCORE MOVE (velocity rule; resolution is written at close, not before). Resolution to be written after 2026-11-07 00:00 ET from the record as it stands at close.\n\nTRACKING 2026-11-06 18:51 ET \u2014 no score change. The outward-contestation count is no longer zero: a named GOP senator has publicly refused the count. The card's falsifier is untouched (it requires the president or a named CABINET-level official asserting theft or systemic fraud; a senator's refusal is neither). But the sentence in this tracking log that read 'outward contestation at zero authenticated instances' is now false and is corrected here rather than left standing \u2014 a tracking field that keeps an outdated zero is worse than no tracking field. The 72-hour window closes 2026-11-07 00:00 ET; the pre-close read filed 12:10 ET stands, with this as addendum.\n\nTRACKING 2026-11-06 19:37 ET \u2014 WINDOW SHUTS TONIGHT 2026-11-07 00:00 ET; four hours remain at this write. No score move (resolution is written at close, not before). New material logged, none of it touching the governing falsifier: (1) STEPHEN MILLER PROMOTED TO WHITE HOUSE CHIEF OF STAFF within 48 hours of the defeat (/space/absorption/2026-11-06-miller-chief-of-staff-promotion.json). This is the routing answer in operational form \u2014 the loss read as insufficient speed, the remedy fewer internal checks on the same programme, i.e. acceleration rather than audit. It is NOT a stolen-election assertion and does not approach the falsifier. (2) COUNT-FRAME SEEDING AT REACH: Matt Gaetz reposted MAGA Voice's 'tens of millions came out of nowhere' turnout arithmetic (5.2K reactions, /space/absorption/2026-11-06-gaetz-turnout-anomaly-presupposed-baseline.json). The arithmetic is wrong \u2014 a 70M midterm against a 75M presidential is a normal drop, not an impossibility \u2014 but the object is the presupposed baseline, not the number. A former congressman amplifying it is FEED-level, not cabinet-level: falsifier untouched, but this is the copying mechanism by which the count frame would spread if it spreads. (3) MARTYRDOM REGISTER emerged in the same 96 hours (Hudelson 'revolutionary right is the only group with a real plan'; High 'if we die trying, then so be it... to die is Gain' \u2014 /space/absorption/2026-11-06-martyrdom-register-hudelson-bryan.json), neither speaker holding capacity, neither touching the falsifier. (4) Hyde-Smith count-refusal quotation remains UNVERIFIED (watch item filed); even if verified it is a senator, not the president or a cabinet officer.\n\nSTANDING ISSUE FOR CLOSE: the D-002-13 / threshold_definition clause conflict flagged at 22:31 ET on 11-05 is still unresolved and the window closes in four hours. Two live MISS conditions in different fields; the governing clause must be fixed before resolution or the card resolves under whichever field the reader happens to use. Resolution cannot be written at 00:00 ET without that ruling.\n\nRULING 2026-11-06 19:43 ET \u2014 D-002-CC RESOLVED BEFORE CLOSE. The governing falsifier wins (Option A). The contest-action MISS clause surviving inside threshold_definition is SUPERSEDED descriptive text and does not score. Standing principle stated with the ruling: 'Open events can be held open until close, falsifiers haven't changed. We're not accommodating new information.' Consequences for tonight's resolution: the Alaska vote-transfer demand does NOT score here \u2014 it is scored once, on the Alaska carrier card, under D-002-62, and is not imported because it happens to fit an old sentence. The card resolves on its own question: is the count-legitimacy frame dominant in the administration's own communications and its leading allied accounts? Record at close reads HIT. Docket: /space/tribunal/docket-002-clause-conflict-ruling.json; case: /space/tribunal_case/d-002-72h-clause-conflict.json.",
+   "tracking_state": "Registered 01:00 ET 2026-11-04, inside the window; unpriced for 24 hours by the velocity rule, no score move until 2026-11-05 00:00 ET. TRACKING 2026-11-04 13:20 ET - no score change, evidence logged only. Inward evidence at five surfaces (descent, capture, demobilisation, purity expulsion, candidate selection); outward contestation at zero authenticated instances. The principal's 23:15 ET 'VETO' post plus 'tremendous powers' is the RESIST branch, not the CONTEST branch - a legislative-obstruction signal, not a stolen-election claim - and does not approach the falsifier. One counterfeit Paxton contestation statement circulated 12:00 ET 11-04 (see /space/note/2026-11-04-counterfeit-paxton-contestation.json); it is demand, not supply, and does not count toward the falsifier. Falsifier remains: a public assertion by the president or a named cabinet-level official that the election was stolen or systematically fraudulent.TRACKING 2026-11-05 11:28 ET - no score change (velocity rule; card is high-velocity and unpriced). FOURTH-ROUTE INSTANCE LOGGED: Relearn.org / Dale Partridge clip 'OR WE CAN DIVIDE', 266 reactions, posted ~10:30 ET 11-05. EXIT - the polity is not worth contesting - which is none of this card's three branches (purity/repair, the count/contest, operational resistance). Does NOT approach the falsifier: the speaker is a pastor with no office, and 'we can divide' is not a stolen-election claim. Instrument gap recorded: if exit becomes the dominant line, this card resolves HIT while 'is the loss treated as real' resolves MISS. See /space/note/2026-11-05-balkanisation-exit-route-assessment.json and /space/absorption/2026-11-04-relearn-partridge-or-we-can-divide.json. Falsifier unchanged.\nTRACKING 2026-11-05 22:31 ET - no score change (velocity rule). ALASKA TRANSFER DEMAND (08:40 ET 11-05, principal's own account): demands the vote totals for Daniel J. Sullivan and the other Republican be 'immediately given to the REAL Dan Sullivan', with a pre-declared verdict ('He easily wins') and a pre-declared legitimacy test ('There is no other fair solution!'). This is the first authenticated instance from the principal that disputes an allocation of a 2026 count. It does NOT approach the current falsifier (no 'stolen' or 'systematically fraudulent' assertion). It DOES trip the surviving contest-action MISS clause in threshold_definition ('any demand ... seeking to contest ... a 2026 result'). CLAUSE CONFLICT NOW DISPOSITIVE: the falsifier was narrowed under D-002-13 (CONJ) on 2026-11-04 to a single stolen/fraudulent assertion; threshold_definition was not restated and still carries the contest-action MISS. Two live MISS conditions in different fields, and the Alaska event trips one and not the other. Flagged for tribunal ruling BEFORE close (2026-11-07 00:00 ET), so the governing clause is fixed before the outcome is final. Countervailing HIT evidence: NYT 05 Nov, principal 'absolutely willing' to accept the results; attribution remains internal (RINO designation, candidate quality). | 2026-11-05 22:34 ET: Alaska vote-transfer demand (08:40 ET, principal's own account) logged. Under D-002-62 it does NOT score against this card; scored on the Alaska carrier card. In-window read at 22:31 ET: HIT side holding (no stolen/systematic-fraud assertion from president or cabinet; 'absolutely willing' to accept results, NYT 11-05). | PRE-CLOSE READ 2026-11-06 12:10 ET (window shuts 2026-11-07 00:00 ET; filed before close under Rule 1(4)). HIT side holds on the governing falsifier: no public assertion from the president or a named cabinet-level official that the election was stolen or systematically fraudulent. Direct evidence, 11-06: principal told reporters he is 'absolutely willing' to accept the results (NYT 11-05, already logged). Attribution continues INTERNAL \u2014 RINO designation of Abbott, candidate quality, turnout, the grassroots blame map naming the president. Outward contestation toward the count: the Alaska vote-transfer demand (08:40 ET 11-05) remains the single candidate instance and is scored on the carrier card under D-002-62, not here. No filing by the administration or a national committee against certification of the House, Senate, Texas or Ohio results as of this read. Material that would flip it inside the remaining hours: any stolen/systematic-fraud assertion by the principal or a named cabinet official in a public forum; a party-committee filing. Fourth-route (EXIT) instances continued to accumulate (Relearn/Partridge 'or we can divide'), which the card does not measure and which do not touch the falsifier. NO SCORE MOVE (velocity rule; resolution is written at close, not before). Resolution to be written after 2026-11-07 00:00 ET from the record as it stands at close.\n\nTRACKING 2026-11-06 18:51 ET \u2014 no score change. The outward-contestation count is no longer zero: a named GOP senator has publicly refused the count. The card's falsifier is untouched (it requires the president or a named CABINET-level official asserting theft or systemic fraud; a senator's refusal is neither). But the sentence in this tracking log that read 'outward contestation at zero authenticated instances' is now false and is corrected here rather than left standing \u2014 a tracking field that keeps an outdated zero is worse than no tracking field. The 72-hour window closes 2026-11-07 00:00 ET; the pre-close read filed 12:10 ET stands, with this as addendum.\n\nTRACKING 2026-11-06 19:37 ET \u2014 WINDOW SHUTS TONIGHT 2026-11-07 00:00 ET; four hours remain at this write. No score move (resolution is written at close, not before). New material logged, none of it touching the governing falsifier: (1) STEPHEN MILLER PROMOTED TO WHITE HOUSE CHIEF OF STAFF within 48 hours of the defeat (/space/absorption/2026-11-06-miller-chief-of-staff-promotion.json). This is the routing answer in operational form \u2014 the loss read as insufficient speed, the remedy fewer internal checks on the same programme, i.e. acceleration rather than audit. It is NOT a stolen-election assertion and does not approach the falsifier. (2) COUNT-FRAME SEEDING AT REACH: Matt Gaetz reposted MAGA Voice's 'tens of millions came out of nowhere' turnout arithmetic (5.2K reactions, /space/absorption/2026-11-06-gaetz-turnout-anomaly-presupposed-baseline.json). The arithmetic is wrong \u2014 a 70M midterm against a 75M presidential is a normal drop, not an impossibility \u2014 but the object is the presupposed baseline, not the number. A former congressman amplifying it is FEED-level, not cabinet-level: falsifier untouched, but this is the copying mechanism by which the count frame would spread if it spreads. (3) MARTYRDOM REGISTER emerged in the same 96 hours (Hudelson 'revolutionary right is the only group with a real plan'; High 'if we die trying, then so be it... to die is Gain' \u2014 /space/absorption/2026-11-06-martyrdom-register-hudelson-bryan.json), neither speaker holding capacity, neither touching the falsifier. (4) Hyde-Smith count-refusal quotation remains UNVERIFIED (watch item filed); even if verified it is a senator, not the president or a cabinet officer.\n\nSTANDING ISSUE FOR CLOSE: the D-002-13 / threshold_definition clause conflict flagged at 22:31 ET on 11-05 is still unresolved and the window closes in four hours. Two live MISS conditions in different fields; the governing clause must be fixed before resolution or the card resolves under whichever field the reader happens to use. Resolution cannot be written at 00:00 ET without that ruling.\n\nRULING 2026-11-06 19:43 ET \u2014 D-002-CC RESOLVED BEFORE CLOSE. The governing falsifier wins (Option A). The contest-action MISS clause surviving inside threshold_definition is SUPERSEDED descriptive text and does not score. Standing principle stated with the ruling: 'Open events can be held open until close, falsifiers haven't changed. We're not accommodating new information.' Consequences for tonight's resolution: the Alaska vote-transfer demand does NOT score here \u2014 it is scored once, on the Alaska carrier card, under D-002-62, and is not imported because it happens to fit an old sentence. The card resolves on its own question: is the count-legitimacy frame dominant in the administration's own communications and its leading allied accounts? Record at close reads HIT. Docket: /space/tribunal/docket-002-clause-conflict-ruling.json; case: /space/tribunal_case/d-002-72h-clause-conflict.json.\n\nRESOLUTION 2026-11-07 10:50 ET \u2014 HIT. Window shut 2026-11-07 00:00 ET; this resolution is written eleven hours after close from the record as it stood at close, which is the only record that scores. Under D-002-CC the governing falsifier (president or named cabinet-level official publicly asserting theft or systematic fraud) is the sole scoring test; the contest-action clause surviving in threshold_definition is superseded and was not read. At close: no such assertion existed from the principal or any cabinet officer. Attribution was internal and stayed internal across all 72 hours \u2014 RINO designation of Abbott, candidate quality, turnout, the blame map naming the president, and the 'absolutely willing to accept the results' statement of 11-05. The Alaska vote-transfer demand of 08:40 ET 11-05 is real and is scored once, on the Alaska carrier card, per D-002-62; it is not imported here. The window's substantive answer is the Miller promotion inside it: the defeat was read as insufficient speed, and the remedy was fewer internal checks, not an audit. That is the purity/acceleration branch, which is a HIT on this card's own question and is exactly why the card's question was separable from the contest question.\n\nWHAT THIS RESOLUTION DOES NOT SAY. It does not say the count frame is dead. It says it was not DOMINANT in the administration's own communications or its leading allied accounts in this 72-hour window, which is what was asked. Feed-level count seeding (Gaetz on turnout arithmetic) was present and is logged. The honest statement of the record: the count frame was being broadcast, the principal had not adopted it.\n\nSCORING HYGIENE NOTE \u2014 FLAG AGAINST THIS MACHINE. The card sat at resolution='unresolved' for eleven hours past its own window close. By the standing expiry rule an unresolved card at close is a MISS by rule, so an unwritten resolution on a HIT card would have scored as a miss had anyone read the ledger before this write. The rule is correct and the lapse was administrative: resolution writing at 00:00 ET was not scheduled, and the close depended on the owner prompting a session. Fix recorded in the board queue: a close-night resolution pass must run without a human prompt.",
    "revision_log": [
     "2026-11-04 01:00 ET - registered at 0.60, window anchored before any post-midnight rhetoric was counted"
    ]
@@ -2343,7 +2343,7 @@
    "threshold_definition": "'Not holding the office' = not listed as Secretary of Defense in the DoD leadership listing at 12:00 ET 2027-01-03, whether by resignation, removal, death, or an acting arrangement in which no confirmed secretary sits.",
    "max_lifespan": "60 days",
    "review_cadence": "daily while the lame duck sits; weekly if it does not",
-   "tracking_state": "2026-11-04 14:35 ET - registered. Origin: third-hand report (Kobeissi citing CBS, via a partisan page) that the President is asking advisers about firing Hegseth and that 'some White House aides' would place blame on Cooper and Caine. The report itself scores nothing; what made the card admissible is the pre-existing September record (privileged resolution, punt to lame duck, majority public support), all of which was documented before today and is independent of the rumour.\n\n2026-11-04: reporting (CBS via multiple outlets) says Trump privately asked advisers whether to fire BOTH Hegseth AND Gen. Dan Caine, and that two officials assured him the Iran conflict would be wrapped up well before the midterms. WH statement: 'full confidence.' Trump to reporters: 'No, I think he's done a very good job.' Same coverage notes he is weighing a renewed bombing campaign while shopping the removal - leadership change with policy continuity, which is the laundering shape the 'out' hypothesis predicts. Separate framing circulating: he wants to salvage an 'anti-war president' legacy. If the war is the thing he wants distance from, Hegseth is the war's face - departure-positive and consistent with blaming the generals.",
+   "tracking_state": "2026-11-04 14:35 ET - registered. Origin: third-hand report (Kobeissi citing CBS, via a partisan page) that the President is asking advisers about firing Hegseth and that 'some White House aides' would place blame on Cooper and Caine. The report itself scores nothing; what made the card admissible is the pre-existing September record (privileged resolution, punt to lame duck, majority public support), all of which was documented before today and is independent of the rumour.\n\n2026-11-04: reporting (CBS via multiple outlets) says Trump privately asked advisers whether to fire BOTH Hegseth AND Gen. Dan Caine, and that two officials assured him the Iran conflict would be wrapped up well before the midterms. WH statement: 'full confidence.' Trump to reporters: 'No, I think he's done a very good job.' Same coverage notes he is weighing a renewed bombing campaign while shopping the removal - leadership change with policy continuity, which is the laundering shape the 'out' hypothesis predicts. Separate framing circulating: he wants to salvage an 'anti-war president' legacy. If the war is the thing he wants distance from, Hegseth is the war's face - departure-positive and consistent with blaming the generals.\n\n2026-11-07 12:53 ET, held at 55. NEW: the official White House account (@WhiteHouse, not a campaign or surrogate account) posted a black-and-white 'STRONGEST MILITARY IN GENERATIONS' poster of Trump with Hegseth, 9.5K reactions / 3.7K comments within the hour, at roughly the same moment Massie's articles and the 'war criminal' coverage were circulating. Read: the principal's own comms channel is boosting rather than distancing, which is the opposite of the behaviour of a White House that expects a cabinet officer to leave. Weak evidence for STAYS, not decisive - an official promotional post costs nothing and is not a personnel decision. It does, however, raise the cost of a later firing ('we just called him the strongest military in generations'), which is a one-way ratchet if the President has ruled it out. No confidence change on a social post; recorded so the FIRED branch's 19 is auditable if it moves.",
    "p_substance": 0.9,
    "p_timing": 0.64,
    "deadline_type": "constitutive",
@@ -4648,7 +4648,7 @@
    "threshold_definition": "HIT if any named national Republican or Alaska state official publicly endorses the transfer demand on the record by 2026-12-31. MISS if none has. No partial credit and no inference from tone, retweets or unnamed sourcing.",
    "max_lifespan": "56 days",
    "review_cadence": "daily on the wire, scored only at close",
-   "tracking_state": "Registered 2026-11-05 22:34 ET. Unpriced for 24 hours by the velocity rule.\n\nTRACKING 2026-11-06 18:51 ET \u2014 confidence 35 \u2192 45, card NOT flipped. A named national Republican senator (Cindy Hyde-Smith, MS) is reported refusing the count ('We are not backing down. This election is not over.'). This is the first named national Republican to publicly refuse the count, which moves the card's central question from 'will the frame find a carrier' to 'will the carrier name the transfer'. It does NOT satisfy this card's falsifier, whose own wording requires endorsement of THE ALASKA TRANSFER DEMAND specifically: Hyde-Smith names no state allocation, no candidate, and no transfer. Strict reading holds, and the reading stays strict on purpose \u2014 a genus-level echo scored as an instance is how a falsifier stops meaning anything. Portability evidence, not Alaska evidence.",
+   "tracking_state": "Registered 2026-11-05 22:34 ET. Unpriced for 24 hours by the velocity rule.\n\nTRACKING 2026-11-06 18:51 ET \u2014 confidence 35 \u2192 45, card NOT flipped. A named national Republican senator (Cindy Hyde-Smith, MS) is reported refusing the count ('We are not backing down. This election is not over.'). This is the first named national Republican to publicly refuse the count, which moves the card's central question from 'will the frame find a carrier' to 'will the carrier name the transfer'. It does NOT satisfy this card's falsifier, whose own wording requires endorsement of THE ALASKA TRANSFER DEMAND specifically: Hyde-Smith names no state allocation, no candidate, and no transfer. Strict reading holds, and the reading stays strict on purpose \u2014 a genus-level echo scored as an instance is how a falsifier stops meaning anything. Portability evidence, not Alaska evidence.\n\nTRACKING 2026-11-07 15:40 ET \u2014 confidence held at 45, card NOT flipped. The principal escalated from demand to declaration: 2:55 PM ET post, 'The Alaska Race is OVER. Dan Sullivan WON, it is not even close. He is leading substantially, but they refuse to use the Votes of the two Republican Candidates for U.S. Senate, Dan Sullivan Jr. and Gerald Heikes, in order to STEAL the Election.' This is still supply, not distribution \u2014 no state official, no named national Republican endorses the transfer. Two things changed that matter to the card's premise. (1) The demand has been converted into an asserted FACT of victory ('leading substantially') against an official count in which Sullivan trails by 637 votes (102,325 to 102,962, 74% counted, state says undecided). The claim is now falsifiable at a glance and was made anyway, which is a different act from the 05 Nov demand. (2) The fraud allegation has been extended from a recruitment claim (28 Oct) to ballot construction: Democrats had David Leslie withdraw so Heikes would be elevated as next-highest vote-getter under Alaska rules. That targets the ballot's composition rather than any counted vote, and no tabulation can answer it. Falsifier unchanged and unmet; the reading stays strict.",
    "p_substance": 0.5,
    "p_timing": 0.75,
    "deadline_type": "conventional",
@@ -4796,7 +4796,8 @@
    ],
    "tracking_state": "Registered 2026-11-06 18:51 ET. Anchor grade E: the underlying quotation is unverified, so the card is registered on the fact that the claim is CIRCULATING at 922 reactions, not on the fact that it is true. Unpriced for 24 hours by the velocity rule.",
    "basename": "2026-11-06-count-refusal-second-state",
-   "confidence": 40
+   "confidence": 40,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Jan 3 2027 Capitol crusader march: under 5,000 on site",
@@ -4843,7 +4844,8 @@
    "instrument": "mobilization-turnout",
    "tracking_state": "Registered 2026-11-06 23:46; revised 2026-11-07 00:05 after reading the full flyer. Correction logged: an earlier draft of the specimen asserted a Catholic/Protestant/LDS/Messianic coalition -- that was not on the artifact and has been removed. No permit evidence at registration.",
    "basename": "2026-11-06-crusader-march-jan-3-turnout",
-   "confidence": 68
+   "confidence": 68,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Houthi expansion vector: Saudi Arabia (the vector we were not tracking)",
@@ -4897,7 +4899,8 @@
    "instrument": "houthi-expansion-vector-v2",
    "public_status": "internal",
    "basename": "2026-11-06-houthi-saudi-expansion-vector-missed",
-   "confidence": 70
+   "confidence": 70,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Michaluk holiday rupture window: hardline action concentrated Nov 26 - Dec 25",
@@ -4945,8 +4948,8 @@
    "resolution": "unresolved",
    "resolution_date": null,
    "window_closes": "2026-12-25",
-   "grace_horizon": null,
-   "grace_locked": true,
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
    "skill_eligible": false,
    "quarantine_reason": "Single non-independent observer with no measurable track record - excluded from skill scoring, retained as dated hinge for forward watch.",
    "public_status": "internal",
@@ -5026,9 +5029,252 @@
    "last_moved": "2026-11-06",
    "basename": "2026-11-06-miller-blocked-then-done-act",
    "confidence": 70
+  },
+  {
+   "title": "Count-frame dominance after the 72-hour miss: does the post-defeat route recalibrate to the count by 2026-12-07?",
+   "date_made": "2026-11-07",
+   "time_et": "15:05 ET",
+   "statement": "Between 2026-11-07 15:00 ET and 2026-12-07 00:00 ET, the count-legitimacy frame becomes the DOMINANT post-defeat frame in the administration's own communications and its leading allied accounts \u2014 displacing the internal-attribution frame (bench, candidate quality, turnout, purity) that held for the 72 hours to 2026-11-07 00:00 ET. HIT: at least three attributable count-frame statements or reposts from the president, a named cabinet-level official, or a named national party officer, AND count-framing is the plurality frame across the pre-listed actor set at the window's end. MISS otherwise, including where count-framing persists at feed level but never becomes the plurality line from named actors.",
+   "evidence_confirmed": [
+    "2026-11-07, before 14:59 ET: the president reposted on Truth Social a post from Donald Ward calling Gina Hinojosa's Texas total 'Looney Tunes numbers' and asserting a 1.7M-vote gain over Beto O'Rourke cannot be explained by Republican underparticipation (Newsweek, 18:28 UTC)",
+    "Minutes later he reposted a Kevin Bass chart comparing 2022 with projected 2026 House popular vote \u2014 'Republican votes stayed the same. Democrats materialized 20 million new votes' (54.2M R / 51.3M D in 2022 against projected 55.6M R / 70.4M D)",
+    "This arrives four days after the election-night statement to the NYT: 'I am absolutely willing to accept those results'",
+    "Neither repost alleged fraud or that the results were invalid; Newsweek states outright that the president has not said the midterms were fraudulent or that he no longer accepts them",
+    "2026-11-07 14:55 ET: the president declared the Alaska Senate race over for Dan Sullivan, asserting Sullivan 'is leading substantially' and that the two Republican candidates' votes must be counted for him 'in order to STEAL the Election' \u2014 the official count has Sullivan trailing Peltola by 637 votes at 74% counted, and the state reports the race undecided"
+   ],
+   "evidence_contradicted": [
+    "The figures in the shared chart are internally caveated: the graphic itself says the 2026 numbers are PROJECTIONS based on 85% of expected vote counted, extrapolated at then-current rates \u2014 so the 20M figure is an artefact of extrapolation, not a vote total",
+    "Neither post supplies an expected number. 'Not normal' with no stated baseline is an unfalsifiable form: nothing was asserted that could be refuted",
+    "The federal structure gives the count frame nothing to attach to: no live litigation vehicle, no state board challenge filed, no national-committee action as of registration",
+    "The internal-attribution frame was dominant at close and was reinforced after it \u2014 the Miller chief-of-staff promotion reads the loss as insufficient speed, which is internal repair"
+   ],
+   "falsifier": "MISSES if, at 2026-12-07 00:00 ET, count-framing is not the plurality frame from the pre-listed actor set (president, VP, cabinet, national party chair, the five largest aligned accounts), or if fewer than three attributable count-frame statements exist from those actors in the window. A single repost, or count-framing confined to feed-level accounts holding no office, does not score.",
+   "forward_watchlist": [
+    "whether the reposts acquire an explicit proposition ('we actually won', 'the totals are false') rather than an invited inference \u2014 reposting is deniable, asserting is not, and the gap between them is the whole instrument",
+    "whether a state certification board or secretary of state sees a formal challenge by 2027-01-06, the one lever needing no Congress",
+    "whether the 'Looney Tunes' arithmetic is picked up by a named senator or governor \u2014 office-holding amplification is what converts a feed frame into a party frame",
+    "whether the administration's investigative vocabulary turns toward election administration: an investigation generates its own justification and never has to conclude",
+    "Texas specifically, because Hinojosa's win is the one result with a conceded Republican baseline (Abbott +100k) that makes the anomaly claim superficially legible",
+    "whether any allied account supplies the missing expected-number model (a precinct-level audit claim), converting an unfalsifiable form into an arguable one"
+   ],
+   "status": "pending",
+   "confirmer": "public posts and statements by the pre-listed actor set; filings by state or national party bodies",
+   "confirmer_base_rate": "Party ecosystems that lose a midterm and route to internal repair rarely reverse to a count dispute after four days; the base rate is low, but the 2020 and 2024 precedents are the relevant class and they are not low.",
+   "confirmation_window": "30 days",
+   "outcome_direction": "positive",
+   "base_rate_numeric": 30,
+   "confidence_rationale": "0.40. The founding case is thin: two reposts of other people's arithmetic, no assertion, no named officeholder adopting it. That reads as grievance-sustaining rather than route-replacement, and the internal frame was actively reinforced after close by the Miller promotion. Held at 40 rather than lower because the reposts come from the principal himself, arrive on day four rather than day forty, and Texas offers the one superficially legible anomaly the frame needs \u2014 and because invited inference has historically been sufficient for this base to operate on.",
+   "correlation_flag": "POSITIVELY correlated with the Alaska carrier card (vote-transfer demand): both measure whether the count route is load-bearing or decorative. NEGATIVELY correlated with the vanguard-split card.",
+   "card_class": "MECHANISM",
+   "skill_eligible": true,
+   "anchor_type": "event",
+   "anchor_source": "Truth Social reposts and public statements by named officials; state and national party filings",
+   "anchor_grade": "A",
+   "window_opens": "2026-11-07T15:00-05:00",
+   "window_closes": "2026-12-07T00:00-05:00",
+   "window_basis": "Thirty days from registration. Deliberately one month, not 72 hours: the predecessor card showed a three-day screen closes before this frame forms, and the certification clock (2027-01-06) leaves room for a month-long read without legal fact locking the outcome.",
+   "expiry_date": "2026-12-07",
+   "expiry_basis": "Thirty days from registration; no amendment after 2026-12-07 00:00 ET",
+   "grace_locked": true,
+   "grace_horizon": "none \u2014 MECHANISM class, closes at window end",
+   "grace_locked_date": "2026-11-07T15:05-05:00",
+   "grace_locked_note": "No-grace declaration dated at registration, not retrospectively.",
+   "threshold_definition": "Plurality test across the pre-listed actor set, adjudicated once at close. Count-frame = an explicit claim that a 2026 result is wrong, false, unusable, or has no fair solution. Reposts count only when the principal adds a proposition; a bare repost counts as one instance, capped at two for the window.",
+   "instrument": "Two-part: (1) instance count from the pre-listed actor set, each dated and quoted; (2) plurality read at close comparing count-frame instances against internal-attribution instances. Feed-level amplification is logged but never scored.",
+   "public_status": "pending_adjudication",
+   "resolution": "unresolved",
+   "tracking_state": "Registered 2026-11-07 15:05 ET, after close of the predecessor window (2026-11-07 00:00 ET) and after the two reposts that motivated it. Successor to /space/prediction/2026-11-03-post-defeat-72h-routing.json (HIT). The predecessor scored correctly on its own question and is not revised; this card measures the question the 72-hour screen could not reach.",
+   "revision_log": [
+    "2026-11-07 15:05 ET \u2014 registered at 40, 30-day window. Successor card; no amendment to the predecessor.",
+    "2026-11-07 15:40 ET \u2014 confidence 40 \u2192 45 (card NOT resolved; window open). Instance 1 from the principal with an explicit proposition: 2:55 PM ET Truth Social post declaring 'The Alaska Race is OVER. Dan Sullivan WON' while the official count has Sullivan trailing by 637 votes. Distinct from the two earlier reposts because it asserts rather than invites. The instance-count limb of the HIT test is now within one instance of being satisfied from the principal alone, so the discriminator at close is the plurality read across the actor set, not the count. Threshold NOT tightened after evidence appeared \u2014 the pre-registered definition stands."
+   ],
+   "leg_primary": "T",
+   "leg_secondary": [],
+   "leg_basis": "vanguard routing after defeat",
+   "basename": "2026-11-07-count-frame-dominance-30day",
+   "confidence": 45
+  },
+  {
+   "title": "Press secretary succession - two-leg card: named by Nov 30, else Miller-managed vacuum test",
+   "date_made": "2026-11-07",
+   "time_et": "21:39",
+   "statement": "RESTRUCTURED on owner instruction (replaces the 21:39 registration; sign already confirmed as appointment-side at 21:40). LEG 1 - the appointment test: a permanent White House press secretary is publicly named on or before 2026-11-30. If named, the card resolves YES at that date. LEG 2 - the vacuum test, triggered only if Nov 30 passes with no permanent successor: the card STAYS OPEN past Nov 30 and watches whether Miller personally manages press interactions in the vacuum (briefing the pool himself, direct-to-camera explanations, comms routed through the CoS office). Under leg 2 the card resolves NO - owner concedes the channel-failure reading - when EITHER (a) a permanent press secretary is finally named (vacuum ended), OR (b) 2027-03-09 (four months from the Miller start of 2026-11-09) passes with the position still vacant and no successor ever named. The operational claim being tested is whether an unfilled press office collapses into personal management by the chief of staff rather than being left as an empty chair.",
+   "evidence_confirmed": [
+    "Dana White flew to Washington and met Monday after the Thursday Truth Social offer; reported across wires (Nov 7 morning wire)"
+   ],
+   "evidence_contradicted": [
+    "White rejected the offer within ~36 hours, per CNN-sourced reporting circulated Nov 7 evening \u2014 the offer did not close"
+   ],
+   "falsifier": "Terminal NO conditions: (1) if leg 1 fires, the card resolves YES and no falsifier applies; (2) under leg 2, NO resolves on the earlier of a permanent successor being named after Nov 30, or 2027-03-09 with no successor ever named. 'Acting' designations, rotating podium duty, a deputy standing in, and comms absorbed into the CoS office do NOT end the vacuum and do not count as a successor. Under leg 2, evidence that Miller is NOT personally managing press interactions in the vacuum (a professional comms operation running the podium under some other title) is logged as evidence against the card's operational claim but does not itself resolve the card - resolution is only on successor-named or the four-month date.",
+   "forward_watchlist": [
+    "Miller takes office Mon Nov 9; first personnel moves under him",
+    "Whether the podium is used at all between Nov 9 and Nov 30",
+    "Named professional comms hire vs loyalist outsider vs nobody",
+    "Any White House statement that comms now runs through the CoS office"
+   ],
+   "status": "emergent",
+   "confirmer": "Leg 1: permanent press secretary publicly named by 2026-11-30. Leg 2: card resolves NO on the earlier of a successor being named post-Nov 30, or 2027-03-09 passing with no successor ever named",
+   "confirmer_base_rate": "Roughly half. Press secretary vacancies in modern administrations typically fill in weeks, not months; against that, this administration has left roles unfilled and run rotating podiums, and the first-choice candidate just refused.",
+   "confirmation_window": "2026-11-07 to 2026-11-30 (leg 1); 2026-11-30 to 2027-03-09 (leg 2, conditional)",
+   "last_moved": "2026-11-07",
+   "outcome_direction": "positive",
+   "confidence_rationale": "Slight lean to filled on base rate and on the political cost of a silent podium week of Nov 9 under a new CoS. Not higher because the only tested candidate refused, and because a president who posts directly has less institutional need for the briefing room. Score unchanged by the restructure: the restructure extends how long the card can stay open, not the probability of the Nov 30 branch.",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-07",
+   "window_closes": "2026-11-30",
+   "grace_locked": false,
+   "skill_eligible": true,
+   "public_status": "internal",
+   "instrument": "owner-gut-call concession test (same genus as the 2026-09-14 loyalty-essay gut call)",
+   "anchor_type": "owner-set calendrical deadline plus owner-set conditional horizon, registered before the outcome window opened",
+   "anchor_source": "Samuel Adams, chat 2026-11-07 21:39/21:40/21:47 ET",
+   "anchor_grade": "A",
+   "window_basis": "Leg 1 close is the owner's own concession date (21 days, three weeks after the Miller start, generous by construction). Leg 2 horizon is four months from the Miller start of 2026-11-09.",
+   "expiry_date": "2026-11-30",
+   "expiry_basis": "Leg 1 expiry 2026-11-30; leg 2 carries the card with a hard horizon at 2027-03-09. No amendment to either date once Nov 9 passes.",
+   "threshold_definition": "Permanent press secretary publicly designated; acting/rotating/absorbed does not count. Leg 2 adds the four-month vacuum horizon.",
+   "review_cadence": "Daily from Nov 9",
+   "tracking_state": "open; no observation yet post-Miller",
+   "deadline_type": "conventional",
+   "falsifier_shape_audit": "Leg 1 is a clean dated yes/no. Leg 2 is a two-outcome OR with a hard calendar horizon - sound shape, but it carries one judgement call: whether Miller 'personally manages press interactions' is observable and logged, not scored, so the vacuum character is evidence, not a resolution trigger. Weakest edge remains 'named but not in post' - flagged at resolution rather than split.",
+   "leg_primary": "N",
+   "leg_secondary": [
+    "T"
+   ],
+   "leg_basis": "Narrative-personnel leg (the messaging function's institutional location) bounded by a timing leg (21-day deadline).",
+   "revision_log": [
+    {
+     "date": "2026-11-07",
+     "time_et": "21:41",
+     "change": "Sign confirmed by owner after registration. Owner's 21:40 message: 'I meant appointment' \u2014 he is taking the APPOINTMENT side (a permanent press secretary named by Nov 30), and concedes the channel-failure reading if the slot is still vacant on Nov 30. Card as written stands; no flip. Locked before Miller takes office Nov 9.",
+     "by": "Samuel Adams"
+    },
+    {
+     "date": "2026-11-07",
+     "time_et": "21:48",
+     "change": "Restructured on owner instruction: two-leg form. Leg 1 unchanged (permanent successor named by 2026-11-30 resolves YES). Leg 2: if Nov 30 passes vacant, card stays open, tracking whether Miller personally manages press interactions; resolves NO on the earlier of a successor being named or 2027-03-09 (four months from the 2026-11-09 Miller start) with no successor ever named.",
+     "by": "Samuel Adams"
+    },
+    {
+     "date": "2026-11-07",
+     "time_et": "22:05",
+     "change": "Evidence only, no repricing (velocity-override). Wire confirms: Zacharia out 2026-10-16 after five days, so the podium has been vacant 22 days as of tonight, not three weeks; Dana White refused within 36 hours; Miller becomes chief of staff 2026-11-09. The pre-Nov-30 branch is running; 4-month terminal backstop is 2027-03-09. Any 'acting', rotating podium, or briefing function absorbed into the CoS office is a NO under the card.",
+     "by": "wire pull 2026-11-07"
+    }
+   ],
+   "max_lifespan": "2027-03-09",
+   "post_expiry_confirmation": "Leg 2 continuation is structural to the card as restructured, not a post-expiry rescue: Nov 30 is the leg-1 gate, not the card's end.",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked_date": null,
+   "basename": "2026-11-07-press-secretary-by-nov-30",
+   "confidence": 58
+  },
+  {
+   "title": "A second jurisdiction designates an advocacy organisation under the Florida template before the 120th Congress convenes",
+   "date_made": "2026-11-07",
+   "time_et": "11:05",
+   "statement": "Between 2026-11-07 and 2027-01-03, at least one additional US state \u2014 beyond Florida \u2014 formally designates a domestic advocacy, civil-liberties, or membership organisation as a domestic terrorist organisation, or creates a standing state domestic-terrorism enforcement body with authority to make such designations. Federal action alone does not score; state-level diffusion is the claim.",
+   "falsifier": "No second state designation or new standing state domestic-terror enforcement body by 2027-01-03. If the window closes with Florida as the only jurisdiction, the docking-epidemic read is wrong and CAIR Florida is a one-off state political act rather than a transferable template.",
+   "evidence_confirmed": [
+    "2026-09-11: Florida Cabinet designates CAIR and CAIR Florida under state domestic-terror statute",
+    "2026-11-05: federal court upholds the designation; CAIR Florida suspends operations indefinitely",
+    "2025-09-25: NSPM-7 establishes the National Antiterrorism Taskforce under Miller, listing ideological markers",
+    "2026-11-06: Miller named White House Chief of Staff, 72 hours after the midterm defeat",
+    "Precedent: the 2025-2026 pattern of state-template-then-federal-adoption across immigration enforcement"
+   ],
+   "evidence_contradicted": [
+    "State domestic-terror statutes exist in only a handful of states and most lack a designation mechanism for organisations",
+    "CAIR Florida's capitulation removes the litigation vehicle other states would have needed to test their own statutes",
+    "Most legislatures are out of session; diffusion usually needs a session calendar",
+    "No reported federal designation filing as of 2026-11-07 \u2014 the template has not even completed the easiest step"
+   ],
+   "forward_watchlist": [
+    "Texas, Tennessee, and Ohio legislature committee referrals on domestic-terror designation bills",
+    "any governor's Cabinet-level designation vote",
+    "federal bill text explicitly adopting the Florida statutory definition",
+    "DOJ guidance citing the Florida statute or the CAIR ruling as authority"
+   ],
+   "window_opens": "2026-11-07",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "expiry_basis": "Convening of the 120th Congress \u2014 fixed constitutional date",
+   "anchor_type": "fixed_constitutional_date",
+   "anchor_source": "20th Amendment",
+   "anchor_grade": "A",
+   "window_basis": "Matches the Miller blocked-then-done window so the two reads share a horizon and cannot be reconciled after the fact.",
+   "threshold_definition": "Scores only if a state OTHER than Florida formally designates a named advocacy or membership organisation, or creates a standing body empowered to designate, with the act documented in a state record (Cabinet vote, AG action, statute, or regulation) inside the window. Committee hearings, bill introductions, and statements do not score.",
+   "card_class": "EVENT",
+   "skill_eligible": true,
+   "status": "emergent",
+   "resolution": "unresolved",
+   "resolution_date": "",
+   "grace_horizon": null,
+   "grace_locked": false,
+   "public_status": "internal",
+   "confidence_rationale": "This is a low number and should stay low. The docking instrument gives the template four legs, but legs are necessary not sufficient: legality (a statute), a designated enforcer, judicial validation, and a target that folds. Florida has all four and is the only jurisdiction that does. Diffusion normally rides an epidemic curve off multiple successful hosts, and there is one host. 42 is set above a pure base rate because the federal carrier was just installed at the gatekeeping office and because state designations have already been attempted in adjacent domains. It is set well below 50 because legislative calendars, statutory gaps, and CAIR Florida's own capitulation all cut against a second case inside eight weeks.",
+   "base_rate_numeric": 0.18,
+   "base_rate_source": "Additional US state designating a domestic advocacy organisation within 8 weeks of the first successful designation, prior cases: no clean precedent in the post-9/11 record for organisation-level state designation. Tier D, very low confidence.",
+   "base_rate_tier": "D",
+   "base_rate_frozen_date": "2026-11-07",
+   "revision_log": [
+    "2026-11-07 11:05 ET: created at 42, pre-expiry, off the CAIR Florida closure and the Miller promotion.",
+    {
+     "date": "2026-11-07",
+     "time_et": "22:05",
+     "change": "PREMISE ERROR LOGGED; RESOLUTION FIELDS UNTOUCHED. Texas designated the Muslim Brotherhood and CAIR by gubernatorial proclamation on 2025-11-18, ten months before Florida's Cabinet designation (2026-09-29; effective 2026-11-05; federal judge denied CAIR's injunction 2026-11-05; CAIR suspended Florida operations). Florida is the SECOND jurisdiction, not the first, so the diffusion this card tests already occurred before its window opened. Oklahoma is a near-miss only: Stitt ordered a homeland-security review on 2026-08-13 and called for FEDERAL designation - investigation, not designation. Recommendation: re-base to a THIRD jurisdiction. Owner decision pending; no score change per velocity-override.",
+     "by": "wire pull 2026-11-07"
+    }
+   ],
+   "instrument": "docking",
+   "leg_primary": "E",
+   "leg_secondary": [
+    "M",
+    "G"
+   ],
+   "tracking_state": "Opened same hour as the specimen. Watch Texas and Tennessee first.",
+   "last_moved": "2026-11-07",
+   "basename": "2026-11-07-second-state-designation-florida-template",
+   "confidence": 42
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-07",
+   "time_et": "22:05",
+   "track": "full forecast-card wire pull / election aftermath / certification & seating / designation diffusion / catalyst window",
+   "mget_legs_tested": [
+    "certification-and-count channel: MS (no recount statute, Nov 13 deadline), AK (RCV, certification litigation dismissed)",
+    "seating channel: Trump declines to say Peltola should be seated; Dunleavy casting doubt",
+    "designation diffusion: FL CAIR designation upheld, ops suspended; TX predates it by ten months",
+    "personnel channel: press secretary vacancy now 22 days, offer refused, Miller CoS Monday",
+    "control tests: House and Senate both resolved HIT by the wire",
+    "catalyst gauge: seating 2027-01-03, +61; certification Dec 14, +41",
+    "procedural motion in the losing-state majority and the federal executive"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FULL WIRE PULL 2026-11-07, filed ~22:05 ET. Coverage honesty first: this is an open-web index sweep (news search), not an agency crawl and not a primary-document pass. Every item below is a search-index result with a named outlet; each card-level claim that resolves on it is tagged as needing primary confirmation before it is scored. Read the sweep as 'narrative layer and verified-outlet layer pulled, primary layer not pulled.'\n\n1. CONTROL TESTS ARE ALREADY DECIDED AND THE REGISTER SHOULD SAY SO PLAINLY. Democrats won both chambers - House, with a majority projected in the 220s and CBS/People reporting at least 228 seats, and Senate, projected 54-44 with two races uncalled that cannot change control. So house-democratic-control (already marked hit) and senate-democratic-control both resolve HIT; the Senate card's 50-50 MISS clause never binds. Consequence for every downstream card: the 120th Congress is a Democratic Congress with a Republican executive, and every 'seating contest' or 'chamber judges its own' card now has a Democratic majority holding the gavel. The House-judges-its-own card as written assumed a Republican-majority seating fight; under a Democratic majority the fight runs the other way (a Republican caucus contesting Democratic-certified seats, or a Democratic majority choosing whether to seat a contested Republican). That is a real change in the mechanics and I am flagging it as an interpretation question for the card, not silently re-reading it.\n\n2. MISSISSIPPI IS THE LIVE COUNT CHANNEL AND THE WINDOW IS FIVE DAYS. Colom (D) leads Hyde-Smith by roughly 2,000-3,600 votes with counties required to transmit certified results by 2026-11-13. Mississippi is the only state with no statutory recount mechanism - no automatic trigger, no candidate-requested recount. That single fact is why the count-refusal card has traction here: with no in-statute route, any demand to reopen the count is extra-statutory by construction. Hyde-Smith's 'we are not backing down' remains the one named national Republican refusal. Washington Post reporting frames the dispute as potentially landing in court or in the Senate itself - that is the seating channel opening pre-emptively, and it should be tracked as a distinct object from certification.\n\n3. ALASKA: THE CERTIFICATION-BLOCKING LITIGATION IS DEAD BUT THE SEATING RHETORIC IS NOT. DOJ sued to block certification of the Senate result if Sullivan lost; a federal judge dismissed it (reported 2026-11-01). RCV tabulation runs on a schedule with further counts reported for Tuesday 11-10 and Friday 11-13. The load-bearing item is not the suit - it is Trump declining, when asked directly whether Republicans should refuse to seat Peltola if she wins, to say no ('you're going to have to see what happens'), with Dunleavy casting doubt on whether a Peltola win would proceed and Sullivan claiming Peltola is 'still lying' about campaign involvement in the ballot controversy. That is pre-positioning for a refusal-to-seat, spoken aloud, by the principal, eleven days before the election was called. Filed as evidence; it is exactly what the seating-contest card is built to catch, but the card requires an actual contest, not a hedge.\n\n4. THE DESIGNATION-DIFFUSION CARD HAS A PREMISE ERROR AND IT IS MINE TO FLAG. The card reads 'a second jurisdiction under the Florida template.' Texas designated the Muslim Brotherhood and CAIR as foreign terrorist / transnational criminal organizations by gubernatorial proclamation on 2025-11-18 - ten months BEFORE Florida's Cabinet designation (2026-09-29, effective 2026-11-05, upheld by a federal judge who denied CAIR's injunction request on 11-05, after which CAIR suspended Florida operations). So Florida is the second jurisdiction, not the first, and the diffusion the card says has not happened already happened before the card's window opened. Oklahoma is the near-miss: Stitt ordered a homeland-security review of CAIR's ties in August 2026 - an investigation and a call for federal designation, not a state designation, so it does not score. The card cannot be honestly scored as 'no second state' when the pattern exists pre-window; it should be re-based to a THIRD jurisdiction, and the Covid-era lesson applies: a card whose baseline is factually wrong is not a card, it is a placeholder. I have written the correction into the card's record without touching its resolution fields, and I am asking for the re-base decision rather than taking it.\n\n5. THE PERSONNEL CHANNEL IS WORSE THAN THE CARD ASSUMED. Zacharia was out on 2026-10-16 after five days, so the podium has been vacant 22 days, not the 'three weeks' shorthand - and the only tested candidate, Dana White, refused within 36 hours. Under the restructured two-leg card this is the pre-Nov-30 branch running, and the 4-month terminal clock (2027-03-09) is the backstop. Filing evidence only; per the velocity-override rule no repricing this session.\n\n6. CRUSADER MARCH: THE CARD'S FALSIFIER IS NOW TESTABLE AGAINST A BASE RATE. The event is Jake Lang's 'Million Crusader Cross March on the US Capitol,' 2027-01-03, 11:00, announced on X and amplified - explicitly to 'protest the certification of the rigged midterms.' Base rate on the same organiser: Lang's January 2026 crusader march outside AIPAC drew about ten people by press count. One prior observation is not a rate, but 'Million' in the title plus ten in the street is the single most useful calibration fact available for the under-5,000 card, and it favors YES.\n\n7. PROCEDURE LEG (W1). Federal executive: motion is personnel (Miller CoS 11-09) and prosecutorial (reported DOJ probe into impeachment threats after the result) - no Insurrection Act invocation; Trump had declined to rule it out on 2026-10-01 and still has not invoked, so CONTROL-2 remains alive. Losing-state majority: no state legislature in motion; the motion is in certification administration (MS deadline, AK tabulation) and in litigation (AK dismissed). Nothing in the appropriations, quorum, or chamber-rules channels has moved. Stated as a finding: no motion this sweep in the legislative-procedure channel, only in certification administration.\n\n8. WHAT I AM NOT WATCHING THIS SWEEP (W5): county-level Mississippi canvass boards and their individual certification votes; Alaska's three RCV elimination rounds as they are reported; state-level bill introductions in Louisiana, Oklahoma and Arizona that would grant designation authority (the actual diffusion mechanism); Senate Leadership Fund and other committee spending as a proxy for contest decisions; and any primary documents behind items 2-4, which is the largest blind spot in this sweep.",
+   "forward_signal": "1) 2026-11-13 MS certification: certified with Colom ahead (card survives) vs refused/delayed at county level vs litigation filed. 2) 2026-11-10 and 11-13 AK tabulation rounds; any Peltola call and any seating refusal language from Sullivan, Dunleavy or Trump after a call. 3) Press secretary: any name before 11-30; watch for 'acting' or podium reassignment, which is a NO under the card. 4) Designation diffusion: OK (Stitt review), LA, AZ bill introductions; a third state designation would satisfy a re-based card. 5) Jan 3 crusader march: permit filing, bus contracts, and any organiser crowd claim - none of which substitute for an on-site estimate. 6) Insurrection Act: any invocation or national-emergency declaration tied to the midterms (CONTROL-2 falsifier). 7) Hegseth privileged resolution week of 11-09.",
+   "confidence_moves": "None. Velocity-override standing rule holds: all open cards keep their scores this session; evidence filed only, repricing waits for the postmortem. One defect logged without a score change: the designation-diffusion card's baseline is factually wrong (Texas 2025-11-18 predates Florida 2026-09-29); re-base to a third jurisdiction recommended, decision left to the owner.",
+   "basename": "2026-11-07-forecast-card-wire-pull"
+  },
+  {
+   "date": "2026-11-07",
+   "time_et": "21:35",
+   "track": "evening wire / post-defeat routing / personnel channel failure / catalyst threshold / narrative-layer specimens",
+   "mget_legs_tested": [
+    "post-defeat attribution routes internal, not to the count",
+    "gop-post-defeat cosmetic-vs-ideological (Miller promotion pre-empting the reckoning)",
+    "direct-channel governance: celebrity appointment as staffing model",
+    "count-refusal pre-positioning in sub-margin races (MS, AK)",
+    "catalyst-to-rupture tempo: seating of the 120th Congress as primary threshold"
+   ],
+   "verdict": "confirms",
+   "reasoning": "\nEVENING WIRE 2026-11-07, filed ~21:35 ET. Coverage from operator captures this evening plus the machine's own cards; no full-agency sweep this run - flagged as a partial-coverage wire.\n\n1. THE CELEBRITY STAFFING CHANNEL CLOSED IN UNDER 36 HOURS. Thursday's cycle: Trump offered the press secretary job to Dana White on Truth Social, with 'assistants, even though some are not from our Country' and named UFC fighters; White took it seriously enough to fly to Washington and meet. Saturday evening: per CNN-sourced reporting circulated by MeidasTouch, White has REJECTED the offer. Read the arc, not the headline. The offer was the day's proof-of-concept for governance-by-appointment-of-loyalists-outside-government; the rejection is the first empirical price on that model from the appointee side. A press secretary must stand at the podium daily; the pool of people with the required loyalty AND the willingness to do the work is measurably small, and one data point now says the model does not clear its own recruitment bar. Watch whether the slot goes to a professional comms staffer (model survives, personalization was the theater) or the podium stays vacant/rotating (model failing). Do not over-read one refusal - White has a business and no need for the job - but log it as the first counter-price on a channel the base read as strength.\n\n2. THE MILLER APPOINTMENT IS THE REAL PERSONNEL STORY AND IT LANDS MONDAY. Chief of staff effective Nov 9, four days before the new Congress is seated, six days after the wipeout. House GOP 'megalomaniac' eruption on Fox is elite-on-elite routing toward INTERNAL attribution - exactly what the 72-hour routing card required and what the pre-Nov 7 specimens lacked. The cosmetic-vs-ideological card moves toward its NO branch: the administration pre-empted the reckoning by promoting the author of the repudiated agenda. The procedural test stands: objections become real only when they produce a leadership challenge, a funding refusal, or a subpoena-side defection. Quotes are not procedure.\n\n3. THE CATALYST GAUGE WAS CORRECTED TONIGHT AND THE THRESHOLD MOVED EARLIER. Two defects fixed in /space/journal/2026-11-07-election-catalyst-candidate.json. (a) The prior '+78 days = inauguration/transfer' line was wrong - there is no presidential inauguration in January 2027. (b) The correct transfer test is the SEATING of the 120th Congress, 2027-01-03, catalyst +61 days - between the SC-secession tempo (44) and the Lincoln-inauguration tempo (118). Owner registered the read on record: the seating is the next potential catalyst and the first moment class-C (refusal to seat certified delegations) and class-D (annulment by decree) become executable by the chamber itself. The realistic failure mode is not refusal to seat members; it is FAILURE TO ORGANISE - a Speaker deadlock (precedents: 133 ballots / two months in 1855-56; 15 ballots / four days in 2023). A deadlock does not score as an irreversible act but is where the class-D path first becomes visible. Tripwires: +41 Dec 14 certification (P15-T resolution), +61 Jan 3 seating (PRIMARY), +64 Jan 6 salience only, +157 Apr 9 Sumter tail. Falsifier is fixed at the FIRST threshold: if the House organises with a Speaker seated, the claim misses at Jan 3 - no extension to April. Broadened-irreversibility risk logged separately: ten non-election channels (detention, foreign escalation, structural lock-in, monetary, records) exist and are fast when they bypass adjudication (5/7/24/74-day precedents), but they are registered as separate cards, not folded into the headline gauge - folding them would destroy the falsifier.\n\n4. NARRATIVE LAYER - TWO SPECIMENS, BOTH REPEATS OF KNOWN TYPES. (a) The Mannarino depopulation post is a repeat of the August 2025 trans-detention specimen: same register, named agency, named statute to violate, endpoint of mass detention of a class. Fourteen-month-old frame re-entering circulation post-defeat - the audience relationship to the vote changed, not the frame. Logged as reinforcement of the dehumanization-velocity signal, not a new specimen class. (b) The Nate Silver thread, amplified by Grok, asserting the Democratic sweep had probability '1 in 10^-75': reverse-engineered as 2^-249, i.e. somebody modeled the night as 249 independent coin flips, and even the decimal does not match the binary (76 zeros printed vs 75 computed). Every one of the four competitive marquee races was inside its own published margin; the odds are a manufactured impossibility number serving pre-positioned fraud claims. This is the fake-polls/pre-positioning sweep doing its count-refusal prep in the two still-uncalled races. Mississippi (Hyde-Smith +43 behind, 'not backing down') and Alaska remain the live test; the count-refusal card fires on a demand outside the recount statute.\n\n5. CARRIED FROM THE MORNING, UNCHANGED: fresh US strikes on Iran (air defense node near Hormuz, first since the midterms); IRGC tanker-claim uncorroborated; Iran's seven conditions as negotiating artifact; Hegseth vote week of Nov 9 with resignation as the named off-ramp; Minab report still unpublished with its excuse gone; turnout rate unpublished, 41.0 percent floor resolves on the rate.\n\nVERDICT. Confirms: internal routing (elite-on-elite, named targets), the personnel pre-emption reading, and the catalyst-threshold correction strengthens rather than weakens the entry. Strains, logged inside the confirm: the celebrity-appointment channel took its first counter-price within a day and a half. Nothing tonight touches the count-refusal question - which is the point of the two uncalled races.\n",
+   "forward_signal": "1) PRESS SECRETARY SLOT: professional comms hire vs vacant/rotating podium - decides whether the celebrity channel was theater or model. 2) MONDAY NOV 9: Miller takes office; first White House staffing signal under him; further Cabinet moves per CNN. 3) HEGSETH: privileged resolution on the floor week of Nov 9; cosponsor count; resignation soundings; CNN-sourced expectations it passes. 4) MISSISSIPPI: certification path - statutory recount filing vs extra-statutory demand; 43 votes. 5) ALASKA: count pace and any transfer-of-electors rhetoric at genus level (strict instance standard holds). 6) IRAN: Hormuz transit count (not price) as the physical-rail read; whether the seven conditions move. 7) JAN 3 WATCH: first signs of Speaker-vote arithmetic - defector counts, announced challenges - noting +61 is the threshold date, and pre-January positioning is the observable, not the day itself. 8) MANNARINO-CLASS SPECIMENS: velocity of mass-detention frames post-defeat vs the pre-election baseline.",
+   "confidence_moves": "None. Velocity-override standing rule holds: every open card keeps its score; evidence filed only; repricing waits for the postmortem and tribunal. One internal repair completed this session: the crusader-march card's wrong-card falsifier replaced (logged in its revision log); no score change.",
+   "basename": "2026-11-07-evening-wire"
+  },
   {
    "date": "2026-11-06",
    "time_et": "10:05",
@@ -12418,6 +12664,24 @@
  ],
  "movers": [
   {
+   "time": "2026-11-07",
+   "ref": "Count-frame dominance after the 72-hour miss: does the post-defeat route recalibrate to the count by 2026-12-07?",
+   "change": "confidence 45 \u2014 status pending",
+   "trigger": "2026-11-07 14:55 ET: the president declared the Alaska Senate race over for Dan Sullivan, asserting Sullivan 'is leading substantially' and that the two Republican candidates' vote"
+  },
+  {
+   "time": "2026-11-07",
+   "ref": "Press secretary succession - two-leg card: named by Nov 30, else Miller-managed vacuum test",
+   "change": "confidence 58 \u2014 status emergent",
+   "trigger": "Dana White flew to Washington and met Monday after the Thursday Truth Social offer; reported across wires (Nov 7 morning wire)"
+  },
+  {
+   "time": "2026-11-07",
+   "ref": "A second jurisdiction designates an advocacy organisation under the Florida template before the 120th Congress convenes",
+   "change": "confidence 42 \u2014 status emergent",
+   "trigger": "Precedent: the 2025-2026 pattern of state-template-then-federal-adoption across immigration enforcement"
+  },
+  {
    "time": "2026-11-06",
    "ref": "Cosmetic not ideological: the GOP sacrifices personnel, not the program",
    "change": "confidence 72 \u2014 status emergent",
@@ -12458,24 +12722,6 @@
    "ref": "Miller exercises a blocked-then-done act before the 120th Congress convenes",
    "change": "confidence 70 \u2014 status emergent",
    "trigger": "2026-11-06 intra-coalition objection registered and non-binding: Tillis 'colossal mistake', Stutzman 'horrible decision', unnamed GOP consultant 'Full Gestapo it is'. Objection exi"
-  },
-  {
-   "time": "2026-11-05 15:15 ET (created)",
-   "ref": "Mass-casualty domestic political attack before the inauguration (the Pape window limb, scored independently)",
-   "change": "confidence 10 \u2014 status pending",
-   "trigger": "Pape's structural point that both sides have an incentive to build capacity before the result is known is directly relevant to the sponsorship branch, even where his symmetric fram"
-  },
-  {
-   "time": "2026-11-05",
-   "ref": "Alaska transfer demand \u2014 does it acquire an institutional carrier?",
-   "change": "confidence 45 \u2014 status pending",
-   "trigger": "A sitting GOP senator (Hyde-Smith) publicly refused the count within 96 hours of the result \u2014 the category the card's falsifier names ('named national Republican') is now populated"
-  },
-  {
-   "time": "2026-11-05",
-   "ref": "After the rebuke: does any armed formation acquire a named institutional patron?",
-   "change": "confidence 22 \u2014 status emergent",
-   "trigger": "Armed presence at public events and official-harassment campaigns are already routine and are NOT the subject of this card - level-2 violence is elevated and ongoing, which is exac"
   }
  ],
  "daily_read": {
@@ -12484,7 +12730,7 @@
  },
  "counts": {
   "items_today": 0,
-  "tracked_predictions": 94,
+  "tracked_predictions": 97,
   "claims_tested": 28,
   "unscored_predictions": 0
  },
@@ -12558,7 +12804,7 @@
     "prev_score": 86
    }
   ],
-  "age_days": 5,
+  "age_days": 6,
   "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  },
  "mget": {
@@ -12658,16 +12904,16 @@
    }
   ],
   "register_load": {
-   "total": 94,
+   "total": 97,
    "by_leg": {
-    "T": 41,
-    "E": 11,
-    "N": 2,
+    "T": 42,
+    "E": 12,
+    "N": 3,
     "G": 29,
     "M": 11
    }
   },
-  "age_days": 3,
+  "age_days": 4,
   "lanes": {
    "sum": 100.0,
    "items": [
