@@ -1,0 +1,243 @@
+{
+ "generated": "2026-11-07",
+ "source": "Federal Register API (denominator) + /space/legitimation_event (numerator)",
+ "months": [
+  {
+   "month": "2026-05",
+   "rules": 252,
+   "events": 0,
+   "coverage": "none",
+   "per100": 0.0,
+   "sig2": 0,
+   "grants": 0
+  },
+  {
+   "month": "2026-06",
+   "rules": 340,
+   "events": 0,
+   "coverage": "none",
+   "per100": 0.0,
+   "sig2": 0,
+   "grants": 0
+  },
+  {
+   "month": "2026-07",
+   "rules": 287,
+   "events": 0,
+   "coverage": "none",
+   "per100": 0.0,
+   "sig2": 0,
+   "grants": 0
+  },
+  {
+   "month": "2026-08",
+   "rules": 281,
+   "events": 0,
+   "coverage": "none",
+   "per100": 0.0,
+   "sig2": 0,
+   "grants": 0
+  },
+  {
+   "month": "2026-09",
+   "rules": 216,
+   "events": 5,
+   "coverage": "full",
+   "per100": 2.31,
+   "sig2": 2,
+   "grants": 0
+  },
+  {
+   "month": "2026-10",
+   "rules": 234,
+   "events": 3,
+   "coverage": "full",
+   "per100": 1.28,
+   "sig2": 2,
+   "grants": 0
+  },
+  {
+   "month": "2026-11",
+   "rules": 46,
+   "events": 5,
+   "coverage": "partial (1-7 Nov, 5 pub days)",
+   "per100": 10.87,
+   "sig2": 4,
+   "grants": 0
+  }
+ ],
+ "rows": [
+  {
+   "date": "2026-09-04",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "Executive action to restrict mail-in voting",
+   "effect": "procedural",
+   "significance": 2,
+   "significance_basis": "Third ruling on the same policy; blocks implementation before a midterm, but a repeated loss on one instrument rather than a new front.",
+   "source_primary": "D. Mass. opinion, 2026-09-04",
+   "source_confirm": "NYT 2026-09-04 'Judge Once Again Blocks Trump Administration's Plans to Restrict Mail-In Ballots'",
+   "dedupe_key": "court|2026-09-04|mail-ballot-rule",
+   "notes": "Same judge's third ruling; third-time block on one instrument argues the executive is absorbing, not deterred."
+  },
+  {
+   "date": "2026-09-14",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "OPM 'loyalty' essay question on federal job applications",
+   "effect": "procedural",
+   "significance": 1,
+   "significance_basis": "Stay on a small-stakes item; matters as a compliance test rather than as a power shift.",
+   "source_primary": "Judge George O'Toole (D. Mass.) stay order",
+   "source_confirm": "Federal News Network 2026-09-14; /space/mget_ledger/2026-09-16-loyalty-question-injunction.json",
+   "dedupe_key": "court|2026-09-14|loyalty-essay-question"
+  },
+  {
+   "date": "2026-09-14",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "Emergency application to enforce new mail-ballot rule",
+   "effect": "procedural",
+   "significance": 2,
+   "significance_basis": "Supreme Court denial: the emergency docket, usually the executive's fastest route, returned nothing.",
+   "source_primary": "Supreme Court order denying emergency application, 2026-09-14",
+   "source_confirm": "/space/repression_event/b0ecmrpaib8v.json",
+   "dedupe_key": "court|2026-09-14|scotus-mail-ballot-emergency"
+  },
+  {
+   "date": "2026-09-17",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "Kennedy Center closure and demolition without notice",
+   "effect": "procedural",
+   "significance": 1,
+   "significance_basis": "Notice and reporting order only; slows execution, does not restore the prior board.",
+   "source_primary": "Judge Christopher Cooper order, 2026-09-17",
+   "source_confirm": "/space/mget_ledger/2026-09-17-kennedy-center-court-friction.json",
+   "dedupe_key": "court|2026-09-17|kennedy-center"
+  },
+  {
+   "date": "2026-09-28",
+   "institution": "certification_body",
+   "event_type": "credentialed_official_resigns_protest",
+   "direction": "withdraw",
+   "target": "FBI co-deputy director post",
+   "effect": "operational",
+   "significance": 1,
+   "significance_basis": "Public reason given as family; protest reading is inference from reporting on the demotion of two counterterrorism agents, so scored at the floor.",
+   "source_primary": "Resignation announcement, 2026-09-28",
+   "source_confirm": "Reuters, NYT, NBC, MS NOW (four-source); /space/mget_ledger/2026-09-28-bailey-resigns-fbi-codeputy.json",
+   "dedupe_key": "fbi|2026-09-28|bailey",
+   "notes": "Name withheld from the significance score: refused to read a family-reasons exit as protest at face value."
+  },
+  {
+   "date": "2026-10-13",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "White House press ban on CNN, MS NOW and Politico",
+   "effect": "operational",
+   "significance": 2,
+   "significance_basis": "Operational: restores credentialed access for named outlets, not merely a declaration.",
+   "source_primary": "District court ruling, 2026-10-13 (late Tuesday)",
+   "source_confirm": "NPR 2026-10-14 'CNN, MS NOW and Politico prevail against White House - for now'",
+   "dedupe_key": "court|2026-10-13|press-ban"
+  },
+  {
+   "date": "2026-10-27",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "Rule cutting refugee time to contest termination of status",
+   "effect": "procedural",
+   "significance": 1,
+   "significance_basis": "Temporary block; narrow population affected.",
+   "source_primary": "Judge Julia Kobick (D. Mass.) order",
+   "source_confirm": "Reuters 2026-10-27; US News 2026-10-27",
+   "dedupe_key": "court|2026-10-27|refugee-contest-window"
+  },
+  {
+   "date": "2026-10-30",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "Medicaid rule forcing beneficiaries to prove impairment",
+   "effect": "operational",
+   "significance": 2,
+   "significance_basis": "25 states plus DC as plaintiffs; blocks a rule with population-scale operational effect.",
+   "source_primary": "District court order, 2026-10-30",
+   "source_confirm": "Al Jazeera 2026-10-30 'US judge blocks Trump's Medicaid rule'",
+   "dedupe_key": "court|2026-10-30|medicaid-impairment"
+  },
+  {
+   "date": "2026-11-02",
+   "institution": "court",
+   "event_type": "reversal_or_grant",
+   "direction": "grant",
+   "target": "Executive authority to threaten prosecution of noncompliant election officials",
+   "effect": "operational",
+   "significance": 2,
+   "significance_basis": "Ninth Circuit panel cleared the government on a parallel question the same week. Logged as GRANT because it confers standing on the executive.",
+   "source_primary": "Ninth Circuit panel order",
+   "source_confirm": "Detroit News 2026-11-03 (same report)",
+   "dedupe_key": "court|2026-11-02|ninth-circuit-prosecution-threat"
+  },
+  {
+   "date": "2026-11-02",
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "direction": "withdraw",
+   "target": "Federal pressure on states over alleged noncitizen voting",
+   "effect": "operational",
+   "significance": 2,
+   "significance_basis": "Blocks a channel used to pressure election officials; operational rather than symbolic.",
+   "source_primary": "District court order, 2026-11-02",
+   "source_confirm": "Detroit News 2026-11-03 'Judge blocks Trump administration from pressuring states over noncitizen voting'",
+   "dedupe_key": "court|2026-11-02|state-election-pressure"
+  },
+  {
+   "date": "2026-11-05",
+   "institution": "credentialing_body",
+   "event_type": "credentialed_official_resigns_protest",
+   "direction": "withdraw",
+   "target": "Assistant AG, Civil Rights Division",
+   "effect": "operational",
+   "significance": 2,
+   "significance_basis": "First senior exit after the midterms; removes the division's head at a moment of enforcement build-out.",
+   "source_primary": "AG Blanche announcement on X, 2026-11-05",
+   "source_confirm": "CBS News; CNN; ABC News, 2026-11-05",
+   "dedupe_key": "doj|2026-11-05|dhillon"
+  },
+  {
+   "date": "2026-11-06",
+   "institution": "credentialing_body",
+   "event_type": "credentialed_official_resigns_protest",
+   "direction": "withdraw",
+   "target": "Senior DOJ official / NSC legal post",
+   "effect": "procedural",
+   "significance": 1,
+   "significance_basis": "Second of two Friday exits; country-effect unclear, so lower than the US Attorney exit.",
+   "source_primary": "AG Blanche announcement on X, 2026-11-06",
+   "source_confirm": "Guardian 2026-11-06 'Two more DoJ officials resign'",
+   "dedupe_key": "doj|2026-11-06|eisenberg"
+  },
+  {
+   "date": "2026-11-06",
+   "institution": "credentialing_body",
+   "event_type": "credentialed_official_resigns_protest",
+   "direction": "withdraw",
+   "target": "US Attorney, Southern District of Florida ('grand conspiracy' probe)",
+   "effect": "operational",
+   "significance": 2,
+   "significance_basis": "Resigned under leadership pressure while willing to pursue the probes; the probe itself loses its office head.",
+   "source_primary": "AG Blanche announcement on X, 2026-11-06",
+   "source_confirm": "AP; CNN; ABC; The Hill; Guardian, 2026-11-06",
+   "dedupe_key": "doj|2026-11-06|reding-quinones"
+  }
+ ],
+ "note": "Pre-September months are no-coverage intervals, not zeros. Court bar and resignation bar must be read separately."
+}

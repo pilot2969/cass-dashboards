@@ -227,12 +227,12 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <div class="note">A count of legs in the <b>fired</b> state. Never a count of load — a leg can read 80 and still be absent, and that distinction is the whole model.</div>
   </div>
   <div class="panel">
-    <h3>Accumulation flow <span class="tag t-flow">FLOW</span></h3>
+    <h3>Enforcement flow <span class="tag t-flow">FLOW</span></h3>
     <div class="big" id="flowBig">–</div>
-    <div class="kv"><span>Weighted total</span><b id="flowW">–</b></div>
-    <div class="kv"><span>Channels with a case</span><b id="flowC">–</b></div>
+    <div class="kv"><span>Recorded events, latest month</span><b id="flowW">–</b></div>
+    <div class="kv"><span>Controlled rate, latest month</span><b id="flowC">–</b></div>
     <div class="kv"><span>Window</span><b id="flowWin">–</b></div>
-    <div class="note"><b>New panel.</b> Administrative acts admitted per week, weighted 3 for statutory or contractual, 2 for institutional arrangement, 1 for episodic enforcement. It cannot be a bet, because it has no deadline — which is why it carries its own kill condition: fewer than 2 cases per 90 days.</div>
+    <div class="note" id="flowHeadline"><b>Generated, not hand-set.</b> Recorded state enforcement events per month from <code>/space/repression_event</code>, with the machine's own recording rate as the control. Detail and disclosers at 2.4.</div>
   </div>
   <div class="panel">
     <h3>Institutional stock <span class="tag t-stock">STOCK</span></h3>
@@ -258,6 +258,29 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
  <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="num">Δ</th><th class="barcell">Load</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
  <div class="note" id="dialNote"></div>
 </div>
+
+<div class="subhead">2.4 Flow · what the legs record, month by month</div>
+<div class="note" style="margin-top:0;color:#c3d2e6">Section 2.1–2.3 prints <b>stocks</b> — where the institutions stand. These are the two <b>flows</b> the legs were supposed to supply and did not: E carried a score with no series behind it, G had no series at all. Every number below is counted from <code>/space</code> when the panel is generated; nothing is typed in. Where a series does not exist, the panel prints a blind spot rather than a chart.</div>
+<div class="grid2" style="margin-top:12px">
+  <div class="panel">
+    <h3>E · Enforcement-capacity flow <span class="tag t-flow">FLOW</span></h3>
+    <div class="note" style="margin-top:0" id="flowESub">Reading: recorded state enforcement events per month.</div>
+    <table><thead><tr><th>Month</th><th class="num">Events</th><th class="num">Per 100 journal</th><th class="barcell">Controlled</th></tr></thead><tbody id="flowSeriesBody"></tbody></table>
+    <div class="note" id="flowEHead"></div>
+  </div>
+  <div class="panel">
+    <h3>E · Event composition <span class="tag t-flow">FLOW</span></h3>
+    <div class="note" style="margin-top:0" id="flowCSub">Share of unique events by type.</div>
+    <table><thead><tr><th>Type</th><th class="num">n</th><th class="barcell">Share</th><th class="num">%</th></tr></thead><tbody id="flowCompBody"></tbody></table>
+    <div class="note" id="flowCHead"></div>
+  </div>
+</div>
+<div class="panel" style="margin-top:10px">
+  <h3>G · Legitimation flow <span class="tag t-blind">BLIND SPOT</span></h3>
+  <div class="note" style="margin-top:0" id="flowGHead"></div>
+  <div class="note" id="flowGRepair"></div>
+</div>
+<div class="note" id="flowDisc" style="margin-top:10px"></div>
 
 <h2>3 · Absorption velocity — the other thing the instrument could not see</h2>
 <div class="note" style="margin-top:0">Section 2 measures <b>stocks</b>: holdings, hand-set once a month. This measures a <b>flow</b>: how fast dehumanizing frames move through the feed, counted continuously. The two answer different questions. A stock says how captured an institution is today; a flow says whether the audience that would have to accept force is being prepared faster than it was last week. The second is the leading indicator, and it never belonged in the dial table — you cannot defend "dehumanization is 71" from public observables, but you can defend "33 specimens this week, 45 coded right-flank, 25 reciprocal."</div>
@@ -573,6 +596,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <h2>8 · Change log</h2>
 <div class="panel">
  <div id="changelog">
+ <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.15-preview</b></span></div><div class="z15"><b>The flow panel is generated, not typed.</b> The accumulation-flow card in 2.1 printed four hardcoded figures — 21 cases, 21 channels, a weighted total — that nothing in <code>/space</code> produced, and section 3's specimens-per-week was the board's only real flow. The card now reads the E leg from a generated payload (<code>flow_panel.json</code>, built from <code>/space</code> on 11-07): <b>recorded state enforcement events per month</b>, with the desk's own recording rate — journal entries per month — as the control, because raw enforcement counts fall when the desk is quiet, not when the state is. A second panel splits unique events by type. The G leg gets the opposite treatment: <b>printed as a blind spot, not a chart</b>. There is no legitimation series in <code>/space</code> at all, so the panel names what a series would require instead of drawing a line through nothing. The hardcoded FLOW table is gone; every figure on the card is counted at generation. Standing lesson: Q1's denominator was endogenous, Q2 had none. Flow builds name the denominator before the numerator, and say so when it is not independent.</div></div>
  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.14-preview</b></span></div><div class="z15"><b>The belief ledger becomes section 0 — the first major change since v1.</b> The board now opens on what it used to claim and what happened to each claim: seven v1 statements, the test that moved each one, and the verdict. One is <b>downgraded</b> (the turning calendar, which failed its first out-of-sample test), one <b>withdrawn</b> (continental windows, exposed as a span artefact), one <b>refuted</b> (window independence, tautological inside English history), two <b>rebuilt</b> (legs 1–2 and leg 4, which existed as hand-set anchors and as prose respectively). Nothing was deleted — the record of being wrong is the product. Backing objects live in <code>/space/belief_ledger</code>, one per row, and the rule is <a href="../../../../space/protocol/belief-ledger.json" style="color:var(--blue)">/space/protocol/belief-ledger.json</a>. Five open commitments now carry a falsifier and a scoring date, because an experiment running in public needs a stop condition or it becomes permanent framing.</div>
 <div class="z15"><b>Snapshotting begins.</b> Every build that changes a reading or a claim is frozen to the internal archive before it ships, when the change is structural — so "the board said X last week" is checkable by opening it, not by trusting a log line. Two snapshots exist: v4.13 before this section, v4.14 with it. Snapshots are immutable and stay internal; corrections go in the next one.</div></div>
 
@@ -591,13 +615,12 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
  </div>
- <div class="note" style="margin-top:14px"><span class="ftver">v4.9-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.15-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
 <div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
 </div>
 <script>
-const FLOW={cases:21,weighted:42,channels:13,of:13,weeks:25,windowNote:"2026-05-07 to 2026-11-05",kill:"fewer than 2 cases per 90 days"};
 const ANCHORS={
  M:{name:"Material",anchors:[["Energy chokepoint","Hormuz constrained, not closed. Tanker war-risk premia elevated but transit continuing",3],["Cost reaching household budgets","Cost is the binding constraint before any physical shortage shows in a statistic",4],["Fiscal and reserve buffer","SPR drawdown continues. Strain in the buffer, not yet in the market",3],["Food and fertiliser throughput","Fertiliser supply stress has not become a food shortage",3]]},
  G:{name:"Governance",anchors:[["Federal courts","81 on the dial. Still enjoining, docket now aimed at election administration itself",4],["Congress","72. Majority passive through the strike clock",4],["Election administration","Certification contested in multiple states; officials under subpoena",4],["Civil service and military","Compliance intact at the top, friction at the edges",3]]},
@@ -662,7 +685,7 @@ const DICT=[
  ["Blind spot","A reading the dial set knows it cannot produce, named on the panel rather than papered over. Currently: rank-and-file military compliance.","named, not scored"],
  ["Genre","What the wire was carrying — oil, courts, media. A property of the feed, not a claim about the item.","derived from the track string"],
  ["Label","The two derived labels on a ledger row: <b>genre</b> from the track string, <b>NAME chip</b> from proper names in the entry text, capped at two. Anything not derivable is not printed. The scraped track string stays in the tooltip only.","derived from the entry"],
- ["Flow reading","A rate of movement counted on a fixed cadence, with no hand-set value. Absorption velocity is the board's only flow reading: specimens per week, recounted every week whether or not anyone has an opinion. A flow reading moves without anyone deciding anything, which is why it is the earlier warning and why a quiet week still shows up on it.","weekly count of /space/absorption"],
+ ["Flow reading","A rate of movement counted on a fixed cadence, with no hand-set value. Absorption velocity was the board's only flow reading until 11-07: specimens per week, and since the flow panel landed, enforcement events per month with a journal-volume control, recounted every week whether or not anyone has an opinion. A flow reading moves without anyone deciding anything, which is why it is the earlier warning and why a quiet week still shows up on it.","weekly count of /space/absorption"],
  ["Instrument","A reading that prints its own limits on the panel: what it counts, which collection supplies the count, the sample bias, the falsifier that would retire it, and what it cannot touch. A number without those five is a claim wearing a number's clothes.","protocol, /space/protocol/instrument-construction"],
  ["Scoreable / unscoreable","Scoreable means the card can be right or wrong: it has a deadline and a stated ending. Unscoreable means it cannot be contradicted by anything, so it is kept as a frame and excluded from every rate on this page.","card class, /space/prediction"],
  ["Hit / miss","The only two endings a scoreable card has. A hit is the claim happening inside its window as written; a miss is it not happening by the close, or the opposite being documented. There is no third value and no partial credit.","card field, scoring pass"],
@@ -696,6 +719,43 @@ function gauge(name,score,delta){
     '<text x="'+cx+'" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#e6ecf5">'+score+'</text></svg>'+
     '<div class="nm">'+esc(name)+'</div><div class="bd" style="color:'+bandCol(score)+'">'+(delta>0?"+"+delta:(delta||0))+'</div></div>';
 }
+let FLOWPANEL=null;
+function renderFlow(fl){
+  const $=id=>document.getElementById(id);
+  const panels=(fl&&fl.panels)||[];
+  const e=panels.find(x=>x.id==="e-leg-flow"), c=panels.find(x=>x.id==="e-leg-composition"), g=panels.find(x=>x.id==="g-leg-flow");
+  if(!e){ if($("flowBig")) $("flowBig").textContent="–"; return; }
+  const ser=e.series||[], last=ser[ser.length-1]||{};
+  const win=ser.length?(ser[0].month+" – "+last.month):"–";
+  $("flowBig").textContent=(last.per_100_journal!=null?last.per_100_journal:"–");
+  $("flowW").textContent=(last.raw!=null?last.raw+" events ("+(last.month||"")+")":"–");
+  $("flowC").textContent=(last.per_100_journal!=null?last.per_100_journal+" per 100 journal":(last.month?last.month+" · no control":"–"));
+  $("flowWin").textContent=win;
+  if(e.headline && $("flowHeadline")) $("flowHeadline").innerHTML="<b>Generated from /space.</b> "+esc(e.headline)+" Disclosers and the control below, at 2.4.";
+  if($("flowESub") && e.reading) $("flowESub").textContent="Reading: "+e.reading+".";
+  const mx=Math.max.apply(null,ser.map(r=>r.per_100_journal||0).concat([1]));
+  if($("flowSeriesBody")) $("flowSeriesBody").innerHTML=ser.map(r=>
+    '<tr><td>'+esc(r.month)+'</td><td class="num">'+r.raw+'</td><td class="num">'+(r.per_100_journal!=null?r.per_100_journal:'–')+
+    '</td><td class="barcell"><div class="bar '+(r.per_100_journal>=mx*0.7?'hot':r.per_100_journal>=mx*0.4?'warm':'')+'" style="width:'+
+    Math.round((r.per_100_journal||0)/mx*100)+'%"></div></td></tr>').join("");
+  if($("flowEHead")) $("flowEHead").innerHTML="<b>"+esc(e.headline||"")+"</b>";
+  if(c){
+    if($("flowCSub") && c.reading) $("flowCSub").textContent="Reading: "+c.reading+".";
+    const rows=c.series||[], tot=rows.reduce((a,b)=>a+(b.n||0),0)||1;
+    const cm=Math.max.apply(null,rows.map(r=>r.n||0).concat([1]));
+    if($("flowCompBody")) $("flowCompBody").innerHTML=rows.map(r=>
+      '<tr><td>'+esc(r.type)+'</td><td class="num">'+r.n+'</td><td class="barcell"><div class="bar" style="width:'+
+      Math.round((r.n||0)/cm*100)+'%"></div></td><td class="num">'+Math.round((r.n||0)/tot*100)+'%</td></tr>').join("");
+    if($("flowCHead")) $("flowCHead").innerHTML="<b>"+esc(c.headline||"")+"</b>";
+  }
+  const dic=(fl&&fl.note)||"";
+  if(g){
+    if($("flowGHead")) $("flowGHead").innerHTML="<b>No series is printed, because none exists.</b> "+esc(g.headline||"");
+    if($("flowGRepair")) $("flowGRepair").innerHTML="<b>What would repair it:</b> "+esc(g.repair||"–");
+  }
+  const disc=(fl&&fl.panels||[]).flatMap(x=>(x.disclosers||[]).map(d=>"<b>"+x.leg+"</b> — "+esc(d)));
+  if($("flowDisc")) $("flowDisc").innerHTML="<b>Disclosers, carried from the generator.</b> "+(disc.join(" "))+(dic?" <i>"+esc(dic)+"</i>":"");
+}
 function render(data){
   const m=data.mget||{}, th=m.threshold||{}, legs=m.legs||[];
   const gen=(data.meta&&data.meta.generated)||data.generated||"unknown";
@@ -703,9 +763,7 @@ function render(data){
   $("gstamp").textContent=gen;
   $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
   $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
-  $("flowBig").textContent=FLOW.cases+" / "+FLOW.channels;
-  $("flowW").textContent=FLOW.weighted; $("flowC").textContent=FLOW.channels+" of "+FLOW.of;
-  $("flowWin").textContent=FLOW.weeks+" weeks";
+  renderFlow(FLOWPANEL||{});
 
   const inst=(data.institutions&&data.institutions.institutions)||[];
   const allD=inst.concat(ADMITTED.map(x=>({name:x[0],score:x[1],band:x[2],delta:0,added:true})));
@@ -747,7 +805,7 @@ function render(data){
     const cards=set.length;
     const eligible=set.filter(x=>x.skill_eligible!==false);
     const res=eligible.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
-    const shown=(g.k==="B")?FLOW.cases:cards;
+    const shown=cards;
     const rate=eligible.length?Math.round(res/eligible.length*100):0;
     counts[g.k]=shown;
     const inel=cards-eligible.length;
@@ -943,7 +1001,8 @@ function openLedger(e){
   drawDrill("Ledger — "+(e.date||"undated"), esc((e.verdict||"")+" · "+genre(e.track)), html);
 }
 
-fetch("data.json",{cache:"no-store"}).then(r=>r.json()).then(render).catch(e=>{
+fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})
+ .then(()=>fetch("data.json",{cache:"no-store"})).then(r=>r.json()).then(render).catch(e=>{
   const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
   $("stamp").textContent="Static shell only.";
 });

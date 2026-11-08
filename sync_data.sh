@@ -446,6 +446,10 @@ if inst.get("institutions"):
 # to the hour without digging through git log.
 from zoneinfo import ZoneInfo
 _et=_dt.datetime.now(ZoneInfo("America/New_York"))
+# 2026-11-07: "generated" (the data-layer date, distinct from generated_stamped)
+# was inherited from whatever data.json sat in the tree — it drifted to 2026-11-05 and
+# tripped data.generated (data.json stamped 3d behind today). It is derived here, always.
+data["meta"]["generated"]=_et.date().isoformat()
 data["meta"]["generated_stamped"]=_et.strftime("%Y-%m-%dT%H:%M ET")
 json.dump(data, open("data.json","w"), indent=1)
 print(f"regenerated: {len(movers)} movers, history through {today}, stamped {_et.strftime('%Y-%m-%dT%H:%M ET')}")

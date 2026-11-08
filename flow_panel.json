@@ -1,0 +1,110 @@
+{
+ "generated": "2026-11-07",
+ "generator": "/space/note/2026-11-07-e-leg-enforcement-flow.json",
+ "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
+ "panels": [
+  {
+   "id": "e-leg-flow",
+   "leg": "E",
+   "label": "Enforcement-capacity flow",
+   "reading": "recorded state enforcement events per month",
+   "series": [
+    {
+     "month": "2026-05",
+     "raw": 1,
+     "per_100_journal": 8
+    },
+    {
+     "month": "2026-06",
+     "raw": 2,
+     "per_100_journal": 10
+    },
+    {
+     "month": "2026-07",
+     "raw": 7,
+     "per_100_journal": 39
+    },
+    {
+     "month": "2026-08",
+     "raw": 1,
+     "per_100_journal": 7
+    },
+    {
+     "month": "2026-09",
+     "raw": 9,
+     "per_100_journal": 5
+    },
+    {
+     "month": "2026-10",
+     "raw": 6,
+     "per_100_journal": 3
+    }
+   ],
+   "control": {
+    "label": "machine recording rate",
+    "journal_per_month": {
+     "2026-05": 12,
+     "2026-06": 21,
+     "2026-07": 18,
+     "2026-08": 14,
+     "2026-09": 176,
+     "2026-10": 189
+    }
+   },
+   "headline": "Raw series rises in September; the controlled series falls after July. Only July outruns the recording rate.",
+   "disclosers": [
+    "Raw = unique dated events after dedupe (29 objects, 2 double-coded pairs, 1 undated excluded = 26 dated events).",
+    "The control denominator is ENDOGENOUS: journal volume is this machine's attention, which reacts to the events it records. Neither number is the true one; the pair is the reading.",
+    "Cannot measure capacity, only recorded events. Statutory authority created and never exercised produces no row.",
+    "Left edge is a backfill artifact, not a quiet spring.",
+    "This is a flow. It cannot move the E-leg stock score from 64."
+   ]
+  },
+  {
+   "id": "e-leg-composition",
+   "leg": "E",
+   "label": "Enforcement event composition",
+   "reading": "share of unique events by type, 2026-05 to 2026-10",
+   "series": [
+    {
+     "type": "policy_shift",
+     "n": 12
+    },
+    {
+     "type": "surveillance_expansion",
+     "n": 7
+    },
+    {
+     "type": "rhetoric_escalation",
+     "n": 4
+    },
+    {
+     "type": "agency_raid",
+     "n": 3
+    },
+    {
+     "type": "purge",
+     "n": 1
+    }
+   ],
+   "headline": "Kinetic episodic acts are 4 of 27. Capacity accumulates through instrument, not through visible coercion.",
+   "disclosers": [
+    "Robust to the recording-rate problem: a tenfold writing lift does not change which category a written event lands in.",
+    "Taxonomy is the collection's own; if it is wrong, this chart is wrong."
+   ]
+  },
+  {
+   "id": "g-leg-flow",
+   "leg": "G",
+   "label": "Legitimation flow",
+   "reading": null,
+   "blind_spot": true,
+   "headline": "Not countable from the present record. No dated population of institutional-refusal events exists in /space.",
+   "repair": "New dated collection with a closed event taxonomy, plus two independent external series (court rulings against the executive per month; federal-official resignations per month).",
+   "disclosers": [
+    "Absence is measured, not asserted: six candidate collections inspected and each fails for a stated reason. See /space/note/2026-11-07-g-leg-legitimation-flow-blind-spot.json.",
+    "A panel with no series must render as a blind spot. Rendering prose here would be the exact failure the instrument protocol forbids."
+   ]
+  }
+ ]
+}
