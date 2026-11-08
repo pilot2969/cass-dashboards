@@ -95,6 +95,23 @@ async function main(){
     catch(e){ fail('render.throws:'+f,e.message.slice(0,120)); continue; }
     const body=proseText(doc);
 
+
+    // Q5 hover terms (2026-11-07): every .term must resolve to a key in data.terms, and the
+    // definition must actually be injected. data.terms is generated from /space/term, so this
+    // is docs.dictionary pointed at the rendering — a tooltip cannot invent its own term.
+    {
+      const termEls=[...doc.querySelectorAll('.term')];
+      if(termEls.length){
+        const keys=Object.keys(dd.terms||{});
+        const orphan=[...new Set(termEls.map(e=>e.getAttribute('data-term')).filter(k=>!k||!keys.includes(k)))];
+        const noDef=termEls.filter(e=>e.getAttribute('data-term')&&keys.includes(e.getAttribute('data-term'))&&!e.getAttribute('data-def')).length;
+        orphan.length?fail('docs.hover_terms:'+f,`term(s) with no data.terms entry: ${orphan.join(', ')}`)
+          :pass('docs.hover_terms:'+f,`${termEls.length} term(s) resolve to ${keys.length} generated definitions`);
+        noDef?fail('docs.hover_terms_def:'+f,`${noDef} term element(s) carry no injected definition`)
+             :pass('docs.hover_terms_def:'+f,'every term carries its definition');
+      }
+    }
+
     // 1. internal class tokens must never reach prose
     const leaks=[...new Set((body.match(/\bz\d{1,2}\b/g)||[]))];
     leaks.length?fail('prose.no-class-tokens:'+f,`internal token(s) in public text: ${leaks.join(' ')}`)
@@ -252,19 +269,6 @@ async function main(){
       const undocumented=present.filter(k=>!documented.has(k));
       undocumented.length?fail('docs.dictionary',`field(s) on cards with no dictionary entry: ${undocumented.join(', ')}`)
                          :pass('docs.dictionary',`all ${present.length} card fields documented`);
-
-      // (c2) Q5 hover terms (2026-11-07): every .term on the page must resolve to a key in
-      //      data.terms, which is itself generated from /space/term. Same principle as
-      //      docs.dictionary, pointed at the rendering: a tooltip cannot invent a term.
-      const termEls=[...doc.querySelectorAll('.term')];
-      if(termEls.length){
-        const keys=Object.keys(data.terms||{});
-        const orphan=[...new Set(termEls.map(e=>e.getAttribute('data-term')).filter(k=>!k||!keys.includes(k)))];
-        const noDef=termEls.filter(e=>!/\bdata-def\b/.test(e.outerHTML)&&e.getAttribute('data-term')&&keys.includes(e.getAttribute('data-term'))).length;
-        orphan.length?fail('docs.hover_terms',`term(s) with no data.terms entry: ${orphan.join(', ')}`)
-          :pass('docs.hover_terms',`${termEls.length} term(s) resolve to ${keys.length} generated definitions`);
-        if(!orphan.length&&noDef) fail('docs.hover_terms_def',`${noDef} .term element(s) carry no injected definition`);
-      }
 
       // (c) the version in the footer must appear in the change log, and the newest
       //     log entry must be recent — otherwise the footer advertises a build the
