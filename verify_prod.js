@@ -253,6 +253,19 @@ async function main(){
       undocumented.length?fail('docs.dictionary',`field(s) on cards with no dictionary entry: ${undocumented.join(', ')}`)
                          :pass('docs.dictionary',`all ${present.length} card fields documented`);
 
+      // (c2) Q5 hover terms (2026-11-07): every .term on the page must resolve to a key in
+      //      data.terms, which is itself generated from /space/term. Same principle as
+      //      docs.dictionary, pointed at the rendering: a tooltip cannot invent a term.
+      const termEls=[...doc.querySelectorAll('.term')];
+      if(termEls.length){
+        const keys=Object.keys(data.terms||{});
+        const orphan=[...new Set(termEls.map(e=>e.getAttribute('data-term')).filter(k=>!k||!keys.includes(k)))];
+        const noDef=termEls.filter(e=>!/\bdata-def\b/.test(e.outerHTML)&&e.getAttribute('data-term')&&keys.includes(e.getAttribute('data-term'))).length;
+        orphan.length?fail('docs.hover_terms',`term(s) with no data.terms entry: ${orphan.join(', ')}`)
+          :pass('docs.hover_terms',`${termEls.length} term(s) resolve to ${keys.length} generated definitions`);
+        if(!orphan.length&&noDef) fail('docs.hover_terms_def',`${noDef} .term element(s) carry no injected definition`);
+      }
+
       // (c) the version in the footer must appear in the change log, and the newest
       //     log entry must be recent — otherwise the footer advertises a build the
       //     log has never heard of, which is how this drifted before.

@@ -38,6 +38,17 @@ a.more{color:var(--acc);margin-left:6px;font-size:11px;text-decoration:none;whit
 .tag{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;padding:4px 7px;border-radius:4px;
  border:1px solid currentColor;vertical-align:2px;margin-left:7px}
 .t-state{color:var(--vio)} .t-flow{color:var(--warm)} .t-stock{color:var(--acc)}
+/* Q5 hover terms 2026-11-07: definition comes from /space/term via data.json terms[],
+   never typed here. Tap/focus works on mobile; title is the no-CSS fallback. */
+.term{position:relative;display:inline-block;cursor:help;outline:none}
+.term::after{content:attr(data-def);position:absolute;left:0;top:calc(100% + 7px);z-index:40;
+ width:min(320px,74vw);background:#0d1726;color:#dfe8f4;border:1px solid #31435c;border-radius:7px;
+ padding:9px 11px;font:400 12px/1.45 ui-sans-serif;letter-spacing:0;text-transform:none;
+ box-shadow:0 10px 26px rgba(0,0,0,.5);opacity:0;visibility:hidden;transform:translateY(-3px);
+ transition:opacity .12s,transform .12s,visibility .12s;pointer-events:none;white-space:normal}
+.term:hover::after,.term:focus::after,.term:focus-within::after{opacity:1;visibility:visible;transform:none}
+.term:focus::after{border-color:var(--acc)}
+.term .u{display:block;margin-top:5px;color:#8fa6c0;font-size:11px;letter-spacing:.02em}
 .kv{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dotted #253147;font-size:13.5px}
 .kv:last-child{border:0}
 .kv b{font-variant-numeric:tabular-nums}
@@ -219,7 +230,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <div class="subhead">2.1 Macro · model state</div>
 <div class="grid3">
   <div class="panel">
-    <h3>Legs fired <span class="tag t-state">STATE</span></h3>
+    <h3>Legs fired <span class="tag t-state term" data-term="state">STATE</span></h3>
     <div class="big" id="legsBig">–</div>
     <div class="kv"><span>Gate</span><b id="gate">–</b></div>
     <div class="kv"><span>Phase</span><b id="phase">–</b></div>
@@ -227,7 +238,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <div class="note">A count of legs in the <b>fired</b> state. Never a count of load — a leg can read 80 and still be absent, and that distinction is the whole model.</div>
   </div>
   <div class="panel">
-    <h3>Enforcement flow <span class="tag t-flow">FLOW</span></h3>
+    <h3>Enforcement flow <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
     <div class="big" id="flowBig">–</div>
     <div class="kv"><span>Recorded events, latest month</span><b id="flowW">–</b></div>
     <div class="kv"><span>Controlled rate, latest month</span><b id="flowC">–</b></div>
@@ -235,7 +246,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <div class="note" id="flowHeadline"><b>Generated, not hand-set.</b> Recorded state enforcement events per month from <code>/space/repression_event</code>, with the machine's own recording rate as the control. Detail and disclosers at 2.4.</div>
   </div>
   <div class="panel">
-    <h3>Institutional stock <span class="tag t-stock">STOCK</span></h3>
+    <h3>Institutional stock <span class="tag t-stock term" data-term="stock">STOCK</span></h3>
     <div class="big" id="stockBig">–</div>
     <div class="note" style="margin:2px 0 8px"><span id="setlab" style="font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)">–</span></div>
     <div class="kv"><span>Dials at Critical</span><b id="stockCrit">–</b></div>
@@ -263,13 +274,13 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <div class="note" style="margin-top:0;color:#c3d2e6">Section 2.1–2.3 prints <b>stocks</b> — where the institutions stand. These are the two <b>flows</b> the legs were supposed to supply and did not: E carried a score with no series behind it, G had no series at all. Every number below is counted from <code>/space</code> when the panel is generated; nothing is typed in. Where a series does not exist, the panel prints a blind spot rather than a chart.</div>
 <div class="grid2" style="margin-top:12px">
   <div class="panel">
-    <h3>E · Enforcement-capacity flow <span class="tag t-flow">FLOW</span></h3>
+    <h3>E · Enforcement-capacity flow <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
     <div class="note" style="margin-top:0" id="flowESub">Reading: recorded state enforcement events per month.</div>
     <table><thead><tr><th>Month</th><th class="num">Events</th><th class="num">Per 100 journal</th><th class="barcell">Controlled</th></tr></thead><tbody id="flowSeriesBody"></tbody></table>
     <div class="note" id="flowEHead"></div>
   </div>
   <div class="panel">
-    <h3>E · Event composition <span class="tag t-flow">FLOW</span></h3>
+    <h3>E · Event composition <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
     <div class="note" style="margin-top:0" id="flowCSub">Share of unique events by type.</div>
     <table><thead><tr><th>Type</th><th class="num">n</th><th class="barcell">Share</th><th class="num">%</th></tr></thead><tbody id="flowCompBody"></tbody></table>
     <div class="note" id="flowCHead"></div>
@@ -596,7 +607,8 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <h2>8 · Change log</h2>
 <div class="panel">
  <div id="changelog">
- <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.15-preview</b></span></div><div class="z15"><b>The flow panel is generated, not typed.</b> The accumulation-flow card in 2.1 printed four hardcoded figures — 21 cases, 21 channels, a weighted total — that nothing in <code>/space</code> produced, and section 3's specimens-per-week was the board's only real flow. The card now reads the E leg from a generated payload (<code>flow_panel.json</code>, built from <code>/space</code> on 11-07): <b>recorded state enforcement events per month</b>, with the desk's own recording rate — journal entries per month — as the control, because raw enforcement counts fall when the desk is quiet, not when the state is. A second panel splits unique events by type. The G leg gets the opposite treatment: <b>printed as a blind spot, not a chart</b>. There is no legitimation series in <code>/space</code> at all, so the panel names what a series would require instead of drawing a line through nothing. The hardcoded FLOW table is gone; every figure on the card is counted at generation. Standing lesson: Q1's denominator was endogenous, Q2 had none. Flow builds name the denominator before the numerator, and say so when it is not independent.</div></div>
+ <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.16-preview</b></span></div><div class="z15"><b>The three tags now explain themselves.</b> FLOW, STOCK and STATE are the board's grammar and the page never said what they meant: FLOW is a count per unit of time, STOCK is a holding read at one moment and hand-set once a review, STATE is a yes/no gate that has no score. Every tag, every leg letter and every leg heading now carries its definition on hover — on a phone, on tap and focus — and the copy is <b>generated from <code>/space/term</code></b>, one object per term, into <code>data.json</code> <code>terms[]</code>. A tooltip cannot drift from its source, and the gate fails a page whose term resolves to no definition (<code>docs.hover_terms</code>). Changelog-style tags that merely borrowed a colour — <i>new, 2026-11-06</i>, <i>INSTRUMENT</i> — were deliberately left untooltiped rather than given a definition that would have been false.</div></div>
+ <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.16-preview</b></span></div><div class="z15"><b>The flow panel is generated, not typed.</b> The accumulation-flow card in 2.1 printed four hardcoded figures — 21 cases, 21 channels, a weighted total — that nothing in <code>/space</code> produced, and section 3's specimens-per-week was the board's only real flow. The card now reads the E leg from a generated payload (<code>flow_panel.json</code>, built from <code>/space</code> on 11-07): <b>recorded state enforcement events per month</b>, with the desk's own recording rate — journal entries per month — as the control, because raw enforcement counts fall when the desk is quiet, not when the state is. A second panel splits unique events by type. The G leg gets the opposite treatment: <b>printed as a blind spot, not a chart</b>. There is no legitimation series in <code>/space</code> at all, so the panel names what a series would require instead of drawing a line through nothing. The hardcoded FLOW table is gone; every figure on the card is counted at generation. Standing lesson: Q1's denominator was endogenous, Q2 had none. Flow builds name the denominator before the numerator, and say so when it is not independent.</div></div>
  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.14-preview</b></span></div><div class="z15"><b>The belief ledger becomes section 0 — the first major change since v1.</b> The board now opens on what it used to claim and what happened to each claim: seven v1 statements, the test that moved each one, and the verdict. One is <b>downgraded</b> (the turning calendar, which failed its first out-of-sample test), one <b>withdrawn</b> (continental windows, exposed as a span artefact), one <b>refuted</b> (window independence, tautological inside English history), two <b>rebuilt</b> (legs 1–2 and leg 4, which existed as hand-set anchors and as prose respectively). Nothing was deleted — the record of being wrong is the product. Backing objects live in <code>/space/belief_ledger</code>, one per row, and the rule is <a href="../../../../space/protocol/belief-ledger.json" style="color:var(--blue)">/space/protocol/belief-ledger.json</a>. Five open commitments now carry a falsifier and a scoring date, because an experiment running in public needs a stop condition or it becomes permanent framing.</div>
 <div class="z15"><b>Snapshotting begins.</b> Every build that changes a reading or a claim is frozen to the internal archive before it ships, when the change is structural — so "the board said X last week" is checkable by opening it, not by trusting a log line. Two snapshots exist: v4.13 before this section, v4.14 with it. Snapshots are immutable and stay internal; corrections go in the next one.</div></div>
 
@@ -615,7 +627,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
  </div>
- <div class="note" style="margin-top:14px"><span class="ftver">v4.15-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.16-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
 <div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
@@ -846,7 +858,7 @@ function render(data){
     const live=legs.find(l=>l.letter===k);
     const lv=live&&live.score!=null?live.score:null;
     const gap=lv==null?null:load-lv;
-    out+='<div class="panel"><h3>'+k+" — "+esc(a.name)+'<span class="tag t-stock">INSTRUMENT</span></h3>'+
+    out+='<div class="panel"><h3><span class="term" data-term="leg_'+k.toLowerCase()+'">'+k+'</span> — '+esc(a.name)+'<span class="tag t-stock">INSTRUMENT</span></h3>'+
       '<div class="kv"><span>Computed load</span><b>'+load+'</b></div>'+
       '<div class="kv"><span>Live board reads</span><b>'+(lv==null?"–":lv)+'</b></div>'+
       '<div class="kv"><span>Gap</span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
@@ -859,6 +871,18 @@ function render(data){
       '</div>';
   });
   $("legs-live").innerHTML=out;
+
+  // Q5: every .term resolves to a data.json terms[] key — same source the gate checks.
+  const TERMS=(D&&D.terms)||{};
+  document.querySelectorAll(".term").forEach(el=>{
+    const k=el.dataset.term||(el.textContent||"").trim().toLowerCase();
+    const t=TERMS[k]; if(!t) return;
+    el.dataset.def=t.copy+" ("+t.units+")";
+    el.setAttribute("title",t.copy+" ("+t.units+")");
+    el.setAttribute("tabindex","0");
+    el.setAttribute("role","button");
+    el.setAttribute("aria-label",(el.textContent||k)+": "+t.copy);
+  });
 
   const dr=data.daily_read||{}; const cards=dr.cards||[];
   const first=cards[0]||{};

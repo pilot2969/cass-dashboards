@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-07",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-07T23:12 ET"
+  "generated_stamped": "2026-11-07T23:15 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -14210,6 +14210,50 @@
    "flank": "direction the frame is produced and carried by (actor/source basis)",
    "coded": "right + left + mixed; structure specimens name no out-group",
    "sensitivity": "the legacy hand-set split counted only specimens whose own frame is aimed at an out-group; this generator counts every specimen a flank produced or carried, so structure specimens shrink and right rises. Neither number is wrong; they answer different questions. Target-based coding needs the dehumanization_frame flag repaired first (78 true / 141 false in corpus, inconsistent)."
+  }
+ },
+ "terms": {
+  "flow": {
+   "label": "FLOW",
+   "copy": "A count per unit of time: events recorded in a month, not a standing holding. Higher means more was recorded in the window \u2014 read it with the denominator beside it, because a machine that writes more records more.",
+   "units": "events per month, and events per 100 journal entries",
+   "source": "/space/note/2026-11-07-e-leg-enforcement-flow.json"
+  },
+  "leg_e": {
+   "label": "E",
+   "copy": "Enclosure. Polanyi's enclosure mutation: shared capacity converted into closed holdings. The signal is not that enclosure exists but that its form changes \u2014 a chokepoint becoming an instrument, a public function becoming a rent stream.",
+   "units": "0-100 load",
+   "source": "/space/note/2026-11-05-accumulation-dashboard-build.json"
+  },
+  "leg_g": {
+   "label": "G",
+   "copy": "Governance. Elite overproduction read as the state's capacity and legitimacy to act \u2014 the mean of the eight Institutional Stress dials, so the two panels cannot disagree. Higher means legitimacy is being spent faster than it is banked.",
+   "units": "0-100 load",
+   "source": "/space/note/2026-11-05-accumulation-dashboard-build.json"
+  },
+  "leg_m": {
+   "label": "M",
+   "copy": "Material. Tainter's complexity cap read through fiscal, energy and administrative strain. Low load is slack; above 75 means capacity is exhausted \u2014 rationing, default or open refusal.",
+   "units": "0-100 load",
+   "source": "/space/note/2026-11-05-accumulation-dashboard-build.json"
+  },
+  "leg_t": {
+   "label": "T",
+   "copy": "Turning. The discriminant. Its test is strict: a parallel apparatus holding executive loyalty without independent command, able to act on its own initiative. Absent that, no amount of alienation counts as a vanguard, which is why T can read heavy load with the test ABSENT.",
+   "units": "0-100 load plus ABSENT/PRESENT",
+   "source": "/space/note/2026-11-05-accumulation-dashboard-build.json"
+  },
+  "state": {
+   "label": "STATE",
+   "copy": "A yes/no gate, not a score: the condition either fired or it has not. STATE is drawn solid only when the trigger clause was met on the record.",
+   "units": "fired / not fired",
+   "source": "/space/note/2026-11-07-e-leg-enforcement-flow.json"
+  },
+  "stock": {
+   "label": "STOCK",
+   "copy": "A holding read at one moment, hand-set once a review. It moves when the review moves, not when the month moves, so it cannot show acceleration.",
+   "units": "0-100 load score",
+   "source": "/space/note/2026-11-05-accumulation-dashboard-build.json"
   }
  }
 }

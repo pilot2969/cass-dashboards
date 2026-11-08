@@ -449,6 +449,19 @@ _et=_dt.datetime.now(ZoneInfo("America/New_York"))
 # 2026-11-07: "generated" (the data-layer date, distinct from generated_stamped)
 # was inherited from whatever data.json sat in the tree — it drifted to 2026-11-05 and
 # tripped data.generated (data.json stamped 3d behind today). It is derived here, always.
+# 2026-11-07 Q5 HOVER TERMS: the tooltip copy is generated from /space/term, one object
+# per term, so a tooltip cannot drift from its source. No term copy is typed into the page.
+try:
+    _terms={}
+    for _f in glob.glob("/space/term/*.json"):
+        _t=json.load(open(_f))
+        if _t.get("status")=="retired": continue
+        _terms[os.path.basename(_f)[:-5]]={"label":_t["label"],"copy":_t["copy"],"units":_t["units"],"source":_t["source"]}
+    data["terms"]=_terms
+    print(f"terms: {len(_terms)} generated from /space/term")
+except Exception as e:
+    print("terms import warn:", e)
+
 data["meta"]["generated"]=_et.date().isoformat()
 data["meta"]["generated_stamped"]=_et.strftime("%Y-%m-%dT%H:%M ET")
 json.dump(data, open("data.json","w"), indent=1)
