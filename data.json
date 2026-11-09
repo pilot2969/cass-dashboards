@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-09",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-09T09:10 ET"
+  "generated_stamped": "2026-11-09T12:01 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5236,6 +5236,68 @@
    "last_moved": "2026-11-07",
    "basename": "2026-11-07-second-state-designation-florida-template",
    "confidence": 42
+  },
+  {
+   "title": "House passes the Massie privileged resolution on Hegseth on or before 2026-11-12",
+   "date_made": "2026-11-09",
+   "time_et": "12:05 ET",
+   "statement": "The House of Representatives passes the privileged resolution impeaching Pete Hegseth as Secretary of War on or before 2026-11-12 (the last scheduled vote day of the current week). Resolution: HIT if the resolution receives 218 or more yeas, or is adopted by any recorded vote before that date. MISS if it fails a recorded vote, is withdrawn, or is not brought to a vote by close of business 2026-11-12. Conviction in the Senate is NOT part of this card and is not scored here.",
+   "evidence_confirmed": [
+    "Multiple GOP sources told CNN (04 Nov) they expect the privileged resolution to pass the House next week; 214 Democrats seated plus 4 Republicans reaches 218",
+    "Massie has publicly named the intended exit ('Hegseth resigns'), which makes the vote a pressure device with a named target rather than open-ended removal",
+    "Eight articles were filed 2026-11-09; floor action expected no later than Wednesday",
+    "Republican senators have already conceded the substance (Vance: 'the reason we lost is the war'; Tillis on the confirmation), which lowers the cost of a House yea for members who want distance",
+    "Trump publicly defending Hegseth (09 Nov) cuts both ways: it removes the signal that a yea is disloyal to the principal while leaving the record untouched"
+   ],
+   "evidence_contradicted": [
+    "Privileged impeachment resolutions have a poor first-vote record in this Congress: Mayorkas failed on the first attempt (Feb 2024) before passing on a second vote days later",
+    "Republican leadership controls the floor calendar even on a privileged resolution (motion to table, motion to refer), and tabling carries no recorded cost for members who want the issue gone",
+    "Trump's public defence gives wavering members cover to vote no on deference grounds, which is the cheapest no available",
+    "A failed or tabled vote is a usable outcome for both the base (the elite protected him) and the leadership (the record was aired without a removal)"
+   ],
+   "falsifier": "Two or more named Republican members stating publicly before the vote that they will vote no, or a motion to table reported as likely by leadership-aligned outlets, moves the estimate down at least 15 points. A White House statement that the President will not oppose the vote moves it up 10.",
+   "forward_watchlist": [
+    "Whether a rule providing for consideration is reported by Wednesday (a tabled motion ends the card as MISS)",
+    "Whip counts attributed to named members rather than 'GOP sources'",
+    "Any resignation or 'performing the duties of' designation before the vote, which voids the card",
+    "Whether the Senate signals it will set the trial aside, which reduces the cost of a House yea"
+   ],
+   "status": "emergent",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-09",
+   "window_closes": "2026-11-12",
+   "expiry_date": "2026-11-12",
+   "expiry_basis": "Last scheduled vote day of the current House week; a resolution not brought by then is not pending, it is parked.",
+   "deadline_type": "constitutive",
+   "anchor_type": "reporting",
+   "anchor_source": "CNN (multiple GOP sources) 04 Nov; Massie public statements 2026-11-08/09; eight articles filed 09 Nov",
+   "anchor_grade": "B",
+   "window_basis": "Constitutive for the week's legislative calendar; the card is a floor-outcome question, not a removal question.",
+   "card_class": "EVENT",
+   "skill_eligible": true,
+   "grace_locked": false,
+   "grace_horizon": "0 days - resolution is a recorded vote count on a fixed calendar date",
+   "public_status": "pending_adjudication",
+   "instrument": "recorded yea count on a privileged resolution",
+   "base_rate_numeric": 18,
+   "base_rate_source": "First-attempt passage of a privileged impeachment resolution in the modern House is poor. Mayorkas failed 214-216 on 06 Feb 2024 and passed 214-213 on 13 Feb 2024 on a second attempt; the 2019 and 2021 Trump resolutions are not comparable (coalition control differs). A three-to-four day window with hostile majority leadership implies roughly one-in-five for first-attempt passage.",
+   "base_rate_tier": "weak",
+   "base_rate_frozen_date": "2026-11-09",
+   "confidence_rationale": "Rated at roughly double the base rate for three reasons absent from the Mayorkas precedent: (1) reporting says GOP sources expect passage, not merely that a resolution was filed; (2) 214 seated Democrats plus any four Republicans reaches the threshold, and several Republicans carry the same war-driven primary exposure the senators have conceded; (3) Massie named the exit, making a yea a vote for a specific outcome rather than a blank cheque. Against: leadership owns the calendar, tabling is cheap, and a public presidential defence supplies a deference no. 38 sits above base and is not smoothed toward 18.",
+   "verdict": null,
+   "correlation_flag": "Shares a latent driver with /space/prediction/2026-11-05-hegseth-out-before-120th-congress.json (incumbency at 2027-01-03). A HIT here raises exit probability there but does not settle it: the Senate cannot convict, so removal still requires resignation or dismissal.",
+   "revision_log": [
+    "Registered 2026-11-09 12:05 ET, before any floor action, before a whip count, and with no knowledge of the vote outcome. Anchor locked."
+   ],
+   "review_cadence": "daily through 2026-11-12",
+   "max_lifespan": "2026-11-12",
+   "tracking_state": "Registered 2026-11-09 12:05 ET. Not published. No prior score touched.",
+   "leg_primary": null,
+   "leg_secondary": [],
+   "last_moved": "2026-11-09",
+   "successor_card": "/space/decomposition/2026-11-09-hegseth-successor-class-pregistered.json",
+   "basename": "2026-11-09-hegseth-house-floor-vote",
+   "confidence": 38
   }
  ],
  "mget_ledger": [
@@ -12805,6 +12867,12 @@
  ],
  "movers": [
   {
+   "time": "2026-11-09",
+   "ref": "House passes the Massie privileged resolution on Hegseth on or before 2026-11-12",
+   "change": "confidence 38 \u2014 status emergent",
+   "trigger": "Trump publicly defending Hegseth (09 Nov) cuts both ways: it removes the signal that a yea is disloyal to the principal while leaving the record untouched"
+  },
+  {
    "time": "2026-11-07",
    "ref": "Count-frame dominance after the 72-hour miss: does the post-defeat route recalibrate to the count by 2026-12-07?",
    "change": "confidence 45 \u2014 status pending",
@@ -12857,12 +12925,6 @@
    "ref": "Michaluk holiday rupture window: hardline action concentrated Nov 26 - Dec 25",
    "change": "confidence 30 \u2014 status emergent",
    "trigger": "Same reader moved between Sept baseline and Nov post - delta is in him, not only in the inputs"
-  },
-  {
-   "time": "2026-11-06",
-   "ref": "Miller exercises a blocked-then-done act before the 120th Congress convenes",
-   "change": "confidence 70 \u2014 status emergent",
-   "trigger": "2026-11-06 intra-coalition objection registered and non-binding: Tillis 'colossal mistake', Stutzman 'horrible decision', unnamed GOP consultant 'Full Gestapo it is'. Objection exi"
   }
  ],
  "daily_read": {
@@ -12901,7 +12963,7 @@
  },
  "counts": {
   "items_today": 4,
-  "tracked_predictions": 97,
+  "tracked_predictions": 98,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
