@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-09",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-09T12:13 ET"
+  "generated_stamped": "2026-11-09T12:15 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -14590,7 +14590,8 @@
    "expired": 21,
    "retired": 4,
    "active_no_expiry": 0,
-   "active_past_expiry": 0
+   "active_past_expiry": 0,
+   "high_open": 54
   },
   "next": "2026-11-10",
   "next_days": 1,
