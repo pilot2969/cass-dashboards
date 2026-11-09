@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-09",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-09T12:48 ET"
+  "generated_stamped": "2026-11-09T15:26 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5291,13 +5291,68 @@
    ],
    "review_cadence": "daily through 2026-11-12",
    "max_lifespan": "2026-11-12",
-   "tracking_state": "Registered 2026-11-09 12:05 ET. Not published. No prior score touched.",
+   "tracking_state": "Registered 2026-11-09 12:05 ET. Not published. No prior score touched. | 2026-11-09 15:15 ET: a Pentagon press briefing is reported for Tuesday 10 Nov morning, the day before the vote. Not a floor action, no whip count, so the 38 stands unchanged. But the podium is a live MISS-by-withdrawal path: a resignation or acting designation announced there would close this card MISS under its own terms before the Wednesday vote. Source is an aggregator screenshot, uncorroborated by any Pentagon or pooled-release channel at time of filing.",
    "leg_primary": null,
    "leg_secondary": [],
    "last_moved": "2026-11-09",
    "successor_card": "/space/decomposition/2026-11-09-hegseth-successor-class-pregistered.json",
    "basename": "2026-11-09-hegseth-house-floor-vote",
    "confidence": 38
+  },
+  {
+   "title": "A fourth El-Sayed specimen is document-shaped: an institutional artefact is cited, not just asserted",
+   "date_made": "2026-11-09",
+   "time_et": "15:10 ET",
+   "statement": "Between 2026-11-09 and 2026-11-30, a fourth delegitimization specimen targeting Abdul El-Sayed will appear whose attack is carried by a cited institutional artefact - a document, a letter, a filing, a hearing record, a committee request, or a named-agency statement - as opposed to a rhetorical or purely visual form. HIT if such a specimen is captured and filed before 2026-11-30. MISS if the next specimen in the series is rhetorical or visual with no procedural shell, or if no further specimen appears.",
+   "evidence_confirmed": [
+    "Three specimens in 25 days, each one step further from rhetoric: 2026-10-15 loyalty othering (word), 2026-11-04 deSouza pairing (image), 2026-11-09 fabricated clearance denial (record)",
+    "The 11-09 item is the first quotable as a status fact ('he failed the check'), the property that makes the next step available",
+    "The clearance claim has a natural document sequel: a demand letter, a Rules Committee inquiry, or a conference resolution - free to produce, requiring no evidence",
+    "A candidate page already carried the fabricated version; candidate pages emit press releases as native output, and the artefact step is the cheapest thing such a page can do next"
+   ],
+   "evidence_contradicted": [
+    "Three points is a small sample and the sequence may be selection: the corpus may file the more vivid specimens, manufacturing a ladder",
+    "The correction held on the origin thread and in a fact-check, so the fabricated version may be the ceiling rather than a waypoint",
+    "Documentary escalation needs an institutional foothold; the highest-tier carrier so far is a candidate page and no sitting member has touched the claim",
+    "Demand letters and committee inquiries are routine noise produced anyway, which makes 'a document' a weak discriminator"
+   ],
+   "falsifier": "If the next El-Sayed specimen is rhetorical or visual with no procedural shell, the ladder describes three samples rather than a sequence and this card MISSes. If no further specimen appears by 2026-11-30, the sequence ended at three and the ladder reading is dead.",
+   "forward_watchlist": [
+    "Any sitting member of Congress or state party amplifying the clearance claim",
+    "Any Rules Committee, Senate Security or Sergeant at Arms communication naming El-Sayed",
+    "Any 'dossier' or 'opposition research' document circulating with a byline but no outlet",
+    "Whether the fabricated text reappears with a different name swapped in"
+   ],
+   "status": "emergent",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-09",
+   "window_closes": "2026-11-30",
+   "expiry_date": "2026-11-30",
+   "expiry_basis": "Three weeks covers a legislative news cycle including one recess return; a ladder step that has not appeared by then is not pending.",
+   "deadline_type": "constitutive",
+   "anchor_type": "specimen-series",
+   "anchor_source": "Three captured specimens 2026-10-15, 2026-11-04, 2026-11-09 in /space/absorption",
+   "anchor_grade": "C",
+   "window_basis": "Constitutive: the card asks whether a FURTHER specimen appears inside the window, so the window is the observation period itself.",
+   "card_class": "EVENT",
+   "skill_eligible": true,
+   "grace_locked": false,
+   "base_rate_numeric": 35,
+   "confidence_rationale": "42 against a 35 base. The base is the rate at which a viral fabricated claim about a freshman member acquires a document-shaped sequel inside three weeks - common, not the default; most die as a single item. Above base because the ladder shows three ascending steps and because a document is the cheapest output for the carrier type already engaged.",
+   "base_rate_source": "Judgment estimate from the shape of the specimen series; no coded comparison set exists for document-shaped escalation of a single target.",
+   "derivation_gap": "No coded prior for this card class. The 42 is a structured opinion anchored to the observed ladder, and should be read as such rather than as a calibrated frequency.",
+   "leg_primary": "G",
+   "leg_basis": "A document-shaped exclusion counts in the Leg G series only if an institution acts; this card registers the claim, not the act.",
+   "public_status": "internal",
+   "instrument": "delegitimization-track",
+   "confirmer": "",
+   "correlation_flag": "",
+   "last_moved": "2026-11-09",
+   "base_rate_frozen_date": "2026-11-09",
+   "verdict": "",
+   "trial_case": "no",
+   "basename": "2026-11-09-elsayed-ladder-document-step",
+   "confidence": 42
   }
  ],
  "mget_ledger": [
@@ -12868,6 +12923,12 @@
  "movers": [
   {
    "time": "2026-11-09",
+   "ref": "A fourth El-Sayed specimen is document-shaped: an institutional artefact is cited, not just asserted",
+   "change": "confidence 42 \u2014 status emergent",
+   "trigger": "A candidate page already carried the fabricated version; candidate pages emit press releases as native output, and the artefact step is the cheapest thing such a page can do next"
+  },
+  {
+   "time": "2026-11-09",
    "ref": "House passes the Massie privileged resolution on Hegseth on or before 2026-11-12",
    "change": "confidence 38 \u2014 status emergent",
    "trigger": "Trump publicly defending Hegseth (09 Nov) cuts both ways: it removes the signal that a yea is disloyal to the principal while leaving the record untouched"
@@ -12919,12 +12980,6 @@
    "ref": "Houthi expansion vector: Saudi Arabia (the vector we were not tracking)",
    "change": "confidence 70 \u2014 status emergent",
    "trigger": "U.S. Virtual Embassy Iran alert 2026-11-06 describes Houthi attacks on Saudi airports and energy infrastructure with casualties. The vector is already firing, not hypothetical."
-  },
-  {
-   "time": "2026-11-06",
-   "ref": "Michaluk holiday rupture window: hardline action concentrated Nov 26 - Dec 25",
-   "change": "confidence 30 \u2014 status emergent",
-   "trigger": "Same reader moved between Sept baseline and Nov post - delta is in him, not only in the inputs"
   }
  ],
  "daily_read": {
@@ -12963,7 +13018,7 @@
  },
  "counts": {
   "items_today": 4,
-  "tracked_predictions": 98,
+  "tracked_predictions": 99,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -13137,12 +13192,12 @@
    }
   ],
   "register_load": {
-   "total": 97,
+   "total": 98,
    "by_leg": {
     "T": 42,
     "E": 12,
     "N": 3,
-    "G": 29,
+    "G": 30,
     "M": 11
    }
   },
@@ -14585,13 +14640,13 @@
  "watch": {
   "generated": "2026-11-09",
   "counts": {
-   "active": 80,
+   "active": 81,
    "fired": 26,
    "expired": 21,
    "retired": 4,
    "active_no_expiry": 0,
    "active_past_expiry": 0,
-   "high_open": 54
+   "high_open": 55
   },
   "next": "2026-11-10",
   "next_days": 1,
@@ -14685,6 +14740,16 @@
     "status": "active",
     "check": "Neff declaration (2026-10-28, NAACP v. DOJ) puts BOP, ATF and DEA employees on the monitor roster, expressly unarmed and non-identifying, with locations unfinalized and no internal deadline. Check in this order: (1) a final monitor location list filed before Nov 3, and whether it includes certification flashpoint counties (Alaska, Maricopa, Fulton, Philadelphia, Detroit, Milwaukee); (2) any single documented sighting of a BOP/ATF/DEA monitor in identifying federal attire or visibly armed \u2014 one instance voids the declaration's safeguards and hands NAACP its record; (3) Arlington County's TRO motion; (4) any adjutant general confirming or denying Klippenstein's all-50-states Guard mobilization",
     "action": "On a documented uniformed/armed monitor: file immediately as a triggering event for c-002 and tell Samuel same-hour \u2014 it is the cleanest available evidence that the pre-legitimation apparatus has an enforcement arm rather than only a paperwork arm. On a confirmed Guard drop-box presence: open a separate c-002 sub-node; do not fold it into election-day-violence tracking, since the mechanism is certification, not violence. On nothing by Nov 3: record that the largest monitoring operation in DOJ history ran with no published location list, which is itself the finding."
+   },
+   {
+    "title": "Hegseth podium Tuesday morning \u2014 does the briefing pre-empt, cover, or deliver the exit?",
+    "added": "2026-11-09",
+    "expire": "2026-11-12",
+    "days_left": 3,
+    "priority": "high",
+    "status": "active",
+    "check": "Pentagon press briefing, Tuesday 2026-11-10 morning. Record verbatim: (1) whether Hegseth appears at all; (2) whether he is flanked by uniformed officers (count them); (3) whether he takes questions, and how many; (4) whether any question on the articles is answered with a substantive reply, a partisan-targeting frame, or a deferral ('not going to comment on politics'); (5) whether a successor, resignation, or acting arrangement is mentioned by anyone. Then check the Wednesday floor: was the resolution brought up. A resignation, acting designation, or removal announced at or around the briefing turns HEV-001 into a MISS by withdrawal under its own terms.",
+    "action": "If Hegseth appears and answers no substantive question on the articles, file as counter-programming and leave HEV-001 at 38. If anyone names a successor class at the podium, score /space/decomposition/2026-11-09-hegseth-successor-class-pregistered against the real observation and not against the press speculation. If a resignation or acting designation is announced, close HEV-001 MISS-by-withdrawal same hour and open the successor card."
    },
    {
     "title": "Irregularity claim disposition count \u2014 named counties with case numbers vs atmospheric claims",
