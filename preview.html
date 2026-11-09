@@ -1,0 +1,1062 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CASS v4.14 — Restructure Preview (STAGING)</title>
+<style>
+:root{
+--bg:#0e1420; --panel:#151d2b; --line:#2c3a52; --ink:#e6ecf5; --dim:#8fa1bb;
+--hot:#e2564d; --warm:#d99a3c; --ok:#4fae7c; --acc:#5b9bd5; --vio:#8a7fd0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",ui-sans-serif,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:28px 20px 80px}
+.mockbar{position:sticky;top:0;z-index:9;background:#0f2a33;border-bottom:1px solid #1f5468;color:#a9ddec;
+ font:600 12.5px/1.4 ui-sans-serif;padding:9px 20px;letter-spacing:.02em;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.mockbar b{color:#fff;letter-spacing:.08em}
+.mockbar span{font-weight:400;opacity:.9}
+.mockbar a{color:#a9ddec}
+h1{font-size:27px;line-height:1.2;margin:26px 0 6px;letter-spacing:-.01em}
+.sub{color:var(--dim);font-size:14px;margin-bottom:26px}
+h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);
+ margin:38px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line);font-weight:700}
+h3{font-size:14.5px;margin:0 0 8px;letter-spacing:.01em}
+.subhead{font:700 10.5px/1 ui-sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin:20px 0 9px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
+.grid3{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:10px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gaugegrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.ledgroup{margin-top:10px}
+.ledhead{font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:12px 0 6px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,.09)}
+.ledrow{padding:8px 10px;margin:4px 0}
+.ledrow h4{margin:0 0 3px}
+.namechip{display:inline-block;font:700 9px/1 ui-sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--acc);border:1px solid rgba(122,162,255,.45);border-radius:3px;padding:2px 5px;margin-left:6px}
+a.more{color:var(--acc);margin-left:6px;font-size:11px;text-decoration:none;white-space:nowrap}
+.v2tag{position:absolute;top:6px;right:8px;font:700 8.5px/1 ui-sans-serif;letter-spacing:.1em;color:var(--acc);border:1px solid var(--acc);border-radius:3px;padding:2px 4px;opacity:.85}
+.gauge{position:relative}
+@media(max-width:900px){.gaugegrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:820px){.grid3,.grid2{grid-template-columns:1fr}}
+.tag{display:inline-block;font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;padding:4px 7px;border-radius:4px;
+ border:1px solid currentColor;vertical-align:2px;margin-left:7px}
+.t-state{color:var(--vio)} .t-flow{color:var(--warm)} .t-stock{color:var(--acc)}
+/* Q5 hover terms 2026-11-07: definition comes from /space/term via data.json terms[],
+   never typed here. Tap/focus works on mobile; title is the no-CSS fallback. */
+.term{position:relative;display:inline-block;cursor:help;outline:none}
+.term::after{content:attr(data-def);position:absolute;left:0;top:calc(100% + 7px);z-index:40;
+ width:min(320px,74vw);background:#0d1726;color:#dfe8f4;border:1px solid #31435c;border-radius:7px;
+ padding:9px 11px;font:400 12px/1.45 ui-sans-serif;letter-spacing:0;text-transform:none;
+ box-shadow:0 10px 26px rgba(0,0,0,.5);opacity:0;visibility:hidden;transform:translateY(-3px);
+ transition:opacity .12s,transform .12s,visibility .12s;pointer-events:none;white-space:normal}
+.term:hover::after,.term:focus::after,.term:focus-within::after{opacity:1;visibility:visible;transform:none}
+.term:focus::after{border-color:var(--acc)}
+.term .u{display:block;margin-top:5px;color:#8fa6c0;font-size:11px;letter-spacing:.02em}
+.kv{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dotted #253147;font-size:13.5px}
+.kv:last-child{border:0}
+.kv b{font-variant-numeric:tabular-nums}
+.big{font:700 30px/1 ui-sans-serif;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.note{color:var(--dim);font-size:12.5px;line-height:1.5;margin-top:9px}
+.note b{color:#c3d2e6;font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;font:700 10px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);
+ padding:0 8px 7px 0;border-bottom:1px solid var(--line)}
+td{padding:6px 8px 6px 0;border-bottom:1px solid #1d2637;vertical-align:middle}
+tr:last-child td{border:0}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.barcell{width:30%}
+.bar{height:9px;border-radius:3px;background:var(--acc)}
+.bar.warm{background:var(--warm)}
+.bar.hot{background:var(--hot)}
+.rail{display:flex;height:22px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:10px 0 6px}
+.rail div{height:100%}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--dim);margin-top:6px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:0px}
+.hidden{display:none}
+.card{background:#141c29;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;padding:12px 14px;margin-bottom:10px}
+.card h4{margin:0 0 6px;font-size:14px;line-height:1.35}
+.card p{margin:0 0 7px;font-size:13px;color:#cfdaea}
+.card p:last-child{margin-bottom:0}
+.err{background:#2a1512;border:1px solid var(--hot);color:#f2c0bb;padding:10px 12px;border-radius:8px;font-size:13px}
+.small{font-size:12px;color:var(--dim)}
+details.dr{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:0}
+details.dr>summary{cursor:pointer;padding:14px 17px;list-style:none;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+details.dr>summary::-webkit-details-marker{display:none}
+details.dr>summary .lead{font-size:14.5px;font-weight:600;color:var(--ink);flex:1 1 320px}
+details.dr>summary .cue{font:700 10px/1 ui-sans-serif;letter-spacing:.12em;color:var(--acc)}
+details.dr[open]>summary{border-bottom:1px solid var(--line);margin-bottom:12px}
+details.dr>div{padding:0 17px 15px}
+.dredition{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;padding:0 0 10px;border-bottom:1px solid var(--line);margin-bottom:10px}
+.dredition .elab{font:700 10.5px/1 ui-sans-serif;letter-spacing:.14em;color:var(--mut);text-transform:uppercase}
+.dredition .ecount{font:600 11px/1 ui-sans-serif;letter-spacing:.1em;color:var(--acc);text-transform:uppercase}
+details.drcard{background:#141c29;border:1px solid var(--line);border-radius:8px;margin-bottom:7px;border-left:3px solid #2c3a4f}
+details.drcard[open]{border-left-color:var(--acc)}
+details.drcard>summary{cursor:pointer;list-style:none;padding:9px 12px;display:flex;gap:10px;align-items:baseline;font-size:13.5px;line-height:1.4;color:#cfdaea}
+details.drcard>summary::-webkit-details-marker{display:none}
+details.drcard>summary:hover{color:var(--ink)}
+details.drcard>summary .tstamp{font:700 11px/1 ui-monospace,monospace;color:var(--hot);letter-spacing:.02em;flex:0 0 auto}
+details.drcard>summary .ttl{flex:1 1 auto;font-weight:600;color:var(--ink)}
+details.drcard>summary .dcar{font-size:10px;color:var(--mut);flex:0 0 auto;transition:transform .15s}
+details.drcard[open]>summary .dcar{transform:rotate(90deg)}
+.drbody{padding:2px 12px 12px;border-top:1px solid var(--line);margin-top:2px}
+.drbody p{margin:8px 0 0;font-size:13px;color:#cfdaea}
+.drbody p.sources{margin-top:10px;font-size:11.5px;color:var(--mut)}
+.drarch{display:inline-block;margin-top:12px;padding:7px 14px;border:1px solid #2c3a4f;border-radius:7px;color:var(--acc);text-decoration:none;font:600 12px/1 ui-sans-serif}
+.drarch:hover{border-color:var(--acc);background:#16202e}
+.gauge{background:#101825;border:1px solid var(--line);border-radius:9px;padding:8px 6px 10px;text-align:center}
+.gauge .nm{font-size:11.5px;color:#c3d2e6;margin-top:2px;line-height:1.25}
+.gauge .bd{font:700 9px/1 ui-sans-serif;letter-spacing:.1em;margin-top:4px}
+.verdict{font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;padding:3px 6px;border-radius:4px;border:1px solid;white-space:nowrap}
+.v-add{color:var(--ok);border-color:var(--ok)} .v-hold{color:var(--warm);border-color:var(--warm)}
+.v-no{color:var(--dim);border-color:#3b4a63}
+.ftver{font:700 11px/1 ui-sans-serif;letter-spacing:.06em;color:var(--dim)}
+code{font:12px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;background:#1b2433;padding:1px 5px;border-radius:4px;color:#cfdaea}
+.wkchart{display:flex;align-items:flex-end;gap:10px;margin:10px 0 6px;padding:10px 6px 0;border-bottom:1px solid #243046}
+.wk{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:110px}
+.wkbar{width:100%;max-width:38px;background:linear-gradient(180deg,#e0452f,#8e2417);border-radius:3px 3px 0 0}
+.wkv{font:600 11px/1.4 ui-monospace,monospace;color:#e6edf7;margin-top:4px}
+.wkl{font:400 10px/1.4 ui-monospace,monospace;color:#7d8ea6;margin-bottom:2px}
+
+/* 3.2 / ledger drill-down: a row opens its own evidence. Same denominator as the
+   number printed beside it, keyed by /space basename, read from the data layer. */
+tr.drillable{cursor:pointer}
+tr.drillable:hover td{background:#18212f}
+tr.drillable td:first-child{position:relative}
+tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:700;margin-right:6px}
+.ledrow{cursor:pointer}
+.ledrow:hover{border-color:#3b5170}
+.drill{position:fixed;top:0;right:0;bottom:0;width:min(560px,94vw);background:#101724;border-left:1px solid var(--line);
+ box-shadow:-18px 0 44px rgba(0,0,0,.5);z-index:40;display:flex;flex-direction:column}
+.drill.hidden{display:none}
+.drill header{display:flex;gap:10px;align-items:baseline;padding:14px 16px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.drill header b{font-size:14px}
+.drill header .x{margin-left:auto;cursor:pointer;color:var(--dim);font:700 15px/1 ui-sans-serif;border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+.drill header .x:hover{color:var(--ink);border-color:#3b5170}
+.drill .body{overflow:auto;padding:12px 16px 30px}
+.drill .body p{font-size:13px;color:#cfdaea;margin:0 0 9px}
+.drill .body h5{font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:14px 0 6px}
+.drill .item{border-bottom:1px solid #1d2637;padding:7px 0}
+.drill .item .k{font:600 12px/1.5 ui-monospace,monospace;color:#cfdaea}
+.drill .item .m{font-size:11.5px;color:var(--dim)}
+</style></head>
+<body>
+<div class="mockbar"><b>STAGING PREVIEW</b><span>v5 — revisions applied — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
+<div class="wrap">
+
+<h1>CASS — restructured board, live preview</h1>
+<div class="sub" id="stamp">Loading the data layer…</div>
+<div id="fail" class="err hidden"></div>
+
+<h2>About this page</h2>
+<div class="panel">
+ This is the proposed layout running on real data. The order is now the order a reader should think in: <b>what happened today</b>, then <b>the model as a whole</b>, then <b>each leg</b>, then <b>the institutions underneath</b>. Daily Read is collapsible and the model now follows it directly. The audience fork card is gone. Provenance, which used to be its own card, is now a column in the data dictionary, where it answers a question at the moment you ask it.
+ <div class="note">Nothing was deleted from the record: the thesis pile is still counted, the wire ledger is still here, and the forecast register still scores in public. What was deleted is one card that explained the page to itself.</div>
+ <div class="note"><b>Read section 0 first if this is your first visit.</b> It records what version 1 of this board claimed, what has since been tested, and what changed as a result — including the claim that failed this week. <a href="#0" style="color:var(--blue)">The belief ledger</a></div>
+</div>
+
+<h2 id="0">0 · What we learned from the old model — the belief ledger</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Version 1 of this board was built on a thesis and presented its readings as measurements. Running it in public has since killed one of the thesis's load-bearing claims and demoted another. That is the point of the exercise, so it gets a section of its own rather than a line in the changelog: <b>what we believed, what we tested, what came back, and what we now say instead.</b> Every row that says <b>withdrawn</b> or <b>downgraded</b> is dated, and the test that produced it is linked. A reader who wants to know why the board looks like this should start here, not at the readings.</div>
+ <table style="margin-top:14px"><thead><tr><th style="width:23%">What v1 claimed</th><th style="width:22%">How we tested it</th><th style="width:26%">What came back</th><th style="width:29%">What the board now says</th></tr></thead><tbody><tr>
+<td><b>Turning windows (≈80 years) tell you when the next rupture lands.</b></td>
+<td>Blind draw of 272 rule-drawn windows, 1690–2020, then a pre-registered replication on four settler polities and deeper English time.</td>
+<td>Full sample <b>9/20 in window against a 25% null = 1.8×, p=0.048</b>. Deep English time replicates at <b>1.96×, p=0.075</b>. The settler Anglosphere returns <b>2/13 against 1.6 expected</b> — Canada 1867, Ireland 1922, nothing in Australia or New Zealand.</td>
+<td><b>Downgraded.</b> A periodisation of Anglo-American history that has failed its first out-of-sample test. Stays on the board as framing and as a live hypothesis; timing is no longer presented as confirmed.</td></tr>
+<tr style="background:#1b1622">
+<td><b>Continental windows validate the calendar independently.</b></td>
+<td>Start-year sensitivity: hold France's events fixed, move only the year its clock begins.</td>
+<td>Risk ratio runs <b>2.44 (from 1680) → 3.95 (1789) → 3.52 (1815) → 5.74 (1871)</b>. The significance level is set by an input nobody measured.</td>
+<td><b>Withdrawn 2026-11-06.</b> And it is the honest reason to discount the surviving 0.048 as well — the tool, not just the continent, carries this flaw.</td></tr>
+<tr>
+<td><b>The windows are independent of the events they contain.</b></td>
+<td>Window-versus-event check on every canonical window in the system.</td>
+<td>Each one brackets an English or American rupture: 1675–1704 brackets 1688, 1773–1794 brackets 1776 and 1787, 1860–1865 brackets 1861.</td>
+<td><b>Refuted.</b> Inside English history "events fall in the windows" is close to definitional. The only genuinely independent windows are the ones the settler polities fall outside of.</td></tr>
+<tr>
+<td><b>The absorption corpus is a population of arrivals.</b></td>
+<td>Channel audit across all 225 records.</td>
+<td>One sampler, three channels, wildly uneven coverage; a supply-side push and an audience-side pull moved the same counter.</td>
+<td><b>Revised.</b> The count is a sample and says so; composition (channel, AI involvement, target) is now counted alongside it.</td></tr>
+<tr>
+<td><b>Legs 1 and 2 are measured readings.</b></td>
+<td>Search for the series behind the numbers.</td>
+<td>No series existed. Hand-set anchors carried from Crisis 4; leg 2's denominator was structurally zero because seatings do not exist in the record at all.</td>
+<td><b>Rebuilt on external baselines</b> — 26 years of nationwide injunctions, 45 years of senior-staff turnover — and both marked <i>thin</i> on the register until a second observation exists.</td></tr>
+<tr>
+<td><b>Leg 4 is scored on 14 docking cases.</b></td>
+<td>Attempt to count the cases from the record.</td>
+<td>The 14 cases existed only as prose in a note body. The board printed "14 scored candidate acts" and no code could reach them.</td>
+<td><b>Now countable.</b> One object per case in <code>/space/docking_case</code>: <b>7 of 14 fired, 0 of 7 false alarms, direction 6 replacement / 1 restoration.</b></td></tr>
+<tr>
+<td><b>Absorption velocity means how fast arrivals come.</b></td>
+<td>Composition split over the same corpus.</td>
+<td>A day of supply-side pushes and a day of audience-side pulls produced the same velocity number and described different phenomena.</td>
+<td><b>Split.</b> Velocity is now reported with its composition, so a demand-driven spike cannot be read as a supply-side campaign.</td></tr></tbody></table>
+ <div class="note"><b>The pattern in these rows.</b> Every failure above is the same failure in different clothes: a number that looked like a measurement and could not be wrong. Hand-set anchors, windows drawn around their own events, a corpus with one sampler, a set of cases that existed only as prose. None of them were false — they were <i>unfalsifiable</i>, which reads identically on a dashboard and is worth nothing. The rebuild is not an attempt to get the old answer back with better maths. It is the removal of readings that could not lose.</div>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>The three that cost the most</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">
+  <b>1 · The calendar.</b> The windows were treated as an instrument. They were drawn around English and American ruptures, which makes "events fall in the windows" close to definitional inside English history, and the first out-of-sample test (the settler Anglosphere: Canada, Australia, New Zealand, Ireland) returned <b>2 of 13 events against 1.6 expected</b>. The usable position now is that the saeculum is a periodisation of Anglo-American history that has not survived its first independent test. It stays on the board as a framing device and a live hypothesis; it is not a predictor and its timing is no longer presented as confirmed.
+  <div class="note"><b>2 · The continental p-values.</b> They were printed as support for the calendar and they are an artefact of an unmeasured input — hold France's events fixed and move only the year its clock starts, and the risk ratio runs <b>2.44 → 5.74</b>. A test that swings that far on a span nobody measured was never carrying weight. Withdrawn, and it is also the honest reason to distrust the surviving 0.048.</div>
+  <div class="note"><b>3 · "Measured" that was not measured.</b> Three readings wore the word and had no series behind them: leg 3 (one observation on 6 of 9 firms), leg 1 and leg 2 (hand-set anchors carried from Crisis 4, one of them on a denominator that was structurally zero). The register now reads <b>4 of 4 instrumented, 2 of 4 thin</b> and every thin reading says so on its own face. The failure mode was not the number being wrong — it was the number being unfalsifiable and looking the same as the ones that were not.</div>
+ </div>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>What we are tracking now, and how each tracking ends</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">A live experiment that never states its stop condition becomes permanent framing. Every commitment opened today carries a falsifier and a date on which it is scored either way — a null result is published in the same place, in the same format, as a hit.</div>
+ <table style="margin-top:12px"><thead><tr><th style="width:30%">Commitment</th><th style="width:34%">Falsifier</th><th style="width:18%">Scored at</th><th style="width:18%">If it fails</th></tr></thead><tbody><tr><td><b>Conflict displacement</b> — settlements shift conflict into cheaper venues (courts, parliaments, contracts) and liberty is the residue.</td><td>If settlements adopt procedure <i>before</i> liberty gains and hollowing does not dominate abolition across all 25 cases, the engine is wrong.</td><td>Q6 close</td><td>Theory revised on the board face, not in a note.</td></tr>
+<tr><td><b>Adoption lag / diffusion</b> — the beat is set by how fast a medium spreads, not by a fixed generational clock.</td><td>Ruptures land on the canonical Western dates rather than lagging each polity's adoption gap.</td><td>Q7 close</td><td>The calendar framing is retired outright.</td></tr>
+<tr><td><b>Settler replication, extended</b> — the null was underpowered, not exculpatory.</td><td>A further panel at a 2× effect still returns null.</td><td>+12 months</td><td>The saeculum is scoped to the Anglo core and labelled as such everywhere.</td></tr>
+<tr><td><b>Leg 3 fence share</b> — 56% on 6 of 9 assigned firms.</td><td>A second observation contradicts the share.</td><td>Monthly review</td><td>Reading withdrawn, not defended.</td></tr>
+<tr><td><b>Instrument reconstruction</b> — every leg carries a denominator and a kill condition.</td><td>Any leg prints a reading with a hand-set value and no denominator.</td><td>Every gate run</td><td>The push fails. That is what the gate is for.</td></tr></tbody></table>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>Snapshots — the board as it stood on each date</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">A changelog records what changed. It does not let anyone <i>see</i> the old board. Every build that changes the model's structure is now frozen to an <b>internal archive</b>, so the claim "the board said X last week" is checkable by opening the file rather than trusting a log entry. <b>The archive is not published</b> — it stays on the machine, because a public snapshot history invites reading the revisions instead of the current board, and because the old builds carry working notes that were never written for an audience.</div>
+ <div class="note"><b>Frozen this build:</b> 2026-11-06 17:55 · v4.13-preview — the board as it stood before this section existed, retraction included in 3.10 but with no belief record of its own. Current build is v4.14-preview.<br><b>Rule adopted (narrowed 19:03):</b> snapshots are taken only on a <b>structural model change</b> — a leg added, removed or redefined, an instrument rebuilt, the scenario deck or the calendar thesis altered, or what the board claims changed. Routine data refreshes, new readings on unchanged instruments, wires and cosmetic edits are not snapshotted: an archive of every number shift implies every number shift was a model revision. A snapshot is never edited after the fact — corrections go in the next one.</div>
+</div>
+
+<h2>1 · Daily Read</h2>
+<details class="dr" id="drwrap" open>
+  <summary><span class="cue" id="drcue">DAILY READ</span><span class="lead" id="drlead">Loading…</span><span class="small" id="drmeta"></span></summary>
+  <div class="dredition"><span class="elab" id="dredate">Edition</span><span class="ecount" id="drcount"></span><span class="small" id="drsort">newest first</span></div>
+  <div id="dailyread"></div>
+  <a class="drarch" id="drarchive" href="archive.html">Daily Read Archive →</a>
+</details>
+<div class="note">Two levels of nesting, and this is the default view: the edition is open, all ten cards are shut. A reader sees the day at a glance — ten stamps and ten headlines — and opens only what interests them. The outer row is the edition — date, card count, newest first — so the section costs one line until you want it. The inner rows are the cards, each stamped with the time it was filed and its headline; open one and the five beats are under it. The archive button leads to every past edition.</div>
+
+<h2>2 · The MGET model — macro to micro</h2>
+<div class="subhead">2.1 Macro · model state</div>
+<div class="grid3">
+  <div class="panel">
+    <h3>Legs fired <span class="tag t-state term" data-term="state">STATE</span></h3>
+    <div class="big" id="legsBig">–</div>
+    <div class="kv"><span>Gate</span><b id="gate">–</b></div>
+    <div class="kv"><span>Phase</span><b id="phase">–</b></div>
+    <div class="kv"><span>Phase closes</span><b id="closes">–</b></div>
+    <div class="note">A count of legs in the <b>fired</b> state. Never a count of load — a leg can read 80 and still be absent, and that distinction is the whole model.</div>
+  </div>
+  <div class="panel">
+    <h3>Enforcement flow <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
+    <div class="big" id="flowBig">–</div>
+    <div class="kv"><span>Recorded events, latest month</span><b id="flowW">–</b></div>
+    <div class="kv"><span>Controlled rate, latest month</span><b id="flowC">–</b></div>
+    <div class="kv"><span>Window</span><b id="flowWin">–</b></div>
+    <div class="note" id="flowHeadline"><b>Generated, not hand-set.</b> Recorded state enforcement events per month from <code>/space/repression_event</code>, with the machine's own recording rate as the control. Detail and disclosers at 2.4.</div>
+  </div>
+  <div class="panel">
+    <h3>Institutional stock <span class="tag t-stock term" data-term="stock">STOCK</span></h3>
+    <div class="big" id="stockBig">–</div>
+    <div class="note" style="margin:2px 0 8px"><span id="setlab" style="font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)">–</span></div>
+    <div class="kv"><span>Dials at Critical</span><b id="stockCrit">–</b></div>
+    <div class="kv"><span>Dials at Warning</span><b id="stockWarn">–</b></div>
+    <div class="kv"><span>Worst dial</span><b id="stockWorst">–</b></div>
+    <div class="note">The mean of the institutional dials. This is the number Governance has always been: derived, never hand-set, so it moves only when the dials move. <b>The set behind it changed today</b> — eight dials became twelve — and the mean did not move, which is the only reason the reading can be quoted across the change at all.</div>
+  </div>
+</div>
+
+<div class="subhead">2.2 Micro · what feeds each leg</div>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Four anchors per leg, each scored 0 to 5 on one written scale, and <b>load = (sum of anchors ÷ 4) × 20</b>. An anchor is something you can go and find, not a judgement about how bad things feel. The legs read in model order: M, G, E, T.</div>
+ <div class="grid2" style="margin-top:12px" id="legs-live"></div>
+ <div class="note" style="margin-top:14px">The computed column is what the anchors produce; the live board column is the hand-set number it would replace. <b>Where they differ, the anchor reading is the one with a paper trail</b> — and T's gap is the reason this instrument exists.</div>
+</div>
+
+<div class="subhead">2.3 Finest · institutional dials</div>
+<div id="gauges-grid" class="gaugegrid"></div>
+<div class="panel" style="margin-top:10px">
+ <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="num">Δ</th><th class="barcell">Load</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
+ <div class="note" id="dialNote"></div>
+</div>
+
+<div class="subhead">2.4 Flow · what the legs record, month by month</div>
+<div class="note" style="margin-top:0;color:#c3d2e6">Section 2.1–2.3 prints <b>stocks</b> — where the institutions stand. These are the two <b>flows</b> the legs were supposed to supply and did not: E carried a score with no series behind it, G had no series at all. Every number below is counted from <code>/space</code> when the panel is generated; nothing is typed in. Where a series does not exist, the panel prints a blind spot rather than a chart.</div>
+<div class="grid2" style="margin-top:12px">
+  <div class="panel">
+    <h3>E · Enforcement-capacity flow <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
+    <div class="note" style="margin-top:0" id="flowESub">Reading: recorded state enforcement events per month.</div>
+    <table><thead><tr><th>Month</th><th class="num">Events</th><th class="num">Per 100 journal</th><th class="barcell">Controlled</th></tr></thead><tbody id="flowSeriesBody"></tbody></table>
+    <div class="note" id="flowEHead"></div>
+  </div>
+  <div class="panel">
+    <h3>E · Event composition <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
+    <div class="note" style="margin-top:0" id="flowCSub">Share of unique events by type.</div>
+    <table><thead><tr><th>Type</th><th class="num">n</th><th class="barcell">Share</th><th class="num">%</th></tr></thead><tbody id="flowCompBody"></tbody></table>
+    <div class="note" id="flowCHead"></div>
+  </div>
+</div>
+<div class="panel" style="margin-top:10px">
+  <h3>G · Legitimation flow <span class="tag t-blind">BLIND SPOT</span></h3>
+  <div class="note" style="margin-top:0" id="flowGHead"></div>
+  <div class="note" id="flowGRepair"></div>
+</div>
+<div class="note" id="flowDisc" style="margin-top:10px"></div>
+
+<h2>3 · Absorption velocity — the other thing the instrument could not see</h2>
+<div class="note" style="margin-top:0">Section 2 measures <b>stocks</b>: holdings, hand-set once a month. This measures a <b>flow</b>: how fast dehumanizing frames move through the feed, counted continuously. The two answer different questions. A stock says how captured an institution is today; a flow says whether the audience that would have to accept force is being prepared faster than it was last week. The second is the leading indicator, and it never belonged in the dial table — you cannot defend "dehumanization is 71" from public observables, but you can defend "33 specimens this week, 45 coded right-flank, 25 reciprocal."</div>
+
+<div class="scroll"><table><thead><tr><th>Reading</th><th class="num">Value</th><th>What it means</th></tr></thead><tbody>
+<tr><td><b>Specimens in corpus</b></td><td class="num" id="corpusN">—</td><td>Captured items, each with a screenshot set and a full comment-thread capture (post + 6 frames).</td></tr>
+<tr><td><b>Capture span</b></td><td class="num">8-01 → 11-05</td><td>Capture began 2026-10-07. The August date is a single origin specimen carried forward; the series is honest only from W38.</td></tr>
+<tr><td><b>This week</b></td><td class="num">33</td><td>W45, election week. Up from 8 the week before — a 4× step, not a drift.</td></tr>
+<tr><td><b>Peak week</b></td><td class="num">65</td><td>W41, the pre-midterm escalation run. The current rate is half the peak and four times the trough.</td></tr>
+<tr><td><b>Direction coded</b></td><td class="num" id="codedN">87 / 219</td><td>40% carry an explicit flank coding. The rest are structure specimens where the dehumanizing flank is not the point.</td></tr>
+</tbody></table></div>
+
+<div class="subhead">3.1 Rate — specimens per week</div>
+<div class="wkchart" id="wkChart"><div class="wk"><div class="wkbar" style="height:9px"></div><div class="wkv">7</div><div class="wkl">W38</div></div><div class="wk"><div class="wkbar" style="height:18px"></div><div class="wkv">13</div><div class="wkl">W39</div></div><div class="wk"><div class="wkbar" style="height:53px"></div><div class="wkv">39</div><div class="wkl">W40</div></div><div class="wk"><div class="wkbar" style="height:88px"></div><div class="wkv">65</div><div class="wkl">W41</div></div><div class="wk"><div class="wkbar" style="height:46px"></div><div class="wkv">34</div><div class="wkl">W42</div></div><div class="wk"><div class="wkbar" style="height:26px"></div><div class="wkv">19</div><div class="wkl">W43</div></div><div class="wk"><div class="wkbar" style="height:11px"></div><div class="wkv">8</div><div class="wkl">W44</div></div><div class="wk"><div class="wkbar" style="height:45px"></div><div class="wkv">33</div><div class="wkl">W45</div></div></div>
+<div class="note" style="margin-top:2px">W45 is a partial week (through 2026-11-05) and is already second-highest. Read the ramp, not the point: 7 → 13 → 39 → 65, a fall to 8, then a step back to 33. <b>A fall is not a good sign on this instrument.</b> Post-defeat volume in the record is dominated by narrative repair and blame routing, which is absorption working, not absorption stopping.</div>
+
+<div class="subhead">3.2 Direction of the coded specimens</div>
+<div class="scroll"><table><thead><tr><th>Flank</th><th class="num">n</th><th class="num">Share of coded</th><th>Rule</th></tr></thead><tbody id="flankBody"></tbody></table></div>
+<div class="note" id="flankNote" style="margin-top:2px"></div>
+
+<div class="subhead">3.3 What work the frame is doing</div>
+<div class="scroll"><table><thead><tr><th>Theme (capture enum)</th><th class="num">n</th><th>Function</th></tr></thead><tbody>
+<tr><td>Other / unclassified</td><td class="num">67</td><td>Not yet assigned. The largest single bucket, which is a backlog, not a finding.</td></tr>
+<tr><td>Narrative repair</td><td class="num">53</td><td>Explaining a loss without changing anything. The dominant post-defeat mode.</td></tr>
+<tr><td>Institutional</td><td class="num">49</td><td>Frames aimed at state capacity — courts, enforcement, oversight, election administration.</td></tr>
+<tr><td>Scapegoat redirect</td><td class="num">42</td><td>Blame routed onto a named out-group. The load-bearing class for force acceptance.</td></tr>
+<tr><td>Premature victory</td><td class="num">8</td><td>Outcome declared before the count. Pre-delegitimation.</td></tr>
+</tbody></table></div>
+
+<div class="subhead">3.4 Against the model — is Absorption converting?</div>
+<div class="note" style="margin-top:0;color:#c3d2e6">The model reads Absorption at <b>76</b> on a stock basis. The flow says the rate stepped up 4× into the election and did not return to baseline after it. That combination is the one the stock cannot express: <b>high stock, rising flow</b> means the frame is being refreshed, not merely retained. It is the leading edge of the M reading, and it is the only reading on this page that updates daily.</div>
+
+<div class="note"><b>How to read it, plainly.</b> Big number, bad. Rising, worse. Rising after a defeat means the frame is being used to explain the defeat rather than to contest it — the cheap version, and it still works. Falling after a defeat is the repair succeeding. <b>The blind spot is on the panel, not hidden: capture is opportunistic.</b> Samuel captures what the feed serves him. The rate is indicative, not a census, and the direction split is trustworthy only because the watch is deliberately symmetric. Do not quote a specimen count as a percentage of anything.</div>
+<div class="note"><b>What would falsify this block.</b> If a full-feed sample, not the owner's feed, shows the W41 peak is a sampler artefact, the rate series is void and only the direction coding survives. Until then the rate is a trend line on a non-random sample, labelled as one.</div>
+
+
+<h3 class="subhead" style="margin-top:22px">3.5 · Corpus composition — channel, target, theme <span class="tag t-state">new, 2026-11-06</span></h3>
+<div class="panel">
+<p class="note" style="margin-top:0">The velocity block above counts <b>how many</b> specimens arrive. This block says <b>where they came from and who they are aimed at</b>, because the rate alone cannot tell a supply-side push from an audience-side pull — the two move the same counter. Three fields carry it: <code>channel</code> (how the record reached the collector), <code>aim</code> (who is the degraded object), and the existing theme enum. Definitions are printed under the tables, not kept in a protocol file.</p>
+<table><thead><tr><th>Channel</th><th>What it means</th><th class="num">n</th><th class="num">share</th><th class="barcell"></th></tr></thead><tbody id="c3ch"></tbody></table>
+<p class="note" id="c3chnote"></p>
+</div>
+
+<div class="grid2" style="margin-top:10px">
+<div class="panel">
+<h3>Target — who the frame degrades</h3>
+<table><thead><tr><th>Target</th><th class="num">coded</th></tr></thead><tbody id="c3aim"></tbody></table>
+<p class="note"><b>Read this as empty, because it is.</b> <span id="c3aimn"></span> records carry an aim code. The rest are coded only in a 24-record pilot that was never written to disk, and a pilot is not data. No target share may be quoted until the field is fully coded. The taxonomy is on the page so it can be objected to first.</p>
+</div>
+<div class="panel">
+<h3>Theme by month</h3>
+<table><thead><tr><th>Theme</th><th class="num">Aug</th><th class="num">Sep</th><th class="num">Oct</th><th class="num">Nov</th><th class="num">all</th></tr></thead><tbody id="c3th"></tbody></table>
+<p class="note">September and November are small and drawn from different channels, so read the columns, not the row totals. <b>September is 100% supply watch. November is majority feed.</b></p>
+</div>
+</div>
+
+<div class="panel" style="margin-top:10px">
+<h3>The finding this block adds — and the instrument it says is missing</h3>
+<p class="note" style="margin-top:0">Capture did not stay constant in kind. Every September record entered by deliberate supply watch — a pundit segment, an outlet piece, a named principal's post. Half of November's entered through the ranker, unsummoned. On the same board that distinction matters: a supply-watch record proves the message is being <b>manufactured</b>, a feed record proves it is <b>resonating</b>, and a pooled rate that mixes the two at shifting proportions is measuring the sampler as much as the country.</p>
+<p class="note"><b>What cannot be built from this corpus:</b> penetration. Feed records are hits by construction — a narrative that failed to reach the feed leaves no trace, so the denominator is invisible. The missing instrument is a fixed supply list of 8–12 narratives checked for presence or absence in the feed on a schedule, which converts hits into a rate over a known denominator. Until that exists, every feed figure here is a count, not a share.</p>
+<div class="legend"><span><i style="background:var(--hot)"></i>national supply watch</span><span><i style="background:#c0705f"></i>direct, named principal</span><span><i style="background:var(--vio)"></i>both</span><span><i style="background:var(--acc)"></i>feed, unsummoned</span><span><i style="background:#5a6a83"></i>desk, no post artefact</span></div>
+</div>
+<p class="note">Full review build with drill-down on every count: <code>mock/CASS Dashboard Mockup.html</code>. That page is the working paper; this is the summary that belongs on the board.</p>
+<script>
+(function(){
+const D={"as_of":"2026-11-06 16:54 ET","total":225,"channel":{"direct":69,"national":98,"both":23,"feed":21,"desk":14},"theme":{"scapegoat_redirect":46,"institutional":51,"other":67,"narrative_repair":53,"premature_victory":8},"byt":{"2026-08":{"other":1},"2026-09":{"institutional":5,"other":15,"narrative_repair":9,"scapegoat_redirect":6,"premature_victory":3},"2026-10":{"institutional":40,"narrative_repair":34,"scapegoat_redirect":27,"other":41,"premature_victory":5},"2026-11":{"scapegoat_redirect":10,"institutional":4,"other":10,"narrative_repair":10}},"months":["2026-08","2026-09","2026-10","2026-11"],"bym":{"2026-08":{"national":1},"2026-09":{"national":14,"direct":15,"desk":9},"2026-10":{"direct":45,"national":71,"desk":5,"both":14,"feed":12},"2026-11":{"direct":9,"national":7,"both":9,"feed":9}},"rows":[{"d":"2026-11-06","b":"2026-11-06-eric-walls-towel-head-muslim-count","c":"direct","a":["muslims"],"t":"scapegoat_redirect"},{"d":"2026-11-05","b":"2026-11-05-trump-alaska-vote-transfer-demand","c":"national","a":[],"t":"institutional"},{"d":"2026-11-05","b":"2026-11-05-crazy-conservative-roofer-civil-war-call","c":"national","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-wolfe-guidarini-edwards-cadre-bridge","c":"both","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-webbon-vader-book-burning","c":"feed","a":[],"t":"institutional"},{"d":"2026-11-04","b":"2026-11-04-vance-loss-attribution-aggregator-relay","c":"feed","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-vader-meme-body-armor-ad-pairing","c":"both","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-trump-witchcraft-post-unverified","c":"feed","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-trump-veto-tremendous-powers","c":"both","a":[],"t":"institutional"},{"d":"2026-11-04","b":"2026-11-04-thune-as-brutus-leadership-as-assassin","c":"both","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-stofel-good-men-do-bad-things-gloves-come-off","c":"feed","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-repthomas-punishment-vote-israel-capture","c":"feed","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-relearn-partridge-or-we-can-divide","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-post-defeat-blame-set-replacement-and-enemy-alliance","c":"both","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-04","b":"2026-11-04-masked-minuteman-necessary-things-rerender","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-04","b":"2026-11-04-masked-minuteman-good-men-do-bad-things","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-04","b":"2026-11-04-loeffler-withdrawn-no-artifact","c":"both","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-hegseth-firing-generals-blame-balloon","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-04","b":"2026-11-04-gaetz-opens-fire-on-hegseth","c":"both","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-04","b":"2026-11-04-finish-the-job-iran-window-pressure","c":"both","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-empire-aesthetic-death-star-over-earth","c":"both","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-desouza-vc-in-the-wire-readiness-frame","c":"direct","a":[],"t":"other"},{"d":"2026-11-04","b":"2026-11-04-counterfeit-paxton-contestation-statement","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-base-psyop-demobilization-and-worth-it-accounting","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-04","b":"2026-11-04-anakin-fascist-ladder-america-first-only","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-11-04","b":"2026-11-04-american-exceptionalism-ramaswamy-racial-degradation","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-03","b":"2026-11-03-vader-pension-provider-register-collapse","c":"national","a":[],"t":"other"},{"d":"2026-11-03","b":"2026-11-03-trump-abbott-rino-scapegoat","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-11-03","b":"2026-11-03-musk-anakin-throne-dispossession","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-11-03","b":"2026-11-03-evies-magazine-anakin-rehabilitation","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-11-03","b":"2026-11-03-conservative-base-blame-map-ircompletion","c":"direct","a":[],"t":"other"},{"d":"2026-11-03","b":"2026-11-03-anakin-virtue-checklist-long-live-the-empire","c":"direct","a":[],"t":"institutional"},{"d":"2026-11-02","b":"2026-11-04-posobiec-hes-us-sand-people-autocracy","c":"national","a":[],"t":"other"},{"d":"2026-11-02","b":"2026-11-02-learjet-copilot-scapegoat","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-29","b":"2026-10-29-notam-template-read-as-event","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-29","b":"2026-10-29-commissary-freezer-cyberattack","c":"national","a":[],"t":"institutional"},{"d":"2026-10-29","b":"2026-10-29-alaska-elite-consensus-30-hours","c":"national","a":[],"t":"institutional"},{"d":"2026-10-28","b":"2026-10-28-three-country-theft-claim-convergence","c":"national","a":[],"t":"institutional"},{"d":"2026-10-27","b":"2026-10-27-portelli-flavio-flight-fight-your-way-out","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-27","b":"2026-10-27-edwards-western-civilization-sacralization","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-27","b":"2026-10-27-chain-compression-holocaust-tokenization","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-26","b":"2026-10-26-sauve-love-as-expulsion-license","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-25","b":"2026-10-25-fortress-homeland-disruption-prelegitimation","c":"national","a":[],"t":"other"},{"d":"2026-10-23","b":"2026-10-23-omar-removal-demand-presidential","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-23","b":"2026-10-23-omar-null-void-recirc","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-23","b":"2026-10-23-datarepublican-color-revolution-harvest","c":"national","a":[],"t":"other"},{"d":"2026-10-23","b":"2026-10-23-bukele-deus-vult-haiti-crusader-register","c":"desk","a":[],"t":"narrative_repair"},{"d":"2026-10-22","b":"2026-10-22-ramaswamy-acton-rape-claim-attack","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-22","b":"2026-10-22-blanche-certification-doomsday-non-disclaimer","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-21","b":"2026-10-21-shapiro-wedgewood-fake-polls-frame","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-21","b":"2026-10-21-omar-doj-filing-name-framing","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-21","b":"2026-10-21-harris-omar-dna-breaking-overstatement","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-21","b":"2026-10-21-essayli-la-citizenship-dilution-frame","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-21","b":"2026-10-21-democrats-election-officials-lawsuit-vanguard","c":"national","a":[],"t":"institutional"},{"d":"2026-10-21","b":"2026-10-21-carr-fcc-fake-polls-regulatory-threat","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-21","b":"2026-10-21-burnett-monarchy-democracy-theological-legitimation","c":"national","a":[],"t":"other"},{"d":"2026-10-21","b":"2026-10-21-blaze-slotkin-preemptive-mockery","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-21","b":"2026-10-21-blaze-fake-pollster-outing-cycle","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-21","b":"2026-10-21-alt-nps-tn-machine-flip-claims","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-20","b":"2026-10-20-citizens-us-refusal-enforcement-recruitment","c":"direct","a":[],"t":"other"},{"d":"2026-10-19","b":"2026-10-19-democrats-planning-civil-war-mirror-prelegitimation","c":"direct","a":[],"t":"other"},{"d":"2026-10-18","b":"2026-10-18-trump-russia-diesel-lever-public","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-18","b":"2026-10-18-putin-trump-xi-yalta-summit-proposal","c":"national","a":[],"t":"other"},{"d":"2026-10-18","b":"2026-10-18-iran-ballistic-after-midterms-dc-exclusive","c":"both","a":[],"t":"other"},{"d":"2026-10-17","b":"2026-10-17-trump-jail-threat-la-election-officials","c":"both","a":[],"t":"institutional"},{"d":"2026-10-16","b":"2026-10-16-russia-sanctions-waiver-eo","c":"national","a":[],"t":"institutional"},{"d":"2026-10-16","b":"2026-10-16-novanow-biological-racism-mobilization","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-15","b":"2026-10-15-vance-elsayed-loyalty-othering-monroe","c":"national","a":[],"t":"other"},{"d":"2026-10-15","b":"2026-10-15-trump-cornyn-rove-paxton-purge","c":"both","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-15","b":"2026-10-15-shapiro-family-subpoena-enforcement-as-content","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-15","b":"2026-10-15-sberbank-balakovo-strike-russian-internet-outage","c":"both","a":[],"t":"institutional"},{"d":"2026-10-15","b":"2026-10-15-panama-10th-mountain-deployment-framing","c":"both","a":[],"t":"institutional"},{"d":"2026-10-15","b":"2026-10-15-omar-franklin-dehumanization-specimen","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-15","b":"2026-10-15-nov4-jan2-danger-window-countdown","c":"both","a":[],"t":"narrative_repair"},{"d":"2026-10-15","b":"2026-10-15-moab-iran-strike-plans-leak","c":"both","a":[],"t":"institutional"},{"d":"2026-10-15","b":"2026-10-15-hasan-livestream-walkback-obama-deflection","c":"both","a":[],"t":"narrative_repair"},{"d":"2026-10-15","b":"2026-10-15-fox-poll-corruption-gas-iran-salience","c":"both","a":[],"t":"institutional"},{"d":"2026-10-15","b":"2026-10-15-evans-kick-out-foreigners-fraud-welfare-queen","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-15","b":"2026-10-15-cnn-poll-error-scenario-recirculation","c":"both","a":[],"t":"premature_victory"},{"d":"2026-10-15","b":"2026-10-15-cedar-riverside-callbox-anti-somali","c":"feed","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-15","b":"2026-10-15-beck-papers-exist-laundering-third-carrier","c":"both","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-14","b":"2026-10-14-omar-citizenship-strip-midterm-turnout","c":"both","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-14","b":"2026-10-14-mail-ballot-mirage-prelegitimation","c":"national","a":[],"t":"premature_victory"},{"d":"2026-10-14","b":"2026-10-14-leakers-shot-press-class-expansion","c":"national","a":[],"t":"institutional"},{"d":"2026-10-14","b":"2026-10-14-kirk-martyr-enforces-turnout-discipline","c":"both","a":[],"t":"other"},{"d":"2026-10-14","b":"2026-10-14-kirk-birthday-canonization-vote-summons","c":"both","a":[],"t":"other"},{"d":"2026-10-14","b":"2026-10-14-gaetz-mitchell-fake-polls-dual-use","c":"feed","a":[],"t":"narrative_repair"},{"d":"2026-10-14","b":"2026-10-14-firearm-feed-algorithm-shift","c":"feed","a":[],"t":"other"},{"d":"2026-10-14","b":"2026-10-14-2020-files-recirculation-midterm-timing","c":"feed","a":[],"t":"premature_victory"},{"d":"2026-10-13","b":"2026-10-13-rockbridge-succession-architecture-crosscheck","c":"national","a":[],"t":"premature_victory"},{"d":"2026-10-13","b":"2026-10-13-judicial-tyranny-amplifier-first","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-13","b":"2026-10-13-fridge-control-plane-failure","c":"national","a":[],"t":"institutional"},{"d":"2026-10-13","b":"2026-10-13-engagement-step-function-corroboration","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-12","b":"2026-10-12-nato-grynkewich-prelegitimation","c":"national","a":[],"t":"other"},{"d":"2026-10-12","b":"2026-10-12-graham-allen-whale-bestialization","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-11","b":"2026-10-11-talarico-hospital-hoax-collapse","c":"desk","a":[],"t":"narrative_repair"},{"d":"2026-10-11","b":"2026-10-11-collective-evolution-war-after-midterms-synthesis","c":"national","a":[],"t":"other"},{"d":"2026-10-10","b":"2026-10-10-us-kills-its-clients-ukraine-meme","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-10","b":"2026-10-10-trump-stupidest-things-admission","c":"direct","a":[],"t":"other"},{"d":"2026-10-10","b":"2026-10-10-noticing-solution-dehumanization-thread","c":"direct","a":[],"t":"other"},{"d":"2026-10-10","b":"2026-10-10-moe-stomach-exemplary-violence","c":"national","a":[],"t":"institutional"},{"d":"2026-10-10","b":"2026-10-10-mahoney-athenian-democracy-post","c":"direct","a":[],"t":"other"},{"d":"2026-10-10","b":"2026-10-10-boat-strike-justice-meme","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-09","b":"2026-10-09-zelensky-diesel-deal-counter-statement","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-09","b":"2026-10-09-starnes-purge-evil-unnamed-class","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-09","b":"2026-10-09-rubio-venezuela-transition-icc-sanctions-dual-track","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-09","b":"2026-10-09-putin-diesel-election-lifeline-sanctions-trade","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-09","b":"2026-10-09-public-executions-high-trust-normie-adoption","c":"direct","a":[],"t":"other"},{"d":"2026-10-09","b":"2026-10-09-ice-3000-per-day-directive-election-timed","c":"national","a":[],"t":"institutional"},{"d":"2026-10-09","b":"2026-10-09-galactica-suppression-template","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-09","b":"2026-10-09-fresno-ice-shooting-left-celebration-mirror","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-09","b":"2026-10-09-execution-watching-as-loyalty-test-brutality-inoculation","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-09","b":"2026-10-09-execution-spectacle-full-stack-capture","c":"national","a":[],"t":"institutional"},{"d":"2026-10-09","b":"2026-10-09-deuteronomy-13-participatory-execution-theology","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-09","b":"2026-10-09-daily-wire-execution-fait-accompli-wedge","c":"national","a":[],"t":"institutional"},{"d":"2026-10-08","b":"2026-10-08-superintelligence-enemy-terminology-policing","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-08","b":"2026-10-08-pakistan-air-force-houthi-strikes","c":"national","a":[],"t":"other"},{"d":"2026-10-08","b":"2026-10-08-oil-pre-war-levels-narrative-repair-meme","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-08","b":"2026-10-08-minnesota-fight-back-incitement-dual-lane","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-08","b":"2026-10-08-ice-hotel-black-box-child-detention-flores-defiance","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-08","b":"2026-10-08-ice-bronx-shooting-victim-pre-frame-graft","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-08","b":"2026-10-08-hutchinson-revenge-indictment","c":"national","a":[],"t":"institutional"},{"d":"2026-10-08","b":"2026-10-08-hasan-public-execution-declaration","c":"national","a":[],"t":"institutional"},{"d":"2026-10-08","b":"2026-10-08-hasan-execution-feed-penetration-telemetry","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-07","b":"2026-10-07-wh-worship-oct7-anniversary","c":"national","a":[],"t":"institutional"},{"d":"2026-10-07","b":"2026-10-07-russia-nato-soil-sabotage-latvia-denmark","c":"national","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-russia-massive-strike-putin-birthday-patriot-shortage","c":"national","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-rubio-acropolis-excellence-doctrine","c":"national","a":[],"t":"institutional"},{"d":"2026-10-07","b":"2026-10-07-remigration-or-die-eliminationist-feed","c":"direct","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-reclaim-scotland-militia-training","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-07","b":"2026-10-07-public-citizen-canceled-enforcement-205","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-07","b":"2026-10-07-morning-feed-capture","c":"feed","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-macintyre-american-conversation-exclusion","c":"national","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-ice-voter-records-dragnet-thread","c":"national","a":[],"t":"institutional"},{"d":"2026-10-07","b":"2026-10-07-hegseth-isaiah-send-me-faith-war-framing","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-07","b":"2026-10-07-c3c3-immigration-plague-reveal","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-07","b":"2026-10-07-beck-senate-polls-delegitimization","c":"national","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-atlantic-pre-midterm-iran-strike-options","c":"national","a":[],"t":"other"},{"d":"2026-10-07","b":"2026-10-07-abuse-divorce-covenant-supremacy","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-06","b":"2026-10-06-trump-vought-big-surprises-prepositioning","c":"direct","a":[],"t":"premature_victory"},{"d":"2026-10-06","b":"2026-10-06-osce-observer-exclusion","c":"desk","a":[],"t":"institutional"},{"d":"2026-10-06","b":"2026-10-06-morning-feed-baseline","c":"feed","a":[],"t":"narrative_repair"},{"d":"2026-10-06","b":"2026-10-06-mecca-pact-activation-turkish-deployment","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-06","b":"2026-10-06-left-execution-normalcy-mirror","c":"direct","a":[],"t":"other"},{"d":"2026-10-06","b":"2026-10-06-hostile-networks-mamdani-frame","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-06","b":"2026-10-06-hegseth-ig-reform-command-supremacy","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-06","b":"2026-10-06-hasan-firing-squad-execution-order","c":"national","a":[],"t":"institutional"},{"d":"2026-10-06","b":"2026-10-06-fbi-whistleblower-unconstitutional-probe","c":"desk","a":[],"t":"institutional"},{"d":"2026-10-06","b":"2026-10-06-brazil-federal-police-interference-raids","c":"national","a":[],"t":"institutional"},{"d":"2026-10-06","b":"2026-10-06-afternoon-feed-capture","c":"feed","a":[],"t":"other"},{"d":"2026-10-05","b":"2026-10-05-usaid-dismantling-latin-america-swing-attribution","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-05","b":"2026-10-05-trump-media-arrest-ohio-rally","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-05","b":"2026-10-05-trump-detroit-philly-rig-prepositioning","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-05","b":"2026-10-05-trump-ai-robot-army-recirculation","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-05","b":"2026-10-05-mirror-prepositioning-specimen-2-cross-page-diffusion","c":"direct","a":[],"t":"other"},{"d":"2026-10-05","b":"2026-10-05-mirror-prepositioning-midterms-left-viral","c":"national","a":[],"t":"other"},{"d":"2026-10-05","b":"2026-10-05-hasan-firing-squad-execution-order","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-05","b":"2026-10-05-evening-roundup-right-flank","c":"national","a":[],"t":"other"},{"d":"2026-10-05","b":"2026-10-05-evening-feed-baseline","c":"feed","a":[],"t":"other"},{"d":"2026-10-05","b":"07g5lg3ql2kw","c":"feed","a":[],"t":"other"},{"d":"2026-10-04","b":"3iuo7pmbzegf","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-04","b":"2026-10-04-vandalia-retaliation-eliminationist-rally","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-04","b":"2026-10-04-fairford-b1-extraction-iran-plot","c":"national","a":[],"t":"other"},{"d":"2026-10-02","b":"2026-10-02-war-dept-office-religious-affairs","c":"direct","a":[],"t":"institutional"},{"d":"2026-10-02","b":"2026-10-02-third-carrier-iran-strike-prepositioning","c":"direct","a":[],"t":"other"},{"d":"2026-10-02","b":"2026-10-02-g7-diesel-release-under-us-pressure","c":"desk","a":[],"t":"other"},{"d":"2026-10-02","b":"2026-10-02-eeoc-nativist-agency-voice","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-02","b":"2026-10-02-democrats-collins-allegations-spend","c":"national","a":[],"t":"other"},{"d":"2026-10-02","b":"2026-10-02-benny-johnson-ice-defamation-suit","c":"direct","a":[],"t":"other"},{"d":"2026-10-01","b":"2026-10-01-west-responsible-press-prelegitimation","c":"national","a":[],"t":"other"},{"d":"2026-10-01","b":"2026-10-01-trad-west-crusade-prelegitimation","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-01","b":"2026-10-01-state-dept-meme-enforcement-aestheticization","c":"national","a":[],"t":"institutional"},{"d":"2026-10-01","b":"2026-10-01-press-vest-terrorist-designation","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-01","b":"2026-10-01-kid-rock-piety-conversion-cycle","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-10-01","b":"2026-10-01-kestbaum-religious-prelegitimation-pair","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-01","b":"2026-10-01-invictus-train-like-mainstream","c":"national","a":[],"t":"institutional"},{"d":"2026-10-01","b":"2026-10-01-imprecatory-psalms-hate-orthodoxy","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-10-01","b":"2026-10-01-guests-weapons-meme-ambiguity","c":"direct","a":[],"t":"other"},{"d":"2026-10-01","b":"2026-10-01-endwokeness-flydubai-attribution","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-10-01","b":"2026-10-01-cornell7-elite-accuser-delegitimization","c":"national","a":[],"t":"other"},{"d":"2026-10-01","b":"2026-10-01-ark-scans-curriculum-prelegitimation","c":"national","a":[],"t":"other"},{"d":"2026-09-29","b":"2026-09-29-random-feed-control-sample","c":"national","a":[],"t":"institutional"},{"d":"2026-09-29","b":"2026-09-29-jane-doe-accuser-delegitimization","c":"direct","a":[],"t":"other"},{"d":"2026-09-29","b":"2026-09-29-identity-politics-force-cascade-specimen","c":"direct","a":[],"t":"other"},{"d":"2026-09-29","b":"2026-09-29-hegseth-operator-cosplay-spec-ops","c":"direct","a":[],"t":"institutional"},{"d":"2026-09-29","b":"2026-09-29-folk-terminal-date-collapse-prediction","c":"direct","a":[],"t":"other"},{"d":"2026-09-29","b":"2026-09-29-folk-poll-suppression-meme","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-09-29","b":"2026-09-29-final-battle-ad-comment-sacralization","c":"national","a":[],"t":"other"},{"d":"2026-09-29","b":"2026-09-29-dow-cto-superintelligence-branding","c":"direct","a":[],"t":"institutional"},{"d":"2026-09-29","b":"2026-09-29-divine-judgment-immigration-theodicy","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-09-29","b":"2026-09-29-cia-mediterranean-drone-prelegitimation","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-09-29","b":"2026-09-29-boeing-6gen-feed-render","c":"desk","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-rsbn-website-architecture","c":"national","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-rsbn-machine-case-study","c":"national","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-rsbn-grift-economy-observation","c":"national","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-rsbn-clip-sequence-programming","c":"national","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-rsbn-chat-specimen","c":"national","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-right-election-narrative-triad","c":"desk","a":[],"t":"other"},{"d":"2026-09-28","b":"2026-09-28-diesel-wedge-collusion-frame","c":"desk","a":[],"t":"other"},{"d":"2026-09-27","b":"2026-09-27-liberal-deportation-buddy-system-meme","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-09-27","b":"2026-09-27-foreign-bot-influence-hemisphere-folk-corroboration","c":"national","a":[],"t":"other"},{"d":"2026-09-26","b":"2026-09-26-thiel-competence-scarcity-white-horse-setup","c":"national","a":[],"t":"premature_victory"},{"d":"2026-09-26","b":"2026-09-26-mace-trans-existence-denial-moe-amplification","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2026-09-26","b":"2026-09-26-liberal-women-bestialization-violence-outperformance","c":"direct","a":[],"t":"scapegoat_redirect"},{"d":"2026-09-26","b":"2026-09-26-heritage-egg-freezing-fatherless-dystopia","c":"national","a":[],"t":"institutional"},{"d":"2026-09-26","b":"2026-09-26-crowder-case-for-fascism-recirculation","c":"direct","a":[],"t":"premature_victory"},{"d":"2026-09-23","b":"2026-09-23-coupled-intelligence-field-claim","c":"desk","a":[],"t":"other"},{"d":"2026-09-22","b":"2026-09-22-white-horse-prelegitimation-surface","c":"national","a":[],"t":"premature_victory"},{"d":"2026-09-22","b":"2026-09-22-voxium-claude-code-culture","c":"direct","a":[],"t":"other"},{"d":"2026-09-21","b":"2026-09-21-trump-tv-direct-channel","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-09-21","b":"2026-09-21-meme-framing-asymmetry","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-09-21","b":"2026-09-21-christian-trolling-theology","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-09-18","b":"2026-09-18-wh-media-ban-cover","c":"national","a":[],"t":"narrative_repair"},{"d":"2026-09-18","b":"2026-09-18-sacralization-legislative-halls","c":"desk","a":[],"t":"narrative_repair"},{"d":"2026-09-17","b":"2026-09-17-sydney-sweeney-filler-cycle","c":"desk","a":[],"t":"scapegoat_redirect"},{"d":"2026-09-16","b":"2026-09-16-mecca-drone-condemnation-cascade","c":"desk","a":[],"t":"scapegoat_redirect"},{"d":"2026-09-16","b":"2026-09-16-higby-dehumanization-priming","c":"direct","a":[],"t":"narrative_repair"},{"d":"2026-09-15","b":"2026-09-15-squirters-narrative-repair","c":"desk","a":[],"t":"narrative_repair"},{"d":"2026-09-15","b":"2026-09-15-impeachment-votes-tabled","c":"desk","a":[],"t":"institutional"},{"d":"2026-08-01 (origin); captured 2026-10-07","b":"2026-08-01-chan-prophecy-larp-hormuz-armageddon","c":"national","a":[],"t":"other"},{"d":"2025-09-10","b":"2025-09-10-kirk-shooting-grief-venue-and-mirror","c":"national","a":[],"t":"institutional"},{"d":"2025-09-09","b":"2025-09-09-blaze-memorial-standing-claim-and-four-stage-flow","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2025-09-04","b":"2025-09-04-doj-trans-gun-ban-deliberation","c":"national","a":[],"t":"institutional"},{"d":"2025-08-29","b":"2025-08-29-mannarino-mass-detention-call","c":"national","a":[],"t":"scapegoat_redirect"},{"d":"2025-08-28","b":"2025-08-28-annunciation-shooting-six-frame","c":"national","a":[],"t":"scapegoat_redirect"}],"dehum":82};
+const CH=["national","direct","both","feed","desk"];
+const COL={national:"var(--hot)",direct:"#c0705f",both:"var(--vio)",feed:"var(--acc)",desk:"#5a6a83"};
+const DESC={national:"a pundit segment, an outlet piece, a broadcast — deliberate supply watch",
+ direct:"one named account or page, captured on its own",
+ both:"feed capture that carries outlet content in it",
+ feed:"what the ranker served, unsummoned",
+ desk:"wire or policy reporting with no post artefact"};
+const RULE={democrats:"the party or the left as the degraded object",media:"press, pollsters, experts as liars",
+ institutions:"courts, agencies, Congress as a body",foreign:"adversary states, not their populations",
+ lgbt:"existence denial, predation frame, bestialisation",immigrants:"invasiveness, contamination, removal as cleansing",
+ muslims:"category claims about Islam, civilisational incompatibility",republicans:"RINO, traitor, insufficiently loyal",
+ women:"—",blacks:"—",none:"no human target"};
+const ORDER=["democrats","media","institutions","foreign","lgbt","immigrants","muslims","republicans","women","blacks","none"];
+const TH=["institutional","scapegoat_redirect","narrative_repair","premature_victory","other"];
+const t=document.getElementById('c3ch');
+CH.forEach(c=>{const n=D.channel[c]||0,p=n/D.total*100;
+ const tr=document.createElement('tr');
+ tr.innerHTML=`<td><b>${c}</b></td><td class="note" style="margin:0">${DESC[c]}</td><td class="num">${n}</td>
+ <td class="num">${p.toFixed(1)}%</td><td class="barcell"><div class="bar" style="width:${Math.max(p,1.5)}%;background:${COL[c]}"></div></td>`;
+ t.append(tr);});
+const feedShare=i=>{const b=D.bym[D.months[i]]||{};const tot=Object.values(b).reduce((x,y)=>x+y,0)||1;return Math.round(((b.feed||0)+(b.both||0))/tot*100)};
+document.getElementById('c3chnote').innerHTML=`<b>Feed share by month:</b> Aug ${feedShare(0)}% · Sep ${feedShare(1)}% · Oct ${feedShare(2)}% · Nov ${feedShare(3)}%. Channel was backfilled by keyword over all ${D.total} records and spot-checked at ~85–90%; it is provisional and reclassified on sight during normal capture.`;
+let ac={};D.rows.forEach(r=>(r.a||[]).forEach(a=>ac[a]=(ac[a]||0)+1));
+const aim=document.getElementById('c3aim');let tot=0;
+ORDER.forEach(a=>{const n=ac[a]||0;tot+=n;if(!n)return;
+ const tr=document.createElement('tr');tr.innerHTML=`<td><b>${a}</b><div class="note" style="margin:0">${RULE[a]||''}</div></td><td class="num">${n}</td>`;aim.append(tr);});
+document.getElementById('c3aimn').textContent=Object.values(ac).reduce((x,y)=>x+y,0);
+if(!tot)aim.innerHTML='<tr><td class="note">no record coded yet</td><td class="num">0</td></tr>';
+const th=document.getElementById('c3th');
+TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.theme[k]||0;
+ const tr=document.createElement('tr');
+ tr.innerHTML=`<td><b>${k.replace(/_/g,' ')}</b></td>${cells.map(v=>`<td class="num">${v||'·'}</td>`).join('')}<td class="num"><b>${all}</b></td>`;
+ th.append(tr);});
+})();
+</script>
+
+
+<h3 class="subhead" style="margin-top:22px">3.6 · Instrument register — what each leg can actually see <span class="tag t-state">rebuilt, 2026-11-06 17:06</span></h3>
+<div class="panel">
+<p class="note" style="margin-top:0">Section 3 counts arrivals. This register says, leg by leg, whether a <b>number exists</b>, whether it has a <b>baseline to sit against</b>, and what would make us <b>retire</b> the instrument. Since 16:59 the two blank legs are no longer blank: legs 1 and 2 were rebuilt on <b>external series that already covered the period</b> rather than on fields this desk does not have. Definitions live in <code>/space/instrument/</code>; each object carries its inclusion rule, its sample bias, its falsifier and its kill condition.</p>
+<table><thead><tr><th style="width:19%">Leg</th><th>Source</th><th class="num">baseline</th><th>reads</th><th>kill condition</th><th>retirement rule</th></tr></thead><tbody>
+<tr><td><b>1 · Complexity cap</b><div class="note" style="margin:0">load on the dispute channel</div></td><td><code>CRS nationwide-injunction series, 2001–2026</code></td><td class="num">26 yrs</td><td><b>~91/yr annualised</b> vs ≤1.5/yr pre-2017</td><td>written</td><td class="note" style="margin:0">kill: rate falls to ≤1.5/yr over 12 months with no change in the counting standard</td></tr>
+<tr><td><b>2 · Elite overproduction</b><div class="note" style="margin:0">senior staff turnover + exit type</div></td><td><code>Tenpas / Brookings A-Team series, 1981–2026</code></td><td class="num">45 yrs</td><td><b>34% yr1</b> (Trump I), <b>~56% cumulative</b> (Trump II) vs 9–17% band</td><td>written</td><td class="note" style="margin:0">kill: forced+pressured exits in single digits for two consecutive years</td></tr>
+<tr><td><b>3 · Enclosure mutation</b><div class="note" style="margin:0">fence share of tracked firms</div></td><td><code>6 of 9 firms assigned</code></td><td class="num">1 observation</td><td><b>56% fence</b>, no series</td><td>fired</td><td class="note" style="margin:0">kill: lock-in reverses on the same names</td></tr>
+<tr><td><b>4 · Vanguard alignment</b><div class="note" style="margin:0">docking tests D1–D4</div></td><td><code>/space/docking_case (14)</code></td><td class="num">14 cases</td><td><b>absent</b>; 7 of 14 fired, 0 of 7 false alarms</td><td>written</td><td class="note" style="margin:0">kill: two ruptures by replacement while the leg reads absent</td></tr>
+</tbody></table>
+
+<h4 style="margin:18px 0 4px">Leg 1 baseline — the dispute channel, 26 years</h4>
+<table><thead><tr><th style="width:26%">Period</th><th class="num">cases</th><th class="num">per year</th><th>what it is</th></tr></thead><tbody>
+<tr><td>2001–2008 (Bush)</td><td class="num">6</td><td class="num">0.75</td><td class="note" style="margin:0">Harvard Law Review count — <b>narrower definition</b></td></tr>
+<tr><td>2009–2016 (Obama)</td><td class="num">12</td><td class="num">1.50</td><td class="note" style="margin:0">same narrower definition</td></tr>
+<tr><td>2017–2020 (Trump I)</td><td class="num">86</td><td class="num">21.50</td><td class="note" style="margin:0">CRS R48467 — <b>definition breaks here</b></td></tr>
+<tr><td>2021–2024 (Biden)</td><td class="num">28</td><td class="num">7.00</td><td class="note" style="margin:0">CRS R48467, same standard as above</td></tr>
+<tr><td>2025-01-20 to 2025-04-30</td><td class="num">25</td><td class="num">~91</td><td class="note" style="margin:0">CRS R48476, first 100 days — <b>annualised estimate, not a realised count</b></td></tr>
+</tbody></table>
+<div class="note"><b>The definition break is the honest part of this table.</b> The Bush and Obama counts come from a narrower study than the CRS series, and CRS says so itself. The jump from 12 to 86 is partly real and partly counting, so no line is drawn across 2017 and the pre-2017 years are shown as a <b>band</b> (≤1.5/yr), never joined to the later points. What survives the caveat regardless of counting standard: the Biden figure uses the same standard as Trump I and lands at a third of it, and the 2025 burst annualises 13x the pre-2017 band. Replace the estimate with a realised count when CRS R49022's successor publishes one.</div>
+<div class="note"><b>What this reads, and what it does not.</b> It measures judicial output against the executive — the queue in front of one processor. It cannot separate more illegal action from more willing courts from more litigious opponents, and it says nothing about whether the agencies, the career service or the states are saturated. Leg 1 as written is about the state's processing capacity being finite; this is one dial on that, not the whole gauge.</div>
+
+<h4 style="margin:18px 0 4px">Leg 2 baseline — senior staff turnover, 45 years</h4>
+<table><thead><tr><th style="width:26%">Administration, year one</th><th class="num">turnover</th><th>note</th></tr></thead><tbody>
+<tr><td>1981 Reagan</td><td class="num">17%</td><td class="note" style="margin:0">previous record before 2017</td></tr>
+<tr><td>1993 Clinton</td><td class="num">—</td><td class="note" style="margin:0">to fill</td></tr>
+<tr><td>2001 Bush</td><td class="num">—</td><td class="note" style="margin:0">to fill</td></tr>
+<tr><td>2009 Obama</td><td class="num">9%</td><td class="note" style="margin:0">lowest in the series</td></tr>
+<tr><td>2017 Trump I</td><td class="num">34%</td><td class="note" style="margin:0">double the previous record</td></tr>
+<tr><td>2021 Biden</td><td class="num">—</td><td class="note" style="margin:0">to fill</td></tr>
+<tr><td>2025 Trump II</td><td class="num">~56%</td><td class="note" style="margin:0">cumulative at ~20 months, not year one — not yet directly comparable</td></tr>
+</tbody></table>
+<div class="note"><b>The number that matters is not the rate, it is the exit type.</b> A-Team turnover cannot tell a purge from a fast-moving competent shop. Exits split four ways — forced, pressured, promoted, voluntary — and only the first two are displacement. That split does not exist yet: it requires coding every departure from 2025-01 to 2026-11 by type, and until it is coded the leg runs on three data points and one cumulative figure. <b>The rate is published; the claim resting on it is not.</b></div>
+<div class="note"><b>Why the old ratio was retired.</b> The previous leg read exits over seatings from <code>/space/repression_event</code>, which has no seating records at all — the denominator was structurally zero, so the instrument could never produce a number and was fashionable rather than measurable. The replacement denominator is the <b>initial cohort</b>, which is recorded at the start of every administration and does not depend on this desk noticing appointments.</div>
+
+<h4 style="margin:18px 0 4px">Leg 4 baseline — 14 registered docking cases, direction split</h4>
+<table><thead><tr><th style="width:26%">Case</th><th>D fired</th><th>direction</th><th>order</th></tr></thead><tbody id="dockBody"></tbody></table>
+<div class="note"><b>7 of 14 fired, 0 of 7 false alarms on the control set.</b> Direction splits the set 6 replacement to 1 restoration, and that split is what does the work: a fired leg 4 does <b>not</b> predict collapse — it predicts that the rupture comes from the vanguard, and Watergate is the case where it did not. The 1890–1914 boundary case shows the neighbouring failure: leg 4 absent and the order ruptured anyway, by external capture in 1914. <b>Both defects are recorded and neither is fixed</b> — the tests were drafted by someone who knew the outcomes, and 7 of 7 separation on a specification built around its own answers is a warning, not a result.</div>
+<div class="note"><b>What changed in the storage, not the reading.</b> Those 14 cases existed only as prose inside a note body. The board said "14 scored candidate acts" and <b>no code could count them</b>, so the register could not be audited or re-coded. One object per case now lives in <code>/space/docking_case</code> with <code>d_fired</code>, <code>direction</code> and <code>order_survived</code> as fields.</div>
+
+<p class="note"><b>Read this as the board's honesty layer.</b> Four legs now have a number. <b>One fired, one drifting, two measured but thin</b> — leg 1 rests on an annualised estimate with a definitional break underneath it, leg 2 on a rate whose meaning depends on a split nobody has coded. Quote it as <b>1 of 4 fired, 4 of 4 instrumented, 2 of 4 thin</b>. The previous line on this panel, "1 of 4 legs measured", is retired because it is no longer true.</p>
+</div>
+
+
+<h3 class="subhead" style="margin-top:22px">3.7 · Historical base rate — 25 control cases, 1517–2026 <span class="tag t-state">new, 2026-11-06</span></h3>
+<div class="panel">
+<p class="note" style="margin-top:0">The MGET legs were scored, but never against anything. This block takes every case in <code>/space/mget_control</code> (25), reads its four leg bands and its leg loads out of the case file, and sets them against <b>what actually happened in the window</b> — coded by hand into a <code>event_class</code> register with the basis stated per case, not inferred from the desk's own verdict and not from the model's score. Three fields are kept apart on purpose: <b>event</b> (what happened), <b>model score</b> (whether the desk's call held: 13 pass, 4 pass-on-class/miss-on-rupture, 2 strain, 1 pending, 1 open, 4 unclassified), and <b>leg bands</b> (what the instrument read). Mixing them is how a failed prediction becomes a passing one.</p>
+
+<table><thead><tr><th style="width:14%">Legs fired</th><th class="num">rupture</th><th class="num">P(rupture)</th><th class="barcell">rate</th><th>cases</th></tr></thead><tbody><tr><td class="num"><b>0</b> legs</td><td class="num">0/4</td><td class="num"><b>0%</b></td><td class="barcell"><div class="bar" style="width:1.2%"></div></td><td class="note" style="margin:0">pax-americana-1990-2000, post-war-settlement-1945-1970, sim-t1c-1993-year1-prediction, sim-t1c-1993-year1-verdict</td></tr><tr><td class="num"><b>1</b> legs</td><td class="num">1/9</td><td class="num"><b>11%</b></td><td class="barcell"><div class="bar" style="width:11.1%"></div></td><td class="note" style="margin:0">sim-t1-2017-aug-charlottesville, sim-t1-2017-jan-travel-ban, sim-t1-2017-may-comey, sim-t1-2017-oct-manafort-corker …</td></tr><tr><td class="num"><b>2</b> legs</td><td class="num">2/6</td><td class="num"><b>33%</b></td><td class="barcell"><div class="bar" style="width:33.300000000000004%"></div></td><td class="note" style="margin:0">british-fin-de-siecle-1890-1914, convergence-window-sept-2026, eastern-variant-china-full-leg-test, gilded-age-1870-1910 …</td></tr><tr><td class="num"><b>3</b> legs</td><td class="num">1/4</td><td class="num"><b>25%</b></td><td class="barcell"><div class="bar" style="width:25.0%"></div></td><td class="note" style="margin:0">crisis-2-civil-war, crisis-3-great-depression-wwii, crisis-4-millennial-awakening-chrysalis, western-sweep-2026-france</td></tr><tr><td class="num"><b>4</b> legs</td><td class="num">2/2</td><td class="num"><b>100%</b></td><td class="barcell"><div class="bar" style="width:100.0%"></div></td><td class="note" style="margin:0">crisis-1-american-revolution, western-sweep-french-revolution-1785</td></tr></tbody></table>
+<p class="note"><b>The curve is not monotonic.</b> Three legs fired gives 25% and two legs fired gives 33%, so counting legs is not a severity scale. The reason is in the next table: leg 2 fires on almost everything, including eras that ended quietly.</p>
+
+<h4 style="margin:18px 0 6px;font-size:13px;letter-spacing:.02em">Leg diagnostics — fire rate, and mean leg load by event class</h4>
+<div class="scroll"><table><thead><tr><th style="width:26%">Leg</th><th class="num">fires</th><th class="num">no rupture</th><th class="num">renewal</th><th class="num">external war</th><th class="num">civil war</th><th class="num">liberation</th><th class="num">open / current</th></tr></thead><tbody><tr><td><b>1</b> · complexity cap</td><td class="num">9/25 <span class="small">(36%)</span></td><td class="num">0.35</td><td class="num">0.95</td><td class="num">0.63</td><td class="num">0.95</td><td class="num">0.61</td><td class="num">0.86</td></tr><tr><td><b>2</b> · elite overproduction</td><td class="num">18/25 <span class="small">(72%)</span></td><td class="num">0.63</td><td class="num">0.95</td><td class="num">0.67</td><td class="num">0.95</td><td class="num">0.74</td><td class="num">0.82</td></tr><tr><td><b>3</b> · enclosure mutation</td><td class="num">10/25 <span class="small">(40%)</span></td><td class="num">0.28</td><td class="num">0.95</td><td class="num">0.61</td><td class="num">0.95</td><td class="num">0.67</td><td class="num">0.84</td></tr><tr><td><b>4</b> · vanguard alignment</td><td class="num">4/25 <span class="small">(16%)</span></td><td class="num">0.18</td><td class="num">0.08</td><td class="num">0.30</td><td class="num">0.50</td><td class="num">0.74</td><td class="num">0.27</td></tr></tbody></table></div>
+<p class="note"><b>Leg 2 fires in 72% of all cases and 9 of 14 no-rupture cases.</b> A field that is always high carries no information: the credential-surplus level has been elevated since the 1970s, so a level test measures <i>modernity</i>, not <i>excess</i>. It needs a deviation from trend, not a threshold. <b>Leg 4 is the only leg that separates the outcome</b> — 0.55 mean load on rupture cases against 0.18 on no-rupture — and it is the only leg that reads quiet in the two quiet eras (post-war settlement, 1933).</p>
+
+<h4 style="margin:18px 0 6px;font-size:13px;letter-spacing:.02em">Leg 4 as the selector, among cases with three or more legs fired</h4>
+<table><thead><tr><th style="width:16%">Leg 4 band</th><th class="num">n</th><th class="num">rupture</th><th class="num">P</th><th>outcomes</th></tr></thead><tbody><tr><td><b>fired</b></td><td class="num">2</td><td class="num">2/2</td><td class="num"><b>100%</b></td><td class="note" style="margin:0">liberation</td></tr><tr><td><b>elevated</b></td><td class="num">1</td><td class="num">1/1</td><td class="num"><b>100%</b></td><td class="note" style="margin:0">civil_war</td></tr><tr><td><b>quiet</b></td><td class="num">2</td><td class="num">0/2</td><td class="num"><b>0%</b></td><td class="note" style="margin:0">open, renewal</td></tr></tbody></table>
+<p class="note">Three of three cases with leg 4 fired or elevated ruptured; two of two with leg 4 quiet did not. n is 5, so this is a hypothesis with a 100% hit rate, not a rate. Two counter-cases are already visible and are printed rather than smoothed: <b>Glorious Revolution 1678</b> is a rupture with one leg fired, leg 4 alone, which is the strongest single piece of support for the selector; <b>1914</b> ruptured into external war with leg 4 low, which is the strongest single piece against it.</p>
+
+<h4 style="margin:18px 0 6px;font-size:13px;letter-spacing:.02em">What this changes in the model</h4>
+<p class="note" style="margin-top:0">The four legs are not four of the same thing, and scoring them the same way is the defect this table exposes. <b>Legs 1–3 are pressure</b> — continuous state variables, chronically elevated in any late-modern society, useful as an index of strain and useless as a classifier. <b>Leg 4 is conversion</b> — the variable that decides whether stored pressure discharges into a rupture or vents as reform. Turchin's own structure has the same asymmetry: elite overproduction is a slow structural trend across whole centuries, while elite disunity and legitimation failure are what cluster at the break. From this build the legs are scored separately: a <b>pressure index</b> (mean of legs 1–3, continuous, no threshold claims) and a <b>conversion read</b> (leg 4 band). Case-level falsifier: if leg 4 quiet cases begin rupturing as the 2026 window resolves, the selector is dead and the legs revert to a single pooled score.</p>
+<p class="note"><b>What is still missing.</b> Only 6 of 25 cases are ruptures, and the control set is not a random sample — it is the cases the desk chose to run, which over-weights crises it found interesting. The base rates above are base rates <i>of this panel</i>, not of history. Filling that needs quiet windows drawn on a rule (every fifth year, say) rather than on interest, which needs series for legs 1–3 that go back far enough — the leg 1 and leg 2 external series start in 1948 and 2000 respectively, so anything before 1948 is being scored off desk judgement, and the table says so by leaving the loads blank where the case file has no score.</p>
+</div>
+
+
+<h3 class="subhead" style="margin-top:22px">3.8 · The panel is an S&amp;H panel — and that changes what it can prove <span class="tag t-state">new, 2026-11-06</span></h3>
+<div class="panel">
+<p class="note" style="margin-top:0">Correction to 3.7. The 25 control cases were not picked for being interesting crises; they were drawn from the <b>Strauss &amp; Howe saeculum calendar</b>, which is the thing the whole apparatus exists to test. That is a stronger bias than interest, and a different one: the cases were selected <i>on the theory's own prediction of when regimes break</i>. Twenty-two of twenty-five map onto a turning, and every canonical Fourth Turning in the Anglo-American sequence is present (1773–94, 1860–65, 1929–46, 2008–). So the P(rupture) column in 3.7 is partly a property of the inclusion rule, not a finding about history. A panel built from a crisis list will find crises.</p>
+<p class="note">What the panel <i>can</i> do is the thing worth doing. Selection was on S&amp;H's window, <b>not</b> on the leg readings — so any discrimination the legs achieve <i>inside</i> a predicted crisis window is not contaminated by how the cases were chosen. That is the one non-circular test available here, and it is the test MGET has to pass to earn a place beside S&amp;H rather than under it.</p>
+
+<table><thead><tr><th style="width:30%">S&amp;H reading of the window</th><th class="num">n</th><th class="num">regime-level rupture</th><th class="num">no regime break</th><th>verdict on S&amp;H</th></tr></thead><tbody>
+<tr><td><b>Fourth Turning (full window)</b></td><td class="num">7</td><td class="num">4</td><td class="num">3</td><td class="note" style="margin:0">liberation ×3 (1776, 1789, 1688), civil war ×1 (1861); renewal 1933–46 and two open</td></tr>
+<tr><td>sub-windows <i>inside</i> the 2008– Fourth Turning</td><td class="num">8</td><td class="num">0</td><td class="num">8</td><td class="note" style="margin:0">by construction — month/year windows cannot rupture a regime</td></tr>
+<tr><td>non-crisis turnings (High / Awakening / Unraveling)</td><td class="num">7</td><td class="num">1</td><td class="num">6</td><td class="note" style="margin:0">the one is 1914, a boundary year, and it discharged <i>abroad</i></td></tr>
+<tr><td>off-calendar (1517, 1848, China)</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="note" style="margin:0">1517 discharges as confessional war; 1848 is a European crisis the Anglo calendar does not name</td></tr>
+</tbody></table>
+<p class="note"><b>S&amp;H's own record on this panel:</b> four canonical Fourth Turnings, four regime-level events, but only two replaced the regime (1776, 1861) — 1929–46 rebuilt the guardrails and kept the form, and two parallels (Brittany, 1688) resolved without a break. The calendar called the <i>timing</i> well and the <i>severity</i> loosely. Non-crisis windows stayed quiet except at a boundary year. That is a real hit on "crisis windows cluster regime stress," and it is silent on whether the cycle exists, because the non-crisis windows were also chosen by the desk rather than by rule.</p>
+
+<h4 style="margin:18px 0 6px;font-size:13px;letter-spacing:.02em">The non-circular test: do the legs discriminate inside a predicted crisis?</h4>
+<table><thead><tr><th style="width:34%">mean leg load, Fourth-Turning cases only</th><th class="num">leg 1</th><th class="num">leg 2</th><th class="num">leg 3</th><th class="num">leg 4</th></tr></thead><tbody>
+<tr><td><b>ruptured at regime level</b> (n=4)</td><td class="num">0.69</td><td class="num">0.79</td><td class="num">0.74</td><td class="num"><b>0.68</b></td></tr>
+<tr><td><b>did not</b> (n=9, incl. sub-windows)</td><td class="num">0.43</td><td class="num">0.76</td><td class="num">0.36</td><td class="num"><b>0.21</b></td></tr>
+<tr><td><i>same, full windows only</i></td><td class="num">0.87</td><td class="num">0.87</td><td class="num">0.87</td><td class="num">0.68 vs <b>0.17</b></td></tr>
+</tbody></table>
+<p class="note"><b>Legs 1–3 carry no information inside a crisis window.</b> 1929–46 and 2026 both read 0.95 / 0.95 / 0.95 on pressure, and one renewed while the other is open; the sub-windows sit at the same pressure level as the ruptures. Pressure is a property of the era, not of the resolution. <b>Leg 4 is the entire signal</b>: 0.68 among crises that broke the regime, 0.17–0.21 among those that did not, and the only leg that reads low in 1929–46 (0.08) — the crisis that rebuilt the guardrails instead of the regime.</p>
+<p class="note"><b>Two live calls fall out of this, both falsifiable.</b> (1) <b>France 2026</b> sits in its own Fourth Turning with leg 4 at 0.27 — quiet. The read is that the Fifth Republic survives the current crisis in institutional form, whatever happens to the government. (2) <b>The 2008– window</b> has leg 4 unparsed at the window level and elevated in three of eight sub-windows, never fired. The read is a regime-level rupture before 2029 only if leg 4 climbs into the fired band; on the current panel that has happened in the American Revolution and the French Revolution and nowhere else. If the window closes with leg 4 never fired and the regime nonetheless breaks, the leg-4 selector is dead.</p>
+<p class="note"><b>The limit, stated plainly.</b> This panel cannot test whether turnings exist. Testing S&amp;H requires windows drawn by rule without reference to the calendar — a fixed-year draw (every fifth year, say) scored blind, plus S&amp;H's own non-crisis predictions as matched controls. Until that exists, the honest claim is narrow: <i>within windows S&amp;H named as crises, a leg-4 reading separates the ones that resolved the regime question from the ones that did not.</i> That is a claim about a supplement to the theory, not a proof of the theory.</p>
+</div>
+
+
+<h3 class="subhead" style="margin-top:22px">3.9 · The blind draw — what the calendar is actually worth <span class="tag t-state">working tool, 2026-11-06</span></h3>
+<div class="panel">
+<p class="note" style="margin-top:0"><b>The test that was missing.</b> 3.8 could only test discrimination <i>inside</i> windows S&amp;H named. This section tests the naming itself, on a panel the calendar had no hand in selecting: <b>every 5th year from 1690 to 2020, forward 10-year window, per polity</b> — 272 windows across the US, UK, France and Germany. Rule fixed before events were coded; the draw is blind, the event coding is desk work and is shown in full so it can be attacked.</p>
+<p class="note"><b>Rupture</b> means replacement or reconstitution of the constitutional order — independence, a new constitution, a change of sovereign form. Not a change of government, not a change of party. 20 events: US 3, UK 2, France 10, Germany 5. Six further windows carry a constitutional mutation with the form retained (1832 and 1911 UK, 1933 US) and are coded <i>not rupture</i>.</p>
+
+<table><thead><tr><th style="width:34%">panel</th><th class="num">crisis windows</th><th class="num">other windows</th><th class="num">risk ratio</th><th class="num">Fisher p</th></tr></thead><tbody>
+<tr><td><b>Anglo (US+UK), Anglo calendar</b> — the theory's own domain</td><td class="num">7/50 = 14%</td><td class="num">1/86 = 1%</td><td class="num">12.0</td><td class="num">0.004</td></tr>
+<tr><td>US alone</td><td class="num">6/25 = 24%</td><td class="num">0/43 = 0%</td><td class="num">—</td><td class="num">0.002</td></tr>
+<tr><td>UK alone</td><td class="num">1/25 = 4%</td><td class="num">1/43 = 2%</td><td class="num">1.7</td><td class="num">1.00</td></tr>
+<tr><td>France alone</td><td class="num">9/25 = 36%</td><td class="num">11/43 = 26%</td><td class="num">1.4</td><td class="num">0.41</td></tr>
+<tr><td>Germany alone</td><td class="num">6/25 = 24%</td><td class="num">6/43 = 14%</td><td class="num">1.7</td><td class="num">0.33</td></tr>
+</tbody></table>
+<p class="note"><b>Those numbers are inflated and the inflated part is mine.</b> With a 5-year stride on 10-year windows each event is counted twice, so 272 windows contain only 20 events and the p-values treat overlapping windows as independent. Correcting that properly — a permutation test that places each polity's actual number of rupture years at random in 1680–2025 and asks how often as many land inside a crisis window — gives the honest figure:</p>
+<table><thead><tr><th style="width:52%">permutation test on event years, 40,000 draws</th><th class="num">observed</th><th class="num">null mean</th><th class="num">p</th></tr></thead><tbody>
+<tr><td>Rupture years falling inside an S&amp;H crisis window (5 windows cover 25% of the timeline)</td><td class="num"><b>9/20 (45%)</b></td><td class="num">5.1/20 (25%)</td><td class="num">0.048</td></tr>
+<tr><td>Distinct decade containing ruptures in 3 polities at once (clustering)</td><td class="num">3 (1940s)</td><td class="num">—</td><td class="num">0.48</td></tr>
+</tbody></table>
+<p class="note"><b>Read that carefully. The calendar is worth about 1.8×, and it is worth it on 20 events.</b> Not 12×: that was the overlap artefact. 45% of Western regime ruptures since 1680 fall inside one of five S&amp;H crisis windows covering a quarter of the calendar. Real, modest, and at the edge of significance on this sample. <b>The clustering claim fails outright</b> — ruptures do not bunch across polities beyond chance except in the 1940s, so "the West enters its crisis together" is not supported by this coding, and the deck should stop implying it.</p>
+<p class="note"><b>Scope holds.</b> The signal is Anglo. France and Germany show no timing effect (p 0.41, 0.33) — which is what S&amp;H actually claim: a British-American saeculum, not a Western one. That is a confirmation of the theory's boundary, and it means every parallel drawn from 1789, 1848 or 1933 Germany is analogy, not theory. Cite it as analogy or drop it.</p>
+<p class="note"><b>Power, stated so nobody over-reads it.</b> With 20 events and 25% calendar coverage, this panel can detect an effect around 2×. A true enrichment of 1.5× would come back null. So the honest conclusion is bounded in both directions: <i>the calendar's timing edge is not large, and this panel cannot rule out that it is real.</i> To do better needs more polities with older continuous constitutional records, or a longer window with better event coding — not more analysis of these 20.</p>
+
+<h4 style="margin:20px 0 6px;font-size:13px;letter-spacing:.02em">"X happened at every turning" — the signature, and where we are now</h4>
+<p class="note">Twelve features coded across all four canonical Fourth Turnings. All twelve are present in all four. The current window scores nine live and three partial.</p>
+<table><thead><tr><th style="width:23%">feature</th><th style="width:34%">at every turning</th><th style="width:9%" class="num">now</th><th>current reading</th></tr></thead><tbody>
+<tr><td><b>Elite factional split</b></td><td>Leisler vs Andros; patriot vs loyalist gentry; sectional elite breach; business elite vs New Deal</td><td class="num" style="color:var(--red)">live</td><td>Dhillon exit 11-05; Rubio succession fight with two poles; Vance breaking with Trump on Israel</td></tr>
+<tr><td><b>Contested succession</b></td><td>1688 succession; charter revocation; 1860 election then secession; 1932 election and court fights</td><td class="num" style="color:var(--red)">live</td><td>Alaska vote-transfer demand; Mississippi no-recount; California ballots rejected in hours; rigged-election narrative at profile level</td></tr>
+<tr><td><b>Executive self-extension</b></td><td>Dispensing power and Dominion; Coercive Acts; habeas suspension; court-packing and third term</td><td class="num" style="color:var(--red)">live</td><td>Texas emergency-powers strip and senate-rules strip; election-infrastructure memo; monument legacy act</td></tr>
+<tr><td><b>Purge and loyalty test</b></td><td>Andros officials ousted; loyalist expropriation; loyalty oaths; HUAC and internment</td><td class="num" style="color:var(--red)">live</td><td>Chaplaincy purge; GFO slot cut; officer removals; denaturalisation push; Detachment 201</td></tr>
+<tr><td><b>Press restriction</b></td><td>Licensing under Andros; loyalist presses shut; telegraph control; OWI</td><td class="num" style="color:var(--red)">live</td><td>White House media ban; press-ban injunction; pool restrictions</td></tr>
+<tr><td><b>New mobilisation medium</b></td><td>Print and coffee house; committees of correspondence; telegraph and cheap press; radio and newsreel</td><td class="num" style="color:var(--red)">live</td><td>AI-generated text at profile scale; ranked feed producing local micro-narratives within 24h</td></tr>
+<tr><td><b>Armed non-state formation</b></td><td>Bacon's men; Minutemen; guerrillas and Klan; Bund and strike violence</td><td class="num" style="color:var(--red)">live</td><td>Armed private postal guards; ICE-adjacent contractors; masked federal columns</td></tr>
+<tr><td><b>Territorial question</b></td><td>Frontier charters; Quebec Act and western lands; the territories; Pacific empire</td><td class="num" style="color:var(--red)">live</td><td>Alaska transfer demand as institutional carrier; Greenland annexation track</td></tr>
+<tr><td><b>Migration surge</b></td><td>Huguenot and frontier refugees; loyalist flight; contraband camps; Dust Bowl</td><td class="num" style="color:var(--red)">live</td><td>ICE enforcement deaths; LPR detention; deportation programme timed to elections</td></tr>
+<tr><td><b>External war</b></td><td>King William's War; French alliance; blockade; Pearl Harbor</td><td class="num" style="color:var(--amber)">elev</td><td>Iran decision window open; boat strikes; Hormuz routing; base-damage leak</td></tr>
+<tr><td><b>Fiscal strain</b></td><td>Colonial war debt; Continental finance; Confederate inflation; debt deflation</td><td class="num" style="color:var(--amber)">part</td><td>Capex unwind read as theme not macro; datacenter repricing; 10y-6% watch open</td></tr>
+<tr><td><b>Currency or debt repudiation</b></td><td>Paper money; Continental repudiation; Confederate collapse; gold confiscation</td><td class="num" style="color:var(--amber)">part</td><td>SPR runway as war bridge; reserve rotation; no domestic repudiation event</td></tr>
+</tbody></table>
+<p class="note"><b>The signature is saturated and that is the one thing it cannot tell you.</b> Twelve of twelve live is what a crisis window looks like by construction — these features were chosen because they appear in every turning, so of course 2026 has them; 2026 is inside a turning. This table is a <b>necessary-condition checklist</b> for the desk: it says the window is real in the sense that the conditions for resolution are assembled. It says nothing about which way it resolves. The resolution question still runs on leg 4, which sits at <b>elevated, not fired</b>: elite fracture is visible and public, but no faction has fused with a command apparatus. That is the gap between 1776 and 1929–46 in 3.8, and it is the single number to watch.</p>
+<p class="note"><b>What this tool will not do.</b> It will not call the outcome. On the record from 3.8 and 3.9 together: the calendar's timing edge is 1.8× and Anglo-scoped; the legs discriminate only through leg 4; the signature detects that a window is open and cannot rank resolutions. Anything stronger than that is being supplied by the analyst, not the instrument — and the instrument is now precise enough that a claim it cannot carry should be marked as a judgment call in the prose.</p>
+</div>
+
+
+<h3 class="subhead" style="margin-top:22px">3.10 · Pre-registered replication — and it does not replicate <span class="tag t-state">2026-11-06, run</span></h3>
+<div class="panel">
+<p class="note" style="margin-top:0"><b>Rule frozen before coding</b> (<a href="../../MGET/prereg-replication.json" style="color:var(--blue)">prereg-replication.json</a>): four settler polities (Canada, Australia, New Zealand, Ireland) plus deeper English time 1485–1688. Same rupture definition as 3.9, contentious cases deliberately excluded (EEC 1973, Brexit 2020) so the omission cannot inflate the count.</p>
+<table><thead><tr><th style="width:40%">panel</th><th class="num">in window</th><th class="num">null</th><th class="num">RR</th><th class="num">p</th></tr></thead><tbody>
+<tr><td><b>Deep English time</b> 1534–1688</td><td class="num">5/8 = 63%</td><td class="num">32%</td><td class="num">1.96</td><td class="num">0.075</td></tr>
+<tr><td><b>Settler replication</b> CA/AU/NZ/IE</td><td class="num">2/13 = 15%</td><td class="num">12.3%</td><td class="num">1.25</td><td class="num">0.49</td></tr>
+<tr><td>Anglo core pooled (US+UK)</td><td class="num">8/11 = 73%</td><td class="num">—</td><td class="num">—</td><td class="num">0.002</td></tr>
+<tr><td>Continental pooled (FR+DE)</td><td class="num">5/11 = 45%</td><td class="num">—</td><td class="num">—</td><td class="num">0.007</td></tr>
+</tbody></table>
+<p class="note"><b>Result: half replicates, half does not.</b> Deep English time lands at <b>1.96×, p=0.075</b> — same effect size as 3.9, independent events. The settler Anglosphere comes back <b>2/13 against 1.6 expected</b>. Canada 1867, Ireland 1922, and nothing in Australia or New Zealand.</p>
+<p class="note"><b>Read the settler null carefully, because it cuts both ways.</b> 13 events at 12% coverage detects a 3× effect only 57% of the time and a 2× effect just 19% of the time. The 90% interval on the risk ratio is <b>0.23–3.33</b>. So this is <i>absence of evidence</i>: it excludes a large settler effect and cannot exclude a 1.8× one. It is not a refutation. But the 3.9 result in the US rested on 6/25 against 0/43 — and the settler world, with equally good records and no author bias toward the conclusion, produced nothing.</p>
+<h4 style="margin:20px 0 6px;font-size:13px">The finding that matters more than any p-value</h4>
+<p class="note"><b>Every canonical window is drawn around an English or American rupture.</b> Codable check: the Glorious Revolution window 1675–1704 brackets 1688; the American window 1773–1794 brackets 1776 and 1787; the Civil War window 1860–1865 brackets 1861. Four more — Roses 1459–87, Reformation 1517–47, Armada 1580–1603, Puritan 1640–60 — bracket 1485, 1534, 1603 and 1649/1660. In other words <b>inside English history there is no clean test available at all</b>: the calendar was built from the events, so "the events fall in the windows" is close to definitional. The only windows in the entire system that were not fitted to the polity being tested are the ones the settler polities fall outside of.</p>
+<p class="note"><b>And the continental p-values are an artefact, not a result.</b> Hold France's events fixed and move only the year its clock starts: RR 2.44 from 1680, 3.95 from 1789, 3.52 from 1815, <b>5.74 from 1871</b>. The significance level is being set by an arbitrary span choice. A test that swings that far on an input nobody measured is not ready to carry weight — that part is my tool being wrong, and it is the honest reason to distrust 3.9's 0.048 as well.</p>
+<p class="note"><b>Verdict.</b> This is now a hypothesis problem more than a tool problem. The calendar reliably describes the world it came from and does not extend beyond it. The tool is fine; the instrument is answering a question that was partly built into it. Usable position: <i>the saeculum is a periodisation of Anglo-American history that has not survived its first out-of-sample test.</i> It remains a legitimate framing device and a legitimate hypothesis; it is not yet a predictor, and the board must stop presenting its timing as confirmed.</p>
+</div>
+
+<h2>4 · Institutional coverage — where the dial set has holes</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Eight dials was not a list of institutions, it was a list of <b>the ones that happened to be scored</b>. Audited against four admission rules, and the audit found real gates and real capture targets missing from the set:</div>
+ <table style="margin-top:10px"><thead><tr><th style="width:20%">Rule</th><th>Test</th></tr></thead><tbody>
+  <tr><td><b>R1 · Gate</b></td><td>Does it sit astride a decision another actor must clear to complete a transfer of function? A gate is a veto, not an opinion.</td></tr>
+  <tr><td><b>R2 · Capture target</b></td><td>Would its compliance decide whether an enforcement action actually lands on the street, or whether a claim can be published at all?</td></tr>
+  <tr><td><b>R3 · Not already inside a dial</b></td><td>Sub-components do not get their own dial. The bar is not the courts; the accreditation office is not the university.</td></tr>
+  <tr><td><b>R4 · Scoreable</b></td><td>Can a hand-set score be defended at the monthly review from public observables? If you cannot name the observable, it is a mood, not a dial.</td></tr>
+ </tbody></table>
+ <table style="margin-top:18px"><thead><tr><th style="width:22%">Candidate</th><th>R1</th><th>R2</th><th>R3</th><th>R4</th><th>Verdict</th></tr></thead><tbody id="gapBody"></tbody></table>
+ <div class="note" id="gapNote"></div>
+</div>
+<div class="panel" style="margin-top:10px">
+ <h3>The series break nobody would notice</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">Adding dials changes the mean by arithmetic, not by news. Media at 84, State Governments at 70, Local Law Enforcement at 74 and Arts and Expression at 83 take the set from 8 to 12: the <b>mean moves 78 → 78</b> (627 ÷ 8 = 78.4; 938 ÷ 12 = 78.2 — it rounds back to the same integer), while <b>dials at Critical falls from 5 of 8 to 7 of 12</b>, or 63% to 58%. Nothing got calmer and nothing got worse. Two Warning dials diluted the share; one further Critical dial restored part of it.
+ <div class="note"><b>Rule adopted:</b> every reading stores its set version (<code>8-dial-2026-10</code> → <code>12-dial-2026-11</code>) and no mean or Critical share is ever compared across a set change. A mean published without a set version is a FAIL at the gate. The twelve-dial set is the baseline from today; every future addition is a dated recalibration, never a quiet append.</div>
+ </div>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>What the audit could not have found, and how Arts got in</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">The candidate list above was generated by a frame, and the frame had a bias: every name on it holds either a <b>formal veto</b> (a court, a certification, a governor's Guard authorisation) or a <b>licence</b> (a broadcast authorisation, an accreditation, an appropriation). Institutions whose power is <b>legitimation rather than procedure</b> — a stage, a museum, a schedule, a canon — hold neither, so R1 failed them on the way in and the audit never reached the question of whether they matter.
+ <div class="note">Arts and Expression was not found by the audit. It was named, and it had to be, because the case is already in the record and none of it is speculative: a federal court refused to inscribe the president's name on the Kennedy Center, holding that Congress holds naming authority; <b>the board he controls voted to shut the building hours later</b>, citing a structural emergency and a $23M deficit, with the stated remedy being his name on the facade to secure promised funding; fencing went up the next day and a sworn declaration describes a forklift running into the pillars; the $257M congressionally approved renovation was linked publicly to "recognition." Judge Cooper then imposed thirty days' notice before demolition plus a sworn status report. That is a captured flagship, a conditioned money valve, and an executive in open compliance-and-continue around an expressive institution — scored <b>83, Critical</b>, below Civil Service at 90 and Education at 86, above the courts at 81.</div>
+ <div class="note"><b>What keeps it under 90:</b> the naming ruling held; the notice order is live; Rep. Beatty's suit is active; no endowment statute has been rewritten; and no artist-visa or grant-conditioning campaign appears anywhere in the record. The dial scores a captured flagship, not a purged field. <b>What would move it down:</b> the renovation money released without a naming condition, or the building reopened on court order with the name struck. <b>What would move it up:</b> the first grant or visa denial tied to the content of a work.</div>
+ <div class="note"><b>Gate rule adopted:</b> a candidate list must contain at least one institution whose function is legitimation, not procedure. Without that line, the audit will always return the institutions that issue permissions and never the ones that issue meanings.</div>
+ </div>
+</div>
+
+<h2>5 · Registers — what each pile can and cannot tell you</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">
+ <b>A forecast</b> is a bet: a claim with a price, a deadline and two possible endings. It is the only pile that can be right or wrong, so it is the only pile that scores.<br>
+ <b>An accumulation</b> is a tally: no deadline, no resolution, just a count that goes up. Useful as a measurement, useless as a prediction — a tally can never be wrong.<br>
+ <b>A thesis</b> is a frame: an argument about how the system works. No deadline either, so nothing settles it, so it sits there burning attention while looking unfinished.
+ </div>
+ <div class="rail" id="rail"></div>
+ <div class="legend" id="legend"></div>
+ <table style="margin-top:16px"><thead><tr><th>Register</th><th class="num">Cards</th><th class="num">Resolved</th><th class="num">Rate</th><th>What a low rate means</th></tr></thead><tbody id="regBody"></tbody></table>
+ <div class="note">Rate is resolved divided by the cards that can score. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
+ <div class="note"><b>The distinction that changes the headline.</b> Twelve cards carry an outcome. Four of them are grandfathered pre-gate cards whose anchors were written after the fact, so they are held out of scoring. Score every resolved card and the forecast rate reads 12 of 58, 21%. Score only the cards that could be scored honestly and it reads 8 of 47, 17%. The second number is the one the board should print; the first is what a careless count produces. A gate rule should enforce the arithmetic rather than trust the reading: <code>resolved &amp;&amp; skill_eligible===false</code> must produce a stated quarantine reason, or the push fails.</div>
+</div>
+
+<h2>6 · MGET wire ledger</h2>
+<details class="dr" id="ledwrap">
+  <summary><span class="cue">WIRE LEDGER</span><span class="lead" id="ledlead">Loading…</span><span class="small" id="ledmeta"></span></summary>
+  <div id="ledger"></div>
+</details>
+<div class="note">Not dropped. The ledger is the running record of what the wire said against each leg — every entry is a dated observation with a verdict, and it is the only place the model can be caught being wrong on a Tuesday. Collapsed by default because it is 469 entries and grows by roughly ten a day, and <b>grouped by age</b> so an old entry can never pose as a new one: last 7 days, last 30, older. Twelve per group, newest first, with a count on every group header. Full run stays on the live board.</div>
+ <div class="note"><b>How to read a row.</b> The right-hand stamp is when it was filed. The label on the left is derived from the entry itself, not from the track name — <i>genre</i> is what the wire was carrying (oil, courts, media), <i>subject</i> is what the entry is about, and the NAME chip is a named actor only when the entry names one. The scraped track string is kept in the tooltip, where it cannot be read as a claim. Entries with no time filed show a date alone; an entry with no time is not a claim about the morning.</div>
+
+<h2>7 · Data dictionary</h2>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Every term this board uses in a way that is not ordinary English, plus where each number comes from. The provenance column replaces the old "what is real on this page" card: it answers the same question next to the thing it describes, instead of in a separate box you have to remember.</div>
+ <table style="margin-top:12px"><thead><tr><th style="width:22%">Term</th><th>What it means</th><th style="width:20%">Where it comes from</th></tr></thead><tbody id="dictBody"></tbody></table>
+</div>
+
+<div id="drill" class="drill hidden" role="dialog" aria-modal="false" aria-labelledby="drillTitle">
+ <header><b id="drillTitle">Evidence</b><span class="small" id="drillMeta"></span><span class="x" id="drillX" role="button" tabindex="0" aria-label="Close">✕</span></header>
+ <div class="body" id="drillBody"></div>
+</div>
+
+<h2>8 · Change log</h2>
+<div class="panel">
+ <div id="changelog">
+ <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.16-preview</b></span></div><div class="z15"><b>The three tags now explain themselves.</b> FLOW, STOCK and STATE are the board's grammar and the page never said what they meant: FLOW is a count per unit of time, STOCK is a holding read at one moment and hand-set once a review, STATE is a yes/no gate that has no score. Every tag, every leg letter and every leg heading now carries its definition on hover — on a phone, on tap and focus — and the copy is <b>generated from <code>/space/term</code></b>, one object per term, into <code>data.json</code> <code>terms[]</code>. A tooltip cannot drift from its source, and the gate fails a page whose term resolves to no definition (<code>docs.hover_terms</code>). Changelog-style tags that merely borrowed a colour — <i>new, 2026-11-06</i>, <i>INSTRUMENT</i> — were deliberately left untooltiped rather than given a definition that would have been false.</div></div>
+ <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.16-preview</b></span></div><div class="z15"><b>The flow panel is generated, not typed.</b> The accumulation-flow card in 2.1 printed four hardcoded figures — 21 cases, 21 channels, a weighted total — that nothing in <code>/space</code> produced, and section 3's specimens-per-week was the board's only real flow. The card now reads the E leg from a generated payload (<code>flow_panel.json</code>, built from <code>/space</code> on 11-07): <b>recorded state enforcement events per month</b>, with the desk's own recording rate — journal entries per month — as the control, because raw enforcement counts fall when the desk is quiet, not when the state is. A second panel splits unique events by type. The G leg gets the opposite treatment: <b>printed as a blind spot, not a chart</b>. There is no legitimation series in <code>/space</code> at all, so the panel names what a series would require instead of drawing a line through nothing. The hardcoded FLOW table is gone; every figure on the card is counted at generation. Standing lesson: Q1's denominator was endogenous, Q2 had none. Flow builds name the denominator before the numerator, and say so when it is not independent.</div></div>
+ <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.14-preview</b></span></div><div class="z15"><b>The belief ledger becomes section 0 — the first major change since v1.</b> The board now opens on what it used to claim and what happened to each claim: seven v1 statements, the test that moved each one, and the verdict. One is <b>downgraded</b> (the turning calendar, which failed its first out-of-sample test), one <b>withdrawn</b> (continental windows, exposed as a span artefact), one <b>refuted</b> (window independence, tautological inside English history), two <b>rebuilt</b> (legs 1–2 and leg 4, which existed as hand-set anchors and as prose respectively). Nothing was deleted — the record of being wrong is the product. Backing objects live in <code>/space/belief_ledger</code>, one per row, and the rule is <a href="../../../../space/protocol/belief-ledger.json" style="color:var(--blue)">/space/protocol/belief-ledger.json</a>. Five open commitments now carry a falsifier and a scoring date, because an experiment running in public needs a stop condition or it becomes permanent framing.</div>
+<div class="z15"><b>Snapshotting begins.</b> Every build that changes a reading or a claim is frozen to the internal archive before it ships, when the change is structural — so "the board said X last week" is checkable by opening it, not by trusting a log line. Two snapshots exist: v4.13 before this section, v4.14 with it. Snapshots are immutable and stay internal; corrections go in the next one.</div></div>
+
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.13-preview</b></span></div><div class="z15"><b>Pre-registered replication: half holds, half fails.</b> Deep English time 1534–1688 comes back at <b>1.96×, p=0.075</b> — same effect, independent events. The settler Anglosphere (Canada, Australia, New Zealand, Ireland) comes back <b>2/13 against 1.6 expected, p=0.49</b> — Canada 1867 and Ireland 1922, nothing anywhere else. That null is underpowered (90% interval on the risk ratio 0.23–3.33), so it excludes a large effect and not a 1.8× one; but it is the first test the calendar did not help build, and the calendar did not win it. <b>The deeper finding: every canonical window was drawn around an English or American rupture</b>, so inside English history the test is close to definitional and no clean test exists. And the continental p-values turn out to be a span artefact — France swings 2.44× to 5.74× on the start year alone, which is also the honest reason to discount 3.9's 0.048. <b>Conclusion moves from tool problem to hypothesis problem.</b> The saeculum is a defensible periodisation of Anglo-American history that has not survived out-of-sample. Keep it as framing and hypothesis; stop printing its timing as confirmed.</div></div>
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.12-preview</b></span></div><div class="z15"><b>Blind draw, and it deflates the calendar to what it is worth.</b> 272 rule-drawn windows (every 5th year, 1690–2020, four polities, forward 10 years) with 20 regime ruptures coded from constitutional history. The raw contingency table reads 12× risk ratio and p=0.004 for Anglo — <b>that figure was inflated by overlapping windows and is retracted here</b>. The permutation test on the actual event years, which cannot double-count, gives <b>9 of 20 ruptures inside a crisis window against a 25% calendar footprint, p=0.048</b>: a real edge of about <b>1.8×</b>, on 20 events. The cross-polity clustering claim <b>fails</b> (p=0.48) — the West does not enter crisis together, and the deck should stop implying it. Scope holds: France and Germany show no timing effect, exactly as an Anglo-American saeculum predicts, which makes 1789 and 1933 legitimate as analogy and illegitimate as theory. The signature table is now built — twelve features present at all four canonical turnings, nine live and three partial today — with the honest reading printed beside it: <b>a saturated checklist cannot rank resolutions.</b> Leg 4 stays the only resolution instrument, sitting at elevated and not fired. The tool is now bounded in both directions, which is what makes it usable.</div></div>
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.11-preview</b></span></div><div class="z15"><b>The control panel is an S&amp;H panel, and that is the correction that matters.</b> The 25 cases were not picked for interest — they were drawn from the <b>Strauss &amp; Howe saeculum calendar</b>, which is the proposition the tool exists to test. So 3.7's P(rupture) column is partly a property of the inclusion rule: a panel built from a crisis list finds crises. What survives is the test that is <i>not</i> contaminated — selection was on S&amp;H's window, not on the leg readings, so any discrimination the legs achieve <i>inside</i> a predicted crisis window is clean. Result: <b>legs 1–3 carry no information inside a crisis window</b> (1929–46 and 2026 both read 0.95 on pressure; one renewed, one is open), while <b>leg 4 separates 0.68 from 0.17–0.21</b> — and leg 4 is the only leg reading low in 1929–46, the crisis that rebuilt the guardrails rather than the regime. That is MGET earning a place beside the calendar instead of underneath it. S&amp;H's own record on the panel, printed straight: four canonical Fourth Turnings, four regime-level events, two regime replacements. Two live falsifiable calls fall out — France 2026 (leg 4 quiet, Fifth Republic survives in institutional form) and the 2008– window (regime break before 2029 needs leg 4 to fire; if it breaks without firing, the selector is dead).</div></div>
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.10-preview</b></span></div><div class="z15"><b>The legs get a baseline, and it reorganises them.</b> New 3.7 takes all 25 control cases in <code>/space/mget_control</code> and sets the four leg bands against a hand-coded <b>event class</b> — what actually happened in the window — kept strictly apart from the desk's model score and from the leg readings. Three findings. (1) <b>Counting legs is not a severity scale</b>: P(rupture) is 0% at 0 legs, 11% at 1, 33% at 2, 25% at 3, 100% at 4 — non-monotonic, because leg 2 fires on almost everything. (2) <b>Leg 2 is close to a constant</b> — 72% fire rate overall and 9 of 14 no-rupture cases — so its threshold is measuring chronic modernity, not excess; it needs a deviation-from-trend, not a level. (3) <b>Leg 4 is the only leg that discriminates</b>: mean load 0.55 on ruptures against 0.18 on quiet eras, and among cases with three or more legs fired it is 3/3 for fired-or-elevated and 2/2 for quiet. The consequence is a change to the instrument, not just to the page: legs 1–3 become a continuous <b>pressure index</b> with no threshold claims, leg 4 becomes the <b>conversion read</b>. Counter-cases printed, not smoothed: Glorious Revolution 1678 ruptured on leg 4 alone, 1914 ruptured with leg 4 low. Register lives in <code>/space/protocol/mget-measurement-layer.json</code>; the coding basis for every case is written into the baseline file rather than left to regex.</div></div>
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.9-preview</b></span></div><div class="z15"><b>Section 3 gains a composition block: channel and target.</b> The velocity rate counts arrivals; it cannot separate a supply-side push from an audience-side pull, and the two move the same counter. New 3.5 prints three fields over all 225 records — <b>channel</b> (national supply watch / direct principal / both / feed / desk), <b>aim</b> (who the frame degrades, coded from the text, never from the producer), and theme by month. The finding the block adds is a regime change inside the corpus: September is <b>100% supply watch, 0% feed</b>; November is <b>53% feed or both</b>. A pooled rate mixing those proportions measures the sampler as much as the country, which is why the split is printed beside the rate rather than under it. Aim is deliberately shown near-empty — 1 record coded — because a 24-record pilot is not data and a target share quoted from it would be the exact defect the field was added to fix. The panel also states the missing instrument: feed records are hits by construction, so penetration has no denominator until a fixed 8–12 narrative supply list is checked for presence or absence on a schedule. Full review build with drill-down on every count at <code>mock/CASS Dashboard Mockup.html</code>; this block is the summary. Sampling method unchanged and still not the owner's assertion: two instruments, deliberate pundit-watch and algorithmic encounter, graded separately from here.</div></div>
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.7-preview</b></span></div><div class="z15"><b>Two numbers on this page were unauditable; both now open.</b> The 3.2 flank row and the wire-ledger card each open a drawer holding the rows behind them — for 3.2, the specimens counted under that exact key (basename, date, theme, newest first); for the ledger, the entry verbatim with date, verdict, track, legs tested, full reasoning and the /space path it came from. Both read the data layer: <code>flank.json</code> now carries a <code>rows</code> map keyed by the same flank the count was made under, so the drawer resolves to the same denominator as the figure beside it rather than to a looser dataset. The corpus counter and coded ratio on the readings table are now stamps, not hand-typed: 224 specimens and 185 coded at this build, up from 219 and 87, because today's captures landed. Where the counter and the drawer list disagree, the panel says so rather than hiding it. Esc or ✕ closes. No new claim: the split is still not the finding.</div></div>
+  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.6-preview</b></span></div><div class="z15"><b>Dictionary audit, and the one collision it found.</b> The dictionary had two terms defined twice with different meanings — <b>Stock</b> meant both the institutional dial readings and a point-in-time level, and <b>Flow</b> meant both the accumulation census and a rate of movement — so a reader looking up either word got the wrong definition half the time. Fixed by naming the four senses separately: <b>Census flow</b>, <b>Stock reading</b>, <b>Flow reading</b>. A stray empty entry in the array is removed. Eight terms added for words this board uses as terms of art and never defined: instrument, scoreable / unscoreable, hit / miss, quarantine, register rate, institutional stress mean, critical share, and the stock-versus-flow distinction itself, which is the one that makes the dial set legible.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.5-preview</b></span></div><div class="z15"><b>New section 3: Absorption velocity.</b> The board could see stocks and not flows, which is why a month of administrative accumulation read as calm. This section counts the thing that actually moves: 219 specimens, 8 weeks of rate, 45 right-flank / 25 reciprocal / 17 left-flank among the 87 direction-coded, and the theme mix led by narrative repair at 53. The finding is the rate — 7 → 13 → 39 → 65 into the election, a fall to 8, then a 4× step back to 33 the week after the defeat. <b>High stock with rising flow</b> is the combination no stock can express. Falsifier and sampler bias printed on the panel, not hidden. Sections renumbered: institutional coverage is 4, registers 5, ledger 6, dictionary 7, change log 8. Dictionary gains six terms: stock, flow, specimen, absorption velocity, capture skew, reciprocal pair.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.4-preview</b></span></div><div class="z15"><b>Four changes.</b> (1) <b>Dial set v2</b>: Arts and Expression admitted at 83 Critical on a named request, alongside Media and Press, State Governments and Local Law Enforcement — twelve dials, mean unchanged at 78 (627÷8 = 78.4, 938÷12 = 78.2), Critical share 63% → 58%, set version stored with every reading. The three previously dashed gauges are solid and inside the mean. (2) <b>Why the audit missed it</b>: the candidate list was generated from vetoes and licences, and legitimation institutions hold neither. Stated on the page with the gate rule that fixes it. (3) <b>Ledger defaulted</b>: grouped by age — 7 days, 30 days, older — with derived genre and subject labels, time printed only when filed, NAME chips capped at two, the scraped track string demoted to a tooltip, and a more/less expand on every row. (4) <b>Data dictionary</b> extended by eight terms: dial set version, legitimation, key-stake test, blind spot, genre, subject, NAME chip.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.3-preview</b></span></div><div class="z15"><b>This is now the default view.</b> The edition is open and all ten cards are shut on load, so the section reads as a scannable index of the day: ten stamps, ten headlines, one click each. Previously it opened collapsed at both levels. Card bodies untouched.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.2-preview</b></span></div><div class="z15"><b>Daily Read nested two deep.</b> The section opens on an edition line — date, card count, newest first — with each card beneath it as its own collapsible row carrying its filing time and headline; the newest card is open, the rest are one click. A Daily Read Archive button closes the block. Nothing in the card bodies changed: still five beats per card, still public-facing prose.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.1-preview</b></span></div><div class="z15"><b>Prior: five revisions, applied.</b> (1) Daily Read is collapsible, closed by default, lead headline and card count in the summary line. (2) The MGET model now sits directly under it — whole model, then the four legs with the brightness meter on each, then the institutions beneath them. (3) The institutional set gains an admission audit against four rules: Media and Press, State Governments and Local Law Enforcement admitted, with the series break stated; three held, two rejected, one named as a blind spot. (4) The audience fork card is cut. (5) A data dictionary of 23 terms and a change log, both on the page; the wire ledger is kept, collapsed, and nothing was dropped.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
+  <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
+ </div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.16-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+</div>
+
+<div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
+</div>
+<script>
+const ANCHORS={
+ M:{name:"Material",anchors:[["Energy chokepoint","Hormuz constrained, not closed. Tanker war-risk premia elevated but transit continuing",3],["Cost reaching household budgets","Cost is the binding constraint before any physical shortage shows in a statistic",4],["Fiscal and reserve buffer","SPR drawdown continues. Strain in the buffer, not yet in the market",3],["Food and fertiliser throughput","Fertiliser supply stress has not become a food shortage",3]]},
+ G:{name:"Governance",anchors:[["Federal courts","81 on the dial. Still enjoining, docket now aimed at election administration itself",4],["Congress","72. Majority passive through the strike clock",4],["Election administration","Certification contested in multiple states; officials under subpoena",4],["Civil service and military","Compliance intact at the top, friction at the edges",3]]},
+ E:{name:"Enclosure",anchors:[["Detention capacity","Expansion awarded and running at named facilities",4],["Domestic enforcement reach","Federal agents in cities over state objection; guard augmentation",4],["Statutory non-enforcement","Enumerated statutes published as not enforced",3],["Surveillance and data consolidation","Procurement merged across agencies",2]]},
+ T:{name:"Turning",anchors:[["Conflict intensity","Sustained street confrontation, no sustained organised violence",4],["Elite turnover","14 of 15 eventually leave, median 64 days. Turnover is not defection",3],["Replacement authority articulated","D2: no organised body has named an alternative authority",1],["Transfer act completed","D4: no dated act has moved a constitutional function to a rival",0]]}
+};
+// Additions under the 2026-11-05 coverage audit. Scored on the dial scale, admitted to the mean only with a set version.
+/* Dial set v2, 2026-11-05. Four dials admitted under the coverage audit at section 3.
+   All four clear R2 (capture target) and R4 (scoreable); Arts and Media fail R1, which is
+   the point: they are capture targets, not gates. The mean rounds to the same integer
+   either way (627/8 = 78.4, 938/12 = 78.2), so no board number moves. Set version: 12-dial-2026-11. */
+const ADMITTED=[
+ ["Media and Press",84,"Critical","decides whether a claim can be published at all"],
+ ["State Governments",70,"Warning","certification and Guard authorisation"],
+ ["Local Law Enforcement",74,"Warning","whether the locals show up"],
+ ["Arts and Expression",83,"Critical","whether a work can be staged at all"]
+];
+const GAPS=[
+ ["Media and press",'no formal veto — legitimation, not law','yes — decides whether a claim can be published at all','open','yes — pool access, ban coverage, ownership, WH static channel','ADD','add','84 · Critical. The one he named, and it clears R2 and R4 cleanly. R1 fails, which is the point: it is a capture target, not a gate.'],
+ ["State governments",'yes — certification, guard authorisation, state charges','yes — a governor can refuse to send the Guard','open','yes — AG suits, certification refusals, legislative actions','ADD','add','70 · Warning. The largest single hole. In a federal system the states are the body that either resists or ratifies, and nothing on the board scores them.'],
+ ["Local law enforcement",'no','yes — the street-level base of any enforcement programme','open','yes — cooperation refusals, deputisation, task-force participation','ADD','add','74 · Warning. Federal reach is already an Enclosure anchor; what is missing is whether the locals show up.'],
+ ["Arts and expression",'no — appointment power and a building, not a veto','yes — decides whether a work can be staged at all','open','yes — closures, funding conditions, court dockets, naming fights','ADD','add','83 · Critical. Added late and by hand: the first audit could not have produced it, because every candidate in the list carried a formal veto or a licence and this one carries neither. See the note below.'],
+ ["Statistical agencies",'no','yes — the state\'s ability to know anything','open','partial — publication suspensions are observable, quiet revisions are not','HOLD','hold','76-range estimate. Real, but R4 is shaky: the observable is the absence of a release, which is hard to date and easy to miss.'],
+ ["Universities and accreditation",'no','partial — accreditation is the gate, not the university','open','yes','HOLD','hold','72-range. Clears R4. Held because the capture runs through grant and visa channels already inside Congress and Education.'],
+ ["Intelligence community",'no','yes — but it is an instrument, not a gate','open','no — the informative readings are not public','REJECT','no','Scored inside Military Leadership, badly. Named as a known blind spot rather than solved by a dial.'],
+ ["Bar and legal profession",'no','partial','already inside Federal Courts','yes','COVERED','no','Sanctions and disciplinary action move through the courts dial.'],
+ ["Religious institutions",'no','no — legitimation only','open','yes','REJECT','no','Clears R4 and fails R1 and R2. The channel it carries is the media one.'],
+ ["Labour unions",'no','weakened','open','yes','REJECT','no','No scoreable gate left. Nothing to measure that would change a reading.'],
+ ["Hospitals and health systems",'no','partial','already inside Health Agencies','partial','COVERED','no',''],
+ ["Federal grant-making and OMB",'yes — money is a gate','yes','partly inside Congress','yes','HOLD','hold','The administrative money valve. Admit at the next full recalibration, not mid-cycle.'],
+ ["Rank-and-file military",'no','yes — the one that matters if T ever fires','open','no — not at monthly review cadence','BLIND SPOT','no','Military Leadership scores the leadership, not the force. Say so on the panel rather than paper over it.']
+];
+const DICT=[
+ ["Leg","One of four engines the model watches: Material, Governance, Enclosure, Turning. MGET names which engine is driving, never the outcome.","model definition, /space"],
+ ["Fired / absent","A leg's own operational state. Fired means its stated test has been met by a dated act. Absent means it has not, whatever the load reads.","model definition, /space"],
+ ["Load","Pressure on a leg, 0 to 100, computed as (sum of four anchors ÷ 4) × 20. Load is not state.","computed from the anchors"],
+ ["Anchor","One named, observable input to a leg, scored 0 to 5 on a written six-point scale. An anchor that cannot cite its observable may not score above 2.","hand-scored, one coder"],
+ ["Gate","Whether all four legs are fired. Closed means the model is not yet claiming the rupture; open means it is.","computed from legs fired"],
+ ["Phase","Which stage of the turning the model is in, with a dated close. The phase is a claim, so it can be early, late, or wrong.","model definition, /space"],
+ ["Census flow","Administrative acts admitted into the accumulation census, weighted 3 statutory or contractual, 2 institutional arrangement, 1 episodic enforcement. A count of acts, not a rate of change: it goes up as cases are admitted and never comes down.","census, pinned on this page"],
+ ["Case","One admitted act at one named facility or agency, at announced scale. Admission happens on the trigger event, never on a later judgement of effect.","census, /space"],
+ ["Channel","One of thirteen institutional routes through which an admitted case can run. A channel closes when no new case lands in it for 90 days.","census, /space"],
+ ["Kill condition","The reading that would retire an instrument. For flow: fewer than 2 cases per 90 days. Without one, a tally can only ever grow.","protocol"],
+ ["Stock reading","A level measured at a point in time and not again until someone re-measures it. Every institutional dial and all four legs are stock readings, which is why they can sit still for a month and then jump. The opposite is a flow reading.","hand-set at each review"],
+ ["Dial","One institution's captured-ness, 0 to 100, 0 slack to 100 captured. Hand-set at each review from public observables, with the derivation recorded.","hand-set, mget_state.json"],
+ ["Band","Calm below 60, Warning 60 to 74, Critical 75 and above. Derived from the score, never typed separately.","computed from score"],
+ ["Register","One of three piles the record divides into. Only the forecast register can score.","computed from card class"],
+ ["Card class","EVENT, PERSISTENCE or ROLLING (forecast, scoreable) · THESIS or MECHANISM (frame, not scoreable). Printed on every card.","card field"],
+ ["Resolution","hit or miss for a scored card; unresolved while open; excluded when it is not a public claim.","card field"],
+ ["Window / expiry","The dates a forecast is answerable between, and the date after which an unresolved card is a miss by rule. No window may be amended once its outcome is visible.","card field"],
+ ["Anchor grade","A to E, how well the card was anchored at registration: window, price, resolution threshold and source all stated in advance.","card field"],
+ ["Confidence","The registered price, 0 to 100. Not a probability of being right about everything — a price on one stated claim.","card field"],
+ ["Public status","public, internal or pending adjudication. Internal cards are withheld from the public export by name, not by silence.","card field"],
+ ["Accumulation","A tally with no deadline. Cannot be wrong, which is exactly why it is not scored.","definition"],
+ ["Thesis","A frame with no deadline. Nothing settles it, so it costs attention without ever resolving.","definition"],
+ ["Wire ledger","The record of items read: one row per item, with date and what it established. A log, not a score — nothing in it counts as a resolution, and it is never trimmed.","live from the export /space/mget_ledger"],
+ ["Series break","A change in what a number measures. The dial set going 8 to 11 is one: a mean or a Critical share from before it cannot be compared with one after it.","stated per set version"],
+ ["Provenance","Where a number on this page comes from: live from the export, computed from other numbers, or hand-set by a named reviewer. Shown per term above and per panel on the page.","this build"],
+ ["Dial set version","Which collection of dials a mean was computed over. Every reading stores it; a mean or a Critical share is never compared across a set change. The set went 8 dials to 12 on 2026-11-05.","stored with every reading"],
+ ["Legitimation","Power to decide whether something can be seen, staged, published or believed, as opposed to whether it is legally permitted. Institutions that hold it have no veto and no licence, which is why an audit built on vetoes and licences misses them.","stated in the coverage audit"],
+ ["Key-stake test","Does the institution hold something the executive actively wants to take (a building, a broadcast licence, a budget line, a workforce)? The score is steeper where it does, because the institution then loses while it still has legal protection.","stated per dial derivation"],
+ ["Blind spot","A reading the dial set knows it cannot produce, named on the panel rather than papered over. Currently: rank-and-file military compliance.","named, not scored"],
+ ["Genre","What the wire was carrying — oil, courts, media. A property of the feed, not a claim about the item.","derived from the track string"],
+ ["Label","The two derived labels on a ledger row: <b>genre</b> from the track string, <b>NAME chip</b> from proper names in the entry text, capped at two. Anything not derivable is not printed. The scraped track string stays in the tooltip only.","derived from the entry"],
+ ["Flow reading","A rate of movement counted on a fixed cadence, with no hand-set value. Absorption velocity was the board's only flow reading until 11-07: specimens per week, and since the flow panel landed, enforcement events per month with a journal-volume control, recounted every week whether or not anyone has an opinion. A flow reading moves without anyone deciding anything, which is why it is the earlier warning and why a quiet week still shows up on it.","weekly count of /space/absorption"],
+ ["Instrument","A reading that prints its own limits on the panel: what it counts, which collection supplies the count, the sample bias, the falsifier that would retire it, and what it cannot touch. A number without those five is a claim wearing a number's clothes.","protocol, /space/protocol/instrument-construction"],
+ ["Scoreable / unscoreable","Scoreable means the card can be right or wrong: it has a deadline and a stated ending. Unscoreable means it cannot be contradicted by anything, so it is kept as a frame and excluded from every rate on this page.","card class, /space/prediction"],
+ ["Hit / miss","The only two endings a scoreable card has. A hit is the claim happening inside its window as written; a miss is it not happening by the close, or the opposite being documented. There is no third value and no partial credit.","card field, scoring pass"],
+ ["Quarantine","A resolved card held out of the rate because its window or threshold was written after the outcome was visible. It stays on the record and still prints its own result; it simply does not get to count toward the board's accuracy. Four forecast cards are quarantined, and the reason is printed per card.","card field, gate rule"],
+ ["Register rate (resolved ÷ scoreable)","The share of scoreable cards in a pile that have reached an ending. Read it as workload, not skill: a low rate in the forecast register means lots of open bets, a high rate means the pile has been cleared. Accuracy is a different number — the hit rate among resolved cards — and the two are never added together or shown as one.","computed from the register"],
+ ["Institutional stress mean","The plain average of every dial in the current set, 0 slack to 100 captured. One number for the whole institutional layer, and it is a crude one: a set of twelve can hide two captured institutions behind ten calm ones. It moves only when someone re-scores a dial, and it is never compared across a set change.","computed from the dial set"],
+ ["Critical share","How many dials sit at 75 or above, as a count and a share of the set. The mean tells you the average and can be dragged by one extreme reading; the Critical share tells you how many institutions are already past the line. Print both, because either alone can mislead in the opposite direction.","computed from the dial set"],
+ ["Specimen","One captured dehumanizing item plus its comment-thread capture (post + six frames), coded for direction, power position, theme and frame. Counted live on section 3, not fixed here.","/space/absorption"],
+ ["Absorption velocity","Specimens per week, and the direction and function split inside them. The leading edge of the M reading: high stock plus rising flow means the frame is being refreshed, not merely retained.","section 3, counted weekly"],
+ ["Capture skew","The known bias in the specimen corpus: capture is opportunistic, taken from the owner's own feed, so the rate is indicative and not a census. Printed on the panel so a chart cannot imply otherwise.","stated, cannot be corrected by scoring"],
+ ["Reciprocal pair","A specimen answered by a mirrored specimen from the opposite flank. Flagged high-value on capture, because a spiral is a different phenomenon from a one-directional drip.","flagged at capture"]
+];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+/* Hoisted 2026-11-06: the drill-down drawer prints the same genre and time label the
+   ledger row does, so these must exist outside render()'s scope. */
+const GENRE=[[/^macro|thesis|market/i,"Macro & markets"],[/court|election|law|impeach/i,"Courts & elections"],[/media|press|vanguard|meme/i,"Media"],[/oil|energy|material|drupa/i,"Oil & materials"],[/military|defen|hegseth|carrier|force/i,"Military"],[/iran|israel|greenland|china|russia|nato|mexico|venez/i,"Foreign"],[/census|administr|enforcement|repr/i,"Institutions"],[/immig|ice|border/i,"Immigration"],[/elite|corporate|business/i,"Corporate"]];
+const genre=t=>{for(const [re,n] of GENRE) if(re.test(t||"")) return n; return "Wire";};
+const t24=s=>{const m=String(s||"").match(/^([01]?\d|2[0-3]):[0-5]\d/);return m?m[0].padStart(5,"0"):"";};
+const bandCol=s=>s>=75?"var(--hot)":s>=60?"var(--warm)":"var(--ok)";
+function gauge(name,score,delta){
+  const r=44,cx=62,cy=66,circ=Math.PI*r;
+  const fill=circ*Math.max(0,Math.min(100,score))/100;
+  const th=Math.PI*(1-score/100);
+  const nx=cx+36*Math.cos(th), ny=cy-36*Math.sin(th);
+  return '<div class="gauge"><svg viewBox="0 0 124 84" width="100%" height="72" role="img" aria-label="'+esc(name)+' '+score+' of 100">'+
+    '<path d="M18,66 A44,44 0 0 1 106,66" fill="none" stroke="#1f2a3c" stroke-width="9" stroke-linecap="round"/>'+
+    '<path d="M18,66 A44,44 0 0 1 106,66" fill="none" stroke="'+bandCol(score)+'" stroke-width="9" stroke-linecap="round" stroke-dasharray="'+fill.toFixed(1)+' '+circ.toFixed(1)+'"/>'+
+    '<line x1="'+cx+'" y1="'+cy+'" x2="'+nx.toFixed(1)+'" y2="'+ny.toFixed(1)+'" stroke="#e6ecf5" stroke-width="2.6" stroke-linecap="round"/>'+
+    '<circle cx="'+cx+'" cy="'+cy+'" r="3.4" fill="#e6ecf5"/>'+
+    '<text x="'+cx+'" y="80" text-anchor="middle" font-size="13" font-weight="700" fill="#e6ecf5">'+score+'</text></svg>'+
+    '<div class="nm">'+esc(name)+'</div><div class="bd" style="color:'+bandCol(score)+'">'+(delta>0?"+"+delta:(delta||0))+'</div></div>';
+}
+let FLOWPANEL=null;
+function renderFlow(fl){
+  const $=id=>document.getElementById(id);
+  const panels=(fl&&fl.panels)||[];
+  const e=panels.find(x=>x.id==="e-leg-flow"), c=panels.find(x=>x.id==="e-leg-composition"), g=panels.find(x=>x.id==="g-leg-flow");
+  if(!e){ if($("flowBig")) $("flowBig").textContent="–"; return; }
+  const ser=e.series||[], last=ser[ser.length-1]||{};
+  const win=ser.length?(ser[0].month+" – "+last.month):"–";
+  $("flowBig").textContent=(last.per_100_journal!=null?last.per_100_journal:"–");
+  $("flowW").textContent=(last.raw!=null?last.raw+" events ("+(last.month||"")+")":"–");
+  $("flowC").textContent=(last.per_100_journal!=null?last.per_100_journal+" per 100 journal":(last.month?last.month+" · no control":"–"));
+  $("flowWin").textContent=win;
+  if(e.headline && $("flowHeadline")) $("flowHeadline").innerHTML="<b>Generated from /space.</b> "+esc(e.headline)+" Disclosers and the control below, at 2.4.";
+  if($("flowESub") && e.reading) $("flowESub").textContent="Reading: "+e.reading+".";
+  const mx=Math.max.apply(null,ser.map(r=>r.per_100_journal||0).concat([1]));
+  if($("flowSeriesBody")) $("flowSeriesBody").innerHTML=ser.map(r=>
+    '<tr><td>'+esc(r.month)+'</td><td class="num">'+r.raw+'</td><td class="num">'+(r.per_100_journal!=null?r.per_100_journal:'–')+
+    '</td><td class="barcell"><div class="bar '+(r.per_100_journal>=mx*0.7?'hot':r.per_100_journal>=mx*0.4?'warm':'')+'" style="width:'+
+    Math.round((r.per_100_journal||0)/mx*100)+'%"></div></td></tr>').join("");
+  if($("flowEHead")) $("flowEHead").innerHTML="<b>"+esc(e.headline||"")+"</b>";
+  if(c){
+    if($("flowCSub") && c.reading) $("flowCSub").textContent="Reading: "+c.reading+".";
+    const rows=c.series||[], tot=rows.reduce((a,b)=>a+(b.n||0),0)||1;
+    const cm=Math.max.apply(null,rows.map(r=>r.n||0).concat([1]));
+    if($("flowCompBody")) $("flowCompBody").innerHTML=rows.map(r=>
+      '<tr><td>'+esc(r.type)+'</td><td class="num">'+r.n+'</td><td class="barcell"><div class="bar" style="width:'+
+      Math.round((r.n||0)/cm*100)+'%"></div></td><td class="num">'+Math.round((r.n||0)/tot*100)+'%</td></tr>').join("");
+    if($("flowCHead")) $("flowCHead").innerHTML="<b>"+esc(c.headline||"")+"</b>";
+  }
+  const dic=(fl&&fl.note)||"";
+  if(g){
+    if($("flowGHead")) $("flowGHead").innerHTML="<b>No series is printed, because none exists.</b> "+esc(g.headline||"");
+    if($("flowGRepair")) $("flowGRepair").innerHTML="<b>What would repair it:</b> "+esc(g.repair||"–");
+  }
+  const disc=(fl&&fl.panels||[]).flatMap(x=>(x.disclosers||[]).map(d=>"<b>"+x.leg+"</b> — "+esc(d)));
+  if($("flowDisc")) $("flowDisc").innerHTML="<b>Disclosers, carried from the generator.</b> "+(disc.join(" "))+(dic?" <i>"+esc(dic)+"</i>":"");
+}
+function render(data){
+  const m=data.mget||{}, th=m.threshold||{}, legs=m.legs||[];
+  const gen=(data.meta&&data.meta.generated)||data.generated||"unknown";
+  $("stamp").textContent="Data layer generated "+gen+" · this page reads the same data.json the live board does.";
+  $("gstamp").textContent=gen;
+  $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
+  $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
+  renderFlow(FLOWPANEL||{});
+
+  const inst=(data.institutions&&data.institutions.institutions)||[];
+  const allD=inst.concat(ADMITTED.map(x=>({name:x[0],score:x[1],band:x[2],delta:0,added:true})));
+  const scores=allD.map(i=>Number(i.score)).filter(n=>!isNaN(n));
+  const mean=scores.length?Math.round(scores.reduce((a,b)=>a+b,0)/scores.length):null;
+  const meanV1=inst.length?Math.round(inst.reduce((a,b)=>a+Number(b.score||0),0)/inst.length):null;
+  $("stockBig").textContent=mean==null?"–":mean;
+  $("stockCrit").textContent=allD.filter(i=>i.band==="Critical").length+" of "+allD.length;
+  $("stockWarn").textContent=allD.filter(i=>i.band==="Warning").length+" of "+allD.length;
+  const worst=allD.slice().sort((a,b)=>b.score-a.score)[0];
+  $("stockWorst").textContent=worst?(worst.name+" "+worst.score):"–";
+  const st=$("setlab"); if(st) st.textContent="set v2 · "+allD.length+" dials · v1 mean "+meanV1+" ("+inst.length+" dials)";
+
+  $("gauges-grid").innerHTML=inst.map(i=>gauge(i.name,Number(i.score)||0,i.delta)).join("")+
+    ADMITTED.map(x=>gauge(x[0]+' ·',x[1],0).replace('<div class="bd"','<span class="v2tag">v2</span><div class="bd"')).join("");
+  $("dialBody").innerHTML=inst.map(i=>{
+    const s=Number(i.score)||0;
+    return '<tr><td>'+esc(i.name)+'</td><td class="num">'+s+'</td><td class="num">'+(i.delta>0?"+"+i.delta:(i.delta||0))+
+      '</td><td class="barcell"><div class="bar '+(s>=75?"hot":s>=60?"warm":"")+'" style="width:'+s+'%"></div></td><td>'+esc(i.band||"")+'</td></tr>';
+  }).join("")+ADMITTED.map(x=>'<tr><td>'+esc(x[0])+' <span class="small">added at set v2 — '+esc(x[3])+'</span></td><td class="num">'+x[1]+
+    '</td><td class="num">new</td><td class="barcell"><div class="bar '+(x[1]>=75?"hot":x[1]>=60?"warm":"")+'" style="width:'+x[1]+'%"></div></td><td>'+esc(x[2])+'</td></tr>').join("");
+  $("dialNote").innerHTML="Reviewed "+esc((data.institutions||{}).reviewed||"–")+". Dials are hand-set per review, 0 calm to 100 captured. Their mean is the Governance leg — which is why Governance never needed its own anchor set. <b>Set v2 admits four dials</b> (marked v2): scored on the same scale, derived the same way, and now inside the mean. The mean is unchanged at <b>78</b> because 627 ÷ 8 and 938 ÷ 12 round to the same integer; what changed is the composition — dials at Critical fall from 5 of 8 (63%) to 7 of 12 (58%). Two Warning dials diluted the share and one Critical dial restored it. <b>No mean or Critical share may be compared across a set change</b>; the set version is stored with every reading.";
+
+  $("gapBody").innerHTML=GAPS.map(g=>'<tr><td><b>'+esc(g[0])+'</b></td><td class="small">'+esc(g[1])+'</td><td class="small">'+esc(g[2])+'</td><td class="small">'+esc(g[3])+'</td><td class="small">'+esc(g[4])+'</td><td><span class="verdict v-'+(g[6]==="add"?"add":g[6]==="hold"?"hold":"no")+'">'+esc(g[5])+'</span></td></tr>').join("");
+  $("gapNote").innerHTML="<b>Four</b> additions clear R2 and R4 and are now in the set at v2: Media and Press, State Governments, Local Law Enforcement, and Arts and Expression. Four are held rather than rejected: statistical agencies, accredited universities, the federal money valve and the rank-and-file force are real gates whose observables are either hard to date, not public at monthly cadence, or already partly inside another dial. Two are rejected for having no scoreable gate at all. One is named as a blind spot the dial set cannot fix: <b>Military Leadership scores the leadership, not the force</b>, and rank-and-file compliance is the single reading that would matter most if Turning ever fires.";
+
+  const preds=(data.predictions||[]).filter(x=>String(x.resolution||"")!=="excluded");
+  const cls=x=>String(x.card_class||"").toUpperCase();
+  const groups=[
+    {k:"A",n:"Forecast",desc:"A bet with a deadline. The only pile that scores.",f:c=>c==="EVENT"||c==="PERSISTENCE"||c==="ROLLING"},
+    {k:"B",n:"Accumulation",desc:"A tally with no deadline. Cannot be wrong.",f:()=>false},
+    {k:"C",n:"Thesis",desc:"A frame with no deadline. Nothing settles it.",f:c=>c==="THESIS"||c==="MECHANISM"}
+  ];
+  let rows="",rail="",leg="";
+  const colors={A:"#5b9bd5",B:"#d99a3c",C:"#8a7fd0"};
+  const counts={};
+  groups.forEach(g=>{
+    const set=preds.filter(x=>g.f(cls(x)));
+    const cards=set.length;
+    const eligible=set.filter(x=>x.skill_eligible!==false);
+    const res=eligible.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+    const shown=cards;
+    const rate=eligible.length?Math.round(res/eligible.length*100):0;
+    counts[g.k]=shown;
+    const inel=cards-eligible.length;
+    const inelRes=set.filter(x=>x.skill_eligible===false&&["hit","miss"].includes(String(x.resolution||""))).length;
+    let sub="";
+    if(g.k==="A"){
+      const held=set.filter(x=>x.skill_eligible===false);
+      const quar=held.filter(x=>x.quarantine_reason).length;
+      const pend=held.filter(x=>!x.quarantine_reason&&String(x.public_status||"").includes("pending")).length;
+      const rest=held.length-quar-pend;
+      const bits=[quar+" quarantined or grandfathered",pend+" awaiting adjudication",rest+" otherwise held"];
+      sub+="<div class=\"small\">"+cards+" cards, of which "+inel+" are held out of scoring: "+bits.join(", ")+". The rate is counted over the "+eligible.length+" that can score.</div>";
+      const resAll=set.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+      const resQuar=set.filter(x=>x.skill_eligible===false&&x.quarantine_reason&&["hit","miss"].includes(String(x.resolution||""))).length;
+      if(inelRes){sub+="<div class=\"small\" style=\"color:var(--warm)\">"+inelRes+" of the "+resAll+" recorded resolutions sit on held-out cards, "+resQuar+" of them grandfathered pre-gate, where the anchors were written after the outcome was visible. Deliberate, not a defect, and it is the difference between a rate of 21% (all resolutions) and 17% (only the cards that could be scored honestly).</div>";}
+    }
+    rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div>'+sub+'</td><td class="num">'+
+      shown+'</td><td class="num">'+(g.k==="B"?"—":res)+'</td><td class="num">'+
+      (g.k==="B"?"n/a":rate+"% ("+res+" of "+eligible.length+")")+'</td><td class="small">'+
+      (g.k==="A"?"Cards that reached an ending are scored; the rest are open, not failed.":
+       g.k==="B"?"No resolution is possible by construction. Its usefulness is the rate of change and its kill condition.":
+       "0% here is a fact about how the claim was written, not about the world. Rewrite as a bet, or retire it.")+'</td></tr>';
+  });
+  const tot=Math.max(1,counts.A+counts.B+counts.C);
+  ["A","B","C"].forEach(k=>{
+    rail+='<div style="width:'+(counts[k]/tot*100).toFixed(1)+'%;background:'+colors[k]+'"></div>';
+    leg+='<span><i style="background:'+colors[k]+'"></i>'+k+" "+esc(groups.find(g=>g.k===k).n)+' ('+counts[k]+')</span>';
+  });
+  $("regBody").innerHTML=rows;
+  $("rail").innerHTML=rail;
+  $("legend").innerHTML=leg+'<span>'+preds.length+' forecast cards in this export</span>';
+
+  let out="";
+  ["M","G","E","T"].forEach(k=>{
+    const a=ANCHORS[k];
+    const sum=a.anchors.reduce((s,x)=>s+x[2],0);
+    const load=(k==="G"&&mean!=null)?mean:Math.round(sum/4*20);
+    const live=legs.find(l=>l.letter===k);
+    const lv=live&&live.score!=null?live.score:null;
+    const gap=lv==null?null:load-lv;
+    out+='<div class="panel"><h3><span class="term" data-term="leg_'+k.toLowerCase()+'">'+k+'</span> — '+esc(a.name)+'<span class="tag t-stock">INSTRUMENT</span></h3>'+
+      '<div class="kv"><span>Computed load</span><b>'+load+'</b></div>'+
+      '<div class="kv"><span>Live board reads</span><b>'+(lv==null?"–":lv)+'</b></div>'+
+      '<div class="kv"><span>Gap</span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
+      '<table style="margin-top:10px"><thead><tr><th>Anchor</th><th class="num">0-5</th></tr></thead><tbody>'+
+      a.anchors.map(x=>'<tr><td>'+esc(x[0])+'<div class="small">'+esc(x[1])+'</div></td><td class="num">'+x[2]+'</td></tr>').join("")+
+      '</tbody></table>'+
+      (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs.</div>':
+       k==="G"?'<div class="note">The dials below are the anchors here. Its computed load and the live board agree by construction — which is the counter-example that shows the method works.</div>':
+       '<div class="note">Within a few points of the hand-set number, which is what an instrument should do when the hand-set number was reasonable.</div>')+
+      '</div>';
+  });
+  $("legs-live").innerHTML=out;
+
+  // Q5: every .term resolves to a data.json terms[] key — same source the gate checks.
+  const TERMS=(data&&data.terms)||(D&&D.terms)||{};
+  document.querySelectorAll(".term").forEach(el=>{
+    const k=el.dataset.term||(el.textContent||"").trim().toLowerCase();
+    const t=TERMS[k]; if(!t) return;
+    el.dataset.def=t.copy+" ("+t.units+")";
+    el.setAttribute("title",t.copy+" ("+t.units+")");
+    el.setAttribute("tabindex","0");
+    el.setAttribute("role","button");
+    el.setAttribute("aria-label",(el.textContent||k)+": "+t.copy);
+  });
+
+  const dr=data.daily_read||{}; const cards=dr.cards||[];
+  const first=cards[0]||{};
+  $("drcue").textContent="DAILY READ";
+  $("drlead").textContent=first.title||(cards.length?cards.length+" cards":"No edition");
+  $("drmeta").textContent="";
+  $("dredate").textContent="Edition "+(dr.date||"–");
+  $("drcount").textContent=cards.length+" cards";
+  const split=cards.map(c=>{
+    const t=String(c.title||"");
+    const m=t.match(/^\s*\[([0-9]{1,2}:[0-9]{2})\]\s*(.*)$/);
+    return {time:m?m[1]:"", head:m?m[2]:t, html:String(c.html||"")};
+  });
+  $("dailyread").innerHTML=(split.length?split.map(c=>'<details class="drcard"><summary><span class="tstamp">'+
+      (c.time?'['+esc(c.time)+']':'')+'</span><span class="ttl">'+esc(c.head)+'</span><span class="dcar">▶</span></summary>'+
+      '<div class="drbody">'+c.html+'</div></details>').join(""):
+    '<div class="panel">No Daily Read in this export.</div>');
+
+  const led=(data.mget_ledger||[]).slice().sort((a,b)=>String(b.date||"").localeCompare(String(a.date||""))||String(b.time_et||"").localeCompare(String(a.time_et||"")));
+  /* Derived labels, 2026-11-05. The scraped track string was being printed as if it were a
+     subject ("macro-thesis-unwinding", "courts-elections") and read as analyst jargon. Genre is
+     what the wire carried; the subject is taken from the entry text; a NAME chip appears only
+     when a proper name is present. Nothing is invented: no subject, no line. A time is printed
+     only when one was filed and it parses as 24h. */
+  const NAMERE=/\b(?:Trump|Vance|Hegseth|Rubio|Dhillon|Miller|Kennedy|Pape|Musk|Thiel|Biden|Obama|Reagan|Partridge|Cooper|Beatty|Carter|Watson|Kavanaugh|Thomas|Alito|Sotomayor|Jackson|Kagan|Roberts|Newsom|DeSantis|Bannon|Wiles|Blanche|Pirro|Bondi|Patel|Gabbard|Waltz|Homan|Noem|Duffy|Lutnick|Bessent|Warsh|Hassett|Miranda|Sherrill|Talarico|Acton|Mandel|Moreno|Hawley|Cruz|Jeffries|Schumer|Ocasio|Sanders|Kirk|Crowder|Owens|Shapiro|Carlson|Rogan)\b/g;
+  const NAMES=led.map(e=>{const m=String(e.reasoning||"").match(NAMERE)||[];return m.filter((x,i)=>m.indexOf(x)===i);});
+  const VCOL={confirms:"var(--ok)",strains:"var(--warm)",neutral:"var(--dim)",undermines:"var(--hot)",contradicts:"var(--hot)"};
+  const today=new Date(); today.setHours(0,0,0,0);
+  if(led.length){const nw=new Date(led[0].date+"T00:00:00"); if(nw>today) today=nw;}
+  const DAY=86400000;
+  const GROUPS=[["Last 7 days",7],["Last 30 days",30],["Older",1e9]];
+  let li=0, lout="";
+  GROUPS.forEach((g,gi)=>{
+    const lo=gi?GROUPS[gi-1][1]:-1;
+    const rows=led.filter(e=>{const n=Math.round((today-new Date(String(e.date)+"T00:00:00"))/DAY);return n>lo&&n<=g[1];});
+    if(!rows.length) return;
+    const show=rows.slice(0,12);
+    lout+='<div class="ledgroup"><div class="ledhead">'+g[0]+' <span class="small">'+rows.length+' entr'+(rows.length==1?"y":"ies")+
+      (rows.length>12?" · showing newest 12":"")+'</span></div>';
+    show.forEach(e=>{
+      li++;
+      const k="ln"+li;
+      const names=(NAMES[led.indexOf(e)]||[]).slice(0,2);
+      const v=String(e.verdict||"").toLowerCase();
+      const col=VCOL[v]||"var(--dim)";
+      const t=t24(e.time_et);
+      lout+='<div class="card ledrow" data-bn="'+esc(e.basename||"")+'" style="border-left-color:'+col+'"><h4>'+
+        '<span class="small" style="color:var(--dim)">'+esc(genre(e.track))+'</span> · '+esc(e.date||"")+
+        (t?' <span class="small" style="color:var(--dim)">'+esc(t)+' ET</span>':'')+
+        ' <span class="small" style="color:'+col+';text-transform:uppercase;letter-spacing:.08em">'+esc(e.verdict||"")+'</span>'+
+        (names.length?' '+names.map(n=>'<span class="namechip">'+esc(n)+'</span>').join(""):"")+
+        '</h4><p class="src">'+esc(String(e.reasoning||"").slice(0,220))+
+        '<a class="more" href="#" onclick="var d=document.getElementById(\''+k+'\');d.style.display=d.style.display==\'block\'?\'none\':\'block\';this.textContent=d.style.display==\'block\'?\'less\':\'more\';return false;">more</a>'+
+        '<span id="'+k+'" style="display:none">'+esc(String(e.reasoning||"").slice(220))+(e.forward_signal?'<br><i>Forward signal: </i>'+esc(String(e.forward_signal).slice(0,400)):'')+'</span>'+
+        (e.track?' <span class="small" style="color:var(--dim);opacity:.6" title="scraped track string, not a subject">['+esc(e.track)+']</span>':'')+
+        '</p></div>';
+    });
+    lout+='</div>';
+  });
+  $("ledlead").textContent=(data.mget_ledger||[]).length+" entries · newest "+((led[0]&&led[0].date)||"–")+" "+((t24(led[0]&&led[0].time_et))||"")+" ET";
+  $("ledmeta").textContent="12 per group · grouped by age";
+  $("ledger").innerHTML=lout;
+  [...$("ledger").querySelectorAll(".ledrow")].forEach(c=>{
+    const e=led.find(x=>x.basename===c.dataset.bn);
+    if(!e) return;
+    c.addEventListener("click",ev=>{
+      if(ev.target.closest("a")) return;   // the inline "more" link keeps working
+      openLedger(e);
+    });
+  });
+
+
+  // ---- Section 3 flow panel, generated by build_flank.py from /space/absorption ----
+  const F=data.flank||null;
+  window.__F=F;
+  if(F){
+    const maxN=Math.max(...F.weeks.map(w=>w.n));
+    $("wkChart").innerHTML=F.weeks.filter(w=>w.wk!=="W31").map(w=>
+      '<div class="wk"><div class="wkbar" style="height:'+Math.max(4,Math.round(w.n/maxN*90))+'px"></div>'+
+      '<div class="wkv">'+w.n+'</div><div class="wkl">'+w.wk+'</div></div>').join("");
+    const LAB={right:["Right-flank","Direction of institutional power. The power-anchored rule predicts this side weaponises first because it can."],
+               mixed:["Mixed / reciprocal","The escalation edge. A mirror pair is the spiral, not two separate events."],
+               left:["Left-flank","Recorded, not discounted. The specimen watch is deliberately symmetric."],
+               structure:["No flank coding","Structure specimens: elite-to-base loyalty framing, narrative repair, in-group blame. Real absorption, no out-group named."]};
+    const tot=F.total, coded=F.coded;
+    $("flankBody").innerHTML=["right","mixed","left","structure"].map(k=>{
+      const n=F.split[k]||0, share=coded&&k!=="structure"?Math.round(n/coded*100)+"% of coded":"—";
+      return '<tr class="drillable" data-flank="'+k+'" tabindex="0"><td>'+LAB[k][0]+'</td><td class="num">'+n+'</td><td class="num">'+share+'</td><td class="small">'+LAB[k][1]+'</td></tr>';
+    }).join("");
+    $("corpusN").textContent=tot;
+    [...$("flankBody").querySelectorAll("tr.drillable")].forEach(tr=>{
+      const open=()=>openFlank(tr.dataset.flank, LAB);
+      tr.addEventListener("click",open);
+      tr.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();open();}});
+    });
+    $("codedN").textContent=coded+" / "+tot;
+    $("flankNote").innerHTML="Generated from the corpus, not hand-set. <b>Rule:</b> flank = the direction a specimen is produced and carried by. "+coded+" of "+tot+" specimens ("+Math.round(coded/tot*100)+"%) carry a flank; the rest are structure. <b>The earlier 45/25/17/132 split did not reproduce</b> — it counted only specimens whose own frame targets an out-group, which needs the <code>dehumanization_frame</code> flag repaired before it can be computed (78 true, 141 false, inconsistently set). The rate series reproduced exactly; only the split moved. <b>The split is not the finding. The rate is.</b>";
+  }
+  $("dictBody").innerHTML=DICT.map(r=>'<tr><td><b>'+esc(r[0])+'</b></td><td class="small">'+esc(r[1])+'</td><td class="small">'+esc(r[2])+'</td></tr>').join("");
+}
+
+/* ---- drill-down drawer -------------------------------------------------------
+   One panel, two entry points: a 3.2 flank row and a ledger card. Both open the
+   rows that produced the number that was clicked, read from the data layer, and
+   nothing else. No specimen is inferred, no entry is summarised from memory. */
+const DRILL={title:$("drillTitle"),meta:$("drillMeta"),body:$("drillBody"),wrap:$("drill")};
+function closeDrill(){DRILL.wrap.classList.add("hidden");}
+function drawDrill(title,meta,html){
+  DRILL.title.textContent=title; DRILL.meta.textContent=meta; DRILL.body.innerHTML=html;
+  DRILL.wrap.classList.remove("hidden"); DRILL.body.scrollTop=0;
+}
+$("drillX").addEventListener("click",closeDrill);
+$("drillX").addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();closeDrill();}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape") closeDrill();});
+
+function openFlank(k,LAB){
+  const F=window.__F; if(!F||!F.rows) return;
+  const rs=(F.rows[k]||[]).slice().sort((a,b)=>b.d.localeCompare(a.d));
+  const n=F.split[k]||0, coded=F.coded||0;
+  const share=(k!=="structure"&&coded)?Math.round(n/coded*100)+"% of the "+coded+" coded":"not counted in the coded split";
+  const html='<p><b>'+esc(LAB[k][0])+'</b> — '+n+' of '+(F.total||0)+' specimens, '+share+'.<br>'+
+    '<span class="small">Every specimen counted under this key, newest first, plus any that are not yet usable (no date, no filename derivable). Click a row in the ledger for the wire entry that carried the same pattern.</span></p>'+
+    '<h5>Specimens in the /space denominator ('+rs.length+')</h5>'+
+    (rs.length?rs.map(r=>'<div class="item"><div class="k">'+esc(r.b)+'</div><div class="m">'+esc(r.d||"no date")+' · theme '+esc(r.theme||"other")+'</div></div>').join(""):
+      '<p class="small">No specimen rows in this export for this key. The count came from the generator; the row list was added after this build — rebuild flank.json to populate it.</p>')+
+    '<h5>What this drawer cannot tell you</h5>'+
+    '<p class="small">The count is authoritative; the list is the audit trail. A specimen that failed to parse a date is inside the count in flank.json but absent from this list, which is why the two numbers are printed side by side. If they disagree by more than a couple, treat the split as stale, not the list as wrong.</p>';
+  drawDrill("Section 3.2 — "+LAB[k][0], n+" specimens · denominator "+(F.total||0), html);
+}
+
+function openLedger(e){
+  const rows=[["Date",esc(e.date||"–")+(e.time_et?" "+esc(e.time_et)+" ET":"")],
+              ["Verdict",esc(e.verdict||"–")],["Track",esc(e.track||"–")],
+              ["Legs tested",(e.mget_legs_tested||[]).length?esc((e.mget_legs_tested||[]).join(", ")):"–"],
+              ["File",'<code>/space/mget_ledger/'+esc(e.basename||"")+'.json</code>']];
+  const html='<h5>Entry</h5>'+rows.map(r=>'<div class="item"><div class="m">'+r[0]+'</div><div class="k" style="font-size:12.5px">'+r[1]+'</div></div>').join("")+
+    '<h5>Reasoning, as filed</h5><p>'+esc(e.reasoning||"No reasoning field on this entry.")+'</p>'+
+    (e.forward_signal?'<h5>Forward signal</h5><p>'+esc(e.forward_signal)+'</p>':'')+
+    '<h5>What this drawer cannot tell you</h5><p class="small">This is the ledger entry, verbatim. It is one observer\'s read at the time it was filed, not a resolution; the forecast register on this page is where outcomes are scored.</p>';
+  drawDrill("Ledger — "+(e.date||"undated"), esc((e.verdict||"")+" · "+genre(e.track)), html);
+}
+
+fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})
+ .then(()=>fetch("data.json",{cache:"no-store"})).then(r=>r.json()).then(render).catch(e=>{
+  const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
+  $("stamp").textContent="Static shell only.";
+});
+</script>
+<script>
+(function(){
+ const rows=[
+  ["1529 Speyer","D2","replacement","did not survive"],
+  ["1678 Glorious Revolution","D2+D1","replacement","did not survive"],
+  ["1774 Intolerable Acts","D1","replacement","did not survive"],
+  ["1789 France","D2","replacement","did not survive"],
+  ["1861 Fort Sumter","D1+D2","split","did not survive"],
+  ["1933 Weimar","D4","replacement","did not survive"],
+  ["1937 court-packing","none","none","survived — D3 weakness"],
+  ["1951 MacArthur","none","none","survived — designed trap"],
+  ["1974 Watergate","D1","restoration","SURVIVED, incumbent removed"],
+  ["1993 Clinton","none","none","survived"],
+  ["1998-99 Clinton","none","none","survived"],
+  ["2017 Trump I","none","none","survived — sticks clause"],
+  ["2018 Mattis","none","none","survived — sticks clause"],
+  ["2022 post-Dobbs","none","none","survived"]
+ ];
+ const b=document.getElementById('dockBody');
+ if(!b) return;
+ rows.forEach(r=>{
+  const tr=document.createElement('tr');
+  const fired=r[1]!=='none';
+  tr.innerHTML='<td>'+r[0]+'</td><td>'+(fired?'<b>'+r[1]+'</b>':'<span style="opacity:.6">none</span>')+'</td><td>'+r[2]+'</td><td>'+(r[2]==='restoration'?'<b>'+r[3]+'</b>':r[3])+'</td>';
+  b.append(tr);
+ });
+})();
+</script>
+</body></html>
