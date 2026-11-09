@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-09",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-09T15:26 ET"
+  "generated_stamped": "2026-11-09T15:27 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5352,7 +5352,8 @@
    "verdict": "",
    "trial_case": "no",
    "basename": "2026-11-09-elsayed-ladder-document-step",
-   "confidence": 42
+   "confidence": 42,
+   "grace_horizon": "0 days - a specimen either exists in the record by 2026-11-30 or it does not; nothing arrives late and gets counted"
   }
  ],
  "mget_ledger": [
