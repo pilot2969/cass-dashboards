@@ -1,0 +1,14 @@
+{
+  "_rule": "Declared gaps between computed anchor load and the hand-set live board. An entry here does NOT make the mismatch correct — it records that the hand-set number is known-unsupported and frozen. The gate downgrades a matching gap to WARN; any change in the numbers (drift) still FAILs. Remove an entry the moment the hand-set number is corrected or the panel retires at cutover.",
+  "exceptions": [
+    {
+      "leg": "T",
+      "frozen_gap": -42,
+      "computed": 40,
+      "live": 82,
+      "declared": "2026-11-09",
+      "reason": "Turning's 82 was carried with no anchors behind it and double-counted pressure already on M/G/E. Retained on the legacy board as the documented migration receipt; frozen in /space/note/dial-anchor-migration-ledger.json. Deleted at cutover.",
+      "ledger": "/space/note/dial-anchor-migration-ledger.json"
+    }
+  ]
+}

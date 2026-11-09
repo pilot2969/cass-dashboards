@@ -973,13 +973,13 @@ function render(data){
     out+='<div class="panel"><h3><span class="term" data-term="leg_'+k.toLowerCase()+'">'+k+'</span> — '+esc(a.name)+'<span class="tag t-stock">INSTRUMENT</span></h3>'+
       '<div class="kv"><span>Computed load</span><b>'+load+'</b></div>'+
       '<div class="kv"><span>Live board reads</span><b>'+(lv==null?"–":lv)+'</b></div>'+
-      '<div class="kv"><span>Gap</span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
+      '<div class="kv"><span>Gap <i class="small" style="color:var(--dim);font-style:normal">— legacy vs computed, retires at cutover</i></span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
       '<table style="margin-top:10px"><thead><tr><th>Anchor</th><th class="num">0-5</th></tr></thead><tbody>'+
       a.anchors.map(x=>'<tr><td>'+esc(x[0])+'<div class="small">'+esc(x[1])+'</div></td><td class="num">'+x[2]+'</td></tr>').join("")+
       '</tbody></table>'+
-      (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs.</div>':
-       k==="G"?'<div class="note">The dials below are the anchors here. Its computed load and the live board agree by construction — which is the counter-example that shows the method works.</div>':
-       '<div class="note">Within a few points of the hand-set number, which is what an instrument should do when the hand-set number was reasonable.</div>')+
+      (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs. This −42 is the largest disagreement the two-column method will ever produce and is <b>unreproducible once the 82 is deleted</b>; it is frozen in /space/note/dial-anchor-migration-ledger.json as the receipt for the upgrade.</div>':
+       k==="G"?'<div class="note"><b>This gap is an identity, not agreement.</b> Governance’s computed load IS the dial mean, and the live board number is also the dial mean — both sides derive from the same quantity, so 0 is guaranteed and says nothing about the method. It is the one leg where the check is vacuous, and it is excluded from any claim that the columns reconcile.</div>':
+       '<div class="note">One anchor point is worth 5 load points, so a gap inside ±5 is inside the quantisation of the input scale — it cannot distinguish a correct hand-set number from one a fifth of a step off. Agreement here is agreement within resolution, not validation. Frozen in <b>/space/note/dial-anchor-migration-ledger.json</b> at cutover.</div>')+
       '</div>';
   });
   $("legs-live").innerHTML=out;

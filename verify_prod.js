@@ -111,6 +111,64 @@ async function main(){
     fail('flow_panel.present','data.json carries no flow_panel — the E flow panel has no generated source in this export');
   }
 
+  /* ---------- anchor provenance + the legacy gap (pre-cutover only) ---------- */
+  {
+    // The gap column (computed load vs hand-set live board) is the ONLY external
+    // check on the dial numbers and it dies at cutover. Until then it must stay
+    // inside ±10 (warn) / ±20 (fail); after cutover it must be gone, not printing "–".
+    // Rule: /space/protocol/dial-anchor-provenance.json
+    let src=''; try{ src=fs.readFileSync(path.join(DIR,'preview.html'),'utf8'); }catch(e){}
+    if(!src){ warn('anchors.source','preview.html not present — anchor checks skipped'); }
+    else{
+      const m=src.match(/const ANCHORS=(\{[\s\S]*?\n\});/);
+      let A=null; try{ A=m?Function('return ('+m[1]+')')():null; }catch(e){}
+      if(!A){ fail('anchors.parse','ANCHORS block missing or unparseable in preview.html'); }
+      else{
+        const bad=[];
+        for(const k of ['M','G','E','T']){
+          const a=A[k]; if(!a||!Array.isArray(a.anchors)||a.anchors.length!==4){ bad.push(k+':not-4-anchors'); continue; }
+          a.anchors.forEach(x=>{
+            if(!Array.isArray(x)||x.length<3) return bad.push(k+':malformed');
+            if(!Number.isInteger(x[2])||x[2]<0||x[2]>5) bad.push(k+':value-out-of-range:'+x[2]);
+            if(txt(x[1]).length<20) bad.push(k+':justification-too-short');
+          });
+        }
+        bad.length?fail('anchors.provenance',`${bad.length} anchor defect(s) — ${bad.slice(0,4).join(', ')}`)
+                  :pass('anchors.provenance','all 16 anchors carry a value, a justification and a 0-5 bound');
+
+        // gap discipline: G is an identity (load IS the dial mean, live is the same dial mean)
+        const legs=(data.mget&&data.mget.legs)||[];
+        let EXC=[]; try{ EXC=JSON.parse(fs.readFileSync(path.join(DIR,'anchor_exceptions.json'),'utf8')).exceptions||[]; }catch(e){ warn('anchors.exceptions','anchor_exceptions.json unreadable — every gap treated as undeclared'); }
+        const gapm=[];
+        for(const k of ['M','E','T']){
+          const a=A[k]; if(!a) continue;
+          const load=Math.round(a.anchors.reduce((s,x)=>s+x[2],0)/4*20);
+          const live=(legs.find(l=>l.letter===k)||{}).score;
+          if(live==null) continue;
+          const gap=load-live; gapm.push(k+' '+(gap>0?'+':'')+gap);
+          const exc=EXC.find(e=>e.leg===k);
+          if(Math.abs(gap)>20){
+            if(exc&&exc.frozen_gap===gap&&exc.computed===load&&exc.live===live)
+              warn('anchors.gap:'+k,`computed ${load} vs hand-set ${live} — gap ${gap>0?'+':''}${gap} DECLARED in anchor_exceptions.json (${exc.declared}): known-unsupported, not endorsed`);
+            else if(exc)
+              fail('anchors.gap:'+k,`gap ${gap>0?'+':''}${gap} no longer matches its declaration (${exc.frozen_gap}) — the numbers moved and the declaration is stale`);
+            else fail('anchors.gap:'+k,`computed ${load} vs hand-set ${live} — gap ${gap>0?'+':''}${gap}, beyond ±20 and undeclared. Hand-set number is unsupported by its own anchors`);
+          }
+          else if(Math.abs(gap)>10) warn('anchors.gap:'+k,`computed ${load} vs hand-set ${live} — gap ${gap>0?'+':''}${gap}, beyond ±10`);
+        }
+        if(gapm.length) pass('anchors.gap',`gap within tolerance — ${gapm.join(', ')} (G excluded: identity, not agreement)`);
+        // the vacuous-comparison claim must not reappear
+        /counter-example that shows the method works/.test(src)
+          ? fail('anchors.g_identity','Governance gap is described as proof the method works — it is an identity and cannot be')
+          : pass('anchors.g_identity','Governance gap labelled as identity, not validation');
+        // the column must be labelled as a migration artifact, not a live control
+        /retires at cutover/i.test(src)
+          ? pass('anchors.gap_label','gap column labelled legacy-vs-computed, retires at cutover')
+          : warn('anchors.gap_label','gap column not labelled as a cutover artifact');
+      }
+    }
+  }
+
   /* ---------- render-verified page checks ---------- */
   const pages=fs.readdirSync(DIR).filter(f=>f.endsWith('.html'));
   for(const f of pages){
