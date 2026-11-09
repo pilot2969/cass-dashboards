@@ -1,0 +1,93 @@
+{
+ "generated": "2026-11-09",
+ "generator": "build_leg_g.py",
+ "source": "/space/legitimation_event",
+ "leg": "G",
+ "label": "Legitimation flow",
+ "reading": "dated institutional withdrawals of standing, counted from a closed taxonomy",
+ "window": {
+  "start": "2026-09-04",
+  "end": "2026-11-09",
+  "days": 67
+ },
+ "totals": {
+  "withdrawals": 12,
+  "grants": 1,
+  "weighted": 19.0,
+  "per_month": 5.5,
+  "events_total": 13
+ },
+ "series": [
+  {
+   "month": "2026-09",
+   "withdrawals": 5,
+   "grants": 0,
+   "weighted": 7.0,
+   "journal": 176,
+   "per_100_journal": 2.8,
+   "days_covered": 30
+  },
+  {
+   "month": "2026-10",
+   "withdrawals": 3,
+   "grants": 0,
+   "weighted": 5.0,
+   "journal": 189,
+   "per_100_journal": 1.6,
+   "days_covered": 31
+  },
+  {
+   "month": "2026-11",
+   "withdrawals": 4,
+   "grants": 1,
+   "weighted": 7.0,
+   "journal": 17,
+   "per_100_journal": 23.5,
+   "days_covered": 8
+  }
+ ],
+ "composition": [
+  {
+   "institution": "court",
+   "event_type": "court_rules_against_executive",
+   "n": 8
+  },
+  {
+   "institution": "credentialing_body",
+   "event_type": "credentialed_official_resigns_protest",
+   "n": 3
+  },
+  {
+   "institution": "certification_body",
+   "event_type": "credentialed_official_resigns_protest",
+   "n": 1
+  }
+ ],
+ "by_institution": [
+  {
+   "institution": "court",
+   "n": 8
+  },
+  {
+   "institution": "credentialing_body",
+   "n": 3
+  },
+  {
+   "institution": "certification_body",
+   "n": 1
+  }
+ ],
+ "control": {
+  "label": "journal volume",
+  "note": "the machine's own recording rate, not the population rate",
+  "november_break": "journal entries fell from ~6.0/day (Sep\u2013Oct) to 1.9/day (Nov 1\u20139), so per-100 rates are inflated for November and must not be read as a rise in refusals"
+ },
+ "disclosers": [
+  "The collection starts 2026-09-04. Two months of history is a level, not a trend, and no baseline exists before it \u2014 nothing here says refusals are rising.",
+  "Counts are what was recorded, not what happened. A week with no entry may be a quiet week or an unread one.",
+  "Court rulings are the bulk of it because courts issue dated, published acts. Resignations and credentialing-body acts are undercounted by construction: they are harder to see and are only in the record when a reporter or an official states them.",
+  "Grants (a court reversing itself, an institution restoring standing) are counted separately as the counter-series. One is on record. One counter-event is not a rate.",
+  "The version the board said it needed \u2014 two independent external series, court rulings against the executive per month and federal-official resignations per month \u2014 still does not exist here. This series is internal: one sampler, one taxonomy, no outside check."
+ ],
+ "status": "INTERNAL SERIES \u00b7 no external validation"
+}

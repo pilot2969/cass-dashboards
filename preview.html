@@ -69,6 +69,39 @@ tr:last-child td{border:0}
 .rail div{height:100%}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--dim);margin-top:6px}
 .legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:0px}
+
+/* 2026-11-09 threshold watch strip: a count with a date, never a count alone. */
+.wkpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:10px 0 4px}
+.wkpi{background:#101824;border:1px solid var(--line);border-radius:9px;padding:10px 12px}
+.wkpi .lab{font:700 9.5px/1 ui-sans-serif;letter-spacing:.11em;text-transform:uppercase;color:var(--dim)}
+.wkpi .val{font:700 24px/1.15 ui-sans-serif;font-variant-numeric:tabular-nums;margin-top:7px;color:var(--ink)}
+.wkpi .sub{font-size:11.5px;color:var(--dim);margin-top:4px}
+.wkpi.soon .val{color:var(--warm)}
+.wkpi.bad .val{color:var(--hot)}
+.wkpi.ok .val{color:var(--ok)}
+.chip{display:inline-block;font:700 9px/1 ui-sans-serif;letter-spacing:.09em;text-transform:uppercase;padding:3px 6px;border-radius:3px;border:1px solid}
+.chip.hi{color:var(--hot);border-color:rgba(226,110,94,.5)}
+.chip.md{color:var(--warm);border-color:rgba(217,154,60,.5)}
+.chip.lo{color:var(--dim);border-color:rgba(255,255,255,.18)}
+.chip.due{color:var(--acc);border-color:rgba(122,162,255,.5)}
+@media(max-width:820px){.wkpis{grid-template-columns:1fr 1fr}}
+
+/* 2026-11-09 wire ledger restyle: a dated record reads as a record, not as a feed of cards.
+   Left column is when, right column is what — a row can be scanned by date or by verdict. */
+.wlgroup{margin-top:6px}
+.wlhead{display:flex;align-items:baseline;gap:10px;font:700 10px/1 ui-sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--acc);margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid rgba(255,255,255,.1)}
+.wlhead .cnt{font-weight:600;letter-spacing:.04em;text-transform:none;color:var(--dim);font-size:11.5px}
+.wlrow{display:grid;grid-template-columns:92px 1fr;gap:14px;padding:10px 12px 10px 0;border-bottom:1px solid #1b2432}
+.wlrow:hover{background:rgba(122,162,255,.045)}
+.wldate{font:700 11.5px/1.35 ui-monospace,monospace;color:#9fb0c6;padding-left:12px;border-left:3px solid transparent}
+.wldate span{display:block;font-weight:400;color:var(--dim);font-size:10.5px}
+.wlmain{min-width:0}
+.wltop{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
+.wlgenre{font:700 9px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#8fa6c4;background:#182231;border:1px solid #253145;border-radius:3px;padding:3px 6px}
+.wlverdict{font:700 9px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;padding:3px 6px;border-radius:3px;border:1px solid currentColor}
+.wltext{font-size:13px;line-height:1.52;color:#c9d6e6}
+.wlfoot{margin-top:5px;font-size:11px;color:var(--dim)}
+.wlfoot a{color:var(--acc);text-decoration:none;border-bottom:1px dotted rgba(122,162,255,.5)}
 .hidden{display:none}
 .card{background:#141c29;border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;padding:12px 14px;margin-bottom:10px}
 .card h4{margin:0 0 6px;font-size:14px;line-height:1.35}
@@ -148,73 +181,12 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <div class="panel">
  This is the proposed layout running on real data. The order is now the order a reader should think in: <b>what happened today</b>, then <b>the model as a whole</b>, then <b>each leg</b>, then <b>the institutions underneath</b>. Daily Read is collapsible and the model now follows it directly. The audience fork card is gone. Provenance, which used to be its own card, is now a column in the data dictionary, where it answers a question at the moment you ask it.
  <div class="note">Nothing was deleted from the record: the thesis pile is still counted, the wire ledger is still here, and the forecast register still scores in public. What was deleted is one card that explained the page to itself.</div>
- <div class="note"><b>Read section 0 first if this is your first visit.</b> It records what version 1 of this board claimed, what has since been tested, and what changed as a result — including the claim that failed this week. <a href="#0" style="color:var(--blue)">The belief ledger</a></div>
-</div>
-
-<h2 id="0">0 · What we learned from the old model — the belief ledger</h2>
 <div class="panel">
- <div class="note" style="margin-top:0;color:#c3d2e6">Version 1 of this board was built on a thesis and presented its readings as measurements. Running it in public has since killed one of the thesis's load-bearing claims and demoted another. That is the point of the exercise, so it gets a section of its own rather than a line in the changelog: <b>what we believed, what we tested, what came back, and what we now say instead.</b> Every row that says <b>withdrawn</b> or <b>downgraded</b> is dated, and the test that produced it is linked. A reader who wants to know why the board looks like this should start here, not at the readings.</div>
- <table style="margin-top:14px"><thead><tr><th style="width:23%">What v1 claimed</th><th style="width:22%">How we tested it</th><th style="width:26%">What came back</th><th style="width:29%">What the board now says</th></tr></thead><tbody><tr>
-<td><b>Turning windows (≈80 years) tell you when the next rupture lands.</b></td>
-<td>Blind draw of 272 rule-drawn windows, 1690–2020, then a pre-registered replication on four settler polities and deeper English time.</td>
-<td>Full sample <b>9/20 in window against a 25% null = 1.8×, p=0.048</b>. Deep English time replicates at <b>1.96×, p=0.075</b>. The settler Anglosphere returns <b>2/13 against 1.6 expected</b> — Canada 1867, Ireland 1922, nothing in Australia or New Zealand.</td>
-<td><b>Downgraded.</b> A periodisation of Anglo-American history that has failed its first out-of-sample test. Stays on the board as framing and as a live hypothesis; timing is no longer presented as confirmed.</td></tr>
-<tr style="background:#1b1622">
-<td><b>Continental windows validate the calendar independently.</b></td>
-<td>Start-year sensitivity: hold France's events fixed, move only the year its clock begins.</td>
-<td>Risk ratio runs <b>2.44 (from 1680) → 3.95 (1789) → 3.52 (1815) → 5.74 (1871)</b>. The significance level is set by an input nobody measured.</td>
-<td><b>Withdrawn 2026-11-06.</b> And it is the honest reason to discount the surviving 0.048 as well — the tool, not just the continent, carries this flaw.</td></tr>
-<tr>
-<td><b>The windows are independent of the events they contain.</b></td>
-<td>Window-versus-event check on every canonical window in the system.</td>
-<td>Each one brackets an English or American rupture: 1675–1704 brackets 1688, 1773–1794 brackets 1776 and 1787, 1860–1865 brackets 1861.</td>
-<td><b>Refuted.</b> Inside English history "events fall in the windows" is close to definitional. The only genuinely independent windows are the ones the settler polities fall outside of.</td></tr>
-<tr>
-<td><b>The absorption corpus is a population of arrivals.</b></td>
-<td>Channel audit across all 225 records.</td>
-<td>One sampler, three channels, wildly uneven coverage; a supply-side push and an audience-side pull moved the same counter.</td>
-<td><b>Revised.</b> The count is a sample and says so; composition (channel, AI involvement, target) is now counted alongside it.</td></tr>
-<tr>
-<td><b>Legs 1 and 2 are measured readings.</b></td>
-<td>Search for the series behind the numbers.</td>
-<td>No series existed. Hand-set anchors carried from Crisis 4; leg 2's denominator was structurally zero because seatings do not exist in the record at all.</td>
-<td><b>Rebuilt on external baselines</b> — 26 years of nationwide injunctions, 45 years of senior-staff turnover — and both marked <i>thin</i> on the register until a second observation exists.</td></tr>
-<tr>
-<td><b>Leg 4 is scored on 14 docking cases.</b></td>
-<td>Attempt to count the cases from the record.</td>
-<td>The 14 cases existed only as prose in a note body. The board printed "14 scored candidate acts" and no code could reach them.</td>
-<td><b>Now countable.</b> One object per case in <code>/space/docking_case</code>: <b>7 of 14 fired, 0 of 7 false alarms, direction 6 replacement / 1 restoration.</b></td></tr>
-<tr>
-<td><b>Absorption velocity means how fast arrivals come.</b></td>
-<td>Composition split over the same corpus.</td>
-<td>A day of supply-side pushes and a day of audience-side pulls produced the same velocity number and described different phenomena.</td>
-<td><b>Split.</b> Velocity is now reported with its composition, so a demand-driven spike cannot be read as a supply-side campaign.</td></tr></tbody></table>
- <div class="note"><b>The pattern in these rows.</b> Every failure above is the same failure in different clothes: a number that looked like a measurement and could not be wrong. Hand-set anchors, windows drawn around their own events, a corpus with one sampler, a set of cases that existed only as prose. None of them were false — they were <i>unfalsifiable</i>, which reads identically on a dashboard and is worth nothing. The rebuild is not an attempt to get the old answer back with better maths. It is the removal of readings that could not lose.</div>
+ <h3 style="margin-top:0">What we learned from the old model</h3>
+ <p style="margin:8px 0 0;font-size:14.5px;line-height:1.62;color:#dbe5f2">Version 1 of this board was built on a thesis and it presented its readings as measurements. Running it in public killed one of its load-bearing claims and demoted two more, and the honest thing to do with that is say it on the front page rather than bury it in a change log. <b>The turning-window calendar does not survive its first out-of-sample test</b> — it stays on the board as framing and a live hypothesis, no longer as a confirmed timing instrument. <b>The continental-windows claim is withdrawn</b>, because the check that was supposed to validate the calendar independently turned out to be measuring an artefact. <b>Window independence is refuted</b>: inside English history a window that brackets an event is close to a definition, not a discovery. Two things were rebuilt rather than dropped — legs 1 and 2 now run on external baselines instead of hand-set anchors, and the docking test gives leg 4 a real kill condition. What all of it bought is a board that can say where it is blind instead of quietly filling the gap.</p>
+ <div class="note"><b>The full record is at the foot of the page</b>, collapsed: <a href="#0" style="color:var(--blue)">section 9 &mdash; the belief ledger</a>, with every claim, the test that moved it, the dated verdict, and the snapshots of what the board looked like before each structural change.</div>
 </div>
 
-<div class="panel" style="margin-top:10px">
- <h3>The three that cost the most</h3>
- <div class="note" style="margin-top:4px;color:#c3d2e6">
-  <b>1 · The calendar.</b> The windows were treated as an instrument. They were drawn around English and American ruptures, which makes "events fall in the windows" close to definitional inside English history, and the first out-of-sample test (the settler Anglosphere: Canada, Australia, New Zealand, Ireland) returned <b>2 of 13 events against 1.6 expected</b>. The usable position now is that the saeculum is a periodisation of Anglo-American history that has not survived its first independent test. It stays on the board as a framing device and a live hypothesis; it is not a predictor and its timing is no longer presented as confirmed.
-  <div class="note"><b>2 · The continental p-values.</b> They were printed as support for the calendar and they are an artefact of an unmeasured input — hold France's events fixed and move only the year its clock starts, and the risk ratio runs <b>2.44 → 5.74</b>. A test that swings that far on a span nobody measured was never carrying weight. Withdrawn, and it is also the honest reason to distrust the surviving 0.048.</div>
-  <div class="note"><b>3 · "Measured" that was not measured.</b> Three readings wore the word and had no series behind them: leg 3 (one observation on 6 of 9 firms), leg 1 and leg 2 (hand-set anchors carried from Crisis 4, one of them on a denominator that was structurally zero). The register now reads <b>4 of 4 instrumented, 2 of 4 thin</b> and every thin reading says so on its own face. The failure mode was not the number being wrong — it was the number being unfalsifiable and looking the same as the ones that were not.</div>
- </div>
-</div>
-
-<div class="panel" style="margin-top:10px">
- <h3>What we are tracking now, and how each tracking ends</h3>
- <div class="note" style="margin-top:4px;color:#c3d2e6">A live experiment that never states its stop condition becomes permanent framing. Every commitment opened today carries a falsifier and a date on which it is scored either way — a null result is published in the same place, in the same format, as a hit.</div>
- <table style="margin-top:12px"><thead><tr><th style="width:30%">Commitment</th><th style="width:34%">Falsifier</th><th style="width:18%">Scored at</th><th style="width:18%">If it fails</th></tr></thead><tbody><tr><td><b>Conflict displacement</b> — settlements shift conflict into cheaper venues (courts, parliaments, contracts) and liberty is the residue.</td><td>If settlements adopt procedure <i>before</i> liberty gains and hollowing does not dominate abolition across all 25 cases, the engine is wrong.</td><td>Q6 close</td><td>Theory revised on the board face, not in a note.</td></tr>
-<tr><td><b>Adoption lag / diffusion</b> — the beat is set by how fast a medium spreads, not by a fixed generational clock.</td><td>Ruptures land on the canonical Western dates rather than lagging each polity's adoption gap.</td><td>Q7 close</td><td>The calendar framing is retired outright.</td></tr>
-<tr><td><b>Settler replication, extended</b> — the null was underpowered, not exculpatory.</td><td>A further panel at a 2× effect still returns null.</td><td>+12 months</td><td>The saeculum is scoped to the Anglo core and labelled as such everywhere.</td></tr>
-<tr><td><b>Leg 3 fence share</b> — 56% on 6 of 9 assigned firms.</td><td>A second observation contradicts the share.</td><td>Monthly review</td><td>Reading withdrawn, not defended.</td></tr>
-<tr><td><b>Instrument reconstruction</b> — every leg carries a denominator and a kill condition.</td><td>Any leg prints a reading with a hand-set value and no denominator.</td><td>Every gate run</td><td>The push fails. That is what the gate is for.</td></tr></tbody></table>
-</div>
-
-<div class="panel" style="margin-top:10px">
- <h3>Snapshots — the board as it stood on each date</h3>
- <div class="note" style="margin-top:4px;color:#c3d2e6">A changelog records what changed. It does not let anyone <i>see</i> the old board. Every build that changes the model's structure is now frozen to an <b>internal archive</b>, so the claim "the board said X last week" is checkable by opening the file rather than trusting a log entry. <b>The archive is not published</b> — it stays on the machine, because a public snapshot history invites reading the revisions instead of the current board, and because the old builds carry working notes that were never written for an audience.</div>
- <div class="note"><b>Frozen this build:</b> 2026-11-06 17:55 · v4.13-preview — the board as it stood before this section existed, retraction included in 3.10 but with no belief record of its own. Current build is v4.14-preview.<br><b>Rule adopted (narrowed 19:03):</b> snapshots are taken only on a <b>structural model change</b> — a leg added, removed or redefined, an instrument rebuilt, the scenario deck or the calendar thesis altered, or what the board claims changed. Routine data refreshes, new readings on unchanged instruments, wires and cosmetic edits are not snapshotted: an archive of every number shift implies every number shift was a model revision. A snapshot is never edited after the fact — corrections go in the next one.</div>
 </div>
 
 <h2>1 · Daily Read</h2>
@@ -256,6 +228,15 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   </div>
 </div>
 
+
+<div class="subhead">2.1b · Threshold watch — the open conditions, each with the date it expires</div>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">A watch with no expiry is not a watch, it is permanent framing — twenty of these were sitting past their own dates until the 11-09 pass. Every active condition now carries a date, and this strip prints the nearest one so the page cannot age in silence.</div>
+ <div class="wkpis" id="watchKpis"></div>
+ <table><thead><tr><th style="width:52%">Condition</th><th style="width:12%">Priority</th><th style="width:16%">Expires</th><th class="num" style="width:20%">Days left</th></tr></thead><tbody id="watchBody"></tbody></table>
+ <div class="note" id="watchNote"></div>
+</div>
+
 <div class="subhead">2.2 Micro · what feeds each leg</div>
 <div class="panel">
  <div class="note" style="margin-top:0;color:#c3d2e6">Four anchors per leg, each scored 0 to 5 on one written scale, and <b>load = (sum of anchors ÷ 4) × 20</b>. An anchor is something you can go and find, not a judgement about how bad things feel. The legs read in model order: M, G, E, T.</div>
@@ -287,9 +268,21 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   </div>
 </div>
 <div class="panel" style="margin-top:10px">
-  <h3>G · Legitimation flow <span class="tag t-blind">BLIND SPOT</span></h3>
-  <div class="note" style="margin-top:0" id="flowGHead"></div>
-  <div class="note" id="flowGRepair"></div>
+  <h3>G · Legitimation flow <span class="tag t-flow">FLOW</span></h3>
+  <div class="note" style="margin-top:0;color:#c3d2e6">This was the board's named blind spot until this build: G carried a hand-set score and no series, and the panel said so rather than pretending. The series existed — <code>/space/legitimation_event</code> had been filling since 2026-09-04 on a closed taxonomy — and nobody had counted it. Counted now, and the limits are printed beside the number instead of underneath the fold.</div>
+  <div class="note" style="margin-top:6px" id="legGHead"></div>
+  <div class="grid2" style="margin-top:12px">
+    <div>
+      <h4 style="margin:0 0 4px;font-size:12.5px;letter-spacing:.02em;color:var(--dim)">Withdrawals per month, with the recording control</h4>
+      <table><thead><tr><th>Month</th><th class="num">Events</th><th class="num">Weighted</th><th class="num">Journal</th><th class="num">Per 100</th><th class="barcell">Load</th></tr></thead><tbody id="legGSeries"></tbody></table>
+    </div>
+    <div>
+      <h4 style="margin:0 0 4px;font-size:12.5px;letter-spacing:.02em;color:var(--dim)">Who withdraws standing</h4>
+      <table><thead><tr><th>Institution</th><th class="num">n</th><th class="num">Share</th><th class="barcell">Share</th></tr></thead><tbody id="legGComp"></tbody></table>
+      <div class="note" style="margin-top:8px">Courts dominate because courts issue dated, published acts. Resignations and credentialing-body acts are undercounted by construction: they enter the record only when someone states them.</div>
+    </div>
+  </div>
+  <div class="note" id="legGDisc" style="margin-top:10px"></div>
 </div>
 <div class="note" id="flowDisc" style="margin-top:10px"></div>
 
@@ -604,6 +597,8 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
  <div class="body" id="drillBody"></div>
 </div>
 
+
+
 <h2>8 · Change log</h2>
 <div class="panel">
  <div id="changelog">
@@ -629,6 +624,77 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
  </div>
  <div class="note" style="margin-top:14px"><span class="ftver">v4.16-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
+
+<h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
+<div class="note" style="margin-top:0">The full record, kept at the foot of the page rather than the head of it. The plain-language summary sits in the intro; this is the evidence behind it: seven v1 claims, the test that moved each, and what the board says now. Nothing here is smoothed — where a claim died, the death is dated.</div>
+<details class="dr" id="beliefledger">
+ <summary><span class="cue">BELIEF LEDGER</span><span class="lead">Seven v1 claims, the tests that moved them, and the snapshots</span><span class="small">open the record</span></summary>
+ <div>
+<div class="panel">
+ <div class="note" style="margin-top:0;color:#c3d2e6">Version 1 of this board was built on a thesis and presented its readings as measurements. Running it in public has since killed one of the thesis's load-bearing claims and demoted another. That is the point of the exercise, so it gets a section of its own rather than a line in the changelog: <b>what we believed, what we tested, what came back, and what we now say instead.</b> Every row that says <b>withdrawn</b> or <b>downgraded</b> is dated, and the test that produced it is linked. A reader who wants to know why the board looks like this should start here, not at the readings.</div>
+ <table style="margin-top:14px"><thead><tr><th style="width:23%">What v1 claimed</th><th style="width:22%">How we tested it</th><th style="width:26%">What came back</th><th style="width:29%">What the board now says</th></tr></thead><tbody><tr>
+<td><b>Turning windows (≈80 years) tell you when the next rupture lands.</b></td>
+<td>Blind draw of 272 rule-drawn windows, 1690–2020, then a pre-registered replication on four settler polities and deeper English time.</td>
+<td>Full sample <b>9/20 in window against a 25% null = 1.8×, p=0.048</b>. Deep English time replicates at <b>1.96×, p=0.075</b>. The settler Anglosphere returns <b>2/13 against 1.6 expected</b> — Canada 1867, Ireland 1922, nothing in Australia or New Zealand.</td>
+<td><b>Downgraded.</b> A periodisation of Anglo-American history that has failed its first out-of-sample test. Stays on the board as framing and as a live hypothesis; timing is no longer presented as confirmed.</td></tr>
+<tr style="background:#1b1622">
+<td><b>Continental windows validate the calendar independently.</b></td>
+<td>Start-year sensitivity: hold France's events fixed, move only the year its clock begins.</td>
+<td>Risk ratio runs <b>2.44 (from 1680) → 3.95 (1789) → 3.52 (1815) → 5.74 (1871)</b>. The significance level is set by an input nobody measured.</td>
+<td><b>Withdrawn 2026-11-06.</b> And it is the honest reason to discount the surviving 0.048 as well — the tool, not just the continent, carries this flaw.</td></tr>
+<tr>
+<td><b>The windows are independent of the events they contain.</b></td>
+<td>Window-versus-event check on every canonical window in the system.</td>
+<td>Each one brackets an English or American rupture: 1675–1704 brackets 1688, 1773–1794 brackets 1776 and 1787, 1860–1865 brackets 1861.</td>
+<td><b>Refuted.</b> Inside English history "events fall in the windows" is close to definitional. The only genuinely independent windows are the ones the settler polities fall outside of.</td></tr>
+<tr>
+<td><b>The absorption corpus is a population of arrivals.</b></td>
+<td>Channel audit across all 225 records.</td>
+<td>One sampler, three channels, wildly uneven coverage; a supply-side push and an audience-side pull moved the same counter.</td>
+<td><b>Revised.</b> The count is a sample and says so; composition (channel, AI involvement, target) is now counted alongside it.</td></tr>
+<tr>
+<td><b>Legs 1 and 2 are measured readings.</b></td>
+<td>Search for the series behind the numbers.</td>
+<td>No series existed. Hand-set anchors carried from Crisis 4; leg 2's denominator was structurally zero because seatings do not exist in the record at all.</td>
+<td><b>Rebuilt on external baselines</b> — 26 years of nationwide injunctions, 45 years of senior-staff turnover — and both marked <i>thin</i> on the register until a second observation exists.</td></tr>
+<tr>
+<td><b>Leg 4 is scored on 14 docking cases.</b></td>
+<td>Attempt to count the cases from the record.</td>
+<td>The 14 cases existed only as prose in a note body. The board printed "14 scored candidate acts" and no code could reach them.</td>
+<td><b>Now countable.</b> One object per case in <code>/space/docking_case</code>: <b>7 of 14 fired, 0 of 7 false alarms, direction 6 replacement / 1 restoration.</b></td></tr>
+<tr>
+<td><b>Absorption velocity means how fast arrivals come.</b></td>
+<td>Composition split over the same corpus.</td>
+<td>A day of supply-side pushes and a day of audience-side pulls produced the same velocity number and described different phenomena.</td>
+<td><b>Split.</b> Velocity is now reported with its composition, so a demand-driven spike cannot be read as a supply-side campaign.</td></tr></tbody></table>
+ <div class="note"><b>The pattern in these rows.</b> Every failure above is the same failure in different clothes: a number that looked like a measurement and could not be wrong. Hand-set anchors, windows drawn around their own events, a corpus with one sampler, a set of cases that existed only as prose. None of them were false — they were <i>unfalsifiable</i>, which reads identically on a dashboard and is worth nothing. The rebuild is not an attempt to get the old answer back with better maths. It is the removal of readings that could not lose.</div>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>The three that cost the most</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">
+  <b>1 · The calendar.</b> The windows were treated as an instrument. They were drawn around English and American ruptures, which makes "events fall in the windows" close to definitional inside English history, and the first out-of-sample test (the settler Anglosphere: Canada, Australia, New Zealand, Ireland) returned <b>2 of 13 events against 1.6 expected</b>. The usable position now is that the saeculum is a periodisation of Anglo-American history that has not survived its first independent test. It stays on the board as a framing device and a live hypothesis; it is not a predictor and its timing is no longer presented as confirmed.
+  <div class="note"><b>2 · The continental p-values.</b> They were printed as support for the calendar and they are an artefact of an unmeasured input — hold France's events fixed and move only the year its clock starts, and the risk ratio runs <b>2.44 → 5.74</b>. A test that swings that far on a span nobody measured was never carrying weight. Withdrawn, and it is also the honest reason to distrust the surviving 0.048.</div>
+  <div class="note"><b>3 · "Measured" that was not measured.</b> Three readings wore the word and had no series behind them: leg 3 (one observation on 6 of 9 firms), leg 1 and leg 2 (hand-set anchors carried from Crisis 4, one of them on a denominator that was structurally zero). The register now reads <b>4 of 4 instrumented, 2 of 4 thin</b> and every thin reading says so on its own face. The failure mode was not the number being wrong — it was the number being unfalsifiable and looking the same as the ones that were not.</div>
+ </div>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>What we are tracking now, and how each tracking ends</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">A live experiment that never states its stop condition becomes permanent framing. Every commitment opened today carries a falsifier and a date on which it is scored either way — a null result is published in the same place, in the same format, as a hit.</div>
+ <table style="margin-top:12px"><thead><tr><th style="width:30%">Commitment</th><th style="width:34%">Falsifier</th><th style="width:18%">Scored at</th><th style="width:18%">If it fails</th></tr></thead><tbody><tr><td><b>Conflict displacement</b> — settlements shift conflict into cheaper venues (courts, parliaments, contracts) and liberty is the residue.</td><td>If settlements adopt procedure <i>before</i> liberty gains and hollowing does not dominate abolition across all 25 cases, the engine is wrong.</td><td>Q6 close</td><td>Theory revised on the board face, not in a note.</td></tr>
+<tr><td><b>Adoption lag / diffusion</b> — the beat is set by how fast a medium spreads, not by a fixed generational clock.</td><td>Ruptures land on the canonical Western dates rather than lagging each polity's adoption gap.</td><td>Q7 close</td><td>The calendar framing is retired outright.</td></tr>
+<tr><td><b>Settler replication, extended</b> — the null was underpowered, not exculpatory.</td><td>A further panel at a 2× effect still returns null.</td><td>+12 months</td><td>The saeculum is scoped to the Anglo core and labelled as such everywhere.</td></tr>
+<tr><td><b>Leg 3 fence share</b> — 56% on 6 of 9 assigned firms.</td><td>A second observation contradicts the share.</td><td>Monthly review</td><td>Reading withdrawn, not defended.</td></tr>
+<tr><td><b>Instrument reconstruction</b> — every leg carries a denominator and a kill condition.</td><td>Any leg prints a reading with a hand-set value and no denominator.</td><td>Every gate run</td><td>The push fails. That is what the gate is for.</td></tr></tbody></table>
+</div>
+
+<div class="panel" style="margin-top:10px">
+ <h3>Snapshots — the board as it stood on each date</h3>
+ <div class="note" style="margin-top:4px;color:#c3d2e6">A changelog records what changed. It does not let anyone <i>see</i> the old board. Every build that changes the model's structure is now frozen to an <b>internal archive</b>, so the claim "the board said X last week" is checkable by opening the file rather than trusting a log entry. <b>The archive is not published</b> — it stays on the machine, because a public snapshot history invites reading the revisions instead of the current board, and because the old builds carry working notes that were never written for an audience.</div>
+ <div class="note"><b>Frozen this build:</b> 2026-11-06 17:55 · v4.13-preview — the board as it stood before this section existed, retraction included in 3.10 but with no belief record of its own. Current build is v4.14-preview.<br><b>Rule adopted (narrowed 19:03):</b> snapshots are taken only on a <b>structural model change</b> — a leg added, removed or redefined, an instrument rebuilt, the scenario deck or the calendar thesis altered, or what the board claims changed. Routine data refreshes, new readings on unchanged instruments, wires and cosmetic edits are not snapshotted: an archive of every number shift implies every number shift was a model revision. A snapshot is never edited after the fact — corrections go in the next one.</div>
+</div>
+</details>
 
 <div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
 </div>
@@ -768,6 +834,51 @@ function renderFlow(fl){
   const disc=(fl&&fl.panels||[]).flatMap(x=>(x.disclosers||[]).map(d=>"<b>"+x.leg+"</b> — "+esc(d)));
   if($("flowDisc")) $("flowDisc").innerHTML="<b>Disclosers, carried from the generator.</b> "+(disc.join(" "))+(dic?" <i>"+esc(dic)+"</i>":"");
 }
+
+/* 2026-11-09 THRESHOLD WATCH. Counts come from /space/watch at export time. The strip
+   exists because a count without a date is a claim with no way to expire. */
+function watchDays(d){return d==null?"–":(d<0?Math.abs(d)+" past":d===0?"today":d+" d");}
+function renderWatch(w){
+  if(!w||!w.counts){ if($("watchNote")) $("watchNote").textContent="No watch list in this export."; return; }
+  const c=w.counts, rows=(w.rows||[]).slice(0,10);
+  const next=w.next?esc(w.next):"none";
+  $("watchKpis").innerHTML=
+    '<div class="wkpi ok"><div class="lab">Active conditions</div><div class="val">'+c.active+'</div><div class="sub">'+c.fired+' fired · '+c.expired+' expired · '+c.retired+' retired</div></div>'+
+    '<div class="wkpi soon"><div class="lab">Next expiry</div><div class="val">'+next+'</div><div class="sub">'+(w.next?watchDays(w.next_days):"no dated condition open")+'</div></div>'+
+    '<div class="wkpi"><div class="lab">High priority open</div><div class="val">'+(w.high||[]).length+'</div><div class="sub">the ones that can move a read</div></div>'+
+    '<div class="wkpi '+( (c.active_no_expiry+c.active_past_expiry)>0?"bad":"ok")+'"><div class="lab">Undated or stale</div><div class="val">'+(c.active_no_expiry+c.active_past_expiry)+'</div><div class="sub">'+c.active_no_expiry+' with no date · '+c.active_past_expiry+' past their own</div></div>';
+  $("watchBody").innerHTML=rows.map(r=>{
+    const p=String(r.priority||"").toLowerCase();
+    const chip='<span class="chip '+(p==="high"?"hi":p==="medium"?"md":"lo")+'">'+esc(r.priority||"–")+'</span>';
+    const dl=r.days_left;
+    const dcol=dl==null?"var(--dim)":dl<0?"var(--hot)":dl<=7?"var(--warm)":"var(--ink)";
+    return '<tr><td>'+esc(r.title||"")+'</td><td>'+chip+'</td><td>'+esc(r.expire||"—")+'</td><td class="num" style="color:'+dcol+'">'+watchDays(dl)+'</td></tr>';
+  }).join("");
+  $("watchNote").innerHTML="Showing the <b>"+rows.length+"</b> conditions closing soonest of <b>"+c.active+"</b> open; the full list is the watch register in <code>/space/watch</code>. "+
+    (c.active_no_expiry? '<b style="color:var(--hot)">'+c.active_no_expiry+' active condition(s) carry no expiry — a defect, printed rather than smoothed.</b> ':"All open conditions carry a date. ")+
+    "A condition that fires is a finding, not a score; the expiry only fixes when we stop waiting and say so.";
+}
+
+/* 2026-11-09 LEG G. Generated by build_leg_g.py from /space/legitimation_event.
+   The board may say this series is thin. It may no longer say none exists. */
+function renderLegG(g){
+  if(!g||!$("legGHead")) return;
+  const t=g.totals||{}, ser=g.series||[];
+  $("legGHead").innerHTML="<b>"+t.withdrawals+" dated institutional withdrawals of standing in "+(g.window?g.window.days:"–")+" days</b> ("+(t.per_month||0)+" per month), against <b>"+t.grants+" counter-event</b> where an institution reversed itself. Counted from <code>/space/legitimation_event</code> on a closed taxonomy — court ruling, credential refused, official resigns, professional body sanctions, military refusal, election official refuses, institution withdraws standing — with direction as the split.";
+  $("legGSeries").innerHTML=ser.map(r=>{
+    const mx=Math.max.apply(null,ser.map(x=>x.withdrawals))||1;
+    const pct=Math.round(r.withdrawals/mx*100);
+    return '<tr><td>'+esc(r.month)+'</td><td class="num">'+r.withdrawals+'</td><td class="num">'+(r.weighted||0)+'</td><td class="num">'+r.journal+'</td><td class="num">'+(r.per_100_journal==null?"–":r.per_100_journal)+'</td><td class="barcell"><div class="bar '+(pct>=75?"hot":"")+'" style="width:'+pct+'%"></div></td></tr>';
+  }).join("");
+  $("legGComp").innerHTML=(g.by_institution||[]).map(x=>{
+    const tot=(g.by_institution||[]).reduce((a,b)=>a+b.n,0)||1;
+    const p=Math.round(x.n/tot*100);
+    return '<tr><td>'+esc(x.institution.replace(/_/g," "))+'</td><td class="num">'+x.n+'</td><td class="num">'+p+'%</td><td class="barcell"><div class="bar" style="width:'+p+'%"></div></td></tr>';
+  }).join("");
+  $("legGDisc").innerHTML="<b>What this series cannot say, printed with it.</b> "+(g.disclosers||[]).map(d=>esc(d)).join(" ")+
+    ' <span class="chip due" style="margin-left:4px">'+(g.status||"internal")+'</span>';
+}
+
 function render(data){
   const m=data.mget||{}, th=m.threshold||{}, legs=m.legs||[];
   const gen=(data.meta&&data.meta.generated)||data.generated||"unknown";
@@ -776,6 +887,8 @@ function render(data){
   $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
   $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
   renderFlow(FLOWPANEL||{});
+  renderWatch(data.watch);
+  renderLegG(data.leg_g);
 
   const inst=(data.institutions&&data.institutions.institutions)||[];
   const allD=inst.concat(ADMITTED.map(x=>({name:x[0],score:x[1],band:x[2],delta:0,added:true})));
@@ -920,8 +1033,8 @@ function render(data){
     const rows=led.filter(e=>{const n=Math.round((today-new Date(String(e.date)+"T00:00:00"))/DAY);return n>lo&&n<=g[1];});
     if(!rows.length) return;
     const show=rows.slice(0,12);
-    lout+='<div class="ledgroup"><div class="ledhead">'+g[0]+' <span class="small">'+rows.length+' entr'+(rows.length==1?"y":"ies")+
-      (rows.length>12?" · showing newest 12":"")+'</span></div>';
+    lout+='<div class="wlgroup"><div class="wlhead">'+g[0]+'<span class="cnt">'+rows.length+' entr'+(rows.length==1?"y":"ies")+
+      (rows.length>12?" · newest 12 shown":"")+'</span></div>';
     show.forEach(e=>{
       li++;
       const k="ln"+li;
@@ -929,16 +1042,21 @@ function render(data){
       const v=String(e.verdict||"").toLowerCase();
       const col=VCOL[v]||"var(--dim)";
       const t=t24(e.time_et);
-      lout+='<div class="card ledrow" data-bn="'+esc(e.basename||"")+'" style="border-left-color:'+col+'"><h4>'+
-        '<span class="small" style="color:var(--dim)">'+esc(genre(e.track))+'</span> · '+esc(e.date||"")+
-        (t?' <span class="small" style="color:var(--dim)">'+esc(t)+' ET</span>':'')+
-        ' <span class="small" style="color:'+col+';text-transform:uppercase;letter-spacing:.08em">'+esc(e.verdict||"")+'</span>'+
-        (names.length?' '+names.map(n=>'<span class="namechip">'+esc(n)+'</span>').join(""):"")+
-        '</h4><p class="src">'+esc(String(e.reasoning||"").slice(0,220))+
-        '<a class="more" href="#" onclick="var d=document.getElementById(\''+k+'\');d.style.display=d.style.display==\'block\'?\'none\':\'block\';this.textContent=d.style.display==\'block\'?\'less\':\'more\';return false;">more</a>'+
-        '<span id="'+k+'" style="display:none">'+esc(String(e.reasoning||"").slice(220))+(e.forward_signal?'<br><i>Forward signal: </i>'+esc(String(e.forward_signal).slice(0,400)):'')+'</span>'+
-        (e.track?' <span class="small" style="color:var(--dim);opacity:.6" title="scraped track string, not a subject">['+esc(e.track)+']</span>':'')+
-        '</p></div>';
+      const rest=String(e.reasoning||"");
+      lout+='<div class="wlrow ledrow" data-bn="'+esc(e.basename||"")+'">'+
+        '<div class="wldate" style="border-left-color:'+col+'">'+esc(e.date||"undated")+
+          (t?'<span>'+esc(t)+' ET</span>':'')+'</div>'+
+        '<div class="wlmain"><div class="wltop">'+
+          '<span class="wlgenre">'+esc(genre(e.track))+'</span>'+
+          '<span class="wlverdict" style="color:'+col+'">'+esc(e.verdict||"–")+'</span>'+
+          (names.length?names.map(n=>'<span class="namechip">'+esc(n)+'</span>').join(""):"")+
+        '</div>'+
+        '<div class="wltext">'+esc(rest.slice(0,240))+
+          '<span id="'+k+'" style="display:none">'+esc(rest.slice(240))+(e.forward_signal?'<br><i>Forward signal: </i>'+esc(String(e.forward_signal).slice(0,400)):'')+'</span>'+
+        '</div>'+
+        '<div class="wlfoot"><a class="more" href="#" onclick="var d=document.getElementById(\''+k+'\');d.style.display=d.style.display==\'block\'?\'none\':\'block\';this.textContent=d.style.display==\'block\'?\'less\':\'more\';return false;">more</a>'+
+          (e.track?' &nbsp;·&nbsp; <span title="scraped track string, not a subject" style="opacity:.6">'+esc(e.track)+'</span>':'')+
+        '</div></div></div>';
     });
     lout+='</div>';
   });
