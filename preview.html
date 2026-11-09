@@ -252,7 +252,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 </div>
 
 <div class="subhead">2.4 Flow · what the legs record, month by month</div>
-<div class="note" style="margin-top:0;color:#c3d2e6">Section 2.1–2.3 prints <b>stocks</b> — where the institutions stand. These are the two <b>flows</b> the legs were supposed to supply and did not: E carried a score with no series behind it, G had no series at all. Every number below is counted from <code>/space</code> when the panel is generated; nothing is typed in. Where a series does not exist, the panel prints a blind spot rather than a chart.</div>
+<div class="note" style="margin-top:0;color:#c3d2e6">Section 2.1–2.3 prints <b>stocks</b> — where the institutions stand. These are the two <b>flows</b> the legs were supposed to supply and did not: E carried a score with no series behind it, G had no series at all. Both are now generated <b>inside the export</b> — E by <code>build_flow_panel.py</code> from <code>/space/repression_event</code>, G by <code>build_leg_g.py</code> from <code>/space/legitimation_event</code> — so neither panel can be older than the data layer it sits in. Nothing below is typed in. Where a series does not exist, the panel prints a blind spot rather than a chart.</div>
 <div class="grid2" style="margin-top:12px">
   <div class="panel">
     <h3>E · Enforcement-capacity flow <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
@@ -604,6 +604,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 
 <div class="panel">
  <div id="changelog">
+ <div class="z12"><div class="z16">2026-11-09 · <span class="z30"><b>v4.18-preview</b></span></div><div class="z15"><b>The E flow panel now regenerates itself inside the export.</b> v4.16 replaced four hardcoded figures with a generated payload and then let it sit: <code>flow_panel.json</code> was hand-built on 11-07 and went two days stale, which is the same defect one step later — a derived number that is not derived at build time. <code>build_flow_panel.py</code> now runs inside <code>sync_data.sh</code>, so the panel cannot be older than the export that carries it, and the page reads it from the data layer instead of a second fetch. Two disciplines are enforced rather than assumed: <b>dedupe is declared, not inferred</b> — the two known double-codings are listed in the script, and a same-date pair with different event types is reported as a review candidate in <code>integrity.same_date_review</code> rather than silently merged, because this machine does double-code; and <b>the headline is computed from the series</b>, so it cannot keep asserting an old relationship while the months move. Current read: 29 objects, 2 pairs merged, 1 undated excluded, <b>26 dated events</b> over 174 days. Raw peaks in September (9); the controlled series peaks in July (<b>38.9 per 100 journal</b>). Only July outruns the recording rate.</div></div>
  <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.16-preview</b></span></div><div class="z15"><b>The three tags now explain themselves.</b> FLOW, STOCK and STATE are the board's grammar and the page never said what they meant: FLOW is a count per unit of time, STOCK is a holding read at one moment and hand-set once a review, STATE is a yes/no gate that has no score. Every tag, every leg letter and every leg heading now carries its definition on hover — on a phone, on tap and focus — and the copy is <b>generated from <code>/space/term</code></b>, one object per term, into <code>data.json</code> <code>terms[]</code>. A tooltip cannot drift from its source, and the gate fails a page whose term resolves to no definition (<code>docs.hover_terms</code>). Changelog-style tags that merely borrowed a colour — <i>new, 2026-11-06</i>, <i>INSTRUMENT</i> — were deliberately left untooltiped rather than given a definition that would have been false.</div></div>
  <div class="z12"><div class="z16">2026-11-07 · <span class="z30"><b>v4.16-preview</b></span></div><div class="z15"><b>The flow panel is generated, not typed.</b> The accumulation-flow card in 2.1 printed four hardcoded figures — 21 cases, 21 channels, a weighted total — that nothing in <code>/space</code> produced, and section 3's specimens-per-week was the board's only real flow. The card now reads the E leg from a generated payload (<code>flow_panel.json</code>, built from <code>/space</code> on 11-07): <b>recorded state enforcement events per month</b>, with the desk's own recording rate — journal entries per month — as the control, because raw enforcement counts fall when the desk is quiet, not when the state is. A second panel splits unique events by type. The G leg gets the opposite treatment: <b>printed as a blind spot, not a chart</b>. There is no legitimation series in <code>/space</code> at all, so the panel names what a series would require instead of drawing a line through nothing. The hardcoded FLOW table is gone; every figure on the card is counted at generation. Standing lesson: Q1's denominator was endogenous, Q2 had none. Flow builds name the denominator before the numerator, and say so when it is not independent.</div></div>
  <div class="z12"><div class="z16">2026-11-06 · <span class="z30"><b>v4.14-preview</b></span></div><div class="z15"><b>The belief ledger becomes section 0 — the first major change since v1.</b> The board now opens on what it used to claim and what happened to each claim: seven v1 statements, the test that moved each one, and the verdict. One is <b>downgraded</b> (the turning calendar, which failed its first out-of-sample test), one <b>withdrawn</b> (continental windows, exposed as a span artefact), one <b>refuted</b> (window independence, tautological inside English history), two <b>rebuilt</b> (legs 1–2 and leg 4, which existed as hand-set anchors and as prose respectively). Nothing was deleted — the record of being wrong is the product. Backing objects live in <code>/space/belief_ledger</code>, one per row, and the rule is <a href="../../../../space/protocol/belief-ledger.json" style="color:var(--blue)">/space/protocol/belief-ledger.json</a>. Five open commitments now carry a falsifier and a scoring date, because an experiment running in public needs a stop condition or it becomes permanent framing.</div>
@@ -803,7 +804,7 @@ let FLOWPANEL=null;
 function renderFlow(fl){
   const $=id=>document.getElementById(id);
   const panels=(fl&&fl.panels)||[];
-  const e=panels.find(x=>x.id==="e-leg-flow"), c=panels.find(x=>x.id==="e-leg-composition"), g=panels.find(x=>x.id==="g-leg-flow");
+  const e=panels.find(x=>x.id==="e-leg-flow"), c=panels.find(x=>x.id==="e-leg-composition");
   if(!e){ if($("flowBig")) $("flowBig").textContent="–"; return; }
   const ser=e.series||[], last=ser[ser.length-1]||{};
   const win=ser.length?(ser[0].month+" – "+last.month):"–";
@@ -829,10 +830,6 @@ function renderFlow(fl){
     if($("flowCHead")) $("flowCHead").innerHTML="<b>"+esc(c.headline||"")+"</b>";
   }
   const dic=(fl&&fl.note)||"";
-  if(g){
-    if($("flowGHead")) $("flowGHead").innerHTML="<b>No series is printed, because none exists.</b> "+esc(g.headline||"");
-    if($("flowGRepair")) $("flowGRepair").innerHTML="<b>What would repair it:</b> "+esc(g.repair||"–");
-  }
   const disc=(fl&&fl.panels||[]).flatMap(x=>(x.disclosers||[]).map(d=>"<b>"+x.leg+"</b> — "+esc(d)));
   if($("flowDisc")) $("flowDisc").innerHTML="<b>Disclosers, carried from the generator.</b> "+(disc.join(" "))+(dic?" <i>"+esc(dic)+"</i>":"");
 }
@@ -888,7 +885,7 @@ function render(data){
   $("gstamp").textContent=gen;
   $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
   $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
-  renderFlow(FLOWPANEL||{});
+  renderFlow((data&&data.flow_panel)||FLOWPANEL||{});
   renderWatch(data.watch);
   renderLegG(data.leg_g);
 

@@ -85,6 +85,32 @@ async function main(){
     (nd&&daysBetween(nd,today)>2)?fail('data.ledger_fresh',`newest ledger entry ${nd} — ${daysBetween(nd,today)}d behind`):pass('data.ledger_fresh',`newest ledger entry ${nd}`);
   }
 
+  /* ---------- generated flow panel (2026-11-09) ----------
+     The E panel was hand-built on 11-07 and went stale in two days: a derived number
+     that was not derived at build time. Three things are checked so it cannot happen
+     again silently: the panel must be as new as the export carrying it; the counts
+     must reconcile against the object count it claims; and the declared-dedupe
+     arithmetic must close (objects - merged - undated = unique dated), because that
+     subtraction IS the series denominator. */
+  if(data.flow_panel){
+    const fp=data.flow_panel, gen=(data.meta&&data.meta.generated)||data.generated;
+    fp.generated===gen?pass('flow_panel.fresh',`flow panel generated ${fp.generated}, same as export`)
+      :fail('flow_panel.fresh',`flow panel generated ${fp.generated} but export is ${gen} — panel is stale by design failure`);
+    const i=fp.integrity||{};
+    const e=fp.panels&&fp.panels.find(p=>p.id==='e-leg-flow');
+    const sumSer=e?e.series.reduce((a,b)=>a+(b.raw||0),0):null;
+    (e&&sumSer===i.unique_dated)?pass('flow_panel.reconcile',`${sumSer} events in the series = ${i.unique_dated} unique dated`)
+      :fail('flow_panel.reconcile',`series sums to ${sumSer} but integrity claims ${i.unique_dated} unique dated`);
+    const calc=(i.objects||0)-(i.merged_pairs||[]).length-(i.undated_excluded||[]).length;
+    calc===i.unique_dated?pass('flow_panel.dedupe',`${i.objects} objects − ${(i.merged_pairs||[]).length} merged − ${(i.undated_excluded||[]).length} undated = ${calc}`)
+      :fail('flow_panel.dedupe',`dedupe arithmetic does not close: ${i.objects} − ${(i.merged_pairs||[]).length} − ${(i.undated_excluded||[]).length} = ${calc}, claims ${i.unique_dated}`);
+    const rev=(i.same_date_review||[]).length;
+    rev?pass('flow_panel.review',`${rev} same-date pair(s) with differing event_type listed for review, not merged`)
+       :pass('flow_panel.review','no same-date double-coding candidates');
+  } else {
+    fail('flow_panel.present','data.json carries no flow_panel — the E flow panel has no generated source in this export');
+  }
+
   /* ---------- render-verified page checks ---------- */
   const pages=fs.readdirSync(DIR).filter(f=>f.endsWith('.html'));
   for(const f of pages){

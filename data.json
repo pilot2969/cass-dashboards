@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-09",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-09T12:15 ET"
+  "generated_stamped": "2026-11-09T12:39 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -15479,5 +15479,175 @@
     "action": "On a documented uniformed/armed monitor: file immediately as a triggering event for c-002 and tell Samuel same-hour \u2014 it is the cleanest available evidence that the pre-legitimation apparatus has an enforcement arm rather than only a paperwork arm. On a confirmed Guard drop-box presence: open a separate c-002 sub-node; do not fold it into election-day-violence tracking, since the mechanism is certification, not violence. On nothing by Nov 3: record that the largest monitoring operation in DOJ history ran with no published location list, which is itself the finding."
    }
   ]
+ },
+ "flow_panel": {
+  "generated": "2026-11-09",
+  "generator": "build_flow_panel.py",
+  "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
+  "panels": [
+   {
+    "id": "e-leg-flow",
+    "leg": "E",
+    "label": "Enforcement-capacity flow",
+    "reading": "recorded state enforcement events per month",
+    "series": [
+     {
+      "month": "2026-05",
+      "raw": 1,
+      "per_100_journal": 8.3,
+      "journal": 12,
+      "ledger": 0,
+      "days_covered": 31
+     },
+     {
+      "month": "2026-06",
+      "raw": 2,
+      "per_100_journal": 10.0,
+      "journal": 20,
+      "ledger": 0,
+      "days_covered": 30
+     },
+     {
+      "month": "2026-07",
+      "raw": 7,
+      "per_100_journal": 38.9,
+      "journal": 18,
+      "ledger": 0,
+      "days_covered": 31
+     },
+     {
+      "month": "2026-08",
+      "raw": 1,
+      "per_100_journal": 7.1,
+      "journal": 14,
+      "ledger": 0,
+      "days_covered": 31
+     },
+     {
+      "month": "2026-09",
+      "raw": 9,
+      "per_100_journal": 5.1,
+      "journal": 176,
+      "ledger": 310,
+      "days_covered": 30
+     },
+     {
+      "month": "2026-10",
+      "raw": 6,
+      "per_100_journal": 3.2,
+      "journal": 189,
+      "ledger": 104,
+      "days_covered": 31
+     }
+    ],
+    "control": {
+     "label": "machine recording rate",
+     "journal_per_month": {
+      "2026-05": 12,
+      "2026-06": 20,
+      "2026-07": 18,
+      "2026-08": 14,
+      "2026-09": 176,
+      "2026-10": 189
+     },
+     "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
+    },
+    "headline": "Raw series peaks in 2026-09 (9 events); the controlled series peaks in 2026-07 (38.9 per 100 journal). Only 2026-07 outruns the recording rate \u2014 the rest of the raw movement is the desk going to work.",
+    "disclosers": [
+     "Raw = unique dated events after declared dedupe (29 objects, 2 pairs merged, 1 undated excluded = 26 dated events).",
+     "The control denominator is ENDOGENOUS: journal volume is this machine's attention, which reacts to the events it records. Neither number is the true one; the pair is the reading.",
+     "Cannot measure capacity, only recorded events. Statutory authority created and never exercised produces no row.",
+     "Left edge (2026-05-07) is a backfill artifact, not a quiet spring.",
+     "This is a flow. It cannot move the E-leg stock score from 64."
+    ]
+   },
+   {
+    "id": "e-leg-composition",
+    "leg": "E",
+    "label": "Enforcement event composition",
+    "reading": "share of unique dated events by type, 2026-05 to 2026-10",
+    "series": [
+     {
+      "type": "policy_shift",
+      "n": 12
+     },
+     {
+      "type": "surveillance_expansion",
+      "n": 6
+     },
+     {
+      "type": "rhetoric_escalation",
+      "n": 4
+     },
+     {
+      "type": "agency_raid",
+      "n": 3
+     },
+     {
+      "type": "purge",
+      "n": 1
+     }
+    ],
+    "headline": "Kinetic episodic acts are 3 of 26. Capacity accumulates through instrument, not through visible coercion: 18 of 26 events are policy or surveillance.",
+    "disclosers": [
+     "Robust to the recording-rate problem: a tenfold writing lift does not change which category a written event lands in.",
+     "Taxonomy is the collection's own; if it is wrong, this chart is wrong.",
+     "nspm7_alignment is true on 23 of 26 dated events."
+    ]
+   }
+  ],
+  "integrity": {
+   "objects": 29,
+   "merged_pairs": [
+    {
+     "kept": "policy_shift-2026-07-13-national--",
+     "merged": "policy_shift-2026-07-13-national--dhs-0",
+     "why": "same DHS sensitive-locations rescission, two objects"
+    },
+    {
+     "kept": "04l3ibikzs74",
+     "merged": "2026-09-14-uscis-unlawful-voter-initiative-whistleblower",
+     "why": "same DHS/USCIS voter-data whistleblower, two event_type codings"
+    }
+   ],
+   "undated_excluded": [
+    {
+     "basename": "detachment-201-silicon-valley",
+     "date_raw": "2025-2026"
+    }
+   ],
+   "unique_dated": 26,
+   "same_date_review": [
+    {
+     "date": "2026-07-08",
+     "basenames": [
+      "agency_raid-2026-07-08-unspecified-us--2",
+      "cleveland-flock-ice"
+     ],
+     "types": [
+      "agency_raid",
+      "surveillance_expansion"
+     ]
+    },
+    {
+     "date": "2026-09-14",
+     "basenames": [
+      "04l3ibikzs74",
+      "2026-09-14-trump-ai-guardrails",
+      "b0ecmrpaib8v"
+     ],
+     "types": [
+      "surveillance_expansion",
+      "rhetoric_escalation",
+      "policy_shift"
+     ]
+    }
+   ],
+   "window": {
+    "start": "2026-05-07",
+    "end": "2026-10-27",
+    "days": 174
+   }
+  }
  }
 }

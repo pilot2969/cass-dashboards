@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-07",
- "generator": "/space/note/2026-11-07-e-leg-enforcement-flow.json",
+ "generated": "2026-11-09",
+ "generator": "build_flow_panel.py",
  "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
  "panels": [
   {
@@ -12,51 +12,70 @@
     {
      "month": "2026-05",
      "raw": 1,
-     "per_100_journal": 8
+     "per_100_journal": 8.3,
+     "journal": 12,
+     "ledger": 0,
+     "days_covered": 31
     },
     {
      "month": "2026-06",
      "raw": 2,
-     "per_100_journal": 10
+     "per_100_journal": 10.0,
+     "journal": 20,
+     "ledger": 0,
+     "days_covered": 30
     },
     {
      "month": "2026-07",
      "raw": 7,
-     "per_100_journal": 39
+     "per_100_journal": 38.9,
+     "journal": 18,
+     "ledger": 0,
+     "days_covered": 31
     },
     {
      "month": "2026-08",
      "raw": 1,
-     "per_100_journal": 7
+     "per_100_journal": 7.1,
+     "journal": 14,
+     "ledger": 0,
+     "days_covered": 31
     },
     {
      "month": "2026-09",
      "raw": 9,
-     "per_100_journal": 5
+     "per_100_journal": 5.1,
+     "journal": 176,
+     "ledger": 310,
+     "days_covered": 30
     },
     {
      "month": "2026-10",
      "raw": 6,
-     "per_100_journal": 3
+     "per_100_journal": 3.2,
+     "journal": 189,
+     "ledger": 104,
+     "days_covered": 31
     }
    ],
    "control": {
     "label": "machine recording rate",
     "journal_per_month": {
      "2026-05": 12,
-     "2026-06": 21,
+     "2026-06": 20,
      "2026-07": 18,
      "2026-08": 14,
      "2026-09": 176,
      "2026-10": 189
-    }
+    },
+    "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
    },
-   "headline": "Raw series rises in September; the controlled series falls after July. Only July outruns the recording rate.",
+   "headline": "Raw series peaks in 2026-09 (9 events); the controlled series peaks in 2026-07 (38.9 per 100 journal). Only 2026-07 outruns the recording rate \u2014 the rest of the raw movement is the desk going to work.",
    "disclosers": [
-    "Raw = unique dated events after dedupe (29 objects, 2 double-coded pairs, 1 undated excluded = 26 dated events).",
+    "Raw = unique dated events after declared dedupe (29 objects, 2 pairs merged, 1 undated excluded = 26 dated events).",
     "The control denominator is ENDOGENOUS: journal volume is this machine's attention, which reacts to the events it records. Neither number is the true one; the pair is the reading.",
     "Cannot measure capacity, only recorded events. Statutory authority created and never exercised produces no row.",
-    "Left edge is a backfill artifact, not a quiet spring.",
+    "Left edge (2026-05-07) is a backfill artifact, not a quiet spring.",
     "This is a flow. It cannot move the E-leg stock score from 64."
    ]
   },
@@ -64,7 +83,7 @@
    "id": "e-leg-composition",
    "leg": "E",
    "label": "Enforcement event composition",
-   "reading": "share of unique events by type, 2026-05 to 2026-10",
+   "reading": "share of unique dated events by type, 2026-05 to 2026-10",
    "series": [
     {
      "type": "policy_shift",
@@ -72,7 +91,7 @@
     },
     {
      "type": "surveillance_expansion",
-     "n": 7
+     "n": 6
     },
     {
      "type": "rhetoric_escalation",
@@ -87,24 +106,65 @@
      "n": 1
     }
    ],
-   "headline": "Kinetic episodic acts are 4 of 27. Capacity accumulates through instrument, not through visible coercion.",
+   "headline": "Kinetic episodic acts are 3 of 26. Capacity accumulates through instrument, not through visible coercion: 18 of 26 events are policy or surveillance.",
    "disclosers": [
     "Robust to the recording-rate problem: a tenfold writing lift does not change which category a written event lands in.",
-    "Taxonomy is the collection's own; if it is wrong, this chart is wrong."
-   ]
-  },
-  {
-   "id": "g-leg-flow",
-   "leg": "G",
-   "label": "Legitimation flow",
-   "reading": null,
-   "blind_spot": true,
-   "headline": "Not countable from the present record. No dated population of institutional-refusal events exists in /space.",
-   "repair": "New dated collection with a closed event taxonomy, plus two independent external series (court rulings against the executive per month; federal-official resignations per month).",
-   "disclosers": [
-    "Absence is measured, not asserted: six candidate collections inspected and each fails for a stated reason. See /space/note/2026-11-07-g-leg-legitimation-flow-blind-spot.json.",
-    "A panel with no series must render as a blind spot. Rendering prose here would be the exact failure the instrument protocol forbids."
+    "Taxonomy is the collection's own; if it is wrong, this chart is wrong.",
+    "nspm7_alignment is true on 23 of 26 dated events."
    ]
   }
- ]
+ ],
+ "integrity": {
+  "objects": 29,
+  "merged_pairs": [
+   {
+    "kept": "policy_shift-2026-07-13-national--",
+    "merged": "policy_shift-2026-07-13-national--dhs-0",
+    "why": "same DHS sensitive-locations rescission, two objects"
+   },
+   {
+    "kept": "04l3ibikzs74",
+    "merged": "2026-09-14-uscis-unlawful-voter-initiative-whistleblower",
+    "why": "same DHS/USCIS voter-data whistleblower, two event_type codings"
+   }
+  ],
+  "undated_excluded": [
+   {
+    "basename": "detachment-201-silicon-valley",
+    "date_raw": "2025-2026"
+   }
+  ],
+  "unique_dated": 26,
+  "same_date_review": [
+   {
+    "date": "2026-07-08",
+    "basenames": [
+     "agency_raid-2026-07-08-unspecified-us--2",
+     "cleveland-flock-ice"
+    ],
+    "types": [
+     "agency_raid",
+     "surveillance_expansion"
+    ]
+   },
+   {
+    "date": "2026-09-14",
+    "basenames": [
+     "04l3ibikzs74",
+     "2026-09-14-trump-ai-guardrails",
+     "b0ecmrpaib8v"
+    ],
+    "types": [
+     "surveillance_expansion",
+     "rhetoric_escalation",
+     "policy_shift"
+    ]
+   }
+  ],
+  "window": {
+   "start": "2026-05-07",
+   "end": "2026-10-27",
+   "days": 174
+  }
+ }
 }
