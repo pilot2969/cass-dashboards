@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-09",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-09T08:05 ET"
+  "generated_stamped": "2026-11-09T09:10 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5135,7 +5135,7 @@
    "expiry_basis": "Leg 1 expiry 2026-11-30; leg 2 carries the card with a hard horizon at 2027-03-09. No amendment to either date once Nov 9 passes.",
    "threshold_definition": "Permanent press secretary publicly designated; acting/rotating/absorbed does not count. Leg 2 adds the four-month vacuum horizon.",
    "review_cadence": "Daily from Nov 9",
-   "tracking_state": "open; no observation yet post-Miller",
+   "tracking_state": "open; post-Miller day 0; offer publicly recast as a joke, no named candidate",
    "deadline_type": "conventional",
    "falsifier_shape_audit": "Leg 1 is a clean dated yes/no. Leg 2 is a two-outcome OR with a hard calendar horizon - sound shape, but it carries one judgement call: whether Miller 'personally manages press interactions' is observable and logged, not scored, so the vacuum character is evidence, not a resolution trigger. Weakest edge remains 'named but not in post' - flagged at resolution rather than split.",
    "leg_primary": "N",
@@ -5239,6 +5239,64 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-09",
+   "time_et": "09:20",
+   "track": "immigration enforcement / post-defeat pair read / concession-as-cover",
+   "mget_legs_tested": [
+    "concession is messaging unless a volume changes",
+    "enforcement tempo rising without new statutory authority (acceleration marker)",
+    "leg_e war-to-domestic substitution"
+   ],
+   "verdict": "confirms",
+   "reasoning": "FIRED, and in the direction the watch named as strongest. On 2026-11-08 the president told 60 Minutes the deportation programme was 'too tough' and that a deal with Democrats was 'actually doable'. Within 24-48 hours, CBS reported that ICE officials have been instructed to aim for about 2,700 arrests a day, up from an earlier 2,000 target; DHS said Sunday its agents would not be 'backing away or slowing down'. The White House called the policy 'both helped and hurt' but announced no review.\n\nThis is the pair read in its cleanest form: concession on the product, acceleration of the machine, announced the same weekend as Miller takes the chief of staff's office. 'Too tough' is now a statement about voter perception, not about operational intent. It costs the base nothing and buys the new chief of staff room.\n\nBASELINE DISCREPANCY, stated rather than smoothed: my watch card recorded a 3,000/day target set in 2025; the sanctuary-quota watch records a 2,000->3,000 ratchet confirmed 2026-10-09. Today's reporting gives 2,700 as the current instruction against a 2,000 prior. Two readings: (a) 3,000 was the political directive and 2,700 is the operational target actually issued to field offices; (b) one of the figures is wrong. I cannot resolve it from open reporting, so the entry records BOTH numbers and treats the direction, not the level, as the finding. Do not cite 3,000 as the baseline until DHS publishes one.\n\nSecondary but material: reporting puts the pre-election instruction at roughly 19,000 arrests a week (~2,700/day), i.e. the 'increase' may describe a target set BEFORE the election and merely confirmed now. If so, the concession changed nothing at all, which strengthens rather than weakens the cover reading.",
+   "forward_signal": "1) Does DHS publish an official daily/weekly arrest target, or does 2,700 stay CBS-sourced? 2) Any written prioritisation guidance narrowing removals (single violation, employed, taxpaying) \u2014 the only form of 'too tough' that is a policy change. 3) ICE weekly arrest averages against the 2,000 baseline through December. 4) Whether the immigration 'deal' with Democrats acquires a vehicle (a bill, a named negotiation) or stays a sentence in an interview.",
+   "confidence_moves": "No forecast number moved (velocity rule). The 'concession is messaging' reading moves from hypothesis to supported; the Miller-appointment-is-the-operative-fact reading is now the primary.",
+   "basename": "2026-11-09-ice-target-raised-after-concession"
+  },
+  {
+   "date": "2026-11-09",
+   "time_et": "09:15",
+   "track": "iran war / decision structure / de-escalation price",
+   "mget_legs_tested": [
+    "principal constrained by talks vs buying time with unattributable attrition",
+    "decision process widening (disconfirming observable for the acceleration read)",
+    "war risk priced by money, not by statements"
+   ],
+   "verdict": "strains",
+   "reasoning": "THE DECISION IS OPEN AND THE PRINCIPALS ARE SPLIT. WSJ reporting (via Just Security) names three blocs advising the president: Vance and Witkoff for a diplomatic deal to reopen Hormuz \u2014 Vance reportedly told Trump he would blame the midterm losses on the war \u2014 against Hegseth and CENTCOM chief Adm. Brad Cooper for a return to major combat, with outside advisers telling Trump his legacy depends on forcing Iran to surrender its nuclear programme; Rubio and Bessent occupy a third position, tightening sanctions and continuing the blockade. This is a WIDE principals' process, not a contracted one.\n\nThat matters because the Miller watch pre-registered it: 'the Iran decision process widening back to a full principals' process ... would disconfirm the acceleration reading'. It has widened. The acceleration read is strained, not dead \u2014 a split process can still resolve toward escalation, and the war's operational tempo has not slowed (US struck Qeshm overnight; Iran kept hitting ships near Hormuz; a tanker hit a mine east of the strait on Sunday).\n\nTHE PRICE MOVED BEFORE THE POLICY DID. Trump told CNN new strikes are 'highly unlikely' while talks progress; oil fell to about $97-98 Brent and $90 WTI, roughly $2.66 lower, and equities firmed on it. Qatar's prime minister meets Trump and Vance at the White House today with a two-day 'bridge' proposal. Rubio called Iran's proposal 'outrageous and ridiculous'; Iran's foreign ministry called it the most reasonable offer on the table. No published text, no reopening date.\n\nSo: a market pricing de-escalation, a battlefield conducting attrition, and a principal who has not chosen. The correct instrument read is that the price is now the leading indicator and the air picture is the lagging one \u2014 which inverts the dashboard's current hierarchy.",
+   "forward_signal": "1) Qatar meeting outcome today: published text, a Hormuz reopening date, or 'talks continue'. 2) Whether the Hegseth/Cooper bloc or the Vance/Witkoff bloc wins the next decision \u2014 observable as either a major-package order or a suspension of strikes. 3) Hormuz transit count, not price. 4) Whether insurance/war-risk premia fall with the oil price or diverge (if premia stay high while crude falls, the market is pricing a temporary pause and the physical rail is still closed).",
+   "confidence_moves": "No card scored. The attribution-gap watch remains the only holder of the escalation question; the war-risk premium channel is still unbuilt for the third run running.",
+   "basename": "2026-11-09-iran-divided-principals-and-price"
+  },
+  {
+   "date": "2026-11-09",
+   "time_et": "09:10",
+   "track": "removal / succession / lame duck procedure",
+   "mget_legs_tested": [
+    "sacrificial removal branch: procedural casus belli, political motive",
+    "replacement is the discriminator, not removal"
+   ],
+   "verdict": "confirms",
+   "reasoning": "Massie files EIGHT articles of impeachment against Hegseth today, teeing up a floor vote no later than Wednesday. The articles are the ones read into the record in September: War Powers violations for opening the Iran war on 28 February without Congress and continuing after both chambers voted in June to order the troops out, plus the Venezuela, Yemen, Caribbean and eastern Pacific campaigns.\n\nThe removal is now a scheduled procedure with a date, which is what the sacrificial-removal branch required. Trump is publicly defending Hegseth and has ruled out replacing him; that is the principal protecting the office while the chamber removes the man, which is the pattern the branch predicts.\n\nTHE REPLACEMENT MARKET IS ALREADY RUNNING, and it is running toward loyalists: DeSantis and Waltz floated by Pentagon officials, Joni Ernst floated from the Iowa side, with the explicit argument that a nominee could be confirmed in the lame duck before the Democratic majority arrives. Under the replacement test that is the 'deliberate transfer' branch, not 'continuity on autopilot'. Not yet a nomination \u2014 the discriminator stays open until a name is filed or an acting official is designated.\n\nOne honest caveat: a House impeachment of a cabinet officer has no removal effect without a Senate trial, and the Senate calendar is six weeks. The realistic outcomes are resignation under pressure or a trial that does not finish. The procedure's value as a signal is that it forces every Republican to vote on the war record before the 120th Congress is seated.",
+   "forward_signal": "1) Wednesday floor vote and the Republican defection count. 2) Whether Hegseth resigns before the vote (the named off-ramp). 3) Identity of an acting successor or a filed nomination \u2014 career official vs named loyalist. 4) Whether the Senate schedules a trial or refers it to committee to die.",
+   "confidence_moves": "None (velocity rule).",
+   "basename": "2026-11-09-hegseth-eight-articles-filed"
+  },
+  {
+   "date": "2026-11-09",
+   "time_et": "09:05",
+   "track": "poland / docking test / lone actor vs movement",
+   "mget_legs_tested": [
+    "leg_4 docking: the state's answer, not the act",
+    "security path vs crime path"
+   ],
+   "verdict": "neutral",
+   "reasoning": "The Krak\u00f3w gunman died in hospital this morning, and Poland's justice minister said the investigation will establish whether the 24-year-old acted alone or was inspired by a group. The count reconciles the apparent discrepancy between yesterday's reporting: six killed in the Main Square (including a British citizen) and 17 injured; police then found three bodies \u2014 the suspect's parents and sister \u2014 at the family home in Ostrowiec \u015awi\u0119tokrzyski, which is where the nine total came from. Both numbers were right about different scenes.\n\nThe terrorism investigation continues, and the shooter's death removes the trial as the venue where a movement link would be established or dismissed. That makes the state's classification the primary evidence, and it is a classification made without a defendant.\n\nNo Polish emergency or expedited security legislation yet. The docking test stays on the state's response: a security-law package pushed through a state already in a constitutional-tribunal standoff is the self-healing-emergency pattern; a criminal investigation that runs its course is the Norwegian path.",
+   "forward_signal": "1) Whether Polish prosecutors name an organisation or ideology-as-organisation in the coming weeks. 2) Any emergency/expedited security legislation or domestic-intelligence designation. 3) Whether the constitutional-tribunal standoff is paused, used, or unaffected.",
+   "confidence_moves": "None.",
+   "basename": "2026-11-09-krakow-shooter-dead-solo-question"
+  },
   {
    "date": "2026-11-08",
    "time_et": "21:00",
@@ -12808,11 +12866,41 @@
   }
  ],
  "daily_read": {
-  "summary": [],
-  "watching": []
+  "summary": [
+   "[09:20] He said the deportations were \"too tough.\" Overnight, the arrest target went up.",
+   "[09:15] A war with three answers, a president who has not chosen, and a price that already moved",
+   "[09:10] The House moves to impeach the defence secretary \u2014 and the replacement list is all loyalists",
+   "[09:05] The Krak\u00f3w gunman is dead, so the question becomes what Poland builds next"
+  ],
+  "watching": [
+   "Whether a published deportations figure ever appears \u2014 the number is the policy, the sentence is not",
+   "Which faction wins the next Iran decision: another large strike, tighter sanctions, or a signed bridge",
+   "Who replaces Hegseth \u2014 a career official means the war continues on its own, a loyalist means it was chosen",
+   "Whether Poland answers with a trial or with emergency law",
+   "Whether the press briefing room stays empty, and whether the chief of staff starts running the podium himself"
+  ],
+  "date": "2026-11-09",
+  "cards": [
+   {
+    "title": "[09:20] He said the deportations were \"too tough.\" Overnight, the arrest target went up.",
+    "html": "<p><i>The president's concession lasted less than a day before the machinery answered it.</i></p>\n\n<p><b>What happened.</b> In his Sunday interview the president said his deportation campaign had been \"too tough\" and that a deal on immigration with Democrats was \"actually doable.\" By Monday morning, CBS was reporting that immigration agents have been instructed to aim for about 2,700 arrests a day, up from an earlier target of 2,000, and the Department of Homeland Security said its agents would not be \"backing away or slowing down.\" The White House said the policy had \"both helped and hurt\" and announced no review. The same weekend, the man who designed the deportation programme, Stephen Miller, became chief of staff.</p>\n\n<p><b>Why it matters.</b> A concession and a volume increase in the same 48 hours are not a contradiction. They are two different statements aimed at two different audiences. \"Too tough\" is a message to the voters who just rejected the party; the higher arrest target is the policy the government intends to keep running. When a leader apologises for a programme and simultaneously accelerates it, the apology is about how the programme was received, not about what it will do.</p>\n\n<p><b>The pattern.</b> Defeated governments routinely sacrifice the language and keep the machine. The giveaway is that nothing in the concession is measurable. There is no new guidance, no published quota, no bill. There is a sentence in an interview, and a target that moved the other way. The test is not what a government says it regrets, but whether any number it publishes changes.</p>\n\n<p><b>What history says.</b> After the 1932 election losses the Nazi party did not moderate its paramilitary wing; it absorbed it further into the party's authority. Britain's 1931 emergency government cut unemployment benefits while promising a fairer system, then appointed the man who had campaigned against the existing rate. The pattern that repeats is not hypocrisy \u2014 it is sequencing. Concessions are made in the currency the leader can afford, and the operational core is protected until the politics allow it to be named again.</p>\n\n<p><b>What we're watching next.</b> Whether any official figure is ever published, and in which direction. A published target at or below the old level, held for a month, would mean the concession is real. A published target at or above the new one would mean the apology was cover for the acceleration. Either way, the number is the policy; the sentence is not.</p>\n\n<p>Sources: <a href=\"https://www.bbc.com/news/articles/cmg476w7wnl2o\">BBC News</a>, <a href=\"https://www.theguardian.com/us-news/2026/nov/09/trump-tells-60-minutes-deportation-policy-too-tough-ice-immigration\">The Guardian</a>, <a href=\"https://www.the-independent.com/news/world/americas/us-politics/trump-ice-immigration-midterms-republicans-b3081619.html\">The Independent</a></p>"
+   },
+   {
+    "title": "[09:15] A war with three answers, a president who has not chosen, and a price that already moved",
+    "html": "<p><i>Oil fell about $2.66 a barrel on Monday morning on a sentence, while the shooting continued.</i></p>\n\n<p><b>What happened.</b> The president told CNN that new strikes on Iran are \"highly unlikely\" as long as talks progress, and said it \"depends on whether or not they sign a very strong agreement.\" Qatar's prime minister meets him and the vice president at the White House today with a two-day proposal to bridge the gap. Iran's foreign minister says the offer stands and warns of escalation if it is refused. The secretary of state called Iran's terms \"outrageous and ridiculous.\" American aircraft struck Iran's Qeshm Island overnight; Iran says a tanker hit a mine east of the Strait of Hormuz on Sunday; both sides claim to have hit ships the other says it did not. Brent crude fell to about $97 and West Texas crude to about $90, and stock futures rose.</p>\n\n<p><b>Why it matters.</b> Three different policies are being argued inside the same government. The vice president and the special envoy want a deal that reopens the strait. The defence secretary and the regional commander want a return to major combat. The secretary of state and the treasury secretary want to tighten sanctions and keep the blockade. The president has not picked one, and the market has already picked for him \u2014 it is trading the sentence about talks, not the strikes overnight.</p>\n\n<p><b>The pattern.</b> When a war has no decision, its price becomes the only honest indicator. Statements are cheap and can be walked back; insurance premiums and freight rates are paid by people who lose money if they are wrong. That is why a falling oil price alongside a closed strait and continuing attacks is not reassurance. It is a market pricing a pause it expects to be temporary.</p>\n\n<p><b>What history says.</b> The Tanker War of the 1980s ran for years in exactly this shape: attacks both sides described as something other than attacks, a waterway that stayed commercially open at a rising insurance cost, and no declaration either way. In 2019 the Gulf shipping attacks and the strike on Saudi Arabia's Abqaiq processing plant moved oil 15% in a day without a single acknowledged act of war between the two governments. Ambiguity is not the absence of a decision. It is a way of taking actions without owning them.</p>\n\n<p><b>What we're watching next.</b> Whether the Qatar meeting produces a document or a date. A published text or a reopening date for the strait would mean the deal faction won. A large new strike package would mean the combat faction won. A new round of sanctions with no military movement would mean the blockade becomes the permanent instrument \u2014 and a permanent blockade is the one outcome that reshapes energy trade for years rather than weeks.</p>\n\n<p>Sources: <a href=\"https://www.reuters.com/world/middle-east/trump-meet-iran-war-mediator-qatar-no-imminent-deal-seen-end-war-2026-11-09/\">Reuters</a>, <a href=\"https://www.justsecurity.org/163775/early-edition-november-9-2026/\">Just Security</a>, <a href=\"https://www.euronews.com/2026/11/09/trump-says-us-has-won-iran-war-as-rubio-reports-no-progress-in-talks\">Euronews</a>, <a href=\"https://tradingeconomics.com/commodity/crude-oil\">Trading Economics</a></p>"
+   },
+   {
+    "title": "[09:10] The House moves to impeach the defence secretary \u2014 and the replacement list is all loyalists",
+    "html": "<p><i>A Republican congressman who lost his primary is forcing his own party to vote on the war.</i></p>\n\n<p><b>What happened.</b> Representative Thomas Massie filed eight articles of impeachment against Defence Secretary Pete Hegseth on Monday, forcing a floor vote no later than Wednesday. The articles allege he violated the War Powers Act by starting the Iran war in February without Congress and continuing it after both chambers voted to withdraw, along with operations in Venezuela, Yemen and the Pacific. The Democratic leader has said he is a \"hard yes.\" The president says he has confidence in Hegseth and is not replacing him \u2014 while Pentagon officials brief reporters on possible successors, including two Florida politicians and a retiring senator, with the argument that a nominee could be confirmed before the new Congress arrives in January.</p>\n\n<p><b>Why it matters.</b> The votes to remove him are coming from his own party, days after an election in which the war was the most cited reason for voting against them. That makes the impeachment less an accountability mechanism than a way of ending a conversation: the fastest route to stop being asked about a war is to hand over the man who ran it. And because the House calendar expires in January, every step happens while the current majority still controls it.</p>\n\n<p><b>The pattern.</b> The replacement tells you what the removal was for. If a career civil servant takes over, the policy runs on its own and the removal was about the man. If a named political loyalist is nominated and confirmed in the six weeks left, the removal was about the record and the war is being deliberately handed to someone who will continue it.</p>\n\n<p><b>What history says.</b> Truman removed General MacArthur in 1951 after he publicly contradicted the president; the removal settled who gave orders, and the war ran another two years. In 1876 Secretary of War William Belknap resigned minutes before the House impeached him, and the Senate declined to convict a man no longer in office. The lesson in both: removing the official is the cheap move, and the policy usually survives him.</p>\n\n<p><b>What we're watching next.</b> Wednesday's vote and how many Republicans cross. Whether Hegseth resigns first \u2014 the off-ramp his allies keep naming. And above all whether a successor is named before 3 January, and whether that person is a professional or a loyalist.</p>\n\n<p>Sources: <a href=\"https://politicalwire.com/2026/11/09/vote-to-impeach-pete-hegseth-likely-on-wednesday/\">Political Wire</a>, <a href=\"https://rollcall.com/2026/11/09/this-week-lame-duck-kicks-off-with-hegesth-impeachment-effort/\">Roll Call</a>, <a href=\"https://www.nytimes.com/2026/11/08/us/politics/pete-hegseth-impeachment-hakeem-jeffries.html\">New York Times</a>, <a href=\"https://theintercept.com/2026/11/06/pentagon-hegseth-replacement-desantis-waltz/\">The Intercept</a></p>"
+   },
+   {
+    "title": "[09:05] The Krak\u00f3w gunman is dead, so the question becomes what Poland builds next",
+    "html": "<p><i>Six people died in the square and three in a house. The trial that would have explained it will not happen.</i></p>\n\n<p><b>What happened.</b> The 24-year-old man who opened fire in Krak\u00f3w's main market square on Saturday died in hospital on Monday morning. Six people were killed in the square, including a British citizen, and 17 were wounded. Police later found the bodies of his parents and sister at the family home in Ostrowiec \u015awi\u0119tokrzyski, bringing the total to nine. Prosecutors opened a terrorism investigation within a day, and Poland's justice minister said on Monday that the inquiry will establish whether he acted alone or was inspired by a group. The square has reopened; national mourning continues.</p>\n\n<p><b>Why it matters.</b> The shooter's death removes the courtroom as the place where a network would be proved or ruled out. That leaves the state's own classification as the primary evidence, and it is being made without a defendant, without cross-examination, and without a verdict. Poland has chosen the security register over the criminal one \u2014 the powers that come with calling something terrorism rather than the ordinary law that comes with calling it murder.</p>\n\n<p><b>The pattern.</b> The first use of an emergency power is almost always legitimate. The question that matters is the second use, and the second use always arrives against someone with less sympathy. Once a state has built a category and an instrument for political violence, both remain available after the case that justified them has closed.</p>\n\n<p><b>What history says.</b> Norway answered 77 deaths in 2011 with prosecution and a public reckoning, not emergency legislation. France answered the 2015 Paris attacks with a state of emergency renewed six times and then written into ordinary law in 2017. The United States answered 9/11 with the Patriot Act in six weeks. The difference is not the scale of the attack. It is whether the state's ordinary institutions are trusted enough to be the answer.</p>\n\n<p><b>What we're watching next.</b> Whether Poland legislates, and whether anything it passes expires. Poland is already in a standoff with its own constitutional tribunal, which is exactly the condition in which emergency powers are easiest to justify and hardest to review. Also whether the far-right classification survives the investigation, or whether the man turns out to have been alone \u2014 in which case the framework will still be standing, and will be looking for its next case.</p>\n\n<p>Sources: <a href=\"https://www.theguardian.com/world/2026/nov/09/krakow-shooting-suspected-gunman-dead\">The Guardian</a>, <a href=\"https://www.ibtimes.co.uk/poland-probes-krakow-gunman-possible-assistance-1831107\">IBTimes</a>, <a href=\"https://apnews.com/article/poland-shooting-krakow-market-dead-69a65400657ffd0c8b3fa104bd472b97\">AP News</a>, <a href=\"https://www.nbcnews.com/world/europe/krakow-shooting-gunman-poland-attack-dies-hospital-rcna608248\">NBC News</a></p>"
+   }
+  ]
  },
  "counts": {
-  "items_today": 0,
+  "items_today": 4,
   "tracked_predictions": 97,
   "claims_tested": 29,
   "unscored_predictions": 0
