@@ -111,6 +111,43 @@ async function main(){
     fail('flow_panel.present','data.json carries no flow_panel — the E flow panel has no generated source in this export');
   }
 
+  /* ---------- Leg G macro gauge (2026-11-09) ----------
+     G carried a score with no series until this build, then a series with no entry
+     point from the macro row. The gauge is now a fourth macro panel, and the rule is
+     the same as the other three: the number on the box must be derivable from the
+     generated file the detail section prints. A panel that can drift from its own
+     source is a hand-set number with extra steps. */
+  {
+    let gg=null; try{ gg=JSON.parse(fs.readFileSync(path.join(DIR,'leg_g.json'),'utf8')); }catch(e){}
+    if(!gg){ fail('macro.leg_g','leg_g.json missing — the G gauge has no generated source'); }
+    else{
+      const t=gg.totals||{}, ser=gg.series||[];
+      (t.withdrawals+t.grants)===t.events_total
+        ? pass('macro.leg_g.split',`${t.withdrawals} withdrawals + ${t.grants} grants = ${t.events_total} events`)
+        : fail('macro.leg_g.split',`direction split does not close: ${t.withdrawals}+${t.grants} vs ${t.events_total} claimed`);
+      const sw=ser.reduce((a,b)=>a+(b.withdrawals||0),0), sg=ser.reduce((a,b)=>a+(b.grants||0),0);
+      (sw===t.withdrawals&&sg===t.grants)
+        ? pass('macro.leg_g.series',`series sums to ${sw} withdrawals / ${sg} grants = totals`)
+        : fail('macro.leg_g.series',`series sums to ${sw}/${sg} but totals claim ${t.withdrawals}/${t.grants}`);
+      // per_month is WITHDRAWALS over a 30.44-day month, not all events — grants are
+      // the counter-series and must never enter the rate. Fixed to the generator's own
+      // definition so the box cannot drift from what build_leg_g.py computed.
+      const denom=Math.round((t.withdrawals/Math.max(1,(gg.window||{}).days/30.44))*10)/10;
+      Math.abs(denom-t.per_month)<=0.15
+        ? pass('macro.leg_g.rate',`${t.per_month}/month = ${t.withdrawals} withdrawals over ${(gg.window||{}).days}d (30.44-day month)`)
+        : fail('macro.leg_g.rate',`${t.per_month}/month does not reconcile: ${t.withdrawals} withdrawals over ${(gg.window||{}).days}d implies ${denom}`);
+      // the rate on the box must be the withdrawal rate, never a total-event rate
+      (t.per_month<t.events_total)?pass('macro.leg_g.rate_def','box rate is the withdrawal series, not the event count'):null;
+      let src=''; try{ src=fs.readFileSync(path.join(DIR,'preview.html'),'utf8'); }catch(e){}
+      const box=/id="legGBig"/.test(src)&&/id="legGWin"/.test(src)&&/href="#sec-2-4-g"/.test(src);
+      box?pass('macro.leg_g.present','fourth macro panel present, carrying a jump to its own series')
+         :fail('macro.leg_g.present','G macro panel, its window line or its jump control is missing from preview.html');
+      /id="sec-2-4-g"/.test(src)
+        ? pass('macro.leg_g.anchor','jump target #sec-2-4-g exists in the page')
+        : fail('macro.leg_g.anchor','jump control points at #sec-2-4-g but no such id exists');
+    }
+  }
+
   /* ---------- anchor provenance + the legacy gap (pre-cutover only) ---------- */
   {
     // The gap column (computed load vs hand-set live board) is the ONLY external
