@@ -633,6 +633,22 @@ if n==0 and rolled_over:
     print('rolled-over state: rolling file empty pre-morning-wire — retaining previous cards on the board (archive rebuild 2026-10-22)')
 "
 
+# WIRE-FILED-BUT-NOT-CARDED GUARD (2026-11-10). Two consecutive wire runs wrote a
+# standalone "Morning/Evening Wire YYYY-MM-DD.md" and never prepended cards to the
+# rolling stack: 11-09 evening, and 11-10 morning. The boards shipped with the
+# previous day's cards, the dailyread.live check passed (0 cards vs 0 parsed), and
+# nothing failed — the work existed as a file nobody publishes.
+# A wire run is not done until its stories are cards. If a wire file for a date is
+# newer than the card stack, the cards were not written: fail loudly.
+_TODAY=$(TZ=America/New_York date +%F)
+for _wf in "Morning Wire $_TODAY.md" "Evening Wire $_TODAY.md"; do
+  if [ -f "$_wf" ] && [ "$_wf" -nt "Daily Read.md" ]; then
+    echo "FAIL: $_wf was filed but Daily Read.md has not been updated since. A wire run that is not prepended as cards is not published."
+    echo "      Write the cards into Daily Read.md (five beats, public voice) and re-run."
+    exit 1
+  fi
+done
+
 # canonical-source amendment (2026-10-09): Daily Read.md is the canonical source
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
