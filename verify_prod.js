@@ -111,6 +111,31 @@ async function main(){
     fail('flow_panel.present','data.json carries no flow_panel — the E flow panel has no generated source in this export');
   }
 
+  /* ---------- Daily Read section header (2026-11-10) ----------
+     The summary row is an edition line, not a lead story. It used to be filled from
+     cards[0].title, which printed the newest headline above the cards and again as the
+     first card — one story appearing to float over the rest of the section. A section
+     header may carry the date, the count and the sort order; it may never carry a
+     headline or a filing stamp. */
+  {
+    let src=''; try{ src=fs.readFileSync(path.join(DIR,'preview.html'),'utf8'); }catch(e){}
+    if(!src){ warn('dailyread.summary','preview.html not present — header checks skipped'); }
+    else{
+      const bad=src.match(/\$\("drlead"\)\.textContent=first\.title/);
+      !bad?pass('dailyread.summary','section header is not filled from the newest card headline')
+          :fail('dailyread.summary','section header is filled from cards[0].title — a single story renders above the edition line');
+      const hdr=(src.match(/<summary>([\s\S]*?)<\/summary>/)||[])[1]||'';
+      const cue=(src.match(/id="drcue">([^<]*)</)||[])[1]||'';
+      /^DAILY READ$/.test(cue.trim())?pass('dailyread.cue','section cue reads DAILY READ, not a story')
+          :fail('dailyread.cue',`section cue is "${cue.trim()}" — expected the section name`);
+      !/\[[0-9]{1,2}:[0-9]{2}\]/.test(hdr)?pass('dailyread.nostamp','no filing stamp leaks into the section header')
+          :fail('dailyread.nostamp','a [HH:MM] filing stamp appears in the Daily Read section header');
+      /\$\("drlead"\)\.textContent=\(dr\.date/.test(src)
+        ?pass('dailyread.headerline','header prints edition date, card count and sort order in that order')
+        :fail('dailyread.headerline','header does not print the edition line (date · count · sort)');
+    }
+  }
+
   /* ---------- Leg G macro gauge (2026-11-09) ----------
      G carried a score with no series until this build, then a series with no entry
      point from the macro row. The gauge is now a fourth macro panel, and the rule is

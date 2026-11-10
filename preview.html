@@ -201,12 +201,10 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 
 <h2>1 · Daily Read</h2>
 <details class="dr" id="drwrap" open>
-  <summary><span class="cue" id="drcue">DAILY READ</span><span class="lead" id="drlead">Loading…</span><span class="small" id="drmeta"></span></summary>
-  <div class="dredition"><span class="elab" id="dredate">Edition</span><span class="ecount" id="drcount"></span><span class="small" id="drsort">newest first</span></div>
+  <summary><span class="cue" id="drcue">DAILY READ</span><span class="lead" id="drlead">Loading…</span></summary>
   <div id="dailyread"></div>
   <a class="drarch" id="drarchive" href="archive.html">Daily Read Archive →</a>
 </details>
-<div class="note">Two levels of nesting, and this is the default view: the edition is open, all ten cards are shut. A reader sees the day at a glance — ten stamps and ten headlines — and opens only what interests them. The outer row is the edition — date, card count, newest first — so the section costs one line until you want it. The inner rows are the cards, each stamped with the time it was filed and its headline; open one and the five beats are under it. The archive button leads to every past edition.</div>
 
 <h2>2 · The MGET model — macro to micro</h2>
 <div class="subhead">2.1 Macro · model state</div>
@@ -1029,11 +1027,15 @@ function render(data){
 
   const dr=data.daily_read||{}; const cards=dr.cards||[];
   const first=cards[0]||{};
+  /* 2026-11-10. The summary row carried the newest card's headline, so the top card
+     appeared twice — once above the edition line and once inside it — and a single
+     story looked like it was floating over the section. The summary line is the
+     edition, not a lead story: date, card count, sort order. No headline ever
+     appears in the section header. */
   $("drcue").textContent="DAILY READ";
-  $("drlead").textContent=first.title||(cards.length?cards.length+" cards":"No edition");
-  $("drmeta").textContent="";
-  $("dredate").textContent="Edition "+(dr.date||"–");
-  $("drcount").textContent=cards.length+" cards";
+  $("drlead").textContent=(dr.date?"Edition "+dr.date:"")+
+    (cards.length?"  ·  "+cards.length+(cards.length===1?" card":" cards"):"  ·  no edition")+
+    (cards.length?"  ·  newest first":"");
   const split=cards.map(c=>{
     const t=String(c.title||"");
     const m=t.match(/^\s*\[([0-9]{1,2}:[0-9]{2})\]\s*(.*)$/);
