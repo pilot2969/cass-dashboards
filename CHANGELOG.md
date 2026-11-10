@@ -2,7 +2,10 @@
 
 ## 2026-11-10
 
-### The board opens by saying what it is measuring (v4.20-preview)
+### The board opens by saying what it is measuring (v4.21-preview)
+- **The enforcement-flow note now explains how to read the card.** Four beats: what the bars count, why they fall (the denominator is the writing, which rose tenfold), what the window can actually support (only the two months where attention held level), and what would settle it. The last line names the instrument's weakness — the desk's own attention is the ruler.
+- Month labels are spelled out ("May 2026", not "05/26"); the beats are separated as paragraphs rather than run together.
+- Every figure in the note is read off the series at render time.
 - **Enforcement flow is now readable without the method section.** A six-bar sparkline sits under the number, one bar per month, scaled to the controlled rate. Hover, tab or tap a bar and the line beneath reads that month back in plain terms — "2026-07 — 7 enforcement events against 18 entries written that month, or 38.9 per hundred entries." The peak month is marked; the rest are neutral. Clicking a bar jumps to that month's row at 2.4, which flashes.
 - **The note leads with what the movement means** before it quotes the statistics. Raw count and rate fall in opposite directions across the window, which looks like a contradiction until the denominator is stated; the note now says it in two sentences.
 - Everything above is derived at render time from `data.flow_panel`, which the export regenerates. No new hand-set numbers.

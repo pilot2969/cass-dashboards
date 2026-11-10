@@ -906,23 +906,29 @@ function renderFlow(fl){
       if(read) read.innerHTML=say(latest);
     });
   }
-  /* Plain-language note, 2026-11-10. The generated headline states the statistics;
-     a lay reader needs the sentence underneath them, so both are printed. */
+  /* 2026-11-10: the note now says how to read the card, not what the statistics are.
+     Four beats, derived from the series so they cannot drift from the bars above. */
   if($("flowHeadline")&&ser.length){
+    const MN=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    const mn=m=>{const p=String(m).split("-");return MN[(+p[1]||1)-1]+" "+p[0];};
     const pk=ser.reduce((a,b)=>((b.per_100_journal||0)>(a.per_100_journal||0)?b:a),ser[0]);
-    const lt=ser[ser.length-1];
-    $("flowHeadline").innerHTML="<b>What this says.</b> In "+esc(pk.month)+" the desk logged "+pk.raw+
-      " enforcement events while writing only "+pk.journal+" entries — <b>"+pk.per_100_journal+
-      " per hundred</b>. In "+esc(lt.month)+" it logged "+lt.raw+" against "+lt.journal+" entries — <b>"+
-      lt.per_100_journal+" per hundred</b>. The events did not stop; the writing outran them, which is why the raw count and the rate move in opposite directions. "+
-      "<i>"+esc(e.headline||"")+"</i> Disclosers and the control at 2.4.";
+    const lt=ser[ser.length-1], pr=ser[ser.indexOf(lt)-1]||{};
+    const thin=ser.slice(0,ser.indexOf(lt)-1), thinJ=Math.round(thin.reduce((a,b)=>a+(b.journal||0),0)/(thin.length||1));
+    const thinMax=Math.max.apply(null,thin.map(r=>r.raw||0).concat([0]));
+    const dens=ser.slice(ser.indexOf(lt)-1);
+    const rawMove=(pr.raw&&lt.raw)?Math.round((lt.raw-pr.raw)/pr.raw*100):null;
+    $("flowHeadline").innerHTML=
+      "<b>How to read it.</b> The bars count state enforcement actions logged per hundred entries written. "+
+      "The count alone can't be read — a month with more writing produces more events without anything changing in the world — so it is divided by how hard the desk was looking.<br><br>"+
+      "<b>Why the bars fall.</b> Through "+mn(thin[0].month)+" to "+mn(thin[thin.length-1].month)+
+      " the desk wrote about "+thinJ+" entries a month and logged 1 to "+thinMax+" events. Then it wrote ten times as much — "+
+      dens.map(r=>r.journal).join(" and ")+" entries. The rate drops because the denominator jumps, not because enforcement stopped.<br><br>"+
+      "<b>What it does support.</b> Only the months where attention held level: "+esc(pr.month)+" at "+pr.raw+" events, "+
+      esc(lt.month)+" at "+lt.raw+(rawMove!=null?" — a fall of "+Math.abs(rawMove)+"%":"")+
+      ". Two observations, and everything before "+esc(pr.month)+" describes the desk, not the state.<br><br>"+
+      "<b>What would settle it.</b> Six months at this writing rate. If the rate keeps falling as the count falls, enforcement is genuinely contracting. If the rate climbs back while the count holds, the machine is seeing more of it, not more of it happening. "+
+      "<i>The weakness is the ruler: the desk's own attention is the denominator.</i>";
   }
-  if($("flowESub") && e.reading) $("flowESub").textContent="Reading: "+e.reading+".";
-  const mx=Math.max.apply(null,ser.map(r=>r.per_100_journal||0).concat([1]));
-  if($("flowSeriesBody")) $("flowSeriesBody").innerHTML=ser.map(r=>
-    '<tr data-month-row="'+esc(r.month)+'"><td>'+esc(r.month)+'</td><td class="num">'+r.raw+'</td><td class="num">'+(r.per_100_journal!=null?r.per_100_journal:'–')+
-    '</td><td class="barcell"><div class="bar '+(r.per_100_journal>=mx*0.7?'hot':r.per_100_journal>=mx*0.4?'warm':'')+'" style="width:'+
-    Math.round((r.per_100_journal||0)/mx*100)+'%"></div></td></tr>').join("");
   if($("flowEHead")) $("flowEHead").innerHTML="<b>"+esc(e.headline||"")+"</b>";
   if(c){
     if($("flowCSub") && c.reading) $("flowCSub").textContent="Reading: "+c.reading+".";
