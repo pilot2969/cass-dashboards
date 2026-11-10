@@ -1,73 +1,73 @@
 {
-  "reviewed": "2026-11-02",
-  "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
-  "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
-  "institutions": [
-    {
-      "name": "Federal Courts",
-      "score": 81,
-      "band": "Critical",
-      "delta": 1,
-      "why": "Delta +1 from 80. Two circuit-level checks held: Judge Carter refused DOJ's TRO (10-28) and the Ninth Circuit denied a second time with no emergency application filed through 11-01 - the appellate record is intact and DOJ has not asked the Supreme Court. But the filing became criminal process: roughly three dozen federal subpoenas to election officials in Alaska, a parallel California probe, and a special master reaching into DOJ/DHS list compilation. ATF ceasing NFA enforcement continues. Courts still enjoin; the same docket is now being used to make election administration itself the defendant.",
-      "prev_score": 80
-    },
-    {
-      "name": "Congress",
-      "score": 72,
-      "band": "Warning",
-      "delta": 0,
-      "why": "Re-stated at 72. No new capture event in the window. GOP majority stayed passive through the post-Doha strike clock without an AUMF or war-powers motion; Hegseth's GFO slot cut continues to bypass appropriations. Minority oversight is alive (HJC Epstein report, Maxwell testimony pending). Paralysis is intact, neither worse nor better.",
-      "prev_score": 72
-    },
-    {
-      "name": "Election Offices",
-      "score": 81,
-      "band": "Critical",
-      "delta": 3,
-      "why": "Delta +3 from 78. Federal criminal subpoenas hit election officials in two states inside the final week; county GOP suits to block certification are live; USPS RTO cuts are producing late-postmark rejections; the FEC suffered a 41-hour cyberattack outage; roughly 1,000 federal observers deploy with the Neff declaration on the record. Pressure is now litigation plus logistics plus criminal process simultaneously.",
-      "prev_score": 78
-    },
-    {
-      "name": "Health Agencies",
-      "score": 80,
-      "band": "Critical",
-      "delta": 0,
-      "why": "Re-stated at 80. No new capture event logged in the window. CDC outbreak-capacity watch remains open; Medicaid work-requirements-for-terminal-illness rollout continues. Chronic, not acute.",
-      "prev_score": 80
-    },
-    {
-      "name": "Civil Service",
-      "score": 90,
-      "band": "Critical",
-      "delta": 1,
-      "why": "Delta +1 from 89. DHS disclosed an Okta-compromise exposure of roughly 41,000 employee records ('Icepick') - the workforce itself is now the breach surface and the message. Sylvia's criminal referral reinforces that lawful dissent is evidence. No new litigation relief for career staff.",
-      "prev_score": 89
-    },
-    {
-      "name": "Military Leadership",
-      "score": 72,
-      "band": "Warning",
-      "delta": 4,
-      "why": "Delta +4 from 68. The J5 director was removed and criminally referred in the final week of the strike clock - the office that plans the war is being purged while the operation is being readied. No uniformed public non-concurrence. Commissary cyberattack plus heat-ray/ADS gear to DHS keep the domestic-adjacent posture. Senior-officer acquiescence remains load-bearing, but the purge moved from policy staff to planners.",
-      "prev_score": 68
-    },
-    {
-      "name": "Dollar & Credit",
-      "score": 65,
-      "band": "Warning",
-      "delta": 3,
-      "why": "Delta +3 from 62. AI-capex growth scare: Alphabet's worst session inside the window, Caterpillar down ~9%, Nasdaq -1.4% - the buildout repriced as a credit story, not a demand story. Oil closed the Iran window high but unbroken; the gas-tax suspension still suppresses the price signal; Russia sanctions architecture erodes. Nothing official prices the chokepoint.",
-      "prev_score": 62
-    },
-    {
-      "name": "Department of Education",
-      "score": 86,
-      "band": "Critical",
-      "delta": 0,
-      "why": "Re-stated at 86. No new events logged in the window. Dismantlement-as-capture continues at the previously assessed 10-14 depth.",
-      "prev_score": 86
-    }
-  ],
-  "age_days": 0,
-  "review_note": "7-day hand review of 2026-11-02, covering the window 2026-10-26 to 2026-11-02 (wires 10-28 through 11-02, ledger entries 10-27 to 11-02). Deltas are changes from the 2026-10-26 review. No score was set by inference: every movement below cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
+ "reviewed": "2026-11-09",
+ "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
+ "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
+ "institutions": [
+  {
+   "name": "Federal Courts",
+   "score": 82,
+   "band": "Critical",
+   "delta": 1,
+   "why": "Delta +1 from 81. The docket held where it was asked to hold and bent where it was asked to bend. The Court rejected the administration's application to compel California to segregate roughly 20,000 mail ballots the same day it arrived, unsigned and unexplained (11-02) - a refusal of relief, on the clock. Eight days later it granted the administration emergency relief to resume border wall construction through Big Bend National Park while the merits are undecided (11-09). Both are interim postures, and they now point in opposite directions: election administration is refused, domestic construction is granted. The difference is not law but urgency - nothing forces the Court to rule on a wall before it is built.",
+   "prev_score": 81
+  },
+  {
+   "name": "Congress",
+   "score": 76,
+   "band": "Critical",
+   "delta": 4,
+   "why": "Delta +4 from 72. The paralysis broke, but not by deliberation. A privileged resolution filed by Massie forced a floor vote on the defence secretary inside two legislative days, with multiple GOP sources expecting passage and the minority leader predicting strong support (11-08/11-09). That is the House acting because a single member could compel it, not because the chamber organised itself - and the defence mounted in response was aimed at the troops rather than at the articles (11-10 press conference). Lame-duck power transfers continue in the states (Texas Senate rules strip, special-session statute). The branch works when procedurally forced and not otherwise.",
+   "prev_score": 72
+  },
+  {
+   "name": "Election Offices",
+   "score": 82,
+   "band": "Critical",
+   "delta": 1,
+   "why": "Delta +1 from 81. The count completed without a federal takeover: Mississippi's commissioners certified affidavit ballots with a Senate race pending (11-06) and no recount followed, and the Court refused to compel California to segregate ballots (11-02). What rose instead is refusal at the political layer - a member declining to concede a projected loss a day after the call (11-09). The machinery performed; the legitimacy layer is where the pressure now sits, and it is pressure without an operative instrument.",
+   "prev_score": 81
+  },
+  {
+   "name": "Health Agencies",
+   "score": 80,
+   "band": "Critical",
+   "delta": 0,
+   "why": "Re-stated at 80. No new capture event logged in the window. The CDC outbreak-capacity watch stays open and the Medicaid work-requirement rollout continues. Chronic, not acute; no evidence either way is not a movement.",
+   "prev_score": 80
+  },
+  {
+   "name": "Civil Service",
+   "score": 91,
+   "band": "Critical",
+   "delta": 1,
+   "why": "Delta +1 from 90. The departures became an exodus: the civil rights division head resigned on 11-05 and the civil division head resigned on 11-09, the third and fourth Senate-confirmed exits from Justice since the election, with more reported in preparation. These are appointees, not career staff, but the offices they lead are the ones defending the government's programmes in court - and they are being emptied while a new Congress arrives and the litigation load peaks.",
+   "prev_score": 90
+  },
+  {
+   "name": "Military Leadership",
+   "score": 74,
+   "band": "Warning",
+   "delta": 2,
+   "why": "Delta +2 from 72. The secretary of defence answered an eight-article impeachment resolution by converting it into a test of loyalty to the force - 'if they are going to come for those warriors, they have to come through me' - and closed on the enlistment oath's domestic-enemy clause (11-10). No uniformed public non-concurrence has appeared. Acquiescence remains load-bearing; the change is that the force is now being enlisted explicitly in the secretary's own defence, which makes any later refusal a break rather than a filing.",
+   "prev_score": 72
+  },
+  {
+   "name": "Dollar & Credit",
+   "score": 69,
+   "band": "Warning",
+   "delta": 4,
+   "why": "Delta +4 from 65. The AI-capex repricing moved from theme to correction: the Nasdaq closed 11.0% off its three-month high on 11-05 with the VIX up 43.5% in a session, and the move was attributed on the record to the election result rather than to earnings. Oil decompressed on the talk of a deal while the strait stayed constrained and the gas-tax suspension kept the pump price from carrying the signal. The repricing is now a credit question in the market's own language, not a sentiment one.",
+   "prev_score": 65
+  },
+  {
+   "name": "Department of Education",
+   "score": 86,
+   "band": "Critical",
+   "delta": 0,
+   "why": "Re-stated at 86. No new events logged in the window. Dismantlement-as-capture continues at the previously assessed 10-14 depth.",
+   "prev_score": 86
+  }
+ ],
+ "age_days": 0,
+ "review_note": "7-day hand review of 2026-11-09, covering the window 2026-11-02 to 2026-11-09 (wires 11-02 through 11-09, ledger entries 11-02 to 11-09, and the 11-10 morning brief). Deltas are changes from the 2026-11-02 review. No score was set by inference: every movement cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
 }
