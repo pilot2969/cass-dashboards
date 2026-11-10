@@ -51,6 +51,20 @@ a.jump:hover,a.jump:focus{color:var(--acc);border-color:var(--acc);outline:none}
 /* Q5 hover terms 2026-11-07: definition comes from /space/term via data.json terms[],
    never typed here. Tap/focus works on mobile; title is the no-CSS fallback. */
 .term{position:relative;display:inline-block;cursor:help;outline:none}
+/* 2026-11-10 Enforcement-flow sparkline: one bar per month, hover or tab to read it. */
+.spark{display:flex;gap:4px;align-items:flex-end;height:38px;margin:8px 0 4px}
+.spark b{flex:1;background:#26405c;border-radius:2px 2px 0 0;min-height:3px;position:relative;
+ cursor:pointer;transition:background .12s,transform .12s;outline:none}
+.spark b:hover,.spark b:focus-visible{background:var(--acc);transform:scaleY(1.04)}
+.spark b.on{background:var(--acc)}
+.spark b.peak{background:#8a6a1f}
+.spark b.peak:hover,.spark b.peak:focus-visible{background:#d3a33a}
+.sparkx{display:flex;gap:4px;font:600 8.5px/1 ui-sans-serif;letter-spacing:.04em;color:#7b8ea6}
+.sparkx span{flex:1;text-align:center}
+.sparkread{font:400 11.5px/1.4 ui-sans-serif;color:#b9c8db;margin:6px 0 2px;min-height:32px}
+.sparkread b{color:#e6eef8}
+td.flash,tr.flash{animation:fl 1.8s ease-out}
+@keyframes fl{0%,35%{background:rgba(211,163,58,.28)}100%{background:transparent}}
 .term::after{content:attr(data-def);position:absolute;left:0;top:calc(100% + 7px);z-index:40;
  width:min(320px,74vw);background:#0d1726;color:#dfe8f4;border:1px solid #31435c;border-radius:7px;
  padding:9px 11px;font:400 12px/1.45 ui-sans-serif;letter-spacing:0;text-transform:none;
@@ -238,6 +252,9 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   <div class="panel">
     <h3>Enforcement flow <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-e" title="Jump to the month-by-month series and the recording control">↓ the series</a></h3>
     <div class="big" id="flowBig">–</div>
+    <div class="spark" id="flowSpark" role="group" aria-label="Enforcement events per month, controlled for recording rate"></div>
+    <div class="sparkx" id="flowSparkX"></div>
+    <div class="sparkread" id="flowRead">–</div>
     <div class="kv"><span>Recorded events, latest month</span><b id="flowW">–</b></div>
     <div class="kv"><span>Controlled rate, latest month</span><b id="flowC">–</b></div>
     <div class="kv"><span>Window</span><b id="flowWin">–</b></div>
@@ -848,11 +865,62 @@ function renderFlow(fl){
   $("flowW").textContent=(last.raw!=null?last.raw+" events ("+(last.month||"")+")":"–");
   $("flowC").textContent=(last.per_100_journal!=null?last.per_100_journal+" per 100 journal":(last.month?last.month+" · no control":"–"));
   $("flowWin").textContent=win;
-  if(e.headline && $("flowHeadline")) $("flowHeadline").innerHTML="<b>Generated from /space.</b> "+esc(e.headline)+" Disclosers and the control below, at 2.4.";
+  /* 2026-11-10 sparkline. Bars are the controlled rate; the caption says what the
+     month actually looked like in raw counts and in the writing behind them. The
+     point a lay reader has to get is that the rate fell while the raw count held. */
+  const spark=$("flowSpark"), sparkx=$("flowSparkX"), read=$("flowRead");
+  if(spark&&ser.length){
+    const mx2=Math.max.apply(null,ser.map(r=>r.per_100_journal||0).concat([1]));
+    const peak=ser.reduce((a,b)=>((b.per_100_journal||0)>(a.per_100_journal||0)?b:a),ser[0]);
+    spark.innerHTML=ser.map(r=>{
+      const v=r.per_100_journal||0, h=Math.max(3,Math.round(v/mx2*100));
+      const t=r.month+" · "+r.raw+" events, "+r.journal+" journal entries, "+
+        (r.per_100_journal!=null?r.per_100_journal:"–")+" per 100";
+      return '<b tabindex="0" role="button" data-month="'+esc(r.month)+'" title="'+esc(t)+
+        '" aria-label="'+esc(t)+'" class="'+(r===peak?'peak':'')+'" style="height:'+h+'%"></b>';
+    }).join("");
+    if(sparkx) sparkx.innerHTML=ser.map(r=>'<span>'+esc(r.month.slice(5))+'</span>').join("");
+    const say=r=>{
+      const prev=ser[ser.indexOf(r)-1];
+      const ctrl=r.journal!=null?(" against "+r.journal+" entries written that month"):"";
+      const cmp=prev?" In "+prev.month+" it was "+(prev.per_100_journal!=null?prev.per_100_journal:"–")+".":"";
+      return "<b>"+esc(r.month)+"</b> — "+r.raw+" enforcement event"+(r.raw===1?"":"s")+ctrl+
+        ", or <b>"+(r.per_100_journal!=null?r.per_100_journal:"–")+" per hundred</b> entries."+cmp;
+    };
+    const latest=ser[ser.length-1];
+    if(read) read.innerHTML=say(latest);
+    const setOn=el=>{
+      [...spark.children].forEach(b=>b.classList.toggle("on",b===el));
+      const r=ser.find(x=>x.month===el.dataset.month);
+      if(read&&r) read.innerHTML=say(r);
+    };
+    [...spark.children].forEach(b=>{
+      b.addEventListener("mouseenter",()=>setOn(b));
+      b.addEventListener("focus",()=>setOn(b));
+      b.addEventListener("click",()=>{const t=document.querySelector('[data-month-row="'+b.dataset.month+'"]');
+        if(t){t.scrollIntoView({behavior:"smooth",block:"center"});t.classList.add("flash");
+          setTimeout(()=>t.classList.remove("flash"),1800);}});
+    });
+    spark.addEventListener("mouseleave",()=>{
+      [...spark.children].forEach(b=>b.classList.remove("on"));
+      if(read) read.innerHTML=say(latest);
+    });
+  }
+  /* Plain-language note, 2026-11-10. The generated headline states the statistics;
+     a lay reader needs the sentence underneath them, so both are printed. */
+  if($("flowHeadline")&&ser.length){
+    const pk=ser.reduce((a,b)=>((b.per_100_journal||0)>(a.per_100_journal||0)?b:a),ser[0]);
+    const lt=ser[ser.length-1];
+    $("flowHeadline").innerHTML="<b>What this says.</b> In "+esc(pk.month)+" the desk logged "+pk.raw+
+      " enforcement events while writing only "+pk.journal+" entries — <b>"+pk.per_100_journal+
+      " per hundred</b>. In "+esc(lt.month)+" it logged "+lt.raw+" against "+lt.journal+" entries — <b>"+
+      lt.per_100_journal+" per hundred</b>. The events did not stop; the writing outran them, which is why the raw count and the rate move in opposite directions. "+
+      "<i>"+esc(e.headline||"")+"</i> Disclosers and the control at 2.4.";
+  }
   if($("flowESub") && e.reading) $("flowESub").textContent="Reading: "+e.reading+".";
   const mx=Math.max.apply(null,ser.map(r=>r.per_100_journal||0).concat([1]));
   if($("flowSeriesBody")) $("flowSeriesBody").innerHTML=ser.map(r=>
-    '<tr><td>'+esc(r.month)+'</td><td class="num">'+r.raw+'</td><td class="num">'+(r.per_100_journal!=null?r.per_100_journal:'–')+
+    '<tr data-month-row="'+esc(r.month)+'"><td>'+esc(r.month)+'</td><td class="num">'+r.raw+'</td><td class="num">'+(r.per_100_journal!=null?r.per_100_journal:'–')+
     '</td><td class="barcell"><div class="bar '+(r.per_100_journal>=mx*0.7?'hot':r.per_100_journal>=mx*0.4?'warm':'')+'" style="width:'+
     Math.round((r.per_100_journal||0)/mx*100)+'%"></div></td></tr>').join("");
   if($("flowEHead")) $("flowEHead").innerHTML="<b>"+esc(e.headline||"")+"</b>";

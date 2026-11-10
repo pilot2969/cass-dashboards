@@ -2,7 +2,10 @@
 
 ## 2026-11-10
 
-### The board opens by saying what it is measuring (v4.19-preview)
+### The board opens by saying what it is measuring (v4.20-preview)
+- **Enforcement flow is now readable without the method section.** A six-bar sparkline sits under the number, one bar per month, scaled to the controlled rate. Hover, tab or tap a bar and the line beneath reads that month back in plain terms — "2026-07 — 7 enforcement events against 18 entries written that month, or 38.9 per hundred entries." The peak month is marked; the rest are neutral. Clicking a bar jumps to that month's row at 2.4, which flashes.
+- **The note leads with what the movement means** before it quotes the statistics. Raw count and rate fall in opposite directions across the window, which looks like a contradiction until the denominator is stated; the note now says it in two sentences.
+- Everything above is derived at render time from `data.flow_panel`, which the export regenerates. No new hand-set numbers.
 - **Legs fired now lists its legs.** Under the phase line, one row per leg — letter, name, FIRED or ABSENT — so "3 of 4" can be read without scrolling to 2.2. No load figures in the rows on purpose: a leg can carry 82 and read ABSENT, and printing the score beside the state invites exactly that conflation.
 - **Each row defines its leg on hover**, tap and focus: the plain-language line from `data.json mget.legs[].plain` first, then the canonical `/space/term` definition, so the tooltip is generated in both halves and the term gate still resolves it.
 - **Removed the build commentary at the top of Model updates** — "This is the proposed layout running on real data…" That paragraph described the state of the build to the operator, not to a reader. The section now opens on what was learned from the old model.
