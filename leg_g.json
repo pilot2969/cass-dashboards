@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09",
+ "generated": "2026-11-10",
  "generator": "build_leg_g.py",
  "source": "/space/legitimation_event",
  "leg": "G",
@@ -7,15 +7,15 @@
  "reading": "dated institutional withdrawals of standing, counted from a closed taxonomy",
  "window": {
   "start": "2026-09-04",
-  "end": "2026-11-09",
-  "days": 67
+  "end": "2026-11-10",
+  "days": 68
  },
  "totals": {
-  "withdrawals": 12,
+  "withdrawals": 13,
   "grants": 1,
-  "weighted": 19.0,
-  "per_month": 5.5,
-  "events_total": 13
+  "weighted": 22.0,
+  "per_month": 5.8,
+  "events_total": 14
  },
  "series": [
   {
@@ -38,12 +38,12 @@
   },
   {
    "month": "2026-11",
-   "withdrawals": 4,
+   "withdrawals": 5,
    "grants": 1,
-   "weighted": 7.0,
-   "journal": 17,
-   "per_100_journal": 23.5,
-   "days_covered": 8
+   "weighted": 10.0,
+   "journal": 18,
+   "per_100_journal": 27.8,
+   "days_covered": 9
   }
  ],
  "composition": [
@@ -55,7 +55,7 @@
   {
    "institution": "credentialing_body",
    "event_type": "credentialed_official_resigns_protest",
-   "n": 3
+   "n": 4
   },
   {
    "institution": "certification_body",
@@ -70,7 +70,7 @@
   },
   {
    "institution": "credentialing_body",
-   "n": 3
+   "n": 4
   },
   {
    "institution": "certification_body",
