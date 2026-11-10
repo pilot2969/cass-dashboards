@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-11-10
+
+### The board opens by saying what it is measuring (v4.19-preview)
+- New opening section before "About this page": **MGET stated in four plain-language paragraphs** — the enclosing force and the resistance it provokes, the mutation lineage (slavery → feudalism → capitalism → algorithmic enclosure), the crisis point Strauss and Howe call a turning, and the three-way unification: S&H supply the period and phase language, Turchin the measurable drivers, Polanyi the shape of the reaction. Nobody had joined them; that is the claim.
+- The section closes on the standard the instrument is held to: **the theory must be wrong in public**, with three stated falsifiers — a turning indistinguishable from ordinary institutional wear, a resistance that fails to appear where enclosure is deepest, and a crisis arriving with no prior loss of legitimacy.
+- Editorial corrections carried in from drafting: "citizens" → "people" (slavery enclosed property, not citizens), "measurable" restored to the definition of enclosure (measurement precedes commodification and is what links the four mutations), and "applies S&H to Turchin and Polanyi" rewritten as an assembly of three components rather than one applied to two.
+- No numbers changed. Daily Read remains section 1; this is framing above it.
+
 ## 2026-11-06
 
 ### Belief ledger becomes section 0 — first major change since v1 (v4.14-preview)
