@@ -20,6 +20,9 @@ h1{font-size:27px;line-height:1.2;margin:26px 0 6px;letter-spacing:-.01em}
 h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--acc);
  margin:38px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line);font-weight:700}
 h3{font-size:14.5px;margin:0 0 8px;letter-spacing:.01em}
+.secintro{max-width:980px;margin:6px 0 12px;color:#b9c8dc;font-size:13.5px;line-height:1.62}
+.secintro p{margin:0 0 8px}
+.secintro i{color:#d5e0ef}
 .subhead{font:700 10.5px/1 ui-sans-serif;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin:20px 0 9px}
 .panel{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:15px 17px}
 .grid3{display:grid;grid-template-columns:1fr 1.15fr 1fr;gap:10px}
@@ -239,6 +242,11 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 
 <h2>2 · The MGET model — macro to micro</h2>
 <div class="subhead">2.1 Macro · model state</div>
+<div class="secintro">
+  <p>Four numbers, four different questions — and they are not on the same scale, so they cannot be added, averaged or ranked against each other. Read them as a set, left to right: <b>how much of the model is firing</b> (a count out of four), <b>how hard the state is pressing</b> (enforcement events per hundred entries written), <b>how captured the institutions already are</b> (an average out of 100), and <b>how fast they are withdrawing their own standing</b> (withdrawals per month).</p>
+  <p>Higher is worse in all four, which is the one property they share. Beyond that they move on different clocks: the leg count changes only at phase boundaries, the enforcement rate moves month to month, the institutional average moves on a weekly review, and the withdrawal rate is a two-month level with no baseline behind it. <b>A reading in one box is not corroboration for a reading in another</b> — four numbers rising together in the same week is a coincidence until the windows are checked.</p>
+  <p>What the row is for is a single question: <i>is the pressure being resisted?</i> Legs fired and enforcement flow describe the pressure. Institutional pressure and withdrawals describe what is left of the capacity to resist. The model's claim is that these separate. When enforcement is high and withdrawals are flat, the state is pressing and the institutions are complying. When withdrawals start climbing <i>while</i> enforcement climbs, the resistance has begun to show.</p>
+</div>
 <div class="grid4">
   <div class="panel">
     <h3>Legs fired <span class="tag t-state term" data-term="state">STATE</span><a class="jump" href="#sec-2-2" title="Jump to the four anchors that produce each leg's load">↓ what feeds this</a></h3>
@@ -270,7 +278,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <div class="note" id="stockNote">–</div>
   </div>
   <div class="panel">
-    <h3>Legitimation flow <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-g" title="Jump to the G series, the institution composition and the disclosers">↓ the series</a></h3>
+    <h3>Institutional withdrawals <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-g" title="Jump to the G series, the institution composition and the disclosers">↓ the series</a></h3>
     <div class="big" id="legGBig">–</div>
     <div class="kv"><span>Institutional withdrawals</span><b id="legGWd">–</b></div>
     <div class="kv"><span>Counter-events (reversals)</span><b id="legGGr">–</b></div>
@@ -320,7 +328,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   </div>
 </div>
 <div class="panel" id="sec-2-4-g" style="margin-top:10px">
-  <h3>G · Legitimation flow <span class="tag t-flow">FLOW</span></h3>
+  <h3>G · Institutional withdrawals <span class="tag t-flow">FLOW</span></h3>
   <div class="note" style="margin-top:0;color:#c3d2e6">This was the board's named blind spot until this build: G carried a hand-set score and no series, and the panel said so rather than pretending. The series existed — <code>/space/legitimation_event</code> had been filling since 2026-09-04 on a closed taxonomy — and nobody had counted it. Counted now, and the limits are printed beside the number instead of underneath the fold.</div>
   <div class="note" style="margin-top:6px" id="legGHead"></div>
   <div class="grid2" style="margin-top:12px">
@@ -983,7 +991,20 @@ function renderLegG(g){
     const last=ser[ser.length-1]||{};
     $("legGC").textContent=(last.per_100_journal!=null?last.per_100_journal+" per 100 journal":(last.month?last.month+" · no control":"–"));
     $("legGWin").textContent=(g.window?g.window.start+" – "+g.window.end+" ("+g.window.days+"d)":"–");
-    if($("legGNote")) $("legGNote").innerHTML="<b>Generated, not hand-set.</b> Dated institutional withdrawals of standing per month from <code>/space/legitimation_event</code>, split by direction — "+(t.withdrawals||0)+" withdrawals against "+(t.grants||0)+" counter-event. No pre-window baseline exists; the collection starts 2026-09-04. Disclosers at 2.4.";
+    if($("legGNote")){
+      const last=ser[ser.length-1]||{}, prev=ser[ser.indexOf(last)-1]||{};
+      const thin=(last.journal||0)<40;
+      $("legGNote").innerHTML=
+        "<b>How to read it.</b> Institutions withdrawing their own standing — a court ruling against the executive, a credentialed official resigning in protest. "+
+        "The big number is <b>withdrawals per month</b>, not the total: the total counts a window that only starts when the collection starts, so it can only ever go up.<br><br>"+
+        "<b>The comparison that matters is the ratio.</b> "+t.withdrawals+" withdrawals against "+t.grants+" counter-event where an institution reversed itself. "+
+        "A refusal is one thing; a refusal nobody reverses is the signal.<br><br>"+
+        "<b>Ignore the "+ (last.per_100_journal!=null?last.per_100_journal:"–") +" for now.</b> It is per hundred entries written, and the desk wrote only "+(last.journal||0)+
+        " entries in "+esc(last.month||"this month")+" against "+(prev.journal||0)+" the month before. A thin record inflates the rate automatically — "+
+        "that is arithmetic, not a surge.<br><br>"+
+        "<b>What it cannot say.</b> Two months of history is a level, not a trend, and nothing before "+esc((g.window||{}).start||"September")+" exists to compare against. "+
+        "Nothing here shows refusals rising; it shows they are being recorded at this rate.";
+    }
   }
   $("legGHead").innerHTML="<b>"+t.withdrawals+" dated institutional withdrawals of standing in "+(g.window?g.window.days:"–")+" days</b> ("+(t.per_month||0)+" per month), against <b>"+t.grants+" counter-event</b> where an institution reversed itself. Counted from <code>/space/legitimation_event</code> on a closed taxonomy — court ruling, credential refused, official resigns, professional body sanctions, military refusal, election official refuses, institution withdraws standing — with direction as the split.";
   $("legGSeries").innerHTML=ser.map(r=>{

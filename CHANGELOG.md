@@ -2,6 +2,11 @@
 
 ## 2026-11-10
 
+### Institutional withdrawals renamed, plus a reading guide for the whole macro row (v4.23-preview)
+- **"Legitimation flow" renamed "Institutional withdrawals"** at both 2.1 and 2.4-g. The model register word is why it was opaque: nobody arrives knowing that "legitimation flow" counts refusals.
+- **The card now says how to read it**: what is being counted, why the big number is a rate and not the running total, why the ratio 13:1 matters more than either count, why the 25-per-100 must be ignored this month (20 entries written against 189), and that two months is a level with no baseline.
+- **New section intro at 2.1** answering what the four macro numbers mean together: four different questions, four different scales and clocks, higher-is-worse as the only shared property, and the row's single purpose — pressure against the capacity to resist.
+
 ### Institutional stock renamed to Institutional Pressure, with a reading guide (v4.22-preview)
 - **Card renamed "Institutional Pressure."** STOCK stays as the register tag — that is the model's language, and the label is the reader's.
 - **The note now says how to read it** rather than how the number is derived: what the 0–100 scale asks (how far a body has been captured), why an average across 12 bodies hides the composition (8 at Critical, 4 at Warning, nothing below), why the worst dial — Civil Service at 91 — is the reading to watch, and what the card cannot show (speed of movement, which only appears in per-dial deltas at 2.3).
