@@ -3,6 +3,7 @@
 ## 2026-11-10
 
 ### The board opens by saying what it is measuring (v4.19-preview)
+- Panel formerly titled **"About this page"** renamed **"Model updates"** (16:30 ET). The panel's content is no longer a note about the page's layout; it is the record of what the model changed and why, sitting directly under the theory it belongs to. The old title described the container, the new one describes the contents.
 - New opening section before "About this page": **MGET stated in four plain-language paragraphs** — the enclosing force and the resistance it provokes, the mutation lineage (slavery → feudalism → capitalism → algorithmic enclosure), the crisis point Strauss and Howe call a turning, and the three-way unification: S&H supply the period and phase language, Turchin the measurable drivers, Polanyi the shape of the reaction. Nobody had joined them; that is the claim.
 - The section closes on the standard the instrument is held to: **the theory must be wrong in public**, with three stated falsifiers — a turning indistinguishable from ordinary institutional wear, a resistance that fails to appear where enclosure is deepest, and a crisis arriving with no prior loss of legitimacy.
 - Editorial corrections carried in from drafting: "citizens" → "people" (slavery enclosed property, not citizens), "measurable" restored to the definition of enclosure (measurement precedes commodification and is what links the four mutations), and "applies S&H to Turchin and Polanyi" rewritten as an assembly of three components rather than one applied to two.
