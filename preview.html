@@ -58,6 +58,16 @@ a.jump:hover,a.jump:focus{color:var(--acc);border-color:var(--acc);outline:none}
  transition:opacity .12s,transform .12s,visibility .12s;pointer-events:none;white-space:normal}
 .term:hover::after,.term:focus::after,.term:focus-within::after{opacity:1;visibility:visible;transform:none}
 .term:focus::after{border-color:var(--acc)}
+/* 2026-11-10. Leg list in the model-state box: state per leg, definition on hover,
+   built from data.json mget.legs so it cannot disagree with the count above it. */
+.legrow{display:flex;align-items:center;gap:7px;padding:5px 0;border-top:1px solid #1e2c3f;cursor:help}
+.legrow:first-child{border-top:0}
+.leglet{flex:0 0 17px;height:17px;border-radius:4px;background:#1b2a3d;color:#9fb3cc;
+ font:700 10px/17px ui-sans-serif;text-align:center}
+.legname{flex:1 1 auto;font:400 13px/1.3 ui-sans-serif;color:#dbe5f2}
+.legstate{flex:0 0 auto;font:700 9.5px/1 ui-sans-serif;letter-spacing:.09em;text-transform:uppercase}
+.legstate.on{color:var(--acc)}
+.legstate.off{color:#7b8ca3}
 .term .u{display:block;margin-top:5px;color:#8fa6c0;font-size:11px;letter-spacing:.02em}
 .kv{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dotted #253147;font-size:13.5px}
 .kv:last-child{border:0}
@@ -197,7 +207,6 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 
 <h2>Model updates</h2>
 <div class="panel">
- This is the proposed layout running on real data. The order is now the order a reader should think in: <b>what happened today</b>, then <b>the model as a whole</b>, then <b>each leg</b>, then <b>the institutions underneath</b>. Daily Read is collapsible and the model now follows it directly. The audience fork card is gone. Provenance, which used to be its own card, is now a column in the data dictionary, where it answers a question at the moment you ask it.
  <div class="note">Nothing was deleted from the record: the thesis pile is still counted, the wire ledger is still here, and the forecast register still scores in public. What was deleted is one card that explained the page to itself.</div>
 <div class="panel">
  <h3 style="margin-top:0">What we learned from the old model</h3>
@@ -223,6 +232,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <div class="kv"><span>Gate</span><b id="gate">–</b></div>
     <div class="kv"><span>Phase</span><b id="phase">–</b></div>
     <div class="kv"><span>Phase closes</span><b id="closes">–</b></div>
+    <div class="legs" id="legsList"></div>
     <div class="note">A count of legs in the <b>fired</b> state. Never a count of load — a leg can read 80 and still be absent, and that distinction is the whole model.</div>
   </div>
   <div class="panel">
@@ -923,6 +933,14 @@ function render(data){
   $("gstamp").textContent=gen;
   $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
   $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";
+  $("legsList").innerHTML=legs.map(l=>{
+    const on=String(l.state||"").toLowerCase()==="fired";
+    const def=[l.plain,l.question].filter(Boolean).join(" — ");
+    return '<div class="legrow term" data-term="leg_'+String(l.letter||"").toLowerCase()+'" data-plain="'+esc(def)+'" data-def="'+esc(def)+'" title="'+esc(def)+'" tabindex="0" role="button">'+
+      '<span class="leglet">'+esc(l.letter||"")+'</span>'+
+      '<span class="legname">'+esc(l.name||"")+'</span>'+
+      '<span class="legstate '+(on?"on":"off")+'">'+esc(String(l.state||"").toUpperCase())+'</span></div>';
+  }).join("");
   renderFlow((data&&data.flow_panel)||FLOWPANEL||{});
   renderWatch(data.watch);
   renderLegG(data.leg_g);
@@ -1032,6 +1050,14 @@ function render(data){
     el.setAttribute("tabindex","0");
     el.setAttribute("role","button");
     el.setAttribute("aria-label",(el.textContent||k)+": "+t.copy);
+  });
+  /* 2026-11-10: the leg rows lead with the plain-language line from data.json
+     mget.legs[].plain, then the canonical /space/term definition. Both generated. */
+  document.querySelectorAll(".legrow[data-plain]").forEach(el=>{
+    const p=el.getAttribute("data-plain"), c=el.getAttribute("data-def")||"";
+    if(!p) return;
+    const txt=p+(c&&c!==p?" "+c:"");
+    el.setAttribute("data-def",txt); el.setAttribute("title",txt); el.setAttribute("aria-label",txt);
   });
 
   const dr=data.daily_read||{}; const cards=dr.cards||[];
