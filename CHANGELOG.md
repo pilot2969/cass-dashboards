@@ -2,6 +2,11 @@
 
 ## 2026-11-10
 
+### Institutional stock renamed to Institutional Pressure, with a reading guide (v4.22-preview)
+- **Card renamed "Institutional Pressure."** STOCK stays as the register tag — that is the model's language, and the label is the reader's.
+- **The note now says how to read it** rather than how the number is derived: what the 0–100 scale asks (how far a body has been captured), why an average across 12 bodies hides the composition (8 at Critical, 4 at Warning, nothing below), why the worst dial — Civil Service at 91 — is the reading to watch, and what the card cannot show (speed of movement, which only appears in per-dial deltas at 2.3).
+- All counts derive at render time from the dial set, including the Critical share.
+
 ### The board opens by saying what it is measuring (v4.21-preview)
 - **The enforcement-flow note now explains how to read the card.** Four beats: what the bars count, why they fall (the denominator is the writing, which rose tenfold), what the window can actually support (only the two months where attention held level), and what would settle it. The last line names the instrument's weakness — the desk's own attention is the ruler.
 - Month labels are spelled out ("May 2026", not "05/26"); the beats are separated as paragraphs rather than run together.

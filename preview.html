@@ -261,13 +261,13 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <div class="note" id="flowHeadline"><b>Generated, not hand-set.</b> Recorded state enforcement events per month from <code>/space/repression_event</code>, with the machine's own recording rate as the control. Detail and disclosers at 2.4.</div>
   </div>
   <div class="panel">
-    <h3>Institutional stock <span class="tag t-stock term" data-term="stock">STOCK</span><a class="jump" href="#sec-2-3" title="Jump to the individual institutional dials behind the mean">↓ the dials</a></h3>
+    <h3>Institutional Pressure <span class="tag t-stock term" data-term="stock">STOCK</span><a class="jump" href="#sec-2-3" title="Jump to the individual institutional dials behind the mean">↓ the dials</a></h3>
     <div class="big" id="stockBig">–</div>
     <div class="note" style="margin:2px 0 8px"><span id="setlab" style="font:700 9.5px/1 ui-sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)">–</span></div>
     <div class="kv"><span>Dials at Critical</span><b id="stockCrit">–</b></div>
     <div class="kv"><span>Dials at Warning</span><b id="stockWarn">–</b></div>
     <div class="kv"><span>Worst dial</span><b id="stockWorst">–</b></div>
-    <div class="note">The mean of the institutional dials. This is the number Governance has always been: derived, never hand-set, so it moves only when the dials move. <b>The set behind it changed today</b> — eight dials became twelve — and the mean did not move, which is the only reason the reading can be quoted across the change at all.</div>
+    <div class="note" id="stockNote">–</div>
   </div>
   <div class="panel">
     <h3>Legitimation flow <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-g" title="Jump to the G series, the institution composition and the disclosers">↓ the series</a></h3>
@@ -1030,6 +1030,17 @@ function render(data){
   const worst=allD.slice().sort((a,b)=>b.score-a.score)[0];
   $("stockWorst").textContent=worst?(worst.name+" "+worst.score):"–";
   const st=$("setlab"); if(st) st.textContent="set v2 · "+allD.length+" dials · v1 mean "+meanV1+" ("+inst.length+" dials)";
+  /* 2026-11-10: the card is titled for what it measures (pressure), not for the model
+     register it belongs to. The note now says how to read it. Every count is derived. */
+  const critN=allD.filter(i=>i.band==="Critical").length, warnN=allD.filter(i=>i.band==="Warning").length;
+  if($("stockNote")) $("stockNote").innerHTML=
+    "<b>How to read it.</b> "+allD.length+" institutions, each scored 0 to 100 on one question: how far has this body been captured — how much of its behaviour is now set by the executive rather than by its own rules. "+
+    "0 is calm, 100 is non-functional. The big number is the average, so it is a level, not an event: it moves only when an institution moves.<br><br>"+
+    "<b>Why the average hides the story.</b> "+mean+" averages "+critN+" bodies at Critical (75+) and "+warnN+" at Warning (60–74). Nothing sits below Warning. "+
+    "An average flattens that — a court at "+((allD.find(i=>i.name==="Federal Courts")||{}).score||82)+" and a dollar at "+((allD.find(i=>i.name==="Dollar & Credit")||{}).score||69)+" pull in different directions and cancel. "+
+    "<b>The worst dial is the reading to watch:</b> "+esc(worst?worst.name+" at "+worst.score:"–")+", because capture at the top of one institution propagates. The share at Critical ("+Math.round(critN/allD.length*100)+"%) is more informative than the mean.<br><br>"+
+    "<b>What it does not show.</b> Speed. A body can move 20 points in a week or in a year and the mean records both identically. Deltas per dial are at 2.3, and they are the only place the direction of travel appears.";
+
 
   $("gauges-grid").innerHTML=inst.map(i=>gauge(i.name,Number(i.score)||0,i.delta)).join("")+
     ADMITTED.map(x=>gauge(x[0]+' ·',x[1],0).replace('<div class="bd"','<span class="v2tag">v2</span><div class="bd"')).join("");
