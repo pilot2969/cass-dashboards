@@ -2,6 +2,13 @@
 
 ## 2026-11-10
 
+### 2.3 gauges removed, table promoted (v4.24-preview)
+- **The twelve gauges are gone.** They restated the table below them at three times the height, and each needle could only be read against its own arc — twelve separate scales where the panel's whole job is ranking. The table already shared a left edge.
+- **Table sorted worst-first.** Civil Service at 91 was sixth row down; the reader's first question is what is worst.
+- **Tick at 80 on every bar**, so Critical is a mark on the scale rather than a word in the last column.
+- **Δ moved to the bar's end** as a small numeral (green better, amber worse, violet "new"), replacing its own column.
+- **Set-v2 comparability stated in the note**: the mean and Critical share break at the 8→12 dial change; the individual scores do not.
+
 ### Institutional withdrawals renamed, plus a reading guide for the whole macro row (v4.23-preview)
 - **"Legitimation flow" renamed "Institutional withdrawals"** at both 2.1 and 2.4-g. The model register word is why it was opaque: nobody arrives knowing that "legitimation flow" counts refusals.
 - **The card now says how to read it**: what is being counted, why the big number is a rate and not the running total, why the ratio 13:1 matters more than either count, why the 25-per-100 must be ignored this month (20 entries written against 189), and that two months is a level with no baseline.

@@ -102,6 +102,10 @@ tr:last-child td{border:0}
 .bar{height:9px;border-radius:3px;background:var(--acc)}
 .bar.warm{background:var(--warm)}
 .bar.hot{background:var(--hot)}
+.barwrap{position:relative;width:100%}
+.tick80{position:absolute;top:-3px;left:80%;width:1px;height:15px;background:#5c7594;opacity:.75}
+.dlt{position:absolute;top:-2px;font:700 9.5px/1 ui-sans-serif;color:#7d8ea4;white-space:nowrap}
+.dlt.up{color:#e8846a}.dlt.dn{color:#6fbf8d}.dlt.new{color:#8a7fd0}
 .rail{display:flex;height:22px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:10px 0 6px}
 .rail div{height:100%}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--dim);margin-top:6px}
@@ -305,9 +309,8 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 </div>
 
 <div class="subhead jtarget" id="sec-2-3">2.3 Finest · institutional dials</div>
-<div id="gauges-grid" class="gaugegrid"></div>
 <div class="panel" style="margin-top:10px">
- <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="num">Δ</th><th class="barcell">Load</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
+ <table><thead><tr><th>Dial</th><th class="num">Score</th><th class="barcell">Load · tick at 80</th><th>Band</th></tr></thead><tbody id="dialBody"></tbody></table>
  <div class="note" id="dialNote"></div>
 </div>
 
@@ -1063,14 +1066,15 @@ function render(data){
     "<b>What it does not show.</b> Speed. A body can move 20 points in a week or in a year and the mean records both identically. Deltas per dial are at 2.3, and they are the only place the direction of travel appears.";
 
 
-  $("gauges-grid").innerHTML=inst.map(i=>gauge(i.name,Number(i.score)||0,i.delta)).join("")+
-    ADMITTED.map(x=>gauge(x[0]+' ·',x[1],0).replace('<div class="bd"','<span class="v2tag">v2</span><div class="bd"')).join("");
-  $("dialBody").innerHTML=inst.map(i=>{
-    const s=Number(i.score)||0;
-    return '<tr><td>'+esc(i.name)+'</td><td class="num">'+s+'</td><td class="num">'+(i.delta>0?"+"+i.delta:(i.delta||0))+
-      '</td><td class="barcell"><div class="bar '+(s>=75?"hot":s>=60?"warm":"")+'" style="width:'+s+'%"></div></td><td>'+esc(i.band||"")+'</td></tr>';
-  }).join("")+ADMITTED.map(x=>'<tr><td>'+esc(x[0])+' <span class="small">added at set v2 — '+esc(x[3])+'</span></td><td class="num">'+x[1]+
-    '</td><td class="num">new</td><td class="barcell"><div class="bar '+(x[1]>=75?"hot":x[1]>=60?"warm":"")+'" style="width:'+x[1]+'%"></div></td><td>'+esc(x[2])+'</td></tr>').join("");
+  const dialRows=inst.map(i=>({n:i.name,s:Number(i.score)||0,d:i.delta||0,band:i.band||"",v2:false,why:""}))
+    .concat(ADMITTED.map(x=>({n:x[0],s:Number(x[1])||0,d:null,band:x[2],v2:true,why:x[3]})))
+    .sort((a,b)=>b.s-a.s);
+  $("dialBody").innerHTML=dialRows.map(r=>{
+    const dl=r.v2?'<span class="dlt new">new</span>':(r.d>0?'<span class="dlt up">+'+r.d+'</span>':r.d<0?'<span class="dlt dn">'+r.d+'</span>':'');
+    return '<tr><td>'+esc(r.n)+(r.v2?' <span class="small">added at set v2 — '+esc(r.why)+'</span>':'')+'</td><td class="num">'+r.s+
+      '</td><td class="barcell"><div class="barwrap"><div class="bar '+(r.s>=75?"hot":r.s>=60?"warm":"")+'" style="width:'+r.s+'%"></div>'+
+      '<div class="tick80" title="80 — Critical boundary"></div>'+dl+'</div></td><td>'+esc(r.band)+'</td></tr>';
+  }).join("");
   $("dialNote").innerHTML="Reviewed "+esc((data.institutions||{}).reviewed||"–")+". Dials are hand-set per review, 0 calm to 100 captured. Their mean is the Governance leg — which is why Governance never needed its own anchor set. <b>Set v2 admits four dials</b> (marked v2): scored on the same scale, derived the same way, and now inside the mean. The mean is unchanged at <b>78</b> because 627 ÷ 8 and 938 ÷ 12 round to the same integer; what changed is the composition — dials at Critical fall from 5 of 8 (63%) to 7 of 12 (58%). Two Warning dials diluted the share and one Critical dial restored it. <b>No mean or Critical share may be compared across a set change</b>; the set version is stored with every reading.";
 
   $("gapBody").innerHTML=GAPS.map(g=>'<tr><td><b>'+esc(g[0])+'</b></td><td class="small">'+esc(g[1])+'</td><td class="small">'+esc(g[2])+'</td><td class="small">'+esc(g[3])+'</td><td class="small">'+esc(g[4])+'</td><td><span class="verdict v-'+(g[6]==="add"?"add":g[6]==="hold"?"hold":"no")+'">'+esc(g[5])+'</span></td></tr>').join("");
