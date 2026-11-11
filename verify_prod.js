@@ -61,6 +61,21 @@ async function main(){
               :pass('schema.grace_lock','grace-lock claims are all dated');
   }
 
+  /* ---------- the promoted page must carry no staging furniture ----------
+     2026-11-11: found live with the footer reading "Preview page, staging only" and 113
+     checks green. Nothing looked for it. The promoted file is generated from preview.html,
+     so any scrub that silently stops matching ships staging copy to the public. */
+  {
+    const t=fs.readFileSync(path.join(DIR,'Internal Telemetry.html'),'utf8');
+    const marks=[];
+    if(/class="mockbar"/.test(t)) marks.push('staging bar present');
+    if(/\(STAGING\)/.test(t)) marks.push('title says STAGING');
+    if(/staging only|staging preview build/i.test(t)) marks.push('a note still calls the page staging');
+    if(/<span class="ftver">[^<]*-(?:preview|staging)<\/span>/.test(t)) marks.push('footer version carries a -preview suffix');
+    marks.length?fail('deploy.no-staging-furniture',`promoted page is not shippable: ${marks.join('; ')}`)
+               :pass('deploy.no-staging-furniture','promoted page carries no staging furniture');
+  }
+
   /* ---------- generator sources must be committed with their output ---------- */
   if(MODE==='prepush'){
     try{

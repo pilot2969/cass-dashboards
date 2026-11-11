@@ -805,7 +805,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-05</td><td style="white-space:nowrap;vertical-align:top"><b>v3.99-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</td></tr>
 </tbody></table></div>
 </details>
-<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — live build. The version in this footer appears in the change-log entry below, which is the only way a reader can tell which build they are looking at.</div>
+<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — live build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 <h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
 <div class="note" style="margin-top:0">The full record, kept at the foot of the page rather than the head of it. The plain-language summary sits in the intro; this is the evidence behind it: seven v1 claims, the test that moved each, and what the board says now. Nothing here is smoothed — where a claim died, the death is dated.</div>
 <details class="dr" id="beliefledger">
@@ -877,7 +877,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 </div>
 </details>
 
-<div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Preview page, staging only.</div>
+<div class="note" style="margin-top:26px">Generated <span id="gstamp">–</span> from the canonical export. Live build.</div>
 </div>
 <script>
 const ANCHORS={

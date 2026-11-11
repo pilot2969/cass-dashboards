@@ -674,18 +674,41 @@ done
 # "promote" was a manual copy nobody had a rule for. Now the source of truth is the file
 # the gate reads (preview.html) and the live file is derived from it on every run, with the
 # staging furniture stripped. A push can no longer ship a live page the gate never saw.
+# 2026-11-11 (v4.31 promotion): the first version of this scrub hardcoded the version string
+# and matched one exact footer sentence. When the footer was rewritten, the scrub silently
+# no-op'd and the LIVE board shipped reading "Preview page, staging only" — and the gate
+# passed it 113/113, because no assertion looked for staging furniture on the promoted page.
+# It is now version-agnostic (matches any *-preview and any staging-marked note) and it
+# SELF-CHECKS: if any staging marker survives, the run aborts instead of shipping.
 python3 - <<'PY2'
-import re
+import re,sys
 src=open("preview.html",encoding="utf-8").read()
 out=src
-out=re.sub(r'<div class="mockbar">.*?</div>\n?','',out,flags=re.S)
+# staging bar: strip any .mockbar div regardless of attributes or inner tags
+out=re.sub(r'<div class="mockbar"[^>]*>.*?</div>\s*','',out,flags=re.S)
 out=re.sub(r'<title>.*?</title>','<title>CASS — Continuity and Absorption Signal Stack</title>',out,count=1)
-out=out.replace('<span class="ftver">v4.31-preview</span>','<span class="ftver">v4.31</span>')
-out=re.sub(r'<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — staging preview build\..*?</div>',
- '<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — live build. The version in this footer appears in the change-log entry below, which is the only way a reader can tell which build they are looking at.</div>',out,flags=re.S)
+# footer version: drop a -preview / -staging suffix wherever it appears on a .ftver span
+out=re.sub(r'(<span class="ftver">)([^<]*?)-(?:preview|staging)(</span>)',r'\1\2\3',out)
+# any generated/footer note that declares itself a staging or preview page. Phrase-level only:
+# an earlier attempt replaced the whole <div>, which took the footer <span class="ftver">
+# with it and broke docs.changelog. Never rewrite a container to fix a sentence.
+out=out.replace('Preview page, staging only.','Live build.')
+out=re.sub(r'[Ss]taging preview build\.','live build.',out)
+out=out.replace('— staging preview build.','— live build.')
+# self-check: nothing on the promoted page may still announce itself as staging
+marks=[]
+if re.search(r'class="mockbar"',out): marks.append('staging bar')
+if re.search(r'\(STAGING\)',out): marks.append('title STAGING')
+if re.search(r'staging only|staging preview build',out,re.I): marks.append('staging note')
+if re.search(r'<span class="ftver">[^<]*-(?:preview|staging)</span>',out): marks.append('footer -preview')
+if marks:
+    print("PROMOTION ABORTED — staging furniture survived the scrub: "+", ".join(marks),file=sys.stderr)
+    sys.exit(1)
 open("Internal Telemetry.html","w",encoding="utf-8").write(out)
-print("promoted: preview.html -> Internal Telemetry.html (%d bytes, mockbar %s)"%(len(out),"removed" if 'mockbar"' not in out else "STILL PRESENT"))
+print("promoted: preview.html -> Internal Telemetry.html (%d bytes, staging furniture: none)"%len(out))
 PY2
+# the promotion is a hard gate step: a failed scrub must not fall through to a push
+[ $? -eq 0 ] || { echo "FATAL: promotion scrub failed — not pushing a page that still says staging."; exit 1; }
 
 # canonical-source amendment (2026-10-09): Daily Read.md is the canonical source
 # for the daily_read panel; it must be committed with the generated artifacts or
