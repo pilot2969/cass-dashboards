@@ -1,5 +1,11 @@
 # Changelog
 
+### Reference sections folded, change log tabulated (v4.29-preview)
+- **Sections 4, 5 and 7 folded closed** (institutional coverage, registers, data dictionary). Full headings stay on the closed lines; a lead note above section 4 says they are reference material.
+- **Section 8 rebuilt as a table**: date / version / what changed, newest first, 22 entries. The two newest entries had been loose outside the panel with the rest inside it, so ordering was broken at the top.
+- **Breaks added inside entries**: numbered sub-points and bold lead-ins break onto their own lines.
+- No reading changed.
+
 ### Section 3's working papers folded away (v4.28-preview)
 - **3.5 corpus composition, 3.6 instrument register, 3.7 base rate, 3.8 S&H panel, 3.9 blind draw and 3.10 replication now sit in collapsible folds**, closed by default. Each fold keeps its numbered heading and date as the summary line, with an OPEN/CLOSE cue.
 - **Nothing removed.** The lay reader meets 3.1–3.4 (rate, direction, function, what would falsify it); the reader who wants to challenge the model opens the folds.
