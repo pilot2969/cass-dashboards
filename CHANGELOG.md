@@ -2,12 +2,20 @@
 
 ## 2026-11-11
 
+### Section 3 says how to read it (v4.27-preview)
+- **Heading subtitle removed.** "3 · Absorption velocity — the other thing the instrument could not see" is now "3 · Absorption velocity". The subtitle described the section's history to the analyst, not its contents to a reader.
+- **Plain-language note added at the top of the panel**: specimens per week is the number that does the work (33 this week, 8 the week before); it is not a score, is not comparable to section 2, and measures how fast the audience that would have to accept force is being prepared rather than how cruel the feed is. Both limits stated in the note — the desk decides what counts as a specimen, and the series only begins at W38.
+- No reading changed.
+
+## 2026-11-11
+
 ### Flow gauges for M, G and E — and T named as the leg without one (v4.26-preview)
 - **M gets a series for the first time.** `build_m_flow.py` indexes Brent (DCOILBRENTEU), retail gasoline (GASREGW) and diesel (GASDESW) to the week of 2026-06-01 = 100, weighted 0.5/0.3/0.2, from a committed FRED cache (`m_flow_cache.json`). Runs inside `sync_data.sh`. Current: 108.4, down from a 126.5 peak (week of 2026-10-05).
 - **Three matching gauge cards** open 2.4: big number, one bar per observation with hover/tab read-out, three key figures, and a "how to read it" note in plain terms.
 - **T is stated as the leg that cannot carry a gauge**, with the reason, rather than silently omitted.
 - **Section restructured**: 2.4a is the M weekly table, 2.4b holds the E and G detail panels. The lead now says the three readings are the same as the 2.1 row at working resolution.
 - **Denominator note added** across all three: the desk controls every denominator, so a rate can move because the world moved or because the recording did.
+- **Collapsed-denominator caveat on the cards themselves**: where the latest month was written in under 60% of the previous month's volume (Nov: 20 entries vs 189), the G and E cards say so in their own note rather than printing an inflated per-hundred figure.
 
 ## 2026-11-11
 
