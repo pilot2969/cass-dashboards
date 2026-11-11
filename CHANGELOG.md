@@ -1,5 +1,11 @@
 # Changelog
 
+### Section 3's working papers folded away (v4.28-preview)
+- **3.5 corpus composition, 3.6 instrument register, 3.7 base rate, 3.8 S&H panel, 3.9 blind draw and 3.10 replication now sit in collapsible folds**, closed by default. Each fold keeps its numbered heading and date as the summary line, with an OPEN/CLOSE cue.
+- **Nothing removed.** The lay reader meets 3.1–3.4 (rate, direction, function, what would falsify it); the reader who wants to challenge the model opens the folds.
+- **The how-to-read note now says so**: everything below 3.4 is the instrument's working papers, folded, nothing hidden and nothing needs opening to read the board.
+- No reading changed.
+
 ## 2026-11-11
 
 ### Section 3 says how to read it (v4.27-preview)
