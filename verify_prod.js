@@ -355,6 +355,24 @@ async function main(){
             ?pass('record.close:'+f,`${misses} misses = ${c('contradicted')} contradicted + ${c('expired')} expired + ${c('unmeasured')} unmeasured`)
             :fail('record.close',`close reasons sum to ${sum} but there are ${misses} misses; ${decided} rows are labelled EXPIRED/UNMEASURED vs ${c('expired')+c('unmeasured')} expected`);
           // an expired verdict must never be dressed as a hit or as a contradiction
+          // the verdict label must follow the row's own close field: a card cannot say
+          // "Ended by: Our clock" and be labelled WRONG (contradicted), or vice versa.
+          {
+            const wl={world:'The world',clock:'Our clock',instrument:'The instrument'};
+            const rows=q('#recBody details.recrow');
+            let mis=0;
+            rows.forEach((el,i)=>{
+              const t=txt(el.querySelector('summary')?.textContent||'');
+              const lab=txt(el.querySelector('.rverd')?.textContent||'');
+              const win=Object.keys(wl).find(k=>t.includes(wl[k]));
+              const src=rr[i]||{};
+              // a hit only closes on the world; a miss inherits its reason from the close field
+              const want=src.res==='hit'?'RIGHT':win==='world'?'WRONG':win==='instrument'?'UNMEASURED':'EXPIRED';
+              if(lab!==want) mis++;
+            });
+            mis?fail('record.close_consistent',`${mis} row(s) labelled against their own "ended by" field`):
+              pass('record.close_consistent',`every verdict label matches its close field`);
+          }
           const wrong=rr.filter(x=>x.res==='hit'&&x.window!=='world').length;
           wrong?fail('record.expiry_not_promoted',`${wrong} hit(s) did not close on the world — an expiry cannot be scored as a hit`):
             pass('record.expiry_not_promoted',`no expiry is scored as a hit`);
