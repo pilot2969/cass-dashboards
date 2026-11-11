@@ -305,7 +305,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <div class="panel">
  <div class="note" style="margin-top:0;color:#c3d2e6">Four anchors per leg, each scored 0 to 5 on one written scale, and <b>load = (sum of anchors ÷ 4) × 20</b>. An anchor is something you can go and find, not a judgement about how bad things feel. The legs read in model order: M, G, E, T.</div>
  <div class="grid2" style="margin-top:12px" id="legs-live"></div>
- <div class="note" style="margin-top:14px">The computed column is what the anchors produce; the live board column is the hand-set number it would replace. <b>Where they differ, the anchor reading is the one with a paper trail</b> — and T's gap is the reason this instrument exists.</div>
+ <div class="note" style="margin-top:14px">The computed load is what the four anchors produce, and it is the reading the model runs on. <b>Live board reads</b> is the number the old board still carries on its hand-set scale; it retires at cutover and is shown only so the change can be followed.</div>
 </div>
 
 <div class="subhead jtarget" id="sec-2-3">2.3 Finest · institutional dials</div>
@@ -689,7 +689,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
  </div>
- <div class="note" style="margin-top:14px"><span class="ftver">v4.19-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.25-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
 <h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
@@ -1135,17 +1135,15 @@ function render(data){
     const load=(k==="G"&&mean!=null)?mean:Math.round(sum/4*20);
     const live=legs.find(l=>l.letter===k);
     const lv=live&&live.score!=null?live.score:null;
-    const gap=lv==null?null:load-lv;
     out+='<div class="panel"><h3><span class="term" data-term="leg_'+k.toLowerCase()+'">'+k+'</span> — '+esc(a.name)+'<span class="tag t-stock">INSTRUMENT</span></h3>'+
       '<div class="kv"><span>Computed load</span><b>'+load+'</b></div>'+
       '<div class="kv"><span>Live board reads</span><b>'+(lv==null?"–":lv)+'</b></div>'+
-      '<div class="kv"><span>Gap <i class="small" style="color:var(--dim);font-style:normal">— legacy vs computed, retires at cutover</i></span><b>'+(gap==null?"–":(gap>0?"+":"")+gap)+'</b></div>'+
       '<table style="margin-top:10px"><thead><tr><th>Anchor</th><th class="num">0-5</th></tr></thead><tbody>'+
       a.anchors.map(x=>'<tr><td>'+esc(x[0])+'<div class="small">'+esc(x[1])+'</div></td><td class="num">'+x[2]+'</td></tr>').join("")+
       '</tbody></table>'+
-      (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs. This −42 is the largest disagreement the two-column method will ever produce and is <b>unreproducible once the 82 is deleted</b>; it is frozen in /space/note/dial-anchor-migration-ledger.json as the receipt for the upgrade.</div>':
-       k==="G"?'<div class="note"><b>This gap is an identity, not agreement.</b> Governance’s computed load IS the dial mean, and the live board number is also the dial mean — both sides derive from the same quantity, so 0 is guaranteed and says nothing about the method. It is the one leg where the check is vacuous, and it is excluded from any claim that the columns reconcile.</div>':
-       '<div class="note">One anchor point is worth 5 load points, so a gap inside ±5 is inside the quantisation of the input scale — it cannot distinguish a correct hand-set number from one a fifth of a step off. Agreement here is agreement within resolution, not validation. Frozen in <b>/space/note/dial-anchor-migration-ledger.json</b> at cutover.</div>')+
+      (k==="T"?'<div class="note"><b>This is the one that moved.</b> 82 had no anchors behind it, which is how the highest pressure reading on the board sat beside a state of absent. Scored on the four things that decide whether a replacement formed, it reads 40. Nothing in the world changed — the 82 was double-counting pressure already carried on the other legs. The old number is retired, and the migration is frozen in /space/note/dial-anchor-migration-ledger.json as the receipt for the upgrade.</div>':
+       k==="G"?'<div class="note"><b>Governance is read straight off the twelve dials.</b> Its anchor load is the dial mean, so this leg has no independent measurement behind it — it is the dial set restated at leg level. Useful for comparison against the other three legs; not corroboration of them.</div>':
+       '<div class="note">Anchors are scored in whole steps, and one step is worth 5 load points, so this number moves in fifths of the scale rather than smoothly. Read the totals as bands, not as precision.</div>')+
       '</div>';
   });
   $("legs-live").innerHTML=out;

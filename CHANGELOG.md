@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-11
+
+### Gap row removed from 2.2 (v4.25-preview)
+- **The gap marker is gone from all four legs.** It compared the anchor-computed load against the original hand-set number — a migration artefact, not a reading. The hand-set numbers predate the current model and have no standing against it, so the difference reads as a finding to anyone who wasn't here for the cutover.
+- **Two notes removed with it**: the ±5 quantisation note (M, E) and the vacuous-identity note (G). Both existed only to explain the gap.
+- **Live board reads kept**, and the panel note now says it retires at cutover and that the computed load is the reading the model runs on.
+- **T's note keeps its substance** — 82 had no anchors behind it, 40 is what four anchored questions produce — with the −42 subtraction removed.
+- No reading changed.
+
 ## 2026-11-10
 
 ### 2.3 gauges removed, table promoted (v4.24-preview)
