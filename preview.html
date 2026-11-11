@@ -1086,7 +1086,7 @@ function renderFlowGauges(m,g,e){
     if($('mgBase')) $('mgBase').textContent=(m.index.baseline_values&&m.index.baseline_values.brent)?
       ('Brent $'+m.index.baseline_values.brent.value.toFixed(2)+' wk of '+m.index.baseline_week):m.index.baseline_week;
     mountSpark('mgSpark','mgSparkX','mgRead',
-      s.map(r=>({k:r.week,x:r.date.slice(5),v:r.index,
+      s.map(r=>({k:r.week,x:r.date.slice(5),v:r.index,brent:r.brent,gas:r.gas,diesel:r.diesel,date:r.date,
         t:r.date+' · index '+r.index+' · Brent $'+r.brent.toFixed(2)+' · gas $'+r.gas.toFixed(3)+' · diesel $'+r.diesel.toFixed(3)})),
       r=>'<b>'+esc(r.date)+'</b> — index <b>'+r.v+'</b>, where 100 is the first week of June.'+
          ' Brent $'+r.brent.toFixed(2)+', gasoline $'+r.gas.toFixed(3)+', diesel $'+r.diesel.toFixed(3)+'.');

@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-11",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-11T12:33 ET"
+  "generated_stamped": "2026-11-11T12:34 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -15840,7 +15840,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-11 17:33Z",
+  "generated": "2026-11-11 17:34Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
