@@ -1,5 +1,11 @@
 # Changelog
 
+### Content wrapper restored — sections 3.6–9 were outside the page column (v4.30-preview)
+- A stray `</div>` at the end of 3.5 closed `.wrap` early, so every block from 3.6 to section 9 rendered outside the container: flush to the viewport edge, no gutters, full-bleed headings. That is the misalignment seen on section 9.
+- Removed the stray closer; the wrapper now spans sections 1–9 and closes at the foot of the page.
+- Folded blocks boxed (v4.29) — bordered cards, cue right-aligned, body padding on every fold.
+- No reading changed.
+
 ### Reference sections folded, change log tabulated (v4.29-preview)
 - **Sections 4, 5 and 7 folded closed** (institutional coverage, registers, data dictionary). Full headings stay on the closed lines; a lead note above section 4 says they are reference material.
 - **Section 8 rebuilt as a table**: date / version / what changed, newest first, 22 entries. The two newest entries had been loose outside the panel with the rest inside it, so ordering was broken at the top.
