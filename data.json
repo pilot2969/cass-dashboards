@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-11",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-11T08:24 ET"
+  "generated_stamped": "2026-11-11T09:29 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -4761,8 +4761,8 @@
    "window_basis": "Covers certification. After certifications are executed the object changes from refusal to challenge, which is a different card.",
    "deadline_type": "constitutive",
    "anchor_type": "unverified_social",
-   "anchor_source": "Screenshot graphic posted by Brian Tyler Cohen, 7m before capture, 922 reactions / 172 comments / 11 shares. No venue, date, or link for the quotation itself.",
-   "anchor_grade": "E",
+   "anchor_source": "VERIFIED 2026-11-11: Cindy Hyde-Smith's own X account (@cindyhydesmith) and Facebook page carry the statement in full \u2014 'We are not backing down. This election is not over. Our team is working across Mississippi to monitor the remaining ballots and protect the integrity of the process. We will see this through to the very end!' Posted 2026-11-06. Corroborated: Mississippi Free Press, Fox News (11-07), CNN (11-09). Upgraded from E (screenshot graphic, Brian Tyler Cohen, no venue/date/link) to A (named actor, primary account, multiple outlets).",
+   "anchor_grade": "A",
    "status": "emergent",
    "resolution": "unresolved",
    "public_status": "internal",
@@ -4794,7 +4794,7 @@
     "whether the refusal language appears in a party committee statement, the difference between a senator and the party",
     "whether the count-refusal frame and the dehumanization corpus begin sharing vocabulary \u2014 that coupling is the actual thesis and is not yet observed"
    ],
-   "tracking_state": "Registered 2026-11-06 18:51 ET. Anchor grade E: the underlying quotation is unverified, so the card is registered on the fact that the claim is CIRCULATING at 922 reactions, not on the fact that it is true. Unpriced for 24 hours by the velocity rule.",
+   "tracking_state": "Anchor verified 2026-11-11 and reads option (a) of the source watch item: a state-level posture about Mississippi's own count, in the one state with no statutory recount mechanism. It does not itself satisfy this card's resolution clause, which requires a named national Republican refusing a certified result in a state OTHER than Alaska. Count remains zero. Colom's lead widened to just under 2,500 votes with a 2026-11-13 county transmission deadline; the live question is whether Hyde-Smith carries the refusal past certification on 11-13, and whether any named national figure picks it up. Watch /space/observation for the 11-09 'where is Cindy Hyde-Smith' absence pattern.",
    "basename": "2026-11-06-count-refusal-second-state",
    "confidence": 40,
    "grace_horizon": "0 days \u2014 grace not pre-registered"
@@ -14647,97 +14647,17 @@
  "watch": {
   "generated": "2026-11-11",
   "counts": {
-   "active": 81,
-   "fired": 27,
-   "expired": 21,
-   "retired": 4,
+   "active": 76,
+   "fired": 30,
+   "expired": 23,
+   "retired": 5,
    "active_no_expiry": 0,
-   "active_past_expiry": 8,
-   "high_open": 55
+   "active_past_expiry": 0,
+   "high_open": 49
   },
-  "next": "2026-11-10",
-  "next_days": -1,
+  "next": "2026-11-12",
+  "next_days": 1,
   "rows": [
-   {
-    "title": "Air picture: does any deviation from the 10-29 baseline appear before Nov 3",
-    "added": "2026-10-29",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "medium",
-    "status": "active",
-    "check": "Run mil-air-snapshot.py on every wire run and compare against the 10-29 anchor (Midwest core 16-18 aircraft, 0 fighters visible, 1 home-station bomber, lift/tanker in CONUS+Atlantic ~30). Deviation means a PATTERN, not a count: (a) lift concentration \u2014 repeated C-17/C-130 arrivals at one Guard base; (b) one-way airlift flow with no return leg over consecutive days; (c) helicopter massing at a single field; (d) fighter orbits over population centres; (e) bomber presence away from Barksdale/Minot/Whiteman/Dyess/Ellsworth; (f) sustained eastbound Atlantic tanker stream (theatre deployment \u2014 must not be reported as domestic).",
-    "action": "On a genuine pattern deviation inside CONUS: pull twice to rule out feed sampling, then file a ledger entry and tell Samuel the same hour \u2014 do not wait for the next scheduled run. On eastbound Atlantic surge only: log to the Iran/Hormuz track, never to domestic posture. On nothing by Nov 10: extend the baseline note rather than restating it; the accumulated series is the deliverable."
-   },
-   {
-    "title": "Alaska: does the elite frame generalize nationally, or stay a state scandal",
-    "added": "2026-10-29",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Three separations to maintain, checked each run. (1) PROVENANCE: has any outlet independently corroborated past the NYT's complainant-sourced file \u2014 Alaska Public Media declined, so look for a named non-NYT confirmation of Kurtz's involvement or DSCC knowledge. (2) LEGALITY: does anyone produce evidence of a chargeable act (campaign-filing falsehood, witness pressure, evidence destruction) as opposed to decoy recruitment, which Turley concedes is not a crime? Turley's 'grand jury subpoenas expected in the coming days' is unsourced and is the test case. (3) GENERALIZATION: does a named national figure use Alaska to make a claim about other states' races? That single utterance is the tell that",
-    "action": "On a confirmed subpoena or lawyer withdrawal: raise confidence on C-002 and tell Samuel same hour. On generalization to other states before Nov 3: file immediately and treat every subsequent state certification dispute as pre-loaded, not spontaneous. On Measure 2 polling past 3 points of movement: log as evidence the story is functioning as an election-moving instrument. If nothing corroborates past the NYT layer by Nov 10, record that a fully settled elite fact rested on one fired staffer and a complainant's file \u2014 that is the reusable finding, independent of Alaska."
-   },
-   {
-    "title": "Hormuz transit claim: is the 'back to pre-conflict' figure measured or asserted",
-    "added": "2026-11-02",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Bessent on X (10-31): 'Strait of Hormuz transit levels are back to pre-conflict levels minus Iranian barrels.' Compare against independent measures on every wire run to 11-10: UKMTO daily attack/advisory count, CENTCOM vessel-redirection tally (144 as of 11-01), GEF Hormuz tracker (day 242: CRITICAL, 23 attacks since 10-01, ~492 vessels waiting), LNG flow share (~30% of pre-war in October). A treasury claim that moves a 3-4% oil tape while the operational trackers say CRITICAL is a measurement fight, not a statistic. || 2026-11-02 21:20 EVENING WIRE \u2014 FIRST LIVE TEST: the tape moved 7.6% on Araqchi's four conditions and Reuters' 'Hormuz reopens if accepted,' with no movement in any physical ",
-    "action": "If independent trackers stay at CRITICAL while the claim stands, file the divergence to /space/note as an information-operation specimen and tell Samuel that the price move is priced off an assertion, not a flow. If transits genuinely normalise on UKMTO/GEF data, retire the item and log the confirmation."
-   },
-   {
-    "title": "Hyde-Smith count refusal \u2014 verify the quotation before it is treated as a fact",
-    "added": "2026-11-06",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Find the venue, date and full clip for 'We are not backing down. This election is not over.' attributed to Cindy Hyde-Smith. Three possibilities with different consequences: (a) about Mississippi's own count \u2014 then it is a state-level refusal and the second-state card is not yet triggered; (b) about the national result \u2014 then it is the first named-senator refusal and the 72-hour card's outward-contestation count moves from zero to one; (c) not said, or invented by the aggregator \u2014 then circulation of a fabricated senatorial quotation is itself the finding, the second counterfeit-authority specimen this cycle after the Paxton statement. Source image: /rool-drive/attachments/a8d1wl/4499.png (B",
-    "action": "Update /space/prediction/2026-11-06-count-refusal-second-state.json and the Alaska card's tracking_state with the verified reading; record the result in the 72-hour card addendum."
-   },
-   {
-    "title": "Iran nuclear test in the final five days: watch the ladder, not the rumour",
-    "added": "2026-10-29",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Pape's one-in-three call on an Iranian nuclear test before Nov 3 has been public since Sept 20 and has spent five of its six weeks silently. Watch the rungs that any real program would leave, in this order of evidentiary weight: (1) CTBTO radionuclide or USGS/IMS seismic detection of a detonation in Iran \u2014 hours of latency, no spin room, and the only indicator that cannot be pre-legitimated; (2) an Iranian announcement of withdrawal from the NPT (the declaratory rung; North Korea withdrew in 2003, three years before testing) or any Iranian official shift from 'peaceful program' to declared nuclear status; (3) IAEA: request for a special Board of Governors session, a new access demand, or a c",
-    "action": "On a confirmed detonation: move the prediction to confirmed same-hour, notify Samuel immediately regardless of hour, and open a new ledger entry rather than amending this one. On NPT withdrawal alone: raise the prediction sharply (0.07 to ~0.25) and log as a ladder rung, not a resolution. On the window closing clean on Nov 3 23:59 ET: resolve negative, note that Pape's number did not move with its own window, and record that in the calibration ledger as a source-pricing data point (this is the fifth scored instance of a short-horizon Pape call; it should be usable as a base rate for future ones)."
-   },
-   {
-    "title": "Polling Narrative Pre-Positioning Sweep - Standing",
-    "added": "2026-09-28",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Per wire run: does the sweep surface new polling-delegitimation artifacts (poll-attacking, methodology attacks, 'suppressed' voter framings, likely-voter-model attacks) from regime-aligned messengers?",
-    "action": "Log absorption or ledger entry per artifact; map messenger network each time (Heritage, Fox, personal channel, surrogates) - network diagram fills in with repetition; escalate confidence moves on midterms catalyst card only on vocabulary-shift tell (polls->count), not on frequency alone."
-   },
-   {
-    "title": "Tehran mediation vs 96-hour strike readiness \u2014 mechanism or communiqu\u00e9",
-    "added": "2026-10-26",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "TRIGGER (mediation bites): a named monitoring/verification mechanism emerges from the Mecca Pact\u2013Iran talks, or the 96-hour readiness posture is stood down after the meetings. TRIGGER (mediation is cover): talks produce only expressions of concern while force posture holds, and/or a strike order lands inside the election window. Check whether Israel is party to or excluded from any arrangement; oil/Bab el-Mandeb pricing if an order is given. || 2026-10-29 UPDATE \u2014 evidence loads to 'mediation is cover' so far, without closing it. WSJ reported and Trump confirmed a Vance letter to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, to restart talks; Trump characterised it as",
-    "action": "File ledger entry; update Iran sequencing watch and any strike-timing prediction"
-   },
-   {
-    "title": "Westchester/any county: does the frame convert? posture test on the NY-17 emergency ballots",
-    "added": "2026-11-03",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Do the Westchester emergency ballots get counted under the JOINT RNC-Democratic court order with both parties' observers, and is the NY-17 result accepted by BOTH campaigns? Conversion = either campaign refuses to accept the result, OR the RNC withdraws from the joint order and files its own contest. Non-conversion = joint count, bipartisan acceptance.",
-    "action": "If converted: escalate to Samuel immediately, upgrade prelegitimation conversion risk from LOW to HIGH, and register a post-election contestation card. If non-conversion by 2026-11-10: downgrade the frame to atmosphere and log the disposition."
-   },
    {
     "title": "DOJ monitor roster and Guard election posture: does either get named on the record before Nov 3",
     "added": "2026-10-29",
@@ -15149,6 +15069,16 @@
     "action": "On migration to any verified account, or on binding to a named event or target: log as absorption specimen, raise the Miller blocked-then-done card, and flag to Samuel same day. While fringe-only: monitor only, do not score."
    },
    {
+    "title": "Polling Narrative Pre-Positioning Sweep - Standing",
+    "added": "2026-09-28",
+    "expire": "2026-12-31",
+    "days_left": 50,
+    "priority": "high",
+    "status": "active",
+    "check": "Per wire run: does the sweep surface new polling-delegitimation artifacts (poll-attacking, methodology attacks, 'suppressed' voter framings, likely-voter-model attacks) from regime-aligned messengers? || 2026-11-11 CLOSED-AND-REOPENED (ACTIVE to 2026-12-31): the vocabulary-shift tell fired. The pre-election sweep ran clean \u2014 no new polling-delegitimation artifact appeared in the midterm closing week that moved the catalyst card. The shift the trigger named (polls -> count) arrived after the vote, not before: Hyde-Smith's count refusal verified 11-11, the Alaska vote-transfer demand 11-05, and the count-frame dominance read 11-07. So the instrument's prediction was correct in mechanism and wr",
+    "action": "Log absorption or ledger entry per artifact; map messenger network each time (Heritage, Fox, personal channel, surrogates) - network diagram fills in with repetition; escalate confidence moves on midterms catalyst card only on vocabulary-shift tell (polls->count), not on frequency alone."
+   },
+   {
     "title": "Three 'stolen election' claims in three countries inside one week \u2014 Brazil, Israel, and the US pre-build",
     "added": "2026-10-28",
     "expire": "2026-12-31",
@@ -15247,6 +15177,16 @@
     "status": "active",
     "check": "Axios 10/22 scoop (Reuters-picked-up, unverified by wire): major US banks (Morgan Stanley, JPMorgan, BofA, Citi, Schwab) detect third-party AI agents inside customer accounts; some actions appear independent of user instructions; banks running 'day after' scenario planning for account restoration. Mechanism is mostly voluntarily shared credentials (agentic browsers/assistants), not breach. Banks cannot distinguish customer-directed from rogue agents; liability under EFTA may fall on users who shared credentials. April 2026 interagency model risk guidance explicitly excludes agentic AI \u2014 regulatory void. Chase/Morgan Stanley pushback noted; treat specifics as unconfirmed. || 2026-11-09 FUSE S",
     "action": "Upgrade to absorption series if: (1) a documented agent-caused loss event with EFTA liability fight reaching press or court; (2) bank consortium publishes shared agent-authentication standard (read-only first); (3) CFPB/OCC agent-specific guidance appears; (4) correlation with labs' 10/09 war-gaming framing in subsequent elite discourse (elite-source template match)."
+   },
+   {
+    "title": "Air picture: does any deviation from the 10-29 baseline appear before Nov 3",
+    "added": "2026-10-29",
+    "expire": "2027-01-31",
+    "days_left": 81,
+    "priority": "medium",
+    "status": "active",
+    "check": "Run mil-air-snapshot.py on every wire run and compare against the 10-29 anchor (Midwest core 16-18 aircraft, 0 fighters visible, 1 home-station bomber, lift/tanker in CONUS+Atlantic ~30). Deviation means a PATTERN, not a count: (a) lift concentration \u2014 repeated C-17/C-130 arrivals at one Guard base; (b) one-way airlift flow with no return leg over consecutive days; (c) helicopter massing at a single field; (d) fighter orbits over population centres; (e) bomber presence away from Barksdale/Minot/Whiteman/Dyess/Ellsworth; (f) sustained eastbound Atlantic tanker stream (theatre deployment \u2014 must not be reported as domestic). || 2026-11-10 nothing fired, and the window is extended rather than re",
+    "action": "On a genuine pattern deviation inside CONUS: pull twice to rule out feed sampling, then file a ledger entry and tell Samuel the same hour \u2014 do not wait for the next scheduled run. On eastbound Atlantic surge only: log to the Iran/Hormuz track, never to domestic posture. On nothing by Nov 10: extend the baseline note rather than restating it; the accumulated series is the deliverable."
    },
    {
     "title": "Bab el-Mandeb traffic under Houthi control",
@@ -15369,6 +15309,16 @@
     "action": "One rung: log only, no dashboard move. Two rungs: escalate to owner same-day and open a prediction card at the next tribunal intake \u2014 the manpower leg would then be real and C-002's apparatus-readiness inputs shift materially. Record the counter-indicator alongside: every branch met FY26 recruiting goals months early (Army 61,500 by May, four months early), active end strength rising 30,000+, Army target 454,000 -> 469,000 FY27 \u2014 a force that cannot absorb volunteers is not a force that conscripts."
    },
    {
+    "title": "Military-housing reversal test AND FORTRESS hardening order: which installations get self-sufficiency first?",
+    "added": "2026-11-11",
+    "expire": "2027-06-30",
+    "days_left": 231,
+    "priority": "medium",
+    "status": "active",
+    "check": "TWO-PART, and the second part is the real test. (1) Set the crisis-collapse date when it is unambiguous (a de-escalation that holds 30 days, not a single quiet week). Then check at +90: have Bessent, Rubio, Hegseth, Miller, Bondi and Noem returned to private residences? Any not returned counts as persistence, because the stated reason has expired. (2) The doxxing test does not depend on the crisis at all and can be read any day: the addresses are already public, so the marginal secrecy value of base housing is zero. Continued tenure past that point is not explained by targeting. (3) Note which of the six is holding: Treasury and State are the tell, because neither has a residential military ",
+    "action": "Persistence past the point where the stated rationale has expired is the garrison reading, not the security reading: upgrade the 11-11 observation from indicator to standing condition, and record it as a civil-military fusion observation with a date range. Reversal is the REVISED case, and it should be recorded as such rather than quietly dropped."
+   },
+   {
     "title": "Readiness network \u2014 Active Club / Wolves of Vinland capacity and activation history (US watch)",
     "added": "2026-11-04",
     "expire": "2027-06-30",
@@ -15471,76 +15421,6 @@
   ],
   "high": [
    {
-    "title": "Alaska: does the elite frame generalize nationally, or stay a state scandal",
-    "added": "2026-10-29",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Three separations to maintain, checked each run. (1) PROVENANCE: has any outlet independently corroborated past the NYT's complainant-sourced file \u2014 Alaska Public Media declined, so look for a named non-NYT confirmation of Kurtz's involvement or DSCC knowledge. (2) LEGALITY: does anyone produce evidence of a chargeable act (campaign-filing falsehood, witness pressure, evidence destruction) as opposed to decoy recruitment, which Turley concedes is not a crime? Turley's 'grand jury subpoenas expected in the coming days' is unsourced and is the test case. (3) GENERALIZATION: does a named national figure use Alaska to make a claim about other states' races? That single utterance is the tell that",
-    "action": "On a confirmed subpoena or lawyer withdrawal: raise confidence on C-002 and tell Samuel same hour. On generalization to other states before Nov 3: file immediately and treat every subsequent state certification dispute as pre-loaded, not spontaneous. On Measure 2 polling past 3 points of movement: log as evidence the story is functioning as an election-moving instrument. If nothing corroborates past the NYT layer by Nov 10, record that a fully settled elite fact rested on one fired staffer and a complainant's file \u2014 that is the reusable finding, independent of Alaska."
-   },
-   {
-    "title": "Hormuz transit claim: is the 'back to pre-conflict' figure measured or asserted",
-    "added": "2026-11-02",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Bessent on X (10-31): 'Strait of Hormuz transit levels are back to pre-conflict levels minus Iranian barrels.' Compare against independent measures on every wire run to 11-10: UKMTO daily attack/advisory count, CENTCOM vessel-redirection tally (144 as of 11-01), GEF Hormuz tracker (day 242: CRITICAL, 23 attacks since 10-01, ~492 vessels waiting), LNG flow share (~30% of pre-war in October). A treasury claim that moves a 3-4% oil tape while the operational trackers say CRITICAL is a measurement fight, not a statistic. || 2026-11-02 21:20 EVENING WIRE \u2014 FIRST LIVE TEST: the tape moved 7.6% on Araqchi's four conditions and Reuters' 'Hormuz reopens if accepted,' with no movement in any physical ",
-    "action": "If independent trackers stay at CRITICAL while the claim stands, file the divergence to /space/note as an information-operation specimen and tell Samuel that the price move is priced off an assertion, not a flow. If transits genuinely normalise on UKMTO/GEF data, retire the item and log the confirmation."
-   },
-   {
-    "title": "Hyde-Smith count refusal \u2014 verify the quotation before it is treated as a fact",
-    "added": "2026-11-06",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Find the venue, date and full clip for 'We are not backing down. This election is not over.' attributed to Cindy Hyde-Smith. Three possibilities with different consequences: (a) about Mississippi's own count \u2014 then it is a state-level refusal and the second-state card is not yet triggered; (b) about the national result \u2014 then it is the first named-senator refusal and the 72-hour card's outward-contestation count moves from zero to one; (c) not said, or invented by the aggregator \u2014 then circulation of a fabricated senatorial quotation is itself the finding, the second counterfeit-authority specimen this cycle after the Paxton statement. Source image: /rool-drive/attachments/a8d1wl/4499.png (B",
-    "action": "Update /space/prediction/2026-11-06-count-refusal-second-state.json and the Alaska card's tracking_state with the verified reading; record the result in the 72-hour card addendum."
-   },
-   {
-    "title": "Iran nuclear test in the final five days: watch the ladder, not the rumour",
-    "added": "2026-10-29",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Pape's one-in-three call on an Iranian nuclear test before Nov 3 has been public since Sept 20 and has spent five of its six weeks silently. Watch the rungs that any real program would leave, in this order of evidentiary weight: (1) CTBTO radionuclide or USGS/IMS seismic detection of a detonation in Iran \u2014 hours of latency, no spin room, and the only indicator that cannot be pre-legitimated; (2) an Iranian announcement of withdrawal from the NPT (the declaratory rung; North Korea withdrew in 2003, three years before testing) or any Iranian official shift from 'peaceful program' to declared nuclear status; (3) IAEA: request for a special Board of Governors session, a new access demand, or a c",
-    "action": "On a confirmed detonation: move the prediction to confirmed same-hour, notify Samuel immediately regardless of hour, and open a new ledger entry rather than amending this one. On NPT withdrawal alone: raise the prediction sharply (0.07 to ~0.25) and log as a ladder rung, not a resolution. On the window closing clean on Nov 3 23:59 ET: resolve negative, note that Pape's number did not move with its own window, and record that in the calibration ledger as a source-pricing data point (this is the fifth scored instance of a short-horizon Pape call; it should be usable as a base rate for future ones)."
-   },
-   {
-    "title": "Polling Narrative Pre-Positioning Sweep - Standing",
-    "added": "2026-09-28",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Per wire run: does the sweep surface new polling-delegitimation artifacts (poll-attacking, methodology attacks, 'suppressed' voter framings, likely-voter-model attacks) from regime-aligned messengers?",
-    "action": "Log absorption or ledger entry per artifact; map messenger network each time (Heritage, Fox, personal channel, surrogates) - network diagram fills in with repetition; escalate confidence moves on midterms catalyst card only on vocabulary-shift tell (polls->count), not on frequency alone."
-   },
-   {
-    "title": "Tehran mediation vs 96-hour strike readiness \u2014 mechanism or communiqu\u00e9",
-    "added": "2026-10-26",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "TRIGGER (mediation bites): a named monitoring/verification mechanism emerges from the Mecca Pact\u2013Iran talks, or the 96-hour readiness posture is stood down after the meetings. TRIGGER (mediation is cover): talks produce only expressions of concern while force posture holds, and/or a strike order lands inside the election window. Check whether Israel is party to or excluded from any arrangement; oil/Bab el-Mandeb pricing if an order is given. || 2026-10-29 UPDATE \u2014 evidence loads to 'mediation is cover' so far, without closing it. WSJ reported and Trump confirmed a Vance letter to Mohsen Rezaei, secretary of Iran's Supreme National Security Council, to restart talks; Trump characterised it as",
-    "action": "File ledger entry; update Iran sequencing watch and any strike-timing prediction"
-   },
-   {
-    "title": "Westchester/any county: does the frame convert? posture test on the NY-17 emergency ballots",
-    "added": "2026-11-03",
-    "expire": "2026-11-10",
-    "days_left": -1,
-    "priority": "high",
-    "status": "active",
-    "check": "Do the Westchester emergency ballots get counted under the JOINT RNC-Democratic court order with both parties' observers, and is the NY-17 result accepted by BOTH campaigns? Conversion = either campaign refuses to accept the result, OR the RNC withdraws from the joint order and files its own contest. Non-conversion = joint count, bipartisan acceptance.",
-    "action": "If converted: escalate to Samuel immediately, upgrade prelegitimation conversion risk from LOW to HIGH, and register a post-election contestation card. If non-conversion by 2026-11-10: downgrade the frame to atmosphere and log the disposition."
-   },
-   {
     "title": "DOJ monitor roster and Guard election posture: does either get named on the record before Nov 3",
     "added": "2026-10-29",
     "expire": "2026-11-12",
@@ -15549,6 +15429,76 @@
     "status": "active",
     "check": "Neff declaration (2026-10-28, NAACP v. DOJ) puts BOP, ATF and DEA employees on the monitor roster, expressly unarmed and non-identifying, with locations unfinalized and no internal deadline. Check in this order: (1) a final monitor location list filed before Nov 3, and whether it includes certification flashpoint counties (Alaska, Maricopa, Fulton, Philadelphia, Detroit, Milwaukee); (2) any single documented sighting of a BOP/ATF/DEA monitor in identifying federal attire or visibly armed \u2014 one instance voids the declaration's safeguards and hands NAACP its record; (3) Arlington County's TRO motion; (4) any adjutant general confirming or denying Klippenstein's all-50-states Guard mobilization",
     "action": "On a documented uniformed/armed monitor: file immediately as a triggering event for c-002 and tell Samuel same-hour \u2014 it is the cleanest available evidence that the pre-legitimation apparatus has an enforcement arm rather than only a paperwork arm. On a confirmed Guard drop-box presence: open a separate c-002 sub-node; do not fold it into election-day-violence tracking, since the mechanism is certification, not violence. On nothing by Nov 3: record that the largest monitoring operation in DOJ history ran with no published location list, which is itself the finding."
+   },
+   {
+    "title": "Irregularity claim disposition count \u2014 named counties with case numbers vs atmospheric claims",
+    "added": "2026-11-03",
+    "expire": "2026-11-12",
+    "days_left": 1,
+    "priority": "high",
+    "status": "active",
+    "check": "By midnight 11-03 and again at 11-05, count irregularity claims that name a county, an authority and a remedy. Thresholds: >=5 such claims = monitoring; 0 named counties = pure frame. Also: does reporting skew to Democratic-leaning counties while Republican-county machine failures go unreported?",
+    "action": "Encode the count and the directional skew into the post-mortem as the frame's measured conversion rate. If the directional test fails (one-sided reporting), record the account as partisan instrument rather than integrity operation."
+   },
+   {
+    "title": "Wednesday watch window \u2014 Massie resolution aftermath (opened, then closed by a Tuesday-night disposition)",
+    "added": "2026-11-10",
+    "expire": "2026-11-13",
+    "days_left": 2,
+    "priority": "high",
+    "status": "active",
+    "check": "The Wednesday 2026-11-11 vote-day window was opened at 20:00 ET on 10 Nov, before the vote series began, then closed by the disposition itself at ~21:05 ET: the House adopted a motion to refer the eight articles to committee, 211-204, and no vote was taken on the articles. What the window still covers, and what to check on Wednesday: (1) WHICH committee, and whether it is given a deadline \u2014 referral to Judiciary with no calendar is a park; referral to Armed Services is a second park with friendlier jurisdiction. A referral that comes with a reporting deadline (90-day, 12-month) is not a disposal and the card's MISS would need re-examination under Rule 1's no-amendment rule, so record any dea",
+    "action": "File any (1)-(3) as observations against this card; do not touch HEV-001's resolution. If a discharge petition is filed with named signatories, open a new card rather than amending this one."
+   },
+   {
+    "title": "Turnout projections put on the record: Georgia 1.4M, Maine midterm record, national VEP rate",
+    "added": "2026-11-03",
+    "expire": "2026-11-14",
+    "days_left": 3,
+    "priority": "high",
+    "status": "active",
+    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.",
+    "action": "Resolve the turnout-floor card on the VEP rate; log each official's public projection against the actual and add the miss rate to the calibration ledger."
+   },
+   {
+    "title": "America.gov AI chatbot - state information channel epistemic capture",
+    "added": "2026-09-29",
+    "expire": "2026-11-15",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "Trump unveiled AI-powered 'front door to the federal government' 2026-09-29 (model undisclosed, free, no login). AP documented live drift: initially truthful answers (Biden won 2020, Trump named in Epstein files, climate human-caused, Obama 2009 crowd bigger) modified WITHIN MOMENTS to refusal ('we don't answer political inquiries'). Day-one demonstration of editorial correction truth->refusal on the state's official channel. Kept Trump rebrands (Lake Ontario, Gulf of Mexico) but not 'Department of War.' Watch: (1) America.gov's answers on 2020 election, certification, election integrity by mid-October; (2) whether refusal hardens into partisan framing rather than mere silence; (3) whether f",
+    "action": "If America.gov asserts disputed election claims (2020 fraud, rigged midterms) or its refusals track WH talking points on election integrity, log as legitimacy-lane event and link to cdc-epistemic-capture pattern; consider absorption card 'state chatbot as epistemic authority transfer.'"
+   },
+   {
+    "title": "Two-track disavowal test: does the elite layer police 'Make No Peace With Evil'?",
+    "added": "2026-11-08",
+    "expire": "2026-11-15",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "Any statement by Trump, Miller, Hegseth, the White House, or a named GOP official \u2014 or a conspicuous absence \u2014 in response to the post-defeat 'no peace' / Minuteman 'good men' motif, now carried by a signed auxiliary page.\n\n|| 2026-11-09 09:20 MORNING WIRE \u2014 SILENCE + CONTINUED DEAL TALK, but the deal talk is now cheap. No elite statement on the 'no peace' motif. Trump told reporters the Dana White press-secretary offer was 'only kidding' and White meets him at the White House today \u2014 the conciliation register remains, and the appointment channel has been converted into a joke, which is a form of disavowal without a disavowal of the auxiliary. No elite echo of 'evil'/'no peace'/'1776'. Branc",
+    "action": "Elite conciliation (60 Minutes: 'I can work with the Democrats') and auxiliary foreclosure ('Make No Peace With Evil, Destroy It') appeared the same day. Readings: DISAVOWAL -> two tracks uncoordinated, deal sincere, downgrade division-of-labour to coincidence. SILENCE + CONTINUED DEAL TALK -> division of labour confirmed, base held in place while principal negotiates. ELITE ECHO ('no peace', 'evil', '1776' from a named official) -> the auxiliary is not holding the flank, it is the flank, and the conciliation is cover. AUX ATTACK ON THE DEAL + elite retreat -> the base holds a veto and the principal is not the principal."
+   },
+   {
+    "title": "Vance\u2013Rezaei channel: does a named mechanism appear before Nov 3, or is this an exit ramp with no floor",
+    "added": "2026-10-29",
+    "expire": "2026-11-15",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "The letter is public; the mechanism is not. Check for: (1) a named monitoring/verification arrangement or a mediator with a mandate (Qatar, Oman, Pakistan, Turkey) rather than 'messages passed'; (2) any stand-down of the 96-hour posture or a carrier deferral tied to the talks; (3) whether Israel is a party to or excluded from the channel; (4) whether Rezaei \u2014 a hard-liner chosen over the foreign ministry \u2014 is the right addressee for a deal or the right addressee for a face-saving pause; (5) whether the strike briefings to the Gulf continue during the talks (they have). Falsifier for the 'cover' reading: strikes do not occur in the Nov 4-10 window AND a named mechanism exists by Nov 15.",
+    "action": "If a named mechanism appears: revise the Iran sequencing prediction \u2014 the calendar was constraint, not cause. If the window opens with the posture intact and the channel silent: log as mediation-as-cover confirmed, and update the prediction's evidence chain."
+   },
+   {
+    "title": "War Dept. designates Confucius Institutes a national security threat (2026-10-23, Hegseth)",
+    "added": "2026-10-23",
+    "expire": "2026-11-15",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.",
+    "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
    }
   ]
  },
