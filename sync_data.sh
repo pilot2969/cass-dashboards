@@ -233,9 +233,15 @@ try:
     # cards instead of silently rendering an empty panel. Fall back to the newest
     # dated edition .md (excluding today's rolling file) and parse it the same way.
     if not dr.get("cards"):
-        import glob, fnmatch
-        eds=sorted(g for g in glob.glob("Daily Read 20*.md")
-                   if g != "Daily Read.md")
+        import glob, fnmatch, os as _os
+        # 2026-11-11 FIX: the day-roll now archives the finished edition into archive/,
+        # which left this fallback scanning repo-root copies that stop at 2026-11-03 and
+        # carry no parser marker. Result: retention found nothing and the board shipped
+        # an EMPTY Daily Read panel (data.json daily_read.date null, 0 cards) while every
+        # gate passed on 0==0. Include archive/ editions and rank by mtime, not filename.
+        _cands=[g for g in glob.glob("Daily Read 20*.md")+glob.glob("archive/Daily Read 20*.md")
+                if _os.path.basename(g) != "Daily Read.md" and _os.path.isfile(g)]
+        eds=sorted(_cands, key=_os.path.getmtime)
         if eds:
             ftxt=open(eds[-1], encoding='utf-8').read()
             ftxt,_fc=_convert_card_stack(ftxt)

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "generator": "build_flow_panel.py",
  "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
  "panels": [
@@ -56,6 +56,14 @@
      "journal": 189,
      "ledger": 104,
      "days_covered": 31
+    },
+    {
+     "month": "2026-11",
+     "raw": 1,
+     "per_100_journal": 5.0,
+     "journal": 20,
+     "ledger": 73,
+     "days_covered": 10
     }
    ],
    "control": {
@@ -66,13 +74,14 @@
      "2026-07": 18,
      "2026-08": 14,
      "2026-09": 176,
-     "2026-10": 189
+     "2026-10": 189,
+     "2026-11": 20
     },
     "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
    },
    "headline": "Raw series peaks in 2026-09 (9 events); the controlled series peaks in 2026-07 (38.9 per 100 journal). Only 2026-07 outruns the recording rate \u2014 the rest of the raw movement is the desk going to work.",
    "disclosers": [
-    "Raw = unique dated events after declared dedupe (29 objects, 2 pairs merged, 1 undated excluded = 26 dated events).",
+    "Raw = unique dated events after declared dedupe (30 objects, 2 pairs merged, 1 undated excluded = 27 dated events).",
     "The control denominator is ENDOGENOUS: journal volume is this machine's attention, which reacts to the events it records. Neither number is the true one; the pair is the reading.",
     "Cannot measure capacity, only recorded events. Statutory authority created and never exercised produces no row.",
     "Left edge (2026-05-07) is a backfill artifact, not a quiet spring.",
@@ -83,7 +92,7 @@
    "id": "e-leg-composition",
    "leg": "E",
    "label": "Enforcement event composition",
-   "reading": "share of unique dated events by type, 2026-05 to 2026-10",
+   "reading": "share of unique dated events by type, 2026-05 to 2026-11",
    "series": [
     {
      "type": "policy_shift",
@@ -94,28 +103,28 @@
      "n": 6
     },
     {
-     "type": "rhetoric_escalation",
+     "type": "agency_raid",
      "n": 4
     },
     {
-     "type": "agency_raid",
-     "n": 3
+     "type": "rhetoric_escalation",
+     "n": 4
     },
     {
      "type": "purge",
      "n": 1
     }
    ],
-   "headline": "Kinetic episodic acts are 3 of 26. Capacity accumulates through instrument, not through visible coercion: 18 of 26 events are policy or surveillance.",
+   "headline": "Kinetic episodic acts are 4 of 27. Capacity accumulates through instrument, not through visible coercion: 18 of 27 events are policy or surveillance.",
    "disclosers": [
     "Robust to the recording-rate problem: a tenfold writing lift does not change which category a written event lands in.",
     "Taxonomy is the collection's own; if it is wrong, this chart is wrong.",
-    "nspm7_alignment is true on 23 of 26 dated events."
+    "nspm7_alignment is true on 24 of 27 dated events."
    ]
   }
  ],
  "integrity": {
-  "objects": 29,
+  "objects": 30,
   "merged_pairs": [
    {
     "kept": "policy_shift-2026-07-13-national--",
@@ -134,7 +143,7 @@
     "date_raw": "2025-2026"
    }
   ],
-  "unique_dated": 26,
+  "unique_dated": 27,
   "same_date_review": [
    {
     "date": "2026-07-08",
@@ -163,8 +172,8 @@
   ],
   "window": {
    "start": "2026-05-07",
-   "end": "2026-10-27",
-   "days": 174
+   "end": "2026-11-07",
+   "days": 185
   }
  }
 }
