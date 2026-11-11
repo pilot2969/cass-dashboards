@@ -1,0 +1,173 @@
+{
+ "as_of": "2026-11-11",
+ "rows": [
+  {
+   "t": "Mid-August Oil Price Shock",
+   "res": "miss",
+   "leg": "M",
+   "mech": "partial",
+   "mechnote": "Shock averted by SPR release and escort surge; pressure migrated, did not disappear",
+   "window": "clock",
+   "date": "2026-08-31",
+   "falsifier": "Already FALSIFIED (status=failed): the projected mid-August hard oil-price shock did not materialize. The regime averted it via SPR releases + naval escort surge, shifting the pressure to the SPR-runway-breaks-before-midterms track. Not re-evaluated while it holds failed status.",
+   "note": "outcome_direction + base_rate_numeric set 2026-10-01 by F1 instrument auditor pass (machine-assessed from recorded statement polarity and recorded base-rate notes) | QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
+   "conf": 18
+  },
+  {
+   "t": "Charlie Kirk Anniversary Narrative Dominance (Late Aug - Sept 2026)",
+   "res": "miss",
+   "leg": "T",
+   "mech": "not-fired",
+   "mechnote": "Narrative did not dominate",
+   "window": "clock",
+   "date": "2026-09-11",
+   "falsifier": "The Sept 10, 2026 Kirk anniversary memorial underperforms dramatically (low attendance, no coordinated right-wing amplification, mainstream media ignores it), AND the 9/11 anniversary out-dominates it in the political/cultural conversation - proving the martyrdom narrative failed to supersede 9/11.",
+   "note": "outcome_direction + base_rate_numeric set 2026-10-01 by F1 instrument auditor pass (machine-assessed from recorded statement polarity and recorded base-rate notes) | QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
+   "conf": 12
+  },
+  {
+   "t": "Iran Escalation Against U.S. Naval Escorts and Risk of Major Surface Combatant Strike",
+   "res": "miss",
+   "leg": "T",
+   "mech": "unadjudicable",
+   "mechnote": "Conjunctive falsifier; conflicting record and no adjudicated event",
+   "window": "instrument",
+   "date": "2026-11-02",
+   "falsifier": "MISSES if no successful strike, sinking or major-surface-combatant hit on a US naval asset in the Gulf of Oman or Persian Gulf occurs before 2027-06-30.",
+   "note": "RULE-BASED EXPIRY. Window closed 2026-11-01; resolved 2026-11-02 by Rule 1. Window closed 2026-11-01 unresolved. The card's own TIER-1 note records the 60-day falsifier window closing with no independently verified hit on a US major surface combatant, while flagging a conflicting record (IRNA claim of damage 9-16; NewsCord roundup 10-26; CENTCOM reporting interceptions, no US casualties). Under Rule 1 the absence of an adjudicated in-window event at close is a MISS, not a pending state.\nDEFECT RECORDED: the falsifier is conjunctive - it requires BOTH no strike AND interceptor magazines replenished to pre-war confidence. Magazines are not replenished, so the falsifier as written never fires and the card could never be falsified. That is the card's drafting fault, not a reason to park it. Adjudicate on the substance limb only.\nIf Tier-1 evidence of an in-window saturation strike is later p",
+   "conf": 88
+  },
+  {
+   "t": "Omar Deportation as Pre-Election Spectacle",
+   "res": "miss",
+   "leg": "G",
+   "mech": "partial",
+   "mechnote": "The enforcement frame migrated to El-Sayed \u2014 instrument confirmed, named target missed",
+   "window": "clock",
+   "date": "2026-11-03",
+   "falsifier": "MISSES if no formal DOJ citizenship action against Rep. Omar is filed on or before 2026-11-03 23:59 ET.",
+   "note": "No formal DOJ citizenship-strip action against Rep. Omar was filed on or before 2026-11-03 23:59 ET. The enforcement frame migrated to El-Sayed instead (Iowa rally 'jihadist' line, 11-01) \u2014 an adjacent instrument aimed at a different target, which does not confirm this card. Resolved by Rule 1 at window close.",
+   "conf": 45
+  },
+  {
+   "t": "Iran conducts a nuclear test before the Nov 3 2026 midterms (Pape's October surprise, scored)",
+   "res": "miss",
+   "leg": "T",
+   "mech": "partial",
+   "mechnote": "Declaratory rungs went up, no technical rung beneath them",
+   "window": "clock",
+   "date": "2026-11-03",
+   "falsifier": "RESOLVES NEGATIVE on 2026-11-03 23:59 ET with no confirmed Iranian nuclear detonation (no CTBTO seismic/radionuclide event in Iran, no state acknowledgement, no second detonation). Resolves POSITIVE on a confirmed test before polls close; in that case the two-device predicate is scored separately \u2014 a lone detonation with no follow-on inside ~30 days counts as a PARTIAL confirmation of the event an",
+   "note": "No CTBTO seismic or radionuclide event in Iran, no state acknowledgement, no second detonation, and no NPT-withdrawal announcement before 2026-11-03 23:59 ET. The declaratory rungs went up (Khamenei 11-01 'no geographical restrictions', Rezaei 'new weaponry') with no technical rung beneath them. Resolved NEGATIVE by Rule 1 at window close, as the falsifier directed.",
+   "conf": 7
+  },
+  {
+   "t": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
+   "res": "miss",
+   "leg": "M",
+   "mech": "partial",
+   "mechnote": "Legs A and B fired end to end; leg C never fielded",
+   "window": "clock",
+   "date": "2026-11-03",
+   "falsifier": "MISSES if SPR crude stocks remain above 350 million barrels through 2027-03-31.",
+   "note": "MISS by Rule 1, and the shape of the failure matters more than the score. Legs A and B fired: the price and physical-shock chain ran end to end (Hormuz 2 vessels/day vs 85 baseline, Brent >$100 through the autumn, retail gas $4.12 on election eve, SPR below the 290M cavern floor on 9-18). But the card's own price leg DEFLATED into the vote \u2014 Brent -7.6% on election eve, largest one-day fall since July, on Hormuz reopening talk \u2014 and leg C, the fatality threshold (>=25% of switcher reasons energy/fuel), was never fielded by the exit instrument, so it cannot be adjudicated. A compound card with one unmeasurable leg cannot be confirmed by its true legs. Scored MISS, with the causal chain recorded as a confirmed mechanism the register failed to capture as a scorable claim.",
+   "conf": 30
+  },
+  {
+   "t": "House passes the Massie privileged resolution on Hegseth on or before 2026-11-12",
+   "res": "miss",
+   "leg": "\u2014",
+   "mech": "partial",
+   "mechnote": "Right about failure, wrong by one step: priced tabling, got referral",
+   "window": "world",
+   "date": "2026-11-10",
+   "falsifier": "Two or more named Republican members stating publicly before the vote that they will vote no, or a motion to table reported as likely by leadership-aligned outlets, moves the estimate down at least 15 points. A White House statement that the President will not oppose the vote moves it up 10.",
+   "note": "MISS, in-window, at 21:0x ET on 2026-11-10 \u2014 one day before expiry and before any outcome was visible when the score was cut from 38 to 23. The House disposed of the resolution by adopting a motion to refer it to committee, 211-204 (Massie the only Republican voting no; more Democrats absent than Republicans, which supplied the margin). No vote was taken on the eight articles themselves, so the instrument recorded nothing about Hegseth: the resolution failed a recorded vote without the chamber ever voting on the substance. Score at resolution: 23. Base rate 18. The card was right about the direction (favoured failure) and wrong about the mechanism by one step \u2014 it priced tabling as the likely kill and got referral.",
+   "conf": 23
+  },
+  {
+   "t": "Assassination as Catalyst (Kirk)",
+   "res": "hit",
+   "leg": "T",
+   "mech": "confirmed",
+   "mechnote": "Legitimation path ran",
+   "window": "world",
+   "date": "2026-09-10",
+   "falsifier": "No major domestic-security crackdown or base-mobilization action is actually legitimated by the Kirk assassination narrative within 6 months of NSPM-7. The confirmed facts are Kirk was assassinated (verified); the INTERPRETIVE claim that it was staged as justification for what is coming breaks if no appreciable crackdown follows from it.",
+   "note": "outcome_direction + base_rate_numeric set 2026-10-01 by F1 instrument auditor pass (machine-assessed from recorded statement polarity and recorded base-rate notes) | QUARANTINED from F1 window: base rates assigned post-hoc (retrofit)",
+   "conf": 100
+  },
+  {
+   "t": "Strait of Hormuz Blockade",
+   "res": "hit",
+   "leg": "M",
+   "mech": "confirmed",
+   "mechnote": "Routing-sovereignty threshold fired in-window",
+   "window": "world",
+   "date": "2026-09-14",
+   "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
+   "note": "CONFIRMED IN-WINDOW 2026-09-14: routing-sovereignty threshold fired at 75% vs ~60% (Kpler, Sept 4-6: 21/28 transits), matching the confirmer pre-registered on 2026-07-20 as forward_watchlist item 1. Falsifier did not fire: neither prong \u2014 (a) sustained >=100 vessels/day for 2+ consecutive weeks with CENTCOM confirming safe commercial passage, nor (b) a formal US-Iran de-escalation taking effect and holding 30 days \u2014 occurred before window close on 2026-10-01. evidence_contradicted empty at close. Fitch recorded 'longer-than-expected effective closure' as of the close. PROCESS DEFECT (not an outcome defect): the card carried resolution='holding' from a 2026-10-01 F1 instrument-auditor pass until 2026-11-02, leaving a card that had already been adjudicated CONFIRMED with a null resolution_date for seven weeks. Corrected 2026-11-02 by owner ruling. The defect is logged in the calibration le",
+   "conf": 98
+  },
+  {
+   "t": "Democrats take the US House \u2014 control test",
+   "res": "hit",
+   "leg": "G",
+   "mech": "confirmed",
+   "mechnote": "Aggregate polling called the chamber correctly",
+   "window": "world",
+   "date": "2026-11-03",
+   "falsifier": "Republicans retain the House majority. A Democratic popular-vote win paired with a Republican majority is a MISS on this card and simultaneously confirms the redistricting leg \u2014 the two must be reported together, not as a moral victory.",
+   "note": "",
+   "conf": 70
+  },
+  {
+   "t": "Ohio Governor \u2014 Acton wins",
+   "res": "hit",
+   "leg": "G",
+   "mech": "confirmed",
+   "mechnote": "State-level read held",
+   "window": "world",
+   "date": "2026-11-03",
+   "falsifier": "Acton loses. A narrow loss is a MISS, not a moral victory; the card is a win condition.",
+   "note": "",
+   "conf": 45
+  },
+  {
+   "t": "Democrats take the US Senate \u2014 control test",
+   "res": "hit",
+   "leg": "G",
+   "mech": "confirmed",
+   "mechnote": "Chamber call held",
+   "window": "world",
+   "date": "2026-11-03",
+   "falsifier": "Republicans retain 51 or more Senate seats. A 50-50 chamber is a MISS: the card requires a Democratic majority and the tie does not satisfy it.",
+   "note": "Democrats clinched the Senate majority; NBC at 23:59 ET, Fox reporting at least 51 via NC, SC, OH, TX, KS, IA. Card registered 48 -> HIT.",
+   "conf": 48
+  },
+  {
+   "t": "Texas Senate \u2014 Talarico wins",
+   "res": "hit",
+   "leg": "G",
+   "mech": "confirmed",
+   "mechnote": "Low-confidence call, direction right",
+   "window": "world",
+   "date": "2026-11-03",
+   "falsifier": "Talarico loses. Any margin. The card exists precisely to test whether the polling position is real, and a narrow loss settles it.",
+   "note": "Talarico called; Texas Senate to the Democrat, first in decades. Card registered 30 (base-rate/demographics leg) -> HIT, low-confidence card.",
+   "conf": 30
+  },
+  {
+   "t": "The 72-hour fork: does the post-defeat frame route to purity or to the count?",
+   "res": "hit",
+   "leg": "T",
+   "mech": "confirmed",
+   "mechnote": "Frame routed as the card said it would",
+   "window": "world",
+   "date": "2026-11-07",
+   "falsifier": "MISSES if, by 2026-11-07 00:00 ET, the president or a named cabinet-level official publicly asserts the election was stolen or systematically fraudulent.",
+   "note": "",
+   "conf": 60
+  }
+ ]
+}

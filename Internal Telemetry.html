@@ -225,6 +225,28 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 .drill .item{border-bottom:1px solid #1d2637;padding:7px 0}
 .drill .item .k{font:600 12px/1.5 ui-monospace,monospace;color:#cfdaea}
 .drill .item .m{font-size:11.5px;color:var(--dim)}
+#recStrip{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 10px}
+#recStrip .rc{flex:1 1 120px;border:1px solid #22304a;border-radius:9px;background:rgba(255,255,255,.014);padding:10px 12px}
+#recStrip .rc b{display:block;font-size:20px;line-height:1.15;font-weight:650}
+#recStrip .rc span{display:block;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-top:3px;line-height:1.35}
+.rectablewrap{max-height:430px;overflow-y:auto;border:1px solid #22304a;border-radius:9px;background:rgba(255,255,255,.01)}
+#recBody details.recrow{border-bottom:1px solid #1b2536}
+#recBody details.recrow:last-child{border-bottom:none}
+#recBody details.recrow>summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:82px 74px 1fr 44px 108px 96px;gap:8px;align-items:center;padding:8px 12px;font-size:12.5px}
+#recBody details.recrow>summary::-webkit-details-marker{display:none}
+#recBody details.recrow>summary:hover{background:#141c29}
+#recBody .rdate{color:var(--mut);white-space:nowrap;font-size:11.5px}
+#recBody .rverd{font-weight:700;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;white-space:nowrap}
+#recBody .rhit{color:#5fbf7f}#recBody .rmiss{color:#d9756b}
+#recBody .rleg{font-weight:700;color:var(--acc);text-align:center}
+#recBody .rmec{font-size:11px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+#recBody .mconfirmed{color:#5fbf7f}#recBody .mpartial{color:var(--warm)}#recBody .mnot-fired{color:var(--mut)}#recBody .munadjudicable{color:#8a7fd0}
+#recBody .rwin{font-size:11px;color:var(--mut);text-align:right;white-space:nowrap}
+#recBody .rbody{padding:2px 13px 14px;background:rgba(255,255,255,.012)}
+#recBody .rbody .lab{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--mut);margin:10px 0 2px}
+#recBody .rbody p{margin:0 0 2px;font-size:12.5px;line-height:1.6}
+.rectablewrap::-webkit-scrollbar{width:9px}
+.rectablewrap::-webkit-scrollbar-thumb{background:#2c3a4f;border-radius:5px}
 </style></head>
 <body>
 <div class="wrap">
@@ -258,6 +280,14 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   <div id="dailyread"></div>
   <a class="drarch" id="drarchive" href="archive.html">Daily Read Archive →</a>
 </details>
+
+<h2>The record — how our forecasts have turned out</h2>
+<div class="secintro">
+  <p>This board makes calls with dates on them. Here is what happened to every one that has closed. <b>Fourteen have closed. Seven were right, seven were wrong.</b> They are listed together, misses first and nothing softened, because a record that only shows the wins is a marketing page. Open any row to see the condition that decided it, in the words it was written in before the outcome was known.</p>
+</div>
+<div id="recStrip"></div>
+<div class="rectablewrap"><div id="recBody"><div class="note" style="margin:12px">Loading…</div></div></div>
+<div class="note" id="recNote"><b>Three questions per call, not one.</b> <b>Event</b> asks whether the named thing happened — that is the only question a deadline can settle, and it is the one scored. <b>Mechanism</b> asks whether the chain of causes the card described actually ran; several cards failed the event while their mechanism fired, which is a different result from being wrong about the world. <b>Ended by</b> asks whether the call died because the world went the other way or because our own clock ran out — a card that expires unresolved is a MISS by rule, but it is not the same evidence as one the world contradicted.</div>
 
 <h2>2 · The MGET model — macro to micro</h2>
 <div class="subhead">2.1 Macro · model state</div>
@@ -779,6 +809,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <details class="fold" id="changelog"><summary><h3 class="subhead" style="margin:0">8.1 · Full change log — 22 entries, newest first</h3><span class="foldcue"></span></summary>
 <div class="scroll"><table><thead><tr><th style="width:11%">Date</th><th style="width:13%">Version</th><th>What changed</th></tr></thead><tbody>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.31</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure promoted to the live board.</b><br><br>The live page is generated from this one on every sync: staging bar stripped, title changed, footer reads the live build. The file the gate reads is now the file that ships, which was not true for the week the two boards drifted apart.<br><br><b>MGET ledger backfilled for 11-10 and 11-11</b> (six entries): the Hegseth referral 211-204, Jordan as minority leader, the Pentagon briefing-room removal threat, the Scharf oversight letter, cabinet members in base housing over FORTRESS, and the USDA SNAP proposed rule.</td></tr>
+<tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.32-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>The record, and the number it corrected.</b><br><br>Every closed forecast is now on the page, above the model, adjudicated three ways: <b>event</b> (did the named thing happen), <b>mechanism</b> (did the chain the card described actually run), and <b>ended by</b> (did the world go the other way, or did our own clock run out). <b>Fourteen closed: seven right, seven wrong.</b> Misses first, nothing softened, each row opening onto the condition as written before the outcome was known.<br><br><b>This corrected a claim I had made on this page.</b> A draft of the launch note said <i>two were wrong</i>. Seven were. The figure had been checked against earlier prose instead of the export — the exact fault this section exists to expose — and it was the most quotable sentence in the piece, so it was also the most damaging one to get wrong.<br><br><b>What the three-way split shows that a hit rate does not.</b> Five of the seven misses ended at our own clock, not on a contrary event; only the Hegseth resolution was contradicted inside the window it named. And four of the seven misses had their mechanism land anyway — the SPR card ran price and physical-shock legs end to end and died on a fatality threshold that was never fielded, and the Omar card's enforcement frame reappeared aimed at a different target. A binary scores those as losses. They are not the same kind of loss, and the register should not flatten them.<br><br><b>No rate is printed, deliberately.</b> At ten scorable cards the event-level Brier is 0.2438 against 0.2500 for always saying fifty-fifty — a skill of <b>+2.5%</b>, which is indistinguishable from no edge. Publishing a percentage there would invite a precision the data cannot carry. The counts are the finding: the model was, correctly, unsure, and one card that carried real conviction (Iran naval escalation, 88%) was wrong.<br><br><b>Gate:</b> <code>record.rows</code> fails if the adjudicated rows ever stop equalling the resolved cards in the export, so the record cannot drift from the register it describes.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.31-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Two counts on the page were typed by hand and had drifted; both are now computed.</b><br><br>(1) <b>The register note said twelve cards carry an outcome and quoted 21% and 17%.</b> Fourteen carry one now, and the table beside it already said so — the note was a paragraph of arithmetic that nothing recomputed. It is built from the export on every run: resolutions, how many sit on held-out cards, and both rates, each with its own denominator.<br><br>(2) <b>The wire-ledger note said 469 entries.</b> The ledger holds 487. It reads the export now rather than remembering a number.<br><br>(3) <b>The Daily Read carries two stories filed after the morning edition.</b> The cabinet members living on military bases, and the White House letter warning that oversight could be criminal. Both are five-beat cards in the public voice.<br><br>No reading changed. The point is that a number a reader can check should never be the one part of the page nobody recomputed.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.30-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>The reference sections are folded, and the change log became a table.</b><br><br>(1) <b>Sections 4, 5 and 7 collapse</b>, closed by default — institutional coverage, registers and the data dictionary are reference material a lay reader consults when a term or a dial puzzles them, not argument they read front to back. Each keeps its full heading on the closed line, so nothing is hidden, only deferred.<br><br>(2) <b>Section 8 became a dated table</b>: date, version, what changed, newest first, 22 entries. It had been a stack of undivided paragraphs — several 200+ words in a single block — with the two newest entries sitting loose outside the panel and the rest inside it, so the ordering was wrong at the top of the section.<br><br>(3) <b>Breaks added inside every entry</b>: numbered sub-points and bold lead-ins now break onto their own lines, so a five-part entry reads as five parts.<br><br>(4) <b>Each folded block is boxed</b> — a bordered card with the OPEN / CLOSE cue right-aligned, so consecutive folds read as separate blocks instead of a run of headings drifting down the page.<br><br>(5) <b>Section 9 and everything from 3.6 onward had escaped the page container.</b> A stray closing tag at the end of 3.5 shut the content wrapper early, so nine blocks — 3.6 through 9 — rendered outside it: full-bleed headings flush to the left edge, no gutters, wider than every other section. The markup is now nested correctly and the whole page sits on one column again.<br><br>No reading changed.<br><br>No reading changed.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.27-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Section 3 now says how to read it.</b> The section heading carried a subtitle — <i>the other thing the instrument could not see</i> — that described the section's history to the analyst rather than its contents to a reader, and has been removed. In its place, a plain-language note at the top of the panel: the number that matters is specimens per week, this week 33 against 8 the week before, it is not a score and not comparable to section 2, and it measures how fast the audience that would have to accept force is being prepared rather than how cruel the feed is. Both of the section's limits are in the note itself — the desk decides what counts as a specimen, and the series only begins at W38. No reading changed.</td></tr>
@@ -805,7 +836,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-05</td><td style="white-space:nowrap;vertical-align:top"><b>v3.99-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</td></tr>
 </tbody></table></div>
 </details>
-<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — live build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+<div class="note" style="margin-top:14px"><span class="ftver">v4.32</span> — live build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 <h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
 <div class="note" style="margin-top:0">The full record, kept at the foot of the page rather than the head of it. The plain-language summary sits in the intro; this is the evidence behind it: seven v1 claims, the test that moved each, and what the board says now. Nothing here is smoothed — where a claim died, the death is dated.</div>
 <details class="dr" id="beliefledger">
@@ -1595,6 +1626,39 @@ function openLedger(e){
   drawDrill("Ledger — "+(e.date||"undated"), esc((e.verdict||"")+" · "+genre(e.track)), html);
 }
 
+/* The record 2026-11-11: every closed forecast, adjudicated three ways.
+   Source: record.json, one row per resolved card, written at resolution and never
+   edited afterwards. Counts and the two derived lines are computed from the rows so
+   the panel cannot disagree with its own table. */
+function renderRecord(rec){
+  if(!rec||!rec.rows)return;
+  const R=rec.rows, hit=R.filter(x=>x.res==="hit").length, miss=R.filter(x=>x.res==="miss").length;
+  const mech=k=>R.filter(x=>x.mech===k).length;
+  const clock=miss&&R.filter(x=>x.res==="miss"&&x.window==="clock").length;
+  const strip=[["cards closed",R.length,""],["right",hit,"good"],["wrong",miss,"bad"],
+    ["mechanism fired",mech("confirmed"),"good"],["mechanism partial",mech("partial"),""],
+    ["not fired",mech("not-fired"),""],["unadjudicable",mech("unadjudicable"),""]];
+  $("recStrip").innerHTML=strip.map(([n,v,c])=>'<div class="rc"><b style="'+(c==="good"?"color:#5fbf7f":c==="bad"?"color:#d9756b":"")+'">'+v+'</b><span>'+n+'</span></div>').join("");
+  const lab={confirmed:"CONFIRMED",partial:"PARTIAL","not-fired":"NOT FIRED",unadjudicable:"UNADJUDICABLE"};
+  const wlab={world:"World",clock:"Our clock",instrument:"The instrument"};
+  $("recBody").innerHTML=R.map(x=>{
+    const cls=x.res==="hit"?"rhit":"rmiss";
+    return '<details class="recrow"><summary>'+
+      '<span class="rdate">'+esc(x.date)+'</span>'+
+      '<span class="rverd '+cls+'">'+esc(x.res==="hit"?"RIGHT":"WRONG")+'</span>'+
+      '<span>'+esc(x.t)+'</span>'+
+      '<span class="rleg">'+esc(x.leg)+'</span>'+
+      '<span class="rmec m'+x.mech+'">'+lab[x.mech]+'</span>'+
+      '<span class="rwin">Ended by: '+wlab[x.window]+'</span></summary>'+
+      '<div class="rbody">'+
+        '<div class="lab">The condition, as written before the outcome</div><p>'+esc(x.falsifier||"not recorded")+'</p>'+
+        '<div class="lab">Did the mechanism run</div><p>'+esc(x.mechnote)+'</p>'+
+        '<div class="lab">How it closed</div><p>'+esc(x.note||"No resolution note recorded.")+'</p>'+
+      '</div></details>';
+  }).join("");
+  if($("recNote")) $("recNote").innerHTML+=' <b style="color:var(--warm)">Five of the seven misses ('+clock+') ended because our own clock ran out, not because the world went the other way.</b> Only one — the Hegseth resolution — was contradicted in the window it named. That distinction matters more than the 7–7 line: expiries say the model was unsure and wrong to have registered the card; contradictions say it was sure and wrong about the world.';
+}
+fetch("record.json",{cache:"no-store"}).then(r=>r.json()).then(renderRecord).catch(()=>{});
 fetch("m_flow.json",{cache:"no-store"}).then(r=>r.json()).then(m=>{ if(m&&m.series) renderFlowGauges(m,null,null); }).catch(()=>{});fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})
  .then(()=>fetch("data.json",{cache:"no-store"})).then(r=>r.json()).then(render).catch(e=>{
   const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;

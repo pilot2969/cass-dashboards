@@ -269,6 +269,7 @@ async function main(){
       const q=(sel)=>[...doc.querySelectorAll(sel)];
       const gid=(id)=>doc.getElementById(id);
       const C=dd.counts||{};
+      let REC={}; try{ REC=JSON.parse(fs.readFileSync(path.join(DIR,'record.json'),'utf8')); }catch(e){}
 
       // ledger: group counts must sum to the export, and no row may be undated
       {
@@ -324,6 +325,23 @@ async function main(){
         const ids=preds.map(p=>p.basename), dupes=ids.filter((b,i)=>ids.indexOf(b)!==i);
         dupes.length?fail('data.predictions_unique:'+f,`${ids.length} entries for ${new Set(ids).size} cards`)
                     :pass('data.predictions_unique',`${ids.length} predictions, all unique`);
+      }
+
+      // the record: one row per resolved card, and it must equal the export
+      {
+        const rr=(REC.rows||[]);
+        const resolved=(dd.predictions||[]).filter(x=>["hit","miss"].includes(String(x.resolution||"")));
+        const shown=q('#recBody details.recrow').length;
+        shown===resolved.length?pass('record.rows:'+f,`${shown} adjudicated rows = ${resolved.length} resolved cards in the export`)
+          :fail('record.rows',`${shown} rows rendered vs ${resolved.length} resolved cards — the record has drifted from the register`);
+        const bad=rr.filter(x=>!['confirmed','partial','not-fired','unadjudicable'].includes(x.mech));
+        bad.length?fail('record.mech',`${bad.length} row(s) carry no valid mechanism state`):pass('record.mech',`all ${rr.length} rows carry a mechanism state`);
+        const hits=rr.filter(x=>x.res==='hit').length, misses=rr.filter(x=>x.res==='miss').length;
+        const strip=txt(gid('recStrip')?.textContent);
+        (strip.includes(String(hits))&&strip.includes(String(misses)))?pass('record.strip:'+f,`strip shows ${hits} right / ${misses} wrong`)
+          :fail('record.strip',`count strip "${strip.slice(0,60)}" does not carry ${hits}/${misses}`);
+        const ids=new Set(rr.map(x=>x.t));
+        ids.size!==rr.length?fail('record.unique',`${rr.length} rows for ${ids.size} distinct cards`):pass('record.unique',`${rr.length} rows, all distinct`);
       }
 
       // flow gauges: the three that can carry one must render bars
