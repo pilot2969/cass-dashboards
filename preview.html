@@ -228,6 +228,8 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 #recStrip{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 10px}
 #recStrip .rc{flex:1 1 120px;border:1px solid #22304a;border-radius:9px;background:rgba(255,255,255,.014);padding:10px 12px}
 #recStrip .rc b{display:block;font-size:20px;line-height:1.15;font-weight:650}
+#recStrip .rc.sub{flex:1 1 128px;background:none;border-color:#1b2536}
+#recStrip .rc.sub b{font-size:16px}
 #recStrip .rc span{display:block;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--mut);margin-top:3px;line-height:1.35}
 .rectablewrap{max-height:430px;overflow-y:auto;border:1px solid #22304a;border-radius:9px;background:rgba(255,255,255,.01)}
 #recBody details.recrow{border-bottom:1px solid #1b2536}
@@ -237,7 +239,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 #recBody details.recrow>summary:hover{background:#141c29}
 #recBody .rdate{color:var(--mut);white-space:nowrap;font-size:11.5px}
 #recBody .rverd{font-weight:700;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;white-space:nowrap}
-#recBody .rhit{color:#5fbf7f}#recBody .rmiss{color:#d9756b}
+#recBody .rhit{color:#5fbf7f}#recBody .rmiss{color:#d9756b}#recBody .rexp{color:var(--warm)}#recBody .runm{color:#8a7fd0}
 #recBody .rleg{font-weight:700;color:var(--acc);text-align:center}
 #recBody .rmec{font-size:11px;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
 #recBody .mconfirmed{color:#5fbf7f}#recBody .mpartial{color:var(--warm)}#recBody .mnot-fired{color:var(--mut)}#recBody .munadjudicable{color:#8a7fd0}
@@ -284,7 +286,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 
 <h2>The record — how our forecasts have turned out</h2>
 <div class="secintro">
-  <p>This board makes calls with dates on them. Here is what happened to every one that has closed. <b>Fourteen have closed. Seven were right, seven were wrong.</b> They are listed together, misses first and nothing softened, because a record that only shows the wins is a marketing page. Open any row to see the condition that decided it, in the words it was written in before the outcome was known.</p>
+  <p>This board makes calls with dates on them. Here is what happened to every one that has closed. <b>Fourteen have closed. Seven were right, seven were wrong — but of those seven, only one was contradicted by the world; five simply ran out of time unanswered, and one could not be measured.</b> They are listed together, misses first and nothing softened, because a record that only shows the wins is a marketing page. Open any row to see the condition that decided it, in the words it was written in before the outcome was known.</p>
 </div>
 <div id="recStrip"></div>
 <div class="rectablewrap"><div id="recBody"><div class="note" style="margin:12px">Loading…</div></div></div>
@@ -1636,17 +1638,27 @@ function renderRecord(rec){
   const R=rec.rows, hit=R.filter(x=>x.res==="hit").length, miss=R.filter(x=>x.res==="miss").length;
   const mech=k=>R.filter(x=>x.mech===k).length;
   const clock=miss&&R.filter(x=>x.res==="miss"&&x.window==="clock").length;
-  const strip=[["cards closed",R.length,""],["right",hit,"good"],["wrong",miss,"bad"],
+  const rstrip=[["cards closed",R.length,""],["right",hit,"good"],["wrong",miss,"bad"],
     ["mechanism fired",mech("confirmed"),"good"],["mechanism partial",mech("partial"),""],
     ["not fired",mech("not-fired"),""],["unadjudicable",mech("unadjudicable"),""]];
-  $("recStrip").innerHTML=strip.map(([n,v,c])=>'<div class="rc"><b style="'+(c==="good"?"color:#5fbf7f":c==="bad"?"color:#d9756b":"")+'">'+v+'</b><span>'+n+'</span></div>').join("");
+  $("recStrip").innerHTML=rstrip.map(([n,v,c])=>'<div class="rc"><b style="'+(c==="good"?"color:#5fbf7f":c==="bad"?"color:#d9756b":"")+'">'+v+'</b><span>'+n+'</span></div>').join("");
+  const closeOf=x=>x.res==="hit"?"confirmed":x.window==="world"?"contradicted":x.window==="instrument"?"unmeasured":"expired";
+  const cN=k=>R.filter(x=>closeOf(x)===k).length;
+  const strip=[["cards closed",R.length,""],["right",hit,"good"],
+    ["wrong",miss,"bad"],
+    ["— contradicted",cN("contradicted"),"bad"],
+    ["— expired unanswered",cN("expired"),"warn"],
+    ["— unmeasured",cN("unmeasured"),""],
+    ["mechanism fired",mech("confirmed"),"good"]];
+  $("recStrip").innerHTML=strip.map(([n,v,c])=>'<div class="rc'+(n.startsWith("—")?" sub":"")+'"><b style="'+(c==="good"?"color:#5fbf7f":c==="bad"?"color:#d9756b":c==="warn"?"color:var(--warm)":"")+'">'+v+'</b><span>'+esc(n.replace("— ",""))+'</span></div>').join("");
   const lab={confirmed:"CONFIRMED",partial:"PARTIAL","not-fired":"NOT FIRED",unadjudicable:"UNADJUDICABLE"};
-  const wlab={world:"World",clock:"Our clock",instrument:"The instrument"};
+  const wlab={world:"The world",clock:"Our clock",instrument:"The instrument"};
+  const vlab={confirmed:["RIGHT","rhit"],contradicted:["WRONG","rmiss"],expired:["EXPIRED","rexp"],unmeasured:["UNMEASURED","runm"]};
   $("recBody").innerHTML=R.map(x=>{
-    const cls=x.res==="hit"?"rhit":"rmiss";
+    const c=closeOf(x), [vt,vc]=vlab[c];
     return '<details class="recrow"><summary>'+
       '<span class="rdate">'+esc(x.date)+'</span>'+
-      '<span class="rverd '+cls+'">'+esc(x.res==="hit"?"RIGHT":"WRONG")+'</span>'+
+      '<span class="rverd '+vc+'">'+vt+'</span>'+
       '<span>'+esc(x.t)+'</span>'+
       '<span class="rleg">'+esc(x.leg)+'</span>'+
       '<span class="rmec m'+x.mech+'">'+lab[x.mech]+'</span>'+
@@ -1654,10 +1666,10 @@ function renderRecord(rec){
       '<div class="rbody">'+
         '<div class="lab">The condition, as written before the outcome</div><p>'+esc(x.falsifier||"not recorded")+'</p>'+
         '<div class="lab">Did the mechanism run</div><p>'+esc(x.mechnote)+'</p>'+
-        '<div class="lab">How it closed</div><p>'+esc(x.note||"No resolution note recorded.")+'</p>'+
+        '<div class="lab">How it closed — '+esc(c)+'</div><p>'+esc(x.note||"No resolution note recorded.")+'</p>'+
       '</div></details>';
   }).join("");
-  if($("recNote")) $("recNote").innerHTML+=' <b style="color:var(--warm)">Five of the seven misses ('+clock+') ended because our own clock ran out, not because the world went the other way.</b> Only one — the Hegseth resolution — was contradicted in the window it named. That distinction matters more than the 7–7 line: expiries say the model was unsure and wrong to have registered the card; contradictions say it was sure and wrong about the world.';
+  if($("recNote")) $("recNote").innerHTML+=' <b style="color:var(--warm)">Of the seven wrong, only one was contradicted by the world.</b> Five <b>expired unanswered</b> — the window closed with the named event neither happening nor being ruled out — and one could not be measured at all. That split matters more than the 7–7 line, but it does not change the score: an expired call still counts as a loss to anyone who acted on it, and it stays in the denominator. <b>What it changes is the diagnosis.</b> A contradiction says the model read the world backwards. An expiry says the model named a window it could not deliver inside — a fault in how the card was written, not in what it saw. Those are fixed in different places.';
 }
 fetch("record.json",{cache:"no-store"}).then(r=>r.json()).then(renderRecord).catch(()=>{});
 fetch("m_flow.json",{cache:"no-store"}).then(r=>r.json()).then(m=>{ if(m&&m.series) renderFlowGauges(m,null,null); }).catch(()=>{});fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})

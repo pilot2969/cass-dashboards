@@ -342,6 +342,23 @@ async function main(){
           :fail('record.strip',`count strip "${strip.slice(0,60)}" does not carry ${hits}/${misses}`);
         const ids=new Set(rr.map(x=>x.t));
         ids.size!==rr.length?fail('record.unique',`${rr.length} rows for ${ids.size} distinct cards`):pass('record.unique',`${rr.length} rows, all distinct`);
+        // every miss must say WHY it missed; the three reasons must sum to the misses
+        {
+          const co=x=>x.res==='hit'?'confirmed':x.window==='world'?'contradicted':x.window==='instrument'?'unmeasured':'expired';
+          const badw=rr.filter(x=>!['hit','miss'].includes(x.res)||!['world','clock','instrument'].includes(x.window));
+          badw.length?fail('record.close',`${badw.length} row(s) carry no usable close state`):null;
+          const c=n=>rr.filter(x=>co(x)===n).length;
+          const sum=c('contradicted')+c('expired')+c('unmeasured');
+          const labels=q('#recBody .rverd').map(n=>txt(n.textContent));
+          const decided=labels.filter(t=>['EXPIRED','UNMEASURED'].includes(t)).length;
+          (sum===misses&&decided===c('expired')+c('unmeasured'))
+            ?pass('record.close:'+f,`${misses} misses = ${c('contradicted')} contradicted + ${c('expired')} expired + ${c('unmeasured')} unmeasured`)
+            :fail('record.close',`close reasons sum to ${sum} but there are ${misses} misses; ${decided} rows are labelled EXPIRED/UNMEASURED vs ${c('expired')+c('unmeasured')} expected`);
+          // an expired verdict must never be dressed as a hit or as a contradiction
+          const wrong=rr.filter(x=>x.res==='hit'&&x.window!=='world').length;
+          wrong?fail('record.expiry_not_promoted',`${wrong} hit(s) did not close on the world — an expiry cannot be scored as a hit`):
+            pass('record.expiry_not_promoted',`no expiry is scored as a hit`);
+        }
       }
 
       // flow gauges: the three that can carry one must render bars
