@@ -1,5 +1,11 @@
 # Changelog
 
+### Hand-typed counts replaced with computed ones; Daily Read takes two late stories (v4.31-preview)
+- Register note: "twelve cards carry an outcome… 21% / 17%" was static prose beside a live table that now reads 14 resolutions, 10 of them on scorable cards. The note is computed from the export on every run, both rates with their own denominators.
+- Wire-ledger note: "469 entries" → reads the export (487).
+- Daily Read: two cards filed since the morning edition — cabinet members in base housing (09:15), the White House letter on criminal exposure for oversight (09:05).
+- No reading changed.
+
 ### Content wrapper restored — sections 3.6–9 were outside the page column (v4.30-preview)
 - A stray `</div>` at the end of 3.5 closed `.wrap` early, so every block from 3.6 to section 9 rendered outside the container: flush to the viewport edge, no gutters, full-bleed headings. That is the misalignment seen on section 9.
 - Removed the stray closer; the wrapper now spans sections 1–9 and closes at the foot of the page.
