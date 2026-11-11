@@ -1074,6 +1074,17 @@ function mountSpark(elId,xId,readId,rows,defSay,peakRow){
   say(rows[rows.length-1]);
 }
 
+/* A rate with a collapsed denominator is not a rate. Where the latest month was
+   written in a fraction of the usual volume, the card says so on its own face
+   rather than printing an inflated per-hundred figure the reader will misread. */
+function denomBreak(series){
+  const s=(series||[]).filter(r=>r.journal!=null);
+  if(s.length<3) return null;
+  const lt=s[s.length-1], prev=s[s.length-2];
+  if(!prev||!prev.journal||lt.journal>=prev.journal*0.6) return null;
+  return {month:lt.month,journal:lt.journal,typical:prev.journal};
+}
+
 function renderFlowGauges(m,g,e){
   const $=id=>document.getElementById(id);
 
@@ -1130,7 +1141,7 @@ function renderFlowGauges(m,g,e){
     if($('ggGrants')) $('ggGrants').textContent=(t.grants!=null?String(t.grants):'–');
     if($('ggWin')) $('ggWin').textContent=(g.window&&g.window.start)?(g.window.start+' → '+(g.window.end||'now')):'–';
     mountSpark('ggSpark','ggSparkX','ggRead',
-      s.map(r=>({k:r.month,x:r.month.slice(5),v:r.withdrawals,
+      s.map(r=>({k:r.month,x:r.month.slice(5),v:r.withdrawals,month:r.month,journal:r.journal,per_100_journal:r.per_100_journal,
         t:r.month+' · '+r.withdrawals+' withdrawal'+(r.withdrawals===1?'':'s')+' · weighted '+r.weighted+' · '+
           (r.per_100_journal!=null?r.per_100_journal+' per 100 entries':'no control')+' · '+r.journal+' entries written'})),
       r=>'<b>'+esc(r.month)+'</b> — <b>'+r.v+'</b> institution'+(r.v===1?'':'s')+' withdrew standing, '+
@@ -1143,7 +1154,11 @@ function renderFlowGauges(m,g,e){
         '</b> where one reversed itself.<br><br>A withdrawal is a court ruling against the executive, a credential refused, '+
         'an official resigning, a professional body sanctioning, a refusal by an election official. <b>Direction is the reading:</b> '+
         'grants cancelling withdrawals would mean the resistance is being reversed rather than accumulating. '+
-        'It is not — the ratio is '+(t.grants||0)+':'+(t.withdrawals||0)+'.';
+        'It is not — the ratio is '+(t.grants||0)+':'+(t.withdrawals||0)+'.'+
+        (function(){const b=denomBreak(s); return b?('<br><br><b>One month here is not like the others.</b> '+b.month+' carries '+b.journal+
+          ' entries written against '+b.typical+' the month before, because the desk wrote less. The per-hundred figure is inflated by '+
+          'that alone and must not be read as a jump in refusals. The raw count — '+(t.withdrawals!=null?t.withdrawals:'–')+
+          ' withdrawals across the window — carries no denominator and is the safer reading.'):'';})();
     }
   } else if($('ggBig')) $('ggBig').textContent='–';
 
@@ -1156,7 +1171,7 @@ function renderFlowGauges(m,g,e){
     if($('egCtl')) $('egCtl').textContent=(lt.journal!=null?lt.journal+' journal entries that month':'–');
     if($('egWin')) $('egWin').textContent=s[0].month+' → '+lt.month;
     mountSpark('egSpark','egSparkX','egRead',
-      s.map(r=>({k:r.month,x:r.month.slice(5),v:(r.per_100_journal||0),
+      s.map(r=>({k:r.month,x:r.month.slice(5),v:(r.per_100_journal||0),month:r.month,raw:r.raw,journal:r.journal,per_100_journal:r.per_100_journal,
         t:r.month+' · '+r.raw+' event'+(r.raw===1?'':'s')+' · '+r.journal+' entries written · '+
           (r.per_100_journal!=null?r.per_100_journal:'–')+' per 100'})),
       r=>'<b>'+esc(r.month)+'</b> — <b>'+r.v+'</b> enforcement events per hundred entries written, '+
@@ -1167,7 +1182,8 @@ function renderFlowGauges(m,g,e){
         'The raw count alone is unusable: write more in a month and you log more events without the world changing. '+
         'Peak was <b>'+pk.per_100_journal+'</b> in '+pk.month+'; the rate is now <b>'+(lt.per_100_journal!=null?lt.per_100_journal:'–')+'</b>.<br><br>'+
         '<b>This is not a measure of how repressive the state is.</b> It is how often the state did something this desk could see, '+
-        'adjusted for how much it was writing. Both halves are printed for that reason.';
+        'adjusted for how much it was writing. Both halves are printed for that reason.'+
+        (function(){const b=denomBreak(s); return b?('<br><br><b>November is a thin month.</b> '+b.journal+' entries written against '+b.typical+' the month before, so this month\'s rate is inflated by the denominator, not by the world.'):'';})();
     }
   } else if($('egBig')) $('egBig').textContent='–';
 }
