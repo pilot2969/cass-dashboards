@@ -241,6 +241,98 @@ async function main(){
     catch(e){ fail('render.throws:'+f,e.message.slice(0,120)); continue; }
     const body=proseText(doc);
 
+    /* ---------- v5 board (2026-11-11 restructure) ----------
+       The restructure replaced every container the checks below were written against:
+       dials became bars, the baked register and counts row were deleted, the ledger
+       renders grouped and truncated, the Daily Read renders as its own fold. Leaving
+       the legacy checks in place meant the gate measured ids that no longer exist and
+       FAILED the promoted page on ten counts — a gate that fails a correct build is
+       worse than no gate, because it trains you to skip the line that matters.
+       These are the same invariants re-pointed at the containers that actually render. */
+    const isV5=/id="legs-live"/.test(raw)&&(f==='preview.html'||f==='Internal Telemetry.html');
+    if(isV5){
+      const q=(sel)=>[...doc.querySelectorAll(sel)];
+      const gid=(id)=>doc.getElementById(id);
+      const C=dd.counts||{};
+
+      // ledger: group counts must sum to the export, and no row may be undated
+      {
+        const n=(dd.mget_ledger||[]).length;
+        const groups=q('#ledger .wlgroup');
+        const said=groups.map(g=>{const m=txt(g.querySelector('.wlhead .cnt')?.textContent).match(/(\d+)/);return m?+m[1]:0;});
+        const sum=said.reduce((a,b)=>a+b,0);
+        n? (sum===n?pass('ledger.groups:'+f,`group counts sum to ${sum} = ${n} entries`):fail('ledger.groups',`group counts sum to ${sum}, export has ${n}`))
+         : warn('ledger.groups','export carries no ledger entries');
+        const rows=q('#ledger .ledrow');
+        const dateless=rows.filter(r=>!/\d{4}-\d{2}-\d{2}/.test(txt(r.textContent))).length;
+        dateless?fail('ledger.dated:'+f,`${dateless} rendered row(s) with no date`):pass('ledger.dated',`${rows.length} rendered row(s), all dated`);
+        const lead=txt(gid('ledlead')?.textContent);
+        lead.startsWith(String(n)+' entries')?pass('ledger.lead:'+f,lead.slice(0,60)):fail('ledger.lead',`ledger header reads "${lead.slice(0,60)}" vs ${n} entries`);
+        const keys=(dd.mget_ledger||[]).map(e=>e.basename||'');
+        const noKey=keys.filter(k=>!k).length, dupes=keys.length-new Set(keys).size;
+        (noKey||dupes)?fail('ledger.deduped:'+f,`${keys.length} entries — ${dupes} duplicate basename(s), ${noKey} with no basename`)
+                      :pass('ledger.deduped',`${keys.length} entries, all unique`);
+        const nd=(dd.mget_ledger||[]).map(e=>e.date).filter(Boolean).sort().pop();
+        (nd&&daysBetween(nd,today)>2)?fail('ledger.fresh:'+f,`newest entry ${nd} — ${daysBetween(nd,today)}d behind`):pass('ledger.fresh',`newest entry ${nd}`);
+      }
+
+      // daily read: one card per card, edition stamp, freshness
+      {
+        const cards=q('#dailyread details.drcard').length, dc=(dd.daily_read?.cards||[]).length;
+        cards===dc?pass('dailyread.live:'+f,`${cards} cards = ${dc} in data.json`):fail('dailyread.live',`${cards} cards rendered vs ${dc}`);
+        const lead=txt(gid('drlead')?.textContent);
+        const dr=dd.daily_read?.date||'';
+        lead.includes(dr)?pass('dailyread.edition:'+f,`edition stamp ${dr}`):fail('dailyread.edition',`header "${lead.slice(0,50)}" carries no edition ${dr}`);
+        daysBetween(dr,today)>1?fail('dailyread.fresh:'+f,`edition ${dr} is ${daysBetween(dr,today)}d behind`):pass('dailyread.fresh',`edition is current (${dr})`);
+      }
+
+      // institutions: one bar row per dial the export scores (plus the v2 additions rendered from the page)
+      {
+        const inst=((dd.institutions||{}).institutions||[]);
+        const rows=q('#dialBody tr').length;
+        rows>=inst.length?pass('gauges.live:'+f,`${rows} scored row(s) for ${inst.length} exported institutions`)
+          :fail('gauges.live',`${rows} rows rendered vs ${inst.length} institutions`);
+        const big=txt(gid('stockBig')?.textContent);
+        (!isNaN(Number(big))&&big!=='')?pass('stock.mean:'+f,`mean ${big}`):fail('stock.mean',`mean reads "${big}"`);
+        const rv=txt(gid('dialNote')?.textContent).match(/(\d{4}-\d{2}-\d{2})/)?.[1];
+        (rv&&daysBetween(rv,today)>7)?fail('gauges.fresh:'+f,`hand review dated ${rv} — ${daysBetween(rv,today)}d old`):pass('gauges.fresh',`review dated ${rv}`);
+      }
+
+      // register: three piles, and the card count in the legend must equal the export
+      {
+        const preds=(dd.predictions||[]).filter(x=>String(x.resolution||"")!=="excluded");
+        const rows=q('#regBody tr').length;
+        rows===3?pass('register.piles:'+f,`${rows} pile row(s) rendered`):fail('register.piles',`${rows} pile row(s), expected 3`);
+        const leg=txt(gid('legend')?.textContent);
+        leg.includes(String(preds.length)+' forecast cards')?pass('register.count:'+f,`legend states ${preds.length} cards`)
+          :fail('register.count',`legend "${leg.slice(0,60)}" — no ${preds.length}-card count`);
+        const ids=preds.map(p=>p.basename), dupes=ids.filter((b,i)=>ids.indexOf(b)!==i);
+        dupes.length?fail('data.predictions_unique:'+f,`${ids.length} entries for ${new Set(ids).size} cards`)
+                    :pass('data.predictions_unique',`${ids.length} predictions, all unique`);
+      }
+
+      // flow gauges: the three that can carry one must render bars
+      {
+        const bars=q('#mgSpark b').length;
+        bars>=8?pass('flow.m.bars:'+f,`${bars} weekly bars in the M sparkline`):fail('flow.m.bars',`M sparkline renders ${bars} bar(s)`);
+        const gv={M:txt(gid('mgBig')?.textContent),E:txt(gid('egBig')?.textContent),G:txt(gid('ggBig')?.textContent)};
+        const have=Object.keys(gv).filter(k=>gv[k]&&gv[k]!=='–');
+        have.length===3?pass('flow.gauges:'+f,`M ${gv.M} · E ${gv.E} · G ${gv.G}`):fail('flow.gauges',`only ${have.length} of 3 flow readings rendered (${JSON.stringify(gv)})`);
+      }
+
+      // version in the footer must appear in the change log
+      {
+        const ver=txt(doc.querySelector('.ftver')?.textContent);
+        const logged=q('.z12').map(n=>txt(n.textContent).slice(0,140));
+        logged.some(t=>ver&&t.includes(ver))?pass('docs.changelog:'+f,`footer ${ver} has a change-log entry`)
+          :fail('docs.changelog',`footer version ${ver||'MISSING'} appears in no change-log entry`);
+        const newestLog=(logged.join(' ').match(/\d{4}-\d{2}-\d{2}/)||[])[0];
+        (newestLog&&daysBetween(newestLog,today)>30)?fail('docs.changelog_fresh:'+f,`newest entry ${newestLog} — ${daysBetween(newestLog,today)}d behind`)
+          :pass('docs.changelog_fresh',`newest change-log entry ${newestLog}`);
+      }
+      continue;
+    }
+
 
     // Q5 hover terms (2026-11-07): every .term must resolve to a key in data.terms, and the
     // definition must actually be injected. data.terms is generated from /space/term, so this

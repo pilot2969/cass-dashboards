@@ -680,7 +680,7 @@ src=open("preview.html",encoding="utf-8").read()
 out=src
 out=re.sub(r'<div class="mockbar">.*?</div>\n?','',out,flags=re.S)
 out=re.sub(r'<title>.*?</title>','<title>CASS — Continuity and Absorption Signal Stack</title>',out,count=1)
-out=out.replace('v4.31-preview','v4.31')
+out=out.replace('<span class="ftver">v4.31-preview</span>','<span class="ftver">v4.31</span>')
 out=re.sub(r'<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — staging preview build\..*?</div>',
  '<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — live build. The version in this footer appears in the change-log entry below, which is the only way a reader can tell which build they are looking at.</div>',out,flags=re.S)
 open("Internal Telemetry.html","w",encoding="utf-8").write(out)

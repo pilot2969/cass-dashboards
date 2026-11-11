@@ -1,5 +1,11 @@
 # Changelog
 
+### v4.31 — restructure promoted to the live board
+- The live board is now generated from `preview.html` on every sync (`sync_data.sh`, PROMOTION block): staging bar stripped, title changed, `v4.31-preview` → `v4.31`. The file the gate reads is the file that ships.
+- `index.html` redirects to `Internal Telemetry.html`, which now serves the restructured board instead of the pre-restructure page.
+- MGET ledger backfilled for 2026-11-10 and 2026-11-11 (six entries): Hegseth referral 211-204 (G, confirms), Jordan minority leader (T, strains), Pentagon briefing-room removal threat (E, confirms), Scharf oversight letter (G, confirms), cabinet military housing and FORTRESS (T, strains, falsifier dated), USDA SNAP proposed rule (M, neutral).
+- Flow gauges M/G/E, folded methodology blocks, bordered folds, container fix, computed register and ledger counts ship with it.
+
 ### Hand-typed counts replaced with computed ones; Daily Read takes two late stories (v4.31-preview)
 - Register note: "twelve cards carry an outcome… 21% / 17%" was static prose beside a live table that now reads 14 resolutions, 10 of them on scorable cards. The note is computed from the export on every run, both rates with their own denominators.
 - Wire-ledger note: "469 entries" → reads the export (487).
