@@ -746,7 +746,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
  <div class="legend" id="legend"></div>
  <table style="margin-top:16px"><thead><tr><th>Register</th><th class="num">Cards</th><th class="num">Resolved</th><th class="num">Rate</th><th>What a low rate means</th></tr></thead><tbody id="regBody"></tbody></table>
  <div class="note">Rate is resolved divided by the cards that can score. <b>A low rate in the forecast register is a result</b> and it costs something. <b>A low rate in the thesis register is an instruction</b>: the claim was never written in a form the world could contradict, so the fix is to rewrite it as a bet or retire it.</div>
- <div class="note"><b>The distinction that changes the headline.</b> Twelve cards carry an outcome. Four of them are grandfathered pre-gate cards whose anchors were written after the fact, so they are held out of scoring. Score every resolved card and the forecast rate reads 12 of 58, 21%. Score only the cards that could be scored honestly and it reads 8 of 47, 17%. The second number is the one the board should print; the first is what a careless count produces. A gate rule should enforce the arithmetic rather than trust the reading: <code>resolved &amp;&amp; skill_eligible===false</code> must produce a stated quarantine reason, or the push fails.</div>
+ <div class="note" id="regNote2"><b>The distinction that decides the number.</b> Count every resolution in the register and the rate reads one thing; count only the cards that could be scored honestly and it reads another. This line is computed from the export on every build, so it cannot drift from the table above.</div>
 </div>
 </div>
 </details>
@@ -756,7 +756,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
   <summary><span class="cue">WIRE LEDGER</span><span class="lead" id="ledlead">Loading…</span><span class="small" id="ledmeta"></span></summary>
   <div id="ledger"></div>
 </details>
-<div class="note">Not dropped. The ledger is the running record of what the wire said against each leg — every entry is a dated observation with a verdict, and it is the only place the model can be caught being wrong on a Tuesday. Collapsed by default because it is 469 entries and grows by roughly ten a day, and <b>grouped by age</b> so an old entry can never pose as a new one: last 7 days, last 30, older. Twelve per group, newest first, with a count on every group header. Full run stays on the live board.</div>
+<div class="note">Not dropped. The ledger is the running record of what the wire said against each leg — every entry is a dated observation with a verdict, and it is the only place the model can be caught being wrong on a Tuesday. Collapsed by default because it is <span id="ledN">487</span> entries and grows by roughly ten a day, and <b>grouped by age</b> so an old entry can never pose as a new one: last 7 days, last 30, older. Twelve per group, newest first, with a count on every group header. Full run stays on the live board.</div>
  <div class="note"><b>How to read a row.</b> The right-hand stamp is when it was filed. The label on the left is derived from the entry itself, not from the track name — <i>genre</i> is what the wire was carrying (oil, courts, media), <i>subject</i> is what the entry is about, and the NAME chip is a named actor only when the entry names one. The scraped track string is kept in the tooltip, where it cannot be read as a claim. Entries with no time filed show a date alone; an entry with no time is not a claim about the morning.</div>
 
 <details class="fold"><summary><h2 class="foldh2" style="margin:0;border:none;padding:0">7 · Data dictionary</h2><span class="foldcue"></span></summary>
@@ -1377,7 +1377,7 @@ function render(data){
       sub+="<div class=\"small\">"+cards+" cards, of which "+inel+" are held out of scoring: "+bits.join(", ")+". The rate is counted over the "+eligible.length+" that can score.</div>";
       const resAll=set.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
       const resQuar=set.filter(x=>x.skill_eligible===false&&x.quarantine_reason&&["hit","miss"].includes(String(x.resolution||""))).length;
-      if(inelRes){sub+="<div class=\"small\" style=\"color:var(--warm)\">"+inelRes+" of the "+resAll+" recorded resolutions sit on held-out cards, "+resQuar+" of them grandfathered pre-gate, where the anchors were written after the outcome was visible. Deliberate, not a defect, and it is the difference between a rate of 21% (all resolutions) and 17% (only the cards that could be scored honestly).</div>";}
+      if(inelRes){sub+="<div class=\"small\" style=\"color:var(--warm)\">"+inelRes+" of the "+resAll+" recorded resolutions sit on held-out cards, "+resQuar+" of them grandfathered pre-gate, where the anchors were written after the outcome was visible. Deliberate, not a defect, and it is the difference between a rate of "+Math.round(resAll/cards*100)+"% (all resolutions) and "+Math.round(res/eligible.length*100)+"% (only the cards that could be scored honestly).</div>";}
     }
     rows+='<tr><td><b>'+g.k+' · '+esc(g.n)+'</b><div class="small">'+esc(g.desc)+'</div>'+sub+'</td><td class="num">'+
       shown+'</td><td class="num">'+(g.k==="B"?"—":res)+'</td><td class="num">'+
@@ -1394,6 +1394,15 @@ function render(data){
   $("regBody").innerHTML=rows;
   $("rail").innerHTML=rail;
   $("legend").innerHTML=leg+'<span>'+preds.length+' forecast cards in this export</span>';
+  if($("regNote2")){
+    const _A=preds.filter(x=>["EVENT","PERSISTENCE","ROLLING"].includes(String(x.card_class||"").toUpperCase()));
+    const _el=_A.filter(x=>x.skill_eligible!==false);
+    const _rAll=_A.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+    const _rEl=_el.filter(x=>["hit","miss"].includes(String(x.resolution||""))).length;
+    const _held=_rAll-_rEl;
+    $("regNote2").innerHTML="<b>The distinction that decides the number.</b> "+_rAll+" cards carry an outcome. "+_held+" of those sit on cards held out of scoring — grandfathered pre-gate, where the anchors were written after the outcome was visible — so "+_rEl+" of the "+_rAll+" are counted. Score every resolution and the rate reads "+_rAll+" of "+_A.length+" ("+Math.round(_rAll/_A.length*100)+"%). Score only what could be scored honestly and it reads "+_rEl+" of "+_el.length+" ("+Math.round(_rEl/_el.length*100)+"%). The second is the number the table prints above; the first is what a careless count produces — same resolved cards, a different denominator. A gate rule enforces this rather than trusting the reading: <code>resolved &amp;&amp; skill_eligible===false</code> must carry a stated quarantine reason, or the push fails.";
+  }
+  if($("ledN")&&data.mget_ledger) $("ledN").textContent=data.mget_ledger.length;
 
   let out="";
   ["M","G","E","T"].forEach(k=>{

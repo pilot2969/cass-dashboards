@@ -4,12 +4,16 @@
 
 DATE: 2026-11-11
 SUMMARY:
+- [09:15] Five cabinet members are living on military bases, and the Iran threat does not explain it
+- [09:05] The White House told Congress that investigating it could be a crime
 - [08:55] The House killed the impeachment without voting on it — 211–204 to send it to committee
 - [08:50] Sanders and Slotkin refuse to back Schumer, the morning after the sweep
 - [08:45] Senate Republicans keep Thune, and keep the argument about why they lost
 - [08:40] Seven in ten Americans want this Congress to end the Iran war, half of Republicans included
 - [08:35] Jordan takes the minority, and the oversight war starts before the gavels do
 WATCHING:
+- Whether officials move back out of base housing as the Iran crisis recedes, or the arrangement simply persists
+- Which bases are hardened first under the Pentagon's self-sufficiency programme, and whether that order follows government-continuity sites or ordinary war-fighting ones
 - Whether a recorded vote on the merits is ever taken, or referral becomes the standing disposal for the next two years
 - Whether Schumer faces an actual contested ballot or the objections stay on television
 - Whether the Iran poll converts into a funding vote rather than a press conference
@@ -20,6 +24,40 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>[09:15] Five cabinet members are living on military bases, and the Iran threat does not explain it</summary>
+
+<p><i>The Treasury Secretary moving onto a base was reported as one man's security detail. It is five or six senior civilians living inside the armed forces' housing.</i></p>
+
+<p><b>What happened.</b> The wire reported that Treasury Secretary Scott Bessent moved to a military installation after Iranian threats. He is not alone. The Secretary of State and the Secretary of Defense both live on "Generals' Row" at Fort McNair in Washington — Hegseth in Quarters 8, the house normally reserved for the Army's vice chief of staff, at $4,655 a month, according to Pentagon figures reported by the New York Times. The Homeland Security Secretary moved into the Coast Guard commandant's residence after her home address was published. The deputy chief of staff and the Attorney General are also in military housing.</p>
+
+<p><b>Why it matters.</b> An Iranian threat explains guarding one man. It does not explain why the civilians who oversee the military have moved into the military's own housing stock, in houses built for generals, on a permanent footing. Protection is not the same as tenancy. The people who are supposed to hold the armed forces accountable now depend on them for a roof, and the officers whose quarters they occupy have been displaced.</p>
+
+<p><b>The pattern.</b> This sits inside a Pentagon programme, on the record since October, to make every domestic base self-sufficient for 90 days: its own power, fuel, water and communications. Installation hardening is one part of it. Senior officials living inside the hardened perimeter is the same programme seen from the other end. A house on a base that can run itself for three months is not a safe house. It is a place where government can keep operating.</p>
+
+<p><b>What history says.</b> The closest precedent is September 2001, when senior officials were moved to secret alternate sites for days. That was brief, undisclosed and limited to a handful of people. This is months long, openly reported, and covers the civilian chain of command rather than the presidency. There is no precedent for a Treasury Secretary living on an Army post.</p>
+
+<p><b>What we're watching next.</b> Whether they move back out when the Iran crisis recedes. If the housing was contingency, it reverses. If it was structural, it does not — and persistence alone no longer settles the question, because a base built to sustain itself gives officials a reason to stay that has nothing to do with any threat.</p>
+
+</details>
+
+<details open>
+<summary>[09:05] The White House told Congress that investigating it could be a crime</summary>
+
+<p><i>A letter to the incoming House Judiciary chairman does not say Congress lacks the power to investigate. It says exercising it could be criminal.</i></p>
+
+<p><b>What happened.</b> Punchbowl News reported a letter from White House counsel David Scharf to Rep. Jamie Garcia, who takes the Judiciary gavel in January, warning that some planned investigations "could cross the line into blatant criminality." The letter restates the settled rule that Congress may only investigate for a legislative purpose — a limit Democrats have invoked themselves. What is new is the second half: attaching criminal exposure to oversight that goes past it.</p>
+
+<p><b>Why it matters.</b> Congress has subpoena power because courts have enforced it for a century. A committee can compel documents and testimony, and refusal carries contempt. If the administration answers a subpoena by saying the committee's motive may be a crime, the threat is not aimed at the committee. It is aimed at every witness deciding whether to appear, and every member deciding whether the subpoenas will hold.</p>
+
+<p><b>The pattern.</b> Third time in five weeks that a function of Congress has been re-described as an injury to a person. In October the Pentagon routed oversight of commanders back through commanders. Last week the Justice Department described itself as the President's personal legal representative in a case about the chief of staff. Now oversight itself is priced as prosecution. The form is the same each time: a shared rule becomes asymmetric the moment one side can charge for it.</p>
+
+<p><b>What history says.</b> Every administration tests the legislative-purpose line; Congress has stretched it for a decade and mostly won. What is unusual is not the boundary, it is the penalty attached to crossing it. Contempt of Congress is a process. A criminal referral is a threat, and threats change behaviour before any case is filed.</p>
+
+<p><b>What we're watching next.</b> Whether "criminality" means a contempt citation, a referral to the Justice Department, or a warning about obstructing an investigation. Each is a different threat level, and the letter's full text has not been published. Also whether the first subpoena of the new majority is answered with documents or with a lawyer's letter.</p>
+
+</details>
 
 <details open>
 <summary>[08:55] The House killed the impeachment without voting on it</summary>
