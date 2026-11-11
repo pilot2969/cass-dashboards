@@ -1,0 +1,336 @@
+{
+ "leg": "M",
+ "label": "cost of the base",
+ "generated": "2026-11-11 17:32Z",
+ "source": {
+  "cache_fetched": "2026-11-11T17:31Z",
+  "series": {
+   "brent": {
+    "id": "DCOILBRENTEU",
+    "rows": 9122,
+    "last": [
+     "2026-11-03",
+     107.03
+    ]
+   },
+   "gas": {
+    "id": "GASREGW",
+    "rows": 1885,
+    "last": [
+     "2026-11-09",
+     3.995
+    ]
+   },
+   "diesel": {
+    "id": "GASDESW",
+    "rows": 1704,
+    "last": [
+     "2026-11-09",
+     6.127
+    ]
+   }
+  },
+  "provider": "FRED, Federal Reserve Bank of St. Louis (public domain)"
+ },
+ "index": {
+  "baseline_week": "2026-06-01",
+  "baseline_values": {
+   "brent": {
+    "date": "2026-05-29",
+    "value": 92.88
+   },
+   "gas": {
+    "date": "2026-06-01",
+    "value": 4.305
+   },
+   "diesel": {
+    "date": "2026-06-01",
+    "value": 5.35
+   }
+  },
+  "weights": {
+   "brent": 0.5,
+   "gas": 0.3,
+   "diesel": 0.2
+  },
+  "formula": "100 x (0.5 x Brent/Brent_base + 0.3 x gasoline/gasoline_base + 0.2 x diesel/diesel_base)"
+ },
+ "latest": {
+  "week": "2026-W46",
+  "date": "2026-11-09",
+  "brent": 107.03,
+  "brent_date": "2026-11-03",
+  "gas": 3.995,
+  "diesel": 6.127,
+  "index": 108.4
+ },
+ "deltas": {
+  "week": -8.7,
+  "four_week": -14.9,
+  "twelve_week": 10.3
+ },
+ "peak": {
+  "week": "2026-W41",
+  "date": "2026-10-05",
+  "brent": 135.51,
+  "brent_date": "2026-10-02",
+  "gas": 4.354,
+  "diesel": 6.199,
+  "index": 126.5
+ },
+ "series": [
+  {
+   "week": "2026-W19",
+   "date": "2026-05-04",
+   "brent": 118.26,
+   "brent_date": "2026-05-01",
+   "gas": 4.452,
+   "diesel": 5.64,
+   "index": 115.8
+  },
+  {
+   "week": "2026-W20",
+   "date": "2026-05-11",
+   "brent": 103.48,
+   "brent_date": "2026-05-08",
+   "gas": 4.5,
+   "diesel": 5.639,
+   "index": 108.1
+  },
+  {
+   "week": "2026-W21",
+   "date": "2026-05-18",
+   "brent": 113.96,
+   "brent_date": "2026-05-15",
+   "gas": 4.49,
+   "diesel": 5.596,
+   "index": 113.6
+  },
+  {
+   "week": "2026-W22",
+   "date": "2026-05-25",
+   "brent": 106.9,
+   "brent_date": "2026-05-22",
+   "gas": 4.475,
+   "diesel": 5.523,
+   "index": 109.4
+  },
+  {
+   "week": "2026-W23",
+   "date": "2026-06-01",
+   "brent": 92.88,
+   "brent_date": "2026-05-29",
+   "gas": 4.305,
+   "diesel": 5.35,
+   "index": 100.0
+  },
+  {
+   "week": "2026-W24",
+   "date": "2026-06-08",
+   "brent": 97.29,
+   "brent_date": "2026-06-05",
+   "gas": 4.146,
+   "diesel": 5.21,
+   "index": 100.7
+  },
+  {
+   "week": "2026-W25",
+   "date": "2026-06-15",
+   "brent": 88.64,
+   "brent_date": "2026-06-12",
+   "gas": 4.052,
+   "diesel": 5.059,
+   "index": 94.9
+  },
+  {
+   "week": "2026-W26",
+   "date": "2026-06-22",
+   "brent": 80.46,
+   "brent_date": "2026-06-19",
+   "gas": 3.914,
+   "diesel": 4.832,
+   "index": 88.7
+  },
+  {
+   "week": "2026-W27",
+   "date": "2026-06-29",
+   "brent": 70.16,
+   "brent_date": "2026-06-26",
+   "gas": 3.831,
+   "diesel": 4.668,
+   "index": 81.9
+  },
+  {
+   "week": "2026-W28",
+   "date": "2026-07-06",
+   "brent": 68.68,
+   "brent_date": "2026-07-03",
+   "gas": 3.777,
+   "diesel": 4.578,
+   "index": 80.4
+  },
+  {
+   "week": "2026-W29",
+   "date": "2026-07-13",
+   "brent": 74.34,
+   "brent_date": "2026-07-10",
+   "gas": 3.855,
+   "diesel": 4.796,
+   "index": 84.8
+  },
+  {
+   "week": "2026-W30",
+   "date": "2026-07-20",
+   "brent": 85.01,
+   "brent_date": "2026-07-17",
+   "gas": 4.001,
+   "diesel": 5.134,
+   "index": 92.8
+  },
+  {
+   "week": "2026-W31",
+   "date": "2026-07-27",
+   "brent": 100.31,
+   "brent_date": "2026-07-24",
+   "gas": 4.096,
+   "diesel": 5.313,
+   "index": 102.4
+  },
+  {
+   "week": "2026-W32",
+   "date": "2026-08-03",
+   "brent": 96.95,
+   "brent_date": "2026-07-31",
+   "gas": 4.079,
+   "diesel": 5.348,
+   "index": 100.6
+  },
+  {
+   "week": "2026-W33",
+   "date": "2026-08-10",
+   "brent": 87.62,
+   "brent_date": "2026-08-07",
+   "gas": 4.006,
+   "diesel": 5.257,
+   "index": 94.7
+  },
+  {
+   "week": "2026-W34",
+   "date": "2026-08-17",
+   "brent": 92.02,
+   "brent_date": "2026-08-14",
+   "gas": 4.049,
+   "diesel": 5.454,
+   "index": 98.1
+  },
+  {
+   "week": "2026-W35",
+   "date": "2026-08-24",
+   "brent": 96.92,
+   "brent_date": "2026-08-21",
+   "gas": 4.085,
+   "diesel": 5.652,
+   "index": 101.8
+  },
+  {
+   "week": "2026-W36",
+   "date": "2026-08-31",
+   "brent": 89.75,
+   "brent_date": "2026-08-28",
+   "gas": 4.071,
+   "diesel": 5.599,
+   "index": 97.6
+  },
+  {
+   "week": "2026-W37",
+   "date": "2026-09-07",
+   "brent": 102.24,
+   "brent_date": "2026-09-04",
+   "gas": 4.157,
+   "diesel": 5.967,
+   "index": 106.3
+  },
+  {
+   "week": "2026-W38",
+   "date": "2026-09-14",
+   "brent": 118.06,
+   "brent_date": "2026-09-11",
+   "gas": 4.319,
+   "diesel": 6.285,
+   "index": 117.1
+  },
+  {
+   "week": "2026-W39",
+   "date": "2026-09-21",
+   "brent": 119.66,
+   "brent_date": "2026-09-18",
+   "gas": 4.478,
+   "diesel": 6.529,
+   "index": 120.0
+  },
+  {
+   "week": "2026-W40",
+   "date": "2026-09-28",
+   "brent": 116.01,
+   "brent_date": "2026-09-25",
+   "gas": 4.465,
+   "diesel": 6.382,
+   "index": 117.4
+  },
+  {
+   "week": "2026-W41",
+   "date": "2026-10-05",
+   "brent": 135.51,
+   "brent_date": "2026-10-02",
+   "gas": 4.354,
+   "diesel": 6.199,
+   "index": 126.5
+  },
+  {
+   "week": "2026-W42",
+   "date": "2026-10-12",
+   "brent": 130.03,
+   "brent_date": "2026-10-09",
+   "gas": 4.331,
+   "diesel": 6.179,
+   "index": 123.3
+  },
+  {
+   "week": "2026-W43",
+   "date": "2026-10-19",
+   "brent": 119.33,
+   "brent_date": "2026-10-16",
+   "gas": 4.284,
+   "diesel": 6.276,
+   "index": 117.6
+  },
+  {
+   "week": "2026-W44",
+   "date": "2026-10-26",
+   "brent": 128.3,
+   "brent_date": "2026-10-23",
+   "gas": 4.269,
+   "diesel": 6.352,
+   "index": 122.6
+  },
+  {
+   "week": "2026-W45",
+   "date": "2026-11-02",
+   "brent": 120.15,
+   "brent_date": "2026-10-30",
+   "gas": 4.153,
+   "diesel": 6.292,
+   "index": 117.1
+  },
+  {
+   "week": "2026-W46",
+   "date": "2026-11-09",
+   "brent": 107.03,
+   "brent_date": "2026-11-03",
+   "gas": 3.995,
+   "diesel": 6.127,
+   "index": 108.4
+  }
+ ],
+ "caveat": "These are pump and barrel prices, not household budgets. No income, rent or wage series is in this file, so the card reads the price of the base, not what a family can afford. The weights are the desk's, printed so they can be argued with."
+}

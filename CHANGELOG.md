@@ -2,6 +2,15 @@
 
 ## 2026-11-11
 
+### Flow gauges for M, G and E — and T named as the leg without one (v4.26-preview)
+- **M gets a series for the first time.** `build_m_flow.py` indexes Brent (DCOILBRENTEU), retail gasoline (GASREGW) and diesel (GASDESW) to the week of 2026-06-01 = 100, weighted 0.5/0.3/0.2, from a committed FRED cache (`m_flow_cache.json`). Runs inside `sync_data.sh`. Current: 108.4, down from a 126.5 peak (week of 2026-10-05).
+- **Three matching gauge cards** open 2.4: big number, one bar per observation with hover/tab read-out, three key figures, and a "how to read it" note in plain terms.
+- **T is stated as the leg that cannot carry a gauge**, with the reason, rather than silently omitted.
+- **Section restructured**: 2.4a is the M weekly table, 2.4b holds the E and G detail panels. The lead now says the three readings are the same as the 2.1 row at working resolution.
+- **Denominator note added** across all three: the desk controls every denominator, so a rate can move because the world moved or because the recording did.
+
+## 2026-11-11
+
 ### Gap row removed from 2.2 (v4.25-preview)
 - **The gap marker is gone from all four legs.** It compared the anchor-computed load against the original hand-set number — a migration artefact, not a reading. The hand-set numbers predate the current model and have no standing against it, so the difference reads as a finding to anyone who wasn't here for the cutover.
 - **Two notes removed with it**: the ±5 quantisation note (M, E) and the vacuous-identity note (G). Both existed only to explain the gap.

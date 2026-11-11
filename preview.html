@@ -314,9 +314,62 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
  <div class="note" id="dialNote"></div>
 </div>
 
-<div class="subhead">2.4 Flow · what the legs record, month by month</div>
-<div class="note" style="margin-top:0;color:#c3d2e6">Section 2.1–2.3 prints <b>stocks</b> — where the institutions stand. These are the two <b>flows</b> the legs were supposed to supply and did not: E carried a score with no series behind it, G had no series at all. Both are now generated <b>inside the export</b> — E by <code>build_flow_panel.py</code> from <code>/space/repression_event</code>, G by <code>build_leg_g.py</code> from <code>/space/legitimation_event</code> — so neither panel can be older than the data layer it sits in. Nothing below is typed in. Where a series does not exist, the panel prints a blind spot rather than a chart.</div>
-<div class="grid2" style="margin-top:12px">
+<div class="subhead jtarget" id="sec-2-4">2.4 Flow · what the legs record, and how fast</div>
+<div class="secintro">
+  <p>Sections 2.1–2.3 print <b>stocks</b> — where the institutions stand today. This section prints <b>flows</b> — how fast the thing behind each score is actually moving. That distinction is the reason the section exists: a leg can read 80 and be going nowhere, and a rate can double while a score sits still.</p>
+  <p><b>Three of the four legs can carry a rate. T cannot.</b> T fires on dated docking acts and its count is zero, so a series of zeros drawn beside a load of 82 invites exactly the wrong question. T's scoreboard is the four docking tests at 2.2, and it stays there.</p>
+  <p>Each gauge gives one number, the shape behind it, and one line saying what that number is. <b>These are the same readings as the 2.1 row</b>, printed here at the resolution where they can be read: the row is the summary, this is the working.</p>
+  <p>All three are generated <b>inside the export</b> — M from a cached public price series by <code>build_m_flow.py</code>, E from <code>/space/repression_event</code> by <code>build_flow_panel.py</code>, G from <code>/space/legitimation_event</code> by <code>build_leg_g.py</code> — so no gauge can be older than the data it sits on. Nothing below is typed in.</p>
+</div>
+
+<div class="grid3">
+  <div class="panel jtarget" id="sec-2-4-m">
+    <h3>M · Cost of the base <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-m-series" title="Jump to the weekly series and the weights">↓ the series</a></h3>
+    <div class="big" id="mgBig">–</div>
+    <div class="spark" id="mgSpark" role="group" aria-label="Cost of the base, weekly index, 100 = first week of June 2026"></div>
+    <div class="sparkx" id="mgSparkX"></div>
+    <div class="sparkread" id="mgRead">–</div>
+    <div class="kv"><span>Brent, latest print</span><b id="mgBrent">–</b></div>
+    <div class="kv"><span>Retail gasoline</span><b id="mgGas">–</b></div>
+    <div class="kv"><span>Baseline · 100</span><b id="mgBase">–</b></div>
+    <div class="note" id="mgNote">–</div>
+  </div>
+  <div class="panel">
+    <h3>G · Institutional withdrawals <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-g" title="Jump to the G series, the institution composition and the disclosers">↓ the series</a></h3>
+    <div class="big" id="ggBig">–</div>
+    <div class="spark" id="ggSpark" role="group" aria-label="Institutional withdrawals per month"></div>
+    <div class="sparkx" id="ggSparkX"></div>
+    <div class="sparkread" id="ggRead">–</div>
+    <div class="kv"><span>Withdrawals, all time</span><b id="ggTotal">–</b></div>
+    <div class="kv"><span>Counter-events</span><b id="ggGrants">–</b></div>
+    <div class="kv"><span>Window</span><b id="ggWin">–</b></div>
+    <div class="note" id="ggNote">–</div>
+  </div>
+  <div class="panel">
+    <h3>E · Enforcement rate <span class="tag t-flow term" data-term="flow">FLOW</span><a class="jump" href="#sec-2-4-e" title="Jump to the month-by-month series and the recording control">↓ the series</a></h3>
+    <div class="big" id="egBig">–</div>
+    <div class="spark" id="egSpark" role="group" aria-label="Enforcement events per hundred journal entries, by month"></div>
+    <div class="sparkx" id="egSparkX"></div>
+    <div class="sparkread" id="egRead">–</div>
+    <div class="kv"><span>Recorded events, latest month</span><b id="egRaw">–</b></div>
+    <div class="kv"><span>Control denominator</span><b id="egCtl">–</b></div>
+    <div class="kv"><span>Window</span><b id="egWin">–</b></div>
+    <div class="note" id="egNote">–</div>
+  </div>
+</div>
+
+<div class="note" style="margin-top:10px"><b>What all three rates share is a denominator the desk controls.</b> E and G divide by journal entries written; M divides by a June baseline the desk chose. None of them divides by the size of the country. A rate can therefore move because the world moved <i>or</i> because the recording did, and the only defence is printing the denominator beside the number — which every card above does.</div>
+
+<div class="subhead jtarget" id="sec-2-4-m-series">2.4a · M — the weekly series behind the index</div>
+<div class="panel">
+  <h3>M · Cost of the base, week by week <span class="tag t-flow">FLOW</span></h3>
+  <div class="note" style="margin-top:0;color:#c3d2e6">M is the only leg whose own text claims a <b>mechanism</b> — that cost is the transmission belt, arriving in household budgets before it arrives in any statistic. A stock score cannot show a belt; a price series can. <b>Index = 100 in the week of 2026-06-01</b>, weighted 0.5 Brent + 0.3 gasoline + 0.2 diesel. The weights are the desk's, printed so they can be argued with. Source: FRED, public domain.</div>
+  <table><thead><tr><th>Week</th><th class="num">Index</th><th class="barcell">Index</th><th class="num">Brent $</th><th class="num">Gasoline $/gal</th><th class="num">Diesel $/gal</th></tr></thead><tbody id="mgSeries"></tbody></table>
+  <div class="note" id="mgFoot"></div>
+</div>
+
+<div class="subhead">2.4b · The two legs the instrument already counts</div>
+<div class="grid2" style="margin-top:10px">
   <div class="panel jtarget" id="sec-2-4-e">
     <h3>E · Enforcement-capacity flow <span class="tag t-flow term" data-term="flow">FLOW</span></h3>
     <div class="note" style="margin-top:0" id="flowESub">Reading: recorded state enforcement events per month.</div>
@@ -331,8 +384,8 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   </div>
 </div>
 <div class="panel" id="sec-2-4-g" style="margin-top:10px">
-  <h3>G · Institutional withdrawals <span class="tag t-flow">FLOW</span></h3>
-  <div class="note" style="margin-top:0;color:#c3d2e6">This was the board's named blind spot until this build: G carried a hand-set score and no series, and the panel said so rather than pretending. The series existed — <code>/space/legitimation_event</code> had been filling since 2026-09-04 on a closed taxonomy — and nobody had counted it. Counted now, and the limits are printed beside the number instead of underneath the fold.</div>
+  <h3>G · Institutional withdrawals — the series <span class="tag t-flow">FLOW</span></h3>
+  <div class="note" style="margin-top:0;color:#c3d2e6">This was the board's named blind spot until the 11-09 build: G carried a hand-set score and no series, and the panel said so rather than pretending. The series existed — <code>/space/legitimation_event</code> had been filling since 2026-09-04 on a closed taxonomy — and nobody had counted it. Counted now, and the limits are printed beside the number rather than underneath the fold.</div>
   <div class="note" style="margin-top:6px" id="legGHead"></div>
   <div class="grid2" style="margin-top:12px">
     <div>
@@ -348,6 +401,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   <div class="note" id="legGDisc" style="margin-top:10px"></div>
 </div>
 <div class="note" id="flowDisc" style="margin-top:10px"></div>
+
 
 <h2>3 · Absorption velocity — the other thing the instrument could not see</h2>
 <div class="note" style="margin-top:0">Section 2 measures <b>stocks</b>: holdings, hand-set once a month. This measures a <b>flow</b>: how fast dehumanizing frames move through the feed, counted continuously. The two answer different questions. A stock says how captured an institution is today; a flow says whether the audience that would have to accept force is being prepared faster than it was last week. The second is the leading indicator, and it never belonged in the dial table — you cannot defend "dehumanization is 71" from public observables, but you can defend "33 specimens this week, 45 coded right-flank, 25 reciprocal."</div>
@@ -689,7 +743,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30"><b>v4.0-preview</b></span></div><div class="z15"><b>Prior: five structural revisions.</b> Daily Read is now collapsible and carries its lead headline in the summary line; the model follows it directly and reads macro to micro — whole model, then the four legs, then the institutions under them; the institutional dials keep their gauges and gain a coverage audit against four admission rules, with Media, State Governments and Local Law Enforcement admitted and a stated series-break warning; the audience fork card is cut, together with the "what is real on this page" card, whose provenance content is now a column in the data dictionary. The wire ledger is confirmed kept and given its own collapsed section.</div></div>
   <div class="z12"><div class="z16">2026-11-05 · <span class="z30">v3.99-preview</span></div><div class="z15"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</div></div>
  </div>
- <div class="note" style="margin-top:14px"><span class="ftver">v4.25-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+ <div class="note" style="margin-top:14px"><span class="ftver">v4.26-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 </div>
 
 <h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
@@ -981,6 +1035,143 @@ function renderWatch(w){
 
 /* 2026-11-09 LEG G. Generated by build_leg_g.py from /space/legitimation_event.
    The board may say this series is thin. It may no longer say none exists. */
+/* 2026-11-11 FLOW GAUGES (2.4). One bar per observation, hover/tab/click to read it.
+   A shared mounter so the three cards behave identically: same bar scale maths, same
+   keyboard behaviour, same "reset on mouseleave" rule. Nothing here computes a reading;
+   every value arrives from data.json, generated at export time. */
+function mountSpark(elId,xId,readId,rows,defSay,peakRow){
+  const el=document.getElementById(elId), xl=document.getElementById(xId), rd=document.getElementById(readId);
+  if(!el||!rows.length) return;
+  const mx=Math.max.apply(null,rows.map(r=>r.v).concat([1]));
+  const peak=peakRow||rows.reduce((a,b)=>b.v>a.v?b:a,rows[0]);
+  el.innerHTML=rows.map((r,i)=>{
+    const h=Math.max(3,Math.round(r.v/mx*100));
+    return '<b tabindex="0" role="button" data-i="'+i+'" title="'+esc(r.t)+'" aria-label="'+esc(r.t)+
+      '" class="'+(r===peak?'peak':'')+'" style="height:'+h+'%"></b>';
+  }).join("");
+  if(xl){
+    const n=rows.length, step=n>8?Math.ceil(n/6):1;
+    xl.innerHTML=rows.map((r,i)=>{
+      const show=(i%step===0)||i===n-1;
+      return '<span>'+(show?esc(r.x):'')+'</span>';
+    }).join("");
+  }
+  const say=r=>{ if(rd) rd.innerHTML=defSay(r); };
+  const reset=()=>{
+    [].forEach.call(el.children,b=>b.classList.remove('on'));
+    say(rows[rows.length-1]);
+  };
+  [].forEach.call(el.children,b=>{
+    const pick=()=>{ const r=rows[+b.dataset.i];
+      [].forEach.call(el.children,c=>c.classList.toggle('on',c===b)); say(r); };
+    b.addEventListener('mouseenter',pick); b.addEventListener('focus',pick);
+    b.addEventListener('click',()=>{ pick();
+      const tr=document.querySelector('[data-flow-row="'+rows[+b.dataset.i].k+'"]');
+      if(tr){ tr.scrollIntoView({behavior:'smooth',block:'center'});
+        tr.classList.add('flash'); setTimeout(()=>tr.classList.remove('flash'),1800); } });
+  });
+  el.addEventListener('mouseleave',reset);
+  say(rows[rows.length-1]);
+}
+
+function renderFlowGauges(m,g,e){
+  const $=id=>document.getElementById(id);
+
+  /* ---- M · cost of the base ---- */
+  if(m&&m.series&&m.series.length){
+    const s=m.series, lt=m.latest, dl=m.deltas||{};
+    if($('mgBig')) $('mgBig').textContent=lt.index;
+    if($('mgBrent')) $('mgBrent').textContent='$'+lt.brent.toFixed(2)+' ('+lt.brent_date+')';
+    if($('mgGas')) $('mgGas').textContent='$'+lt.gas.toFixed(3)+'/gal';
+    if($('mgBase')) $('mgBase').textContent=(m.index.baseline_values&&m.index.baseline_values.brent)?
+      ('Brent $'+m.index.baseline_values.brent.value.toFixed(2)+' wk of '+m.index.baseline_week):m.index.baseline_week;
+    mountSpark('mgSpark','mgSparkX','mgRead',
+      s.map(r=>({k:r.week,x:r.date.slice(5),v:r.index,
+        t:r.date+' · index '+r.index+' · Brent $'+r.brent.toFixed(2)+' · gas $'+r.gas.toFixed(3)+' · diesel $'+r.diesel.toFixed(3)})),
+      r=>'<b>'+esc(r.date)+'</b> — index <b>'+r.v+'</b>, where 100 is the first week of June.'+
+         ' Brent $'+r.brent.toFixed(2)+', gasoline $'+r.gas.toFixed(3)+', diesel $'+r.diesel.toFixed(3)+'.');
+    if($('mgNote')){
+      const pk=m.peak, w=dl.week, f=dl.four_week;
+      $('mgNote').innerHTML='<b>How to read it.</b> 100 is the first week of June, so '+
+        '<b>'+lt.index+' means the base costs '+((lt.index-100)/100*100).toFixed(0)+'% more than it did then</b>'+
+        (pk&&pk.index>lt.index?', down from a peak of '+pk.index+' in the week of '+pk.date+' — a '+((pk.index-lt.index)/pk.index*100).toFixed(0)+'% fall since':'')+
+        (w!=null?', and '+(w>0?'up':'down')+' '+Math.abs(w)+' index point'+(Math.abs(w)===1?'':'s')+' on the week.':'')+
+        '<br><br>This is a price series, not a household budget: no wage, rent or income data sits behind it. '+
+        'It shows the base getting cheaper or dearer at the pump and the barrel, and nothing about whether a family can afford it.';
+    }
+    const rows=s.slice().reverse();
+    if($('mgSeries')) $('mgSeries').innerHTML=rows.map(r=>{
+      const mx=Math.max.apply(null,s.map(x=>x.index));
+      const w=Math.round(r.index/mx*100);
+      const hot=r.index>=110?'background:var(--hot)':(r.index>=100?'background:#d3a33a':'background:#3d7ec0');
+      return '<tr data-flow-row="'+esc(r.week)+'"><td>'+esc(r.week)+' <span style="color:var(--dim)">'+esc(r.date)+'</span></td>'+
+        '<td class="num"><b>'+r.index+'</b></td>'+
+        '<td class="barcell"><span style="display:block;height:6px;border-radius:3px;width:'+w+'%;'+hot+'"></span></td>'+
+        '<td class="num">'+r.brent.toFixed(2)+'</td><td class="num">'+r.gas.toFixed(3)+'</td><td class="num">'+r.diesel.toFixed(3)+'</td></tr>';
+    }).join("");
+    if($('mgFoot')){
+      const b=m.index.baseline_values||{};
+      const src=m.source&&m.source.series?Object.keys(m.source.series).map(k=>m.source.series[k].id).join(', '):'';
+      $('mgFoot').innerHTML='<b>Weights:</b> Brent 0.5, gasoline 0.3, diesel 0.2, indexed to the week of '+
+        esc(m.index.baseline_week)+' (Brent $'+(b.brent?b.brent.value.toFixed(2):'–')+
+        ', gasoline $'+(b.gas?b.gas.value.toFixed(3):'–')+', diesel $'+(b.diesel?b.diesel.value.toFixed(3):'–')+'). '+
+        'Bars are the index against its own peak; red marks 110 and above, amber 100–109, blue below 100. '+
+        '<b>Source:</b> FRED ('+esc(src)+'), public domain. Prices pulled '+
+        esc((m.source&&m.source.cache_fetched)||'—')+'; every row carries its own observation date. '+
+        'The cache is committed, so a build with no network dates what it has rather than inventing a print.';
+    }
+  } else if($('mgBig')) $('mgBig').textContent='–';
+
+  /* ---- G · institutional withdrawals ---- */
+  if(g&&g.series&&g.series.length){
+    const s=g.series, t=g.totals||{};
+    if($('ggBig')) $('ggBig').textContent=(t.per_month!=null?t.per_month:'–');
+    if($('ggTotal')) $('ggTotal').textContent=(t.withdrawals!=null?t.withdrawals+' in '+s.length+' months':'–');
+    if($('ggGrants')) $('ggGrants').textContent=(t.grants!=null?String(t.grants):'–');
+    if($('ggWin')) $('ggWin').textContent=(g.window&&g.window.start)?(g.window.start+' → '+(g.window.end||'now')):'–';
+    mountSpark('ggSpark','ggSparkX','ggRead',
+      s.map(r=>({k:r.month,x:r.month.slice(5),v:r.withdrawals,
+        t:r.month+' · '+r.withdrawals+' withdrawal'+(r.withdrawals===1?'':'s')+' · weighted '+r.weighted+' · '+
+          (r.per_100_journal!=null?r.per_100_journal+' per 100 entries':'no control')+' · '+r.journal+' entries written'})),
+      r=>'<b>'+esc(r.month)+'</b> — <b>'+r.v+'</b> institution'+(r.v===1?'':'s')+' withdrew standing, '+
+         'against '+r.journal+' entries written that month'+
+         (r.per_100_journal!=null?' (<b>'+r.per_100_journal+' per hundred</b>)':'')+'.');
+    if($('ggNote')){
+      $('ggNote').innerHTML='<b>How to read it.</b> The big number is <b>withdrawals per month</b>, not a total: '+
+        (t.per_month||'–')+' institutions a month stopped according standing to the executive over '+
+        (g.window?g.window.start:'–')+' to now, against <b>'+(t.grants||0)+' counter-event'+(t.grants===1?'':'s')+
+        '</b> where one reversed itself.<br><br>A withdrawal is a court ruling against the executive, a credential refused, '+
+        'an official resigning, a professional body sanctioning, a refusal by an election official. <b>Direction is the reading:</b> '+
+        'grants cancelling withdrawals would mean the resistance is being reversed rather than accumulating. '+
+        'It is not — the ratio is '+(t.grants||0)+':'+(t.withdrawals||0)+'.';
+    }
+  } else if($('ggBig')) $('ggBig').textContent='–';
+
+  /* ---- E · enforcement rate ---- */
+  const ep=(e&&e.panels)?e.panels.find(x=>x.id==='e-leg-flow'):null;
+  if(ep&&ep.series&&ep.series.length){
+    const s=ep.series, lt=s[s.length-1];
+    if($('egBig')) $('egBig').textContent=(lt.per_100_journal!=null?lt.per_100_journal:'–');
+    if($('egRaw')) $('egRaw').textContent=lt.raw+' events ('+lt.month+')';
+    if($('egCtl')) $('egCtl').textContent=(lt.journal!=null?lt.journal+' journal entries that month':'–');
+    if($('egWin')) $('egWin').textContent=s[0].month+' → '+lt.month;
+    mountSpark('egSpark','egSparkX','egRead',
+      s.map(r=>({k:r.month,x:r.month.slice(5),v:(r.per_100_journal||0),
+        t:r.month+' · '+r.raw+' event'+(r.raw===1?'':'s')+' · '+r.journal+' entries written · '+
+          (r.per_100_journal!=null?r.per_100_journal:'–')+' per 100'})),
+      r=>'<b>'+esc(r.month)+'</b> — <b>'+r.v+'</b> enforcement events per hundred entries written, '+
+         'from '+r.raw+' recorded event'+(r.raw===1?'':'s')+' and '+r.journal+' entries.');
+    if($('egNote')){
+      const pk=s.reduce((a,b)=>((b.per_100_journal||0)>(a.per_100_journal||0)?b:a),s[0]);
+      $('egNote').innerHTML='<b>How to read it.</b> Count enforcement acts, then divide by how hard the desk was looking. '+
+        'The raw count alone is unusable: write more in a month and you log more events without the world changing. '+
+        'Peak was <b>'+pk.per_100_journal+'</b> in '+pk.month+'; the rate is now <b>'+(lt.per_100_journal!=null?lt.per_100_journal:'–')+'</b>.<br><br>'+
+        '<b>This is not a measure of how repressive the state is.</b> It is how often the state did something this desk could see, '+
+        'adjusted for how much it was writing. Both halves are printed for that reason.';
+    }
+  } else if($('egBig')) $('egBig').textContent='–';
+}
+
 function renderLegG(g){
   if(!g||!$("legGHead")) return;
   const t=g.totals||{}, ser=g.series||[];
@@ -1040,6 +1231,7 @@ function render(data){
       '<span class="legstate '+(on?"on":"off")+'">'+esc(String(l.state||"").toUpperCase())+'</span></div>';
   }).join("");
   renderFlow((data&&data.flow_panel)||FLOWPANEL||{});
+  renderFlowGauges(data.m_flow||null, data.leg_g||null, (data&&data.flow_panel)||FLOWPANEL||null);
   renderWatch(data.watch);
   renderLegG(data.leg_g);
 
@@ -1318,7 +1510,7 @@ function openLedger(e){
   drawDrill("Ledger — "+(e.date||"undated"), esc((e.verdict||"")+" · "+genre(e.track)), html);
 }
 
-fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})
+fetch("m_flow.json",{cache:"no-store"}).then(r=>r.json()).then(m=>{ if(m&&m.series) renderFlowGauges(m,null,null); }).catch(()=>{});fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})
  .then(()=>fetch("data.json",{cache:"no-store"})).then(r=>r.json()).then(render).catch(e=>{
   const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
   $("stamp").textContent="Static shell only.";
