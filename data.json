@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-11",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-11T14:08 ET"
+  "generated_stamped": "2026-11-11T14:14 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5514,6 +5514,90 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-11",
+   "time_et": "11:06",
+   "track": "material / household reproduction",
+   "mget_legs_tested": [
+    "M: can the country still physically afford its own continuity",
+    "narrative: repetition framed as rupture"
+   ],
+   "verdict": "neutral",
+   "reasoning": "USDA published a proposed rule Monday 2026-11-10 narrowing broad-based categorical eligibility, the channel by which receipt of a non-cash TANF service confers SNAP eligibility, which most states use to raise or eliminate asset limits. USDA's own figure: 6.3 million people affected, about 18% of recipients, about 3.2 million households.\n\nOn M this is neutral, and the neutrality is the point. The rule is a proposed rule, not an effect; it moves eligibility, not supply, price or physical availability. The M leg measures whether the material base can carry continuity: energy, food, money, logistics. A 6.3 million person eligibility change is a distributional event inside a food system that is not short of food. The flow gauges will not register it and should not.\n\nWhat it does strain is the narrative layer, which this corpus also reads. The feed frame was \"USDA moves to kick 6 million people off food stamps\" presented as rupture. The underlying process has been running since 2025 and is a proposed rule with a comment period. A live proposal reported as an accomplished fact is the frame-inflation pattern the absorption corpus tracks, not an M datapoint.\n\nFiled as a specimen with record fields supplied: CLASS repetition of an existing process, INTENSITY elevated (a proposed rule, not an effect), TRIGGER unknown, NULLS top of feed with nothing else submitted.",
+   "forward_signal": "1) Comment period close, and whether the rule is finalised, revised or withdrawn; that is the only thing that converts this to an M datapoint. 2) Whether states litigate, since several run their own broad-based categorical eligibility and a federal narrowing collides with state law. 3) Whether food bank demand moves in the interim, because expectation of loss changes behaviour before eligibility does. 4) Whether the 6.3 million figure survives the final rule.",
+   "confidence_moves": "M leg: no move. A proposed eligibility rule is not a change in the material base.",
+   "basename": "2026-11-11-usda-snap-broad-based-categorical-eligibility"
+  },
+  {
+   "date": "2026-11-11",
+   "time_et": "09:15",
+   "track": "civil-military fusion / continuity of government",
+   "mget_legs_tested": [
+    "T: elite conflict internal vs externalised",
+    "E: ownership of the substrate, with bases as the protected substrate"
+   ],
+   "verdict": "strains",
+   "reasoning": "Bessent moved to a military base after Iranian threats. Reporting puts the group well beyond one man: Hegseth and Rubio on Generals' Row at Fort McNair, Hegseth in Quarters 8, the Army vice chief of staff's house, at $4,655/month, with Noem, Miller and Bondi also reported in base housing. Underneath it, FORTRESS America: Pentagon programme, memo 7 October, reported 26 October, confirmed by DefenseScoop, to make every domestic installation self-sufficient for 90 days across energy, water, food, medical and communications.\n\nThe stated reason is a threat. The threat cannot be the whole explanation. It does not account for the programme predating it by a month, for the choice of the vice chief's quarters, or for the breadth of the group. But motive is not establishable from here and should not be asserted. What is establishable is the arrangement: senior civilian officials living inside a military perimeter while the military is being made self-sufficient for 90 days. That is a civil-military boundary moving, and it is moving in a direction without post-war precedent.\n\nWhy STRAINS rather than confirms. The T leg asks whether elite conflict has left the chamber. Officials relocating onto bases can read two ways: as elites sheltering from a population they no longer trust, which externalises the conflict and confirms T, or as ordinary protection against a specific foreign threat, which is neutral. The falsifier is written and dated at /space/watch/2026-11-11-military-housing-reversal-test.json. When the crisis collapses and holds 30 days, check at +90; anyone still in base housing counts as persistence, because the stated reason has expired. Until that runs, the observation is logged and the leg does not move.\n\nThe second test there is the one to weight more, the doxxing test: if the housing is threat-driven, the threat's evidence should be doxxing of specific officials and the response should track it.",
+   "forward_signal": "1) The +90 check after a 30-day de-escalation holds; that is the falsifier. 2) Whether any official moves back, and whether the move is announced. 3) FORTRESS funding line and whether the 90-day self-sufficiency target is met at named installations. 4) Whether the practice appears in transition or continuity-of-government planning documents.",
+   "confidence_moves": "T leg: no move until the reversal test runs. Logged as a watch, not a load.",
+   "basename": "2026-11-11-cabinet-military-housing-fortress"
+  },
+  {
+   "date": "2026-11-11",
+   "time_et": "09:05",
+   "track": "Article I conversion / oversight criminalised",
+   "mget_legs_tested": [
+    "G: can institutions still produce decisions anyone accepts",
+    "separation of powers: Congress co-equal vs subservient"
+   ],
+   "verdict": "confirms",
+   "reasoning": "White House counsel David Scharf writes to Congress that investigating the executive may itself be criminal conduct. Reported by Punchbowl (Jake Sherman), carried same day by Alternet, Daily Beast and Raw Story; there is a document and a signatory.\n\nThis is the Hegseth argument about congressional oversight of the war, generalised from a defense secretary's shield into White House doctrine. Hegseth argued command responsibility is indivisible, so accountability cannot stop at the Secretary without reaching the troops. Scharf argues oversight exposure is individual, so a member exercising a legitimate power could be prosecuted for it. Both convert a check into a liability. The difference is that Scharf's version attaches to the member personally rather than to the force.\n\nThis confirms G and it is among the strongest single datapoints the leg has. The claim is not that Congress is subordinate in law, which it plainly is not, but that exercising a power the Constitution grants can be priced as a crime. That is a cheaper way to subordinate a branch than winning the legal argument: leave the power intact and make its use expensive. A member who must weigh personal prosecution against a subpoena has already lost most of the subpoena's value.\n\nFiled as a specimen the same morning: repetition of the Hegseth claim, elevated, trigger midterm victories and threatened oversight, no nulls. Chained at /space/note/article-i-conversion-chain.json.",
+   "forward_signal": "1) Whether the letter names specific statutes and specific members, or stays abstract. 2) Whether DOJ is asked to act on it, or whether it is a deterrent letter only. 3) Any committee chair who proceeds anyway: the first test of whether the pricing works. 4) Whether a court is asked to weigh in, and by whom.",
+   "confidence_moves": "G leg: no move. Confirming datapoint on an already-loaded leg.",
+   "basename": "2026-11-11-scharf-letter-criminal-oversight"
+  },
+  {
+   "date": "2026-11-10",
+   "time_et": "23:45",
+   "track": "removal / succession / lame duck procedure",
+   "mget_legs_tested": [
+    "G: can the institution still produce a decision anyone accepts",
+    "sacrificial removal branch: procedure as substitute for substance"
+   ],
+   "verdict": "confirms",
+   "reasoning": "The House adopted a motion to refer Massie's privileged impeachment resolution to committee, 211-204, at 23:43 UTC. Massie was the only Republican voting no. No vote was taken on the eight articles. This is the branch flagged at 12:33 ET and then mis-set at 17:00 ET; the card resolved MISS.\n\nThe mechanism is the finding, and it is cheaper than a vote. Referral lets every member avoid recording a position on whether Hegseth should be impeached while the base is told the House acted. Massie, introducing: \"Everybody gets to take this vote.\" They took a vote on whether to vote. CNN's mechanical detail is the load-bearing one: more Democrats missed the vote than Republicans, which is where leadership found the 7-vote margin. The disposal was executed with the minority's own absences.\n\nUnder the G leg this confirms rather than strains. The institution produced a decision, promptly and by the book, that settles nothing and that nobody has to defend. A chamber that can remove a cabinet officer and chooses to route the question into a calendar it controls has demonstrated the capacity for decision while exercising it as avoidance. That is the failure mode the leg measures: not deadlock, which is visible, but procedural disposition, which is not.\n\nWhat it does not tell us is whether the articles would have passed. No count exists, and the referral was engineered so that none would. Do not read 211-204 as a proxy for the substantive vote: different coalition, different pressure.",
+   "forward_signal": "1) Whether Judiciary schedules a markup or lets the referral die silently; a hearing is the tell. 2) Whether the eight articles re-emerge as a discharge petition, which needs 218 and would force the recorded vote the referral avoided. 3) Senate calendar: a House impeachment without a trial is a message, not a removal. 4) Whether Hegseth treats the outcome as exoneration in public.",
+   "confidence_moves": "G leg: no move. Confirming datapoint on an already-loaded leg.",
+   "basename": "2026-11-10-hegseth-resolution-killed-by-referral"
+  },
+  {
+   "date": "2026-11-10",
+   "time_et": "14:49",
+   "track": "elite realignment / opposition party succession",
+   "mget_legs_tested": [
+    "T: is the elite conflict still internal, or has a replacement cadre formed",
+    "G: whether the opposition can produce a decision its own coalition accepts"
+   ],
+   "verdict": "strains",
+   "reasoning": "Jordan wins House Republican minority leader after Johnson's departure following the midterm losses. This settles a contest already formalised at /space/note/2026-11-05-week0-baseline-audit-leadership-cards.json card 3: the week-0 baseline named Scalise (70); the restated two-candidate form named Jordan. The restated form was right and the baseline leg misses.\n\nThe direction of the miss is the informative part. The caucus picked the fighter over the whip, the member who lost three floor Speaker votes over the member with the vote-counting operation. That is a coalition choosing combat over management immediately after losing an election it was expected to win.\n\nWhy this STRAINS T rather than confirming it. The T leg asks whether conflict has moved outside the elite, into a formation that could replace it. A party installing its most combative figure is consistent with either branch: it can be a turn outward, mobilising against the settlement, or it can be ordinary out-party behaviour, since minority leaders are attack dogs by function and McCarthy, Pelosi and McConnell all held the post on the way up. Jordan's ceiling argues for the first reading, because he has no majority path and the springboard does not exist for him. But one leadership ballot cannot separate a functional role from a strategic turn, and reading it as the turn would be the over-read the leg is built to prevent.\n\nWhat would settle it: whether the minority leader's office organises outside the chamber, in litigation, state-level pressure or primary campaigns, rather than confining itself to floor and message strategy.",
+   "forward_signal": "1) Whether Jordan's office funds or coordinates primary challenges to members who voted for the referral or the war. 2) Whether minority-leader messaging moves from the chamber to movement infrastructure. 3) Scalise's disposition: a management figure sidelined is a datapoint on which coalition won. 4) Whether the 2028 nomination contest is fought inside the conference or outside it.",
+   "confidence_moves": "T leg: no move. One leadership ballot is a role assignment, not evidence of a replacement cadre.",
+   "basename": "2026-11-10-jordan-elected-minority-leader"
+  },
+  {
+   "date": "2026-11-10",
+   "time_et": "07:51",
+   "track": "enclosure / press access",
+   "mget_legs_tested": [
+    "E: who ends up owning the substrate everyone depends on (access to the record)",
+    "prior corpus: credential moves vs conduct moves"
+   ],
+   "verdict": "confirms",
+   "reasoning": "At Hegseth's first Pentagon press conference in six months, a security agent warned reporters they would be PHYSICALLY REMOVED from the room if not \"professional\" and maintaining \"decorum\". Asked whether that forbade shouted questions, no clarity was given. AP's Tara Copp reports it as the first time any of them could remember being threatened this way.\n\nThe timing is the load-bearing fact: 7:51 AM, presser scheduled 8:00. The constraint was issued before the event it governs, before any conduct occurred. A rule announced in advance of the behaviour it claims to regulate is not a response to disorder; it is a condition of entry.\n\nThe variant is precise. Prior enclosure moves in this corpus are CREDENTIAL moves: who may be in the room, as in the 09-10 vanguard split and the October ban and revocations. This is a CONDUCT move. The credential is intact and the body can be removed from the room while holding it. That is one step further along the same axis, and it is the step that makes the credential worth less than it was. Access granted on condition of behaviour is not access; it is a licence revocable at the discretion of the subject being covered.\n\nConfirms E. The leg's claim is that enclosure proceeds by converting shared substrate into owned substrate, and the press room is the substrate through which everything else in this corpus becomes visible.",
+   "forward_signal": "1) Whether a reporter is actually removed: the threat without an execution is a fence, an execution is a precedent. 2) Whether the Press Association or a bureau files a complaint, and whether the Pentagon answers in writing. 3) Whether pooled coverage replaces open access for the briefing room. 4) Whether the same conduct rule appears at State or the White House briefing room within 30 days; diffusion is the tell that this is policy and not one secretary's temper.",
+   "confidence_moves": "E leg: no move (velocity rule; the threat is not yet an execution).",
+   "basename": "2026-11-10-pentagon-briefing-room-removal-threat"
+  },
   {
    "date": "2026-11-09",
    "time_et": "09:20",
@@ -13192,7 +13276,7 @@
   ]
  },
  "counts": {
-  "items_today": 0,
+  "items_today": 3,
   "tracked_predictions": 102,
   "claims_tested": 29,
   "unscored_predictions": 0
@@ -15734,7 +15818,7 @@
       "raw": 1,
       "per_100_journal": 5.0,
       "journal": 20,
-      "ledger": 73,
+      "ledger": 79,
       "days_covered": 10
      }
     ],
@@ -15852,7 +15936,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-11 19:08Z",
+  "generated": "2026-11-11 19:14Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {

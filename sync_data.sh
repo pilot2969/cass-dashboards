@@ -668,11 +668,30 @@ for _wf in "Morning Wire $_TODAY.md" "Evening Wire $_TODAY.md"; do
   fi
 done
 
+# PROMOTION (2026-11-11): the live board is GENERATED from preview.html, never hand-copied.
+# Two boards drifted apart for a week — preview.html carried the restructure while
+# Internal Telemetry.html served the pre-restructure page from the site root — because
+# "promote" was a manual copy nobody had a rule for. Now the source of truth is the file
+# the gate reads (preview.html) and the live file is derived from it on every run, with the
+# staging furniture stripped. A push can no longer ship a live page the gate never saw.
+python3 - <<'PY2'
+import re
+src=open("preview.html",encoding="utf-8").read()
+out=src
+out=re.sub(r'<div class="mockbar">.*?</div>\n?','',out,flags=re.S)
+out=re.sub(r'<title>.*?</title>','<title>CASS — Continuity and Absorption Signal Stack</title>',out,count=1)
+out=out.replace('v4.31-preview','v4.31')
+out=re.sub(r'<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — staging preview build\..*?</div>',
+ '<div class="note" style="margin-top:14px"><span class="ftver">v4.31</span> — live build. The version in this footer appears in the change-log entry below, which is the only way a reader can tell which build they are looking at.</div>',out,flags=re.S)
+open("Internal Telemetry.html","w",encoding="utf-8").write(out)
+print("promoted: preview.html -> Internal Telemetry.html (%d bytes, mockbar %s)"%(len(out),"removed" if 'mockbar"' not in out else "STILL PRESENT"))
+PY2
+
 # canonical-source amendment (2026-10-09): Daily Read.md is the canonical source
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json mget_state.json internal_cards.txt
+git add data.json history.json preview.html "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json mget_state.json internal_cards.txt
 # v3.11.1: the commit trailer asserted "(data-only)" on every run, including releases
 # that changed the footer version and the dictionary — a label that contradicts the
 # artifact it sits on. Derive it from the tree: shell/dictionary/README changed = release.
