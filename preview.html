@@ -28,7 +28,7 @@ details.fold{margin:12px 0 0;border:1px solid #22304a;border-radius:9px;backgrou
 details.fold>summary{cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center;flex-wrap:wrap;padding:11px 13px;min-height:20px}
 details.fold>summary::-webkit-details-marker{display:none}
 details.fold>summary:hover{background:#141c29}
-details.fold>summary h3.subhead{margin:0}
+details.fold>summary h3.subhead{margin:0!important}
 details.fold>summary .foldcue{margin-left:auto;font:700 9.5px/1 ui-sans-serif;letter-spacing:.12em;color:var(--acc);border:1px solid #2c3a4f;border-radius:5px;padding:4px 6px;white-space:nowrap}
 details.fold>summary .foldcue::after{content:"OPEN ▾"}
 details.fold[open]>summary .foldcue::after{content:"CLOSE ▴"}
@@ -458,6 +458,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <details class="fold"><summary>
 <h3 class="subhead" style="margin-top:22px">3.5 · Corpus composition — channel, target, theme <span class="tag t-state">new, 2026-11-06</span></h3><span class="foldcue"></span>
 </summary>
+<div class="foldbody">
 <div class="panel">
 <p class="note" style="margin-top:0">The velocity block above counts <b>how many</b> specimens arrive. This block says <b>where they came from and who they are aimed at</b>, because the rate alone cannot tell a supply-side push from an audience-side pull — the two move the same counter. Three fields carry it: <code>channel</code> (how the record reached the collector), <code>aim</code> (who is the degraded object), and the existing theme enum. Definitions are printed under the tables, not kept in a protocol file.</p>
 <table><thead><tr><th>Channel</th><th>What it means</th><th class="num">n</th><th class="num">share</th><th class="barcell"></th></tr></thead><tbody id="c3ch"></tbody></table>
@@ -522,12 +523,14 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
  th.append(tr);});
 })();
 </script>
+</div>
 </details>
 
 
 <details class="fold"><summary>
 <h3 class="subhead" style="margin-top:22px">3.6 · Instrument register — what each leg can actually see <span class="tag t-state">rebuilt, 2026-11-06 17:06</span></h3><span class="foldcue"></span>
 </summary>
+<div class="foldbody">
 <div class="panel">
 <p class="note" style="margin-top:0">Section 3 counts arrivals. This register says, leg by leg, whether a <b>number exists</b>, whether it has a <b>baseline to sit against</b>, and what would make us <b>retire</b> the instrument. Since 16:59 the two blank legs are no longer blank: legs 1 and 2 were rebuilt on <b>external series that already covered the period</b> rather than on fields this desk does not have. Definitions live in <code>/space/instrument/</code>; each object carries its inclusion rule, its sample bias, its falsifier and its kill condition.</p>
 <table><thead><tr><th style="width:19%">Leg</th><th>Source</th><th class="num">baseline</th><th>reads</th><th>kill condition</th><th>retirement rule</th></tr></thead><tbody>
@@ -568,12 +571,14 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 
 <p class="note"><b>Read this as the board's honesty layer.</b> Four legs now have a number. <b>One fired, one drifting, two measured but thin</b> — leg 1 rests on an annualised estimate with a definitional break underneath it, leg 2 on a rate whose meaning depends on a split nobody has coded. Quote it as <b>1 of 4 fired, 4 of 4 instrumented, 2 of 4 thin</b>. The previous line on this panel, "1 of 4 legs measured", is retired because it is no longer true.</p>
 </div>
+</div>
 </details>
 
 
 <details class="fold"><summary>
 <h3 class="subhead" style="margin-top:22px">3.7 · Historical base rate — 25 control cases, 1517–2026 <span class="tag t-state">new, 2026-11-06</span></h3><span class="foldcue"></span>
 </summary>
+<div class="foldbody">
 <div class="panel">
 <p class="note" style="margin-top:0">The MGET legs were scored, but never against anything. This block takes every case in <code>/space/mget_control</code> (25), reads its four leg bands and its leg loads out of the case file, and sets them against <b>what actually happened in the window</b> — coded by hand into a <code>event_class</code> register with the basis stated per case, not inferred from the desk's own verdict and not from the model's score. Three fields are kept apart on purpose: <b>event</b> (what happened), <b>model score</b> (whether the desk's call held: 13 pass, 4 pass-on-class/miss-on-rupture, 2 strain, 1 pending, 1 open, 4 unclassified), and <b>leg bands</b> (what the instrument read). Mixing them is how a failed prediction becomes a passing one.</p>
 
@@ -592,12 +597,14 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <p class="note" style="margin-top:0">The four legs are not four of the same thing, and scoring them the same way is the defect this table exposes. <b>Legs 1–3 are pressure</b> — continuous state variables, chronically elevated in any late-modern society, useful as an index of strain and useless as a classifier. <b>Leg 4 is conversion</b> — the variable that decides whether stored pressure discharges into a rupture or vents as reform. Turchin's own structure has the same asymmetry: elite overproduction is a slow structural trend across whole centuries, while elite disunity and legitimation failure are what cluster at the break. From this build the legs are scored separately: a <b>pressure index</b> (mean of legs 1–3, continuous, no threshold claims) and a <b>conversion read</b> (leg 4 band). Case-level falsifier: if leg 4 quiet cases begin rupturing as the 2026 window resolves, the selector is dead and the legs revert to a single pooled score.</p>
 <p class="note"><b>What is still missing.</b> Only 6 of 25 cases are ruptures, and the control set is not a random sample — it is the cases the desk chose to run, which over-weights crises it found interesting. The base rates above are base rates <i>of this panel</i>, not of history. Filling that needs quiet windows drawn on a rule (every fifth year, say) rather than on interest, which needs series for legs 1–3 that go back far enough — the leg 1 and leg 2 external series start in 1948 and 2000 respectively, so anything before 1948 is being scored off desk judgement, and the table says so by leaving the loads blank where the case file has no score.</p>
 </div>
+</div>
 </details>
 
 
 <details class="fold"><summary>
 <h3 class="subhead" style="margin-top:22px">3.8 · The panel is an S&amp;H panel — and that changes what it can prove <span class="tag t-state">new, 2026-11-06</span></h3><span class="foldcue"></span>
 </summary>
+<div class="foldbody">
 <div class="panel">
 <p class="note" style="margin-top:0">Correction to 3.7. The 25 control cases were not picked for being interesting crises; they were drawn from the <b>Strauss &amp; Howe saeculum calendar</b>, which is the thing the whole apparatus exists to test. That is a stronger bias than interest, and a different one: the cases were selected <i>on the theory's own prediction of when regimes break</i>. Twenty-two of twenty-five map onto a turning, and every canonical Fourth Turning in the Anglo-American sequence is present (1773–94, 1860–65, 1929–46, 2008–). So the P(rupture) column in 3.7 is partly a property of the inclusion rule, not a finding about history. A panel built from a crisis list will find crises.</p>
 <p class="note">What the panel <i>can</i> do is the thing worth doing. Selection was on S&amp;H's window, <b>not</b> on the leg readings — so any discrimination the legs achieve <i>inside</i> a predicted crisis window is not contaminated by how the cases were chosen. That is the one non-circular test available here, and it is the test MGET has to pass to earn a place beside S&amp;H rather than under it.</p>
@@ -620,12 +627,14 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <p class="note"><b>Two live calls fall out of this, both falsifiable.</b> (1) <b>France 2026</b> sits in its own Fourth Turning with leg 4 at 0.27 — quiet. The read is that the Fifth Republic survives the current crisis in institutional form, whatever happens to the government. (2) <b>The 2008– window</b> has leg 4 unparsed at the window level and elevated in three of eight sub-windows, never fired. The read is a regime-level rupture before 2029 only if leg 4 climbs into the fired band; on the current panel that has happened in the American Revolution and the French Revolution and nowhere else. If the window closes with leg 4 never fired and the regime nonetheless breaks, the leg-4 selector is dead.</p>
 <p class="note"><b>The limit, stated plainly.</b> This panel cannot test whether turnings exist. Testing S&amp;H requires windows drawn by rule without reference to the calendar — a fixed-year draw (every fifth year, say) scored blind, plus S&amp;H's own non-crisis predictions as matched controls. Until that exists, the honest claim is narrow: <i>within windows S&amp;H named as crises, a leg-4 reading separates the ones that resolved the regime question from the ones that did not.</i> That is a claim about a supplement to the theory, not a proof of the theory.</p>
 </div>
+</div>
 </details>
 
 
 <details class="fold"><summary>
 <h3 class="subhead" style="margin-top:22px">3.9 · The blind draw — what the calendar is actually worth <span class="tag t-state">working tool, 2026-11-06</span></h3><span class="foldcue"></span>
 </summary>
+<div class="foldbody">
 <div class="panel">
 <p class="note" style="margin-top:0"><b>The test that was missing.</b> 3.8 could only test discrimination <i>inside</i> windows S&amp;H named. This section tests the naming itself, on a panel the calendar had no hand in selecting: <b>every 5th year from 1690 to 2020, forward 10-year window, per polity</b> — 272 windows across the US, UK, France and Germany. Rule fixed before events were coded; the draw is blind, the event coding is desk work and is shown in full so it can be attacked.</p>
 <p class="note"><b>Rupture</b> means replacement or reconstitution of the constitutional order — independence, a new constitution, a change of sovereign form. Not a change of government, not a change of party. 20 events: US 3, UK 2, France 10, Germany 5. Six further windows carry a constitutional mutation with the form retained (1832 and 1911 UK, 1933 US) and are coded <i>not rupture</i>.</p>
@@ -665,12 +674,14 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <p class="note"><b>The signature is saturated and that is the one thing it cannot tell you.</b> Twelve of twelve live is what a crisis window looks like by construction — these features were chosen because they appear in every turning, so of course 2026 has them; 2026 is inside a turning. This table is a <b>necessary-condition checklist</b> for the desk: it says the window is real in the sense that the conditions for resolution are assembled. It says nothing about which way it resolves. The resolution question still runs on leg 4, which sits at <b>elevated, not fired</b>: elite fracture is visible and public, but no faction has fused with a command apparatus. That is the gap between 1776 and 1929–46 in 3.8, and it is the single number to watch.</p>
 <p class="note"><b>What this tool will not do.</b> It will not call the outcome. On the record from 3.8 and 3.9 together: the calendar's timing edge is 1.8× and Anglo-scoped; the legs discriminate only through leg 4; the signature detects that a window is open and cannot rank resolutions. Anything stronger than that is being supplied by the analyst, not the instrument — and the instrument is now precise enough that a claim it cannot carry should be marked as a judgment call in the prose.</p>
 </div>
+</div>
 </details>
 
 
 <details class="fold"><summary>
 <h3 class="subhead" style="margin-top:22px">3.10 · Pre-registered replication — and it does not replicate <span class="tag t-state">2026-11-06, run</span></h3><span class="foldcue"></span>
 </summary>
+<div class="foldbody">
 <div class="panel">
 <p class="note" style="margin-top:0"><b>Rule frozen before coding</b> (<a href="../../MGET/prereg-replication.json" style="color:var(--blue)">prereg-replication.json</a>): four settler polities (Canada, Australia, New Zealand, Ireland) plus deeper English time 1485–1688. Same rupture definition as 3.9, contentious cases deliberately excluded (EEC 1973, Brexit 2020) so the omission cannot inflate the count.</p>
 <table><thead><tr><th style="width:40%">panel</th><th class="num">in window</th><th class="num">null</th><th class="num">RR</th><th class="num">p</th></tr></thead><tbody>
@@ -685,6 +696,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <p class="note"><b>Every canonical window is drawn around an English or American rupture.</b> Codable check: the Glorious Revolution window 1675–1704 brackets 1688; the American window 1773–1794 brackets 1776 and 1787; the Civil War window 1860–1865 brackets 1861. Four more — Roses 1459–87, Reformation 1517–47, Armada 1580–1603, Puritan 1640–60 — bracket 1485, 1534, 1603 and 1649/1660. In other words <b>inside English history there is no clean test available at all</b>: the calendar was built from the events, so "the events fall in the windows" is close to definitional. The only windows in the entire system that were not fitted to the polity being tested are the ones the settler polities fall outside of.</p>
 <p class="note"><b>And the continental p-values are an artefact, not a result.</b> Hold France's events fixed and move only the year its clock starts: RR 2.44 from 1680, 3.95 from 1789, 3.52 from 1815, <b>5.74 from 1871</b>. The significance level is being set by an arbitrary span choice. A test that swings that far on an input nobody measured is not ready to carry weight — that part is my tool being wrong, and it is the honest reason to distrust 3.9's 0.048 as well.</p>
 <p class="note"><b>Verdict.</b> This is now a hypothesis problem more than a tool problem. The calendar reliably describes the world it came from and does not extend beyond it. The tool is fine; the instrument is answering a question that was partly built into it. Usable position: <i>the saeculum is a periodisation of Anglo-American history that has not survived its first out-of-sample test.</i> It remains a legitimate framing device and a legitimate hypothesis; it is not yet a predictor, and the board must stop presenting its timing as confirmed.</p>
+</div>
 </div>
 </details>
 
