@@ -327,6 +327,32 @@ async function main(){
                     :pass('data.predictions_unique',`${ids.length} predictions, all unique`);
       }
 
+      // the watch: a top-level standing-claims panel, one row per open condition,
+      // and every row must carry an expiry. Added 2026-11-11 when the watch was
+      // promoted out of 2.1b to sit beside the record — it is the open half of the
+      // same accounting, and a count with no date on the face of the page is the
+      // exact defect the strip was built to prevent.
+      {
+        const wd=(dd.watch||{}), wc=wd.counts||{};
+        const open=(wd.rows||[]).filter(r=>true);
+        const shown=q('#watchBody tr').length;
+        const panel=!!gid('watchKpis')&&!!gid('watchBody');
+        panel?pass('watch.present:'+f,'watch panel rendered with KPI strip and table')
+             :fail('watch.present','watch panel missing — the standing-claims half of the record is not on the page');
+        shown===open.length?pass('watch.rows:'+f,`${shown} condition row(s) = ${open.length} open in the export`)
+          :fail('watch.rows',`${shown} rows rendered vs ${open.length} open conditions — the watch has drifted from the register`);
+        (wc.active===open.length)
+          ?pass('watch.count:'+f,`strip ${wc.active} active = ${open.length} rows`)
+          :fail('watch.count',`strip says ${wc.active} active but ${open.length} rows were exported`);
+        const undated=open.filter(r=>!r.expire||!/^\d{4}-\d{2}-\d{2}$/.test(String(r.expire)));
+        undated.length?fail('watch.dated',`${undated.length} open condition(s) carry no usable expiry — a watch with no date is permanent framing`)
+          :pass('watch.dated',`all ${open.length} open conditions carry an expiry`);
+        const kpi=txt(gid('watchKpis')?.textContent);
+        (wd.next&&kpi.includes(String(wd.next)))
+          ?pass('watch.next:'+f,`nearest expiry ${wd.next} printed on the strip`)
+          :fail('watch.next',`nearest expiry ${wd.next||'(none)'} not shown on the strip`);
+      }
+
       // the record: one row per resolved card, and it must equal the export
       {
         const rr=(REC.rows||[]);

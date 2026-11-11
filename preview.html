@@ -249,6 +249,10 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 #recBody .rbody p{margin:0 0 2px;font-size:12.5px;line-height:1.6}
 .rectablewrap::-webkit-scrollbar{width:9px}
 .rectablewrap::-webkit-scrollbar-thumb{background:#2c3a4f;border-radius:5px}
+.wtablewrap{max-height:430px;overflow-y:auto;border-radius:8px}
+.wtablewrap::-webkit-scrollbar{width:9px}
+.wtablewrap::-webkit-scrollbar-thumb{background:#2c3a4f;border-radius:5px}
+.wtablewrap thead th{position:sticky;top:0;background:#0d151f;z-index:2}
 </style></head>
 <body>
 <div class="mockbar"><b>STAGING PREVIEW</b><span>v5 — revisions applied — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
@@ -291,6 +295,16 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <div id="recStrip"></div>
 <div class="rectablewrap"><div id="recBody"><div class="note" style="margin:12px">Loading…</div></div></div>
 <div class="note" id="recNote"><b>Three questions per call, not one.</b> <b>Event</b> asks whether the named thing happened — that is the only question a deadline can settle, and it is the one scored. <b>Mechanism</b> asks whether the chain of causes the card described actually ran; several cards failed the event while their mechanism fired, which is a different result from being wrong about the world. <b>Ended by</b> asks whether the call died because the world went the other way or because our own clock ran out — a card that expires unresolved is a MISS by rule, but it is not the same evidence as one the world contradicted.</div>
+
+<h2>The watch — the standing claims still open, and when each one expires</h2>
+<div class="secintro">
+  <p>The record above is what has closed. This is what is still open: <b>seventy-six conditions we have put on the record and are waiting on</b>, each carrying the date we stop waiting. They are the same kind of claim as a forecast card, and they are held to the same rule — a condition with no date is not a watch, it is permanent framing. Every open condition carries one, and the strip prints the nearest so the page cannot age in silence.</p>
+</div>
+<div class="panel">
+ <div class="wkpis" id="watchKpis"></div>
+ <div class="wtablewrap"><table><thead><tr><th style="width:52%">Condition</th><th style="width:12%">Priority</th><th style="width:16%">Expires</th><th class="num" style="width:20%">Days left</th></tr></thead><tbody id="watchBody"></tbody></table></div>
+ <div class="note" id="watchNote"></div>
+</div>
 
 <h2>2 · The MGET model — macro to micro</h2>
 <div class="subhead">2.1 Macro · model state</div>
@@ -340,14 +354,6 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
   </div>
 </div>
 
-
-<div class="subhead">2.1b · Threshold watch — the open conditions, each with the date it expires</div>
-<div class="panel">
- <div class="note" style="margin-top:0;color:#c3d2e6">A watch with no expiry is not a watch, it is permanent framing — twenty of these were sitting past their own dates until the 11-09 pass. Every active condition now carries a date, and this strip prints the nearest one so the page cannot age in silence.</div>
- <div class="wkpis" id="watchKpis"></div>
- <table><thead><tr><th style="width:52%">Condition</th><th style="width:12%">Priority</th><th style="width:16%">Expires</th><th class="num" style="width:20%">Days left</th></tr></thead><tbody id="watchBody"></tbody></table>
- <div class="note" id="watchNote"></div>
-</div>
 
 <div class="subhead jtarget" id="sec-2-2">2.2 Micro · what feeds each leg</div>
 <div class="panel">
@@ -808,9 +814,10 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 
 
 <h2>8 · Change log</h2>
-<div class="note" style="margin-top:0">Every build that changed a reading, a claim or a panel's meaning, newest first — 22 entries. This is the audit trail rather than board content, so it is folded: open it when you want to know what moved and why.</div>
-<details class="fold" id="changelog"><summary><h3 class="subhead" style="margin:0">8.1 · Full change log — 22 entries, newest first</h3><span class="foldcue"></span></summary>
+<div class="note" style="margin-top:0">Every build that changed a reading, a claim or a panel's meaning, newest first — 23 entries. This is the audit trail rather than board content, so it is folded: open it when you want to know what moved and why.</div>
+<details class="fold" id="changelog"><summary><h3 class="subhead" style="margin:0">8.1 · Full change log — 23 entries, newest first</h3><span class="foldcue"></span></summary>
 <div class="scroll"><table><thead><tr><th style="width:11%">Date</th><th style="width:13%">Version</th><th>What changed</th></tr></thead><tbody>
+<tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.33-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>The watch moves up beside the record, where the other dated claims are.</b><br><br>The Threshold Watch was carried as <i>2.1b</i>, a sub-panel inside the model section — which put the open half of our public accounting under a heading about anchors. It is now a top-level panel directly after the record, and the pair reads as one thing: <b>what has closed</b> above, <b>what is still open and when we stop waiting</b> below. The table is scrollable and lists <b>all 76 open conditions</b> soonest-expiry first, rather than the 10 that fitted; every condition carries a date, and the two defect counters (no date / past its own date) stay printed on the strip. Nothing about the register changed — this is placement and completeness. Gate: <code>watch.present</code>, <code>watch.rows</code>, <code>watch.count</code>, <code>watch.dated</code>, <code>watch.next</code> — the panel can no longer be dropped, truncated or dated against the register without failing the push.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.31</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure promoted to the live board.</b><br><br>The live page is generated from this one on every sync: staging bar stripped, title changed, footer reads the live build. The file the gate reads is now the file that ships, which was not true for the week the two boards drifted apart.<br><br><b>MGET ledger backfilled for 11-10 and 11-11</b> (six entries): the Hegseth referral 211-204, Jordan as minority leader, the Pentagon briefing-room removal threat, the Scharf oversight letter, cabinet members in base housing over FORTRESS, and the USDA SNAP proposed rule.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.32-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>The record, and the number it corrected.</b><br><br>Every closed forecast is now on the page, above the model, adjudicated three ways: <b>event</b> (did the named thing happen), <b>mechanism</b> (did the chain the card described actually run), and <b>ended by</b> (did the world go the other way, or did our own clock run out). <b>Fourteen closed: seven right, seven wrong.</b> Misses first, nothing softened, each row opening onto the condition as written before the outcome was known.<br><br><b>This corrected a claim I had made on this page.</b> A draft of the launch note said <i>two were wrong</i>. Seven were. The figure had been checked against earlier prose instead of the export — the exact fault this section exists to expose — and it was the most quotable sentence in the piece, so it was also the most damaging one to get wrong.<br><br><b>What the three-way split shows that a hit rate does not.</b> Five of the seven misses ended at our own clock, not on a contrary event; only the Hegseth resolution was contradicted inside the window it named. And <b>five of the seven misses had their mechanism fire in part</b> — the SPR card ran its price and physical-shock legs end to end and died on a fatality threshold that was never fielded; the Omar card's enforcement frame reappeared aimed at a different target; the Iran nuclear card's declaratory rungs went up with no technical rung beneath them. A binary scores those as losses. They are not the same kind of loss, and the register should not flatten them. <b>What the split does not yet show is mechanism outperforming the event bit</b>: no miss carries a fully confirmed mechanism, so on this sample the two questions rank the cards identically and the three-way read is diagnostic, not (yet) predictive.<br><br><b>No rate is printed, deliberately.</b> At ten scorable cards the event-level Brier is 0.2438 against 0.2500 for always saying fifty-fifty — a skill of <b>+2.5%</b>, which is indistinguishable from no edge. Publishing a percentage there would invite a precision the data cannot carry. The counts are the finding: the model was, correctly, unsure, and one card that carried real conviction (Iran naval escalation, 88%) was wrong.<br><br><b>Gate:</b> <code>record.rows</code> fails if the adjudicated rows ever stop equalling the resolved cards in the export, so the record cannot drift from the register it describes.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.31-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Two counts on the page were typed by hand and had drifted; both are now computed.</b><br><br>(1) <b>The register note said twelve cards carry an outcome and quoted 21% and 17%.</b> Fourteen carry one now, and the table beside it already said so — the note was a paragraph of arithmetic that nothing recomputed. It is built from the export on every run: resolutions, how many sit on held-out cards, and both rates, each with its own denominator.<br><br>(2) <b>The wire-ledger note said 469 entries.</b> The ledger holds 487. It reads the export now rather than remembering a number.<br><br>(3) <b>The Daily Read carries two stories filed after the morning edition.</b> The cabinet members living on military bases, and the White House letter warning that oversight could be criminal. Both are five-beat cards in the public voice.<br><br>No reading changed. The point is that a number a reader can check should never be the one part of the page nobody recomputed.</td></tr>
@@ -839,7 +846,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-05</td><td style="white-space:nowrap;vertical-align:top"><b>v3.99-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</td></tr>
 </tbody></table></div>
 </details>
-<div class="note" style="margin-top:14px"><span class="ftver">v4.32-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+<div class="note" style="margin-top:14px"><span class="ftver">v4.33-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 <h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
 <div class="note" style="margin-top:0">The full record, kept at the foot of the page rather than the head of it. The plain-language summary sits in the intro; this is the evidence behind it: seven v1 claims, the test that moved each, and what the board says now. Nothing here is smoothed — where a claim died, the death is dated.</div>
 <details class="dr" id="beliefledger">
@@ -1108,7 +1115,7 @@ function renderFlow(fl){
 function watchDays(d){return d==null?"–":(d<0?Math.abs(d)+" past":d===0?"today":d+" d");}
 function renderWatch(w){
   if(!w||!w.counts){ if($("watchNote")) $("watchNote").textContent="No watch list in this export."; return; }
-  const c=w.counts, rows=(w.rows||[]).slice(0,10);
+  const c=w.counts, rows=(w.rows||[]).slice();
   const next=w.next?esc(w.next):"none";
   $("watchKpis").innerHTML=
     '<div class="wkpi ok"><div class="lab">Active conditions</div><div class="val">'+c.active+'</div><div class="sub">'+c.fired+' fired · '+c.expired+' expired · '+c.retired+' retired</div></div>'+
@@ -1122,7 +1129,7 @@ function renderWatch(w){
     const dcol=dl==null?"var(--dim)":dl<0?"var(--hot)":dl<=7?"var(--warm)":"var(--ink)";
     return '<tr><td>'+esc(r.title||"")+'</td><td>'+chip+'</td><td>'+esc(r.expire||"—")+'</td><td class="num" style="color:'+dcol+'">'+watchDays(dl)+'</td></tr>';
   }).join("");
-  $("watchNote").innerHTML="Showing the <b>"+rows.length+"</b> conditions closing soonest of <b>"+c.active+"</b> open; the full list is the watch register in <code>/space/watch</code>. "+
+  $("watchNote").innerHTML="<b>"+rows.length+"</b> open conditions, soonest expiry first — scroll the table for the rest. The full register, with the check for each condition and what triggers it, is <code>/space/watch</code>. "+
     (c.active_no_expiry? '<b style="color:var(--hot)">'+c.active_no_expiry+' active condition(s) carry no expiry — a defect, printed rather than smoothed.</b> ':"All open conditions carry a date. ")+
     "A condition that fires is a finding, not a score; the expiry only fixes when we stop waiting and say so.";
 }
