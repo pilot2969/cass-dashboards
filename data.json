@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T08:22 ET"
+  "generated_stamped": "2026-11-12T09:20 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -4794,7 +4794,7 @@
     "whether the refusal language appears in a party committee statement, the difference between a senator and the party",
     "whether the count-refusal frame and the dehumanization corpus begin sharing vocabulary \u2014 that coupling is the actual thesis and is not yet observed"
    ],
-   "tracking_state": "Anchor verified 2026-11-11 and reads option (a) of the source watch item: a state-level posture about Mississippi's own count, in the one state with no statutory recount mechanism. It does not itself satisfy this card's resolution clause, which requires a named national Republican refusing a certified result in a state OTHER than Alaska. Count remains zero. Colom's lead widened to just under 2,500 votes with a 2026-11-13 county transmission deadline; the live question is whether Hyde-Smith carries the refusal past certification on 11-13, and whether any named national figure picks it up. Watch /space/observation for the 11-09 'where is Cindy Hyde-Smith' absence pattern.",
+   "tracking_state": "Anchor verified 2026-11-11 and reads option (a) of the source watch item: a state-level posture about Mississippi's own count, in the one state with no statutory recount mechanism. It does not itself satisfy this card's resolution clause, which requires a named national Republican refusing a certified result in a state OTHER than Alaska. Count remains zero. Colom's lead widened to just under 2,500 votes with a 2026-11-13 county transmission deadline; the live question is whether Hyde-Smith carries the refusal past certification on 11-13, and whether any named national figure picks it up. Watch /space/observation for the 11-09 'where is Cindy Hyde-Smith' absence pattern.\n\nRESOLVED INSTANCE 2026-11-11. Hyde-Smith conceded to Colom in a video posted to social media on the evening of 11-11 - 'While this is not the outcome we worked for or hoped for, I respect the decision of Mississippi voters' - before the 11-13 county transmission deadline and before certification. The refusal lasted five days and ended in concession, not in a contest. Card remains UNRESOLVED and count remains zero: the resolution clause needs a named national Republican refusing a CERTIFIED result in a state other than Alaska, and this is a defeated candidate declining to contest her own. Resolution note for the record: the episode is the strongest evidence yet for the 72-hour card's internal-repair branch - even the one named refusal inside the window converted to acceptance without an institutional carrier. Non-resolution of this card is now mildly informative in the direction opposite to its premise.",
    "basename": "2026-11-06-count-refusal-second-state",
    "confidence": 40,
    "grace_horizon": "0 days \u2014 grace not pre-registered"
@@ -13226,6 +13226,9 @@
  ],
  "daily_read": {
   "summary": [
+   "[09:20] Nvidia's chief executive resigned nine days after the first spy report",
+   "[09:10] The government now plans to sell public land, not just lease it",
+   "[09:05] A strike on a Gaza hospital killed six people, including the surgeon on duty",
    "[08:20] Mississippi elected a Black senator for the first time since 1874 \u2014 by fewer than 5,000 votes",
    "[08:15] The US is emptying its British airbases one at a time, and calling it a threat response",
    "[08:10] A sentinel at the Tomb of the Unknown Soldier rebuked the Defense Secretary. Nobody above him has.",
@@ -13233,6 +13236,8 @@
    "[08:00] China's AI firms are renting Nvidia capacity abroad \u2014 and 240,000 banned chips is the number to hold"
   ],
   "watching": [
+   "Whether Nvidia names a permanent chief executive, and what the choice says about China exposure",
+   "Whether the Commerce Department moves on remote access to computing capacity rather than chip shipments",
    "Whether Alaska is called, and whether the Democratic Senate majority is 55 or 56",
    "Whether a third British base is thinned, and whether the dispersed aircraft return before the new Congress is seated in January",
    "Whether any serving officer says anything publicly about the conduct of the Defense Secretary",
@@ -13242,6 +13247,18 @@
   ],
   "date": "2026-11-12",
   "cards": [
+   {
+    "title": "[09:20] Nvidia's chief executive resigned nine days after the first spy report",
+    "html": "<p><i>The company removed the man at the centre of a national-security story before the state did.</i></p>\n\n<p><b>What happened.</b> Nvidia's board announced on Thursday morning that Jensen Huang had resigned as president, chief executive and board member, effective immediately, after 33 years. Chief financial officer Colette Kress becomes interim CEO. The board met on Wednesday night, after the company opened an investigation into his relationship with Alice Huang \u2014 a former Megaspeed director whom US intelligence has assessed to be an asset of China's Ministry of State Security \u2014 and after a second allegation involving a company employee was reported. Roughly $600 billion had come off Nvidia's market value in the preceding days; the company would not confirm the figure. No charges have been filed against anyone, and no enforcement action has been announced.</p>\n\n<p><b>Why it matters.</b> Nvidia is not a company with a strategic role; it is the physical bottleneck of the entire AI buildout, and the chips it sells are the object of US export control. A chief executive leaving for national-security reasons at that company is a governance event in the supply chain itself. Note the mechanism: the board acted, not the state. There is no indictment, no subpoena described in public, no export penalty. A board removed its founder to protect contracts, licences and customers \u2014 the fastest-moving legitimacy instrument in this whole story was a corporate one.</p>\n\n<p><b>The pattern.</b> For a year, Washington has tried to police advanced computing by controlling shipments. The alleged diversion here ran a different route: Megaspeed, a cloud firm, is accused of renting out roughly 240,000 export-banned chips to Chinese customers through Singaporean shell companies \u2014 access to capacity rather than sale of hardware. And in nine days, what changed was not the rule. It was who runs the chokepoint.</p>\n\n<p><b>What history says.</b> Two precedents are close. Boeing's board replaced its chief executive in December 2019, before regulators finished, because certification risk threatened the order book. And in 1987 Toshiba's chairman and president resigned over the diversion of milling machines to the Soviet Union \u2014 the firm's own leadership fell before Congress imposed sanctions, and the internal action was what preserved its access to the American market. When a strategic firm is caught in an export scandal, the company removes the principal to keep the licence. That is a rational, well-worn move, and it is also a way of ensuring the state never has to rule on the underlying question.</p>\n\n<p><b>What we're watching next.</b> Whether Kress is made permanent or an outside candidate is chosen, and what either signals about China exposure. Whether the Commerce Department now moves on remote access to computing capacity rather than on chip shipments. Whether the criminal track appears at all \u2014 a referral, a grand jury, a charging document \u2014 because a resignation is not that, and the difference is now the whole of the accountability. And whether other firms in the chain disclose similar arrangements before they are reported.</p>\n\n<p>Sources: <a href=\"https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f\">AP</a>, <a href=\"https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns\">The Guardian</a>, <a href=\"https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout\">CNN</a>, <a href=\"https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/\">Wired</a></p>"
+   },
+   {
+    "title": "[09:10] The government now plans to sell public land, not just lease it",
+    "html": "<p><i>Enclosure by title transfer is not reversible by the next administration's rulemaking.</i></p>\n\n<p><b>What happened.</b> Interior's strategic plan for 2026 to 2030, presented on Tuesday, says the department \"will work to decrease the size of the federal estate by offering to states, localities and Tribes the opportunity to purchase federal lands,\" describing the goal as refocusing government on \"primary federal responsibilities and nationally significant federal lands.\" The same day, the Federal Register carried a notice for the direct sale of public land in Clark County, Nevada, for affordable housing purposes. No acreage total has been published.</p>\n\n<p><b>Why it matters.</b> Every enclosure channel this board has tracked for two months has been regulatory \u2014 a permit, a lease term, an access rule, a waiver. All of those are reversible: a new administration rewrites the rule and the land is still public. A sale is a title transfer. Once the deed moves, the land exits the federal estate permanently, and the decision is made at the moment of lowest political cost, because a sale to a county reads as localism and fiscal prudence rather than as disposal of a national asset.</p>\n\n<p><b>The pattern.</b> This is the leg-3 fence moving from use-rights to ownership, and it is arriving in the register these things always arrive in: no narrative heat, no gauge vocabulary, a departmental planning document and a routine Federal Register notice. It is the fourth such item this month to carry no story count above five.</p>\n\n<p><b>What history says.</b> The United States spent its first century disposing of the public domain \u2014 the Homestead Act of 1862, the railroad land grants, the state swamp-land transfers \u2014 and only closed that era in 1976, when the Federal Land Policy and Management Act declared retention to be the policy of the United States. That is the statute this plan works against, and it is a statute, not a regulation, which is why the disposal here is framed as a sale offered to other governments rather than as a change of policy. There is a legal path through FLPMA's disposal provisions. Whether the administration walks it properly is a live question, and the answer will be settled in court if it does not.</p>\n\n<p><b>What we're watching next.</b> Whether land moves by sale or by transfer to states \u2014 the second matters more, because a state can then sell to anyone. Whether Congress funds the machinery of disposal, since appraisal and conveyance cost money. Whether any aggregate acreage is ever published, because a plan with no number is a plan that cannot be audited. And whether the first challenge lands on FLPMA's disposal clause or on the environmental review that a sale would require.</p>\n\n<p>Sources: <a href=\"https://apnews.com/article/trump-public-land-sales-interior-9c6078b69f8525ab1b220e5aa321d62f\">AP</a>, <a href=\"https://thehill.com/policy/energy-environment/6214564-trump-admin-plans-land-sales/\">The Hill</a>, <a href=\"https://www.kuer.org/politics-government/2026-11-11/trump-admin-public-land-sales-strategic-plan\">KUER</a>, <a href=\"https://www.deseret.com/environment/2026/11/11/trump-administration-plans-to-sell-off-public-lands/\">Deseret News</a></p>"
+   },
+   {
+    "title": "[09:05] A strike on a Gaza hospital killed six people, including the surgeon on duty",
+    "html": "<p><i>The casualty count is the story everyone reports. The dead surgeon is the one that compounds.</i></p>\n\n<p><b>What happened.</b> An Israeli airstrike hit Nasser Hospital in Khan Younis in southern Gaza overnight into Thursday, killing at least six people and wounding 28, according to the hospital director and the Hamas-run Health Ministry. Among the dead were a general surgeon, a child and a disabled man. The Israeli military confirmed it carried out the strike. The hospital is one of the last functioning referral facilities in the south of the territory.</p>\n\n<p><b>Why it matters.</b> Counting bodies understates what a hospital strike does, because a hospital is capacity rather than a location. Killing the surgeon on duty does not only remove one death from the future; it removes the person who would have operated on the wounded from the next strike, and the one after that. Medical capacity in Gaza has been degraded by two years of this, and each strike is a subtraction from a stock that does not replenish at the rate it is being spent.</p>\n\n<p><b>The pattern.</b> Health care has been the recurring threshold test of this war. Every strike on a hospital produces the same sequence: condemnation, a promise to investigate, a finding that is never published, and another strike. What the sequence measures is not whether the rules of war exist on paper \u2014 they plainly do \u2014 but whether any institution is willing to enforce them against a party the enforcing states are aligned with. So far the answer has been no, consistently, and the consistency is the finding.</p>\n\n<p><b>What history says.</b> The closest precedent for accountability is Kunduz in 2015, when a US gunship destroyed an MSF trauma hospital and killed 42 people: the US admitted it, apologised, paid compensation, and court-martialled nobody. The hospital was still gone. Accountability after a hospital strike has proved possible; restoration of capacity has not. That is the standard to hold in mind when the investigation is announced, because an investigation that produces an apology has produced the maximum this record offers.</p>\n\n<p><b>What we're watching next.</b> Whether a third-party investigation is announced and, more importantly, whether it publishes. Whether medical bodies outside the region \u2014 the WMA, the ICRC, surgical associations \u2014 respond by name, which is the only response with any cost attached. Whether the ministry's casualty figures are independently corroborated by an organisation with staff on the ground. And whether the strike is absorbed into the general reporting on the war without the hospital named, which is how capacity loss stops being countable.</p>\n\n<p>Sources: <a href=\"https://apnews.com/article/gaza-israel-hospital-strike-people-killed-50b547b5a82388b6b415aee4d776fbfb\">AP</a>, <a href=\"https://www.npr.org/2026/11/12/nx-s1-6038339/israeli-strike-gaza-hospital\">NPR</a>, <a href=\"https://www.bbc.com/news/articles/ckzd9p7e4eqeo\">BBC</a>, <a href=\"https://www.theguardian.com/world/2026/nov/12/israeli-airstrike-nasser-hospital-gaza-kills-surgeon\">The Guardian</a>, <a href=\"https://www.cnn.com/2026/11/12/middleeast/israeli-strike-gaza-hospital-kills-six-intl\">CNN</a></p>"
+   },
    {
     "title": "[08:20] Mississippi elected a Black senator for the first time since 1874 \u2014 by fewer than 5,000 votes",
     "html": "<p><i>A seat Republicans have held for four decades turned on 0.5 of a point, and the Senate majority is now 55.</i></p>\n\n<p><b>What happened.</b> Scott Colom, a 43-year-old local prosecutor, defeated incumbent Senator Cindy Hyde-Smith in Mississippi, taking 49.2% to her 48.7% \u2014 fewer than 5,000 votes out of nearly a million counted. The AP called it on Wednesday, two days after polls closed; Hyde-Smith conceded that evening. Colom is the first Black person elected to the Senate from Mississippi, and the first from the state since Blanche Bruce, who was chosen by the state legislature and served from 1875 to 1881. Democrats now hold 55 seats. Alaska is still uncalled.</p>\n\n<p><b>Why it matters.</b> The margin is simultaneously the story and the least interesting part of it. Mississippi has not sent a Democrat to the Senate since 1982 and voted for Trump by more than 22 points in 2024; the state had not elected a Black senator in the 145 years since Reconstruction ended. Colom campaigned in all 82 counties, spoke to people in line at a Trump rally, and built an advertisement out of Hyde-Smith telling voters worried about beef prices to \"pick another protein.\" The result is the clearest evidence yet that the midterm wave reached places it was not projected to reach \u2014 and that the mechanism was cost of living rather than persuasion on immigration, which is the issue he did not run on.</p>\n\n<p><b>The pattern.</b> Wave elections are usually described by their national margin. This one is better described by its distribution: Senate seats in Texas, South Carolina, Kansas, Iowa and now Mississippi. A wave that converts a 22-point presidential state has stopped being a message about the administration and started being a message about household prices \u2014 and the party that reads it as a mandate for anything else will misread it.</p>\n\n<p><b>What history says.</b> Mississippi's last Black senator was a product of Reconstruction-era appointment, not election, and the gap between Bruce and Colom is the longest such interval in the country. The comparable case is 1992, when a wave converted seats nobody modelled and the incoming majority read its victory as a mandate for health care it could not pass. Waves are mandates only in the sense that they authorise; they do not instruct.</p>\n\n<p><b>What we're watching next.</b> Alaska, the last uncalled race, and whether the final Senate margin is 55 or 56. Whether Colom's coalition is reproducible in other Deep South states in 2028, or whether this was a price-driven one-off. And whether the national party reads the result as an argument about cost of living or about something it already wanted to do.</p>\n\n<p>Sources: <a href=\"https://www.bbc.com/news/articles/cw7vppyr80eeo\">BBC</a>, <a href=\"https://apnews.com/article/scott-colom-mississippi-senate-midterms-56c18f292a734443992f9466c3b0f346\">AP</a>, <a href=\"https://www.nytimes.com/2026/11/11/us/elections/mississippi-senate-colom-hyde-smith.html\">The New York Times</a>, <a href=\"https://www.washingtonpost.com/politics/2026/11/11/democrat-scott-colom-wins-mississippi-senate-race/\">The Washington Post</a></p>"
@@ -14888,37 +14905,17 @@
  "watch": {
   "generated": "2026-11-12",
   "counts": {
-   "active": 77,
+   "active": 75,
    "fired": 30,
-   "expired": 23,
+   "expired": 25,
    "retired": 5,
    "active_no_expiry": 0,
    "active_past_expiry": 0,
-   "high_open": 50
+   "high_open": 48
   },
-  "next": "2026-11-12",
-  "next_days": 0,
+  "next": "2026-11-13",
+  "next_days": 1,
   "rows": [
-   {
-    "title": "DOJ monitor roster and Guard election posture: does either get named on the record before Nov 3",
-    "added": "2026-10-29",
-    "expire": "2026-11-12",
-    "days_left": 0,
-    "priority": "high",
-    "status": "active",
-    "check": "Neff declaration (2026-10-28, NAACP v. DOJ) puts BOP, ATF and DEA employees on the monitor roster, expressly unarmed and non-identifying, with locations unfinalized and no internal deadline. Check in this order: (1) a final monitor location list filed before Nov 3, and whether it includes certification flashpoint counties (Alaska, Maricopa, Fulton, Philadelphia, Detroit, Milwaukee); (2) any single documented sighting of a BOP/ATF/DEA monitor in identifying federal attire or visibly armed \u2014 one instance voids the declaration's safeguards and hands NAACP its record; (3) Arlington County's TRO motion; (4) any adjutant general confirming or denying Klippenstein's all-50-states Guard mobilization",
-    "action": "On a documented uniformed/armed monitor: file immediately as a triggering event for c-002 and tell Samuel same-hour \u2014 it is the cleanest available evidence that the pre-legitimation apparatus has an enforcement arm rather than only a paperwork arm. On a confirmed Guard drop-box presence: open a separate c-002 sub-node; do not fold it into election-day-violence tracking, since the mechanism is certification, not violence. On nothing by Nov 3: record that the largest monitoring operation in DOJ history ran with no published location list, which is itself the finding."
-   },
-   {
-    "title": "Irregularity claim disposition count \u2014 named counties with case numbers vs atmospheric claims",
-    "added": "2026-11-03",
-    "expire": "2026-11-12",
-    "days_left": 0,
-    "priority": "high",
-    "status": "active",
-    "check": "By midnight 11-03 and again at 11-05, count irregularity claims that name a county, an authority and a remedy. Thresholds: >=5 such claims = monitoring; 0 named counties = pure frame. Also: does reporting skew to Democratic-leaning counties while Republican-county machine failures go unreported?",
-    "action": "Encode the count and the directional skew into the post-mortem as the frame's measured conversion rate. If the directional test fails (one-sided reporting), record the account as partisan instrument rather than integrity operation."
-   },
    {
     "title": "Wednesday watch window \u2014 Massie resolution aftermath (opened, then closed by a Tuesday-night disposition)",
     "added": "2026-11-10",
@@ -15672,26 +15669,6 @@
   ],
   "high": [
    {
-    "title": "DOJ monitor roster and Guard election posture: does either get named on the record before Nov 3",
-    "added": "2026-10-29",
-    "expire": "2026-11-12",
-    "days_left": 0,
-    "priority": "high",
-    "status": "active",
-    "check": "Neff declaration (2026-10-28, NAACP v. DOJ) puts BOP, ATF and DEA employees on the monitor roster, expressly unarmed and non-identifying, with locations unfinalized and no internal deadline. Check in this order: (1) a final monitor location list filed before Nov 3, and whether it includes certification flashpoint counties (Alaska, Maricopa, Fulton, Philadelphia, Detroit, Milwaukee); (2) any single documented sighting of a BOP/ATF/DEA monitor in identifying federal attire or visibly armed \u2014 one instance voids the declaration's safeguards and hands NAACP its record; (3) Arlington County's TRO motion; (4) any adjutant general confirming or denying Klippenstein's all-50-states Guard mobilization",
-    "action": "On a documented uniformed/armed monitor: file immediately as a triggering event for c-002 and tell Samuel same-hour \u2014 it is the cleanest available evidence that the pre-legitimation apparatus has an enforcement arm rather than only a paperwork arm. On a confirmed Guard drop-box presence: open a separate c-002 sub-node; do not fold it into election-day-violence tracking, since the mechanism is certification, not violence. On nothing by Nov 3: record that the largest monitoring operation in DOJ history ran with no published location list, which is itself the finding."
-   },
-   {
-    "title": "Irregularity claim disposition count \u2014 named counties with case numbers vs atmospheric claims",
-    "added": "2026-11-03",
-    "expire": "2026-11-12",
-    "days_left": 0,
-    "priority": "high",
-    "status": "active",
-    "check": "By midnight 11-03 and again at 11-05, count irregularity claims that name a county, an authority and a remedy. Thresholds: >=5 such claims = monitoring; 0 named counties = pure frame. Also: does reporting skew to Democratic-leaning counties while Republican-county machine failures go unreported?",
-    "action": "Encode the count and the directional skew into the post-mortem as the frame's measured conversion rate. If the directional test fails (one-sided reporting), record the account as partisan instrument rather than integrity operation."
-   },
-   {
     "title": "Wednesday watch window \u2014 Massie resolution aftermath (opened, then closed by a Tuesday-night disposition)",
     "added": "2026-11-10",
     "expire": "2026-11-13",
@@ -15750,6 +15727,26 @@
     "status": "active",
     "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.",
     "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
+   },
+   {
+    "title": "Iran: is any strike attributed on the record by both sides \u2014 or does escalation go unattributable",
+    "added": "2026-11-08",
+    "expire": "2026-11-18",
+    "days_left": 6,
+    "priority": "high",
+    "status": "active",
+    "check": "Through 2026-11-18: (1) any strike both Washington and Tehran acknowledge as the other's; (2) Gulf war-risk premia and insured hull losses against the tracked air picture \u2014 a premium rise with a flat air picture means the escalation index is blind; (3) whether the Qatar mediation produces a published text or a Hormuz reopening date.\n\n|| 2026-11-09 09:20 MORNING WIRE \u2014 STILL NO MUTUAL ATTRIBUTION. Iran said Sunday a tanker hit a mine east of Hormuz (its own attribution of the mechanism, not of the attacker); the US says it disabled a second blockade-running vessel; Iranian state TV claims 11 tankers hit. No strike acknowledged by both sides as the other's. Qatar PM meets Trump and Vance today",
+    "action": "If the premium channel rises while the air picture is flat, add the war-risk channel to the dashboard before the next air-picture reading and say so in the sweep."
+   },
+   {
+    "title": "Vacuum instrument: pardon scope, donor repricing, dynastic transfer",
+    "added": "2026-11-04",
+    "expire": "2026-11-18",
+    "days_left": 6,
+    "priority": "high",
+    "status": "active",
+    "check": "FOURTEEN-DAY CHECK on the property-management read. Look for, in order of evidential value: (1) PARDON SCOPE -- any pre-emptive, blanket, family, or self-directed pardon or pardon signal. A single pre-emptive pardon converts the vacuum read from hypothesis to confirmed and should be reported as the top item of that day's wire. (2) DONOR REPRICING -- a named major donor or bundler withholding from the administration's legal defence or from a Trump-endorsed primary candidate, in public. (3) DYNASTIC TRANSFER -- any signal that the succession instrument is title transfer (family or custodian designation) rather than open primary. (4) TRANSACTION OVER POLICY -- administration output that is a de",
+    "action": "On (1) or (2): file an mget_ledger entry with verdict confirms and raise it to the top of the next wire and Daily Read. On (5): file as falsification of the vacuum note and repoint the succession watch to the war-window branch."
    }
   ]
  },
@@ -15814,8 +15811,8 @@
      },
      {
       "month": "2026-11",
-      "raw": 1,
-      "per_100_journal": 5.0,
+      "raw": 2,
+      "per_100_journal": 10.0,
       "journal": 20,
       "ledger": 79,
       "days_covered": 11
@@ -15836,7 +15833,7 @@
     },
     "headline": "Raw series peaks in 2026-09 (9 events); the controlled series peaks in 2026-07 (38.9 per 100 journal). Only 2026-07 outruns the recording rate \u2014 the rest of the raw movement is the desk going to work.",
     "disclosers": [
-     "Raw = unique dated events after declared dedupe (30 objects, 2 pairs merged, 1 undated excluded = 27 dated events).",
+     "Raw = unique dated events after declared dedupe (31 objects, 2 pairs merged, 1 undated excluded = 28 dated events).",
      "The control denominator is ENDOGENOUS: journal volume is this machine's attention, which reacts to the events it records. Neither number is the true one; the pair is the reading.",
      "Cannot measure capacity, only recorded events. Statutory authority created and never exercised produces no row.",
      "Left edge (2026-05-07) is a backfill artifact, not a quiet spring.",
@@ -15858,11 +15855,11 @@
       "n": 6
      },
      {
-      "type": "agency_raid",
-      "n": 4
+      "type": "rhetoric_escalation",
+      "n": 5
      },
      {
-      "type": "rhetoric_escalation",
+      "type": "agency_raid",
       "n": 4
      },
      {
@@ -15870,16 +15867,16 @@
       "n": 1
      }
     ],
-    "headline": "Kinetic episodic acts are 4 of 27. Capacity accumulates through instrument, not through visible coercion: 18 of 27 events are policy or surveillance.",
+    "headline": "Kinetic episodic acts are 4 of 28. Capacity accumulates through instrument, not through visible coercion: 18 of 28 events are policy or surveillance.",
     "disclosers": [
      "Robust to the recording-rate problem: a tenfold writing lift does not change which category a written event lands in.",
      "Taxonomy is the collection's own; if it is wrong, this chart is wrong.",
-     "nspm7_alignment is true on 24 of 27 dated events."
+     "nspm7_alignment is true on 25 of 28 dated events."
     ]
    }
   ],
   "integrity": {
-   "objects": 30,
+   "objects": 31,
    "merged_pairs": [
     {
      "kept": "policy_shift-2026-07-13-national--",
@@ -15898,7 +15895,7 @@
      "date_raw": "2025-2026"
     }
    ],
-   "unique_dated": 27,
+   "unique_dated": 28,
    "same_date_review": [
     {
      "date": "2026-07-08",
@@ -15927,15 +15924,15 @@
    ],
    "window": {
     "start": "2026-05-07",
-    "end": "2026-11-07",
-    "days": 185
+    "end": "2026-11-11",
+    "days": 189
    }
   }
  },
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-12 13:22Z",
+  "generated": "2026-11-12 14:20Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {

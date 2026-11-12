@@ -258,7 +258,7 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 <div class="mockbar"><b>STAGING PREVIEW</b><span>v5 — revisions applied — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
 <div class="wrap">
 
-<h1>CASS — restructured board, live preview</h1>
+<h1>CASS — restructured board<span class="staging-tag">, live preview</span></h1>
 <div class="sub" id="stamp">Loading the data layer…</div>
 <div id="fail" class="err hidden"></div>
 
@@ -1335,7 +1335,7 @@ function renderLegG(g){
 function render(data){
   const m=data.mget||{}, th=m.threshold||{}, legs=m.legs||[];
   const gen=(data.meta&&data.meta.generated)||data.generated||"unknown";
-  $("stamp").textContent="Data layer generated "+gen+" · this page reads the same data.json the live board does.";
+  $("stamp").innerHTML="Data layer generated "+gen+'<span class="staging-tag"> · this page reads the same data.json the live board does</span>.';
   $("gstamp").textContent=gen;
   $("legsBig").textContent=(th.legs_fired!=null?th.legs_fired:"–")+" of "+(th.of||4);
   $("gate").textContent=th.gate||"–"; $("phase").textContent=th.phase||"–"; $("closes").textContent=th.phase_closes||"–";

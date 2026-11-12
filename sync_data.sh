@@ -695,12 +695,22 @@ out=re.sub(r'(<span class="ftver">)([^<]*?)-(?:preview|staging)(</span>)',r'\1\2
 out=out.replace('Preview page, staging only.','Live build.')
 out=re.sub(r'[Ss]taging preview build\.','live build.',out)
 out=out.replace('— staging preview build.','— live build.')
+# 2026-11-12: the H1 and the data-layer stamp carried the staging identity in prose the
+# phrase list never matched — the live board shipped reading "CASS — restructured board,
+# live preview" with every gate green, because no check looked at the heading. Both are now
+# wrap-marked .staging-tag spans and stripped here; a bare "live preview" in the h1 or
+# "this page reads the same data.json the live board does" in the stamp is what shipped.
+out=re.sub(r'<span class="staging-tag">.*?</span>','',out,flags=re.S)
 # self-check: nothing on the promoted page may still announce itself as staging
 marks=[]
 if re.search(r'class="mockbar"',out): marks.append('staging bar')
 if re.search(r'\(STAGING\)',out): marks.append('title STAGING')
 if re.search(r'staging only|staging preview build',out,re.I): marks.append('staging note')
 if re.search(r'<span class="ftver">[^<]*-(?:preview|staging)</span>',out): marks.append('footer -preview')
+if re.search(r'class="staging-tag"',out): marks.append('staging-tag span')
+_h1=re.search(r'<h1>(.*?)</h1>',out,re.S)
+if _h1 and re.search(r'preview|staging',_h1.group(1),re.I): marks.append('h1 still says preview')
+if re.search(r'reads the same data\.json the live board does',out): marks.append('stamp calls itself not-the-live-board')
 if marks:
     print("PROMOTION ABORTED — staging furniture survived the scrub: "+", ".join(marks),file=sys.stderr)
     sys.exit(1)
