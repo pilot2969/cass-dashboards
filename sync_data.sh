@@ -710,7 +710,11 @@ if re.search(r'<span class="ftver">[^<]*-(?:preview|staging)</span>',out): marks
 if re.search(r'class="staging-tag"',out): marks.append('staging-tag span')
 _h1=re.search(r'<h1>(.*?)</h1>',out,re.S)
 if _h1 and re.search(r'preview|staging',_h1.group(1),re.I): marks.append('h1 still says preview')
-if re.search(r'reads the same data\.json the live board does',out): marks.append('stamp calls itself not-the-live-board')
+# the stamp check must be scoped to the code that sets the stamp: this page's own
+# change log quotes the defect in prose, and a whole-page substring match fired on the
+# description rather than on the thing described (2026-11-12, first attempt).
+_stamplines=[l for l in out.splitlines() if '"stamp"' in l]
+if any('reads the same data.json the live board does' in l for l in _stamplines): marks.append('stamp calls itself not-the-live-board')
 if marks:
     print("PROMOTION ABORTED — staging furniture survived the scrub: "+", ".join(marks),file=sys.stderr)
     sys.exit(1)

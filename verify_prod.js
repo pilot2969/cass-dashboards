@@ -75,7 +75,8 @@ async function main(){
     if(/class="staging-tag"/.test(t)) marks.push('a .staging-tag span survived the scrub');
     const h1=(t.match(/<h1>([\s\S]*?)<\/h1>/)||[])[1]||'';
     if(/preview|staging/i.test(h1)) marks.push(`h1 reads "${h1.replace(/<[^>]+>/g,'').trim()}"`);
-    if(/reads the same data\.json the live board does/.test(t)) marks.push('stamp still says the page is not the live board');
+    const stampLines=t.split('\n').filter(l=>l.includes('"stamp"'));
+    if(stampLines.some(l=>l.includes('reads the same data.json the live board does'))) marks.push('stamp still says the page is not the live board');
     marks.length?fail('deploy.no-staging-furniture',`promoted page is not shippable: ${marks.join('; ')}`)
                :pass('deploy.no-staging-furniture','promoted page carries no staging furniture');
   }
