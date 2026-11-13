@@ -25,6 +25,11 @@ if [ "$INSIDE" = "$T" ]; then
 fi
 mkdir -p archive
 cp "Daily Read.md" "archive/Daily Read $INSIDE.md"
-printf '# The Daily Read — %s\n\n**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**\n\n(no sections filed yet — first wire run of the day writes the morning edition)\n' "$T" > "Daily Read.md"
+# 2026-11-13 FIX: the reset template carried the date ONLY in the title. Every
+# downstream consumer (Publish Guard check 1, sync_data.sh line 201, build_archive.py)
+# keys on a literal "DATE: YYYY-MM-DD" line, so a freshly reset file read as
+# "edition MISSING" at 08:20 for three mornings running -- the reset itself created
+# the failure it was blamed for. Write the machine-readable stamp in the template.
+printf '# The Daily Read — %s\n\nDATE: %s\n\n**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**\n\n(no sections filed yet — first wire run of the day writes the morning edition)\n' "$T" "$T" > "Daily Read.md"
 touch "$MARK"
 ./sync_data.sh "day-roll $INSIDE archived; Daily Read reset for $T"
