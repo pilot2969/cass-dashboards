@@ -17,6 +17,17 @@ import json, glob, os, datetime, collections, subprocess
 
 SRC = "/space/legitimation_event"
 JOURNAL = "/space/journal"
+# ET, not UTC: the box runs UTC, so date.today() rolls to tomorrow at 20:00 ET
+# and anything stamped in the evening carries tomorrow's date (same fault as
+# build_register.py, fixed 2026-11-05; flow/leg_g fixed 2026-11-12).
+def _et_today():
+    import datetime as _d
+    try:
+        from zoneinfo import ZoneInfo
+        return _d.datetime.now(ZoneInfo("America/New_York")).date()
+    except Exception:
+        return (_d.datetime.now(_d.timezone(_d.timedelta(hours=-5)))).date()
+
 OUT = "leg_g.json"
 
 rows = []
@@ -41,7 +52,7 @@ def days_in(m, end):
     start = datetime.date(y, mm, 1)
     return max(1, (min(nxt, end) - start).days)
 
-end = max(datetime.date.fromisoformat(max(r["date"] for r in rows)), datetime.date.today())
+end = max(datetime.date.fromisoformat(max(r["date"] for r in rows)), _et_today())
 series = []
 for m in sorted({month(r["date"]) for r in rows}):
     w = [r for r in rows if month(r["date"]) == m and r.get("direction") == "withdraw"]
@@ -67,7 +78,7 @@ tot_g = sum(s["grants"] for s in series)
 span_days = (end - datetime.date.fromisoformat(min(r["date"] for r in rows))).days + 1
 
 payload = {
-    "generated": datetime.date.today().isoformat(),
+    "generated": _et_today().isoformat(),
     "generator": "build_leg_g.py",
     "source": SRC,
     "leg": "G",

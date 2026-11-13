@@ -22,6 +22,17 @@ import json, glob, os, datetime, collections
 SRC = "/space/repression_event"
 JOURNAL = "/space/journal"
 LEDGER = "/space/mget_ledger"
+# ET, not UTC: the box runs UTC, so date.today() rolls to tomorrow at 20:00 ET
+# and anything stamped in the evening carries tomorrow's date (same fault as
+# build_register.py, fixed 2026-11-05; flow/leg_g fixed 2026-11-12).
+def _et_today():
+    import datetime as _d
+    try:
+        from zoneinfo import ZoneInfo
+        return _d.datetime.now(ZoneInfo("America/New_York")).date()
+    except Exception:
+        return (_d.datetime.now(_d.timezone(_d.timedelta(hours=-5)))).date()
+
 OUT = "flow_panel.json"
 
 # Declared double-codings: one event, two objects. Keyed by basename.
@@ -82,7 +93,7 @@ review = [{"date": k, "basenames": [x["_basename"] for x in v], "types": [x.get(
 
 jcount, lcount = count_dir(JOURNAL), count_dir(LEDGER)
 first = min(r["_date"] for r in dated)
-end = max(datetime.date.fromisoformat(max(r["_date"] for r in dated)), datetime.date.today())
+end = max(datetime.date.fromisoformat(max(r["_date"] for r in dated)), _et_today())
 
 def days_covered(m, end):
     y, mm = int(m[:4]), int(m[5:7])
@@ -122,7 +133,7 @@ instrumental = sum(v for k, v in comp.items() if k in ("policy_shift", "surveill
 nspm = sum(1 for r in dated if r.get("nspm7_alignment"))
 
 payload = {
-    "generated": datetime.date.today().isoformat(),
+    "generated": _et_today().isoformat(),
     "generator": "build_flow_panel.py",
     "note": ("Every number here is derived from /space at generate time. Nothing is hand-set. "
              "If a series is absent, the panel shows a blind spot, not a filler."),

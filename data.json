@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T19:53 ET"
+  "generated_stamped": "2026-11-12T19:54 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5568,7 +5568,8 @@
     }
    ],
    "basename": "2026-11-12-federal-instrument-named-state-lame-duck",
-   "confidence": 68
+   "confidence": 68,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   }
  ],
  "mget_ledger": [
@@ -14909,7 +14910,7 @@
   }
  },
  "leg_g": {
-  "generated": "2026-11-13",
+  "generated": "2026-11-12",
   "generator": "build_leg_g.py",
   "source": "/space/legitimation_event",
   "leg": "G",
@@ -14917,14 +14918,14 @@
   "reading": "dated institutional withdrawals of standing, counted from a closed taxonomy",
   "window": {
    "start": "2026-09-04",
-   "end": "2026-11-13",
-   "days": 71
+   "end": "2026-11-12",
+   "days": 70
   },
   "totals": {
    "withdrawals": 13,
    "grants": 1,
    "weighted": 22.0,
-   "per_month": 5.6,
+   "per_month": 5.7,
    "events_total": 14
   },
   "series": [
@@ -14953,7 +14954,7 @@
     "weighted": 10.0,
     "journal": 21,
     "per_100_journal": 23.8,
-    "days_covered": 12
+    "days_covered": 11
    }
   ],
   "composition": [
@@ -15870,7 +15871,7 @@
   ]
  },
  "flow_panel": {
-  "generated": "2026-11-13",
+  "generated": "2026-11-12",
   "generator": "build_flow_panel.py",
   "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
   "panels": [
@@ -15934,7 +15935,7 @@
       "per_100_journal": 9.5,
       "journal": 21,
       "ledger": 79,
-      "days_covered": 12
+      "days_covered": 11
      }
     ],
     "control": {
@@ -16051,7 +16052,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-13 00:53Z",
+  "generated": "2026-11-13 00:54Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
