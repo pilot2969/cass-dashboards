@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "generator": "build_leg_g.py",
  "source": "/space/legitimation_event",
  "leg": "G",
@@ -7,14 +7,14 @@
  "reading": "dated institutional withdrawals of standing, counted from a closed taxonomy",
  "window": {
   "start": "2026-09-04",
-  "end": "2026-11-12",
-  "days": 70
+  "end": "2026-11-13",
+  "days": 71
  },
  "totals": {
   "withdrawals": 13,
   "grants": 1,
   "weighted": 22.0,
-  "per_month": 5.7,
+  "per_month": 5.6,
   "events_total": 14
  },
  "series": [
@@ -43,7 +43,7 @@
    "weighted": 10.0,
    "journal": 21,
    "per_100_journal": 23.8,
-   "days_covered": 11
+   "days_covered": 12
   }
  ],
  "composition": [
