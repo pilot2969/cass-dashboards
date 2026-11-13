@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T22:25 ET"
+  "generated_stamped": "2026-11-12T22:26 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5701,8 +5701,8 @@
    "anchor_source": "Seating of the 120th Congress",
    "anchor_grade": "A",
    "expiry_date": "2027-01-03",
-   "grace_locked": true,
-   "grace_horizon": "0 days - constitutive anchor, hard close on the seating of the 120th Congress",
+   "grace_locked": false,
+   "grace_horizon": "none - constitutive anchor, hard close at the seating of the 120th Congress",
    "skill_eligible": true,
    "card_class": "EVENT",
    "resolution": "unresolved",
@@ -16213,7 +16213,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-13 03:25Z",
+  "generated": "2026-11-13 03:26Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
