@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T19:59 ET"
+  "generated_stamped": "2026-11-12T21:23 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5570,6 +5570,61 @@
    "basename": "2026-11-12-federal-instrument-named-state-lame-duck",
    "confidence": 68,
    "grace_horizon": "0 days \u2014 grace not pre-registered"
+  },
+  {
+   "title": "Schumer still leads Senate Democrats when the 120th Congress convenes",
+   "date_made": "2026-11-12",
+   "time_et": "21:40",
+   "statement": "Chuck Schumer is the Democratic floor leader (majority leader, if Democrats hold the majority they won on 03 Nov) when the 120th Congress convenes on 2027-01-03. Opened the night a single partisan source reported Van Hollen declaring a challenge; the card tests the outcome, not the report.",
+   "evidence_confirmed": [
+    "Schumer, 2026-11-04: 'I'll be re-elected as majority leader' (The Hill / Roll Call, via week-0 baseline audit)",
+    "Democrats won the Senate majority 2026-11-03 - the credential a sitting leader normally runs on (card 2026-11-03-senate-democratic-control, confirmed hit)"
+   ],
+   "evidence_contradicted": [
+    "MeidasTouch 2026-11-12 (single source, grade C-D): Van Hollen declares a run for majority leader, calling for 'NEW leadership'",
+    "Van Hollen 2026-11-05: no rubber stamp without commitments; Indivisible and Our Revolution calling for replacement; freshmen campaigned against Schumer by name"
+   ],
+   "falsifier": "Any Democratic leadership vote, caucus resolution or public count before 2027-01-03 that installs anyone other than Schumer as leader - or Schumer withdrawing. Silence is not falsification; the card resolves on the swearing-in.",
+   "forward_watchlist": [
+    "second non-partisan outlet on the Van Hollen declaration (by 2026-11-16)",
+    "any second declared challenger or public endorsement of Van Hollen",
+    "date of the Senate Democratic leadership election (baseline: December 2026)",
+    "whether the contest is framed as instrument choice (oversight vs legislation) or as personal fitness"
+   ],
+   "status": "pending",
+   "confirmer": "Schumer named Democratic leader at the opening of the 120th Congress, 2027-01-03",
+   "confirmer_base_rate": "Senate party leaders who have just won a majority are almost never deposed at the following leadership election - the canonical cases (Reid 2005, McConnell 2007, Schumer 2017) were succession after retirement or loss, not coups after victory",
+   "confirmation_window": "2027-01-03",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-12",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "grace_horizon": "none",
+   "grace_locked": true,
+   "grace_locked_date": "2026-11-12",
+   "grace_locked_note": "No grace. The swearing-in is a fixed public act; a count that slips is still observable by that date.",
+   "skill_eligible": true,
+   "anchor_type": "fixed_event",
+   "anchor_source": "Opening of the 120th Congress, 2027-01-03",
+   "anchor_grade": "D",
+   "window_basis": "Swearing-in date, not the leadership election date, because the December vote date is itself uncertain at registration.",
+   "expiry_basis": "Constitutional convening date; cannot slip.",
+   "threshold_definition": "Schumer is the Democratic leader at convening. Being leader of a 51-seat minority instead of a majority still CONFIRMS this card - it tests the person, not the chamber.",
+   "instrument": "Seat count and leadership roster at convening",
+   "leg_primary": "N",
+   "leg_basis": "Institutional continuity: a challenge mounted on the strength of a victory is a claim about instrument, and instrument disputes inside a winning caucus usually resolve toward the incumbent because the challenger must first win a vote of the same people the incumbent just led to a majority.",
+   "public_status": "gated_public",
+   "p_substance": 0.72,
+   "p_timing": 0.66,
+   "confidence_rationale": "66 = the incumbent-survives base rate, discounted for three real pressure signals (freshman class elected against him by name, organised progressive opposition, and now a named colleague's declaration) and discounted again because the declaration is single-sourced and unverified. If a second outlet confirms and a second senator endorses, this drops toward 50; below that, the caucus has genuinely moved and the card is a coin toss, not a favourite.",
+   "tracking_state": "Opened after the event, which is a real handicap: the challenge is known and the confidence cannot be blind. Recorded honestly as post-hoc registration with anchor grade D. Confidence set from base rate plus the known pressure, not from the unmade decision.",
+   "base_rate_tier": "C",
+   "base_rate_frozen_date": "2026-11-12",
+   "deadline_type": "constitutive",
+   "falsifier_shape_audit": "Threshold observable (leadership roster), person fixed, no discretion about what counts as 'settled'.",
+   "basename": "2027-01-03-schumer-survives-leadership",
+   "confidence": 66
   }
  ],
  "mget_ledger": [
@@ -13230,6 +13285,12 @@
   },
   {
    "time": "2026-11-12",
+   "ref": "Schumer still leads Senate Democrats when the 120th Congress convenes",
+   "change": "confidence 66 \u2014 status pending",
+   "trigger": "Democrats won the Senate majority 2026-11-03 - the credential a sitting leader normally runs on (card 2026-11-03-senate-democratic-control, confirmed hit)"
+  },
+  {
+   "time": "2026-11-12",
    "ref": "Iran deal announced: a declared win before 2027-03-31",
    "change": "confidence 57 \u2014 status pending",
    "trigger": "2026-10-27: Iran war regionalisation track - Egypt and Saudi Arabia engaging Tehran"
@@ -13275,12 +13336,6 @@
    "ref": "Press secretary succession - two-leg card: named by Nov 30, else Miller-managed vacuum test",
    "change": "confidence 58 \u2014 status emergent",
    "trigger": "Dana White flew to Washington and met Monday after the Thursday Truth Social offer; reported across wires (Nov 7 morning wire)"
-  },
-  {
-   "time": "2026-11-07",
-   "ref": "A second jurisdiction designates an advocacy organisation under the Florida template before the 120th Congress convenes",
-   "change": "confidence 42 \u2014 status emergent",
-   "trigger": "Precedent: the 2025-2026 pattern of state-template-then-federal-adoption across immigration enforcement"
   }
  ],
  "daily_read": {
@@ -13383,7 +13438,7 @@
  },
  "counts": {
   "items_today": 0,
-  "tracked_predictions": 103,
+  "tracked_predictions": 104,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -13557,11 +13612,11 @@
    }
   ],
   "register_load": {
-   "total": 101,
+   "total": 102,
    "by_leg": {
     "T": 44,
     "E": 12,
-    "N": 4,
+    "N": 5,
     "G": 30,
     "M": 11
    }
@@ -16052,7 +16107,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-13 00:59Z",
+  "generated": "2026-11-13 02:23Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
