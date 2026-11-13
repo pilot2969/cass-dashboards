@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T09:23 ET"
+  "generated_stamped": "2026-11-12T19:53 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -2667,7 +2667,7 @@
    "threshold_definition": "'Announced' = a written agreement whose existence and principal terms are stated publicly by both governments, or by one with the other's public acknowledgement, on a single identifiable date.",
    "max_lifespan": "147 days",
    "review_cadence": "weekly, and daily on any Qatar/Oman mediation report or State Department readout",
-   "tracking_state": "Registered 2026-11-04 14:45 ET. Mechanism per Samuel: Trump is obstinate and does not let go until satisfied; Iran wants a deal; hold-and-grind resolves nothing. Reframe that makes it priceable: obstruction does not lengthen the grind, it sets the deal's SHAPE. Modal outcome is a thin-substance agreement announced as a total win. The register already holds the package: Qatar mediation at draft stage (2026-10-28), Hezbollah hailing a deal, 'whenever I want it to be over.' || 2026-11-04 14:52: Ghalibaf (chief US negotiator) publicly endorsed the US result - 'Americans said NO TO WAR, and we endorse this message' - counterparty supplying face material; Khamenei says party shifts cannot change US 'hostility', cutting the other way; Tehran reported preparing a 'maximum deterrence plan' for any new attack. NO REPRICE: no pre-registered update rule, and re-pricing hours after registration is forbidden discretion. Watchlist hits: whether the announcement precedes implementation; whether Minab publishes.",
+   "tracking_state": "Registered 2026-11-04 14:45 ET. Mechanism per Samuel: Trump is obstinate and does not let go until satisfied; Iran wants a deal; hold-and-grind resolves nothing. Reframe that makes it priceable: obstruction does not lengthen the grind, it sets the deal's SHAPE. Modal outcome is a thin-substance agreement announced as a total win. The register already holds the package: Qatar mediation at draft stage (2026-10-28), Hezbollah hailing a deal, 'whenever I want it to be over.' || 2026-11-04 14:52: Ghalibaf (chief US negotiator) publicly endorsed the US result - 'Americans said NO TO WAR, and we endorse this message' - counterparty supplying face material; Khamenei says party shifts cannot change US 'hostility', cutting the other way; Tehran reported preparing a 'maximum deterrence plan' for any new attack. NO REPRICE: no pre-registered update rule, and re-pricing hours after registration is forbidden discretion. Watchlist hits: whether the announcement precedes implementation; whether Minab publishes.\n\n2026-11-12 20:10 ET EVENING WIRE \u2014 MECHANISM UNDER STRAIN, NO REPRICE. The President posted that the US does not need a deal with Iran, that 'those days have long since passed', and that 'we've got their money... and we've got their Strait', while directing Vance's 'complete and total attention' to domestic crime and corruption and warning of strikes 'without hesitation' if Iran threatens allies or shipping. No announced terms, no Iranian acknowledgement, no signed instrument. This is the declared-satisfaction exit WITHOUT an agreement, which the confirmer (a written agreement publicly announced by both sides) does not score. The card stays pending to 2027-03-31 and confidence stays 57: no pre-registered update rule exists and re-pricing on the day of the news is forbidden discretion. The live reading to carry: the negotiation principal has been withdrawn, so the announcement route now depends on a channel that no longer has a named carrier. If the war is closed by declaration alone, the card MISSES and the finding is that 'satisfaction' was available without any counterparty signature at all.",
    "p_substance": 0.65,
    "p_timing": 0.88,
    "deadline_type": "conventional",
@@ -5511,6 +5511,64 @@
    "leg_basis": "measurement validity of the instrument itself",
    "basename": "2026-11-11-d004-h3-codebook-validity",
    "confidence": 62
+  },
+  {
+   "title": "Federal instrument reaches a named blue state before the 120th Congress convenes",
+   "date_made": "2026-11-12",
+   "time_et": "10:05",
+   "statement": "A federal investigative or enforcement instrument \u2014 grand jury or federal subpoena, a named US Attorney or DOJ component assignment, a task force, an IG or DOJ referral, or a funding condition \u2014 is directed at a named state, city, or state programme in Minnesota, California, Illinois, New York or Oregon, and is publicly framed by the acting official as falling under the crime/corruption portfolio tasked in the President's 2026-11-12 08:07 ET Truth Social post.",
+   "evidence_confirmed": [
+    "2026-11-12 08:07 ET: President tasks VP Vance, by name, with 'complete and total attention' on 'Massive Corruption and Crime' in 'Democrat run Cities and States', naming Minnesota, California and Illinois, and assigning recovered billions to the federal budget (/space/absorption/2026-11-12-trump-vance-blue-state-corruption-tasking.json).",
+    "Same post: 'CORRUPTION is in the Democrat Leadership's blood' \u2014 lineage-based dehumanisation applied to a party, which removes any requirement of proof in an individual case.",
+    "2026-11-11 PM: Jordan elected GOP minority leader 106-73 on a stated 'battle-tested on the oversight front' pitch, eighteen hours before the tasking.",
+    "Executing apparatus already staffed in one named state: DOJ is running election-related prosecutions in California (28 charged), litigating the mail-ballot segregation case, and suing Lyft."
+   ],
+   "evidence_contradicted": [
+    "Both chambers flip Democratic on 2027-01-03 (house and senate control cards both HIT 11-03). A Democratic Senate makes new US Attorney confirmations hostile; a Democratic House makes a task force a subpoena target. Strongest argument the programme must be built and executed inside the 52-day lame duck.",
+    "No named state appears anywhere in the corpus before 2026-11-12: state-level geography was entirely unmonitored, so silence in our record is not evidence of quiet."
+   ],
+   "falsifier": "No such instrument is publicly documented against a named state, city or state programme in the five named states by 2027-01-03, where the instrument is framed as falling under the 11-12 portfolio. Two ways this can miss without the programme being dead: (a) the instrument lands after 01-03, in a Congress that can investigate it; (b) the work runs unstructured \u2014 US Attorney details, FBI field-office tasking, civil investigative demands \u2014 so nothing is ever announced, in which case 'no instrument' and 'no visible instrument' are indistinguishable and the card MISSES on my instrument choice rather than on their behaviour. That ambiguity is disclosed and counts against the card.",
+   "forward_watchlist": [
+    "Any materialisation of the Vance portfolio into staff, office, budget line or interagency memo.",
+    "Vance's public calendar, and whether the Rezaei diplomatic channel goes quiet \u2014 the cleanest 2-4 week tell.",
+    "Minnesota in particular: named, holds the largest Somali target set already in the corpus, and a Somali-bodyguard indictment story is already in the state sweep.",
+    "Whether an acting US Attorney or a named DOJ component is executor rather than a new statutory body.",
+    "Any congressional move to book 'corruption receipts' into the appropriations baseline \u2014 the fiscal clause becoming a mechanism.",
+    "Whether a Republican governor or Republican-run city inside a named state is exempted, which reveals the target as party rather than geography.",
+    "The reported Miller plan to arrest political opposition (owner report, 11-12, low-level, did not escalate). If it resurfaces it is the same instrument set applied to persons rather than programmes."
+   ],
+   "status": "emergent",
+   "resolution": "unresolved",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-12",
+   "window_closes": "2027-01-03",
+   "window_basis": "Statutory: 20th Amendment \u2014 119th Congress expires and the 120th convenes 2027-01-03. Fixed by law, not judgement; both chambers flip Democratic, so the gate is a real discontinuity in executive freedom of action.",
+   "anchor_type": "statutory_date",
+   "anchor_source": "/space/gate_calendar/2027-01-03-congress-expires.json",
+   "anchor_grade": "A",
+   "expiry_date": "2027-01-03",
+   "expiry_basis": "Rule 1 \u2014 a card unresolved at close is a MISS. No grace: the gate is a statutory date, not an inference.",
+   "grace_locked": false,
+   "threshold_definition": "Publicly documented federal instrument (grand jury/federal subpoena, named USAO or DOJ component assignment, task force, IG or DOJ referral, or funding condition) against a named state, city or state programme in MN/CA/IL/NY/OR, framed as falling under the 2026-11-12 corruption portfolio.",
+   "skill_eligible": true,
+   "public_status": "internal",
+   "instrument": "Ownership of enforcement capacity \u2014 who may be directed to investigate whom, and whether direction converts framing into a docket.",
+   "p_substance": 0.74,
+   "p_timing": 0.92,
+   "tracking_state": "Registered 2026-11-12 10:05 ET, after the tasking post and before any instrument is visible. p_substance 0.74 x p_timing 0.92 -> 68. Timing is high because the resource window closes 2027-01-03 and a Democratic Senate cannot confirm new US Attorneys after that date; substance is weaker because the programme can run unstructured and never announce.",
+   "review_cadence": "daily via Tier 3b state programme sweep; hard review 2026-12-15",
+   "deadline_type": "constitutive",
+   "confidence_rationale": "Direction: the frame predates the post, the executing apparatus is already staffed in a named state, and the fiscal clause gives the target set a growth motive. Restraint: no public instrument exists yet, the state geography has never been watched, and the administration has an obvious alternative \u2014 run it through existing USAO structures without announcement \u2014 which would satisfy the behaviour and fail my test.",
+   "revision_log": [
+    {
+     "at": "2026-11-12T10:05-05:00",
+     "from": null,
+     "to": 68,
+     "reason": "registration"
+    }
+   ],
+   "basename": "2026-11-12-federal-instrument-named-state-lame-duck",
+   "confidence": 68
   }
  ],
  "mget_ledger": [
@@ -13164,6 +13222,18 @@
  ],
  "movers": [
   {
+   "time": "2026-11-12",
+   "ref": "Federal instrument reaches a named blue state before the 120th Congress convenes",
+   "change": "confidence 68 \u2014 status emergent",
+   "trigger": "Executing apparatus already staffed in one named state: DOJ is running election-related prosecutions in California (28 charged), litigating the mail-ballot segregation case, and su"
+  },
+  {
+   "time": "2026-11-12",
+   "ref": "Iran deal announced: a declared win before 2027-03-31",
+   "change": "confidence 57 \u2014 status pending",
+   "trigger": "2026-10-27: Iran war regionalisation track - Egypt and Saudi Arabia engaging Tehran"
+  },
+  {
    "time": "2026-11-11",
    "ref": "D-004 H1 \u2014 the 2027 handover gate resolves as REPLACEMENT, not rupture",
    "change": "confidence 78 \u2014 status emergent",
@@ -13210,22 +13280,18 @@
    "ref": "A second jurisdiction designates an advocacy organisation under the Florida template before the 120th Congress convenes",
    "change": "confidence 42 \u2014 status emergent",
    "trigger": "Precedent: the 2025-2026 pattern of state-template-then-federal-adoption across immigration enforcement"
-  },
-  {
-   "time": "2026-11-06",
-   "ref": "Cosmetic not ideological: the GOP sacrifices personnel, not the program",
-   "change": "confidence 72 \u2014 status emergent",
-   "trigger": "Pre-election reporting (Palmeri, 2026-09-30) had Miller drafting the post-loss pretext, armed-presence conversations, and an emergency declaration. A man building the post-defeat m"
-  },
-  {
-   "time": "2026-11-06",
-   "ref": "Hegseth is not Secretary of War when the 120th Congress is seated",
-   "change": "confidence 55 \u2014 status emergent",
-   "trigger": "Succession already thin: Army acting since 3 Sept, Navy since 22 April, Deputy Feinberg confirmed and first in line"
   }
  ],
  "daily_read": {
   "summary": [
+   "[19:45] \u201cWe\u2019ve got their Strait\u201d: the President closes the Iran file and sends his deputy home",
+   "[19:20] The pipeline built to avoid Hormuz is now the target",
+   "[19:00] Nvidia\u2019s scandal widens to a second employee \u2014 and Congress summons the man who left",
+   "[18:40] The shooting a mile from the White House was a condo dispute. The force waiting for a reason did not move.",
+   "[18:20] The soldier who told the Defense Secretary to be quiet now has a medal",
+   "[18:00] An Alaska judge calls the ballot request \u201cnot reasonable\u201d \u2014 and the count closes by capacity",
+   "[17:40] Kansas elects a third Democratic governor \u2014 and the President blames his own Senate",
+   "[17:20] A five-hour email outage stopped a medical coding floor, not a mailbox",
    "[09:20] Nvidia's chief executive resigned nine days after the first spy report",
    "[09:10] The government now plans to sell public land, not just lease it",
    "[09:05] A strike on a Gaza hospital killed six people, including the surgeon on duty",
@@ -13236,17 +13302,50 @@
    "[08:00] China's AI firms are renting Nvidia capacity abroad \u2014 and 240,000 banned chips is the number to hold"
   ],
   "watching": [
-   "Whether Nvidia names a permanent chief executive, and what the choice says about China exposure",
-   "Whether the Commerce Department moves on remote access to computing capacity rather than chip shipments",
-   "Whether Alaska is called, and whether the Democratic Senate majority is 55 or 56",
-   "Whether a third British base is thinned, and whether the dispersed aircraft return before the new Congress is seated in January",
+   "Whether a federal enforcement instrument reaches a named state within thirty days \u2014 and whether any Republican governor of one is exempted",
+   "Whether the Vance channel to Tehran goes quiet, and whether the Strait\u2019s shipping lanes reopen or keep burning",
+   "Whether three House committees question Nvidia\u2019s former chief executive in public, and whether a transcript is released",
+   "Whether any official connects the capital\u2019s shooting to the Guard deployment before the weekend",
    "Whether any serving officer says anything publicly about the conduct of the Defense Secretary",
-   "Whether any federal enforcement directive, contract or cooperation agreement is cancelled in the next thirty days \u2014 and whether deportation totals fall in November",
-   "Whether the Commerce Department moves on remote access to computing capacity rather than on chip shipments",
+   "Whether Alaska is called, and whether its margin falls inside the number of rejected absentee ballots",
+   "Whether the SAVE America Act returns in the lame duck, and whether the filibuster comes up before January",
+   "Whether Microsoft names a cause for the outage, and whether the two same-day incidents are connected",
    "Whether the regional tier keeps finding enforcement stories the national feeds drop"
   ],
   "date": "2026-11-12",
   "cards": [
+   {
+    "title": "[19:45] \u201cWe\u2019ve got their Strait\u201d: the President closes the Iran file and sends his deputy home",
+    "html": "<p><i>One post, two audiences: a foreign war declared finished and a domestic enforcement portfolio handed to the man who would inherit it.</i></p>\n<p><b>What happened.</b> On Thursday the President wrote that the United States does not need a deal with Iran \u2014 \u201cthose days have long since passed\u201d \u2014 that \u201cwe\u2019ve got their money, Hundreds of Billions of Dollars, and we\u2019ve got their Strait,\u201d and that he had asked Vice President JD Vance to give his \u201ccomplete and total attention\u201d to crime and corruption in Democratic-run cities and states. He named Minnesota, California and Illinois, said billions are being stolen every month, and claimed the budget \u201ccould be quickly BALANCED with the correction of this large scale criminal activity.\u201d He also wrote that \u201ccorruption is in the Democrat Leadership\u2019s blood.\u201d Vance had been the administration\u2019s negotiator with Tehran. The same day, the President warned he would strike Iran without hesitation if it threatened US allies or shipping, and Iran said it was reviewing its withdrawal from the nuclear Non-Proliferation Treaty.</p>\n<p><b>Why it matters.</b> Three things changed in one paragraph. A negotiation was ended by the principal rather than concluded, which frees the Vice President for other work. A constitutional officer was publicly assigned a domestic enforcement job that no statute gives his office \u2014 which routes the portfolio around the Justice Department rather than through it. And enforcement was given a revenue target: the sentence that matters is the budget one, because appropriations need Congress and \u201crecovered\u201d money does not. The post lands eighteen hours after House Republicans chose an oversight chairman on a promise of being \u201cbattle-tested on the oversight front.\u201d The instrument was picked, then pointed.</p>\n<p><b>The pattern.</b> Wars that are declared won rather than ended leave an apparatus with nothing to do. Here the apparatus is turned inward and given a fiscal motive to expand \u2014 \u201cand many more\u201d reads as a revenue schedule, not rhetoric. Two audiences receive one artifact: a foreign file closed for the base, and a domestic campaign opened for the machine.</p>\n<p><b>What history says.</b> Rome, 82 BC: Sulla published lists of the proscribed, and the confiscated estates of the wealthy paid his veterans. The killing was political; the solvency was the point, and the published list made it legal. England\u2019s bills of attainder worked the same way for two centuries \u2014 punishment by legislation, no trial, estates forfeit \u2014 until the American framers banned them by name in the Constitution. When a state pairs punishment with revenue, the incentive is not to stop at the guilty, and the category of the guilty expands to fit the receipts.</p>\n<p><b>What we\u2019re watching next.</b> Whether a federal instrument reaches a named state within thirty days \u2014 a grand jury, a new US attorney, an inspector-general referral, or a funding condition attached to a named state or city programme. Without one, this was a framing post, not an order. Also: whether the Vance channel to Tehran goes quiet, whether any Republican governor of a Democratic state is exempted, and whether the recovered-money language shows up in an appropriations bill before the new Congress is seated.</p>\n<p>Sources: <a href=\"https://apnews.com/article/trump-iran-vance-negotiations-d9671cbf66e3c2e337f4fb3485ad07d0\">AP</a>, <a href=\"https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html\">CNBC</a>, <a href=\"https://www.theguardian.com/us-news/2026/nov/12/trump-jd-vance-iran-war\">The Guardian</a>, <a href=\"https://www.foxnews.com/live-news/iran-war-news-trump-israel-hormuz-november-12\">Fox News</a></p>"
+   },
+   {
+    "title": "[19:20] The pipeline built to avoid Hormuz is now the target",
+    "html": "<p><i>Two routes out of the Gulf; this week both were attacked.</i></p>\n<p><b>What happened.</b> Yemen\u2019s Houthis said on Thursday that they had struck a pumping station on Saudi Arabia\u2019s East-West pipeline with a drone and an oil facility at the Red Sea port of Yanbu with a ballistic missile, and that they had hit an Aramco building in Riyadh. The group did not say which day the attacks took place and Saudi Arabia did not comment. Earlier in the week the Houthis claimed a missile salvo at King Khalid International Airport and at pumping stations along the same pipeline. Separately, Iran\u2019s Revolutionary Guard said four tankers caught fire in the Strait of Hormuz while using routes it considers unauthorised; a merchant vessel was struck by an unidentified projectile near the UAE on its way out of the strait.</p>\n<p><b>Why it matters.</b> The East-West pipeline exists for exactly one reason: to move Saudi crude to the Red Sea without passing through the Strait of Hormuz. It is the bypass that makes a Hormuz closure survivable for the largest exporter in the Gulf. Attacking the bypass and the strait in the same week removes the alternative rather than the route \u2014 which is a different, and more durable, kind of leverage than blocking a single waterway. It also puts the strikes below the threshold of a state-on-state war: a non-state group claims them, the kingdom does not confirm, and no one has to decide what the response is.</p>\n<p><b>The pattern.</b> Chokepoints are only useful if there is a way around them. Take away the way around, and the chokepoint becomes a monopoly \u2014 held not by the country that patrols it but by the party willing to shoot at it. The United States says it is keeping the strait open and blockading Iranian ports at the same time; both statements can be true while the physical risk keeps rising.</p>\n<p><b>What history says.</b> In 1956 Egypt\u2019s closure of the Suez Canal pushed Europe onto the Cape route and made the pipeline politics of the Middle East a strategic question for a decade. In September 2019 drones and cruise missiles hit Saudi Arabia\u2019s Abqaiq processing plant and Khurais field and took roughly half of Saudi output offline in a morning \u2014 the single largest supply disruption on record. The United States did not retaliate. The lesson drawn by every actor in the region was that critical oil infrastructure can be attacked, attributed ambiguously, and left unanswered.</p>\n<p><b>What we\u2019re watching next.</b> Whether Riyadh acknowledges damage or publishes a capacity figure, and whether Aramco does. Whether war-risk insurance for Red Sea and Gulf loading rises again this week. Whether the East-West line keeps pumping at capacity. And whether the United States changes its escort posture in the strait \u2014 movement there is the tell, not the statement.</p>\n<p>Sources: <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west\">Middle East Eye</a>, <a href=\"https://www.middleeasteye.net/live-blog/live-blog-update/yemens-houthis-say-they-attacked-pumping-station-saudi-arabias-east-west\">Middle East Eye</a>, <a href=\"https://oilprice.com/Energy/Energy-General/Houthis-Launch-Another-Attack-on-Pumping-Stations-Along-Crucial-Saudi-East-West.html\">OilPrice</a>, <a href=\"https://www.iranintl.com/en/liveblog/202611077068\">Iran International</a></p>"
+   },
+   {
+    "title": "[19:00] Nvidia\u2019s scandal widens to a second employee \u2014 and Congress summons the man who left",
+    "html": "<p><i>The board acted in nine days. The committees are still negotiating a date.</i></p>\n<p><b>What happened.</b> Reuters reported on Thursday, citing two people familiar with the matter, that Jensen Huang had an intimate relationship with a second Nvidia employee. The woman was not named; the company did not comment on the report. Huang resigned as president, chief executive and board member on Thursday morning after 33 years, following disclosure of an investigation into his relationship with Alice Huang, a former director of the cloud firm Megaspeed whom US intelligence has assessed to be an asset of China\u2019s Ministry of State Security. Reuters\u2019 new report says a second relationship was already known inside the company. Separately, the chairs of three House committees \u2014 Foreign Affairs, the Select Committee on China, and Intelligence \u2014 said they were negotiating a closed-door appearance by Huang and would subpoena him if he declined; he has since agreed to testify. No charges have been filed against anyone.</p>\n<p><b>Why it matters.</b> A private board removed the founder of the most important company in the AI supply chain in nine days, before any regulator acted, and the reason is legible: licences, contracts and customers. That is the fastest legitimacy instrument in the story, and it belonged to a corporation. Now Congress wants the record \u2014 in closed session, which means the testimony may never be public, and the only visible product will be whether legislation follows. The underlying question, whether advanced computing leaks abroad through rented capacity rather than sold hardware, is still unanswered by anyone with subpoena power.</p>\n<p><b>The pattern.</b> In an export-control scandal the firm always moves first. It removes the principal to protect the licence, and the state is then spared from having to rule on the substance. The risk is that accountability is discharged by a resignation and a closed briefing, while the mechanism that moved the chips \u2014 shell companies, cloud access, offshore capacity \u2014 remains legal and untouched.</p>\n<p><b>What history says.</b> In 1976 Lockheed\u2019s chairman testified to a Senate subcommittee about more than $20 million in payments to foreign officials; the hearings produced the Foreign Corrupt Practices Act two years later, and the company survived because it had already removed the men involved. In 1922 the Teapot Dome leases were broken open by a Senate investigation, not by the Interior Department, and the trail ran through contempt citations and a criminal conviction. Congress has historically been the venue that produces a rule \u2014 but only when its hearings are public.</p>\n<p><b>What we\u2019re watching next.</b> Whether the three committees hold the session in public or private, and whether a transcript is released. Whether the Commerce Department moves on remote access to computing capacity rather than on chip shipments. Whether the criminal track appears at all \u2014 a referral, a grand jury, a charging document. And whether any other firm in the chain discloses a similar arrangement before a reporter finds it.</p>\n<p>Sources: <a href=\"https://www.reuters.com/technology/former-nvidia-ceo-huang-had-relationship-with-second-employee-sources-say-2026-11-12/\">Reuters</a>, <a href=\"https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/\">CBS News</a>, <a href=\"https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/\">TechCrunch</a>, <a href=\"https://www.forbes.com/sites/alisondurkee/2026/11/12/jensen-huang-had-a-third-affair-with-another-nvidia-employee-report-says/\">Forbes</a></p>"
+   },
+   {
+    "title": "[18:40] The shooting a mile from the White House was a condo dispute. The force waiting for a reason did not move.",
+    "html": "<p><i>The capital has 3,100 National Guard and a 3,500-strong quick-reaction capability. Neither was needed, and that is the finding.</i></p>\n<p><b>What happened.</b> Shortly after 8am on Thursday a 55-year-old doctor opened fire at and outside a gym in Logan Circle, a residential neighbourhood about a mile from the White House. Police identified the gunman as Matt Wade Lambert and the man he killed as James Stuart, 46, the manager of the building where Lambert lived. Four other people were wounded. Lambert then barricaded himself in a nearby building and was found dead of a self-inflicted gunshot wound. Officials described a long-running dispute between Lambert and his condominium association over the conditions of his unit. There is no indication of a political motive, no federal charge, and no connection to any deployment.</p>\n<p><b>Why it matters.</b> Washington currently holds an unusual standing force: about 3,100 National Guard deployed while the district\u2019s lawsuit over that deployment runs on appeal, plus authority for up to 3,500 military police and support personnel, armoured vehicles, patrol boats and rifles for domestic operations, and a Guard brigade assigned to the Marshals Service as a quick-reaction force for federal facilities and officials. A mass shooting in the capital is the most reliable supplier of legitimacy for a force that already exists. This one supplied none \u2014 the record so far is a local homicide, handled by local police, with the federal posture unchanged.</p>\n<p><b>The pattern.</b> Pre-positioned capacity does not create events; it waits for them to be interpreted. The analytically important question after a shooting like this is never the body count. It is which existing authority gets cited, and whether anything new is requested. Today: nothing was cited and nothing was requested. That is a null result, and null results are how you tell a permanent apparatus from an opportunist one.</p>\n<p><b>What history says.</b> In January 2011 a mass shooting in Tucson gravely wounded a congresswoman and killed six; the institutional response was medical, local and judicial, and no national security regime was built on it. In September 2013 a contractor killed twelve people inside the Washington Navy Yard \u2014 a federal facility \u2014 and the response was a specific security review of federal buildings, not a domestic deployment. The variable that moves institutions is the venue and the available authority, not the number of dead.</p>\n<p><b>What we\u2019re watching next.</b> Whether any official statement, order or filing connects this incident to the Guard deployment, federalisation or new emergency authority before the weekend. Whether the US Attorney\u2019s office takes the case, which would change the venue and the vocabulary. And whether the district\u2019s appeal picks up any new filing this week that cites the shooting.</p>\n<p>Sources: <a href=\"https://apnews.com/article/dc-shooting-logan-circle-3cee6a4ada875fcc18e932e536c63dcd\">AP</a>, <a href=\"https://www.washingtonpost.com/dc-md-va/2026/11/12/multiple-victims-shooting-dcs-logan-circle/\">Washington Post</a>, <a href=\"https://www.theguardian.com/us-news/2026/nov/12/dc-shooting-logan-circle\">The Guardian</a>, <a href=\"https://www.cbsnews.com/news/washington-dc-shooting-gym-vida/\">CBS News</a></p>"
+   },
+   {
+    "title": "[18:20] The soldier who told the Defense Secretary to be quiet now has a medal",
+    "html": "<p><i>The rebuke was absorbed, decorated, and closed \u2014 and no officer above him has said a word.</i></p>\n<p><b>What happened.</b> On Veterans Day, at the Tomb of the Unknown Soldier, a sentinel told Defense Secretary Pete Hegseth and the group accompanying him \u2014 including senior advisers and his wife \u2014 to be quiet after laughter was heard during the ceremony. On Thursday Hegseth invited the Army unit that guards the tomb to the Pentagon and awarded Specialist Thomas Iglesias the Joint Service Commendation Medal \u201cfor the execution of his duties at the Tomb of the Unknown Soldier on November 11, 2026.\u201d A Pentagon official confirmed the award. The citation praises the conduct that was, in plain terms, a reprimand of the Secretary.</p>\n<p><b>Why it matters.</b> There are two ways an institution handles a subordinate who is right about a superior\u2019s conduct. It can open a question about the superior, or it can honour the subordinate and close the question. The medal does the second. It costs nothing, it is deserved, and it converts a story about a Secretary\u2019s behaviour into a story about a sentinel\u2019s discipline \u2014 which is a story the institution can be proud of. The substantive issue, whether the head of the department behaves in a way the department\u2019s own ceremonial code requires others to correct, is now harder to raise: raising it looks like attacking the soldier.</p>\n<p><b>The pattern.</b> Co-optation is the standard instrument. Praise the person, absorb the objection, leave the policy and the principal untouched. The tell is what is not done: no inquiry, no memo, no change to protocol, and no senior officer on the record.</p>\n<p><b>What history says.</b> Warrant Officer Hugh Thompson intervened to stop the My Lai killings in 1968 and was initially ostracised, his career damaged; he was decorated thirty years later, after the political need for the ceremony had arrived. The medal honoured the man and left the policy that produced the event exactly where it was. The same structure appears in the 1951 relief of General MacArthur: the institution asserted civilian control by removing a popular commander, and the question of whether the policy was right was settled by procedure, not argument.</p>\n<p><b>What we\u2019re watching next.</b> Whether any serving officer says anything publicly about the conduct of the Secretary \u2014 still the open question from this morning, and still unanswered. Whether the commendation is cited by the Pentagon as evidence that the system corrected itself. And whether the House\u2019s parked impeachment articles get a discharge petition, which is now the only live route back to the floor in this Congress.</p>\n<p>Sources: <a href=\"https://apnews.com/article/hegseth-tomb-of-unknown-soldier-reprimand-award-cd59fd7ae20c6f80b51f57305fb0a7a0\">AP</a>, <a href=\"https://www.cnn.com/2026/11/12/politics/hegseth-awards-medal-soldier-reprimanded-him\">CNN</a>, <a href=\"https://www.pbs.org/newshour/world/hegseth-presents-award-to-soldier-who-scolded-him-and-his-aides-at-tomb-of-the-unknown-soldier\">PBS</a>, <a href=\"https://www.theguardian.com/us-news/2026/nov/12/pete-hegseth-medal-soldier-reprimand\">The Guardian</a></p>"
+   },
+   {
+    "title": "[18:00] An Alaska judge calls the ballot request \u201cnot reasonable\u201d \u2014 and the count closes by capacity",
+    "html": "<p><i>When the clock decides, nobody has to decide.</i></p>\n<p><b>What happened.</b> An Alaska superior court judge, Thomas Matthews, ruled on Wednesday that a request by Democratic Senate candidate Mary Peltola\u2019s campaign for a list of absentee voters whose ballots had been rejected was \u201cnot reasonable.\u201d The state Division of Elections, he wrote, is \u201ccurrently busy processing ballots from the 2026 general election\u201d and \u201csimply lacks the capacity to generate the report\u201d on the campaign\u2019s timetable. The race between Peltola and Republican Senator Dan Sullivan remains uncalled; the size of the Democratic Senate majority depends on it. The ruling travelled into the national wire on Thursday, a day late.</p>\n<p><b>Why it matters.</b> The reason given is administrative, not legal: not that the data is privileged, not that the request is improper, but that the office is too busy. That is a ruling no one has to defend on the merits, and it has the same effect as a ruling on the merits. If the number of rejected ballots is larger than the margin, the information matters; if it is smaller, it does not. The court did not decide which, and the calendar did.</p>\n<p><b>The pattern.</b> Election disputes are settled less by who is right than by which institution controls the clock. A deadline that cannot be met is a decision, and the actor who runs out the clock never has to say what they think.</p>\n<p><b>What history says.</b> In December 2000 the Supreme Court stopped the Florida recount because no constitutionally safe method could be completed by the safe-harbour deadline; the remedy became the outcome, and the deadline did the deciding. In 1876 an electoral commission awarded the presidency to Hayes by a single electoral vote after contested returns from three states were resolved by a bargain rather than an examination. Both outcomes were legal, and neither was a finding of fact.</p>\n<p><b>What we\u2019re watching next.</b> Whether the race is called, and by how much. Whether the margin falls inside the number of rejected absentee ballots \u2014 the only figure that would make the refused list decisive. Whether the campaign appeals. And whether Alaska becomes the last uncalled Senate seat, with the majority resting on a capacity argument.</p>\n<p>Sources: <a href=\"https://apnews.com/article/alaska-senate-peltola-absentee-ballots-sullivan-f42a49a45a2870786f36086c7ad02824\">AP</a>, <a href=\"https://www.washingtonpost.com/elections/2026/11/12/alaska-judge-rules-against-peltola-request-senate-race-ballot-data/\">Washington Post</a>, <a href=\"https://www.nbcnews.com/politics/2026-election/alaska-judge-rules-request-peltola-campaign-ballot-data-senate-race-no-rcna608923\">NBC News</a></p>"
+   },
+   {
+    "title": "[17:40] Kansas elects a third Democratic governor \u2014 and the President blames his own Senate",
+    "html": "<p><i>The wave is now a pattern, and the explanation is being routed away from the message.</i></p>\n<p><b>What happened.</b> The Associated Press called Kansas for Cindy Holscher on Thursday. The Democratic state senator beat Ty Masterson, the Republican president of the state Senate and a Trump-endorsed candidate, by about seven tenths of a point, 50.4 to 49.7 \u2014 keeping the governor\u2019s office in Democratic hands for a third consecutive term in a state the President carried easily. The same day, the President blamed Senate Republicans for the midterm losses, calling their failure to pass the SAVE America Act \u2014 voter identification and proof of citizenship \u2014 \u201cdevastating to the Republican Party in the Midterms,\u201d and criticising the Senate for not eliminating the legislative filibuster.</p>\n<p><b>Why it matters.</b> Kansas is the strongest available evidence that the Democratic wave was not confined to swing states or to candidate-quality accidents: it is a Republican-leaning state where a sitting party lost a governor\u2019s race it should have held with a well-known nominee. And the blame is being routed, within a week, to two things the President does not control: the Senate\u2019s calendar and a procedural rule. Neither can be fixed by winning the next argument, and neither requires revisiting the message.</p>\n<p><b>The pattern.</b> Losing coalitions blame procedure before they blame themselves, because procedure is a story about theft and message is a story about judgment. The tell is the demand: not \u201cwe were wrong\u201d but \u201cwe were blocked,\u201d which converts a defeat into a grievance with a rule attached.</p>\n<p><b>What history says.</b> After 1964 the conservative movement blamed the \u201cEastern establishment\u201d and the party\u2019s nominating rules, not Goldwater\u2019s positions; four years later it had taken the party. After 2012 the Republican National Committee wrote a 100-page autopsy calling for a different tone and a wider coalition; the next cycle the party nominated the man who had rejected the autopsy. In both cases the internal blame fight, not the defeat itself, determined what came next.</p>\n<p><b>What we\u2019re watching next.</b> Whether the SAVE America Act is reintroduced in the lame duck, and whether anyone moves to abolish the filibuster before the new Senate is seated. Whether Senate Republicans answer the criticism or absorb it. And whether Kansas reads as a durable realignment or as one bad nominee in a good year \u2014 the 2028 governor\u2019s race will say.</p>\n<p>Sources: <a href=\"https://apnews.com/article/kansas-governor-midterm-election-cindy-holscher-c9bb46dfd593fa7182a6bc93722ce552\">AP</a>, <a href=\"https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms\">NPR</a>, <a href=\"https://thehill.com/homenews/administration/6216059-trump-criticizes-gop-midterm-losses/\">The Hill</a></p>"
+   },
+   {
+    "title": "[17:20] A five-hour email outage stopped a medical coding floor, not a mailbox",
+    "html": "<p><i>One vendor\u2019s control plane turned out to be the transport every other system rides on.</i></p>\n<p><b>What happened.</b> A Microsoft 365 and Exchange Online outage began at 12:46pm ET and was still unresolved more than five hours later, with the company first attributing it to elevated load and an unexpected increase in a type of service traffic, then pointing to a number of servers being unexpectedly unavailable. Outlook reports on Downdetector went from about 2,400 to more than 130,000 in forty minutes, and Microsoft\u2019s own status page briefly failed while showing all products operational. A separate Teams incident in North America the same day was restored by automated recovery; Microsoft has not linked the two. OpenAI and Anthropic both reported broken Microsoft 365 connectors. At one medical coding firm, employees reported that the floor stopped entirely: no mail, no calendar, no document access, no authenticated line-of-business application.</p>\n<p><b>Why it matters.</b> Medical coding sits at the revenue end of the health payment chain \u2014 coded encounters become claims, claims become receivables. A coding floor with no identity layer is not slowed, it is halted, and the work does not compress: the same encounters still have to be coded later, plus the hours spent waiting. The outage was not an email problem. It was a demonstration that a single vendor\u2019s authentication and document services are the transport for processes that have no offline mode.</p>\n<p><b>The pattern.</b> Resilience planning tests services; failures happen to processes. Every dependency that rides on the same identity provider fails together, and the shared dependency is invisible until it goes down.</p>\n<p><b>What history says.</b> In October 2021 a configuration error withdrew Facebook\u2019s routes from the internet for about six hours, and the company\u2019s own badge readers and internal tools failed with it \u2014 staff could not enter buildings to fix the network. In August 2003 a transmission-line failure in Ohio cascaded across eight states in minutes because the grid\u2019s operators could not see beyond their own boundaries. The engineering lesson in both cases was the same: the system that is supposed to manage the failure is often the system that has failed.</p>\n<p><b>What we\u2019re watching next.</b> Whether Microsoft names a cause, and whether the two same-day incidents are connected. Whether claims processing shows a measurable dip in the next two weeks. And whether any of the federal enforcement and procurement machinery documented here \u2014 which runs on the same four services \u2014 publishes a continuity plan that does not assume the cloud is up.</p>\n<p>Sources: <a href=\"https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users\">Al Jazeera</a>, <a href=\"https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html\">CNBC</a>, <a href=\"https://www.businesstimes.com.sg/international/global/microsoft-outage-drags-hours-disrupting-outlook-teams-thousands\">Reuters via Business Times</a></p>"
+   },
    {
     "title": "[09:20] Nvidia's chief executive resigned nine days after the first spy report",
     "html": "<p><i>The company removed the man at the centre of a national-security story before the state did.</i></p>\n\n<p><b>What happened.</b> Nvidia's board announced on Thursday morning that Jensen Huang had resigned as president, chief executive and board member, effective immediately, after 33 years. Chief financial officer Colette Kress becomes interim CEO. The board met on Wednesday night, after the company opened an investigation into his relationship with Alice Huang \u2014 a former Megaspeed director whom US intelligence has assessed to be an asset of China's Ministry of State Security \u2014 and after a second allegation involving a company employee was reported. Roughly $600 billion had come off Nvidia's market value in the preceding days; the company would not confirm the figure. No charges have been filed against anyone, and no enforcement action has been announced.</p>\n\n<p><b>Why it matters.</b> Nvidia is not a company with a strategic role; it is the physical bottleneck of the entire AI buildout, and the chips it sells are the object of US export control. A chief executive leaving for national-security reasons at that company is a governance event in the supply chain itself. Note the mechanism: the board acted, not the state. There is no indictment, no subpoena described in public, no export penalty. A board removed its founder to protect contracts, licences and customers \u2014 the fastest-moving legitimacy instrument in this whole story was a corporate one.</p>\n\n<p><b>The pattern.</b> For a year, Washington has tried to police advanced computing by controlling shipments. The alleged diversion here ran a different route: Megaspeed, a cloud firm, is accused of renting out roughly 240,000 export-banned chips to Chinese customers through Singaporean shell companies \u2014 access to capacity rather than sale of hardware. And in nine days, what changed was not the rule. It was who runs the chokepoint.</p>\n\n<p><b>What history says.</b> Two precedents are close. Boeing's board replaced its chief executive in December 2019, before regulators finished, because certification risk threatened the order book. And in 1987 Toshiba's chairman and president resigned over the diversion of milling machines to the Soviet Union \u2014 the firm's own leadership fell before Congress imposed sanctions, and the internal action was what preserved its access to the American market. When a strategic firm is caught in an export scandal, the company removes the principal to keep the licence. That is a rational, well-worn move, and it is also a way of ensuring the state never has to rule on the underlying question.</p>\n\n<p><b>What we're watching next.</b> Whether Kress is made permanent or an outside candidate is chosen, and what either signals about China exposure. Whether the Commerce Department now moves on remote access to computing capacity rather than on chip shipments. Whether the criminal track appears at all \u2014 a referral, a grand jury, a charging document \u2014 because a resignation is not that, and the difference is now the whole of the accountability. And whether other firms in the chain disclose similar arrangements before they are reported.</p>\n\n<p>Sources: <a href=\"https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f\">AP</a>, <a href=\"https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns\">The Guardian</a>, <a href=\"https://edition.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout\">CNN</a>, <a href=\"https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/\">Wired</a></p>"
@@ -13283,7 +13382,7 @@
  },
  "counts": {
   "items_today": 0,
-  "tracked_predictions": 102,
+  "tracked_predictions": 103,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -13357,7 +13456,7 @@
     "prev_score": 86
    }
   ],
-  "age_days": 3,
+  "age_days": 4,
   "review_note": "7-day hand review of 2026-11-09, covering the window 2026-11-02 to 2026-11-09 (wires 11-02 through 11-09, ledger entries 11-02 to 11-09, and the 11-10 morning brief). Deltas are changes from the 2026-11-02 review. No score was set by inference: every movement cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  },
  "mget": {
@@ -13466,7 +13565,7 @@
     "M": 11
    }
   },
-  "age_days": 8,
+  "age_days": 9,
   "lanes": {
    "sum": 100.0,
    "items": [
@@ -14810,7 +14909,7 @@
   }
  },
  "leg_g": {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "generator": "build_leg_g.py",
   "source": "/space/legitimation_event",
   "leg": "G",
@@ -14818,14 +14917,14 @@
   "reading": "dated institutional withdrawals of standing, counted from a closed taxonomy",
   "window": {
    "start": "2026-09-04",
-   "end": "2026-11-12",
-   "days": 70
+   "end": "2026-11-13",
+   "days": 71
   },
   "totals": {
    "withdrawals": 13,
    "grants": 1,
    "weighted": 22.0,
-   "per_month": 5.7,
+   "per_month": 5.6,
    "events_total": 14
   },
   "series": [
@@ -14852,9 +14951,9 @@
     "withdrawals": 5,
     "grants": 1,
     "weighted": 10.0,
-    "journal": 20,
-    "per_100_journal": 25.0,
-    "days_covered": 11
+    "journal": 21,
+    "per_100_journal": 23.8,
+    "days_covered": 12
    }
   ],
   "composition": [
@@ -14905,27 +15004,17 @@
  "watch": {
   "generated": "2026-11-12",
   "counts": {
-   "active": 75,
-   "fired": 30,
-   "expired": 25,
+   "active": 77,
+   "fired": 31,
+   "expired": 26,
    "retired": 5,
    "active_no_expiry": 0,
    "active_past_expiry": 0,
-   "high_open": 48
+   "high_open": 49
   },
-  "next": "2026-11-13",
-  "next_days": 1,
+  "next": "2026-11-14",
+  "next_days": 2,
   "rows": [
-   {
-    "title": "Wednesday watch window \u2014 Massie resolution aftermath (opened, then closed by a Tuesday-night disposition)",
-    "added": "2026-11-10",
-    "expire": "2026-11-13",
-    "days_left": 1,
-    "priority": "high",
-    "status": "active",
-    "check": "The Wednesday 2026-11-11 vote-day window was opened at 20:00 ET on 10 Nov, before the vote series began, then closed by the disposition itself at 18:02 ET: the House adopted a motion to refer the eight articles to committee (roll 317, H RES 1655, *On Motion to Refer*, 211-204 \u2014 one Republican against, all Democrats against), and no vote was taken on the articles. (Timestamp corrected 2026-11-11 from '~21:05 ET'; the recorded roll is 18:02.) What the window still covers, and what to check on Wednesday: (1) WHICH committee, and whether it is given a deadline \u2014 referral to Judiciary with no calendar is a park; referral to Armed Services is a second park with friendlier jurisdiction. A referral ",
-    "action": "File any (1)-(3) as observations against this card; do not touch HEV-001's resolution. If a discharge petition is filed with named signatories, open a new card rather than amending this one."
-   },
    {
     "title": "Turnout projections put on the record: Georgia 1.4M, Maine midterm record, national VEP rate",
     "added": "2026-11-03",
@@ -14955,16 +15044,6 @@
     "status": "active",
     "check": "Any statement by Trump, Miller, Hegseth, the White House, or a named GOP official \u2014 or a conspicuous absence \u2014 in response to the post-defeat 'no peace' / Minuteman 'good men' motif, now carried by a signed auxiliary page.\n\n|| 2026-11-09 09:20 MORNING WIRE \u2014 SILENCE + CONTINUED DEAL TALK, but the deal talk is now cheap. No elite statement on the 'no peace' motif. Trump told reporters the Dana White press-secretary offer was 'only kidding' and White meets him at the White House today \u2014 the conciliation register remains, and the appointment channel has been converted into a joke, which is a form of disavowal without a disavowal of the auxiliary. No elite echo of 'evil'/'no peace'/'1776'. Branc",
     "action": "Elite conciliation (60 Minutes: 'I can work with the Democrats') and auxiliary foreclosure ('Make No Peace With Evil, Destroy It') appeared the same day. Readings: DISAVOWAL -> two tracks uncoordinated, deal sincere, downgrade division-of-labour to coincidence. SILENCE + CONTINUED DEAL TALK -> division of labour confirmed, base held in place while principal negotiates. ELITE ECHO ('no peace', 'evil', '1776' from a named official) -> the auxiliary is not holding the flank, it is the flank, and the conciliation is cover. AUX ATTACK ON THE DEAL + elite retreat -> the base holds a veto and the principal is not the principal."
-   },
-   {
-    "title": "Vance\u2013Rezaei channel: does a named mechanism appear before Nov 3, or is this an exit ramp with no floor",
-    "added": "2026-10-29",
-    "expire": "2026-11-15",
-    "days_left": 3,
-    "priority": "high",
-    "status": "active",
-    "check": "The letter is public; the mechanism is not. Check for: (1) a named monitoring/verification arrangement or a mediator with a mandate (Qatar, Oman, Pakistan, Turkey) rather than 'messages passed'; (2) any stand-down of the 96-hour posture or a carrier deferral tied to the talks; (3) whether Israel is a party to or excluded from the channel; (4) whether Rezaei \u2014 a hard-liner chosen over the foreign ministry \u2014 is the right addressee for a deal or the right addressee for a face-saving pause; (5) whether the strike briefings to the Gulf continue during the talks (they have). Falsifier for the 'cover' reading: strikes do not occur in the Nov 4-10 window AND a named mechanism exists by Nov 15.",
-    "action": "If a named mechanism appears: revise the Iran sequencing prediction \u2014 the calendar was constraint, not cause. If the window opens with the posture intact and the channel silent: log as mediation-as-cover confirmed, and update the prediction's evidence chain."
    },
    {
     "title": "War Dept. designates Confucius Institutes a national security threat (2026-10-23, Hegseth)",
@@ -15197,6 +15276,26 @@
     "action": "Major-package strike = Hegseth/Cooper bloc won; log war escalation and treat Vance's positioning as failed. Published text or reopening date = Vance/Witkoff won; the war-risk premium should fall and the attribution gap closes by agreement rather than by attribution. New sanctions tranche with no military move = Rubio/Bessent won; the blockade becomes the durable instrument, which is the de-dollarization/substrate-choke channel. Hegseth removed while the deal track advances = the removal was the price of the diplomatic branch."
    },
    {
+    "title": "Vance domestic corruption portfolio \u2014 does it acquire staff, an office, a budget, or a named-state instrument",
+    "added": "2026-11-12",
+    "expire": "2026-12-12",
+    "days_left": 30,
+    "priority": "high",
+    "status": "active",
+    "check": "Thirty-day falsifier running from the 2026-11-12 08:07 ET post. Check in order: (1) whether DOJ, an FBI field office, or a USAO is named as the executing component, or whether the work runs outside DOJ entirely; (2) any grand jury, new US Attorney, task force, IG referral, or funding condition naming Minnesota, California or Illinois; (3) whether the Vance office acquires staff, a named portfolio, or a budget line; (4) whether Vance's public calendar empties of foreign policy and the Tehran channel stays dark; (5) whether any Republican governor of a Democratic state is publicly exempted, which reveals the target as party rather than geography; (6) any appropriations move attaching 'recovere",
+    "action": "On any named-state federal instrument: open a card on the enforcement-to-revenue mechanism with the instrument as its anchor, and tell Samuel same hour. On budget/staff materialisation: log as the portfolio becoming an institution. On nothing by 2026-12-12: record that the post was framing, not tasking, and downgrade the read \u2014 the mechanism tests behaviour, so an unannounced build remains a disclosed ambiguity, not an exoneration."
+   },
+   {
+    "title": "Alaska: does the margin fall inside the number of rejected absentee ballots the court refused to disclose",
+    "added": "2026-11-12",
+    "expire": "2026-12-15",
+    "days_left": 33,
+    "priority": "high",
+    "status": "active",
+    "check": "Superior Court Judge Thomas Matthews ruled 2026-11-11 that the Peltola campaign's request for the list of rejected absentee ballots was 'not reasonable' on capacity grounds. Check: (1) whether the Peltola-Sullivan race is called and at what margin; (2) whether any filing, statement or press report puts a NUMBER on rejected or questioned absentee ballots, and whether that number exceeds the margin; (3) whether the campaign appeals and on what ground; (4) whether the Division of Elections ever produces the report; (5) whether the seat decides the Senate majority margin of 55 or 56.",
+    "action": "On a published rejected-ballot count exceeding the margin: file as a specimen of disclosure refused on capacity grounds where the withheld figure was decisive, and tell Samuel. On the race being called with a margin larger than any plausible rejected count: log the refusal as immaterial and retire. On nothing by 12-15: record that the count closed without either number ever being published."
+   },
+   {
     "title": "Big Questions panel: C-002 card is a hand-baked snapshot \u2014 refresh due Nov 3",
     "added": "2026-10-27",
     "expire": "2026-12-15",
@@ -15235,6 +15334,16 @@
     "status": "active",
     "check": "LOGISTICS AS THE FALSIFIER. The 10-18 Daily Caller exclusive indexed war tempo to the midterms ('ballistic after Nov 3'). The force package that underwrites that claim does not exist on Nov 3: two CSGs in theater, Roosevelt in Japan since 10-16 for Keen Sword, reported to reach CENTCOM by end-November (WSJ via National, National Interest 10-21; USNI fleet tracker 10-13). Checks: (1) Roosevelt transit reports \u2014 Suez or Cape route, any deviation east; (2) whether the 96-hour readiness order is extended or executed; (3) any pre-Nov 3 strike activity (would falsify the sequencing claim outright); (4) post-Nov 3: does escalation begin before the third hull is on station (would mean the tempo was ",
     "action": "If Roosevelt crosses into CENTCOM before any major strike: log as the true opening of the window and re-date the escalation forecast. If strikes begin before she arrives: the constraint was never logistical \u2014 record as a sequencing finding against my own reading, and treat the midterm calendar as sufficient cause by itself."
+   },
+   {
+    "title": "Gulf bypass attrition: East-West pipeline capacity, Saudi acknowledgement, war-risk premium",
+    "added": "2026-11-12",
+    "expire": "2026-12-15",
+    "days_left": 33,
+    "priority": "high",
+    "status": "active",
+    "check": "Houthis claimed 11-12 a drone strike on an East-West pipeline pumping station, a ballistic missile at Yanbu, and an Aramco building in Riyadh, after earlier claims against King Khalid airport and multiple pumping stations. Check each run: (1) any Saudi or Aramco statement acknowledging damage or publishing capacity; (2) East-West throughput, if any figure appears; (3) war-risk premiums for Red Sea and Gulf loading; (4) whether US escort or carrier posture in the strait changes; (5) whether the Houthi claim is dated and corroborated by a second source, since the group did not specify the day.",
+    "action": "On confirmed damage to the bypass with capacity loss: open a card on dual-route closure and the price mechanism. On repeated unattributed claims with no Saudi acknowledgement: record the attribution gap as the finding \u2014 infrastructure attack below the threshold of response."
    },
    {
     "title": "Ordered Departure: Gulf Embassies Cleared of Families (Oct 21)",
@@ -15375,6 +15484,16 @@
     "status": "active",
     "check": "Reuters has six commissaries, sourced from base social media, with US investigators in contact with French counterparts on the Oct 11-12 attack. Check: (1) whether DoD/FBI/CISA attributes publicly to Iran, Russia, or criminal actors, and whether attribution is made by a cyber agency or by a political principal (precedent: Trump blamed Minnesota's governor for the July water hacks); (2) whether the count rises beyond six and whether the August incidents connect to the September European wave; (3) whether the vendor is named (Danfoss in France; the US commissary stack is a different vendor set \u2014 DeCA systems); (4) whether any control-plane failure occurs in a DIFFERENT class (water SCADA, paym",
     "action": "If a second, different control-plane class fails within the window and is covered as an isolated incident: promote the general shared-vendor thesis in /space/philosophy and tell Samuel same-day. If attribution is made by a political principal rather than an agency: log as attribution-as-rhetoric, the same shape as the Minnesota case."
+   },
+   {
+    "title": "Nvidia: do the three committees question Huang in public, and does the testimony produce a record",
+    "added": "2026-11-12",
+    "expire": "2027-01-15",
+    "days_left": 64,
+    "priority": "medium",
+    "status": "active",
+    "check": "Mast (Foreign Affairs), Moolenaar (Select China) and Crawford (Intelligence) are negotiating a closed-door appearance and have threatened subpoenas; Huang has agreed to testify. Check: (1) whether the session is public or closed, and whether a transcript is released; (2) whether a subpoena is actually issued; (3) whether any criminal referral or grand jury appears; (4) whether Commerce moves on remote access to computing capacity rather than chip shipments; (5) whether a second firm discloses a similar arrangement voluntarily.",
+    "action": "On a public hearing or released transcript: file the testimony as a specimen and score whether the capacity-versus-hardware question was asked. On a closed session with no transcript: record that the state's only examination of the AI supply chain's central scandal produced no public record."
    },
    {
     "title": "Ohio: lame-duck legislation removing or transferring governor-elect Acton's powers",
@@ -15669,16 +15788,6 @@
   ],
   "high": [
    {
-    "title": "Wednesday watch window \u2014 Massie resolution aftermath (opened, then closed by a Tuesday-night disposition)",
-    "added": "2026-11-10",
-    "expire": "2026-11-13",
-    "days_left": 1,
-    "priority": "high",
-    "status": "active",
-    "check": "The Wednesday 2026-11-11 vote-day window was opened at 20:00 ET on 10 Nov, before the vote series began, then closed by the disposition itself at 18:02 ET: the House adopted a motion to refer the eight articles to committee (roll 317, H RES 1655, *On Motion to Refer*, 211-204 \u2014 one Republican against, all Democrats against), and no vote was taken on the articles. (Timestamp corrected 2026-11-11 from '~21:05 ET'; the recorded roll is 18:02.) What the window still covers, and what to check on Wednesday: (1) WHICH committee, and whether it is given a deadline \u2014 referral to Judiciary with no calendar is a park; referral to Armed Services is a second park with friendlier jurisdiction. A referral ",
-    "action": "File any (1)-(3) as observations against this card; do not touch HEV-001's resolution. If a discharge petition is filed with named signatories, open a new card rather than amending this one."
-   },
-   {
     "title": "Turnout projections put on the record: Georgia 1.4M, Maine midterm record, national VEP rate",
     "added": "2026-11-03",
     "expire": "2026-11-14",
@@ -15709,16 +15818,6 @@
     "action": "Elite conciliation (60 Minutes: 'I can work with the Democrats') and auxiliary foreclosure ('Make No Peace With Evil, Destroy It') appeared the same day. Readings: DISAVOWAL -> two tracks uncoordinated, deal sincere, downgrade division-of-labour to coincidence. SILENCE + CONTINUED DEAL TALK -> division of labour confirmed, base held in place while principal negotiates. ELITE ECHO ('no peace', 'evil', '1776' from a named official) -> the auxiliary is not holding the flank, it is the flank, and the conciliation is cover. AUX ATTACK ON THE DEAL + elite retreat -> the base holds a veto and the principal is not the principal."
    },
    {
-    "title": "Vance\u2013Rezaei channel: does a named mechanism appear before Nov 3, or is this an exit ramp with no floor",
-    "added": "2026-10-29",
-    "expire": "2026-11-15",
-    "days_left": 3,
-    "priority": "high",
-    "status": "active",
-    "check": "The letter is public; the mechanism is not. Check for: (1) a named monitoring/verification arrangement or a mediator with a mandate (Qatar, Oman, Pakistan, Turkey) rather than 'messages passed'; (2) any stand-down of the 96-hour posture or a carrier deferral tied to the talks; (3) whether Israel is a party to or excluded from the channel; (4) whether Rezaei \u2014 a hard-liner chosen over the foreign ministry \u2014 is the right addressee for a deal or the right addressee for a face-saving pause; (5) whether the strike briefings to the Gulf continue during the talks (they have). Falsifier for the 'cover' reading: strikes do not occur in the Nov 4-10 window AND a named mechanism exists by Nov 15.",
-    "action": "If a named mechanism appears: revise the Iran sequencing prediction \u2014 the calendar was constraint, not cause. If the window opens with the posture intact and the channel silent: log as mediation-as-cover confirmed, and update the prediction's evidence chain."
-   },
-   {
     "title": "War Dept. designates Confucius Institutes a national security threat (2026-10-23, Hegseth)",
     "added": "2026-10-23",
     "expire": "2026-11-15",
@@ -15747,11 +15846,31 @@
     "status": "active",
     "check": "FOURTEEN-DAY CHECK on the property-management read. Look for, in order of evidential value: (1) PARDON SCOPE -- any pre-emptive, blanket, family, or self-directed pardon or pardon signal. A single pre-emptive pardon converts the vacuum read from hypothesis to confirmed and should be reported as the top item of that day's wire. (2) DONOR REPRICING -- a named major donor or bundler withholding from the administration's legal defence or from a Trump-endorsed primary candidate, in public. (3) DYNASTIC TRANSFER -- any signal that the succession instrument is title transfer (family or custodian designation) rather than open primary. (4) TRANSACTION OVER POLICY -- administration output that is a de",
     "action": "On (1) or (2): file an mget_ledger entry with verdict confirms and raise it to the top of the next wire and Daily Read. On (5): file as falsification of the vacuum note and repoint the succession watch to the war-window branch."
+   },
+   {
+    "title": "Hormuz mine claims: corroboration and war-risk premium",
+    "added": "2026-11-05",
+    "expire": "2026-11-19",
+    "days_left": 7,
+    "priority": "high",
+    "status": "active",
+    "check": "IRGC claims (04 Nov: four tankers destroyed by mines on a 'prohibited route' south of Hormuz; 05 Nov: two tankers and a tug overnight). These are claims by an interested party and are uncorroborated by any shipping authority, insurer or P&I club through 09:30 ET 05 Nov.\n\nCheck in order, daily: (1) does UKMTO / a coalition naval command / a P&I club or Lloyd's-listed insurer corroborate any mine strike with vessel names or positions; (2) does war-risk premium for Gulf transit move (the cleanest independent price); (3) does a flag state or operator confirm a hull loss; (4) does the 'prohibited route' designation get formalised, which would convert a claim into a de facto blockade regime.\n\nA cl",
+    "action": "Corroborated hulls + premium move = adversary tempo is setting US options; log onto the Iran sequencing card as an independent variable and flag for the postmortem. Claim-only after 7 days = record as unverified assertion and retire."
+   },
+   {
+    "title": "9th Circuit / Washington ballot-seizure front \u2014 Tuesday hearing + verified eligibility count",
+    "added": "2026-10-26",
+    "expire": "2026-11-20",
+    "days_left": 8,
+    "priority": "high",
+    "status": "active",
+    "check": "TRIGGER (mechanism confirm): any state or court produces a verified count of how many names on a federal sequestration list were actually ineligible, OR DOJ asks a fourth state to sequester ballots before 11-03, OR post-election filings cite these pre-election lists as the record of irregularity. TRIGGER (mechanism strain): a court grants sequestration on the merits, or Washington complies voluntarily without suit \u2014 either would mean the state apparatus is cooperating rather than resisting. Check Tuesday 10-27 CA district court hearing; Washington's response to the 24-hour deadline (comply / refuse / sue); whether Alaska certification is enjoined. || 2026-10-29 RUN NOTE (partial trigger, cou",
+    "action": "File ledger entry; if post-election filings cite the lists, move c-002 confidence on the contestation mechanism leg"
    }
   ]
  },
  "flow_panel": {
-  "generated": "2026-11-12",
+  "generated": "2026-11-13",
   "generator": "build_flow_panel.py",
   "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
   "panels": [
@@ -15812,10 +15931,10 @@
      {
       "month": "2026-11",
       "raw": 2,
-      "per_100_journal": 10.0,
-      "journal": 20,
+      "per_100_journal": 9.5,
+      "journal": 21,
       "ledger": 79,
-      "days_covered": 11
+      "days_covered": 12
      }
     ],
     "control": {
@@ -15827,7 +15946,7 @@
       "2026-08": 14,
       "2026-09": 176,
       "2026-10": 189,
-      "2026-11": 20
+      "2026-11": 21
      },
      "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
     },
@@ -15932,7 +16051,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-12 14:23Z",
+  "generated": "2026-11-13 00:53Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
