@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T21:23 ET"
+  "generated_stamped": "2026-11-12T21:28 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5625,6 +5625,62 @@
    "falsifier_shape_audit": "Threshold observable (leadership roster), person fixed, no discretion about what counts as 'settled'.",
    "basename": "2027-01-03-schumer-survives-leadership",
    "confidence": 66
+  },
+  {
+   "title": "A prosecution or formal referral is predicated on a statement, not an act, before February 2027",
+   "date_made": "2026-11-12",
+   "time_et": "21:45",
+   "statement": "By 2027-02-01, DOJ or a US Attorney's office makes a formal criminal referral, indictment, or grand-jury subpoena of an elected Democrat, former official, or named administration critic in which the stated factual predicate is a public statement or criticism rather than a discrete act.",
+   "evidence_confirmed": [
+    "AG Blanche 2026-11-12: 'there can come a point when a criticism becomes a threat and when a threat becomes something criminal' - a stated willingness to treat speech as predicate, with no articulated standard",
+    "WH Counsel Scharf letter 2026-11-11: planned oversight 'could cross the line into blatant criminality'",
+    "Trump 2026-11-12 tasking Vance on crime/corruption in Democratic cities and states; Cheney-jail, Schiff-prison, Obama-treason statements as the comparison set"
+   ],
+   "evidence_contradicted": [
+    "No charging document or referral in hand; the doctrine is stated, not applied",
+    "Brandenburg and the speech-or-debate clause make a pure-speech federal charge against a member legally fragile; DOJ has so far used oversight-process theories (contempt, obstruction) rather than speech itself"
+   ],
+   "falsifier": "No such referral, indictment or subpoena by 2027-02-01 - MISS. A referral whose predicate is a document refusal, a classified-material handling act, or a false-statements theory does NOT count; the card tests speech-as-predicate specifically.",
+   "forward_watchlist": [
+    "pool transcript of the Blanche exchange - does a criterion exist off-camera",
+    "any DOJ letter to a member naming statements as the conduct under review",
+    "grand jury activity in DC or a district naming a critic",
+    "whether Scharf's 'criminality' line is restated in a written policy"
+   ],
+   "status": "pending",
+   "confirmer": "Documented formal referral/indictment/subpoena, predicate = statement",
+   "confirmer_base_rate": "Federal prosecution of political criticism is rare in the modern record; the observable class (referrals of critics) is small and mostly process-based, so the base rate for a speech-predicated one inside eleven weeks is low",
+   "confirmation_window": "2027-02-01",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-12",
+   "window_closes": "2027-02-01",
+   "expiry_date": "2027-02-01",
+   "grace_horizon": "none",
+   "grace_locked": true,
+   "grace_locked_date": "2026-11-12",
+   "grace_locked_note": "No grace. Documented referrals are dated public acts.",
+   "skill_eligible": true,
+   "anchor_type": "fixed_event",
+   "anchor_source": "Self-set 2027-02-01 window (11 weeks)",
+   "anchor_grade": "D",
+   "window_basis": "Long enough for a referral to surface after a doctrine statement, short enough that the doctrine has to be real rather than rhetorical.",
+   "expiry_basis": "Fixed registration date.",
+   "threshold_definition": "The predicate named in the document must be a statement or criticism. Characterisation by press does not count; the document's own language does.",
+   "instrument": "Filed DOJ/USAO documents and official referral letters",
+   "leg_primary": "N",
+   "leg_basis": "Announced doctrine converts to practice slowly, and speech-predicated charges are legally costly; the absence of a named target in Blanche's answer is evidence the machinery is not yet built, not that it will never be.",
+   "public_status": "gated_public",
+   "p_substance": 0.32,
+   "p_timing": 0.94,
+   "confidence_rationale": "30 = a stated willingness discounted by the legal cost and by the fact that no target, statute or standard was named. This is a doctrine-formation card, not an operational one; if a second official restates the formula in writing it goes to 45, and if any subpoena issues it goes to 70 immediately.",
+   "tracking_state": "Opened same night as the statement, before any referral exists. The statement is single-carrier but verbatim-grade; the risk is that the clip is a fragment, which would cut both the drama and the card.",
+   "base_rate_tier": "C",
+   "base_rate_frozen_date": "2026-11-12",
+   "deadline_type": "constitutive",
+   "falsifier_shape_audit": "Threshold is a document class plus its stated predicate; no discretion about what counts as 'formal'.",
+   "basename": "2027-02-01-speech-as-criminal-predicate",
+   "confidence": 30
   }
  ],
  "mget_ledger": [
@@ -13291,6 +13347,12 @@
   },
   {
    "time": "2026-11-12",
+   "ref": "A prosecution or formal referral is predicated on a statement, not an act, before February 2027",
+   "change": "confidence 30 \u2014 status pending",
+   "trigger": "Trump 2026-11-12 tasking Vance on crime/corruption in Democratic cities and states; Cheney-jail, Schiff-prison, Obama-treason statements as the comparison set"
+  },
+  {
+   "time": "2026-11-12",
    "ref": "Iran deal announced: a declared win before 2027-03-31",
    "change": "confidence 57 \u2014 status pending",
    "trigger": "2026-10-27: Iran war regionalisation track - Egypt and Saudi Arabia engaging Tehran"
@@ -13330,12 +13392,6 @@
    "ref": "Count-frame dominance after the 72-hour miss: does the post-defeat route recalibrate to the count by 2026-12-07?",
    "change": "confidence 45 \u2014 status pending",
    "trigger": "2026-11-07 14:55 ET: the president declared the Alaska Senate race over for Dan Sullivan, asserting Sullivan 'is leading substantially' and that the two Republican candidates' vote"
-  },
-  {
-   "time": "2026-11-07",
-   "ref": "Press secretary succession - two-leg card: named by Nov 30, else Miller-managed vacuum test",
-   "change": "confidence 58 \u2014 status emergent",
-   "trigger": "Dana White flew to Washington and met Monday after the Thursday Truth Social offer; reported across wires (Nov 7 morning wire)"
   }
  ],
  "daily_read": {
@@ -13438,7 +13494,7 @@
  },
  "counts": {
   "items_today": 0,
-  "tracked_predictions": 104,
+  "tracked_predictions": 105,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -13612,11 +13668,11 @@
    }
   ],
   "register_load": {
-   "total": 102,
+   "total": 103,
    "by_leg": {
     "T": 44,
     "E": 12,
-    "N": 5,
+    "N": 6,
     "G": 30,
     "M": 11
    }
@@ -16107,7 +16163,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-13 02:23Z",
+  "generated": "2026-11-13 02:28Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
