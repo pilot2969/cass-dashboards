@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-12",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-12T21:28 ET"
+  "generated_stamped": "2026-11-12T22:25 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5618,7 +5618,7 @@
    "p_substance": 0.72,
    "p_timing": 0.66,
    "confidence_rationale": "66 = the incumbent-survives base rate, discounted for three real pressure signals (freshman class elected against him by name, organised progressive opposition, and now a named colleague's declaration) and discounted again because the declaration is single-sourced and unverified. If a second outlet confirms and a second senator endorses, this drops toward 50; below that, the caucus has genuinely moved and the card is a coin toss, not a favourite.",
-   "tracking_state": "Opened after the event, which is a real handicap: the challenge is known and the confidence cannot be blind. Recorded honestly as post-hoc registration with anchor grade D. Confidence set from base rate plus the known pressure, not from the unmade decision.",
+   "tracking_state": "Opened after the event, which is a real handicap: the challenge is known and the confidence cannot be blind. Recorded honestly as post-hoc registration with anchor grade D. Confidence set from base rate plus the known pressure, not from the unmade decision.\n\n2026-11-12 18:04 ET - CONFIRM TRIGGER FIRED, but by the principal, not by a second outlet. Schumer's public response converts the MeidasTouch report into an acknowledged contest: the declaration is no longer single-sourced, because the target of it answered. Confidence NOT repriced (held at 66) - there is still no pre-registered update rule, and 'I have the votes' is an assertion by the interested party, not a count. Recorded here as tracking evidence.\n\nWHAT THE REPLY ACTUALLY DID. Three moves: concede the process ('I welcome any discussion'), restate the credential ('55 seats and counting'), claim the count ('I have the votes'). He did not deny the challenge, did not name Van Hollen, did not give a vote date. Conceding the process while asserting the arithmetic is the standard incumbent absorption move, and it is available to him precisely because the challenger's warrant - the midterm result - is also his own. Van Hollen says the result means change; Schumer says the result is the proof of his leadership. Both claim the same mandate, which is why this stays an instrument fight and not a fitness fight.\n\nMONITORABLE: the vote claim is made roughly seven weeks before the December leadership election, in public. Senate leadership counts are normally settled in the room and announced after. A public count this early is either a completed whip operation or the classic overclaim. If a sitting senator endorses Van Hollen within 72h, the overclaim reading wins and the card goes toward 50.",
    "base_rate_tier": "C",
    "base_rate_frozen_date": "2026-11-12",
    "deadline_type": "constitutive",
@@ -5681,6 +5681,56 @@
    "falsifier_shape_audit": "Threshold is a document class plus its stated predicate; no discretion about what counts as 'formal'.",
    "basename": "2027-02-01-speech-as-criminal-predicate",
    "confidence": 30
+  },
+  {
+   "title": "Iran: a new escalatory phase opens before the 120th Congress is seated (Cenk step 2)",
+   "date_made": "2026-11-12",
+   "time_et": "22:30",
+   "statement": "A much bigger war with Iran - the only step in Uygur's five-step chain with a hard third-party observable - begins during the lame duck, before 2027-01-03.",
+   "evidence_confirmed": [
+    "None yet. Filed from a stated prediction, not from an event."
+   ],
+   "evidence_contradicted": [
+    "The Vice-President's public withdrawal of the Iran negotiation channel (2026-11-12) and the collapsed Rezaei contact point cut toward freezing and a deal-declaration path, not expansion. The President framed the withdrawal as a win already banked - off-ramp rhetoric, not a war-opening one."
+   ],
+   "falsifier": "2027-01-03 arrives with no new named operational phase and no expanded stated war aim against Iran. The threshold below is the whole test; anything short of it is a miss.",
+   "status": "pending",
+   "window_closes": "2027-01-03",
+   "window_opens": "2026-11-13",
+   "anchor_type": "constitutional",
+   "anchor_source": "Seating of the 120th Congress",
+   "anchor_grade": "A",
+   "expiry_date": "2027-01-03",
+   "grace_locked": true,
+   "grace_horizon": "0 days - constitutive anchor, hard close on the seating of the 120th Congress",
+   "skill_eligible": true,
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "threshold_definition": "Realised if, on or before 2027-01-03, EITHER (a) the administration announces or is credibly reported to have begun a new named operational phase against Iran extending beyond the existing strike exchange, OR (b) the President states an expanded war aim (regime change, ground commitment, or nuclear-site occupation). Routine retaliation cycles at the current tempo do NOT count. An off-ramp declaration, ceasefire, or negotiation resumption does not count as escalation.",
+   "base_rate_source": "Corpus base rate for a war already in progress opening a larger phase inside an 8-week administrative window: 1848-2026 sample of 41 escalating dyads, expansion inside a given 8-week window without a preceding mobilisation signal (approximately 15-22%). Prior incumbent-defeat windows in the corpus do not raise this; they lower it.",
+   "base_rate_numeric": 0.18,
+   "base_rate_tier": "C",
+   "base_rate_frozen_date": "2026-11-12",
+   "confidence_rationale": "Held at the frozen base rate. Priced as the opponent card to the Iran-deal declaration card (57) - they are not complements, because a third path (long freeze with neither deal nor expansion) is available and is currently the modal read from the wire record. Near-term escalation requires a mobilisation signal that is absent: no carrier movement logged, no air picture in the instrument for five consecutive runs. Absence of the war-risk premium channel is why this stays a statement-and-price read.",
+   "correlation_flag": "Opposed to /space/prediction/iran-deal-announced-before-april-2027 (57). Overlaps but is not identical to /space/prediction/phase4-branch-external-war-diversion (7.0), which requires a demonstrated diversion motive; this card requires only observable escalation.",
+   "review_cadence": "weekly",
+   "forward_watchlist": [
+    "A new named operational phase",
+    "Carrier or bomber movement toward CENTCOM",
+    "The President restating aims beyond the strait and the funds",
+    "Hegseth announcing a campaign name"
+   ],
+   "verdict": "test",
+   "public_status": "internal",
+   "instrument": "named operational phase as announced by DoD/CENTCOM or reported by Reuters/AP; or a presidential statement of expanded war aims. Announcement event scored; implementation not.",
+   "leg_primary": "M",
+   "leg_secondary": [
+    "T"
+   ],
+   "leg_basis": "material escalation",
+   "deadline_type": "constitutive",
+   "basename": "2026-11-12-iran-escalation-lame-duck",
+   "confidence": 18
   }
  ],
  "mget_ledger": [
@@ -13341,9 +13391,15 @@
   },
   {
    "time": "2026-11-12",
+   "ref": "Iran: a new escalatory phase opens before the 120th Congress is seated (Cenk step 2)",
+   "change": "confidence 18 \u2014 status pending",
+   "trigger": "None yet. Filed from a stated prediction, not from an event."
+  },
+  {
+   "time": "2026-11-12",
    "ref": "Schumer still leads Senate Democrats when the 120th Congress convenes",
    "change": "confidence 66 \u2014 status pending",
-   "trigger": "Democrats won the Senate majority 2026-11-03 - the credential a sitting leader normally runs on (card 2026-11-03-senate-democratic-control, confirmed hit)"
+   "trigger": "Schumer, X/@SenSchumer 2026-11-12 18:04 ET (18K views at capture): 'I welcome any discussion about the future of our caucus... 55 seats and counting is an amazing result - and I ha"
   },
   {
    "time": "2026-11-12",
@@ -13386,12 +13442,6 @@
    "ref": "A fourth El-Sayed specimen is document-shaped: an institutional artefact is cited, not just asserted",
    "change": "confidence 42 \u2014 status emergent",
    "trigger": "A candidate page already carried the fabricated version; candidate pages emit press releases as native output, and the artefact step is the cheapest thing such a page can do next"
-  },
-  {
-   "time": "2026-11-07",
-   "ref": "Count-frame dominance after the 72-hour miss: does the post-defeat route recalibrate to the count by 2026-12-07?",
-   "change": "confidence 45 \u2014 status pending",
-   "trigger": "2026-11-07 14:55 ET: the president declared the Alaska Senate race over for Dan Sullivan, asserting Sullivan 'is leading substantially' and that the two Republican candidates' vote"
   }
  ],
  "daily_read": {
@@ -13494,7 +13544,7 @@
  },
  "counts": {
   "items_today": 0,
-  "tracked_predictions": 105,
+  "tracked_predictions": 106,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -13668,13 +13718,13 @@
    }
   ],
   "register_load": {
-   "total": 103,
+   "total": 104,
    "by_leg": {
     "T": 44,
     "E": 12,
     "N": 6,
     "G": 30,
-    "M": 11
+    "M": 12
    }
   },
   "age_days": 9,
@@ -15134,7 +15184,7 @@
     "days_left": 2,
     "priority": "high",
     "status": "active",
-    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.",
+    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-midterm-turnout-floor.json] The 41.0% threshold asked here is the turnout-floor card.",
     "action": "Resolve the turnout-floor card on the VEP rate; log each official's public projection against the actual and add the miss rate to the calibration ledger."
    },
    {
@@ -15164,7 +15214,7 @@
     "days_left": 3,
     "priority": "high",
     "status": "active",
-    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.",
+    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Its 14-day trigger closed 2026-11-06 with no living-institution designation. Probe reading not confirmed in window; no card can now be retro-fitted (R2).",
     "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
    },
    {
@@ -15214,7 +15264,7 @@
     "days_left": 9,
     "priority": "high",
     "status": "active",
-    "check": "Watch for any of: (a) a grand jury empanelled, (b) subpoenas issued to sitting members of Congress or their staffs for conduct in the legislative sphere, (c) a formal FBI case file opened and confirmed by a named official, (d) a public statement from the AG or a US Attorney naming the investigation as an investigation (not 'reviewing'). Absence of all four by 2026-11-21 = the 43507 post was comms, not command. FIRES on (b) specifically: subpoenas to members for legislative-sphere conduct would be the first irreversible act of the post-election period and would supply the domestic-enforcement predicate under 10 USC 252.",
+    "check": "Watch for any of: (a) a grand jury empanelled, (b) subpoenas issued to sitting members of Congress or their staffs for conduct in the legislative sphere, (c) a formal FBI case file opened and confirmed by a named official, (d) a public statement from the AG or a US Attorney naming the investigation as an investigation (not 'reviewing'). Absence of all four by 2026-11-21 = the 43507 post was comms, not command. FIRES on (b) specifically: subpoenas to members for legislative-sphere conduct would be the first irreversible act of the post-election period and would supply the domestic-enforcement predicate under 10 USC 252.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2027-02-01-speech-as-crim",
     "action": "If (b) fires: log to mget_ledger as a structural break, upgrade the domestic-enforcement decomposition, and re-examine the Hegseth exit card's 'stays' branch \u2014 a loyalty test that reaches Congress changes the cost of dissent inside the cabinet. If nothing fires by 11-21: mark 43507 as pure comms and discount the principal-owned lane's institutional weight."
    },
    {
@@ -15234,7 +15284,7 @@
     "days_left": 10,
     "priority": "medium",
     "status": "active",
-    "check": "Covert action normalized on main; deniability layer deliberately stripped. TRIGGER: a second cabinet-level open solicitation or overt regime-change statement re Cuba/Venezuela/Iran within 30 days confirms template spread. Walk-back or resumed Havana diplomacy with deniability restored falsifies. Watch: Cuban reciprocity, diaspora-organizing claims, projection symmetry with domestic color-revolution accusations.",
+    "check": "Covert action normalized on main; deniability layer deliberately stripped. TRIGGER: a second cabinet-level open solicitation or overt regime-change statement re Cuba/Venezuela/Iran within 30 days confirms template spread. Walk-back or resumed Havana diplomacy with deniability restored falsifies. Watch: Cuban reciprocity, diaspora-organizing claims, projection symmetry with domestic color-revolution accusations.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/serial-donroe-template-hemisphere.json] The 30-day template-spread test sits inside the serial Donroe card.",
     "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
    },
    {
@@ -15264,7 +15314,7 @@
     "days_left": 18,
     "priority": "high",
     "status": "active",
-    "check": "Does the Flynn/Howell/Lee/DataRepublican 'color revolution plot' push convert into official action: (a) DOJ or FBI investigation of Renew American Democracy, DSA, or former officials on the leaked call; (b) White House press endorsement of the 'traitors' frame; (c) subpoenas or referrals targeting Slotkin per Mike Davis; (d) DataRepublican's DoD special-employee status used to present claims as government-sourced?",
+    "check": "Does the Flynn/Howell/Lee/DataRepublican 'color revolution plot' push convert into official action: (a) DOJ or FBI investigation of Renew American Democracy, DSA, or former officials on the leaked call; (b) White House press endorsement of the 'traitors' frame; (c) subpoenas or referrals targeting Slotkin per Mike Davis; (d) DataRepublican's DoD special-employee status used to present claims as government-sourced?\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2027-02-01-speech-as-criminal-predicate.json] 'Does the traitors frame convert into official action' is the same threshold as speech-as-predicate, registered 2026-11-12.",
     "action": "If (a): upgrade P20-T Tier-1 evidence (community organizing networks + former federal staff = first operationalized tier). If (b) or (c): log pre-election pre-criminalization cascade. All checks: update ledger verdict; feed C-002 certification-contestation context (regime pre-framing midterms as contested)."
    },
    {
@@ -15284,7 +15334,7 @@
     "days_left": 19,
     "priority": "high",
     "status": "active",
-    "check": "Daily: (a) further Russian airspace violations or strikes on Moldovan territory; (b) Moldovan/EU/NATO response escalation (invocations of Article 4, hybrid-attack designations); (c) any US administration reaction - silence is itself a tell; (d) Moldova-adjacent influence-operation activity (foreign-bot lane) resurging around the violation.",
+    "check": "Daily: (a) further Russian airspace violations or strikes on Moldovan territory; (b) Moldovan/EU/NATO response escalation (invocations of Article 4, hybrid-attack designations); (c) any US administration reaction - silence is itself a tell; (d) Moldova-adjacent influence-operation activity (foreign-bot lane) resurging around the violation.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-14] Four daily checks, no dated binary. Card to register: any further Russian violation of or strike on Moldovan territory by 2026-12-01, third-party confirmed.",
     "action": "Log as repression_event (hybrid-attack form) if NATO/EU response escalates or US admin reacts; feed to hybrid-war signal set and dehumanization-velocity watch."
    },
    {
@@ -15294,7 +15344,7 @@
     "days_left": 19,
     "priority": "high",
     "status": "active",
-    "check": "Politico (Oct 20) reports Democrats plan oversight of Musk's empire (conflicts of interest, DOGE data access, funds withholding, USAID dismantling, alleged Ukraine Starlink slowdown) if they win gavels. Musk responded: 'I will come for them.' SpaceX/Tesla/Starlink hold ~$48B in federal contracts; Trump previously threatened to terminate subsidies. Dual levers: platform (X) and state-dependent infrastructure.",
+    "check": "Politico (Oct 20) reports Democrats plan oversight of Musk's empire (conflicts of interest, DOGE data access, funds withholding, USAID dismantling, alleged Ukraine Starlink slowdown) if they win gavels. Musk responded: 'I will come for them.' SpaceX/Tesla/Starlink hold ~$48B in federal contracts; Trump previously threatened to terminate subsidies. Dual levers: platform (X) and state-dependent infrastructure.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Depends on a contingency that has not occurred (a Democratic gavel with a live Musk oversight agenda). Register when the subpoena exists.",
     "action": "One week before the midterms. If Musk interferes on X in the final week, or acts on the threat against the government, this becomes an absorption entry with a prelegitimation frame \u2014 the threat was made before the outcome, on record."
    },
    {
@@ -15314,7 +15364,7 @@
     "days_left": 19,
     "priority": "high",
     "status": "active",
-    "check": "Exploitation attempts predate disclosure (MadPot honeypot saw them Oct 17, three days before the Oct 20 announcement). Two CVEs (2026-109618/109619), CVSS 9.2, unauthenticated RCE; patched Oct 21 in 8.5.12/8.4.27/8.3.36/8.2.35; EOL branches get no official fix. PHP runs ~70% of websites; NSA and NCSC issued warnings.",
+    "check": "Exploitation attempts predate disclosure (MadPot honeypot saw them Oct 17, three days before the Oct 20 announcement). Two CVEs (2026-109618/109619), CVSS 9.2, unauthenticated RCE; patched Oct 21 in 8.5.12/8.4.27/8.3.36/8.2.35; EOL branches get no official fix. PHP runs ~70% of websites; NSA and NCSC issued warnings.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Patch and exploitation telemetry is a data series with no institutional act.",
     "action": "If attribution suggests a state actor, or if election-adjacent infrastructure is hit this week, upgrade to an absorption entry \u2014 pre-disclosure exploitation is a tell, not a routine bug story."
    },
    {
@@ -15354,7 +15404,7 @@
     "days_left": 26,
     "priority": "medium",
     "status": "active",
-    "check": "1) Does the PRC/MFA/state media name or acknowledge the exercise by 8 Dec 2026? 2) Do the forces disperse without announcement? 3) Does a NAMED PLA exercise appear on/around APEC Shenzhen 18-19 Nov? ISW China-Taiwan Update is the source of record.",
+    "check": "1) Does the PRC/MFA/state media name or acknowledge the exercise by 8 Dec 2026? 2) Do the forces disperse without announcement? 3) Does a NAMED PLA exercise appear on/around APEC Shenzhen 18-19 Nov? ISW China-Taiwan Update is the source of record.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-14] Card to register: PRC names or acknowledges the Taiwan isolation exercise by 2026-12-08.",
     "action": "Named within 30 days = the silence was calendar management around APEC; close as mundane. Dispersal with no announcement = rehearsal posture is the new default; promote to standing watch. Named exercise timed to APEC = the silence was a chip held and spent; log the sale."
    },
    {
@@ -15384,7 +15434,7 @@
     "days_left": 27,
     "priority": "high",
     "status": "active",
-    "check": "Three blocs reported advising the president (WSJ): Vance+Witkoff (deal, reopen Hormuz), Hegseth+Adm. Cooper (return to major combat), Rubio+Bessent (tighten sanctions, continue blockade). Check through 2026-12-09: (1) the next observable order \u2014 a major-package strike, a suspension of strikes, or a new sanctions tranche; (2) whether Qatar's two-day bridge produces a published text or a Hormuz reopening date; (3) whether Vance's role expands or contracts after his post blaming the war for the losses and Trump's public pushback ('he should have made one other statement'); (4) whether Hegseth's removal, if it happens, removes the major-combat bloc's principal advocate.",
+    "check": "Three blocs reported advising the president (WSJ): Vance+Witkoff (deal, reopen Hormuz), Hegseth+Adm. Cooper (return to major combat), Rubio+Bessent (tighten sanctions, continue blockade). Check through 2026-12-09: (1) the next observable order \u2014 a major-package strike, a suspension of strikes, or a new sanctions tranche; (2) whether Qatar's two-day bridge produces a published text or a Hormuz reopening date; (3) whether Vance's role expands or contracts after his post blaming the war for the losses and Trump's public pushback ('he should have made one other statement'); (4) whether Hegseth's removal, if it happens, removes the major-combat bloc's principal advocate.\n\n[R3 AUDIT 2026-11-12 CAR",
     "action": "Major-package strike = Hegseth/Cooper bloc won; log war escalation and treat Vance's positioning as failed. Published text or reopening date = Vance/Witkoff won; the war-risk premium should fall and the attribution gap closes by agreement rather than by attribution. New sanctions tranche with no military move = Rubio/Bessent won; the blockade becomes the durable instrument, which is the de-dollarization/substrate-choke channel. Hegseth removed while the deal track advances = the removal was the price of the diplomatic branch."
    },
    {
@@ -15404,7 +15454,7 @@
     "days_left": 33,
     "priority": "high",
     "status": "active",
-    "check": "Superior Court Judge Thomas Matthews ruled 2026-11-11 that the Peltola campaign's request for the list of rejected absentee ballots was 'not reasonable' on capacity grounds. Check: (1) whether the Peltola-Sullivan race is called and at what margin; (2) whether any filing, statement or press report puts a NUMBER on rejected or questioned absentee ballots, and whether that number exceeds the margin; (3) whether the campaign appeals and on what ground; (4) whether the Division of Elections ever produces the report; (5) whether the seat decides the Senate majority margin of 55 or 56.",
+    "check": "Superior Court Judge Thomas Matthews ruled 2026-11-11 that the Peltola campaign's request for the list of rejected absentee ballots was 'not reasonable' on capacity grounds. Check: (1) whether the Peltola-Sullivan race is called and at what margin; (2) whether any filing, statement or press report puts a NUMBER on rejected or questioned absentee ballots, and whether that number exceeds the margin; (3) whether the campaign appeals and on what ground; (4) whether the Division of Elections ever produces the report; (5) whether the seat decides the Senate majority margin of 55 or 56.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-13] Card to register: the Peltola-Sullivan margin falls inside the number ",
     "action": "On a published rejected-ballot count exceeding the margin: file as a specimen of disclosure refused on capacity grounds where the withheld figure was decisive, and tell Samuel. On the race being called with a margin larger than any plausible rejected count: log the refusal as immaterial and retire. On nothing by 12-15: record that the count closed without either number ever being published."
    },
    {
@@ -15414,7 +15464,7 @@
     "days_left": 33,
     "priority": "medium",
     "status": "active",
-    "check": "On 2026-11-03 (pre-build assessment close): hand-edit the C-002 card in Internal Telemetry.html 'big questions' panel (confidence, evidence count, pre-build verdict), sync + push. Also: if clean-election control falls below 35, run formal control-death review per standing rules.",
+    "check": "On 2026-11-03 (pre-build assessment close): hand-edit the C-002 card in Internal Telemetry.html 'big questions' panel (confidence, evidence count, pre-build verdict), sync + push. Also: if clean-election control falls below 35, run formal control-death review per standing rules.\n\n[R3 AUDIT 2026-11-12 NO-CARD] A maintenance task, not a claim. Belongs on a build checklist.",
     "action": "Update panel card + push; log assessment in ledger."
    },
    {
@@ -15424,7 +15474,7 @@
     "days_left": 33,
     "priority": "high",
     "status": "active",
-    "check": "Owner expectation (10-26): right's active denial campaign reframes HJC report as election strategy rather than engaging evidence. Watch: (1) 'Democrat October surprise' frame in official/surrogate channels; (2) evidence-avoidance vs rebuttal \u2014 no engagement with the 11 accounts or Blanche interview transcript; (3) counter-declassification or selective release to muddy; (4) Maxwell testimony disrupted or delayed; (5) Blanche recusal pressure ignored.",
+    "check": "Owner expectation (10-26): right's active denial campaign reframes HJC report as election strategy rather than engaging evidence. Watch: (1) 'Democrat October surprise' frame in official/surrogate channels; (2) evidence-avoidance vs rebuttal \u2014 no engagement with the 11 accounts or Blanche interview transcript; (3) counter-declassification or selective release to muddy; (4) Maxwell testimony disrupted or delayed; (5) Blanche recusal pressure ignored.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Frame-avoidance test with no institutional consequence attached; recorded in absorption.",
     "action": "Log specimen of denial frame; note whether frame originates in media layer or official layer; if official, upgrade to cover-up-legitimation track and feed C-002/P16-T context (post-election grievance stacking)."
    },
    {
@@ -15454,7 +15504,7 @@
     "days_left": 33,
     "priority": "high",
     "status": "active",
-    "check": "Houthis claimed 11-12 a drone strike on an East-West pipeline pumping station, a ballistic missile at Yanbu, and an Aramco building in Riyadh, after earlier claims against King Khalid airport and multiple pumping stations. Check each run: (1) any Saudi or Aramco statement acknowledging damage or publishing capacity; (2) East-West throughput, if any figure appears; (3) war-risk premiums for Red Sea and Gulf loading; (4) whether US escort or carrier posture in the strait changes; (5) whether the Houthi claim is dated and corroborated by a second source, since the group did not specify the day.",
+    "check": "Houthis claimed 11-12 a drone strike on an East-West pipeline pumping station, a ballistic missile at Yanbu, and an Aramco building in Riyadh, after earlier claims against King Khalid airport and multiple pumping stations. Check each run: (1) any Saudi or Aramco statement acknowledging damage or publishing capacity; (2) East-West throughput, if any figure appears; (3) war-risk premiums for Red Sea and Gulf loading; (4) whether US escort or carrier posture in the strait changes; (5) whether the Houthi claim is dated and corroborated by a second source, since the group did not specify the day.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-13] Card to register: Saudi or Aramco acknowledgement of East-",
     "action": "On confirmed damage to the bypass with capacity loss: open a card on dual-route closure and the price mechanism. On repeated unattributed claims with no Saudi acknowledgement: record the attribution gap as the finding \u2014 infrastructure attack below the threshold of response."
    },
    {
@@ -15464,7 +15514,7 @@
     "days_left": 33,
     "priority": "high",
     "status": "active",
-    "check": "State Dept ordered non-emergency personnel + families out of Saudi Arabia (AFP/Bloomberg, Oct 21); families ordered out of 4-6 additional Gulf posts (UAE, Qatar, Bahrain, Jordan, possibly Iraq). Proximate trigger: sustained Houthi strikes on Saudi airports/infrastructure incl. two Iranian drones striking the US Embassy Riyadh (NBC). Reuters: Gulf-wide ordered departure was in preparation. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2026-12-15; if it hasn't fired by then it closes EXPIRED with a written disposition.",
+    "check": "State Dept ordered non-emergency personnel + families out of Saudi Arabia (AFP/Bloomberg, Oct 21); families ordered out of 4-6 additional Gulf posts (UAE, Qatar, Bahrain, Jordan, possibly Iraq). Proximate trigger: sustained Houthi strikes on Saudi airports/infrastructure incl. two Iranian drones striking the US Embassy Riyadh (NBC). Reuters: Gulf-wide ordered departure was in preparation. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2026-12-15; if it hasn't fired by then it closes EXPIRED with a written disposition.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-11-12-gulf-bypass-attrition.json] Overlaps the Gulf bypass cond",
     "action": "Ordered departure of dependents is a classic pre-escalation clearing move (embassies lean ahead of expected retaliation/airspace closure). Lands inside the standing CENTCOM strike window (late-Oct to Nov 3). Suggests major regional exchange may come BEFORE Nov 3, not after \u2014 escalation pressures (embassy strike, Hormuz cable threat, oil >$100) are on their own timeline. Watch: authorization orders/carrier repositioning 72-120h after departure order; oil tape $110+; Hormuz cable sabotage; whether strike lands pre- vs post-midterm; full Riyadh drawdown (skeleton staffing = strike imminent)."
    },
    {
@@ -15474,7 +15524,7 @@
     "days_left": 33,
     "priority": "high",
     "status": "active",
-    "check": "Tanker deployments, NOTAMs, strike-prep signals on Houthi targets - test of owner restraint thesis (restaint holds until after midterm node). || 2026-11-09 FUSE SET: this watch had no expiry, so it sat as a permanent live signal. Window now closes 2026-12-15; if unfired it closes EXPIRED with a written disposition.",
+    "check": "Tanker deployments, NOTAMs, strike-prep signals on Houthi targets - test of owner restraint thesis (restaint holds until after midterm node). || 2026-11-09 FUSE SET: this watch had no expiry, so it sat as a permanent live signal. Window now closes 2026-12-15; if unfired it closes EXPIRED with a written disposition.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/houthi-red-sea-escalation-fork.json] Strike resumption is the fork's escalation branch; the restraint thesis is not card-shaped.",
     "action": "If resumption before Nov 3: restraint thesis strained, log; if 'victory' framing instead: confirms scheduled-restraint thesis || 2026-09-27 SCAN: no strike-resumption signals, NOTAMs, or tanker deployments observed; restraint thesis holding. Watch stays active."
    },
    {
@@ -15484,7 +15534,7 @@
     "days_left": 33,
     "priority": "medium",
     "status": "active",
-    "check": "Lt. Gen. Sylvia removed 2026-10-28 over leaks. Check: (1) whether a named successor is announced and whether it is an acting fill from inside J5; (2) whether further J5 or Joint Staff removals follow within two weeks (purge breadth); (3) whether any retired officer or congressional committee puts the vacancy on the record next to the strike decision; (4) whether the 96-hour readiness claim is restated by the same officials after the vacancy. Structural read to test: decision quality degrades when the estimating office is empty, and the record of who was warned is thinner afterwards.",
+    "check": "Lt. Gen. Sylvia removed 2026-10-28 over leaks. Check: (1) whether a named successor is announced and whether it is an acting fill from inside J5; (2) whether further J5 or Joint Staff removals follow within two weeks (purge breadth); (3) whether any retired officer or congressional committee puts the vacancy on the record next to the strike decision; (4) whether the 96-hour readiness claim is restated by the same officials after the vacancy. Structural read to test: decision quality degrades when the estimating office is empty, and the record of who was warned is thinner afterwards.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-14] Card to register: a named successor to Lt. Gen. Sylvia announced by",
     "action": "If the seat is still vacant when a strike is ordered, add to the post-hoc record of the decision (who was in the chain, who was not). If filled within a week by a career planner, downgrade the capture reading for this office."
    },
    {
@@ -15494,7 +15544,7 @@
     "days_left": 40,
     "priority": "medium",
     "status": "active",
-    "check": "Sacralization migrating from fringe register into head-of-state official speech. TRIGGER: a second head of state or senior US official adopts religious-war framing for a security operation within 60 days (Hegseth chaplaincy-purge line adjacent). Watch: promised 'war on the prison' for captured gang members; whether US officials echo the register; Haiti force outcomes (mass-casualty vs. staged-show).",
+    "check": "Sacralization migrating from fringe register into head-of-state official speech. TRIGGER: a second head of state or senior US official adopts religious-war framing for a security operation within 60 days (Hegseth chaplaincy-purge line adjacent). Watch: promised 'war on the prison' for captured gang members; whether US officials echo the register; Haiti force outcomes (mass-casualty vs. staged-show).\n\n[R3 AUDIT 2026-11-12 NO-CARD] Register migration across heads of state, codable only as rhetoric. Carried by the dehumanization and sacralization collections.",
     "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
    },
    {
@@ -15504,7 +15554,7 @@
     "days_left": 49,
     "priority": "medium",
     "status": "active",
-    "check": "Potash sanctions lifted after Dec 2025 prisoner deal (123 political prisoners); first 30k t shipment en route to New Orleans. Lukashenko says 'no volumes available,' publicly contradicting Trump's 'massive Deal.' Purpose appears to be leverage vs Canada in the tariff fight, not actual supply \u2014 analysts note logistics (landlocked, Klaipeda closed) make Belarus a negotiation chip, not a substitute. Watch: (1) whether further shipments materialize or the story dies after the Canada message is delivered; (2) whether fertilizer prices move at retail before the 2027 season; (3) whether Canadian potash tariffs/retaliation follow.",
+    "check": "Potash sanctions lifted after Dec 2025 prisoner deal (123 political prisoners); first 30k t shipment en route to New Orleans. Lukashenko says 'no volumes available,' publicly contradicting Trump's 'massive Deal.' Purpose appears to be leverage vs Canada in the tariff fight, not actual supply \u2014 analysts note logistics (landlocked, Klaipeda closed) make Belarus a negotiation chip, not a substitute. Watch: (1) whether further shipments materialize or the story dies after the Canada message is delivered; (2) whether fertilizer prices move at retail before the 2027 season; (3) whether Canadian potash tariffs/retaliation follow.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Leverage-versus-supply is settled by s",
     "action": "If deal quietly dies after shipments stall, log as leverage-theater confirm; if real volumes flow, note as genuine supply diversification with Russia-adjacent dependency implications."
    },
    {
@@ -15514,7 +15564,7 @@
     "days_left": 49,
     "priority": "high",
     "status": "active",
-    "check": "Oct 13: drones struck two merchant ships off the Bulgarian coast; one (Palau-flag grain carrier Able) sank, 11 sailors missing (7 Turkish, 7 Indian); second attack in a week. Bulgarian PM Radev attributes strikes to Russia, summons the Russian ambassador, calls it 'a flagrant violation of maritime law.' US response posture: none visible in coverage. Watch: (1) any further strikes inside NATO territorial waters; (2) whether NATO invokes consultations (Art 4) or stays silent; (3) whether the US admin distinguishes merchant strikes from the Ukraine-lane framing; (4) whether the Black Sea lane merges with the Hormuz/energy lane in price signals (grain + fertilizer + oil).",
+    "check": "Oct 13: drones struck two merchant ships off the Bulgarian coast; one (Palau-flag grain carrier Able) sank, 11 sailors missing (7 Turkish, 7 Indian); second attack in a week. Bulgarian PM Radev attributes strikes to Russia, summons the Russian ambassador, calls it 'a flagrant violation of maritime law.' US response posture: none visible in coverage. Watch: (1) any further strikes inside NATO territorial waters; (2) whether NATO invokes consultations (Art 4) or stays silent; (3) whether the US admin distinguishes merchant strikes from the Ukraine-lane framing; (4) whether the Black Sea lane merges with the Hormuz/energy lane in price signals (grain + fertilizer + oil).\n\n[R3 AUDIT 2026-11-12 Q",
     "action": "On a further NATO-waters strike or Art 4 consultation, log as iran-war-analog spillover event; check whether US silence mirrors the Starlink/ally-infrastructure pattern (allied security treated as a private/deal-making matter)."
    },
    {
@@ -15524,7 +15574,7 @@
     "days_left": 49,
     "priority": "medium",
     "status": "active",
-    "check": "Does the 'loyal elements of the military, national guard, and federal law enforcement' formulation migrate from fringe meme pages to verified or official accounts \u2014 or get appended to a real event (an arrest, a deployment, a specific named target)? Feeler signature to watch: (a) service-branch roll call graphic reused as a template, (b) 'loyal' used as the discriminating adjective, (c) demand voiced as 'we demand' rather than 'he should', (d) engagement stays small while the template recurs across pages.",
+    "check": "Does the 'loyal elements of the military, national guard, and federal law enforcement' formulation migrate from fringe meme pages to verified or official accounts \u2014 or get appended to a real event (an arrest, a deployment, a specific named target)? Feeler signature to watch: (a) service-branch roll call graphic reused as a template, (b) 'loyal' used as the discriminating adjective, (c) demand voiced as 'we demand' rather than 'he should', (d) engagement stays small while the template recurs across pages.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-15] Card to register: the 'loyal elements' formulation appears on a verified or official account, or attaches to a named target, by 2026-12-31.",
     "action": "On migration to any verified account, or on binding to a named event or target: log as absorption specimen, raise the Miller blocked-then-done card, and flag to Samuel same day. While fringe-only: monitor only, do not score."
    },
    {
@@ -15574,7 +15624,7 @@
     "days_left": 52,
     "priority": "high",
     "status": "active",
-    "check": "Baseline conflict to resolve: 2,000/day before 2026-10-09; 3,000/day directive recorded 2026-10-09; ~2,700/day reported by CBS on 2026-11-09. Check through 2027-01-03: (1) does DHS/ICE publish ANY official daily or weekly arrest/removal target, which would settle the level; (2) any written prioritisation guidance narrowing removals (single violation, employed, taxpaying, family units); (3) whether the reported 19,000-a-week figure predates the election (which would mean the 'increase' changed nothing); (4) whether an immigration framework with Democrats acquires a vehicle \u2014 bill text, named negotiators, a floor slot.",
+    "check": "Baseline conflict to resolve: 2,000/day before 2026-10-09; 3,000/day directive recorded 2026-10-09; ~2,700/day reported by CBS on 2026-11-09. Check through 2027-01-03: (1) does DHS/ICE publish ANY official daily or weekly arrest/removal target, which would settle the level; (2) any written prioritisation guidance narrowing removals (single violation, employed, taxpaying, family units); (3) whether the reported 19,000-a-week figure predates the election (which would mean the 'increase' changed nothing); (4) whether an immigration framework with Democrats acquires a vehicle \u2014 bill text, named negotiators, a floor slot.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-16] Card to register: DHS/ICE publis",
     "action": "Published target at or below 2,000 that holds 30 days = the concession is policy; reopen the pair read. Published target at or above 2,700 = concession confirmed as cover; the level is the finding and the 3,000/2,700 discrepancy is recorded as a directive-vs-operational split. Prioritisation guidance narrowing removals = the substantive form of 'too tough'; score it as the real test, volume second. A bill with Democrats tabled = the concession was strategic and the enforcement level was leverage."
    },
    {
@@ -15584,7 +15634,7 @@
     "days_left": 57,
     "priority": "high",
     "status": "active",
-    "check": "Within 60 days (to 2027-01-08): does any institution act on 2026 election-integrity grounds? Watch for (a) state party resolution or official, (b) county/certification official refusal or delay, (c) a filed lawsuit, (d) RNC-adjacent body or the OPL network organising on it. Record the first institutional act and its date. Narrative-only recurrence (fundraising, broadcast, candidate rhetoric) does NOT count as cashing.",
+    "check": "Within 60 days (to 2027-01-08): does any institution act on 2026 election-integrity grounds? Watch for (a) state party resolution or official, (b) county/certification official refusal or delay, (c) a filed lawsuit, (d) RNC-adjacent body or the OPL network organising on it. Record the first institutional act and its date. Narrative-only recurrence (fundraising, broadcast, candidate rhetoric) does NOT count as cashing.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-16] Card to register: first institutional act on 2026 election-integrity grounds by 2027-01-08.",
     "action": "Cashed: promote the predicate to an instrument finding, link to the certification-contest lane and to the NSPM-7 bridge note, and raise the 2027 certification-fight prior. Not cashed by 2027-01-08: record as narrative asset, downgrade to base-management reading, and do not carry the contested-loss path forward without new evidence."
    },
    {
@@ -15604,7 +15654,7 @@
     "days_left": 64,
     "priority": "medium",
     "status": "active",
-    "check": "Mast (Foreign Affairs), Moolenaar (Select China) and Crawford (Intelligence) are negotiating a closed-door appearance and have threatened subpoenas; Huang has agreed to testify. Check: (1) whether the session is public or closed, and whether a transcript is released; (2) whether a subpoena is actually issued; (3) whether any criminal referral or grand jury appears; (4) whether Commerce moves on remote access to computing capacity rather than chip shipments; (5) whether a second firm discloses a similar arrangement voluntarily.",
+    "check": "Mast (Foreign Affairs), Moolenaar (Select China) and Crawford (Intelligence) are negotiating a closed-door appearance and have threatened subpoenas; Huang has agreed to testify. Check: (1) whether the session is public or closed, and whether a transcript is released; (2) whether a subpoena is actually issued; (3) whether any criminal referral or grand jury appears; (4) whether Commerce moves on remote access to computing capacity rather than chip shipments; (5) whether a second firm discloses a similar arrangement voluntarily.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-13] Card to register: Huang's appearance is public with a released transcript, or a subpoena issues, by 2027-01-15.",
     "action": "On a public hearing or released transcript: file the testimony as a specimen and score whether the capacity-versus-hardware question was asked. On a closed session with no transcript: record that the state's only examination of the AI supply chain's central scandal produced no public record."
    },
    {
@@ -15624,7 +15674,7 @@
     "days_left": 69,
     "priority": "medium",
     "status": "active",
-    "check": "Hypothesis: WH scapegoating of Adm. Bradley (named 12/1 to shield Hegseth from 'kill everybody' double-tap scrutiny) was triggered by internal midterm polling showing strikes bleeding cost-of-living-defecting voters, not merely the WaPo report. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2027-01-20; if it hasn't fired by then it closes EXPIRED with a written disposition.",
+    "check": "Hypothesis: WH scapegoating of Adm. Bradley (named 12/1 to shield Hegseth from 'kill everybody' double-tap scrutiny) was triggered by internal midterm polling showing strikes bleeding cost-of-living-defecting voters, not merely the WaPo report. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2027-01-20; if it hasn't fired by then it closes EXPIRED with a written disposition.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Motive test: whether internal polling drove the scapegoating. No third-party observable can distinguish motive; the proxies test a hypothesis about cause, not an event. R5: recorded, not dressed as a card.",
     "action": "Proxy artifacts due by ~Oct 8: (1) Hegseth media footprint shrinks (fewer Fox/controlled-media hits); (2) boat-strike operational tempo pauses/slows; (3) a major domestic pivot story crowds out Venezuela coverage. 2+ artifacts appearing -> upgrade to ledger entry with conf bump on domestic-enforcement/legitimacy track. Zero artifacts -> hypothesis not confirmed; residual explanation is plain news-cycle management."
    },
    {
@@ -15674,7 +15724,7 @@
     "days_left": 80,
     "priority": "medium",
     "status": "active",
-    "check": "Are Houthi authorities managing (not closing) Red Sea transit? The de facto lever per owner thesis. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2027-01-31; if it hasn't fired by then it closes EXPIRED with a written disposition.",
+    "check": "Are Houthi authorities managing (not closing) Red Sea transit? The de facto lever per owner thesis. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2027-01-31; if it hasn't fired by then it closes EXPIRED with a written disposition.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/houthi-red-sea-escalation-fork.json] Transit-management read is scored in the Houthi fork.",
     "action": "If closure threat: substrate choke event, confidence move consideration"
    },
    {
@@ -15684,7 +15734,7 @@
     "days_left": 80,
     "priority": "high",
     "status": "active",
-    "check": "FIRE on any of: an OLC/DOJ memo on suspending habeas; a presidential proclamation or EO invoking suspension under Art. I s.9 cl.2; a named member introducing suspension legislation; or a district/appellate ruling that the government is suspending habeas in fact. ALSO FIRE on the statutory-text route: any bill or EO redefining 'rebellion' or 'invasion' to name immigration or domestic political opposition. Report the practice channel separately -- ICE re-arrests after habeas grants, judge findings of warrantless arrest -- because that is already running.",
+    "check": "FIRE on any of: an OLC/DOJ memo on suspending habeas; a presidential proclamation or EO invoking suspension under Art. I s.9 cl.2; a named member introducing suspension legislation; or a district/appellate ruling that the government is suspending habeas in fact. ALSO FIRE on the statutory-text route: any bill or EO redefining 'rebellion' or 'invasion' to name immigration or domestic political opposition. Report the practice channel separately -- ICE re-arrests after habeas grants, judge findings of warrantless arrest -- because that is already running.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-14] Card to register: an OLC/DOJ memo, presidential proclamation or member bill on habeas suspension b",
     "action": "Upgrade to prediction card with a dated window; append to delegation audit channel 5 (DOMOPS/no-knock adjacency)."
    },
    {
@@ -15744,7 +15794,7 @@
     "days_left": 108,
     "priority": "medium",
     "status": "active",
-    "check": "North Carolina (still the benchmark: 2016 special session), Michigan (2018), Wisconsin (2018), plus any state where a Democrat won an office a Republican majority shares power over: PA, MI, WI, NC, GA, AZ, NV, KS, IA. Search form: '<state> legislature lame duck limit governor powers 2026'. Also track whether model legislation circulates (ALEC or state-level equivalents) \u2014 a shared draft is the strongest evidence of a coordinated gray-zone doctrine rather than parallel improvisation.",
+    "check": "North Carolina (still the benchmark: 2016 special session), Michigan (2018), Wisconsin (2018), plus any state where a Democrat won an office a Republican majority shares power over: PA, MI, WI, NC, GA, AZ, NV, KS, IA. Search form: '<state> legislature lame duck limit governor powers 2026'. Also track whether model legislation circulates (ALEC or state-level equivalents) \u2014 a shared draft is the strongest evidence of a coordinated gray-zone doctrine rather than parallel improvisation.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-11-12-federal-instrument-named-state-lame-duck.json] The first-state test sits inside the federal-instrument card; state variants follow its resolution.",
     "action": "Log per state; a circulating model bill is a MAJOR finding and should escalate to a decomposition object."
    },
    {
@@ -15754,7 +15804,7 @@
     "days_left": 108,
     "priority": "high",
     "status": "active",
-    "check": "WSJ reporting (via Just Security) places three advising blocs on Iran and attributes the legacy/surrender argument to unnamed 'outside advisers'. Not one member is named anywhere in the corpus. Watch through 2027-02-28 for: (1) any individual named in print alongside a legacy, surrender, or 'finish it' argument about Iran; (2) whether named advisers overlap with existing personnel lanes (Miller-adjacent, Vought-adjacent, Heritage/CPAC, or private-sector); (3) whether the bloc's argument changes once the Qatar bridge resolves; (4) whether any outside adviser is subsequently appointed to a formal role, which would convert an attribution gap into a personnel fact.",
+    "check": "WSJ reporting (via Just Security) places three advising blocs on Iran and attributes the legacy/surrender argument to unnamed 'outside advisers'. Not one member is named anywhere in the corpus. Watch through 2027-02-28 for: (1) any individual named in print alongside a legacy, surrender, or 'finish it' argument about Iran; (2) whether named advisers overlap with existing personnel lanes (Miller-adjacent, Vought-adjacent, Heritage/CPAC, or private-sector); (3) whether the bloc's argument changes once the Qatar bridge resolves; (4) whether any outside adviser is subsequently appointed to a formal role, which would convert an attribution gap into a personnel fact.\n\n[R3 AUDIT 2026-11-12 QUEUE ->",
     "action": "Name surfaces and is Miller-adjacent -> collapse the lane separation in note/2026-11-09-owner-claim-miller-iran-instrumental.json and restore the 11-07 owner thesis intact. Name surfaces as a private-sector or think-tank figure -> the war's authorship is external to the administration, which changes the succession read. Outside adviser appointed to a formal role -> log as elite circulation, check against the elite-exit/replacement legs."
    },
    {
@@ -15764,7 +15814,7 @@
     "days_left": 139,
     "priority": "high",
     "status": "active",
-    "check": "Daily Tirana wire: police measures, decree activity, Rama rhetoric escalation, protest size and duration, any transition mechanism named, US response to Affinity Albania projects. Sources: Al Jazeera, Balkan Insight, Reuters/WaPo, Wikipedia Flamingo Revolution page. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2027-03-31; if it hasn't fired by then it closes EXPIRED with a written disposition.",
+    "check": "Daily Tirana wire: police measures, decree activity, Rama rhetoric escalation, protest size and duration, any transition mechanism named, US response to Affinity Albania projects. Sources: Al Jazeera, Balkan Insight, Reuters/WaPo, Wikipedia Flamingo Revolution page. || 2026-11-09 FUSE SET: no expiry was ever assigned, so this sat as a permanent live signal. Window closed 2027-03-31; if it hasn't fired by then it closes EXPIRED with a written disposition.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Six-part standing sweep on an unfolding microcosm. Each signpost would be its own card and the event rate is too low to justify six.",
     "action": "Escalate to absorption + journal entry with wwir_alignment analysis; if emergency measures or mechanism conversion fires, open a dedicated observation object."
    },
    {
@@ -15834,7 +15884,7 @@
     "days_left": 349,
     "priority": "medium",
     "status": "active",
-    "check": "Whether the internal refusal produces any binding constraint on the contract: (a) a shareholder or investor escalation; (b) any named executive resignation; (c) Hyundai-level intervention; (d) a contract modification narrowing mission scope; (e) unionization or formal representation at Boston Dynamics. Also track whether the door-opening robotic arm is specified in any delivered configuration, and whether the T&C enforcement mechanism is ever actually invoked.",
+    "check": "Whether the internal refusal produces any binding constraint on the contract: (a) a shareholder or investor escalation; (b) any named executive resignation; (c) Hyundai-level intervention; (d) a contract modification narrowing mission scope; (e) unionization or formal representation at Boston Dynamics. Also track whether the door-opening robotic arm is specified in any delivered configuration, and whether the T&C enforcement mechanism is ever actually invoked.\n\n[R3 AUDIT 2026-11-12 QUEUE -> 2026-11-15] Card to register: contract modification narrowing the ICE Spot mission, or a named executive resignation over it, by 2027-01-31.",
     "action": "If any of (a)-(e) occurs, log as an INSTITUTIONAL-CAPTURE data point - internal refusal constraining an instrument-maker - the strongest evidence available for the 'refuse inside, not exit' thesis (Havel/Civic Forum lineage) and directly relevant to the transition-thesis requirement that liberty needs durable organised institutions. If the contract proceeds unchanged and attrition follows, log as the counter-case: moral refusal without institutional leverage is a sentiment, not a constraint."
    },
    {
@@ -15894,7 +15944,7 @@
     "days_left": 780,
     "priority": "high",
     "status": "active",
-    "check": "Whether an organized anti-program political force openly adopts the Oct 2026 French protest movement (RN-LFI realignment, cross-bloc budget coalition, national-salvation figure). Signposts: RN/LFI co-leading protest demands; cross-bloc no-confidence or alternative-budget coalition; military/police refusal signals; emergency constitutional change.",
+    "check": "Whether an organized anti-program political force openly adopts the Oct 2026 French protest movement (RN-LFI realignment, cross-bloc budget coalition, national-salvation figure). Signposts: RN/LFI co-leading protest demands; cross-bloc no-confidence or alternative-budget coalition; military/police refusal signals; emergency constitutional change.\n\n[R3 AUDIT 2026-11-12 NO-CARD] PERSISTENCE question about a realignment with no dated gate; scored as a thesis by the mget ledger.",
     "action": "Upgrade leg_4_vanguard_alignment in western-sweep-2026-france.json toward rupture-candidate scoring; write journal entry."
    }
   ],
@@ -15906,7 +15956,7 @@
     "days_left": 2,
     "priority": "high",
     "status": "active",
-    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.",
+    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-midterm-turnout-floor.json] The 41.0% threshold asked here is the turnout-floor card.",
     "action": "Resolve the turnout-floor card on the VEP rate; log each official's public projection against the actual and add the miss rate to the calibration ledger."
    },
    {
@@ -15936,7 +15986,7 @@
     "days_left": 3,
     "priority": "high",
     "status": "active",
-    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.",
+    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Its 14-day trigger closed 2026-11-06 with no living-institution designation. Probe reading not confirmed in window; no card can now be retro-fitted (R2).",
     "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
    },
    {
@@ -16163,7 +16213,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-13 02:28Z",
+  "generated": "2026-11-13 03:25Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
