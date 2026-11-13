@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-13",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-13T09:06 ET"
+  "generated_stamped": "2026-11-13T09:08 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5731,6 +5731,105 @@
    "deadline_type": "constitutive",
    "basename": "2026-11-12-iran-escalation-lame-duck",
    "confidence": 18
+  },
+  {
+   "title": "Huang appears before Senate Banking on 3 December, in public",
+   "date_made": "2026-11-13",
+   "time_et": "09:30",
+   "statement": "Jensen Huang testifies before the Senate Banking Committee on or before 2026-12-03 in a public session (open hearing, or a transcript released within 5 days of a closed one).",
+   "evidence_confirmed": [
+    "Chair's letter summoning Huang for 3 December with subpoena threat (12 Nov)",
+    "Huang had already agreed to testify before House committees"
+   ],
+   "evidence_contradicted": [
+    "House chairs were negotiating a CLOSED-door appearance, establishing a preference for non-public testimony"
+   ],
+   "falsifier": "No appearance by 2026-12-03, or an appearance held closed with no transcript released within 5 days.",
+   "status": "pending",
+   "window_closes": "2026-12-03",
+   "window_opens": "2026-11-12",
+   "anchor_type": "announced",
+   "anchor_source": "Senate Banking chair letter, 12 Nov 2026 (Huang on 3 Dec)",
+   "anchor_grade": "B",
+   "expiry_date": "2026-12-03",
+   "grace_locked": false,
+   "grace_horizon": "none - hard date set by the chair's letter",
+   "skill_eligible": true,
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "threshold_definition": "Public = open session, or closed session with transcript released within 5 days.",
+   "base_rate_source": "no comparable series; committee-dated appearances rarely slip when the chair has named a date and the witness has agreed elsewhere",
+   "base_rate_numeric": null,
+   "base_rate_tier": "insufficient",
+   "base_rate_frozen_date": "2026-11-13",
+   "confidence_rationale": "Scott's letter sets the date and threatens subpoena; Huang has already agreed to testify before House committees, so the voluntary-appearance path is established. Slight drag: House chairs had been negotiating a CLOSED session, and the Senate date could slip past 3 December. 55 reflects a public appearance inside the window, not the hearing itself.",
+   "correlation_flag": null,
+   "review_cadence": "daily",
+   "forward_watchlist": [
+    "Hearing notice published in the Senate Daily Digest",
+    "Whether Lutnick is scheduled before or after",
+    "Whether the committee issues a subpoena"
+   ],
+   "verdict": null,
+   "public_status": "internal",
+   "instrument": "public hearing notice or transcript release",
+   "leg_primary": "T",
+   "leg_secondary": [],
+   "leg_basis": "procedural disclosure",
+   "deadline_type": "conventional",
+   "basename": "2026-12-03-huang-senate-public-testimony",
+   "confidence": 55
+  },
+  {
+   "title": "Mexico: a tariff increase is actually proclaimed, not just posted",
+   "date_made": "2026-11-13",
+   "time_et": "09:30",
+   "statement": "A Presidential Proclamation or Federal Register notice increasing tariff rates on Mexican goods is published on or before 2026-12-31, tied to migrant-caravan enforcement.",
+   "evidence_confirmed": [
+    "Threat issued 12 Nov, doubling tariffs",
+    ">1,000-person caravan moving north through Chiapas"
+   ],
+   "evidence_contradicted": [
+    "2019 precedent: threat withdrawn after Mexican National Guard deployment, no tariff proclaimed",
+    "Sheinbaum states no caravan has reached the northern border since 2025"
+   ],
+   "falsifier": "No proclamation or Federal Register notice by 2026-12-31; only social-media statements, or a notice that reduces or defers existing rates.",
+   "status": "pending",
+   "window_closes": "2026-12-31",
+   "window_opens": "2026-11-13",
+   "anchor_type": "declared",
+   "anchor_source": "presidential post, 12 Nov 2026",
+   "anchor_grade": "C",
+   "expiry_date": "2026-12-31",
+   "grace_locked": false,
+   "grace_horizon": "none",
+   "skill_eligible": true,
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "threshold_definition": "Proclamation = a signed presidential proclamation or a Federal Register notice changing the rate schedule.",
+   "base_rate_source": "2018-2019 caravan tariff threats: 0 of 2 converted to a proclaimed tariff",
+   "base_rate_numeric": null,
+   "base_rate_tier": "insufficient",
+   "base_rate_frozen_date": "2026-11-13",
+   "confidence_rationale": "Every prior round of this threat resolved as a threat withdrawn against a Mexican enforcement deployment, not as a proclaimed tariff (2019 template). The base rate for announcement-to-instrument conversion here is low, and Sheinbaum has already supplied the off-ramp by describing enforcement as ongoing. Priced low because the threat's function is achieved without publication.",
+   "correlation_flag": null,
+   "review_cadence": "weekly",
+   "forward_watchlist": [
+    "Federal Register proclamation",
+    "Mexican enforcement deployment north of the Suchiate",
+    "Any claim of a win announced without a notice"
+   ],
+   "verdict": null,
+   "public_status": "internal",
+   "instrument": "Federal Register proclamation or notice; USTR/Proclamation text",
+   "leg_primary": "M",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "material instrument",
+   "deadline_type": "conventional",
+   "basename": "2026-12-31-mexico-tariff-proclaimed",
+   "confidence": 22
   }
  ],
  "mget_ledger": [
@@ -13384,6 +13483,18 @@
  ],
  "movers": [
   {
+   "time": "2026-11-13",
+   "ref": "Huang appears before Senate Banking on 3 December, in public",
+   "change": "confidence 55 \u2014 status pending",
+   "trigger": "Huang had already agreed to testify before House committees"
+  },
+  {
+   "time": "2026-11-13",
+   "ref": "Mexico: a tariff increase is actually proclaimed, not just posted",
+   "change": "confidence 22 \u2014 status pending",
+   "trigger": ">1,000-person caravan moving north through Chiapas"
+  },
+  {
    "time": "2026-11-12",
    "ref": "Federal instrument reaches a named blue state before the 120th Congress convenes",
    "change": "confidence 68 \u2014 status emergent",
@@ -13430,18 +13541,6 @@
    "ref": "D-004 H3 \u2014 the Exhibit D codebook is usable by coders who did not write it",
    "change": "confidence 62 \u2014 status emergent",
    "trigger": "The two raters agreed on outcome at kappa 0.645 retrospectively, showing shared reading of one column"
-  },
-  {
-   "time": "2026-11-10",
-   "ref": "House passes the Massie privileged resolution on Hegseth on or before 2026-11-12",
-   "change": "confidence 23 \u2014 status failed",
-   "trigger": "Trump publicly defending Hegseth (09 Nov) cuts both ways: it removes the signal that a yea is disloyal to the principal while leaving the record untouched"
-  },
-  {
-   "time": "2026-11-09",
-   "ref": "A fourth El-Sayed specimen is document-shaped: an institutional artefact is cited, not just asserted",
-   "change": "confidence 42 \u2014 status emergent",
-   "trigger": "A candidate page already carried the fabricated version; candidate pages emit press releases as native output, and the artefact step is the cheapest thing such a page can do next"
   }
  ],
  "daily_read": {
@@ -13492,7 +13591,7 @@
  },
  "counts": {
   "items_today": 0,
-  "tracked_predictions": 106,
+  "tracked_predictions": 108,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -13666,13 +13765,13 @@
    }
   ],
   "register_load": {
-   "total": 104,
+   "total": 106,
    "by_leg": {
-    "T": 44,
+    "T": 45,
     "E": 12,
     "N": 6,
     "G": 30,
-    "M": 12
+    "M": 13
    }
   },
   "age_days": 9,
@@ -16161,7 +16260,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-13 14:06Z",
+  "generated": "2026-11-13 14:08Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
