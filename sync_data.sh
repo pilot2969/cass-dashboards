@@ -5,7 +5,8 @@
 # 2026-10-14: pushes now stamp ET date+hour (meta.generated_stamped + commit msg). See /space/protocol/push-timestamp-standard.json
 set -euo pipefail
 cd "$(dirname "$0")"
-MSG="${1:-data refresh $(date +%Y-%m-%d): movers + history regenerated from /space}"
+ET_DATE=$(TZ=America/New_York date +%Y-%m-%d)
+MSG="${1:-data refresh $ET_DATE: movers + history regenerated from /space}"
 
 python3 - <<'PY'
 import json, glob, os, datetime, html, collections as _collections, subprocess as _sp
