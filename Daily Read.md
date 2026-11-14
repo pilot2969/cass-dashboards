@@ -6,6 +6,11 @@ DATE: 2026-11-13
 
 DATE: 2026-11-13
 SUMMARY:
+- [21:45] The planes stopped for four hours. The reason is duller than the posts.
+- [21:40] One real failure, eleven stories, and the two that were simply false
+- [21:30] Boebert lost her seat. The news tonight is the announcement, not the result
+- [21:20] The first casualty of the Democratic wave is a Democrat
+- [21:10] Nvidia's personal file is eating its policy file
 - [09:20] The strait is being mined, and the price of oil is falling
 - [09:10] Nvidia's board removed its founder in nine days. Congress gets him in three weeks.
 - [08:55] Mississippi counted every ballot, and the loser conceded. That is the news.
@@ -13,6 +18,10 @@ SUMMARY:
 - [08:25] A thousand people are walking north. The lever is a tariff.
 - [08:10] America is at war with Iran and still deporting people there with Tehran's help
 WATCHING:
+- Whether Congress notices a hearing on Friday's ground stop by Monday, or whether the agency gets its money and no inquiry
+- Whether the contractor running the FAA's private network is named in an official document, and whether the change record is published
+- Whether the aviation modernisation money arrives as a long-term funding bill before December 11, or as another short patch
+- Whether the inquiry into the newly elected Ohio congressman names who runs it and when it ends
 - Whether any government with a flag state confirms or denies that mines are in the strait
 - Whether the blockade of Iran's ports is ever given a name and a phase
 - Whether Jensen Huang appears before the Senate on December 3, and whether the questions are about the affair or about rented computing capacity
@@ -25,6 +34,69 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>[21:45] The planes stopped for four hours. The reason is duller than the posts.</summary>
+<p><i>Twenty-two air traffic control centres lost contact with aircraft. The cause, so far, is an update that made equipment reboot.</i></p>
+<p><b>What happened.</b> Air traffic controllers lost contact with aircraft across the country on Friday afternoon, and the Federal Aviation Administration stopped all departures nationwide at about 4:30pm Eastern. The stop was lifted at 8:28pm. Twenty-two of the agency's regional control centres were affected. It was the third national ground stop in American history: 2001, January 2023, and today.</p>
+<p><b>Why it matters.</b> Within hours, CBS News reported the likely cause from multiple sources: an update to the private network that carries data between air traffic facilities caused equipment to reboot and the system to fail. That network is run for the FAA by a contractor, L3Harris. The officials at the podium described the same thing without naming the company. "Our switches, our routers actually got overloaded with data, and they started to give us inconsistency in the data," the transportation secretary said. The homeland security secretary said new equipment was "overwhelming the older system." Both flatly denied an attack, as did law enforcement sources.</p>
+<p><b>The pattern.</b> Nothing in this required an adversary, a conspiracy, or even negligence, though it may turn out to involve all three at the margins. A change was pushed into a network the entire national airspace depends on, it did not behave, and there was no quick way back. This is what critical infrastructure failure looks like in a mature system: not a bang, an update. The 2023 ground stop, the only previous one since 2001, happened because a contractor deleted files while synchronising a database. The second one in history was also a mundane error, not an attack.</p>
+<p><b>What history says.</b> The 2023 stop lasted about ninety minutes and was over before the news day began. Today's ran four hours, straight through drive time into primetime. The difference is not that the world became less trustworthy: the same cyberattack claims circulated in 2023 and the root cause took nine days to establish then, longer than now. The difference is that a national silence lasting four hours in the evening is felt by millions of people while it is happening. Vacancies that nobody experiences do not fill. This one was experienced.</p>
+<p><b>What we're watching next.</b> Whether Congress notices a hearing on this by Monday, which is the test of whether the agency wants an inquiry or wants money. Whether the contractor's name appears in an official document and whether the change record is published. And whether the modernisation money that both secretaries demanded on the podium tonight arrives as a long-term funding bill before 11 December, or as another four-week patch that settles nothing.</p>
+<p><b>Sources.</b> <a href="https://apnews.com">Associated Press</a>, <a href="https://www.cbsnews.com">CBS News</a>, <a href="https://www.faa.gov">Federal Aviation Administration</a>, <a href="https://www.cnn.com">CNN</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[21:40] One real failure, eleven stories, and the two that were simply false</summary>
+<p><i>A national outage fills the space around it with things that did not happen. Here is what the record actually holds.</i></p>
+<p><b>What happened.</b> Within an hour of the ground stop, a screenshot circulated saying the national weather radar network had gone down. It had not. The radar products were being produced throughout: the national composite image was two minutes old when checked, individual radar sites were live, and the weather service's own feed returned real data. The National Weather Service denied an outage outright. In the same wave of posts came a map showing "radios down" in cities across the country, which resembles no FAA product that exists. Alongside them ran a real letter from 25 lawmakers about a new air traffic control tool — but that letter concerned three airports near Washington, not the national rollout that began three days before today. There was also a post about a missile attack dated 30 August.</p>
+<p><b>Why it matters.</b> Nearly all of it was built from true parts. A real official advisory. A real letter. A real collision in New Orleans the same afternoon, when a freighter struck a docked paddlewheel boat and 32 people went to hospital — a genuine maritime accident with no aviation connection, posted as if it belonged. The bundle was assembled almost entirely from things that are true, in an order that makes the truth imply a lie. That is much harder to answer than a fabrication, because checking the quote finds the quote exactly where the post said it would be.</p>
+<p><b>The pattern.</b> Real events that coincide do not need to be linked for people to link them. The city where half the footage came from had a real accident on the same afternoon. A real oversight letter existed about a related subject at a different scale. A real software tool was being deployed in the same week. Recognition does the work; no false statement is required. And the noticing itself is caused by the event: on an ordinary Friday nobody checks whether the radar is up, so nobody notices it is.</p>
+<p><b>What history says.</b> Large outages have always produced this. After the 1977 New York blackout, the first explanations were sabotage and the real ones were lightning and a relay. The 2003 northeast blackout generated a day of terrorism claims before a tree branch and a software bug were established. The rate at which false explanations appear tracks publicity, not secrecy. What changes is the speed of the fill and the fact that a screenshot needs an object: a failure with nothing to photograph barely travels.</p>
+<p><b>What we're watching next.</b> Whether a named company or carrier turns up underneath more than one of tonight's failures. If it does, there is a real common cause and it deserves the attention. If each item resolves to its own separate and ordinary explanation, then the country had one bad aviation afternoon and a normal amount of unrelated breakage, and the story that forms around it will be wrong in a way that is difficult to correct.</p>
+<p><b>Sources.</b> <a href="https://www.weather.gov">National Weather Service</a>, <a href="https://apnews.com">Associated Press</a>, <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.nytimes.com">The New York Times</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[21:30] Boebert lost her seat. The news tonight is the announcement, not the result</summary>
+<p><i>A three-term incumbent lost the most Republican district in her state. That was known on Monday.</i></p>
+<p><b>What happened.</b> The Associated Press declared Colorado's 4th District for Eileen Laubacher, a retired Navy rear admiral, on Friday, unseating Representative Lauren Boebert. CNN's decision desk had already projected the same result on Monday 9 November. The margin was close enough that no network called the race for nearly a week, and batches of ballots counted late are what moved it past the threshold.</p>
+<p><b>Why it matters.</b> A call six days after the outcome is known arrives with a headline attached and will be read as fresh news. It is a clerical event. The substantive fact is older and larger: a conservative media principal, in a district drawn to be safe, lost by enough that the count took a week. Across the country the same wave took a Senate seat in Mississippi and the governorship of Kansas. The results are the story. The certification is the footnote, and tonight they have swapped places.</p>
+<p><b>The pattern.</b> When a wave is large, counting takes longer, and the slowest counts are the ones closest to the line. That produces a week of individual declarations that each look like a new event, and it flattens the aggregate into a series of surprises. The wave is best read as one event with a distribution, not as eleven days of separate upsets.</p>
+<p><b>What history says.</b> The 2018 wave produced a similar drift of late calls in California and Arizona that read as sustained momentum for a fortnight after the outcome was settled. In 2020 the reverse happened: a slow count in a few states was read as fraud rather than as arithmetic, with consequences that outlasted the inauguration. The lesson in both cases is the same — the count is a process with a shape, and reading it for narrative produces confident errors in either direction.</p>
+<p><b>What we're watching next.</b> Whether any losing candidate in a race this close refuses to accept the count. In Mississippi this week, the incumbent conceded. The base rate for that behaviour is being built out of exactly these cases, and it is the number that matters more than any single result.</p>
+<p><b>Sources.</b> <a href="https://apnews.com">Associated Press</a>, <a href="https://www.cnn.com">CNN</a>, <a href="https://www.pbs.org">PBS NewsHour</a>, <a href="https://www.washingtonpost.com">The Washington Post</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[21:20] The first casualty of the Democratic wave is a Democrat</summary>
+<p><i>A newly elected congressman is under investigation before he has been sworn in. That is the test.</i></p>
+<p><b>What happened.</b> House Democrats have opened an investigation into Brian Poindexter, elected last week in Ohio's 7th District after defeating the incumbent Max Miller, over an allegation that he made sexually harassing comments to a campaign volunteer. The party's campaign arm began the inquiry; the complaint came from an aide. Poindexter was in Washington for new-member orientation on 8 November.</p>
+<p><b>Why it matters.</b> The timing is the finding. Parties usually process these allegations after a member is seated and after the story has a cost, which means the discipline arrives late and looks like damage control. Here the inquiry opened in the orientation window, before he has taken a vote or a seat. That is either a party that has learned something, or a party that has calculated the cost of the alternative. The distinction will be visible in what happens next, not in what was announced.</p>
+<p><b>The pattern.</b> A wave brings in members who have not been vetted by the ordinary pressure of holding office. The larger the class, the more likely one of them arrives with a file. What matters institutionally is not whether this happens — it does, in every wave — but whether the process has a name, a deadline, and an outcome that is not a resignation leaked to a newspaper three weeks later.</p>
+<p><b>What history says.</b> The 2018 class produced several early resignations and one prolonged committee fight. In almost every case the party's first instinct was to wait, and waiting is what turned a single allegation into a story about the party. The cases that ended cleanly ended quickly, with a named process, before the member had accumulated allies with something to defend.</p>
+<p><b>What we're watching next.</b> Whether the inquiry names who is running it and when it concludes. Whether the outcome is a finding rather than a departure. And whether the House takes up any conduct rule for the new class while it still has the leverage of a fresh election behind it.</p>
+<p><b>Sources.</b> <a href="https://www.cnn.com">CNN</a>, <a href="https://www.washingtonpost.com">The Washington Post</a>, <a href="https://www.politico.com">Politico</a>, <a href="https://www.nbcnews.com">NBC News</a>, <a href="https://www.cbsnews.com">CBS News</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[21:10] Nvidia's personal file is eating its policy file</summary>
+<p><i>The question Congress needed answered was about rented computing power abroad. The hearing is now about an affair.</i></p>
+<p><b>What happened.</b> Reuters reported that the former Nvidia chief executive misled the company's top lawyer about an affair with a Chinese businesswoman, according to sources. Separately, the Treasury Secretary blamed the Commerce Department for the absence of export controls on Megaspeed, an Nvidia partner. All of this lands ahead of a Senate Banking Committee hearing on 3 December, where the former executive is expected to appear.</p>
+<p><b>Why it matters.</b> The question that hearing was supposed to settle is concrete and unresolved: whether American computing capacity is being rented to buyers abroad instead of chips being shipped to them, which would route around export controls without technically breaking them. That is a policy failure with a name attached to a company. Instead, two of the three people who could answer it now arrive with a personal-conduct file in front of them, and the Treasury Secretary is assigning blame to another department. A jurisdiction dispute between agencies produces a memorandum. It does not produce a rule.</p>
+<p><b>The pattern.</b> When a scandal attaches to a person, it consumes the policy question attached to the same person. The board removed the executive within nine days and the state's first compulsory process arrives three weeks after the decision that mattered was already made. That is not unusual. It is the standard shape: private governance resolves what it can, and public oversight arrives to examine the person after the question about the system has been closed.</p>
+<p><b>What history says.</b> This is the pattern of the financial crises: the individual is removed, the hearing examines the individual, and the structural question is deferred to a rulemaking that takes years and is then litigated. The Wells Fargo and LIBOR sequences both followed it. The policy usually ends up settled by the regulator who was slowest, not by the committee that was most public.</p>
+<p><b>What we're watching next.</b> Whether the 3 December hearing's agenda mentions capacity rental at all. Whether the Commerce Department produces an actual rule rather than a review. And whether the permanent chief executive search draws a slate from inside the country only, which would tell you what the board concluded about the risk.</p>
+<p><b>Sources.</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.nytimes.com">The New York Times</a>.</p>
+</details>
 
 <details open>
 <summary>[09:20] The strait is being mined, and the price of oil is falling</summary>
