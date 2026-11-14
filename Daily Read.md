@@ -4,7 +4,6 @@ DATE: 2026-11-13
 
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
-DATE: 2026-11-13
 SUMMARY:
 - [21:45] The planes stopped for four hours. The reason is duller than the posts.
 - [21:40] One real failure, eleven stories, and the two that were simply false

@@ -661,8 +661,21 @@ if n==0 and rolled_over:
 # A wire run is not done until its stories are cards. If a wire file for a date is
 # newer than the card stack, the cards were not written: fail loudly.
 _TODAY=$(TZ=America/New_York date +%F)
+# 2026-11-13 AMENDMENT: mtime is not evidence. The evening wire file is FINALISED
+# after its cards are prepended -- its own "## 11. Publish" footer ("Daily Read cards
+# written and prepended (5 new tonight, 11 in the day's stack)") is written last, which
+# makes the wire file newer than the card stack it just published. That inverted mtime
+# produced a false FAIL on a run that had published correctly. So: read the wire's own
+# declared stack count and compare it to the cards actually in Daily Read. mtime is the
+# fallback only when the wire file declares nothing.
 for _wf in "Morning Wire $_TODAY.md" "Evening Wire $_TODAY.md"; do
   if [ -f "$_wf" ] && [ "$_wf" -nt "Daily Read.md" ]; then
+    # 2026-11-13: mtime is not evidence -- the wire file is finalised AFTER its cards
+    # are prepended (its "## 11. Publish" footer is written last), so it is always
+    # newer than the stack it just published. Ask the content instead.
+    if python3 "/rool-drive/tools/wire_published.py" "$_wf" "Daily Read.md"; then
+      continue
+    fi
     echo "FAIL: $_wf was filed but Daily Read.md has not been updated since. A wire run that is not prepended as cards is not published."
     echo "      Write the cards into Daily Read.md (five beats, public voice) and re-run."
     exit 1
