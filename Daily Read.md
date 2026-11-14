@@ -4,4 +4,88 @@ DATE: 2026-11-14
 
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
-(no sections filed yet — first wire run of the day writes the morning edition)
+SUMMARY:
+- [11:20] Three thousand flights are still cancelled, and the explanation has split in two
+- [11:05] The strike on Iran is off, for now. The water is still being described as mined.
+- [10:50] Alaska answered three questions at once, and none of the answers helped the claim
+- [10:35] The witness agreed to come, but the second file opened first
+- [10:20] America lost its measles-free status, and nothing happened on the day it did
+WATCHING:
+- Whether a congressional committee notices a hearing on Friday's ground stop by Monday, or whether the agency gets money and no inquiry
+- Whether the contractor running the FAA's private network is named in an official document, and whether the change record is published
+- Whether aviation modernisation money arrives as a long-dated funding law before December 11, or as another short patch
+- Whether the pause on strikes against Iran survives the week, and whether any strike is confirmed by both sides
+- Whether Jensen Huang's testimony is scheduled for the Senate Banking Committee on December 3, and whether the questions are about the affair or about rented computing capacity
+- Whether the Senate Democratic leadership ballot on December 1 settles it, or opens a fight about the filibuster
+- Whether Alaska's Senate count finishes without anyone refusing to accept it
+- Whether a second named Republican anywhere refuses a certified count before December 31
+- Whether a tariff on Mexico is proclaimed rather than posted, or whether a trade investigation replaces it
+- Whether any state or the CDC acts on vaccination, or whether the loss of elimination status passes unremarked
+
+<!--parser markers above; collapsible cards below-->
+**CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[11:20] Three thousand flights are still cancelled, and the explanation has split in two</summary>
+<p><i>The planes stopped for four hours on Friday. By Saturday morning there were two different causes in circulation, and both were being used to argue for the same money.</i></p>
+<p><b>What happened.</b> More than three thousand US flights are cancelled this morning as airlines work through the backlog from Friday's nationwide ground stop, which ran about four hours and was lifted at 8:28pm Eastern. College football moved with it: the Southeastern Conference pushed the Mississippi–Oklahoma game to Sunday, and Oklahoma's athletic director attacked the decision in public. Overnight, the most widely carried story in the country was a Reuters examination reporting that <i>old</i> air traffic control equipment regularly disrupts flights — a chronic condition rather than a one-off accident.</p>
+<p><b>Why it matters.</b> That does not sit easily with what two cabinet secretaries said from the podium on Friday night: that new equipment had overwhelmed an older system, that switches and routers returned inconsistent data, and that the agency shut the system down because of it. Old equipment breaking down and new equipment breaking the system are not the same claim. Neither has been withdrawn. And a Republican congresswoman, Marjorie Taylor Greene, called Friday's briefing "a shakedown for more money," while the top Democrat on the House Budget Committee said he would back a major appropriation to overhaul the system. The fight over the money started before anyone established the cause.</p>
+<p><b>The pattern.</b> A failure that everyone experiences becomes an argument that everyone can join. The cause is still open, so the vacancy gets filled by whichever explanation is useful. That is not a conspiracy; it is what happens when an institution asks for fifty billion dollars in the same press conference in which it admits it does not yet know what went wrong. The two accounts can both be partly true — old equipment can be fragile and a new update can still break it — but only one of them is being checked.</p>
+<p><b>What history says.</b> The two previous national ground stops, in 2001 and January 2023, both ended in mundane causes and neither produced money quickly. The 2023 stop, about ninety minutes long, was caused by a contractor deleting files during a database update; the root cause took nine days to establish. The difference this time is not secrecy but daylight: Friday's silence happened across drive time into the evening, when millions of people were awake to experience it. A failure people feel is a failure people fund.</p>
+<p><b>What we're watching next.</b> Whether a congressional committee notices a hearing by Monday, which tells you whether the agency wants an inquiry or wants the cheque. Whether the name of the company running the FAA's private network appears in an official document. And whether the modernisation money arrives as a long-term funding law before 11 December, or as another four-week patch that settles nothing. An emergency of this size that produces no rule, no order and no hearing within a day is itself a reading.</p>
+<p><b>Sources.</b> <a href="https://apnews.com">Associated Press</a>, <a href="https://www.reuters.com">Reuters</a>, <a href="https://thehill.com">The Hill</a>, <a href="https://www.cnn.com">CNN</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[11:05] The strike on Iran is off, for now. The water is still being described as mined.</summary>
+<p><i>A pause announced by sources, three mine claims announced by Tehran, and a market that has already decided which one to believe.</i></p>
+<p><b>What happened.</b> Reuters reports, from sources, that the President has told advisers he may hold off on attacking Iran unless there is a new provocation. The same morning's reporting has him describing the war as "effectively over" while noting it is still costing the United States billions of dollars a month, and his Treasury Secretary answering a question about Iranian threats with an obscenity. Against all of that, Iran's navy says an oil tanker is on fire in the Strait of Hormuz after hitting a mine, and Iranian outlets claim attacks on an American radar station in Bahrain and on a gas tanker in the strait. No government with a warship in the water has confirmed any of it.</p>
+<p><b>Why it matters.</b> A war that is declared over while mines are still being reported in the shipping lane it was fought over is not over; it is unannounced. The reason to take the pause seriously is that it comes with a cost attached — the shooting has stopped, the ships are still there, and the bill keeps arriving. The reason to doubt it is that the same week produced a threat to double tariffs on Mexico and a plan for a three-leader summit, which is what a government does when it wants the war off the front page rather than off the map.</p>
+<p><b>The pattern.</b> Wars rarely end with a document. They thin out. Declarations, then pauses, then a negotiation that neither side will call a negotiation, while the physical violence continues at a lower level and gets attributed by whoever benefits. The tell is not the announcement; it is who confirms the violence. Every claim in the water this morning is being made by Iran about Iran's own coast, which means the record of what is happening there belongs to one party.</p>
+<p><b>What history says.</b> The 2023–24 Red Sea campaign followed this shape for months: announced operations, unattributed attacks, insurance rates doing the actual reporting. The 1991 Gulf ceasefire was followed by a decade of enforcement that nobody called war. A pause that is declared by one side's sources, unverified by the other, and contradicted by explosions in the same waterway should be read as a change in intensity, not an end state.</p>
+<p><b>What we're watching next.</b> Whether any strike is attributed on the record by both sides, which would break the pause in a way that cannot be walked back. Whether a flag state or an insurer confirms a mine, which would force the shipping trade to reprice. And whether the planned three-leader summit produces a venue and a format, or stays a schedule reported as a settlement.</p>
+<p><b>Sources.</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://thehill.com">The Hill</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>, <a href="https://apnews.com">Associated Press</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:50] Alaska answered three questions at once, and none of the answers helped the claim</summary>
+<p><i>A Democrat won the governorship, a Senate seat is slipping away, and voters kept the voting system they were asked to abolish.</i></p>
+<p><b>What happened.</b> Three results landed overnight. Jonathan Kreiss-Tomkins won Alaska's governorship — the first Democrat elected to that office since 1998, replacing a Republican. Mary Peltola holds a lead of nearly four percentage points over Senator Dan Sullivan in the latest batch of counted ballots. And Ballot Measure 638 failed, so Alaska keeps its open primaries and its ranked-choice voting system.</p>
+<p><b>Why it matters.</b> For a week the losing side in Alaska has said, in public and by name, that the Senate race was stolen — that the result was obvious and that ballots were being counted to produce a different answer. Meanwhile the count has kept moving, in public, the other way. The measure that would have changed how Alaska counts was on the same ballot and was rejected by Alaska's own voters. Nobody has refused to accept a certified result. That is the news, and it is a null: the machinery was tested where the allegation was loudest and it held.</p>
+<p><b>The pattern.</b> Election challenges need two things to become dangerous: a close count, and an institution willing to carry the claim. Alaska has had the first for a week and never found the second. In Mississippi the incumbent who first refused the count conceded before certification. In Alaska the claimant's own numbers moved away from him instead of toward him. The claim did not fail because it was disproved; it failed because the arithmetic ran out while it was being made.</p>
+<p><b>What history says.</b> Contested counts become crises when a party's institutional actors adopt them — Florida in 2000 had a legal army on both sides, and the outcome was decided by a court rather than by a mob. Where the challenge stays with a candidate, it usually dies at certification. The variable that matters is not the margin but whether anyone with authority picks the claim up.</p>
+<p><b>What we're watching next.</b> Whether Peltola's lead holds as the remaining ballots drop, and whether the final margin falls inside the number of rejected ballots that a court declined to order disclosed — that is the one place a late reversal could still come from. And whether any named national Republican refuses a certified result somewhere else before 31 December. So far the count is zero.</p>
+<p><b>Sources.</b> <a href="https://apnews.com">Associated Press</a>, <a href="https://www.npr.org">NPR</a>, <a href="https://thehill.com">The Hill</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:35] The witness agreed to come, but the second file opened first</summary>
+<p><i>The former Nvidia chief will testify. Overnight, a second workplace relationship was reported, and the question the hearing was meant to answer is being answered elsewhere.</i></p>
+<p><b>What happened.</b> Jensen Huang, removed as Nvidia's chief executive nine days ago, has agreed to testify before Congress; the Senate Banking Committee has set 3 December. Overnight, Reuters reported from sources that he had a relationship with a second Nvidia employee, in addition to the Chinese businesswoman at the centre of the affair that began all of this. Elon Musk said "critical deals will be lost" without him, and the President is taking Musk on his Asia trip while planning not to discuss the matter.</p>
+<p><b>Why it matters.</b> The hearing was supposed to settle a policy question: whether Nvidia's most advanced computing was being rented to Chinese customers abroad rather than shipped to them, which would route around export controls without breaking them. That question is now being answered in the press, with the Treasury Secretary blaming the Commerce Department for the missing controls — a dispute between two agencies, which produces a memorandum rather than a rule. The witness who could answer it under oath now arrives with a personal file that will consume the questioning.</p>
+<p><b>The pattern.</b> This is how a policy failure gets converted into a personnel story. The board moved first, in nine days, before any regulator acted; the state's compulsory process arrives three weeks later, in public, after the only decision that mattered has been made. A removal settles the market's question and buries the government's. The hearing will produce a transcript, and the loophole will still be open.</p>
+<p><b>What history says.</b> Congressional hearings on financial and technological failures rarely produce rules; they produce narratives, and the narrative usually lands on the person rather than the structure. The 2008 hearings on bank executives are the template: memorable, quotable, and followed by legislation that had already been drafted elsewhere by other people. The instrument that changes behaviour is the rule, and the rule requires an agency willing to write it while the story is hot.</p>
+<p><b>What we're watching next.</b> Whether the agreement names the Banking Committee and the 3 December date specifically, or stays a general offer. Whether the questioning reaches rented capacity or stays on the affair. And whether Commerce produces an export-control rule before the hearing, which would make the hearing a formality — or after it, which would make it theatre.</p>
+<p><b>Sources.</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://thehill.com">The Hill</a>, <a href="https://www.cnn.com">CNN</a>, <a href="https://www.breitbart.com">Breitbart</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:20] America lost its measles-free status, and nothing happened on the day it did</summary>
+<p><i>A designation the country held for twenty-six years expired quietly. It is the longest-lasting thing in this morning's news and the least covered.</i></p>
+<p><b>What happened.</b> The United States has lost its measles-elimination status, according to reporting carried this morning by Reuters and Deutsche Welle from the Wall Street Journal. Elimination status is a formal public-health designation: it means the country went twelve months without continuous transmission of a disease it had previously stamped out. The country had held it since 2000.</p>
+<p><b>Why it matters.</b> Losing it is not a warning about the future; it is a finding about the recent past. It means measles has been circulating continuously inside the United States for a year, in pockets, without being stopped. It also means the machinery that stopped it before — surveillance, rapid response, and a vaccination rate high enough that outbreaks cannot find fuel — no longer works reliably enough to interrupt transmission. That is a capacity failure, and capacity failures do not announce themselves.</p>
+<p><b>The pattern.</b> This is the fourth item in a series that never gets a headline: HIV prevention funding cut for a state, billions in global health money redirected against what Congress intended, public-health staff cut in state after state, and now a designation lost. Each one is a subtraction. Nothing happens on the day the money goes; the consequence arrives years later, in a population that has never seen the disease and a vaccination rate that takes a decade to rebuild. Subtraction is invisible until it is an outbreak.</p>
+<p><b>What history says.</b> Measles was declared eliminated in the United States in 2000 after decades of vaccination. It has been re-established in countries that let coverage fall — the United Kingdom lost its status in 2018 and took years to recover it. The disease is among the most contagious known; it finds the unvaccinated with extraordinary efficiency. Elimination is not a trophy, it is a maintained condition, and maintenance looks exactly like spending money on nothing happening.</p>
+<p><b>What we're watching next.</b> Whether any state or the Centers for Disease Control responds with a vaccination requirement, a funding restoration or a public campaign — or whether the status simply lapses into a fact nobody acts on. And whether the next outbreak is attributed to the lapse, which would be the moment the subtraction becomes visible.</p>
+<p><b>Sources.</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.dw.com">Deutsche Welle</a>, <a href="https://www.cdc.gov">Centers for Disease Control and Prevention</a>, <a href="https://www.cnn.com">CNN</a>.</p>
+</details>
