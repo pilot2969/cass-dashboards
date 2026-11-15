@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-15",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-15T11:13 ET"
+  "generated_stamped": "2026-11-15T14:27 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -6405,6 +6405,258 @@
    "tracking_state": "PRE-REGISTERED INERT 2026-11-14 20:05 ET at 30, before any branch outcome visible. Written now, not after Node 1 resolves, because authoring a successor card once the outcome is visible is the amendment channel reopened.",
    "basename": "iran-escalation-node2-us-initiates",
    "confidence": 30
+  },
+  {
+   "date_made": "2026-11-15",
+   "time_et": "14:35",
+   "status": "pending",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-15",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "anchor_type": "constitutional",
+   "anchor_source": "Seating of the 120th Congress (20th Amendment)",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "grace_horizon": "none - constitutional anchor, hard close at the seating of the 120th Congress",
+   "deadline_type": "conventional",
+   "review_cadence": "daily to 2026-11-20, then weekly",
+   "public_status": "gated_public",
+   "instrument": "Docketed compulsory process (subpoena, grand jury subpoena, indictment) or an on-record DOJ/USAO statement that a criminal investigation is open. Press statements, letters and threats do not count.",
+   "leg_primary": "G",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "enforcement instrument turned on oversight",
+   "title": "Node 1: the preservation letters convert into compulsory process against Senate oversight",
+   "statement": "By 2027-01-03, a preservation-notice campaign aimed at congressional oversight converts into docketed compulsory process or an on-record open criminal investigation against a sitting Democratic senator, their Senate office, or Senate staff.",
+   "evidence_confirmed": [
+    "2026-11-15: U.S. Attorney Aaron Reitz (S.D. Texas; former chief of staff to Sen. Cruz) sends Sen. Elizabeth Warren a formal preservation notice accusing her of planning to violate the constitutional rights of Trump's corporate allies through congressional investigations; cites 18 U.S.C. 241 and 242 by number; deadline 18:00 ET 2026-11-15.",
+    "Reitz says it is his third such letter; earlier letters went to other Senate Democrats.",
+    "Chief of Staff Stephen Miller reposted the letter highlighting the same statutes. Reitz publicly: 'My first arrow shot.'"
+   ],
+   "evidence_contradicted": [
+    "A preservation notice is a civil-litigation instrument, not a charging document. No referral, no target letter and no grand jury are known as of filing.",
+    "DOJ has never charged a senator for holding hearings; the letters are as consistent with signalling as with intent."
+   ],
+   "falsifier": "2027-01-03 arrives with no docketed compulsory process and no on-record confirmation of an open criminal investigation against any senator, Senate office, or Senate staffer arising from oversight activity. A fourth letter, a press attack, or an inspector-general referral does NOT satisfy the threshold.",
+   "threshold_definition": "FIRING CONDITION ONLY - no principal, no attribution. Realised if, on or before 2027-01-03, ANY of the following occurs against a sitting Democratic senator, their Senate office, or Senate staff: (a) a grand jury or DOJ/U.S. Attorney subpoena; (b) an indictment or criminal information; (c) an on-record statement by DOJ, a U.S. Attorney or an FBI field office that a criminal investigation is open. Letters, preservation notices, public threats, OIG referrals, ethics complaints and private civil suits do NOT count. The initiator is deliberately unspecified here; that is Node 2.",
+   "confidence_rationale": "Priced off the conversion rate, not the rhetoric. Prosecutor-to-Congress legal threats are common; docketed process against a sitting senator is near absent in the modern record, and the political cost of first process far exceeds the cost of a letter. Against that: this administration has already crossed several thresholds the base rate says it would not. 16 is 'unusual administration, unchanged mechanism'.",
+   "base_rate_source": "Corpus: prosecutor legal threats/warning letters to a sitting member of Congress converting to compulsory process within 7 weeks - 0 of 9 identifiable cases 1974-2026. Raised for this administration's demonstrated willingness to break enforcement norms and for a named chief-of-staff amplifier.",
+   "base_rate_numeric": 0.05,
+   "base_rate_tier": "D",
+   "base_rate_frozen_date": "2026-11-15",
+   "skill_eligible": true,
+   "forward_watchlist": [
+    "Whether Warren certifies or refuses by 18:00 ET 2026-11-15",
+    "Any target letter, subpoena or FBI contact reported by a Senate office",
+    "A fourth Reitz letter and to whom",
+    "Whether Main Justice or the White House speaks to the letters, or leaves Reitz alone out front",
+    "A grand jury convened in S.D. Texas touching Senate staff",
+    "An OLC opinion on oversight immunity"
+   ],
+   "correlation_flag": "Root of staged tree /space/decomposition/2026-11-15-oversight-process-staged-tree. Children inert until this resolves hit: node2-white-house (40), node2-main-justice (25), node2-usao-initiative (20), node2-private-complainant (15).",
+   "tracking_state": "REGISTERED 2026-11-15 14:35 ET at 16, inside the 18:00 ET certification deadline and before that outcome is visible.",
+   "verdict": "test",
+   "basename": "2026-11-15-oversight-preservation-to-process-node1",
+   "confidence": 16
+  },
+  {
+   "date_made": "2026-11-15",
+   "time_et": "14:35",
+   "status": "pending",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-15",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "anchor_type": "constitutional",
+   "anchor_source": "Seating of the 120th Congress (20th Amendment)",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "grace_horizon": "none - constitutional anchor, hard close at the seating of the 120th Congress",
+   "deadline_type": "conventional",
+   "review_cadence": "daily to 2026-11-20, then weekly",
+   "public_status": "gated_public",
+   "instrument": "Docketed compulsory process (subpoena, grand jury subpoena, indictment) or an on-record DOJ/USAO statement that a criminal investigation is open. Press statements, letters and threats do not count.",
+   "leg_primary": "G",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "enforcement instrument turned on oversight",
+   "title": "Node 2: Main Justice initiates the process against Senate oversight",
+   "statement": "Conditional on Node 1 firing: the step originates at DOJ leadership in Washington with no established White House direction.",
+   "evidence_confirmed": [
+    "Conditional branch - nothing scored at registration; Node 1 has not fired."
+   ],
+   "evidence_contradicted": [
+    "No process exists to attribute as of 2026-11-15."
+   ],
+   "threshold_definition": "Realised if the process satisfying Node 1 is traceable to DOJ leadership - Criminal Division involvement, a Main Justice statement, or reporting that the U.S. Attorney acted on a Washington request - and no White House direction is established.",
+   "falsifier": "A step that stays entirely within the S.D. Texas office, with no Washington footprint, falsifies this branch.",
+   "confidence_rationale": "Conditional price; multiplies through the root: 16% x this price for the unconditional branch probability.",
+   "base_rate_source": "Author's conditional split of Node 1 at registration; no independent series exists for initiation-channel splits of this kind. Tier E.",
+   "base_rate_tier": "E",
+   "base_rate_frozen_date": "2026-11-15",
+   "skill_eligible": false,
+   "quarantine_reason": "Conditional child node - inert until the parent resolves hit (staged-branch-tree rules 2 and 3).",
+   "tracking_state": "INERT. Activation trigger: Node 1 resolves hit. If Node 1 misses, this card is VOID, not a miss.",
+   "forward_watchlist": [
+    "Whether any Washington or White House footprint appears in the process",
+    "Who first announces the step"
+   ],
+   "verdict": "test",
+   "correlation_flag": "Child of /space/prediction/2026-11-15-oversight-preservation-to-process-node1. Branch prices 40/25/20/15 sum to 1.",
+   "basename": "2026-11-15-oversight-process-node2-main-justice",
+   "confidence": 25
+  },
+  {
+   "date_made": "2026-11-15",
+   "time_et": "14:35",
+   "status": "pending",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-15",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "anchor_type": "constitutional",
+   "anchor_source": "Seating of the 120th Congress (20th Amendment)",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "grace_horizon": "none - constitutional anchor, hard close at the seating of the 120th Congress",
+   "deadline_type": "conventional",
+   "review_cadence": "daily to 2026-11-20, then weekly",
+   "public_status": "gated_public",
+   "instrument": "Docketed compulsory process (subpoena, grand jury subpoena, indictment) or an on-record DOJ/USAO statement that a criminal investigation is open. Press statements, letters and threats do not count.",
+   "leg_primary": "G",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "enforcement instrument turned on oversight",
+   "title": "Node 2: a private complainant drives the process",
+   "statement": "Conditional on Node 1 firing: the process opens on the complaint or referral of a private party - a Trump-linked company, donor or advocacy group - rather than on the government's own motion.",
+   "evidence_confirmed": [
+    "Conditional branch - nothing scored at registration; Node 1 has not fired."
+   ],
+   "evidence_contradicted": [
+    "No process exists to attribute as of 2026-11-15."
+   ],
+   "threshold_definition": "Realised if the process satisfying Node 1 is initiated by, or credibly reported to follow, a criminal referral from a private party named in the letters, with the prosecutor acting as receiver rather than initiator.",
+   "falsifier": "A process opened with no private complainant in the record falsifies this branch.",
+   "confidence_rationale": "Conditional price; multiplies through the root: 16% x this price for the unconditional branch probability.",
+   "base_rate_source": "Author's conditional split of Node 1 at registration; no independent series exists for initiation-channel splits of this kind. Tier E.",
+   "base_rate_tier": "E",
+   "base_rate_frozen_date": "2026-11-15",
+   "skill_eligible": false,
+   "quarantine_reason": "Conditional child node - inert until the parent resolves hit (staged-branch-tree rules 2 and 3).",
+   "tracking_state": "INERT. Activation trigger: Node 1 resolves hit. If Node 1 misses, this card is VOID, not a miss.",
+   "forward_watchlist": [
+    "Whether any Washington or White House footprint appears in the process",
+    "Who first announces the step"
+   ],
+   "verdict": "test",
+   "correlation_flag": "Child of /space/prediction/2026-11-15-oversight-preservation-to-process-node1. Branch prices 40/25/20/15 sum to 1.",
+   "basename": "2026-11-15-oversight-process-node2-private-complainant",
+   "confidence": 15
+  },
+  {
+   "date_made": "2026-11-15",
+   "time_et": "14:35",
+   "status": "pending",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-15",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "anchor_type": "constitutional",
+   "anchor_source": "Seating of the 120th Congress (20th Amendment)",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "grace_horizon": "none - constitutional anchor, hard close at the seating of the 120th Congress",
+   "deadline_type": "conventional",
+   "review_cadence": "daily to 2026-11-20, then weekly",
+   "public_status": "gated_public",
+   "instrument": "Docketed compulsory process (subpoena, grand jury subpoena, indictment) or an on-record DOJ/USAO statement that a criminal investigation is open. Press statements, letters and threats do not count.",
+   "leg_primary": "G",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "enforcement instrument turned on oversight",
+   "title": "Node 2: the U.S. Attorney acts on his own initiative",
+   "statement": "Conditional on Node 1 firing: the step originates within the S.D. Texas U.S. Attorney's office as its own judgment or ambition, without direction from Washington.",
+   "evidence_confirmed": [
+    "Conditional branch - nothing scored at registration; Node 1 has not fired."
+   ],
+   "evidence_contradicted": [
+    "No process exists to attribute as of 2026-11-15."
+   ],
+   "threshold_definition": "Realised if the process satisfying Node 1 is confined to Reitz's office - no Main Justice or White House involvement established - including the case that Reitz is building a profile for a Texas statewide run.",
+   "falsifier": "Evidence of a Washington request or a White House instruction falsifies this branch.",
+   "confidence_rationale": "Conditional price; multiplies through the root: 16% x this price for the unconditional branch probability.",
+   "base_rate_source": "Author's conditional split of Node 1 at registration; no independent series exists for initiation-channel splits of this kind. Tier E.",
+   "base_rate_tier": "E",
+   "base_rate_frozen_date": "2026-11-15",
+   "skill_eligible": false,
+   "quarantine_reason": "Conditional child node - inert until the parent resolves hit (staged-branch-tree rules 2 and 3).",
+   "tracking_state": "INERT. Activation trigger: Node 1 resolves hit. If Node 1 misses, this card is VOID, not a miss.",
+   "forward_watchlist": [
+    "Whether any Washington or White House footprint appears in the process",
+    "Who first announces the step"
+   ],
+   "verdict": "test",
+   "correlation_flag": "Child of /space/prediction/2026-11-15-oversight-preservation-to-process-node1. Branch prices 40/25/20/15 sum to 1.",
+   "basename": "2026-11-15-oversight-process-node2-usao-initiative",
+   "confidence": 20
+  },
+  {
+   "date_made": "2026-11-15",
+   "time_et": "14:35",
+   "status": "pending",
+   "card_class": "EVENT",
+   "resolution": "unresolved",
+   "window_opens": "2026-11-15",
+   "window_closes": "2027-01-03",
+   "expiry_date": "2027-01-03",
+   "anchor_type": "constitutional",
+   "anchor_source": "Seating of the 120th Congress (20th Amendment)",
+   "anchor_grade": "A",
+   "grace_locked": false,
+   "grace_horizon": "none - constitutional anchor, hard close at the seating of the 120th Congress",
+   "deadline_type": "conventional",
+   "review_cadence": "daily to 2026-11-20, then weekly",
+   "public_status": "gated_public",
+   "instrument": "Docketed compulsory process (subpoena, grand jury subpoena, indictment) or an on-record DOJ/USAO statement that a criminal investigation is open. Press statements, letters and threats do not count.",
+   "leg_primary": "G",
+   "leg_secondary": [
+    "E"
+   ],
+   "leg_basis": "enforcement instrument turned on oversight",
+   "title": "Node 2: White House directs the process against Senate oversight",
+   "statement": "Conditional on Node 1 firing: the compulsory process is initiated through the White House / Chief of Staff channel rather than by DOJ or the U.S. Attorney on independent judgment.",
+   "evidence_confirmed": [
+    "Conditional branch - nothing scored at registration; Node 1 has not fired."
+   ],
+   "evidence_contradicted": [
+    "No process exists to attribute as of 2026-11-15."
+   ],
+   "threshold_definition": "Realised if, in the process satisfying Node 1, the record shows the White House (including the Chief of Staff) directed, requested or approved the step before it was taken - a documented instruction, an OLC opinion sought at White House request, or contemporaneous reporting by two outlets naming White House direction.",
+   "falsifier": "A process initiated before any White House involvement is established, with Main Justice and the USAO on record as acting on their own, falsifies this branch.",
+   "confidence_rationale": "Conditional price; multiplies through the root: 16% x this price for the unconditional branch probability.",
+   "base_rate_source": "Author's conditional split of Node 1 at registration; no independent series exists for initiation-channel splits of this kind. Tier E.",
+   "base_rate_tier": "E",
+   "base_rate_frozen_date": "2026-11-15",
+   "skill_eligible": false,
+   "quarantine_reason": "Conditional child node - inert until the parent resolves hit (staged-branch-tree rules 2 and 3).",
+   "tracking_state": "INERT. Activation trigger: Node 1 resolves hit. If Node 1 misses, this card is VOID, not a miss.",
+   "forward_watchlist": [
+    "Whether any Washington or White House footprint appears in the process",
+    "Who first announces the step"
+   ],
+   "verdict": "test",
+   "correlation_flag": "Child of /space/prediction/2026-11-15-oversight-preservation-to-process-node1. Branch prices 40/25/20/15 sum to 1.",
+   "basename": "2026-11-15-oversight-process-node2-white-house",
+   "confidence": 40
   }
  ],
  "mget_ledger": [
@@ -14161,6 +14413,36 @@
  ],
  "movers": [
   {
+   "time": "2026-11-15",
+   "ref": "Node 1: the preservation letters convert into compulsory process against Senate oversight",
+   "change": "confidence 16 \u2014 status pending",
+   "trigger": "Chief of Staff Stephen Miller reposted the letter highlighting the same statutes. Reitz publicly: 'My first arrow shot.'"
+  },
+  {
+   "time": "2026-11-15",
+   "ref": "Node 2: Main Justice initiates the process against Senate oversight",
+   "change": "confidence 25 \u2014 status pending",
+   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
+  },
+  {
+   "time": "2026-11-15",
+   "ref": "Node 2: a private complainant drives the process",
+   "change": "confidence 15 \u2014 status pending",
+   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
+  },
+  {
+   "time": "2026-11-15",
+   "ref": "Node 2: the U.S. Attorney acts on his own initiative",
+   "change": "confidence 20 \u2014 status pending",
+   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
+  },
+  {
+   "time": "2026-11-15",
+   "ref": "Node 2: White House directs the process against Senate oversight",
+   "change": "confidence 40 \u2014 status pending",
+   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
+  },
+  {
    "time": "2026-11-14 20:15 ET (evening wire)",
    "ref": "Iran: a new escalatory phase opens before the 120th Congress is seated (Cenk step 2)",
    "change": "confidence 26 \u2014 status pending",
@@ -14189,36 +14471,6 @@
    "ref": "Iran escalation Node 2D: a proxy or unattributed actor opens the new phase (child, inert until Node 1 fires)",
    "change": "confidence 8 \u2014 status pending",
    "trigger": "Unattributed violence is the pattern that survives a freeze: the principals stop shooting while the clients do not."
-  },
-  {
-   "time": "2026-11-14 20:05 ET (registered inert)",
-   "ref": "Iran escalation Node 2A: the US initiates the new phase (child, inert until Node 1 fires)",
-   "change": "confidence 30 \u2014 status pending",
-   "trigger": "The President has escalated previously under domestic pressure, and declared the war 'effectively over' while it continued, which is a position from which a later expansion is a re"
-  },
-  {
-   "time": "2026-11-14 11:20 ET (morning wire)",
-   "ref": "Alaska transfer demand \u2014 does it acquire an institutional carrier?",
-   "change": "confidence 35 \u2014 status pending",
-   "trigger": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 45 \u2192 35, card NOT flipped"
-  },
-  {
-   "time": "2026-11-14 11:20 ET (morning wire)",
-   "ref": "Huang appears before Senate Banking on 3 December, in public",
-   "change": "confidence 62 \u2014 status pending",
-   "trigger": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 55 \u2192 62, card NOT flipped"
-  },
-  {
-   "time": "2026-11-14",
-   "ref": "Enforcement withdrawal Node 1: the state/private sanction gap is observed three or more times before 2027-06-30",
-   "change": "confidence 45 \u2014 status pending",
-   "trigger": "Documented state-capacity withdrawals in the corpus: ATF ceasing NFA enforcement (2026-10-09), DOJ denaturalization batch (2026-10-05), press-access enclosure."
-  },
-  {
-   "time": "2026-11-14",
-   "ref": "Enforcement withdrawal Node 2A-STATE-ONLY: state sanction withdrawn, private sanction remains \u2014 selective enforce",
-   "change": "confidence 35 \u2014 status pending",
-   "trigger": "Registered inert 2026-11-14 20:19, before any Node 1 outcome is visible."
   }
  ],
  "daily_read": {
@@ -14269,7 +14521,7 @@
  },
  "counts": {
   "items_today": 1,
-  "tracked_predictions": 119,
+  "tracked_predictions": 124,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -14443,12 +14695,12 @@
    }
   ],
   "register_load": {
-   "total": 117,
+   "total": 122,
    "by_leg": {
     "T": 46,
     "E": 12,
     "N": 6,
-    "G": 35,
+    "G": 40,
     "M": 18
    }
   },
@@ -16948,7 +17200,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-15 16:13Z",
+  "generated": "2026-11-15 19:27Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
