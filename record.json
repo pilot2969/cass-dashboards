@@ -1,5 +1,5 @@
 {
- "as_of": "2026-11-11",
+ "as_of": "2026-11-16",
  "rows": [
   {
    "t": "Mid-August Oil Price Shock",
@@ -168,6 +168,18 @@
    "falsifier": "MISSES if, by 2026-11-07 00:00 ET, the president or a named cabinet-level official publicly asserts the election was stolen or systematically fraudulent.",
    "note": "",
    "conf": 60
+  },
+  {
+   "t": "Election-Day Violence 2026 (Branch of Midterms Catalyst Node)",
+   "res": "miss",
+   "leg": "M",
+   "mech": "not-fired",
+   "mechnote": "No qualifying event recorded in window; card lapsed unresolved",
+   "window": "clock",
+   "date": "2026-11-14",
+   "falsifier": "Window closed 2026-11-14 20:00 ET. No qualifying event of political violence on Election Day was recorded. No grace was locked at registration, so the card is a MISS by the standing expiry rule, not by judgment.",
+   "note": "Resolved 2026-11-16 as an expiry housekeeping failure: the card sat two days past its own close because no run checked the expiry calendar.",
+   "conf": 20
   }
  ]
 }
