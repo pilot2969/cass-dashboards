@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-16",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-16T10:35 ET"
+  "generated_stamped": "2026-11-16T10:37 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -6731,6 +6731,22 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-16",
+   "time_et": "10:55",
+   "track": "state capacity and the control plane; force protection and accountability; the count",
+   "mget_legs_tested": [
+    "M: can the country still physically move itself \u2014 recovery complete, modernisation now the stated cause of the failure",
+    "G: legitimation flow \u2014 a survivor's filed complaint against the war's conduct, entering a chamber that changes hands in 48 days",
+    "E: ownership of the substrate \u2014 an FAA with no lifecycle cost estimate asking for $50bn, and an AI system acquiring an unexplained association with the outage",
+    "T: the count \u2014 Alaska's ranked-choice transfer produced a winner; California's 20,000 ballots moved to a court-appointed examiner"
+   ],
+   "verdict": "strains",
+   "reasoning": "Morning after the ground stop. Two facts closed: travel returned to normal and the modernisation itself is now the stated cause \u2014 copper-wire replacement flooding the network, a correction of Saturday's contractor-error account. Two opened: a $50bn request with no line items against $12bn already appropriated and a third spent, and the GAO's September finding that the FAA has neither a lifecycle cost estimate nor a master schedule. Strain, not confirmation: the system recovered physically (M holds) while the explanation moved toward the work that was supposed to fix it. Separately the strongest new document is the Port Shuaiba whistleblower complaint \u2014 a named complainant, a filed instrument and a committee request, after a June investigation whose findings were never published. That is accountability arriving through paperwork, not politics, and it is the shape that survives January.",
+   "forward_signal": "1) Whether a committee posts a dated hearing on the outage, or only promises one; 2) whether the $20bn increment acquires a line-item breakdown; 3) whether any Iranian strike is confirmed to have hit its target \u2014 three claims in four days, zero confirmed, threshold unfired; 4) whether the June Port Shuaiba investigation is published; 5) whether Thursday's Shenzhen summit produces a text with verification language; 6) whether the California special master reports before the 120th Congress is seated.",
+   "confidence_moves": "Huang Senate testimony 62 -> 64. Hegseth-out 55 hold. Iran Node 1 54 hold, Node 2C 40 hold, Node 2D 8 hold (flagged). Alaska transfer-demand 35 hold, flagged. Count-refusal 40 hold. Election-Day Violence resolved MISS by expiry (window closed 11-14 20:00 ET, no grace, no qualifying event) \u2014 scored two days late, logged as a desk bookkeeping failure.",
+   "basename": "2026-11-16-morning-wire"
+  },
   {
    "date": "2026-11-15",
    "time_et": "11:25",
@@ -14596,7 +14612,7 @@
   ]
  },
  "counts": {
-  "items_today": 0,
+  "items_today": 1,
   "tracked_predictions": 125,
   "claims_tested": 29,
   "unscored_predictions": 0
@@ -17158,7 +17174,7 @@
       "raw": 2,
       "per_100_journal": 9.1,
       "journal": 22,
-      "ledger": 86,
+      "ledger": 87,
       "days_covered": 15
      }
     ],
@@ -17276,7 +17292,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-16 15:35Z",
+  "generated": "2026-11-16 15:37Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
