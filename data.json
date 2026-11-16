@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-15",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-15T21:30 ET"
+  "generated_stamped": "2026-11-15T22:20 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -5730,8 +5730,8 @@
    "leg_basis": "material escalation",
    "deadline_type": "constitutive",
    "basename": "2026-11-12-iran-escalation-lame-duck",
-   "confidence": 26,
-   "tracking_state": "TRACKING 2026-11-14 20:15 ET \u2014 14 -> 26, reversing the morning's 18 -> 14. The morning read weighted the Reuters pause; the day's decisive fact came later and points the other way. Mossad director Roman Gofman in Washington Friday meeting Ratcliffe, then Witkoff in Miami, per Axios (three sources) \u2014 not a de-escalation visit: Netanyahu is pressing Trump to resume the war and Trump has refused, siding with Riyadh/Doha/Abu Dhabi on blockade-plus-pressure. The vector moved because Netanyahu lost his majority on 27 Oct and Eisenkot holds the mandate; Israeli opposition figures tell Axios they fear he will strike Iran \u2014 or provoke Iran into striking Israel \u2014 to collapse Eisenkot's coalition. Security cabinet ordered strike preparations stepped up (Wed); IDF says preparations complete; US aircraft arriving in Israel; US military reportedly told Israel and the Gulf to prepare for renewed war. That is the mobilisation signal the card listed as absent for five runs. THRESHOLD PRECISION: the card requires a US-announced operational phase or expanded US war aims. An Israeli strike does not satisfy it, and a strike launched to save a caretaker PM would run against the card's mechanism \u2014 escalation the US is trying to prevent. Live vector, wrong principal: raises the chance the US is pulled in, not the chance it initiates. Falsifier untouched. PAIRED 2026-11-14 20:05 ET: a solo-Israeli-strike branch would satisfy neither limb (a) nor (b) of this card's threshold, so the likely near-term observable was outside the test. Registered /space/prediction/2026-11-14-israel-solo-strike-iran-unmonitored (20) rather than widening this threshold mid-window; the window opened 11-13 and the threshold is not amendable now that reporting has arrived."
+   "confidence": 34,
+   "tracking_state": "TRACKING 2026-11-14 20:15 ET \u2014 14 -> 26, reversing the morning's 18 -> 14. The morning read weighted the Reuters pause; the day's decisive fact came later and points the other way. Mossad director Roman Gofman in Washington Friday meeting Ratcliffe, then Witkoff in Miami, per Axios (three sources) \u2014 not a de-escalation visit: Netanyahu is pressing Trump to resume the war and Trump has refused, siding with Riyadh/Doha/Abu Dhabi on blockade-plus-pressure. The vector moved because Netanyahu lost his majority on 27 Oct and Eisenkot holds the mandate; Israeli opposition figures tell Axios they fear he will strike Iran \u2014 or provoke Iran into striking Israel \u2014 to collapse Eisenkot's coalition. Security cabinet ordered strike preparations stepped up (Wed); IDF says preparations complete; US aircraft arriving in Israel; US military reportedly told Israel and the Gulf to prepare for renewed war. That is the mobilisation signal the card listed as absent for five runs. THRESHOLD PRECISION: the card requires a US-announced operational phase or expanded US war aims. An Israeli strike does not satisfy it, and a strike launched to save a caretaker PM would run against the card's mechanism \u2014 escalation the US is trying to prevent. Live vector, wrong principal: raises the chance the US is pulled in, not the chance it initiates. Falsifier untouched. PAIRED 2026-11-14 20:05 ET: a solo-Israeli-strike branch would satisfy neither limb (a) nor (b) of this card's threshold, so the likely near-term observable was outside the test. Registered /space/prediction/2026-11-14-israel-solo-strike-iran-unmonitored (20) rather than widening this threshold mid-window; the window opened 11-13 and the threshold is not amendable now that reporting has arrived.\n\n2026-11-15 21:35 ET \u2014 26 -> 34. Kept live and unscored as the defect baseline. Mobilisation evidence added (three CSGs, joint strike planning, cabinet authorisation pending); still no named operational phase and no presidential statement of expanded war aims, the card's only two limbs. It would still fail to see the most likely path."
   },
   {
    "title": "Huang appears before Senate Banking on 3 December, in public",
@@ -6310,9 +6310,9 @@
    "public_status": "internal",
    "review_cadence": "on activation",
    "last_moved": "2026-11-14 20:05 ET (registered inert)",
-   "tracking_state": "PRE-REGISTERED INERT 2026-11-14 20:05 ET at 17. Low but not negligible, and structurally important: this is the branch the YNET reporting argues against, so it is the branch that would prove that reporting wrong.",
+   "tracking_state": "PRE-REGISTERED INERT 2026-11-14 20:05 ET at 17. Low but not negligible, and structurally important: this is the branch the YNET reporting argues against, so it is the branch that would prove that reporting wrong.\n\n2026-11-15 21:35 ET \u2014 17 -> 40. NEAR-MISS LOGGED, NOT FIRED. IRGC claimed six drones at the US air-defence radar at Al-Riffa base, Bahrain; Bahrain says all were intercepted before reaching targets; no confirmed damage, no US casualties. Threshold requires a sustained campaign \u2014 mass salvo on a city or US base, sustained strait closure, or US servicemembers killed \u2014 so the claim does not fire the node even as a second claim in three days. Price moved as the residual of the exhaustive four-way split (US 40, solo 12, Iran 40, proxy 8). FLAG: this is the number I trust least tonight; it is partly an artifact of the exhaustiveness constraint rather than a clean read of Iranian intent. A third claim with confirmed effect fires the node.",
    "basename": "iran-escalation-node2-iran-initiates",
-   "confidence": 17
+   "confidence": 40
   },
   {
    "title": "Iran escalation Node 2D: a proxy or unattributed actor opens the new phase (child, inert until Node 1 fires)",
@@ -14485,6 +14485,12 @@
  "movers": [
   {
    "time": "2026-11-15 21:35 ET (evening wire)",
+   "ref": "Iran: a new escalatory phase opens before the 120th Congress is seated (Cenk step 2)",
+   "change": "confidence 34 \u2014 status pending",
+   "trigger": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 18 \u2192 14, card NOT flipped"
+  },
+  {
+   "time": "2026-11-15 21:35 ET (evening wire)",
    "ref": "Israel strikes Iran's unmonitored enrichment plant without US participation, before the 120th Congress is seated",
    "change": "confidence 14 \u2014 status pending",
    "trigger": "Netanyahu lost his majority 27 Oct; Eisenkot holds the mandate; Israeli opposition figures tell Axios they fear he will strike Iran, or provoke Iran into attacking Israel, to break"
@@ -14500,6 +14506,12 @@
    "ref": "Iran escalation Node 1: a new named operational phase opens before the 120th Congress is seated \u2014 by any party",
    "change": "confidence 54 \u2014 status pending",
    "trigger": "US has reinforced regional defences; ~17 US warships including two carriers (Theodore Roosevelt group expected) and ~200 fighter aircraft under CENTCOM."
+  },
+  {
+   "time": "2026-11-15 21:35 ET (evening wire)",
+   "ref": "Iran escalation Node 2C: Iran initiates the new phase (child, inert until Node 1 fires)",
+   "change": "confidence 40 \u2014 status pending",
+   "trigger": "The caretaker logic cuts both ways: an Iranian first strike rescues Netanyahu's coalition rather than dissolving it, which is why Israeli opposition figures fear provocation in bot"
   },
   {
    "time": "2026-11-15 21:35 ET (evening wire)",
@@ -14530,18 +14542,6 @@
    "ref": "Node 2: the U.S. Attorney acts on his own initiative",
    "change": "confidence 20 \u2014 status pending",
    "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
-  },
-  {
-   "time": "2026-11-15",
-   "ref": "Node 2: White House directs the process against Senate oversight",
-   "change": "confidence 40 \u2014 status pending",
-   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
-  },
-  {
-   "time": "2026-11-14 20:15 ET (evening wire)",
-   "ref": "Iran: a new escalatory phase opens before the 120th Congress is seated (Cenk step 2)",
-   "change": "confidence 26 \u2014 status pending",
-   "trigger": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 18 \u2192 14, card NOT flipped"
   }
  ],
  "daily_read": {
@@ -17292,7 +17292,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-16 02:30Z",
+  "generated": "2026-11-16 03:20Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
