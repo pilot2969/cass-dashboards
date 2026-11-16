@@ -5,6 +5,9 @@ DATE: 2026-11-15
 **Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
 SUMMARY:
+- [21:30] Iran says it fired on an American base, and the next round is being planned
+- [21:20] The routers could not broadcast, and nobody will apologise
+- [21:10] Israel's unity talks lasted one hour, which is an answer
 - [11:10] The FAA was warned for years, and the hearing slipped toward December
 - [11:00] The bomb in Peoria was real, and the FBI is hunting
 - [10:50] Three leaders, one photograph, no agenda
@@ -12,6 +15,12 @@ SUMMARY:
 - [10:30] The second tool for stopping the government
 - [10:20] A parade cancelled to comply with a definition
 WATCHING:
+- Whether the Israeli security cabinet authorises an operation designated as a war
+- Whether the next Iranian claim comes with confirmed damage rather than interception
+- Whether Yemen's Bab el-Mandeb withdrawal completes the double squeeze on Gulf oil
+- Whether airlines reach a full schedule tonight, as the FAA promised
+- Whether any committee posts a hearing date, rather than promising one
+- Whether the Attorney General opens a formal examination of the Ra'am affair
 - Whether a committee posts a hearing date on the flight outage, or only promises one
 - Whether the FBI names anyone for the Peoria device this week, and why the briefing was pulled
 - Whether the Shenzhen meeting produces a document with inspectors in it, or only a photograph
@@ -22,6 +31,45 @@ WATCHING:
 
 <!--parser markers above; collapsible cards below-->
 **CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[21:30] Iran says it fired on an American base, and the next round is being planned</summary>
+<p><i>Six drones were claimed, the air defences say they were stopped, and three American aircraft carriers are now in the region.</i></p>
+<p><b>What happened.</b> Shortly after 5am GMT the Islamic Revolutionary Guard Corps announced that six of its drones had attacked "the US air defence radar system at the Al-Riffa helicopter base" in Bahrain. Sirens sounded across the kingdom and the interior ministry told residents to shelter. Bahrain's defence force says its air defences "intercepted and thwarted several hostile Iranian air attacks" before they reached their targets, and no damage or casualties have been confirmed. It was the second Iranian claim of a strike on an American radar in three days; the first was rejected by the US military, which said it intercepted two drones without damage.</p>
+<p><b>Why it matters.</b> The claim matters more than the drones. Whether or not ordnance landed, a government is now stating publicly and repeatedly that it is attacking American installations, and the American embassy in Manama has warned citizens of "Iranian efforts to target US government officials and facilities in the region." The same day, a third American carrier strike group, the USS Theodore Roosevelt, arrived in the region to join two others, with more than twenty American warships enforcing a blockade of Iranian ports. The New York Times reports that American and Israeli military officials have drawn up plans for renewed strikes that would target Iran's energy infrastructure.</p>
+<p><b>The pattern.</b> Two things are true at once, and they pull in opposite directions. The odds of a new and larger phase of this war have risen sharply. The odds that Israel acts <i>alone</i> have fallen, because the planning is now joint: if American officers are drawing up the target list, a purely Israeli operation stops being the thing to prepare for. Single headlines cannot hold both facts. That is why this project separates "does it escalate" from "who does it" — the two questions moved in opposite directions today, and a fused prediction would have had to pretend one of them away.</p>
+<p><b>What history says.</b> Escalation in an unfinished war rarely arrives as a decision. It arrives as a series of smaller permissions, each defensible on its own: plans drawn up "for the option," a carrier moved, a cabinet authorised to consider, a proxy attack answered. The Gulf states understand the sequence better than anyone. Their reaction was immediate and unusually blunt — Saudi Arabia called the attack "a violation of international law and the principles of good neighbourliness," with Qatar, Jordan and Egypt joining. Those are the governments Washington has been siding with to restrain Israel, and Iran has just handed them a grievance.</p>
+<p><b>What we're watching next.</b> Whether the Israeli security cabinet, which met tonight, authorises an operation formally designated as a war rather than a raid. Whether the next Iranian claim comes with confirmed damage — a mass salvo, or an American death, would mark a real change rather than a rhetorical one. And whether Yemen's collapse completes: pro-government forces withdrew from the Bab el-Mandeb area today, handing the Houthis the second of the two chokepoints that carry Gulf oil to the world.</p>
+<p><b>Sources.</b> <a href="https://www.repubblica.it/en/world/2026/11/15/diretta/war_in_iran_today_s_news_explosions_hit_bahrain_s_khalifa_port-425724582/">La Repubblica live coverage</a> · <a href="https://www.iranintl.com/en/liveblog/202611143682">Iran International live coverage</a> · <a href="https://www.foxnews.com/live-news/iran-war-strikes-donald-trump-strait-hormuz-irgc-november-15">Fox News live coverage</a></p>
+</details>
+
+---
+
+<details open>
+<summary>[21:20] The routers could not broadcast, and nobody will apologise</summary>
+<p><i>A four-hour outage has become a three-day recovery, and the explanation now has a mechanism instead of a culprit.</i></p>
+<p><b>What happened.</b> Transportation Secretary Sean Duffy spent Sunday moving between network and cable interviews. The new technical claim: the routers' ability to broadcast data was turned off, and that failure is under investigation. A second problem was found at a radar facility in Amarillo, Texas, where the same copper-to-fibre work had been done weeks earlier — the same maintenance procedure as the Arkansas site where this began. On CBS he said the root cause was still being investigated; on NBC he said he could not apologise for infrastructure that is decades old, and assigned responsibility to previous administrations and to Congress.</p>
+<p><b>Why it matters.</b> The administration's first account was a novelty claim — an unforeseeable error by a contractor. By this morning a Washington Post investigation had established that the agency had been warned for years about exactly these repair risks. Now the failure has a second site, which turns "a mistake at a remote location" into "a procedure with a known hazard." That is the difference between an accident and a known risk, and known risk has an owner at every level: the agency that was warned, the department that ordered the patch, and the Congress that has funded the system on short-term extensions for two decades.</p>
+<p><b>The pattern.</b> Three days of disruption from a four-hour event, and a public explanation that grew more specific as it grew more defensive. The cost has already outrun the cause by several multiples. Watch what becomes of the money: a fifty-billion-dollar modernisation request is now being argued in the middle of the disruption it is meant to prevent, which is the strongest possible position from which to ask for it, and the weakest possible position from which to audit it.</p>
+<p><b>What history says.</b> Systems do not fail because one part breaks. They fail because a known weak part was kept in service while the replacement was being installed on top of it — the pattern behind the 1977 Tenerife collision, the 2003 North American blackout, and most of what the National Transportation Safety Board investigates. The finding is almost never "nobody knew." It is "everybody knew, and the schedule said it could wait one more quarter."</p>
+<p><b>What we're watching next.</b> Whether airlines actually reach a full schedule by the close of business tonight, as the FAA's head promised. Whether a committee posts a hearing with a date — the expectation has already slipped from this week to early December. And whether any of this produces a document with a name on it: an inspector general referral, a contract action, or a change to the maintenance procedure at the other sites where the same work is pending.</p>
+<p><b>Sources.</b> <a href="https://www.nytimes.com/2026/11/15/us/sean-duffy-ground-stop-trump-faa.html">The New York Times</a> · <a href="https://abc7.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/">ABC7 live coverage</a> · <a href="https://www.nbcnews.com/politics/trump-administration/transportation-secretary-apologize-nationwide-ground-stop-airports-rcna609397">NBC News</a></p>
+</details>
+
+---
+
+<details open>
+<summary>[21:10] Israel's unity talks lasted one hour, which is an answer</summary>
+<p><i>The deal that would have buried an election-interference scandal did not happen. Now the allegation has nowhere to go but an investigation.</i></p>
+<p><b>What happened.</b> Negotiators for Gadi Eisenkot's Yashar party and Benjamin Netanyahu's Likud met in Herzliya on Sunday afternoon and were finished in about an hour, with neither side issuing a statement. The meeting was about a national unity government, which had been floated as the way out of an election result that cost Netanyahu his majority. It came hours after Eisenkot said the Prime Minister "cannot remain at the helm of government for even one more minute," following a Channel 12 investigation alleging that Netanyahu's chief of staff Ido Norden passed police information from a former employee of the prime minister's office, on which about fourteen officers raided three homes of Arab-party activists without a warrant on the eve of the 27 October election. The information was later found to be unfounded and all three were released. Netanyahu's office calls the report false and says Norden "fulfilled his civic duty."</p>
+<p><b>Why it matters.</b> A one-hour meeting that produces no communiqué is not a negotiation, it is a position. That closes the route by which the affair could have been dissolved into a coalition bargain before anyone examined it, and leaves the question where it should be: with the Attorney General, the police, or a commission of inquiry. Eisenkot has demanded an investigation and, if he forms a government, has promised one.</p>
+<p><b>The pattern.</b> The detail that makes this serious is that the system corrected itself. The three men were released when the source was judged unfounded. Correction is usually treated as reassurance. It is the opposite here: it establishes that the machinery moved on false information, that the false information entered through the executive, and that the record of the arrests now outlives the correction. Nobody needs to prove a conspiracy for the damage to be real. A warrantless raid based on a bad source, in an election week, against a party that then won a record nineteen seats, is enough.</p>
+<p><b>What history says.</b> The intelligence services are where caretaker governments do their riskiest work, because the mechanisms are secret and the accountability is retrospective. Watergate's "White House horrors" and the 1990s Israeli political scandals both followed the same shape: a small operation, plausible on its own, that became a government crisis only when someone wrote it down and a broadcaster read it out. What turns a scandal into a resignation is rarely the act. It is the paper trail the act left behind.</p>
+<p><b>What we're watching next.</b> Whether the Attorney General opens a formal examination, and whether the police acknowledge an internal inquiry into the warrantless arrests. Whether Eisenkot can assemble sixty-one seats without Netanyahu, and whether anyone in Likud breaks ranks first. And whether a caretaker prime minister under a live investigation, having lost his majority, does something abroad that changes the domestic arithmetic — which is the fear his own opponents have been naming out loud for a week.</p>
+<p><b>Sources.</b> <a href="https://www.timesofisrael.com/liveblog_entry/pmo-rejects-claim-it-manufactured-election-day-arrests-of-raam-members-eisenkot-pledges-inquiry/">The Times of Israel</a> · <a href="https://www.aljazeera.com/news/2026/11/16/eisenkot-says-netanyahu-cant-remain-israel-pm-amid-alleged-vote-meddling">Al Jazeera</a> · <a href="https://www.repubblica.it/en/world/2026/11/15/diretta/war_in_iran_today_s_news_explosions_hit_bahrain_s_khalifa_port-425724582/">La Repubblica live coverage</a></p>
+</details>
 
 ---
 
