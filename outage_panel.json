@@ -175,14 +175,20 @@
     "provider": "AWS",
     "scope": "me-central-1 UAE",
     "note": "Drone strikes; some AZ data unrecoverable",
-    "still_down_days": 261
+    "still_down_days": 261,
+    "still_down_label": "8 mo 16 d",
+    "still_down_months": 8,
+    "still_down_rem": 16
    },
    {
     "date": "2026-03-02",
     "provider": "AWS",
     "scope": "me-south-1 Bahrain",
     "note": "Drone strike; region declared unavailable",
-    "still_down_days": 260
+    "still_down_days": 260,
+    "still_down_label": "8 mo 15 d",
+    "still_down_months": 8,
+    "still_down_rem": 15
    }
   ],
   "named_actor": 0,

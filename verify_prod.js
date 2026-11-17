@@ -326,6 +326,25 @@ async function main(){
       age<=7?pass('obs.fresh',`latest observation ${newest}, ${age}d`)
             :fail('obs.fresh',`latest observation ${newest} — ${age}d old. Panel must print STALE and the push should stop.`);
 
+      // duration precision: a partial month is not a month. The panel used to print
+      // round(days/30), which turned 261d and 260d both into "9 months" — overstating
+      // the outage AND collapsing two distinct durations into one identical string.
+      // Guard: every still-down label must be present, must floor to whole months plus
+      // remainder days, and two different day counts must not print the same label.
+      const atks=(OP.legibility?.attacks||[]).filter(a=>a.still_down_days!=null);
+      const badLab=atks.filter(a=>!a.still_down_label||!/^\d+ mo \d+ d$/.test(a.still_down_label));
+      const labColl=new Map(); let coll=[];
+      atks.forEach(a=>{ const k=a.still_down_label;
+        if(labColl.has(k) && labColl.get(k)!==a.still_down_days) coll.push(k);
+        labColl.set(k,a.still_down_days); });
+      const overstated=atks.filter(a=>a.still_down_months*30+a.still_down_rem > a.still_down_days);
+      atks.length===0?warn('obs.duration_precision','no open attack durations to check')
+        : (badLab.length===0 && coll.length===0 && overstated.length===0)
+          ? pass('obs.duration_precision',`${atks.length} open duration(s), calendar months + days: ${atks.map(a=>a.still_down_label).join(' / ')}`)
+          : fail('obs.duration_precision', badLab.length?`label missing or malformed on ${badLab.length} attack(s)`
+                : coll.length?`two different day counts print the same label (${[...new Set(coll)].join(', ')})`
+                : `${overstated.length} duration(s) round a partial month up — overstates the outage`);
+
       // breadth: the November window is the question the panel exists to answer, so
       // the count shown must be counted, not recalled.
       const nov26=LED.filter(r=>r.date.slice(0,7)==='2026-11').length;

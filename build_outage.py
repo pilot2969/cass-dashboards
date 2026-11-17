@@ -78,10 +78,32 @@ for y in ("2025", "2026"):
         {"label": k, "n": c.get(k, 0), "pct": round(100 * c.get(k, 0) / len(rr), 1),
          "color": CAUSE_COLOR[k]} for k in ORDER if c.get(k)]}
 
+def cal_months_days(d0, d1):
+    """Whole calendar months between two dates, plus remainder days. FLOOR, never
+    round: a partial month is not a month. 2026-03-01 -> 2026-11-17 is 8mo 16d,
+    not '9 months' (261/30 = 8.7 rounds up and overstates the outage)."""
+    m = (d1.year - d0.year) * 12 + (d1.month - d0.month)
+    anchor = d0
+    for _ in range(m):
+        y, mo = (anchor.year + (anchor.month // 12)), (anchor.month % 12 + 1)
+        day = min(anchor.day, [31,29 if (y%4==0 and (y%100!=0 or y%400==0)) else 28,
+                               31,30,31,30,31,31,30,31,30,31][mo-1])
+        anchor = datetime.date(y, mo, day)
+        if anchor > d1:
+            m -= 1
+            y2, mo2 = (d0.year + ((d0.month - 1 + m) // 12)), ((d0.month - 1 + m) % 12 + 1)
+            anchor = datetime.date(y2, mo2, min(d0.day, [31,29 if (y2%4==0 and (y2%100!=0 or y2%400==0)) else 28,
+                               31,30,31,30,31,31,30,31,30,31][mo2-1]))
+            break
+    return m, (d1 - anchor).days
+
 attacks = [r for r in rows if r["cause"] == "attack"]
 for a in attacks:
     if not a["closed"]:
-        a["still_down_days"] = (TODAY - datetime.date.fromisoformat(a["date"])).days
+        d0 = datetime.date.fromisoformat(a["date"])
+        a["still_down_days"] = (TODAY - d0).days
+        a["still_down_months"], a["still_down_rem"] = cal_months_days(d0, TODAY)
+        a["still_down_label"] = f"{a['still_down_months']} mo {a['still_down_rem']} d"
 
 # November breadth: 1-17 Nov per year. The whole "is it a spike?" question.
 window = [r for r in rows if r["date"][5:7] == "11" and int(r["date"][8:10]) <= 17]
@@ -142,7 +164,7 @@ out = {
         "headline": f"{100 * len(attacks) / len(rows):.1f}%",
         "unit": f"{len(attacks)} of {len(rows)} coded as deliberate attack",
         "attacks": [{"date": a["date"], "provider": a["provider"], "scope": a["scope"],
-                     "note": a["note"], "still_down_days": a.get("still_down_days")}
+                     "note": a["note"], "still_down_days": a.get("still_down_days"), "still_down_label": a.get("still_down_label"), "still_down_months": a.get("still_down_months"), "still_down_rem": a.get("still_down_rem")}
                     for a in attacks],
         "named_actor": 0,
         "floor_banner": (

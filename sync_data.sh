@@ -748,11 +748,11 @@ PY2
 # for the daily_read panel; it must be committed with the generated artifacts or
 # the repo copy silently diverges from what was parsed (morning-wire incident:
 # rewrite landed after push -> deployed panel stale while local file current).
-git add data.json history.json preview.html "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json mget_state.json internal_cards.txt
+git add data.json history.json preview.html "Daily Read.md" Daily\ Read\ 20*.md archive/ archive.html build_archive.py sync_data.sh verify_prod.js archive.log "Internal Telemetry.html" institutions.json mget_state.json internal_cards.txt outage_panel.json outage_ledger.csv build_outage.py
 # v3.11.1: the commit trailer asserted "(data-only)" on every run, including releases
 # that changed the footer version and the dictionary — a label that contradicts the
 # artifact it sits on. Derive it from the tree: shell/dictionary/README changed = release.
-if git diff --cached --name-only | grep -qE '^(Internal Telemetry\.html|index\.html|command\.html|archive\.html|README\.md|CHANGELOG\.md|style\.css|verify_prod\.js|sync_data\.sh|mget_state\.json|institutions\.json)$'; then
+if git diff --cached --name-only | grep -qE '^(Internal Telemetry\.html|index\.html|command\.html|archive\.html|README\.md|CHANGELOG\.md|style\.css|verify_prod\.js|sync_data\.sh|mget_state\.json|institutions\.json|build_outage\.py|outage_panel\.json)$'; then
   _KIND="release"
 else
   _KIND="data-only"
