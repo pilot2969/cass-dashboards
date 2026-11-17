@@ -81,6 +81,24 @@ async function main(){
                :pass('deploy.no-staging-furniture','promoted page carries no staging furniture');
   }
 
+  /* ---------- promoted prose must not deny its own promotion ----------
+     2026-11-17: the v4.36 footer shipped live with a change-log entry that said
+     "the promoted page does not carry the section yet, because this is a staging
+     build awaiting approval" — and every check passed, because docs.changelog only
+     asked whether the footer version appeared in an entry, never whether the entry
+     described the page it was printed on. A shipped page whose own text says it is
+     not shipped is worse than a missing entry: the reader is told the thing they
+     are looking at does not exist. Checked on the promoted page only. */
+  if(MODE==='postdeploy'||MODE==='prepush'){
+    try{
+      const live=fs.readFileSync(path.join(DIR,'Internal Telemetry.html'),'utf8');
+      const deny=/(does not carry the section|not yet promoted|staging build awaiting approval|awaiting approval|staging only)/i;
+      const m=live.match(deny);
+      m?fail('promote.prose',`promoted page contradicts its own status: "${live.slice(Math.max(0,m.index-60),m.index+60).replace(/<[^>]+>/g,'').trim()}"`)
+       :pass('promote.prose','promoted page does not deny its own promotion');
+    }catch(e){fail('promote.prose','cannot read promoted page: '+e.message);}
+  }
+
   /* ---------- generator sources must be committed with their output ---------- */
   if(MODE==='prepush'){
     try{

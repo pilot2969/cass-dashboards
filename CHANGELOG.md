@@ -1,5 +1,12 @@
 # Changelog
 
+### v4.37 — section 2.5 (digital substrate) promoted to the live board
+- The substrate tracker approved at 12:36 today is now on the live board: frequency (8 / 13 / 19 events by year), severity (median 16h25m → 5h45m, flat tail), composition (power and cooling 1 → 5), legibility (2 of 60 deliberate attack, rendered as a floor with the dwell caveat). No dial, no composite, no input to M, G, E or T.
+- `build_outage.py` generates `outage_panel.json` from `outage_ledger.csv`; every figure on the panel is computed, so a hand-typed number cannot drift from the source.
+- `obs.*` guard family (12 checks) enforces the design decision: `obs.independent` FAILs if any leg starts reading the panel, `obs.ledger` recomputes the CSV, `obs.breadth` holds the "one event, many symptoms" banner, and `obs.floor_render` / `obs.dwell_render` FAIL if the floor word or dwell caveat is stripped from the rendered page.
+- New guard `promote.prose`: a promoted page may not print text denying its own promotion. Caught because v4.36 shipped live carrying "the promoted page does not carry the section yet, because this is a staging build awaiting approval" — true when written, false when shipped, and no check looked.
+- Ledger staleness is honest, not hidden: `obs.fresh` accepts the last row (2026-11-12) at 5 days and the panel prints STALE past 7. Two events from the 11-13 → 11-17 cluster (FAA FTI, Chase) are pending admission, filed separately.
+
 ### v4.31 — restructure promoted to the live board
 - The live board is now generated from `preview.html` on every sync (`sync_data.sh`, PROMOTION block): staging bar stripped, title changed, `v4.31-preview` → `v4.31`. The file the gate reads is the file that ships.
 - `index.html` redirects to `Internal Telemetry.html`, which now serves the restructured board instead of the pre-restructure page.
