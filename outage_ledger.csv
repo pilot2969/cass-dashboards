@@ -1,0 +1,61 @@
+date,provider,scope,hours,cause,note,deliberate_attack
+2020-07-17,Cloudflare,20 backbone locations,0.45,config,BGP leak via one-line config change,no
+2020-09-28,Azure,Global,5.0,config,Azure AD safe-deployment defect,no
+2020-11-25,AWS,us-east-1,17.13,capacity,Kinesis thread limit,no
+2020-12-14,Google,Global,0.78,software,Quota automation zeroed auth storage,no
+2021-03-15,Azure,Global,14.62,software,Key-cleanup ignored retain flag,no
+2021-04-01,Azure,Global,1.15,dns,DNS query surge exposed cache defect,no
+2021-09-02,AWS,ap-northeast-1,6.2,software,Direct Connect OS bug,no
+2021-09-26,AWS,us-east-1 one AZ,7.57,capacity,EBS contention,no
+2021-11-16,Google,Global,1.9,software,Corrupted config to Cloud LB,no
+2021-12-07,AWS,us-east-1,11.17,capacity,Scaling surge overwhelmed network,no
+2021-12-15,AWS,us-west-1/2,0.75,network,Traffic engineering congestion,no
+2021-12-16,Azure,Global,1.42,software,AAD OS update + circuit breaker,no
+2022-06-21,Cloudflare,19 data centers,1.25,config,BGP policy reorder,no
+2022-07-19,Google,europe-west2,38.78,power,Cooling failed in UK record heat,no
+2023-01-25,Azure,Global WAN,5.58,config,Untested router command,no
+2023-02-07,Azure,SE/EA Asia,32.18,power,"Chiller trip, failover failed",no
+2023-04-25,Google,europe-west9,27.23,power,"Cooling leak flooded UPS, fire",no
+2023-06-13,AWS,us-east-1,3.8,software,Lambda frontend latent defect,no
+2023-10-30,Cloudflare,Global,0.62,software,Workers KV staging build,no
+2023-11-02,Cloudflare,Hillsboro control plane,40.7,power,Ground fault + generator failures,no
+2024-01-21,Azure,Multiple regions,7.47,software,ARM latent preview bug,no
+2024-05-01,Google,1 customer (UniSuper),168.0,config,Misconfig deleted private cloud,no
+2024-07-18,Azure,Central US,24.33,config,Incomplete storage allow list,no
+2024-07-19,CrowdStrike,~8.5M Windows devices,0.0,thirdparty,"Faulty sensor update, global",no
+2024-07-30,AWS,us-east-1,6.87,software,Kinesis cell management,no
+2024-07-30,Azure,Global,7.97,network,DDoS mitigation + scrubbing congestion,no
+2024-10-24,Google,europe-west3,12.65,power,Power + cooling failure,no
+2024-11-13,Azure,~34 regions,11.67,software,Decommission job deleted TM profiles,no
+2025-03-29,Google,us-east5,6.0,power,"Utility loss, UPS batteries failed",no
+2025-06-12,Google,Global,7.45,config,Blank-field policy to null pointer,no
+2025-06-12,Cloudflare,Global,2.6,thirdparty,Workers KV backend provider failed,no
+2025-07-14,Cloudflare,1.1.1.1,1.03,config,Legacy topology withdrew prefixes,no
+2025-08-21,Cloudflare,AWS us-east-1 links,3.85,capacity,Customer surge saturated links,no
+2025-09-12,Cloudflare,Global control plane,1.25,software,Dashboard bug flooded tenant API,no
+2025-09-26,Azure,Switzerland North,22.08,config,Malformed cert pushed to all zones,no
+2025-10-09,Azure,EU/AF/APAC/ME,8.17,config,Front Door metadata bypass,no
+2025-10-19,AWS,us-east-1,14.53,dns,DynamoDB DNS race condition,no
+2025-10-28,AWS,us-east-1,13.72,unknown,"EC2/ECS impairment, cause unstated",no
+2025-10-29,Azure,Global,8.4,config,Front Door control-plane version skew,no
+2025-11-18,Cloudflare,Global,5.77,config,Bot Mgmt file past size limit,no
+2025-12-05,Cloudflare,Global 28% HTTP,0.42,config,WAF Lua nil-value bug,no
+2026-01-08,Cloudflare,1.1.1.1,0.0,config,CNAME record order change,no
+2026-01-22,Cloudflare,Miami IPv6,0.42,software,Route leak automation bug,no
+2026-02-02,Azure,Multiple regions,6.45,software,Policy remediation disabled anon access,no
+2026-02-07,Azure,West US,20.43,power,Transformer + generator switch fault,no
+2026-02-10,AWS,Global CloudFront,1.58,dns,Faulty DNS fleet returned NXDOMAIN,no
+2026-02-20,Cloudflare,Global BYOIP,5.12,config,"Addressing API withdrew 1,100 prefixes",no
+2026-03-01,AWS,me-central-1 UAE,,attack,Drone strikes; some AZ data unrecoverable,yes
+2026-03-02,AWS,me-south-1 Bahrain,,attack,Drone strike; region declared unavailable,yes
+2026-04-24,Azure,East US,11.87,software,Lock contention in network control plane,no
+2026-05-07,AWS,us-east-1 one AZ,21.5,power,"Thermal event, servers self-shutdown",no
+2026-05-29,Azure,West US 2,22.1,power,"Lightning voltage swings, cooling lockout",no
+2026-07-15,Google,europe-west4,14.92,power,Voltage drop tripped both feeds,no
+2026-07-23,Azure,West US,4.95,software,Auto-repair widened optical repair,no
+2026-08-20,Google,us-west1,2.37,network,"Fiber maintenance, congestion cascade",no
+2026-09-01,Google,us-central1,4.18,network,Router upgrade unplugged all fiber,no
+2026-09-30,Azure,Multiple regions,5.75,config,Paused OS updates resumed at once,no
+2026-10-19,Google,europe-west2,6.13,power,Generator PLC read isolated feed,no
+2026-10-19,Cloudflare,Global Cloudflare One,3.2,unknown,Gateway identity policy evaluation,no
+2026-11-12,Microsoft,Global M365,20.25,software,"Three-factor gateway failure, 7M reports",no

@@ -253,6 +253,39 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 .wtablewrap::-webkit-scrollbar{width:9px}
 .wtablewrap::-webkit-scrollbar-thumb{background:#2c3a4f;border-radius:5px}
 .wtablewrap thead th{position:sticky;top:0;background:#0d151f;z-index:2}
+/* 2026-11-17 Substrate tracker (section 2.5). Independent panel family, no dial.
+   Styles kept in one block so the whole section can be removed in one deletion
+   if it is ever retired. */
+.obs-rail{display:flex;height:20px;border-radius:5px;overflow:hidden;border:1px solid var(--line);margin:8px 0 5px}
+.obs-rail div{height:100%}
+.obs-rlab{display:flex;justify-content:space-between;font:600 10px/1 ui-sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin-top:10px}
+.obs-fb{display:flex;align-items:center;gap:8px;padding:2px 0}
+.obs-fb .yl{flex:0 0 34px;font:700 10.5px/1 ui-sans-serif;color:var(--dim);font-variant-numeric:tabular-nums}
+.obs-fb .track{flex:1 1 auto;height:14px;background:#101a28;border-radius:3px;overflow:hidden}
+.obs-fb .fill{display:block;height:100%;background:#2c4a6b}
+.obs-fb .fill.now{background:var(--warm)}
+.obs-fb .vv{flex:0 0 34px;text-align:right;font:700 11.5px/1 ui-sans-serif;font-variant-numeric:tabular-nums;color:#c8d6e8}
+.obs-fb .vv.now{color:var(--warm)}
+.obs-sv{display:flex;align-items:center;gap:8px;padding:2px 0}
+.obs-sv .yl{flex:0 0 34px;font:700 10.5px/1 ui-sans-serif;color:var(--dim);font-variant-numeric:tabular-nums}
+.obs-sv .track{flex:1 1 auto;position:relative;height:14px;background:#101a28;border-radius:3px}
+.obs-sv .line{position:absolute;top:6px;height:1px;background:#2f445f}
+.obs-sv .med{position:absolute;top:3px;width:2px;height:8px;background:var(--acc)}
+.obs-sv .mx{position:absolute;top:2px;width:2px;height:10px;background:var(--warm)}
+.obs-sv .vv{flex:0 0 96px;text-align:right;font:600 11px/1 ui-sans-serif;font-variant-numeric:tabular-nums;color:#c8d6e8}
+.obs-banner{border:1px solid #3a5170;background:#101d2c;border-radius:8px;padding:11px 13px;font-size:12.5px;line-height:1.6;color:#c3d2e6}
+.obs-banner.warn{border-color:#6b4f23;background:#1e1810;color:#e0c48a}
+.obs-banner b{color:#e6eef8}
+.obs-banner.warn b{color:#f0d6a0}
+.obs-guard{display:flex;gap:9px;align-items:flex-start;padding:7px 0;border-bottom:1px dotted #253147;font-size:12.5px;line-height:1.55;color:#b9c8dc}
+.obs-guard:last-child{border:0}
+.obs-gp{flex:0 0 46px;font:700 9px/16px ui-sans-serif;letter-spacing:.1em;text-align:center;border-radius:3px;border:1px solid currentColor}
+.obs-gp.pass{color:var(--ok)} .obs-gp.warn{color:var(--warm)} .obs-gp.fail{color:var(--hot)}
+.obs-kv{display:flex;justify-content:space-between;gap:10px;padding:5px 0;border-bottom:1px dotted #253147;font-size:13px}
+.obs-kv:last-child{border:0}
+.obs-kv b{font-variant-numeric:tabular-nums}
+.obs-stale{display:none;border:1px solid var(--hot);background:#241210;color:#f0b3ae;border-radius:7px;padding:9px 12px;font:700 11px/1.5 ui-sans-serif;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.obs-stale.on{display:block}
 </style></head>
 <body>
 <div class="mockbar"><b>STAGING PREVIEW</b><span>v5 — revisions applied — rendered from the live data layer, not the live board.</span><a href="./index.html">← current live board</a></div>
@@ -456,6 +489,64 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
 </div>
 <div class="note" id="flowDisc" style="margin-top:10px"></div>
 
+
+<h2 id="sec-2-5">2.5 · The digital substrate — outage base rate</h2>
+<div class="note" style="margin-top:0;max-width:980px">Section 2 measures the country's <b>stocks</b> and its <b>flows</b>. This measures something neither can see: whether the digital substrate the whole apparatus now runs on is <b>deteriorating</b>. It is an <b>independent tracker</b> — four readings, <b>no dial and no composite</b>. It never feeds M, G, E or T, and the panel's reason for refusing is printed below so it can be argued with.</div>
+<div class="obs-stale" id="obsStale">Stale — the newest coded outage is more than 7 days old. The panel is showing an ageing picture, not a current one.</div>
+
+<div class="grid2" style="margin-top:10px">
+  <div class="panel">
+    <h3>Frequency <span class="tag t-stock">INDEPENDENT</span></h3>
+    <div class="big" style="color:var(--warm)" id="obsFreqBig">—</div>
+    <div class="note" style="margin:2px 0 10px" id="obsFreqSub"></div>
+    <div id="obsFreqBars"></div>
+    <div class="obs-kv"><span>2024 → 2026</span><b id="obsMult"></b></div>
+    <div class="obs-kv"><span>Last coded event</span><b id="obsLast"></b></div>
+    <div class="note" id="obsFreqRule"></div>
+  </div>
+
+  <div class="panel">
+    <h3>Severity — median against longest <span class="tag t-stock">INDEPENDENT</span></h3>
+    <div class="big" style="color:var(--ok)" id="obsSevBig">—</div>
+    <div class="note" style="margin:2px 0 10px" id="obsSevSub"></div>
+    <div id="obsSevBars"></div>
+    <div class="obs-kv"><span>Longest closed event, 2026</span><b id="obsSevMax26"></b></div>
+    <div class="obs-kv"><span>Longest, 2025</span><b id="obsSevMax25"></b></div>
+    <div class="note" id="obsSevNote"></div>
+  </div>
+</div>
+
+<div class="grid2" style="margin-top:10px">
+  <div class="panel">
+    <h3>Composition — what is actually breaking <span class="tag t-stock">INDEPENDENT</span></h3>
+    <div class="obs-rlab"><span id="obsCompL25"></span><span id="obsCompL26"></span></div>
+    <div id="obsCompRails"></div>
+    <div class="legend" id="obsCompLegend"></div>
+    <div class="obs-kv" style="margin-top:10px"><span>Power &amp; cooling, 2025</span><b id="obsP25"></b></div>
+    <div class="obs-kv"><span>Power &amp; cooling, 2026</span><b id="obsP26"></b></div>
+    <div class="note" id="obsCompNote"></div>
+  </div>
+
+  <div class="panel">
+    <h3>Legibility — deliberate attack <span class="tag t-stock">FLOOR</span></h3>
+    <div class="big" style="color:var(--hot)" id="obsLegBig">—</div>
+    <div class="note" style="margin:2px 0 10px" id="obsLegSub"></div>
+    <div id="obsLegKv"></div>
+    <div class="obs-banner warn" style="margin-top:11px" id="obsLegBanner"></div>
+    <div class="note">Rendered with the word <b>floor</b> and this caveat in the same panel, by rule. The gate FAILs the build if either is stripped.</div>
+  </div>
+</div>
+
+<div class="subhead">2.5a · The live assertions this panel carries</div>
+<div class="panel">
+  <div class="obs-banner" style="margin-bottom:12px" id="obsBreadth"></div>
+  <div id="obsGuards"></div>
+</div>
+
+<div class="subhead">2.5b · What it deliberately does not do</div>
+<div class="panel">
+  <table><thead><tr><th>Question</th><th>Answer</th><th>Why</th></tr></thead><tbody id="obsDoesNot"></tbody></table>
+</div>
 
 <h2>3 · Absorption velocity</h2>
 <div class="note" style="margin-top:0">Section 2 measures <b>stocks</b>: holdings, hand-set once a month. This measures a <b>flow</b>: how fast dehumanizing frames move through the feed, counted continuously. The two answer different questions. A stock says how captured an institution is today; a flow says whether the audience that would have to accept force is being prepared faster than it was last week. The second is the leading indicator, and it never belonged in the dial table — you cannot defend "dehumanization is 71" from public observables, but you can defend "33 specimens this week, 45 coded right-flank, 25 reciprocal."</div>
@@ -817,6 +908,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <div class="note" style="margin-top:0">Every build that changed a reading, a claim or a panel's meaning, newest first — 23 entries. This is the audit trail rather than board content, so it is folded: open it when you want to know what moved and why.</div>
 <details class="fold" id="changelog"><summary><h3 class="subhead" style="margin:0">8.1 · Full change log — 23 entries, newest first</h3><span class="foldcue"></span></summary>
 <div class="scroll"><table><thead><tr><th style="width:11%">Date</th><th style="width:13%">Version</th><th>What changed</th></tr></thead><tbody>
+<tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-17</td><td style="white-space:nowrap;vertical-align:top"><b>v4.36-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>A new section 2.5 measures the digital substrate, and refuses to score it.</b><br><br>Prompted by a week of outages — a classified network, a brokerage, an airline, a bank — and by the owner's question, <i>at what point do we conclude attack?</i> The honest answer required a base rate, so one was built: <b>60 provider-level outages, 2020 to 17 Nov 2026</b>, one row each, coded by the cause the vendor stated about itself.<br><br><b>What it shows.</b> Frequency is up — 8 events in 2024, 13 in 2025, <b>19 in 2026</b>, the worst year in the record. Severity is down: the median duration has fallen every year since 2023 (16h 25m → 5h 45m) and the tail is flat, 2026's longest within ninety seconds of 2025's. <b>More often, shorter</b> — dependency concentration with better failover, not a degrading substrate. The year-over-year change that is real is <b>physical</b>: power and cooling went from 1 event in 2025 to 5 in 2026.<br><br><b>What it refuses.</b> No dial, no composite, and no input to M, G, E or T. Event-duration has no defensible exchange rate into a 0&ndash;100 load, and feeding G would let a bad infrastructure week score as legitimacy loss — making G unfalsifiable in the flattering direction. The refusals are printed on the panel rather than assumed, because a leg you cannot lose is not an instrument.<br><br><b>The floor, stated as a floor.</b> 2 of 60 events are coded deliberate attack — both the March drone strikes on AWS in the UAE and Bahrain, both still down 260+ days. That 3.3% is rendered with the word <i>floor</i> and the dwell caveat in the same panel: the series is built from vendor post-mortems, and a post-mortem cannot see inside the <b>60-day dwell window</b> of the freezer campaign, which was deliberate and invisible for two months precisely because it was. A quiet intrusion called <i>equipment failure</i> would be coded here as power. The gate FAILs the build if either the word or the caveat is stripped.<br><br><b>Guards.</b> <code>obs.ledger</code> recomputes the ledger and fails a panel that prints a figure the CSV does not support; <code>obs.frequency</code>, <code>obs.composition</code>, <code>obs.legibility</code> and <code>obs.breadth</code> check each reading against the source; <code>obs.fresh</code> fails past 7 days and the panel prints STALE; <code>obs.independent</code> fails if any leg begins reading the panel, so the design decision cannot be merged away silently. <code>m.contradiction</code> prints and never fails. Two honest permanents: this covers the <b>digital</b> substrate only — no series exists for grid, water or cooling — and the promoted page does not carry the section yet, because this is a staging build awaiting approval.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-12</td><td style="white-space:nowrap;vertical-align:top"><b>v4.34-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>The live page stopped calling itself a preview, and the gate now looks at the heading.</b><br><br>The promoted board shipped every day since the restructure with an h1 reading <i>CASS — restructured board, live preview</i>, and a data-layer stamp saying <i>this page reads the same data.json the live board does</i>. Both were staging sentences, and both survived promotion: the scrub stripped the mockbar, the footer suffix and three known notes, and matched nothing in the heading because nothing in the heading was on its list. The gate passed it, exactly as it passed the footer on 11-11 — <code>deploy.no-staging-furniture</code> tested four strings, not the page.<br><br><b>Fixed by marking rather than by adding another phrase to match.</b> The staging half of the heading and the staging half of the stamp are now <code>.staging-tag</code> spans. The scrub removes any span with that class and then asserts its own output: a surviving <code>.staging-tag</code>, an h1 containing <i>preview</i> or <i>staging</i>, or a stamp saying the page is not the live board all abort the run. The gate carries the same three checks, so a scrub that silently stops matching can no longer ship the sentence it was meant to remove.<br><br><b>The lesson is the one already on this page twice.</b> A scrub must fix sentences, and must be able to see every sentence that names the build. The heading was the one piece of furniture nobody had listed.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.33-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>The watch moves up beside the record, where the other dated claims are.</b><br><br>The Threshold Watch was carried as <i>2.1b</i>, a sub-panel inside the model section — which put the open half of our public accounting under a heading about anchors. It is now a top-level panel directly after the record, and the pair reads as one thing: <b>what has closed</b> above, <b>what is still open and when we stop waiting</b> below. The table is scrollable and lists <b>all 76 open conditions</b> soonest-expiry first, rather than the 10 that fitted; every condition carries a date, and the two defect counters (no date / past its own date) stay printed on the strip. Nothing about the register changed — this is placement and completeness. Gate: <code>watch.present</code>, <code>watch.rows</code>, <code>watch.count</code>, <code>watch.dated</code>, <code>watch.next</code> — the panel can no longer be dropped, truncated or dated against the register without failing the push.</td></tr>
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-11</td><td style="white-space:nowrap;vertical-align:top"><b>v4.31</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure promoted to the live board.</b><br><br>The live page is generated from this one on every sync: staging bar stripped, title changed, footer reads the live build. The file the gate reads is now the file that ships, which was not true for the week the two boards drifted apart.<br><br><b>MGET ledger backfilled for 11-10 and 11-11</b> (six entries): the Hegseth referral 211-204, Jordan as minority leader, the Pentagon briefing-room removal threat, the Scharf oversight letter, cabinet members in base housing over FORTRESS, and the USDA SNAP proposed rule.</td></tr>
@@ -847,7 +939,7 @@ TH.forEach(k=>{const cells=D.months.map(m=>(D.byt[m]||{})[k]||0);const all=D.the
 <tr class="z12"><td class="num" style="white-space:nowrap;vertical-align:top;color:var(--mut)">2026-11-05</td><td style="white-space:nowrap;vertical-align:top"><b>v3.99-preview</b></td><td style="vertical-align:top;line-height:1.72"><b>Restructure preview stood up on staging.</b> Standalone data-driven page reading the same data.json the live board does, so every figure except the accumulation flow panel is current. Prod untouched. En route the deploy exposed a stripped-exporter bug: deploy-cass.sh's exporter emits no mget and no generated keys, so the shape guard refused the push rather than ship a data.json with no model block. Carry list extended.</td></tr>
 </tbody></table></div>
 </details>
-<div class="note" style="margin-top:14px"><span class="ftver">v4.34-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
+<div class="note" style="margin-top:14px"><span class="ftver">v4.36-preview</span> — staging preview build. The version in this footer appears in the entry above, which is the only way a reader can tell which build they are looking at.</div>
 <h2 id="0">9 · What we learned from the old model — the belief ledger</h2>
 <div class="note" style="margin-top:0">The full record, kept at the foot of the page rather than the head of it. The plain-language summary sits in the intro; this is the evidence behind it: seven v1 claims, the test that moved each, and what the board says now. Nothing here is smoothed — where a claim died, the death is dated.</div>
 <details class="dr" id="beliefledger">
@@ -1680,7 +1772,71 @@ function renderRecord(rec){
   if($("recNote")) $("recNote").innerHTML+=' <b style="color:var(--warm)">Of the seven wrong, only one was contradicted by the world.</b> Five <b>expired unanswered</b> — the window closed with the named event neither happening nor being ruled out — and one could not be measured at all. That split matters more than the 7–7 line, but it does not change the score: an expired call still counts as a loss to anyone who acted on it, and it stays in the denominator. <b>What it changes is the diagnosis.</b> A contradiction says the model read the world backwards. An expiry says the model named a window it could not deliver inside — a fault in how the card was written, not in what it saw. Those are fixed in different places.';
 }
 fetch("record.json",{cache:"no-store"}).then(r=>r.json()).then(renderRecord).catch(()=>{});
+/* 2026-11-17 Section 2.5 — substrate tracker render. Reads outage_panel.json,
+   which build_outage.py writes from outage_ledger.csv. Nothing on this panel is
+   typed into the page: every figure is counted at build time. */
+function renderOutage(d){
+  if(!d||!d.frequency) return;
+  const esc=s=>String(s==null?"":s).replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+  const F=d.frequency, S=d.severity, C=d.composition, L=d.legibility;
+  $("obsFreqBig").textContent=F.headline;
+  $("obsFreqSub").textContent=F.unit+". Worst year in the seven-year record.";
+  $("obsFreqBars").innerHTML=F.years.map(y=>
+    '<div class="obs-fb"><span class="yl">'+y.year+'</span><span class="track"><span class="fill'+
+    (y.year==="2026"?' now':'')+'" style="width:'+Math.round(100*y.n/F.max_n)+'%"></span></span>'+
+    '<span class="vv'+(y.year==="2026"?' now':'')+'">'+y.n+'</span></div>').join("");
+  $("obsMult").textContent=F.multiple_24_26?"×"+F.multiple_24_26:"—";
+  $("obsLast").textContent=F.last_event;
+  $("obsFreqRule").textContent=F.rule;
+
+  $("obsSevBig").textContent=S.headline;
+  $("obsSevSub").innerHTML="2026 median. It has fallen every year since 2023 while the count has risen. <b>More often, shorter.</b>";
+  $("obsSevBars").innerHTML=S.years.map(y=>{
+    const z=S.zone_max, m=Math.max(2,Math.round(100*y.median/z)), x=Math.round(100*y.max/z);
+    return '<div class="obs-sv"><span class="yl">'+y.year+'</span><span class="track">'+
+      '<span class="line" style="left:0;width:100%"></span><span class="med" style="left:'+m+'%"></span>'+
+      '<span class="mx" style="left:'+x+'%"></span></span><span class="vv">'+esc(fmtH(y.median))+' / '+esc(fmtH(y.max))+(y.open?' ⚠':'')+'</span></div>';
+  }).join("");
+  $("obsSevMax26").textContent=S.longest_2026;
+  $("obsSevMax25").textContent=S.longest_2025;
+  $("obsSevNote").innerHTML="The tail is <b>flat</b>. A worsening substrate widens the tail; this does not. That is the panel&rsquo;s core read, and the reason it carries no dial.";
+
+  $("obsCompL25").textContent="2025 · "+C.years["2025"].n+" events";
+  $("obsCompL26").textContent="2026 · "+C.years["2026"].n+" events";
+  $("obsCompRails").innerHTML=["2025","2026"].map(y=>
+    '<div class="obs-rail" title="'+y+'">'+C.years[y].bands.map(b=>
+      '<div style="width:'+b.pct+'%;background:'+b.color+'" title="'+esc(b.label)+" "+b.n+' of '+C.years[y].n+'"></div>').join("")+'</div>').join("");
+  $("obsCompLegend").innerHTML=C.years["2026"].bands.map(b=>
+    '<span><i style="background:'+b.color+'"></i>'+esc(b.label)+'</span>').join("");
+  $("obsP25").textContent=C.power_2025;
+  $("obsP26").innerHTML=C.power_2026+" &nbsp;("+Math.round(C.power_share_2026)+"%)";
+  $("obsCompNote").innerHTML="The year-over-year change is <b>physical</b>. Three of the five 2026 power events share one shape: a utility event, a generator or UPS that did not carry the load, cooling loss behind it. A capital-maintenance signature, not a cyber signature &mdash; and why this panel cannot be scored into M, which reads fiscal and administrative strain.";
+
+  $("obsLegBig").textContent=L.headline;
+  $("obsLegSub").innerHTML="<b>"+L.unit+".</b> "+L.attacks.map(a=>a.provider+" <code>"+esc(a.scope)+"</code> ("+a.date.slice(0,7)+")").join(" and ")+".";
+  $("obsLegKv").innerHTML="<div class=\"obs-kv\"><span>Kinetic, unmistakable, permanent</span><b>"+L.attacks.length+"</b></div>"+
+    "<div class=\"obs-kv\"><span>Still down</span><b>"+L.attacks.map(a=>a.still_down_days?Math.round(a.still_down_days/30)+" months":"closed").join(", ")+"</b></div>"+
+    "<div class=\"obs-kv\"><span>Actor named for either</span><b>"+L.named_actor+" of "+L.attacks.length+"</b></div>";
+  $("obsLegBanner").innerHTML="<b>This is a floor, not a rate.</b> "+L.floor_banner.replace("This is a floor, not a rate. ","");
+
+  $("obsBreadth").innerHTML="<b>One event, many symptoms.</b> "+d.breadth.banner;
+  $("obsGuards").innerHTML=Object.keys(d.guards).map(k=>{
+    const g=d.guards[k], cls=g.ok===false?"fail":(g.ok===null?"warn":"pass");
+    const lab=g.ok===false?"FAIL":(g.ok===null?"WARN":"PASS");
+    return '<div class="obs-guard"><span class="obs-gp '+cls+'">'+lab+'</span><span><b>'+k+'</b> &mdash; '+esc(g.text)+'</span></div>';
+  }).join("");
+  $("obsDoesNot").innerHTML=d.does_not.map(r=>
+    '<tr><td>'+esc(r.q)+'</td><td><b>'+esc(r.a)+'</b></td><td>'+esc(r.why)+'</td></tr>').join("");
+
+  if(d.guards["obs.fresh"] && !d.guards["obs.fresh"].ok) $("obsStale").classList.add("on");
+}
+function fmtH(h){
+  if(h>=48){ const d=h/24; return (Math.abs(d-Math.round(d))<.02?Math.round(d):d.toFixed(1))+"d"; }
+  const hh=Math.floor(h), mm=Math.round((h-hh)*60);
+  return hh+"h"+(mm?" "+String(mm).padStart(2,"0")+"m":"");
+}
 fetch("m_flow.json",{cache:"no-store"}).then(r=>r.json()).then(m=>{ if(m&&m.series) renderFlowGauges(m,null,null); }).catch(()=>{});fetch("flow_panel.json",{cache:"no-store"}).then(r=>r.json()).then(f=>{ if(f&&f.panels) FLOWPANEL=f; }).catch(()=>{})
+ .then(()=>fetch("outage_panel.json",{cache:"no-store"}).then(r=>r.json()).then(renderOutage).catch(()=>{}))
  .then(()=>fetch("data.json",{cache:"no-store"})).then(r=>r.json()).then(render).catch(e=>{
   const f=$("fail"); f.classList.remove("hidden"); f.textContent="Data layer did not load: "+e.message;
   $("stamp").textContent="Static shell only.";

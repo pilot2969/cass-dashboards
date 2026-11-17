@@ -1,0 +1,269 @@
+{
+ "generated": "2026-11-17",
+ "source": "outage_ledger.csv",
+ "n_events": 60,
+ "window": "2020-07-17 \u2192 2026-11-12",
+ "reading": "Frequency is up, severity is down. 19 provider-level events in 2026 against 8 in 2024 \u2014 roughly 2.4\u00d7 in two years, the worst year in the record \u2014 while the median duration has fallen every year since 2023 and the tail is flat: 2026's longest closed event is 90 seconds off 2025's. More often, shorter. That is dependency concentration with better failover, not a degrading substrate. A worsening substrate widens the tail; this does not. That is why the panel carries no dial.",
+ "frequency": {
+  "headline": 19,
+  "unit": "provider-level outages in 2026 to date",
+  "years": [
+   {
+    "year": "2020",
+    "n": 4
+   },
+   {
+    "year": "2021",
+    "n": 8
+   },
+   {
+    "year": "2022",
+    "n": 2
+   },
+   {
+    "year": "2023",
+    "n": 6
+   },
+   {
+    "year": "2024",
+    "n": 8
+   },
+   {
+    "year": "2025",
+    "n": 13
+   },
+   {
+    "year": "2026",
+    "n": 19
+   }
+  ],
+  "max_n": 19,
+  "multiple_24_26": 2.4,
+  "last_event": "2026-11-12 \u00b7 Microsoft \u00b7 20h 15m",
+  "rule": "Counted once per provider per event. A customer incident downstream of a provider event is not a second event."
+ },
+ "severity": {
+  "headline": "5h 45m",
+  "unit": "2026 median duration",
+  "years": [
+   {
+    "year": "2022",
+    "median": 20.02,
+    "max": 38.78,
+    "open": 0
+   },
+   {
+    "year": "2023",
+    "median": 16.41,
+    "max": 40.7,
+    "open": 0
+   },
+   {
+    "year": "2024",
+    "median": 9.82,
+    "max": 168.0,
+    "open": 0
+   },
+   {
+    "year": "2025",
+    "median": 6.0,
+    "max": 22.08,
+    "open": 0
+   },
+   {
+    "year": "2026",
+    "median": 5.75,
+    "max": 22.1,
+    "open": 2
+   }
+  ],
+  "zone_max": 168.0,
+  "longest_2026": "22h 06m",
+  "longest_2025": "22h 05m",
+  "note": "The tail is flat. A worsening substrate widens the tail; this does not. That is the panel's core read, and the reason it carries no dial."
+ },
+ "composition": {
+  "years": {
+   "2025": {
+    "n": 13,
+    "bands": [
+     {
+      "label": "Power & cooling",
+      "n": 1,
+      "pct": 7.7,
+      "color": "#b4562f"
+     },
+     {
+      "label": "Software & config",
+      "n": 8,
+      "pct": 61.5,
+      "color": "#5b9bd5"
+     },
+     {
+      "label": "Network & DNS",
+      "n": 1,
+      "pct": 7.7,
+      "color": "#6b7fd0"
+     },
+     {
+      "label": "Capacity",
+      "n": 1,
+      "pct": 7.7,
+      "color": "#7a6a58"
+     },
+     {
+      "label": "Third-party",
+      "n": 1,
+      "pct": 7.7,
+      "color": "#4a5c74"
+     },
+     {
+      "label": "Unknown",
+      "n": 1,
+      "pct": 7.7,
+      "color": "#3a4557"
+     }
+    ]
+   },
+   "2026": {
+    "n": 19,
+    "bands": [
+     {
+      "label": "Power & cooling",
+      "n": 5,
+      "pct": 26.3,
+      "color": "#b4562f"
+     },
+     {
+      "label": "Software & config",
+      "n": 8,
+      "pct": 42.1,
+      "color": "#5b9bd5"
+     },
+     {
+      "label": "Network & DNS",
+      "n": 3,
+      "pct": 15.8,
+      "color": "#6b7fd0"
+     },
+     {
+      "label": "Unknown",
+      "n": 1,
+      "pct": 5.3,
+      "color": "#3a4557"
+     },
+     {
+      "label": "Deliberate",
+      "n": 2,
+      "pct": 10.5,
+      "color": "#e2564d"
+     }
+    ]
+   }
+  },
+  "power_2025": 1,
+  "power_2026": 5,
+  "power_share_2026": 26.3,
+  "note": "The year-over-year change is physical. Three of the five 2026 power events share one shape: a utility event, a generator or UPS that did not carry the load, cooling loss behind it. A capital-maintenance signature, not a cyber signature \u2014 and why this panel cannot be scored into M, which reads fiscal and administrative strain."
+ },
+ "legibility": {
+  "headline": "3.3%",
+  "unit": "2 of 60 coded as deliberate attack",
+  "attacks": [
+   {
+    "date": "2026-03-01",
+    "provider": "AWS",
+    "scope": "me-central-1 UAE",
+    "note": "Drone strikes; some AZ data unrecoverable",
+    "still_down_days": 261
+   },
+   {
+    "date": "2026-03-02",
+    "provider": "AWS",
+    "scope": "me-south-1 Bahrain",
+    "note": "Drone strike; region declared unavailable",
+    "still_down_days": 260
+   }
+  ],
+  "named_actor": 0,
+  "floor_banner": "This is a floor, not a rate. The series is coded from vendor post-mortems, and a post-mortem cannot see inside a 60-day dwell window. The two March events are visible only because they were kinetic. A quiet intrusion that sat two months and was later called 'equipment failure' would be coded here as power.",
+  "requirement": "Rendered with the word 'floor' and this caveat in the same panel, by rule. The gate FAILs the build if either is stripped."
+ },
+ "breadth": {
+  "nov_window": [
+   {
+    "year": "2023",
+    "n": 1,
+    "events": [
+     "2023-11-02 Cloudflare"
+    ]
+   },
+   {
+    "year": "2024",
+    "n": 1,
+    "events": [
+     "2024-11-13 Azure"
+    ]
+   },
+   {
+    "year": "2025",
+    "n": 0,
+    "events": []
+   },
+   {
+    "year": "2026",
+    "n": 1,
+    "events": [
+     "2026-11-12 Microsoft"
+    ]
+   }
+  ],
+  "banner": "1\u201317 Nov: 1 provider-level event in 2026, 1 in 2024, 0 in 2025. A cluster of customer-facing reads \u2014 banks, airlines, a classified network \u2014 is not a cluster of causes until independent upstreams are shown. Symptom count is not cause count."
+ },
+ "guards": {
+  "obs.fresh": {
+   "ok": true,
+   "age_days": 5,
+   "latest": "2026-11-12",
+   "text": "latest observation 2026-11-12, 5 days. Panel prints STALE past 7 days."
+  },
+  "obs.breadth": {
+   "ok": true,
+   "text": "window count in the panel equals the coded ledger count; forces the 'one event, many symptoms' line whenever a single provider event carries more than 5M extract reports."
+  },
+  "obs.floor": {
+   "ok": true,
+   "text": "the legibility render contains 'floor' and the dwell-caveat string."
+  },
+  "m.contradiction": {
+   "ok": null,
+   "text": "PRINTS, never fails. Fires when M reads above 75 while the substrate is demonstrably restoring in hours \u2014 a question for the reader, never an arithmetic term."
+  },
+  "substrate.physical": {
+   "ok": null,
+   "text": "this panel covers the digital substrate only. No series exists for grid, water or cooling failure as such. That is where 2026 actually got worse, and the layer where a deliberate action would read as an accident for sixty days."
+  }
+ },
+ "does_not": [
+  {
+   "q": "Feeds a leg?",
+   "a": "No.",
+   "why": "Unit mismatch: event-duration has no defensible exchange rate into a 0-100 load. Inventing one and reporting it to a decimal is the laundering the register exists to catch."
+  },
+  {
+   "q": "Feeds G?",
+   "a": "No.",
+   "why": "G is the mean of the eight institutional dials. Adding internet reliability would let a bad infrastructure week score as legitimacy loss, which makes G unfalsifiable in the flattering direction."
+  },
+  {
+   "q": "Has a dial?",
+   "a": "No.",
+   "why": "Four readings, no composite. A composite needs weights nobody can defend and would hide the one finding that matters: frequency up, severity flat."
+  },
+  {
+   "q": "Answers 'is this an attack'?",
+   "a": "No.",
+   "why": "It answers 'is the class deteriorating'. Attribution stays with the four-discriminator rule in the observation."
+  }
+ ]
+}

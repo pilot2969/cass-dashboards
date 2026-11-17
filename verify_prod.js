@@ -251,6 +251,84 @@ async function main(){
     }
   }
 
+  /* ---------- substrate tracker: canonical checks (2026-11-17) ----------
+     Section 2.5 renders outage_panel.json, built by build_outage.py from
+     outage_ledger.csv. These checks recompute the ledger independently, so a
+     panel cannot print a figure the CSV does not support — the same defect class
+     as a hand-typed flow table (v4.16). They also enforce the two refusals that
+     make this an independent tracker rather than a leg: no dial, no leg input. */
+  {
+    let OP=null, LED=[];
+    try{ OP=JSON.parse(fs.readFileSync(path.join(DIR,'outage_panel.json'),'utf8')); }catch(e){}
+    const csvPath=path.join(DIR,'outage_ledger.csv');
+    if(fs.existsSync(csvPath)){
+      const lines=fs.readFileSync(csvPath,'utf8').trim().split(/\r?\n/);
+      const head=lines[0].split(',');
+      LED=lines.slice(1).map(l=>{const c=l.split(',');const o={};head.forEach((h,i)=>o[h]=(c[i]||'').trim());return o;})
+                        .filter(o=>o.date);
+    }
+    if(!OP) fail('obs.panel','outage_panel.json missing — section 2.5 has no data layer');
+    else if(!LED.length) fail('obs.ledger','outage_ledger.csv missing or empty');
+    else{
+      // count parity: every coded row, once
+      OP.n_events===LED.length
+        ? pass('obs.ledger',`panel counts ${OP.n_events} events = ledger rows`)
+        : fail('obs.ledger',`panel counts ${OP.n_events}, ledger has ${LED.length}`);
+
+      // per-year frequency parity
+      const byYear={}; for(const r of LED){const y=r.date.slice(0,4);byYear[y]=(byYear[y]||0)+1;}
+      const drift=(OP.frequency.years||[]).filter(y=>byYear[y.year]!==y.n).map(y=>`${y.year}:${y.n}vs${byYear[y.year]}`);
+      drift.length?fail('obs.frequency',`per-year counts disagree with the ledger — ${drift.join(', ')}`)
+                  :pass('obs.frequency',`${Object.keys(byYear).length} year counts match the ledger`);
+
+      // composition must sum to each year's total, or a band silently vanished
+      for(const y of ['2025','2026']){
+        const c=OP.composition?.years?.[y]; if(!c) continue;
+        const s=c.bands.reduce((a,b)=>a+b.n,0);
+        s===c.n?pass('obs.composition:'+y,`${c.bands.length} bands sum to ${s}`)
+              :fail('obs.composition:'+y,`bands sum to ${s}, year has ${c.n} events`);
+      }
+
+      // legibility: the floor count must equal the ledger's coded attacks, and the
+      // caveat must be present in the payload — not only in the page.
+      const attacks=LED.filter(r=>r.deliberate_attack==='yes').length;
+      const saidL=OP.legibility?.attacks?.length;
+      saidL===attacks?pass('obs.legibility',`${attacks} deliberate attack(s), panel agrees`)
+                     :fail('obs.legibility',`panel lists ${saidL}, ledger codes ${attacks}`);
+      /floor/i.test((OP.legibility?.headline||'')+' '+(OP.legibility?.floor_banner||''))
+        ?pass('obs.floor_caveat','legibility payload carries the floor framing')
+        :fail('obs.floor_caveat','legibility payload lost the word "floor" — 3.3% would read as a rate');
+      /dwell/i.test(OP.legibility?.floor_banner||'')
+        ?pass('obs.dwell','dwell-window caveat present in the payload')
+        :fail('obs.dwell','dwell-window caveat stripped from the payload');
+
+      // freshness: the panel is only an instrument while its newest coded event is recent
+      const newest=LED.map(r=>r.date).sort().pop();
+      const age=daysBetween(newest,today);
+      age<=7?pass('obs.fresh',`latest observation ${newest}, ${age}d`)
+            :fail('obs.fresh',`latest observation ${newest} — ${age}d old. Panel must print STALE and the push should stop.`);
+
+      // breadth: the November window is the question the panel exists to answer, so
+      // the count shown must be counted, not recalled.
+      const nov26=LED.filter(r=>r.date.slice(0,7)==='2026-11').length;
+      const saidNov=(OP.breadth?.nov_window||[]).find(w=>w.year==='2026')?.n;
+      saidNov===nov26?pass('obs.breadth',`Nov 2026 window: ${nov26} event(s), panel agrees`)
+                     :fail('obs.breadth',`panel says ${saidNov}, ledger has ${nov26} in November 2026`);
+
+      // the refusals, enforced rather than promised: the independent tracker must not
+      // appear inside the leg model. If a future build wires it in, this FAILs.
+      // Note: leg E's own definition says "the substrate everybody now depends on",
+      // which is enclosure theory and has nothing to do with this panel. The test is
+      // for WIRING — an outage reference inside the leg model — not for the word.
+      const legsTxt=JSON.stringify(data.mget?.legs||[]);
+      !/outage|op\.critical|outage_panel/i.test(legsTxt)
+        ?pass('obs.independent','no leg reads the substrate panel — independent tracker holds')
+        :fail('obs.independent','a leg now references the outage panel; that is a design change and needs a decision, not a silent merge');
+      const legCount=(data.mget?.legs||[]).length;
+      legCount===4?pass('obs.leg_count','model still carries 4 legs'):warn('obs.leg_count',`model carries ${legCount} legs`);
+    }
+  }
+
   /* ---------- render-verified page checks ---------- */
   const pages=fs.readdirSync(DIR).filter(f=>f.endsWith('.html'));
   for(const f of pages){
@@ -295,6 +373,48 @@ async function main(){
                       :pass('ledger.deduped',`${keys.length} entries, all unique`);
         const nd=(dd.mget_ledger||[]).map(e=>e.date).filter(Boolean).sort().pop();
         (nd&&daysBetween(nd,today)>2)?fail('ledger.fresh:'+f,`newest entry ${nd} — ${daysBetween(nd,today)}d behind`):pass('ledger.fresh',`newest entry ${nd}`);
+      }
+
+      // 2.5 substrate tracker rendered (2026-11-17): the panel must actually appear,
+      // carry the floor framing where a reader sees it, offer no dial, and print
+      // STALE when the data layer is old rather than quietly showing an old picture.
+      {
+        const sect=gid('sec-2-5');
+        const carries=/id="sec-2-5"/.test(raw);
+        // The promoted page is REGENERATED from preview.html at promote time, so a page
+        // that does not carry the section yet is a staging-only state, not a defect.
+        // What is a defect: carrying the section and failing to render it.
+        if(!carries) warn('obs.render:'+f,'this file does not carry section 2.5 yet (staging-only build)');
+        else if(!sect) fail('obs.render:'+f,'section 2.5 is in the markup but did not render');
+        else{
+          const st=txt(sect.parentNode.textContent||'');
+          const scope=txt([...sect.parentNode.querySelectorAll('.panel')].map(n=>n.textContent).join(' '));
+          /floor,\s*not a rate|floor not a rate/i.test(scope)||/floor/i.test(scope)
+            ?pass('obs.floor_render:'+f,'legibility panel renders the floor framing')
+            :fail('obs.floor_render:'+f,'the word "floor" is gone from the rendered panel — 3.3% now reads as a rate');
+          /dwell/i.test(scope)?pass('obs.dwell_render:'+f,'dwell caveat renders in the panel body')
+                              :fail('obs.dwell_render:'+f,'dwell caveat no longer rendered');
+          /one event, many symptoms/i.test(scope)?pass('obs.breadth_render:'+f,'breadth banner renders')
+                                                :fail('obs.breadth_render:'+f,'"one event, many symptoms" banner missing');
+          // Danger is a dial ELEMENT — a 0-100 gauge wired to the panel — not the word
+          // "dial" in the refusal copy, which is the panel's whole claim.
+          const dialEl=[...sect.parentNode.querySelectorAll('.gauge,[id^="obsDial"],[id^="obsScore"]')].length;
+          dialEl?fail('obs.nodial:'+f,`${dialEl} dial element(s) inside section 2.5 — a composite has been wired in`)
+                :pass('obs.nodial:'+f,'no dial element in the substrate section, only the printed refusal');
+          const stale=gid('obsStale');
+          if(stale){
+            let OPn=null; try{ OPn=JSON.parse(fs.readFileSync(path.join(DIR,'outage_panel.json'),'utf8')); }catch(e){}
+            const old=OPn&&OPn.guards&&OPn.guards['obs.fresh']&&OPn.guards['obs.fresh'].ok===false;
+            const shown=/\bon\b/.test(stale.className);
+            (old===shown)?pass('obs.stale_render:'+f,old?'stale state printed as required':'fresh, no stale banner')
+                         :fail('obs.stale_render:'+f,'staleness render disagrees with the data layer');
+          }
+          // the readings must be rendered figures, not em-dashes left behind by a
+          // failed fetch — a panel of "—" is the silent-empty failure this gate exists for.
+          const bigs=['obsFreqBig','obsSevBig','obsLegBig'].map(i=>txt(gid(i)?.textContent));
+          bigs.every(v=>v&&v!=='—')?pass('obs.values:'+f,`headline readings ${bigs.join(' / ')}`)
+                                   :fail('obs.values:'+f,`a headline reading failed to render: ${bigs.join(' / ')}`);
+        }
       }
 
       // daily read: one card per card, edition stamp, freshness
