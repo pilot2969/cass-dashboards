@@ -19,6 +19,20 @@ a provider event is a second symptom, never a second event.
 """
 import csv, json, statistics, collections, datetime, os
 
+ATTACK_PLACE = {
+    "me-central-1 UAE": "AWS data centre region, United Arab Emirates",
+    "me-south-1 Bahrain": "AWS data centre region, Bahrain",
+}
+
+ATTACK_WHAT = {
+    "me-central-1 UAE": "Drone strikes damaged the facility; some data in one availability zone was unrecoverable.",
+    "me-south-1 Bahrain": "Drone strike damaged the facility; the operator declared the region unavailable.",
+}
+
+def _plain_date(d):
+    parts = d.split("-")
+    return f"{int(parts[2])} {['January','February','March','April','May','June','July','August','September','October','November','December'][int(parts[1])-1]} {parts[0]}"
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 LEDGER = os.path.join(HERE, "outage_ledger.csv")
 TODAY = datetime.date.today()
@@ -164,7 +178,11 @@ out = {
         "headline": f"{100 * len(attacks) / len(rows):.1f}%",
         "unit": f"{len(attacks)} of {len(rows)} coded as deliberate attack",
         "attacks": [{"date": a["date"], "provider": a["provider"], "scope": a["scope"],
-                     "note": a["note"], "still_down_days": a.get("still_down_days"), "still_down_label": a.get("still_down_label"), "still_down_months": a.get("still_down_months"), "still_down_rem": a.get("still_down_rem")}
+                     "note": a["note"], "still_down_days": a.get("still_down_days"), "still_down_label": a.get("still_down_label"), "still_down_months": a.get("still_down_months"), "still_down_rem": a.get("still_down_rem"),
+                     "when": _plain_date(a["date"]),
+                     "where": ATTACK_PLACE.get(a["scope"], a["scope"]),
+                     "what": ATTACK_WHAT.get(a["scope"], a["note"]),
+                     "status": (f"still down, {a.get('still_down_label')}" if a.get("still_down_label") else "restored")}
                     for a in attacks],
         "named_actor": 0,
         "floor_banner": (
@@ -173,7 +191,13 @@ out = {
             "only because they were kinetic. A quiet intrusion that sat two months and was later "
             "called 'equipment failure' would be coded here as power."
         ),
-        "requirement": "Rendered with the word 'floor' and this caveat in the same panel, by rule. The gate FAILs the build if either is stripped.",
+        "counted": ("Both are counted because both clear the same bar: physical damage to the facility, "
+                    "confirmed by the operator, and downtime that has not ended. Neither is an estimate, "
+                    "an inferred intrusion or a vendor's unexplained failure — the downtime is real and "
+                    "still running."),
+        "rest_note": ("The other 58 events are vendor-stated equipment, power, cooling, config or network "
+                      "failures, each with a stated cause and a restoration time. They are real outages too. "
+                      "What separates them is that no operator has attributed them to an attacker."),
     },
     "breadth": {
         "nov_window": nov_window,

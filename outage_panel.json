@@ -178,7 +178,11 @@
     "still_down_days": 261,
     "still_down_label": "8 mo 16 d",
     "still_down_months": 8,
-    "still_down_rem": 16
+    "still_down_rem": 16,
+    "when": "1 March 2026",
+    "where": "AWS data centre region, United Arab Emirates",
+    "what": "Drone strikes damaged the facility; some data in one availability zone was unrecoverable.",
+    "status": "still down, 8 mo 16 d"
    },
    {
     "date": "2026-03-02",
@@ -188,12 +192,17 @@
     "still_down_days": 260,
     "still_down_label": "8 mo 15 d",
     "still_down_months": 8,
-    "still_down_rem": 15
+    "still_down_rem": 15,
+    "when": "2 March 2026",
+    "where": "AWS data centre region, Bahrain",
+    "what": "Drone strike damaged the facility; the operator declared the region unavailable.",
+    "status": "still down, 8 mo 15 d"
    }
   ],
   "named_actor": 0,
   "floor_banner": "This is a floor, not a rate. The series is coded from vendor post-mortems, and a post-mortem cannot see inside a 60-day dwell window. The two March events are visible only because they were kinetic. A quiet intrusion that sat two months and was later called 'equipment failure' would be coded here as power.",
-  "requirement": "Rendered with the word 'floor' and this caveat in the same panel, by rule. The gate FAILs the build if either is stripped."
+  "counted": "Both are counted because both clear the same bar: physical damage to the facility, confirmed by the operator, and downtime that has not ended. Neither is an estimate, an inferred intrusion or a vendor's unexplained failure \u2014 the downtime is real and still running.",
+  "rest_note": "The other 58 events are vendor-stated equipment, power, cooling, config or network failures, each with a stated cause and a restoration time. They are real outages too. What separates them is that no operator has attributed them to an attacker."
  },
  "breadth": {
   "nov_window": [

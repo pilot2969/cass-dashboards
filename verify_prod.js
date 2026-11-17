@@ -433,6 +433,27 @@ async function main(){
                               :fail('obs.dwell_render:'+f,'dwell caveat no longer rendered');
           /one event, many symptoms/i.test(scope)?pass('obs.breadth_render:'+f,'breadth banner renders')
                                                 :fail('obs.breadth_render:'+f,'"one event, many symptoms" banner missing');
+          // The panel must NAME what it counted. A percentage a reader cannot resolve to
+          // actual events is a number, not a finding. Both events: place, month, status.
+          {
+            const pay=JSON.parse(fs.readFileSync(path.join(DIR,'outage_panel.json'),'utf8'));
+            const A=pay.legibility?.attacks||[];
+            const named=A.filter(a=>a.when&&a.where&&a.what&&a.status);
+            const shown=A.every(a=>scope.includes(a.when)&&scope.includes(a.where));
+            const status=A.length>0&&A.every(a=>a.still_down_label ? scope.includes(a.still_down_label) : /restored/i.test(scope));
+            named.length===2&&shown&&status
+              ? pass('obs.events_render:'+f,'both counted events named in the panel: place, date, what happened, still down')
+              : fail('obs.events_render:'+f,`counted events not resolvable in the panel prose — named ${named.length}/2, shown ${shown}, status ${status}`);
+          }
+          // Build-side provenance must never reach a public board. "By rule", "the gate
+          // FAILs the build" and "Rendered with the word" describe our assembly line to
+          // our own reviewers; a reader has no gate and should never be shown one.
+          {
+            const legPanel=(gid('obsLegBanner')?.closest('.panel')?.textContent)||'';
+            const leak=/(the gate FAILs|by rule|Rendered with the word|this caveat in the same panel)/i.exec(legPanel);
+            leak? fail('obs.no_buildprose:'+f,`internal build prose reached public copy: "${leak[0]}"`)
+                : pass('obs.no_buildprose:'+f,'no build-side prose in the rendered panel');
+          }
           // Danger is a dial ELEMENT — a 0-100 gauge wired to the panel — not the word
           // "dial" in the refusal copy, which is the panel's whole claim.
           const dialEl=[...sect.parentNode.querySelectorAll('.gauge,[id^="obsDial"],[id^="obsScore"]')].length;

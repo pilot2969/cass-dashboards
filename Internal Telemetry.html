@@ -530,9 +530,10 @@ tr.drillable td:first-child::before{content:"›";color:var(--acc);font-weight:7
     <h3>Legibility — deliberate attack <span class="tag t-stock">FLOOR</span></h3>
     <div class="big" style="color:var(--hot)" id="obsLegBig">—</div>
     <div class="note" style="margin:2px 0 10px" id="obsLegSub"></div>
+    <div id="obsLegEvents" style="margin:4px 0 12px"></div>
     <div id="obsLegKv"></div>
     <div class="obs-banner warn" style="margin-top:11px" id="obsLegBanner"></div>
-    <div class="note">Rendered with the word <b>floor</b> and this caveat in the same panel, by rule. The gate FAILs the build if either is stripped.</div>
+    <div class="note" id="obsLegCounted"></div>
   </div>
 </div>
 
@@ -1813,11 +1814,18 @@ function renderOutage(d){
   $("obsCompNote").innerHTML="The year-over-year change is <b>physical</b>. Three of the five 2026 power events share one shape: a utility event, a generator or UPS that did not carry the load, cooling loss behind it. A capital-maintenance signature, not a cyber signature &mdash; and why this panel cannot be scored into M, which reads fiscal and administrative strain.";
 
   $("obsLegBig").textContent=L.headline;
-  $("obsLegSub").innerHTML="<b>"+L.unit+".</b> "+L.attacks.map(a=>a.provider+" <code>"+esc(a.scope)+"</code> ("+a.date.slice(0,7)+")").join(" and ")+".";
+  $("obsLegSub").innerHTML="<b>"+L.unit+"</b> &mdash; the two below, out of a record of 60 provider-level outages since 2020. Every one of the 60 is a genuine outage with a real restoration. These two are the only ones an operator has blamed on an attacker.";
+  $("obsLegEvents").innerHTML=L.attacks.map(a=>
+    '<div style="border-left:2px solid var(--hot);padding:2px 0 2px 11px;margin-bottom:10px">'+
+      '<div style="font-weight:700">'+esc(a.when)+' &middot; '+esc(a.where)+'</div>'+
+      '<div style="color:var(--mut);margin-top:3px">'+esc(a.what)+'</div>'+
+      '<div style="margin-top:3px">'+esc(a.status)+' &middot; no actor named</div>'+
+    '</div>').join("");
   $("obsLegKv").innerHTML="<div class=\"obs-kv\"><span>Kinetic, unmistakable, permanent</span><b>"+L.attacks.length+"</b></div>"+
     "<div class=\"obs-kv\"><span>Still down</span><b>"+L.attacks.map(a=>a.still_down_label?a.still_down_label:"closed").join(", ")+"</b></div>"+
     "<div class=\"obs-kv\"><span>Actor named for either</span><b>"+L.named_actor+" of "+L.attacks.length+"</b></div>";
   $("obsLegBanner").innerHTML="<b>This is a floor, not a rate.</b> "+L.floor_banner.replace("This is a floor, not a rate. ","");
+  $("obsLegCounted").innerHTML="<b>Why these two.</b> "+esc(L.counted)+" "+esc(L.rest_note);
 
   $("obsBreadth").innerHTML="<b>One event, many symptoms.</b> "+d.breadth.banner;
   $("obsGuards").innerHTML=Object.keys(d.guards).map(k=>{
