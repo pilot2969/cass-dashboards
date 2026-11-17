@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-16",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-16T10:37 ET"
+  "generated_stamped": "2026-11-16T22:45 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -2004,7 +2004,7 @@
    "date_made": "2026-09-25",
    "time_et": "22:47",
    "statement": "SEQUENCE THESIS (owner synthesis, 2026-09-25 22:35\u201322:47): The regime is executing a three-stage sequence \u2014 (1) settle the Eurasian theater (Rubio\u2013Lavrov channel, Xi-brokered US-Iran MOU lane, Netanyahu containment) to free the force; (2) pivot freed force to the Western Hemisphere (SOUTHCOM buildout targeting Venezuela/Cuba; Army Reserve availability survey 2026-09-25 is the hinge telemetry); (3) apply the theater's emergency powers, mobilization precedents, and acclimation effects to the domestic repression track (groundwork card, 72). KEY REFRAME vs. prior threat model: escalation-trap card (86) priced a Eurasian hot-war path; the observed path SKIPS the world war \u2014 external war avoided not by restraint but because the same consolidation is achievable cheaper via settlement + regional enclosure. The Hemisphere theater is selected BECAUSE it is unclosable (no nuclear adversary, no coalition, no base-splitting risk) and supplies the repression track with a permanent emergency venue. 'Pen in the hemisphere' = enclosure at continental scale: migration corridors, remittance flows, refugee escape valves all subject to war treatment. Monroe Doctrine inverted: not exclusion of outside powers but containment of the hemisphere's own population. SEQUENCING TEST: settlement progress by ~Nov 3 (offramp ~55-65% initiated), Reserve tasking orders in 60-120d window (Dec 24-Jan 23), domestic enforcement escalation on same arc \u2014 one operational sequence, not parallel threads.",
-   "confidence": 70,
+   "confidence": 72,
    "status": "pending",
    "card_class": "THESIS",
    "resolution": "unresolved",
@@ -2047,7 +2047,8 @@
    "window_opens": "2026-11-03",
    "window_basis": "MULTI-LEG window, hand-corrected: the prior parse read the Nov 3 gate as the close. Real close is 2027-01-23.",
    "expiry_date": "2027-01-23",
-   "expiry_basis": "Expires at window close. Grace not pre-registered, 0 days. Gap 2026-11-04 to 2026-12-23 is a dead leg inside the window \u2014 scored as in-window."
+   "expiry_basis": "Expires at window close. Grace not pre-registered, 0 days. Gap 2026-11-04 to 2026-12-23 is a dead leg inside the window \u2014 scored as in-window.",
+   "tracking_state": "\n\n2026-11-16 22:40 ET \u2014 70 -> 72. UP 70 -> 72. Both Beijing and the White House now name nuclear arms reduction as the agenda for Thursday's Shenzhen trilateral (China called it 'groundbreaking significance'; the White House signalled a focus on reducing nuclear arsenals while lowering expectations). That is the first named deliverable attached to a meeting that had no agenda on Sunday. A stated theme is not a signed text \u2014 small move only, and the falsifiers are unchanged."
   },
   {
    "basename": "fertilizer-supply-crisis",
@@ -5779,8 +5780,8 @@
    "leg_basis": "procedural disclosure",
    "deadline_type": "conventional",
    "basename": "2026-12-03-huang-senate-public-testimony",
-   "confidence": 62,
-   "tracking_state": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 55 \u2192 62, card NOT flipped. Huang has agreed to testify before Congress (multiple outlets this morning); the Senate Banking hearing is set 3 December. Agreement is the harder half of the condition, but no source yet names the Banking committee specifically as the venue of his agreement, so the card's own wording is not yet satisfied. Reuters overnight: a second internal relationship (second Nvidia employee). Musk: 'critical deals will be lost' without Huang. The policy question the hearing was to answer (capacity rented abroad rather than chips shipped) is being answered in the press by Treasury and Commerce blaming each other \u2014 a memo, not a rule."
+   "confidence": 56,
+   "tracking_state": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 55 \u2192 62, card NOT flipped. Huang has agreed to testify before Congress (multiple outlets this morning); the Senate Banking hearing is set 3 December. Agreement is the harder half of the condition, but no source yet names the Banking committee specifically as the venue of his agreement, so the card's own wording is not yet satisfied. Reuters overnight: a second internal relationship (second Nvidia employee). Musk: 'critical deals will be lost' without Huang. The policy question the hearing was to answer (capacity rented abroad rather than chips shipped) is being answered in the press by Treasury and Commerce blaming each other \u2014 a memo, not a rule.\n\n2026-11-16 22:40 ET \u2014 62 -> 56. DOWN 62 -> 56. Nvidia's general counsel Tim Teter agreed to closed-door transcribed testimony before House Foreign Affairs, China and Intelligence on 2 December \u2014 the committees have accepted counsel where they wanted the principal. Huang has since left the CEO role and the board has ruled out his return, removing the institutional reason for him to appear in person. The card requires a PUBLIC Senate Banking appearance; the substitute channel is evidence against it, not for it. Senate Banking notice still the item to watch."
   },
   {
    "title": "Mexico: a tariff increase is actually proclaimed, not just posted",
@@ -6707,7 +6708,7 @@
    "threshold_definition": "Realised ONLY by state process: (a) the Attorney General or State Attorney's Office announces a criminal investigation into the 26 Oct warrantless arrests or the PMO's role in supplying the source; (b) a police internal affairs / misconduct probe into the entry is opened and acknowledged by the Israel Police; or (c) the Knesset or government resolves to establish a commission of inquiry or state commission of investigation into the affair. NOT realised by: further press reporting, Knesset committee hearings without a resolution, opposition bills, a civil suit alone (logged separately as a parallel channel), Shin Bet 'clarification' statements, or Likud/Eisenkot rhetoric.",
    "max_lifespan": "2026-12-31",
    "review_cadence": "daily through 2026-12-05, then weekly",
-   "tracking_state": "REGISTERED 2026-11-15 19:45 ET at 32, before any state response. Registered principal-free per the staged-branch rule: Node 1 asks only whether formal process opens. Attribution pre-registered inert: AG's own initiative 45 / police internal affairs under commissioner pressure 25 / political route via new coalition 20 / Shin Bet accountability track 10. Note the shape: the branch that would matter most (political route) is the least likely, and a single qualified card would have hidden that.\n\n2026-11-15 21:35 ET \u2014 32 -> 34. Yashar-Likud unity talks ended after about an hour with no statement from either side. The escape route in which the affair is absorbed into a coalition bargain is narrower; the remaining paths (AG, police internal affairs, commission of inquiry) carry more weight.",
+   "tracking_state": "REGISTERED 2026-11-15 19:45 ET at 32, before any state response. Registered principal-free per the staged-branch rule: Node 1 asks only whether formal process opens. Attribution pre-registered inert: AG's own initiative 45 / police internal affairs under commissioner pressure 25 / political route via new coalition 20 / Shin Bet accountability track 10. Note the shape: the branch that would matter most (political route) is the least likely, and a single qualified card would have hidden that.\n\n2026-11-15 21:35 ET \u2014 32 -> 34. Yashar-Likud unity talks ended after about an hour with no statement from either side. The escape route in which the affair is absorbed into a coalition bargain is narrower; the remaining paths (AG, police internal affairs, commission of inquiry) carry more weight.\n\n2026-11-16 22:40 ET \u2014 34 -> 37. A senior Eisenkot-bloc official was quoted saying there is no chance of a unity government after the PMO's 'attempted coup'; Haaretz reads the talks as signalling to Eisenkot's own right-wing partners rather than a bargain. The escape route in which the affair is absorbed before anyone investigates it is narrower again. Threshold unchanged: AG/State Attorney announcement, police internal-affairs probe, or a resolution establishing a commission of inquiry.",
    "base_rate_source": "Corpus: qatargate indictment track, Cases 1000-4000, Harpaz, submarine affair; timing lag weighted against the 6-week window",
    "base_rate_frozen_date": "2026-11-15",
    "base_rate_tier": "C",
@@ -6727,10 +6728,26 @@
    "correlation_flag": "Same event cluster as 2026-11-14-israel-solo-strike-iran-unmonitored via caretaker context; different thresholds, no double-count.",
    "successor_card": null,
    "basename": "2026-11-15-norden-raam-affair-formal-process",
-   "confidence": 34
+   "confidence": 37
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-16",
+   "time_et": "22:40",
+   "track": "the chokepoint's instrument; the appropriation's politics; the AI capital stack; the settlement channel",
+   "mget_legs_tested": [
+    "M: can the country still move itself \u2014 aviation recovered on the numbers, so the material question shifts from capacity to who pays for capacity",
+    "T: the count \u2014 Alaska's rule ratified by the same electorate that produced the Democratic win; the demand loses its cleanest test",
+    "G: legitimation flow \u2014 a survivor's complaint acquiring litigation and a committee minority report the same day; the Knesset bloc moving from formation to repeal",
+    "E: ownership of the substrate \u2014 a company's compute suppliers underwriting its share float at the offer price"
+   ],
+   "verdict": "strains",
+   "reasoning": "Three moves tonight, none confirming. (1) Iran changed instrument from drones to mines and claimed six sinkings in two days; one is corroborated by UKMTO, five are unnamed, and Brent settled below $95 on the same afternoon. The price is the only participant with capital at risk and it refused the claim, so Node 2C holds at 40 rather than scoring up on claim volume. (2) Aviation closed operationally (347 cancellations Monday against 2,300 Sunday) and opened politically (Hochul demanding Duffy's removal, the ask moving $30bn to $50bn with no lifecycle estimate). A failure that resolves cleanly removes its own evidence and leaves the appropriation intact \u2014 that is strain on M, not repair. (3) The largest untracked event of the day was in markets: Nvidia's board refusing Huang's return and Anthropic pricing a $64.4bn IPO at up to $1.4tn on a $104bn nine-month loss, with a $26bn private placement from its own compute suppliers at the offer price. No collection holds this, which is itself the finding.",
+   "forward_signal": "1) Whether any of the five unnamed tanker sinkings is independently confirmed, and whether Brent moves above $100 on confirmation; 2) whether the Iran\u2013Oman navigation plan is signed and who enforces it; 3) whether Nvidia's Tuesday earnings or Anthropic's Thursday debut break the AI trade or merely reprice it; 4) whether the Knesset speaker changes hands and the overhaul repeal reaches the floor Wednesday; 5) whether Huang appears publicly at all in December; 6) whether the Shenzhen trilateral produces a text with verification language on nuclear reductions.",
+   "confidence_moves": "norden-raam-formal-process 34 -> 37 (unity escape route narrowing). huang-senate-public-testimony 62 -> 56 (company routing testimony through counsel; principal has left the CEO role). eurasia-settlement-hemisphere-pivot 70 -> 72 (nuclear reduction named as the agenda by both capitals). Iran Node 1 54 hold, Node 2C 40 hold, Iran lame-duck baseline 34 hold. Administration-under-pressure 82 hold \u2014 Duffy is a scapegoat candidate but the deficit is the FAA's, not the midterms', and the watchlist item is not met. Bedford schedule-integrity claim RESOLVED as met on public cancellation numbers. Pass 2 added class gap (F): capital-market plumbing of the AI build-out.",
+   "basename": "2026-11-16-evening-wire"
+  },
   {
    "date": "2026-11-16",
    "time_et": "10:55",
@@ -14500,6 +14517,24 @@
  ],
  "movers": [
   {
+   "time": "2026-11-16 22:40 ET (evening wire)",
+   "ref": "Formal criminal process opens into the Norden-Ra'am election-eve arrests before a new Israeli government is sworn in",
+   "change": "confidence 37 \u2014 status emergent",
+   "trigger": "Context in corpus: Netanyahu 53-67 no majority 2026-10-28; Eisenkot mandate 2026-11-07; Ra'am record 19 seats; unity talks confirmed by Eisenkot 2026-11-14, negotiators met 2026-11"
+  },
+  {
+   "time": "2026-11-16 22:40 ET (evening wire)",
+   "ref": "Huang appears before Senate Banking on 3 December, in public",
+   "change": "confidence 56 \u2014 status pending",
+   "trigger": "TRACKING 2026-11-14 11:20 ET \u2014 confidence 55 \u2192 62, card NOT flipped"
+  },
+  {
+   "time": "2026-11-16 22:40 ET (evening wire)",
+   "ref": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
+   "change": "confidence 72 \u2014 status pending",
+   "trigger": "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
+  },
+  {
    "time": "2026-11-16",
    "ref": "Election-Day Violence 2026 (Branch of Midterms Catalyst Node)",
    "change": "confidence 20 \u2014 status pending",
@@ -14516,12 +14551,6 @@
    "ref": "Israel strikes Iran's unmonitored enrichment plant without US participation, before the 120th Congress is seated",
    "change": "confidence 14 \u2014 status pending",
    "trigger": "Netanyahu lost his majority 27 Oct; Eisenkot holds the mandate; Israeli opposition figures tell Axios they fear he will strike Iran, or provoke Iran into attacking Israel, to break"
-  },
-  {
-   "time": "2026-11-15 21:35 ET (evening wire)",
-   "ref": "Formal criminal process opens into the Norden-Ra'am election-eve arrests before a new Israeli government is sworn in",
-   "change": "confidence 34 \u2014 status emergent",
-   "trigger": "Context in corpus: Netanyahu 53-67 no majority 2026-10-28; Eisenkot mandate 2026-11-07; Ra'am record 19 seats; unity talks confirmed by Eisenkot 2026-11-14, negotiators met 2026-11"
   },
   {
    "time": "2026-11-15 21:35 ET (evening wire)",
@@ -14546,18 +14575,6 @@
    "ref": "Node 1: the preservation letters convert into compulsory process against Senate oversight",
    "change": "confidence 16 \u2014 status pending",
    "trigger": "Chief of Staff Stephen Miller reposted the letter highlighting the same statutes. Reitz publicly: 'My first arrow shot.'"
-  },
-  {
-   "time": "2026-11-15",
-   "ref": "Node 2: Main Justice initiates the process against Senate oversight",
-   "change": "confidence 25 \u2014 status pending",
-   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
-  },
-  {
-   "time": "2026-11-15",
-   "ref": "Node 2: a private complainant drives the process",
-   "change": "confidence 15 \u2014 status pending",
-   "trigger": "Conditional branch - nothing scored at registration; Node 1 has not fired."
   }
  ],
  "daily_read": {
@@ -14612,7 +14629,7 @@
   ]
  },
  "counts": {
-  "items_today": 1,
+  "items_today": 2,
   "tracked_predictions": 125,
   "claims_tested": 29,
   "unscored_predictions": 0
@@ -14687,7 +14704,7 @@
     "prev_score": 86
    }
   ],
-  "age_days": 7,
+  "age_days": 8,
   "review_note": "7-day hand review of 2026-11-09, covering the window 2026-11-02 to 2026-11-09 (wires 11-02 through 11-09, ledger entries 11-02 to 11-09, and the 11-10 morning brief). Deltas are changes from the 2026-11-02 review. No score was set by inference: every movement cites a logged event in the window. Institutions with no logged capture event are re-stated, not nudged."
  },
  "mget": {
@@ -14796,7 +14813,7 @@
     "M": 18
    }
   },
-  "age_days": 12,
+  "age_days": 13,
   "lanes": {
    "sum": 100.0,
    "items": [
@@ -17174,7 +17191,7 @@
       "raw": 2,
       "per_100_journal": 9.1,
       "journal": 22,
-      "ledger": 87,
+      "ledger": 88,
       "days_covered": 15
      }
     ],
@@ -17292,7 +17309,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-16 15:37Z",
+  "generated": "2026-11-17 03:45Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
