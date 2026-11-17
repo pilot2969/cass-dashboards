@@ -1,0 +1,95 @@
+# The Daily Read — 2026-11-16
+
+DATE: 2026-11-16
+
+**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
+
+SUMMARY:
+- [10:50] The fix for the outage is what broke it, and the bill is now fifty billion
+- [10:40] A soldier who survived the strike says he was told not to worry about protection
+- [10:30] Iran hit an American base twice in three days, and Yemen changed hands the same weekend
+- [10:20] Alaska elected a Democrat, and the counting rule is the reason
+- [10:10] Three leaders meet on Thursday, and China has named the subject
+- [10:00] A judge put an independent examiner on the twenty thousand ballots
+WATCHING:
+- Whether a committee posts a hearing date on the air traffic failure, or only promises one
+- Whether the extra twenty billion dollars acquires a line-item breakdown
+- Whether any Iranian strike is confirmed to have hit its target
+- Whether Iran's foreign minister arrives in Oman with anything to discuss
+- Whether the June investigation into the Port Shuaiba attack is published
+- Whether an officer is named in the Shuaiba complaint, or only the process
+- Whether Alaska's transfer demand acquires an institutional carrier
+- Whether a draft appears before Thursday's summit, or only a theme
+- Whether Ukraine is on the Shenzhen agenda in writing
+- Whether the California examiner reports before the new Congress is seated
+- Whether a second state refuses a count on a claim a court is still testing
+- Whether the FBI's shelved South Carolina bribery inquiry is reopened by the incoming committee
+
+<!--parser markers above; collapsible cards below-->
+**CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[10:50] The fix for the outage is what broke it, and the bill is now fifty billion</summary>
+<p><i>The aviation system came back overnight and travel was nearing normal by Monday morning. The argument about why it broke did not settle; it moved.</i></p>
+<p><b>What happened.</b> The Transportation Secretary now says the failure was triggered by an operation to replace obsolete copper wire, which sent floods of data through the wider network. That is a different account from the one given on Saturday, when the cause was described as an unforeseeable maintenance mistake by a contractor at a remote site. The new version says the modernisation itself produced the failure, which is the difference between an accident and a known hazard.</p>
+<p><b>Why it matters.</b> He also raised his funding request from thirty billion dollars to fifty billion without saying what the extra twenty buys, and asked Congress to act. Democrats answered with the number that will decide the fight: twelve billion was already appropriated for this, and about a third has been spent. A senator also cited 1,300 employees who retired or resigned and 400 probationary staff who were let go in last year's efficiency purge.</p>
+<p><b>The pattern.</b> A federal audit in September warned that the aviation agency could be prioritising speed over cost and disruption, and that it had neither a lifecycle cost estimate nor a master schedule for the work. A fifty-billion-dollar request arriving without those documents is the real problem in this story. Money asked for in the middle of a crisis is money that will not be audited in the middle of one.</p>
+<p><b>What we're watching next.</b> Two clocks are now running. Thanksgiving travel begins in nine days, and the current Congress has to fund the government next month. Anything appropriated in the next seven weeks is voted by the outgoing majority and overseen by the incoming one. Watch whether a committee posts a hearing with a date, whether the extra twenty billion acquires a line-item breakdown, and whether the second site where the same copper work was done gets its own inspection report.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:40] A soldier who survived the strike says he was told not to worry about protection</summary>
+<p><i>A surviving officer has filed a formal complaint about the drone attack in Kuwait that killed six American soldiers on the first day of the Iran war.</i></p>
+<p><b>What happened.</b> Major Stephen Ramsbottom was wounded when a drone hit a tactical operations centre at Port Shuaiba on 1 March, a day after the war began. Six soldiers died and more than thirty were hurt, the deadliest single attack on American troops since 2021. In a complaint filed on 13 November with the armed services committees of both chambers, he says he raised the lack of protection from aerial attack twice and was told: we don't have to worry about protection. He says a counter-drone system never arrived at the site, and that the post had no physician, no fixed aid station and one ambulance. About seventy soldiers had been moved to that outpost from a larger base a week before the war.</p>
+<p><b>Why it matters.</b> The Pentagon announced an investigation in March, and it concluded in June. Families were briefed privately in July. The findings have never been published, and a widow was told officials acknowledged no mistakes. Meanwhile the official account on 2 March described a fortified position that a single weapon got through. A six-foot wall stops mortars. It does not stop drones. Those are different threats, and only one of them was designed for.</p>
+<p><b>The pattern.</b> The documentary record is what makes this different from an accusation. There is a named complainant, a filed document, a committee, and now a senator demanding a classified briefing and every force-protection assessment for the site. An impeachment attempt against the same secretary died in a procedural vote a week ago. This is a different instrument aimed at the same person, and it survives a change of session.</p>
+<p><b>What we're watching next.</b> Watch whether the armed services committees schedule public hearings before January, whether the June investigation's findings are released, and whether any officer is named. The families have been waiting nine months for a document that already exists.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:30] Iran hit an American base twice in three days, and Yemen changed hands the same weekend</summary>
+<p><i>Iranian drones were fired at American bases in Bahrain on Sunday, and pro-government forces in Yemen abandoned the strait that carries Gulf oil.</i></p>
+<p><b>What happened.</b> Bahrain said its air defences intercepted and destroyed several Iranian attacks, the first interceptions there since September. Iran's Revolutionary Guard claimed six drones against a base, in retaliation for what it called hostile American actions. Two days earlier the Guard claimed a strike on an American radar; the US military denied it and said two drones were intercepted without damage. Iran also claimed two tankers were on fire after hitting mines in the Strait of Hormuz, which could not be independently verified.</p>
+<p><b>Why it matters.</b> In Yemen, the Saudi-backed force fighting for the recognised government announced it was pulling back from the Bab el-Mandeb area to defend Aden, ending a six-week offensive to clear the Houthis from the entrance to the Red Sea. The Houthis said they attacked Riyadh's main airport, a financial centre, and two pumping stations on the pipeline that Saudi Arabia now uses to move about four million barrels a day — roughly four per cent of global supply. Taiz is besieged and aid cannot enter.</p>
+<p><b>The pattern.</b> The President had said in recent days that he might hold off attacking Iran if there were no new provocations from Tehran or the Houthis. Sunday delivered several. What has not changed is the part that would mark a new phase: no Iranian attack has produced confirmed damage or an American death. Three claims in four days with nothing confirmed is a rhetorical escalation, not yet an operational one, and the difference matters before anyone stakes a decision on it.</p>
+<p><b>What we're watching next.</b> Watch whether any Iranian strike is confirmed to have hit its target, whether the Gulf states turn their grievance into a demand that Washington restrain Israel or restrain itself, and whether Iran's foreign minister arrives in Oman on Tuesday with anything to discuss.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:20] Alaska elected a Democrat, and the counting rule is the reason</summary>
+<p><i>Democrats have taken the Alaska governorship for the first time in nearly three decades.</i></p>
+<p><b>What happened.</b> Jonathan Kreiss-Tomkins, 37, a former state legislator, defeated three Republicans, including the candidate the President endorsed. Democrats now hold thirty governorships.</p>
+<p><b>Why it matters.</b> The mechanism is ranked-choice voting meeting a split field. With three Republicans dividing first preferences, the transfer rounds produced a Democratic majority that a head-to-head contest would not have. The state had spent a fortnight counting under a system designed to reward consensus, and it produced a partisan flip because the field was divided.</p>
+<p><b>The pattern.</b> That is a fact about incentives rather than about Alaska's voters, and it should not be read as a national signal five days after a wave that was already counted. The parallel worth holding is that a demand was made before the count to transfer votes away from the result; the count ran, produced a winner, and the winner was from the other party. A voting rule can be attacked and still do its job.</p>
+<p><b>What we're watching next.</b> Watch whether the transfer demand now acquires an institutional carrier — a legislator, a committee, a lawsuit — or whether it dies with the certification.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:10] Three leaders meet on Thursday, and China has named the subject</summary>
+<p><i>Beijing has given the first agenda for a summit that had none: world peace.</i></p>
+<p><b>What happened.</b> China's foreign ministry said Monday that Thursday's meeting between Xi Jinping, Donald Trump and Vladimir Putin in Shenzhen is of groundbreaking significance and will safeguard world peace and promote global stability. Until Sunday the meeting had no format, no communiqué and a host who had spent a fortnight avoiding an arms-control conversation.</p>
+<p><b>Why it matters.</b> Naming a theme does two things. It turns a photograph into a summit with declared deliverables, and it sets the frame in which the outcome will be judged. At the same time the United States and China are reported to be working on a channel for AI incidents — a technical instrument between two of the three principals, which is the sort of thing that gets announced around a summit rather than at one.</p>
+<p><b>The pattern.</b> World peace is a category, not a document. The test from earlier in the week stands unchanged: whether anything emerges with inspectors, verification language, or a signed text. A reluctant host that names the theme has conceded the meeting is his, and that is a change in kind even before anything is signed.</p>
+<p><b>What we're watching next.</b> Watch whether a draft or a joint statement appears before Thursday, whether Ukraine is on the agenda in writing, and whether the AI incident channel is announced with a name attached.</p>
+</details>
+
+---
+
+<details open>
+<summary>[10:00] A judge put an independent examiner on the twenty thousand ballots</summary>
+<p><i>The federal case over California's disputed ballots has moved from an emergency demand to a slow examination, and the department that brought it has dropped the emergency part.</i></p>
+<p><b>What happened.</b> A federal judge declined to grant the Justice Department immediate relief and appointed a special master to evaluate the claim that California has about twenty thousand non-citizens on its voter rolls, and to determine whether counties could separate those ballots at all. The department then moved on Friday to dismiss its own suit.</p>
+<p><b>Why it matters.</b> Dropping a case after losing the first round is not the same as conceding it. The examiner is still working, the underlying claim is still asserted, and the dismissal removes the clock rather than the question. This matters beyond California: the challenge to the midterm count is now travelling through a court-appointed fact-finder, which is the slowest and least political of the available routes, and the one hardest to characterise as a steal.</p>
+<p><b>The pattern.</b> One caution about what you are reading. Several outlets carried the examiner's appointment as fresh news this morning. It is the ruling from 29 October, recirculated without the dismissal that followed. A story that is two weeks old and half-complete is how a settled procedural step starts to look like a live emergency.</p>
+<p><b>What we're watching next.</b> Watch whether the examiner reports before the new Congress is seated, and whether any state refuses a count on the strength of a claim a court is still testing.</p>
+</details>
