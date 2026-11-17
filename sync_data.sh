@@ -375,9 +375,15 @@ try:
                 # Match the old digits, replace with the new ones.
                 _h2=_r2.sub(r'(id="%s">)\s*\d+(<)'%_id, r'\g<1>%d\g<2>'%_v, _h2, count=1)
         open("Internal Telemetry.html","w",encoding="utf-8").write(_h2)
-    _m2=_r2.search(r"Last review: <span id=\"zinst-reviewed\">",_h2)
-    if not _m2:
-        print("WARNING: gauges panel is missing its live review-date hook (zinst-reviewed); the staleness clock cannot render.")
+    # 2026-11-17: this guard looked for "Last review: <span id=\"zinst-reviewed\">", markup
+    # that the v4.33 restructure never carried. It warned every run and could never
+    # pass, so a real loss of the staleness clock would have looked identical to the
+    # permanent false alarm. The live hook is dialNote, filled at runtime from
+    # data.institutions.reviewed (what verify_prod.js gauges.fresh parses). Check that.
+    _m2=_r2.search(r'id="dialNote"',_h2)
+    _rv2=(data.get("institutions") or {}).get("reviewed") or ""
+    if not _m2 or not _rv2:
+        print("WARNING: gauges panel review-date hook is broken (dialNote id present=%s, institutions.reviewed=%r); the staleness clock cannot render."%(_m2 is not None,_rv2))
 except Exception as _e:
     print("counts/guard warn:", _e)
 

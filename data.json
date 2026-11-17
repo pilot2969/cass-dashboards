@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-17",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-17T09:22 ET"
+  "generated_stamped": "2026-11-17T09:51 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -6781,6 +6781,52 @@
    "instrument": "Second-channel sourcing.",
    "basename": "2026-11-17-dirty-bomb-single-source-test",
    "confidence": 55
+  },
+  {
+   "title": "Disavowal card: does any named senior official repudiate 'Make No Peace With Evil' by 2026-12-15?",
+   "date_made": "2026-11-15",
+   "time_et": "23:40 ET",
+   "statement": "Registered to discharge the 2026-11-12 R3 audit queue item attached to the two-track disavowal watch (the watch itself closes 2026-11-15; the queued card was never written). Between 2026-11-15 and 2026-12-15, does any named senior official \u2014 Trump, Miller, Hegseth, the White House, or a named GOP officeholder \u2014 explicitly repudiate the post-defeat 'Make No Peace With Evil' / Minuteman 'good men' motif? The card scores SILENCE as a value, not as a null: if no such statement is made by 2026-12-15, the outcome is MISS and the finding is that the principal never policed the flank. Two readings were pre-committed by the parent watch: an explicit disavowal means the two tracks were uncoordinated and the conciliation was sincere; silence means division of labour held, base restrained while the principal negotiated.",
+   "evidence_confirmed": [
+    "Signed auxiliary page carrying the motif, logged 2026-11-08 (/space/observation/2026-11-08-no-face-patriot-aux-signed-render.json)",
+    "Parent watch logged seven days of elite silence on the motif, 2026-11-08 to 2026-11-15, with conciliation continuing in the joke register ('only kidding' on the Dana White offer, 2026-11-09)",
+    "The 2026-11-12 R3 audit itself queued this card, i.e. the absence was flagged as a finding worth scoring before any outcome was known"
+   ],
+   "evidence_contradicted": [
+    "Trump's 60 Minutes conciliation ('I can work with the Democrats') is engagement with the opposition, not policing of the flank \u2014 it neither discharges nor supports the disavowal reading",
+    "No second carrier has amplified the motif beyond the signed auxiliary page, so elite silence may reflect low salience rather than a deliberate division of labour; the card cannot separate those two"
+   ],
+   "falsifier": "HITS if a named senior official explicitly repudiates the 'Make No Peace With Evil' motif or the Minuteman 'good men' framing on the record before 2026-12-15. MISSES if no such statement exists by 2026-12-15 \u2014 absence is the scored outcome, not an unresolved state. Ambiguous cases (a rebuke of violence in general, or an unnamed spokesperson) are recorded as 0.5 in the resolution note and not rounded up.",
+   "forward_watchlist": [
+    "Any on-record statement by Trump, Miller, Hegseth, the White House or a named GOP officeholder naming the motif or the auxiliary",
+    "Whether the motif is re-carried by a second signed page or a legislative candidate \u2014 recirculation raises the cost of silence",
+    "Any violence event attributed to the 'good men' framing, which would force a principal response and reclassify silence"
+   ],
+   "status": "pending",
+   "resolution": "unresolved",
+   "card_class": "EVENT",
+   "window_opens": "2026-11-15",
+   "window_closes": "2026-12-15",
+   "expiry_date": "2026-12-15",
+   "anchor_grade": "B",
+   "anchor_source": "named-actor public statements; signed auxiliary page at /space/observation/2026-11-08-no-face-patriot-aux-signed-render.json",
+   "window_basis": "Mirrors the R3 audit queue date (2026-11-15 -> 2026-12-15) set on 2026-11-12, before any outcome was visible. 30 days is the audit's own stated window; not shortened after the fact.",
+   "threshold_definition": "Binarily present or absent: an on-record statement by a named senior official repudiating the motif. Silence after 2026-12-15 is MISS.",
+   "deadline_type": "conventional",
+   "grace_horizon": "0 days \u2014 grace not pre-registered",
+   "grace_locked": false,
+   "confirmer": "Public statement transcript or verified quotation from a named Trump, Miller, Hegseth, White House, or named GOP official, dated inside the window.",
+   "confirmer_base_rate": "Low base rate for explicit elite repudiation of a co-thinker's slogan; principals overwhelmingly respond to violence events, not to slogans. 30 percent reflects that, not a judgment about the administration.",
+   "confirmation_window": "2026-11-15 to 2026-12-15, hard close.",
+   "instrument": "v2 (class, anchor grade, expiry and threshold declared at registration, per the 2026-11-02 anchoring protocol)",
+   "skill_eligible": true,
+   "review_cadence": "weekly",
+   "tracking_state": "open \u2014 no statement as of registration (parent watch logged silence through 2026-11-09)",
+   "public_status": "pending_adjudication",
+   "leg_primary": "G",
+   "leg_basis": "Tests whether the elite layer polices its own flank: legitimation flow.",
+   "basename": "2026-11-15-disavowal-of-make-no-peace-motif",
+   "confidence": 30
   }
  ],
  "mget_ledger": [
@@ -14688,7 +14734,7 @@
  },
  "counts": {
   "items_today": 1,
-  "tracked_predictions": 126,
+  "tracked_predictions": 127,
   "claims_tested": 29,
   "unscored_predictions": 0
  },
@@ -14862,12 +14908,12 @@
    }
   ],
   "register_load": {
-   "total": 124,
+   "total": 125,
    "by_leg": {
     "T": 46,
     "E": 12,
     "N": 6,
-    "G": 42,
+    "G": 43,
     "M": 18
    }
   },
@@ -16257,8 +16303,8 @@
     "withdrawals": 5,
     "grants": 1,
     "weighted": 10.0,
-    "journal": 22,
-    "per_100_journal": 22.7,
+    "journal": 23,
+    "per_100_journal": 21.7,
     "days_covered": 16
    }
   ],
@@ -16310,57 +16356,17 @@
  "watch": {
   "generated": "2026-11-17",
   "counts": {
-   "active": 78,
+   "active": 75,
    "fired": 31,
-   "expired": 26,
-   "retired": 5,
+   "expired": 28,
+   "retired": 6,
    "active_no_expiry": 0,
-   "active_past_expiry": 4,
-   "high_open": 50
+   "active_past_expiry": 0,
+   "high_open": 47
   },
-  "next": "2026-11-14",
-  "next_days": -3,
+  "next": "2026-11-18",
+  "next_days": 1,
   "rows": [
-   {
-    "title": "Turnout projections put on the record: Georgia 1.4M, Maine midterm record, national VEP rate",
-    "added": "2026-11-03",
-    "expire": "2026-11-14",
-    "days_left": -3,
-    "priority": "high",
-    "status": "active",
-    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-midterm-turnout-floor.json] The 41.0% threshold asked here is the turnout-floor card.",
-    "action": "Resolve the turnout-floor card on the VEP rate; log each official's public projection against the actual and add the miss rate to the calibration ledger."
-   },
-   {
-    "title": "America.gov AI chatbot - state information channel epistemic capture",
-    "added": "2026-09-29",
-    "expire": "2026-11-15",
-    "days_left": -2,
-    "priority": "high",
-    "status": "active",
-    "check": "Trump unveiled AI-powered 'front door to the federal government' 2026-09-29 (model undisclosed, free, no login). AP documented live drift: initially truthful answers (Biden won 2020, Trump named in Epstein files, climate human-caused, Obama 2009 crowd bigger) modified WITHIN MOMENTS to refusal ('we don't answer political inquiries'). Day-one demonstration of editorial correction truth->refusal on the state's official channel. Kept Trump rebrands (Lake Ontario, Gulf of Mexico) but not 'Department of War.' Watch: (1) America.gov's answers on 2020 election, certification, election integrity by mid-October; (2) whether refusal hardens into partisan framing rather than mere silence; (3) whether f",
-    "action": "If America.gov asserts disputed election claims (2020 fraud, rigged midterms) or its refusals track WH talking points on election integrity, log as legitimacy-lane event and link to cdc-epistemic-capture pattern; consider absorption card 'state chatbot as epistemic authority transfer.'"
-   },
-   {
-    "title": "Two-track disavowal test: does the elite layer police 'Make No Peace With Evil'?",
-    "added": "2026-11-08",
-    "expire": "2026-11-15",
-    "days_left": -2,
-    "priority": "high",
-    "status": "active",
-    "check": "Any statement by Trump, Miller, Hegseth, the White House, or a named GOP official \u2014 or a conspicuous absence \u2014 in response to the post-defeat 'no peace' / Minuteman 'good men' motif, now carried by a signed auxiliary page.\n\n|| 2026-11-09 09:20 MORNING WIRE \u2014 SILENCE + CONTINUED DEAL TALK, but the deal talk is now cheap. No elite statement on the 'no peace' motif. Trump told reporters the Dana White press-secretary offer was 'only kidding' and White meets him at the White House today \u2014 the conciliation register remains, and the appointment channel has been converted into a joke, which is a form of disavowal without a disavowal of the auxiliary. No elite echo of 'evil'/'no peace'/'1776'. Branc",
-    "action": "Elite conciliation (60 Minutes: 'I can work with the Democrats') and auxiliary foreclosure ('Make No Peace With Evil, Destroy It') appeared the same day. Readings: DISAVOWAL -> two tracks uncoordinated, deal sincere, downgrade division-of-labour to coincidence. SILENCE + CONTINUED DEAL TALK -> division of labour confirmed, base held in place while principal negotiates. ELITE ECHO ('no peace', 'evil', '1776' from a named official) -> the auxiliary is not holding the flank, it is the flank, and the conciliation is cover. AUX ATTACK ON THE DEAL + elite retreat -> the base holds a veto and the principal is not the principal."
-   },
-   {
-    "title": "War Dept. designates Confucius Institutes a national security threat (2026-10-23, Hegseth)",
-    "added": "2026-10-23",
-    "expire": "2026-11-15",
-    "days_left": -2,
-    "priority": "high",
-    "status": "active",
-    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Its 14-day trigger closed 2026-11-06 with no living-institution designation. Probe reading not confirmed in window; no card can now be retro-fitted (R2).",
-    "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
-   },
    {
     "title": "Iran: is any strike attributed on the record by both sides \u2014 or does escalation go unattributable",
     "added": "2026-11-08",
@@ -16752,6 +16758,16 @@
     "action": "If all three remain arithmetic-free through Dec 31, log as cross-national frame convergence in mget_ledger with post-defeat timing as the mechanism. If any claimant produces a reconciliation-grade discrepancy, register the counter-example explicitly and downgrade the thesis. If a US state-level claim copies Netanyahu's domestic-minority attribution pattern, that is tier-2 escalation: file absorption specimen same day. NEW ARM: on any pre-emptive theft claim, the operative test is whether the demanded remedy requires changing a field voters have already voted on. Removal of a printed candidate with absentee ballots cast is the strongest available marker that the claim targets the field rather"
    },
    {
+    "title": "Turnout projections put on the record: Georgia 1.4M, Maine midterm record, national VEP rate",
+    "added": "2026-11-03",
+    "expire": "2026-12-31",
+    "days_left": 44,
+    "priority": "high",
+    "status": "active",
+    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-midterm-turnout-floor.json] The 41.0% threshold asked here is the turnout-floor card.\n\n[EXTENDED 2026-11-17 RULE 1 REPAIR] Expiry moved 2026-11-14 -> 2026-12-31. This is alignment to the turnout-floor card's PRE-REGISTERED adjudication date (window_closes 2026-12-31), not a post-hoc amendment: the watch's own check asks for the certified national VEP rate, which cannot exist before certification, so the 11-14 date could",
+    "action": "Resolve the turnout-floor card on the VEP rate; log each official's public projection against the actual and add the miss rate to the calibration ledger."
+   },
+   {
     "title": "Yalta-2: summit acceptance as the alignment pivot",
     "added": "2026-10-27",
     "expire": "2026-12-31",
@@ -17104,46 +17120,6 @@
   ],
   "high": [
    {
-    "title": "Turnout projections put on the record: Georgia 1.4M, Maine midterm record, national VEP rate",
-    "added": "2026-11-03",
-    "expire": "2026-11-14",
-    "days_left": -3,
-    "priority": "high",
-    "status": "active",
-    "check": "Did Georgia reach Raffensperger's 1.4M? Did Maine break its midterm record as Bellows committed? Did national VEP clear 41.0% (the turnout-floor card threshold)? A Georgia miss >10% low is the first genuine turnout warning.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2026-midterm-turnout-floor.json] The 41.0% threshold asked here is the turnout-floor card.",
-    "action": "Resolve the turnout-floor card on the VEP rate; log each official's public projection against the actual and add the miss rate to the calibration ledger."
-   },
-   {
-    "title": "America.gov AI chatbot - state information channel epistemic capture",
-    "added": "2026-09-29",
-    "expire": "2026-11-15",
-    "days_left": -2,
-    "priority": "high",
-    "status": "active",
-    "check": "Trump unveiled AI-powered 'front door to the federal government' 2026-09-29 (model undisclosed, free, no login). AP documented live drift: initially truthful answers (Biden won 2020, Trump named in Epstein files, climate human-caused, Obama 2009 crowd bigger) modified WITHIN MOMENTS to refusal ('we don't answer political inquiries'). Day-one demonstration of editorial correction truth->refusal on the state's official channel. Kept Trump rebrands (Lake Ontario, Gulf of Mexico) but not 'Department of War.' Watch: (1) America.gov's answers on 2020 election, certification, election integrity by mid-October; (2) whether refusal hardens into partisan framing rather than mere silence; (3) whether f",
-    "action": "If America.gov asserts disputed election claims (2020 fraud, rigged midterms) or its refusals track WH talking points on election integrity, log as legitimacy-lane event and link to cdc-epistemic-capture pattern; consider absorption card 'state chatbot as epistemic authority transfer.'"
-   },
-   {
-    "title": "Two-track disavowal test: does the elite layer police 'Make No Peace With Evil'?",
-    "added": "2026-11-08",
-    "expire": "2026-11-15",
-    "days_left": -2,
-    "priority": "high",
-    "status": "active",
-    "check": "Any statement by Trump, Miller, Hegseth, the White House, or a named GOP official \u2014 or a conspicuous absence \u2014 in response to the post-defeat 'no peace' / Minuteman 'good men' motif, now carried by a signed auxiliary page.\n\n|| 2026-11-09 09:20 MORNING WIRE \u2014 SILENCE + CONTINUED DEAL TALK, but the deal talk is now cheap. No elite statement on the 'no peace' motif. Trump told reporters the Dana White press-secretary offer was 'only kidding' and White meets him at the White House today \u2014 the conciliation register remains, and the appointment channel has been converted into a joke, which is a form of disavowal without a disavowal of the auxiliary. No elite echo of 'evil'/'no peace'/'1776'. Branc",
-    "action": "Elite conciliation (60 Minutes: 'I can work with the Democrats') and auxiliary foreclosure ('Make No Peace With Evil, Destroy It') appeared the same day. Readings: DISAVOWAL -> two tracks uncoordinated, deal sincere, downgrade division-of-labour to coincidence. SILENCE + CONTINUED DEAL TALK -> division of labour confirmed, base held in place while principal negotiates. ELITE ECHO ('no peace', 'evil', '1776' from a named official) -> the auxiliary is not holding the flank, it is the flank, and the conciliation is cover. AUX ATTACK ON THE DEAL + elite retreat -> the base holds a veto and the principal is not the principal."
-   },
-   {
-    "title": "War Dept. designates Confucius Institutes a national security threat (2026-10-23, Hegseth)",
-    "added": "2026-10-23",
-    "expire": "2026-11-15",
-    "days_left": -2,
-    "priority": "high",
-    "status": "active",
-    "check": "Probe logic: designation on a nearly-extinct target. TRIGGER: enforcement/designation against a LIVING institution (university department, media outlet, diaspora org, advocacy group, church with foreign ties) in foreign-influence frame language within 14 days confirms the probe reading and advances the target ladder. No follow-on action through 2026-11-15 falsifies it. Watch: university enforcement (visas, funding clawbacks), Chinese reciprocal retaliation, DOJ/FBI adoption of 'color revolution' language.\n\n[R3 AUDIT 2026-11-12 NO-CARD] Its 14-day trigger closed 2026-11-06 with no living-institution designation. Probe reading not confirmed in window; no card can now be retro-fitted (R2).",
-    "action": "File ledger entry; update color-revolution-target-ladder prediction if ladder-adjacent"
-   },
-   {
     "title": "Iran: is any strike attributed on the record by both sides \u2014 or does escalation go unattributable",
     "added": "2026-11-08",
     "expire": "2026-11-18",
@@ -17182,6 +17158,46 @@
     "status": "active",
     "check": "TRIGGER (mechanism confirm): any state or court produces a verified count of how many names on a federal sequestration list were actually ineligible, OR DOJ asks a fourth state to sequester ballots before 11-03, OR post-election filings cite these pre-election lists as the record of irregularity. TRIGGER (mechanism strain): a court grants sequestration on the merits, or Washington complies voluntarily without suit \u2014 either would mean the state apparatus is cooperating rather than resisting. Check Tuesday 10-27 CA district court hearing; Washington's response to the 24-hour deadline (comply / refuse / sue); whether Alaska certification is enjoined. || 2026-10-29 RUN NOTE (partial trigger, cou",
     "action": "File ledger entry; if post-election filings cite the lists, move c-002 confidence on the contestation mechanism leg"
+   },
+   {
+    "title": "Bahrain MoI public threat alert (Nov 14, 7:32 PM ET) \u2014 attributed or unattributed?",
+    "added": "2026-11-14",
+    "expire": "2026-11-21",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "SPECIMEN 2026-11-14 20:55 ET, submitted by owner. Screenshot of OSINTdefender post (17m old) relaying a Bahrain Ministry of Interior tweet dated 7:32 PM Nov 14: 'An alert of potential threat. The Ministry of Interior urged citizens and residents to remain calm, proceed to the nearest safe location, and follow news through official channels.' OSINTdefender text: alerts across Bahrain, some reports of explosions heard. Two-hop compression (screenshot of screenshot), blurred band, ad injected; only anchors are the timestamp and 4,340 views. RECORD FIELDS: intensity \u2014 not assigned, owner read it as very vague; trigger \u2014 unknown; nulls \u2014 top of feed checked, nothing to submit. CLASS \u2014 assigned by",
+    "action": "Discriminator is attribution, not alarms. 1) Does any government name an actor, or does the alert stand alone \u2014 an unattributed public alert during an announced US pause matches the proxy/unattributed branch, not Iran-initiates. 2) Does CENTCOM, the Bahraini government or the Fifth Fleet confirm a strike on any Bahraini installation (radar site already claimed by Iranian outlets in the morning wire, unconfirmed). 3) Explosions-heard reports with no damage confirmation are the residue class that can be manufactured by a single screenshot cascade \u2014 do not score as escalation absent a second independent carrier. 4) Note substrate: NSA Bahrain was already destroyed earlier in the war (intake-log"
+   },
+   {
+    "title": "DOJ action on the 43507 referral: post vs. process",
+    "added": "2026-11-07",
+    "expire": "2026-11-21",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "Watch for any of: (a) a grand jury empanelled, (b) subpoenas issued to sitting members of Congress or their staffs for conduct in the legislative sphere, (c) a formal FBI case file opened and confirmed by a named official, (d) a public statement from the AG or a US Attorney naming the investigation as an investigation (not 'reviewing'). Absence of all four by 2026-11-21 = the 43507 post was comms, not command. FIRES on (b) specifically: subpoenas to members for legislative-sphere conduct would be the first irreversible act of the post-election period and would supply the domestic-enforcement predicate under 10 USC 252.\n\n[R3 AUDIT 2026-11-12 CARD -> /space/prediction/2027-02-01-speech-as-crim",
+    "action": "If (b) fires: log to mget_ledger as a structural break, upgrade the domestic-enforcement decomposition, and re-examine the Hegseth exit card's 'stays' branch \u2014 a loyalty test that reaches Congress changes the cost of dissent inside the cabinet. If nothing fires by 11-21: mark 43507 as pure comms and discount the principal-owned lane's institutional weight."
+   },
+   {
+    "title": "Krak\u00f3w Main Market Square attack \u2014 perpetrator classification race",
+    "added": "2026-11-07",
+    "expire": "2026-11-21",
+    "days_left": 4,
+    "priority": "high",
+    "status": "active",
+    "check": "Confirmed: Saturday 2026-11-07 ~15:00, gunman drove into Rynek G\u0142\u00f3wny and fired at random; 5-6 killed (count still moving), ~12 injured; attacker shot and wounded by police and in custody. Two facts are analytically decisive and both pending: (1) the attacker's identity/nationality, (2) whether Warsaw classifies it as terrorism. Watch the ORDER. If identity surfaces within 24h as a Polish national with no jihadist nexus, it is a domestic-crime story and it will not carry. If identity is withheld for days, or is a foreign national, the classification itself becomes the contested object and the event gets absorbed into the European migration frame regardless of the underlying facts. Poland's c",
+    "action": "If identity is held beyond 72 hours OR reported as a foreign national with religious or migration nexus: route to narrative threads and check whether the US 'Crusader' recruitment layer in today's specimens starts citing it. If a Polish-national lone actor with no political nexus: log as a missed-narrative event and note the differential in state response against comparable US events."
+   },
+   {
+    "title": "Korea \u2014 North's border artillery display: managed signal or pre-attack? (new sensor; was a blind spot)",
+    "added": "2026-10-26",
+    "expire": "2026-11-25",
+    "days_left": 8,
+    "priority": "high",
+    "status": "active",
+    "check": "Three markers, first to fire wins. (a) Any weapon fired across the MDL/JMD, or a device injuring ROK personnel. (b) NK state media announcing forward deployment of a 'new tactical weapon' with independent imagery confirming a class beyond the 122mm legacy SPH. (c) NK engaging Seoul's dialogue offer, or a working-level channel opening around Kim's China diplomacy. Secondary threads to track alongside: whether US-ROK combined air drills (this week) draw North Korean counter-moves; whether Kim's border-city China visit produces a NK-US dialogue channel per Seoul's read; whether ROK domestic politics (Lee government, ballot-shortage probe, ex-first lady warrant hearing) constrains Seoul's respon",
+    "action": "(a) or (b) fires -> escalate to a hard prediction on Korea escalation within 72h, and re-score the Institutional Stress board for the military leg on a two-theater basis; check whether the Iran strike clock and Korean flashpoint interact (US asset draw). (c) fires -> record the artillery as a bargaining chip, close the watch as managed-signalling, and log that the distraction thesis was NOT exercised in this case \u2014 a non-event is data. If nothing fires by expire -> close as managed-signalling and keep Korea as a standing low-priority sensor."
    }
   ]
  },
@@ -17247,8 +17263,8 @@
      {
       "month": "2026-11",
       "raw": 2,
-      "per_100_journal": 9.1,
-      "journal": 22,
+      "per_100_journal": 8.7,
+      "journal": 23,
       "ledger": 89,
       "days_covered": 16
      }
@@ -17262,7 +17278,7 @@
       "2026-08": 14,
       "2026-09": 176,
       "2026-10": 189,
-      "2026-11": 22
+      "2026-11": 23
      },
      "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
     },
@@ -17367,7 +17383,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-17 14:22Z",
+  "generated": "2026-11-17 14:51Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
