@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-18",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-18T09:28 ET"
+  "generated_stamped": "2026-11-18T09:30 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -6883,6 +6883,23 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-18",
+   "time_et": "09:25",
+   "track": "the count and the clock; attribution and the substrate; naming versus behaviour",
+   "mget_legs_tested": [
+    "T: the count \u2014 Alaska certified for Peltola; the Democratic caucus is 56-44 with 46 days left before the gavel changes",
+    "G: legitimation flow \u2014 Rubio states attribution as a negative while the cabinet contradicts itself in public about the same week of outages",
+    "M: can the country still move itself \u2014 NSA's classified network down, Apple down to an internal update, Chase still unassigned after two days",
+    "E: ownership of the substrate \u2014 Nvidia's departed CEO retains two board nominations while the SEC opens a probe and the Senate waits for 3 December",
+    "L: the ladder \u2014 third strike on Bahraini targets met by a US strike on Qeshm, with no named phase on either side"
+   ],
+   "verdict": "strains",
+   "reasoning": "A settling day, not an escalating one. The election finally has a margin: 56-44 removes the tie-break and with it the 'narrow majority' justification for restraint, which converts every oversight instrument in the corpus from a negotiation into a schedule \u2014 but 46 days is the whole of it. On the outage week the state answered in an unexpected register: the Secretary of State put attribution at zero on the record, and the NSA's own classified network failed in the same window, which is the strongest available evidence that this cluster is independent faults rather than one actor. That strains the probing hypothesis without clearing the substrate: Chase remains the only severe unexplained item and nobody has published a cause. Nvidia's disclosure that a departed CEO can seat two directors is a control arrangement presented as severance, and the SEC probe does not touch it. The Iran exchange is the first reciprocity of the campaign and still is not a named phase, so the tree holds by its own rule rather than by judgement.",
+   "forward_signal": "Whether Chase gets a cause; whether CENTCOM names an operation on Iran; whether Huang's 3 December appearance converts a private governance arrangement into a public record; whether 56 Democratic senators can elect a leader before 3 January",
+   "confidence_moves": "none this run \u2014 senate control already HIT on 11-03; Alaska transfer, Nvidia succession and the Iran nodes all held on their stated thresholds",
+   "basename": "2026-11-18-morning-wire"
+  },
   {
    "date": "2026-11-17",
    "time_et": "09:20",
@@ -14846,7 +14863,7 @@
   ]
  },
  "counts": {
-  "items_today": 0,
+  "items_today": 1,
   "tracked_predictions": 128,
   "claims_tested": 29,
   "unscored_predictions": 0
@@ -17378,7 +17395,7 @@
       "raw": 3,
       "per_100_journal": 13.0,
       "journal": 23,
-      "ledger": 89,
+      "ledger": 90,
       "days_covered": 17
      }
     ],
@@ -17496,7 +17513,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-18 14:28Z",
+  "generated": "2026-11-18 14:30Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
