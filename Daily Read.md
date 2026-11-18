@@ -1,7 +1,13 @@
 # The Daily Read
 
-DATE: 2026-11-17
+DATE: 2026-11-18
 SUMMARY:
+- [00:25] Nvidia posted a $115.8 billion quarter, and its board told the President no
+- [00:25] Shenzhen: the two who matter sat down first
+- [00:25] Hormuz day three: three hulls burning and an off-ramp that is only a readout
+- [00:25] The dirty bomb story is two days old and still has one source
+- [00:25] The Hegseth oversight clause is now the price of Ukraine aid
+- [00:25] Three system failures, one test, and a rumour with no author
 - [09:20] A threat to the homeland, leaked, denied, and neither confirmed nor withdrawn
 - [09:20] Hormuz: the vessel has a name, a crew and a casualty — the price still refuses
 - [09:20] The watchdog that said "no lifecycle estimate" is being replaced, mid-ask
@@ -16,6 +22,79 @@ WATCHING:
 **CARD STACK** (newest first)
 
 ---
+
+<details open>
+<summary>[00:25] Nvidia posted a $115.8 billion quarter, and its board told the President no</summary>
+
+<p><b>What happened.</b> Nvidia reported quarterly revenue of $115.84 billion, up 103 percent year on year, and adjusted earnings of $2.68 a share, up 111 percent. It guided the next quarter to $127.4–132.6 billion against a $125.25 billion consensus, announced a $150 billion buyback, and raised its fiscal 2028 growth forecast to 75 percent. On the same call the board chair, Harvey Jones, said the board had accepted Jensen Huang's resignation, "does not intend to reinstate" him, and would not take questions on the investigation. Anthropic prices its IPO on Wednesday, with orders reported at about six times the shares.</p>
+<p><b>Why it matters.</b> The President said this week he "would not mind" seeing Huang back. The board heard it and closed the door in a prepared statement. That ends the personnel question and leaves the policy one — an export-control investigation, a Singapore customer under federal scrutiny, and a new board committee standing where an external regime should be.</p>
+<p><b>The pattern.</b> The call also volunteered the balance sheet: about $670 billion in commitments, guarantees and stakes, including $118 billion of other companies' obligations; $81 billion in unpaid bills, or 64 days of sales; and a $2.5 trillion backlog. The company selling the chips is now guaranteeing the loans of the companies buying them, and taking a long time to get paid.</p>
+<p><b>What history says.</b> Vendor financing looks like demand right up until the guarantor is the one holding the loss. The telecom build-out of the late 1990s had the same shape — equipment makers lending to the carriers that bought their gear — and the order book looked excellent for one quarter longer than it should have.</p>
+<p><b>What we're watching next.</b> Whether Anthropic prices inside its $70–78 range on Wednesday. A price at or above the top means the suppliers who agreed to buy at the offer price were right to. A weak print is the first crack.</p>
+<p><b>Sources:</b> <a href="https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html">Yahoo Finance</a>, <a href="https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html">CNBC</a>, <a href="https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price">New York Times</a>.</p>
+
+</details>
+
+<details open>
+<summary>[00:25] Shenzhen: the two who matter sat down first</summary>
+
+<p><b>What happened.</b> Xi Jinping and Vladimir Putin began talks in Shenzhen on Tuesday night, Chinese state media reported, a day before President Trump arrives for the first three-way summit of the three nuclear powers. The Kremlin said a Trump–Putin one-on-one is being arranged on the margins. In Manila, Trump met President Marcos, joined a Quad meeting on AI cooperation and joint maritime patrols, and announced a preliminary trade deal with Thailand. Protests ran alongside; hundreds were arrested over the weekend.</p>
+<p><b>Why it matters.</b> The host and the other guest met privately before the American landed. That is normal summit craft and it still tells you who has the agenda. Moscow has named its deliverable — a bilateral — while Washington has named a topic, nuclear arms reduction.</p>
+<p><b>The pattern.</b> Trump arrived on an aircraft gifted by Qatar, to a country where the street is protesting the AI hub his hosts want built, in the same week that American voters rejected data-centre measures in 40 of 41 ballots. The build-out is now a diplomatic object, not a domestic one.</p>
+<p><b>What history says.</b> Summits that produce a photograph and a communiqué are graded by what is signed afterwards. The 1986 Reykjavik meeting was a failure that produced a treaty a year later; the 2018 Singapore summit produced a document and nothing.</p>
+<p><b>What we're watching next.</b> Whether a bilateral Trump–Putin session actually happens, and whether any text names Ukraine. A meeting without a signed instrument leaves the sequence card where it is.</p>
+<p><b>Sources:</b> <a href="https://www.nytimes.com/live/2026/11/17/world/trump-asean-summit">New York Times</a>, <a href="https://apnews.com/article/trump-china-manila-xi-putin-ffc5e5a2d384f00960034ec10087502e">AP</a>, <a href="https://www.democracynow.org/2026/11/17/headlines">Democracy Now</a>.</p>
+
+</details>
+
+<details open>
+<summary>[00:25] Hormuz day three: three hulls burning and an off-ramp that is only a readout</summary>
+
+<p><b>What happened.</b> Three more vessels caught fire transiting the Strait of Hormuz on Tuesday, including a liquefied gas carrier and a supertanker carrying more than two million barrels of crude. No names, flags or crews were published. The USS Theodore Roosevelt's strike group arrived, adding about 10,000 sailors and Marines — a third American carrier in theatre. Bahrain said it intercepted a third Iranian drone attack on the radar site at al-Riffa; Iran said it hacked and landed an American MQ-170 drone intact. In Muscat, Iran's foreign minister met Oman's, and the Omani readout spoke of safeguarding maritime corridors and reviving dialogue. No text, no reopening date.</p>
+<p><b>Why it matters.</b> For three days the market has been pricing an Iran–Oman navigation plan as though it were a reopening. On Tuesday that plan produced a statement of intentions, issued while three ships burned and a third carrier sailed in. Iran still insists vessels use only the routes it authorises, which is the dispute restated as a precondition.</p>
+<p><b>The pattern.</b> Iran is managing the strait rather than closing it: enough attacks to keep the risk premium and the escort demand alive, enough diplomacy to keep a deal in view. That is the behaviour of a party that wants the waterway as leverage, not as a wreck.</p>
+<p><b>What history says.</b> The 1956 and 1973 chokepoint episodes both ended with a political document, not a military decision, and the price moved on the document. A price that leads a document can be wrong in a session.</p>
+<p><b>What we're watching next.</b> A published transit regime, or a failed Muscat round. Either one breaks the divergence between 96 percent of traffic gone and a falling crude price.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.ukmto.org">UKMTO</a>, <a href="https://www.democracynow.org/2026/11/17/headlines">Democracy Now</a>, <a href="https://www.thenationalnews.com/news/gulf/2026/11/17/iran-and-oman-discuss-maritime-security-amid-rising-attacks-in-strait-of-hormuz/">The National</a>.</p>
+
+</details>
+
+<details open>
+<summary>[00:25] The dirty bomb story is two days old and still has one source</summary>
+
+<p><b>What happened.</b> A second day of coverage produced no outlet reporting its own sourcing on the claim that US intelligence shows Iran planning a radiological or chemical attack on senior officials in Washington. Time, The Hill, Al Jazeera and others published explainers, all tracing to the same CNN report from seven unnamed officials. Iran's foreign minister, Abbas Araghchi, denied it on record: "RUBBISH. Spare us the Iraq War-style propaganda, especially with Israeli fingerprints all over it."</p>
+<p><b>Why it matters.</b> Every American voice in this story is anonymous, or is the President saying "we take it very seriously." The first named official anywhere is the foreign minister of the country accused. A denial is not corroboration, and it is also the only attributable statement in forty-eight hours.</p>
+<p><b>The pattern.</b> A leaked plot naming locations and targets, a quiet homeland denial, a loud presidential acceptance, a third carrier arriving. Both governments now have an interest in the claim existing — one as a pre-authorisation, one as evidence of a frame.</p>
+<p><b>What history says.</b> The 2002 Iraqi weapons assessments were also single-origin, also anonymous, and also denied by the accused. The tell was never the claim; it was that nobody in the government would put a name to it.</p>
+<p><b>What we're watching next.</b> A second outlet with independent sourcing before 1 December. Thirteen days.</p>
+<p><b>Sources:</b> <a href="https://www.cnn.com">CNN</a>, <a href="https://www.tehrantimes.com/news/532268/False-flags-for-a-failed-war">Tehran Times</a>, <a href="https://time.com/article/2026/11/17/iran-dirty-bomb-plot-radiological-chemical-weapon-washington-dc-intelligence/">Time</a>.</p>
+
+</details>
+
+<details open>
+<summary>[00:25] The Hegseth oversight clause is now the price of Ukraine aid</summary>
+
+<p><b>What happened.</b> Top House Republicans are using Ukraine-related provisions in the defence authorisation bill as a bargaining chip to force Democrats to drop language strengthening Congress's oversight of Pete Hegseth and the President, NBC reported. Senate Republicans unveiled a $1.1 trillion defence appropriations bill for 2027; the top Democrat on Appropriations called it a "truly massive windfall" for the Pentagon. The Pentagon failed its ninth consecutive audit, on $4.8 trillion in assets, and answered with a committee and a 2028 goal. Trump nominated Hegseth's former aide, Chris LaNeve, as the Army's top officer.</p>
+<p><b>Why it matters.</b> That is the war being used as the price of an oversight clause. It tells you the majority values the clause's removal more than the Ukraine provisions it is offering, and it moves the fight from a vote on Hegseth to a negotiation over money.</p>
+<p><b>The pattern.</b> Audit failure answered by committee; oversight traded for appropriations; the Army's uniformed leadership handed to a former staffer. Each is a procedural act, and together they close the loop at exactly the level where a removal would have to be executed.</p>
+<p><b>What history says.</b> Oversight provisions survive when they are attached to must-pass money, and die when they are separated from it. The 1970s reforms that held did so because the appropriations vehicle could not move without them.</p>
+<p><b>What we're watching next.</b> Whether the oversight language survives conference, and whether any of the Republicans who said they were considering the articles say anything about the trade.</p>
+<p><b>Sources:</b> <a href="https://politicalwire.com/2026/11/17/house-gop-threatens-ukraine-aid-to-shield-hegseth/">Political Wire / NBC</a>, <a href="https://thehill.com/homenews/senate/6224030-senate-gop-defense-appropriations-bill/">The Hill</a>, <a href="https://abcnews.com/Politics/trump-nominates-laneve-top-army-officer/story?id=138219615">ABC News</a>.</p>
+
+</details>
+
+<details open>
+<summary>[00:25] Three system failures, one test, and a rumour with no author</summary>
+
+<p><b>What happened.</b> JPMorgan Chase customers lost account access from about 10am Eastern into the early evening; Zelle transfers failed and customers at Wells Fargo, US Bank and Bank of America reported knock-on problems. Chase blamed a software bug and said it was not a cyberattack. Microsoft attributed last week's global outage to a hidden defect in its cloud gateway, plus demand and reduced capacity. At 2:20pm, FEMA and the FCC ran the nationwide Emergency Alert System test — inside a viral rumour that the government was about to cut power for 90 days, based on a presidential announcement that does not exist.</p>
+<p><b>Why it matters.</b> Nobody published a root cause for either outage. Two unrelated "technical issues" in five days, in banking and in aviation, with the explanations stopping at "bug" and "defect."</p>
+<p><b>The pattern.</b> Three genuine failures in eight days is the condition under which a fabricated one travels. The alert test landed in the middle of it, and the rumour needed no author, no outlet and no evidence to spread.</p>
+<p><b>What history says.</b> Rumours that attach to scheduled events — tests, drills, eclipses — decay fastest, because the event passes and the world does not end. The ones that persist are the ones with a date that never arrives.</p>
+<p><b>What we're watching next.</b> Whether either company publishes a root cause, and whether the outage explanations stay at the level of "bug" through the week.</p>
+<p><b>Sources:</b> <a href="https://www.democracynow.org/2026/11/17/headlines">Democracy Now</a>, <a href="https://www.usatoday.com/story/news/nation/2026/11/17/fema-emergency-alert-test-blackout-rumors/92822699007/">USA Today</a>, <a href="https://www.cnet.com/news/social-media/blackout-rumors-nov-17-emergency-alert-system-prepare-supplies/">CNET</a>.</p>
+
+</details>
+
 
 <details open>
 <summary>[09:20] A threat to the homeland, leaked, denied, and neither confirmed nor withdrawn</summary>
