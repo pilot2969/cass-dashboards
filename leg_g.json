@@ -41,8 +41,8 @@
    "withdrawals": 5,
    "grants": 1,
    "weighted": 10.0,
-   "journal": 24,
-   "per_100_journal": 20.8,
+   "journal": 25,
+   "per_100_journal": 20.0,
    "days_covered": 18
   }
  ],

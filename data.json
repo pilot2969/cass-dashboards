@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-19",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-19T09:33 ET"
+  "generated_stamped": "2026-11-19T09:36 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -6883,6 +6883,20 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-19",
+   "time_et": "09:33",
+   "track": "the settlement's price; the pivot's currency; the substrate's cause; the artifact",
+   "mget_legs_tested": [
+    "leg-1 complexity",
+    "leg-2 elite exit",
+    "leg-g legitimation flow"
+   ],
+   "verdict": "strains",
+   "reasoning": "The settlement leg got its first structural price today: a 45bn euro loan repayable only out of reparations converts the EU from a donor into a party to the outcome, which is a stronger commitment than any communique and a weaker one than a signature. The pivot leg docked in Caracas while the settlement is still unsigned, which is out of sequence - acceleration and hedging have different signatures and this one is announcement-heavy, instrument-light, with the Essequibo line the tell that the currency on offer is a third state's territory. On the substrate, the cluster finally produced a candidate common cause that is not an adversary: a patch surge. That is the boring explanation the guardrail demands and it strains the probing hypothesis properly, but it is worse for institutional health than an attack because it is systemic and repeatable. Chase remains unassigned at three days. Greenland's ratification was refused a score on purpose: basing and mutual defence are the card's excluded case, and scoring a real event in the right country as the card's claim is the failure mode the register exists to prevent. The ICJ merits finding is the only artifact this week that terminates in a written holding rather than a filing.",
+   "forward_signal": "Whether a joint text names Ukraine and whether the bilateral happens standalone; whether the Greenland security deal's annexes name resources, revenue or land; whether Chase or the NSA names a cause; whether the Riyadh strike is attributed to Iran or left as Houthi-executed; whether the ICJ judgment uses the word genocide and any state converts it into a sanction",
+   "basename": "2026-11-19-morning-wire"
+  },
   {
    "date": "2026-11-18",
    "time_et": "09:25",
@@ -14813,7 +14827,7 @@
   ]
  },
  "counts": {
-  "items_today": 0,
+  "items_today": 1,
   "tracked_predictions": 128,
   "claims_tested": 29,
   "unscored_predictions": 0
@@ -16383,8 +16397,8 @@
     "withdrawals": 5,
     "grants": 1,
     "weighted": 10.0,
-    "journal": 24,
-    "per_100_journal": 20.8,
+    "journal": 25,
+    "per_100_journal": 20.0,
     "days_covered": 18
    }
   ],
@@ -17343,9 +17357,9 @@
      {
       "month": "2026-11",
       "raw": 3,
-      "per_100_journal": 12.5,
-      "journal": 24,
-      "ledger": 90,
+      "per_100_journal": 12.0,
+      "journal": 25,
+      "ledger": 91,
       "days_covered": 18
      }
     ],
@@ -17358,7 +17372,7 @@
       "2026-08": 14,
       "2026-09": 176,
       "2026-10": 189,
-      "2026-11": 24
+      "2026-11": 25
      },
      "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
     },
@@ -17463,7 +17477,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-19 14:33Z",
+  "generated": "2026-11-19 14:36Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
