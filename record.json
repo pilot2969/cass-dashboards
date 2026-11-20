@@ -42,48 +42,12 @@
    "res": "miss",
    "leg": "G",
    "mech": "partial",
-   "mechnote": "The enforcement frame migrated to El-Sayed \u2014 instrument confirmed, named target missed",
+   "mechnote": "The enforcement frame migrated to El-Sayed — instrument confirmed, named target missed",
    "window": "clock",
    "date": "2026-11-03",
    "falsifier": "MISSES if no formal DOJ citizenship action against Rep. Omar is filed on or before 2026-11-03 23:59 ET.",
-   "note": "No formal DOJ citizenship-strip action against Rep. Omar was filed on or before 2026-11-03 23:59 ET. The enforcement frame migrated to El-Sayed instead (Iowa rally 'jihadist' line, 11-01) \u2014 an adjacent instrument aimed at a different target, which does not confirm this card. Resolved by Rule 1 at window close.",
+   "note": "No formal DOJ citizenship-strip action against Rep. Omar was filed on or before 2026-11-03 23:59 ET. The enforcement frame migrated to El-Sayed instead (Iowa rally 'jihadist' line, 11-01) — an adjacent instrument aimed at a different target, which does not confirm this card. Resolved by Rule 1 at window close.",
    "conf": 45
-  },
-  {
-   "t": "Iran conducts a nuclear test before the Nov 3 2026 midterms (Pape's October surprise, scored)",
-   "res": "miss",
-   "leg": "T",
-   "mech": "partial",
-   "mechnote": "Declaratory rungs went up, no technical rung beneath them",
-   "window": "clock",
-   "date": "2026-11-03",
-   "falsifier": "RESOLVES NEGATIVE on 2026-11-03 23:59 ET with no confirmed Iranian nuclear detonation (no CTBTO seismic/radionuclide event in Iran, no state acknowledgement, no second detonation). Resolves POSITIVE on a confirmed test before polls close; in that case the two-device predicate is scored separately \u2014 a lone detonation with no follow-on inside ~30 days counts as a PARTIAL confirmation of the event an",
-   "note": "No CTBTO seismic or radionuclide event in Iran, no state acknowledgement, no second detonation, and no NPT-withdrawal announcement before 2026-11-03 23:59 ET. The declaratory rungs went up (Khamenei 11-01 'no geographical restrictions', Rezaei 'new weaponry') with no technical rung beneath them. Resolved NEGATIVE by Rule 1 at window close, as the falsifier directed.",
-   "conf": 7
-  },
-  {
-   "t": "SPR Runway Breaks Before Midterms \u2014 Oil Shock as Regime Fatality",
-   "res": "miss",
-   "leg": "M",
-   "mech": "partial",
-   "mechnote": "Legs A and B fired end to end; leg C never fielded",
-   "window": "clock",
-   "date": "2026-11-03",
-   "falsifier": "MISSES if SPR crude stocks remain above 350 million barrels through 2027-03-31.",
-   "note": "MISS by Rule 1, and the shape of the failure matters more than the score. Legs A and B fired: the price and physical-shock chain ran end to end (Hormuz 2 vessels/day vs 85 baseline, Brent >$100 through the autumn, retail gas $4.12 on election eve, SPR below the 290M cavern floor on 9-18). But the card's own price leg DEFLATED into the vote \u2014 Brent -7.6% on election eve, largest one-day fall since July, on Hormuz reopening talk \u2014 and leg C, the fatality threshold (>=25% of switcher reasons energy/fuel), was never fielded by the exit instrument, so it cannot be adjudicated. A compound card with one unmeasurable leg cannot be confirmed by its true legs. Scored MISS, with the causal chain recorded as a confirmed mechanism the register failed to capture as a scorable claim.",
-   "conf": 30
-  },
-  {
-   "t": "House passes the Massie privileged resolution on Hegseth on or before 2026-11-12",
-   "res": "miss",
-   "leg": "\u2014",
-   "mech": "partial",
-   "mechnote": "Right about failure, wrong by one step: priced tabling, got referral",
-   "window": "world",
-   "date": "2026-11-10",
-   "falsifier": "Two or more named Republican members stating publicly before the vote that they will vote no, or a motion to table reported as likely by leadership-aligned outlets, moves the estimate down at least 15 points. A White House statement that the President will not oppose the vote moves it up 10.",
-   "note": "MISS, in-window, at 21:0x ET on 2026-11-10 \u2014 one day before expiry and before any outcome was visible when the score was cut from 38 to 23. The House disposed of the resolution by adopting a motion to refer it to committee, 211-204 (Massie the only Republican voting no; more Democrats absent than Republicans, which supplied the margin). No vote was taken on the eight articles themselves, so the instrument recorded nothing about Hegseth: the resolution failed a recorded vote without the chamber ever voting on the substance. Score at resolution: 23. Base rate 18. The card was right about the direction (favoured failure) and wrong about the mechanism by one step \u2014 it priced tabling as the likely kill and got referral.",
-   "conf": 23
   },
   {
    "t": "Assassination as Catalyst (Kirk)",
@@ -106,23 +70,23 @@
    "window": "world",
    "date": "2026-09-14",
    "falsifier": "The Strait reopens to sustained pre-war transit volumes (>=100 vessels/day for 2+ consecutive weeks) with CENTCOM confirming safe commercial passage; OR a formal US-Iran de-escalation agreement re-opening the waterway takes effect and holds for 30 days without violation.",
-   "note": "CONFIRMED IN-WINDOW 2026-09-14: routing-sovereignty threshold fired at 75% vs ~60% (Kpler, Sept 4-6: 21/28 transits), matching the confirmer pre-registered on 2026-07-20 as forward_watchlist item 1. Falsifier did not fire: neither prong \u2014 (a) sustained >=100 vessels/day for 2+ consecutive weeks with CENTCOM confirming safe commercial passage, nor (b) a formal US-Iran de-escalation taking effect and holding 30 days \u2014 occurred before window close on 2026-10-01. evidence_contradicted empty at close. Fitch recorded 'longer-than-expected effective closure' as of the close. PROCESS DEFECT (not an outcome defect): the card carried resolution='holding' from a 2026-10-01 F1 instrument-auditor pass until 2026-11-02, leaving a card that had already been adjudicated CONFIRMED with a null resolution_date for seven weeks. Corrected 2026-11-02 by owner ruling. The defect is logged in the calibration le",
+   "note": "CONFIRMED IN-WINDOW 2026-09-14: routing-sovereignty threshold fired at 75% vs ~60% (Kpler, Sept 4-6: 21/28 transits), matching the confirmer pre-registered on 2026-07-20 as forward_watchlist item 1. Falsifier did not fire: neither prong — (a) sustained >=100 vessels/day for 2+ consecutive weeks with CENTCOM confirming safe commercial passage, nor (b) a formal US-Iran de-escalation taking effect and holding 30 days — occurred before window close on 2026-10-01. evidence_contradicted empty at close. Fitch recorded 'longer-than-expected effective closure' as of the close. PROCESS DEFECT (not an outcome defect): the card carried resolution='holding' from a 2026-10-01 F1 instrument-auditor pass until 2026-11-02, leaving a card that had already been adjudicated CONFIRMED with a null resolution_date for seven weeks. Corrected 2026-11-02 by owner ruling. The defect is logged in the calibration le",
    "conf": 98
   },
   {
-   "t": "Democrats take the US House \u2014 control test",
+   "t": "Democrats take the US House — control test",
    "res": "hit",
    "leg": "G",
    "mech": "confirmed",
    "mechnote": "Aggregate polling called the chamber correctly",
    "window": "world",
    "date": "2026-11-03",
-   "falsifier": "Republicans retain the House majority. A Democratic popular-vote win paired with a Republican majority is a MISS on this card and simultaneously confirms the redistricting leg \u2014 the two must be reported together, not as a moral victory.",
+   "falsifier": "Republicans retain the House majority. A Democratic popular-vote win paired with a Republican majority is a MISS on this card and simultaneously confirms the redistricting leg — the two must be reported together, not as a moral victory.",
    "note": "",
    "conf": 70
   },
   {
-   "t": "Ohio Governor \u2014 Acton wins",
+   "t": "Ohio Governor — Acton wins",
    "res": "hit",
    "leg": "G",
    "mech": "confirmed",
@@ -134,7 +98,7 @@
    "conf": 45
   },
   {
-   "t": "Democrats take the US Senate \u2014 control test",
+   "t": "Democrats take the US Senate — control test",
    "res": "hit",
    "leg": "G",
    "mech": "confirmed",
@@ -146,7 +110,7 @@
    "conf": 48
   },
   {
-   "t": "Texas Senate \u2014 Talarico wins",
+   "t": "Texas Senate — Talarico wins",
    "res": "hit",
    "leg": "G",
    "mech": "confirmed",

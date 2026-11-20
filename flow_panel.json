@@ -59,9 +59,9 @@
     },
     {
      "month": "2026-11",
-     "raw": 3,
-     "per_100_journal": 11.1,
-     "journal": 27,
+     "raw": 4,
+     "per_100_journal": 13.3,
+     "journal": 30,
      "ledger": 91,
      "days_covered": 19
     }
@@ -75,13 +75,13 @@
      "2026-08": 14,
      "2026-09": 176,
      "2026-10": 189,
-     "2026-11": 27
+     "2026-11": 30
     },
     "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
    },
    "headline": "Raw series peaks in 2026-09 (9 events); the controlled series peaks in 2026-07 (38.9 per 100 journal). Only 2026-07 outruns the recording rate \u2014 the rest of the raw movement is the desk going to work.",
    "disclosers": [
-    "Raw = unique dated events after declared dedupe (32 objects, 2 pairs merged, 1 undated excluded = 29 dated events).",
+    "Raw = unique dated events after declared dedupe (33 objects, 2 pairs merged, 1 undated excluded = 30 dated events).",
     "The control denominator is ENDOGENOUS: journal volume is this machine's attention, which reacts to the events it records. Neither number is the true one; the pair is the reading.",
     "Cannot measure capacity, only recorded events. Statutory authority created and never exercised produces no row.",
     "Left edge (2026-05-07) is a backfill artifact, not a quiet spring.",
@@ -112,19 +112,19 @@
     },
     {
      "type": "purge",
-     "n": 1
+     "n": 2
     }
    ],
-   "headline": "Kinetic episodic acts are 4 of 29. Capacity accumulates through instrument, not through visible coercion: 19 of 29 events are policy or surveillance.",
+   "headline": "Kinetic episodic acts are 4 of 30. Capacity accumulates through instrument, not through visible coercion: 19 of 30 events are policy or surveillance.",
    "disclosers": [
     "Robust to the recording-rate problem: a tenfold writing lift does not change which category a written event lands in.",
     "Taxonomy is the collection's own; if it is wrong, this chart is wrong.",
-    "nspm7_alignment is true on 25 of 29 dated events."
+    "nspm7_alignment is true on 26 of 30 dated events."
    ]
   }
  ],
  "integrity": {
-  "objects": 32,
+  "objects": 33,
   "merged_pairs": [
    {
     "kept": "policy_shift-2026-07-13-national--",
@@ -143,7 +143,7 @@
     "date_raw": "2025-2026"
    }
   ],
-  "unique_dated": 29,
+  "unique_dated": 30,
   "same_date_review": [
    {
     "date": "2026-07-08",
@@ -172,8 +172,8 @@
   ],
   "window": {
    "start": "2026-05-07",
-   "end": "2026-11-17",
-   "days": 195
+   "end": "2026-11-19",
+   "days": 197
   }
  }
 }

@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-20",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-20T12:40 ET"
+  "generated_stamped": "2026-11-20T12:41 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -6921,7 +6921,8 @@
     }
    ],
    "basename": "2026-11-20-black-sea-article4-or-bulgarian-designation",
-   "confidence": 31
+   "confidence": 31,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Boston Dynamics / ICE Spot: does internal refusal bind the contract",
@@ -6963,7 +6964,8 @@
     }
    ],
    "basename": "2026-11-20-boston-dynamics-ice-contract-narrowing",
-   "confidence": 33
+   "confidence": 33,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Commissary freezer intrusions: does anyone name the actor",
@@ -7005,7 +7007,8 @@
     }
    ],
    "basename": "2026-11-20-commissary-freezer-attribution",
-   "confidence": 26
+   "confidence": 26,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Democrats: subpoena before the first reported bill",
@@ -7047,7 +7050,8 @@
     }
    ],
    "basename": "2026-11-20-democratic-subpoena-before-first-bill",
-   "confidence": 47
+   "confidence": 47,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "EO 13848: does the 2026 election get flagged as foreign-influenced",
@@ -7089,7 +7093,8 @@
     }
    ],
    "basename": "2026-11-20-eo13848-2026-election-flag",
-   "confidence": 42
+   "confidence": 42,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "First institutional act on 2026 election-integrity grounds",
@@ -7131,7 +7136,8 @@
     }
    ],
    "basename": "2026-11-20-first-election-integrity-institutional-act",
-   "confidence": 61
+   "confidence": 61,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Gulf bypass: does Saudi Arabia acknowledge East-West pipeline damage",
@@ -7173,7 +7179,8 @@
     }
    ],
    "basename": "2026-11-20-gulf-bypass-saudi-acknowledgement",
-   "confidence": 37
+   "confidence": 37,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Habeas suspension: does the float become an instrument",
@@ -7215,7 +7222,8 @@
     }
    ],
    "basename": "2026-11-20-habeas-suspension-instrument",
-   "confidence": 29
+   "confidence": 29,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Hegseth: discharge petition on H RES 1655 reaches 218",
@@ -7257,7 +7265,8 @@
     }
    ],
    "basename": "2026-11-20-hegseth-discharge-218-signatures",
-   "confidence": 44
+   "confidence": 44,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "J5: is a named successor to Lt. Gen. Sylvia announced",
@@ -7299,7 +7308,8 @@
     }
    ],
    "basename": "2026-11-20-j5-sylvia-successor-named",
-   "confidence": 58
+   "confidence": 58,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "'Loyal elements' formulation reaches an official or verified account",
@@ -7341,7 +7351,8 @@
     }
    ],
    "basename": "2026-11-20-loyal-elements-official-adoption",
-   "confidence": 52
+   "confidence": 52,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Moldova: further Russian violation of or strike on Moldovan territory",
@@ -7383,7 +7394,8 @@
     }
    ],
    "basename": "2026-11-20-moldova-territory-violation-again",
-   "confidence": 34
+   "confidence": 34,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "NSPM-7 Rung 2: first official act naming a domestic political organisation",
@@ -7425,7 +7437,8 @@
     }
    ],
    "basename": "2026-11-20-nspm7-rung2-domestic-org-act",
-   "confidence": 38
+   "confidence": 38,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Ohio: lame-duck transfer of appointment or rulemaking authority",
@@ -7467,7 +7480,8 @@
     }
    ],
    "basename": "2026-11-20-ohio-lame-duck-authority-transfer",
-   "confidence": 39
+   "confidence": 39,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Iran: is an outside adviser named in print arguing for surrender",
@@ -7509,7 +7523,8 @@
     }
    ],
    "basename": "2026-11-20-outside-advisers-iran-surrender-named",
-   "confidence": 55
+   "confidence": 55,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Poland: security legislation after the Krak\u00f3w attack",
@@ -7551,7 +7566,8 @@
     }
    ],
    "basename": "2026-11-20-poland-security-legislation-krakow",
-   "confidence": 48
+   "confidence": 48,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "China: will the PRC name or acknowledge the Taiwan isolation exercise",
@@ -7593,7 +7609,8 @@
     }
    ],
    "basename": "2026-11-20-prc-names-taiwan-isolation-exercise",
-   "confidence": 44
+   "confidence": 44,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Texas Senate: does a majority-leader post get created",
@@ -7635,7 +7652,8 @@
     }
    ],
    "basename": "2026-11-20-texas-senate-majority-leader-power-strip",
-   "confidence": 41
+   "confidence": 41,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Yalta-2: is a date and venue set for a Trump-Putin-Xi summit",
@@ -7677,7 +7695,8 @@
     }
    ],
    "basename": "2026-11-20-yalta-2-summit-date-venue",
-   "confidence": 36
+   "confidence": 36,
+   "grace_horizon": "0 days \u2014 grace not pre-registered"
   },
   {
    "title": "Antipoliteia test: does any branch or officer refuse at cost, 2027-01-06 to 2027-01-20",
@@ -18325,7 +18344,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-20 17:40Z",
+  "generated": "2026-11-20 17:41Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
