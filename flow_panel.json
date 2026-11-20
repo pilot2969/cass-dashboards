@@ -60,8 +60,8 @@
     {
      "month": "2026-11",
      "raw": 3,
-     "per_100_journal": 11.5,
-     "journal": 26,
+     "per_100_journal": 11.1,
+     "journal": 27,
      "ledger": 91,
      "days_covered": 19
     }
@@ -75,7 +75,7 @@
      "2026-08": 14,
      "2026-09": 176,
      "2026-10": 189,
-     "2026-11": 26
+     "2026-11": 27
     },
     "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
    },
