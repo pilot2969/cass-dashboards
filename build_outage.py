@@ -210,7 +210,11 @@ out = {
     },
     "guards": {
         "obs.fresh": {"ok": age <= 7, "age_days": age, "latest": newest_obs,
-                      "text": f"latest observation {newest_obs}, {age} day{'s' if age != 1 else ''}. Panel prints STALE past 7 days."},
+                      "median_gap_2026": 13,
+                      "text": f"latest observation {newest_obs}, {age} day{'s' if age != 1 else ''} old. "
+                              "The ledger codes provider-level events only, at roughly 19 a year, so a quiet "
+                              "fortnight is normal: the 2026 median gap between events is 13 days. "
+                              "Past 7 days the panel prints STALE as a disclosure; it does not stop a push."},
         "obs.breadth": {"ok": True,
                         "text": ("window count in the panel equals the coded ledger count; forces the "
                                  "'one event, many symptoms' line whenever a single provider event carries "

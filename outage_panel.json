@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-20",
  "source": "outage_ledger.csv",
  "n_events": 60,
  "window": "2020-07-17 \u2192 2026-11-12",
@@ -175,28 +175,28 @@
     "provider": "AWS",
     "scope": "me-central-1 UAE",
     "note": "Drone strikes; some AZ data unrecoverable",
-    "still_down_days": 261,
-    "still_down_label": "8 mo 16 d",
+    "still_down_days": 264,
+    "still_down_label": "8 mo 19 d",
     "still_down_months": 8,
-    "still_down_rem": 16,
+    "still_down_rem": 19,
     "when": "1 March 2026",
     "where": "AWS data centre region, United Arab Emirates",
     "what": "Drone strikes damaged the facility; some data in one availability zone was unrecoverable.",
-    "status": "still down, 8 mo 16 d"
+    "status": "still down, 8 mo 19 d"
    },
    {
     "date": "2026-03-02",
     "provider": "AWS",
     "scope": "me-south-1 Bahrain",
     "note": "Drone strike; region declared unavailable",
-    "still_down_days": 260,
-    "still_down_label": "8 mo 15 d",
+    "still_down_days": 263,
+    "still_down_label": "8 mo 18 d",
     "still_down_months": 8,
-    "still_down_rem": 15,
+    "still_down_rem": 18,
     "when": "2 March 2026",
     "where": "AWS data centre region, Bahrain",
     "what": "Drone strike damaged the facility; the operator declared the region unavailable.",
-    "status": "still down, 8 mo 15 d"
+    "status": "still down, 8 mo 18 d"
    }
   ],
   "named_actor": 0,
@@ -237,10 +237,11 @@
  },
  "guards": {
   "obs.fresh": {
-   "ok": true,
-   "age_days": 5,
+   "ok": false,
+   "age_days": 8,
    "latest": "2026-11-12",
-   "text": "latest observation 2026-11-12, 5 days. Panel prints STALE past 7 days."
+   "median_gap_2026": 13,
+   "text": "latest observation 2026-11-12, 8 days old. The ledger codes provider-level events only, at roughly 19 a year, so a quiet fortnight is normal: the 2026 median gap between events is 13 days. Past 7 days the panel prints STALE as a disclosure; it does not stop a push."
   },
   "obs.breadth": {
    "ok": true,
