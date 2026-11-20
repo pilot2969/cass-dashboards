@@ -178,3 +178,14 @@
 
 ### Protocol
 - Push protocol amended after the lock incidents: batch commits into a single push; never cancel/requeue mid-flight (cancellation mid-deploy is what creates the phantom lock); syntax-check all script blocks before push.
+
+## 2026-11-20 — the 13–19 November cluster is archived
+
+Owner instruction: the cluster goes to the archive. The base-rate series stays at 60 codable events with 2026-11-12 as its newest row — the window is preserved, not admitted.
+
+- `Research/Outage Base Rate/Cluster 2026-11-13 to 2026-11-19.md` — the window in order, with the promotion test for every row.
+- `Cluster 2026-11-13 to 2026-11-19 (excluded).csv` — same columns as the ledger plus `status` and `reason`, so any row can be promoted on evidence rather than on date proximity.
+- `/space/archive/outage-cluster-2026-11-13-to-2026-11-19` — structured record.
+- The STALE banner now names the cadence and points at the archive, so a reader who sees an eight-day gap learns why it is eight days rather than assuming the tracker fell behind.
+
+Open item flagged, not resolved: the 11-17 decomposition proposed admitting FAA FTI and Chase. Neither was ever added and nothing records why. If admitted, the series is 62 and the newest row 11-16.
