@@ -1,0 +1,138 @@
+# The Daily Read
+
+DATE: 2026-11-20
+
+SUMMARY:
+- [12:15] Putin Says There Will Be No Negotiations, Then Hits Kyiv's Bridges and Lands Missiles in Poland
+- [12:15] Washington Says 'After the New Year' and 'Short Term' About Iran on the Same Day
+- [12:15] Congress Has a Funding Deadline Now, and the Iran War Is Standing in Front of It
+- [12:15] The Senate Passes the Bill That Lets Data Centres and Power Plants Get Built
+- [12:15] Anthropic's Stock Falls on Day Two, and California Subpoenas the Chip Company
+- [12:15] A Judge Tells the Agriculture Secretary to Stop Sending Religious Emails From an Official Account
+- [12:15] The World Court Finds a Country Committed Genocide
+- [12:15] The Enforcement Record Is Being Built One City at a Time
+- What we're watching
+
+WATCHING:
+- Poland: whether Warsaw asks for formal alliance consultations, and whether the next incursion is called an accident again
+- Iran: a campaign name, and whether Israel acts without the United States
+- Congress: the 11 December funding deadline, and whether the war funding is severed from it
+- The House: the permitting bill, and whether the data-centre provisions survive
+
+<!--parser markers above; collapsible cards below-->
+**CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[12:15] Putin Says There Will Be No Negotiations, Then Hits Kyiv's Bridges and Lands Missiles in Poland</summary>
+
+<p><b>What happened.</b> Vladimir Putin said there would be <b>no negotiations</b> over the war in Ukraine and promised a response "far more painful" than Ukraine's strike on the bridge linking Russia to Crimea. Overnight, Russia fired dozens of ballistic missiles and hundreds of drones: <b>three bridges across the Dnieper River in Kyiv</b> were hit and at least nine people were killed. Then <b>two Russian cruise missiles and a jet-powered drone came down inside Poland</b>, in farmland in the south-east. Poland's prime minister, Donald Tusk, called it an "intentional provocation", timed to coincide with military exercises being held on Polish soil for a possible postwar mission in Ukraine. Nobody was hurt.</p>
+<p><b>Why it matters.</b> Two days ago, a summit between the American, Chinese and Russian leaders produced a "peace declaration" on Ukraine. Today the man who signed it said there will be no negotiations and showed what he meant by hitting the capital's river crossings — the same kind of target Ukraine used against his bridge. A peace process that does not survive forty-eight hours past its own announcement is not a peace process. That is the important fact today, more important than any single strike.</p>
+<p><b>The pattern.</b> A weapon that lands in NATO territory during an exercise is a test with a built-in way out: it can always be called an accident. Warsaw's own word — "provocation", not "attack" — shows it has taken that way out. The same missile type crossed into Poland in July and produced the same sentence. When a signature repeats, it is a signature, and the absence of any response is what makes repeating it cheap.</p>
+<p><b>What history says.</b> Missiles that stray into a neighbour's territory during a war have rarely started a wider one, because the country that owns the territory decides what the object was. In November 2022 a missile killed two people in Poland and was quickly ruled a Ukrainian air-defence misfire; the alliance's answer was consultation, not confrontation. Putin is testing whether that answer is still available.</p>
+<p><b>What we're watching next.</b> Whether Poland formally asks for alliance consultations, and whether the next incursion is treated as an accident again. Also whether Russia names a new phase of the war — a campaign name from the defence ministry is the cheapest public sign that a bigger operation has begun.</p>
+<p><b>Sources:</b> <a href="https://www.cnn.com/2026/11/20/europe/russia-ukraine-putin-trump-intl-hnk">CNN</a>, <a href="https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o">BBC News</a>, <a href="https://www.theguardian.com/world/2026/nov/20/russian-missiles-drone-poland-attacks-ukraine">The Guardian</a>, <a href="https://apnews.com/article/ukraine-russia-war-kyiv-attacks-putin-crimea-433e18f00cbd37a2a9da94e60fce0e07">AP</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] Washington Says 'After the New Year' and 'Short Term' About Iran on the Same Day</summary>
+
+<p><b>What happened.</b> President Trump told an Israeli television channel he is <b>"not rushing to make any decisions on Iran"</b> and could wait: "We'll see what happens after the new year starts." In the same cycle, CBS News reported from sources that the <b>United States and Israel are considering a new assault on Iran "in the short term"</b>, with Israel's government worried about how fast Iran is rebuilding its missile production and moving military and nuclear sites underground. The Senate rejected a resolution to pull US forces out of the war, 48 to 51. Iran's foreign ministry dismissed Trump's claim that it may be seeking chemical or biological weapons, comparing it to Colin Powell's vial at the United Nations in 2003. Yemen's Houthis declared Riyadh's financial district a <b>"military target"</b> and told investors to leave Saudi Arabia; a cargo ship in the Gulf of Aden reported being fired on by armed men in a small boat.</p>
+<p><b>Why it matters.</b> A president saying "not until 2027" and a wire service reporting an attack under consideration "in the short term", on the same day, is not confusion — it is two clocks running at once. The political clock runs to the seating of the new Congress in January. The military clock runs to how long Iran's rebuild stays targetable. Whoever is briefing CBS is arguing that the second clock is winning.</p>
+<p><b>The pattern.</b> When an ally wants a joint operation and the patron is reluctant, the pressure shows up as sourcing: unattributed officials describing plans as nearly decided. That is how a decision gets made in public, and it also builds the case that the patron stalled. Watch for the same story to move from "considering" to "prepared" to "ordered".</p>
+<p><b>What history says.</b> The 2003 Iraq invasion was preceded by exactly the claim Iran's foreign ministry is now invoking — weapons of mass destruction asserted without evidence, ahead of a decision already being made. The comparison is being made by Tehran, not by us, and it is a fair one. The lesson of that episode is not that the claim was false; it is that nobody asked what evidence would settle it before the troops moved.</p>
+<p><b>What we're watching next.</b> A campaign name. A single strike is a message; a named operation is a war phase, and the naming is the cheapest thing to watch. Also: whether Israel acts alone. If the American president keeps saying no, the pre-positioned aircraft and the closing window make a solo Israeli strike the likelier path.</p>
+<p><b>Sources:</b> <a href="https://www.cbsnews.com/live-updates/iran-war-trump-tehran-denies-chemical-weapons/">CBS News</a>, <a href="https://www.cbsnews.com/news/iran-war-us-israel-considering-new-assault-sources-say/">CBS News</a>, <a href="https://www.reuters.com">Reuters</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] Congress Has a Funding Deadline Now, and the Iran War Is Standing in Front of It</summary>
+
+<p><b>What happened.</b> Congress must fund the government by <b>11 December</b>, and there is no agreement. The Iran war has become the obstacle: Democrats are debating whether to use must-pass spending as leverage, and Republicans are divided over the president's $350 billion defence request.</p>
+<p><b>Why it matters.</b> A shutdown fight over spending levels is routine and usually ends in a short extension. A shutdown fight that turns on a war is not routine, because the usual fix — pass another short-term funding bill — does not resolve the disagreement underneath it. It only postpones the vote on the war.</p>
+<p><b>The pattern.</b> The war that Republicans just declined to constrain through a war-powers vote can still be constrained through the money. That is the same question in a different chamber, asked with a tool that actually binds: a resolution is symbolic, an appropriation is not.</p>
+<p><b>What history says.</b> The 2013 shutdown over the Affordable Care Act did not change the law, and the 2018–19 shutdown over border wall money did not produce the money — it produced a declaration of emergency instead. Funding fights mostly fail to deliver the policy, and the cost lands on the agencies that stop working. The exception is when the fight buys a deadline that forces the other side to vote.</p>
+<p><b>What we're watching next.</b> Whether leadership signals a short extension of a few weeks or one running to the end of the fiscal year. Short means a real fight in December; long means the war funding question has been parked until spring.</p>
+<p><b>Sources:</b> <a href="https://www.scrippsnews.com/politics/congress/iran-war-funding-fight-raises-threat-of-december-government-shutdown">Scripps News</a>, <a href="https://apnews.com">AP</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] The Senate Passes the Bill That Lets Data Centres and Power Plants Get Built</summary>
+
+<p><b>What happened.</b> The Senate passed a sweeping <b>permitting reform bill, 62 to 33</b>, that speeds up approval for power plants, transmission lines, pipelines, mines and <b>data centres</b>. Its sponsors call it the Bipartisan American Affordability and Jobs Act. Reporting on it names the driver plainly: rising energy costs and demand from artificial intelligence.</p>
+<p><b>Why it matters.</b> Permitting law is the slowest thing a government changes and the most durable. It does not spend money; it removes the procedural friction that decides how many years a project takes. For the AI build-out, the binding constraint has moved from chips to electricity, and this is the first act of Congress that treats computing load as infrastructure.</p>
+<p><b>The pattern.</b> The week's loudest fight was over war powers and the week's quietest work was over building things. One failed and one passed 62 to 33. That is worth holding on to: the machinery for construction is still functioning bi-partisanly even as everything else divides.</p>
+<p><b>What history says.</b> The Interstate Highway Act of 1956 and the 1996 telecommunications act both changed what could be built by changing approval rules rather than by funding projects, and both shaped the following thirty years more than the budgets did. The 1970 Clean Air Act amendments did the same in reverse — procedure became the policy.</p>
+<p><b>What we're watching next.</b> The House. A bill that passes the Senate 62 to 33 usually moves, but the House has its own version and its own coalition. Also whether the data-centre provisions survive conference as written; that clause is the one with a constituency that did not have to lobby for it.</p>
+<p><b>Sources:</b> <a href="https://www.politico.com/news/2026/11/19/senate-passes-landmark-permitting-deal-01177557">POLITICO</a>, <a href="https://www.npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill">NPR</a>, <a href="https://www.nytimes.com/2026/11/19/climate/senate-passes-baaja-permitting-bill-energy.html">The New York Times</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] Anthropic's Stock Falls on Day Two, and California Subpoenas the Chip Company</summary>
+
+<p><b>What happened.</b> Anthropic's shares <b>fell after its first day of trading</b>, having raised $93.5 billion including the extra shares sold to underwriters. California's attorney general served an <b>investigative subpoena on Nvidia</b> over chips possibly reaching China and the conduct of its former chief executive. A House committee said the US approved nearly <b>900,000 AI chips for China in six months</b>. The president disclosed buying up to $265,000 of Nvidia stock in September. Beijing said it would bar young Chinese technology firms from listing outside the mainland. Costco reported a surge in panic buying after the tech outages.</p>
+<p><b>Why it matters.</b> Yesterday's story was that a trillion-dollar listing prices the replacement of white-collar work. A close below the offer price does not undo that — first-day gains often fade — but it does mean the market added nothing today. Meanwhile the legal pressure moved to a different target: a state attorney general subpoenaing the hardware supplier, not the model maker. That is a different theory of who is responsible.</p>
+<p><b>The pattern.</b> Capital and liability are being created on the same object from opposite ends. Public money prices the upside of automation; public prosecutors price the downside of the supply chain. When both point at the same company in the same week, the company becomes a policy question rather than a stock.</p>
+<p><b>What history says.</b> The railway boom of the 1870s and the dot-com listing wave of 1999 both had their valuations set before the regulation arrived, and the regulation arrived through the states first — railroad commissions, then state securities laws, long before federal agencies. California subpoenaing a chip company is that pattern, not a new one.</p>
+<p><b>What we're watching next.</b> Whether the subpoena produces documents or a settlement, and whether other states follow. One attorney general is a probe; five is a regime.</p>
+<p><b>Sources:</b> <a href="https://finance.yahoo.com">Yahoo Finance</a>, <a href="https://www.cnbc.com">CNBC</a>, <a href="https://www.reuters.com">Reuters</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] A Judge Tells the Agriculture Secretary to Stop Sending Religious Emails From an Official Account</summary>
+
+<p><b>What happened.</b> A federal judge ordered the agriculture secretary to stop sending <b>religious emails from an official government account</b>, ruling the practice unconstitutional. The administration is considering an appeal. In the same week, a judge kept a block on the <b>Kennedy Center's two-year closure</b> and the administration asked him to lift it; another extended an injunction against the president's triumphal arch, which families of the fallen say will cast a shadow over Arlington National Cemetery. New York's mayor set out a plan to close Rikers Island jail.</p>
+<p><b>Why it matters.</b> Courts are the only branch producing outcomes that bind this week. Every ruling against the administration was appealed rather than ignored, which is the important distinction: a government that litigates loses slowly, a government that disobeys loses the system. So far it is litigating.</p>
+<p><b>The pattern.</b> The fights are all about the same thing — whether the state's own platforms can be used to carry a message. A cabinet department's email list, a national cultural centre, a monument on federal land. Each is a place where official capacity and political speech occupy the same space, and the courts keep drawing the line at the point where the office becomes the pulpit.</p>
+<p><b>What history says.</b> The Supreme Court's 1971 ruling in Lemon v. Kurtzman built the test that governed these cases for decades, and its 2022 reversal in Kennedy v. Bremerton replaced it with a history-and-tradition standard that is vaguer and more permissive. That is why lower-court rulings now read inconsistently: the test changed, and the facts have not settled into it yet.</p>
+<p><b>What we're watching next.</b> The appeal. A district ruling is a stop; an appellate ruling is a rule. And whether any order is disobeyed rather than appealed — that is the line that would matter.</p>
+<p><b>Sources:</b> <a href="https://www.theguardian.com/us-news/live/2026/nov/20/donald-trump-politics-live">The Guardian</a>, <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] The World Court Finds a Country Committed Genocide</summary>
+
+<p><b>What happened.</b> The International Court of Justice ruled that <b>Myanmar committed genocide against the Rohingya</b>, the Muslim minority driven out of the country's west in 2017. Myanmar's government called the ruling "unfair".</p>
+<p><b>Why it matters.</b> A finding that a state is responsible for genocide is one of the rarest outputs the international system produces. It does not change what happened; it changes the legal status of everything that follows — reparations claims, criminal referrals, the standing of the government that is still in power.</p>
+<p><b>The pattern.</b> The court can determine responsibility and cannot enforce it. That gap is not a flaw in this case; it is the design. The value of the ruling is that it fixes the record while the politics move on, and records outlast governments.</p>
+<p><b>What history says.</b> The court's 2007 judgment in Bosnia v. Serbia found genocide at Srebrenica but cleared Serbia of responsibility for it, and nothing was enforced then either. The 2024 rulings on Gaza produced orders without compliance. What those rulings did do was constrain the vocabulary: after them, governments and lawyers had to argue inside a finding rather than around it.</p>
+<p><b>What we're watching next.</b> Whether any state files for reparations, and whether the ruling changes the treatment of Rohingya refugees in the countries sheltering them. A judgment that alters refugee policy is one that mattered.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] The Enforcement Record Is Being Built One City at a Time</summary>
+
+<p><b>What happened.</b> None of these led a national news feed, and together they are the week's most complete account of immigration enforcement: a <b>Houston grand jury indicted an ICE agent</b> for aggravated assault with a deadly weapon after a migrant's family said he was deliberately run down; a <b>pregnant American citizen</b> says agents pepper-sprayed and tackled her at a California protest; a mother was arrested near her child's school in Encinitas and the school district issued a response; a federal appeals court in Denver questioned the government about <b>warrantless arrests</b> in Colorado; New Jersey sued the Homeland Security Department over conditions at a Newark detention centre; a Texas county signed an enforcement agreement; ten people were detained at a protest outside Philadelphia's immigration office.</p>
+<p><b>Why it matters.</b> Federal policy is one story. What it actually does is thousands of local ones, and the local ones are where the rules get tested: a grand jury deciding whether an officer's conduct was a crime, a court asking what authorises an arrest without a warrant, a state suing over a facility it can see. These are the cases that will decide whether the enforcement programme is lawful, and almost none of them travel nationally.</p>
+<p><b>The pattern.</b> The national feeds cover announcements. The metro papers cover consequences. A programme can look like a policy in one and like a set of lawsuits in the other, and the second is where its future is decided.</p>
+<p><b>What history says.</b> The civil rights litigation of the 1950s and 1960s was built this way — not by a national case but by hundreds of local arrests, each generating a record, until the records forced a rule. Dramatic national events set the politics; local dockets set the law.</p>
+<p><b>What we're watching next.</b> The Houston case. A grand jury indictment of a federal officer is rare and it creates a criminal record that cannot be dismissed as politics. Also the Denver appeal, which could produce a circuit rule on warrantless arrests.</p>
+<p><b>Sources:</b> <a href="https://www.coloradopolitics.com">Colorado Politics</a>, <a href="https://www.nbcphiladelphia.com">NBC10 Philadelphia</a>, <a href="https://www.cbsnews.com">CBS News</a>, <a href="https://www.aol.com">AOL/Houston</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[12:15] What we're watching</summary>
+
+<p><b>Poland.</b> Whether Warsaw formally asks for alliance consultations, and whether the next incursion is treated as an accident again. A repeating signature with no response is the thing to watch, not the object in the field.</p>
+<p><b>Iran.</b> A campaign name from a defence ministry is the cheapest public marker of a new war phase. And whether Israel acts alone — the pre-positioned aircraft and the closing window make a solo strike the likelier path if the American president keeps saying no.</p>
+<p><b>Congress.</b> The 11 December funding deadline, and whether war funding is severed from the spending bill or rides on it. A short extension means a real fight in December; a long one parks it.</p>
+<p><b>The House.</b> The permitting bill passed the Senate 62 to 33. Whether the data-centre provisions survive is the clause to watch, because that constituency did not have to lobby for it.</p>
+</details>
