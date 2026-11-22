@@ -67,6 +67,15 @@ for md in sorted(glob.glob(os.path.join(REPO, "Daily Read*.md"))):
     slug = slugify(name, raw) if re.search(r"\d{4}-\d{2}-\d{2}", name) else slugify(date_from_content(raw) or name, raw)
     body = to_html(md)
     txt = plain_text(body)
+    # 2026-11-22 FIX: a day-roll reset template parses fine (it has DATE:) but has
+    # no edition in it. It was being written to archive/ as a real page the moment
+    # the roll reset the file, so the archive grew a blank 11-22 edition and the
+    # index advertised it. An edition with no cards is not an edition -- skip it
+    # and leave it out of the index until a wire run fills it.
+    if ("no sections filed yet" in txt and len(_raw) < 600
+            and not re.search(r"^\[\d{2}:\d{2}\]", _raw, re.M)):
+        print(f"skipped (reset template, no cards filed): {os.path.basename(md)}")
+        continue
     m = re.search(r"DATE:\s*(\S+)", txt)
     edate = (date_from_content(raw) or slug)
     h1 = next((l for l in open(md).read().splitlines() if l.startswith("# ")), name)

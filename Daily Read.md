@@ -1,7 +1,127 @@
-# The Daily Read — 2026-11-21
+# The Daily Read
 
-DATE: 2026-11-21
+DATE: 2026-11-22
 
-**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
+SUMMARY:
+- [08:35] Contractors Are Told to Check With the White House Before Answering Congress
+- [08:35] The Custody Net Now Includes People Who Were Never the Target
+- [08:35] The FBI Is Investigating a Breach of the Database That Connects Every Police Department
+- [08:35] Iran Hits Three Tankers, and the Vice-President Won't Price the War
+- [08:35] Voters Removed the Sheriffs Who Signed the Immigration Pacts
+- [08:35] Virginia Reports the First Child Measles Death of 2026
+- [08:35] The Succession Argument Has Started Inside the Coalition
+- [08:35] Mexico Takes a Top Drug Lord, and Eleven Die Doing It
+- What we're watching
 
-(no sections filed yet — first wire run of the day writes the morning edition)
+WATCHING:
+- The contractor directive's form: a memo, a contract clause, or a phone call
+- Whether any sheriff formally withdraws, and whether a state bans the agreements
+- Whether the FBI breach is called access, alteration, or enumeration
+- The 11 December funding deadline, with the war attached to it
+
+<!--parser markers above; collapsible cards below-->
+**CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[08:35] Contractors Are Told to Check With the White House Before Answering Congress</summary>
+
+<p><b>What happened.</b> President Trump has ordered federal contractors to consult the White House before responding to inquiries from Congress, according to <a href="https://apnews.com">AP</a>, which is carrying the story with six outlets including CNN, NPR and The Hill. It is the broadest-corroborated political story in this morning's sweep.</p>
+<p><b>Why it matters.</b> A contractor answering a committee is a private company doing public work, speaking to the body that appropriates the money. Making it clear that answer with the executive first changes what Congress can learn: nothing is refused, the information just arrives late, filtered, and from a party whose contract can be punished. Oversight becomes permission.</p>
+<p><b>The pattern.</b> This is not an arrest programme. It is the cheaper move next to one: you do not have to lock up an opponent if every firm and organisation that would fund, staff or speak for one has to ask first. Soft instruments survive court challenge better than hard ones, which is why they are tried first.</p>
+<p><b>What history says.</b> The Nixon administration tried to control the flow of information to Congress through exactly this layer — the contractors, not the employees — and the courts struck at it through the contract, not through the speech. In 2019 the first impeachment turned on a policy of routing a foreign government's business through private channels to keep it out of view. Both episodes teach the same thing: the paperwork is the crime scene.</p>
+<p><b>What we're watching next.</b> The form of the directive. A memo is policy and can be challenged; a contract clause is enforceable; a phone call is deniable and shapes behaviour fastest. Then the first congressional letter that comes back late.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a>, <a href="https://www.npr.org">NPR</a>, <a href="https://thehill.com">The Hill</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] The Custody Net Now Includes People Who Were Never the Target</summary>
+
+<p><b>What happened.</b> Washington's governor and a union publicly denounced ICE arrests of travellers at Seattle-Tacoma airport — the morning's most widely carried story, at eight outlets. Smaller items, carried only in local markets: a Princeton student detained at Reagan Airport; a Chinese-born neuroscientist detained while travelling; a federal judge in New York refusing to release a man who was shot by immigration agents; a court filing in which the government admits an Austin man it deported held dual citizenship; and the last migrant shelter in New York City closing.</p>
+<p><b>Why it matters.</b> An airport is the one place where status gets checked by definition. That makes it the cheapest place to widen a net without passing a new law: students, scientists and travellers are not the target named in the programme, they are the evidence that the checkpoint has become the policy. It also produces different plaintiffs — people with visas, institutions and lawyers — which is how these cases reach courts that criminal-history cases never reach.</p>
+<p><b>The pattern.</b> The enforcement record has grown by city for four weeks running, not by statute. A programme that expands by location rather than by law is one that is testing where objection is weakest. The Seattle union is the tell: a governor objecting is politics, a union objecting means its members are being ordered to do something they think is unlawful, and unions only put that in writing when they want protection.</p>
+<p><b>What history says.</b> The 1950s deportation programme known as Operation Wetback was sold as a criminal-enforcement drive and in practice swept up citizens and legal residents, which is what eventually broke its political support. The 2017 travel ban litigation was won and lost on the same hinge: whether the check applied to a class of people or to a place.</p>
+<p><b>What we're watching next.</b> What the union asks for. An instruction to refuse, a demand for written legal cover, or a grievance — any one of the three is a document, and a document is what turns a complaint into a case.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.cbsnews.com">CBS News</a>, <a href="https://www.theguardian.com">The Guardian</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] The FBI Is Investigating a Breach of the Database That Connects Every Police Department</summary>
+
+<p><b>What happened.</b> The FBI is investigating an apparent hack of its key national criminal justice database, according to an AP source, and CNN reports the president attempting to put a "positive spin" on it.</p>
+<p><b>Why it matters.</b> This is the plumbing of American policing: it is what lets an officer in one state see a record from another. If someone got in rather than merely knocked, the damage is not stolen files — it is the integrity of the queries. A record that is altered or injected propagates silently into arrests, bail decisions and job background checks for years, and there is no outage page to announce it.</p>
+<p><b>The pattern.</b> Look at the contrast inside one week. Microsoft published an incident number and named the failing component of its mail outage. Here there is an anonymous source and a framing. When a system that decides liberty fails quietly and the response is spin, the political handling is the story.</p>
+<p><b>What history says.</b> The 2015 breach of the Office of Personnel Management exposed the files of 22 million people and was detected only after contractors noticed. The lesson taken from it was not about firewalls; it was that the government had no inventory of what it held. The same question now: does anyone know which records were read?</p>
+<p><b>What we're watching next.</b> The distinction the bureau eventually draws — access, alteration, or enumeration only. Three different incidents, three different fixes, and the public account has not separated them.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] Iran Hits Three Tankers, and the Vice-President Won't Price the War</summary>
+
+<p><b>What happened.</b> Iran struck three tankers and displayed its missile launchers, according to AP. Bahrain says Iran struck an industrial facility there and that its air defences intercepted further attacks. Vice-President Vance deflected when asked whether the Iran war is worth the political price.</p>
+<p><b>Why it matters.</b> The Vance answer is the one to keep. A vice-president declining to price a war has already priced it. Wars that are going well do not produce that sentence, and the refusal to say the number out loud usually means the number has been calculated internally and does not help.</p>
+<p><b>The pattern.</b> Tanker strikes plus a named industrial target in a Gulf state is the same campaign at a lower tempo than the base attacks of 15 and 16 November. That is what a war looks like once it becomes routine — and routine is the dangerous state, because attention decays while cost accumulates, and the funding vote in December arrives with no public argument attached to it.</p>
+<p><b>What history says.</b> The tanker war of 1987–88 ran for more than a year on exactly this exchange: shipping hit, escorts promised, insurance repriced, no declaration. It ended when both sides decided the cost of continuing exceeded the cost of stopping, not when anyone won. The 2003 invasion's political collapse came years later, in the appropriations that quietly stopped being debated.</p>
+<p><b>What we're watching next.</b> The 11 December funding deadline, and whether the war money is severed from it. And whether an ally in the Gulf asks publicly for something it has so far only asked for privately.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>, <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] Voters Removed the Sheriffs Who Signed the Immigration Pacts</summary>
+
+<p><b>What happened.</b> Voters ousted several sheriffs who had signed agreements to assist federal immigration enforcement, according to AP.</p>
+<p><b>Why it matters.</b> This is the first electoral return on the enforcement programme, and it runs against the national result. Sheriffs are the most locally accountable police in the country — elected, small constituencies, no national press. If cooperation costs them their seats, the voluntary layer thins out exactly where the arrests actually happen.</p>
+<p><b>The pattern.</b> The federal answer to a thinning local layer is substitution: send federal officers into airports, courthouses and streets instead. That is what produces the detained students and scientists in the story above. The two stories are one mechanism, and the second is a consequence of the first.</p>
+<p><b>What history says.</b> In the 1960s the same dynamic ran in reverse on civil rights: local sheriffs who refused to enforce federal desegregation kept their offices for years, and federal marshals had to be sent in. When a programme depends on elected local officials, the elections are the implementation.</p>
+<p><b>What we're watching next.</b> Whether the incoming sheriffs formally withdraw from the agreements, and whether any state legislature moves to prohibit them. Withdrawal is a document; a campaign platform is not.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>, <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.justthenews.com">Just The News</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] Virginia Reports the First Child Measles Death of 2026</summary>
+
+<p><b>What happened.</b> Virginia reports that a young child has died of measles — the state's first such death this year, per AP. It comes four days after the United States lost its measles elimination status.</p>
+<p><b>Why it matters.</b> Elimination status is a certification about transmission chains; a child's death is the ledger entry underneath it. Officials can argue about a certification. They cannot argue about a funeral, which is why this changes the politics faster than the status decision did.</p>
+<p><b>The pattern.</b> The certification arrived already final — a rare metric that cannot be revised by spin. Deaths then arrive one at a time and each one is local, which means each one gets a state health department, a school district, and a set of parents who now have a specific grievance.</p>
+<p><b>What history says.</b> Measles was declared eliminated in the United States in 2000 after a decades-long vaccination campaign. The 2019 New York outbreaks — the largest since that declaration — were ended by school exclusions and emergency vaccination orders, not by persuasion. Every restoration of status has followed the same sequence: a death, then a mandate, then litigation.</p>
+<p><b>What we're watching next.</b> Whether Virginia issues a school-exclusion order, and whether a second state reports a death within the fortnight. Two states makes it a pattern; one is an event.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] The Succession Argument Has Started Inside the Coalition</summary>
+
+<p><b>What happened.</b> Christian nationalists are describing the Republicans' midterm losses as an opportunity to supplant Trump's MAGA movement, per AP. In the same cycle, Trump praised Jeffries's Speakership nod despite Stephen Miller's jabs at him.</p>
+<p><b>Why it matters.</b> Two signals pointing one way: the coalition's ideological core has begun discussing what comes after the leader, while the leader is complimenting the incoming Democratic Speaker. A movement that names its successor has begun pricing the incumbent's decline — and the fight over who inherits the apparatus is the thing that will decide 2027.</p>
+<p><b>The pattern.</b> Succession arguments begin as theological ones. Nobody says "we need a new leader"; they say the movement was never about a man. That formulation is the opening move, and it lets the incumbent be praised while being replaced.</p>
+<p><b>What history says.</b> The 1964 Goldwater defeat produced the movement that won in 1980: the loss was reinterpreted as purification, and the activists who stayed became the organisation. The 2012 "autopsy" took the opposite path — it recommended moderation and was abandoned within four years. Purification beats apology inside a coalition every time.</p>
+<p><b>What we're watching next.</b> A named heir, not an essay. The moment a specific person is described as the movement's future, the succession is real; until then it is a mood.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[08:35] Mexico Takes a Top Drug Lord, and Eleven Die Doing It</summary>
+
+<p><b>What happened.</b> Mexico captured a top drug lord known as "El Chapo Isidro" in the north, in a firefight that left 11 dead, described by Reuters as the latest in a string of arrests.</p>
+<p><b>Why it matters.</b> A string of arrests is a bilateral programme producing visible trophies. Whether it is a programme or a photograph is decided by one thing: what happens to the extraditions.</p>
+<p><b>The pattern.</b> Decapitation without extradition historically fragments a cartel rather than removing it. The lieutenants who inherit have less to lose, no established relationships with officials, and an incentive to prove violence. The arrest count rises while the violence count rises with it.</p>
+<p><b>What history says.</b> The 2016 recapture of El Chapo and the 2019 detention-then-release of Ovidio Guzmán both produced exactly this: a visible win, then a negotiated retreat, then more violence in the same state. The 2024 Sinaloa collapse after its leaders' arrests is the cleanest recent example — the organisation split and the killing went up.</p>
+<p><b>What we're watching next.</b> The extradition request, and whether it is filed within 30 days. A request on paper is a decision; a transfer is a policy.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>.</p>
+</details>
