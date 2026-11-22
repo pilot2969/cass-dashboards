@@ -3,14 +3,14 @@
 DATE: 2026-11-22
 
 SUMMARY:
-- [08:35] Contractors Are Told to Check With the White House Before Answering Congress
-- [08:35] The Custody Net Now Includes People Who Were Never the Target
-- [08:35] The FBI Is Investigating a Breach of the Database That Connects Every Police Department
-- [08:35] Iran Hits Three Tankers, and the Vice-President Won't Price the War
-- [08:35] Voters Removed the Sheriffs Who Signed the Immigration Pacts
-- [08:35] Virginia Reports the First Child Measles Death of 2026
-- [08:35] The Succession Argument Has Started Inside the Coalition
-- [08:35] Mexico Takes a Top Drug Lord, and Eleven Die Doing It
+- [08:25] Contractors Are Told to Check With the White House Before Answering Congress
+- [08:25] The Custody Net Now Includes People Who Were Never the Target
+- [08:25] The FBI Is Investigating a Breach of the Database That Connects Every Police Department
+- [08:25] Iran Hits Three Tankers, and the Vice-President Won't Price the War
+- [08:25] Voters Removed the Sheriffs Who Signed the Immigration Pacts
+- [08:25] Virginia Reports the First Child Measles Death of 2026
+- [08:25] The Succession Argument Has Started Inside the Coalition
+- [08:25] Mexico Takes a Top Drug Lord, and Eleven Die Doing It
 - What we're watching
 
 WATCHING:
@@ -25,7 +25,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] Contractors Are Told to Check With the White House Before Answering Congress</summary>
+<summary>[08:25] Contractors Are Told to Check With the White House Before Answering Congress</summary>
 
 <p><b>What happened.</b> President Trump has ordered federal contractors to consult the White House before responding to inquiries from Congress, according to <a href="https://apnews.com">AP</a>, which is carrying the story with six outlets including CNN, NPR and The Hill. It is the broadest-corroborated political story in this morning's sweep.</p>
 <p><b>Why it matters.</b> A contractor answering a committee is a private company doing public work, speaking to the body that appropriates the money. Making it clear that answer with the executive first changes what Congress can learn: nothing is refused, the information just arrives late, filtered, and from a party whose contract can be punished. Oversight becomes permission.</p>
@@ -38,7 +38,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] The Custody Net Now Includes People Who Were Never the Target</summary>
+<summary>[08:25] The Custody Net Now Includes People Who Were Never the Target</summary>
 
 <p><b>What happened.</b> Washington's governor and a union publicly denounced ICE arrests of travellers at Seattle-Tacoma airport — the morning's most widely carried story, at eight outlets. Smaller items, carried only in local markets: a Princeton student detained at Reagan Airport; a Chinese-born neuroscientist detained while travelling; a federal judge in New York refusing to release a man who was shot by immigration agents; a court filing in which the government admits an Austin man it deported held dual citizenship; and the last migrant shelter in New York City closing.</p>
 <p><b>Why it matters.</b> An airport is the one place where status gets checked by definition. That makes it the cheapest place to widen a net without passing a new law: students, scientists and travellers are not the target named in the programme, they are the evidence that the checkpoint has become the policy. It also produces different plaintiffs — people with visas, institutions and lawyers — which is how these cases reach courts that criminal-history cases never reach.</p>
@@ -51,7 +51,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] The FBI Is Investigating a Breach of the Database That Connects Every Police Department</summary>
+<summary>[08:25] The FBI Is Investigating a Breach of the Database That Connects Every Police Department</summary>
 
 <p><b>What happened.</b> The FBI is investigating an apparent hack of its key national criminal justice database, according to an AP source, and CNN reports the president attempting to put a "positive spin" on it.</p>
 <p><b>Why it matters.</b> This is the plumbing of American policing: it is what lets an officer in one state see a record from another. If someone got in rather than merely knocked, the damage is not stolen files — it is the integrity of the queries. A record that is altered or injected propagates silently into arrests, bail decisions and job background checks for years, and there is no outage page to announce it.</p>
@@ -64,7 +64,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] Iran Hits Three Tankers, and the Vice-President Won't Price the War</summary>
+<summary>[08:25] Iran Hits Three Tankers, and the Vice-President Won't Price the War</summary>
 
 <p><b>What happened.</b> Iran struck three tankers and displayed its missile launchers, according to AP. Bahrain says Iran struck an industrial facility there and that its air defences intercepted further attacks. Vice-President Vance deflected when asked whether the Iran war is worth the political price.</p>
 <p><b>Why it matters.</b> The Vance answer is the one to keep. A vice-president declining to price a war has already priced it. Wars that are going well do not produce that sentence, and the refusal to say the number out loud usually means the number has been calculated internally and does not help.</p>
@@ -77,7 +77,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] Voters Removed the Sheriffs Who Signed the Immigration Pacts</summary>
+<summary>[08:25] Voters Removed the Sheriffs Who Signed the Immigration Pacts</summary>
 
 <p><b>What happened.</b> Voters ousted several sheriffs who had signed agreements to assist federal immigration enforcement, according to AP.</p>
 <p><b>Why it matters.</b> This is the first electoral return on the enforcement programme, and it runs against the national result. Sheriffs are the most locally accountable police in the country — elected, small constituencies, no national press. If cooperation costs them their seats, the voluntary layer thins out exactly where the arrests actually happen.</p>
@@ -90,7 +90,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] Virginia Reports the First Child Measles Death of 2026</summary>
+<summary>[08:25] Virginia Reports the First Child Measles Death of 2026</summary>
 
 <p><b>What happened.</b> Virginia reports that a young child has died of measles — the state's first such death this year, per AP. It comes four days after the United States lost its measles elimination status.</p>
 <p><b>Why it matters.</b> Elimination status is a certification about transmission chains; a child's death is the ledger entry underneath it. Officials can argue about a certification. They cannot argue about a funeral, which is why this changes the politics faster than the status decision did.</p>
@@ -103,7 +103,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] The Succession Argument Has Started Inside the Coalition</summary>
+<summary>[08:25] The Succession Argument Has Started Inside the Coalition</summary>
 
 <p><b>What happened.</b> Christian nationalists are describing the Republicans' midterm losses as an opportunity to supplant Trump's MAGA movement, per AP. In the same cycle, Trump praised Jeffries's Speakership nod despite Stephen Miller's jabs at him.</p>
 <p><b>Why it matters.</b> Two signals pointing one way: the coalition's ideological core has begun discussing what comes after the leader, while the leader is complimenting the incoming Democratic Speaker. A movement that names its successor has begun pricing the incumbent's decline — and the fight over who inherits the apparatus is the thing that will decide 2027.</p>
@@ -116,7 +116,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[08:35] Mexico Takes a Top Drug Lord, and Eleven Die Doing It</summary>
+<summary>[08:25] Mexico Takes a Top Drug Lord, and Eleven Die Doing It</summary>
 
 <p><b>What happened.</b> Mexico captured a top drug lord known as "El Chapo Isidro" in the north, in a firefight that left 11 dead, described by Reuters as the latest in a string of arrests.</p>
 <p><b>Why it matters.</b> A string of arrests is a bilateral programme producing visible trophies. Whether it is a programme or a photograph is decided by one thing: what happens to the extraditions.</p>

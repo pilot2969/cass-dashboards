@@ -1,4 +1,4 @@
-# MORNING WIRE — 2026-11-22 (filed 08:35 ET, Sunday)
+# MORNING WIRE — 2026-11-22 (filed 08:25 ET, Sunday)
 
 Coverage: 17:00 ET Friday to 09:45 ET Saturday. Wire Sweep v2 ran 07:50 ET: 596 items clustered into 466 stories, 27 regional enforcement stories with no national carrier, 1 DEAD gauge (opacity/secrecy, on a sports injury — gauge noise, not signal). Specimen stream zero at run time.
 
