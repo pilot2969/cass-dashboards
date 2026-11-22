@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-22",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-22T08:22 ET"
+  "generated_stamped": "2026-11-22T08:23 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -7793,6 +7793,21 @@
   }
  ],
  "mget_ledger": [
+  {
+   "date": "2026-11-22",
+   "time_et": "08:35",
+   "track": "the contract layer as a permission gate; the widening custody net; the integrity of the record itself; a war becoming routine",
+   "mget_legs_tested": [
+    "leg-1 complexity",
+    "leg-2 elite exit",
+    "leg-g legitimation flow"
+   ],
+   "verdict": "strains",
+   "reasoning": "The lead is the cheapest instrument in the set and therefore the most instructive: ordering federal contractors to clear congressional answers with the White House does not refuse oversight, it taxes it. Nothing is withheld, the answer simply arrives through a party whose contract can be punished. That is the enclosure pattern applied to the information channel rather than to a resource, and it is the soft neighbour of the arrest programme rumoured at low level - a firm that must ask permission before speaking does the work an arrest would do, at a fraction of the cost and with better odds in court. The custody items point the same direction by a different path: airport detentions of students, scientists and travellers take the programme out of the criminal-history class and into the checkpoint class, which produces litigants with institutions behind them. The sheriffs result is the counter-signal and the more interesting one - elected local officials paid for cooperation with their seats, which thins the voluntary layer exactly where arrests happen and invites federal substitution. That substitution is what the airport arrests look like from the other end. On substrate, the FBI criminal justice database breach is the first artifact in three weeks that concerns integrity rather than availability: no outage page, no incident number, and a president characterising it before the bureau has. Read, altered and enumerated are three different incidents and the public account has not separated them. Iran at lower tempo with a vice-president declining to price the war is the routine state, which is the dangerous one for the December funding vote.",
+   "forward_signal": "Whether the contractor directive is issued as a memo, a contract clause or a call, and the first congressional letter that returns late; whether any sheriff formally withdraws and any state bans the agreements; whether the FBI breach is characterised as access, alteration or enumeration; whether the 11 December funding fight severs war money from the continuing resolution; whether a named heir emerges inside the coalition",
+   "confidence_moves": "none - no dated catalyst and no named principal on the lead, so it files to observation and the enforcement series rather than the prediction register",
+   "basename": "2026-11-22-morning-wire"
+  },
   {
    "date": "2026-11-19",
    "time_et": "09:33",
@@ -15740,7 +15755,7 @@
   ]
  },
  "counts": {
-  "items_today": 0,
+  "items_today": 1,
   "tracked_predictions": 149,
   "claims_tested": 29,
   "unscored_predictions": 0
@@ -18222,7 +18237,7 @@
       "raw": 4,
       "per_100_journal": 13.3,
       "journal": 30,
-      "ledger": 91,
+      "ledger": 92,
       "days_covered": 21
      }
     ],
@@ -18340,7 +18355,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-22 13:22Z",
+  "generated": "2026-11-22 13:23Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
