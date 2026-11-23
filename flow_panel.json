@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "generator": "build_flow_panel.py",
  "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
  "panels": [
@@ -62,8 +62,8 @@
      "raw": 4,
      "per_100_journal": 13.3,
      "journal": 30,
-     "ledger": 92,
-     "days_covered": 21
+     "ledger": 93,
+     "days_covered": 22
     }
    ],
    "control": {

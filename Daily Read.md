@@ -3,13 +3,13 @@
 DATE: 2026-11-23
 
 SUMMARY:
-- [09:35] The Army Tells a Federal Court It Will Act Anyway
-- [09:35] The Count Is Finished, and the Majority Is the Largest Since 1992
-- [09:35] One Arrest, One Hundred Thousand Dollars
-- [09:35] Iran Says It Will Use "All Available Tools" as the Blockade Widens
-- [09:35] Hegseth's First Chief of Staff Says It Is Time to Go
-- [09:35] Both Ends of the Courthouse Moved This Weekend
-- [09:35] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet
+- [09:13] The Army Tells a Federal Court It Will Act Anyway
+- [09:13] The Count Is Finished, and the Majority Is the Largest Since 1992
+- [09:13] One Arrest, One Hundred Thousand Dollars
+- [09:13] Iran Says It Will Use "All Available Tools" as the Blockade Widens
+- [09:13] Hegseth's First Chief of Staff Says It Is Time to Go
+- [09:13] Both Ends of the Courthouse Moved This Weekend
+- [09:13] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet
 - What we're watching
 
 WATCHING:
@@ -25,7 +25,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] The Army Tells a Federal Court It Will Act Anyway</summary>
+<summary>[09:13] The Army Tells a Federal Court It Will Act Anyway</summary>
 
 <p><b>What happened.</b> The US Army says it will detonate 68 barrels — roughly four to five tons — of lead azide at a munitions plant in Augusta, Iowa, by Tuesday, using emergency legal powers that it says let it go ahead despite a federal appeals court order pausing its permit. The administration told a court this over the weekend. In the same breath, the Justice Department asked that appeals court to lift its pause. <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a> and <a href="https://www.nbcnews.com">NBC</a> all carry it.</p>
 <p><b>Why it matters.</b> Both halves of that sentence matter, and they pull in opposite directions. Asking a court to lift its own pause is ordinary litigation. Telling the court that the executive can proceed even if it doesn't is a different claim: that the order does not bind. It is the difference between a litigant and a sovereign, and it is the exact moment our own tracking has been waiting for — not an order defied on the merits, but an order walked through on the theory that something else controls.</p>
@@ -38,7 +38,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] The Count Is Finished, and the Majority Is the Largest Since 1992</summary>
+<summary>[09:13] The Count Is Finished, and the Majority Is the Largest Since 1992</summary>
 
 <p><b>What happened.</b> Democrat Chuck Hubbard defeated eleven-term Republican Virginia Foxx in North Carolina's 5th District after a machine recount that Foxx herself requested, by roughly 330 votes. Democrats will hold at least 258 House seats, and in some counts 259 — their largest majority since 1992. Foxx chaired the House Rules Committee. <a href="https://www.cnn.com">CNN</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.nbcnews.com">NBC</a>, <a href="https://www.bbc.com">BBC</a> and the <a href="https://www.washingtonpost.com">Washington Post</a> all project it.</p>
 <p><b>Why it matters.</b> Three weeks after the vote, the last contested race closed by recount — in the losing party's own requested procedure — and the losing party conceded. That is a finding in itself, because a close race in a disputed district was precisely the scenario the "rigged count" campaign was built to make un-endable. The race ended. Nothing refused to certify.</p>
@@ -51,7 +51,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] One Arrest, One Hundred Thousand Dollars</summary>
+<summary>[09:13] One Arrest, One Hundred Thousand Dollars</summary>
 
 <p><b>What happened.</b> A joint investigation by <a href="https://www.propublica.org/article/texas-287g-immigration-police-department-money">ProPublica</a> and the <a href="https://www.texastribune.org/2026/11/20/texas-287g-immigration-police-department-money/">Texas Tribune</a> found that the police department of Pantego, a North Texas town of about 2,500 people, received $100,000 in federal money after making a single immigration arrest in June. The chief told the town council that the department could leave the programme without penalty and keep the equipment — all it had to do was make one arrest. It made two between late April and mid-June. The Smith County Sheriff's Office has received nearly $2.2 million through the same programme, the most of any department reviewed. Some 429 agencies now participate.</p>
 <p><b>Why it matters.</b> A payment per arrest turns an enforcement agreement into a revenue line. When one arrest is worth a sum that large against a small town's budget, the decision to arrest stops being only a judgment about a person and becomes a question about the month. Nobody has to set a quota. The price does the work, and a price scales without an order from anyone.</p>
@@ -64,7 +64,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] Iran Says It Will Use "All Available Tools" as the Blockade Widens</summary>
+<summary>[09:13] Iran Says It Will Use "All Available Tools" as the Blockade Widens</summary>
 
 <p><b>What happened.</b> Iran's foreign ministry spokesman, Esmaeil Baghaei, told a weekly press conference on Monday that Iran will use all available tools to confront the US naval blockade (<a href="https://www.reuters.com">Reuters</a>). The blockade was widened on 19 and 20 November to cover any vessel that takes Iranian cargo by ship-to-ship transfer, with the Joint Maritime Information Center warning that recipients could face military intervention. President Trump said on Saturday that Iran's oil exports had been cut off completely, and dared Tehran to breach the blockade.</p>
 <p><b>Why it matters.</b> The blockade used to mean stopping ships going to and from Iran. It now means policing the water for cargo that has already left an Iranian hull, on a ship that is often neither Iranian nor bound for Iran. Every one of those is a flag state, an insurer and a lawyer, and every interception is an incident waiting for someone to get it wrong.</p>
@@ -77,7 +77,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] Hegseth's First Chief of Staff Says It Is Time to Go</summary>
+<summary>[09:13] Hegseth's First Chief of Staff Says It Is Time to Go</summary>
 
 <p><b>What happened.</b> Joe Kasper, who ran Pete Hegseth's Pentagon front office as his first chief of staff, called on him to resign in an interview with <a href="https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149">Politico</a> published this morning, saying he has mismanaged the Pentagon and the Iran war and let showmanship replace the job: "not just burned bridges, he's napalmed them." A former chief Pentagon spokesman, John Ullyot, has also called for him to go.</p>
 <p><b>Why it matters.</b> A former chief of staff is not an opponent, a general with a grievance, or an anonymous source. He ran the office and is now saying on the record that the office is not functioning. That is a claim about competence, which a White House cannot wave away as a policy disagreement, and it lands differently from an impeachment resolution because it comes from inside the tent.</p>
@@ -90,7 +90,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] Both Ends of the Courthouse Moved This Weekend</summary>
+<summary>[09:13] Both Ends of the Courthouse Moved This Weekend</summary>
 
 <p><b>What happened.</b> A federal appeals court held that the federal law requiring employers to accommodate pregnant workers is unconstitutional (<a href="https://apnews.com">AP</a>). In the same weekend, the Army told a federal court it would proceed with a disposal operation despite that court's pause.</p>
 <p><b>Why it matters.</b> One branch used the courts to void a statute Congress passed; the executive branch used an emergency claim to walk past a court's order. Both are answers to the same question — whose word is final — and they point in opposite directions. Two of them inside 48 hours is not a hierarchy collapsing in one direction. It is every branch testing the others at once.</p>
@@ -103,7 +103,7 @@ WATCHING:
 ---
 
 <details open>
-<summary>[09:35] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet</summary>
+<summary>[09:13] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet</summary>
 
 <p><b>What happened.</b> The US intelligence chief said publicly that Vladimir Putin is "not America's friend in Ukraine" (<a href="https://www.reuters.com">Reuters</a>, carried by Breitbart and The Hill). A Russian strike on Dymer in the Kyiv region killed 11 people. Poland says Russia twice tried to kill a Ukrainian American rapper.</p>
 <p><b>Why it matters.</b> A senior intelligence official saying on the record that the counterpart in a negotiation is not a friend is a sentence that usually comes before a policy shift, not after a rupture. It is the language of someone preparing to be less accommodating without having to announce it. The strike tempo underneath is the part that matters more than the sentence.</p>
