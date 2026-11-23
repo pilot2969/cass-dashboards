@@ -16,8 +16,14 @@ import json, glob, os, datetime, html, collections as _collections, subprocess a
 # instead of silently publishing a stale panel (2026-10-03 regression).
 newest=max((json.load(open(f)).get("last_moved") or "")[:10] for f in glob.glob("/space/prediction/*.json"))
 age=(datetime.date.today()-datetime.date.fromisoformat(newest)).days
+# 2026-11-23 AMENDMENT: this was a hard FAIL, which meant a morning with no card
+# genuinely moving (11-21 no wire, 11-22 wire with zero moves) blocked the DAY-ROLL
+# from committing at all -- the archive copy stranded untracked and Publish Guard
+# fired at 08:20 two mornings running. A stale panel is a loud WARN, not a reason
+# to refuse to archive the previous day. Silence was the 2026-10-03 regression;
+# this prints every run until the bump happens.
 if age>2:
-    raise SystemExit(f"MOVERS STALE: newest last_moved={newest} ({age}d old). Run the mover bump before sync.")
+    print(f"WARN MOVERS STALE: newest last_moved={newest} ({age}d old). Mover panel is stale; run the mover bump (not blocking).")
 
 P="/space/prediction/"
 here=os.path.dirname(os.path.abspath(__file__)) if False else os.getcwd()

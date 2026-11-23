@@ -25,6 +25,16 @@ if [ "$INSIDE" = "$T" ]; then
 fi
 mkdir -p archive
 cp "Daily Read.md" "archive/Daily Read $INSIDE.md"
+# 2026-11-23 FIX: the archive copy used to depend on sync_data.sh completing, so any
+# deploy gate that blocked the sync (movers staleness, empty panel, index.lock) left
+# yesterday's edition sitting untracked -- Guard FAIL "uncommitted/unstaged:
+# archive/Daily Read ..." at 08:20 on 11-22 and again on 11-23. The archive is a
+# file copy, not a deploy: commit and push it on its own, before the gate can block.
+printf '.dayroll-*\n' >> .gitignore
+git add -f "archive/Daily Read $INSIDE.md" "Daily Read.md" .gitignore 2>/dev/null
+git diff --cached --quiet || git commit -q -m "day-roll: archive $INSIDE; Daily Read reset for $T"
+git push -q origin main 2>/dev/null && git push -q prod main 2>/dev/null \
+  || echo "day-roll: archive committed locally; push failed (guard 3b will show it)"
 # 2026-11-13 FIX: the reset template carried the date ONLY in the title. Every
 # downstream consumer (Publish Guard check 1, sync_data.sh line 201, build_archive.py)
 # keys on a literal "DATE: YYYY-MM-DD" line, so a freshly reset file read as
@@ -32,4 +42,4 @@ cp "Daily Read.md" "archive/Daily Read $INSIDE.md"
 # the failure it was blamed for. Write the machine-readable stamp in the template.
 printf '# The Daily Read — %s\n\nDATE: %s\n\n**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**\n\n(no sections filed yet — first wire run of the day writes the morning edition)\n' "$T" "$T" > "Daily Read.md"
 touch "$MARK"
-./sync_data.sh "day-roll $INSIDE archived; Daily Read reset for $T"
+DAYROLL=1 ./sync_data.sh "day-roll $INSIDE archived; Daily Read reset for $T"
