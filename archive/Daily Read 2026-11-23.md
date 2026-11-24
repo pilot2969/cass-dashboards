@@ -1,0 +1,114 @@
+# The Daily Read
+
+DATE: 2026-11-23
+
+SUMMARY:
+- [09:13] The Army Tells a Federal Court It Will Act Anyway
+- [09:13] The Count Is Finished, and the Majority Is the Largest Since 1992
+- [09:13] One Arrest, One Hundred Thousand Dollars
+- [09:13] Iran Says It Will Use "All Available Tools" as the Blockade Widens
+- [09:13] Hegseth's First Chief of Staff Says It Is Time to Go
+- [09:13] Both Ends of the Courthouse Moved This Weekend
+- [09:13] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet
+- What we're watching
+
+WATCHING:
+- The appeals court on Iowa: does the ruling reach the emergency-power question, and does the detonation happen Tuesday
+- Whether a Texas town publishes its per-arrest payment schedule, and whether any state moves against per-arrest funding
+- Iran: any campaign name from the Pentagon or Central Command, which is the threshold that matters
+- Hegseth: a second named former official, or a Republican senator on the record
+- The 11 December funding deadline, with the war attached
+
+<!--parser markers above; collapsible cards below-->
+**CARD STACK** (newest first)
+
+---
+
+<details open>
+<summary>[09:13] The Army Tells a Federal Court It Will Act Anyway</summary>
+
+<p><b>What happened.</b> The US Army says it will detonate 68 barrels — roughly four to five tons — of lead azide at a munitions plant in Augusta, Iowa, by Tuesday, using emergency legal powers that it says let it go ahead despite a federal appeals court order pausing its permit. The administration told a court this over the weekend. In the same breath, the Justice Department asked that appeals court to lift its pause. <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a> and <a href="https://www.nbcnews.com">NBC</a> all carry it.</p>
+<p><b>Why it matters.</b> Both halves of that sentence matter, and they pull in opposite directions. Asking a court to lift its own pause is ordinary litigation. Telling the court that the executive can proceed even if it doesn't is a different claim: that the order does not bind. It is the difference between a litigant and a sovereign, and it is the exact moment our own tracking has been waiting for — not an order defied on the merits, but an order walked through on the theory that something else controls.</p>
+<p><b>The pattern.</b> Lead azide is a toxic, shock-sensitive explosive, and the fight over how to dispose of it has run for months with real arguments on every side. That is what makes it a useful carrier: the target is a barrel, so nobody can call the move political. What is being tested is not immigration law or election law. It is whether a judge's pause can be answered with an emergency power. A power asserted once, on a sympathetic set of facts, is available on the next set.</p>
+<p><b>What history says.</b> In 1832 the Supreme Court ruled that the Cherokee were a nation with treaty rights and Georgia ignored the ruling; the executive declined to enforce it, and the reported line from Andrew Jackson — that the Chief Justice had made his decision and could now try to enforce it — is remembered because it made visible what usually stays invisible: a court with no marshal of its own. Every successful act of non-compliance since has had the same shape. It is rarely a refusal on the merits. It is a finding that the order was never the operative instrument.</p>
+<p><b>What we're watching next.</b> The appeals court's ruling on the pause. The one that matters is the one that reaches the emergency-power claim, not the narrow one that lifts the pause for housekeeping reasons. Then Tuesday: whether the detonation happens, and whether anything follows it — a contempt filing, a marshal, or silence.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a>, <a href="https://www.nbcnews.com">NBC News</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[09:13] The Count Is Finished, and the Majority Is the Largest Since 1992</summary>
+
+<p><b>What happened.</b> Democrat Chuck Hubbard defeated eleven-term Republican Virginia Foxx in North Carolina's 5th District after a machine recount that Foxx herself requested, by roughly 330 votes. Democrats will hold at least 258 House seats, and in some counts 259 — their largest majority since 1992. Foxx chaired the House Rules Committee. <a href="https://www.cnn.com">CNN</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.nbcnews.com">NBC</a>, <a href="https://www.bbc.com">BBC</a> and the <a href="https://www.washingtonpost.com">Washington Post</a> all project it.</p>
+<p><b>Why it matters.</b> Three weeks after the vote, the last contested race closed by recount — in the losing party's own requested procedure — and the losing party conceded. That is a finding in itself, because a close race in a disputed district was precisely the scenario the "rigged count" campaign was built to make un-endable. The race ended. Nothing refused to certify.</p>
+<p><b>The pattern.</b> The majority is now large enough that the January fight over seating challenged members loses most of its force. With 258 seats, the House can seat someone under objection and simply outvote the challenge. Contesting a handful of seats only works when a handful decides control. The instrument isn't gone; the arithmetic that made it useful is.</p>
+<p><b>What history says.</b> The 1992 election produced a 258-seat Democratic majority in a country that had just elected a 46-year-old governor, and the lesson drawn from it by the losing party was that a large majority makes procedural guerrilla warfare pointless — you win the next election or you change the map. The 1876 dispute is the other reference: it worked because the margins in three states were small enough that competing slates could plausibly decide the presidency. Neither precedent supports contesting seats inside a 258-seat majority.</p>
+<p><b>What we're watching next.</b> Where the contest energy goes instead. The only place a large majority can still be reversed is state-level certification, and that is where a campaign that has lost the count would logically move. Watch for it, and watch for it not arriving — a campaign that doesn't move is a campaign that has priced its own loss.</p>
+<p><b>Sources:</b> <a href="https://www.cnn.com">CNN</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.nbcnews.com">NBC News</a>, <a href="https://www.politico.com">Politico</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[09:13] One Arrest, One Hundred Thousand Dollars</summary>
+
+<p><b>What happened.</b> A joint investigation by <a href="https://www.propublica.org/article/texas-287g-immigration-police-department-money">ProPublica</a> and the <a href="https://www.texastribune.org/2026/11/20/texas-287g-immigration-police-department-money/">Texas Tribune</a> found that the police department of Pantego, a North Texas town of about 2,500 people, received $100,000 in federal money after making a single immigration arrest in June. The chief told the town council that the department could leave the programme without penalty and keep the equipment — all it had to do was make one arrest. It made two between late April and mid-June. The Smith County Sheriff's Office has received nearly $2.2 million through the same programme, the most of any department reviewed. Some 429 agencies now participate.</p>
+<p><b>Why it matters.</b> A payment per arrest turns an enforcement agreement into a revenue line. When one arrest is worth a sum that large against a small town's budget, the decision to arrest stops being only a judgment about a person and becomes a question about the month. Nobody has to set a quota. The price does the work, and a price scales without an order from anyone.</p>
+<p><b>The pattern.</b> This is the last step of a sequence we have been tracking since the spring: first the federal government deputised local officers, then it paid them per head, and now the payment is large enough relative to a department's own budget to change its incentives permanently. That is not a subsidy. It is a business model.</p>
+<p><b>What history says.</b> Two American systems ran on this exact mechanism. The convict-lease arrangements after Reconstruction and the asset-forfeiture boom of the 1980s and 1990s both attached a private revenue stream to a public enforcement power, and in both the volume of enforcement tracked the revenue rather than the offence. Forfeiture was eventually curbed by state laws requiring a conviction first — a repair aimed at the money, not at the police.</p>
+<p><b>What we're watching next.</b> Whether a Texas town publishes its payment schedule — the contract is the document, and a clause allowing exit without clawback is what makes this a grant rather than a purchase. Then whether a state legislator moves to prohibit per-arrest funding. The political turn is already visible; the money is what survives it.</p>
+<p><b>Sources:</b> <a href="https://www.propublica.org/article/texas-287g-immigration-police-department-money">ProPublica</a>, <a href="https://www.texastribune.org/2026/11/20/texas-287g-immigration-police-department-money/">Texas Tribune</a>, <a href="https://www.kxan.com/investigations/texas-police-agencies-cash-in-on-ice-partnerships/">KXAN</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[09:13] Iran Says It Will Use "All Available Tools" as the Blockade Widens</summary>
+
+<p><b>What happened.</b> Iran's foreign ministry spokesman, Esmaeil Baghaei, told a weekly press conference on Monday that Iran will use all available tools to confront the US naval blockade (<a href="https://www.reuters.com">Reuters</a>). The blockade was widened on 19 and 20 November to cover any vessel that takes Iranian cargo by ship-to-ship transfer, with the Joint Maritime Information Center warning that recipients could face military intervention. President Trump said on Saturday that Iran's oil exports had been cut off completely, and dared Tehran to breach the blockade.</p>
+<p><b>Why it matters.</b> The blockade used to mean stopping ships going to and from Iran. It now means policing the water for cargo that has already left an Iranian hull, on a ship that is often neither Iranian nor bound for Iran. Every one of those is a flag state, an insurer and a lawyer, and every interception is an incident waiting for someone to get it wrong.</p>
+<p><b>The pattern.</b> This war keeps escalating through paperwork rather than through strikes. The campaign is widened in a notice to mariners instead of announced from the Pentagon, which is why the force posture keeps rising while the thing we track — a named new phase of the war — never arrives. Escalation by redefinition is cheaper to do and much harder to see.</p>
+<p><b>What history says.</b> The 1962 quarantine of Cuba worked because it was narrow, announced, and paired with an explicit statement of what would end it. The Tanker War of the 1980s, fought in these same waters, was wide, slow and never explained; it produced years of attacks, reflagging and foreign escorts without ever producing a decision. The difference was never the size of the fleet. It was whether the other side could tell what would make it stop.</p>
+<p><b>What we're watching next.</b> The first interception of a non-Iranian hull under the widened rule, and whether the administration names the campaign. A name is the thing that turns a policy of pressure into a phase of a war, and it is what the Iran tracking is waiting for.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://news.usni.org">USNI News</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>, <a href="https://www.usnews.com">US News</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[09:13] Hegseth's First Chief of Staff Says It Is Time to Go</summary>
+
+<p><b>What happened.</b> Joe Kasper, who ran Pete Hegseth's Pentagon front office as his first chief of staff, called on him to resign in an interview with <a href="https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149">Politico</a> published this morning, saying he has mismanaged the Pentagon and the Iran war and let showmanship replace the job: "not just burned bridges, he's napalmed them." A former chief Pentagon spokesman, John Ullyot, has also called for him to go.</p>
+<p><b>Why it matters.</b> A former chief of staff is not an opponent, a general with a grievance, or an anonymous source. He ran the office and is now saying on the record that the office is not functioning. That is a claim about competence, which a White House cannot wave away as a policy disagreement, and it lands differently from an impeachment resolution because it comes from inside the tent.</p>
+<p><b>The pattern.</b> Note where the pressure is not coming from. House Republicans are using Ukraine provisions in the defence bill to force Democrats to drop oversight language; the Senate has produced a trillion-dollar defence appropriations bill that says nothing about removal; the Pentagon has just failed its ninth consecutive audit and answered with a committee and a target date. The procedural routes out are closed. What is moving is the story, and a story only becomes a removal when the principal wants it to.</p>
+<p><b>What history says.</b> Donald Rumsfeld was removed the day after the 2006 midterms, after a long run of retired generals calling publicly for his resignation. Chuck Hagel went in November 2014 after losing the confidence of the White House rather than the Congress. Both were exits the president chose. Neither was forced by the institution, and that is the test now: an institution that cannot remove a secretary on its own is being governed by one man's preference.</p>
+<p><b>What we're watching next.</b> A second named former official, or a Republican senator on the record. Either one alone is a story. Two of either turns it into a process, and a process is what a vacancy needs.</p>
+<p><b>Sources:</b> <a href="https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149">Politico</a>, <a href="https://www.mediaite.com">Mediaite</a>, <a href="https://www.usatoday.com">USA Today</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[09:13] Both Ends of the Courthouse Moved This Weekend</summary>
+
+<p><b>What happened.</b> A federal appeals court held that the federal law requiring employers to accommodate pregnant workers is unconstitutional (<a href="https://apnews.com">AP</a>). In the same weekend, the Army told a federal court it would proceed with a disposal operation despite that court's pause.</p>
+<p><b>Why it matters.</b> One branch used the courts to void a statute Congress passed; the executive branch used an emergency claim to walk past a court's order. Both are answers to the same question — whose word is final — and they point in opposite directions. Two of them inside 48 hours is not a hierarchy collapsing in one direction. It is every branch testing the others at once.</p>
+<p><b>The pattern.</b> A federal statute protecting pregnant workers was a hard-won piece of ordinary labour law. If it can be struck as unconstitutional by a circuit, the same reasoning is available against a long list of workplace statutes. That is why the reasoning matters more than the outcome: read the opinion's theory of federal power, not its bottom line.</p>
+<p><b>What history says.</b> The court-packing fight of 1937 began with a Supreme Court striking down New Deal statutes and ended with a Court that stopped striking them down. The bill failed; the effect happened anyway, because the political cost of continuing to invalidate legislation rose above the cost of deference. That arithmetic now runs in reverse and in both directions at once, which is a more unstable configuration than 1937.</p>
+<p><b>What we're watching next.</b> Whether the government appeals the pregnancy ruling, and whether other employment statutes end up on the same circuit's list within the month. A single opinion is a case. A pattern of them is a doctrine.</p>
+<p><b>Sources:</b> <a href="https://apnews.com">AP</a>, <a href="https://www.reuters.com">Reuters</a>.</p>
+</details>
+
+---
+
+<details open>
+<summary>[09:13] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet</summary>
+
+<p><b>What happened.</b> The US intelligence chief said publicly that Vladimir Putin is "not America's friend in Ukraine" (<a href="https://www.reuters.com">Reuters</a>, carried by Breitbart and The Hill). A Russian strike on Dymer in the Kyiv region killed 11 people. Poland says Russia twice tried to kill a Ukrainian American rapper.</p>
+<p><b>Why it matters.</b> A senior intelligence official saying on the record that the counterpart in a negotiation is not a friend is a sentence that usually comes before a policy shift, not after a rupture. It is the language of someone preparing to be less accommodating without having to announce it. The strike tempo underneath is the part that matters more than the sentence.</p>
+<p><b>The pattern.</b> Last week the settlement leg of the market was being read upward on a communiqué. Within 48 hours the principal said there would be no negotiations and hit the capital's bridges. This weekend adds a strike that killed eleven and an intelligence chief briefing against the counterpart. A settlement that cannot survive a week past its own announcement is not a settlement; it is a headline.</p>
+<p><b>What history says.</b> Détente in the early 1970s survived because both sides kept the machinery running while the rhetoric stayed hostile — summits, treaties, hotlines. Every attempt to build a settlement on warm words alone, from Yalta's aftermath to the 2018 Singapore statement, decayed within months because there was nothing underneath to carry weight when the words stopped. What matters is not what is said at the table. It is what is still operating when the table is empty.</p>
+<p><b>What we're watching next.</b> Whether any negotiating channel is still open — a meeting, a call, a named envoy. If the only evidence of a settlement is the coverage of one, then there is no settlement, and the winter's diplomacy will be about managing the absence rather than filling it.</p>
+<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.breitbart.com">Breitbart</a>, <a href="https://thehill.com">The Hill</a>.</p>
+</details>
