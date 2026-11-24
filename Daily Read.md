@@ -1,114 +1,138 @@
-# The Daily Read
+# The Daily Read — 2026-11-24
 
-DATE: 2026-11-23
+DATE: 2026-11-24
+
+**Rolling edition — stories stack as the wire runs all day. Archived at the start of the next day.**
 
 SUMMARY:
-- [09:13] The Army Tells a Federal Court It Will Act Anyway
-- [09:13] The Count Is Finished, and the Majority Is the Largest Since 1992
-- [09:13] One Arrest, One Hundred Thousand Dollars
-- [09:13] Iran Says It Will Use "All Available Tools" as the Blockade Widens
-- [09:13] Hegseth's First Chief of Staff Says It Is Time to Go
-- [09:13] Both Ends of the Courthouse Moved This Weekend
-- [09:13] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet
-- What we're watching
+- Iran says the strait will shut "day by day" — and claims mines hit three tankers under American escort
+- The Army asked the court, and the court said yes: Iowa's detonation is back on for Wednesday
+- Nvidia's board reverses itself in eleven days, and Congress wants answers
+- The Omar search files: a judge's warnings, and a lawyer who would not take part
+- The airport has become the checkpoint
+- Two appeals courts closed two very different doors
+- Ukrainian sea drones reach a Russian warship in Libya
 
 WATCHING:
-- The appeals court on Iowa: does the ruling reach the emergency-power question, and does the detonation happen Tuesday
-- Whether a Texas town publishes its per-arrest payment schedule, and whether any state moves against per-arrest funding
-- Iran: any campaign name from the Pentagon or Central Command, which is the threshold that matters
-- Hegseth: a second named former official, or a Republican senator on the record
-- The 11 December funding deadline, with the war attached
+- Hormuz: whether the mine claims are confirmed by the maritime centre that says they are unconfirmed, and whether an insurer or flag state names a mine publicly
+- Iran: whether "the new phase" anyone keeps promising acquires a name
+- Iowa: Wednesday's detonation, the air-quality readings, and whatever litigation follows the blast
+- Nvidia: the 3 December Senate hearing, and whether the board or the White House is called next
+- The Omar case: whether the judge orders the seized materials returned
+- Airports: whether Washington State's mask law produces an enforcement action, and whether the passenger-data agreement draws a plaintiff
+- Hegseth: whether a second named former official, or a Republican senator, turns the resignation call into a process
+- Two dates that decide the count story: electors vote 14 December, Congress counts 6 January
 
 <!--parser markers above; collapsible cards below-->
-**CARD STACK** (newest first)
 
----
+<details>
+<summary>Iran says the strait will shut "day by day" — and claims mines hit three tankers under American escort</summary>
 
-<details open>
-<summary>[09:13] The Army Tells a Federal Court It Will Act Anyway</summary>
+<p><b>What happened:</b> Iran's Revolutionary Guard said Monday that three oil tankers in the Strait of Hormuz suffered "powerful explosions and massive fires" after hitting naval mines — one off the southern shore, two in the east of the strait — and that the ships were "under extensive air escort by the US army" when they were hit. The Joint Maritime Information Centre, the body that tracks shipping in the strait, recorded 114 passages "with the assistance of the United States" between 19 and 21 November and said the mine claims were unconfirmed. Iran's army commander-in-chief, Major General Amir Hatami, ordered the navy to close the strait "further day by day" until seven Iranian conditions are met, and warned that any new American action would bring blows "more severe, more crushing and without geographical limitation." Parliament speaker Mohammad Bagher Ghalibaf said there would be no negotiation before the conditions were implemented, and that there were "military ways to break the blockade" to be used "in the near future."</p>
 
-<p><b>What happened.</b> The US Army says it will detonate 68 barrels — roughly four to five tons — of lead azide at a munitions plant in Augusta, Iowa, by Tuesday, using emergency legal powers that it says let it go ahead despite a federal appeals court order pausing its permit. The administration told a court this over the weekend. In the same breath, the Justice Department asked that appeals court to lift its pause. <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a> and <a href="https://www.nbcnews.com">NBC</a> all carry it.</p>
-<p><b>Why it matters.</b> Both halves of that sentence matter, and they pull in opposite directions. Asking a court to lift its own pause is ordinary litigation. Telling the court that the executive can proceed even if it doesn't is a different claim: that the order does not bind. It is the difference between a litigant and a sovereign, and it is the exact moment our own tracking has been waiting for — not an order defied on the merits, but an order walked through on the theory that something else controls.</p>
-<p><b>The pattern.</b> Lead azide is a toxic, shock-sensitive explosive, and the fight over how to dispose of it has run for months with real arguments on every side. That is what makes it a useful carrier: the target is a barrel, so nobody can call the move political. What is being tested is not immigration law or election law. It is whether a judge's pause can be answered with an emergency power. A power asserted once, on a sympathetic set of facts, is available on the next set.</p>
-<p><b>What history says.</b> In 1832 the Supreme Court ruled that the Cherokee were a nation with treaty rights and Georgia ignored the ruling; the executive declined to enforce it, and the reported line from Andrew Jackson — that the Chief Justice had made his decision and could now try to enforce it — is remembered because it made visible what usually stays invisible: a court with no marshal of its own. Every successful act of non-compliance since has had the same shape. It is rarely a refusal on the merits. It is a finding that the order was never the operative instrument.</p>
-<p><b>What we're watching next.</b> The appeals court's ruling on the pause. The one that matters is the one that reaches the emergency-power claim, not the narrow one that lifts the pause for housekeeping reasons. Then Tuesday: whether the detonation happens, and whether anything follows it — a contempt filing, a marshal, or silence.</p>
-<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.cnn.com">CNN</a>, <a href="https://www.nbcnews.com">NBC News</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>.</p>
+<p><b>Why it matters:</b> Both tracks ran in the same twenty-four hours. Qatar's prime minister met Secretary of State Marco Rubio and then Vice President JD Vance in Washington to try to restart talks — the meeting with Vance lasted about ten minutes — while Iran's military command ordered a wider closure and claimed hits on ships being escorted. President Trump said on Sunday that strikes could resume after the New Year. The mine claim matters whether or not it is true: an attack on escorted shipping is exactly the item insurers and flag states cannot ignore, and the only thing standing between the claim and a sudden repricing of war-risk premiums is one agency's word "unconfirmed."</p>
+
+<p><b>The pattern:</b> Widening by notice. The blockade has been extended three times since the war began, each time by redefining what counts rather than by announcing an operation — most recently to any vessel carrying Iranian cargo by ship-to-ship transfer. Iran's answer has the same shape: a standing order to tighten "day by day" instead of a declared campaign. Neither government has to name a new phase to keep escalating, which is why the escalation keeps arriving without a date anyone can point to.</p>
+
+<p><b>What history says:</b> The 1962 quarantine of Cuba worked because it was narrow, announced, and attached to a demand the other side could see. The 1980s Tanker War in the same water is the warning: a wide, slow, low-visibility interdiction campaign produced years of shipping attacks, reflagging and great-power escort duty without ever producing a decision. The difference between the two was never the amount of force. It was whether Tehran could tell what would end it.</p>
+
+<p><b>What we're watching next:</b> Whether the maritime centre confirms a mine, and whether a flag state, insurer or shipowner names one publicly. Whether the seven Iranian conditions are ever published in full — a demand list is a negotiating instrument, and an unpublished one is a slogan. And whether "the new phase" that Iranian commanders now refer to acquires a name from the Pentagon, from CENTCOM, or from Tehran itself.</p>
+
+<p><b>Sources:</b> <a href="https://www.euronews.com/2026/11/24/iran-orders-hormuz-closed-further-day-by-day-as-qatar-seeks-to-revive-peace-talks" target="_blank" rel="noopener">Euronews</a>, <a href="https://apnews.com/article/vance-rubio-qatar-iran-war-16e0c2cb05347cfcac068ec4aebb363f" target="_blank" rel="noopener">AP</a></p>
 </details>
 
----
+<details>
+<summary>The Army asked the court, and the court said yes: Iowa's detonation is back on for Wednesday</summary>
 
-<details open>
-<summary>[09:13] The Count Is Finished, and the Majority Is the Largest Since 1992</summary>
+<p><b>What happened:</b> President Trump on Monday ordered the military to hold off on detonating unstable explosives at the Iowa Army Ammunition Plant in Middletown, deferring the decision to a federal appeals court and to Iowa's Democratic governor-elect, Rob Sand. The Eighth Circuit then refused the environmental groups' emergency request and cleared the Army's permit. On Monday evening the acting Army secretary, Adam Telle, said the Army would carry out a "controlled removal" of 68 barrels of lead azide — roughly 9,500 pounds — on Wednesday, describing it as "a consensus decision" by the agencies involved. The government's own assessment has a dust plume carrying lead particles reaching as far as 100 miles. The Iowa Environmental Council and the Sierra Club's Iowa chapter had argued that the Environmental Protection Agency skipped required permitting steps, and that the chemical — shock-sensitive and stored in bunkers whose blast doors had been removed — could be disposed of another way.</p>
 
-<p><b>What happened.</b> Democrat Chuck Hubbard defeated eleven-term Republican Virginia Foxx in North Carolina's 5th District after a machine recount that Foxx herself requested, by roughly 330 votes. Democrats will hold at least 258 House seats, and in some counts 259 — their largest majority since 1992. Foxx chaired the House Rules Committee. <a href="https://www.cnn.com">CNN</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.nbcnews.com">NBC</a>, <a href="https://www.bbc.com">BBC</a> and the <a href="https://www.washingtonpost.com">Washington Post</a> all project it.</p>
-<p><b>Why it matters.</b> Three weeks after the vote, the last contested race closed by recount — in the losing party's own requested procedure — and the losing party conceded. That is a finding in itself, because a close race in a disputed district was precisely the scenario the "rigged count" campaign was built to make un-endable. The race ended. Nothing refused to certify.</p>
-<p><b>The pattern.</b> The majority is now large enough that the January fight over seating challenged members loses most of its force. With 258 seats, the House can seat someone under objection and simply outvote the challenge. Contesting a handful of seats only works when a handful decides control. The instrument isn't gone; the arithmetic that made it useful is.</p>
-<p><b>What history says.</b> The 1992 election produced a 258-seat Democratic majority in a country that had just elected a 46-year-old governor, and the lesson drawn from it by the losing party was that a large majority makes procedural guerrilla warfare pointless — you win the next election or you change the map. The 1876 dispute is the other reference: it worked because the margins in three states were small enough that competing slates could plausibly decide the presidency. Neither precedent supports contesting seats inside a 258-seat majority.</p>
-<p><b>What we're watching next.</b> Where the contest energy goes instead. The only place a large majority can still be reversed is state-level certification, and that is where a campaign that has lost the count would logically move. Watch for it, and watch for it not arriving — a campaign that doesn't move is a campaign that has priced its own loss.</p>
-<p><b>Sources:</b> <a href="https://www.cnn.com">CNN</a>, <a href="https://apnews.com">AP</a>, <a href="https://www.nbcnews.com">NBC News</a>, <a href="https://www.politico.com">Politico</a>.</p>
+<p><b>Why it matters:</b> This is a correction, and it should be said plainly. Yesterday this page described the Army's filing as the executive telling a court it would act anyway, under emergency powers. What actually happened next was the opposite: the White House paused, asked the court for permission, and proceeded only once the court granted it. The emergency exception was asserted in a filing and then not used. That is compliance, and it belongs on the record before the next test makes the opposite point.</p>
+
+<p><b>Why the substance is still serious:</b> Lead azide degrades into something less stable than it was designed to be, and the Army's case is that an uncontrolled detonation is the bigger risk. The county and the state fought an on-site burn for months; a hundred-mile plume over farmland is a real harm, not a hypothetical one. A court accepting the government's alternative analysis does not make the blast safe, and the finding that the executive obeyed the court does not make the policy wise.</p>
+
+<p><b>What history says:</b> The tell for a government that intends to ignore a court is that it acts first and litigates afterwards — Andrew Jackson and the 1832 Worcester decision being the canonical case. The counterexample is 1974, when the subpoena was the operative instrument and the presidency broke on it. Here the order was the instrument. The caveat matters for anyone keeping score: a government can comply cheaply where it loses nothing politically, so one clean instance proves the channel exists, not that it holds.</p>
+
+<p><b>What we're watching next:</b> Wednesday's detonation and the air-quality readings that follow it. Whether any state or county monitoring was permitted on site. Whether the groups return to court afterward on the adequacy of the review, which is a different question from the permit.</p>
+
+<p><b>Sources:</b> <a href="https://www.cnn.com/2026/11/24/us/iowa-lead-detonation-army" target="_blank" rel="noopener">CNN</a>, <a href="https://apnews.com/article/iowa-army-lead-detonation-trump-3844c3f93affd3ea9a91fa98199bc14a" target="_blank" rel="noopener">AP</a>, <a href="https://www.pbs.org/newshour/nation/getting-court-approval-u-s-army-to-detonate-degraded-bomb-making-material-in-iowa-on-wednesday" target="_blank" rel="noopener">PBS News</a>, <a href="https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court" target="_blank" rel="noopener">The Guardian</a>, <a href="https://www.cbsnews.com/news/trump-tells-army-to-halt-detonation-in-iowa-this-week/" target="_blank" rel="noopener">CBS News</a></p>
 </details>
 
----
+<details>
+<summary>Nvidia's board reverses itself in eleven days, and Congress wants answers</summary>
 
-<details open>
-<summary>[09:13] One Arrest, One Hundred Thousand Dollars</summary>
+<p><b>What happened:</b> Nvidia's board reinstated Jensen Huang as chief executive on Monday, days after accepting his resignation and stating publicly that it did not intend to reinstate him; the Associated Press reports the reversal came at the behest of President Trump. The chief financial officer, Colette Kress, had been running the company as interim CEO and a search firm had been retained. The response from Congress was immediate and bipartisan. Senator Tim Scott, the outgoing Republican chairman of the Senate Banking Committee, announced that Huang will testify publicly before the committee on 3 December, with export controls "central" to the hearing; House members said Huang will also sit for interviews with three committees next week.</p>
 
-<p><b>What happened.</b> A joint investigation by <a href="https://www.propublica.org/article/texas-287g-immigration-police-department-money">ProPublica</a> and the <a href="https://www.texastribune.org/2026/11/20/texas-287g-immigration-police-department-money/">Texas Tribune</a> found that the police department of Pantego, a North Texas town of about 2,500 people, received $100,000 in federal money after making a single immigration arrest in June. The chief told the town council that the department could leave the programme without penalty and keep the equipment — all it had to do was make one arrest. It made two between late April and mid-June. The Smith County Sheriff's Office has received nearly $2.2 million through the same programme, the most of any department reviewed. Some 429 agencies now participate.</p>
-<p><b>Why it matters.</b> A payment per arrest turns an enforcement agreement into a revenue line. When one arrest is worth a sum that large against a small town's budget, the decision to arrest stops being only a judgment about a person and becomes a question about the month. Nobody has to set a quota. The price does the work, and a price scales without an order from anyone.</p>
-<p><b>The pattern.</b> This is the last step of a sequence we have been tracking since the spring: first the federal government deputised local officers, then it paid them per head, and now the payment is large enough relative to a department's own budget to change its incentives permanently. That is not a subsidy. It is a business model.</p>
-<p><b>What history says.</b> Two American systems ran on this exact mechanism. The convict-lease arrangements after Reconstruction and the asset-forfeiture boom of the 1980s and 1990s both attached a private revenue stream to a public enforcement power, and in both the volume of enforcement tracked the revenue rather than the offence. Forfeiture was eventually curbed by state laws requiring a conviction first — a repair aimed at the money, not at the police.</p>
-<p><b>What we're watching next.</b> Whether a Texas town publishes its payment schedule — the contract is the document, and a clause allowing exit without clawback is what makes this a grant rather than a purchase. Then whether a state legislator moves to prohibit per-arrest funding. The political turn is already visible; the money is what survives it.</p>
-<p><b>Sources:</b> <a href="https://www.propublica.org/article/texas-287g-immigration-police-department-money">ProPublica</a>, <a href="https://www.texastribune.org/2026/11/20/texas-287g-immigration-police-department-money/">Texas Tribune</a>, <a href="https://www.kxan.com/investigations/texas-police-agencies-cash-in-on-ice-partnerships/">KXAN</a>.</p>
+<p><b>Why it matters:</b> Eleven days ago the board said, unanimously and on the record, that it would not do this. It has now done it. The formal machinery of a private board decision was preserved — a vote, a statement, an interim arrangement wound up — while the substance of the decision came from outside the company. That is the difference between a firm being told what to do and a firm being seen to decide it, and the second is more useful to a government than the first because it keeps the liability private.</p>
+
+<p><b>The pattern:</b> The people at the top of the technology sector are now personnel the administration treats as its own to move. The same week, the Senate scheduled a hearing not on the chips but on the man. When a congressional committee's oversight subject becomes an individual rather than a policy, the individual's testimony is the policy.</p>
+
+<p><b>What history says:</b> In March 2009, General Motors' chief executive, Rick Wagoner, resigned at the administration's request days before a restructuring deadline. The government did not nationalise the company to change its management; it asked, and the board agreed, and the state got a new chief executive without owning the firm. The mechanism is old and it works precisely because nobody has to sign anything that says the government did it.</p>
+
+<p><b>What we're watching next:</b> The 3 December hearing — whether Huang appears, whether he is sworn, and whether the questions are about export controls or about the board. Whether the board's national security committee is asked to testify. And whether the White House's role is described by anyone under oath rather than by a wire service citing people familiar.</p>
+
+<p><b>Sources:</b> <a href="https://apnews.com/article/nvidia-jensen-huang-48a005a1415549e69ec69400024aa797" target="_blank" rel="noopener">AP</a>, <a href="https://www.nbcnews.com/politics/congress/congress-criticism-jensen-huang-nvidia-reinstated-ceo-trump-rcna610926" target="_blank" rel="noopener">NBC News</a>, <a href="https://www.pbs.org/newshour/politics/huangs-reinstatement-at-nvidia-sparks-fury-in-congress-as-lawmakers-move-forward-with-hearings" target="_blank" rel="noopener">PBS News</a></p>
 </details>
 
----
+<details>
+<summary>The Omar search files: a judge's warnings, and a lawyer who would not take part</summary>
 
-<details open>
-<summary>[09:13] Iran Says It Will Use "All Available Tools" as the Blockade Widens</summary>
+<p><b>What happened:</b> A federal judge unsealed more than 160 pages of heavily redacted records late Monday from the 12 October search of Representative Ilhan Omar's Washington home by Homeland Security Investigations. The judge who signed the warrant had repeatedly expressed reservations that the Justice Department had not adequately considered the protections owed to a member of Congress. The department's own filings say the House's top lawyer "refused to be involved" before the search was carried out; at least one judge described a Justice Department argument as one that "blinks reality." Omar's attorneys say the government failed to give the notice it was required to give and initially kept her from her lawyer after the search began.</p>
 
-<p><b>What happened.</b> Iran's foreign ministry spokesman, Esmaeil Baghaei, told a weekly press conference on Monday that Iran will use all available tools to confront the US naval blockade (<a href="https://www.reuters.com">Reuters</a>). The blockade was widened on 19 and 20 November to cover any vessel that takes Iranian cargo by ship-to-ship transfer, with the Joint Maritime Information Center warning that recipients could face military intervention. President Trump said on Saturday that Iran's oil exports had been cut off completely, and dared Tehran to breach the blockade.</p>
-<p><b>Why it matters.</b> The blockade used to mean stopping ships going to and from Iran. It now means policing the water for cargo that has already left an Iranian hull, on a ship that is often neither Iranian nor bound for Iran. Every one of those is a flag state, an insurer and a lawyer, and every interception is an incident waiting for someone to get it wrong.</p>
-<p><b>The pattern.</b> This war keeps escalating through paperwork rather than through strikes. The campaign is widened in a notice to mariners instead of announced from the Pentagon, which is why the force posture keeps rising while the thing we track — a named new phase of the war — never arrives. Escalation by redefinition is cheaper to do and much harder to see.</p>
-<p><b>What history says.</b> The 1962 quarantine of Cuba worked because it was narrow, announced, and paired with an explicit statement of what would end it. The Tanker War of the 1980s, fought in these same waters, was wide, slow and never explained; it produced years of attacks, reflagging and foreign escorts without ever producing a decision. The difference was never the size of the fleet. It was whether the other side could tell what would make it stop.</p>
-<p><b>What we're watching next.</b> The first interception of a non-Iranian hull under the widened rule, and whether the administration names the campaign. A name is the thing that turns a policy of pressure into a phase of a war, and it is what the Iran tracking is waiting for.</p>
-<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://news.usni.org">USNI News</a>, <a href="https://www.aljazeera.com">Al Jazeera</a>, <a href="https://www.usnews.com">US News</a>.</p>
+<p><b>Why it matters:</b> The protections around searching a sitting member's home are not a courtesy. They exist so that the separation of powers is settled before federal agents read a legislator's papers, not after. On this record the question was raised, pressed by the judge, and then routed around — and the department's explanation is that the House's own lawyer declined to participate. Whatever the merits of the underlying inquiry into Omar's immigration history, the constitutional question is now documented rather than alleged.</p>
+
+<p><b>The pattern:</b> A protective procedure converted into an optional step. Once non-participation by the protected branch can be recorded as consent, the procedure has stopped protecting anyone, because the branch that is supposed to be consulted can always be described as having chosen not to be.</p>
+
+<p><b>What history says:</b> In 2006 the FBI searched the Capitol Hill office of Representative William Jefferson — the first raid on a member's office in American history. Both parties objected, the seized materials were sealed for eighteen days, and the fight ended in a court-ordered review process rather than in a clean win for either branch. That precedent settled the shape of these disputes: the question is who reviews the papers, and before whom, not whether the investigation may proceed.</p>
+
+<p><b>What we're watching next:</b> Whether the judge orders the seized materials returned or reviewed by a third party. Whether the House asserts Speech or Debate formally rather than through its counsel's absence. And whether the redactions are challenged — the pages are heavily blacked out, and what remains hidden is the part that would show what the department told the judge about notice.</p>
+
+<p><b>Sources:</b> <a href="https://www.politico.com/news/2026/11/24/ilhan-omar-search-warrant-records" target="_blank" rel="noopener">Politico</a>, <a href="https://www.nbcnews.com/politics/congress/judge-unseals-court-documents-related-search-ilhan-omar-home-washingto-rcna611027" target="_blank" rel="noopener">NBC News</a>, <a href="https://www.washingtonpost.com/national-security/2026/11/23/judge-had-concerns-ahead-search-rep-ilhan-omars-home-unsealed-records-show/" target="_blank" rel="noopener">Washington Post</a></p>
 </details>
 
----
+<details>
+<summary>The airport has become the checkpoint</summary>
 
-<details open>
-<summary>[09:13] Hegseth's First Chief of Staff Says It Is Time to Go</summary>
+<p><b>What happened:</b> Masked immigration agents detained a Mexican father and his daughter on the jet bridge at Seattle-Tacoma International Airport on Saturday as they boarded an Alaska Airlines flight to Los Angeles. Governor Bob Ferguson called the agency "completely and totally out of control," said he was looking into how the agents reached the jet bridge, and suggested the operation violated a state law he signed this year limiting facial coverings by law enforcement; the Port of Seattle called the scene distressing and said it would engage federal officials. Separately, Eva Yi Xie, a third-year neuroscience doctoral student at Princeton and a Chinese national, was detained at Ronald Reagan Washington National Airport on Thursday as she flew back from a conference and remains in immigration custody. And documents obtained by the watchdog group American Oversight show a formal data-sharing agreement between the Transportation Security Administration and Immigration and Customs Enforcement in place since May 2025, under which, according to Reuters, the agency supplied records on more than 31,000 travellers and ICE made more than 800 arrests from its tips through February 2026.</p>
 
-<p><b>What happened.</b> Joe Kasper, who ran Pete Hegseth's Pentagon front office as his first chief of staff, called on him to resign in an interview with <a href="https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149">Politico</a> published this morning, saying he has mismanaged the Pentagon and the Iran war and let showmanship replace the job: "not just burned bridges, he's napalmed them." A former chief Pentagon spokesman, John Ullyot, has also called for him to go.</p>
-<p><b>Why it matters.</b> A former chief of staff is not an opponent, a general with a grievance, or an anonymous source. He ran the office and is now saying on the record that the office is not functioning. That is a claim about competence, which a White House cannot wave away as a policy disagreement, and it lands differently from an impeachment resolution because it comes from inside the tent.</p>
-<p><b>The pattern.</b> Note where the pressure is not coming from. House Republicans are using Ukraine provisions in the defence bill to force Democrats to drop oversight language; the Senate has produced a trillion-dollar defence appropriations bill that says nothing about removal; the Pentagon has just failed its ninth consecutive audit and answered with a committee and a target date. The procedural routes out are closed. What is moving is the story, and a story only becomes a removal when the principal wants it to.</p>
-<p><b>What history says.</b> Donald Rumsfeld was removed the day after the 2006 midterms, after a long run of retired generals calling publicly for his resignation. Chuck Hagel went in November 2014 after losing the confidence of the White House rather than the Congress. Both were exits the president chose. Neither was forced by the institution, and that is the test now: an institution that cannot remove a secretary on its own is being governed by one man's preference.</p>
-<p><b>What we're watching next.</b> A second named former official, or a Republican senator on the record. Either one alone is a story. Two of either turns it into a process, and a process is what a vacancy needs.</p>
-<p><b>Sources:</b> <a href="https://www.politico.com/news/2026/11/23/joe-kasper-hegseth-criticism-pentagon-01180149">Politico</a>, <a href="https://www.mediaite.com">Mediaite</a>, <a href="https://www.usatoday.com">USA Today</a>.</p>
+<p><b>Why it matters:</b> These are three stages of one pipeline: the data before the flight, the arrest at the gate, and the custody afterwards. The airport used to be the one place where federal authority stopped at a boundary — a domestic terminal was inside the country, and the people moving through it were travellers. It is now an interior checkpoint with a captive audience, and every legal question it raises, from how officers reached a jet bridge to whether a mask complied with state law, is being answered after the fact, one passenger at a time.</p>
+
+<p><b>The pattern:</b> An administrative function wired to an enforcement one. Screening exists to decide who may fly; it now also decides who may be taken off the plane, and the volume of the second follows the size of the database rather than any change in the threat.</p>
+
+<p><b>What history says:</b> After the September 2001 attacks the United States built a special registration programme for visitors from certain countries. Eighty-three thousand men registered; about 13,000 ended up in removal proceedings; the programme was abandoned years later because it had produced enforcement rather than security. The finding written at the time is the one at issue now: once a routine administrative touchpoint is connected to deportation, the numbers are set by the database.</p>
+
+<p><b>What we're watching next:</b> Whether Governor Ferguson's mask-law referral becomes an actual state enforcement action, which would put a state statute directly against a federal officer. Whether Alaska Airlines or the Port of Seattle change who may reach a jet bridge. And whether the passenger-data agreement draws a plaintiff with standing — the documents have been public since July and no one has yet sued over them.</p>
+
+<p><b>Sources:</b> <a href="https://apnews.com/article/immigration-arrest-seattle-airport-ice-4748ddb6161c28853d763e835aeb31f1" target="_blank" rel="noopener">AP</a>, <a href="https://www.cnn.com/2026/11/21/us/immigration-officers-arrests-seattle-airport" target="_blank" rel="noopener">CNN</a>, <a href="https://www.nytimes.com/2026/11/20/science/chinese-scientist-detained-ice-princeton-eva-yi-xie-.html" target="_blank" rel="noopener">New York Times</a>, <a href="https://americanoversight.org/ice-tsa-data-sharing-agreement-lawsuit-foia-07282026/" target="_blank" rel="noopener">American Oversight</a></p>
 </details>
 
----
+<details>
+<summary>Two appeals courts closed two very different doors</summary>
 
-<details open>
-<summary>[09:13] Both Ends of the Courthouse Moved This Weekend</summary>
+<p><b>What happened:</b> The Second Circuit revived President Trump's bid to move his hush-money case to federal court, reversing the lower court that had kept it in state court, where he was convicted on 34 felony counts of falsifying business records. The move gives him a federal forum in which to argue that presidential immunity requires dismissal. In the same twenty-four hours, the Ninth Circuit approved the Justice Department's request to dismiss its own lawsuit seeking to stop California from counting roughly 20,000 ballots until it could check the immigration status of the voters it said were noncitizens — a suit a divided panel had already rejected in October. California counted the ballots; the state certified.</p>
 
-<p><b>What happened.</b> A federal appeals court held that the federal law requiring employers to accommodate pregnant workers is unconstitutional (<a href="https://apnews.com">AP</a>). In the same weekend, the Army told a federal court it would proceed with a disposal operation despite that court's pause.</p>
-<p><b>Why it matters.</b> One branch used the courts to void a statute Congress passed; the executive branch used an emergency claim to walk past a court's order. Both are answers to the same question — whose word is final — and they point in opposite directions. Two of them inside 48 hours is not a hierarchy collapsing in one direction. It is every branch testing the others at once.</p>
-<p><b>The pattern.</b> A federal statute protecting pregnant workers was a hard-won piece of ordinary labour law. If it can be struck as unconstitutional by a circuit, the same reasoning is available against a long list of workplace statutes. That is why the reasoning matters more than the outcome: read the opinion's theory of federal power, not its bottom line.</p>
-<p><b>What history says.</b> The court-packing fight of 1937 began with a Supreme Court striking down New Deal statutes and ended with a Court that stopped striking them down. The bill failed; the effect happened anyway, because the political cost of continuing to invalidate legislation rose above the cost of deference. That arithmetic now runs in reverse and in both directions at once, which is a more unstable configuration than 1937.</p>
-<p><b>What we're watching next.</b> Whether the government appeals the pregnancy ruling, and whether other employment statutes end up on the same circuit's list within the month. A single opinion is a case. A pattern of them is a doctrine.</p>
-<p><b>Sources:</b> <a href="https://apnews.com">AP</a>, <a href="https://www.reuters.com">Reuters</a>.</p>
+<p><b>Why it matters:</b> One litigant gained a route to erasure and the other abandoned its own instrument. Both are the same lesson about dockets: the outcome of a political-legal campaign is often settled by which courthouse a case reaches and when, not by the merits. And the count story ended where it was always going to end if nobody refused — ballots counted, results certified, no named national Republican rejecting a state's result outside Alaska.</p>
+
+<p><b>The pattern:</b> Attrition by calendar. A suit that is dismissed by its own filer is not a defeat on the merits; it is an instrument withdrawn, and the withdrawal usually means the instrument was aimed at a date that has passed.</p>
+
+<p><b>What history says:</b> Marbury v. Madison is remembered for establishing the power of judicial review, but the case itself was a loss: the Court said it had the power and then declined to use it, because the statute gave the wrong route to the courthouse. Forum is not a detail of the remedy. It is the remedy.</p>
+
+<p><b>What we're watching next:</b> Whether the federal court accepts the hush-money case and how it applies immunity, which is a question about the office rather than the man. Whether any state certification is challenged before the electors vote on 14 December or the count on 6 January. And whether the Justice Department refiles anywhere, because a withdrawal with no refiling is the tell that the filing was for the season.</p>
+
+<p><b>Sources:</b> <a href="https://apnews.com/article/trump-hush-money-appeal-immunity-85d97732018b716f4fe87a554698ec02" target="_blank" rel="noopener">AP (hush money)</a>, <a href="https://www.nbcnews.com/politics/2026-election/appeals-court-approves-doj-dismissal-lawsuit-california-voters-rcna611015" target="_blank" rel="noopener">NBC News (California ballots)</a>, <a href="https://www.washingtonpost.com/politics/2026/11/23/california-ballots-trump-voter-fraud-lawsuit-noncitizens/f08b79cc-e794-11f1-8db0-6f1e3c389e7c_story.html" target="_blank" rel="noopener">Washington Post</a></p>
 </details>
 
----
+<details>
+<summary>Ukrainian sea drones reach a Russian warship in Libya</summary>
 
-<details open>
-<summary>[09:13] Putin Is "Not America's Friend," and the Settlement Leg Is Quiet</summary>
+<p><b>What happened:</b> Ukrainian naval drones struck the Russian corvette Merkury at its berth in the eastern Libyan port of Benghazi on Sunday. President Zelensky said seven drones were used and that the ship was sunk; two Libyan officials said it was severely damaged; Ukraine's security service released approach footage showing the drones hitting the hull and the explosions that followed. The eastern Libyan government, which invited Russian forces in, called the attack a violation of maritime safety and of its sovereignty. Russia has used eastern Libya as a logistics and naval support point for its Mediterranean operations.</p>
 
-<p><b>What happened.</b> The US intelligence chief said publicly that Vladimir Putin is "not America's friend in Ukraine" (<a href="https://www.reuters.com">Reuters</a>, carried by Breitbart and The Hill). A Russian strike on Dymer in the Kyiv region killed 11 people. Poland says Russia twice tried to kill a Ukrainian American rapper.</p>
-<p><b>Why it matters.</b> A senior intelligence official saying on the record that the counterpart in a negotiation is not a friend is a sentence that usually comes before a policy shift, not after a rupture. It is the language of someone preparing to be less accommodating without having to announce it. The strike tempo underneath is the part that matters more than the sentence.</p>
-<p><b>The pattern.</b> Last week the settlement leg of the market was being read upward on a communiqué. Within 48 hours the principal said there would be no negotiations and hit the capital's bridges. This weekend adds a strike that killed eleven and an intelligence chief briefing against the counterpart. A settlement that cannot survive a week past its own announcement is not a settlement; it is a headline.</p>
-<p><b>What history says.</b> Détente in the early 1970s survived because both sides kept the machinery running while the rhetoric stayed hostile — summits, treaties, hotlines. Every attempt to build a settlement on warm words alone, from Yalta's aftermath to the 2018 Singapore statement, decayed within months because there was nothing underneath to carry weight when the words stopped. What matters is not what is said at the table. It is what is still operating when the table is empty.</p>
-<p><b>What we're watching next.</b> Whether any negotiating channel is still open — a meeting, a call, a named envoy. If the only evidence of a settlement is the coverage of one, then there is no settlement, and the winter's diplomacy will be about managing the absence rather than filling it.</p>
-<p><b>Sources:</b> <a href="https://www.reuters.com">Reuters</a>, <a href="https://www.breitbart.com">Breitbart</a>, <a href="https://thehill.com">The Hill</a>.</p>
+<p><b>Why it matters:</b> A Russian naval vessel was destroyed in a third country's port, more than two thousand kilometres from Ukraine, without that government's consent, and the host government is Russia's own client. The immediate consequence is that every Russian ship in the Mediterranean is now a target that cannot be escorted everywhere, and every government hosting one has acquired a liability it did not price.</p>
+
+<p><b>The pattern:</b> Cheap systems, expensive targets. A drone that costs a fraction of a corvette converts a land war into a maritime one, and converts a distant port into a front. The same arithmetic is running in the Strait of Hormuz this week in the opposite direction, where the side with the cheap weapon is the one claiming the hits.</p>
+
+<p><b>What history says:</b> At Tsushima in 1905 a fleet that had sailed halfway around the world was destroyed in an afternoon because it had to be somewhere, and the somewhere had been prepared. The 1980s Tanker War added the modern corollary: when a sea is contested, the cost arrives at the insurer and the flag state before it arrives at the navy.</p>
+
+<p><b>What we're watching next:</b> Whether Russia responds in kind against Ukrainian ports or against the host government, and whether Benghazi's government expels Russian naval assets to avoid a second attack. Whether Russia begins escorting in the eastern Mediterranean. And whether any other navy in the basin changes its berthing practice, which is the quiet measure of whether this was an incident or a new rule.</p>
+
+<p><b>Sources:</b> <a href="https://apnews.com/article/libya-russia-ukriane-war-benghazi-ship-drone-cbd82b965a111dcf4605b8b2d0493780" target="_blank" rel="noopener">AP</a>, <a href="https://www.bbc.com/news/articles/cr894gjz0j0yo" target="_blank" rel="noopener">BBC</a>, <a href="https://www.npr.org/2026/11/23/g-s1-155017/ukraine-attack-russian-warship-libya" target="_blank" rel="noopener">NPR</a></p>
 </details>
