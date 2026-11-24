@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-24",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-24T09:09 ET"
+  "generated_stamped": "2026-11-24T09:10 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -15775,32 +15775,32 @@
   "unscored_predictions": 0
  },
  "institutions": {
-  "reviewed": "2026-11-16",
+  "reviewed": "2026-11-24",
   "reviewer": "CASS hand review (owner-directed, 7-day cadence)",
   "scale_note": "0=Calm, 100=Captured/Non-functional. Bands: Calm 0-39, Strained 40-59, Warning 60-74, Critical 75-100. Scores are hand-set per review; wire citations belong in the note field.",
   "institutions": [
    {
     "name": "Federal Courts",
-    "score": 83,
+    "score": 84,
     "band": "Critical",
     "delta": 1,
-    "why": "Delta +1 from 82. The Court kept taking the administration's emergency applications and kept refusing to explain itself in the same order: the California ballot-segregation request was denied unsigned (11-02), the Big Bend wall relief was granted while the merits were undecided (11-09), and by 11-16 roughly 20,000 California ballots sat with a court-appointed examiner rather than with the county that counted them. That last move is the one that matters for this score: election administration is being resolved by appointing an officer of the court, which is the judiciary absorbing a function the political layer would not perform. The docket is holding; the load on it grew.",
-    "prev_score": 82
+    "why": "Delta +1 from 83. Three appellate outcomes in four days, all of them decided by posture rather than merits. The Eighth Circuit denied the environmental groups' emergency request and cleared the Army's lead-azide permit (11-23), after which the executive proceeded; the Ninth Circuit granted the Justice Department's motion to dismiss its OWN California ballot suit (11-23), ending the 20,000-ballot sequestration route with ballots counted and the state certified; the Second Circuit revived the federal removal of the hush-money case (11-23). And in the Omar case the judge who signed the 12 October warrant is now on the record, in unsealed filings (11-23), repeatedly pressing the department on the protections owed to a member of Congress - a reservation raised, recorded, and routed around. The load keeps arriving and the Court keeps answering procedure rather than substance: it is holding, and holding more of the country's contested questions.",
+    "prev_score": 83
    },
    {
     "name": "Congress",
     "score": 80,
     "band": "Critical",
-    "delta": 4,
-    "why": "Delta +4 from 76. The chamber is now governing by referral. Massie's privileged impeachment resolution was disposed of 211-204 by a motion to refer it to committee (11-10), with the only no vote the member who filed it - every other member avoided recording a position on eight articles. Two days later White House counsel Scharf wrote to Congress that investigating the executive may itself be criminal conduct (11-11), which is oversight reclassified as an offence rather than defended against. In the same week the FAA's request rose to $50bn with no lifecycle cost estimate in front of a committee that has not scheduled a hearing on the outage. The institution acts when procedurally compelled and not otherwise, and the compulsion is being routed to committee.",
-    "prev_score": 76
+    "delta": 0,
+    "why": "Re-stated at 80. The one movement in the window is genuine oversight scheduling: Senate Banking chair Tim Scott put Huang before the committee publicly on 3 December with export controls named as central (11-23), and three House committees booked interviews. That is the chamber acting when the object is an individual it can summon - the same pattern as the referral: process when compelled, and the compulsion arrives from outside. Against it, the Omar record shows the House's own counsel recorded as having 'refused to be involved' before a member's home was searched (11-23), which is the House declining a protective role rather than exercising one. No movement; the two facts cancel at this score.",
+    "prev_score": 80
    },
    {
     "name": "Election Offices",
-    "score": 82,
+    "score": 83,
     "band": "Critical",
-    "delta": 0,
-    "why": "Re-stated at 82. The count finished: Alaska's ranked-choice transfer produced a winner and the rule was ratified by the same electorate that produced the Democratic win (11-16), and Mississippi certified affidavit ballots with a Senate race pending without a recount following (11-06). California's 20,000 contested ballots moved to a court-appointed examiner - the machinery did not fail, it handed the question upward. What remains is pressure at the legitimacy layer with no operative instrument, and that is where it sat at the last review. No movement.",
+    "delta": 1,
+    "why": "Delta +1 from 82. The count finished and nothing broke. California's 20,000 contested ballots were counted and the state certified after the plaintiff withdrew its own suit; the Ninth Circuit approved the dismissal (11-23). Alaska settled 11-16. Election Day plus three weeks produced no named national Republican refusing a state's result outside Alaska, and the count-refusal card sits at 40 unresolved. The +1 is for capacity demonstrated under a hostile filing rather than for calm: the offices were sued, sequestered, examined, and still delivered a count. The pressure at the legitimacy layer is unchanged, which is why this is not a larger move.",
     "prev_score": 82
    },
    {
@@ -15808,7 +15808,7 @@
     "score": 80,
     "band": "Critical",
     "delta": 0,
-    "why": "Re-stated at 80. No health-agency capture event logged in the window. USDA's proposed rule narrowing broad-based categorical eligibility (11-10), 6.3 million people, is a welfare-administration action and a proposed rule, not an effect, so it is not scored here. Chronic, not acute; no evidence either way is not a movement.",
+    "why": "Re-stated at 80. No health-agency capture event in the window. No evidence either way is not a movement.",
     "prev_score": 80
    },
    {
@@ -15816,24 +15816,24 @@
     "score": 91,
     "band": "Critical",
     "delta": 0,
-    "why": "Re-stated at 91. No new Senate-confirmed departure logged in this window, and the fourth exit (civil division, 11-09) is the last one on the record. Re-stating rather than nudging: the offices emptied last week are still empty, the litigation load is still arriving, and the absence of a fresh resignation is not evidence the drain stopped - it is the absence of reporting. A clean week in a series that ran three weeks does not move a score.",
+    "why": "Re-stated at 91. No new Senate-confirmed departure logged in the window. The offices emptied over the previous three weeks are still empty and the litigation load is unchanged; a quiet week in a series is not the end of the series.",
     "prev_score": 91
    },
    {
     "name": "Military Leadership",
     "score": 78,
     "band": "Critical",
-    "delta": 4,
-    "why": "Delta +4 from 74. The force is being moved into the cabinet's physical defence. Bessent relocated to a military base after Iranian threats, with Hegseth and Rubio on Generals' Row at Fort McNair, Hegseth in Quarters 8, and Noem, Miller and Bondi also reported in base housing (11-11) - senior civilians living inside the uniformed perimeter at $4,655 a month. At the same time the secretary's first Pentagon press conference in six months opened with a security agent warning reporters they would be physically removed for lack of decorum (11-10). No uniformed public non-concurrence has appeared. The change is that the institution is now providing domestic protection for the officials who command it, which converts any later refusal into a break rather than a filing.",
-    "prev_score": 74
+    "delta": 0,
+    "why": "Re-stated at 78. No new event in the window that bears on the uniformed chain: the Benghazi/Libya strike is a naval-drone story with no reported command friction, and the Pentagon's response to the Kasper resignation call was a statement, not a personnel action. The base-housing arrangement logged at the last review stands.",
+    "prev_score": 78
    },
    {
     "name": "Dollar & Credit",
-    "score": 73,
-    "band": "Warning",
-    "delta": 4,
-    "why": "Delta +4 from 69. The repricing moved from sentiment to capital structure. Nvidia's board refused its former chief executive's return while the company's top lawyer was reported misled about an affair (11-13), and Anthropic priced a $64.4bn offering at up to $1.4tn against a $104bn nine-month loss, with a $26bn private placement of non-voting shares taken by its own compute suppliers at the offer price (11-16). Suppliers underwriting their customer's float is a credit fact, not a market mood. Oil refused the escalation: Brent settled below $95 on the day the IRGC claimed six tanker sinkings. Warning band, moving toward the top.",
-    "prev_score": 69
+    "score": 75,
+    "band": "Critical",
+    "delta": 2,
+    "why": "Delta +2 from 73. The governance risk moved inward at the top of the capital stack. Nvidia's board reinstated Jensen Huang on 11-23, four days after a unanimous on-record statement that it did not intend to reinstate him, with AP attributing the reversal to the President - and Congress responded by summoning the chief executive rather than the board. A board that reverses itself under political direction is a credit fact about the largest company in the index, not a market mood; the same week, the White House asked Congress for $50bn for the air-traffic system with no lifecycle estimate. Top of the Warning band.",
+    "prev_score": 73
    },
    {
     "name": "Department of Education",
@@ -15844,8 +15844,8 @@
     "prev_score": 86
    }
   ],
-  "age_days": 8,
-  "review_note": "7-day hand review of 2026-11-16, covering the window 2026-11-09 to 2026-11-16 (wires and ledger entries 11-09 through 11-16, including the FAA ground stop and its vendor account, the Massie referral, the Scharf letter, the base-housing reporting, and the AI capital stack). Deltas are against the 2026-11-09 review. No score set by inference: every movement cites a logged event in the window. Institutions with no logged event are re-stated, not nudged. No jump exceeds 10 points."
+  "age_days": 0,
+  "review_note": "7-day hand review of 2026-11-24, covering the window 2026-11-16 to 2026-11-24 (wires 11-17 through 11-24 and the Morning Wire of 11-24). Deltas are against the 2026-11-16 review. No score set by inference: every movement cites a logged event in the window. Institutions with no logged event are re-stated, not nudged. No jump exceeds 10 points."
  },
  "mget": {
   "reviewed": "2026-11-04",
@@ -17396,7 +17396,7 @@
    "fired": 32,
    "expired": 31,
    "retired": 7,
-   "active_no_expiry": 2,
+   "active_no_expiry": 0,
    "active_past_expiry": 4,
    "high_open": 44
   },
@@ -17692,6 +17692,26 @@
     "status": "active",
     "check": "The 2026-11-20 McCotter memo tells DOJ staff to 'generally avoid citing' ABA materials because reliance 'risks legitimizing the ABA and its positions', ground given as the ABA's DEI policies. Stated as a practice, that doctrine names no body in particular. TEST: by 2026-12-21, does any executive-branch directive, memo, or official instruction de-reference a SECOND professional or standard-setting body (state bar association, AALS, ACGME or a medical board, FASB/GASB, a scientific academy, or a recognised accreditor)?\n\nSub-tests, in order of severity: (a) an instruction that reaches a standard the government itself enforces or a licence its own lawyers hold \u2014 that is the collision the first m",
     "action": "On (a) or (b): escalate to Samuel same day as institutional-stress signal; the credential-delegitimation lane moves from rhetorical to structural and gets its own note. On a second body only: log as confirmation of the doctrine, do not open a specimen per body \u2014 merge into this item. On retraction: close the item as withdrawn and annotate the origin absorption object."
+   },
+   {
+    "title": "PENDING SOURCE: 'Citizens of the United States' (Facebook page) \u2014 armed-removal movement-building corpus",
+    "added": "2026-11-23",
+    "expire": "2026-12-21",
+    "days_left": 27,
+    "priority": "high",
+    "status": "active",
+    "check": "STATUS: DECLARED SOURCE, NO ARTIFACTS YET. Owner announced 2026-11-23 15:54 ET that he intends to submit a corpus of this page's work 'at some point'. This object exists so the expectation is on the record BEFORE the material arrives. Do not code a class from this description; class is assigned from the artifact on submission, per the standing order.\n\nSOURCE. Facebook page 'Citizens of the United States'. Owner is a follower of the page and states he is INTENTIONALLY NOT ENGAGING with it. Discovery channel: algorithmic feed (he is served it as a follower), not search, not referral. Not a member of any group; spectator position only.\n\nOWNER'S CHARACTERISATION, near-verbatim: rhetoric 'is inte",
+    "action": "On receipt: assign class from the artifact itself (expect 'new variant' given no shelf in 3,038 objects for armed-removal-of-Muslim-citizens advocacy; confirm, don't assume). Prompt for the four record fields. Then test H1/H2/H3 against timestamps before writing any finding. File under absorption with provenance grade per claim."
+   },
+   {
+    "title": "Violent Reddit rhetoric: step-change against a consistent baseline (habituated observer)",
+    "added": "2026-11-23",
+    "expire": "2026-12-21",
+    "days_left": 27,
+    "priority": "high",
+    "status": "active",
+    "check": "OWNER'S TARGET (2026-11-23 15:52 ET, near-verbatim): 'what I'm monitoring for now is a change in the violent Reddit rhetoric, the escalation... baseline-wise, it's been consistent the majority of my feed.'\n\nWHAT IS BEING MEASURED. Not the level of violent rhetoric - that level is the baseline and is already known to be high and steady across the majority of the feed. What is being measured is a DISCONTINUITY: a break in a baseline that has held for the observation window. This is a step-change watch, not a trend watch.\n\nWHY THIS IS THE RIGHT INSTRUMENT AND THE ONLY ONE AVAILABLE. From the same sitting: memes centred on guns and violent rhetoric no longer stand out to the owner - they have be",
+    "action": "Capture as a specimen with trigger coded as step-change-not-slope; cross-reference armed-formation-sponsorship-persistence, the armed-formation residue discriminator (/space/protocol/clandestine-mobilisation-residue-discriminator.json) and any 2027-01-06 / inauguration prediction carrying a mass-casualty or armed-presence node. Note explicitly that the pre-trigger baseline was habituated, so the delta is genre-only."
    },
    {
     "title": "Bukele frames Haiti deployment in crusader register: 'Deus Vult', gangs 'satanic', Deut 28:7",
@@ -18112,26 +18132,6 @@
     "status": "active",
     "check": "Whether an organized anti-program political force openly adopts the Oct 2026 French protest movement (RN-LFI realignment, cross-bloc budget coalition, national-salvation figure). Signposts: RN/LFI co-leading protest demands; cross-bloc no-confidence or alternative-budget coalition; military/police refusal signals; emergency constitutional change.\n\n[R3 AUDIT 2026-11-12 NO-CARD] PERSISTENCE question about a realignment with no dated gate; scored as a thesis by the mget ledger.",
     "action": "Upgrade leg_4_vanguard_alignment in western-sweep-2026-france.json toward rupture-candidate scoring; write journal entry."
-   },
-   {
-    "title": "PENDING SOURCE: 'Citizens of the United States' (Facebook page) \u2014 armed-removal movement-building corpus",
-    "added": "2026-11-23",
-    "expire": "",
-    "days_left": null,
-    "priority": "high",
-    "status": "active",
-    "check": "STATUS: DECLARED SOURCE, NO ARTIFACTS YET. Owner announced 2026-11-23 15:54 ET that he intends to submit a corpus of this page's work 'at some point'. This object exists so the expectation is on the record BEFORE the material arrives. Do not code a class from this description; class is assigned from the artifact on submission, per the standing order.\n\nSOURCE. Facebook page 'Citizens of the United States'. Owner is a follower of the page and states he is INTENTIONALLY NOT ENGAGING with it. Discovery channel: algorithmic feed (he is served it as a follower), not search, not referral. Not a member of any group; spectator position only.\n\nOWNER'S CHARACTERISATION, near-verbatim: rhetoric 'is inte",
-    "action": "On receipt: assign class from the artifact itself (expect 'new variant' given no shelf in 3,038 objects for armed-removal-of-Muslim-citizens advocacy; confirm, don't assume). Prompt for the four record fields. Then test H1/H2/H3 against timestamps before writing any finding. File under absorption with provenance grade per claim."
-   },
-   {
-    "title": "Violent Reddit rhetoric: step-change against a consistent baseline (habituated observer)",
-    "added": "2026-11-23",
-    "expire": "",
-    "days_left": null,
-    "priority": "high",
-    "status": "active",
-    "check": "OWNER'S TARGET (2026-11-23 15:52 ET, near-verbatim): 'what I'm monitoring for now is a change in the violent Reddit rhetoric, the escalation... baseline-wise, it's been consistent the majority of my feed.'\n\nWHAT IS BEING MEASURED. Not the level of violent rhetoric - that level is the baseline and is already known to be high and steady across the majority of the feed. What is being measured is a DISCONTINUITY: a break in a baseline that has held for the observation window. This is a step-change watch, not a trend watch.\n\nWHY THIS IS THE RIGHT INSTRUMENT AND THE ONLY ONE AVAILABLE. From the same sitting: memes centred on guns and violent rhetoric no longer stand out to the owner - they have be",
-    "action": "Capture as a specimen with trigger coded as step-change-not-slope; cross-reference armed-formation-sponsorship-persistence, the armed-formation residue discriminator (/space/protocol/clandestine-mobilisation-residue-discriminator.json) and any 2027-01-06 / inauguration prediction carrying a mass-casualty or armed-presence node. Note explicitly that the pre-trigger baseline was habituated, so the delta is genre-only."
    }
   ],
   "high": [
@@ -18399,7 +18399,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-24 14:09Z",
+  "generated": "2026-11-24 14:10Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {

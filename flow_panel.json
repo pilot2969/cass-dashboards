@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "generator": "build_flow_panel.py",
  "note": "Every number here is derived from /space at generate time. Nothing is hand-set. If a series is absent, the panel shows a blind spot, not a filler.",
  "panels": [
@@ -60,10 +60,10 @@
     {
      "month": "2026-11",
      "raw": 4,
-     "per_100_journal": 13.3,
-     "journal": 30,
+     "per_100_journal": 12.5,
+     "journal": 32,
      "ledger": 93,
-     "days_covered": 22
+     "days_covered": 23
     }
    ],
    "control": {
@@ -75,7 +75,7 @@
      "2026-08": 14,
      "2026-09": 176,
      "2026-10": 189,
-     "2026-11": 30
+     "2026-11": 32
     },
     "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
    },
