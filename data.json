@@ -4,7 +4,7 @@
   "version": "3.1.0-data-layer",
   "generated": "2026-11-27",
   "source": "Rool Machine space export",
-  "generated_stamped": "2026-11-27T01:51 ET"
+  "generated_stamped": "2026-11-27T13:19 ET"
  },
  "macro_forecast": {
   "title": "Terminal Unwinding of the Post-WWII Global Order",
@@ -15670,6 +15670,18 @@
  ],
  "movers": [
   {
+   "time": "2026-11-27 13:45 ET (afternoon wire, evidence only)",
+   "ref": "Press secretary succession - two-leg card: named by Nov 30, else Miller-managed vacuum test",
+   "change": "confidence 58 \u2014 status emergent",
+   "trigger": "Dana White flew to Washington and met Monday after the Thursday Truth Social offer; reported across wires (Nov 7 morning wire)"
+  },
+  {
+   "time": "2026-11-27 13:45 ET (afternoon wire, evidence only)",
+   "ref": "Iran escalation Node 1: a new named operational phase opens before the 120th Congress is seated \u2014 by any party",
+   "change": "confidence 56 \u2014 status pending",
+   "trigger": "US has reinforced regional defences; ~17 US warships including two carriers (Theodore Roosevelt group expected) and ~200 fighter aircraft under CENTCOM."
+  },
+  {
    "time": "2026-11-27 01:55 ET (wire)",
    "ref": "Press Access Enclosure \u2192 Media Capture (pool collapse \u2192 friendly-inherit \u2192 enforcement)",
    "change": "confidence 48 \u2014 status pending",
@@ -15680,12 +15692,6 @@
    "ref": "Eurasia Settlement \u2192 Hemisphere Pivot \u2192 Domestic Consolidation Sequence",
    "change": "confidence 70 \u2014 status pending",
    "trigger": "SAVE voter verification 6-3 (2026-09-25), USCIS machinery-capture allegation, Hegseth GOTV orders \u2014 contestation machinery building in parallel with force repositioning"
-  },
-  {
-   "time": "2026-11-20 12:10 ET (morning wire)",
-   "ref": "Iran escalation Node 1: a new named operational phase opens before the 120th Congress is seated \u2014 by any party",
-   "change": "confidence 56 \u2014 status pending",
-   "trigger": "US has reinforced regional defences; ~17 US warships including two carriers (Theodore Roosevelt group expected) and ~200 fighter aircraft under CENTCOM."
   },
   {
    "time": "2026-11-20 00:40 ET (evening wire)",
@@ -15722,12 +15728,6 @@
    "ref": "EO 13848: does the 2026 election get flagged as foreign-influenced",
    "change": "confidence 42 \u2014 status emergent",
    "trigger": "\u2014"
-  },
-  {
-   "time": "2026-11-20",
-   "ref": "First institutional act on 2026 election-integrity grounds",
-   "change": "confidence 61 \u2014 status emergent",
-   "trigger": "\u2014"
   }
  ],
  "daily_read": {
@@ -15735,9 +15735,12 @@
    "Two Italian technicians are killed by drone fire in Kuwait, and Iran denies it",
    "The president calls the growth numbers \"fake\" and demands a probe of his own statistics agency",
    "A federal judge stops the FCC's early licence review of ABC, and says the administration was chilling speech",
-   "Nine days to a shutdown, and the fight is over the war's money",
+   "Fourteen days to a shutdown, and the fight is over the war's money",
    "A grand jury in Minnesota hears evidence, and the court papers carry three versions of a congresswoman's name",
-   "Mail at the detention centres is arriving late enough to cost people their appeals"
+   "Mail at the detention centres is arriving late enough to cost people their appeals",
+   "Report: hackers got inside the Air Force's flagship cloud platform, and the Pentagon has not confirmed it",
+   "The war's fuel bill bankrupts its first airline",
+   "ICE arrested a father and daughter as they boarded a flight in Seattle, and the airline is now the one being asked to answer"
   ],
   "watching": [
    "Kuwait: whether Rome and Kuwait City produce a shared attribution, and whether Tehran's denial survives a second strike",
@@ -15746,10 +15749,25 @@
    "ABC: whether the FCC appeals, and whether the licence file stays closed past 3 December",
    "The CR: whether leadership signals a short extension or one through the fiscal year \u2014 short is a live fight, long is furniture",
    "Omar: whether the grand jury returns an indictment before the 120th Congress is sworn in",
-   "Detention mail: whether a court is asked to treat late legal mail as a due-process injury"
+   "Detention mail: whether a court is asked to treat late legal mail as a due-process injury",
+   "Cloud One: whether the Pentagon confirms it, whether Congress is briefed, and whether a second federal cloud is named",
+   "Norse: whether a second, healthier carrier falters inside 90 days \u2014 one marginal airline dying in a fuel spike is not transmission",
+   "Sea-Tac: whether the airlines' trade association takes a position or the port restricts access, and whether airport arrests keep climbing"
   ],
   "date": "2026-11-27",
   "cards": [
+   {
+    "title": "Hackers got inside the Air Force's cloud, and nobody has said what they took",
+    "html": "<p>\n<b>What happened:</b> Reuters reported on Friday that hackers breached Cloud One, the Air Force's flagship cloud computing platform, citing three people familiar with the matter. Cloud One is where the service has been moving tactical, personnel and logistics data. The report says the intrusion \"could jeopardize a vast swath of sensitive tactical, personnel and logistics data.\" No one has been named as responsible. The Defense Department has not confirmed the breach, described its scope, said when it happened, or said whether Congress has been told.\n</p>\n<p>\n<b>Why it matters:</b> Two facts are travelling together and they are not the same fact. The first is the intrusion: personnel records are how an adversary builds a list, and logistics data is how it locates things, so a breach in those systems is close to the targeting problem. The second is the disclosure. This was reported by journalists from unnamed sources, not announced by the department. An intrusion that surfaces this way has usually been known internally for some time \u2014 which would mean a war is being fought through a compromised logistics network that nobody volunteered to describe.\n</p>\n<p>\n<b>The pattern:</b> The things that hold the state's own information have been treated as infrastructure in name and as an afterthought in practice. This year the country already had a national ground stop traced to a contractor-operated system, and the lesson logged then was that the government's dependence on private platforms is where failures concentrate. Cloud One is the same structure one level up: not a contractor's config file, but the military's own computing environment.\n</p>\n<p>\n<b>What history says:</b> The 2015 breach of the Office of Personnel Management exposed the records of more than twenty million people, and the striking part in retrospect was not the intrusion but the years between intrusion and discovery \u2014 and then the years between discovery and public accounting. SolarWinds in 2020 showed the same shape from the other direction: the supply chain was the way in, and the announcement came when the government chose to make it. In both cases the compromise was real long before it was knowable, which is why \"no confirmation\" is a statement about disclosure, not about safety.\n</p>\n<p>\n<b>What we're watching next:</b> Whether the Pentagon, Cyber Command or CISA confirms any of it \u2014 an official confirmation turns a report into a fact. Whether an armed services committee announces a briefing, because oversight is the step that turns a breach into a policy event. And whether a second federal cloud tenant is named: one compromised platform is an incident, two is a campaign.\n</p>\n<p><b>Sources:</b> <a href=\"https://www.cnbc.com/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform.html\">CNBC/Reuters</a>, <a href=\"https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing\">The Guardian</a>, <a href=\"https://www.militarytimes.com/news/your-military/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/\">Military Times</a>, <a href=\"https://www.bloomberg.com/news/articles/2026-11-27/hackers-breached-us-air-force-s-cloud-platform\">Bloomberg</a></p>"
+   },
+   {
+    "title": "The war's fuel bill just bankrupted an airline",
+    "html": "<p>\n<b>What happened:</b> Norse Atlantic, the Norwegian long-haul budget carrier, stopped selling tickets, cancelled all its flights and filed for bankruptcy for its main Norwegian operating unit on Friday. The cause given across the wires is the same one: aviation fuel costs driven up by the war with Iran. Its shares had already collapsed 85% on Wednesday when the company warned it was in a \"critical financial situation.\" Its chief executive said in May that it had cancelled more than 700 flights since the war began.\n</p>\n<p>\n<b>Why it matters:</b> Until now the war's economic damage abroad had been counted in oil prices, shipping rates and insurance \u2014 abstractions that move on screens. An airline going under is something else: a named company, a dated filing, thousands of cancelled bookings, and a story a European household can follow without knowing what a strait is. That is the version of war cost that gets argued on a legislature's floor, and it arrives eleven days before the Federal Reserve meets and fourteen days before the American government runs out of money.\n</p>\n<p>\n<b>The pattern:</b> Wars are paid for in three places, and only the first is the defence budget. The second is the price of things the war touches \u2014 fuel, freight, food. The third is the firms that were already close to the edge and are pushed over it. The third is where the political cost turns up, because it comes with a name and a date rather than a futures curve.\n</p>\n<p>\n<b>What history says:</b> The 1973 oil embargo did not bankrupt the strong; it bankrupted the marginal \u2014 the independent refiners, the marginal hauliers, the airlines flying on thin winter cash. Long-haul low-cost aviation is the most reliably fatal business model in commercial flying even in calm years, and Norse had never posted an annual profit since it was founded in 2021. So the honest reading is narrow: a fragile firm died faster because of the war. Whether the war is breaking healthy firms is a different question, and it has not been answered yet.\n</p>\n<p>\n<b>What we're watching next:</b> The next casualty decides the story. If a full-service carrier cuts routes, or a second budget airline fails inside ninety days, that is transmission into the industry rather than one firm's bad luck. If nothing else follows, this stays a single death in a war-cost environment \u2014 worth recording, not worth a thesis.\n</p>\n<p><b>Sources:</b> <a href=\"https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html\">CNBC</a>, <a href=\"https://www.theguardian.com/business/2026/nov/27/norse-atlantic-airways-files-for-bankruptcy-cancels-all-future-flights\">The Guardian</a>, <a href=\"https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728\">DW</a>, <a href=\"https://www.aljazeera.com/economy/2026/11/27/norse-atlantic-files-for-bankruptcy-halts-flights-and-ticket-sales\">Al Jazeera</a></p>"
+   },
+   {
+    "title": "ICE arrested a family as they boarded a plane. Now the airline is the one being asked to answer",
+    "html": "<p>\n<b>What happened:</b> On Saturday, immigration officers arrested a father and his daughter as they boarded Alaska Airlines flight 1306 from Seattle-Tacoma to Los Angeles. The airline says it had no advance warning, and that officers pushed past a customer service agent during boarding. The Port of Seattle, which runs the airport, said it was \"outraged.\" On Tuesday, dozens of union airport workers and immigrant-rights advocates marched on Alaska's headquarters, demanding the carrier call for ICE to be removed from the airports. Alaska's answer has been careful: it does not direct or coordinate law-enforcement access, it is required to comply with the law, and it is talking to federal agencies, the port and its industry association about reducing the effect on passengers and staff.\n</p>\n<p>\n<b>Why it matters:</b> Nearly every enforcement story this year has the same shape \u2014 an agency acts on a person in a street, a courthouse, a worksite or a hospital. Here the agency acted inside a regulated private company that cannot refuse it access and cannot warn its own employees. That produces an actor the political system has no slot for: a firm with a real grievance and no legal power to act on it. Its only levers are collective \u2014 a trade association, a port authority, or a lawsuit.\n</p>\n<p>\n<b>The pattern:</b> When enforcement moves onto private ground, the private party becomes the shock absorber. It absorbs the anger of its workers and its customers, and it has to keep operating. This is the same structure as the hospitals that were asked to admit agents, and the same as the landlords asked to hand over tenant lists: the state does not need the firm's consent, only its compliance, and compliance is cheapest when it is quiet.\n</p>\n<p>\n<b>What history says:</b> The workplace raids of the 2000s ran through the same channel \u2014 a private employer that had to keep the line moving while agents walked it. What changed after those years was not the law but the record: litigation, discovery and congressional hearings turned individual raids into a documented pattern, and the documentation is what eventually constrained the practice. The airport case is early enough that the choice is still open: a protocol written now is a different fact from a protocol written after twenty more arrests.\n</p>\n<p>\n<b>What we're watching next:</b> Whether Airlines for America, the industry's trade group, says anything publicly \u2014 that is the cheapest signal of whether this becomes an industry-wide demand or stays one carrier's problem. Whether the Port of Seattle, which does have authority over its own property, tries to restrict access and gets challenged. And whether the number of airport arrests keeps climbing: a rising count with an industry statement is a collision, a rising count without one is compliance.\n</p>\n<p><b>Sources:</b> <a href=\"https://www.cbsnews.com/news/ice-arrest-alaska-airlines-flight-seattle/\">CBS News</a>, <a href=\"https://www.bbc.com/news/articles/cmwy479wz91no\">BBC</a>, <a href=\"https://www.king5.com/article/news/local/airport-workers-demand-alaska-airlines-call-for-ices-removal-from-airports/281-73659307-1b81-44a7-9e2b-94db50c4769f\">KING 5</a>, <a href=\"https://simpleflying.com/alaska-airlines-working-multiple-agencies-reduce-law-enforcement-ice-arrests/\">Simple Flying</a></p>"
+   },
    {
     "title": "Two Italian technicians are killed by drone fire in Kuwait, and Iran denies it",
     "html": "<p>\n<b>What happened:</b> Two Italian nationals were killed on Thursday at a \"vital site\" in Kuwait. Kuwait's army called it \"heinous Iranian aggression\" and said the two died from falling debris after drone and missile attacks; Italy's foreign minister blamed Iran directly. Tehran denied any involvement. The site was a facility where Italian technicians were working. It is the latest deadly strike on a Gulf state since the United States and Israel opened the war against Iran in February.\n</p>\n<p>\n<b>Why it matters:</b> Until now the war's cost to third countries has been measured in shipping, insurance and oil. This is the first time European civilians have been killed on Gulf soil, and the killing is attributed by two governments and denied by a third. That combination \u2014 ally attributing, target denying \u2014 is the shape that pulls countries in without anyone deciding to join. Italy now has a domestic reason to be in the war that it did not have on Wednesday.\n</p>\n<p>\n<b>The pattern:</b> Denial as the last free move. Every widening of this war has arrived with an unattributed or denied strike, and each time the denial buys the attacker a day while the other side decides whether the death counts. Iran's denial is not evidence of innocence or of guilt; it is evidence that the cost of admitting the strike is still higher than the cost of being disbelieved.\n</p>\n<p>\n<b>What history says:</b> Wars widen through the neutral's casualties. The 1987 tanker war pulled the US into the Gulf not through an alliance decision but through a reflagged tanker and a mine; the 1915 sinking of the Lusitania did not bring America in immediately, but it moved a public that had no intention of moving. A killed Italian technician is a smaller event with the same structure: a government that did not choose the war now owes its voters an answer about it.\n</p>\n<p>\n<b>What we're watching next:</b> Whether Rome and Kuwait City publish a shared attribution \u2014 a joint statement naming Iran is a different fact from two ministers on television. And whether the next strike lands on a site with more third-country nationals, which is how a coalition gets built by accident.\n</p>\n<p><b>Sources:</b> <a href=\"https://www.cnn.com/2026/11/26/middleeast/italians-killed-iranian-attack-kuwait-intl\">CNN</a>, <a href=\"https://www.reuters.com/world/middle-east/\">Reuters</a>, <a href=\"https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o\">BBC</a>, <a href=\"https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait\">Al Jazeera</a></p>"
@@ -17347,8 +17365,8 @@
     "withdrawals": 5,
     "grants": 1,
     "weighted": 10.0,
-    "journal": 33,
-    "per_100_journal": 15.2,
+    "journal": 34,
+    "per_100_journal": 14.7,
     "days_covered": 26
    }
   ],
@@ -18297,8 +18315,8 @@
      {
       "month": "2026-11",
       "raw": 4,
-      "per_100_journal": 12.1,
-      "journal": 33,
+      "per_100_journal": 11.8,
+      "journal": 34,
       "ledger": 94,
       "days_covered": 26
      }
@@ -18312,7 +18330,7 @@
       "2026-08": 14,
       "2026-09": 176,
       "2026-10": 189,
-      "2026-11": 33
+      "2026-11": 34
      },
      "note": "journal volume is this machine's attention, which reacts to the events it records. The denominator is endogenous: neither number is the true one, the pair is the reading."
     },
@@ -18417,7 +18435,7 @@
  "m_flow": {
   "leg": "M",
   "label": "cost of the base",
-  "generated": "2026-11-27 06:51Z",
+  "generated": "2026-11-27 18:19Z",
   "source": {
    "cache_fetched": "2026-11-11T17:31Z",
    "series": {
