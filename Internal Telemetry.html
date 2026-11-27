@@ -1815,7 +1815,7 @@ function renderOutage(d){
   $("obsCompNote").innerHTML="The year-over-year change is <b>physical</b>. Three of the five 2026 power events share one shape: a utility event, a generator or UPS that did not carry the load, cooling loss behind it. A capital-maintenance signature, not a cyber signature &mdash; and why this panel cannot be scored into M, which reads fiscal and administrative strain.";
 
   $("obsLegBig").textContent=L.headline;
-  $("obsLegSub").innerHTML="<b>"+L.unit+"</b> &mdash; the two below, out of a record of 60 provider-level outages since 2020. Every one of the 60 is a genuine outage with a real restoration. These two are the only ones an operator has blamed on an attacker.";
+  $("obsLegSub").innerHTML="<b>"+L.unit+"</b> &mdash; the two below, out of a record of "+esc(L.record_n)+" provider-level outages since 2020. Every one of the "+esc(L.record_n)+" is a genuine outage with a real restoration. These two are the only ones an operator has blamed on an attacker.";
   $("obsLegEvents").innerHTML=L.attacks.map(a=>
     '<div style="border-left:2px solid var(--hot);padding:2px 0 2px 11px;margin-bottom:10px">'+
       '<div style="font-weight:700">'+esc(a.when)+' &middot; '+esc(a.where)+'</div>'+

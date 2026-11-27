@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-27",
  "source": "outage_ledger.csv",
- "n_events": 60,
- "window": "2020-07-17 \u2192 2026-11-12",
- "reading": "Frequency is up, severity is down. 19 provider-level events in 2026 against 8 in 2024 \u2014 roughly 2.4\u00d7 in two years, the worst year in the record \u2014 while the median duration has fallen every year since 2023 and the tail is flat: 2026's longest closed event is 90 seconds off 2025's. More often, shorter. That is dependency concentration with better failover, not a degrading substrate. A worsening substrate widens the tail; this does not. That is why the panel carries no dial.",
+ "n_events": 61,
+ "window": "2020-07-17 \u2192 2026-11-13",
+ "reading": "Frequency is up, severity is down. 20 provider-level events in 2026 against 8 in 2024 \u2014 roughly 2.5\u00d7 in two years, the worst year in the record \u2014 while the median duration has fallen every year since 2023 and the tail is flat: 2026's longest closed event is 72 seconds off 2025's. More often, shorter. That is dependency concentration with better failover, not a degrading substrate. A worsening substrate widens the tail; this does not. That is why the panel carries no dial.",
  "frequency": {
-  "headline": 19,
+  "headline": 20,
   "unit": "provider-level outages in 2026 to date",
   "years": [
    {
@@ -34,16 +34,16 @@
    },
    {
     "year": "2026",
-    "n": 19
+    "n": 20
    }
   ],
-  "max_n": 19,
-  "multiple_24_26": 2.4,
-  "last_event": "2026-11-12 \u00b7 Microsoft \u00b7 20h 15m",
+  "max_n": 20,
+  "multiple_24_26": 2.5,
+  "last_event": "2026-11-13 \u00b7 FAA (FTI) \u00b7 4h",
   "rule": "Counted once per provider per event. A customer incident downstream of a provider event is not a second event."
  },
  "severity": {
-  "headline": "5h 45m",
+  "headline": "5h 26m",
   "unit": "2026 median duration",
   "years": [
    {
@@ -72,7 +72,7 @@
    },
    {
     "year": "2026",
-    "median": 5.75,
+    "median": 5.44,
     "max": 22.1,
     "open": 2
    }
@@ -126,36 +126,36 @@
     ]
    },
    "2026": {
-    "n": 19,
+    "n": 20,
     "bands": [
      {
       "label": "Power & cooling",
       "n": 5,
-      "pct": 26.3,
+      "pct": 25.0,
       "color": "#b4562f"
      },
      {
       "label": "Software & config",
-      "n": 8,
-      "pct": 42.1,
+      "n": 9,
+      "pct": 45.0,
       "color": "#5b9bd5"
      },
      {
       "label": "Network & DNS",
       "n": 3,
-      "pct": 15.8,
+      "pct": 15.0,
       "color": "#6b7fd0"
      },
      {
       "label": "Unknown",
       "n": 1,
-      "pct": 5.3,
+      "pct": 5.0,
       "color": "#3a4557"
      },
      {
       "label": "Deliberate",
       "n": 2,
-      "pct": 10.5,
+      "pct": 10.0,
       "color": "#e2564d"
      }
     ]
@@ -163,46 +163,47 @@
   },
   "power_2025": 1,
   "power_2026": 5,
-  "power_share_2026": 26.3,
+  "power_share_2026": 25.0,
   "note": "The year-over-year change is physical. Three of the five 2026 power events share one shape: a utility event, a generator or UPS that did not carry the load, cooling loss behind it. A capital-maintenance signature, not a cyber signature \u2014 and why this panel cannot be scored into M, which reads fiscal and administrative strain."
  },
  "legibility": {
   "headline": "3.3%",
-  "unit": "2 of 60 coded as deliberate attack",
+  "record_n": 61,
+  "unit": "2 of 61 coded as deliberate attack",
   "attacks": [
    {
     "date": "2026-03-01",
     "provider": "AWS",
     "scope": "me-central-1 UAE",
     "note": "Drone strikes; some AZ data unrecoverable",
-    "still_down_days": 264,
-    "still_down_label": "8 mo 19 d",
+    "still_down_days": 271,
+    "still_down_label": "8 mo 26 d",
     "still_down_months": 8,
-    "still_down_rem": 19,
+    "still_down_rem": 26,
     "when": "1 March 2026",
     "where": "AWS data centre region, United Arab Emirates",
     "what": "Drone strikes damaged the facility; some data in one availability zone was unrecoverable.",
-    "status": "still down, 8 mo 19 d"
+    "status": "still down, 8 mo 26 d"
    },
    {
     "date": "2026-03-02",
     "provider": "AWS",
     "scope": "me-south-1 Bahrain",
     "note": "Drone strike; region declared unavailable",
-    "still_down_days": 263,
-    "still_down_label": "8 mo 18 d",
+    "still_down_days": 270,
+    "still_down_label": "8 mo 25 d",
     "still_down_months": 8,
-    "still_down_rem": 18,
+    "still_down_rem": 25,
     "when": "2 March 2026",
     "where": "AWS data centre region, Bahrain",
     "what": "Drone strike damaged the facility; the operator declared the region unavailable.",
-    "status": "still down, 8 mo 18 d"
+    "status": "still down, 8 mo 25 d"
    }
   ],
   "named_actor": 0,
   "floor_banner": "This is a floor, not a rate. The series is coded from vendor post-mortems, and a post-mortem cannot see inside a 60-day dwell window. The two March events are visible only because they were kinetic. A quiet intrusion that sat two months and was later called 'equipment failure' would be coded here as power.",
   "counted": "Both are counted because both clear the same bar: physical damage to the facility, confirmed by the operator, and downtime that has not ended. Neither is an estimate, an inferred intrusion or a vendor's unexplained failure \u2014 the downtime is real and still running.",
-  "rest_note": "The other 58 events are vendor-stated equipment, power, cooling, config or network failures, each with a stated cause and a restoration time. They are real outages too. What separates them is that no operator has attributed them to an attacker."
+  "rest_note": "The other 59 events are vendor-stated equipment, power, cooling, config or network failures, each with a stated cause and a restoration time. They are real outages too. What separates them is that no operator has attributed them to an attacker."
  },
  "breadth": {
   "nov_window": [
@@ -227,21 +228,22 @@
    },
    {
     "year": "2026",
-    "n": 1,
+    "n": 2,
     "events": [
-     "2026-11-12 Microsoft"
+     "2026-11-12 Microsoft",
+     "2026-11-13 FAA (FTI)"
     ]
    }
   ],
-  "banner": "1\u201317 Nov: 1 provider-level event in 2026, 1 in 2024, 0 in 2025. A cluster of customer-facing reads \u2014 banks, airlines, a classified network \u2014 is not a cluster of causes until independent upstreams are shown. Symptom count is not cause count."
+  "banner": "1\u201317 Nov: 2 provider-level event in 2026, 1 in 2024, 0 in 2025. A cluster of customer-facing reads \u2014 banks, airlines, a classified network \u2014 is not a cluster of causes until independent upstreams are shown. Symptom count is not cause count."
  },
  "guards": {
   "obs.fresh": {
    "ok": false,
-   "age_days": 8,
-   "latest": "2026-11-12",
-   "median_gap_2026": 13,
-   "text": "latest observation 2026-11-12, 8 days old. The ledger codes provider-level events only, at roughly 19 a year, so a quiet fortnight is normal: the 2026 median gap between events is 13 days. Past 7 days the panel prints STALE as a disclosure; it does not stop a push."
+   "age_days": 14,
+   "latest": "2026-11-13",
+   "median_gap_2026": 12,
+   "text": "latest observation 2026-11-13, 14 days old. The ledger codes provider-level events only, at roughly 20 a year, so a quiet fortnight is normal: the 2026 median gap between events is 12 days. Past 7 days the panel prints STALE as a disclosure; it does not stop a push."
   },
   "obs.breadth": {
    "ok": true,

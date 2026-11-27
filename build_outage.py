@@ -131,6 +131,10 @@ newest_obs = last["date"]
 age = (TODAY - datetime.date.fromisoformat(newest_obs)).days
 
 by_year = {f["year"]: f["n"] for f in freq}
+_d26 = sorted(datetime.date.fromisoformat(r["date"]) for r in rows if r["date"].startswith("2026"))
+GAP26 = int(statistics.median([(b - a).days for a, b in zip(_d26, _d26[1:])]))
+max26 = next(s["max"] for s in sev if s["year"] == "2026")
+max25 = next(s["max"] for s in sev if s["year"] == "2025")
 y24, y25, y26 = by_year.get("2024", 0), by_year.get("2025", 0), by_year.get("2026", 0)
 
 out = {
@@ -139,10 +143,12 @@ out = {
     "n_events": len(rows),
     "window": f"{min(r['date'] for r in rows)} → {newest_obs}",
     "reading": (
-        "Frequency is up, severity is down. 19 provider-level events in 2026 against 8 in 2024 "
-        "— roughly 2.4× in two years, the worst year in the record — while the median duration has "
-        "fallen every year since 2023 and the tail is flat: 2026's longest closed event is 90 seconds "
-        "off 2025's. More often, shorter. That is dependency concentration with better failover, not "
+        f"Frequency is up, severity is down. {y26} provider-level events in 2026 against {y24} in 2024 "
+        f"— roughly {round(y26 / y24, 1)}× in two years"
+        + (", the worst year in the record —" if y26 == max(f['n'] for f in freq) else " —")
+        + f" while the median duration has fallen every year since 2023 and the tail is flat: "
+        f"2026's longest closed event is {round(abs(max26 - max25) * 3600)} seconds off 2025's. "
+        "More often, shorter. That is dependency concentration with better failover, not "
         "a degrading substrate. A worsening substrate widens the tail; this does not. That is why the "
         "panel carries no dial."
     ),
@@ -176,6 +182,7 @@ out = {
     },
     "legibility": {
         "headline": f"{100 * len(attacks) / len(rows):.1f}%",
+        "record_n": len(rows),
         "unit": f"{len(attacks)} of {len(rows)} coded as deliberate attack",
         "attacks": [{"date": a["date"], "provider": a["provider"], "scope": a["scope"],
                      "note": a["note"], "still_down_days": a.get("still_down_days"), "still_down_label": a.get("still_down_label"), "still_down_months": a.get("still_down_months"), "still_down_rem": a.get("still_down_rem"),
@@ -195,7 +202,7 @@ out = {
                     "confirmed by the operator, and downtime that has not ended. Neither is an estimate, "
                     "an inferred intrusion or a vendor's unexplained failure — the downtime is real and "
                     "still running."),
-        "rest_note": ("The other 58 events are vendor-stated equipment, power, cooling, config or network "
+        "rest_note": (f"The other {len(rows)-len(attacks)} events are vendor-stated equipment, power, cooling, config or network "
                       "failures, each with a stated cause and a restoration time. They are real outages too. "
                       "What separates them is that no operator has attributed them to an attacker."),
     },
@@ -210,10 +217,10 @@ out = {
     },
     "guards": {
         "obs.fresh": {"ok": age <= 7, "age_days": age, "latest": newest_obs,
-                      "median_gap_2026": 13,
+                      "median_gap_2026": GAP26,
                       "text": f"latest observation {newest_obs}, {age} day{'s' if age != 1 else ''} old. "
-                              "The ledger codes provider-level events only, at roughly 19 a year, so a quiet "
-                              "fortnight is normal: the 2026 median gap between events is 13 days. "
+                              f"The ledger codes provider-level events only, at roughly {y26} a year, so a quiet "
+                              f"fortnight is normal: the 2026 median gap between events is {GAP26} days. "
                               "Past 7 days the panel prints STALE as a disclosure; it does not stop a push."},
         "obs.breadth": {"ok": True,
                         "text": ("window count in the panel equals the coded ledger count; forces the "

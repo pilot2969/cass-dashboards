@@ -331,7 +331,7 @@ async function main(){
       const newest=LED.map(r=>r.date).sort().pop();
       const age=daysBetween(newest,today);
       age<=7?pass('obs.fresh',`latest observation ${newest}, ${age}d`)
-            :warn('obs.fresh',`latest observation ${newest} — ${age}d. Panel prints STALE; advisory only (2026 median gap 13d).`);
+            :warn('obs.fresh',`latest observation ${newest} — ${age}d. Panel prints STALE; advisory only (2026 median gap ${OP?.guards?.['obs.fresh']?.median_gap_2026 ?? '—'}d).`);
 
       // duration precision: a partial month is not a month. The panel used to print
       // round(days/30), which turned 261d and 260d both into "9 months" — overstating
